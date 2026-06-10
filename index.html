@@ -196,7 +196,44 @@
   body.light #pop .ptag.dn{background:#fce7eb;color:#c0334a}
   body.light #pop .pgrp{border-color:#d3ddef}
   body.light #pop .pb::-webkit-scrollbar-thumb{background:#c8d2e2}
+
+  /* 气泡里的「看K线/技术研判」按钮 */
+  .pbtn{display:block;width:100%;margin:2px 0 0;padding:8px;border:0;border-radius:8px;background:var(--accent);color:#fff;font-size:12.5px;font-weight:600;cursor:pointer}
+  .pbtn:hover{filter:brightness(1.08)}
+
+  /* K线/技术研判 弹窗 */
+  #chart{position:fixed;inset:0;z-index:80;background:rgba(4,7,14,.66);display:none;align-items:center;justify-content:center;padding:18px}
+  #chart.show{display:flex}
+  .ch-box{width:min(860px,96vw);max-height:92vh;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 24px 70px rgba(0,0,0,.6)}
+  .ch-h{display:flex;align-items:center;gap:10px;padding:13px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--card);z-index:1}
+  .ch-h .ct{font-weight:800;font-size:17px}
+  .ch-h .cn{color:var(--mut);font-size:12px}
+  .ch-h .cm{font-weight:800;font-size:14px;padding:2px 10px;border-radius:999px}
+  .ch-h .cm.up{background:rgba(22,199,132,.18);color:var(--up)} .ch-h .cm.dn{background:rgba(234,57,67,.18);color:var(--dn)} .ch-h .cm.flat{background:#2a3550;color:var(--mut)}
+  .ch-h .cx{margin-left:auto;cursor:pointer;color:var(--mut);font-size:20px;line-height:1}
+  .ch-h .cx:hover{color:var(--txt)}
+  .ch-tabs{display:flex;gap:7px;padding:11px 16px 4px}
+  .ch-tab{padding:5px 14px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--mut);font-size:12.5px;font-weight:600;cursor:pointer}
+  .ch-tab.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .ch-c{height:340px;margin:6px 16px;position:relative}
+  .ch-load{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--mut);font-size:13px}
+  .ta{padding:6px 16px 18px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  @media(max-width:680px){.ta{grid-template-columns:1fr} .ch-c{height:260px}}
+  .ta-card{background:rgba(255,255,255,.025);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+  body.light .ta-card{background:rgba(20,40,90,.03)}
+  .ta-card h4{margin:0 0 6px;font-size:12px;color:var(--mut);font-weight:600;letter-spacing:.03em}
+  .ta-card .big{font-size:15px;font-weight:800}
+  .ta-card p{margin:4px 0 0;font-size:12px;line-height:1.5;color:var(--txt)}
+  .ta-row{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;margin:3px 0}
+  .ta-row b{font-weight:700}
+  .ta-sig{grid-column:1/-1;border-width:1px;border-style:solid;border-radius:10px;padding:11px 13px}
+  .ta-sig.up{background:rgba(22,199,132,.1);border-color:rgba(22,199,132,.5)}
+  .ta-sig.dn{background:rgba(234,57,67,.1);border-color:rgba(234,57,67,.5)}
+  .ta-sig.nu{background:rgba(91,141,239,.1);border-color:rgba(91,141,239,.5)}
+  .ta-sig .lab{font-weight:800;font-size:15px}
+  .ta-note{grid-column:1/-1;color:var(--mut);font-size:11px;line-height:1.55}
 </style>
+<script src="https://unpkg.com/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js"></script>
 </head>
 <body>
 <header><div class="bar">
@@ -252,6 +289,7 @@
 </main>
 
 <div id="pop"></div>
+<div id="chart"></div>
 
 <script>
 const API="https://api.hyperliquid.xyz/info";
@@ -489,7 +527,8 @@ function showStockNews(sym,ev){
     body=`<div class="pnone">今日暂无 <b>${sym}</b> 的单独催化新闻。<br>可参考「主导叙事 / 指数解读 / 宏观主线」了解大盘与板块背景，或点「刷新新闻」获取最新。</div>`;
   }
   pop.className=(dir>0?"up":(dir<0?"dn":""));
-  pop.innerHTML=`<div class="ph"><span class="pt">${sym}</span><span class="pn">${nm}</span>${movePill}${h12}<span class="px" onclick="hidePop()">✕</span></div><div class="pb">${body}</div>`;
+  const chartBtn=`<button class="pbtn" onclick="openChart('${sym}')">📊 看K线 + 技术研判（1h/4h/1日）</button>`;
+  pop.innerHTML=`<div class="ph"><span class="pt">${sym}</span><span class="pn">${nm}</span>${movePill}${h12}<span class="px" onclick="hidePop()">✕</span></div><div class="pb">${chartBtn}${body}</div>`;
   pop.classList.add("show");
   const cx=(ev&&ev.clientX)||80, cy=(ev&&ev.clientY)||80;
   pop.style.left="0px"; pop.style.top="0px";
@@ -511,10 +550,88 @@ function collapseNewsIfMobile(){
   }
 }
 
+/* ===== K线图 + 技术研判（浏览器实时计算指标，非投资建议）===== */
+let CH={chart:null,sym:null,iv:"1h"};
+const IVMAP={"1h":{n:200,sec:3600},"4h":{n:200,sec:14400},"1d":{n:180,sec:86400}};
+async function getCandles(coin,iv){
+  const m=IVMAP[iv], end=Date.now(), start=end-m.n*m.sec*1000;
+  const c=await post({type:"candleSnapshot",req:{coin:"xyz:"+coin,interval:iv,startTime:start,endTime:end}});
+  if(!c||!c.length) return [];
+  return c.map(k=>({time:Math.floor(k.t/1000),open:+k.o,high:+k.h,low:+k.l,close:+k.c}));
+}
+function smaArr(a,p){ const o=Array(a.length).fill(null); let s=0; for(let i=0;i<a.length;i++){ s+=a[i]; if(i>=p)s-=a[i-p]; if(i>=p-1)o[i]=s/p; } return o; }
+function emaArr(a,p){ const o=Array(a.length).fill(null),k=2/(p+1); let prev=null; for(let i=0;i<a.length;i++){ prev=prev==null?a[i]:a[i]*k+prev*(1-k); o[i]=prev; } return o; }
+function rsiV(c,p){ p=p||14; if(c.length<p+1)return null; let g=0,l=0; for(let i=1;i<=p;i++){const d=c[i]-c[i-1]; if(d>0)g+=d; else l-=d;} g/=p; l/=p; for(let i=p+1;i<c.length;i++){const d=c[i]-c[i-1]; g=(g*(p-1)+(d>0?d:0))/p; l=(l*(p-1)+(d<0?-d:0))/p;} if(l===0)return 100; return 100-100/(1+g/l); }
+function macdV(c){ const e12=emaArr(c,12),e26=emaArr(c,26),line=c.map((_,i)=>(e12[i]!=null&&e26[i]!=null)?e12[i]-e26[i]:0),sig=emaArr(line,9),hist=line.map((x,i)=>x-sig[i]); return {hist:hist[hist.length-1],prev:hist[hist.length-2]}; }
+function pivots(d,k){ k=k||3; const hi=[],lo=[]; for(let i=k;i<d.length-k;i++){ let ph=1,pl=1; for(let j=i-k;j<=i+k;j++){ if(d[j].high>d[i].high)ph=0; if(d[j].low<d[i].low)pl=0; } if(ph)hi.push(d[i].high); if(pl)lo.push(d[i].low); } return {hi,lo}; }
+function fmtP(v){ return (v>=100||v<=-100)?v.toFixed(2):(+v).toPrecision(5); }
+function analyzeTA(d){
+  const c=d.map(x=>x.close), last=c[c.length-1];
+  const s20=smaArr(c,20), s50=smaArr(c,50), m20=s20[s20.length-1], m50=s50[s50.length-1];
+  const {hi,lo}=pivots(d,3);
+  let sup=null,res=null;
+  lo.forEach(v=>{ if(v<last&&(sup==null||v>sup))sup=v; });
+  hi.forEach(v=>{ if(v>last&&(res==null||v<res))res=v; });
+  const w=d.slice(-40); if(sup==null)sup=Math.min(...w.map(x=>x.low)); if(res==null)res=Math.max(...w.map(x=>x.high));
+  const lh=hi.slice(-2), ll=lo.slice(-2); let trend="区间震荡 / 趋势转换",tdir=0;
+  if(lh.length===2&&ll.length===2){ if(lh[1]>lh[0]&&ll[1]>ll[0]){trend="上升趋势（高点抬高·低点抬高）";tdir=1;} else if(lh[1]<lh[0]&&ll[1]<ll[0]){trend="下降趋势（高点降低·低点降低）";tdir=-1;} }
+  const r=rsiV(c), mc=macdV(c);
+  const tide=(m20!=null&&m50!=null)?(m20>m50?1:(m20<m50?-1:0)):tdir;
+  const wave=r==null?0:(r<35?1:(r>65?-1:0));
+  let score=tdir + (m20!=null?(last>m20?0.5:-0.5):0);
+  if(r!=null){ if(r<30)score+=0.6; else if(r>70)score-=0.6; }
+  if(mc.hist!=null){ score+=(mc.hist>0?0.5:-0.5); if(mc.prev!=null)score+=(mc.hist>mc.prev?0.2:-0.2); }
+  return {last,m20,m50,sup,res,trend,tdir,rsi:r,hist:mc.hist,histUp:mc.hist!=null&&mc.prev!=null&&mc.hist>mc.prev,tide,wave,score};
+}
+function newsSentiment(sym){ const it=newsForSymbol(sym); let up=0,dn=0; it.forEach(n=>{ n.up?up++:dn++; }); return {up,dn,n:it.length}; }
+async function openChart(sym,iv){
+  hidePop();
+  const box=document.getElementById("chart"); CH.sym=sym; CH.iv=iv||CH.iv||"1h";
+  const row=[...DATA.ST,...DATA.CM,...DATA.IX].find(r=>r.tk===sym);
+  const nm=(row&&row.nm)||NAME[sym]||sym, d24=row?row.chg24:null, mv=row?`${d24>0?"▲":(d24<0?"▼":"")} ${fmtPct(d24)}`:"";
+  box.classList.add("show");
+  box.innerHTML=`<div class="ch-box"><div class="ch-h"><span class="ct">${sym}</span><span class="cn">${nm}</span><span class="cm ${cls(d24)}">${mv}</span><span class="cx" onclick="closeChart()">✕</span></div>`+
+    `<div class="ch-tabs">${["1h","4h","1d"].map(x=>`<button class="ch-tab ${x===CH.iv?"on":""}" onclick="openChart('${sym}','${x}')">${x==="1d"?"1日":x}</button>`).join("")}</div>`+
+    `<div class="ch-c" id="chc"><div class="ch-load">加载K线…</div></div><div class="ta" id="cta"></div></div>`;
+  let d=[]; try{ d=await getCandles(sym,CH.iv); }catch(e){}
+  const cc=document.getElementById("chc");
+  if(!window.LightweightCharts){ cc.innerHTML='<div class="ch-load">图表库加载失败（需联网加载 CDN）</div>'; return; }
+  if(d.length<5){ cc.innerHTML='<div class="ch-load">该周期暂无足够K线数据</div>'; return; }
+  cc.innerHTML=""; const light=document.body.classList.contains("light");
+  const chart=LightweightCharts.createChart(cc,{width:cc.clientWidth,height:cc.clientHeight,layout:{background:{color:"transparent"},textColor:light?"#5b6a82":"#8a94a6"},grid:{vertLines:{color:light?"#eef1f7":"#1b2230"},horzLines:{color:light?"#eef1f7":"#1b2230"}},rightPriceScale:{borderColor:light?"#dde3ee":"#222a3a"},timeScale:{borderColor:light?"#dde3ee":"#222a3a",timeVisible:CH.iv!=="1d"},crosshair:{mode:0}});
+  const csr=chart.addCandlestickSeries({upColor:"#16c784",downColor:"#ea3943",borderVisible:false,wickUpColor:"#16c784",wickDownColor:"#ea3943"});
+  csr.setData(d.map(x=>({time:x.time,open:x.open,high:x.high,low:x.low,close:x.close})));
+  const c=d.map(x=>x.close), s20=smaArr(c,20);
+  chart.addLineSeries({color:"#e3a008",lineWidth:1}).setData(d.map((x,i)=>s20[i]!=null?{time:x.time,value:s20[i]}:null).filter(Boolean));
+  const A=analyzeTA(d);
+  csr.createPriceLine({price:A.sup,color:"#16c784",lineWidth:1,lineStyle:2,axisLabelVisible:true,title:"支撑"});
+  csr.createPriceLine({price:A.res,color:"#ea3943",lineWidth:1,lineStyle:2,axisLabelVisible:true,title:"压力"});
+  chart.timeScale().fitContent(); CH.chart=chart;
+  const sent=newsSentiment(sym), sigDir=A.score>0.8?1:(A.score<-0.8?-1:0);
+  const sigCls=sigDir>0?"up":(sigDir<0?"dn":"nu"), sigLab=sigDir>0?"技术面偏多":(sigDir<0?"技术面偏空":"技术面中性");
+  const rsiTxt=A.rsi==null?"—":A.rsi.toFixed(0)+(A.rsi<30?"（超卖）":A.rsi>70?"（超买）":"（中性）");
+  const tideT=A.tide>0?"多头（SMA20>SMA50）":A.tide<0?"空头（SMA20<SMA50）":"均线纠缠";
+  const waveT=A.wave>0?"回调至超卖区（偏买）":A.wave<0?"冲高至超买区（偏卖）":"中性";
+  const newsTxt=sent.n?`消息面 ${sent.up} 利多 / ${sent.dn} 利空`:"暂无该标的单独消息";
+  document.getElementById("cta").innerHTML=
+    `<div class="ta-card"><h4>道氏趋势</h4><div class="big" style="color:${A.tdir>0?'var(--up)':A.tdir<0?'var(--dn)':'var(--mut)'}">${A.trend}</div><p>${A.m20!=null?(A.last>A.m20?"价在 SMA20 上方":"价在 SMA20 下方"):""}；SMA20 ${A.m20!=null?fmtP(A.m20):"—"} / SMA50 ${A.m50!=null?fmtP(A.m50):"—"}</p></div>`+
+    `<div class="ta-card"><h4>支撑 / 压力（摆动高低点）</h4><div class="ta-row"><span>最近压力</span><b style="color:var(--dn)">${fmtP(A.res)}</b></div><div class="ta-row"><span>现价</span><b>${fmtP(A.last)}</b></div><div class="ta-row"><span>最近支撑</span><b style="color:var(--up)">${fmtP(A.sup)}</b></div></div>`+
+    `<div class="ta-card"><h4>动能 RSI / MACD</h4><p>RSI(14)：<b>${rsiTxt}</b><br>MACD 柱：<b style="color:${A.hist>0?'var(--up)':'var(--dn)'}">${A.hist==null?"—":(A.hist>0?"红柱(多)":"绿柱(空)")}${A.hist!=null?(A.histUp?" ↑动能增":" ↓动能减"):""}</b></p></div>`+
+    `<div class="ta-card"><h4>三重滤网（Elder）</h4><p>① 大势：<b>${tideT}</b><br>② 摆动：<b>${waveT}</b></p></div>`+
+    `<div class="ta-sig ${sigCls}"><span class="lab">综合研判：${sigLab}</span> <span style="color:var(--mut);font-size:12px">（技术评分 ${A.score.toFixed(1)}；${newsTxt}）</span>`+
+    `<p style="margin:6px 0 0;font-size:12px;color:var(--txt)">${sigDir>0?`价站上 SMA20、${A.trend.indexOf("上升")>=0?"道氏多头结构":"结构待确认"}；回踩 <b>${fmtP(A.sup)}</b> 不破可视支撑，上方压力 <b>${fmtP(A.res)}</b>。`:sigDir<0?`价弱于均线、${A.trend.indexOf("下降")>=0?"道氏空头结构":"结构走弱"}；反弹至 <b>${fmtP(A.res)}</b> 受压，跌破 <b>${fmtP(A.sup)}</b> 则加速。`:`多空均衡，于 <b>${fmtP(A.sup)}</b>–<b>${fmtP(A.res)}</b> 区间震荡，等方向选择（留意 CPI 等事件）。`}</p></div>`+
+    `<div class="ta-note">技术指标由你的浏览器实时计算（道氏结构 / 摆动高低点 / RSI(14) / MACD / 三重滤网），<b>仅供参考，非投资建议</b>；消息面取自每小时更新的新闻。真正的「实时联网 AI 检索 + 自然语言研判」需后端，静态页无法每次点击触发。</div>`;
+}
+function closeChart(){ const b=document.getElementById("chart"); b.classList.remove("show"); if(CH.chart){ try{CH.chart.remove();}catch(e){} CH.chart=null; } }
+window.addEventListener("resize",()=>{ if(CH.chart){ const cc=document.getElementById("chc"); if(cc) CH.chart.applyOptions({width:cc.clientWidth,height:cc.clientHeight}); } });
+document.getElementById("chart").addEventListener("click",e=>{ if(e.target.id==="chart") closeChart(); });
+document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeChart(); });
+
 /* 拉取最新新闻 JSON（定时 agent 维护）；失败则保留内置默认新闻（如本地 file:// 直接打开） */
 const NEWS_MS=30*60*1000;
 async function loadNews(){
   const b=document.getElementById("newsBtn"); if(b){b.disabled=true; b.textContent="刷新中…";}
+  let ok=false;
   try{
     const r=await fetch("tradexyz-news.json?t="+Date.now(),{cache:"no-store"});
     if(r.ok){
@@ -526,10 +643,11 @@ async function loadNews(){
       if(Array.isArray(j.NEWS_TREND))  NEWS_TREND =j.NEWS_TREND;
       if(j.asOf){ const e=document.getElementById("newsAsOf"); if(e) e.textContent="截至 "+j.asOf; }
       renderWatch(); renderNews("newsIndex",INDEX_NOTES); renderNews("newsToday",NEWS_TODAY); renderNews("newsTrend",NEWS_TREND);
-      const nu=document.getElementById("newsUpdated"); if(nu) nu.textContent=new Date().toLocaleString("zh-CN");
+      const nu=document.getElementById("newsUpdated"); if(nu){ nu.textContent=new Date().toLocaleString("zh-CN")+(j.asOf?` (${j.asOf})`:""); nu.style.color="var(--up)"; setTimeout(()=>nu.style.color="",1500); }
+      ok=true;
     }
   }catch(e){ /* 离线/本地文件模式：保留内置默认新闻 */ }
-  finally{ if(b){b.disabled=false; b.textContent="刷新新闻";} }
+  finally{ if(b){ b.disabled=false; b.textContent=ok?"✓ 已更新":"刷新失败"; setTimeout(()=>{b.textContent="刷新新闻";},1300); } }
 }
 
 /* ===== 日间 / 夜间模式 ===== */
