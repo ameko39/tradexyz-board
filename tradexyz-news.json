@@ -6,51 +6,51 @@
     {"st":"watch","lb":"SpaceX IPO (6/12 周五)","dt":"Nasdaq 上市,$135/股、估值 $1.77 万亿(史上最大);Morningstar 称高估~48%"},
     {"st":"watch","lb":"FOMC 议息 (6/17)","dt":"市场押注年底前至少加息一次,CPI/PPI 将塑造点阵图预期"},
     {"st":"done","lb":"5月非农 (6/5)","dt":"172K 翻倍、失业率 4.3%、10年期升至 4.54% → 加息担忧,本轮波动总根源"},
-    {"st":"done","lb":"6/8–6/9 芯片/内存暴涨","dt":"NVIDIA×SK海力士 HBM4 合作引爆内存链(SKHX/MU/MRVL +6~14%);<b>今日 6/10 高位回吐</b>"},
-    {"st":"watch","lb":"中东局势","dt":"地缘反复影响油价,今日油价回落(CL -2.2%、BRENT -1.6%)"}
+    {"st":"done","lb":"6/8–6/9 芯片/内存暴涨","dt":"NVIDIA×SK海力士 HBM4 合作引爆内存链(SKHX/MU/MRVL +6~14%);<b>今日 6/10 全数回吐、韩国链也补跌</b>"},
+    {"st":"watch","lb":"中东局势","dt":"地缘反复影响油价,今日油价继续回落(CL -2.0%、BRENT -1.7%)"}
   ],
   "WATCH_NARR": [
-    {"d":"dn","t":"CPI 前全面去险","x":"<b>今晚 CPI(20:30北京)前砍仓避险</b> —— 个股几乎全红,芯片/AI/加密/贵金属同步下杀;只有少数公司利好个股逆势(DKNG/HIMS/WDC)"},
-    {"d":"dn","t":"芯片·高位回吐(买预期卖事实)","x":"昨日 HBM 大涨后剧烈反转:<b>MRVL -10.5%、ARM -8.5%、LITE -8.8%、CBRS -7.5%、AMD -5.5%、MU -5.3%、INTC -4.2%</b>;两日暴涨后获利了结 + CPI 风险"},
-    {"d":"dn","t":"贵金属重挫","x":"加息预期/实际利率上行 + 强美元 → <b>白银 -5.5%、铂金 -4.8%、黄金 -3.6%</b>;此前的低位反弹被打回(对应 dex GOLD/SILVER/PLATINUM)"},
-    {"d":"up","t":"DKNG 逆势大涨","x":"<b>DKNG +12.6%</b>:Predictions 预测市场月成交量 +24%($13亿)、总成交 +34%($31亿);TD Cowen Buy $30、UBS 上调至 $49;世界杯+NBA 总决赛引流"},
-    {"d":"dn","t":"加密走弱","x":"风险偏好收缩 → <b>MSTR -7.8%、COIN -4%、CRCL -3%、HOOD -2.5%</b>;加密股随大盘去杠杆回落"},
-    {"d":"dn","t":"成长/科技普跌","x":"高估值成长股领跌:<b>NOW -7.5%、RKLB -6%、CRWV -5.8%、PLTR -3.8%、TSLA -3.4%、ORCL -3.2%</b>;利率敏感板块承压"},
-    {"d":"nu","t":"美联储加息预期(主因)","x":"非农强劲 + 油价波动 → 市场押注年底前加息;<b>今晚 CPI</b> 是关键裁决,偏热则继续杀估值,偏冷或缓和反弹"},
-    {"d":"dn","t":"油价回落","x":"<b>CL -2.2%、BRENT -1.6%</b>(WTI ~$88);地缘溢价回吐,但能源股(XLE -0.5%)相对抗跌"},
-    {"d":"nu","t":"SpaceX IPO 临近","x":"6/12 上市,$135/股、$1.77 万亿(史上最大);Morningstar 称高估~48%,临近上市抽水航天板块情绪(RKLB -6%)"}
+    {"d":"dn","t":"CPI 前全面去险(加剧)","x":"<b>今晚 CPI(20:30北京)前砍仓避险升级</b> —— 个股几乎全红、跌幅扩大;芯片/AI/加密/贵金属同步下杀,仅少数公司利好个股逆势(DKNG/HIMS/BX/WDC)"},
+    {"d":"dn","t":"芯片·高位回吐(买预期卖事实)","x":"昨日 HBM 大涨后剧烈反转、今日跌幅扩大:<b>MRVL -11.2%、ARM -10.3%、LITE -9.7%、CBRS -8.3%、MU -6.9%、INTC -6.3%、AMD -5.7%</b>;两日暴涨后集中获利了结 + CPI 风险"},
+    {"d":"dn","t":"韩国/内存链也补跌","x":"<b>昨日的避风港今天也倒了</b>:SKHX -2.3%、三星 SMSN -3.4%、DRAM -4%,韩国 KR200 -2.0%、EWY -2.2%;HBM 拥挤交易在 CPI 前全面松动"},
+    {"d":"dn","t":"贵金属重挫","x":"加息预期/实际利率上行 + 强美元 → <b>白银 -5.6%、铂金 -4.7%、黄金 -3.4%</b>(金价 ~$4,186);无息资产承压(对应 dex GOLD/SILVER/PLATINUM)"},
+    {"d":"up","t":"DKNG 逆势大涨","x":"<b>DKNG +12.2%</b>:Predictions 预测市场月成交量 +24%($13亿)、总成交 +34%($31亿);TD Cowen Buy $30、UBS 上调至 $49;世界杯+NBA 总决赛引流,与大盘脱钩"},
+    {"d":"dn","t":"加密走弱","x":"风险偏好收缩 → <b>MSTR -8.4%、COIN -4.1%、CRCL -3.3%、HOOD -2.9%</b>;加密股随大盘去杠杆回落"},
+    {"d":"dn","t":"成长/科技普跌","x":"高估值成长股领跌:<b>NOW -7.8%、RKLB -6.9%、CRWV -6.8%、DELL -7.1%、PLTR -3.9%、TSLA -3.8%</b>;利率敏感板块承压"},
+    {"d":"nu","t":"美联储加息预期(主因)","x":"非农强劲 + 油价波动 → 市场押注年底前加息;<b>今晚 CPI</b> 是关键裁决,偏热则继续杀估值,偏冷或缓和才有反弹"},
+    {"d":"dn","t":"油价继续回落","x":"<b>CL -2.0%、BRENT -1.7%</b>(WTI ~$87.5);地缘溢价回吐,能源股(XLE -1.1%)相对抗跌"}
   ],
   "INDEX_NOTES": [
-    {"t":"标普500 SP500 -0.7%","up":0,"time":"6/10","x":"CPI 前避险、芯片与成长股领跌拖累;<b>今晚 CPI(8:30ET)</b> 是方向裁决,偏热则继续下杀。防御/能源相对抗跌。","s":"Schwab / Watcher.Guru","u":"https://watcher.guru/news/chip-stocks-halt-rally-before-cpi-marvell-mrvl-micron-mu"},
-    {"t":"XYZ100 -1.7%","up":0,"time":"6/10","x":"<b>注意:XYZ100 是 tradexyz 自有「百强」指数(科技/AI 权重高),不是纳斯达克100。</b>今日随半导体高位回吐领跌,跌幅大于标普;反映 AI/芯片拥挤交易的获利了结。","s":"Watcher.Guru","u":"https://watcher.guru/news/chip-stocks-halt-rally-before-cpi-marvell-mrvl-micron-mu"},
-    {"t":"韩国 KR200 +0.7% / EWY -0.3%","up":1,"time":"6/10","x":"韩国相对抗跌:此前 NVIDIA×SK海力士 HBM4 合作的结构性利好仍在托底;但 EWY(美元计)受美股芯片回吐拖累小幅走弱。","s":"CNBC","u":"https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
-    {"t":"台湾 EWT -1.1%","up":0,"time":"6/10","x":"台积电产业链随费城半导体回吐走弱;台股科技权重高,跟随美股芯片获利了结。","s":"CNBC","u":"https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
-    {"t":"日本 JP225 -0.2% / EWJ -0.5%","up":0,"time":"6/10","x":"日经基本走平、小幅回落;亚洲科技随美股芯片回吐承压,但跌幅有限。","s":"行情","u":""},
-    {"t":"能源 XLE -0.5%","up":0,"time":"6/10","x":"油价回落(CL -2.2%)小幅拖累能源股,但相对大盘抗跌 —— 资金在去险中偏好防御/现金流板块。","s":"行情","u":""},
-    {"t":"巴西 EWZ +0.8%","up":1,"time":"6/10","x":"逆势小涨:新兴市场资金轮动 + 巴西商品/金融权重在全球去险中相对受青睐,与昨日走势反复。","s":"行情/宏观","u":""},
-    {"t":"铀矿 URNM -3.4%","up":0,"time":"6/10","x":"高 beta 主题股随风险偏好收缩领跌;在 CPI 前去险中,题材/成长类 ETF 普遍跌幅居前。","s":"行情","u":""}
+    {"t":"标普500 SP500 -0.9%","up":0,"time":"6/10","x":"CPI 前避险、芯片与成长股领跌拖累,跌幅较盘初扩大;<b>今晚 CPI(8:30ET)</b> 是方向裁决,偏热则继续下杀。仅防御/能源相对抗跌。","s":"Schwab / Watcher.Guru","u":"https://watcher.guru/news/chip-stocks-halt-rally-before-cpi-marvell-mrvl-micron-mu"},
+    {"t":"XYZ100 -2.0%","up":0,"time":"6/10","x":"<b>注意:XYZ100 是 tradexyz 自有「百强」指数(科技/AI 权重高),不是纳斯达克100。</b>今日随半导体全面回吐领跌、跌幅大于标普;AI/芯片拥挤交易在 CPI 前集体获利了结。","s":"Watcher.Guru","u":"https://watcher.guru/news/chip-stocks-halt-rally-before-cpi-marvell-mrvl-micron-mu"},
+    {"t":"韩国 KR200 -2.0% / EWY -2.2%","up":0,"time":"6/10","x":"<b>由涨转跌</b>:昨日靠 NVIDIA×SK海力士 HBM4 合作抗跌的韩国今天也补跌 —— 海力士(-2.3%)、三星(-3.4%)随全球内存/芯片拥挤交易松动而回落。","s":"CNBC","u":"https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
+    {"t":"台湾 EWT -1.6%","up":0,"time":"6/10","x":"台积电产业链随费城半导体回吐走弱、跌幅扩大;台股科技权重高,跟随美股芯片获利了结。","s":"CNBC","u":"https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
+    {"t":"日本 JP225 -1.2% / EWJ -0.8%","up":0,"time":"6/10","x":"日经转跌:亚洲科技随美股芯片回吐承压,半导体设备股走弱拖累。","s":"行情","u":""},
+    {"t":"能源 XLE -1.1%","up":0,"time":"6/10","x":"油价回落(CL -2.0%)拖累能源股,但相对大盘抗跌 —— 去险中资金偏好现金流/防御板块。","s":"行情","u":""},
+    {"t":"巴西 EWZ +1.2%","up":1,"time":"6/10","x":"<b>少数逆势绿盘</b>:新兴市场资金轮动 + 巴西金融/商品权重在全球去险中相对受青睐,与美股科技走势背离。","s":"行情/宏观","u":""},
+    {"t":"铀矿 URNM -3.3%","up":0,"time":"6/10","x":"高 beta 主题股随风险偏好收缩领跌;CPI 前去险中题材/成长类 ETF 普遍跌幅居前。","s":"行情","u":""}
   ],
   "NEWS_TODAY": [
-    {"t":"DKNG +12.6%","up":1,"time":"6/10","x":"<b>DraftKings 逆势大涨</b>:Predictions 预测市场 5月年化成交量 <b>+24% 至 $13亿</b>、总成交 <b>+34% 至 $31亿</b>;TD Cowen 重申 Buy 目标 $30、UBS 上调至 $49;世界杯 + NBA 总决赛高参与度引流;BofA 看好博彩/预测/加密融合的结构性增长。公司层面利好,与大盘普跌脱钩。","s":"Benzinga / GuruFocus","u":"https://www.benzinga.com/trading-ideas/movers/26/06/53090414/why-draftkings-stock-is-surging-on-tuesday"},
-    {"t":"MRVL -10.5%","up":0,"time":"6/10","x":"<b>领跌</b>:昨日因被纳入标普500(6/22 生效)+ 芯片反弹一度大涨,今日<b>剧烈获利了结</b>;CPI 前资金从涨幅最大的拥挤芯片名集中撤出(『买预期卖事实』)。2026 累涨曾达 210%。","s":"TradingKey","u":"https://www.tradingkey.com/news/market-movers/261956409-market-movers-mrvl-20260609"},
-    {"t":"ARM -8.5% / LITE -8.8% / CBRS -7.5%","up":0,"time":"6/10","x":"<b>芯片高位回吐</b>:Arm、Lumentum、Cerebras 跟随板块从两日暴涨中大幅回落;无新增利空,纯属 CPI 前去险 + 拥挤交易获利了结。","s":"Watcher.Guru","u":"https://watcher.guru/news/chip-stocks-halt-rally-before-cpi-marvell-mrvl-micron-mu"},
-    {"t":"MU -5.3% / AMD -5.5% / INTC -4.2%","up":0,"time":"6/10","x":"<b>内存/算力回吐</b>:美光、AMD、英特尔同步走弱;内存超级周期结构未变(NVIDIA×SK海力士 HBM4 合作仍在),但短线在 CPI 前兑现前两日涨幅。","s":"CNBC","u":"https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
-    {"t":"SILVER -5.5% / GOLD -3.6% / PLATINUM -4.8%","up":0,"time":"6/10","x":"<b>贵金属重挫</b>:加息预期升温推高实际利率 + 强美元,无息资产承压;白银因工业+投机属性跌幅最大,黄金回落至 ~$4,182。(对应 dex GOLD/SILVER/PLATINUM)","s":"Trading Economics","u":"https://tradingeconomics.com/commodity/silver"},
-    {"t":"MSTR -7.8% / COIN -4.0%","up":0,"time":"6/10","x":"<b>加密股走弱</b>:风险偏好收缩、CPI 前去杠杆 → Strategy、Coinbase、Circle(-3%)、Robinhood(-2.5%)普跌;与股市 risk-off 同步。","s":"行情/轮动","u":""},
-    {"t":"NOW -7.5% / PLTR -3.8% / TSLA -3.4%","up":0,"time":"6/10","x":"<b>高估值成长普跌</b>:ServiceNow、Palantir、特斯拉、Oracle(-3.2%)等利率敏感成长股领跌 —— 加息预期下高估值最先被杀。","s":"行情/轮动","u":""},
-    {"t":"AAPL -3.0% / MSFT -2.1%","up":0,"time":"6/10","x":"<b>大票同跌</b>:苹果、微软等权重蓝筹在全面去险中跟跌,无个股负面催化,系大盘 beta + CPI 避险。","s":"行情","u":""},
-    {"t":"HIMS +5.6%","up":1,"time":"6/10","x":"<b>逆势走强</b>:Hims & Hers 作为消费医疗/远程健康成长股逆大盘上涨,资金在普跌中寻找独立逻辑的个股。","s":"行情","u":""},
-    {"t":"WDC +4.1% / BX +4.3%","up":1,"time":"6/10","x":"<b>少数逆势绿盘</b>:西部数据(存储,受内存周期支撑)、黑石(BX,另类资管)逆势走强,呈现资金从拥挤芯片向相对低位/防御标的轮动。","s":"行情/轮动","u":""},
-    {"t":"油价 CL -2.2% / BRENT -1.6%","up":0,"time":"6/10","x":"<b>油价回落</b>:WTI 跌至 ~$88、布伦特 ~$91;地缘溢价回吐;能源股(XLE -0.5%)相对抗跌。(对应 tradexyz CL/BRENTOIL)","s":"Trading Economics","u":"https://tradingeconomics.com/commodity/crude-oil"}
+    {"t":"DKNG +12.2%","up":1,"time":"6/10","x":"<b>DraftKings 逆势大涨</b>:Predictions 预测市场 5月年化成交量 <b>+24% 至 $13亿</b>、总成交 <b>+34% 至 $31亿</b>;TD Cowen 重申 Buy 目标 $30、UBS 上调至 $49;世界杯 + NBA 总决赛高参与度引流;BofA 看好博彩/预测/加密融合的结构性增长。公司层面利好,与大盘普跌脱钩。","s":"Benzinga / GuruFocus","u":"https://www.benzinga.com/trading-ideas/movers/26/06/53090414/why-draftkings-stock-is-surging-on-tuesday"},
+    {"t":"MRVL -11.2%","up":0,"time":"6/10","x":"<b>领跌、跌幅扩大</b>:昨日因被纳入标普500(6/22 生效)+ 芯片反弹大涨,今日<b>剧烈获利了结</b>;CPI 前资金从涨幅最大的拥挤芯片名集中撤出(『买预期卖事实』)。2026 累涨曾达 210%。","s":"TradingKey","u":"https://www.tradingkey.com/news/market-movers/261956409-market-movers-mrvl-20260609"},
+    {"t":"ARM -10.3% / LITE -9.7% / CBRS -8.3%","up":0,"time":"6/10","x":"<b>芯片高位回吐加剧</b>:Arm、Lumentum、Cerebras 跟随板块从两日暴涨中深度回落;无新增利空,纯属 CPI 前去险 + 拥挤交易获利了结。","s":"Watcher.Guru","u":"https://watcher.guru/news/chip-stocks-halt-rally-before-cpi-marvell-mrvl-micron-mu"},
+    {"t":"MU -6.9% / AMD -5.7% / INTC -6.3%","up":0,"time":"6/10","x":"<b>内存/算力回吐扩大</b>:美光、AMD、英特尔同步走弱;内存超级周期结构未变(NVIDIA×SK海力士 HBM4 合作仍在),但短线在 CPI 前兑现前两日涨幅。","s":"CNBC","u":"https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
+    {"t":"SKHX -2.3% / SMSN -3.4% / DRAM -4.0%","up":0,"time":"6/10","x":"<b>昨日避风港今日补跌</b>:SK海力士、三星、DRAM 现货指数由涨转跌 —— 此前靠 HBM4 合作抗跌的韩国内存链今天也加入回吐,反映拥挤交易在 CPI 前全面松动。","s":"CNBC","u":"https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
+    {"t":"SILVER -5.6% / GOLD -3.4% / PLATINUM -4.7%","up":0,"time":"6/10","x":"<b>贵金属重挫</b>:加息预期升温推高实际利率 + 强美元,无息资产承压;白银因工业+投机属性跌幅最大,黄金回落至 ~$4,186。(对应 dex GOLD/SILVER/PLATINUM)","s":"Trading Economics","u":"https://tradingeconomics.com/commodity/silver"},
+    {"t":"MSTR -8.4% / COIN -4.1%","up":0,"time":"6/10","x":"<b>加密股走弱</b>:风险偏好收缩、CPI 前去杠杆 → Strategy、Coinbase、Circle(-3.3%)、Robinhood(-2.9%)普跌;与股市 risk-off 同步。","s":"行情/轮动","u":""},
+    {"t":"NOW -7.8% / DELL -7.1% / PLTR -3.9%","up":0,"time":"6/10","x":"<b>高估值成长普跌</b>:ServiceNow、Dell、Palantir、特斯拉(-3.8%)、Oracle(-3.7%)等利率敏感成长股领跌 —— 加息预期下高估值最先被杀。","s":"行情/轮动","u":""},
+    {"t":"HYUNDAI -5.4% / RKLB -6.9%","up":0,"time":"6/10","x":"<b>高 beta 补跌</b>:现代汽车、Rocket Lab 等跟随风险偏好收缩深跌;RKLB 还受 6/12 SpaceX IPO 临近的板块抽水压制。","s":"行情/轮动","u":""},
+    {"t":"HIMS +4.8% / BX +4.5% / WDC +3.6%","up":1,"time":"6/10","x":"<b>少数逆势绿盘</b>:Hims&Hers(消费医疗)、黑石 BX(另类资管)、西部数据 WDC(存储,受内存周期支撑)逆大盘走强,资金从拥挤芯片向独立逻辑/相对防御标的轮动。","s":"行情/轮动","u":""},
+    {"t":"油价 CL -2.0% / BRENT -1.7%","up":0,"time":"6/10","x":"<b>油价继续回落</b>:WTI 跌至 ~$87.5、布伦特 ~$91;地缘溢价回吐;能源股(XLE -1.1%)相对抗跌。(对应 tradexyz CL/BRENTOIL)","s":"Trading Economics","u":"https://tradingeconomics.com/commodity/crude-oil"}
   ],
   "NEWS_TREND": [
     {"t":"美联储·加息预期 + 今晚 CPI","up":0,"time":"6/5→6/10","x":"<b>今天全市场的总驱动</b>:非农 172K 翻倍后市场押注年底前加息;<b>6/10 今晚 8:30ET CPI</b> 是关键裁决。偏热→坐实『更高更久』、继续杀高估值(芯片/成长/加密/贵金属首当其冲);偏冷或现反弹。","s":"Schwab","u":"https://www.schwab.com/learn/story/stock-market-update-open"},
-    {"t":"芯片·暴涨后回吐","up":0,"time":"6/8→6/10","x":"6/8–9 因 NVIDIA×SK海力士 HBM4 合作两日暴涨(MRVL/MU/ARM/CBRS +6~20%),<b>6/10 CPI 前剧烈获利了结</b>(MRVL -10.5%、ARM -8.5%)。结构面(内存超级周期)未变,属拥挤交易的短线兑现。","s":"Watcher.Guru / TradingKey","u":"https://watcher.guru/news/chip-stocks-halt-rally-before-cpi-marvell-mrvl-micron-mu"},
-    {"t":"内存超级周期(结构主线)","up":1,"time":"主线→2028","x":"NVIDIA×SK海力士 HBM4 多年合作、Vera Rubin 全量产点名三星/海力士/美光;DRAM 价 YoY +300%、缺货至 2028。今日回调不改长线逻辑,韩国(KR200 +0.7%)相对抗跌印证。","s":"CNBC","u":"https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
-    {"t":"贵金属 vs 实际利率","up":0,"time":"6/10","x":"加息预期推高实际利率 + 强美元 → 无息的金银铂同步重挫(白银 -5.5%、黄金 -3.6%)。贵金属成为『加息交易』的直接对立面,与成长股一起被杀。","s":"Trading Economics","u":"https://tradingeconomics.com/commodity/gold"},
+    {"t":"芯片·暴涨后全面回吐","up":0,"time":"6/8→6/10","x":"6/8–9 因 NVIDIA×SK海力士 HBM4 合作两日暴涨(MRVL/MU/ARM/CBRS +6~20%),<b>6/10 CPI 前剧烈获利了结、连昨日抗跌的韩国链也补跌</b>(MRVL -11.2%、ARM -10.3%、SKHX -2.3%)。结构面(内存超级周期)未变,属拥挤交易的短线兑现。","s":"Watcher.Guru / TradingKey","u":"https://watcher.guru/news/chip-stocks-halt-rally-before-cpi-marvell-mrvl-micron-mu"},
+    {"t":"内存超级周期(结构主线)","up":1,"time":"主线→2028","x":"NVIDIA×SK海力士 HBM4 多年合作、Vera Rubin 全量产点名三星/海力士/美光;DRAM 价 YoY +300%、缺货至 2028。今日的回调是拥挤交易兑现,不改长线供需逻辑。","s":"CNBC","u":"https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
+    {"t":"贵金属 vs 实际利率","up":0,"time":"6/10","x":"加息预期推高实际利率 + 强美元 → 无息的金银铂同步重挫(白银 -5.6%、黄金 -3.4%)。贵金属成为『加息交易』的直接对立面,与成长股一起被杀。","s":"Trading Economics","u":"https://tradingeconomics.com/commodity/gold"},
     {"t":"预测市场·结构性增长(DKNG)","up":1,"time":"6/10","x":"DraftKings Predictions 量月增 24%,博彩/预测市场/加密/金融边界模糊(BofA 观点)带来长期增量;World Cup/NBA 引流。逆大盘大涨,是少数有独立增长叙事的标的。","s":"GuruFocus / Benzinga","u":"https://www.gurufocus.com/news/8908129/draftkings-dkng-stock-surges-following-strong-volume-growth-announcement"},
-    {"t":"加密·随风险偏好去杠杆","up":0,"time":"主线","x":"BTC 此前破 $70K、Strategy 卖币后,加密股波动放大;今日随股市 risk-off 再度走弱(MSTR -7.8%、COIN -4%),中期受 Fed 流动性预期主导。","s":"行情/轮动","u":""},
-    {"t":"SpaceX IPO·航天","up":0,"time":"6/12 上市","x":"SpaceX 6/12 登陆 Nasdaq,估值 $1.77 万亿(史上最大);Morningstar 称高估~48%。临近上市抽水航天板块(RKLB -6%)。","s":"CNBC / Fortune","u":"https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html"},
-    {"t":"轮动·从拥挤芯片到防御/独立逻辑","up":1,"time":"6/10","x":"去险日的资金特征:砍掉涨幅最大的拥挤芯片/成长,转向有独立催化的个股(DKNG/HIMS)与相对防御(BX/能源)。CPI 后方向才会明朗。","s":"行情/轮动","u":""}
+    {"t":"加密·随风险偏好去杠杆","up":0,"time":"主线","x":"BTC 此前破 $70K、Strategy 卖币后,加密股波动放大;今日随股市 risk-off 再度走弱(MSTR -8.4%、COIN -4.1%),中期受 Fed 流动性预期主导。","s":"行情/轮动","u":""},
+    {"t":"SpaceX IPO·航天","up":0,"time":"6/12 上市","x":"SpaceX 6/12 登陆 Nasdaq,估值 $1.77 万亿(史上最大);Morningstar 称高估~48%。临近上市抽水航天板块(RKLB -6.9%)。","s":"CNBC / Fortune","u":"https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html"},
+    {"t":"轮动·从拥挤芯片到防御/独立逻辑","up":1,"time":"6/10","x":"去险日的资金特征:砍掉涨幅最大的拥挤芯片/成长/内存,转向有独立催化的个股(DKNG/HIMS)与相对防御(BX/能源/巴西)。CPI 后方向才会明朗。","s":"行情/轮动","u":""}
   ]
 }
