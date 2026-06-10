@@ -213,6 +213,18 @@
   /* 气泡里的「看K线/技术研判」按钮 */
   .pbtn{display:block;width:100%;margin:2px 0 0;padding:8px;border:0;border-radius:8px;background:var(--accent);color:#fff;font-size:12.5px;font-weight:600;cursor:pointer}
   .pbtn:hover{filter:brightness(1.08)}
+  /* 气泡内 Yahoo 实时新闻 */
+  .pl{margin:8px 0 2px;border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:rgba(255,255,255,.02)}
+  body.light .pl{background:rgba(20,40,90,.03)}
+  .pl-h{display:flex;align-items:center;font-size:11px;font-weight:700;color:var(--warn);margin-bottom:5px}
+  .pl-h .pl-cfg{margin-left:auto;cursor:pointer;color:var(--mut);font-weight:400}
+  .pl-h .pl-cfg:hover{color:var(--accent)}
+  .pl-i{padding:5px 0;border-top:1px solid var(--line)}
+  .pl-i:first-child{border-top:0}
+  .pl-i a{color:var(--accent);text-decoration:none;font-size:12.5px;line-height:1.45;display:block}
+  .pl-i a:hover{text-decoration:underline}
+  .pl-m{color:var(--mut);font-size:10.5px;margin-top:2px}
+  .pl-none{color:var(--mut);font-size:11.5px;line-height:1.5}
 
   /* K线/技术研判 弹窗 */
   #chart{position:fixed;inset:0;z-index:80;background:rgba(4,7,14,.66);display:none;align-items:center;justify-content:center;padding:18px}
@@ -433,9 +445,25 @@ function newsSearch(){
   let hits=[...NEWS_TODAY,...INDEX_NOTES,...NEWS_TREND].filter(n=>((n.t||"")+(n.x||"")).toLowerCase().indexOf(ql)>=0);
   Object.keys(NAME).forEach(sym=>{ if(sym.toLowerCase().indexOf(ql)>=0 || (NAME[sym]||"").toLowerCase().indexOf(ql)>=0){ newsForSymbol(sym).forEach(n=>{ if(!hits.some(h=>h.t===n.t&&h.x===n.x)) hits.push(n); }); } });
   if(hits.length){ if(hint)hint.textContent=`找到 ${hits.length} 条`; renderNews("newsResults",hits); }
-  else { if(hint)hint.textContent="索引中暂无"; if(res)res.innerHTML=`<div class="nitem"><p>索引里暂无「${q.replace(/</g,"&lt;")}」的相关消息。</p><p style="margin-top:7px"><button class="pbtn" style="max-width:280px" onclick="aiSearchNews()">🔎 用 AI 实时联网搜索（需后端，当前未接入）</button></p></div>`; }
+  else { if(hint)hint.textContent="索引中暂无"; if(res)res.innerHTML=`<div class="nitem"><p>索引里暂无「${q.replace(/</g,"&lt;")}」的相关消息。</p><p style="margin-top:7px"><button class="pbtn" style="max-width:300px" onclick="aiSearchNews()">🔎 用 Yahoo 实时拉取该代码的新闻</button></p></div>`; }
 }
-function aiSearchNews(){ alert("「实时 AI 联网搜索」需要一个后端服务(serverless 函数 + API key)才能在网页里按需检索 —— 当前是静态站,浏览器无法直接联网做 AI 检索。可让我帮你搭好后端后启用。"); }
+function aiSearchNews(){
+  const proxy=getNewsProxy();
+  if(!proxy){ setNewsProxy(); return; }
+  const raw=(document.getElementById("newsSearch")||{}).value||"";
+  const q=raw.trim().toUpperCase().replace(/[^A-Z0-9.\-]/g,"");
+  const res=document.getElementById("newsResults");
+  if(!q){ if(res)res.innerHTML=`<div class="nitem"><p>请输入股票代码（Yahoo 按代码检索，如 NVDA / MRVL）。</p></div>`; return; }
+  if(res)res.innerHTML=`<div class="nitem"><p>正在向 Yahoo 拉取「${q}」实时新闻…</p></div>`;
+  fetch(proxy+(proxy.includes("?")?"&":"?")+"symbol="+encodeURIComponent(q),{cache:"no-store"})
+    .then(r=>r.json()).then(j=>{
+      const items=(j.items||[]).slice(0,10);
+      if(!items.length){ res.innerHTML=`<div class="nitem"><p>Yahoo 未找到「${q}」的新闻${j.error?`（${j.error}）`:""}。</p></div>`; return; }
+      res.innerHTML=items.map(n=>{ const d=n.pubDate?new Date(n.pubDate):null, dt=(d&&!isNaN(+d))?`${d.getMonth()+1}/${d.getDate()}`:"Yahoo";
+        return `<div class="nitem"><div class="nrow"><span class="tag">${q}</span><span class="time">🕒 ${dt}</span></div><p><a href="${n.link}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">${n.title} ↗</a></p><p class="nosrc">${n.source||"Yahoo Finance"}</p></div>`;
+      }).join("");
+    }).catch(e=>{ res.innerHTML=`<div class="nitem"><p>拉取失败：${String(e).slice(0,80)}</p></div>`; });
+}
 function setSort(key){ if(sortKey===key){sortDir=-sortDir;}else{sortKey=key;sortDir=(key==='tk'||key==='nm')?1:-1;} renderAll(); }
 
 async function load(){
@@ -604,8 +632,12 @@ function showStockNews(sym,ev){
     body=`<div class="pnone">今日暂无 <b>${sym}</b> 的单独催化新闻。<br>可参考「主导叙事 / 指数解读 / 宏观主线」了解大盘与板块背景，或点「刷新新闻」获取最新。</div>`;
   }
   pop.className=(dir>0?"up":(dir<0?"dn":""));
+  POP_SYM=sym;
   const chartBtn=`<button class="pbtn" onclick="openChart('${sym}')">📊 看K线 + 技术研判（1h/4h/1日）</button>`;
-  pop.innerHTML=`<div class="ph"><span class="pt">${sym}</span><span class="pn">${nm}</span>${movePill}${h12}<span class="px" onclick="hidePop()">✕</span></div><div class="pb">${chartBtn}${body}</div>`;
+  const live=getNewsProxy()
+    ? `<div class="pl"><div class="pl-h">🔎 Yahoo 实时新闻<span class="pl-cfg" onclick="setNewsProxy(event)">⚙ 换源</span></div><div id="popLiveBody" class="pl-none">加载中…</div></div>`
+    : `<button class="pbtn" style="background:var(--warn);color:#1a1205" onclick="setNewsProxy(event)">🔎 配置实时新闻源（Yahoo · 一次性）</button>`;
+  pop.innerHTML=`<div class="ph"><span class="pt">${sym}</span><span class="pn">${nm}</span>${movePill}${h12}<span class="px" onclick="hidePop()">✕</span></div><div class="pb">${chartBtn}${live}${body}</div>`;
   pop.classList.add("show");
   const cx=(ev&&ev.clientX)||80, cy=(ev&&ev.clientY)||80;
   pop.style.left="0px"; pop.style.top="0px";
@@ -613,6 +645,35 @@ function showStockNews(sym,ev){
   let x=cx+14; if(x+r.width>window.innerWidth-10) x=Math.max(10,cx-r.width-14);
   let y=cy+10; if(y+r.height>window.innerHeight-10) y=Math.max(10,window.innerHeight-r.height-10);
   pop.style.left=x+"px"; pop.style.top=y+"px";
+  POP_XY={x:cx,y:cy};
+  if(getNewsProxy()) fetchLiveNews(sym);   // 点开即按需拉取该股 Yahoo 新闻
+}
+/* ===== Yahoo 实时新闻（经免费 Cloudflare Worker 中转，按需当场拉取）===== */
+let POP_SYM=null, POP_XY={x:80,y:80};
+function getNewsProxy(){ try{ return localStorage.getItem("tradexyz-news-proxy")||""; }catch(e){ return ""; } }
+function setNewsProxy(ev){
+  if(ev) ev.stopPropagation();
+  const v=prompt("粘贴你的 Cloudflare Worker 地址（如 https://tradexyz-news.xxx.workers.dev）。\n部署方法见 tradexyz-news-worker.js 顶部说明。留空可清除。", getNewsProxy());
+  if(v==null) return;
+  try{ localStorage.setItem("tradexyz-news-proxy", v.trim()); }catch(e){}
+  if(POP_SYM){ showStockNews(POP_SYM,{clientX:POP_XY.x,clientY:POP_XY.y,stopPropagation(){}}); }
+}
+async function fetchLiveNews(sym){
+  const proxy=getNewsProxy(), box=document.getElementById("popLiveBody");
+  if(!proxy||!box) return;
+  box.className="pl-none"; box.textContent="加载中…";
+  try{
+    const u=proxy+(proxy.includes("?")?"&":"?")+"symbol="+encodeURIComponent(sym);
+    const r=await fetch(u,{cache:"no-store"});
+    const j=await r.json();
+    const items=(j.items||[]).slice(0,6);
+    if(!items.length){ box.className="pl-none"; box.textContent=`Yahoo 暂无 ${sym} 的相关新闻${j.error?`（${j.error}）`:""}`; return; }
+    box.className="";
+    box.innerHTML=items.map(n=>{
+      const d=n.pubDate?new Date(n.pubDate):null, dt=(d&&!isNaN(+d))?`${d.getMonth()+1}/${d.getDate()}`:"";
+      return `<div class="pl-i"><a href="${n.link}" target="_blank" rel="noopener">${n.title} ↗</a><div class="pl-m">${n.source||"Yahoo"}${dt?" · "+dt:""}</div></div>`;
+    }).join("");
+  }catch(e){ box.className="pl-none"; box.textContent=`拉取失败（${String(e).slice(0,50)}）。检查 Worker 地址是否正确且已部署。`; }
 }
 function hidePop(){ document.getElementById("pop").classList.remove("show"); }
 document.addEventListener("click",e=>{ const p=document.getElementById("pop"); if(p&&p.classList.contains("show")&&!p.contains(e.target)) hidePop(); });
