@@ -138,6 +138,19 @@
   .err{color:var(--dn);padding:10px 16px;font-size:12px}
   footer{color:var(--mut);font-size:11px;padding:0 22px 24px;line-height:1.6}
 
+  /* 顶部导航栏 + 分页视图 */
+  .nav{display:flex;gap:6px;padding:10px 22px;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30;background:var(--bg);overflow-x:auto}
+  .nav button{flex:0 0 auto;padding:8px 18px;border:0;border-radius:9px;background:transparent;color:var(--mut);font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap}
+  .nav button.on{background:var(--card);color:var(--txt);box-shadow:inset 0 0 0 1px var(--line)}
+  .nav button:hover{color:var(--txt)}
+  .view{display:none}
+  .view.on{display:block}
+  .search{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:16px 22px 2px}
+  .search input{flex:1;min-width:200px;max-width:460px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 13px;color:var(--txt);font-size:13.5px;outline:none}
+  .search input:focus{border-color:var(--accent)}
+  .search .hint{color:var(--mut);font-size:12px}
+  @media(max-width:760px){ .nav{padding:8px 12px} .nav button{padding:7px 13px;font-size:13px} .search{margin:12px 12px 2px} }
+
   /* 可折叠区块（标题点击展开/收起，移动端默认折叠新闻）*/
   .collapser{cursor:pointer;user-select:none}
   .collapser .cv{display:inline-block;margin-left:7px;font-size:11px;color:var(--mut);transition:transform .15s;vertical-align:middle}
@@ -248,6 +261,13 @@
 </div></header>
 
 <main class="page">
+<nav class="nav">
+  <button id="nav-watch" onclick="showView('watch')">📅 本周关注</button>
+  <button id="nav-stocks" class="on" onclick="showView('stocks')">📈 个股 / 行情</button>
+  <button id="nav-news" onclick="showView('news')">📰 消息</button>
+</nav>
+
+<section class="view" id="view-watch">
 <div class="watch">
   <h2 class="collapser" onclick="toggleSec(this)"><span class="dot"></span>本周市场关注 <span style="font-size:11px;color:var(--mut);font-weight:400">市场最关心的日程与主线</span><span class="cv">▾</span></h2>
   <div class="wgrid">
@@ -255,6 +275,10 @@
     <div><p class="wsub">主导叙事</p><div class="narr" id="wNarr"></div></div>
   </div>
 </div>
+</section>
+
+<section class="view on" id="view-stocks">
+<div class="search"><input id="stockSearch" placeholder="搜索代码或名称（如 NVDA / 英伟达 / GOLD / 黄金）…" oninput="stockSearch()"><span class="hint" id="stockHint"></span></div>
 
 <!-- 个股：24h + 12h 合并一张表 -->
 <div class="full">
@@ -268,15 +292,23 @@
   <div class="card"><h2>大宗商品 · 24h / 12h <span id="cCM">加载中…</span></h2><div id="tblCM" class="scrollbox"></div></div>
   <div class="card"><h2>指数 / ETF · 24h / 12h <span id="cIX">加载中…</span></h2><div id="tblIX" class="scrollbox"></div></div>
 </div>
+</section>
 
+<section class="view" id="view-news">
+<div class="search"><input id="newsSearch" placeholder="搜索消息：代码 / 中文名 / 关键词（如 MRVL / 海力士 / CPI）…" oninput="newsSearch()"><span class="hint" id="newsHint"></span></div>
 <div class="news">
-  <h2 class="collapser" onclick="toggleSec(this)">指数解读（大盘 / 海外指数 · 为什么涨跌）<span class="cv">▾</span></h2>
-  <div class="ncols" id="newsIndex"></div>
-  <h2 class="collapser" onclick="toggleSec(this)">今日异动催化（个股 · 带发布时间）<span class="cv">▾</span></h2>
-  <div class="ncols" id="newsToday"></div>
-  <h2 class="collapser" onclick="toggleSec(this)">宏观主线（板块 / 大区间 · 带发布时间）<span class="cv">▾</span></h2>
-  <div class="ncols" id="newsTrend"></div>
+  <div id="newsResults"></div>
+  <div id="newsDefault">
+    <h2 class="collapser" onclick="toggleSec(this)">重点 · 大盘 / 指数解读<span class="cv">▾</span></h2>
+    <div class="ncols" id="newsIndex"></div>
+    <h2 class="collapser" onclick="toggleSec(this)">宏观主线（板块 / 大区间）<span class="cv">▾</span></h2>
+    <div class="ncols" id="newsTrend"></div>
+    <h2 class="collapser" onclick="toggleSec(this)">今日重点异动（涨跌幅 Top）<span class="cv">▾</span></h2>
+    <div class="ncols" id="newsTodayTop"></div>
+    <p style="color:var(--mut);font-size:12px;margin:14px 0 0">想看某只个股的异动消息？去「📈 个股」标签搜代码后点开它的气泡即可。</p>
+  </div>
 </div>
+</section>
 
 <footer>
   价格 / 涨跌幅：浏览器直连 <code>api.hyperliquid.xyz/info</code> 实时计算（24h = markPx vs prevDayPx；12h = markPx vs 12h 前 1h K 线收盘）。表头可点击切换排序；<b>点击任一行（悬停时代码后显示 📰）即弹出该标的的涨跌原因新闻气泡</b>（按代码/公司名匹配「今日异动 / 指数解读 / 宏观主线」，点空白处或 Esc 关闭）。<br>
@@ -358,7 +390,52 @@ function renderAll(){
   document.getElementById("cST").textContent=render("tblST",DATA.ST,true)+" 个";
   document.getElementById("cCM").textContent=render("tblCM",DATA.CM,false)+" 个";
   document.getElementById("cIX").textContent=render("tblIX",DATA.IX,false)+" 个";
+  applyStockFilter();
 }
+/* ===== 导航分页 ===== */
+function showView(v){
+  ["watch","stocks","news"].forEach(n=>{
+    const vw=document.getElementById("view-"+n), nb=document.getElementById("nav-"+n);
+    if(vw)vw.classList.toggle("on",n===v); if(nb)nb.classList.toggle("on",n===v);
+  });
+  window.scrollTo(0,0);
+}
+/* ===== 个股搜索（代码 / 中文名 / 英文名 筛选）===== */
+function stockSearch(){ applyStockFilter(); }
+function applyStockFilter(){
+  const el=document.getElementById("stockSearch"), q=el?el.value.trim().toLowerCase():"";
+  let shown=0;
+  ["tblST","tblCM","tblIX"].forEach(id=>{
+    const t=document.querySelector("#"+id+" table"); if(!t||!t.tBodies[0])return;
+    [...t.tBodies[0].rows].forEach(r=>{
+      const sym=(r.cells[1].textContent||"").replace(/[^A-Za-z0-9]/g,"").toLowerCase();
+      const nm=(r.cells[2]?r.cells[2].textContent:"").toLowerCase();
+      const m=!q || sym.indexOf(q)>=0 || nm.indexOf(q)>=0;
+      r.style.display=m?"":"none"; if(m)shown++;
+    });
+  });
+  const h=document.getElementById("stockHint"); if(h) h.textContent=q?`匹配 ${shown} 个`:"";
+}
+/* ===== 消息页：默认重点+宏观；搜索可索引到个股消息；索引无则 AI 兜底 ===== */
+function pctOfTitle(t){ const m=(t||"").match(/([+-]?\d+(?:\.\d+)?)%/); return m?Math.abs(+m[1]):0; }
+function renderNewsView(){
+  renderNews("newsIndex",INDEX_NOTES);
+  renderNews("newsTrend",NEWS_TREND);
+  renderNews("newsTodayTop",NEWS_TODAY.slice().sort((a,b)=>pctOfTitle(b.t)-pctOfTitle(a.t)).slice(0,6));
+  const q=document.getElementById("newsSearch"); if(q&&q.value.trim()) newsSearch();
+}
+function newsSearch(){
+  const el=document.getElementById("newsSearch"), q=el?el.value.trim():"";
+  const res=document.getElementById("newsResults"), def=document.getElementById("newsDefault"), hint=document.getElementById("newsHint");
+  if(!q){ if(res)res.innerHTML=""; if(def)def.style.display=""; if(hint)hint.textContent=""; return; }
+  if(def)def.style.display="none";
+  const ql=q.toLowerCase();
+  let hits=[...NEWS_TODAY,...INDEX_NOTES,...NEWS_TREND].filter(n=>((n.t||"")+(n.x||"")).toLowerCase().indexOf(ql)>=0);
+  Object.keys(NAME).forEach(sym=>{ if(sym.toLowerCase().indexOf(ql)>=0 || (NAME[sym]||"").toLowerCase().indexOf(ql)>=0){ newsForSymbol(sym).forEach(n=>{ if(!hits.some(h=>h.t===n.t&&h.x===n.x)) hits.push(n); }); } });
+  if(hits.length){ if(hint)hint.textContent=`找到 ${hits.length} 条`; renderNews("newsResults",hits); }
+  else { if(hint)hint.textContent="索引中暂无"; if(res)res.innerHTML=`<div class="nitem"><p>索引里暂无「${q.replace(/</g,"&lt;")}」的相关消息。</p><p style="margin-top:7px"><button class="pbtn" style="max-width:280px" onclick="aiSearchNews()">🔎 用 AI 实时联网搜索（需后端，当前未接入）</button></p></div>`; }
+}
+function aiSearchNews(){ alert("「实时 AI 联网搜索」需要一个后端服务(serverless 函数 + API key)才能在网页里按需检索 —— 当前是静态站,浏览器无法直接联网做 AI 检索。可让我帮你搭好后端后启用。"); }
 function setSort(key){ if(sortKey===key){sortDir=-sortDir;}else{sortKey=key;sortDir=(key==='tk'||key==='nm')?1:-1;} renderAll(); }
 
 async function load(){
@@ -642,7 +719,7 @@ async function loadNews(){
       if(Array.isArray(j.NEWS_TODAY))  NEWS_TODAY =j.NEWS_TODAY;
       if(Array.isArray(j.NEWS_TREND))  NEWS_TREND =j.NEWS_TREND;
       if(j.asOf){ const e=document.getElementById("newsAsOf"); if(e) e.textContent="截至 "+j.asOf; }
-      renderWatch(); renderNews("newsIndex",INDEX_NOTES); renderNews("newsToday",NEWS_TODAY); renderNews("newsTrend",NEWS_TREND);
+      renderWatch(); renderNewsView();
       const nu=document.getElementById("newsUpdated"); if(nu){ nu.textContent=new Date().toLocaleString("zh-CN")+(j.asOf?` (${j.asOf})`:""); nu.style.color="var(--up)"; setTimeout(()=>nu.style.color="",1500); }
       ok=true;
     }
@@ -666,9 +743,7 @@ applyTheme((()=>{ try{ return localStorage.getItem("tradexyz-theme")||"dark"; }c
 collapseNewsIfMobile();
 
 renderWatch();
-renderNews("newsIndex",INDEX_NOTES);
-renderNews("newsToday",NEWS_TODAY);
-renderNews("newsTrend",NEWS_TREND);
+renderNewsView();
 loadNews();
 load();
 setInterval(load,REFRESH_MS);
