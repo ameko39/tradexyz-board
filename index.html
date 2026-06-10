@@ -138,6 +138,34 @@
   .err{color:var(--dn);padding:10px 16px;font-size:12px}
   footer{color:var(--mut);font-size:11px;padding:0 22px 24px;line-height:1.6}
 
+  /* 可折叠区块（标题点击展开/收起，移动端默认折叠新闻）*/
+  .collapser{cursor:pointer;user-select:none}
+  .collapser .cv{display:inline-block;margin-left:7px;font-size:11px;color:var(--mut);transition:transform .15s;vertical-align:middle}
+  .collapser.collapsed .cv{transform:rotate(-90deg)}
+  .collapser.collapsed + *{display:none}
+
+  /* ===== 移动端排版（≤760px，按视口宽度自动适配，无需 UA 判断）===== */
+  @media(max-width:760px){
+    .bar{padding:12px 14px;gap:9px 12px}
+    header h1{font-size:16px}
+    .meta.hide-m{display:none}
+    .btn{padding:6px 11px;font-size:12.5px}
+    .watch{margin:12px;padding:12px 13px}
+    .full,.news{padding:10px 12px}
+    .wrap{padding:10px 12px;gap:12px}
+    .news h2,.watch h2{font-size:14px}
+    /* 表格：隐藏次要列，留「代码/现价/24h/12h」，详情看点击气泡 */
+    .c-name,.c-pre,.c-night,.c-vol{display:none}
+    th,td{padding:8px 8px}
+    /* 时间轴：节点固定宽度、横向滑动（不被挤扁）*/
+    .tlh-i{flex:0 0 150px}
+    /* 主导叙事单列 */
+    .narr{grid-template-columns:1fr}
+    /* 气泡不超出屏宽 */
+    #pop{max-width:calc(100vw - 20px)}
+    .scrollbox{max-height:62vh}
+  }
+
   /* ===== 日间(浅色)模式 ===== */
   body.light{--bg:#eef1f7;--card:#ffffff;--line:#dde3ee;--up:#0a8f5b;--dn:#d62f3c;--mut:#5b6a82;--txt:#19223a;--accent:#2f6fed;--warn:#a9750a}
   body.light .watch{background:linear-gradient(180deg,#e9f0ff,#f6f9ff);border-color:#d3ddef}
@@ -175,8 +203,8 @@
   <h1>tradexyz 美股看板</h1>
   <div class="meta">行情更新 <b id="updated">—</b></div>
   <div class="meta">新闻更新 <b id="newsUpdated">—</b></div>
-  <div class="meta">下次自动刷新 <b id="countdown">—</b></div>
-  <div class="meta">源 Hyperliquid <code>xyz</code> HIP-3 dex</div>
+  <div class="meta hide-m">下次自动刷新 <b id="countdown">—</b></div>
+  <div class="meta hide-m">源 Hyperliquid <code>xyz</code> HIP-3 dex</div>
   <button id="themeBtn" class="btn" onclick="toggleTheme()">☀️ 日间</button>
   <button id="refreshBtn" class="btn" onclick="load()">刷新行情</button>
   <button id="newsBtn" class="btn" onclick="loadNews()">刷新新闻</button>
@@ -184,7 +212,7 @@
 
 <main class="page">
 <div class="watch">
-  <h2><span class="dot"></span>本周市场关注 <span style="font-size:11px;color:var(--mut);font-weight:400">市场最关心的日程与主线</span></h2>
+  <h2 class="collapser" onclick="toggleSec(this)"><span class="dot"></span>本周市场关注 <span style="font-size:11px;color:var(--mut);font-weight:400">市场最关心的日程与主线</span><span class="cv">▾</span></h2>
   <div class="wgrid">
     <div><p class="wsub">关键日程 / 数据</p><ul class="sched" id="wSched"></ul></div>
     <div><p class="wsub">主导叙事</p><div class="narr" id="wNarr"></div></div>
@@ -205,11 +233,11 @@
 </div>
 
 <div class="news">
-  <h2>指数解读（大盘 / 海外指数 · 为什么涨跌）</h2>
+  <h2 class="collapser" onclick="toggleSec(this)">指数解读（大盘 / 海外指数 · 为什么涨跌）<span class="cv">▾</span></h2>
   <div class="ncols" id="newsIndex"></div>
-  <h2>今日异动催化（个股 · 带发布时间）</h2>
+  <h2 class="collapser" onclick="toggleSec(this)">今日异动催化（个股 · 带发布时间）<span class="cv">▾</span></h2>
   <div class="ncols" id="newsToday"></div>
-  <h2>宏观主线（板块 / 大区间 · 带发布时间）</h2>
+  <h2 class="collapser" onclick="toggleSec(this)">宏观主线（板块 / 大区间 · 带发布时间）<span class="cv">▾</span></h2>
   <div class="ncols" id="newsTrend"></div>
 </div>
 
@@ -279,12 +307,12 @@ function fmtVol(v){ return v?("$"+Math.round(v).toLocaleString()):"—"; }
 function render(elId,rows,session){
   const k=sortKey, dir=sortDir;
   const sorted=rows.slice().sort((a,b)=>{ const av=a[k],bv=b[k]; if(av==null)return 1; if(bv==null)return -1; return (bv-av)*((dir<0)?1:-1); });
-  const hdr=(key,label,tip)=>`<th class="${k===key?'active':''}"${tip?` title="${tip}"`:''} onclick="setSort('${key}')">${label}${k===key?(dir<0?' ↓':' ↑'):''}</th>`;
-  const sessCols=session?hdr('chgPre','盘前','北京16:00至今累计涨幅（含盘前+盘中）')+hdr('chgNight','夜盘','北京04:00–16:00时段涨幅（美股盘后+隔夜）'):'';
-  let h="<table><thead><tr><th>#</th>"+hdr('tk','代码')+`<th>名称</th>`+hdr('mark','现价')+hdr('chg24','24h')+hdr('chg12','12h')+sessCols+hdr('vol','24h量')+"</tr></thead><tbody>";
-  sorted.forEach((r,i)=>{ const sc=session?`<td class="${cls(r.chgPre)}">${fmtPct(r.chgPre)}</td><td class="${cls(r.chgNight)}">${fmtPct(r.chgNight)}</td>`:'';
-    h+=`<tr onclick="showStockNews('${r.tk}',event)" title="点击查看 ${r.tk} 涨跌原因"><td class="rk">${i+1}</td><td class="tk">${r.tk} <span class="qmk">📰</span></td><td class="nm">${r.nm}</td>`+
-    `<td>${fmtPx(r.mark)}</td><td class="${cls(r.chg24)}">${fmtPct(r.chg24)}</td><td class="${cls(r.chg12)}">${fmtPct(r.chg12)}</td>${sc}<td class="nm">${fmtVol(r.vol)}</td></tr>`; });
+  const hdr=(key,label,tip,c)=>`<th class="${k===key?'active':''}${c?' '+c:''}"${tip?` title="${tip}"`:''} onclick="setSort('${key}')">${label}${k===key?(dir<0?' ↓':' ↑'):''}</th>`;
+  const sessCols=session?hdr('chgPre','盘前','北京16:00至今累计涨幅（含盘前+盘中）','c-pre')+hdr('chgNight','夜盘','北京04:00–16:00时段涨幅（美股盘后+隔夜）','c-night'):'';
+  let h="<table><thead><tr><th>#</th>"+hdr('tk','代码')+`<th class="c-name">名称</th>`+hdr('mark','现价')+hdr('chg24','24h')+hdr('chg12','12h')+sessCols+hdr('vol','24h量','','c-vol')+"</tr></thead><tbody>";
+  sorted.forEach((r,i)=>{ const sc=session?`<td class="${cls(r.chgPre)} c-pre">${fmtPct(r.chgPre)}</td><td class="${cls(r.chgNight)} c-night">${fmtPct(r.chgNight)}</td>`:'';
+    h+=`<tr onclick="showStockNews('${r.tk}',event)" title="点击查看 ${r.tk} 涨跌原因"><td class="rk">${i+1}</td><td class="tk">${r.tk} <span class="qmk">📰</span></td><td class="nm c-name">${r.nm}</td>`+
+    `<td>${fmtPx(r.mark)}</td><td class="${cls(r.chg24)}">${fmtPct(r.chg24)}</td><td class="${cls(r.chg12)}">${fmtPct(r.chg12)}</td>${sc}<td class="nm c-vol">${fmtVol(r.vol)}</td></tr>`; });
   document.getElementById(elId).innerHTML=h+"</tbody></table>";
   return sorted.length;
 }
@@ -474,6 +502,15 @@ function hidePop(){ document.getElementById("pop").classList.remove("show"); }
 document.addEventListener("click",e=>{ const p=document.getElementById("pop"); if(p&&p.classList.contains("show")&&!p.contains(e.target)) hidePop(); });
 document.addEventListener("keydown",e=>{ if(e.key==="Escape") hidePop(); });
 
+/* 折叠区块：点击标题展开/收起 */
+function toggleSec(el){ el.classList.toggle("collapsed"); }
+/* 移动端默认折叠底部的三块新闻（按视口宽度判断，非 UA 判断）*/
+function collapseNewsIfMobile(){
+  if(window.matchMedia && window.matchMedia("(max-width:760px)").matches){
+    document.querySelectorAll(".news .collapser").forEach(h=>h.classList.add("collapsed"));
+  }
+}
+
 /* 拉取最新新闻 JSON（定时 agent 维护）；失败则保留内置默认新闻（如本地 file:// 直接打开） */
 const NEWS_MS=30*60*1000;
 async function loadNews(){
@@ -508,6 +545,7 @@ function toggleTheme(){
   applyTheme(t);
 }
 applyTheme((()=>{ try{ return localStorage.getItem("tradexyz-theme")||"dark"; }catch(e){ return "dark"; } })());
+collapseNewsIfMobile();
 
 renderWatch();
 renderNews("newsIndex",INDEX_NOTES);
