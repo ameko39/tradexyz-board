@@ -284,13 +284,22 @@ const IDX=new Set(["SP500","XYZ100","NIFTY","JP225","KR200","IBOV","VIX","VOL","
 function cat(sym){ if(FX.has(sym)||SKIP.has(sym))return null; if(COMMO.has(sym))return "CM"; if(IDX.has(sym))return "IX"; return "ST"; }
 const BINANCE_FAPI="https://fapi.binance.com/fapi/v1";
 const BINANCE_TRADFI=[
-  ["NVDAUSDT","NVDA","Nvidia"],["TSLAUSDT","TSLA","Tesla"],["AAPLUSDT","AAPL","Apple"],
-  ["MSFTUSDT","MSFT","Microsoft"],["GOOGLUSDT","GOOGL","Alphabet"],["METAUSDT","META","Meta"],
-  ["TSMUSDT","TSM","TSMC"],["AMDUSDT","AMD","AMD"],["AMZNUSDT","AMZN","Amazon"],
-  ["MSTRUSDT","MSTR","Strategy"],["COINUSDT","COIN","Coinbase"],["PLTRUSDT","PLTR","Palantir"],
-  ["NFLXUSDT","NFLX","Netflix"],["AVGOUSDT","AVGO","Broadcom"],["SPYUSDT","SPY","S&P 500 ETF"],
-  ["QQQUSDT","QQQ","Nasdaq 100 ETF"],["XAUUSDT","XAU","Gold"],["XAGUSDT","XAG","Silver"]
-].map(([symbol,tk,nm])=>({symbol,tk,nm}));
+  ["NVDA","Nvidia"],["TSLA","Tesla"],["AAPL","Apple"],["MSFT","Microsoft"],["GOOGL","Alphabet"],
+  ["META","Meta"],["TSM","TSMC"],["AMD","AMD"],["AMZN","Amazon"],["MSTR","Strategy"],
+  ["COIN","Coinbase"],["PLTR","Palantir"],["NFLX","Netflix"],["AVGO","Broadcom"],
+  ["CRCL","Circle"],["BABA","Alibaba"],["INTC","Intel"],["HOOD","Robinhood"],["SPY","S&P 500 ETF"],
+  ["QQQ","Nasdaq 100 ETF"],["EWJ","Japan ETF"],["IWM","Russell 2000 ETF"],["XLE","Energy ETF"],
+  ["EWZ","Brazil ETF"],["URNM","Uranium ETF"],["UVXY","VIX Short-Term ETF"],["XAU","Gold"],
+  ["XAG","Silver"],["CL","WTI Crude Oil"],["BZ","Brent Crude Oil"],["NATGAS","Natural Gas"],
+  ["SPCX","SpaceX pre-IPO"],["QNTX","QuantX"],["LLY","Eli Lilly"],["DELL","Dell"],
+  ["COST","Costco"],["HIMS","Hims & Hers"],["EBAY","eBay"],["BX","Blackstone"],
+  ["CBRS","Cerebras"],["ZM","Zoom"],["DKNG","DraftKings"],["RIVN","Rivian"],["GME","GameStop"],
+  ["BMNR","BitMine Immersion"],["ADBE","Adobe"],["GLW","Corning"],["STXX","STOXX Europe 600"],
+  ["ASML","ASML"],["IBM","IBM"],["ORCL","Oracle"],["MU","Micron"],["MRVL","Marvell"],
+  ["NOW","ServiceNow"],["WDC","Western Digital"],["SNDK","SanDisk"],["ARM","Arm"],
+  ["RKLB","Rocket Lab"],["USAR","USA Rare Earth"],["LITE","Lumentum"],["HYUNDAI","Hyundai"],
+  ["CRWV","CoreWeave"],["NBIS","Nebius"]
+].map(([tk,nm])=>({symbol:tk+"USDT",tk,nm}));
 
 const REFRESH_MS=2*60*60*1000;
 let nextAt=0, DATA={ST:[],CM:[],IX:[],BN:[]}, sortKey="chg24", sortDir=-1;
@@ -1176,19 +1185,26 @@ async function loadBinance(){
   if(count&&!DATA.BN.length) count.textContent="加载中…";
   try{
     const rows=[];
+    const tickers=await getJson(`${BINANCE_FAPI}/ticker/24hr`);
+    const tickerMap=new Map((Array.isArray(tickers)?tickers:[]).map(t=>[t.symbol,t]));
     await mapLimit(BINANCE_TRADFI,6,async meta=>{
-      const t=await getJson(`${BINANCE_FAPI}/ticker/24hr?symbol=${encodeURIComponent(meta.symbol)}`);
-      const kl=await getBinanceHist(meta.symbol);
-      const mark=parseFloat(t.lastPrice);
-      rows.push({
-        symbol:meta.symbol,
-        tk:meta.tk,
-        nm:meta.nm,
-        mark,
-        chg24:parseFloat(t.priceChangePercent),
-        chg12:pct(mark,closeAtBinance(kl,Date.now()-12*3600*1000)),
-        vol:parseFloat(t.quoteVolume)
-      });
+      try{
+        const t=tickerMap.get(meta.symbol);
+        if(!t) return;
+        const kl=await getBinanceHist(meta.symbol);
+        const mark=parseFloat(t.lastPrice);
+        rows.push({
+          symbol:meta.symbol,
+          tk:meta.tk,
+          nm:meta.nm,
+          mark,
+          chg24:parseFloat(t.priceChangePercent),
+          chg12:pct(mark,closeAtBinance(kl,Date.now()-12*3600*1000)),
+          vol:parseFloat(t.quoteVolume)
+        });
+      }catch(e){
+        console.warn("Binance symbol skipped",meta.symbol,e);
+      }
     });
     DATA.BN=rows;
     renderBinance();
