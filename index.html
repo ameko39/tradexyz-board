@@ -234,12 +234,20 @@
   <div class="card"><h2>大宗商品 · 24h / 12h <span id="cCM">加载中…</span></h2><div id="tblCM" class="scrollbox"></div></div>
   <div class="card"><h2>指数 / ETF · 24h / 12h <span id="cIX">加载中…</span></h2><div id="tblIX" class="scrollbox"></div></div>
 </div>
+
+<div class="full">
+  <div class="card">
+    <h2>Binance TradFi 合约 · USDⓈ-M Perp <span id="cBN">加载中…</span></h2>
+    <div id="tblBN" class="scrollbox"></div>
+  </div>
+</div>
 </section>
 
 <footer>
   价格 / 涨跌幅：浏览器直连 <code>api.hyperliquid.xyz/info</code> 实时计算（24h = markPx vs prevDayPx；12h = markPx vs 12h 前 1h K 线收盘）。表头可点击切换排序；点击任一行可打开该标的 K 线与技术研判。<br>
   个股专属两列（均按北京时间，UTC+8 无夏令时）：<b>盘前</b> = 自当日 16:00 起的累计涨幅（含美股盘前 16:00–21:30 及盘中 21:30–04:00）；<b>夜盘</b> = 04:00–16:00 时段涨幅（美股盘后 + 隔夜延长时段）。两段在时间上拼成完整一天；进行中的时段实时累计，已结束的时段为固定值。大宗 / 指数为近 24h 连续交易品种，不适用盘前 / 夜盘，故只保留 24h / 12h。<br>
   覆盖：tradexyz(<code>xyz</code> dex)上全部标的，按资产类别分 个股 / 大宗商品 / 指数·ETF 三表；外汇(EUR/GBP/JPY/KRW/DXY)与加密噪音(QNT/PURRDAT)已剔除。任何新上标的若未归类，默认进「个股」表，不会漏。<br>
+  Binance TradFi 合约：浏览器直连 <code>fapi.binance.com</code> 公共 USDⓈ-M Futures 行情接口读取 24h ticker 与 1h K 线；该区块只展示 Binance 合约行情，不与 trade.xyz / Hyperliquid 表混合。<br>
   BWE TradFi TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/BWEtradfi</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
   金十 TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/jin10light</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
   PolyBeats TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/PolyBeats_Bot</code>，前端每 60s 轮询一次；公开页未暴露单条消息 ID，因此用日期与内容摘要去重。<br>
@@ -274,9 +282,18 @@ const SKIP=new Set(["QNT","PURRDAT"]);
 const COMMO=new Set(["GOLD","SILVER","COPPER","PLATINUM","PALLADIUM","ALUMINIUM","CL","BRENTOIL","NATGAS","CORN","WHEAT","TTF","URANIUM"]);
 const IDX=new Set(["SP500","XYZ100","NIFTY","JP225","KR200","IBOV","VIX","VOL","EWJ","EWT","EWY","EWZ","XLE","URNM"]);
 function cat(sym){ if(FX.has(sym)||SKIP.has(sym))return null; if(COMMO.has(sym))return "CM"; if(IDX.has(sym))return "IX"; return "ST"; }
+const BINANCE_FAPI="https://fapi.binance.com/fapi/v1";
+const BINANCE_TRADFI=[
+  ["NVDAUSDT","NVDA","Nvidia"],["TSLAUSDT","TSLA","Tesla"],["AAPLUSDT","AAPL","Apple"],
+  ["MSFTUSDT","MSFT","Microsoft"],["GOOGLUSDT","GOOGL","Alphabet"],["METAUSDT","META","Meta"],
+  ["TSMUSDT","TSM","TSMC"],["AMDUSDT","AMD","AMD"],["AMZNUSDT","AMZN","Amazon"],
+  ["MSTRUSDT","MSTR","Strategy"],["COINUSDT","COIN","Coinbase"],["PLTRUSDT","PLTR","Palantir"],
+  ["NFLXUSDT","NFLX","Netflix"],["AVGOUSDT","AVGO","Broadcom"],["SPYUSDT","SPY","S&P 500 ETF"],
+  ["QQQUSDT","QQQ","Nasdaq 100 ETF"],["XAUUSDT","XAU","Gold"],["XAGUSDT","XAG","Silver"]
+].map(([symbol,tk,nm])=>({symbol,tk,nm}));
 
 const REFRESH_MS=2*60*60*1000;
-let nextAt=0, DATA={ST:[],CM:[],IX:[]}, sortKey="chg24", sortDir=-1;
+let nextAt=0, DATA={ST:[],CM:[],IX:[],BN:[]}, sortKey="chg24", sortDir=-1;
 
 async function post(body){
   const r=await fetch(API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});
@@ -301,10 +318,18 @@ function cls(v){ return v==null?"flat":(v>0?"up":(v<0?"dn":"flat")); }
 function fmtPct(v){ return v==null?"n/a":(v>=0?"+":"")+v.toFixed(2)+"%"; }
 function fmtPx(v){ return isFinite(v)?(v>=100?v.toFixed(2):v.toPrecision(5)):"—"; }
 function fmtVol(v){ return v?("$"+Math.round(v).toLocaleString()):"—"; }
+async function getJson(url){
+  const r=await fetch(url,{cache:"no-store"});
+  if(!r.ok) throw new Error("HTTP "+r.status);
+  return r.json();
+}
+function binanceLink(symbol){
+  return `https://www.binance.com/en/futures/${symbol}`;
+}
 
 function render(elId,rows,session){
   const k=sortKey, dir=sortDir;
-  const sorted=rows.slice().sort((a,b)=>{ const av=a[k],bv=b[k]; if(av==null)return 1; if(bv==null)return -1; return (bv-av)*((dir<0)?1:-1); });
+  const sorted=rows.slice().sort((a,b)=>{ const av=a[k],bv=b[k]; if(av==null)return 1; if(bv==null)return -1; if(k==='tk'||k==='nm') return String(av).localeCompare(String(bv))*dir; return (bv-av)*((dir<0)?1:-1); });
   const hdr=(key,label,tip,c)=>`<th class="${k===key?'active':''}${c?' '+c:''}"${tip?` title="${tip}"`:''} onclick="setSort('${key}')">${label}${k===key?(dir<0?' ↓':' ↑'):''}</th>`;
   const sessCols=session?hdr('chgPre','盘前','北京16:00至今累计涨幅（含盘前+盘中）','c-pre')+hdr('chgNight','夜盘','北京04:00–16:00时段涨幅（美股盘后+隔夜）','c-night'):'';
   let h="<table><thead><tr><th>#</th>"+hdr('tk','代码')+`<th class="c-name">名称</th>`+hdr('mark','现价')+hdr('chg24','24h')+hdr('chg12','12h')+sessCols+hdr('vol','24h量','','c-vol')+"</tr></thead><tbody>";
@@ -314,10 +339,23 @@ function render(elId,rows,session){
   document.getElementById(elId).innerHTML=h+"</tbody></table>";
   return sorted.length;
 }
+function renderBinance(){
+  const rows=DATA.BN||[], k=sortKey, dir=sortDir;
+  const sorted=rows.slice().sort((a,b)=>{ const av=a[k],bv=b[k]; if(av==null)return 1; if(bv==null)return -1; if(k==='tk'||k==='nm') return String(av).localeCompare(String(bv))*dir; return (bv-av)*((dir<0)?1:-1); });
+  const hdr=(key,label,tip,c)=>`<th class="${k===key?'active':''}${c?' '+c:''}"${tip?` title="${tip}"`:''} onclick="setSort('${key}')">${label}${k===key?(dir<0?' ↓':' ↑'):''}</th>`;
+  let h="<table><thead><tr><th>#</th>"+hdr('tk','合约')+`<th class="c-name">名称</th>`+hdr('mark','现价')+hdr('chg24','24h')+hdr('chg12','12h')+hdr('vol','24h量','','c-vol')+"</tr></thead><tbody>";
+  sorted.forEach((r,i)=>{
+    h+=`<tr title="打开 Binance ${r.symbol} 合约"><td class="rk">${i+1}</td><td class="tk"><a href="${esc(binanceLink(r.symbol))}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(r.tk)}</a> <span class="qmk">↗</span></td><td class="nm c-name">${esc(r.nm)}</td>`+
+    `<td>${fmtPx(r.mark)}</td><td class="${cls(r.chg24)}">${fmtPct(r.chg24)}</td><td class="${cls(r.chg12)}">${fmtPct(r.chg12)}</td><td class="nm c-vol">${fmtVol(r.vol)}</td></tr>`;
+  });
+  document.getElementById("tblBN").innerHTML=h+"</tbody></table>";
+  document.getElementById("cBN").textContent=sorted.length+" 个";
+}
 function renderAll(){
   document.getElementById("cST").textContent=render("tblST",DATA.ST,true)+" 个";
   document.getElementById("cCM").textContent=render("tblCM",DATA.CM,false)+" 个";
   document.getElementById("cIX").textContent=render("tblIX",DATA.IX,false)+" 个";
+  renderBinance();
   applyStockFilter();
 }
 /* ===== 个股搜索（代码 / 中文名 / 英文名 筛选）===== */
@@ -325,7 +363,7 @@ function stockSearch(){ applyStockFilter(); }
 function applyStockFilter(){
   const el=document.getElementById("stockSearch"), q=el?el.value.trim().toLowerCase():"";
   let shown=0;
-  ["tblST","tblCM","tblIX"].forEach(id=>{
+  ["tblST","tblCM","tblIX","tblBN"].forEach(id=>{
     const t=document.querySelector("#"+id+" table"); if(!t||!t.tBodies[0])return;
     [...t.tBodies[0].rows].forEach(r=>{
       const sym=(r.cells[1].textContent||"").replace(/[^A-Za-z0-9]/g,"").toLowerCase();
@@ -1117,8 +1155,52 @@ function clearPolyFeed(){
   setPolyStatus("已清空","warn");
 }
 
+async function getBinanceHist(symbol){
+  try{
+    const rows=await getJson(`${BINANCE_FAPI}/klines?symbol=${encodeURIComponent(symbol)}&interval=1h&limit=30`);
+    return Array.isArray(rows)?rows:null;
+  }catch(e){ return null; }
+}
+function closeAtBinance(rows,ts){
+  if(!rows||!rows.length) return null;
+  let best=rows[0];
+  for(const k of rows){
+    const t=Number(k[6]||k[0]);
+    if(Math.abs(t-ts)<Math.abs(Number(best[6]||best[0])-ts)) best=k;
+  }
+  return parseFloat(best[4]);
+}
+async function loadBinance(){
+  const box=document.getElementById("tblBN"), count=document.getElementById("cBN");
+  if(box&&!DATA.BN.length) box.innerHTML='<div class="bwe-empty">加载 Binance TradFi 合约行情…</div>';
+  if(count&&!DATA.BN.length) count.textContent="加载中…";
+  try{
+    const rows=[];
+    await mapLimit(BINANCE_TRADFI,6,async meta=>{
+      const t=await getJson(`${BINANCE_FAPI}/ticker/24hr?symbol=${encodeURIComponent(meta.symbol)}`);
+      const kl=await getBinanceHist(meta.symbol);
+      const mark=parseFloat(t.lastPrice);
+      rows.push({
+        symbol:meta.symbol,
+        tk:meta.tk,
+        nm:meta.nm,
+        mark,
+        chg24:parseFloat(t.priceChangePercent),
+        chg12:pct(mark,closeAtBinance(kl,Date.now()-12*3600*1000)),
+        vol:parseFloat(t.quoteVolume)
+      });
+    });
+    DATA.BN=rows;
+    renderBinance();
+  }catch(e){
+    if(count) count.textContent="加载失败";
+    if(box) box.innerHTML='<div class="err">Binance 行情加载失败：'+esc(e.message)+'</div>';
+  }
+}
+
 async function load(){
   const btn=document.getElementById("refreshBtn"); btn.disabled=true; btn.textContent="刷新中…";
+  const binancePromise=loadBinance();
   try{
     const d=await post({type:"metaAndAssetCtxs",dex:"xyz"});
     const uni=d[0].universe, ctx=d[1], all=[];
@@ -1142,12 +1224,12 @@ async function load(){
         r.chgNight= pct(r.mark, p04);
       }
     });
-    DATA={ST:all.filter(r=>r.cat==="ST"),CM:all.filter(r=>r.cat==="CM"),IX:all.filter(r=>r.cat==="IX")};
+    DATA={ST:all.filter(r=>r.cat==="ST"),CM:all.filter(r=>r.cat==="CM"),IX:all.filter(r=>r.cat==="IX"),BN:DATA.BN||[]};
     renderAll();
     document.getElementById("updated").textContent=fmtBeijingDateTime();
     nextAt=Date.now()+REFRESH_MS;
   }catch(e){ document.getElementById("tblST").innerHTML='<div class="err">加载失败：'+e.message+'</div>'; }
-  finally{ btn.disabled=false; btn.textContent="刷新行情"; }
+  finally{ try{ await binancePromise; }catch(e){} btn.disabled=false; btn.textContent="刷新行情"; }
 }
 function tick(){
   if(!nextAt){document.getElementById("countdown").textContent="—";return;}
