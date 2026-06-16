@@ -816,8 +816,8 @@ const MACRO_RULES=[
   {tag:"央行",score:7,re:/FOMC|美联储|议息|点阵图|鲍威尔|日本央行|澳洲联储|欧洲央行|英国央行|降息|加息|利率|货币政策/i},
   {tag:"地缘风险",score:6,re:/中东|伊朗|以色列|停火|关税|制裁|战争|冲突|外交|风险偏好|避险/i},
   {tag:"AI芯片",score:5,re:/\bNVIDIA\b|英伟达|\bNVDA\b|SK海力士|海力士|HBM|DRAM|\bAI\b|人工智能|芯片|半导体|算力|机器人|Qwen|Claude|OpenAI/i},
-  {tag:"IPO/大票",score:5,re:/IPO|上市|SpaceX|CoreWeave|Circle|CRCL|特斯拉|Tesla|苹果|微软|Meta|谷歌|阿里|美股/i},
-  {tag:"大宗商品",score:4,re:/黄金|白银|原油|天然气|铜|WTI|Brent|布伦特|OPEC|库存|央行增持黄金/i},
+  {tag:"IPO/大票",score:5,re:/IPO|SpaceX|CoreWeave|Circle|CRCL|特斯拉|Tesla|苹果|微软|Meta|谷歌|阿里|美股/i},
+  {tag:"大宗商品",score:4,re:/黄金|白银|原油|天然气|WTI|Brent|布伦特|OPEC|EIA|API原油|央行增持黄金|铜价|铜矿/i},
   {tag:"市场主线",score:3,re:/今日重点关注|本周|前瞻|调查|会议|发布会|财报|指引|预期/i}
 ];
 function macroSetStatus(text,kind){
@@ -866,6 +866,8 @@ function buildMacroEvents(){
   const events=[];
   const todayKey=beijingDateKey();
   macroNewsPool().forEach(item=>{
+    const rawTitle=String(item.title||"").trim();
+    if(rawTitle.length<6||/国å|�|午间独家观点|^\s*【.*观点】\s*$/.test(rawTitle)) return;
     const text=[item.title,item.body,(item.tags||[]).join(" ")].join(" ");
     let score=0, tags=[];
     MACRO_RULES.forEach(rule=>{
