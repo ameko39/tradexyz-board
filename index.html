@@ -173,14 +173,14 @@
   <div class="feed-grid">
     <div class="card">
       <div class="bwe-head">
-        <h2>BWEnews 实时快讯 <span id="bweCount">0 条</span></h2>
-        <div id="bweStatus" class="bwe-status warn"><span class="bwe-dot"></span><span id="bweStatusText">连接中</span></div>
+        <h2>BWE TradFi TG 快讯 <span id="bweCount">0 条</span></h2>
+        <div id="bweStatus" class="bwe-status warn"><span class="bwe-dot"></span><span id="bweStatusText">加载中</span></div>
         <div class="bwe-actions">
-          <button class="mini-btn" onclick="connectBwe(true)">重连</button>
+          <button class="mini-btn" onclick="refreshBweTg(true)">刷新</button>
           <button class="mini-btn" onclick="clearBweFeed()">清空</button>
         </div>
       </div>
-      <div id="bweList" class="bwe-list"><div class="bwe-empty">等待 BWEnews 推送…</div></div>
+      <div id="bweList" class="bwe-list"><div class="bwe-empty">加载 BWE TradFi Telegram 频道…</div></div>
     </div>
     <div class="card">
       <div class="bwe-head">
@@ -203,7 +203,7 @@
         </div>
       </div>
       <div id="newsStoreList" class="bwe-list archive-list"><div class="bwe-empty">还没有保存的快讯。</div></div>
-      <div class="archive-note">仅保留本浏览器收到的最近 15 天快讯；BWEnews 和金十 TG 会统一去重入库。</div>
+      <div class="archive-note">仅保留本浏览器收到的最近 15 天快讯；BWE TradFi TG 和金十 TG 会统一去重入库。</div>
     </div>
   </div>
 </div>
@@ -226,9 +226,9 @@
   价格 / 涨跌幅：浏览器直连 <code>api.hyperliquid.xyz/info</code> 实时计算（24h = markPx vs prevDayPx；12h = markPx vs 12h 前 1h K 线收盘）。表头可点击切换排序；点击任一行可打开该标的 K 线与技术研判。<br>
   个股专属两列（均按北京时间，UTC+8 无夏令时）：<b>盘前</b> = 自当日 16:00 起的累计涨幅（含美股盘前 16:00–21:30 及盘中 21:30–04:00）；<b>夜盘</b> = 04:00–16:00 时段涨幅（美股盘后 + 隔夜延长时段）。两段在时间上拼成完整一天；进行中的时段实时累计，已结束的时段为固定值。大宗 / 指数为近 24h 连续交易品种，不适用盘前 / 夜盘，故只保留 24h / 12h。<br>
   覆盖：tradexyz(<code>xyz</code> dex)上全部标的，按资产类别分 个股 / 大宗商品 / 指数·ETF 三表；外汇(EUR/GBP/JPY/KRW/DXY)与加密噪音(QNT/PURRDAT)已剔除。任何新上标的若未归类，默认进「个股」表，不会漏。<br>
-  BWEnews 快讯：浏览器直连 <code>wss://bwenews-api.bwe-ws.com/ws</code>，仅展示 BWEnews 自有编辑内容；连接保持使用 plain text <code>ping</code>/<code>pong</code>。<br>
+  BWE TradFi TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/BWEtradfi</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
   金十 TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/jin10light</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
-  15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWEnews 与金十 TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。<br>
+  15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG 与金十 TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。<br>
   <b>刷新行情</b> 会重新拉取价格/涨跌幅（浏览器直连 API，秒级）；行情每 2h 自动刷新一次。<br>
   仅显示 24h 有成交量的标的（零成交已隐藏）。
 </footer>
@@ -323,9 +323,11 @@ function applyStockFilter(){
 }
 function setSort(key){ if(sortKey===key){sortDir=-sortDir;}else{sortKey=key;sortDir=(key==='tk'||key==='nm')?1:-1;} renderAll(); }
 
-const BWE_WS_URL="wss://bwenews-api.bwe-ws.com/ws";
+const BWE_CHANNEL="BWEtradfi";
+const BWE_FEED_URL="https://r.jina.ai/https://t.me/s/BWEtradfi";
+const BWE_REFRESH_MS=60*1000;
 const BWE_MAX_ITEMS=80;
-let BWE_WS=null, BWE_PING=null, BWE_RETRY=null, BWE_RETRY_MS=1000, BWE_CONN_ID=0, BWE_ITEMS=[];
+let BWE_ITEMS=[];
 
 function esc(s){
   return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -343,76 +345,131 @@ function setBweStatus(text,kind){
 }
 function loadBweCache(){
   try{
-    const raw=localStorage.getItem("bwenews-items");
+    const raw=localStorage.getItem("bwe-tradfi-tg-items");
     BWE_ITEMS=raw?JSON.parse(raw).slice(0,BWE_MAX_ITEMS):[];
   }catch(e){ BWE_ITEMS=[]; }
 }
 function saveBweCache(){
-  try{ localStorage.setItem("bwenews-items",JSON.stringify(BWE_ITEMS.slice(0,40))); }catch(e){}
+  try{ localStorage.setItem("bwe-tradfi-tg-items",JSON.stringify(BWE_ITEMS.slice(0,40))); }catch(e){}
 }
 function renderBwe(){
   const box=document.getElementById("bweList"), count=document.getElementById("bweCount");
   if(count) count.textContent=BWE_ITEMS.length+" 条";
   if(!box) return;
-  if(!BWE_ITEMS.length){ box.innerHTML='<div class="bwe-empty">等待 BWEnews 推送…</div>'; return; }
+  if(!BWE_ITEMS.length){ box.innerHTML='<div class="bwe-empty">等待 BWE TradFi TG 数据…</div>'; return; }
   box.innerHTML=BWE_ITEMS.map(n=>{
-    const title=esc(n.news_title||"Untitled");
+    const title=esc(n.title||"BWE TradFi 快讯");
     const url=String(n.url||"").trim();
-    const coins=Array.isArray(n.coins_included)?n.coins_included:[];
+    const body=n.body?`<div class="bwe-text">${esc(n.body)}</div>`:"";
+    const tags=Array.isArray(n.tags)?n.tags:[];
     const titleHtml=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>`:title;
-    const coinHtml=coins.length?`<div class="bwe-coins">${coins.map(c=>`<span class="bwe-coin">${esc(c)}</span>`).join("")}</div>`:"";
-    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source">${esc(n.source_name||"BWENEWS")}</span><span>${fmtBweTime(n.timestamp)}</span></div><div class="bwe-title">${titleHtml}</div>${coinHtml}</div>`;
+    const tagHtml=tags.length?`<div class="bwe-coins">${tags.slice(0,8).map(t=>`<span class="bwe-coin">${esc(t)}</span>`).join("")}</div>`:"";
+    const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">原文</a>`:"";
+    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source">BWE TradFi</span><span>${esc(n.fullTime||n.time||"--")}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
   }).join("");
 }
-function addBweItem(item){
-  if(!item||!item.news_title) return;
-  const key=[item.timestamp||"",item.news_title||"",item.url||""].join("|");
-  BWE_ITEMS=BWE_ITEMS.filter(n=>[n.timestamp||"",n.news_title||"",n.url||""].join("|")!==key);
-  BWE_ITEMS.unshift(item);
-  BWE_ITEMS=BWE_ITEMS.slice(0,BWE_MAX_ITEMS);
-  saveBweCache();
-  renderBwe();
-  addNewsItems([newsFromBwe(item)]);
+function cleanBweChunk(chunk,tags){
+  let fullTime="";
+  const seen=new Set();
+  chunk=chunk.replace(/\[#([^\]]+)\]\(https:\/\/t\.me\/s\/BWEtradfi\?q=[^)]+\)/gi,(_,tag)=>{
+    const t="#"+tag.trim();
+    if(t.length>1&&!seen.has(t)){ seen.add(t); tags.push(t); }
+    return " ";
+  });
+  const text=chunk.split(/\n+/).map(line=>{
+    line=line.trim();
+    if(!line) return "";
+    if(line.includes("![Image")) return "";
+    if(/^\[?@?BWETradFi/i.test(line)) return "";
+    if(/^\[?\]\(https:\/\/t\.me\/s\/BWEtradfi/i.test(line)) return "";
+    if(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(line)) return "";
+    if(/^\d[\d,.Kk]*\s+views(?:\s+edited)?/i.test(line)) return "";
+    if(/Download Telegram|About|Blog|Apps|Platform|subscribers|links|Disclaimer|auto forwarded|accuracy/i.test(line)) return "";
+    line=line.replace(/\[_\*\*([^*]+)\*\*_\]/g,"$1");
+    line=line.replace(/\[([^\]]+)\]\(([^)]+)\)/g,"$1");
+    line=line.replace(/\*+/g,"").replace(/[_`]/g,"");
+    line=line.replace(/\s+/g," ").trim();
+    if(/^[-—_]{6,}$/.test(line)) return "";
+    if(/^20\d{2}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}$/.test(line)){ fullTime=line; return ""; }
+    if(/^(?:[\u{1F300}-\u{1FAFF}\u2600-\u27BF]\s*\d*\s*)+$/u.test(line)) return "";
+    return line;
+  }).filter(Boolean).join("\n").trim();
+  return {text,fullTime};
 }
-function handleBweMessage(raw){
-  if(raw==="pong"){ setBweStatus("已连接","ok"); return; }
-  try{ addBweItem(JSON.parse(raw)); }
-  catch(e){ console.warn("BWEnews payload parse failed",e); }
+function parseBweTimestamp(s){
+  const m=String(s||"").match(/^(20\d{2})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2}):(\d{2})$/);
+  if(!m) return null;
+  const t=Date.parse(`${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}+08:00`);
+  return isFinite(t)?t:null;
 }
-function stopBweSocket(){
-  if(BWE_PING){ clearInterval(BWE_PING); BWE_PING=null; }
-  if(BWE_RETRY){ clearTimeout(BWE_RETRY); BWE_RETRY=null; }
-  if(BWE_WS){
-    BWE_WS.onopen=BWE_WS.onmessage=BWE_WS.onerror=BWE_WS.onclose=null;
-    try{ BWE_WS.close(); }catch(e){}
-    BWE_WS=null;
+function parseBweMarkdown(md){
+  const re=new RegExp("\\[(\\d{2}:\\d{2})\\]\\(https:\\/\\/t\\.me\\/"+BWE_CHANNEL+"\\/(\\d+)\\)","gi");
+  const hits=[...String(md||"").matchAll(re)];
+  const markerLink=`](https://t.me/${BWE_CHANNEL})`;
+  const items=[];
+  hits.forEach((m,i)=>{
+    const prev=i?hits[i-1].index+hits[i-1][0].length:0;
+    let chunk=md.slice(prev,m.index);
+    const p=chunk.lastIndexOf(markerLink);
+    if(p>=0) chunk=chunk.slice(p+markerLink.length);
+    const tags=[];
+    const cleaned=cleanBweChunk(chunk,tags);
+    if(!cleaned.text) return;
+    const lines=cleaned.text.split(/\n+/).map(x=>x.trim()).filter(Boolean);
+    if(!lines.length) return;
+    let titleIdx=lines.findIndex(x=>/[\u4e00-\u9fff]/.test(x));
+    if(titleIdx<0) titleIdx=0;
+    let title=lines[titleIdx].replace(/^Tradfin:\s*/i,"").trim();
+    let body=lines.filter((_,idx)=>idx!==titleIdx).map(x=>x.replace(/^Tradfin:\s*/i,"").trim()).filter(Boolean).join(" ");
+    if(!body&&title.length>110){ body=title.slice(110); title=title.slice(0,109).trim()+"…"; }
+    const ts=parseBweTimestamp(cleaned.fullTime);
+    items.push({
+      id:m[2],
+      time:m[1],
+      fullTime:cleaned.fullTime||m[1],
+      ts:ts||null,
+      url:`https://t.me/${BWE_CHANNEL}/${m[2]}`,
+      title:truncateText(title,130),
+      body:truncateText(body,280),
+      tags
+    });
+  });
+  const byId=new Map();
+  items.forEach(item=>{ if(!byId.has(item.id)) byId.set(item.id,item); });
+  return [...byId.values()].sort((a,b)=>Number(b.id)-Number(a.id)).slice(0,BWE_MAX_ITEMS);
+}
+async function refreshBweTg(force){
+  setBweStatus("刷新中","warn");
+  try{
+    const url=BWE_FEED_URL+(force?`?_=${Date.now()}`:"");
+    const r=await fetch(url,{cache:"no-store",headers:{"Accept":"text/plain"}});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const items=parseBweMarkdown(await r.text());
+    if(!items.length){
+      if(BWE_ITEMS.length){
+        setBweStatus("使用缓存","warn");
+        renderBwe();
+        return;
+      }
+      throw new Error("没有解析到频道消息");
+    }
+    const fresh=new Set(items.map(x=>x.id));
+    BWE_ITEMS=[...items,...BWE_ITEMS.filter(x=>!fresh.has(x.id))]
+      .sort((a,b)=>Number(b.id)-Number(a.id))
+      .slice(0,BWE_MAX_ITEMS);
+    saveBweCache();
+    renderBwe();
+    addNewsItems(items.map(newsFromBwe));
+    setBweStatus("已更新 "+new Date().toLocaleTimeString("zh-CN",{hour12:false}),"ok");
+  }catch(e){
+    if(BWE_ITEMS.length){
+      setBweStatus("使用缓存","warn");
+    }else{
+      console.warn("BWE TradFi TG fetch failed",e);
+      setBweStatus("读取失败","bad");
+    }
+    renderBwe();
   }
-}
-function connectBwe(force){
-  if(!force && BWE_WS && (BWE_WS.readyState===WebSocket.OPEN || BWE_WS.readyState===WebSocket.CONNECTING)) return;
-  stopBweSocket();
-  const id=++BWE_CONN_ID;
-  setBweStatus("连接中","warn");
-  try{ BWE_WS=new WebSocket(BWE_WS_URL); }
-  catch(e){ scheduleBweReconnect(id); return; }
-  BWE_WS.onopen=()=>{
-    if(id!==BWE_CONN_ID) return;
-    BWE_RETRY_MS=1000;
-    setBweStatus("已连接","ok");
-    try{ BWE_WS.send("ping"); }catch(e){}
-    BWE_PING=setInterval(()=>{ try{ if(BWE_WS&&BWE_WS.readyState===WebSocket.OPEN) BWE_WS.send("ping"); }catch(e){} },25000);
-  };
-  BWE_WS.onmessage=e=>{ if(id===BWE_CONN_ID) handleBweMessage(String(e.data)); };
-  BWE_WS.onerror=()=>{ if(id===BWE_CONN_ID) setBweStatus("连接异常","bad"); };
-  BWE_WS.onclose=()=>{ if(id===BWE_CONN_ID) scheduleBweReconnect(id); };
-}
-function scheduleBweReconnect(id){
-  if(id!==BWE_CONN_ID) return;
-  if(BWE_PING){ clearInterval(BWE_PING); BWE_PING=null; }
-  setBweStatus("重连中","warn");
-  const wait=BWE_RETRY_MS;
-  BWE_RETRY_MS=Math.min(BWE_RETRY_MS*1.8,30000);
-  BWE_RETRY=setTimeout(()=>connectBwe(true),wait);
 }
 function clearBweFeed(){
   BWE_ITEMS=[];
@@ -513,15 +570,16 @@ function fmtNewsStoreTime(item){
   return item.timeText||"--";
 }
 function newsFromBwe(n){
-  const ts=newsTimeMs(n.timestamp)||Date.now();
   return {
-    key:["BWEnews",n.timestamp||"",n.news_title||"",n.url||""].join("|"),
-    source:"BWEnews",
-    title:n.news_title||"",
+    key:"BWE_TRADFI|"+(n.id||n.url||n.title||""),
+    id:n.id||"",
+    source:"BWE TradFi",
+    title:n.title||n.news_title||"",
+    body:n.body||"",
     url:n.url||"",
-    ts,
-    timeText:fmtBweTime(n.timestamp),
-    tags:Array.isArray(n.coins_included)?n.coins_included:[]
+    ts:n.ts||newsTimeMs(n.timestamp)||null,
+    timeText:n.fullTime||n.time||fmtBweTime(n.timestamp),
+    tags:n.tags||(Array.isArray(n.coins_included)?n.coins_included:[])
   };
 }
 function newsFromJin10(n){
@@ -839,10 +897,11 @@ renderBwe();
 loadJin10Cache();
 renderJin10();
 syncNewsStoreFromFeeds();
-connectBwe();
+refreshBweTg();
 refreshJin10();
 load();
 setInterval(load,REFRESH_MS);
+setInterval(()=>refreshBweTg(false),BWE_REFRESH_MS);
 setInterval(()=>refreshJin10(false),JIN10_REFRESH_MS);
 setInterval(tick,1000);
 </script>
