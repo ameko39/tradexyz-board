@@ -1,8 +1,45 @@
 {
-  "updatedAt": null,
-  "beijingDate": null,
-  "range": null,
-  "weeks": [],
+  "updatedAt": "2026-06-16T16:08:27.112Z",
+  "beijingDate": "2026-06-17",
+  "range": {
+    "start": "2026-06-17",
+    "end": "2026-06-30"
+  },
+  "weeks": [
+    {
+      "year": 2026,
+      "week": 25
+    },
+    {
+      "year": 2026,
+      "week": 27
+    }
+  ],
   "rows": [],
-  "errors": []
+  "errors": [
+    {
+      "url": "https://cdn-rili.jin10.com/web_data/2026/week/25/economics.json",
+      "message": "fetch failed"
+    },
+    {
+      "url": "https://cdn-rili.jin10.com/web_data/2026/week/25/event.json",
+      "message": "fetch failed"
+    },
+    {
+      "url": "https://cdn-rili.jin10.com/web_data/2026/week/25/holiday.json",
+      "message": "fetch failed"
+    },
+    {
+      "url": "https://cdn-rili.jin10.com/web_data/2026/week/27/economics.json",
+      "message": "fetch failed"
+    },
+    {
+      "url": "https://cdn-rili.jin10.com/web_data/2026/week/27/event.json",
+      "message": "fetch failed"
+    },
+    {
+      "url": "https://cdn-rili.jin10.com/web_data/2026/week/27/holiday.json",
+      "message": "fetch failed"
+    }
+  ]
 }
