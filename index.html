@@ -78,6 +78,7 @@
   .bwe-meta a:hover{color:var(--accent)}
   .bwe-source{font-weight:800;color:var(--accent)}
   .bwe-source.jin10{color:var(--warn)}
+  .bwe-source.poly{color:#16c784}
   .bwe-title{font-size:14px;font-weight:700;line-height:1.45;color:var(--txt)}
   .bwe-title a{color:inherit;text-decoration:none}
   .bwe-title a:hover{color:var(--accent)}
@@ -86,8 +87,10 @@
   .bwe-coins{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
   .bwe-coin{font-size:10px;font-weight:700;border-radius:999px;padding:2px 7px;background:rgba(91,141,239,.14);color:#9db6f0}
   .bwe-coin.jin10{background:rgba(227,160,8,.13);color:#e3b64f}
+  .bwe-coin.poly{background:rgba(22,199,132,.12);color:#72d9ad}
   body.light .bwe-coin{background:rgba(47,111,237,.12);color:#2f5fc0}
   body.light .bwe-coin.jin10{background:rgba(169,117,10,.12);color:#8a5f08}
+  body.light .bwe-coin.poly{background:rgba(10,143,91,.1);color:#08784c}
   body.light .mini-btn{color:var(--txt)}
   body.light .bwe-title a:hover{color:var(--accent)}
 
@@ -193,6 +196,17 @@
       </div>
       <div id="jin10List" class="bwe-list"><div class="bwe-empty">加载金十 Telegram 频道…</div></div>
     </div>
+    <div class="card">
+      <div class="bwe-head">
+        <h2>PolyBeats TG 快讯 <span id="polyCount">0 条</span></h2>
+        <div id="polyStatus" class="bwe-status warn"><span class="bwe-dot"></span><span id="polyStatusText">加载中</span></div>
+        <div class="bwe-actions">
+          <button class="mini-btn" onclick="refreshPoly(true)">刷新</button>
+          <button class="mini-btn" onclick="clearPolyFeed()">清空</button>
+        </div>
+      </div>
+      <div id="polyList" class="bwe-list"><div class="bwe-empty">加载 PolyBeats Telegram 频道…</div></div>
+    </div>
     <div class="card archive-card">
       <div class="bwe-head">
         <h2>15日快讯库 <span id="newsStoreCount">0 条</span></h2>
@@ -203,7 +217,7 @@
         </div>
       </div>
       <div id="newsStoreList" class="bwe-list archive-list"><div class="bwe-empty">还没有保存的快讯。</div></div>
-      <div class="archive-note">仅保留本浏览器收到的最近 15 天快讯；BWE TradFi TG 和金十 TG 会统一去重入库。</div>
+      <div class="archive-note">仅保留本浏览器收到的最近 15 天快讯；BWE TradFi TG、金十 TG 与 PolyBeats TG 会统一去重入库。</div>
     </div>
   </div>
 </div>
@@ -228,7 +242,8 @@
   覆盖：tradexyz(<code>xyz</code> dex)上全部标的，按资产类别分 个股 / 大宗商品 / 指数·ETF 三表；外汇(EUR/GBP/JPY/KRW/DXY)与加密噪音(QNT/PURRDAT)已剔除。任何新上标的若未归类，默认进「个股」表，不会漏。<br>
   BWE TradFi TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/BWEtradfi</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
   金十 TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/jin10light</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
-  15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG 与金十 TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。<br>
+  PolyBeats TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/PolyBeats_Bot</code>，前端每 60s 轮询一次；公开页未暴露单条消息 ID，因此用日期与内容摘要去重。<br>
+  15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG、金十 TG 与 PolyBeats TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。<br>
   <b>刷新行情</b> 会重新拉取价格/涨跌幅（浏览器直连 API，秒级）；行情每 2h 自动刷新一次。<br>
   仅显示 24h 有成交量的标的（零成交已隐藏）。
 </footer>
@@ -595,13 +610,30 @@ function newsFromJin10(n){
     tags:n.tags||[]
   };
 }
+function newsFromPoly(n){
+  return {
+    key:"POLYBEATS|"+(n.id||n.url||n.title||""),
+    id:n.id||"",
+    source:"PolyBeats",
+    title:n.title||"",
+    body:n.body||"",
+    url:n.url||"",
+    ts:n.ts||null,
+    timeText:n.dateText||"",
+    tags:n.tags||[]
+  };
+}
 function syncNewsStoreFromFeeds(){
   const items=[
     ...BWE_ITEMS.map(newsFromBwe),
-    ...JIN10_ITEMS.map(newsFromJin10)
+    ...JIN10_ITEMS.map(newsFromJin10),
+    ...POLY_ITEMS.map(newsFromPoly)
   ];
   addNewsItems(items,false);
   renderNewsStore();
+}
+function newsSourceClass(source){
+  return source==="JIN10 TG"?" jin10":(source==="PolyBeats"?" poly":"");
 }
 function renderNewsStore(){
   NEWS_STORE=pruneNewsStore(NEWS_STORE);
@@ -612,7 +644,7 @@ function renderNewsStore(){
   if(!box) return;
   if(!NEWS_STORE.length){ box.innerHTML='<div class="bwe-empty">还没有保存的快讯。</div>'; return; }
   const rows=NEWS_STORE.slice(0,NEWS_STORE_RENDER_LIMIT).map(n=>{
-    const sourceClass=n.source==="JIN10 TG"?" jin10":"";
+    const sourceClass=newsSourceClass(n.source);
     const url=String(n.url||"").trim();
     const body=n.body?`<div class="bwe-text">${esc(n.body)}</div>`:"";
     const tagHtml=n.tags&&n.tags.length?`<div class="bwe-coins">${n.tags.slice(0,10).map(t=>`<span class="bwe-coin${sourceClass}">${esc(t)}</span>`).join("")}</div>`:"";
@@ -765,6 +797,165 @@ function clearJin10Feed(){
   setJin10Status("已清空","warn");
 }
 
+const POLY_CHANNEL="PolyBeats_Bot";
+const POLY_FEED_URL="https://r.jina.ai/https://t.me/s/PolyBeats_Bot";
+const POLY_REFRESH_MS=60*1000;
+const POLY_MAX_ITEMS=60;
+let POLY_ITEMS=[];
+
+function setPolyStatus(text,kind){
+  const el=document.getElementById("polyStatus"), tx=document.getElementById("polyStatusText");
+  if(!el||!tx) return;
+  el.className="bwe-status "+(kind||"warn");
+  tx.textContent=text;
+}
+function loadPolyCache(){
+  try{
+    const raw=localStorage.getItem("polybeats-tg-items");
+    POLY_ITEMS=raw?JSON.parse(raw).slice(0,POLY_MAX_ITEMS):[];
+  }catch(e){ POLY_ITEMS=[]; }
+}
+function savePolyCache(){
+  try{ localStorage.setItem("polybeats-tg-items",JSON.stringify(POLY_ITEMS.slice(0,40))); }catch(e){}
+}
+function renderPoly(){
+  const box=document.getElementById("polyList"), count=document.getElementById("polyCount");
+  if(count) count.textContent=POLY_ITEMS.length+" 条";
+  if(!box) return;
+  if(!POLY_ITEMS.length){ box.innerHTML='<div class="bwe-empty">等待 PolyBeats TG 数据…</div>'; return; }
+  box.innerHTML=POLY_ITEMS.map(n=>{
+    const url=String(n.url||"").trim();
+    const title=esc(n.title||"PolyBeats 快讯");
+    const body=n.body?`<div class="bwe-text">${esc(n.body)}</div>`:"";
+    const tagHtml=n.tags&&n.tags.length?`<div class="bwe-coins">${n.tags.slice(0,8).map(t=>`<span class="bwe-coin poly">${esc(t)}</span>`).join("")}</div>`:"";
+    const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">频道</a>`:"";
+    const titleHtml=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>`:title;
+    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source poly">PolyBeats</span><span>${esc(n.dateText||"--")}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
+  }).join("");
+}
+function hashText(s){
+  let h=0;
+  s=String(s||"");
+  for(let i=0;i<s.length;i++) h=(Math.imul(31,h)+s.charCodeAt(i))|0;
+  return (h>>>0).toString(36);
+}
+function parseMonthDay(dateText){
+  const months={january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11};
+  const m=String(dateText||"").trim().match(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})$/i);
+  if(!m) return null;
+  const now=new Date();
+  let t=new Date(now.getFullYear(),months[m[1].toLowerCase()],Number(m[2]),12,0,0).getTime();
+  if(t-Date.now()>36*60*60*1000) t=new Date(now.getFullYear()-1,months[m[1].toLowerCase()],Number(m[2]),12,0,0).getTime();
+  return isFinite(t)?t:null;
+}
+function polyTagsFromText(text){
+  const tags=["PolyBeats"];
+  if(/Polymarket/i.test(text)) tags.push("Polymarket");
+  if(/OmenX/i.test(text)) tags.push("OmenX");
+  return tags;
+}
+function cleanPolyChunk(chunk){
+  let dateText="";
+  const text=String(chunk||"").split(/\n+/).map(line=>{
+    line=line.trim();
+    if(!line) return "";
+    if(line.includes("![Image")) return "";
+    if(/^(Title:|URL Source:|Markdown Content:)/i.test(line)) return "";
+    if(/^PolyBeats$/i.test(line)) return "";
+    if(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(line)){ dateText=line; return ""; }
+    if(/^[-—]{6,}$/.test(line)) return "";
+    if(/Download Telegram|About|Blog|Apps|Platform|subscribers/i.test(line)) return "";
+    if(/关注\s*\[@?PolyBeats|Follow\s+\[@?PolyBeats|PolyBeatsVip|BlockBeats会员|如需订阅/i.test(line)) return "";
+    if(/_\*\*.+?\*\*_/.test(line)&&!/[A-Za-z0-9\u4e00-\u9fff]/.test(line.replace(/_\*\*.+?\*\*_/g,""))) return "";
+    line=line.replace(/^>\s*/,"");
+    line=line.replace(/\[_\*\*([^*]+)\*\*_\]/g,"$1");
+    line=line.replace(/\*\*/g,"").replace(/[_`]/g,"");
+    line=line.replace(/\[([^\]]+)\]\(([^)]+)\)/g,"$1");
+    line=line.replace(/\s+/g," ").trim();
+    if(/^(❤|💩|👍|🔥|👏|🙏|\s|\d)+$/u.test(line)) return "";
+    return line;
+  }).filter(Boolean).join("\n").trim();
+  return {text,dateText};
+}
+function parsePolyMarkdown(md){
+  const chunks=[], current=[];
+  String(md||"").split(/\n/).forEach(line=>{
+    const isImage=line.includes("![Image")&&line.includes(`](https://t.me/${POLY_CHANNEL})`);
+    if(isImage){
+      if(current.length) chunks.push(current.join("\n"));
+      current.length=0;
+      return;
+    }
+    current.push(line);
+  });
+  if(current.length) chunks.push(current.join("\n"));
+  const items=[];
+  chunks.forEach((chunk,idx)=>{
+    const cleaned=cleanPolyChunk(chunk);
+    if(!cleaned.text) return;
+    const lines=cleaned.text.split(/\n+/).map(x=>x.trim()).filter(Boolean);
+    if(!lines.length) return;
+    let title=lines[0], body=lines.slice(1).join(" ");
+    if(!body&&title.length>110){ body=title.slice(110); title=title.slice(0,109).trim()+"…"; }
+    const fingerprint=[cleaned.dateText,title,body.slice(0,180)].join("|");
+    const ts=parseMonthDay(cleaned.dateText);
+    items.push({
+      id:hashText(fingerprint),
+      seq:idx,
+      dateText:cleaned.dateText||"",
+      ts:ts||null,
+      url:`https://t.me/${POLY_CHANNEL}`,
+      title:truncateText(title,130),
+      body:truncateText(body,300),
+      tags:polyTagsFromText(cleaned.text)
+    });
+  });
+  const byId=new Map();
+  items.forEach(item=>{ if(!byId.has(item.id)) byId.set(item.id,item); });
+  return [...byId.values()]
+    .sort((a,b)=>(Number(b.ts||0)-Number(a.ts||0))||(Number(b.seq||0)-Number(a.seq||0)))
+    .slice(0,POLY_MAX_ITEMS);
+}
+async function refreshPoly(force){
+  setPolyStatus("刷新中","warn");
+  try{
+    const url=POLY_FEED_URL+(force?`?_=${Date.now()}`:"");
+    const r=await fetch(url,{cache:"no-store",headers:{"Accept":"text/plain"}});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const items=parsePolyMarkdown(await r.text());
+    if(!items.length){
+      if(POLY_ITEMS.length){
+        setPolyStatus("使用缓存","warn");
+        renderPoly();
+        return;
+      }
+      throw new Error("没有解析到频道消息");
+    }
+    const fresh=new Set(items.map(x=>x.id));
+    POLY_ITEMS=[...items,...POLY_ITEMS.filter(x=>!fresh.has(x.id))]
+      .sort((a,b)=>(Number(b.ts||0)-Number(a.ts||0))||(Number(b.seq||0)-Number(a.seq||0)))
+      .slice(0,POLY_MAX_ITEMS);
+    savePolyCache();
+    renderPoly();
+    addNewsItems(items.map(newsFromPoly));
+    setPolyStatus("已更新 "+new Date().toLocaleTimeString("zh-CN",{hour12:false}),"ok");
+  }catch(e){
+    if(POLY_ITEMS.length){
+      setPolyStatus("使用缓存","warn");
+    }else{
+      console.warn("PolyBeats TG fetch failed",e);
+      setPolyStatus("读取失败","bad");
+    }
+    renderPoly();
+  }
+}
+function clearPolyFeed(){
+  POLY_ITEMS=[];
+  savePolyCache();
+  renderPoly();
+  setPolyStatus("已清空","warn");
+}
+
 async function load(){
   const btn=document.getElementById("refreshBtn"); btn.disabled=true; btn.textContent="刷新中…";
   try{
@@ -896,13 +1087,17 @@ loadBweCache();
 renderBwe();
 loadJin10Cache();
 renderJin10();
+loadPolyCache();
+renderPoly();
 syncNewsStoreFromFeeds();
 refreshBweTg();
 refreshJin10();
+refreshPoly();
 load();
 setInterval(load,REFRESH_MS);
 setInterval(()=>refreshBweTg(false),BWE_REFRESH_MS);
 setInterval(()=>refreshJin10(false),JIN10_REFRESH_MS);
+setInterval(()=>refreshPoly(false),POLY_REFRESH_MS);
 setInterval(tick,1000);
 </script>
 </body>
