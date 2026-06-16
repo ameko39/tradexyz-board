@@ -64,6 +64,56 @@ async function fetchJson(url) {
   }
 }
 
+function inferCountry(title) {
+  const m = String(title || "").match(/美国|中国|日本|欧元区|德国|英国|法国|瑞士|加拿大|澳大利亚|韩国|新西兰/);
+  return m ? m[0] : "";
+}
+
+async function scrapePublicWeekRows() {
+  let chromium;
+  try {
+    ({ chromium } = await import("playwright"));
+  } catch {
+    return [];
+  }
+  const browser = await chromium.launch({ headless: true });
+  try {
+    const page = await browser.newPage({ viewport: { width: 1280, height: 1600 } });
+    await page.goto("https://rili.jin10.com/", { waitUntil: "networkidle", timeout: 45000 });
+    const text = await page.locator("body").innerText({ timeout: 15000 });
+    const lines = text.split(/\n+/).map(x => x.trim()).filter(Boolean);
+    const start = text.match(/(20\d{2})年(\d{2})月(\d{2})日-\d{4}年\d{2}月\d{2}日/) ||
+      text.match(/(20\d{2})-(\d{2})-(\d{2})/);
+    const weekStart = start ? `${start[1]}-${start[2]}-${start[3]}` : beijingDateKey();
+    const dayMap = { "一": 0, "二": 1, "三": 2, "四": 3, "五": 4, "六": 5, "日": 6 };
+    const rows = [];
+    let currentDay = null;
+    for (let i = 0; i < lines.length; i++) {
+      const day = lines[i].match(/^周([一二三四五六日])$/);
+      if (day) {
+        currentDay = dayMap[day[1]];
+        continue;
+      }
+      if (currentDay == null || !/^\d{1,2}:\d{2}$/.test(lines[i])) continue;
+      const title = lines[i + 1] || "";
+      if (!title || /^周[一二三四五六日]$|^\/\s*[A-Za-z]+/.test(title)) continue;
+      const date = addDaysKey(weekStart, currentDay);
+      rows.push({
+        __kind: "event",
+        __dateHint: date,
+        event_time: `${date} ${lines[i]}`,
+        event_content: title,
+        country: inferCountry(title),
+        star: 3,
+        source: "jin10-public-week"
+      });
+    }
+    return rows;
+  } finally {
+    await browser.close();
+  }
+}
+
 async function main() {
   const today = beijingDateKey();
   const endKey = addDaysKey(today, 13);
@@ -80,6 +130,14 @@ async function main() {
       } catch (error) {
         errors.push({ url, message: error.message });
       }
+    }
+  }
+
+  if (!rows.length) {
+    try {
+      rows.push(...await scrapePublicWeekRows());
+    } catch (error) {
+      errors.push({ url: "https://rili.jin10.com/", message: `public scrape failed: ${error.message}` });
     }
   }
 
