@@ -358,6 +358,31 @@ function fmtBeijingClock(v){
   if(isNaN(+d)) return "--";
   return d.toLocaleTimeString("zh-CN",{timeZone:BEIJING_TZ,hour12:false});
 }
+function fmtBeijingShort(v){
+  return fmtBeijingDateTime(v,{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"});
+}
+function fmtReceivedLabel(v,withDate){
+  const ms=Number(v);
+  if(!isFinite(ms)) return "";
+  return "接收 "+(withDate?fmtBeijingShort(ms):fmtBeijingClock(ms));
+}
+function preserveReceivedAt(items,existing,keyFn){
+  const seen=new Map();
+  (existing||[]).forEach(item=>{
+    const key=keyFn(item);
+    const t=Number(item&&item.receivedAt);
+    if(key&&isFinite(t)) seen.set(key,t);
+  });
+  const now=Date.now();
+  return (items||[]).map(item=>{
+    const key=keyFn(item);
+    const old=key?seen.get(key):null;
+    return Object.assign({},item,{receivedAt:item.receivedAt||old||now});
+  });
+}
+function isMonthDayText(s){
+  return /^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(String(s||"").trim());
+}
 function beijingDateParts(v){
   const parts=new Intl.DateTimeFormat("zh-CN",{
     timeZone:BEIJING_TZ,year:"numeric",month:"2-digit",day:"2-digit"
@@ -397,8 +422,9 @@ function renderBwe(){
     const tags=Array.isArray(n.tags)?n.tags:[];
     const titleHtml=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>`:title;
     const tagHtml=tags.length?`<div class="bwe-coins">${tags.slice(0,8).map(t=>`<span class="bwe-coin">${esc(t)}</span>`).join("")}</div>`:"";
-    const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">原文</a>`:"";
-    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source">BWE TradFi</span><span>${esc(n.fullTime||n.time||"--")}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
+    const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${n.channelOnly?"频道":"原文"}</a>`:"";
+    const timeLabel=n.receivedTime?fmtReceivedLabel(n.receivedAt,false):(n.fullTime||n.time||"--");
+    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source">BWE TradFi</span><span>${esc(timeLabel)}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
   }).join("");
 }
 function cleanBweChunk(chunk,tags){
@@ -486,13 +512,14 @@ async function refreshBweTg(force){
       }
       throw new Error("没有解析到频道消息");
     }
-    const fresh=new Set(items.map(x=>x.id));
-    BWE_ITEMS=[...items,...BWE_ITEMS.filter(x=>!fresh.has(x.id))]
+    const receivedItems=preserveReceivedAt(items.map(x=>Object.assign({},x,{receivedTime:true})),BWE_ITEMS,x=>x&&x.id);
+    const fresh=new Set(receivedItems.map(x=>x.id));
+    BWE_ITEMS=[...receivedItems,...BWE_ITEMS.filter(x=>!fresh.has(x.id))]
       .sort((a,b)=>Number(b.id)-Number(a.id))
       .slice(0,BWE_MAX_ITEMS);
     saveBweCache();
     renderBwe();
-    addNewsItems(items.map(newsFromBwe));
+    addNewsItems(receivedItems.map(newsFromBwe));
     setBweStatus("已更新 "+fmtBeijingClock(),"ok");
   }catch(e){
     if(BWE_ITEMS.length){
@@ -525,6 +552,9 @@ function newsTimeMs(v){
 function newsItemKey(item){
   return item.key||[item.source||"NEWS",item.id||"",item.url||"",item.title||""].join("|");
 }
+function shouldUseReceivedTime(item){
+  return !!item.receivedAt&&(item.receivedTime||item.channelOnly||!item.timeText||/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(item.timeText));
+}
 function uniqueTags(tags){
   const out=[], seen=new Set();
   (tags||[]).forEach(t=>{
@@ -550,8 +580,11 @@ function normalizeNewsItem(item,existing){
     title:truncateText(item.title||"Untitled",140),
     body:truncateText(item.body||"",320),
     url:String(item.url||"").trim(),
+    channelOnly:!!item.channelOnly,
     ts:hasTs?ts:((existing&&existing.ts)||storedAt),
     storedAt,
+    receivedAt:item.receivedAt||((existing&&existing.receivedAt)||storedAt),
+    receivedTime:!!item.receivedTime,
     timeText:item.timeText||"",
     tags:uniqueTags(item.tags||item.coins||[])
   };
@@ -567,6 +600,17 @@ function loadNewsStore(){
   try{
     const raw=localStorage.getItem(NEWS_STORE_KEY);
     NEWS_STORE=pruneNewsStore(raw?JSON.parse(raw):[]);
+    const now=Date.now();
+    NEWS_STORE=NEWS_STORE.map(item=>{
+      if(!item) return item;
+      const channelOnly=item.channelOnly||item.source==="PolyBeats"||String(item.url||"").replace(/\/$/,"")===`https://t.me/${JIN10_CHANNEL}`||String(item.url||"").replace(/\/$/,"")===`https://t.me/${POLY_CHANNEL}`;
+      const receivedTime=item.receivedTime||channelOnly||isMonthDayText(item.timeText);
+      return Object.assign({},item,{
+        channelOnly,
+        receivedTime,
+        receivedAt:item.receivedAt||(receivedTime?item.storedAt||now:null)
+      });
+    });
   }catch(e){ NEWS_STORE=[]; }
   saveNewsStore(false);
 }
@@ -592,6 +636,9 @@ function addNewsItems(items,render){
   if(render!==false) renderNewsStore();
 }
 function fmtNewsStoreTime(item){
+  if(shouldUseReceivedTime(item)){
+    return fmtReceivedLabel(item.receivedAt,true);
+  }
   if(item.source==="JIN10 TG"&&/^\d{2}:\d{2}$/.test(item.timeText||"")){
     const baseMs=Number(item.storedAt||item.ts);
     if(isFinite(baseMs)){
@@ -613,6 +660,7 @@ function newsFromBwe(n){
     url:n.url||"",
     ts:n.ts||newsTimeMs(n.timestamp)||null,
     timeText:n.fullTime||n.time||fmtBweTime(n.timestamp),
+    receivedAt:n.receivedAt||null,
     tags:n.tags||(Array.isArray(n.coins_included)?n.coins_included:[])
   };
 }
@@ -625,7 +673,10 @@ function newsFromJin10(n){
     body:n.body||"",
     url:n.url||"",
     ts:n.ts||null,
-    timeText:n.time||"",
+    timeText:n.time||n.dateText||"",
+    receivedAt:n.receivedAt||null,
+    receivedTime:!!n.receivedTime,
+    channelOnly:!!n.channelOnly,
     tags:n.tags||[]
   };
 }
@@ -639,6 +690,9 @@ function newsFromPoly(n){
     url:n.url||"",
     ts:n.ts||null,
     timeText:n.dateText||"",
+    receivedAt:n.receivedAt||null,
+    receivedTime:!!n.receivedTime,
+    channelOnly:true,
     tags:n.tags||[]
   };
 }
@@ -667,7 +721,7 @@ function renderNewsStore(){
     const url=String(n.url||"").trim();
     const body=n.body?`<div class="bwe-text">${esc(n.body)}</div>`:"";
     const tagHtml=n.tags&&n.tags.length?`<div class="bwe-coins">${n.tags.slice(0,10).map(t=>`<span class="bwe-coin${sourceClass}">${esc(t)}</span>`).join("")}</div>`:"";
-    const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">原文</a>`:"";
+    const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${n.channelOnly?"频道":"原文"}</a>`:"";
     const title=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(n.title)}</a>`:esc(n.title);
     return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source${sourceClass}">${esc(n.source)}</span><span>${esc(fmtNewsStoreTime(n))}</span>${open}</div><div class="bwe-title">${title}</div>${body}${tagHtml}</div>`;
   }).join("");
@@ -696,6 +750,13 @@ function loadJin10Cache(){
   try{
     const raw=localStorage.getItem("jin10-tg-items");
     JIN10_ITEMS=raw?JSON.parse(raw).slice(0,JIN10_MAX_ITEMS):[];
+    const now=Date.now();
+    JIN10_ITEMS=JIN10_ITEMS.map(item=>{
+      if(item&&(item.channelOnly||String(item.url||"").replace(/\/$/,"")===`https://t.me/${JIN10_CHANNEL}`||isMonthDayText(item.time||item.dateText))){
+        return Object.assign({},item,{channelOnly:true,receivedTime:true,receivedAt:item.receivedAt||now});
+      }
+      return item;
+    });
   }catch(e){ JIN10_ITEMS=[]; }
 }
 function saveJin10Cache(){
@@ -713,7 +774,8 @@ function renderJin10(){
     const tagHtml=n.tags&&n.tags.length?`<div class="bwe-coins">${n.tags.slice(0,8).map(t=>`<span class="bwe-coin jin10">${esc(t)}</span>`).join("")}</div>`:"";
     const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${n.channelOnly?"频道":"原文"}</a>`:"";
     const titleHtml=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>`:title;
-    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source jin10">JIN10 TG</span><span>${esc(n.time||n.dateText||"--")}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
+    const timeLabel=n.receivedTime?fmtReceivedLabel(n.receivedAt,false):(n.time||n.dateText||"--");
+    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source jin10">JIN10 TG</span><span>${esc(timeLabel)}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
   }).join("");
 }
 function cleanJin10Chunk(chunk,tags){
@@ -838,6 +900,7 @@ function parseJin10ImageMarkdown(md){
       ts:ts||null,
       url:`https://t.me/${JIN10_CHANNEL}`,
       channelOnly:true,
+      receivedTime:true,
       title:truncateText(title,110),
       body:truncateText(body,260),
       tags
@@ -864,13 +927,14 @@ async function refreshJin10(force){
       }
       throw new Error("没有解析到频道消息");
     }
-    const fresh=new Set(items.map(x=>x.id));
-    JIN10_ITEMS=[...items,...JIN10_ITEMS.filter(x=>!fresh.has(x.id))]
+    const receivedItems=preserveReceivedAt(items.map(x=>Object.assign({},x,{receivedTime:true})),JIN10_ITEMS,x=>x&&x.id);
+    const fresh=new Set(receivedItems.map(x=>x.id));
+    JIN10_ITEMS=[...receivedItems,...JIN10_ITEMS.filter(x=>!fresh.has(x.id))]
       .sort((a,b)=>(Number(b.ts||0)-Number(a.ts||0))||((a.seq!=null&&b.seq!=null)?Number(a.seq)-Number(b.seq):((Number(b.id)||0)-(Number(a.id)||0))))
       .slice(0,JIN10_MAX_ITEMS);
     saveJin10Cache();
     renderJin10();
-    addNewsItems(items.map(newsFromJin10));
+    addNewsItems(receivedItems.map(newsFromJin10));
     setJin10Status("已更新 "+fmtBeijingClock(),"ok");
   }catch(e){
     if(JIN10_ITEMS.length){
@@ -905,6 +969,8 @@ function loadPolyCache(){
   try{
     const raw=localStorage.getItem("polybeats-tg-items");
     POLY_ITEMS=raw?JSON.parse(raw).slice(0,POLY_MAX_ITEMS):[];
+    const now=Date.now();
+    POLY_ITEMS=POLY_ITEMS.map(item=>item?Object.assign({},item,{receivedTime:true,receivedAt:item.receivedAt||now}):item);
   }catch(e){ POLY_ITEMS=[]; }
 }
 function savePolyCache(){
@@ -922,7 +988,8 @@ function renderPoly(){
     const tagHtml=n.tags&&n.tags.length?`<div class="bwe-coins">${n.tags.slice(0,8).map(t=>`<span class="bwe-coin poly">${esc(t)}</span>`).join("")}</div>`:"";
     const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">频道</a>`:"";
     const titleHtml=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>`:title;
-    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source poly">PolyBeats</span><span>${esc(n.dateText||"--")}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
+    const timeLabel=n.receivedTime?fmtReceivedLabel(n.receivedAt,false):(n.dateText||"--");
+    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source poly">PolyBeats</span><span>${esc(timeLabel)}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
   }).join("");
 }
 function hashText(s){
@@ -997,6 +1064,7 @@ function parsePolyMarkdown(md){
       dateText:cleaned.dateText||"",
       ts:ts||null,
       url:`https://t.me/${POLY_CHANNEL}`,
+      receivedTime:true,
       title:truncateText(title,130),
       body:truncateText(body,300),
       tags:polyTagsFromText(cleaned.text)
@@ -1023,13 +1091,14 @@ async function refreshPoly(force){
       }
       throw new Error("没有解析到频道消息");
     }
-    const fresh=new Set(items.map(x=>x.id));
-    POLY_ITEMS=[...items,...POLY_ITEMS.filter(x=>!fresh.has(x.id))]
+    const receivedItems=preserveReceivedAt(items.map(x=>Object.assign({},x,{receivedTime:true})),POLY_ITEMS,x=>x&&x.id);
+    const fresh=new Set(receivedItems.map(x=>x.id));
+    POLY_ITEMS=[...receivedItems,...POLY_ITEMS.filter(x=>!fresh.has(x.id))]
       .sort((a,b)=>(Number(b.ts||0)-Number(a.ts||0))||(Number(b.seq||0)-Number(a.seq||0)))
       .slice(0,POLY_MAX_ITEMS);
     savePolyCache();
     renderPoly();
-    addNewsItems(items.map(newsFromPoly));
+    addNewsItems(receivedItems.map(newsFromPoly));
     setPolyStatus("已更新 "+fmtBeijingClock(),"ok");
   }catch(e){
     if(POLY_ITEMS.length){
