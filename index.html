@@ -19,47 +19,6 @@
   #themeBtn{margin-left:auto;background:transparent;border:1px solid var(--line);color:var(--txt)}
   #themeBtn:hover{border-color:var(--accent);color:var(--accent)}
   #refreshBtn{background:var(--accent);color:#fff}
-  #newsBtn{background:var(--warn);color:#1a1205}
-
-  .watch{margin:16px 22px;background:linear-gradient(180deg,#16203a,#121826);border:1px solid #2b3a57;border-radius:12px;padding:14px 18px}
-  .watch h2{margin:0 0 10px;font-size:15px;display:flex;align-items:center;gap:8px}
-  .watch h2 .dot{width:8px;height:8px;border-radius:50%;background:var(--warn);box-shadow:0 0 8px var(--warn)}
-  .wgrid{display:block}
-  .wgrid>div+div{margin-top:20px}
-  .wsub{color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin:0 0 12px}
-
-  /* 关键日程：横向时间轴（占满整行，避免竖向时间轴留白）*/
-  .tlh{display:flex;overflow-x:auto;position:relative;padding:6px 2px 10px}
-  .tlh:before{content:"";position:absolute;left:24px;right:24px;top:12px;height:2px;background:linear-gradient(90deg,var(--up),var(--accent) 52%,var(--warn))}
-  .tlh-i{position:relative;flex:1 1 160px;padding:0 11px;z-index:1}
-  .tlh-dot{width:13px;height:13px;border-radius:50%;background:var(--card);border:2px solid var(--mut);box-sizing:border-box;margin:0 auto 11px}
-  .tlh-i.done .tlh-dot{background:var(--up);border-color:var(--up)}
-  .tlh-i.watch .tlh-dot{background:var(--warn);border-color:var(--warn)}
-  .tlh-i.today .tlh-dot{background:var(--accent);border-color:var(--accent);box-shadow:0 0 0 4px rgba(91,141,239,.22)}
-  .tlh-i.done{opacity:.72}
-  .tlh-date{text-align:center;font-weight:800;font-size:13px}
-  .tlh-st{font-size:9px;font-weight:700;border-radius:4px;padding:1px 5px;margin-left:5px;vertical-align:middle}
-  .tlh-i.done .tlh-st{background:rgba(22,199,132,.16);color:var(--up)}
-  .tlh-i.watch .tlh-st{background:rgba(227,160,8,.16);color:var(--warn)}
-  .tlh-lb{text-align:center;font-weight:700;font-size:12.5px;margin:4px 0 6px;line-height:1.3}
-  .tlh-i.next .tlh-lb,.tlh-i.today .tlh-lb{color:var(--accent)}
-  .tlh-wk{font-size:10px;color:var(--mut);font-weight:500;margin-left:4px}
-  .tlh-i p{margin:0;color:var(--mut);font-size:11.5px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
-  .tlh::-webkit-scrollbar{height:8px}
-  .tlh::-webkit-scrollbar-thumb{background:#2b3a57;border-radius:5px}
-  body.light .tlh::-webkit-scrollbar-thumb{background:#c8d2e2}
-
-  /* 主导叙事：卡片网格 */
-  .narr{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:11px;align-items:stretch}
-  .chip{background:#1b2335;border:1px solid var(--line);border-left-width:3px;border-radius:10px;padding:11px 13px;font-size:12.5px;line-height:1.5;display:flex;flex-direction:column;gap:6px}
-  .chip-h{display:flex;align-items:center;gap:8px}
-  .chip-tag{font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
-  .chip .nt{font-weight:700;font-size:13px}
-  .chip-x{color:var(--txt);opacity:.92}
-  .chip.up{border-left-color:var(--up)} .chip.dn{border-left-color:var(--dn)} .chip.nu{border-left-color:var(--accent)}
-  .chip.up .chip-tag{background:rgba(22,199,132,.16);color:var(--up)} .chip.up .nt{color:var(--up)}
-  .chip.dn .chip-tag{background:rgba(234,57,67,.16);color:var(--dn)} .chip.dn .nt{color:var(--dn)}
-  .chip.nu .chip-tag{background:rgba(91,141,239,.16);color:#9db6f0} .chip.nu .nt{color:#9db6f0}
 
   .full{padding:10px 22px}
   .wrap{padding:10px 22px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
@@ -86,76 +45,15 @@
   tbody tr:hover{background:#1b2230}
   td.tk .qmk{display:inline-block;margin-left:6px;font-size:12px;color:var(--accent);opacity:0;transform:translateX(-3px);transition:opacity .14s ease,transform .14s ease;vertical-align:middle}
   tbody tr:hover td.tk .qmk{opacity:1;transform:none}
-
-  /* 点击个股弹出的「为什么涨跌」气泡 */
-  #pop{position:fixed;z-index:50;max-width:410px;width:max-content;background:linear-gradient(180deg,#16203a,#0d1322);border:1px solid #34415e;border-radius:16px;box-shadow:0 22px 60px rgba(0,0,0,.6),0 2px 0 rgba(255,255,255,.03) inset;display:none;font-size:13px;overflow:hidden}
-  #pop.show{display:block;animation:popin .16s cubic-bezier(.2,.85,.25,1)}
-  @keyframes popin{from{opacity:0;transform:translateY(8px) scale(.97)}to{opacity:1;transform:none}}
-  #pop.up{border-color:rgba(22,199,132,.55)}
-  #pop.dn{border-color:rgba(234,57,67,.55)}
-  #pop .ph{display:flex;align-items:center;gap:9px;padding:13px 15px;border-bottom:1px solid #222c42}
-  #pop.up .ph{background:linear-gradient(180deg,rgba(22,199,132,.17),transparent)}
-  #pop.dn .ph{background:linear-gradient(180deg,rgba(234,57,67,.17),transparent)}
-  #pop .ph .pt{font-weight:800;font-size:19px;letter-spacing:.02em}
-  #pop .ph .pn{color:var(--mut);font-size:12px;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  #pop .ph .pmove{margin-left:auto;font-weight:800;font-size:15px;padding:3px 12px;border-radius:999px;white-space:nowrap}
-  #pop .ph .pmove.up{background:rgba(22,199,132,.2);color:var(--up)}
-  #pop .ph .pmove.dn{background:rgba(234,57,67,.2);color:var(--dn)}
-  #pop .ph .pmove.flat{background:#222c42;color:var(--mut)}
-  #pop .ph .pm{font-size:11px;color:var(--mut);white-space:nowrap}
-  #pop .ph .px{cursor:pointer;color:var(--mut);font-size:18px;line-height:1;padding:0 2px;align-self:flex-start}
-  #pop .ph .px:hover{color:var(--txt)}
-  #pop .pb{padding:6px 15px 14px;max-height:56vh;overflow:auto}
-  #pop .pitem{border-top:1px solid #1b2336;padding:11px 0}
-  #pop .pitem:first-child{border-top:0}
-  #pop .pmeta{display:flex;align-items:center;gap:7px;margin-bottom:5px;flex-wrap:wrap}
-  #pop .ptag{font-size:10.5px;font-weight:700;border-radius:5px;padding:2px 8px;background:#23304a;color:#9db6f0}
-  #pop .ptag.dn{background:#3a2330;color:#f0a0ad}
-  #pop .pgrp{font-size:10px;color:var(--mut);border:1px solid #2b3a57;border-radius:4px;padding:1px 6px}
-  #pop .ptime{font-size:10px;color:var(--warn)}
-  #pop .pb p{margin:4px 0;line-height:1.58}
-  #pop .pb a{color:var(--accent);text-decoration:none;font-size:12px}
-  #pop .pb a:hover{text-decoration:underline}
-  #pop .pnone{color:var(--mut);padding:12px 2px;line-height:1.6}
-  #pop .pb::-webkit-scrollbar{width:8px}
-  #pop .pb::-webkit-scrollbar-thumb{background:#2b3a57;border-radius:5px}
   .up{color:var(--up)}.dn{color:var(--dn)}.flat{color:var(--mut)}
   .rk{color:var(--mut);width:26px}
-
-  .news{padding:0 22px 30px}
-  .news h2{font-size:15px;border-left:3px solid var(--accent);padding-left:10px;margin:24px 0 12px}
-  .ncols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-  @media(max-width:900px){.ncols{grid-template-columns:1fr}}
-  .nitem{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
-  .nrow{display:flex;align-items:center;gap:8px;margin-bottom:5px}
-  .nitem .tag{display:inline-block;background:#23304a;color:#9db6f0;border-radius:5px;padding:1px 7px;font-size:11px;font-weight:600}
-  .nitem .tag.dntag{background:#3a2330;color:#f0a0ad}
-  .nitem .time{margin-left:auto;font-size:11px;color:var(--warn);font-weight:600;background:#2a2718;padding:1px 7px;border-radius:4px}
-  .nitem p{margin:5px 0 0;line-height:1.55}
-  .nitem a{color:var(--accent);text-decoration:none;font-size:12px}
-  .nitem a:hover{text-decoration:underline}
-  .nitem .nosrc{font-size:12px;color:var(--mut)}
   .err{color:var(--dn);padding:10px 16px;font-size:12px}
   footer{color:var(--mut);font-size:11px;padding:0 22px 24px;line-height:1.6}
-
-  /* 顶部导航栏 + 分页视图 */
-  .nav{display:flex;gap:6px;padding:10px 22px;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30;background:var(--bg);overflow-x:auto}
-  .nav button{flex:0 0 auto;padding:8px 18px;border:0;border-radius:9px;background:transparent;color:var(--mut);font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap}
-  .nav button.on{background:var(--card);color:var(--txt);box-shadow:inset 0 0 0 1px var(--line)}
-  .nav button:hover{color:var(--txt)}
-  .view{display:none}
-  .view.on{display:block}
   .search{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:16px 22px 2px}
   .search input{flex:1;min-width:200px;max-width:460px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 13px;color:var(--txt);font-size:13.5px;outline:none}
   .search input:focus{border-color:var(--accent)}
   .search .hint{color:var(--mut);font-size:12px}
-  @media(max-width:760px){ .nav{padding:8px 12px} .nav button{padding:7px 13px;font-size:13px} .search{margin:12px 12px 2px} }
-
-  /* 可折叠区块（标题点击展开/收起，移动端默认折叠新闻）*/
-  .collapser{cursor:pointer;user-select:none}
-  .collapser .cv{display:inline-block;margin-left:7px;font-size:11px;color:var(--mut);transition:transform .15s;vertical-align:middle}
-  .collapser.collapsed .cv{transform:rotate(-90deg)}
-  .collapser.collapsed + *{display:none}
+  @media(max-width:760px){ .search{margin:12px 12px 2px} }
 
   /* ===== 移动端排版（≤760px，按视口宽度自动适配，无需 UA 判断）===== */
   @media(max-width:760px){
@@ -163,68 +61,25 @@
     header h1{font-size:16px}
     .meta.hide-m{display:none}
     .btn{padding:6px 11px;font-size:12.5px}
-    .watch{margin:12px;padding:12px 13px}
-    .full,.news{padding:10px 12px}
+    .full{padding:10px 12px}
     .wrap{padding:10px 12px;gap:12px}
-    .news h2,.watch h2{font-size:14px}
-    /* 表格：隐藏次要列，留「代码/现价/24h/12h」，详情看点击气泡 */
+    /* 表格：隐藏次要列，留「代码/现价/24h/12h」，详情可点开K线 */
     .c-name,.c-pre,.c-night,.c-vol{display:none}
     th,td{padding:8px 8px}
-    /* 时间轴：节点固定宽度、横向滑动（不被挤扁）*/
-    .tlh-i{flex:0 0 150px}
-    /* 主导叙事单列 */
-    .narr{grid-template-columns:1fr}
-    /* 气泡不超出屏宽 */
-    #pop{max-width:calc(100vw - 20px)}
     .scrollbox{max-height:62vh}
   }
 
   /* ===== 日间(浅色)模式 ===== */
   body.light{--bg:#eef1f7;--card:#ffffff;--line:#dde3ee;--up:#0a8f5b;--dn:#d62f3c;--mut:#5b6a82;--txt:#19223a;--accent:#2f6fed;--warn:#a9750a}
-  body.light .watch{background:linear-gradient(180deg,#e9f0ff,#f6f9ff);border-color:#d3ddef}
-  body.light .badge.b-done{background:#e6edfb;color:#2f5fc0}
-  body.light .badge.b-watch{background:#fbf1da;color:#8a6700}
-  body.light .chip{background:#f2f5fb;border-color:#dde3ee}
-  body.light .chip.nu .nt{color:#2f5fc0}
-  body.light .chip.nu .chip-tag{background:rgba(47,111,237,.12);color:#2f5fc0}
   body.light tbody tr:nth-child(even){background:rgba(20,40,90,.035)}
   body.light tbody tr:hover{background:#e9eff9}
   body.light .scrollbox{scrollbar-color:#c2ccdc transparent}
   body.light .scrollbox::-webkit-scrollbar-thumb{background:#c8d2e2;border-color:#fff}
   body.light .scrollbox::-webkit-scrollbar-thumb:hover{background:#aebbd0}
-  body.light .nitem .tag{background:#e6edfb;color:#2f5fc0}
-  body.light .nitem .tag.dntag{background:#fce7eb;color:#c0334a}
-  body.light .nitem .time{background:#fbf1da;color:#8a6700}
-  body.light #pop{background:linear-gradient(180deg,#ffffff,#f6f9fd);border-color:#d3ddef;box-shadow:0 22px 60px rgba(40,60,110,.22)}
-  body.light #pop.up{border-color:rgba(10,143,91,.5)}
-  body.light #pop.dn{border-color:rgba(214,47,60,.5)}
-  body.light #pop .ph{border-bottom-color:#e8edf5}
-  body.light #pop.up .ph{background:linear-gradient(180deg,rgba(10,143,91,.12),transparent)}
-  body.light #pop.dn .ph{background:linear-gradient(180deg,rgba(214,47,60,.12),transparent)}
-  body.light #pop .ph .pmove.up{background:rgba(10,143,91,.14)}
-  body.light #pop .ph .pmove.dn{background:rgba(214,47,60,.14)}
-  body.light #pop .ph .pmove.flat{background:#eceff4}
-  body.light #pop .pitem{border-top-color:#eef1f7}
-  body.light #pop .ptag{background:#e6edfb;color:#2f5fc0}
-  body.light #pop .ptag.dn{background:#fce7eb;color:#c0334a}
-  body.light #pop .pgrp{border-color:#d3ddef}
-  body.light #pop .pb::-webkit-scrollbar-thumb{background:#c8d2e2}
 
-  /* 气泡里的「看K线/技术研判」按钮 */
+  /* K线/技术研判操作按钮 */
   .pbtn{display:block;width:100%;margin:2px 0 0;padding:8px;border:0;border-radius:8px;background:var(--accent);color:#fff;font-size:12.5px;font-weight:600;cursor:pointer}
   .pbtn:hover{filter:brightness(1.08)}
-  /* 气泡内 Yahoo 实时新闻 */
-  .pl{margin:8px 0 2px;border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:rgba(255,255,255,.02)}
-  body.light .pl{background:rgba(20,40,90,.03)}
-  .pl-h{display:flex;align-items:center;font-size:11px;font-weight:700;color:var(--warn);margin-bottom:5px}
-  .pl-h .pl-cfg{margin-left:auto;cursor:pointer;color:var(--mut);font-weight:400}
-  .pl-h .pl-cfg:hover{color:var(--accent)}
-  .pl-i{padding:5px 0;border-top:1px solid var(--line)}
-  .pl-i:first-child{border-top:0}
-  .pl-i a{color:var(--accent);text-decoration:none;font-size:12.5px;line-height:1.45;display:block}
-  .pl-i a:hover{text-decoration:underline}
-  .pl-m{color:var(--mut);font-size:10.5px;margin-top:2px}
-  .pl-none{color:var(--mut);font-size:11.5px;line-height:1.5}
 
   /* K线/技术研判 弹窗 */
   #chart{position:fixed;inset:0;z-index:80;background:rgba(4,7,14,.66);display:none;align-items:center;justify-content:center;padding:18px}
@@ -264,32 +119,15 @@
 <header><div class="bar">
   <h1>tradexyz 美股看板</h1>
   <div class="meta">行情更新 <b id="updated">—</b></div>
-  <div class="meta">新闻更新 <b id="newsUpdated">—</b></div>
   <div class="meta hide-m">下次自动刷新 <b id="countdown">—</b></div>
   <div class="meta hide-m">源 Hyperliquid <code>xyz</code> HIP-3 dex</div>
   <button id="themeBtn" class="btn" onclick="toggleTheme()">☀️ 日间</button>
   <button id="refreshBtn" class="btn" onclick="load()">刷新行情</button>
-  <button id="newsBtn" class="btn" onclick="loadNews()">刷新新闻</button>
 </div></header>
 
 <main class="page">
-<nav class="nav">
-  <button id="nav-watch" onclick="showView('watch')">📅 本周关注</button>
-  <button id="nav-stocks" class="on" onclick="showView('stocks')">📈 个股 / 行情</button>
-  <button id="nav-news" onclick="showView('news')">📰 消息</button>
-</nav>
 
-<section class="view" id="view-watch">
-<div class="watch">
-  <h2 class="collapser" onclick="toggleSec(this)"><span class="dot"></span>本周市场关注 <span style="font-size:11px;color:var(--mut);font-weight:400">市场最关心的日程与主线</span><span class="cv">▾</span></h2>
-  <div class="wgrid">
-    <div><p class="wsub">关键日程 / 数据</p><ul class="sched" id="wSched"></ul></div>
-    <div><p class="wsub">主导叙事</p><div class="narr" id="wNarr"></div></div>
-  </div>
-</div>
-</section>
-
-<section class="view on" id="view-stocks">
+<section id="view-stocks">
 <div class="search"><input id="stockSearch" placeholder="搜索代码或名称（如 NVDA / 英伟达 / GOLD / 黄金）…" oninput="stockSearch()"><span class="hint" id="stockHint"></span></div>
 
 <!-- 个股：24h + 12h 合并一张表 -->
@@ -306,33 +144,15 @@
 </div>
 </section>
 
-<section class="view" id="view-news">
-<div class="search"><input id="newsSearch" placeholder="搜索消息：代码 / 中文名 / 关键词（如 MRVL / 海力士 / CPI）…" oninput="newsSearch()"><span class="hint" id="newsHint"></span></div>
-<div class="news">
-  <div id="newsResults"></div>
-  <div id="newsDefault">
-    <h2 class="collapser" onclick="toggleSec(this)">重点 · 大盘 / 指数解读<span class="cv">▾</span></h2>
-    <div class="ncols" id="newsIndex"></div>
-    <h2 class="collapser" onclick="toggleSec(this)">宏观主线（板块 / 大区间）<span class="cv">▾</span></h2>
-    <div class="ncols" id="newsTrend"></div>
-    <h2 class="collapser" onclick="toggleSec(this)">今日重点异动（涨跌幅 Top）<span class="cv">▾</span></h2>
-    <div class="ncols" id="newsTodayTop"></div>
-    <p style="color:var(--mut);font-size:12px;margin:14px 0 0">想看某只个股的异动消息？去「📈 个股」标签搜代码后点开它的气泡即可。</p>
-  </div>
-</div>
-</section>
-
 <footer>
-  价格 / 涨跌幅：浏览器直连 <code>api.hyperliquid.xyz/info</code> 实时计算（24h = markPx vs prevDayPx；12h = markPx vs 12h 前 1h K 线收盘）。表头可点击切换排序；<b>点击任一行（悬停时代码后显示 📰）即弹出该标的的涨跌原因新闻气泡</b>（按代码/公司名匹配「今日异动 / 指数解读 / 宏观主线」，点空白处或 Esc 关闭）。<br>
+  价格 / 涨跌幅：浏览器直连 <code>api.hyperliquid.xyz/info</code> 实时计算（24h = markPx vs prevDayPx；12h = markPx vs 12h 前 1h K 线收盘）。表头可点击切换排序；点击任一行可打开该标的 K 线与技术研判。<br>
   个股专属两列（均按北京时间，UTC+8 无夏令时）：<b>盘前</b> = 自当日 16:00 起的累计涨幅（含美股盘前 16:00–21:30 及盘中 21:30–04:00）；<b>夜盘</b> = 04:00–16:00 时段涨幅（美股盘后 + 隔夜延长时段）。两段在时间上拼成完整一天；进行中的时段实时累计，已结束的时段为固定值。大宗 / 指数为近 24h 连续交易品种，不适用盘前 / 夜盘，故只保留 24h / 12h。<br>
   覆盖：tradexyz(<code>xyz</code> dex)上全部标的，按资产类别分 个股 / 大宗商品 / 指数·ETF 三表；外汇(EUR/GBP/JPY/KRW/DXY)与加密噪音(QNT/PURRDAT)已剔除。任何新上标的若未归类，默认进「个股」表，不会漏。<br>
-  <b>两个刷新按钮各管一摊</b>：<b>刷新行情</b> 只重新拉取价格/涨跌幅（浏览器直连 API，秒级）；<b>刷新新闻</b> 拉取最新的「本周关注 + 主导叙事 + 日程 + 消息面」（来自 <code>tradexyz-news.json</code>，由会话内研究 agent 每小时联网重搜、逐条与当日涨幅关联后改写）。行情每 2h、新闻每 30min 也会各自自动刷新。<br>
-  消息「发布时间」为事件/见报日期（粒度到日），注意有的催化可能早于今日。<b id="newsAsOf">截至 2026-06-08</b>。本地直接双击打开（file://）时新闻 JSON 可能被浏览器拦截，将回退显示内置默认新闻；用预览服务器或同目录托管即可正常刷新。<br>
+  <b>刷新行情</b> 会重新拉取价格/涨跌幅（浏览器直连 API，秒级）；行情每 2h 自动刷新一次。<br>
   仅显示 24h 有成交量的标的（零成交已隐藏）。
 </footer>
 </main>
 
-<div id="pop"></div>
 <div id="chart"></div>
 
 <script>
@@ -393,7 +213,7 @@ function render(elId,rows,session){
   const sessCols=session?hdr('chgPre','盘前','北京16:00至今累计涨幅（含盘前+盘中）','c-pre')+hdr('chgNight','夜盘','北京04:00–16:00时段涨幅（美股盘后+隔夜）','c-night'):'';
   let h="<table><thead><tr><th>#</th>"+hdr('tk','代码')+`<th class="c-name">名称</th>`+hdr('mark','现价')+hdr('chg24','24h')+hdr('chg12','12h')+sessCols+hdr('vol','24h量','','c-vol')+"</tr></thead><tbody>";
   sorted.forEach((r,i)=>{ const sc=session?`<td class="${cls(r.chgPre)} c-pre">${fmtPct(r.chgPre)}</td><td class="${cls(r.chgNight)} c-night">${fmtPct(r.chgNight)}</td>`:'';
-    h+=`<tr onclick="showStockNews('${r.tk}',event)" title="点击查看 ${r.tk} 涨跌原因"><td class="rk">${i+1}</td><td class="tk">${r.tk} <span class="qmk">📰</span></td><td class="nm c-name">${r.nm}</td>`+
+    h+=`<tr onclick="openChart('${r.tk}')" title="查看 ${r.tk} K线与技术研判"><td class="rk">${i+1}</td><td class="tk">${r.tk} <span class="qmk">📊</span></td><td class="nm c-name">${r.nm}</td>`+
     `<td>${fmtPx(r.mark)}</td><td class="${cls(r.chg24)}">${fmtPct(r.chg24)}</td><td class="${cls(r.chg12)}">${fmtPct(r.chg12)}</td>${sc}<td class="nm c-vol">${fmtVol(r.vol)}</td></tr>`; });
   document.getElementById(elId).innerHTML=h+"</tbody></table>";
   return sorted.length;
@@ -403,14 +223,6 @@ function renderAll(){
   document.getElementById("cCM").textContent=render("tblCM",DATA.CM,false)+" 个";
   document.getElementById("cIX").textContent=render("tblIX",DATA.IX,false)+" 个";
   applyStockFilter();
-}
-/* ===== 导航分页 ===== */
-function showView(v){
-  ["watch","stocks","news"].forEach(n=>{
-    const vw=document.getElementById("view-"+n), nb=document.getElementById("nav-"+n);
-    if(vw)vw.classList.toggle("on",n===v); if(nb)nb.classList.toggle("on",n===v);
-  });
-  window.scrollTo(0,0);
 }
 /* ===== 个股搜索（代码 / 中文名 / 英文名 筛选）===== */
 function stockSearch(){ applyStockFilter(); }
@@ -427,42 +239,6 @@ function applyStockFilter(){
     });
   });
   const h=document.getElementById("stockHint"); if(h) h.textContent=q?`匹配 ${shown} 个`:"";
-}
-/* ===== 消息页：默认重点+宏观；搜索可索引到个股消息；索引无则 AI 兜底 ===== */
-function pctOfTitle(t){ const m=(t||"").match(/([+-]?\d+(?:\.\d+)?)%/); return m?Math.abs(+m[1]):0; }
-function renderNewsView(){
-  renderNews("newsIndex",INDEX_NOTES);
-  renderNews("newsTrend",NEWS_TREND);
-  renderNews("newsTodayTop",NEWS_TODAY.slice().sort((a,b)=>pctOfTitle(b.t)-pctOfTitle(a.t)).slice(0,6));
-  const q=document.getElementById("newsSearch"); if(q&&q.value.trim()) newsSearch();
-}
-function newsSearch(){
-  const el=document.getElementById("newsSearch"), q=el?el.value.trim():"";
-  const res=document.getElementById("newsResults"), def=document.getElementById("newsDefault"), hint=document.getElementById("newsHint");
-  if(!q){ if(res)res.innerHTML=""; if(def)def.style.display=""; if(hint)hint.textContent=""; return; }
-  if(def)def.style.display="none";
-  const ql=q.toLowerCase();
-  let hits=[...NEWS_TODAY,...INDEX_NOTES,...NEWS_TREND].filter(n=>((n.t||"")+(n.x||"")).toLowerCase().indexOf(ql)>=0);
-  Object.keys(NAME).forEach(sym=>{ if(sym.toLowerCase().indexOf(ql)>=0 || (NAME[sym]||"").toLowerCase().indexOf(ql)>=0){ newsForSymbol(sym).forEach(n=>{ if(!hits.some(h=>h.t===n.t&&h.x===n.x)) hits.push(n); }); } });
-  if(hits.length){ if(hint)hint.textContent=`找到 ${hits.length} 条`; renderNews("newsResults",hits); }
-  else { if(hint)hint.textContent="索引中暂无"; if(res)res.innerHTML=`<div class="nitem"><p>索引里暂无「${q.replace(/</g,"&lt;")}」的相关消息。</p><p style="margin-top:7px"><button class="pbtn" style="max-width:300px" onclick="aiSearchNews()">🔎 用 Yahoo 实时拉取该代码的新闻</button></p></div>`; }
-}
-function aiSearchNews(){
-  const proxy=getNewsProxy();
-  if(!proxy){ setNewsProxy(); return; }
-  const raw=(document.getElementById("newsSearch")||{}).value||"";
-  const q=raw.trim().toUpperCase().replace(/[^A-Z0-9.\-]/g,"");
-  const res=document.getElementById("newsResults");
-  if(!q){ if(res)res.innerHTML=`<div class="nitem"><p>请输入股票代码（Yahoo 按代码检索，如 NVDA / MRVL）。</p></div>`; return; }
-  if(res)res.innerHTML=`<div class="nitem"><p>正在向 Yahoo 拉取「${q}」实时新闻…</p></div>`;
-  fetch(proxy+(proxy.includes("?")?"&":"?")+"symbol="+encodeURIComponent(q),{cache:"no-store"})
-    .then(r=>r.json()).then(j=>{
-      const items=(j.items||[]).slice(0,10);
-      if(!items.length){ res.innerHTML=`<div class="nitem"><p>Yahoo 未找到「${q}」的新闻${j.error?`（${j.error}）`:""}。</p></div>`; return; }
-      res.innerHTML=items.map(n=>{ const d=n.pubDate?new Date(n.pubDate):null, dt=(d&&!isNaN(+d))?`${d.getMonth()+1}/${d.getDate()}`:"Yahoo";
-        return `<div class="nitem"><div class="nrow"><span class="tag">${q}</span><span class="time">🕒 ${dt}</span></div><p><a href="${n.link}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">${n.title} ↗</a></p><p class="nosrc">${n.source||"Yahoo Finance"}</p></div>`;
-      }).join("");
-    }).catch(e=>{ res.innerHTML=`<div class="nitem"><p>拉取失败：${String(e).slice(0,80)}</p></div>`; });
 }
 function setSort(key){ if(sortKey===key){sortDir=-sortDir;}else{sortKey=key;sortDir=(key==='tk'||key==='nm')?1:-1;} renderAll(); }
 
@@ -504,190 +280,6 @@ function tick(){
   document.getElementById("countdown").textContent=`${Math.floor(s/3600)}h ${String(Math.floor(s%3600/60)).padStart(2,"0")}m ${String(s%60).padStart(2,"0")}s`;
 }
 
-/* ===== 本周关注（内置默认值；loadNews() 会用 tradexyz-news.json 覆盖）===== */
-let WATCH_SCHED=[
- {st:"done",lb:"5月非农 (6/5)",dt:"172K 翻倍于预期、失业率 4.3%、10年期美债升至 4.54% → 加息预期升温，本轮回调起点"},
- {st:"watch",lb:"5月 CPI (6/10)",dt:"FOMC 前一周公布，直接影响点阵图与年底加息押注，本周最重磅数据"},
- {st:"watch",lb:"5月 PPI (6/11)",dt:"CPI 次日公布，作为 CPI 领先指标，将强化或复杂化通胀叙事"},
- {st:"watch",lb:"SpaceX IPO (6/12)",dt:"Nasdaq 上市，$135/股、估值 $1.77 万亿，史上最大 IPO；抽水航天板块(RKLB/SPCX)"},
- {st:"watch",lb:"FOMC 议息 (6/17)",dt:"市场押注年底前至少加息一次，10月加息概率已升至 ~70%，留意点阵图/鹰派措辞"},
- {st:"watch",lb:"黄仁勋亚洲行落地",dt:"NVIDIA×韩国(LG/SK海力士/Naver/斗山) 合作后续，关注海力士及供应链"},
- {st:"watch",lb:"中东停火谈判",dt:"伊朗-以色列互射后斡旋停火，进展直接影响油价(CL/BRENTOIL)"}
-];
-let WATCH_NARR=[
- {d:"dn",t:"美联储加息预期升温",x:"<b>本轮回调总根源</b>：5月非农 172K 翻倍、10年期升至 4.54%，市场从『何时降息』转向『年底前是否加息』，10月加息概率 ~70% → 杀估值，拥挤 AI/成长股首当其冲"},
- {d:"dn",t:"韩国 AI 芯片抛售",x:"KOSPI 一度 -8.8% 触发熔断、三星/海力士 -10%+；导火索：Broadcom AI 芯片<b>指引不及</b> + 加息担忧 → AI 泡沫担忧，拥挤交易集中抛售"},
- {d:"up",t:"黄仁勋访韩喊单",x:"6/8 访 LG 双子塔，NVIDIA×LG/SK海力士/SK电讯/Naver/斗山 多项 AI 合作；顶级游资逢低净买『更低价买入』情绪 → 海力士反弹"},
- {d:"dn",t:"加密去杠杆",x:"BTC 跌破 <b>$70K</b>；Strategy 首次卖币引发『死亡螺旋』担忧，<b>MSTR 三日 -26%、COIN -19%、CRCL -16%</b>"},
- {d:"up",t:"内存超级周期",x:"DRAM 价 YoY +300%/NAND +250%，缺货至 2028 → MU/SNDK/TSM/海力士主轴；但本周 MU 一度 -13% 随板块回调"},
- {d:"up",t:"AI 算力 Capex 系统级",x:"NVIDIA 把 AI 工厂从 <b>HBM 扩到电力/工业</b>(斗山:燃气轮机/SMR/氢燃料)；AMD×OpenAI/Meta 12GW 部署"},
- {d:"nu",t:"SpaceX IPO 临近",x:"<b>6/12 Nasdaq 上市</b>，$135/股、$1.77 万亿(史上最大)；Morningstar 称高估 ~48%；抽水航天板块，RKLB/SPCX 受关注但承压"},
- {d:"nu",t:"AI IPO 热·Cerebras",x:"CBRS 为 <b>2026 最大纯 AI IPO</b>(5/14 上市，开盘 $350 vs 发行 $185)；ARK 建仓、看涨期权活跃，但泡沫担忧下高波动"},
- {d:"dn",t:"中东·油价地缘溢价",x:"伊朗 6/7 射导弹(停火来首次)，特朗普促以色列克制保谈判窗口 → WTI/Brent 跳涨(CL/BRENTOIL)"}
-];
-function parseMD(s){ const m=(s||"").match(/(\d{1,2})\/(\d{1,2})/); return m?{md:(+m[1])*100+(+m[2]),txt:m[1]+"/"+m[2]}:null; }
-function renderWatch(){
-  // ---- 关键日程：竖向时间轴（按日期排序，插入「今天」标记）----
-  const now=new Date(), todayMD=(now.getMonth()+1)*100+now.getDate(), todayTxt=(now.getMonth()+1)+"/"+now.getDate();
-  const items=WATCH_SCHED.map(s=>{
-    const d=parseMD(s.lb), wk=(s.lb.match(/周[一二三四五六日]/)||[])[0]||"";
-    const label=s.lb.replace(/\s*[（(][^（()）]*[)）]\s*/g," ").trim();
-    return {st:s.st, dt:s.dt, md:d?d.md:(s.st==="done"?todayMD-1:99999), dateTxt:d?d.txt:"", wk, label};
-  }).sort((a,b)=>a.md-b.md);
-  let html="<div class='tlh'>", insertedToday=false, nextDone=false;
-  const todayNode=`<div class="tlh-i today"><div class="tlh-dot"></div><div class="tlh-date">${todayTxt}</div><div class="tlh-lb">今天</div></div>`;
-  items.forEach(it=>{
-    if(!insertedToday && it.md>todayMD){ html+=todayNode; insertedToday=true; }
-    const upcoming=it.md>todayMD;
-    const stCls=(it.st==="done"&&!upcoming)?"done":"watch";
-    let extra=""; if(upcoming && !nextDone){ extra=" next"; nextDone=true; }
-    const stLbl=stCls==="done"?'<span class="tlh-st">已出</span>':'<span class="tlh-st">待发布</span>';
-    html+=`<div class="tlh-i ${stCls}${extra}"><div class="tlh-dot"></div>`+
-      `<div class="tlh-date">${it.dateTxt||"—"}${stLbl}</div>`+
-      `<div class="tlh-lb">${it.label}${it.wk?`<span class="tlh-wk">${it.wk}</span>`:""}</div>`+
-      `<p title="${(it.dt||"").replace(/<[^>]*>/g,"").replace(/"/g,"&quot;")}">${it.dt}</p></div>`;
-  });
-  if(!insertedToday) html+=todayNode;
-  document.getElementById("wSched").innerHTML=html+"</div>";
-
-  // ---- 主导叙事：带情绪标签的卡片 ----
-  const TAG={up:"▲ 利多",dn:"▼ 利空",nu:"◆ 中性"};
-  document.getElementById("wNarr").innerHTML=WATCH_NARR.map(n=>
-    `<div class="chip ${n.d}"><div class="chip-h"><span class="chip-tag">${TAG[n.d]||"◆"}</span><span class="nt">${n.t}</span></div><div class="chip-x">${n.x}</div></div>`).join("");
-}
-
-/* ===== 指数解读（内置默认值；loadNews() 会用 tradexyz-news.json 覆盖）===== */
-let INDEX_NOTES=[
- {t:"标普500 SP500",up:1,time:"6/9",x:"芯片反弹托底、科技领涨，能源/防御拖累 → 涨幅温和；<b>CPI(6/10)前观望</b>。",s:"Schwab / CNBC",u:"https://www.schwab.com/learn/story/stock-market-update-open"},
- {t:"XYZ100",up:1,time:"6/9",x:"<b>XYZ100 是 tradexyz 自有百强指数(科技权重高)，非纳指100</b>；随半导体反弹跑赢标普。参照纳指昨收约 +0.86%。",s:"CNBC / Kiplinger",u:"https://www.kiplinger.com/investing/stocks/nasdaq-leads-as-chip-stocks-bounce-stock-market-today"},
- {t:"韩国 KR200 / EWY",up:1,time:"6/9",x:"全球最强：<b>NVIDIA×SK海力士内存合作</b> + 芯片反弹，从 KOSPI -8.8% 熔断暴跌中修复。",s:"CNBC",u:"https://www.cnbc.com/2026/06/07/stock-market-today-live-updates.html"},
- {t:"能源 XLE",up:0,time:"6/9",x:"油价回吐(WTI/Brent -3.4~3.8%、中东缓和) → 能源股承压。",s:"CNBC",u:"https://www.cnbc.com/2026/06/07/stock-market-today-live-updates.html"}
-];
-
-/* ===== 消息面（内置默认值；loadNews() 会用 tradexyz-news.json 覆盖；每条带 time 发布时间）===== */
-let NEWS_TODAY=[
- {t:"SKHX 海力士",up:1,time:"6/8 盘中",x:"<b>黄仁勋访韩</b>(LG 双子塔)，NVIDIA×LG/SK海力士/SK电讯/Naver/斗山 多项 AI 合作；KOSPI 熔断暴跌后顶级游资逢低净买 SK海力士/NAVER，『更低价买入』情绪推动从低点反弹。",s:"Seoul Economic Daily / Reuters",u:"https://en.sedaily.com/finance/2026/06/05/top-traders-snap-up-jensen-huang-beneficiaries-buy-naver"},
- {t:"ZM",up:1,time:"6/8",x:"<b>Anthropic 递交 IPO 申请</b>，Zoom 早期投资账面价值大涨；叠加 Q1 超预期、10 亿回购、新 AI 产品 ZoomMate。",s:"Traders Union",u:"https://tradersunion.com/news/financial-news/show/2194689-zoom-surges-5-89percent-today-on/"},
- {t:"LLY",up:1,time:"6/4（早于今日）",x:"<b>CVS Caremark 恢复减肥药 Zepbound 报销</b>(10/1 起)、口服药 Foundayo 进医保——注意为 6/4 消息，今日涨幅或为延续/补涨，非当日新催化。",s:"NAI500",u:"https://nai500.com/blog/2026/06/cvs-policy-reversal-helps-drive-eli-lillys-stock-price-surge/"},
- {t:"RKLB +4.5%",up:1,time:"6/8",x:"Stifel 上调目标价至 \$132、Clear Street 上调至 \$129(均买入)；<b>Blue Origin 发射台火灾</b>令竞争对手出局、订单流向 SpaceX/Rocket Lab。YTD +68%；但 6/12 SpaceX IPO 抽水构成压制。",s:"Barchart / Yahoo Finance",u:"https://www.barchart.com/story/news/2268629/despite-positive-developments-rocket-lab-stock-is-a-high-risk-name"},
- {t:"CBRS +2.3%",up:1,time:"6/8",x:"<b>Cerebras 脑芯</b>(WSE-3 晶圆级 AI 芯片)：2026 最大纯 AI IPO(5/14 上市，开盘 \$350 vs 发行 \$185)；ARK 6/1 建仓 6.3万股、6/5 看涨期权活跃，AI 算力新贵获资金回流。",s:"CNBC",u:"https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html"},
- {t:"CRWV",up:1,time:"6/1→6/8",x:"<b>CoreWeave</b>：6/1 全球首个完成 NVIDIA <b>Vera Rubin NVL72</b> 机架级验证(当日 +14%) + 芝加哥 \$2.2B/15年超大规模数据中心租约；但 Q1 亏损扩大、Q2 指引偏弱曾 -12%，今日 ~\$98 震荡。",s:"TechTimes / Timothy Sykes",u:"https://www.techtimes.com/articles/317595/20260602/coreweave-beats-all-rivals-nvidia-vera-rubin-nvl72-crwv-stock-surges-14.htm"},
- {t:"PLTR",up:1,time:"6/8",x:"<b>Palantir</b> 扩大谷歌云合作(Foundry/AIP 接 BigQuery/Gemini/Ontology)，上调 FY26 营收指引至 <b>\$76.5–76.6 亿(~+71% YoY)</b>；Karp 警示行业『肤浅 AI 支出』。",s:"CoinCentral / Capital.com",u:"https://coincentral.com/palantir-technologies-inc-pltr-stock-surge-as-google-cloud-deal-boosts-ai-momentum/"},
- {t:"COIN",up:0,time:"6/8",x:"随<b>加密去杠杆下跌 ~-4.6% 至 \$202</b>：BTC 跌破 \$70K，Strategy(MSTR) 首次卖币引发『死亡螺旋』担忧，MSTR 三日 -26%、CRCL -16%。",s:"TradingKey / Coingape",u:"https://www.tradingkey.com/analysis/stocks/us-stocks/261941462-crypto-bitcoin-btc-strategy-circle-coinbase-robinhood-block-adp-tradingkey"},
- {t:"AMD +3.5%",up:1,time:"6/8（对 6/5 暴跌的反弹）",x:"周五随芯片板块<b>暴跌 10.86% 后反弹</b>；基本面强(OpenAI/Meta 共 12GW 合同、Q1 数据中心 +57%)。",s:"Globe and Mail",u:"https://www.theglobeandmail.com/investing/markets/markets-news/motley/2342757/ai-chip-stocks-sold-off-this-week-is-amd-a-buying-opportunity-or-a-falling-knife/"},
- {t:"MU / SNDK",up:1,time:"6/8（主线延续）",x:"<b>内存超级周期</b>：DRAM 价 YoY +300%、NAND +250%，AI 数据中心吃掉 70% 内存供给；但 MU 本周一度 -13% 随板块剧烈波动。",s:"Motley Fool",u:"https://www.fool.com/investing/2026/05/23/memory-chip-supercycle-2026-why-micron-and-sandisk/"},
- {t:"USAR",up:0,time:"6/4–6/5",x:"<b>利好出尽</b>：敲定商务部 16 亿美元贷款(已 price in)，稀土板块整体获利回吐(MP Materials 同步走弱)。",s:"ts2.tech",u:"https://ts2.tech/en/usa-rare-earth-lands-1-6-billion-u-s-funding-shares-drop-anyway/"},
- {t:"GME",up:0,time:"6/7–6/8",x:"<b>eBay 董事会正式拒绝</b> Ryan Cohen 收购要约，称其『不可信也无吸引力』；分析师仍看跌 ~37%。",s:"Yahoo Finance",u:"https://finance.yahoo.com/markets/stocks/articles/why-gamestop-stock-nosediving-audacious-130002224.html"}
-];
-let NEWS_TREND=[
- {t:"美联储·加息预期",up:0,time:"6/5→主线",x:"<b>本轮全市场回调的总根源</b>：5月非农 172K 翻倍、失业率 4.3%、10年期美债跳至 4.54%。市场叙事从『何时降息』翻转为『年底前是否加息』，10月加息概率升至 ~70%。流动性预期收紧 → 杀高估值，拥挤 AI/成长/加密首当其冲。下一触发点：6/10 CPI、6/17 FOMC。",s:"Yahoo Finance / Schwab",u:"https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-sink-as-jobs-report-fuels-fed-hike-bets-chip-stocks-sell-off-230134285.html"},
- {t:"韩国 AI 芯片回调",up:0,time:"6/8 早盘",x:"KOSPI 一度 -8.8%(熔断)、较高点回落~15%近技术性调整；三星 -11%、海力士 -10%。触发为 <b>Broadcom AI 芯片指引不及</b> + 加息担忧 → AI 泡沫担忧，核心拥挤交易被集中抛售。利好(英伟达合作)同在但股价先跌——确定性已不足以单独支撑估值。",s:"Livemint/Bloomberg/Reuters",u:"https://www.tradingkey.com/analysis/stocks/more/261951350-kospi-crash-circuit-breaker-samsung-sk-hynix-broadcom-guidance-fed-hikes-retail-leverage-krw-outflow-tradingkey"},
- {t:"加密·去杠杆",up:0,time:"6/2→6/8",x:"<b>BTC 跌破 \$70K</b>(至 ~\$69,420)。Strategy(MSTR) <b>首次卖出比特币</b>触发『币价跌→持仓浮亏→杠杆放大股价崩→信心丧失』死亡螺旋担忧：三日 MSTR -26%、COIN -19%、CRCL -16%。缓冲：长期债无短期清算压力 + 软件业务现金流。(对应 dex COIN/MSTR/CRCL)",s:"TradingKey / Coingape",u:"https://coingape.com/markets/mstr-stock-crash-deepens-as-strategy-hits-historic-10-8b-unrealized-loss/"},
- {t:"SpaceX IPO·航天",up:0,time:"6/12 上市",x:"SpaceX <b>6/12 登陆 Nasdaq</b>，555.6M 股 ×\$135 = 募资 \$750 亿、估值 <b>\$1.77 万亿</b>(史上最大 IPO，超 Tesla)；Morningstar 估 \$7,800 亿、称高估 ~48%，警告 xAI 价值毁灭风险。短期抽水航天板块资金；RKLB 受益 Blue Origin 事故但 IPO 临近承压。(对应 dex SPCX/RKLB)",s:"CNBC / Fortune",u:"https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html"},
- {t:"原油·地缘溢价",up:1,time:"6/8",x:"<b>WTI +3.4% 至 ~\$93.6、布伦特 +4% 破 \$97</b>，受伊以互射导弹 + 霍尔木兹海峡近封锁推动；OPEC+ 7 月增产 18.8 万桶/日。(对应 tradexyz CL/BRENTOIL)",s:"Trading Economics",u:"https://tradingeconomics.com/commodity/brent-crude-oil"},
- {t:"黄金",up:0,time:"6/8",x:"金价 <b>-0.72% 至 ~\$4294</b>，强非农推高利率预期，利率压制盖过避险买盘——避险资金更多流向油而非金。(对应 tradexyz GOLD)",s:"Trading Economics",u:"https://tradingeconomics.com/commodity/gold"},
- {t:"中东·停火风险",up:0,time:"6/7–6/8",x:"伊朗 6/7 向以色列<b>发射导弹</b>(4/8 停火以来首次)；特朗普要求内塔尼亚胡克制以保住美伊谈判窗口。变量从战场转向谈判桌。",s:"Axios / AP / Al Jazeera",u:"https://www.cnbc.com/2026/06/07/stock-market-today-live-updates.html"},
- {t:"内存超级周期",up:1,time:"主线（至 2028）",x:"Goldman：AI 驱动内存缺货延续到 <b>2028</b>，2026 DRAM 均价 YoY +300%。驱动 MU/SNDK/TSM/海力士。",s:"Benzinga",u:"https://www.benzinga.com/markets/tech/26/06/52907425/goldman-memory-shortage-2028-samsung-hynix-kioxia-sandisk-micron"},
- {t:"AI 算力 Capex",up:1,time:"主线",x:"NVIDIA 把 AI 工厂合作从 <b>HBM 扩到电力/工业</b>(斗山:燃气轮机/SMR/氢燃料电池)；AMD 与 OpenAI/Meta 12GW 部署。系统级绑定。",s:"NVIDIA Blog / Reuters",u:"https://blogs.nvidia.com/"},
- {t:"OpenAI super app",up:1,time:"6/8",x:"ChatGPT 推进 super app，内部『<b>Chat is dead</b>』——从问答窗口变操作入口(编码/agent/文件/应用/商业化)，入口与用户上下文争夺。",s:"TechCrunch / 36氪（用户提供）",u:""}
-];
-function renderNews(elId,arr){
-  document.getElementById(elId).innerHTML=arr.map(n=>{
-    const src=n.u?`<a href="${n.u}" target="_blank">来源：${n.s} ↗</a>`:`<span class="nosrc">来源：${n.s}</span>`;
-    return `<div class="nitem"><div class="nrow"><span class="tag ${n.up?'':'dntag'}">${n.t}</span><span class="time">🕒 ${n.time}</span></div><p>${n.x}</p><p>${src}</p></div>`;
-  }).join("");
-}
-
-/* ===== 点击个股 → 弹出「为什么涨跌」气泡 ===== */
-function pctSpan(v){ return `<span class="${cls(v)}">${fmtPct(v)}</span>`; }
-function newsForSymbol(sym){
-  const nm=NAME[sym]||"";
-  const esc=sym.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
-  const tickRe=new RegExp("(^|[^A-Z0-9])"+esc+"([^A-Z0-9]|$)");
-  const toks=(nm.match(/[一-鿿]{2,}|[A-Za-z]{3,}/g)||[]).map(t=>t.toLowerCase());
-  const hit=s=>{ if(!s) return false; if(tickRe.test(s)) return true; const sl=s.toLowerCase(); return toks.some(t=>sl.indexOf(t)>=0); };
-  const out=[];
-  const scan=(arr,grp)=>{ (arr||[]).forEach(n=>{ if(hit(n.t)||hit(n.x)) out.push({grp,t:n.t,up:n.up,time:n.time||"",x:n.x,s:n.s||"",u:n.u||""}); }); };
-  scan(NEWS_TODAY,"今日异动"); scan(INDEX_NOTES,"指数解读"); scan(NEWS_TREND,"宏观主线");
-  return out;
-}
-function showStockNews(sym,ev){
-  if(ev) ev.stopPropagation();
-  const pop=document.getElementById("pop");
-  const row=[...DATA.ST,...DATA.CM,...DATA.IX].find(r=>r.tk===sym);
-  const nm=(row&&row.nm)||NAME[sym]||sym;
-  const dir=row?row.chg24:null;
-  const arrow=dir==null?"":(dir>0?"▲ ":(dir<0?"▼ ":""));
-  const movePill=row?`<span class="pmove ${cls(dir)}">${arrow}${fmtPct(dir)}</span>`:"";
-  const h12=row?`<span class="pm">12h ${fmtPct(row.chg12)}</span>`:"";
-  const items=newsForSymbol(sym);
-  let body;
-  if(items.length){
-    body=items.map(n=>{
-      const src=n.u?`<a href="${n.u}" target="_blank">来源：${n.s} ↗</a>`:(n.s?`<span style="color:var(--mut);font-size:12px">来源：${n.s}</span>`:"");
-      const tm=n.time?`<span class="ptime">🕒 ${n.time}</span>`:"";
-      return `<div class="pitem"><div class="pmeta"><span class="pgrp">${n.grp}</span><span class="ptag ${n.up?'':'dn'}">${n.t}</span>${tm}</div><p>${n.x}</p>${src?`<p>${src}</p>`:""}</div>`;
-    }).join("");
-  }else{
-    body=`<div class="pnone">今日暂无 <b>${sym}</b> 的单独催化新闻。<br>可参考「主导叙事 / 指数解读 / 宏观主线」了解大盘与板块背景，或点「刷新新闻」获取最新。</div>`;
-  }
-  pop.className=(dir>0?"up":(dir<0?"dn":""));
-  POP_SYM=sym;
-  const chartBtn=`<button class="pbtn" onclick="openChart('${sym}')">📊 看K线 + 技术研判（1h/4h/1日）</button>`;
-  const live=getNewsProxy()
-    ? `<div class="pl"><div class="pl-h">🔎 Yahoo 实时新闻<span class="pl-cfg" onclick="setNewsProxy(event)">⚙ 换源</span></div><div id="popLiveBody" class="pl-none">加载中…</div></div>`
-    : `<button class="pbtn" style="background:var(--warn);color:#1a1205" onclick="setNewsProxy(event)">🔎 配置实时新闻源（Yahoo · 一次性）</button>`;
-  pop.innerHTML=`<div class="ph"><span class="pt">${sym}</span><span class="pn">${nm}</span>${movePill}${h12}<span class="px" onclick="hidePop()">✕</span></div><div class="pb">${chartBtn}${live}${body}</div>`;
-  pop.classList.add("show");
-  const cx=(ev&&ev.clientX)||80, cy=(ev&&ev.clientY)||80;
-  pop.style.left="0px"; pop.style.top="0px";
-  const r=pop.getBoundingClientRect();
-  let x=cx+14; if(x+r.width>window.innerWidth-10) x=Math.max(10,cx-r.width-14);
-  let y=cy+10; if(y+r.height>window.innerHeight-10) y=Math.max(10,window.innerHeight-r.height-10);
-  pop.style.left=x+"px"; pop.style.top=y+"px";
-  POP_XY={x:cx,y:cy};
-  if(getNewsProxy()) fetchLiveNews(sym);   // 点开即按需拉取该股 Yahoo 新闻
-}
-/* ===== Yahoo 实时新闻（经免费 Cloudflare Worker 中转，按需当场拉取）===== */
-let POP_SYM=null, POP_XY={x:80,y:80};
-function getNewsProxy(){ try{ return localStorage.getItem("tradexyz-news-proxy")||""; }catch(e){ return ""; } }
-function setNewsProxy(ev){
-  if(ev) ev.stopPropagation();
-  const v=prompt("粘贴你的 Cloudflare Worker 地址（如 https://tradexyz-news.xxx.workers.dev）。\n部署方法见 tradexyz-news-worker.js 顶部说明。留空可清除。", getNewsProxy());
-  if(v==null) return;
-  try{ localStorage.setItem("tradexyz-news-proxy", v.trim()); }catch(e){}
-  if(POP_SYM){ showStockNews(POP_SYM,{clientX:POP_XY.x,clientY:POP_XY.y,stopPropagation(){}}); }
-}
-async function fetchLiveNews(sym){
-  const proxy=getNewsProxy(), box=document.getElementById("popLiveBody");
-  if(!proxy||!box) return;
-  box.className="pl-none"; box.textContent="加载中…";
-  try{
-    const u=proxy+(proxy.includes("?")?"&":"?")+"symbol="+encodeURIComponent(sym);
-    const r=await fetch(u,{cache:"no-store"});
-    const j=await r.json();
-    const items=(j.items||[]).slice(0,6);
-    if(!items.length){ box.className="pl-none"; box.textContent=`Yahoo 暂无 ${sym} 的相关新闻${j.error?`（${j.error}）`:""}`; return; }
-    box.className="";
-    box.innerHTML=items.map(n=>{
-      const d=n.pubDate?new Date(n.pubDate):null, dt=(d&&!isNaN(+d))?`${d.getMonth()+1}/${d.getDate()}`:"";
-      return `<div class="pl-i"><a href="${n.link}" target="_blank" rel="noopener">${n.title} ↗</a><div class="pl-m">${n.source||"Yahoo"}${dt?" · "+dt:""}</div></div>`;
-    }).join("");
-  }catch(e){ box.className="pl-none"; box.textContent=`拉取失败（${String(e).slice(0,50)}）。检查 Worker 地址是否正确且已部署。`; }
-}
-function hidePop(){ document.getElementById("pop").classList.remove("show"); }
-document.addEventListener("click",e=>{ const p=document.getElementById("pop"); if(p&&p.classList.contains("show")&&!p.contains(e.target)) hidePop(); });
-document.addEventListener("keydown",e=>{ if(e.key==="Escape") hidePop(); });
-
-/* 折叠区块：点击标题展开/收起 */
-function toggleSec(el){ el.classList.toggle("collapsed"); }
-/* 移动端默认折叠底部的三块新闻（按视口宽度判断，非 UA 判断）*/
-function collapseNewsIfMobile(){
-  if(window.matchMedia && window.matchMedia("(max-width:760px)").matches){
-    document.querySelectorAll(".news .collapser").forEach(h=>h.classList.add("collapsed"));
-  }
-}
-
 /* ===== K线图 + 技术研判（浏览器实时计算指标，非投资建议）===== */
 let CH={chart:null,sym:null,iv:"1h"};
 const IVMAP={"1h":{n:200,sec:3600},"4h":{n:200,sec:14400},"1d":{n:180,sec:86400}};
@@ -721,9 +313,7 @@ function analyzeTA(d){
   if(mc.hist!=null){ score+=(mc.hist>0?0.5:-0.5); if(mc.prev!=null)score+=(mc.hist>mc.prev?0.2:-0.2); }
   return {last,m20,m50,sup,res,trend,tdir,rsi:r,hist:mc.hist,histUp:mc.hist!=null&&mc.prev!=null&&mc.hist>mc.prev,tide,wave,score};
 }
-function newsSentiment(sym){ const it=newsForSymbol(sym); let up=0,dn=0; it.forEach(n=>{ n.up?up++:dn++; }); return {up,dn,n:it.length}; }
 async function openChart(sym,iv){
-  hidePop();
   const box=document.getElementById("chart"); CH.sym=sym; CH.iv=iv||CH.iv||"1h";
   const row=[...DATA.ST,...DATA.CM,...DATA.IX].find(r=>r.tk===sym);
   const nm=(row&&row.nm)||NAME[sym]||sym, d24=row?row.chg24:null, mv=row?`${d24>0?"▲":(d24<0?"▼":"")} ${fmtPct(d24)}`:"";
@@ -745,48 +335,24 @@ async function openChart(sym,iv){
   csr.createPriceLine({price:A.sup,color:"#16c784",lineWidth:1,lineStyle:2,axisLabelVisible:true,title:"支撑"});
   csr.createPriceLine({price:A.res,color:"#ea3943",lineWidth:1,lineStyle:2,axisLabelVisible:true,title:"压力"});
   chart.timeScale().fitContent(); CH.chart=chart;
-  const sent=newsSentiment(sym), sigDir=A.score>0.8?1:(A.score<-0.8?-1:0);
+  const sigDir=A.score>0.8?1:(A.score<-0.8?-1:0);
   const sigCls=sigDir>0?"up":(sigDir<0?"dn":"nu"), sigLab=sigDir>0?"技术面偏多":(sigDir<0?"技术面偏空":"技术面中性");
   const rsiTxt=A.rsi==null?"—":A.rsi.toFixed(0)+(A.rsi<30?"（超卖）":A.rsi>70?"（超买）":"（中性）");
   const tideT=A.tide>0?"多头（SMA20>SMA50）":A.tide<0?"空头（SMA20<SMA50）":"均线纠缠";
   const waveT=A.wave>0?"回调至超卖区（偏买）":A.wave<0?"冲高至超买区（偏卖）":"中性";
-  const newsTxt=sent.n?`消息面 ${sent.up} 利多 / ${sent.dn} 利空`:"暂无该标的单独消息";
   document.getElementById("cta").innerHTML=
     `<div class="ta-card"><h4>道氏趋势</h4><div class="big" style="color:${A.tdir>0?'var(--up)':A.tdir<0?'var(--dn)':'var(--mut)'}">${A.trend}</div><p>${A.m20!=null?(A.last>A.m20?"价在 SMA20 上方":"价在 SMA20 下方"):""}；SMA20 ${A.m20!=null?fmtP(A.m20):"—"} / SMA50 ${A.m50!=null?fmtP(A.m50):"—"}</p></div>`+
     `<div class="ta-card"><h4>支撑 / 压力（摆动高低点）</h4><div class="ta-row"><span>最近压力</span><b style="color:var(--dn)">${fmtP(A.res)}</b></div><div class="ta-row"><span>现价</span><b>${fmtP(A.last)}</b></div><div class="ta-row"><span>最近支撑</span><b style="color:var(--up)">${fmtP(A.sup)}</b></div></div>`+
     `<div class="ta-card"><h4>动能 RSI / MACD</h4><p>RSI(14)：<b>${rsiTxt}</b><br>MACD 柱：<b style="color:${A.hist>0?'var(--up)':'var(--dn)'}">${A.hist==null?"—":(A.hist>0?"红柱(多)":"绿柱(空)")}${A.hist!=null?(A.histUp?" ↑动能增":" ↓动能减"):""}</b></p></div>`+
     `<div class="ta-card"><h4>三重滤网（Elder）</h4><p>① 大势：<b>${tideT}</b><br>② 摆动：<b>${waveT}</b></p></div>`+
-    `<div class="ta-sig ${sigCls}"><span class="lab">综合研判：${sigLab}</span> <span style="color:var(--mut);font-size:12px">（技术评分 ${A.score.toFixed(1)}；${newsTxt}）</span>`+
-    `<p style="margin:6px 0 0;font-size:12px;color:var(--txt)">${sigDir>0?`价站上 SMA20、${A.trend.indexOf("上升")>=0?"道氏多头结构":"结构待确认"}；回踩 <b>${fmtP(A.sup)}</b> 不破可视支撑，上方压力 <b>${fmtP(A.res)}</b>。`:sigDir<0?`价弱于均线、${A.trend.indexOf("下降")>=0?"道氏空头结构":"结构走弱"}；反弹至 <b>${fmtP(A.res)}</b> 受压，跌破 <b>${fmtP(A.sup)}</b> 则加速。`:`多空均衡，于 <b>${fmtP(A.sup)}</b>–<b>${fmtP(A.res)}</b> 区间震荡，等方向选择（留意 CPI 等事件）。`}</p></div>`+
-    `<div class="ta-note">技术指标由你的浏览器实时计算（道氏结构 / 摆动高低点 / RSI(14) / MACD / 三重滤网），<b>仅供参考，非投资建议</b>；消息面取自每小时更新的新闻。真正的「实时联网 AI 检索 + 自然语言研判」需后端，静态页无法每次点击触发。</div>`;
+    `<div class="ta-sig ${sigCls}"><span class="lab">综合研判：${sigLab}</span> <span style="color:var(--mut);font-size:12px">（技术评分 ${A.score.toFixed(1)}）</span>`+
+    `<p style="margin:6px 0 0;font-size:12px;color:var(--txt)">${sigDir>0?`价站上 SMA20、${A.trend.indexOf("上升")>=0?"道氏多头结构":"结构待确认"}；回踩 <b>${fmtP(A.sup)}</b> 不破可视支撑，上方压力 <b>${fmtP(A.res)}</b>。`:sigDir<0?`价弱于均线、${A.trend.indexOf("下降")>=0?"道氏空头结构":"结构走弱"}；反弹至 <b>${fmtP(A.res)}</b> 受压，跌破 <b>${fmtP(A.sup)}</b> 则加速。`:`多空均衡，于 <b>${fmtP(A.sup)}</b>–<b>${fmtP(A.res)}</b> 区间震荡，等待放量突破。`}</p></div>`+
+    `<div class="ta-note">技术指标由你的浏览器实时计算（道氏结构 / 摆动高低点 / RSI(14) / MACD / 三重滤网），<b>仅供参考，非投资建议</b>。</div>`;
 }
 function closeChart(){ const b=document.getElementById("chart"); b.classList.remove("show"); if(CH.chart){ try{CH.chart.remove();}catch(e){} CH.chart=null; } }
 window.addEventListener("resize",()=>{ if(CH.chart){ const cc=document.getElementById("chc"); if(cc) CH.chart.applyOptions({width:cc.clientWidth,height:cc.clientHeight}); } });
 document.getElementById("chart").addEventListener("click",e=>{ if(e.target.id==="chart") closeChart(); });
 document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeChart(); });
-
-/* 拉取最新新闻 JSON（定时 agent 维护）；失败则保留内置默认新闻（如本地 file:// 直接打开） */
-const NEWS_MS=30*60*1000;
-async function loadNews(){
-  const b=document.getElementById("newsBtn"); if(b){b.disabled=true; b.textContent="刷新中…";}
-  let ok=false;
-  try{
-    const r=await fetch("tradexyz-news.json?t="+Date.now(),{cache:"no-store"});
-    if(r.ok){
-      const j=await r.json();
-      if(Array.isArray(j.WATCH_SCHED)) WATCH_SCHED=j.WATCH_SCHED;
-      if(Array.isArray(j.WATCH_NARR))  WATCH_NARR =j.WATCH_NARR;
-      if(Array.isArray(j.INDEX_NOTES)) INDEX_NOTES=j.INDEX_NOTES;
-      if(Array.isArray(j.NEWS_TODAY))  NEWS_TODAY =j.NEWS_TODAY;
-      if(Array.isArray(j.NEWS_TREND))  NEWS_TREND =j.NEWS_TREND;
-      if(j.asOf){ const e=document.getElementById("newsAsOf"); if(e) e.textContent="截至 "+j.asOf; }
-      renderWatch(); renderNewsView();
-      const nu=document.getElementById("newsUpdated"); if(nu){ nu.textContent=new Date().toLocaleString("zh-CN")+(j.asOf?` (${j.asOf})`:""); nu.style.color="var(--up)"; setTimeout(()=>nu.style.color="",1500); }
-      ok=true;
-    }
-  }catch(e){ /* 离线/本地文件模式：保留内置默认新闻 */ }
-  finally{ if(b){ b.disabled=false; b.textContent=ok?"✓ 已更新":"刷新失败"; setTimeout(()=>{b.textContent="刷新新闻";},1300); } }
-}
 
 /* ===== 日间 / 夜间模式 ===== */
 function applyTheme(t){
@@ -801,14 +367,9 @@ function toggleTheme(){
   applyTheme(t);
 }
 applyTheme((()=>{ try{ return localStorage.getItem("tradexyz-theme")||"dark"; }catch(e){ return "dark"; } })());
-collapseNewsIfMobile();
 
-renderWatch();
-renderNewsView();
-loadNews();
 load();
 setInterval(load,REFRESH_MS);
-setInterval(loadNews,NEWS_MS);
 setInterval(tick,1000);
 </script>
 </body>
