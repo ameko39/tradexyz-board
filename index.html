@@ -55,6 +55,8 @@
   .search .hint{color:var(--mut);font-size:12px}
   @media(max-width:760px){ .search{margin:12px 12px 2px} }
   .bwe{padding:10px 22px}
+  .feed-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
+  @media(max-width:980px){.feed-grid{grid-template-columns:1fr}}
   .bwe-head{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line)}
   .bwe-head h2{padding:0;border:0;gap:8px;justify-content:flex-start}
   .bwe-status{margin-left:auto;color:var(--mut);font-size:12px;display:flex;align-items:center;gap:6px}
@@ -70,13 +72,19 @@
   .bwe-item{padding:12px 16px;border-top:1px solid var(--line)}
   .bwe-item:first-child{border-top:0}
   .bwe-meta{display:flex;align-items:center;gap:8px;color:var(--mut);font-size:11px;margin-bottom:6px;flex-wrap:wrap}
+  .bwe-meta a{color:var(--mut);text-decoration:none}
+  .bwe-meta a:hover{color:var(--accent)}
   .bwe-source{font-weight:800;color:var(--accent)}
+  .bwe-source.jin10{color:var(--warn)}
   .bwe-title{font-size:14px;font-weight:700;line-height:1.45;color:var(--txt)}
   .bwe-title a{color:inherit;text-decoration:none}
   .bwe-title a:hover{color:var(--accent)}
+  .bwe-text{margin-top:6px;color:var(--mut);font-size:12.5px;line-height:1.55;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
   .bwe-coins{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
   .bwe-coin{font-size:10px;font-weight:700;border-radius:999px;padding:2px 7px;background:rgba(91,141,239,.14);color:#9db6f0}
+  .bwe-coin.jin10{background:rgba(227,160,8,.13);color:#e3b64f}
   body.light .bwe-coin{background:rgba(47,111,237,.12);color:#2f5fc0}
+  body.light .bwe-coin.jin10{background:rgba(169,117,10,.12);color:#8a5f08}
   body.light .mini-btn{color:var(--txt)}
   body.light .bwe-title a:hover{color:var(--accent)}
 
@@ -159,16 +167,29 @@
 <div class="search"><input id="stockSearch" placeholder="搜索代码或名称（如 NVDA / 英伟达 / GOLD / 黄金）…" oninput="stockSearch()"><span class="hint" id="stockHint"></span></div>
 
 <div class="bwe">
-  <div class="card">
-    <div class="bwe-head">
-      <h2>BWEnews 实时快讯 <span id="bweCount">0 条</span></h2>
-      <div id="bweStatus" class="bwe-status warn"><span class="bwe-dot"></span><span id="bweStatusText">连接中</span></div>
-      <div class="bwe-actions">
-        <button class="mini-btn" onclick="connectBwe(true)">重连</button>
-        <button class="mini-btn" onclick="clearBweFeed()">清空</button>
+  <div class="feed-grid">
+    <div class="card">
+      <div class="bwe-head">
+        <h2>BWEnews 实时快讯 <span id="bweCount">0 条</span></h2>
+        <div id="bweStatus" class="bwe-status warn"><span class="bwe-dot"></span><span id="bweStatusText">连接中</span></div>
+        <div class="bwe-actions">
+          <button class="mini-btn" onclick="connectBwe(true)">重连</button>
+          <button class="mini-btn" onclick="clearBweFeed()">清空</button>
+        </div>
       </div>
+      <div id="bweList" class="bwe-list"><div class="bwe-empty">等待 BWEnews 推送…</div></div>
     </div>
-    <div id="bweList" class="bwe-list"><div class="bwe-empty">等待 BWEnews 推送…</div></div>
+    <div class="card">
+      <div class="bwe-head">
+        <h2>金十 TG 快讯 <span id="jin10Count">0 条</span></h2>
+        <div id="jin10Status" class="bwe-status warn"><span class="bwe-dot"></span><span id="jin10StatusText">加载中</span></div>
+        <div class="bwe-actions">
+          <button class="mini-btn" onclick="refreshJin10(true)">刷新</button>
+          <button class="mini-btn" onclick="clearJin10Feed()">清空</button>
+        </div>
+      </div>
+      <div id="jin10List" class="bwe-list"><div class="bwe-empty">加载金十 Telegram 频道…</div></div>
+    </div>
   </div>
 </div>
 
@@ -191,6 +212,7 @@
   个股专属两列（均按北京时间，UTC+8 无夏令时）：<b>盘前</b> = 自当日 16:00 起的累计涨幅（含美股盘前 16:00–21:30 及盘中 21:30–04:00）；<b>夜盘</b> = 04:00–16:00 时段涨幅（美股盘后 + 隔夜延长时段）。两段在时间上拼成完整一天；进行中的时段实时累计，已结束的时段为固定值。大宗 / 指数为近 24h 连续交易品种，不适用盘前 / 夜盘，故只保留 24h / 12h。<br>
   覆盖：tradexyz(<code>xyz</code> dex)上全部标的，按资产类别分 个股 / 大宗商品 / 指数·ETF 三表；外汇(EUR/GBP/JPY/KRW/DXY)与加密噪音(QNT/PURRDAT)已剔除。任何新上标的若未归类，默认进「个股」表，不会漏。<br>
   BWEnews 快讯：浏览器直连 <code>wss://bwenews-api.bwe-ws.com/ws</code>，仅展示 BWEnews 自有编辑内容；连接保持使用 plain text <code>ping</code>/<code>pong</code>。<br>
+  金十 TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/jin10light</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
   <b>刷新行情</b> 会重新拉取价格/涨跌幅（浏览器直连 API，秒级）；行情每 2h 自动刷新一次。<br>
   仅显示 24h 有成交量的标的（零成交已隐藏）。
 </footer>
@@ -381,6 +403,130 @@ function clearBweFeed(){
   renderBwe();
 }
 
+const JIN10_CHANNEL="jin10light";
+const JIN10_FEED_URL="https://r.jina.ai/https://t.me/s/jin10light";
+const JIN10_REFRESH_MS=60*1000;
+const JIN10_MAX_ITEMS=60;
+let JIN10_ITEMS=[];
+
+function setJin10Status(text,kind){
+  const el=document.getElementById("jin10Status"), tx=document.getElementById("jin10StatusText");
+  if(!el||!tx) return;
+  el.className="bwe-status "+(kind||"warn");
+  tx.textContent=text;
+}
+function loadJin10Cache(){
+  try{
+    const raw=localStorage.getItem("jin10-tg-items");
+    JIN10_ITEMS=raw?JSON.parse(raw).slice(0,JIN10_MAX_ITEMS):[];
+  }catch(e){ JIN10_ITEMS=[]; }
+}
+function saveJin10Cache(){
+  try{ localStorage.setItem("jin10-tg-items",JSON.stringify(JIN10_ITEMS.slice(0,40))); }catch(e){}
+}
+function renderJin10(){
+  const box=document.getElementById("jin10List"), count=document.getElementById("jin10Count");
+  if(count) count.textContent=JIN10_ITEMS.length+" 条";
+  if(!box) return;
+  if(!JIN10_ITEMS.length){ box.innerHTML='<div class="bwe-empty">等待金十 TG 数据…</div>'; return; }
+  box.innerHTML=JIN10_ITEMS.map(n=>{
+    const url=String(n.url||"").trim();
+    const title=esc(n.title||"金十 TG 快讯");
+    const body=n.body?`<div class="bwe-text">${esc(n.body)}</div>`:"";
+    const tagHtml=n.tags&&n.tags.length?`<div class="bwe-coins">${n.tags.slice(0,8).map(t=>`<span class="bwe-coin jin10">${esc(t)}</span>`).join("")}</div>`:"";
+    const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">原文</a>`:"";
+    const titleHtml=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>`:title;
+    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source jin10">JIN10 TG</span><span>${esc(n.time||"--")}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
+  }).join("");
+}
+function cleanJin10Chunk(chunk,tags){
+  const seen=new Set();
+  chunk=chunk.replace(/\[#([^\]]+)\]\(https:\/\/t\.me\/s\/jin10light\?q=[^)]+\)/g,(_,tag)=>{
+    const t="#"+tag.trim();
+    if(t.length>1&&!seen.has(t)){ seen.add(t); tags.push(t); }
+    return " ";
+  });
+  return chunk.split(/\n+/).map(line=>{
+    line=line.trim();
+    if(!line) return "";
+    if(line.includes("![Image")) return "";
+    if(/^\[?金十数据 闪电资讯/.test(line)) return "";
+    if(/^\[?\]\(https:\/\/t\.me\/s\/jin10light/.test(line)) return "";
+    if(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(line)) return "";
+    if(/^\d[\d,.Kk]*\s+views(?:\s+edited)?$/.test(line)) return "";
+    if(/Download Telegram|About|Blog|Apps|Platform|subscribers/i.test(line)) return "";
+    if(/注册币安|AI中转|USDT全球刷卡|免费助力|boost\/jin10light|bsmkweb|muskapi|51vcard/i.test(line)) return "";
+    line=line.replace(/\[_\*\*([^*]+)\*\*_\]/g,"$1");
+    line=line.replace(/\*\*/g,"").replace(/[_`]/g,"");
+    line=line.replace(/\[([^\]]+)\]\(([^)]+)\)/g,"$1");
+    line=line.replace(/\s+/g," ").trim();
+    if(/^\.[A-Za-z0-9]+$/.test(line)) return "";
+    if(/^[❤👍🔥👏⚡🚀💯🙏]+(?:\s+\d+)?$/.test(line)) return "";
+    return line;
+  }).filter(Boolean).join("\n").trim();
+}
+function truncateText(s,n){
+  s=String(s||"").trim();
+  return s.length>n?s.slice(0,n-1).trim()+"…":s;
+}
+function parseJin10Markdown(md){
+  const re=new RegExp("\\[(\\d{2}:\\d{2})\\]\\(https:\\/\\/t\\.me\\/"+JIN10_CHANNEL+"\\/(\\d+)\\)","g");
+  const hits=[...String(md||"").matchAll(re)];
+  const marker=`[金十数据 闪电资讯](https://t.me/${JIN10_CHANNEL})`;
+  const items=[];
+  hits.forEach((m,i)=>{
+    const prev=i?hits[i-1].index+hits[i-1][0].length:0;
+    let chunk=md.slice(prev,m.index);
+    const p=chunk.lastIndexOf(marker);
+    if(p>=0) chunk=chunk.slice(p+marker.length);
+    const tags=[];
+    const text=cleanJin10Chunk(chunk,tags);
+    if(!text) return;
+    const lines=text.split(/\n+/).map(x=>x.trim()).filter(Boolean);
+    if(!lines.length) return;
+    let title=lines[0], body=lines.slice(1).join(" ");
+    if(!body&&title.length>92){ body=title.slice(92); title=title.slice(0,91).trim()+"…"; }
+    items.push({
+      id:m[2],
+      time:m[1],
+      url:`https://t.me/${JIN10_CHANNEL}/${m[2]}`,
+      title:truncateText(title,110),
+      body:truncateText(body,260),
+      tags
+    });
+  });
+  const byId=new Map();
+  items.forEach(item=>{ if(!byId.has(item.id)) byId.set(item.id,item); });
+  return [...byId.values()].sort((a,b)=>Number(b.id)-Number(a.id)).slice(0,JIN10_MAX_ITEMS);
+}
+async function refreshJin10(force){
+  setJin10Status("刷新中","warn");
+  try{
+    const url=JIN10_FEED_URL+(force?`?_=${Date.now()}`:"");
+    const r=await fetch(url,{cache:"no-store",headers:{"Accept":"text/plain"}});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const items=parseJin10Markdown(await r.text());
+    if(!items.length) throw new Error("没有解析到频道消息");
+    const fresh=new Set(items.map(x=>x.id));
+    JIN10_ITEMS=[...items,...JIN10_ITEMS.filter(x=>!fresh.has(x.id))]
+      .sort((a,b)=>Number(b.id)-Number(a.id))
+      .slice(0,JIN10_MAX_ITEMS);
+    saveJin10Cache();
+    renderJin10();
+    setJin10Status("已更新 "+new Date().toLocaleTimeString("zh-CN",{hour12:false}),"ok");
+  }catch(e){
+    console.warn("Jin10 TG fetch failed",e);
+    setJin10Status("读取失败","bad");
+    renderJin10();
+  }
+}
+function clearJin10Feed(){
+  JIN10_ITEMS=[];
+  saveJin10Cache();
+  renderJin10();
+  setJin10Status("已清空","warn");
+}
+
 async function load(){
   const btn=document.getElementById("refreshBtn"); btn.disabled=true; btn.textContent="刷新中…";
   try{
@@ -510,8 +656,12 @@ applyTheme((()=>{ try{ return localStorage.getItem("tradexyz-theme")||"dark"; }c
 loadBweCache();
 renderBwe();
 connectBwe();
+loadJin10Cache();
+renderJin10();
+refreshJin10();
 load();
 setInterval(load,REFRESH_MS);
+setInterval(()=>refreshJin10(false),JIN10_REFRESH_MS);
 setInterval(tick,1000);
 </script>
 </body>
