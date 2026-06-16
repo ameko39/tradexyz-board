@@ -115,8 +115,29 @@
   body.light .macro-event{background:rgba(20,40,90,.025)}
   body.light .macro-tag{background:rgba(47,111,237,.1);color:#2f5fc0}
   .calendar-card .bwe-head h2{font-size:16px}
-  .calendar-frame-wrap{height:640px;background:#fff}
-  .calendar-frame{display:block;width:100%;height:100%;border:0;background:#fff}
+  .cal-summary{padding:12px 16px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
+  .cal-stat{border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:rgba(255,255,255,.018)}
+  .cal-stat b{display:block;font-size:18px;line-height:1.1}
+  .cal-stat span{display:block;margin-top:4px;color:var(--mut);font-size:11px}
+  .cal-list{max-height:620px;overflow:auto;padding:4px 0}
+  .cal-day{border-top:1px solid var(--line)}
+  .cal-day:first-child{border-top:0}
+  .cal-day-head{position:sticky;top:0;z-index:2;background:var(--card);padding:9px 16px;color:var(--mut);font-size:12px;font-weight:800;border-bottom:1px solid var(--line)}
+  .cal-item{display:grid;grid-template-columns:64px minmax(0,1fr) 96px;gap:12px;padding:12px 16px;border-top:1px solid rgba(255,255,255,.045)}
+  .cal-time{font-size:13px;font-weight:900;color:var(--accent)}
+  .cal-title{font-size:14px;font-weight:800;line-height:1.4}
+  .cal-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px;color:var(--mut);font-size:11px}
+  .cal-pill{border-radius:999px;padding:2px 7px;background:rgba(91,141,239,.12);color:#9db6f0;font-weight:800}
+  .cal-pill.hot{background:rgba(234,57,67,.13);color:#f08b91}
+  .cal-pill.warn{background:rgba(227,160,8,.13);color:#e3b64f}
+  .cal-impact{color:var(--mut);font-size:12.5px;line-height:1.5;margin-top:7px}
+  .cal-values{font-size:11px;color:var(--mut);text-align:right;line-height:1.55}
+  .cal-values b{color:var(--txt)}
+  .cal-empty{padding:18px 16px;color:var(--mut);font-size:13px}
+  body.light .cal-stat{background:rgba(20,40,90,.03)}
+  body.light .cal-pill{background:rgba(47,111,237,.1);color:#2f5fc0}
+  body.light .cal-pill.hot{background:rgba(214,47,60,.1);color:#b22530}
+  body.light .cal-pill.warn{background:rgba(169,117,10,.12);color:#8a5f08}
 
   /* ===== 移动端排版（≤760px，按视口宽度自动适配，无需 UA 判断）===== */
   @media(max-width:760px){
@@ -135,7 +156,9 @@
     .macro-dot{left:10px;top:18px;transform:none}
     .macro-date,.macro-title{text-align:left}
     .macro-tags{justify-content:flex-start}
-    .calendar-frame-wrap{height:560px}
+    .cal-list{max-height:560px}
+    .cal-item{grid-template-columns:52px minmax(0,1fr);gap:8px;padding:11px 12px}
+    .cal-values{grid-column:2;text-align:left}
     /* 表格：隐藏次要列，留「代码/现价/24h/12h」，详情可点开K线 */
     .c-name,.c-pre,.c-night,.c-vol{display:none}
     th,td{padding:8px 8px}
@@ -270,16 +293,16 @@
 <div class="full">
   <div class="card calendar-card">
     <div class="bwe-head">
-      <h2>金十财经日历 <span class="macro-sub">官方日历嵌入</span></h2>
+      <h2>交易员宏观日历 <span class="macro-sub">金十日历数据二次筛选</span></h2>
+      <div id="jin10CalStatus" class="bwe-status warn"><span class="bwe-dot"></span><span id="jin10CalStatusText">加载中</span></div>
       <div class="bwe-actions">
-        <button class="mini-btn" onclick="reloadJin10Calendar()">刷新日历</button>
+        <button class="mini-btn" onclick="loadJin10Calendar(true)">刷新日历</button>
         <a class="mini-btn link-btn" href="https://rili.jin10.com/" target="_blank" rel="noopener">打开原站</a>
       </div>
     </div>
-    <div class="calendar-frame-wrap">
-      <iframe id="jin10CalendarFrame" class="calendar-frame" title="金十财经日历" src="https://rili.jin10.com/" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="archive-note">该区块直接嵌入金十财经日历原站，不在本页面存储或改写金十日历数据；若金十调整跨站嵌入策略，可点击“打开原站”查看。</div>
+    <div id="jin10CalSummary" class="cal-summary"></div>
+    <div id="jin10CalList" class="cal-list"><div class="cal-empty">加载金十财经日历数据…</div></div>
+    <div class="archive-note">读取金十公开日历 JSON 后在本地二次筛选：默认忽略低星级和低交易相关事件，只保留宏观数据、央行、国债/资金、能源、市场休市等更可能影响指数、美元、美债、AI/半导体/科技股的事件。</div>
   </div>
 </div>
 
@@ -314,7 +337,7 @@
   PolyBeats TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/PolyBeats_Bot</code>，前端每 60s 轮询一次；公开页未暴露单条消息 ID，因此用日期与内容摘要去重。<br>
   15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG、金十 TG 与 PolyBeats TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。页面展示时间统一按北京时间 UTC+8。<br>
   本周市场关注：仅基于本机收到的 BWE TradFi 与金十快讯做本地规则筛选，不上传到外部 AI 服务；筛选结果是交易日历参考，不等同于官方财经日历。<br>
-  金十财经日历：通过 <code>iframe</code> 直接嵌入 <code>rili.jin10.com</code> 原站页面，用于查看结构化财经事件日历；本看板不抓取、不缓存、不改写金十日历数据。<br>
+  交易员宏观日历：浏览器读取金十公开日历 JSON，按本地规则二次筛选高星级和高交易相关事件；低重要度日历项会被忽略。<br>
   <b>刷新行情</b> 会重新拉取价格/涨跌幅（浏览器直连 API，秒级）；行情每 2h 自动刷新一次。<br>
   仅显示 24h 有成交量的标的（零成交已隐藏）。
 </footer>
@@ -324,10 +347,6 @@
 
 <script>
 const API="https://api.hyperliquid.xyz/info";
-function reloadJin10Calendar(){
-  const frame=document.getElementById("jin10CalendarFrame");
-  if(frame) frame.src="https://rili.jin10.com/?_="+Date.now();
-}
 const NAME={
  AAPL:"Apple",AMD:"AMD",AMZN:"Amazon",ARM:"Arm",ASML:"ASML",AVGO:"Broadcom",BABA:"阿里巴巴",
  BB:"BlackBerry",BIRD:"Allbirds",BX:"Blackstone",CBRS:"Cerebras 脑芯",COIN:"Coinbase",COST:"Costco",
@@ -842,6 +861,222 @@ function syncNewsStoreFromFeeds(){
 }
 function newsSourceClass(source){
   return source==="JIN10 TG"?" jin10":(source==="PolyBeats"?" poly":"");
+}
+const JIN10_CAL_BASE="https://cdn-rili.jin10.com/web_data";
+let JIN10_CAL_ITEMS=[];
+function jin10CalSetStatus(text,kind){
+  const el=document.getElementById("jin10CalStatus"), tx=document.getElementById("jin10CalStatusText");
+  if(!el||!tx) return;
+  el.className="bwe-status "+(kind||"warn");
+  tx.textContent=text;
+}
+function isoWeekInfo(ms){
+  const d=new Date(dateKeyToMs(beijingDateKey(ms)));
+  const day=d.getUTCDay()||7;
+  d.setUTCDate(d.getUTCDate()+4-day);
+  const year=d.getUTCFullYear();
+  const first=new Date(Date.UTC(year,0,1));
+  const week=Math.ceil((((d-first)/86400000)+1)/7);
+  return {year,week};
+}
+function addDaysKey(key,n){
+  return beijingDateKey(dateKeyToMs(key)+n*24*60*60*1000);
+}
+function findDateInText(s){
+  const m=String(s||"").match(/(20\d{2})[-/年](\d{1,2})[-/月](\d{1,2})/);
+  return m?dateKeyFromParts(m[1],m[2],m[3]):"";
+}
+function normalizeCalTime(raw){
+  const s=String(raw||"").trim();
+  if(!s) return "待定";
+  if(/待定|待确定/i.test(s)) return "待定";
+  const m=s.match(/(\d{1,2}):(\d{2})/);
+  return m?`${String(m[1]).padStart(2,"0")}:${m[2]}`:s.slice(0,8);
+}
+function parseJsonText(text){
+  try{ return JSON.parse(text); }catch(e){}
+  const s=String(text||"").trim();
+  const starts=[s.indexOf("{"),s.indexOf("[")].filter(x=>x>=0).sort((a,b)=>a-b);
+  if(!starts.length) throw new Error("JSON parse failed");
+  const start=starts[0], end=Math.max(s.lastIndexOf("}"),s.lastIndexOf("]"));
+  if(end<=start) throw new Error("JSON parse failed");
+  return JSON.parse(s.slice(start,end+1));
+}
+async function fetchWithTimeout(url,opts,ms){
+  const ctrl=new AbortController();
+  const timer=setTimeout(()=>ctrl.abort(),ms||12000);
+  try{ return await fetch(url,Object.assign({},opts||{},{signal:ctrl.signal})); }
+  finally{ clearTimeout(timer); }
+}
+async function fetchJin10Json(url){
+  const urls=[url,`https://r.jina.ai/${url}`];
+  let lastErr=null;
+  for(const u of urls){
+    try{
+      const r=await fetchWithTimeout(u,{cache:"no-store",mode:"cors"},12000);
+      if(!r.ok) throw new Error(`HTTP ${r.status}`);
+      return parseJsonText(await r.text());
+    }catch(e){ lastErr=e; }
+  }
+  throw lastErr||new Error("fetch failed");
+}
+function collectJin10Rows(node,kind,dateHint,out){
+  if(!node) return;
+  if(Array.isArray(node)){ node.forEach(x=>collectJin10Rows(x,kind,dateHint,out)); return; }
+  if(typeof node!=="object") return;
+  const rowLike=node.indicator_name||node.event_content||node.exchange_name||node.name||node.title;
+  if(rowLike){
+    out.push(Object.assign({__kind:kind,__dateHint:dateHint||""},node));
+    return;
+  }
+  Object.keys(node).forEach(k=>{
+    const nextDate=/^20\d{2}-\d{2}-\d{2}$/.test(k)?k:dateHint;
+    collectJin10Rows(node[k],kind,nextDate,out);
+  });
+}
+function calRowTitle(row){
+  if(row.__kind==="holiday") return [row.country,row.exchange_name||row.name||row.title].filter(Boolean).join(" ");
+  return String(row.indicator_name||row.name||row.event_content||row.title||"财经日历事件").trim();
+}
+function calRowDateKey(row){
+  return findDateInText(row.date)||findDateInText(row.pub_time)||findDateInText(row.publish_time)||findDateInText(row.event_time)||findDateInText(row.time)||row.__dateHint||beijingDateKey();
+}
+function calRowTime(row){
+  return normalizeCalTime(row.time_period||row.event_time||row.pub_time||row.publish_time||row.time_status||row.time);
+}
+function calActualSignal(row){
+  const actual=row.actual, consensus=row.consensus, previous=row.previous;
+  if(actual==null||actual===""||actual==="--") return "未公布";
+  const base=consensus!=null&&consensus!==""?consensus:previous;
+  if(base==null||base==="") return `实际 ${actual}`;
+  const a=parseFloat(actual), b=parseFloat(base);
+  if(!isFinite(a)||!isFinite(b)) return `实际 ${actual} / 预期 ${base}`;
+  const hot=row.affect===0 ? a>b : a<b;
+  if(Math.abs(a-b)<1e-9) return `实际 ${actual}，基本符合预期`;
+  return `${hot?"偏热/偏鹰":"偏冷/偏鸽"}：实际 ${actual} vs 预期 ${base}`;
+}
+function calImpactFor(row,title,tags){
+  const text=[title,row.country,row.unit,tags.join(" ")].join(" ");
+  if(/CPI|PCE|PPI|通胀|物价/i.test(text)) return "重点看美债收益率、美元和科技股估值，通胀偏热通常压制长久期成长股。";
+  if(/非农|NFP|ADP|就业|失业|初请|职位空缺|JOLTS/i.test(text)) return "就业数据会改变降息路径定价，直接影响美元、美债和指数风险偏好。";
+  if(/FOMC|美联储|Fed|鲍威尔|利率|央行|BOJ|日本央行|ECB|欧洲央行|BOE|英国央行|BOC|加拿大央行|澳洲联储/i.test(text)) return "央行事件影响利率曲线和流动性预期，是指数、黄金、美元和高估值科技股的核心变量。";
+  if(/GDP|ISM|PMI|零售销售|消费者信心|耐用品|工厂订单/i.test(text)) return "增长数据影响软着陆/衰退交易，对周期股、科技股和大宗商品定价都有影响。";
+  if(/EIA|API|原油|OPEC|库存|天然气/i.test(text)) return "能源数据影响油价、通胀预期、能源股和航空/化工成本端。";
+  if(/国债|拍卖|Treasury|票息|收益率/i.test(text)) return "国债供给和拍卖结果影响长端利率，重点看纳指、半导体和高估值成长股反应。";
+  if(/休市|假期|holiday|交割|到期|OPEX|Triple/i.test(text)) return "交易时段和流动性变化会影响成交、波动率和尾盘资金行为。";
+  return "关注是否改变美元、美债、指数估值或 AI/半导体/科技股风险偏好。";
+}
+function classifyJin10Cal(row){
+  const title=calRowTitle(row);
+  const text=[title,row.country,row.unit,row.time_period,row.event_time,row.exchange_name].join(" ");
+  const tags=[];
+  let score=Number(row.star||row.important||0)*10;
+  if(row.__kind==="economics"){ tags.push("经济数据"); score+=4; }
+  if(row.__kind==="event"){ tags.push("事件"); score+=2; }
+  if(row.__kind==="holiday"){ tags.push("休市"); score+=2; }
+  if(/美国|FOMC|Fed|美联储|PCE|CPI|PPI|NFP|非农|ADP|ISM|GDP|初请|JOLTS|零售销售|耐用品/i.test(text)){ tags.push("美国核心"); score+=18; }
+  if(/CPI|PCE|PPI|通胀|物价/i.test(text)){ tags.push("通胀"); score+=18; }
+  if(/非农|NFP|ADP|就业|失业|初请|JOLTS/i.test(text)){ tags.push("就业"); score+=16; }
+  if(/FOMC|Fed|美联储|鲍威尔|利率|央行|BOJ|日本央行|ECB|欧洲央行|BOE|英国央行|BOC|加拿大央行|澳洲联储/i.test(text)){ tags.push("央行"); score+=18; }
+  if(/GDP|ISM|PMI|零售销售|消费者信心|耐用品|工厂订单/i.test(text)){ tags.push("增长"); score+=12; }
+  if(/EIA|API|原油|OPEC|库存|天然气/i.test(text)){ tags.push("能源"); score+=12; }
+  if(/国债|拍卖|Treasury|票息|收益率/i.test(text)){ tags.push("美债"); score+=14; }
+  if(/休市|假期|holiday|OPEX|Triple Witching|期权|交割|到期/i.test(text)){ tags.push("流动性"); score+=10; }
+  if(/欧元区|德国|英国|日本|中国|加拿大|澳大利亚|瑞士/i.test(text)) score+=5;
+  const star=Number(row.star||0);
+  const mustKeep=tags.some(t=>["美国核心","通胀","就业","央行","能源","美债","流动性"].includes(t));
+  if(star<3&&!mustKeep) return null;
+  if(score<28) return null;
+  const dateKey=calRowDateKey(row);
+  const time=calRowTime(row);
+  const values=[
+    row.actual!=null&&row.actual!==""?`实际 ${row.actual}`:"",
+    row.consensus!=null&&row.consensus!==""?`预期 ${row.consensus}`:"",
+    row.previous!=null&&row.previous!==""?`前值 ${row.previous}`:""
+  ].filter(Boolean);
+  return {
+    key:[row.__kind,dateKey,time,title,row.country].join("|"),
+    dateKey,time,title,
+    country:row.country||"",
+    score,
+    star,
+    tags:uniqueTags(tags).slice(0,4),
+    values,
+    signal:calActualSignal(row),
+    impact:calImpactFor(row,title,tags)
+  };
+}
+async function loadJin10Calendar(force){
+  const list=document.getElementById("jin10CalList");
+  const summary=document.getElementById("jin10CalSummary");
+  if(list&&!JIN10_CAL_ITEMS.length) list.innerHTML='<div class="cal-empty">加载金十财经日历数据…</div>';
+  if(summary&&!JIN10_CAL_ITEMS.length) summary.innerHTML="";
+  jin10CalSetStatus("刷新中","warn");
+  const today=beijingDateKey(), endKey=addDaysKey(today,13);
+  const weeks=[isoWeekInfo(dateKeyToMs(today)),isoWeekInfo(dateKeyToMs(endKey))];
+  const uniqWeeks=weeks.filter((w,i,a)=>a.findIndex(x=>x.year===w.year&&x.week===w.week)===i);
+  const rows=[];
+  try{
+    await Promise.all(uniqWeeks.flatMap(w=>[
+      fetchJin10Json(`${JIN10_CAL_BASE}/${w.year}/week/${w.week}/economics.json${force?`?v=${Date.now()}`:""}`).then(d=>collectJin10Rows(d,"economics","",rows)),
+      fetchJin10Json(`${JIN10_CAL_BASE}/${w.year}/week/${w.week}/event.json${force?`?v=${Date.now()}`:""}`).then(d=>collectJin10Rows(d,"event","",rows)).catch(()=>{}),
+      fetchJin10Json(`${JIN10_CAL_BASE}/${w.year}/week/${w.week}/holiday.json${force?`?v=${Date.now()}`:""}`).then(d=>collectJin10Rows(d,"holiday","",rows)).catch(()=>{})
+    ]));
+    const map=new Map();
+    rows.map(classifyJin10Cal).filter(Boolean)
+      .filter(e=>e.dateKey>=today&&e.dateKey<=endKey)
+      .sort((a,b)=>(b.score-a.score)||a.time.localeCompare(b.time))
+      .forEach(e=>{ if(!map.has(e.key)) map.set(e.key,e); });
+    const dateCount=new Map();
+    JIN10_CAL_ITEMS=[...map.values()].filter(e=>{
+      const max=e.dateKey===today?6:5;
+      const n=dateCount.get(e.dateKey)||0;
+      if(n>=max) return false;
+      dateCount.set(e.dateKey,n+1);
+      return true;
+    }).sort((a,b)=>(dateKeyToMs(a.dateKey)-dateKeyToMs(b.dateKey))||a.time.localeCompare(b.time)||(b.score-a.score)).slice(0,32);
+    renderJin10Calendar();
+    jin10CalSetStatus(JIN10_CAL_ITEMS.length?`筛出 ${JIN10_CAL_ITEMS.length} 条`:"无重点事件",JIN10_CAL_ITEMS.length?"ok":"warn");
+  }catch(e){
+    console.warn("Jin10 calendar fetch failed",e);
+    if(JIN10_CAL_ITEMS.length){
+      jin10CalSetStatus("使用缓存","warn");
+      renderJin10Calendar();
+    }else{
+      jin10CalSetStatus("读取失败","bad");
+      if(list) list.innerHTML='<div class="cal-empty">金十日历数据读取失败。可先点“打开原站”查看，稍后再刷新。</div>';
+      if(summary) summary.innerHTML="";
+    }
+  }
+}
+function renderJin10Calendar(){
+  const list=document.getElementById("jin10CalList"), summary=document.getElementById("jin10CalSummary");
+  if(!list) return;
+  const items=JIN10_CAL_ITEMS||[];
+  if(summary){
+    const hot=items.filter(e=>e.score>=50).length;
+    const today=items.filter(e=>e.dateKey===beijingDateKey()).length;
+    const fed=items.filter(e=>e.tags.includes("央行")).length;
+    const us=items.filter(e=>e.tags.includes("美国核心")).length;
+    summary.innerHTML=[
+      `<div class="cal-stat"><b>${items.length}</b><span>未来两周重点</span></div>`,
+      `<div class="cal-stat"><b>${today}</b><span>今日待看</span></div>`,
+      `<div class="cal-stat"><b>${hot}</b><span>高冲击事件</span></div>`,
+      `<div class="cal-stat"><b>${us}/${fed}</b><span>美国核心 / 央行</span></div>`
+    ].join("");
+  }
+  if(!items.length){ list.innerHTML='<div class="cal-empty">未筛出足够重要的金十日历事件。</div>'; return; }
+  const groups=new Map();
+  items.forEach(e=>{ if(!groups.has(e.dateKey)) groups.set(e.dateKey,[]); groups.get(e.dateKey).push(e); });
+  list.innerHTML=[...groups.entries()].map(([date,rows])=>{
+    const head=`<div class="cal-day-head">${esc(prettyDateKey(date))} ${date===beijingDateKey()?"今天":""}</div>`;
+    const body=rows.map(e=>{
+      const pills=e.tags.map(t=>`<span class="cal-pill ${e.score>=50?"hot":(t==="央行"||t==="通胀"?"warn":"")}">${esc(t)}</span>`).join("");
+      const values=e.values.length?e.values.map(v=>`<div>${esc(v)}</div>`).join(""):`<div>${esc(e.signal)}</div>`;
+      return `<div class="cal-item"><div class="cal-time">${esc(e.time)}</div><div><div class="cal-title">${esc(e.country?`${e.country} ${e.title}`:e.title)}</div><div class="cal-meta"><span class="cal-pill">★${esc(e.star||"-")}</span>${pills}</div><div class="cal-impact"><b>${esc(e.signal)}</b>。${esc(e.impact)}</div></div><div class="cal-values">${values}</div></div>`;
+    }).join("");
+    return `<div class="cal-day">${head}${body}</div>`;
+  }).join("");
 }
 const MACRO_RULES=[
   {tag:"美国经济数据",score:12,impact:"影响美债收益率、美元、指数估值",re:/PCE|CPI|PPI|非农|NFP|ADP|ISM|GDP|初请|就业|失业|通胀|零售销售|PMI|新屋|营建许可|进口物价/i},
@@ -1573,6 +1808,7 @@ renderJin10();
 loadPolyCache();
 renderPoly();
 syncNewsStoreFromFeeds();
+loadJin10Calendar();
 refreshBweTg();
 refreshJin10();
 refreshPoly();
