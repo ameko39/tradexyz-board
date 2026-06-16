@@ -964,12 +964,12 @@ function calActualSignal(row){
 }
 function calImpactFor(row,title,tags){
   const text=[title,row.country,row.unit,tags.join(" ")].join(" ");
+  if(/国债|拍卖|竞拍|Treasury|票息|投标倍数|收益率/i.test(text)) return "国债供给和拍卖结果影响长端利率，重点看纳指、半导体和高估值成长股反应。";
   if(/CPI|PCE|PPI|通胀|物价/i.test(text)) return "重点看美债收益率、美元和科技股估值，通胀偏热通常压制长久期成长股。";
   if(/非农|NFP|ADP|就业|失业|初请|职位空缺|JOLTS/i.test(text)) return "就业数据会改变降息路径定价，直接影响美元、美债和指数风险偏好。";
-  if(/FOMC|美联储|Fed|鲍威尔|利率|央行|BOJ|日本央行|ECB|欧洲央行|BOE|英国央行|BOC|加拿大央行|澳洲联储/i.test(text)) return "央行事件影响利率曲线和流动性预期，是指数、黄金、美元和高估值科技股的核心变量。";
+  if(/FOMC|美联储|Fed|鲍威尔|利率决议|基准利率|央行|BOJ|日本央行|ECB|欧洲央行|BOE|英国央行|BOC|加拿大央行|澳洲联储/i.test(text)) return "央行事件影响利率曲线和流动性预期，是指数、黄金、美元和高估值科技股的核心变量。";
   if(/GDP|ISM|PMI|零售销售|消费者信心|耐用品|工厂订单/i.test(text)) return "增长数据影响软着陆/衰退交易，对周期股、科技股和大宗商品定价都有影响。";
   if(/EIA|API|原油|OPEC|库存|天然气/i.test(text)) return "能源数据影响油价、通胀预期、能源股和航空/化工成本端。";
-  if(/国债|拍卖|Treasury|票息|收益率/i.test(text)) return "国债供给和拍卖结果影响长端利率，重点看纳指、半导体和高估值成长股反应。";
   if(/休市|假期|holiday|交割|到期|OPEX|Triple/i.test(text)) return "交易时段和流动性变化会影响成交、波动率和尾盘资金行为。";
   return "关注是否改变美元、美债、指数估值或 AI/半导体/科技股风险偏好。";
 }
@@ -981,10 +981,10 @@ function classifyJin10Cal(row){
   if(row.__kind==="economics"){ tags.push("经济数据"); score+=4; }
   if(row.__kind==="event"){ tags.push("事件"); score+=2; }
   if(row.__kind==="holiday"){ tags.push("休市"); score+=2; }
-  if(/美国|FOMC|Fed|美联储|PCE|CPI|PPI|NFP|非农|ADP|ISM|GDP|初请|JOLTS|零售销售|耐用品/i.test(text)){ tags.push("美国核心"); score+=18; }
+  if(/美国|FOMC|Fed|美联储|NFP|非农|ADP|ISM|初请|JOLTS/.test(text)||/美国.*(PCE|CPI|PPI|GDP|零售销售|耐用品|就业|失业)/i.test(text)){ tags.push("美国核心"); score+=18; }
   if(/CPI|PCE|PPI|通胀|物价/i.test(text)){ tags.push("通胀"); score+=18; }
   if(/非农|NFP|ADP|就业|失业|初请|JOLTS/i.test(text)){ tags.push("就业"); score+=16; }
-  if(/FOMC|Fed|美联储|鲍威尔|利率|央行|BOJ|日本央行|ECB|欧洲央行|BOE|英国央行|BOC|加拿大央行|澳洲联储/i.test(text)){ tags.push("央行"); score+=18; }
+  if(/FOMC|Fed|美联储|鲍威尔|利率决议|基准利率|央行|BOJ|日本央行|ECB|欧洲央行|BOE|英国央行|BOC|加拿大央行|澳洲联储/i.test(text)){ tags.push("央行"); score+=18; }
   if(/GDP|ISM|PMI|零售销售|消费者信心|耐用品|工厂订单/i.test(text)){ tags.push("增长"); score+=12; }
   if(/EIA|API|原油|OPEC|库存|天然气/i.test(text)){ tags.push("能源"); score+=12; }
   if(/国债|拍卖|Treasury|票息|收益率/i.test(text)){ tags.push("美债"); score+=14; }
@@ -1013,6 +1013,13 @@ function classifyJin10Cal(row){
     impact:calImpactFor(row,title,tags)
   };
 }
+function calClusterKey(e){
+  const t=String(e&&e.title||"");
+  if(/国债竞拍|国债拍卖|Treasury/i.test(t)) return `${e.dateKey}|${e.time}|美国国债拍卖`;
+  if(/API.*原油|EIA.*原油|API.*库存|EIA.*库存/i.test(t)) return `${e.dateKey}|${e.time}|能源库存`;
+  if(/CPI|PPI|PCE|零售销售|非农|ADP|失业率|初请|PMI|GDP/i.test(t)) return `${e.dateKey}|${t.replace(/\(.+?\)/g,"").replace(/月率|年率|终值|初值|核心|季调后|未季调/g,"")}`;
+  return `${e.dateKey}|${e.time}|${t}`;
+}
 async function loadJin10Calendar(force){
   const list=document.getElementById("jin10CalList");
   const summary=document.getElementById("jin10CalSummary");
@@ -1040,12 +1047,15 @@ async function loadJin10Calendar(force){
       .filter(e=>e.dateKey>=today&&e.dateKey<=endKey)
       .sort((a,b)=>(b.score-a.score)||a.time.localeCompare(b.time))
       .forEach(e=>{ if(!map.has(e.key)) map.set(e.key,e); });
-    const dateCount=new Map();
+    const dateCount=new Map(), clusterCount=new Map();
     JIN10_CAL_ITEMS=[...map.values()].filter(e=>{
-      const max=e.dateKey===today?6:5;
+      const ck=calClusterKey(e);
+      if((clusterCount.get(ck)||0)>=2) return false;
+      const max=e.dateKey===today?8:5;
       const n=dateCount.get(e.dateKey)||0;
       if(n>=max) return false;
       dateCount.set(e.dateKey,n+1);
+      clusterCount.set(ck,(clusterCount.get(ck)||0)+1);
       return true;
     }).sort((a,b)=>(dateKeyToMs(a.dateKey)-dateKeyToMs(b.dateKey))||a.time.localeCompare(b.time)||(b.score-a.score)).slice(0,32);
     renderJin10Calendar();
