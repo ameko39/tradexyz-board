@@ -243,7 +243,7 @@
   BWE TradFi TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/BWEtradfi</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
   金十 TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/jin10light</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
   PolyBeats TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/PolyBeats_Bot</code>，前端每 60s 轮询一次；公开页未暴露单条消息 ID，因此用日期与内容摘要去重。<br>
-  15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG、金十 TG 与 PolyBeats TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。<br>
+  15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG、金十 TG 与 PolyBeats TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。页面展示时间统一按北京时间 UTC+8。<br>
   <b>刷新行情</b> 会重新拉取价格/涨跌幅（浏览器直连 API，秒级）；行情每 2h 自动刷新一次。<br>
   仅显示 24h 有成交量的标的（零成交已隐藏）。
 </footer>
@@ -343,14 +343,32 @@ const BWE_FEED_URL="https://r.jina.ai/https://t.me/s/BWEtradfi";
 const BWE_REFRESH_MS=60*1000;
 const BWE_MAX_ITEMS=80;
 let BWE_ITEMS=[];
+const BEIJING_TZ="Asia/Shanghai";
 
 function esc(s){
   return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
+function fmtBeijingDateTime(v,opts){
+  const d=new Date(v==null?Date.now():v);
+  if(isNaN(+d)) return "--";
+  return d.toLocaleString("zh-CN",Object.assign({timeZone:BEIJING_TZ,hour12:false},opts||{}));
+}
+function fmtBeijingClock(v){
+  const d=new Date(v==null?Date.now():v);
+  if(isNaN(+d)) return "--";
+  return d.toLocaleTimeString("zh-CN",{timeZone:BEIJING_TZ,hour12:false});
+}
+function beijingDateParts(v){
+  const parts=new Intl.DateTimeFormat("zh-CN",{
+    timeZone:BEIJING_TZ,year:"numeric",month:"2-digit",day:"2-digit"
+  }).formatToParts(new Date(v==null?Date.now():v));
+  const out={};
+  parts.forEach(p=>{ if(p.type!=="literal") out[p.type]=p.value; });
+  return out;
+}
 function fmtBweTime(ts){
   const n=Number(ts);
-  const d=new Date(isFinite(n)?(n<1e12?n*1000:n):Date.now());
-  return isNaN(+d)?"--":d.toLocaleString("zh-CN",{hour12:false});
+  return fmtBeijingDateTime(isFinite(n)?(n<1e12?n*1000:n):Date.now());
 }
 function setBweStatus(text,kind){
   const el=document.getElementById("bweStatus"), tx=document.getElementById("bweStatusText");
@@ -475,7 +493,7 @@ async function refreshBweTg(force){
     saveBweCache();
     renderBwe();
     addNewsItems(items.map(newsFromBwe));
-    setBweStatus("已更新 "+new Date().toLocaleTimeString("zh-CN",{hour12:false}),"ok");
+    setBweStatus("已更新 "+fmtBeijingClock(),"ok");
   }catch(e){
     if(BWE_ITEMS.length){
       setBweStatus("使用缓存","warn");
@@ -575,13 +593,14 @@ function addNewsItems(items,render){
 }
 function fmtNewsStoreTime(item){
   if(item.source==="JIN10 TG"&&/^\d{2}:\d{2}$/.test(item.timeText||"")){
-    const base=new Date(Number(item.storedAt||item.ts));
-    if(!isNaN(+base)){
-      return `${String(base.getMonth()+1).padStart(2,"0")}/${String(base.getDate()).padStart(2,"0")} ${item.timeText}`;
+    const baseMs=Number(item.storedAt||item.ts);
+    if(isFinite(baseMs)){
+      const p=beijingDateParts(baseMs);
+      return `${p.month}/${p.day} ${item.timeText}`;
     }
   }
-  const d=new Date(Number(item.ts||item.storedAt));
-  if(!isNaN(+d)) return d.toLocaleString("zh-CN",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false});
+  const ms=Number(item.ts||item.storedAt);
+  if(isFinite(ms)) return fmtBeijingDateTime(ms,{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"});
   return item.timeText||"--";
 }
 function newsFromBwe(n){
@@ -779,7 +798,7 @@ async function refreshJin10(force){
     saveJin10Cache();
     renderJin10();
     addNewsItems(items.map(newsFromJin10));
-    setJin10Status("已更新 "+new Date().toLocaleTimeString("zh-CN",{hour12:false}),"ok");
+    setJin10Status("已更新 "+fmtBeijingClock(),"ok");
   }catch(e){
     if(JIN10_ITEMS.length){
       setJin10Status("使用缓存","warn");
@@ -843,9 +862,9 @@ function parseMonthDay(dateText){
   const months={january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11};
   const m=String(dateText||"").trim().match(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})$/i);
   if(!m) return null;
-  const now=new Date();
-  let t=new Date(now.getFullYear(),months[m[1].toLowerCase()],Number(m[2]),12,0,0).getTime();
-  if(t-Date.now()>36*60*60*1000) t=new Date(now.getFullYear()-1,months[m[1].toLowerCase()],Number(m[2]),12,0,0).getTime();
+  const year=Number(beijingDateParts().year);
+  let t=Date.UTC(year,months[m[1].toLowerCase()],Number(m[2]),4,0,0);
+  if(t-Date.now()>36*60*60*1000) t=Date.UTC(year-1,months[m[1].toLowerCase()],Number(m[2]),4,0,0);
   return isFinite(t)?t:null;
 }
 function polyTagsFromText(text){
@@ -938,7 +957,7 @@ async function refreshPoly(force){
     savePolyCache();
     renderPoly();
     addNewsItems(items.map(newsFromPoly));
-    setPolyStatus("已更新 "+new Date().toLocaleTimeString("zh-CN",{hour12:false}),"ok");
+    setPolyStatus("已更新 "+fmtBeijingClock(),"ok");
   }catch(e){
     if(POLY_ITEMS.length){
       setPolyStatus("使用缓存","warn");
@@ -983,7 +1002,7 @@ async function load(){
     });
     DATA={ST:all.filter(r=>r.cat==="ST"),CM:all.filter(r=>r.cat==="CM"),IX:all.filter(r=>r.cat==="IX")};
     renderAll();
-    document.getElementById("updated").textContent=new Date().toLocaleString("zh-CN");
+    document.getElementById("updated").textContent=fmtBeijingDateTime();
     nextAt=Date.now()+REFRESH_MS;
   }catch(e){ document.getElementById("tblST").innerHTML='<div class="err">加载失败：'+e.message+'</div>'; }
   finally{ btn.disabled=false; btn.textContent="刷新行情"; }
