@@ -920,6 +920,13 @@ async function fetchJin10Json(url){
   }
   throw lastErr||new Error("fetch failed");
 }
+async function fetchJin10Snapshot(force){
+  const url=`jin10-calendar.json${force?`?v=${Date.now()}`:""}`;
+  const r=await fetchWithTimeout(url,{cache:"no-store"},8000);
+  if(!r.ok) throw new Error(`snapshot HTTP ${r.status}`);
+  const data=await r.json();
+  return data&&Array.isArray(data.rows)?data:null;
+}
 function collectJin10Rows(node,kind,dateHint,out){
   if(!node) return;
   if(Array.isArray(node)){ node.forEach(x=>collectJin10Rows(x,kind,dateHint,out)); return; }
@@ -1017,11 +1024,17 @@ async function loadJin10Calendar(force){
   const uniqWeeks=weeks.filter((w,i,a)=>a.findIndex(x=>x.year===w.year&&x.week===w.week)===i);
   const rows=[];
   try{
-    await Promise.all(uniqWeeks.flatMap(w=>[
-      fetchJin10Json(`${JIN10_CAL_BASE}/${w.year}/week/${w.week}/economics.json${force?`?v=${Date.now()}`:""}`).then(d=>collectJin10Rows(d,"economics","",rows)),
-      fetchJin10Json(`${JIN10_CAL_BASE}/${w.year}/week/${w.week}/event.json${force?`?v=${Date.now()}`:""}`).then(d=>collectJin10Rows(d,"event","",rows)).catch(()=>{}),
-      fetchJin10Json(`${JIN10_CAL_BASE}/${w.year}/week/${w.week}/holiday.json${force?`?v=${Date.now()}`:""}`).then(d=>collectJin10Rows(d,"holiday","",rows)).catch(()=>{})
-    ]));
+    let snapshot=null;
+    try{ snapshot=await fetchJin10Snapshot(force); }catch(e){}
+    if(snapshot&&snapshot.rows.length){
+      rows.push(...snapshot.rows);
+    }else{
+      await Promise.all(uniqWeeks.flatMap(w=>[
+        fetchJin10Json(`${JIN10_CAL_BASE}/${w.year}/week/${w.week}/economics.json${force?`?v=${Date.now()}`:""}`).then(d=>collectJin10Rows(d,"economics","",rows)),
+        fetchJin10Json(`${JIN10_CAL_BASE}/${w.year}/week/${w.week}/event.json${force?`?v=${Date.now()}`:""}`).then(d=>collectJin10Rows(d,"event","",rows)).catch(()=>{}),
+        fetchJin10Json(`${JIN10_CAL_BASE}/${w.year}/week/${w.week}/holiday.json${force?`?v=${Date.now()}`:""}`).then(d=>collectJin10Rows(d,"holiday","",rows)).catch(()=>{})
+      ]));
+    }
     const map=new Map();
     rows.map(classifyJin10Cal).filter(Boolean)
       .filter(e=>e.dateKey>=today&&e.dateKey<=endKey)
