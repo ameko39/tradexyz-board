@@ -1,4 +1,4 @@
-import { writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 
 const BASE = "https://cdn-rili.jin10.com/web_data";
 const OUT = "jin10-calendar.json";
@@ -138,6 +138,18 @@ async function main() {
       rows.push(...await scrapePublicWeekRows());
     } catch (error) {
       errors.push({ url: "https://rili.jin10.com/", message: `public scrape failed: ${error.message}` });
+    }
+  }
+
+  if (rows.length < 20) {
+    try {
+      const current = JSON.parse(await readFile(OUT, "utf8"));
+      if (Array.isArray(current.rows) && current.rows.length >= 20) {
+        console.log(`Keeping existing ${OUT}: new scrape only returned ${rows.length} rows`);
+        return;
+      }
+    } catch {
+      // No usable local snapshot; write the new result below so the failure is visible.
     }
   }
 
