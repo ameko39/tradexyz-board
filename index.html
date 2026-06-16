@@ -93,6 +93,26 @@
   body.light .bwe-coin.poly{background:rgba(10,143,91,.1);color:#08784c}
   body.light .mini-btn{color:var(--txt)}
   body.light .bwe-title a:hover{color:var(--accent)}
+  .macro-card .bwe-head h2{font-size:16px}
+  .macro-sub{color:var(--mut);font-size:12px;font-weight:500;margin-left:8px}
+  .macro-timeline{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:14px;padding:18px 16px 16px;overflow:hidden}
+  .macro-timeline:before{content:"";position:absolute;left:32px;right:32px;top:34px;height:3px;background:linear-gradient(90deg,var(--up),var(--accent),var(--warn));opacity:.75;border-radius:999px}
+  .macro-event{position:relative;min-height:220px;border:1px solid var(--line);border-radius:12px;padding:48px 12px 12px;background:rgba(255,255,255,.018)}
+  .macro-dot{position:absolute;top:9px;left:50%;transform:translateX(-50%);width:18px;height:18px;border-radius:50%;background:var(--warn);box-shadow:0 0 0 6px rgba(227,160,8,.12);z-index:1}
+  .macro-event.past{background:transparent;border-color:transparent}
+  .macro-event.past .macro-dot{background:var(--up);box-shadow:0 0 0 6px rgba(22,199,132,.11)}
+  .macro-event.today .macro-dot{background:var(--accent);box-shadow:0 0 0 8px rgba(91,141,239,.18)}
+  .macro-date{font-size:20px;font-weight:900;text-align:center;color:var(--txt);line-height:1.15}
+  .macro-state{display:block;margin-top:5px;font-size:12px;font-weight:800;color:var(--warn)}
+  .macro-event.past .macro-state{color:var(--up)}
+  .macro-event.today .macro-state{color:var(--accent)}
+  .macro-title{margin-top:12px;font-size:15px;font-weight:850;line-height:1.35;text-align:center;color:var(--txt)}
+  .macro-desc{margin-top:10px;color:var(--mut);font-size:12.5px;line-height:1.55;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+  .macro-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px;justify-content:center}
+  .macro-tag{font-size:10px;font-weight:800;border-radius:999px;padding:2px 7px;background:rgba(91,141,239,.12);color:#9db6f0}
+  .macro-empty{padding:22px 16px;color:var(--mut);font-size:13px}
+  body.light .macro-event{background:rgba(20,40,90,.025)}
+  body.light .macro-tag{background:rgba(47,111,237,.1);color:#2f5fc0}
 
   /* ===== 移动端排版（≤760px，按视口宽度自动适配，无需 UA 判断）===== */
   @media(max-width:760px){
@@ -105,6 +125,12 @@
     .bwe-status{margin-left:0}
     .full{padding:10px 12px}
     .wrap{padding:10px 12px;gap:12px}
+    .macro-timeline{grid-template-columns:1fr;padding:12px}
+    .macro-timeline:before{left:21px;right:auto;top:18px;bottom:18px;width:3px;height:auto}
+    .macro-event{min-height:auto;padding:12px 12px 12px 42px}
+    .macro-dot{left:10px;top:18px;transform:none}
+    .macro-date,.macro-title{text-align:left}
+    .macro-tags{justify-content:flex-start}
     /* 表格：隐藏次要列，留「代码/现价/24h/12h」，详情可点开K线 */
     .c-name,.c-pre,.c-night,.c-vol{display:none}
     th,td{padding:8px 8px}
@@ -222,6 +248,20 @@
   </div>
 </div>
 
+<div class="full">
+  <div class="card macro-card">
+    <div class="bwe-head">
+      <h2>本周市场关注 <span class="macro-sub">AI筛选 BWE TradFi / 金十主线</span></h2>
+      <div id="macroStatus" class="bwe-status ok"><span class="bwe-dot"></span><span id="macroStatusText">等待快讯</span></div>
+      <div class="bwe-actions">
+        <button class="mini-btn" onclick="renderMacroCalendar()">刷新</button>
+      </div>
+    </div>
+    <div id="macroTimeline" class="macro-timeline"><div class="macro-empty">等待 BWE TradFi 与金十快讯入库后自动生成。</div></div>
+    <div class="archive-note">本模块仅从 BWE TradFi TG 与金十 TG 快讯中做本地规则筛选：宏观数据、央行、地缘风险、AI/芯片、IPO、大宗商品等主线会优先进入时间线。</div>
+  </div>
+</div>
+
 <!-- 个股：24h + 12h 合并一张表 -->
 <div class="full">
   <div class="card">
@@ -252,6 +292,7 @@
   金十 TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/jin10light</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
   PolyBeats TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/PolyBeats_Bot</code>，前端每 60s 轮询一次；公开页未暴露单条消息 ID，因此用日期与内容摘要去重。<br>
   15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG、金十 TG 与 PolyBeats TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。页面展示时间统一按北京时间 UTC+8。<br>
+  本周市场关注：仅基于本机收到的 BWE TradFi 与金十快讯做本地规则筛选，不上传到外部 AI 服务；筛选结果是交易日历参考，不等同于官方财经日历。<br>
   <b>刷新行情</b> 会重新拉取价格/涨跌幅（浏览器直连 API，秒级）；行情每 2h 自动刷新一次。<br>
   仅显示 24h 有成交量的标的（零成交已隐藏）。
 </footer>
@@ -437,6 +478,21 @@ function beijingDateParts(v){
   const out={};
   parts.forEach(p=>{ if(p.type!=="literal") out[p.type]=p.value; });
   return out;
+}
+function beijingDateKey(v){
+  const p=beijingDateParts(v);
+  return `${p.year}-${p.month}-${p.day}`;
+}
+function dateKeyFromParts(y,m,d){
+  return `${String(y).padStart(4,"0")}-${String(m).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
+}
+function dateKeyToMs(key){
+  const m=String(key||"").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  return m?Date.UTC(Number(m[1]),Number(m[2])-1,Number(m[3]),4,0,0):Date.now();
+}
+function prettyDateKey(key){
+  const m=String(key||"").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  return m?`${Number(m[2])}/${Number(m[3])}`:"--";
 }
 function fmtBweTime(ts){
   const n=Number(ts);
@@ -755,6 +811,119 @@ function syncNewsStoreFromFeeds(){
 function newsSourceClass(source){
   return source==="JIN10 TG"?" jin10":(source==="PolyBeats"?" poly":"");
 }
+const MACRO_RULES=[
+  {tag:"宏观数据",score:7,re:/CPI|PPI|非农|ADP|初请|GDP|PMI|ZEW|零售|通胀|就业|失业|新屋|营建许可|进口物价|API原油|EIA|库存|利率决定/i},
+  {tag:"央行",score:7,re:/FOMC|美联储|议息|点阵图|鲍威尔|日本央行|澳洲联储|欧洲央行|英国央行|降息|加息|利率|货币政策/i},
+  {tag:"地缘风险",score:6,re:/中东|伊朗|以色列|停火|关税|制裁|战争|冲突|外交|风险偏好|避险/i},
+  {tag:"AI芯片",score:5,re:/\bNVIDIA\b|英伟达|\bNVDA\b|SK海力士|海力士|HBM|DRAM|\bAI\b|人工智能|芯片|半导体|算力|机器人|Qwen|Claude|OpenAI/i},
+  {tag:"IPO/大票",score:5,re:/IPO|上市|SpaceX|CoreWeave|Circle|CRCL|特斯拉|Tesla|苹果|微软|Meta|谷歌|阿里|美股/i},
+  {tag:"大宗商品",score:4,re:/黄金|白银|原油|天然气|铜|WTI|Brent|布伦特|OPEC|库存|央行增持黄金/i},
+  {tag:"市场主线",score:3,re:/今日重点关注|本周|前瞻|调查|会议|发布会|财报|指引|预期/i}
+];
+function macroSetStatus(text,kind){
+  const el=document.getElementById("macroStatus"), tx=document.getElementById("macroStatusText");
+  if(!el||!tx) return;
+  el.className="bwe-status "+(kind||"ok");
+  tx.textContent=text;
+}
+function macroDateFromText(text,item){
+  text=String(text||"");
+  let m=text.match(/(20\d{2})年\s*(\d{1,2})月\s*(\d{1,2})日/);
+  if(m) return dateKeyFromParts(m[1],m[2],m[3]);
+  m=text.match(/(\d{1,2})月\s*(\d{1,2})日/);
+  if(m) return dateKeyFromParts(beijingDateParts().year,m[1],m[2]);
+  m=text.match(/\b(\d{1,2})\/(\d{1,2})\b/);
+  if(m) return dateKeyFromParts(beijingDateParts().year,m[1],m[2]);
+  const monthDay=String(item.timeText||item.fullTime||item.time||"").match(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})$/i);
+  if(monthDay){
+    const ms=parseMonthDay(monthDay[0]);
+    return beijingDateKey(ms);
+  }
+  return beijingDateKey(item.ts||item.receivedAt||item.storedAt||Date.now());
+}
+function macroStatusForDate(key){
+  const today=beijingDateKey();
+  if(key<today) return {cls:"past",text:"已出"};
+  if(key===today) return {cls:"today",text:"今天"};
+  return {cls:"future",text:"待观察"};
+}
+function macroNewsPool(){
+  const map=new Map();
+  const add=item=>{
+    if(!item) return;
+    const source=item.source||"";
+    if(source&&source!=="BWE TradFi"&&source!=="JIN10 TG") return;
+    const key=newsItemKey(item);
+    if(!key||map.has(key)) return;
+    map.set(key,item);
+  };
+  NEWS_STORE.forEach(add);
+  BWE_ITEMS.map(newsFromBwe).forEach(add);
+  JIN10_ITEMS.map(newsFromJin10).forEach(add);
+  return [...map.values()];
+}
+function buildMacroEvents(){
+  const events=[];
+  const todayKey=beijingDateKey();
+  macroNewsPool().forEach(item=>{
+    const text=[item.title,item.body,(item.tags||[]).join(" ")].join(" ");
+    let score=0, tags=[];
+    MACRO_RULES.forEach(rule=>{
+      if(rule.re.test(text)){ score+=rule.score; tags.push(rule.tag); }
+    });
+    if(score<5) return;
+    const dateKey=macroDateFromText(text,item);
+    if(Math.abs(dateKeyToMs(dateKey)-dateKeyToMs(todayKey))>10*24*60*60*1000) return;
+    if(dateKey>=todayKey) score+=4;
+    if(tags.includes("宏观数据")||tags.includes("央行")) score+=3;
+    const desc=truncateText(item.body||item.title||"",120);
+    events.push({
+      key:dateKey+"|"+(item.title||""),
+      dateKey,
+      score,
+      title:truncateText(item.title||"市场关注",56),
+      desc,
+      source:item.source||"",
+      url:item.url||"",
+      tags:uniqueTags(tags).slice(0,3)
+    });
+  });
+  const byKey=new Map();
+  events.forEach(e=>{
+    const prev=byKey.get(e.key);
+    if(!prev||e.score>prev.score) byKey.set(e.key,e);
+  });
+  const dateCount=new Map(), tagCount=new Map(), selected=[];
+  [...byKey.values()]
+    .sort((a,b)=>(b.score-a.score)||(Math.abs(dateKeyToMs(a.dateKey)-dateKeyToMs(todayKey))-Math.abs(dateKeyToMs(b.dateKey)-dateKeyToMs(todayKey))))
+    .forEach(e=>{
+      const primary=e.tags[0]||"其他";
+      if((dateCount.get(e.dateKey)||0)>=3) return;
+      if((tagCount.get(primary)||0)>=3) return;
+      selected.push(e);
+      dateCount.set(e.dateKey,(dateCount.get(e.dateKey)||0)+1);
+      tagCount.set(primary,(tagCount.get(primary)||0)+1);
+    });
+  return selected
+    .sort((a,b)=>(dateKeyToMs(a.dateKey)-dateKeyToMs(b.dateKey))||(b.score-a.score))
+    .slice(0,8);
+}
+function renderMacroCalendar(){
+  const box=document.getElementById("macroTimeline");
+  if(!box) return;
+  const events=buildMacroEvents();
+  macroSetStatus(events.length?`筛出 ${events.length} 条`:"等待快讯",events.length?"ok":"warn");
+  if(!events.length){
+    box.innerHTML='<div class="macro-empty">还没有足够的 BWE TradFi / 金十宏观主线快讯。</div>';
+    return;
+  }
+  box.innerHTML=events.map(e=>{
+    const st=macroStatusForDate(e.dateKey);
+    const tagHtml=e.tags.length?`<div class="macro-tags">${e.tags.map(t=>`<span class="macro-tag">${esc(t)}</span>`).join("")}</div>`:"";
+    const title=e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>`:esc(e.title);
+    return `<div class="macro-event ${st.cls}"><span class="macro-dot"></span><div class="macro-date">${esc(prettyDateKey(e.dateKey))}<span class="macro-state">${esc(st.text)}</span></div><div class="macro-title">${title}</div><div class="macro-desc">${esc(e.desc)}</div>${tagHtml}</div>`;
+  }).join("");
+}
 function renderNewsStore(){
   NEWS_STORE=pruneNewsStore(NEWS_STORE);
   saveNewsStore(false);
@@ -762,7 +931,7 @@ function renderNewsStore(){
   if(count) count.textContent=NEWS_STORE.length+" 条";
   setNewsStoreStatus(`本机保存 ${NEWS_STORE_DAYS}日`,"ok");
   if(!box) return;
-  if(!NEWS_STORE.length){ box.innerHTML='<div class="bwe-empty">还没有保存的快讯。</div>'; return; }
+  if(!NEWS_STORE.length){ box.innerHTML='<div class="bwe-empty">还没有保存的快讯。</div>'; renderMacroCalendar(); return; }
   const rows=NEWS_STORE.slice(0,NEWS_STORE_RENDER_LIMIT).map(n=>{
     const sourceClass=newsSourceClass(n.source);
     const url=String(n.url||"").trim();
@@ -774,6 +943,7 @@ function renderNewsStore(){
   }).join("");
   const more=NEWS_STORE.length>NEWS_STORE_RENDER_LIMIT?`<div class="archive-note">仅渲染最新 ${NEWS_STORE_RENDER_LIMIT} 条；完整数据仍保存在本机 15 日库中。</div>`:"";
   box.innerHTML=rows+more;
+  renderMacroCalendar();
 }
 function clearNewsStore(){
   NEWS_STORE=[];
