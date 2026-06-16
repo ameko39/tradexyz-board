@@ -67,6 +67,7 @@
   .bwe-status.bad .bwe-dot{background:var(--dn);box-shadow:0 0 8px rgba(234,57,67,.5)}
   .bwe-actions{display:flex;gap:6px}
   .mini-btn{border:1px solid var(--line);background:transparent;color:var(--txt);border-radius:7px;padding:5px 9px;font-size:12px;cursor:pointer}
+  .mini-btn.link-btn{display:inline-flex;align-items:center;text-decoration:none}
   .mini-btn:hover{border-color:var(--accent);color:var(--accent)}
   .bwe-list{max-height:260px;overflow:auto}
   .archive-list{max-height:360px}
@@ -113,6 +114,9 @@
   .macro-empty{padding:22px 16px;color:var(--mut);font-size:13px}
   body.light .macro-event{background:rgba(20,40,90,.025)}
   body.light .macro-tag{background:rgba(47,111,237,.1);color:#2f5fc0}
+  .calendar-card .bwe-head h2{font-size:16px}
+  .calendar-frame-wrap{height:640px;background:#fff}
+  .calendar-frame{display:block;width:100%;height:100%;border:0;background:#fff}
 
   /* ===== 移动端排版（≤760px，按视口宽度自动适配，无需 UA 判断）===== */
   @media(max-width:760px){
@@ -131,6 +135,7 @@
     .macro-dot{left:10px;top:18px;transform:none}
     .macro-date,.macro-title{text-align:left}
     .macro-tags{justify-content:flex-start}
+    .calendar-frame-wrap{height:560px}
     /* 表格：隐藏次要列，留「代码/现价/24h/12h」，详情可点开K线 */
     .c-name,.c-pre,.c-night,.c-vol{display:none}
     th,td{padding:8px 8px}
@@ -262,6 +267,22 @@
   </div>
 </div>
 
+<div class="full">
+  <div class="card calendar-card">
+    <div class="bwe-head">
+      <h2>金十财经日历 <span class="macro-sub">官方日历嵌入</span></h2>
+      <div class="bwe-actions">
+        <button class="mini-btn" onclick="reloadJin10Calendar()">刷新日历</button>
+        <a class="mini-btn link-btn" href="https://rili.jin10.com/" target="_blank" rel="noopener">打开原站</a>
+      </div>
+    </div>
+    <div class="calendar-frame-wrap">
+      <iframe id="jin10CalendarFrame" class="calendar-frame" title="金十财经日历" src="https://rili.jin10.com/" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="archive-note">该区块直接嵌入金十财经日历原站，不在本页面存储或改写金十日历数据；若金十调整跨站嵌入策略，可点击“打开原站”查看。</div>
+  </div>
+</div>
+
 <!-- 个股：24h + 12h 合并一张表 -->
 <div class="full">
   <div class="card">
@@ -293,6 +314,7 @@
   PolyBeats TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/PolyBeats_Bot</code>，前端每 60s 轮询一次；公开页未暴露单条消息 ID，因此用日期与内容摘要去重。<br>
   15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG、金十 TG 与 PolyBeats TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。页面展示时间统一按北京时间 UTC+8。<br>
   本周市场关注：仅基于本机收到的 BWE TradFi 与金十快讯做本地规则筛选，不上传到外部 AI 服务；筛选结果是交易日历参考，不等同于官方财经日历。<br>
+  金十财经日历：通过 <code>iframe</code> 直接嵌入 <code>rili.jin10.com</code> 原站页面，用于查看结构化财经事件日历；本看板不抓取、不缓存、不改写金十日历数据。<br>
   <b>刷新行情</b> 会重新拉取价格/涨跌幅（浏览器直连 API，秒级）；行情每 2h 自动刷新一次。<br>
   仅显示 24h 有成交量的标的（零成交已隐藏）。
 </footer>
@@ -302,6 +324,10 @@
 
 <script>
 const API="https://api.hyperliquid.xyz/info";
+function reloadJin10Calendar(){
+  const frame=document.getElementById("jin10CalendarFrame");
+  if(frame) frame.src="https://rili.jin10.com/?_="+Date.now();
+}
 const NAME={
  AAPL:"Apple",AMD:"AMD",AMZN:"Amazon",ARM:"Arm",ASML:"ASML",AVGO:"Broadcom",BABA:"阿里巴巴",
  BB:"BlackBerry",BIRD:"Allbirds",BX:"Blackstone",CBRS:"Cerebras 脑芯",COIN:"Coinbase",COST:"Costco",
