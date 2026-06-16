@@ -674,7 +674,14 @@ async function refreshJin10(force){
     const r=await fetch(url,{cache:"no-store",headers:{"Accept":"text/plain"}});
     if(!r.ok) throw new Error("HTTP "+r.status);
     const items=parseJin10Markdown(await r.text());
-    if(!items.length) throw new Error("没有解析到频道消息");
+    if(!items.length){
+      if(JIN10_ITEMS.length){
+        setJin10Status("使用缓存","warn");
+        renderJin10();
+        return;
+      }
+      throw new Error("没有解析到频道消息");
+    }
     const fresh=new Set(items.map(x=>x.id));
     JIN10_ITEMS=[...items,...JIN10_ITEMS.filter(x=>!fresh.has(x.id))]
       .sort((a,b)=>Number(b.id)-Number(a.id))
@@ -684,8 +691,12 @@ async function refreshJin10(force){
     addNewsItems(items.map(newsFromJin10));
     setJin10Status("已更新 "+new Date().toLocaleTimeString("zh-CN",{hour12:false}),"ok");
   }catch(e){
-    console.warn("Jin10 TG fetch failed",e);
-    setJin10Status("读取失败","bad");
+    if(JIN10_ITEMS.length){
+      setJin10Status("使用缓存","warn");
+    }else{
+      console.warn("Jin10 TG fetch failed",e);
+      setJin10Status("读取失败","bad");
+    }
     renderJin10();
   }
 }
