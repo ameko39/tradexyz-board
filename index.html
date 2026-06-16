@@ -711,9 +711,9 @@ function renderJin10(){
     const title=esc(n.title||"金十 TG 快讯");
     const body=n.body?`<div class="bwe-text">${esc(n.body)}</div>`:"";
     const tagHtml=n.tags&&n.tags.length?`<div class="bwe-coins">${n.tags.slice(0,8).map(t=>`<span class="bwe-coin jin10">${esc(t)}</span>`).join("")}</div>`:"";
-    const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">原文</a>`:"";
+    const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${n.channelOnly?"频道":"原文"}</a>`:"";
     const titleHtml=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>`:title;
-    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source jin10">JIN10 TG</span><span>${esc(n.time||"--")}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
+    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source jin10">JIN10 TG</span><span>${esc(n.time||n.dateText||"--")}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
   }).join("");
 }
 function cleanJin10Chunk(chunk,tags){
@@ -749,6 +749,7 @@ function truncateText(s,n){
 function parseJin10Markdown(md){
   const re=new RegExp("\\[(\\d{2}:\\d{2})\\]\\(https:\\/\\/t\\.me\\/"+JIN10_CHANNEL+"\\/(\\d+)\\)","g");
   const hits=[...String(md||"").matchAll(re)];
+  if(!hits.length) return parseJin10ImageMarkdown(md);
   const marker=`[金十数据 闪电资讯](https://t.me/${JIN10_CHANNEL})`;
   const items=[];
   hits.forEach((m,i)=>{
@@ -776,6 +777,78 @@ function parseJin10Markdown(md){
   items.forEach(item=>{ if(!byId.has(item.id)) byId.set(item.id,item); });
   return [...byId.values()].sort((a,b)=>Number(b.id)-Number(a.id)).slice(0,JIN10_MAX_ITEMS);
 }
+function cleanJin10ImageChunk(chunk,tags){
+  let dateText="";
+  const seen=new Set();
+  chunk=String(chunk||"").replace(/\[#([^\]]+)\]\(https:\/\/t\.me\/s\/jin10light\?q=[^)]+\)/g,(_,tag)=>{
+    const t="#"+tag.trim();
+    if(t.length>1&&!seen.has(t)){ seen.add(t); tags.push(t); }
+    return " ";
+  });
+  const text=chunk.split(/\n+/).map(line=>{
+    line=line.trim();
+    if(!line) return "";
+    if(line.includes("![Image")) return "";
+    if(/^(Title:|URL Source:|Markdown Content:)/i.test(line)) return "";
+    if(/^金十数据 闪电资讯$/.test(line)) return "";
+    if(/^\[?金十数据 闪电资讯/.test(line)) return "";
+    if(/^\[?\]\(https:\/\/t\.me\/s\/jin10light/.test(line)) return "";
+    if(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(line)){ dateText=line; return ""; }
+    if(/Download Telegram|About|Blog|Apps|Platform|subscribers/i.test(line)) return "";
+    if(/注册币安|AI中转|USDT全球刷卡|免费助力|boost\/jin10light|bsmkweb|muskapi|51vcard/i.test(line)) return "";
+    if(/_\*\*.+?\*\*_/.test(line)&&!/[A-Za-z0-9\u4e00-\u9fff]/.test(line.replace(/_\*\*.+?\*\*_/g,""))) return "";
+    line=line.replace(/\[_\*\*([^*]+)\*\*_\]/g,"$1");
+    line=line.replace(/\*\*/g,"").replace(/[_`]/g,"");
+    line=line.replace(/\[([^\]]+)\]\(([^)]+)\)/g,"$1");
+    line=line.replace(/\s+/g," ").trim();
+    if(/^\.[A-Za-z0-9]+$/.test(line)) return "";
+    if(/^(❤|💩|👍|🔥|👏|🙏|🤡|⚡️|\s|\d)+$/u.test(line)) return "";
+    return line;
+  }).filter(Boolean).join("\n").trim();
+  return {text,dateText};
+}
+function parseJin10ImageMarkdown(md){
+  const chunks=[], current=[];
+  String(md||"").split(/\n/).forEach(line=>{
+    const isImage=line.includes("![Image")&&line.includes(`](https://t.me/${JIN10_CHANNEL})`);
+    if(isImage){
+      if(current.length) chunks.push(current.join("\n"));
+      current.length=0;
+      return;
+    }
+    current.push(line);
+  });
+  if(current.length) chunks.push(current.join("\n"));
+  const items=[];
+  chunks.forEach((chunk,idx)=>{
+    const tags=[];
+    const cleaned=cleanJin10ImageChunk(chunk,tags);
+    if(!cleaned.text) return;
+    const lines=cleaned.text.split(/\n+/).map(x=>x.trim()).filter(Boolean);
+    if(!lines.length) return;
+    let title=lines[0], body=lines.slice(1).join(" ");
+    if(!body&&title.length>92){ body=title.slice(92); title=title.slice(0,91).trim()+"…"; }
+    const fingerprint=[cleaned.dateText,title,body.slice(0,180)].join("|");
+    const ts=parseMonthDay(cleaned.dateText);
+    items.push({
+      id:hashText(fingerprint),
+      seq:idx,
+      time:cleaned.dateText||"",
+      dateText:cleaned.dateText||"",
+      ts:ts||null,
+      url:`https://t.me/${JIN10_CHANNEL}`,
+      channelOnly:true,
+      title:truncateText(title,110),
+      body:truncateText(body,260),
+      tags
+    });
+  });
+  const byId=new Map();
+  items.forEach(item=>{ if(!byId.has(item.id)) byId.set(item.id,item); });
+  return [...byId.values()]
+    .sort((a,b)=>(Number(b.ts||0)-Number(a.ts||0))||(Number(a.seq||0)-Number(b.seq||0)))
+    .slice(0,JIN10_MAX_ITEMS);
+}
 async function refreshJin10(force){
   setJin10Status("刷新中","warn");
   try{
@@ -793,7 +866,7 @@ async function refreshJin10(force){
     }
     const fresh=new Set(items.map(x=>x.id));
     JIN10_ITEMS=[...items,...JIN10_ITEMS.filter(x=>!fresh.has(x.id))]
-      .sort((a,b)=>Number(b.id)-Number(a.id))
+      .sort((a,b)=>(Number(b.ts||0)-Number(a.ts||0))||((a.seq!=null&&b.seq!=null)?Number(a.seq)-Number(b.seq):((Number(b.id)||0)-(Number(a.id)||0))))
       .slice(0,JIN10_MAX_ITEMS);
     saveJin10Cache();
     renderJin10();
