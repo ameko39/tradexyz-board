@@ -54,6 +54,31 @@
   .search input:focus{border-color:var(--accent)}
   .search .hint{color:var(--mut);font-size:12px}
   @media(max-width:760px){ .search{margin:12px 12px 2px} }
+  .bwe{padding:10px 22px}
+  .bwe-head{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line)}
+  .bwe-head h2{padding:0;border:0;gap:8px;justify-content:flex-start}
+  .bwe-status{margin-left:auto;color:var(--mut);font-size:12px;display:flex;align-items:center;gap:6px}
+  .bwe-dot{width:8px;height:8px;border-radius:50%;background:var(--mut)}
+  .bwe-status.ok .bwe-dot{background:var(--up);box-shadow:0 0 8px rgba(22,199,132,.65)}
+  .bwe-status.warn .bwe-dot{background:var(--warn);box-shadow:0 0 8px rgba(227,160,8,.5)}
+  .bwe-status.bad .bwe-dot{background:var(--dn);box-shadow:0 0 8px rgba(234,57,67,.5)}
+  .bwe-actions{display:flex;gap:6px}
+  .mini-btn{border:1px solid var(--line);background:transparent;color:var(--txt);border-radius:7px;padding:5px 9px;font-size:12px;cursor:pointer}
+  .mini-btn:hover{border-color:var(--accent);color:var(--accent)}
+  .bwe-list{max-height:260px;overflow:auto}
+  .bwe-empty{padding:18px 16px;color:var(--mut);font-size:13px}
+  .bwe-item{padding:12px 16px;border-top:1px solid var(--line)}
+  .bwe-item:first-child{border-top:0}
+  .bwe-meta{display:flex;align-items:center;gap:8px;color:var(--mut);font-size:11px;margin-bottom:6px;flex-wrap:wrap}
+  .bwe-source{font-weight:800;color:var(--accent)}
+  .bwe-title{font-size:14px;font-weight:700;line-height:1.45;color:var(--txt)}
+  .bwe-title a{color:inherit;text-decoration:none}
+  .bwe-title a:hover{color:var(--accent)}
+  .bwe-coins{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
+  .bwe-coin{font-size:10px;font-weight:700;border-radius:999px;padding:2px 7px;background:rgba(91,141,239,.14);color:#9db6f0}
+  body.light .bwe-coin{background:rgba(47,111,237,.12);color:#2f5fc0}
+  body.light .mini-btn{color:var(--txt)}
+  body.light .bwe-title a:hover{color:var(--accent)}
 
   /* ===== 移动端排版（≤760px，按视口宽度自动适配，无需 UA 判断）===== */
   @media(max-width:760px){
@@ -61,6 +86,9 @@
     header h1{font-size:16px}
     .meta.hide-m{display:none}
     .btn{padding:6px 11px;font-size:12.5px}
+    .bwe{padding:10px 12px}
+    .bwe-head{align-items:flex-start;flex-wrap:wrap}
+    .bwe-status{margin-left:0}
     .full{padding:10px 12px}
     .wrap{padding:10px 12px;gap:12px}
     /* 表格：隐藏次要列，留「代码/现价/24h/12h」，详情可点开K线 */
@@ -130,6 +158,20 @@
 <section id="view-stocks">
 <div class="search"><input id="stockSearch" placeholder="搜索代码或名称（如 NVDA / 英伟达 / GOLD / 黄金）…" oninput="stockSearch()"><span class="hint" id="stockHint"></span></div>
 
+<div class="bwe">
+  <div class="card">
+    <div class="bwe-head">
+      <h2>BWEnews 实时快讯 <span id="bweCount">0 条</span></h2>
+      <div id="bweStatus" class="bwe-status warn"><span class="bwe-dot"></span><span id="bweStatusText">连接中</span></div>
+      <div class="bwe-actions">
+        <button class="mini-btn" onclick="connectBwe(true)">重连</button>
+        <button class="mini-btn" onclick="clearBweFeed()">清空</button>
+      </div>
+    </div>
+    <div id="bweList" class="bwe-list"><div class="bwe-empty">等待 BWEnews 推送…</div></div>
+  </div>
+</div>
+
 <!-- 个股：24h + 12h 合并一张表 -->
 <div class="full">
   <div class="card">
@@ -148,6 +190,7 @@
   价格 / 涨跌幅：浏览器直连 <code>api.hyperliquid.xyz/info</code> 实时计算（24h = markPx vs prevDayPx；12h = markPx vs 12h 前 1h K 线收盘）。表头可点击切换排序；点击任一行可打开该标的 K 线与技术研判。<br>
   个股专属两列（均按北京时间，UTC+8 无夏令时）：<b>盘前</b> = 自当日 16:00 起的累计涨幅（含美股盘前 16:00–21:30 及盘中 21:30–04:00）；<b>夜盘</b> = 04:00–16:00 时段涨幅（美股盘后 + 隔夜延长时段）。两段在时间上拼成完整一天；进行中的时段实时累计，已结束的时段为固定值。大宗 / 指数为近 24h 连续交易品种，不适用盘前 / 夜盘，故只保留 24h / 12h。<br>
   覆盖：tradexyz(<code>xyz</code> dex)上全部标的，按资产类别分 个股 / 大宗商品 / 指数·ETF 三表；外汇(EUR/GBP/JPY/KRW/DXY)与加密噪音(QNT/PURRDAT)已剔除。任何新上标的若未归类，默认进「个股」表，不会漏。<br>
+  BWEnews 快讯：浏览器直连 <code>wss://bwenews-api.bwe-ws.com/ws</code>，仅展示 BWEnews 自有编辑内容；连接保持使用 plain text <code>ping</code>/<code>pong</code>。<br>
   <b>刷新行情</b> 会重新拉取价格/涨跌幅（浏览器直连 API，秒级）；行情每 2h 自动刷新一次。<br>
   仅显示 24h 有成交量的标的（零成交已隐藏）。
 </footer>
@@ -241,6 +284,102 @@ function applyStockFilter(){
   const h=document.getElementById("stockHint"); if(h) h.textContent=q?`匹配 ${shown} 个`:"";
 }
 function setSort(key){ if(sortKey===key){sortDir=-sortDir;}else{sortKey=key;sortDir=(key==='tk'||key==='nm')?1:-1;} renderAll(); }
+
+const BWE_WS_URL="wss://bwenews-api.bwe-ws.com/ws";
+const BWE_MAX_ITEMS=80;
+let BWE_WS=null, BWE_PING=null, BWE_RETRY=null, BWE_RETRY_MS=1000, BWE_CONN_ID=0, BWE_ITEMS=[];
+
+function esc(s){
+  return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+function fmtBweTime(ts){
+  const n=Number(ts);
+  const d=new Date(isFinite(n)?(n<1e12?n*1000:n):Date.now());
+  return isNaN(+d)?"--":d.toLocaleString("zh-CN",{hour12:false});
+}
+function setBweStatus(text,kind){
+  const el=document.getElementById("bweStatus"), tx=document.getElementById("bweStatusText");
+  if(!el||!tx) return;
+  el.className="bwe-status "+(kind||"warn");
+  tx.textContent=text;
+}
+function loadBweCache(){
+  try{
+    const raw=localStorage.getItem("bwenews-items");
+    BWE_ITEMS=raw?JSON.parse(raw).slice(0,BWE_MAX_ITEMS):[];
+  }catch(e){ BWE_ITEMS=[]; }
+}
+function saveBweCache(){
+  try{ localStorage.setItem("bwenews-items",JSON.stringify(BWE_ITEMS.slice(0,40))); }catch(e){}
+}
+function renderBwe(){
+  const box=document.getElementById("bweList"), count=document.getElementById("bweCount");
+  if(count) count.textContent=BWE_ITEMS.length+" 条";
+  if(!box) return;
+  if(!BWE_ITEMS.length){ box.innerHTML='<div class="bwe-empty">等待 BWEnews 推送…</div>'; return; }
+  box.innerHTML=BWE_ITEMS.map(n=>{
+    const title=esc(n.news_title||"Untitled");
+    const url=String(n.url||"").trim();
+    const coins=Array.isArray(n.coins_included)?n.coins_included:[];
+    const titleHtml=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>`:title;
+    const coinHtml=coins.length?`<div class="bwe-coins">${coins.map(c=>`<span class="bwe-coin">${esc(c)}</span>`).join("")}</div>`:"";
+    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source">${esc(n.source_name||"BWENEWS")}</span><span>${fmtBweTime(n.timestamp)}</span></div><div class="bwe-title">${titleHtml}</div>${coinHtml}</div>`;
+  }).join("");
+}
+function addBweItem(item){
+  if(!item||!item.news_title) return;
+  const key=[item.timestamp||"",item.news_title||"",item.url||""].join("|");
+  BWE_ITEMS=BWE_ITEMS.filter(n=>[n.timestamp||"",n.news_title||"",n.url||""].join("|")!==key);
+  BWE_ITEMS.unshift(item);
+  BWE_ITEMS=BWE_ITEMS.slice(0,BWE_MAX_ITEMS);
+  saveBweCache();
+  renderBwe();
+}
+function handleBweMessage(raw){
+  if(raw==="pong"){ setBweStatus("已连接","ok"); return; }
+  try{ addBweItem(JSON.parse(raw)); }
+  catch(e){ console.warn("BWEnews payload parse failed",e); }
+}
+function stopBweSocket(){
+  if(BWE_PING){ clearInterval(BWE_PING); BWE_PING=null; }
+  if(BWE_RETRY){ clearTimeout(BWE_RETRY); BWE_RETRY=null; }
+  if(BWE_WS){
+    BWE_WS.onopen=BWE_WS.onmessage=BWE_WS.onerror=BWE_WS.onclose=null;
+    try{ BWE_WS.close(); }catch(e){}
+    BWE_WS=null;
+  }
+}
+function connectBwe(force){
+  if(!force && BWE_WS && (BWE_WS.readyState===WebSocket.OPEN || BWE_WS.readyState===WebSocket.CONNECTING)) return;
+  stopBweSocket();
+  const id=++BWE_CONN_ID;
+  setBweStatus("连接中","warn");
+  try{ BWE_WS=new WebSocket(BWE_WS_URL); }
+  catch(e){ scheduleBweReconnect(id); return; }
+  BWE_WS.onopen=()=>{
+    if(id!==BWE_CONN_ID) return;
+    BWE_RETRY_MS=1000;
+    setBweStatus("已连接","ok");
+    try{ BWE_WS.send("ping"); }catch(e){}
+    BWE_PING=setInterval(()=>{ try{ if(BWE_WS&&BWE_WS.readyState===WebSocket.OPEN) BWE_WS.send("ping"); }catch(e){} },25000);
+  };
+  BWE_WS.onmessage=e=>{ if(id===BWE_CONN_ID) handleBweMessage(String(e.data)); };
+  BWE_WS.onerror=()=>{ if(id===BWE_CONN_ID) setBweStatus("连接异常","bad"); };
+  BWE_WS.onclose=()=>{ if(id===BWE_CONN_ID) scheduleBweReconnect(id); };
+}
+function scheduleBweReconnect(id){
+  if(id!==BWE_CONN_ID) return;
+  if(BWE_PING){ clearInterval(BWE_PING); BWE_PING=null; }
+  setBweStatus("重连中","warn");
+  const wait=BWE_RETRY_MS;
+  BWE_RETRY_MS=Math.min(BWE_RETRY_MS*1.8,30000);
+  BWE_RETRY=setTimeout(()=>connectBwe(true),wait);
+}
+function clearBweFeed(){
+  BWE_ITEMS=[];
+  saveBweCache();
+  renderBwe();
+}
 
 async function load(){
   const btn=document.getElementById("refreshBtn"); btn.disabled=true; btn.textContent="刷新中…";
@@ -368,6 +507,9 @@ function toggleTheme(){
 }
 applyTheme((()=>{ try{ return localStorage.getItem("tradexyz-theme")||"dark"; }catch(e){ return "dark"; } })());
 
+loadBweCache();
+renderBwe();
+connectBwe();
 load();
 setInterval(load,REFRESH_MS);
 setInterval(tick,1000);
