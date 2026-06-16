@@ -812,13 +812,20 @@ function newsSourceClass(source){
   return source==="JIN10 TG"?" jin10":(source==="PolyBeats"?" poly":"");
 }
 const MACRO_RULES=[
-  {tag:"宏观数据",score:7,re:/CPI|PPI|非农|ADP|初请|GDP|PMI|ZEW|零售|通胀|就业|失业|新屋|营建许可|进口物价|API原油|EIA|库存|利率决定/i},
-  {tag:"央行",score:7,re:/FOMC|美联储|议息|点阵图|鲍威尔|日本央行|澳洲联储|欧洲央行|英国央行|降息|加息|利率|货币政策/i},
-  {tag:"地缘风险",score:6,re:/中东|伊朗|以色列|停火|关税|制裁|战争|冲突|外交|风险偏好|避险/i},
-  {tag:"AI芯片",score:5,re:/\bNVIDIA\b|英伟达|\bNVDA\b|SK海力士|海力士|HBM|DRAM|\bAI\b|人工智能|芯片|半导体|算力|机器人|Qwen|Claude|OpenAI/i},
-  {tag:"IPO/大票",score:5,re:/IPO|SpaceX|CoreWeave|Circle|CRCL|特斯拉|Tesla|苹果|微软|Meta|谷歌|阿里|美股/i},
-  {tag:"大宗商品",score:4,re:/黄金|白银|原油|天然气|WTI|Brent|布伦特|OPEC|EIA|API原油|央行增持黄金|铜价|铜矿/i},
-  {tag:"市场主线",score:3,re:/今日重点关注|本周|前瞻|调查|会议|发布会|财报|指引|预期/i}
+  {tag:"美国经济数据",score:12,impact:"影响美债收益率、美元、指数估值",re:/PCE|CPI|PPI|非农|NFP|ADP|ISM|GDP|初请|就业|失业|通胀|零售销售|PMI|新屋|营建许可|进口物价/i},
+  {tag:"美联储/央行",score:12,impact:"影响降息路径、美元流动性、全球风险资产",re:/FOMC|Fed|美联储|鲍威尔|点阵图|议息|利率决议|降息|加息|缩表|购债|ECB|欧洲央行|BOJ|日本央行|BOC|加拿大央行|BOE|英国央行|澳洲联储|货币政策/i},
+  {tag:"重要财报",score:10,impact:"影响 AI、半导体、大科技和指数权重股",re:/财报|业绩|营收|利润|指引|guidance|earnings|NVIDIA|英伟达|NVDA|AMD|TSM|ASML|AVGO|MRVL|MU|苹果|微软|Meta|谷歌|Alphabet|Amazon|Tesla|特斯拉|AI芯片|人工智能|芯片|半导体|HBM|DRAM/i},
+  {tag:"国际重大事件",score:10,impact:"影响避险情绪、能源、军工和全球股指",re:/战争|冲突|袭击|停火|和平协议|制裁|关税|贸易战|选举|政策变化|中东|伊朗|以色列|俄罗斯|乌克兰|外交|封锁|核协议/i},
+  {tag:"区域重大政策",score:9,impact:"影响区域 ETF、汇率、行业主题轮动",re:/中国|日本|欧洲|欧元区|加拿大|政策|刺激|财政|监管|出口管制|产业政策|补贴|税收|房地产|消费/i},
+  {tag:"指数再平衡",score:9,impact:"影响被动资金买卖和尾盘成交",re:/(MSCI|FTSE|S&P|标普|Nasdaq|纳斯达克|Russell|罗素).{0,20}(再平衡|调入|调出|指数调整|成分股|权重调整)|(再平衡|调入|调出|指数调整|成分股|权重调整).{0,20}(MSCI|FTSE|S&P|标普|Nasdaq|纳斯达克|Russell|罗素)/i},
+  {tag:"资金流",score:8,impact:"影响月末/季末仓位、养老金再平衡、风格切换",re:/养老金|月末|季末|资金流|再平衡资金|被动资金|主动基金|仓位|调仓|流入|流出/i},
+  {tag:"ETF调仓",score:8,impact:"影响 ETF 成分股、行业权重和短线成交",re:/ETF|调仓|指数重构|权重调整|成分调整|再配置|XLE|XLK|SMH|QQQ|SPY|EWJ|EWZ|URNM/i},
+  {tag:"期权到期",score:8,impact:"影响 Gamma、波动率、指数钉住和尾盘波动",re:/OPEX|期权到期|Triple Witching|三巫日|四巫日|gamma|伽马|波动率|VIX/i},
+  {tag:"美国国债拍卖",score:8,impact:"影响长端利率、美元和成长股估值",re:/国债拍卖|美债拍卖|Treasury auction|2年期|3年期|5年期|7年期|10年期|20年期|30年期|收益率|票息/i},
+  {tag:"原油/OPEC",score:8,impact:"影响能源股、通胀预期和航空/化工成本",re:/原油|WTI|Brent|布伦特|OPEC|欧佩克|EIA|API原油|库存|产量|减产|增产|天然气|能源/i},
+  {tag:"IPO/融资",score:8,impact:"影响新股情绪、流动性和相关主题估值",re:/IPO|上市|融资|增发|可转债|配售|并购|收购|募资|SpaceX|CoreWeave|Circle|CRCL/i},
+  {tag:"Top催化剂",score:7,impact:"市场最可能交易的主线催化",re:/今日重点关注|本周|前瞻|市场关注|重磅|最重要|催化|公布|会议|发布会|调查|预期/i},
+  {tag:"突发影响",score:7,impact:"自上次提醒以来可能改写市场定价的突发新闻",re:/突发|快讯|独家|BREAKING|unexpected|意外|超预期|低于预期|飙升|暴跌|暂停|恢复|扩大|升级/i}
 ];
 function macroSetStatus(text,kind){
   const el=document.getElementById("macroStatus"), tx=document.getElementById("macroStatusText");
@@ -869,16 +876,24 @@ function buildMacroEvents(){
     const rawTitle=String(item.title||"").trim();
     if(rawTitle.length<6||/国å|�|午间独家观点|^\s*【.*观点】\s*$/.test(rawTitle)) return;
     const text=[item.title,item.body,(item.tags||[]).join(" ")].join(" ");
-    let score=0, tags=[];
+    let score=0, tags=[], impacts=[];
     MACRO_RULES.forEach(rule=>{
-      if(rule.re.test(text)){ score+=rule.score; tags.push(rule.tag); }
+      if(rule.re.test(text)){ score+=rule.score; tags.push(rule.tag); impacts.push(rule.impact); }
     });
-    if(score<5) return;
+    if(tags.includes("重要财报")&&!/(财报|业绩|营收|利润|指引|guidance|earnings|芯片|半导体|HBM|DRAM|OpenAI|人工智能|Qwen|NVIDIA|英伟达|\bNVDA\b|\bAMD\b|\bTSM\b|\bASML\b|\bAVGO\b|\bMRVL\b|\bMU\b|\bAAPL\b|\bMSFT\b|\bMETA\b|\bGOOGL\b|\bAMZN\b|\bTSLA\b|苹果|微软|谷歌|特斯拉)/i.test(text)){
+      tags=tags.filter(t=>t!=="重要财报");
+      impacts=impacts.filter(t=>t!=="影响 AI、半导体、大科技和指数权重股");
+      score-=10;
+    }
+    if(score<8) return;
     const dateKey=macroDateFromText(text,item);
     if(Math.abs(dateKeyToMs(dateKey)-dateKeyToMs(todayKey))>10*24*60*60*1000) return;
     if(dateKey>=todayKey) score+=4;
-    if(tags.includes("宏观数据")||tags.includes("央行")) score+=3;
-    const desc=truncateText(item.body||item.title||"",120);
+    if(tags.includes("美国经济数据")||tags.includes("美联储/央行")) score+=4;
+    if(tags.includes("重要财报")&&/AI|芯片|半导体|NVIDIA|NVDA|英伟达|TSM|ASML|AMD|MU|MRVL/i.test(text)) score+=3;
+    const impact=uniqueTags(impacts).slice(0,2).join("；");
+    const summary=truncateText(item.body||item.title||"",96);
+    const desc=impact?`影响：${impact}。${summary}`:summary;
     events.push({
       key:dateKey+"|"+(item.title||""),
       dateKey,
@@ -900,14 +915,17 @@ function buildMacroEvents(){
     .sort((a,b)=>(b.score-a.score)||(Math.abs(dateKeyToMs(a.dateKey)-dateKeyToMs(todayKey))-Math.abs(dateKeyToMs(b.dateKey)-dateKeyToMs(todayKey))))
     .forEach(e=>{
       const primary=e.tags[0]||"其他";
-      if((dateCount.get(e.dateKey)||0)>=3) return;
+      const maxPerDate=e.dateKey<todayKey?2:3;
+      if((dateCount.get(e.dateKey)||0)>=maxPerDate) return;
       if((tagCount.get(primary)||0)>=3) return;
       selected.push(e);
       dateCount.set(e.dateKey,(dateCount.get(e.dateKey)||0)+1);
       tagCount.set(primary,(tagCount.get(primary)||0)+1);
     });
+  const topKeys=new Set(selected.slice().sort((a,b)=>b.score-a.score).slice(0,3).map(e=>e.key));
   return selected
     .sort((a,b)=>(dateKeyToMs(a.dateKey)-dateKeyToMs(b.dateKey))||(b.score-a.score))
+    .map(e=>topKeys.has(e.key)?Object.assign({},e,{tags:uniqueTags(["Top 3催化剂",...e.tags]).slice(0,3)}):e)
     .slice(0,8);
 }
 function renderMacroCalendar(){
