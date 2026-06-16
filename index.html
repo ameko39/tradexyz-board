@@ -258,7 +258,7 @@
       </div>
     </div>
     <div id="macroTimeline" class="macro-timeline"><div class="macro-empty">等待 BWE TradFi 与金十快讯入库后自动生成。</div></div>
-    <div class="archive-note">本模块仅从 BWE TradFi TG 与金十 TG 快讯中做本地规则筛选：宏观数据、央行、地缘风险、AI/芯片、IPO、大宗商品等主线会优先进入时间线。</div>
+    <div class="archive-note">本模块仅从 BWE TradFi TG 与金十 TG 快讯中做本地规则筛选：Top 3 催化剂、AI/半导体/大科技财报、美国数据、全球央行、国际事件、区域政策、指数/ETF再平衡、资金流、OPEX、国债拍卖、OPEC/原油、IPO/融资等会优先进入时间线。</div>
   </div>
 </div>
 
@@ -493,6 +493,12 @@ function dateKeyToMs(key){
 function prettyDateKey(key){
   const m=String(key||"").match(/^(\d{4})-(\d{2})-(\d{2})$/);
   return m?`${Number(m[2])}/${Number(m[3])}`:"--";
+}
+function weekStartDateKey(key){
+  const base=dateKeyToMs(key||beijingDateKey());
+  const d=new Date(base).getUTCDay();
+  const offset=(d+6)%7;
+  return beijingDateKey(base-offset*24*60*60*1000);
 }
 function fmtBweTime(ts){
   const n=Number(ts);
@@ -814,7 +820,7 @@ function newsSourceClass(source){
 const MACRO_RULES=[
   {tag:"美国经济数据",score:12,impact:"影响美债收益率、美元、指数估值",re:/PCE|CPI|PPI|非农|NFP|ADP|ISM|GDP|初请|就业|失业|通胀|零售销售|PMI|新屋|营建许可|进口物价/i},
   {tag:"美联储/央行",score:12,impact:"影响降息路径、美元流动性、全球风险资产",re:/FOMC|Fed|美联储|鲍威尔|点阵图|议息|利率决议|降息|加息|缩表|购债|ECB|欧洲央行|BOJ|日本央行|BOC|加拿大央行|BOE|英国央行|澳洲联储|货币政策/i},
-  {tag:"重要财报",score:10,impact:"影响 AI、半导体、大科技和指数权重股",re:/财报|业绩|营收|利润|指引|guidance|earnings|NVIDIA|英伟达|NVDA|AMD|TSM|ASML|AVGO|MRVL|MU|苹果|微软|Meta|谷歌|Alphabet|Amazon|Tesla|特斯拉|AI芯片|人工智能|芯片|半导体|HBM|DRAM/i},
+  {tag:"重要财报",score:10,impact:"影响 AI、半导体、大科技和指数权重股",re:/(?=.*(财报|业绩|营收|净利润|利润|指引|guidance|earnings))(?=.*(NVIDIA|英伟达|NVDA|AMD|TSM|ASML|AVGO|MRVL|MU|苹果|微软|Meta|谷歌|Alphabet|Amazon|Tesla|特斯拉|AI|人工智能|芯片|半导体|HBM|DRAM|大科技|科技股))/i},
   {tag:"国际重大事件",score:10,impact:"影响避险情绪、能源、军工和全球股指",re:/战争|冲突|袭击|停火|和平协议|制裁|关税|贸易战|选举|政策变化|中东|伊朗|以色列|俄罗斯|乌克兰|外交|封锁|核协议/i},
   {tag:"区域重大政策",score:9,impact:"影响区域 ETF、汇率、行业主题轮动",re:/中国|日本|欧洲|欧元区|加拿大|政策|刺激|财政|监管|出口管制|产业政策|补贴|税收|房地产|消费/i},
   {tag:"指数再平衡",score:9,impact:"影响被动资金买卖和尾盘成交",re:/(MSCI|FTSE|S&P|标普|Nasdaq|纳斯达克|Russell|罗素).{0,20}(再平衡|调入|调出|指数调整|成分股|权重调整)|(再平衡|调入|调出|指数调整|成分股|权重调整).{0,20}(MSCI|FTSE|S&P|标普|Nasdaq|纳斯达克|Russell|罗素)/i},
@@ -872,6 +878,7 @@ function macroNewsPool(){
 function buildMacroEvents(){
   const events=[];
   const todayKey=beijingDateKey();
+  const weekStartKey=weekStartDateKey(todayKey);
   macroNewsPool().forEach(item=>{
     const rawTitle=String(item.title||"").trim();
     if(rawTitle.length<6||/国å|�|午间独家观点|^\s*【.*观点】\s*$/.test(rawTitle)) return;
@@ -887,6 +894,7 @@ function buildMacroEvents(){
     }
     if(score<8) return;
     const dateKey=macroDateFromText(text,item);
+    if(dateKey<weekStartKey) return;
     if(Math.abs(dateKeyToMs(dateKey)-dateKeyToMs(todayKey))>10*24*60*60*1000) return;
     if(dateKey>=todayKey) score+=4;
     if(tags.includes("美国经济数据")||tags.includes("美联储/央行")) score+=4;
