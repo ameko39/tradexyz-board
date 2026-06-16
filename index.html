@@ -57,6 +57,7 @@
   .bwe{padding:10px 22px}
   .feed-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
   @media(max-width:980px){.feed-grid{grid-template-columns:1fr}}
+  .archive-card{grid-column:1/-1}
   .bwe-head{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line)}
   .bwe-head h2{padding:0;border:0;gap:8px;justify-content:flex-start}
   .bwe-status{margin-left:auto;color:var(--mut);font-size:12px;display:flex;align-items:center;gap:6px}
@@ -68,6 +69,7 @@
   .mini-btn{border:1px solid var(--line);background:transparent;color:var(--txt);border-radius:7px;padding:5px 9px;font-size:12px;cursor:pointer}
   .mini-btn:hover{border-color:var(--accent);color:var(--accent)}
   .bwe-list{max-height:260px;overflow:auto}
+  .archive-list{max-height:360px}
   .bwe-empty{padding:18px 16px;color:var(--mut);font-size:13px}
   .bwe-item{padding:12px 16px;border-top:1px solid var(--line)}
   .bwe-item:first-child{border-top:0}
@@ -80,6 +82,7 @@
   .bwe-title a{color:inherit;text-decoration:none}
   .bwe-title a:hover{color:var(--accent)}
   .bwe-text{margin-top:6px;color:var(--mut);font-size:12.5px;line-height:1.55;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+  .archive-note{padding:9px 16px;border-top:1px solid var(--line);color:var(--mut);font-size:11px}
   .bwe-coins{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
   .bwe-coin{font-size:10px;font-weight:700;border-radius:999px;padding:2px 7px;background:rgba(91,141,239,.14);color:#9db6f0}
   .bwe-coin.jin10{background:rgba(227,160,8,.13);color:#e3b64f}
@@ -190,6 +193,18 @@
       </div>
       <div id="jin10List" class="bwe-list"><div class="bwe-empty">加载金十 Telegram 频道…</div></div>
     </div>
+    <div class="card archive-card">
+      <div class="bwe-head">
+        <h2>15日快讯库 <span id="newsStoreCount">0 条</span></h2>
+        <div id="newsStoreStatus" class="bwe-status ok"><span class="bwe-dot"></span><span id="newsStoreStatusText">本机保存</span></div>
+        <div class="bwe-actions">
+          <button class="mini-btn" onclick="renderNewsStore()">刷新视图</button>
+          <button class="mini-btn" onclick="clearNewsStore()">清空库</button>
+        </div>
+      </div>
+      <div id="newsStoreList" class="bwe-list archive-list"><div class="bwe-empty">还没有保存的快讯。</div></div>
+      <div class="archive-note">仅保留本浏览器收到的最近 15 天快讯；BWEnews 和金十 TG 会统一去重入库。</div>
+    </div>
   </div>
 </div>
 
@@ -213,6 +228,7 @@
   覆盖：tradexyz(<code>xyz</code> dex)上全部标的，按资产类别分 个股 / 大宗商品 / 指数·ETF 三表；外汇(EUR/GBP/JPY/KRW/DXY)与加密噪音(QNT/PURRDAT)已剔除。任何新上标的若未归类，默认进「个股」表，不会漏。<br>
   BWEnews 快讯：浏览器直连 <code>wss://bwenews-api.bwe-ws.com/ws</code>，仅展示 BWEnews 自有编辑内容；连接保持使用 plain text <code>ping</code>/<code>pong</code>。<br>
   金十 TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/jin10light</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
+  15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWEnews 与金十 TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。<br>
   <b>刷新行情</b> 会重新拉取价格/涨跌幅（浏览器直连 API，秒级）；行情每 2h 自动刷新一次。<br>
   仅显示 24h 有成交量的标的（零成交已隐藏）。
 </footer>
@@ -356,6 +372,7 @@ function addBweItem(item){
   BWE_ITEMS=BWE_ITEMS.slice(0,BWE_MAX_ITEMS);
   saveBweCache();
   renderBwe();
+  addNewsItems([newsFromBwe(item)]);
 }
 function handleBweMessage(raw){
   if(raw==="pong"){ setBweStatus("已连接","ok"); return; }
@@ -401,6 +418,157 @@ function clearBweFeed(){
   BWE_ITEMS=[];
   saveBweCache();
   renderBwe();
+}
+
+const NEWS_STORE_KEY="tradexyz-news-store-v1";
+const NEWS_STORE_DAYS=15;
+const NEWS_STORE_TTL_MS=NEWS_STORE_DAYS*24*60*60*1000;
+const NEWS_STORE_MAX_ITEMS=2000;
+const NEWS_STORE_RENDER_LIMIT=220;
+let NEWS_STORE=[];
+
+function newsTimeMs(v){
+  const n=Number(v);
+  if(!isFinite(n)) return null;
+  return n<1e12?n*1000:n;
+}
+function newsItemKey(item){
+  return item.key||[item.source||"NEWS",item.id||"",item.url||"",item.title||""].join("|");
+}
+function uniqueTags(tags){
+  const out=[], seen=new Set();
+  (tags||[]).forEach(t=>{
+    t=String(t||"").trim();
+    if(t&&!seen.has(t)){ seen.add(t); out.push(t); }
+  });
+  return out;
+}
+function setNewsStoreStatus(text,kind){
+  const el=document.getElementById("newsStoreStatus"), tx=document.getElementById("newsStoreStatusText");
+  if(!el||!tx) return;
+  el.className="bwe-status "+(kind||"ok");
+  tx.textContent=text;
+}
+function normalizeNewsItem(item,existing){
+  const now=Date.now(), key=newsItemKey(item), storedAt=existing&&existing.storedAt?existing.storedAt:(item.storedAt||now);
+  const ts=Number(item.ts);
+  const hasTs=item.ts!==null&&item.ts!==undefined&&item.ts!==""&&isFinite(ts);
+  return {
+    key,
+    id:item.id||"",
+    source:item.source||"NEWS",
+    title:truncateText(item.title||"Untitled",140),
+    body:truncateText(item.body||"",320),
+    url:String(item.url||"").trim(),
+    ts:hasTs?ts:((existing&&existing.ts)||storedAt),
+    storedAt,
+    timeText:item.timeText||"",
+    tags:uniqueTags(item.tags||item.coins||[])
+  };
+}
+function pruneNewsStore(items){
+  const cutoff=Date.now()-NEWS_STORE_TTL_MS;
+  return (items||[])
+    .filter(n=>Number(n.storedAt||n.ts||0)>=cutoff)
+    .sort((a,b)=>Number(b.storedAt||b.ts||0)-Number(a.storedAt||a.ts||0))
+    .slice(0,NEWS_STORE_MAX_ITEMS);
+}
+function loadNewsStore(){
+  try{
+    const raw=localStorage.getItem(NEWS_STORE_KEY);
+    NEWS_STORE=pruneNewsStore(raw?JSON.parse(raw):[]);
+  }catch(e){ NEWS_STORE=[]; }
+  saveNewsStore(false);
+}
+function saveNewsStore(renderStatus){
+  try{
+    localStorage.setItem(NEWS_STORE_KEY,JSON.stringify(NEWS_STORE));
+    if(renderStatus!==false) setNewsStoreStatus(`本机保存 ${NEWS_STORE_DAYS}日`,"ok");
+  }catch(e){
+    console.warn("News store save failed",e);
+    setNewsStoreStatus("保存失败","bad");
+  }
+}
+function addNewsItems(items,render){
+  if(!items||!items.length) return;
+  const map=new Map(NEWS_STORE.map(n=>[n.key,n]));
+  items.forEach(item=>{
+    if(!item||!item.title) return;
+    const key=newsItemKey(item);
+    map.set(key,normalizeNewsItem({...item,key},map.get(key)));
+  });
+  NEWS_STORE=pruneNewsStore([...map.values()]);
+  saveNewsStore();
+  if(render!==false) renderNewsStore();
+}
+function fmtNewsStoreTime(item){
+  if(item.source==="JIN10 TG"&&/^\d{2}:\d{2}$/.test(item.timeText||"")){
+    const base=new Date(Number(item.storedAt||item.ts));
+    if(!isNaN(+base)){
+      return `${String(base.getMonth()+1).padStart(2,"0")}/${String(base.getDate()).padStart(2,"0")} ${item.timeText}`;
+    }
+  }
+  const d=new Date(Number(item.ts||item.storedAt));
+  if(!isNaN(+d)) return d.toLocaleString("zh-CN",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false});
+  return item.timeText||"--";
+}
+function newsFromBwe(n){
+  const ts=newsTimeMs(n.timestamp)||Date.now();
+  return {
+    key:["BWEnews",n.timestamp||"",n.news_title||"",n.url||""].join("|"),
+    source:"BWEnews",
+    title:n.news_title||"",
+    url:n.url||"",
+    ts,
+    timeText:fmtBweTime(n.timestamp),
+    tags:Array.isArray(n.coins_included)?n.coins_included:[]
+  };
+}
+function newsFromJin10(n){
+  return {
+    key:"JIN10|"+(n.id||n.url||n.title||""),
+    id:n.id||"",
+    source:"JIN10 TG",
+    title:n.title||"",
+    body:n.body||"",
+    url:n.url||"",
+    ts:n.ts||null,
+    timeText:n.time||"",
+    tags:n.tags||[]
+  };
+}
+function syncNewsStoreFromFeeds(){
+  const items=[
+    ...BWE_ITEMS.map(newsFromBwe),
+    ...JIN10_ITEMS.map(newsFromJin10)
+  ];
+  addNewsItems(items,false);
+  renderNewsStore();
+}
+function renderNewsStore(){
+  NEWS_STORE=pruneNewsStore(NEWS_STORE);
+  saveNewsStore(false);
+  const box=document.getElementById("newsStoreList"), count=document.getElementById("newsStoreCount");
+  if(count) count.textContent=NEWS_STORE.length+" 条";
+  setNewsStoreStatus(`本机保存 ${NEWS_STORE_DAYS}日`,"ok");
+  if(!box) return;
+  if(!NEWS_STORE.length){ box.innerHTML='<div class="bwe-empty">还没有保存的快讯。</div>'; return; }
+  const rows=NEWS_STORE.slice(0,NEWS_STORE_RENDER_LIMIT).map(n=>{
+    const sourceClass=n.source==="JIN10 TG"?" jin10":"";
+    const url=String(n.url||"").trim();
+    const body=n.body?`<div class="bwe-text">${esc(n.body)}</div>`:"";
+    const tagHtml=n.tags&&n.tags.length?`<div class="bwe-coins">${n.tags.slice(0,10).map(t=>`<span class="bwe-coin${sourceClass}">${esc(t)}</span>`).join("")}</div>`:"";
+    const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">原文</a>`:"";
+    const title=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(n.title)}</a>`:esc(n.title);
+    return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source${sourceClass}">${esc(n.source)}</span><span>${esc(fmtNewsStoreTime(n))}</span>${open}</div><div class="bwe-title">${title}</div>${body}${tagHtml}</div>`;
+  }).join("");
+  const more=NEWS_STORE.length>NEWS_STORE_RENDER_LIMIT?`<div class="archive-note">仅渲染最新 ${NEWS_STORE_RENDER_LIMIT} 条；完整数据仍保存在本机 15 日库中。</div>`:"";
+  box.innerHTML=rows+more;
+}
+function clearNewsStore(){
+  NEWS_STORE=[];
+  saveNewsStore();
+  renderNewsStore();
 }
 
 const JIN10_CHANNEL="jin10light";
@@ -513,6 +681,7 @@ async function refreshJin10(force){
       .slice(0,JIN10_MAX_ITEMS);
     saveJin10Cache();
     renderJin10();
+    addNewsItems(items.map(newsFromJin10));
     setJin10Status("已更新 "+new Date().toLocaleTimeString("zh-CN",{hour12:false}),"ok");
   }catch(e){
     console.warn("Jin10 TG fetch failed",e);
@@ -653,11 +822,13 @@ function toggleTheme(){
 }
 applyTheme((()=>{ try{ return localStorage.getItem("tradexyz-theme")||"dark"; }catch(e){ return "dark"; } })());
 
+loadNewsStore();
 loadBweCache();
 renderBwe();
-connectBwe();
 loadJin10Cache();
 renderJin10();
+syncNewsStoreFromFeeds();
+connectBwe();
 refreshJin10();
 load();
 setInterval(load,REFRESH_MS);
