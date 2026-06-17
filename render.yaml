@@ -18,9 +18,13 @@ services:
         value: /data/tg-feeds-store.json
       - key: AI_CAL_FILE
         value: /data/ai-calendar.json
-      - key: OPENAI_MODEL
-        value: gpt-4.1-mini
-      - key: OPENAI_API_KEY
+      - key: AI_BASE_URL
+        value: https://zhiyu.api.trytrythisai.com/v1
+      - key: AI_MODEL
+        value: gpt-5.5
+      - key: AI_API_MODE
+        value: auto
+      - key: AI_API_KEY
         sync: false
     disk:
       name: tg-feed-data

@@ -14,8 +14,10 @@ const RETAIN_MS = RETAIN_DAYS * 24 * 60 * 60 * 1000;
 const POLL_MS = Number(process.env.POLL_MS || 60_000);
 const LATEST_MAX_PAGES = Number(process.env.LATEST_MAX_PAGES || 4);
 const CORS_ORIGIN = process.env.CORS_ORIGIN || "*";
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "";
-const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-4.1-mini";
+const AI_API_KEY = process.env.AI_API_KEY || process.env.OPENAI_API_KEY || "";
+const AI_BASE_URL = (process.env.AI_BASE_URL || process.env.OPENAI_BASE_URL || "https://api.openai.com/v1").replace(/\/+$/, "");
+const AI_MODEL = process.env.AI_MODEL || process.env.OPENAI_MODEL || "gpt-4.1-mini";
+const AI_API_MODE = (process.env.AI_API_MODE || "auto").toLowerCase();
 const CHANNELS = [
   { key: "bwe", channel: "BWEtradfi", archiveMax: 5000, maxPages: 160 },
   { key: "jin10", channel: "jin10light", archiveMax: 8000, maxPages: 260 },
@@ -45,11 +47,11 @@ let backfillPromise = null;
 let lastRefreshError = "";
 let AI_CALENDAR = {
   updatedAt: null,
-  status: OPENAI_API_KEY ? "empty" : "not_configured",
+  status: AI_API_KEY ? "empty" : "not_configured",
   source: "ai-calendar",
-  model: OPENAI_MODEL,
+  model: AI_MODEL,
   days: [],
-  error: OPENAI_API_KEY ? "" : "OPENAI_API_KEY not configured"
+  error: AI_API_KEY ? "" : "AI_API_KEY not configured"
 };
 let aiCalendarPromise = null;
 
@@ -310,10 +312,10 @@ async function loadAiCalendar() {
   } catch {
     // Keep initial empty state.
   }
-  AI_CALENDAR.model = AI_CALENDAR.model || OPENAI_MODEL;
-  if (!OPENAI_API_KEY && !AI_CALENDAR.days?.length) {
+  AI_CALENDAR.model = AI_CALENDAR.model || AI_MODEL;
+  if (!AI_API_KEY && !AI_CALENDAR.days?.length) {
     AI_CALENDAR.status = "not_configured";
-    AI_CALENDAR.error = "OPENAI_API_KEY not configured";
+    AI_CALENDAR.error = "AI_API_KEY not configured";
   }
 }
 
@@ -629,38 +631,75 @@ function normalizeAiCalendar(obj) {
   return days;
 }
 
+async function postAi(path, body) {
+  const res = await fetch(`${AI_BASE_URL}${path}`, {
+    method: "POST",
+    headers: {
+      authorization: `Bearer ${AI_API_KEY}`,
+      "content-type": "application/json"
+    },
+    body: JSON.stringify(body)
+  });
+  const raw = await res.text();
+  let payload = null;
+  try { payload = raw ? JSON.parse(raw) : null; } catch {}
+  return { ok: res.ok, status: res.status, raw, payload };
+}
+
+function aiHttpError(label, result) {
+  return new Error(`${label} HTTP ${result.status}: ${truncate(result.raw, 600)}`);
+}
+
+function responsesText(payload) {
+  return payload?.output_text || (payload?.output || []).flatMap(o => o.content || []).map(c => c.text || "").join("\n");
+}
+
+function chatText(payload) {
+  return payload?.choices?.[0]?.message?.content || payload?.choices?.[0]?.text || "";
+}
+
+async function callAiCalendarModel(prompt) {
+  if (AI_API_MODE !== "chat") {
+    const result = await postAi("/responses", {
+      model: AI_MODEL,
+      input: prompt,
+      store: false,
+      temperature: 0.1,
+      max_output_tokens: 1800
+    });
+    if (result.ok) return { text: responsesText(result.payload), source: "ai-responses" };
+    if (AI_API_MODE === "responses") throw aiHttpError("AI responses", result);
+  }
+
+  const result = await postAi("/chat/completions", {
+    model: AI_MODEL,
+    messages: [
+      { role: "system", content: "Return strict JSON only. No markdown." },
+      { role: "user", content: prompt }
+    ],
+    temperature: 0.1,
+    max_tokens: 1800
+  });
+  if (result.ok) return { text: chatText(result.payload), source: "ai-chat" };
+  throw aiHttpError("AI chat", result);
+}
+
 async function runAiCalendarRefresh(opts = {}) {
-  if (!OPENAI_API_KEY) {
-    AI_CALENDAR = { ...AI_CALENDAR, updatedAt: nowIso(), status: "not_configured", error: "OPENAI_API_KEY not configured" };
+  if (!AI_API_KEY) {
+    AI_CALENDAR = { ...AI_CALENDAR, updatedAt: nowIso(), status: "not_configured", error: "AI_API_KEY not configured" };
     await saveAiCalendar();
     return AI_CALENDAR;
   }
   const calendarRows = await calendarRowsForAi();
   const newsRows = newsRowsForAi();
   const prompt = aiCalendarPrompt(calendarRows, newsRows);
-  const res = await fetch("https://api.openai.com/v1/responses", {
-    method: "POST",
-    headers: {
-      authorization: `Bearer ${OPENAI_API_KEY}`,
-      "content-type": "application/json"
-    },
-    body: JSON.stringify({
-      model: OPENAI_MODEL,
-      input: prompt,
-      store: false,
-      temperature: 0.1,
-      max_output_tokens: 1800
-    })
-  });
-  if (!res.ok) throw new Error(`OpenAI HTTP ${res.status}: ${await res.text()}`);
-  const payload = await res.json();
-  const text = payload.output_text || (payload.output || []).flatMap(o => o.content || []).map(c => c.text || "").join("\n");
-  const days = normalizeAiCalendar(parseAiJson(text));
+  const result = await callAiCalendarModel(prompt);
+  const days = normalizeAiCalendar(parseAiJson(result.text));
   AI_CALENDAR = {
     updatedAt: nowIso(),
     status: "ok",
-    source: "openai",
-    model: OPENAI_MODEL,
+    source: result.source,
+    model: AI_MODEL,
     calendarInputCount: calendarRows.length,
     newsInputCount: newsRows.length,
     days,
@@ -715,7 +754,7 @@ const server = http.createServer(async (req, res) => {
         aiCalendar: {
           status: AI_CALENDAR.status,
           updatedAt: AI_CALENDAR.updatedAt,
-          model: AI_CALENDAR.model || OPENAI_MODEL,
+          model: AI_CALENDAR.model || AI_MODEL,
           refreshing: !!aiCalendarPromise,
           error: AI_CALENDAR.error || ""
         },
@@ -764,7 +803,7 @@ server.listen(PORT, () => {
   refreshFeeds({ full: false }).catch(error => console.error("initial refresh failed", error));
   setTimeout(() => backfillFeeds().catch(error => console.error("initial backfill failed", error)), 5_000);
   setTimeout(() => {
-    if (OPENAI_API_KEY && (!AI_CALENDAR.updatedAt || AI_CALENDAR.status === "empty")) {
+    if (AI_API_KEY && (!AI_CALENDAR.updatedAt || AI_CALENDAR.status === "empty")) {
       refreshAiCalendar({ forceNew: true }).catch(error => console.error("initial ai calendar failed", error));
     }
   }, 10_000);
