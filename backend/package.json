@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node server.mjs"
   },
+  "dependencies": {
+    "undici": "^8.5.0"
+  },
   "engines": {
     "node": ">=22"
   }

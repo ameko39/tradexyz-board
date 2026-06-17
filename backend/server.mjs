@@ -2,6 +2,7 @@ import http from "node:http";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { ProxyAgent, setGlobalDispatcher } from "undici";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PORT = Number(process.env.PORT || 8787);
@@ -16,6 +17,12 @@ const CHANNELS = [
   { key: "poly", channel: "PolyBeats_Bot", archiveMax: 5000, maxPages: 180 }
 ];
 
+const PROXY_URL = process.env.HTTPS_PROXY || process.env.HTTP_PROXY || "";
+if (PROXY_URL) {
+  setGlobalDispatcher(new ProxyAgent(PROXY_URL));
+  console.log(`using outbound proxy ${PROXY_URL}`);
+}
+
 let STORE = {
   updatedAt: null,
   source: "telegram-public-html-backend",
@@ -23,6 +30,7 @@ let STORE = {
   channels: Object.fromEntries(CHANNELS.map(c => [c.key, { channel: c.channel, items: [], archiveComplete: false }]))
 };
 let refreshPromise = null;
+let backfillPromise = null;
 let lastRefreshError = "";
 
 function nowIso() {
@@ -199,7 +207,7 @@ async function fetchChannelArchive(cfg, previous, opts = {}) {
   const cutoff = Date.now() - RETAIN_MS;
   const fetched = [];
   const hadFullArchive = archiveReachedCutoff(previous);
-  const fullBackfill = opts.full || !hadFullArchive;
+  const fullBackfill = !!opts.full;
   let before = null;
   let overlapped = false;
   let reachedCutoff = false;
@@ -246,47 +254,62 @@ async function saveStore() {
   await writeFile(DATA_FILE, JSON.stringify(STORE, null, 2) + "\n", "utf8");
 }
 
-async function refreshFeeds(opts = {}) {
-  if (refreshPromise && !opts.forceNew) return refreshPromise;
-  refreshPromise = (async () => {
-    const startedAt = Date.now();
-    const channels = {};
-    for (const cfg of CHANNELS) {
-      const prev = STORE.channels?.[cfg.key]?.items || [];
-      try {
-        const result = await fetchChannelArchive(cfg, prev, opts);
-        channels[cfg.key] = {
-          channel: cfg.channel,
-          items: result.items,
-          archiveComplete: result.archiveComplete,
-          pages: result.pages
-        };
-      } catch (error) {
-        channels[cfg.key] = {
-          channel: cfg.channel,
-          items: prev,
-          archiveComplete: archiveReachedCutoff(prev),
-          error: error.message
-        };
-      }
+async function runRefresh(opts = {}) {
+  const startedAt = Date.now();
+  const channels = {};
+  for (const cfg of CHANNELS) {
+    const prev = STORE.channels?.[cfg.key]?.items || [];
+    try {
+      const result = await fetchChannelArchive(cfg, prev, opts);
+      channels[cfg.key] = {
+        channel: cfg.channel,
+        items: result.items,
+        archiveComplete: result.archiveComplete,
+        pages: result.pages
+      };
+    } catch (error) {
+      channels[cfg.key] = {
+        channel: cfg.channel,
+        items: prev,
+        archiveComplete: archiveReachedCutoff(prev),
+        error: error.message
+      };
     }
-    STORE = {
-      updatedAt: nowIso(),
-      refreshMs: Date.now() - startedAt,
-      source: "telegram-public-html-backend",
-      retentionDays: RETAIN_DAYS,
-      channels
-    };
-    await saveStore();
-    lastRefreshError = "";
-    return STORE;
-  })().catch(error => {
+  }
+  STORE = {
+    updatedAt: nowIso(),
+    refreshMs: Date.now() - startedAt,
+    source: "telegram-public-html-backend",
+    retentionDays: RETAIN_DAYS,
+    mode: opts.full ? "backfill" : "latest",
+    channels
+  };
+  await saveStore();
+  lastRefreshError = "";
+  return STORE;
+}
+
+async function refreshFeeds(opts = {}) {
+  if (backfillPromise && !opts.forceNew) return STORE;
+  if (refreshPromise && !opts.forceNew) return refreshPromise;
+  refreshPromise = runRefresh({ ...opts, full: false }).catch(error => {
     lastRefreshError = error.message;
     throw error;
   }).finally(() => {
     refreshPromise = null;
   });
   return refreshPromise;
+}
+
+async function backfillFeeds() {
+  if (backfillPromise) return backfillPromise;
+  backfillPromise = runRefresh({ full: true }).catch(error => {
+    lastRefreshError = error.message;
+    throw error;
+  }).finally(() => {
+    backfillPromise = null;
+  });
+  return backfillPromise;
 }
 
 function corsHeaders() {
@@ -320,6 +343,7 @@ const server = http.createServer(async (req, res) => {
         ok: true,
         updatedAt: STORE.updatedAt,
         refreshing: !!refreshPromise,
+        backfilling: !!backfillPromise,
         lastRefreshError,
         channels: Object.fromEntries(Object.entries(STORE.channels || {}).map(([k, v]) => [k, {
           count: v.items?.length || 0,
@@ -337,7 +361,7 @@ const server = http.createServer(async (req, res) => {
     }
     if (url.pathname === "/api/refresh") {
       const full = url.searchParams.get("full") === "1";
-      const data = await refreshFeeds({ full, forceNew: true });
+      const data = full ? await backfillFeeds() : await refreshFeeds({ forceNew: true });
       sendJson(res, 200, data);
       return;
     }
@@ -351,5 +375,7 @@ await loadStore();
 server.listen(PORT, () => {
   console.log(`tradexyz backend listening on :${PORT}`);
   refreshFeeds({ full: false }).catch(error => console.error("initial refresh failed", error));
+  setTimeout(() => backfillFeeds().catch(error => console.error("initial backfill failed", error)), 5_000);
   setInterval(() => refreshFeeds({ full: false }).catch(error => console.error("poll refresh failed", error)), POLL_MS);
+  setInterval(() => backfillFeeds().catch(error => console.error("scheduled backfill failed", error)), 6 * 60 * 60 * 1000);
 });

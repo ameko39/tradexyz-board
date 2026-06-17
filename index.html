@@ -870,7 +870,7 @@ async function fetchTgFeedData(force){
   const backend=tgBackendUrl();
   if(backend){
     try{
-      const endpoint=force?`${backend}/api/refresh?full=1`:`${backend}/api/feeds`;
+      const endpoint=force?`${backend}/api/refresh`:`${backend}/api/feeds`;
       const r=await fetch(endpoint,{cache:"no-store",method:force?"POST":"GET"});
       if(!r.ok) throw new Error(`backend HTTP ${r.status}`);
       const data=await r.json();

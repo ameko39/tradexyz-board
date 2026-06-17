@@ -6,7 +6,8 @@ It:
 - polls public Telegram pages for `BWEtradfi`, `jin10light`, and `PolyBeats_Bot`;
 - stores a 15-day JSON archive on disk;
 - exposes `GET /api/feeds`;
-- exposes `GET/POST /api/refresh?full=1` for manual refresh/backfill;
+- exposes `GET/POST /api/refresh` for fast latest-page refresh;
+- runs 15-day backfill in the background and also exposes `GET/POST /api/refresh?full=1` for manual full backfill;
 - supports CORS for the GitHub Pages frontend.
 
 ## Local
