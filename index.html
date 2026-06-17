@@ -96,21 +96,28 @@
   body.light .bwe-title a:hover{color:var(--accent)}
   .macro-card .bwe-head h2{font-size:16px}
   .macro-sub{color:var(--mut);font-size:12px;font-weight:500;margin-left:8px}
-  .macro-timeline{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;padding:14px 16px;overflow:hidden}
-  .macro-event{border:1px solid var(--line);border-radius:10px;padding:12px;background:rgba(255,255,255,.018)}
-  .macro-event.past{opacity:.72}
-  .macro-event.today{border-color:rgba(91,141,239,.72);background:rgba(91,141,239,.075)}
-  .macro-date{font-size:16px;font-weight:900;color:var(--txt);line-height:1.2;display:flex;justify-content:space-between;gap:8px;align-items:center}
-  .macro-state{font-size:11px;font-weight:800;color:var(--warn)}
+  .macro-timeline{padding:18px 16px 16px;overflow-x:auto;scrollbar-color:#2b3a57 transparent;scrollbar-width:thin}
+  .macro-rail{position:relative;display:grid;grid-template-columns:repeat(7,minmax(138px,1fr));gap:14px;min-width:980px;align-items:start}
+  .macro-rail:before{content:"";position:absolute;left:18px;right:18px;top:17px;height:3px;background:linear-gradient(90deg,var(--up),var(--accent),var(--warn));border-radius:999px;opacity:.86}
+  .macro-event{position:relative;min-width:0;padding-top:44px}
+  .macro-dot{position:absolute;top:7px;left:50%;width:22px;height:22px;border-radius:50%;background:#4ea57d;border:3px solid var(--card);box-shadow:0 0 0 1px rgba(78,165,125,.38);transform:translateX(-50%);z-index:1}
+  .macro-event.today .macro-dot{background:var(--accent);box-shadow:0 0 0 7px rgba(91,141,239,.18)}
+  .macro-event.future .macro-dot{background:var(--warn);box-shadow:0 0 0 1px rgba(227,160,8,.38)}
+  .macro-box{border:1px solid var(--line);border-radius:8px;padding:12px;background:rgba(255,255,255,.018);min-height:220px}
+  .macro-event.past .macro-box{opacity:.76}
+  .macro-event.today .macro-box{border-color:rgba(91,141,239,.72);background:rgba(91,141,239,.075)}
+  .macro-date{font-size:20px;font-weight:950;color:var(--txt);line-height:1.05;display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+  .macro-state{font-size:12px;font-weight:900;color:var(--warn)}
   .macro-event.past .macro-state{color:var(--up)}
   .macro-event.today .macro-state{color:var(--accent)}
-  .macro-title{margin-top:9px;font-size:14px;font-weight:850;line-height:1.35;color:var(--txt)}
-  .macro-desc{margin-top:8px;color:var(--mut);font-size:12.5px;line-height:1.55}
-  .macro-impact{margin-top:8px;color:var(--txt);font-size:12px;line-height:1.5;opacity:.86}
+  .macro-title{margin-top:10px;font-size:14px;font-weight:900;line-height:1.35;color:var(--txt)}
+  .macro-desc{margin-top:9px;color:var(--mut);font-size:12.5px;line-height:1.55}
+  .macro-desc div{margin-top:4px}
+  .macro-impact{margin-top:9px;color:var(--txt);font-size:12px;line-height:1.45;opacity:.86;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
   .macro-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}
   .macro-tag{font-size:10px;font-weight:800;border-radius:999px;padding:2px 7px;background:rgba(91,141,239,.12);color:#9db6f0}
   .macro-empty{padding:22px 16px;color:var(--mut);font-size:13px}
-  body.light .macro-event{background:rgba(20,40,90,.025)}
+  body.light .macro-box{background:rgba(20,40,90,.025)}
   body.light .macro-tag{background:rgba(47,111,237,.1);color:#2f5fc0}
   .calendar-card .bwe-head h2{font-size:16px}
   .cal-summary{padding:12px 16px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
@@ -148,8 +155,9 @@
     .bwe-status{margin-left:0}
     .full{padding:10px 12px}
     .wrap{padding:10px 12px;gap:12px}
-    .macro-timeline{grid-template-columns:1fr;padding:12px}
-    .macro-event{padding:12px}
+    .macro-timeline{padding:14px 12px}
+    .macro-rail{grid-template-columns:repeat(7,150px);gap:10px;min-width:1100px}
+    .macro-box{min-height:210px;padding:11px}
     .cal-list{max-height:560px}
     .cal-item{grid-template-columns:52px minmax(0,1fr);gap:8px;padding:11px 12px}
     .cal-values{grid-column:2;text-align:left}
@@ -273,14 +281,14 @@
 <div class="full">
   <div class="card macro-card">
     <div class="bwe-head">
-      <h2>本周市场关注 <span class="macro-sub">每日交易主线</span></h2>
+      <h2>本周市场关注 <span class="macro-sub">市场最关心的日程与主线</span></h2>
       <div id="macroStatus" class="bwe-status ok"><span class="bwe-dot"></span><span id="macroStatusText">等待快讯</span></div>
       <div class="bwe-actions">
         <button class="mini-btn" onclick="renderMacroCalendar()">刷新</button>
       </div>
     </div>
     <div id="macroTimeline" class="macro-timeline"><div class="macro-empty">等待金十日历与 BWE / 金十快讯入库后自动生成。</div></div>
-    <div class="archive-note">本模块把金十日历重点事件与 BWE / 金十快讯合并，按周一到周日生成每日交易主线：宏观数据、央行、美债、能源、资金流、休市/OPEX、AI/半导体/科技股影响会优先展示。</div>
+    <div class="archive-note">按周一到周日整理最需要盯的日程与主线：宏观数据、央行、美债、能源、资金流、休市/OPEX、AI/半导体/科技股影响会优先展示。</div>
   </div>
 </div>
 
@@ -1269,7 +1277,7 @@ function macroStatusForDate(key){
   const today=beijingDateKey();
   if(key<today) return {cls:"past",text:"已出"};
   if(key===today) return {cls:"today",text:"今天"};
-  return {cls:"future",text:"待观察"};
+  return {cls:"future",text:"待发布"};
 }
 function macroNewsPool(){
   const map=new Map();
@@ -1371,6 +1379,12 @@ function macroLineFromCal(e){
 function macroLineFromNews(e){
   return `${e.title}`;
 }
+function macroShortLine(s,n){
+  return truncateText(String(s||"").replace(/^•\s*/,"").replace(/\s+/g," ").trim(),n||46);
+}
+function macroShortImpact(s){
+  return truncateText(String(s||"").replace(/^影响：/,"").replace(/\s+/g," ").trim(),72);
+}
 function buildWeeklyMainlines(){
   const today=beijingDateKey();
   const start=weekStartDateKey(today);
@@ -1389,7 +1403,7 @@ function buildWeeklyMainlines(){
     const lines=[
       ...calItems.slice(0,3).map(macroLineFromCal),
       ...newsItems.slice(0,2).map(macroLineFromNews)
-    ];
+    ].map(x=>macroShortLine(x,52)).filter(Boolean);
     const desc=lines.length
       ? lines.map(x=>`• ${esc(x)}`).join("<br>")
       : (dateKey<today?"暂无高优先级事件记录。":"等待金十日历/快讯更新，重点留意突发政策、地缘、资金流与科技股催化。");
@@ -1399,6 +1413,7 @@ function buildWeeklyMainlines(){
       score:calItems.reduce((s,e)=>s+e.score,0)+newsItems.reduce((s,e)=>s+e.score,0),
       title:theme,
       desc,
+      lines,
       impact,
       tags
     });
@@ -1414,8 +1429,11 @@ function renderMacroCalendar(){
   box.innerHTML=events.map(e=>{
     const st=macroStatusForDate(e.dateKey);
     const tagHtml=e.tags.length?`<div class="macro-tags">${e.tags.map(t=>`<span class="macro-tag">${esc(t)}</span>`).join("")}</div>`:"";
-    return `<div class="macro-event ${st.cls}"><div class="macro-date"><span>${esc(prettyDateKey(e.dateKey))}</span><span class="macro-state">${esc(st.text)}</span></div><div class="macro-title">${esc(e.title)}</div><div class="macro-desc">${e.desc}</div><div class="macro-impact">${esc(e.impact)}</div>${tagHtml}</div>`;
+    const lines=(e.lines&&e.lines.length?e.lines:[e.desc.replace(/<br>/g," ").replace(/•/g,"")]).slice(0,3);
+    const descHtml=`<div class="macro-desc">${lines.map(x=>`<div>${esc(macroShortLine(x,42))}</div>`).join("")}</div>`;
+    return `<div class="macro-event ${st.cls}"><span class="macro-dot"></span><div class="macro-box"><div class="macro-date"><span>${esc(prettyDateKey(e.dateKey))}</span><span class="macro-state">${esc(st.text)}</span></div><div class="macro-title">${esc(e.title)}</div>${descHtml}<div class="macro-impact">${esc(macroShortImpact(e.impact))}</div>${tagHtml}</div></div>`;
   }).join("");
+  box.innerHTML=`<div class="macro-rail">${box.innerHTML}</div>`;
 }
 function renderNewsStore(){
   NEWS_STORE=pruneNewsStore(NEWS_STORE);
