@@ -855,6 +855,37 @@ function newsSourceClass(source){
   return source==="JIN10 TG"?" jin10":(source==="PolyBeats"?" poly":"");
 }
 const TG_FEEDS_URL="tg-feeds.json";
+function tgBackendUrl(){
+  try{
+    const fromUrl=new URLSearchParams(location.search).get("backend");
+    if(fromUrl){
+      const clean=String(fromUrl).replace(/\/+$/,"");
+      localStorage.setItem("tradexyz-backend-url",clean);
+      return clean;
+    }
+    return String(localStorage.getItem("tradexyz-backend-url")||"").replace(/\/+$/,"");
+  }catch(e){ return ""; }
+}
+async function fetchTgFeedData(force){
+  const backend=tgBackendUrl();
+  if(backend){
+    try{
+      const endpoint=force?`${backend}/api/refresh?full=1`:`${backend}/api/feeds`;
+      const r=await fetch(endpoint,{cache:"no-store",method:force?"POST":"GET"});
+      if(!r.ok) throw new Error(`backend HTTP ${r.status}`);
+      const data=await r.json();
+      data.__sourceLabel=force?"后端刷新":"后端";
+      return data;
+    }catch(e){
+      console.warn("TG backend unavailable, using snapshot",e);
+    }
+  }
+  const r=await fetch(`${TG_FEEDS_URL}${force?`?v=${Date.now()}`:""}`,{cache:"no-store"});
+  if(!r.ok) throw new Error(`snapshot HTTP ${r.status}`);
+  const data=await r.json();
+  data.__sourceLabel="快照";
+  return data;
+}
 function mergeFeedItems(snapshotItems,currentItems,max,keyFn){
   const mapped=(snapshotItems||[]).map(x=>Object.assign({},x,{receivedTime:true}));
   const withReceived=preserveReceivedAt(mapped,currentItems||[],keyFn);
@@ -865,7 +896,8 @@ function mergeFeedItems(snapshotItems,currentItems,max,keyFn){
 }
 function tgSnapshotStatus(data,count){
   const ms=Date.parse(data&&data.updatedAt||"");
-  const label=isFinite(ms)?`快照 ${fmtBeijingClock(ms)}`:"快照已更新";
+  const src=data&&data.__sourceLabel?data.__sourceLabel:"快照";
+  const label=isFinite(ms)?`${src} ${fmtBeijingClock(ms)}`:`${src}已更新`;
   return count?label:"暂无数据";
 }
 async function refreshTgFeeds(force){
@@ -873,9 +905,7 @@ async function refreshTgFeeds(force){
   setJin10Status("刷新中","warn");
   setPolyStatus("刷新中","warn");
   try{
-    const r=await fetch(`${TG_FEEDS_URL}${force?`?v=${Date.now()}`:""}`,{cache:"no-store"});
-    if(!r.ok) throw new Error(`HTTP ${r.status}`);
-    const data=await r.json();
+    const data=await fetchTgFeedData(force);
     const ch=data.channels||{};
     if(ch.bwe&&Array.isArray(ch.bwe.items)){
       BWE_ITEMS=mergeFeedItems(ch.bwe.items,BWE_ITEMS,BWE_MAX_ITEMS,x=>x&&x.id);

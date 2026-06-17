@@ -180,12 +180,22 @@ function mergeArchive(fetched, previous, cfg) {
     .slice(0, cfg.archiveMax);
 }
 
+function archiveReachedCutoff(items) {
+  const cutoff = Date.now() - RETAIN_MS;
+  return (items || []).some(item => {
+    const ts = Number(item && item.ts || 0);
+    return Number.isFinite(ts) && ts > 0 && ts <= cutoff;
+  });
+}
+
 async function fetchChannelArchive(cfg, previous) {
   const previousIds = new Set((previous || []).map(x => String(x.id || "")).filter(Boolean));
   const cutoff = Date.now() - RETAIN_MS;
   const fetched = [];
   let before = null;
   let overlapped = false;
+  const hadFullArchive = archiveReachedCutoff(previous);
+  let reachedCutoff = false;
   for (let page = 0; page < cfg.maxPages; page++) {
     const html = await readTelegramPage(cfg, before);
     const pageItems = parseTelegramHtml(html, cfg, previous);
@@ -194,14 +204,20 @@ async function fetchChannelArchive(cfg, previous) {
     if (pageItems.some(x => previousIds.has(String(x.id)))) overlapped = true;
     const oldest = pageItems[pageItems.length - 1];
     const oldestTs = Number(oldest?.ts || 0);
-    const warmEnough = previousIds.size > 0 && overlapped && page + 1 >= 2;
+    reachedCutoff = Number.isFinite(oldestTs) && oldestTs > 0 && oldestTs <= cutoff;
+    const warmEnough = hadFullArchive && previousIds.size > 0 && overlapped && page + 1 >= 2;
     const initialWarmEnough = previousIds.size === 0 && page + 1 >= cfg.warmPages;
-    if ((Number.isFinite(oldestTs) && oldestTs > 0 && oldestTs < cutoff) || warmEnough || initialWarmEnough) break;
+    if (reachedCutoff || warmEnough || initialWarmEnough) break;
     const nextBefore = Number(oldest?.id || 0);
     if (!nextBefore || nextBefore === before) break;
     before = nextBefore;
   }
-  return mergeArchive(fetched, previous, cfg);
+  const items = mergeArchive(fetched, previous, cfg);
+  return {
+    items,
+    archiveComplete: reachedCutoff || archiveReachedCutoff(items),
+    fetchedPages: before == null ? Math.min(1, fetched.length ? 1 : 0) : undefined
+  };
 }
 
 async function readExisting() {
@@ -218,14 +234,29 @@ async function main() {
   for (const cfg of CHANNELS) {
     const prev = existing.channels?.[cfg.key]?.items || [];
     try {
-      const items = await fetchChannelArchive(cfg, prev);
+      const result = await fetchChannelArchive(cfg, prev);
+      const items = result.items;
       if (!items.length && prev.length) {
-        channels[cfg.key] = { channel: cfg.channel, items: prev, error: "empty scrape kept previous" };
+        channels[cfg.key] = {
+          channel: cfg.channel,
+          items: prev,
+          archiveComplete: archiveReachedCutoff(prev),
+          error: "empty scrape kept previous"
+        };
       } else {
-        channels[cfg.key] = { channel: cfg.channel, items };
+        channels[cfg.key] = {
+          channel: cfg.channel,
+          items,
+          archiveComplete: result.archiveComplete
+        };
       }
     } catch (error) {
-      channels[cfg.key] = { channel: cfg.channel, items: prev, error: error.message };
+      channels[cfg.key] = {
+        channel: cfg.channel,
+        items: prev,
+        archiveComplete: archiveReachedCutoff(prev),
+        error: error.message
+      };
     }
   }
   await writeFile(OUT, JSON.stringify({

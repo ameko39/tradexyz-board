@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: tradexyz-board-backend
+    env: node
+    rootDir: backend
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: CORS_ORIGIN
+        value: https://ameko39.github.io
+      - key: POLL_MS
+        value: "60000"
+      - key: RETAIN_DAYS
+        value: "15"
+      - key: DATA_FILE
+        value: /data/tg-feeds-store.json
+    disk:
+      name: tg-feed-data
+      mountPath: /data
+      sizeGB: 1
