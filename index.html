@@ -470,8 +470,6 @@ function applyStockFilter(){
 }
 function setSort(key){ if(sortKey===key){sortDir=-sortDir;}else{sortKey=key;sortDir=(key==='tk'||key==='nm')?1:-1;} renderAll(); }
 
-const BWE_CHANNEL="BWEtradfi";
-const BWE_FEED_URL="https://r.jina.ai/https://t.me/s/BWEtradfi";
 const BWE_REFRESH_MS=60*1000;
 const BWE_MAX_ITEMS=80;
 let BWE_ITEMS=[];
@@ -480,6 +478,10 @@ let TG_REFRESHING=false;
 
 function esc(s){
   return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+function truncateText(s,n){
+  s=String(s||"").trim();
+  return s.length>n?s.slice(0,n-1).trim()+"…":s;
 }
 function fmtBeijingDateTime(v,opts){
   const d=new Date(v==null?Date.now():v);
@@ -596,110 +598,6 @@ function renderBwe(){
     const timeLabel=fmtTgPublishTime(n,false);
     return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source">BWE TradFi</span><span>${esc(timeLabel)}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
   }).join("");
-}
-function cleanBweChunk(chunk,tags){
-  let fullTime="";
-  const seen=new Set();
-  chunk=chunk.replace(/\[#([^\]]+)\]\(https:\/\/t\.me\/s\/BWEtradfi\?q=[^)]+\)/gi,(_,tag)=>{
-    const t="#"+tag.trim();
-    if(t.length>1&&!seen.has(t)){ seen.add(t); tags.push(t); }
-    return " ";
-  });
-  const text=chunk.split(/\n+/).map(line=>{
-    line=line.trim();
-    if(!line) return "";
-    if(line.includes("![Image")) return "";
-    if(/^\[?@?BWETradFi/i.test(line)) return "";
-    if(/^\[?\]\(https:\/\/t\.me\/s\/BWEtradfi/i.test(line)) return "";
-    if(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(line)) return "";
-    if(/^\d[\d,.Kk]*\s+views(?:\s+edited)?/i.test(line)) return "";
-    if(/Download Telegram|About|Blog|Apps|Platform|subscribers|links|Disclaimer|auto forwarded|accuracy/i.test(line)) return "";
-    line=line.replace(/\[_\*\*([^*]+)\*\*_\]/g,"$1");
-    line=line.replace(/\[([^\]]+)\]\(([^)]+)\)/g,"$1");
-    line=line.replace(/\*+/g,"").replace(/[_`]/g,"");
-    line=line.replace(/\s+/g," ").trim();
-    if(/^[-—_]{6,}$/.test(line)) return "";
-    if(/^20\d{2}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}$/.test(line)){ fullTime=line; return ""; }
-    if(/^(?:[\u{1F300}-\u{1FAFF}\u2600-\u27BF]\s*\d*\s*)+$/u.test(line)) return "";
-    return line;
-  }).filter(Boolean).join("\n").trim();
-  return {text,fullTime};
-}
-function parseBweTimestamp(s){
-  const m=String(s||"").match(/^(20\d{2})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2}):(\d{2})$/);
-  if(!m) return null;
-  const t=Date.parse(`${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}+08:00`);
-  return isFinite(t)?t:null;
-}
-function parseBweMarkdown(md){
-  const re=new RegExp("\\[(\\d{2}:\\d{2})\\]\\(https:\\/\\/t\\.me\\/"+BWE_CHANNEL+"\\/(\\d+)\\)","gi");
-  const hits=[...String(md||"").matchAll(re)];
-  const markerLink=`](https://t.me/${BWE_CHANNEL})`;
-  const items=[];
-  hits.forEach((m,i)=>{
-    const prev=i?hits[i-1].index+hits[i-1][0].length:0;
-    let chunk=md.slice(prev,m.index);
-    const p=chunk.lastIndexOf(markerLink);
-    if(p>=0) chunk=chunk.slice(p+markerLink.length);
-    const tags=[];
-    const cleaned=cleanBweChunk(chunk,tags);
-    if(!cleaned.text) return;
-    const lines=cleaned.text.split(/\n+/).map(x=>x.trim()).filter(Boolean);
-    if(!lines.length) return;
-    let titleIdx=lines.findIndex(x=>/[\u4e00-\u9fff]/.test(x));
-    if(titleIdx<0) titleIdx=0;
-    let title=lines[titleIdx].replace(/^Tradfin:\s*/i,"").trim();
-    let body=lines.filter((_,idx)=>idx!==titleIdx).map(x=>x.replace(/^Tradfin:\s*/i,"").trim()).filter(Boolean).join(" ");
-    if(!body&&title.length>110){ body=title.slice(110); title=title.slice(0,109).trim()+"…"; }
-    const ts=parseBweTimestamp(cleaned.fullTime);
-    items.push({
-      id:m[2],
-      time:m[1],
-      fullTime:cleaned.fullTime||m[1],
-      ts:ts||null,
-      url:`https://t.me/${BWE_CHANNEL}/${m[2]}`,
-      title:truncateText(title,130),
-      body:truncateText(body,280),
-      tags
-    });
-  });
-  const byId=new Map();
-  items.forEach(item=>{ if(!byId.has(item.id)) byId.set(item.id,item); });
-  return [...byId.values()].sort((a,b)=>Number(b.id)-Number(a.id)).slice(0,BWE_MAX_ITEMS);
-}
-async function refreshBweTg(force){
-  setBweStatus("刷新中","warn");
-  try{
-    const url=BWE_FEED_URL+(force?`?_=${Date.now()}`:"");
-    const r=await fetch(url,{cache:"no-store",headers:{"Accept":"text/plain"}});
-    if(!r.ok) throw new Error("HTTP "+r.status);
-    const items=parseBweMarkdown(await r.text());
-    if(!items.length){
-      if(BWE_ITEMS.length){
-        setBweStatus("使用缓存","warn");
-        renderBwe();
-        return;
-      }
-      throw new Error("没有解析到频道消息");
-    }
-    const receivedItems=preserveReceivedAt(items.map(x=>Object.assign({},x,{receivedTime:true})),BWE_ITEMS,x=>x&&x.id);
-    const fresh=new Set(receivedItems.map(x=>x.id));
-    BWE_ITEMS=[...receivedItems,...BWE_ITEMS.filter(x=>!fresh.has(x.id))]
-      .sort((a,b)=>Number(b.id)-Number(a.id))
-      .slice(0,BWE_MAX_ITEMS);
-    saveBweCache();
-    renderBwe();
-    addNewsItems(receivedItems.map(newsFromBwe));
-    setBweStatus("已更新 "+fmtBeijingClock(),"ok");
-  }catch(e){
-    if(BWE_ITEMS.length){
-      setBweStatus("使用缓存","warn");
-    }else{
-      console.warn("BWE TradFi TG fetch failed",e);
-      setBweStatus("读取失败","bad");
-    }
-    renderBwe();
-  }
 }
 function clearBweFeed(){
   BWE_ITEMS=[];
@@ -1208,7 +1106,7 @@ async function loadJin10Calendar(force){
   }catch(e){
     console.warn("Jin10 calendar fetch failed",e);
     if(JIN10_CAL_ITEMS.length){
-      jin10CalSetStatus("使用缓存","warn");
+      jin10CalSetStatus("保留本机日历","warn");
       renderJin10Calendar();
     }else{
       jin10CalSetStatus("读取失败","bad");
@@ -1365,30 +1263,6 @@ function buildMacroEvents(){
     .map(e=>topKeys.has(e.key)?Object.assign({},e,{tags:uniqueTags(["Top 3催化剂",...e.tags]).slice(0,3)}):e)
     .slice(0,8);
 }
-function macroThemeFromItems(calItems,newsItems){
-  const tags=uniqueTags([
-    ...calItems.flatMap(e=>e.tags||[]),
-    ...newsItems.flatMap(e=>e.tags||[])
-  ]).filter(t=>t&&t!=="经济数据"&&t!=="事件");
-  const text=[...calItems.map(e=>e.title),...newsItems.map(e=>e.title)].join(" ");
-  if(/(美国|纽交所|芝商所|CME|洲际交易所|ICE).{0,40}(休市|提前|无夜盘|六月节)|休市.{0,40}(美国|纽交所|芝商所|CME|洲际交易所|ICE)/.test(text)) return "休市与交易时段";
-  if(/国债|美债/.test(text)||tags.includes("美债")) return "美债供给与利率";
-  if(/EIA|API|原油|OPEC|能源/.test(text)||tags.includes("能源")) return "能源与通胀预期";
-  if(/零售销售|GDP|PMI|ISM|增长/.test(text)||tags.includes("增长")) return "增长与消费数据";
-  if(/CPI|PCE|PPI|通胀/.test(text)||tags.includes("通胀")) return "通胀数据";
-  if(/非农|ADP|就业|失业|初请/.test(text)||tags.includes("就业")) return "就业与降息定价";
-  if(/央行|FOMC|美联储|ECB|BOJ|BOE/.test(text)||tags.includes("央行")) return "央行与流动性";
-  if(/休市|OPEX|期权|资金|再平衡/.test(text)||tags.includes("流动性")) return "流动性与资金流";
-  if(/AI|芯片|半导体|财报|英伟达|NVIDIA|NVDA/i.test(text)) return "AI/半导体/科技股";
-  return calItems.length||newsItems.length?"事件驱动观察":"等待主线";
-}
-function macroLineFromCal(e){
-  const vals=e.values&&e.values.length?`（${e.values.slice(0,2).join("，")}）`:"";
-  return `${e.time} ${e.country?e.country+" ":""}${e.title}${vals}`;
-}
-function macroLineFromNews(e){
-  return `${e.title}`;
-}
 function macroShortLine(s,n){
   return truncateText(String(s||"").replace(/^•\s*/,"").replace(/\s+/g," ").trim(),n||46);
 }
@@ -1544,8 +1418,6 @@ function clearNewsStore(){
 }
 
 const JIN10_CHANNEL="jin10light";
-const JIN10_FEED_URL="https://r.jina.ai/https://t.me/s/jin10light";
-const JIN10_REFRESH_MS=60*1000;
 const JIN10_MAX_ITEMS=60;
 let JIN10_ITEMS=[];
 
@@ -1587,174 +1459,6 @@ function renderJin10(){
     return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source jin10">JIN10 TG</span><span>${esc(timeLabel)}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
   }).join("");
 }
-function cleanJin10Chunk(chunk,tags){
-  const seen=new Set();
-  chunk=chunk.replace(/\[#([^\]]+)\]\(https:\/\/t\.me\/s\/jin10light\?q=[^)]+\)/g,(_,tag)=>{
-    const t="#"+tag.trim();
-    if(t.length>1&&!seen.has(t)){ seen.add(t); tags.push(t); }
-    return " ";
-  });
-  return chunk.split(/\n+/).map(line=>{
-    line=line.trim();
-    if(!line) return "";
-    if(line.includes("![Image")) return "";
-    if(/^\[?金十数据 闪电资讯/.test(line)) return "";
-    if(/^\[?\]\(https:\/\/t\.me\/s\/jin10light/.test(line)) return "";
-    if(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(line)) return "";
-    if(/^\d[\d,.Kk]*\s+views(?:\s+edited)?$/.test(line)) return "";
-    if(/Download Telegram|About|Blog|Apps|Platform|subscribers/i.test(line)) return "";
-    if(/注册币安|AI中转|USDT全球刷卡|免费助力|boost\/jin10light|bsmkweb|muskapi|51vcard/i.test(line)) return "";
-    line=line.replace(/\[_\*\*([^*]+)\*\*_\]/g,"$1");
-    line=line.replace(/\*\*/g,"").replace(/[_`]/g,"");
-    line=line.replace(/\[([^\]]+)\]\(([^)]+)\)/g,"$1");
-    line=line.replace(/\s+/g," ").trim();
-    if(/^\.[A-Za-z0-9]+$/.test(line)) return "";
-    if(/^[❤👍🔥👏⚡🚀💯🙏]+(?:\s+\d+)?$/.test(line)) return "";
-    return line;
-  }).filter(Boolean).join("\n").trim();
-}
-function truncateText(s,n){
-  s=String(s||"").trim();
-  return s.length>n?s.slice(0,n-1).trim()+"…":s;
-}
-function parseJin10Markdown(md){
-  const re=new RegExp("\\[(\\d{2}:\\d{2})\\]\\(https:\\/\\/t\\.me\\/"+JIN10_CHANNEL+"\\/(\\d+)\\)","g");
-  const hits=[...String(md||"").matchAll(re)];
-  if(!hits.length) return parseJin10ImageMarkdown(md);
-  const marker=`[金十数据 闪电资讯](https://t.me/${JIN10_CHANNEL})`;
-  const items=[];
-  hits.forEach((m,i)=>{
-    const prev=i?hits[i-1].index+hits[i-1][0].length:0;
-    let chunk=md.slice(prev,m.index);
-    const p=chunk.lastIndexOf(marker);
-    if(p>=0) chunk=chunk.slice(p+marker.length);
-    const tags=[];
-    const text=cleanJin10Chunk(chunk,tags);
-    if(!text) return;
-    const lines=text.split(/\n+/).map(x=>x.trim()).filter(Boolean);
-    if(!lines.length) return;
-    let title=lines[0], body=lines.slice(1).join(" ");
-    if(!body&&title.length>92){ body=title.slice(92); title=title.slice(0,91).trim()+"…"; }
-    items.push({
-      id:m[2],
-      time:m[1],
-      url:`https://t.me/${JIN10_CHANNEL}/${m[2]}`,
-      title:truncateText(title,110),
-      body:truncateText(body,260),
-      tags
-    });
-  });
-  const byId=new Map();
-  items.forEach(item=>{ if(!byId.has(item.id)) byId.set(item.id,item); });
-  return [...byId.values()].sort((a,b)=>Number(b.id)-Number(a.id)).slice(0,JIN10_MAX_ITEMS);
-}
-function cleanJin10ImageChunk(chunk,tags){
-  let dateText="";
-  const seen=new Set();
-  chunk=String(chunk||"").replace(/\[#([^\]]+)\]\(https:\/\/t\.me\/s\/jin10light\?q=[^)]+\)/g,(_,tag)=>{
-    const t="#"+tag.trim();
-    if(t.length>1&&!seen.has(t)){ seen.add(t); tags.push(t); }
-    return " ";
-  });
-  const text=chunk.split(/\n+/).map(line=>{
-    line=line.trim();
-    if(!line) return "";
-    if(line.includes("![Image")) return "";
-    if(/^(Title:|URL Source:|Markdown Content:)/i.test(line)) return "";
-    if(/^金十数据 闪电资讯$/.test(line)) return "";
-    if(/^\[?金十数据 闪电资讯/.test(line)) return "";
-    if(/^\[?\]\(https:\/\/t\.me\/s\/jin10light/.test(line)) return "";
-    if(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(line)){ dateText=line; return ""; }
-    if(/Download Telegram|About|Blog|Apps|Platform|subscribers/i.test(line)) return "";
-    if(/注册币安|AI中转|USDT全球刷卡|免费助力|boost\/jin10light|bsmkweb|muskapi|51vcard/i.test(line)) return "";
-    if(/_\*\*.+?\*\*_/.test(line)&&!/[A-Za-z0-9\u4e00-\u9fff]/.test(line.replace(/_\*\*.+?\*\*_/g,""))) return "";
-    line=line.replace(/\[_\*\*([^*]+)\*\*_\]/g,"$1");
-    line=line.replace(/\*\*/g,"").replace(/[_`]/g,"");
-    line=line.replace(/\[([^\]]+)\]\(([^)]+)\)/g,"$1");
-    line=line.replace(/\s+/g," ").trim();
-    if(/^\.[A-Za-z0-9]+$/.test(line)) return "";
-    if(/^(❤|💩|👍|🔥|👏|🙏|🤡|⚡️|\s|\d)+$/u.test(line)) return "";
-    return line;
-  }).filter(Boolean).join("\n").trim();
-  return {text,dateText};
-}
-function parseJin10ImageMarkdown(md){
-  const chunks=[], current=[];
-  String(md||"").split(/\n/).forEach(line=>{
-    const isImage=line.includes("![Image")&&line.includes(`](https://t.me/${JIN10_CHANNEL})`);
-    if(isImage){
-      if(current.length) chunks.push(current.join("\n"));
-      current.length=0;
-      return;
-    }
-    current.push(line);
-  });
-  if(current.length) chunks.push(current.join("\n"));
-  const items=[];
-  chunks.forEach((chunk,idx)=>{
-    const tags=[];
-    const cleaned=cleanJin10ImageChunk(chunk,tags);
-    if(!cleaned.text) return;
-    const lines=cleaned.text.split(/\n+/).map(x=>x.trim()).filter(Boolean);
-    if(!lines.length) return;
-    let title=lines[0], body=lines.slice(1).join(" ");
-    if(!body&&title.length>92){ body=title.slice(92); title=title.slice(0,91).trim()+"…"; }
-    const fingerprint=[cleaned.dateText,title,body.slice(0,180)].join("|");
-    const ts=parseMonthDay(cleaned.dateText);
-    items.push({
-      id:hashText(fingerprint),
-      seq:idx,
-      time:cleaned.dateText||"",
-      dateText:cleaned.dateText||"",
-      ts:ts||null,
-      url:`https://t.me/${JIN10_CHANNEL}`,
-      channelOnly:true,
-      receivedTime:true,
-      title:truncateText(title,110),
-      body:truncateText(body,260),
-      tags
-    });
-  });
-  const byId=new Map();
-  items.forEach(item=>{ if(!byId.has(item.id)) byId.set(item.id,item); });
-  return [...byId.values()]
-    .sort((a,b)=>(Number(b.ts||0)-Number(a.ts||0))||(Number(a.seq||0)-Number(b.seq||0)))
-    .slice(0,JIN10_MAX_ITEMS);
-}
-async function refreshJin10(force){
-  setJin10Status("刷新中","warn");
-  try{
-    const url=JIN10_FEED_URL+(force?`?_=${Date.now()}`:"");
-    const r=await fetch(url,{cache:"no-store",headers:{"Accept":"text/plain"}});
-    if(!r.ok) throw new Error("HTTP "+r.status);
-    const items=parseJin10Markdown(await r.text());
-    if(!items.length){
-      if(JIN10_ITEMS.length){
-        setJin10Status("使用缓存","warn");
-        renderJin10();
-        return;
-      }
-      throw new Error("没有解析到频道消息");
-    }
-    const receivedItems=preserveReceivedAt(items.map(x=>Object.assign({},x,{receivedTime:true})),JIN10_ITEMS,x=>x&&x.id);
-    const fresh=new Set(receivedItems.map(x=>x.id));
-    JIN10_ITEMS=[...receivedItems,...JIN10_ITEMS.filter(x=>!fresh.has(x.id))]
-      .sort((a,b)=>(Number(b.ts||0)-Number(a.ts||0))||((a.seq!=null&&b.seq!=null)?Number(a.seq)-Number(b.seq):((Number(b.id)||0)-(Number(a.id)||0))))
-      .slice(0,JIN10_MAX_ITEMS);
-    saveJin10Cache();
-    renderJin10();
-    addNewsItems(receivedItems.map(newsFromJin10));
-    setJin10Status("已更新 "+fmtBeijingClock(),"ok");
-  }catch(e){
-    if(JIN10_ITEMS.length){
-      setJin10Status("使用缓存","warn");
-    }else{
-      console.warn("Jin10 TG fetch failed",e);
-      setJin10Status("读取失败","bad");
-    }
-    renderJin10();
-  }
-}
 function clearJin10Feed(){
   JIN10_ITEMS=[];
   saveJin10Cache();
@@ -1763,8 +1467,6 @@ function clearJin10Feed(){
 }
 
 const POLY_CHANNEL="PolyBeats_Bot";
-const POLY_FEED_URL="https://r.jina.ai/https://t.me/s/PolyBeats_Bot";
-const POLY_REFRESH_MS=60*1000;
 const POLY_MAX_ITEMS=60;
 let POLY_ITEMS=[];
 
@@ -1801,12 +1503,6 @@ function renderPoly(){
     return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source poly">PolyBeats</span><span>${esc(timeLabel)}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
   }).join("");
 }
-function hashText(s){
-  let h=0;
-  s=String(s||"");
-  for(let i=0;i<s.length;i++) h=(Math.imul(31,h)+s.charCodeAt(i))|0;
-  return (h>>>0).toString(36);
-}
 function parseMonthDay(dateText){
   const months={january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11};
   const m=String(dateText||"").trim().match(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})$/i);
@@ -1815,109 +1511,6 @@ function parseMonthDay(dateText){
   let t=Date.UTC(year,months[m[1].toLowerCase()],Number(m[2]),4,0,0);
   if(t-Date.now()>36*60*60*1000) t=Date.UTC(year-1,months[m[1].toLowerCase()],Number(m[2]),4,0,0);
   return isFinite(t)?t:null;
-}
-function polyTagsFromText(text){
-  const tags=["PolyBeats"];
-  if(/Polymarket/i.test(text)) tags.push("Polymarket");
-  if(/OmenX/i.test(text)) tags.push("OmenX");
-  return tags;
-}
-function cleanPolyChunk(chunk){
-  let dateText="";
-  const text=String(chunk||"").split(/\n+/).map(line=>{
-    line=line.trim();
-    if(!line) return "";
-    if(line.includes("![Image")) return "";
-    if(/^(Title:|URL Source:|Markdown Content:)/i.test(line)) return "";
-    if(/^PolyBeats$/i.test(line)) return "";
-    if(/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(line)){ dateText=line; return ""; }
-    if(/^[-—]{6,}$/.test(line)) return "";
-    if(/Download Telegram|About|Blog|Apps|Platform|subscribers/i.test(line)) return "";
-    if(/关注\s*\[@?PolyBeats|Follow\s+\[@?PolyBeats|PolyBeatsVip|BlockBeats会员|如需订阅/i.test(line)) return "";
-    if(/_\*\*.+?\*\*_/.test(line)&&!/[A-Za-z0-9\u4e00-\u9fff]/.test(line.replace(/_\*\*.+?\*\*_/g,""))) return "";
-    line=line.replace(/^>\s*/,"");
-    line=line.replace(/\[_\*\*([^*]+)\*\*_\]/g,"$1");
-    line=line.replace(/\*\*/g,"").replace(/[_`]/g,"");
-    line=line.replace(/\[([^\]]+)\]\(([^)]+)\)/g,"$1");
-    line=line.replace(/\s+/g," ").trim();
-    if(/^(❤|💩|👍|🔥|👏|🙏|\s|\d)+$/u.test(line)) return "";
-    return line;
-  }).filter(Boolean).join("\n").trim();
-  return {text,dateText};
-}
-function parsePolyMarkdown(md){
-  const chunks=[], current=[];
-  String(md||"").split(/\n/).forEach(line=>{
-    const isImage=line.includes("![Image")&&line.includes(`](https://t.me/${POLY_CHANNEL})`);
-    if(isImage){
-      if(current.length) chunks.push(current.join("\n"));
-      current.length=0;
-      return;
-    }
-    current.push(line);
-  });
-  if(current.length) chunks.push(current.join("\n"));
-  const items=[];
-  chunks.forEach((chunk,idx)=>{
-    const cleaned=cleanPolyChunk(chunk);
-    if(!cleaned.text) return;
-    const lines=cleaned.text.split(/\n+/).map(x=>x.trim()).filter(Boolean);
-    if(!lines.length) return;
-    let title=lines[0], body=lines.slice(1).join(" ");
-    if(!body&&title.length>110){ body=title.slice(110); title=title.slice(0,109).trim()+"…"; }
-    const fingerprint=[cleaned.dateText,title,body.slice(0,180)].join("|");
-    const ts=parseMonthDay(cleaned.dateText);
-    items.push({
-      id:hashText(fingerprint),
-      seq:idx,
-      dateText:cleaned.dateText||"",
-      ts:ts||null,
-      url:`https://t.me/${POLY_CHANNEL}`,
-      receivedTime:true,
-      title:truncateText(title,130),
-      body:truncateText(body,300),
-      tags:polyTagsFromText(cleaned.text)
-    });
-  });
-  const byId=new Map();
-  items.forEach(item=>{ if(!byId.has(item.id)) byId.set(item.id,item); });
-  return [...byId.values()]
-    .sort((a,b)=>(Number(b.ts||0)-Number(a.ts||0))||(Number(b.seq||0)-Number(a.seq||0)))
-    .slice(0,POLY_MAX_ITEMS);
-}
-async function refreshPoly(force){
-  setPolyStatus("刷新中","warn");
-  try{
-    const url=POLY_FEED_URL+(force?`?_=${Date.now()}`:"");
-    const r=await fetch(url,{cache:"no-store",headers:{"Accept":"text/plain"}});
-    if(!r.ok) throw new Error("HTTP "+r.status);
-    const items=parsePolyMarkdown(await r.text());
-    if(!items.length){
-      if(POLY_ITEMS.length){
-        setPolyStatus("使用缓存","warn");
-        renderPoly();
-        return;
-      }
-      throw new Error("没有解析到频道消息");
-    }
-    const receivedItems=preserveReceivedAt(items.map(x=>Object.assign({},x,{receivedTime:true})),POLY_ITEMS,x=>x&&x.id);
-    const fresh=new Set(receivedItems.map(x=>x.id));
-    POLY_ITEMS=[...receivedItems,...POLY_ITEMS.filter(x=>!fresh.has(x.id))]
-      .sort((a,b)=>(Number(b.ts||0)-Number(a.ts||0))||(Number(b.seq||0)-Number(a.seq||0)))
-      .slice(0,POLY_MAX_ITEMS);
-    savePolyCache();
-    renderPoly();
-    addNewsItems(receivedItems.map(newsFromPoly));
-    setPolyStatus("已更新 "+fmtBeijingClock(),"ok");
-  }catch(e){
-    if(POLY_ITEMS.length){
-      setPolyStatus("使用缓存","warn");
-    }else{
-      console.warn("PolyBeats TG fetch failed",e);
-      setPolyStatus("读取失败","bad");
-    }
-    renderPoly();
-  }
 }
 function clearPolyFeed(){
   POLY_ITEMS=[];

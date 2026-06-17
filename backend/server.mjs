@@ -261,7 +261,6 @@ async function fetchChannelArchive(cfg, previous, opts = {}) {
   const previousIds = new Set((previous || []).map(x => String(x.id || "")).filter(Boolean));
   const cutoff = Date.now() - RETAIN_MS;
   const fetched = [];
-  const hadFullArchive = archiveReachedCutoff(previous);
   const fullBackfill = !!opts.full;
   let before = null;
   let overlapped = false;
@@ -331,6 +330,7 @@ async function saveAiCalendar() {
 async function runRefresh(opts = {}) {
   const startedAt = Date.now();
   const channels = {};
+  const errors = [];
   for (const cfg of CHANNELS) {
     const prev = STORE.channels?.[cfg.key]?.items || [];
     try {
@@ -348,6 +348,7 @@ async function runRefresh(opts = {}) {
         archiveComplete: archiveReachedCutoff(prev),
         error: error.message
       };
+      errors.push(`${cfg.channel}: ${error.message}`);
     }
   }
   STORE = {
@@ -359,7 +360,7 @@ async function runRefresh(opts = {}) {
     channels
   };
   await saveStore();
-  lastRefreshError = "";
+  lastRefreshError = errors.join("; ");
   return STORE;
 }
 
