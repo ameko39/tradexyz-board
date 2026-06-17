@@ -227,7 +227,7 @@
         <h2>BWE TradFi TG 快讯 <span id="bweCount">0 条</span></h2>
         <div id="bweStatus" class="bwe-status warn"><span class="bwe-dot"></span><span id="bweStatusText">加载中</span></div>
         <div class="bwe-actions">
-          <button class="mini-btn" onclick="refreshBweTg(true)">刷新</button>
+          <button class="mini-btn" onclick="refreshTgFeeds(true)">刷新</button>
           <button class="mini-btn" onclick="clearBweFeed()">清空</button>
         </div>
       </div>
@@ -238,7 +238,7 @@
         <h2>金十 TG 快讯 <span id="jin10Count">0 条</span></h2>
         <div id="jin10Status" class="bwe-status warn"><span class="bwe-dot"></span><span id="jin10StatusText">加载中</span></div>
         <div class="bwe-actions">
-          <button class="mini-btn" onclick="refreshJin10(true)">刷新</button>
+          <button class="mini-btn" onclick="refreshTgFeeds(true)">刷新</button>
           <button class="mini-btn" onclick="clearJin10Feed()">清空</button>
         </div>
       </div>
@@ -249,7 +249,7 @@
         <h2>PolyBeats TG 快讯 <span id="polyCount">0 条</span></h2>
         <div id="polyStatus" class="bwe-status warn"><span class="bwe-dot"></span><span id="polyStatusText">加载中</span></div>
         <div class="bwe-actions">
-          <button class="mini-btn" onclick="refreshPoly(true)">刷新</button>
+          <button class="mini-btn" onclick="refreshTgFeeds(true)">刷新</button>
           <button class="mini-btn" onclick="clearPolyFeed()">清空</button>
         </div>
       </div>
@@ -326,9 +326,7 @@
   个股专属两列（均按北京时间，UTC+8 无夏令时）：<b>盘前</b> = 自当日 16:00 起的累计涨幅（含美股盘前 16:00–21:30 及盘中 21:30–04:00）；<b>夜盘</b> = 04:00–16:00 时段涨幅（美股盘后 + 隔夜延长时段）。两段在时间上拼成完整一天；进行中的时段实时累计，已结束的时段为固定值。大宗 / 指数为近 24h 连续交易品种，不适用盘前 / 夜盘，故只保留 24h / 12h。<br>
   覆盖：tradexyz(<code>xyz</code> dex)上全部标的，按资产类别分 个股 / 大宗商品 / 指数·ETF 三表；外汇(EUR/GBP/JPY/KRW/DXY)与加密噪音(QNT/PURRDAT)已剔除。任何新上标的若未归类，默认进「个股」表，不会漏。<br>
   Binance TradFi 合约：浏览器直连 <code>fapi.binance.com</code> 公共 USDⓈ-M Futures 行情接口读取 24h ticker 与 1h K 线；该区块只展示 Binance 合约行情，不与 trade.xyz / Hyperliquid 表混合。<br>
-  BWE TradFi TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/BWEtradfi</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
-  金十 TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/jin10light</code>，前端每 60s 轮询一次；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
-  PolyBeats TG 快讯：通过 <code>r.jina.ai</code> 读取公开 Telegram 频道 <code>t.me/PolyBeats_Bot</code>，前端每 60s 轮询一次；公开页未暴露单条消息 ID，因此用日期与内容摘要去重。<br>
+  TG 快讯：GitHub Action 后台读取公开 Telegram 频道并生成 <code>tg-feeds.json</code> 快照，前端每 60s 读取本站快照；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
   15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG、金十 TG 与 PolyBeats TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。页面展示时间统一按北京时间 UTC+8。<br>
   本周市场关注：仅基于本机收到的 BWE TradFi 与金十快讯做本地规则筛选，不上传到外部 AI 服务；筛选结果是交易日历参考，不等同于官方财经日历。<br>
   交易员宏观日历：浏览器读取金十公开日历 JSON，按本地规则二次筛选高星级和高交易相关事件；低重要度日历项会被忽略。<br>
@@ -855,6 +853,64 @@ function syncNewsStoreFromFeeds(){
 }
 function newsSourceClass(source){
   return source==="JIN10 TG"?" jin10":(source==="PolyBeats"?" poly":"");
+}
+const TG_FEEDS_URL="tg-feeds.json";
+function mergeFeedItems(snapshotItems,currentItems,max,keyFn){
+  const mapped=(snapshotItems||[]).map(x=>Object.assign({},x,{receivedTime:true}));
+  const withReceived=preserveReceivedAt(mapped,currentItems||[],keyFn);
+  const fresh=new Set(withReceived.map(x=>keyFn(x)).filter(Boolean));
+  return [...withReceived,...(currentItems||[]).filter(x=>!fresh.has(keyFn(x)))]
+    .sort((a,b)=>(Number(b.ts||0)-Number(a.ts||0))||((Number(b.id)||0)-(Number(a.id)||0)))
+    .slice(0,max);
+}
+function tgSnapshotStatus(data,count){
+  const ms=Date.parse(data&&data.updatedAt||"");
+  const label=isFinite(ms)?`快照 ${fmtBeijingClock(ms)}`:"快照已更新";
+  return count?label:"暂无数据";
+}
+async function refreshTgFeeds(force){
+  setBweStatus("刷新中","warn");
+  setJin10Status("刷新中","warn");
+  setPolyStatus("刷新中","warn");
+  try{
+    const r=await fetch(`${TG_FEEDS_URL}${force?`?v=${Date.now()}`:""}`,{cache:"no-store"});
+    if(!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data=await r.json();
+    const ch=data.channels||{};
+    if(ch.bwe&&Array.isArray(ch.bwe.items)){
+      BWE_ITEMS=mergeFeedItems(ch.bwe.items,BWE_ITEMS,BWE_MAX_ITEMS,x=>x&&x.id);
+      saveBweCache();
+      renderBwe();
+      addNewsItems(BWE_ITEMS.map(newsFromBwe),false);
+      setBweStatus(tgSnapshotStatus(data,BWE_ITEMS.length),BWE_ITEMS.length?"ok":"warn");
+    }
+    if(ch.jin10&&Array.isArray(ch.jin10.items)){
+      JIN10_ITEMS=mergeFeedItems(ch.jin10.items,JIN10_ITEMS,JIN10_MAX_ITEMS,x=>x&&x.id);
+      saveJin10Cache();
+      renderJin10();
+      addNewsItems(JIN10_ITEMS.map(newsFromJin10),false);
+      setJin10Status(tgSnapshotStatus(data,JIN10_ITEMS.length),JIN10_ITEMS.length?"ok":"warn");
+    }
+    if(ch.poly&&Array.isArray(ch.poly.items)){
+      POLY_ITEMS=mergeFeedItems(ch.poly.items,POLY_ITEMS,POLY_MAX_ITEMS,x=>x&&x.id);
+      savePolyCache();
+      renderPoly();
+      addNewsItems(POLY_ITEMS.map(newsFromPoly),false);
+      setPolyStatus(tgSnapshotStatus(data,POLY_ITEMS.length),POLY_ITEMS.length?"ok":"warn");
+    }
+    renderNewsStore();
+    renderMacroCalendar();
+  }catch(e){
+    console.warn("TG snapshot fetch failed",e);
+    const fallback=BWE_ITEMS.length||JIN10_ITEMS.length||POLY_ITEMS.length;
+    const text=fallback?"本机缓存":"快照失败";
+    setBweStatus(text,fallback?"warn":"bad");
+    setJin10Status(text,fallback?"warn":"bad");
+    setPolyStatus(text,fallback?"warn":"bad");
+    renderBwe();
+    renderJin10();
+    renderPoly();
+  }
 }
 const JIN10_CAL_BASE="https://cdn-rili.jin10.com/web_data";
 let JIN10_CAL_ITEMS=[];
@@ -1891,14 +1947,10 @@ loadPolyCache();
 renderPoly();
 syncNewsStoreFromFeeds();
 loadJin10Calendar();
-refreshBweTg();
-refreshJin10();
-refreshPoly();
+refreshTgFeeds();
 load();
 setInterval(load,REFRESH_MS);
-setInterval(()=>refreshBweTg(false),BWE_REFRESH_MS);
-setInterval(()=>refreshJin10(false),JIN10_REFRESH_MS);
-setInterval(()=>refreshPoly(false),POLY_REFRESH_MS);
+setInterval(()=>refreshTgFeeds(false),BWE_REFRESH_MS);
 setInterval(tick,1000);
 </script>
 </body>
