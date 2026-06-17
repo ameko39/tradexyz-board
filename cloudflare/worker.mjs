@@ -12,6 +12,7 @@ export default {
     if (!url.pathname.startsWith("/api/")) {
       return env.ASSETS.fetch(request);
     }
+    if (request.method === "OPTIONS") return corsResponse(null, 204);
 
     try {
       if (url.pathname === "/api/health") return json({ ok: true, runtime: "cloudflare-worker", at: nowIso(), aiConfigured: Boolean(env.AI_API_KEY) });
@@ -345,7 +346,19 @@ function parseAiJson(text) {
 }
 function responsesText(payload) { return payload?.output_text || (payload?.output || []).flatMap(o => o.content || []).map(c => c.text || "").join("\n"); }
 function chatText(payload) { return payload?.choices?.[0]?.message?.content || payload?.choices?.[0]?.text || ""; }
-function json(data, status = 200) { return new Response(JSON.stringify(data), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } }); }
+function json(data, status = 200) { return corsResponse(JSON.stringify(data), status, { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" }); }
+function corsResponse(body, status = 200, headers = {}) {
+  return new Response(body, {
+    status,
+    headers: {
+      ...headers,
+      "access-control-allow-origin": "*",
+      "access-control-allow-methods": "GET,POST,OPTIONS",
+      "access-control-allow-headers": "content-type,authorization",
+      "access-control-max-age": "86400"
+    }
+  });
+}
 function nowIso() { return new Date().toISOString(); }
 function truncate(s, n) { s = String(s || "").replace(/\s+/g, " ").trim(); return s.length > n ? `${s.slice(0, n - 1).trim()}...` : s; }
 function beijingClock(ms) { return new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).format(new Date(ms)); }
