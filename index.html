@@ -327,7 +327,7 @@
   覆盖：tradexyz(<code>xyz</code> dex)上全部标的，按资产类别分 个股 / 大宗商品 / 指数·ETF 三表；外汇(EUR/GBP/JPY/KRW/DXY)与加密噪音(QNT/PURRDAT)已剔除。任何新上标的若未归类，默认进「个股」表，不会漏。<br>
   Binance TradFi 合约：浏览器直连 <code>fapi.binance.com</code> 公共 USDⓈ-M Futures 行情接口读取 24h ticker 与 1h K 线；该区块只展示 Binance 合约行情，不与 trade.xyz / Hyperliquid 表混合。<br>
   TG 快讯：GitHub Action 后台读取公开 Telegram 频道并生成 <code>tg-feeds.json</code> 快照，前端每 60s 读取本站快照；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
-  15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG、金十 TG 与 PolyBeats TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。页面展示时间统一按北京时间 UTC+8。<br>
+  15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG、金十 TG 与 PolyBeats TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。消息时间优先使用 TG 原始发布时间并统一转为北京时间 UTC+8，缺失时才用首次入库时间兜底。<br>
   本周市场关注：仅基于本机收到的 BWE TradFi 与金十快讯做本地规则筛选，不上传到外部 AI 服务；筛选结果是交易日历参考，不等同于官方财经日历。<br>
   交易员宏观日历：浏览器读取金十公开日历 JSON，按本地规则二次筛选高星级和高交易相关事件；低重要度日历项会被忽略。<br>
   <b>刷新行情</b> 会重新拉取价格/涨跌幅（浏览器直连 API，秒级）；行情每 2h 自动刷新一次。<br>
@@ -491,6 +491,22 @@ function fmtReceivedLabel(v,withDate){
   if(!isFinite(ms)) return "";
   return "接收 "+(withDate?fmtBeijingShort(ms):fmtBeijingClock(ms));
 }
+function hasValidTs(v){
+  const n=Number(v);
+  return isFinite(n)&&n>0;
+}
+function fmtTgPublishTime(item,withDate){
+  const ts=Number(item&&item.ts);
+  if(hasValidTs(ts)){
+    return withDate
+      ? fmtBeijingDateTime(ts,{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"})
+      : fmtBeijingDateTime(ts,{hour:"2-digit",minute:"2-digit"});
+  }
+  const raw=String((item&&(item.fullTime||item.time||item.dateText||item.timeText))||"").trim();
+  if(/^\d{1,2}:\d{2}(:\d{2})?$/.test(raw)) return raw.slice(0,5);
+  if(raw&&!isMonthDayText(raw)) return raw;
+  return fmtReceivedLabel(item&&item.receivedAt,withDate)||"--";
+}
 function preserveReceivedAt(items,existing,keyFn){
   const seen=new Map();
   (existing||[]).forEach(item=>{
@@ -569,7 +585,7 @@ function renderBwe(){
     const titleHtml=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>`:title;
     const tagHtml=tags.length?`<div class="bwe-coins">${tags.slice(0,8).map(t=>`<span class="bwe-coin">${esc(t)}</span>`).join("")}</div>`:"";
     const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${n.channelOnly?"频道":"原文"}</a>`:"";
-    const timeLabel=n.receivedTime?fmtReceivedLabel(n.receivedAt,false):(n.fullTime||n.time||"--");
+    const timeLabel=fmtTgPublishTime(n,false);
     return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source">BWE TradFi</span><span>${esc(timeLabel)}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
   }).join("");
 }
@@ -699,7 +715,7 @@ function newsItemKey(item){
   return item.key||[item.source||"NEWS",item.id||"",item.url||"",item.title||""].join("|");
 }
 function shouldUseReceivedTime(item){
-  return !!item.receivedAt&&(item.receivedTime||item.channelOnly||!item.timeText||/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(item.timeText));
+  return !hasValidTs(item&&item.ts)&&!!item.receivedAt&&(item.receivedTime||item.channelOnly||!item.timeText||/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}$/i.test(item.timeText));
 }
 function uniqueTags(tags){
   const out=[], seen=new Set();
@@ -727,7 +743,7 @@ function normalizeNewsItem(item,existing){
     body:truncateText(item.body||"",320),
     url:String(item.url||"").trim(),
     channelOnly:!!item.channelOnly,
-    ts:hasTs?ts:((existing&&existing.ts)||storedAt),
+    ts:hasTs?ts:((existing&&hasValidTs(existing.ts))?existing.ts:null),
     storedAt,
     receivedAt:item.receivedAt||((existing&&existing.receivedAt)||storedAt),
     receivedTime:!!item.receivedTime,
@@ -738,8 +754,8 @@ function normalizeNewsItem(item,existing){
 function pruneNewsStore(items){
   const cutoff=Date.now()-NEWS_STORE_TTL_MS;
   return (items||[])
-    .filter(n=>Number(n.storedAt||n.ts||0)>=cutoff)
-    .sort((a,b)=>Number(b.storedAt||b.ts||0)-Number(a.storedAt||a.ts||0))
+    .filter(n=>Number(n.ts||n.storedAt||0)>=cutoff)
+    .sort((a,b)=>Number(b.ts||b.storedAt||0)-Number(a.ts||a.storedAt||0))
     .slice(0,NEWS_STORE_MAX_ITEMS);
 }
 function loadNewsStore(){
@@ -782,6 +798,9 @@ function addNewsItems(items,render){
   if(render!==false) renderNewsStore();
 }
 function fmtNewsStoreTime(item){
+  if(hasValidTs(item&&item.ts)){
+    return fmtTgPublishTime(item,true);
+  }
   if(shouldUseReceivedTime(item)){
     return fmtReceivedLabel(item.receivedAt,true);
   }
@@ -1227,7 +1246,7 @@ function macroDateFromText(text,item){
     const ms=parseMonthDay(monthDay[0]);
     return beijingDateKey(ms);
   }
-  return beijingDateKey(item.ts||item.receivedAt||item.storedAt||Date.now());
+  return beijingDateKey(item.ts||item.storedAt||item.receivedAt||Date.now());
 }
 function macroStatusForDate(key){
   const today=beijingDateKey();
@@ -1448,7 +1467,7 @@ function renderJin10(){
     const tagHtml=n.tags&&n.tags.length?`<div class="bwe-coins">${n.tags.slice(0,8).map(t=>`<span class="bwe-coin jin10">${esc(t)}</span>`).join("")}</div>`:"";
     const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${n.channelOnly?"频道":"原文"}</a>`:"";
     const titleHtml=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>`:title;
-    const timeLabel=n.receivedTime?fmtReceivedLabel(n.receivedAt,false):(n.time||n.dateText||"--");
+    const timeLabel=fmtTgPublishTime(n,false);
     return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source jin10">JIN10 TG</span><span>${esc(timeLabel)}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
   }).join("");
 }
@@ -1662,7 +1681,7 @@ function renderPoly(){
     const tagHtml=n.tags&&n.tags.length?`<div class="bwe-coins">${n.tags.slice(0,8).map(t=>`<span class="bwe-coin poly">${esc(t)}</span>`).join("")}</div>`:"";
     const open=url?`<a href="${esc(url)}" target="_blank" rel="noopener">频道</a>`:"";
     const titleHtml=url?`<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>`:title;
-    const timeLabel=n.receivedTime?fmtReceivedLabel(n.receivedAt,false):(n.dateText||"--");
+    const timeLabel=fmtTgPublishTime(n,false);
     return `<div class="bwe-item"><div class="bwe-meta"><span class="bwe-source poly">PolyBeats</span><span>${esc(timeLabel)}</span>${open}</div><div class="bwe-title">${titleHtml}</div>${body}${tagHtml}</div>`;
   }).join("");
 }
