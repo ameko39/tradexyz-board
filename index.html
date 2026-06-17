@@ -272,7 +272,7 @@
     <button class="app-tab" data-view="notes" onclick="switchAppView('notes')">说明</button>
   </nav>
   <button id="themeBtn" class="btn" onclick="toggleTheme()">☀️ 日间</button>
-  <button id="refreshBtn" class="btn" onclick="load()">刷新行情</button>
+  <button id="refreshBtn" class="btn" onclick="refreshCurrentView()">刷新首页</button>
 </div></header>
 
 <main class="page">
@@ -450,6 +450,36 @@ function switchAppView(view){
   document.body.classList.add("view-"+view);
   document.querySelectorAll(".app-tab").forEach(btn=>btn.classList.toggle("on",btn.dataset.view===view));
   try{ localStorage.setItem("tradexyz-active-view",view); }catch(e){}
+  updateHeaderRefreshLabel();
+}
+function currentAppView(){
+  const m=[...document.body.classList].find(c=>c.startsWith("view-"));
+  return m?m.replace("view-",""):"home";
+}
+function updateHeaderRefreshLabel(){
+  const btn=document.getElementById("refreshBtn");
+  if(!btn||btn.disabled) return;
+  const label={home:"刷新首页",feeds:"刷新快讯",calendar:"刷新日历",markets:"刷新行情",binance:"刷新合约",notes:"刷新页面"}[currentAppView()]||"刷新";
+  btn.textContent=label;
+}
+async function refreshCurrentView(){
+  const btn=document.getElementById("refreshBtn");
+  if(btn){ btn.disabled=true; btn.textContent="刷新中…"; }
+  const view=currentAppView();
+  try{
+    if(view==="feeds") await refreshTgFeeds(true);
+    else if(view==="calendar") await loadJin10Calendar(true);
+    else if(view==="markets") await load();
+    else if(view==="binance") await loadBinance();
+    else if(view==="home"){
+      await Promise.allSettled([refreshTgFeeds(true),loadJin10Calendar(true)]);
+      renderOpportunityRadar();
+      renderMacroCalendar();
+    }
+    else location.reload();
+  }finally{
+    if(btn){ btn.disabled=false; updateHeaderRefreshLabel(); }
+  }
 }
 const NAME={
  AAPL:"Apple",AMD:"AMD",AMZN:"Amazon",ARM:"Arm",ASML:"ASML",AVGO:"Broadcom",BABA:"阿里巴巴",
@@ -562,7 +592,7 @@ function stockSearch(){ applyStockFilter(); }
 function applyStockFilter(){
   const el=document.getElementById("stockSearch"), q=el?el.value.trim().toLowerCase():"";
   let shown=0;
-  ["tblST","tblCM","tblIX","tblBN"].forEach(id=>{
+  ["tblST","tblCM","tblIX"].forEach(id=>{
     const t=document.querySelector("#"+id+" table"); if(!t||!t.tBodies[0])return;
     [...t.tBodies[0].rows].forEach(r=>{
       const sym=(r.cells[1].textContent||"").replace(/[^A-Za-z0-9]/g,"").toLowerCase();
@@ -583,6 +613,9 @@ let TG_REFRESHING=false;
 
 function esc(s){
   return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+function confirmClear(label){
+  return confirm(`确定清空${label}？此操作只影响本浏览器本地数据。`);
 }
 function truncateText(s,n){
   s=String(s||"").trim();
@@ -705,6 +738,7 @@ function renderBwe(){
   }).join("");
 }
 function clearBweFeed(){
+  if(!confirmClear("BWE TradFi 快讯")) return;
   BWE_ITEMS=[];
   saveBweCache();
   renderBwe();
@@ -1672,6 +1706,7 @@ function renderNewsStore(){
   renderMacroCalendar();
 }
 function clearNewsStore(){
+  if(!confirmClear("15日快讯库")) return;
   NEWS_STORE=[];
   saveNewsStore();
   renderNewsStore();
@@ -1720,6 +1755,7 @@ function renderJin10(){
   }).join("");
 }
 function clearJin10Feed(){
+  if(!confirmClear("金十 TG 快讯")) return;
   JIN10_ITEMS=[];
   saveJin10Cache();
   renderJin10();
@@ -1773,6 +1809,7 @@ function parseMonthDay(dateText){
   return isFinite(t)?t:null;
 }
 function clearPolyFeed(){
+  if(!confirmClear("PolyBeats 快讯")) return;
   POLY_ITEMS=[];
   savePolyCache();
   renderPoly();
@@ -1829,8 +1866,10 @@ async function loadBinance(){
   }
 }
 
-async function load(){
-  const btn=document.getElementById("refreshBtn"); btn.disabled=true; btn.textContent="刷新中…";
+async function load(opts={}){
+  const controlButton=opts.controlButton!==false;
+  const btn=document.getElementById("refreshBtn");
+  if(controlButton&&btn){ btn.disabled=true; btn.textContent="刷新中…"; }
   const binancePromise=loadBinance();
   try{
     const d=await post({type:"metaAndAssetCtxs",dex:"xyz"});
@@ -1860,7 +1899,7 @@ async function load(){
     document.getElementById("updated").textContent=fmtBeijingDateTime();
     nextAt=Date.now()+REFRESH_MS;
   }catch(e){ document.getElementById("tblST").innerHTML='<div class="err">加载失败：'+e.message+'</div>'; }
-  finally{ try{ await binancePromise; }catch(e){} btn.disabled=false; btn.textContent="刷新行情"; }
+  finally{ try{ await binancePromise; }catch(e){} if(controlButton&&btn){ btn.disabled=false; updateHeaderRefreshLabel(); } }
 }
 function tick(){
   if(!nextAt){document.getElementById("countdown").textContent="—";return;}
@@ -1967,8 +2006,8 @@ renderPoly();
 syncNewsStoreFromFeeds();
 loadJin10Calendar();
 refreshTgFeeds(true);
-load();
-setInterval(load,REFRESH_MS);
+load({controlButton:false});
+setInterval(()=>load({controlButton:false}),REFRESH_MS);
 setInterval(()=>refreshTgFeeds(true),BWE_REFRESH_MS);
 setInterval(tick,1000);
 </script>
