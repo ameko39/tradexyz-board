@@ -1,4 +1,5 @@
 import http from "node:http";
+import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, extname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -9,6 +10,7 @@ const PORT = Number(process.env.PORT || 8787);
 const STATIC_DIR = resolve(process.env.STATIC_DIR || `${__dirname}/..`);
 const DATA_FILE = resolve(process.env.DATA_FILE || `${__dirname}/data/tg-feeds-store.json`);
 const AI_CAL_FILE = resolve(process.env.AI_CAL_FILE || `${__dirname}/data/ai-calendar.json`);
+const AI_NEWS_FILE = resolve(process.env.AI_NEWS_FILE || `${__dirname}/data/ai-news-analysis.json`);
 const RETAIN_DAYS = Number(process.env.RETAIN_DAYS || 15);
 const RETAIN_MS = RETAIN_DAYS * 24 * 60 * 60 * 1000;
 const POLL_MS = Number(process.env.POLL_MS || 60_000);
@@ -54,6 +56,14 @@ let AI_CALENDAR = {
   error: AI_API_KEY ? "" : "AI_API_KEY not configured"
 };
 let aiCalendarPromise = null;
+let AI_NEWS_ANALYSIS = {
+  updatedAt: null,
+  status: AI_API_KEY ? "empty" : "not_configured",
+  source: "ai-news-analysis",
+  model: AI_MODEL,
+  items: {},
+  error: AI_API_KEY ? "" : "AI_API_KEY not configured"
+};
 
 function nowIso() {
   return new Date().toISOString();
@@ -319,6 +329,20 @@ async function loadAiCalendar() {
   }
 }
 
+async function loadAiNewsAnalysis() {
+  try {
+    AI_NEWS_ANALYSIS = JSON.parse(await readFile(AI_NEWS_FILE, "utf8"));
+  } catch {
+    // Keep initial empty state.
+  }
+  AI_NEWS_ANALYSIS.items = AI_NEWS_ANALYSIS.items || {};
+  AI_NEWS_ANALYSIS.model = AI_NEWS_ANALYSIS.model || AI_MODEL;
+  if (!AI_API_KEY && !Object.keys(AI_NEWS_ANALYSIS.items).length) {
+    AI_NEWS_ANALYSIS.status = "not_configured";
+    AI_NEWS_ANALYSIS.error = "AI_API_KEY not configured";
+  }
+}
+
 async function saveStore() {
   await ensureStoreDir();
   await writeFile(DATA_FILE, JSON.stringify(STORE, null, 2) + "\n", "utf8");
@@ -327,6 +351,11 @@ async function saveStore() {
 async function saveAiCalendar() {
   await ensureStoreDir();
   await writeFile(AI_CAL_FILE, JSON.stringify(AI_CALENDAR, null, 2) + "\n", "utf8");
+}
+
+async function saveAiNewsAnalysis() {
+  await ensureStoreDir();
+  await writeFile(AI_NEWS_FILE, JSON.stringify(AI_NEWS_ANALYSIS, null, 2) + "\n", "utf8");
 }
 
 async function runRefresh(opts = {}) {
@@ -401,6 +430,15 @@ function corsHeaders() {
 function sendJson(res, status, data) {
   res.writeHead(status, { "Content-Type": "application/json; charset=utf-8", ...corsHeaders() });
   res.end(JSON.stringify(data));
+}
+
+async function readJsonBody(req, limit = 256_000) {
+  let body = "";
+  for await (const chunk of req) {
+    body += chunk;
+    if (body.length > limit) throw new Error("request body too large");
+  }
+  return body ? JSON.parse(body) : {};
 }
 
 async function sendStatic(reqPath, res) {
@@ -684,6 +722,98 @@ async function callAiCalendarModel(prompt) {
   throw aiHttpError("AI chat", result);
 }
 
+function newsAnalysisId(item) {
+  if (item.analysisId || item.key) return truncate(String(item.analysisId || item.key), 120);
+  const raw = [item.key, item.id, item.source, item.url, item.title].filter(Boolean).join("|");
+  return createHash("sha1").update(raw || JSON.stringify(item)).digest("hex").slice(0, 16);
+}
+
+function cleanNewsInput(item) {
+  return {
+    id: newsAnalysisId(item),
+    source: truncate(item.source || "NEWS", 30),
+    title: truncate(item.title || "", 180),
+    body: truncate(item.body || "", 260),
+    tags: Array.isArray(item.tags) ? item.tags.slice(0, 10).map(x => truncate(x, 20)) : [],
+    timeText: truncate(item.timeText || "", 40)
+  };
+}
+
+function newsAnalysisPrompt(items) {
+  return `你是美股新闻交易情报分析员。请把每条中文/英文快讯压缩成结构化交易影响。
+用户不懂宏观术语，只要知道：利好谁、利空谁、强度、为什么、能不能追。
+规则：
+1. 严格返回 JSON，不要 markdown。
+2. 每条输入都返回一个对象，id 必须与输入一致。
+3. assets 只能从这些里选：SPY, QQQ, NVDA, 美元, 美债, 黄金, 白银, 原油, 能源股, BTC。
+4. direction 只能是：偏利好、偏利空、多空都有、中性观察。
+5. score 为 0-99，90 以上只给真正重大突发，70-89 给有交易价值，55-69 给需要盯盘，55 以下为背景。
+6. reason 不超过 18 个汉字。
+7. action 只能是：立即关注、先看价格确认、值得盯盘、只做背景。
+8. chaseRisk 只能是：低、中、高。
+9. 如果是午间观点、复盘、日报、汇总，除非有重大新增事实，否则降分。
+返回格式：
+{"items":[{"id":"...","assets":["QQQ"],"bull":["美元"],"bear":["QQQ"],"direction":"偏利空","score":72,"reason":"降息预期降温","action":"先看价格确认","chaseRisk":"中"}]}
+
+输入快讯：
+${JSON.stringify(items)}`;
+}
+
+function normalizeNewsAnalysis(input, ids) {
+  const allowedAssets = new Set(["SPY", "QQQ", "NVDA", "美元", "美债", "黄金", "白银", "原油", "能源股", "BTC"]);
+  const allowedDirection = new Set(["偏利好", "偏利空", "多空都有", "中性观察"]);
+  const allowedAction = new Set(["立即关注", "先看价格确认", "值得盯盘", "只做背景"]);
+  const allowedRisk = new Set(["低", "中", "高"]);
+  const byId = new Map((input.items || []).map(x => [String(x.id || ""), x]));
+  return ids.map(id => {
+    const x = byId.get(id) || {};
+    const assets = Array.isArray(x.assets) ? x.assets.filter(a => allowedAssets.has(a)).slice(0, 6) : [];
+    const bull = Array.isArray(x.bull) ? x.bull.filter(a => allowedAssets.has(a)).slice(0, 6) : [];
+    const bear = Array.isArray(x.bear) ? x.bear.filter(a => allowedAssets.has(a)).slice(0, 6) : [];
+    const score = Math.max(0, Math.min(99, Math.round(Number(x.score || 0))));
+    return {
+      id,
+      assets,
+      bull,
+      bear,
+      direction: allowedDirection.has(x.direction) ? x.direction : (bull.length && bear.length ? "多空都有" : (bull.length ? "偏利好" : (bear.length ? "偏利空" : "中性观察"))),
+      score,
+      reason: truncate(x.reason || "影响风险偏好", 18),
+      action: allowedAction.has(x.action) ? x.action : (score >= 85 ? "立即关注" : (score >= 70 ? "先看价格确认" : (score >= 55 ? "值得盯盘" : "只做背景"))),
+      chaseRisk: allowedRisk.has(x.chaseRisk) ? x.chaseRisk : "中",
+      updatedAt: nowIso(),
+      model: AI_MODEL
+    };
+  });
+}
+
+async function analyzeNewsItems(rawItems = []) {
+  if (!AI_API_KEY) {
+    AI_NEWS_ANALYSIS = { ...AI_NEWS_ANALYSIS, updatedAt: nowIso(), status: "not_configured", error: "AI_API_KEY not configured" };
+    await saveAiNewsAnalysis();
+    return AI_NEWS_ANALYSIS;
+  }
+  const cleaned = rawItems.map(cleanNewsInput).filter(x => x.title).slice(0, 24);
+  const missing = cleaned.filter(x => !AI_NEWS_ANALYSIS.items?.[x.id]);
+  if (!missing.length) return AI_NEWS_ANALYSIS;
+  const result = await callAiCalendarModel(newsAnalysisPrompt(missing));
+  const parsed = parseAiJson(result.text);
+  const normalized = normalizeNewsAnalysis(parsed, missing.map(x => x.id));
+  const items = { ...(AI_NEWS_ANALYSIS.items || {}) };
+  normalized.forEach(x => { items[x.id] = x; });
+  const keep = Object.entries(items).sort((a, b) => String(b[1].updatedAt || "").localeCompare(String(a[1].updatedAt || ""))).slice(0, 1500);
+  AI_NEWS_ANALYSIS = {
+    updatedAt: nowIso(),
+    status: "ok",
+    source: result.source,
+    model: AI_MODEL,
+    items: Object.fromEntries(keep),
+    error: ""
+  };
+  await saveAiNewsAnalysis();
+  return AI_NEWS_ANALYSIS;
+}
+
 async function runAiCalendarRefresh(opts = {}) {
   if (!AI_API_KEY) {
     AI_CALENDAR = { ...AI_CALENDAR, updatedAt: nowIso(), status: "not_configured", error: "AI_API_KEY not configured" };
@@ -758,6 +888,13 @@ const server = http.createServer(async (req, res) => {
           refreshing: !!aiCalendarPromise,
           error: AI_CALENDAR.error || ""
         },
+        aiNews: {
+          status: AI_NEWS_ANALYSIS.status,
+          updatedAt: AI_NEWS_ANALYSIS.updatedAt,
+          model: AI_NEWS_ANALYSIS.model || AI_MODEL,
+          count: Object.keys(AI_NEWS_ANALYSIS.items || {}).length,
+          error: AI_NEWS_ANALYSIS.error || ""
+        },
         channels: Object.fromEntries(Object.entries(STORE.channels || {}).map(([k, v]) => [k, {
           count: v.items?.length || 0,
           newest: v.items?.[0]?.id || null,
@@ -787,6 +924,18 @@ const server = http.createServer(async (req, res) => {
       sendJson(res, 200, data);
       return;
     }
+    if (url.pathname === "/api/news-analysis") {
+      if (req.method === "GET") {
+        sendJson(res, 200, AI_NEWS_ANALYSIS);
+        return;
+      }
+      if (req.method === "POST") {
+        const body = await readJsonBody(req);
+        const data = await analyzeNewsItems(Array.isArray(body.items) ? body.items : []);
+        sendJson(res, 200, data);
+        return;
+      }
+    }
     if (req.method === "GET" && await sendStatic(url.pathname, res)) {
       return;
     }
@@ -798,6 +947,7 @@ const server = http.createServer(async (req, res) => {
 
 await loadStore();
 await loadAiCalendar();
+await loadAiNewsAnalysis();
 server.listen(PORT, () => {
   console.log(`tradexyz backend listening on :${PORT}`);
   refreshFeeds({ full: false }).catch(error => console.error("initial refresh failed", error));

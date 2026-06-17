@@ -918,6 +918,21 @@ function syncNewsStoreFromFeeds(){
 function newsSourceClass(source){
   return source==="JIN10 TG"?" jin10":(source==="PolyBeats"?" poly":"");
 }
+const AI_NEWS_ANALYSIS_KEY="tradexyz-ai-news-analysis-v1";
+let AI_NEWS_ANALYSIS={};
+let AI_NEWS_REFRESHING=false;
+function radarAnalysisId(n){
+  return String(n&&n.key||[n&&n.source,n&&n.id,n&&n.url,n&&n.title].filter(Boolean).join("|")).slice(0,120);
+}
+function loadAiNewsAnalysisCache(){
+  try{ AI_NEWS_ANALYSIS=JSON.parse(localStorage.getItem(AI_NEWS_ANALYSIS_KEY)||"{}")||{}; }catch(e){ AI_NEWS_ANALYSIS={}; }
+}
+function saveAiNewsAnalysisCache(){
+  try{ localStorage.setItem(AI_NEWS_ANALYSIS_KEY,JSON.stringify(AI_NEWS_ANALYSIS)); }catch(e){}
+}
+function aiNewsFor(n){
+  return AI_NEWS_ANALYSIS[radarAnalysisId(n)]||null;
+}
 const RADAR_ASSET_RULES=[
   {name:"NVDA",re:/(NVDA|NVIDIA|英伟达|Blackwell|GPU|芯片|半导体|AI)/i},
   {name:"QQQ",re:/(QQQ|纳指|纳斯达克|科技股|AI|芯片|半导体|大型科技|美股期货)/i},
@@ -992,7 +1007,23 @@ function radarAnalyzeNews(n){
   const score=radarScore(n,assets,dir);
   const direction=dir.bull.length&&dir.bear.length?"多空都有":(dir.bull.length?"偏利好":(dir.bear.length?"偏利空":"中性观察"));
   const action=score>=82?"先看价格确认":(score>=66?"值得盯盘":"只做背景");
-  return {news:n,assets,dir,score,direction,reason:radarReason(text),action};
+  const base={news:n,assets,dir,score,direction,reason:radarReason(text),action,chaseRisk:"中",ai:false};
+  const ai=aiNewsFor(n);
+  if(!ai) return base;
+  const aiAssets=Array.isArray(ai.assets)&&ai.assets.length?ai.assets:assets;
+  const aiBull=Array.isArray(ai.bull)?ai.bull:[];
+  const aiBear=Array.isArray(ai.bear)?ai.bear:[];
+  return {
+    news:n,
+    assets:aiAssets,
+    dir:{bull:aiBull,bear:aiBear},
+    score:Number.isFinite(Number(ai.score))?Number(ai.score):score,
+    direction:ai.direction||base.direction,
+    reason:ai.reason||base.reason,
+    action:ai.action||base.action,
+    chaseRisk:ai.chaseRisk||base.chaseRisk,
+    ai:true
+  };
 }
 function radarScoreClass(score){
   return score>=82?"hot":(score>=66?"mid":"low");
@@ -1037,15 +1068,53 @@ function renderHomeBrief(top,assets,feed){
   pulse.textContent=feed&&feed.length?`${feed.length} 条高分`:"同步中";
   pulseSub.textContent=feed&&feed.length?`当前雷达已聚合 ${assets.length} 个标的；旧版快讯、日历、行情已收进顶部子页面。`:"保留核心内容：机会雷达、本周市场关注、关键标的影响。";
 }
-function renderOpportunityRadar(){
+async function refreshAiNewsAnalysisForRadar(candidates){
+  const backend=tgBackendUrl();
+  if(!backend||AI_NEWS_REFRESHING) return;
+  const missing=(candidates||[]).filter(n=>!aiNewsFor(n)).slice(0,18);
+  if(!missing.length) return;
+  AI_NEWS_REFRESHING=true;
+  try{
+    const r=await fetch(`${backend}/api/news-analysis`,{
+      method:"POST",
+      cache:"no-store",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({items:missing.map(n=>({
+        analysisId:radarAnalysisId(n),
+        key:n.key,
+        id:n.id,
+        source:n.source,
+        title:n.title,
+        body:n.body,
+        tags:n.tags,
+        url:n.url,
+        timeText:n.timeText
+      }))})
+    });
+    if(!r.ok) throw new Error(`ai news HTTP ${r.status}`);
+    const data=await r.json();
+    if(data&&data.items){
+      AI_NEWS_ANALYSIS=Object.assign({},AI_NEWS_ANALYSIS,data.items);
+      saveAiNewsAnalysisCache();
+      renderOpportunityRadar({skipAiFetch:true});
+    }
+  }catch(e){
+    console.warn("AI news analysis failed",e);
+  }finally{
+    AI_NEWS_REFRESHING=false;
+  }
+}
+function renderOpportunityRadar(opts={}){
   const nowBox=document.getElementById("radarNow"), assetsBox=document.getElementById("radarAssets"), feedBox=document.getElementById("radarFeed");
   if(!nowBox||!assetsBox||!feedBox) return;
-  const analyzed=(NEWS_STORE||[]).slice(0,180).map(radarAnalyzeNews).filter(x=>x.assets.length||x.score>=60).sort((a,b)=>b.score-a.score);
+  const sourceNews=(NEWS_STORE||[]).slice(0,180);
+  const analyzed=sourceNews.map(radarAnalyzeNews).filter(x=>x.assets.length||x.score>=60).sort((a,b)=>b.score-a.score);
   const top=analyzed.slice(0,3);
   const feed=analyzed.filter(x=>x.score>=55).slice(0,18);
   const assets=radarAssetRank(analyzed);
+  const aiCount=analyzed.filter(x=>x.ai).length;
   renderHomeBrief(top,assets,feed);
-  radarSetStatus(analyzed.length?`${feed.length} 条高分`:"等待快讯",analyzed.length?"ok":"warn");
+  radarSetStatus(analyzed.length?`${feed.length} 条高分${aiCount?` · AI ${aiCount}`:""}`:"等待快讯",analyzed.length?"ok":"warn");
   nowBox.innerHTML=top.length?top.map(x=>{
     const src=`${x.news.source} · ${fmtNewsStoreTime(x.news)}`;
     const line=`${x.direction} ${x.assets.slice(0,4).join(" / ")||"市场"} · ${x.reason}`;
@@ -1059,8 +1128,10 @@ function renderOpportunityRadar(){
     const open=x.news.url?`<a href="${esc(x.news.url)}" target="_blank" rel="noopener">原文</a>`:"";
     const bull=x.dir.bull.length?x.dir.bull.join(" / "):"--";
     const bear=x.dir.bear.length?x.dir.bear.join(" / "):"--";
-    return `<div class="trade-card"><div class="trade-head"><span class="bwe-source${newsSourceClass(x.news.source)}">${esc(x.news.source)}</span><span>${esc(fmtNewsStoreTime(x.news))}</span><span class="radar-score ${radarScoreClass(x.score)}">${x.score}</span>${open}</div><div class="trade-title">${esc(x.news.title)}</div><div class="trade-impact"><div class="trade-chip"><span>方向</span><b>${esc(x.direction)}</b></div><div class="trade-chip"><span>利好</span><b class="up">${esc(bull)}</b></div><div class="trade-chip"><span>利空</span><b class="dn">${esc(bear)}</b></div><div class="trade-chip"><span>追单</span><b>${esc(x.action)}</b></div></div></div>`;
+    const aiMark=x.ai?'<span>AI</span>':'<span>规则</span>';
+    return `<div class="trade-card"><div class="trade-head"><span class="bwe-source${newsSourceClass(x.news.source)}">${esc(x.news.source)}</span><span>${esc(fmtNewsStoreTime(x.news))}</span><span class="radar-score ${radarScoreClass(x.score)}">${x.score}</span>${aiMark}${open}</div><div class="trade-title">${esc(x.news.title)}</div><div class="trade-impact"><div class="trade-chip"><span>方向</span><b>${esc(x.direction)}</b></div><div class="trade-chip"><span>利好</span><b class="up">${esc(bull)}</b></div><div class="trade-chip"><span>利空</span><b class="dn">${esc(bear)}</b></div><div class="trade-chip"><span>追单</span><b>${esc(x.action)}${x.chaseRisk?` · 风险${esc(x.chaseRisk)}`:""}</b></div></div></div>`;
   }).join(""):'<div class="bwe-empty">暂无高分新闻。</div>';
+  if(!opts.skipAiFetch) refreshAiNewsAnalysisForRadar(sourceNews.slice(0,36));
 }
 const TG_FEEDS_URL="tg-feeds.json";
 function tgBackendUrl(){
@@ -1996,6 +2067,7 @@ function toggleTheme(){
 applyTheme((()=>{ try{ return localStorage.getItem("tradexyz-theme")||"dark"; }catch(e){ return "dark"; } })());
 switchAppView((()=>{ try{ return localStorage.getItem("tradexyz-active-view")||"home"; }catch(e){ return "home"; } })());
 
+loadAiNewsAnalysisCache();
 loadNewsStore();
 loadBweCache();
 renderBwe();
