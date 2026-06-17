@@ -19,6 +19,25 @@
   #themeBtn{margin-left:auto;background:transparent;border:1px solid var(--line);color:var(--txt)}
   #themeBtn:hover{border-color:var(--accent);color:var(--accent)}
   #refreshBtn{background:var(--accent);color:#fff}
+  .app-nav{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto}
+  .app-tab{border:1px solid var(--line);background:transparent;color:var(--mut);border-radius:8px;padding:7px 11px;font-size:12px;font-weight:800;cursor:pointer}
+  .app-tab:hover{border-color:var(--accent);color:var(--accent)}
+  .app-tab.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  body.view-home #themeBtn{margin-left:0}
+  .app-block{display:none!important}
+  body.view-home .home-block,body.view-feeds .feeds-block,body.view-calendar .calendar-block,body.view-markets .markets-block,body.view-binance .binance-block,body.view-notes .notes-block{display:block!important}
+  body.view-markets .wrap.markets-block{display:grid!important}
+  body.view-markets .search.markets-block{display:flex!important}
+  .home-hero{padding:16px 22px 8px}
+  .hero-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:14px}
+  .hero-card{border:1px solid var(--line);border-radius:10px;background:linear-gradient(180deg,rgba(91,141,239,.12),rgba(255,255,255,.015));padding:14px;min-height:116px}
+  .hero-card h3{margin:0 0 8px;color:var(--mut);font-size:12px;font-weight:900}
+  .hero-card .hero-main{font-size:18px;font-weight:950;line-height:1.25;color:var(--txt)}
+  .hero-card .hero-sub{margin-top:8px;color:var(--mut);font-size:12px;line-height:1.45}
+  .hero-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+  .hero-tag{border:1px solid var(--line);border-radius:999px;padding:4px 9px;font-size:11px;font-weight:850;color:var(--txt);background:rgba(255,255,255,.025)}
+  .hero-tag.up{color:var(--up)}.hero-tag.dn{color:var(--dn)}.hero-tag.warn{color:var(--warn)}
+  @media(max-width:980px){.bar{align-items:flex-start}.app-nav{order:9;width:100%;margin-left:0}.hero-grid{grid-template-columns:1fr}}
 
   .full{padding:10px 22px}
   .wrap{padding:10px 22px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
@@ -238,12 +257,20 @@
 </style>
 <script src="https://unpkg.com/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js"></script>
 </head>
-<body>
+<body class="view-home">
 <header><div class="bar">
   <h1>tradexyz 美股看板</h1>
   <div class="meta">行情更新 <b id="updated">—</b></div>
   <div class="meta hide-m">下次自动刷新 <b id="countdown">—</b></div>
   <div class="meta hide-m">源 Hyperliquid <code>xyz</code> HIP-3 dex</div>
+  <nav class="app-nav" id="appNav">
+    <button class="app-tab on" data-view="home" onclick="switchAppView('home')">首页</button>
+    <button class="app-tab" data-view="feeds" onclick="switchAppView('feeds')">快讯源</button>
+    <button class="app-tab" data-view="calendar" onclick="switchAppView('calendar')">日历</button>
+    <button class="app-tab" data-view="markets" onclick="switchAppView('markets')">行情</button>
+    <button class="app-tab" data-view="binance" onclick="switchAppView('binance')">合约</button>
+    <button class="app-tab" data-view="notes" onclick="switchAppView('notes')">说明</button>
+  </nav>
   <button id="themeBtn" class="btn" onclick="toggleTheme()">☀️ 日间</button>
   <button id="refreshBtn" class="btn" onclick="load()">刷新行情</button>
 </div></header>
@@ -251,9 +278,29 @@
 <main class="page">
 
 <section id="view-stocks">
-<div class="search"><input id="stockSearch" placeholder="搜索代码或名称（如 NVDA / 英伟达 / GOLD / 黄金）…" oninput="stockSearch()"><span class="hint" id="stockHint"></span></div>
+<div class="home-hero app-block home-block">
+  <div class="hero-grid">
+    <div class="hero-card">
+      <h3>现在最该看</h3>
+      <div id="homeHeadline" class="hero-main">等待快讯入库</div>
+      <div id="homeHeadlineSub" class="hero-sub">新闻进入 15 日库后，自动压缩成一句话交易情报。</div>
+    </div>
+    <div class="hero-card">
+      <h3>热度标的</h3>
+      <div id="homeHotAssets" class="hero-tags"><span class="hero-tag">等待数据</span></div>
+      <div class="hero-sub">按新闻影响强度和相关消息数排序。</div>
+    </div>
+    <div class="hero-card">
+      <h3>产品状态</h3>
+      <div id="homePulse" class="hero-main">同步中</div>
+      <div id="homePulseSub" class="hero-sub">保留核心内容：机会雷达、本周市场关注、关键标的影响。</div>
+    </div>
+  </div>
+</div>
 
-<div class="bwe">
+<div class="search app-block markets-block"><input id="stockSearch" placeholder="搜索代码或名称（如 NVDA / 英伟达 / GOLD / 黄金）…" oninput="stockSearch()"><span class="hint" id="stockHint"></span></div>
+
+<div class="bwe app-block feeds-block">
   <div class="feed-grid">
     <div class="card">
       <div class="bwe-head">
@@ -303,7 +350,7 @@
   </div>
 </div>
 
-<div class="full">
+<div class="full app-block home-block">
   <div class="card radar-card">
     <div class="bwe-head">
       <h2>机会雷达 <span class="macro-sub">现在发生了什么 · 利好谁 · 利空谁</span></h2>
@@ -327,7 +374,7 @@
   </div>
 </div>
 
-<div class="full">
+<div class="full app-block home-block">
   <div class="card macro-card">
     <div class="bwe-head">
       <h2>本周市场关注 <span class="macro-sub">几点 · 什么事 · 影响谁</span></h2>
@@ -341,7 +388,7 @@
   </div>
 </div>
 
-<div class="full">
+<div class="full app-block calendar-block">
   <div class="card calendar-card">
     <div class="bwe-head">
       <h2>交易员宏观日历 <span class="macro-sub">金十日历数据二次筛选</span></h2>
@@ -358,19 +405,19 @@
 </div>
 
 <!-- 个股：24h + 12h 合并一张表 -->
-<div class="full">
+<div class="full app-block markets-block">
   <div class="card">
     <h2>个股 · 24h / 12h / 盘前 / 夜盘 <span id="cST">加载中…</span></h2>
     <div id="tblST" class="scrollbox"></div>
   </div>
 </div>
 
-<div class="wrap">
+<div class="wrap app-block markets-block">
   <div class="card"><h2>大宗商品 · 24h / 12h <span id="cCM">加载中…</span></h2><div id="tblCM" class="scrollbox"></div></div>
   <div class="card"><h2>指数 / ETF · 24h / 12h <span id="cIX">加载中…</span></h2><div id="tblIX" class="scrollbox"></div></div>
 </div>
 
-<div class="full">
+<div class="full app-block binance-block">
   <div class="card">
     <h2>Binance TradFi 合约 · USDⓈ-M Perp <span id="cBN">加载中…</span></h2>
     <div id="tblBN" class="scrollbox"></div>
@@ -378,7 +425,7 @@
 </div>
 </section>
 
-<footer>
+<footer class="app-block notes-block">
   价格 / 涨跌幅：浏览器直连 <code>api.hyperliquid.xyz/info</code> 实时计算（24h = markPx vs prevDayPx；12h = markPx vs 12h 前 1h K 线收盘）。表头可点击切换排序；点击任一行可打开该标的 K 线与技术研判。<br>
   个股专属两列（均按北京时间，UTC+8 无夏令时）：<b>盘前</b> = 自当日 16:00 起的累计涨幅（含美股盘前 16:00–21:30 及盘中 21:30–04:00）；<b>夜盘</b> = 04:00–16:00 时段涨幅（美股盘后 + 隔夜延长时段）。两段在时间上拼成完整一天；进行中的时段实时累计，已结束的时段为固定值。大宗 / 指数为近 24h 连续交易品种，不适用盘前 / 夜盘，故只保留 24h / 12h。<br>
   覆盖：tradexyz(<code>xyz</code> dex)上全部标的，按资产类别分 个股 / 大宗商品 / 指数·ETF 三表；外汇(EUR/GBP/JPY/KRW/DXY)与加密噪音(QNT/PURRDAT)已剔除。任何新上标的若未归类，默认进「个股」表，不会漏。<br>
@@ -396,6 +443,14 @@
 
 <script>
 const API="https://api.hyperliquid.xyz/info";
+function switchAppView(view){
+  const allowed=new Set(["home","feeds","calendar","markets","binance","notes"]);
+  view=allowed.has(view)?view:"home";
+  document.body.classList.remove("view-home","view-feeds","view-calendar","view-markets","view-binance","view-notes");
+  document.body.classList.add("view-"+view);
+  document.querySelectorAll(".app-tab").forEach(btn=>btn.classList.toggle("on",btn.dataset.view===view));
+  try{ localStorage.setItem("tradexyz-active-view",view); }catch(e){}
+}
 const NAME={
  AAPL:"Apple",AMD:"AMD",AMZN:"Amazon",ARM:"Arm",ASML:"ASML",AVGO:"Broadcom",BABA:"阿里巴巴",
  BB:"BlackBerry",BIRD:"Allbirds",BX:"Blackstone",CBRS:"Cerebras 脑芯",COIN:"Coinbase",COST:"Costco",
@@ -929,6 +984,25 @@ function radarSetStatus(text,kind){
   el.className="bwe-status "+(kind||"warn");
   tx.textContent=text;
 }
+function renderHomeBrief(top,assets,feed){
+  const headline=document.getElementById("homeHeadline"), sub=document.getElementById("homeHeadlineSub");
+  const hot=document.getElementById("homeHotAssets"), pulse=document.getElementById("homePulse"), pulseSub=document.getElementById("homePulseSub");
+  if(!headline||!sub||!hot||!pulse||!pulseSub) return;
+  const first=top&&top[0];
+  if(first){
+    headline.textContent=truncateText(first.news.title,46);
+    sub.textContent=`${first.direction} ${first.assets.slice(0,4).join(" / ")||"市场"} · ${first.reason} · ${fmtNewsStoreTime(first.news)}`;
+  }else{
+    headline.textContent="等待高影响新闻";
+    sub.textContent="新闻进入 15 日库后，自动压缩成一句话交易情报。";
+  }
+  hot.innerHTML=assets&&assets.length?assets.slice(0,6).map(a=>{
+    const cls=a.bull>a.bear?"up":(a.bear>a.bull?"dn":"warn");
+    return `<span class="hero-tag ${cls}">${esc(a.asset)} ${Math.round(a.score/a.count)}</span>`;
+  }).join(""):'<span class="hero-tag">等待数据</span>';
+  pulse.textContent=feed&&feed.length?`${feed.length} 条高分`:"同步中";
+  pulseSub.textContent=feed&&feed.length?`当前雷达已聚合 ${assets.length} 个标的；旧版快讯、日历、行情已收进顶部子页面。`:"保留核心内容：机会雷达、本周市场关注、关键标的影响。";
+}
 function renderOpportunityRadar(){
   const nowBox=document.getElementById("radarNow"), assetsBox=document.getElementById("radarAssets"), feedBox=document.getElementById("radarFeed");
   if(!nowBox||!assetsBox||!feedBox) return;
@@ -936,6 +1010,7 @@ function renderOpportunityRadar(){
   const top=analyzed.slice(0,3);
   const feed=analyzed.filter(x=>x.score>=55).slice(0,18);
   const assets=radarAssetRank(analyzed);
+  renderHomeBrief(top,assets,feed);
   radarSetStatus(analyzed.length?`${feed.length} 条高分`:"等待快讯",analyzed.length?"ok":"warn");
   nowBox.innerHTML=top.length?top.map(x=>{
     const src=`${x.news.source} · ${fmtNewsStoreTime(x.news)}`;
@@ -1880,6 +1955,7 @@ function toggleTheme(){
   applyTheme(t);
 }
 applyTheme((()=>{ try{ return localStorage.getItem("tradexyz-theme")||"dark"; }catch(e){ return "dark"; } })());
+switchAppView((()=>{ try{ return localStorage.getItem("tradexyz-active-view")||"home"; }catch(e){ return "home"; } })());
 
 loadNewsStore();
 loadBweCache();
