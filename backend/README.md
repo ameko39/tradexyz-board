@@ -7,7 +7,6 @@ It serves:
 - `GET /api/feeds` for the stored 15-day TG archive;
 - `GET/POST /api/refresh` for latest TG refresh;
 - `GET/POST /api/refresh?full=1` for 15-day backfill;
-- `GET /api/yahoo/search`, `/api/yahoo/quote`, and `/api/yahoo/chart`.
 
 The browser uses the same origin automatically when the board is not hosted on GitHub Pages, so no `?backend=` parameter is needed after deploying this service.
 

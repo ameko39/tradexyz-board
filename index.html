@@ -53,21 +53,7 @@
   .search input{flex:1;min-width:200px;max-width:460px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 13px;color:var(--txt);font-size:13.5px;outline:none}
   .search input:focus{border-color:var(--accent)}
   .search .hint{color:var(--mut);font-size:12px}
-  .yahoo-box{margin:8px 22px 4px;max-width:760px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.018);overflow:hidden}
-  .yahoo-box:empty{display:none}
-  .yahoo-head{padding:8px 12px;border-bottom:1px solid var(--line);color:var(--mut);font-size:12px;display:flex;justify-content:space-between;gap:10px}
-  .yahoo-row{display:grid;grid-template-columns:minmax(92px,.55fr) minmax(150px,1fr) minmax(90px,.5fr);gap:10px;align-items:center;padding:10px 12px;border-top:1px solid var(--line);text-decoration:none;color:inherit}
-  .yahoo-row:first-child{border-top:0}
-  .yahoo-row:hover{background:#1b2230}
-  .yahoo-symbol{font-weight:850;color:var(--txt)}
-  .yahoo-name{color:var(--mut);font-size:12px;line-height:1.4;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .yahoo-price{text-align:right;font-weight:850}
-  .yahoo-meta{grid-column:1/-1;color:var(--mut);font-size:11px;line-height:1.4}
-  .yahoo-empty{padding:10px 12px;color:var(--mut);font-size:12px}
-  body.light .yahoo-box{background:rgba(20,40,90,.025)}
-  body.light .yahoo-row:hover{background:#eef3ff}
   @media(max-width:760px){ .search{margin:12px 12px 2px} }
-  @media(max-width:760px){ .yahoo-box{margin:8px 12px 4px}.yahoo-row{grid-template-columns:minmax(80px,.55fr) minmax(120px,1fr);}.yahoo-price{grid-column:1/-1;text-align:left} }
   .bwe{padding:10px 22px}
   .feed-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
   @media(max-width:980px){.feed-grid{grid-template-columns:1fr}}
@@ -233,7 +219,6 @@
 
 <section id="view-stocks">
 <div class="search"><input id="stockSearch" placeholder="搜索代码或名称（如 NVDA / 英伟达 / GOLD / 黄金）…" oninput="stockSearch()"><span class="hint" id="stockHint"></span></div>
-<div id="yahooSearchBox" class="yahoo-box" aria-live="polite"></div>
 
 <div class="bwe">
   <div class="feed-grid">
@@ -461,9 +446,7 @@ function renderAll(){
   applyStockFilter();
 }
 /* ===== 个股搜索（代码 / 中文名 / 英文名 筛选）===== */
-let yahooSearchTimer=0;
-let yahooSearchSeq=0;
-function stockSearch(){ applyStockFilter(); scheduleYahooSearch(); }
+function stockSearch(){ applyStockFilter(); }
 function applyStockFilter(){
   const el=document.getElementById("stockSearch"), q=el?el.value.trim().toLowerCase():"";
   let shown=0;
@@ -477,82 +460,6 @@ function applyStockFilter(){
     });
   });
   const h=document.getElementById("stockHint"); if(h) h.textContent=q?`匹配 ${shown} 个`:"";
-}
-function scheduleYahooSearch(){
-  const el=document.getElementById("stockSearch"), box=document.getElementById("yahooSearchBox");
-  const q=el?el.value.trim():"";
-  if(!box) return;
-  clearTimeout(yahooSearchTimer);
-  if(!q || (q.length<2 && !/^[A-Za-z.^=_-]{1,8}$/.test(q))){
-    box.innerHTML="";
-    return;
-  }
-  const backend=tgBackendUrl();
-  if(!backend){
-    box.innerHTML=`<div class="yahoo-empty">Yahoo 中文搜索需要后端 URL：地址后加 <code>?backend=http://127.0.0.1:8787</code></div>`;
-    return;
-  }
-  yahooSearchTimer=setTimeout(()=>fetchYahooSearch(q,backend),320);
-}
-async function fetchYahooSearch(q,backend){
-  const box=document.getElementById("yahooSearchBox");
-  if(!box) return;
-  const seq=++yahooSearchSeq;
-  box.innerHTML=`<div class="yahoo-empty">正在查询 Yahoo：${esc(q)}</div>`;
-  try{
-    const r=await fetch(`${backend}/api/yahoo/search?q=${encodeURIComponent(q)}`,{cache:"no-store"});
-    if(!r.ok) throw new Error(`HTTP ${r.status}`);
-    const data=await r.json();
-    if(seq!==yahooSearchSeq) return;
-    renderYahooSearch(data);
-  }catch(e){
-    if(seq!==yahooSearchSeq) return;
-    box.innerHTML=`<div class="yahoo-empty">Yahoo 查询失败：${esc(e.message||e)}</div>`;
-  }
-}
-function fmtYahooNum(v,digits){
-  const n=Number(v);
-  if(!isFinite(n)) return "--";
-  return n.toLocaleString("zh-CN",{maximumFractionDigits:digits==null?2:digits});
-}
-function fmtYahooPct(v){
-  const n=Number(v);
-  if(!isFinite(n)) return "--";
-  return (n>0?"+":"")+n.toFixed(2)+"%";
-}
-function yahooMarketStateZh(s){
-  return ({REGULAR:"盘中",PRE:"盘前",POST:"盘后",PREPRE:"盘前",POSTPOST:"盘后",CLOSED:"休市"}[String(s||"").toUpperCase()]||s||"");
-}
-function yahooFinanceUrl(symbol){
-  return `https://finance.yahoo.com/quote/${encodeURIComponent(symbol)}`;
-}
-function renderYahooSearch(data){
-  const box=document.getElementById("yahooSearchBox");
-  if(!box) return;
-  const rows=(data&&data.results)||[];
-  if(!rows.length){
-    box.innerHTML=`<div class="yahoo-empty">Yahoo 暂无匹配结果</div>`;
-    return;
-  }
-  const body=rows.map(row=>{
-    if(row.error){
-      return `<div class="yahoo-row"><div class="yahoo-symbol">${esc(row.symbol||"--")}</div><div class="yahoo-name">${esc(row.nameZh||row.name||"")}</div><div class="yahoo-price dn">失败</div><div class="yahoo-meta">${esc(row.error)}</div></div>`;
-    }
-    const q=row.quote||{};
-    const symbol=q.symbol||row.symbol||"";
-    const nameZh=q.nameZh||row.nameZh||"";
-    const name=q.name||row.name||"";
-    const pct=Number(q.changePct);
-    const cls=isFinite(pct)?(pct>0?"up":pct<0?"dn":"flat"):"flat";
-    const meta=[q.exchange,row.type,yahooMarketStateZh(q.marketState),q.currency,q.updatedAtBeijing?`北京时间 ${q.updatedAtBeijing}`:""].filter(Boolean).join(" · ");
-    return `<a class="yahoo-row" href="${esc(yahooFinanceUrl(symbol))}" target="_blank" rel="noopener">
-      <div><div class="yahoo-symbol">${esc(symbol)}</div><div class="yahoo-name">${esc(nameZh||row.source||"")}</div></div>
-      <div class="yahoo-name" title="${esc(name)}">${esc(name)}</div>
-      <div class="yahoo-price ${cls}">${fmtYahooNum(q.price,4)} <span>${fmtYahooPct(q.changePct)}</span></div>
-      <div class="yahoo-meta">${esc(meta)}</div>
-    </a>`;
-  }).join("");
-  box.innerHTML=`<div class="yahoo-head"><span>Yahoo 中文搜索</span><span>${esc(data.query||"")}</span></div>${body}`;
 }
 function setSort(key){ if(sortKey===key){sortDir=-sortDir;}else{sortKey=key;sortDir=(key==='tk'||key==='nm')?1:-1;} renderAll(); }
 
