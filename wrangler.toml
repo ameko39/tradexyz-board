@@ -1,0 +1,19 @@
+name = "tradexyz-board"
+main = "cloudflare/worker.mjs"
+compatibility_date = "2026-06-17"
+
+[assets]
+directory = "./dist-cloudflare"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+# Enable this after creating a KV namespace named tradexyz_cache.
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "your_namespace_id"
+
+[vars]
+AI_BASE_URL = "https://zhiyu.api.trytrythisai.com/v1"
+AI_MODEL = "gpt-5.5"
+AI_API_MODE = "auto"
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/ameko39/tradexyz-board/main"
