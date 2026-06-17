@@ -97,7 +97,7 @@
   .macro-card .bwe-head h2{font-size:16px}
   .macro-sub{color:var(--mut);font-size:12px;font-weight:500;margin-left:8px}
   .macro-timeline{padding:16px;overflow-x:auto;scrollbar-color:#2b3a57 transparent;scrollbar-width:thin}
-  .macro-rail{position:relative;display:grid;grid-template-columns:repeat(7,minmax(132px,1fr));gap:12px;min-width:940px;align-items:start}
+  .macro-rail{position:relative;display:grid;grid-template-columns:repeat(var(--macro-days,7),minmax(132px,1fr));gap:12px;min-width:min(940px,100%);align-items:start}
   .macro-rail:before{content:"";position:absolute;left:18px;right:18px;top:17px;height:3px;background:linear-gradient(90deg,var(--up),var(--accent),var(--warn));border-radius:999px;opacity:.86}
   .macro-event{position:relative;min-width:0;padding-top:38px}
   .macro-dot{position:absolute;top:8px;left:50%;width:20px;height:20px;border-radius:50%;background:#4ea57d;border:3px solid var(--card);box-shadow:0 0 0 1px rgba(78,165,125,.38);transform:translateX(-50%);z-index:1}
@@ -155,7 +155,7 @@
     .full{padding:10px 12px}
     .wrap{padding:10px 12px;gap:12px}
     .macro-timeline{padding:14px 12px}
-    .macro-rail{grid-template-columns:repeat(7,144px);gap:10px;min-width:1060px}
+    .macro-rail{grid-template-columns:repeat(var(--macro-days,7),144px);gap:10px;min-width:calc(var(--macro-days,7) * 144px + (var(--macro-days,7) - 1) * 10px)}
     .macro-box{min-height:160px;padding:10px}
     .cal-list{max-height:560px}
     .cal-item{grid-template-columns:52px minmax(0,1fr);gap:8px;padding:11px 12px}
@@ -1355,13 +1355,22 @@ function buildWeeklyMainlines(){
   }
   return days;
 }
+function limitQuietMacroDays(days,isActive){
+  let quiet=0;
+  return (days||[]).filter(day=>{
+    if(isActive(day)) return true;
+    if(quiet<2){ quiet++; return true; }
+    return false;
+  });
+}
 function renderAiWeeklyCalendar(data){
   const box=document.getElementById("macroTimeline");
   if(!box||!data||data.status!=="ok"||!Array.isArray(data.days)||!data.days.length) return false;
   const active=data.days.filter(d=>d.events&&d.events.length).length;
+  const days=limitQuietMacroDays(data.days,d=>d.events&&d.events.length);
   const updated=data.updatedAt?fmtBeijingClock(Date.parse(data.updatedAt)):"";
   macroSetStatus(`AI整理 ${updated}`,active?"ok":"warn");
-  box.innerHTML=data.days.map(d=>{
+  box.innerHTML=days.map(d=>{
     const st=macroStatusForDate(d.dateKey);
     const rows=(d.events&&d.events.length?d.events:[{time:"--",event:"无高优先级",assets:[],reason:""}]).slice(0,3);
     const title=rows[0]?.event||d.summary||"无高优先级";
@@ -1370,7 +1379,7 @@ function renderAiWeeklyCalendar(data){
     const impact=assets?`影响：${assets}`:"";
     return `<div class="macro-event ${st.cls}"><span class="macro-dot"></span><div class="macro-box"><div class="macro-date"><span>${esc(prettyDateKey(d.dateKey))}</span><span class="macro-state">${esc(st.text)}</span></div><div class="macro-title">${esc(title)}</div>${descHtml}<div class="macro-impact">${esc(impact)}</div></div></div>`;
   }).join("");
-  box.innerHTML=`<div class="macro-rail">${box.innerHTML}</div>`;
+  box.innerHTML=`<div class="macro-rail" style="--macro-days:${Math.max(days.length,1)}">${box.innerHTML}</div>`;
   return true;
 }
 function renderMacroCalendar(){
@@ -1379,16 +1388,17 @@ function renderMacroCalendar(){
   if(renderAiWeeklyCalendar(AI_WEEKLY_CALENDAR)) return;
   const events=buildWeeklyMainlines();
   const active=events.filter(e=>e.score>0).length;
+  const visibleEvents=limitQuietMacroDays(events,e=>e.score>0);
   const aiStatus=AI_WEEKLY_CALENDAR&&AI_WEEKLY_CALENDAR.status&&AI_WEEKLY_CALENDAR.status!=="ok"?`AI${AI_WEEKLY_CALENDAR.status==="not_configured"?"未配置":"失败"} · `:"";
   macroSetStatus(active?`${aiStatus}本地 ${active} 天有主线`:`${aiStatus}等待数据`,active?"warn":"warn");
-  box.innerHTML=events.map(e=>{
+  box.innerHTML=visibleEvents.map(e=>{
     const st=macroStatusForDate(e.dateKey);
     const rows=e.rows&&e.rows.length?e.rows:[{time:"--",title:"无高优先级",assets:""}];
     const descHtml=`<div class="macro-desc">${rows.map(r=>`<div class="macro-row"><span class="macro-time">${esc(r.time)}</span>${esc(r.title)}</div>`).join("")}</div>`;
     const impact=e.assets?`影响：${e.assets}`:"";
     return `<div class="macro-event ${st.cls}"><span class="macro-dot"></span><div class="macro-box"><div class="macro-date"><span>${esc(prettyDateKey(e.dateKey))}</span><span class="macro-state">${esc(st.text)}</span></div><div class="macro-title">${esc(e.title)}</div>${descHtml}<div class="macro-impact">${esc(impact)}</div></div></div>`;
   }).join("");
-  box.innerHTML=`<div class="macro-rail">${box.innerHTML}</div>`;
+  box.innerHTML=`<div class="macro-rail" style="--macro-days:${Math.max(visibleEvents.length,1)}">${box.innerHTML}</div>`;
 }
 function renderNewsStore(){
   NEWS_STORE=pruneNewsStore(NEWS_STORE);
