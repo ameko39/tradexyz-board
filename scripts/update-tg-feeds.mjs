@@ -1,10 +1,12 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const OUT = "tg-feeds.json";
+const RETAIN_DAYS = 15;
+const RETAIN_MS = RETAIN_DAYS * 24 * 60 * 60 * 1000;
 const CHANNELS = [
-  { key: "bwe", channel: "BWEtradfi", max: 80 },
-  { key: "jin10", channel: "jin10light", max: 60 },
-  { key: "poly", channel: "PolyBeats_Bot", max: 60 }
+  { key: "bwe", channel: "BWEtradfi", archiveMax: 800, maxPages: 40, warmPages: 20 },
+  { key: "jin10", channel: "jin10light", archiveMax: 1200, maxPages: 60, warmPages: 30 },
+  { key: "poly", channel: "PolyBeats_Bot", archiveMax: 800, maxPages: 40, warmPages: 20 }
 ];
 
 function decodeHtml(s = "") {
@@ -121,8 +123,7 @@ function parseTelegramHtml(html, cfg, previous = []) {
     });
   }
   return items
-    .sort((a, b) => Number(b.id) - Number(a.id))
-    .slice(0, cfg.max);
+    .sort((a, b) => Number(b.id) - Number(a.id));
 }
 
 async function fetchText(url) {
@@ -154,6 +155,55 @@ async function readTelegramHtml(cfg) {
   return await fetchText(`https://t.me/s/${cfg.channel}`);
 }
 
+async function readTelegramPage(cfg, before) {
+  if (!before) return await readTelegramHtml(cfg);
+  return await fetchText(`https://t.me/s/${cfg.channel}?before=${before}`);
+}
+
+function mergeArchive(fetched, previous, cfg) {
+  const cutoff = Date.now() - RETAIN_MS;
+  const map = new Map();
+  for (const item of [...(previous || []), ...(fetched || [])]) {
+    if (!item || !item.id) continue;
+    const ts = Number(item.ts || 0);
+    if (Number.isFinite(ts) && ts > 0 && ts < cutoff) continue;
+    const old = map.get(String(item.id));
+    map.set(String(item.id), {
+      ...old,
+      ...item,
+      receivedAt: old?.receivedAt || item.receivedAt || Date.now(),
+      receivedTime: true
+    });
+  }
+  return [...map.values()]
+    .sort((a, b) => (Number(b.ts || 0) - Number(a.ts || 0)) || (Number(b.id) - Number(a.id)))
+    .slice(0, cfg.archiveMax);
+}
+
+async function fetchChannelArchive(cfg, previous) {
+  const previousIds = new Set((previous || []).map(x => String(x.id || "")).filter(Boolean));
+  const cutoff = Date.now() - RETAIN_MS;
+  const fetched = [];
+  let before = null;
+  let overlapped = false;
+  for (let page = 0; page < cfg.maxPages; page++) {
+    const html = await readTelegramPage(cfg, before);
+    const pageItems = parseTelegramHtml(html, cfg, previous);
+    if (!pageItems.length) break;
+    fetched.push(...pageItems);
+    if (pageItems.some(x => previousIds.has(String(x.id)))) overlapped = true;
+    const oldest = pageItems[pageItems.length - 1];
+    const oldestTs = Number(oldest?.ts || 0);
+    const warmEnough = previousIds.size > 0 && overlapped && page + 1 >= 2;
+    const initialWarmEnough = previousIds.size === 0 && page + 1 >= cfg.warmPages;
+    if ((Number.isFinite(oldestTs) && oldestTs > 0 && oldestTs < cutoff) || warmEnough || initialWarmEnough) break;
+    const nextBefore = Number(oldest?.id || 0);
+    if (!nextBefore || nextBefore === before) break;
+    before = nextBefore;
+  }
+  return mergeArchive(fetched, previous, cfg);
+}
+
 async function readExisting() {
   try {
     return JSON.parse(await readFile(OUT, "utf8"));
@@ -168,8 +218,7 @@ async function main() {
   for (const cfg of CHANNELS) {
     const prev = existing.channels?.[cfg.key]?.items || [];
     try {
-      const html = await readTelegramHtml(cfg);
-      const items = parseTelegramHtml(html, cfg, prev);
+      const items = await fetchChannelArchive(cfg, prev);
       if (!items.length && prev.length) {
         channels[cfg.key] = { channel: cfg.channel, items: prev, error: "empty scrape kept previous" };
       } else {
@@ -182,6 +231,7 @@ async function main() {
   await writeFile(OUT, JSON.stringify({
     updatedAt: new Date().toISOString(),
     source: "telegram-public-html",
+    retentionDays: RETAIN_DAYS,
     channels
   }, null, 2) + "\n", "utf8");
   console.log(Object.entries(channels).map(([k, v]) => `${k}:${v.items.length}${v.error ? `(${v.error})` : ""}`).join(" "));

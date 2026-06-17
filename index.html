@@ -881,21 +881,21 @@ async function refreshTgFeeds(force){
       BWE_ITEMS=mergeFeedItems(ch.bwe.items,BWE_ITEMS,BWE_MAX_ITEMS,x=>x&&x.id);
       saveBweCache();
       renderBwe();
-      addNewsItems(BWE_ITEMS.map(newsFromBwe),false);
+      addNewsItems(ch.bwe.items.map(newsFromBwe),false);
       setBweStatus(tgSnapshotStatus(data,BWE_ITEMS.length),BWE_ITEMS.length?"ok":"warn");
     }
     if(ch.jin10&&Array.isArray(ch.jin10.items)){
       JIN10_ITEMS=mergeFeedItems(ch.jin10.items,JIN10_ITEMS,JIN10_MAX_ITEMS,x=>x&&x.id);
       saveJin10Cache();
       renderJin10();
-      addNewsItems(JIN10_ITEMS.map(newsFromJin10),false);
+      addNewsItems(ch.jin10.items.map(newsFromJin10),false);
       setJin10Status(tgSnapshotStatus(data,JIN10_ITEMS.length),JIN10_ITEMS.length?"ok":"warn");
     }
     if(ch.poly&&Array.isArray(ch.poly.items)){
       POLY_ITEMS=mergeFeedItems(ch.poly.items,POLY_ITEMS,POLY_MAX_ITEMS,x=>x&&x.id);
       savePolyCache();
       renderPoly();
-      addNewsItems(POLY_ITEMS.map(newsFromPoly),false);
+      addNewsItems(ch.poly.items.map(newsFromPoly),false);
       setPolyStatus(tgSnapshotStatus(data,POLY_ITEMS.length),POLY_ITEMS.length?"ok":"warn");
     }
     renderNewsStore();
