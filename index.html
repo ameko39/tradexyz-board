@@ -380,7 +380,7 @@
       <h2>本周市场关注 <span class="macro-sub">几点 · 什么事 · 影响谁</span></h2>
       <div id="macroStatus" class="bwe-status ok"><span class="bwe-dot"></span><span id="macroStatusText">等待快讯</span></div>
       <div class="bwe-actions">
-        <button class="mini-btn" onclick="loadJin10Calendar(true)">刷新</button>
+        <button class="mini-btn" onclick="refreshMacroCalendarAi()">刷新</button>
       </div>
     </div>
     <div id="macroTimeline" class="macro-timeline"><div class="macro-empty">等待金十日历与 BWE / 金十快讯入库后自动生成。</div></div>
@@ -472,7 +472,7 @@ async function refreshCurrentView(){
     else if(view==="markets") await load();
     else if(view==="binance") await loadBinance();
     else if(view==="home"){
-      await Promise.allSettled([refreshTgFeeds(true),loadJin10Calendar(true)]);
+      await Promise.allSettled([refreshTgFeeds(true),refreshMacroCalendarAi()]);
       renderOpportunityRadar();
       renderMacroCalendar();
     }
@@ -1312,6 +1312,28 @@ async function fetchAiWeeklyCalendar(force){
   if(!r.ok) throw new Error(`ai calendar HTTP ${r.status}`);
   const data=await r.json();
   return data&&Array.isArray(data.days)?data:null;
+}
+async function refreshAiWeeklyCalendar(){
+  const backend=tgBackendUrl();
+  if(!backend) throw new Error("未连接后端");
+  const r=await fetchWithTimeout(`${backend}/api/ai-calendar/refresh`,{method:"POST",cache:"no-store"},90000);
+  if(!r.ok) throw new Error(`ai calendar refresh HTTP ${r.status}`);
+  const data=await r.json();
+  if(data&&data.status&&data.status!=="ok") throw new Error(data.error||data.status);
+  return data&&Array.isArray(data.days)?data:null;
+}
+async function refreshMacroCalendarAi(){
+  macroSetStatus("AI刷新中","warn");
+  try{
+    const data=await refreshAiWeeklyCalendar();
+    if(!data) throw new Error("AI没有返回日历");
+    AI_WEEKLY_CALENDAR=data;
+    renderMacroCalendar();
+  }catch(e){
+    console.warn("AI macro calendar refresh failed",e);
+    macroSetStatus(`AI刷新失败：${e.message||e}`,"bad");
+    await loadJin10Calendar(true);
+  }
 }
 function collectJin10Rows(node,kind,dateHint,out){
   if(!node) return;
