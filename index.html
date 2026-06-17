@@ -89,9 +89,35 @@
   .bwe-coin{font-size:10px;font-weight:700;border-radius:999px;padding:2px 7px;background:rgba(91,141,239,.14);color:#9db6f0}
   .bwe-coin.jin10{background:rgba(227,160,8,.13);color:#e3b64f}
   .bwe-coin.poly{background:rgba(22,199,132,.12);color:#72d9ad}
+  .radar-card .bwe-head h2{font-size:16px}
+  .radar-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;padding:14px 16px;border-bottom:1px solid var(--line)}
+  .radar-panel{border:1px solid var(--line);border-radius:8px;padding:12px;background:rgba(255,255,255,.018);min-width:0}
+  .radar-panel h3{margin:0 0 9px;font-size:13px;color:var(--mut);font-weight:800}
+  .radar-now{display:grid;gap:8px}
+  .radar-line{display:grid;grid-template-columns:42px minmax(0,1fr);gap:9px;align-items:start}
+  .radar-score{height:28px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:950;color:#fff;background:var(--accent)}
+  .radar-score.hot{background:var(--dn)}.radar-score.mid{background:var(--warn)}.radar-score.low{background:var(--mut)}
+  .radar-main{font-size:13px;font-weight:850;line-height:1.35;color:var(--txt)}
+  .radar-sub{margin-top:3px;color:var(--mut);font-size:12px;line-height:1.45}
+  .radar-assets{display:flex;flex-wrap:wrap;gap:6px}
+  .radar-asset{border:1px solid var(--line);border-radius:8px;padding:8px 9px;min-width:122px;flex:1;background:rgba(255,255,255,.014)}
+  .radar-asset b{display:flex;align-items:center;justify-content:space-between;gap:6px;font-size:13px}
+  .radar-asset small{display:block;margin-top:5px;color:var(--mut);font-size:11px;line-height:1.35}
+  .radar-bias.up{color:var(--up)}.radar-bias.dn{color:var(--dn)}.radar-bias.flat{color:var(--mut)}
+  .radar-feed{max-height:360px;overflow:auto}
+  .trade-card{padding:12px 16px;border-top:1px solid var(--line)}
+  .trade-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--mut);font-size:11px;margin-bottom:7px}
+  .trade-title{font-size:14px;font-weight:850;line-height:1.42;color:var(--txt)}
+  .trade-impact{margin-top:8px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+  .trade-chip{border:1px solid var(--line);border-radius:8px;padding:7px 8px;min-width:0}
+  .trade-chip span{display:block;color:var(--mut);font-size:10px;font-weight:800;margin-bottom:3px}
+  .trade-chip b{font-size:12px;line-height:1.35}
+  @media(max-width:980px){.radar-grid{grid-template-columns:1fr}.trade-impact{grid-template-columns:1fr 1fr}}
+  @media(max-width:560px){.trade-impact{grid-template-columns:1fr}.radar-line{grid-template-columns:38px minmax(0,1fr)}}
   body.light .bwe-coin{background:rgba(47,111,237,.12);color:#2f5fc0}
   body.light .bwe-coin.jin10{background:rgba(169,117,10,.12);color:#8a5f08}
   body.light .bwe-coin.poly{background:rgba(10,143,91,.1);color:#08784c}
+  body.light .radar-panel,body.light .radar-asset{background:rgba(20,40,90,.025)}
   body.light .mini-btn{color:var(--txt)}
   body.light .bwe-title a:hover{color:var(--accent)}
   .macro-card .bwe-head h2{font-size:16px}
@@ -274,6 +300,30 @@
       <div id="newsStoreList" class="bwe-list archive-list"><div class="bwe-empty">还没有保存的快讯。</div></div>
       <div class="archive-note">仅保留本浏览器收到的最近 15 天快讯；BWE TradFi TG、金十 TG 与 PolyBeats TG 会统一去重入库。</div>
     </div>
+  </div>
+</div>
+
+<div class="full">
+  <div class="card radar-card">
+    <div class="bwe-head">
+      <h2>机会雷达 <span class="macro-sub">现在发生了什么 · 利好谁 · 利空谁</span></h2>
+      <div id="radarStatus" class="bwe-status warn"><span class="bwe-dot"></span><span id="radarStatusText">等待快讯</span></div>
+      <div class="bwe-actions">
+        <button class="mini-btn" onclick="renderOpportunityRadar()">刷新雷达</button>
+      </div>
+    </div>
+    <div class="radar-grid">
+      <div class="radar-panel">
+        <h3>当前最重要</h3>
+        <div id="radarNow" class="radar-now"><div class="bwe-empty">等待新闻入库后自动生成。</div></div>
+      </div>
+      <div class="radar-panel">
+        <h3>标的机会榜</h3>
+        <div id="radarAssets" class="radar-assets"></div>
+      </div>
+    </div>
+    <div id="radarFeed" class="radar-feed"><div class="bwe-empty">等待高分新闻。</div></div>
+    <div class="archive-note">这是 AI/规则整理的新闻影响，不是买卖指令。优先看分数、方向、影响标的和追单风险。</div>
   </div>
 </div>
 
@@ -778,6 +828,130 @@ function syncNewsStoreFromFeeds(){
 }
 function newsSourceClass(source){
   return source==="JIN10 TG"?" jin10":(source==="PolyBeats"?" poly":"");
+}
+const RADAR_ASSET_RULES=[
+  {name:"NVDA",re:/(NVDA|NVIDIA|英伟达|Blackwell|GPU|芯片|半导体|AI)/i},
+  {name:"QQQ",re:/(QQQ|纳指|纳斯达克|科技股|AI|芯片|半导体|大型科技|美股期货)/i},
+  {name:"SPY",re:/(SPY|标普|S&P|美股|美国股市|风险资产|股指|美股期货)/i},
+  {name:"美元",re:/(美元|DXY|汇率|非美|日元|欧元|外汇)/i},
+  {name:"美债",re:/(美债|国债|收益率|Treasury|债券|10年期|两年期|拍卖)/i},
+  {name:"黄金",re:/(黄金|金价|贵金属|避险|XAU)/i},
+  {name:"白银",re:/(白银|银价|XAG)/i},
+  {name:"原油",re:/(原油|油价|WTI|布伦特|Brent|OPEC|EIA|API|库存|能源)/i},
+  {name:"能源股",re:/(能源股|石油股|油气|埃克森|雪佛龙|XLE)/i},
+  {name:"BTC",re:/(BTC|比特币|Bitcoin|加密|Crypto|以太坊|ETH)/i}
+];
+function radarText(n){
+  return [n.title,n.body,(n.tags||[]).join(" "),n.source].join(" ");
+}
+function radarAssets(text,tags){
+  const found=RADAR_ASSET_RULES.filter(r=>r.re.test(text)).map(r=>r.name);
+  (tags||[]).forEach(t=>{
+    t=String(t||"").replace(/^#/,"").trim().toUpperCase();
+    if(["NVDA","QQQ","SPY","BTC"].includes(t)) found.push(t);
+    if(["GOLD","XAU"].includes(t)) found.push("黄金");
+    if(["SILVER","XAG"].includes(t)) found.push("白银");
+    if(["OIL","WTI","BRENT"].includes(t)) found.push("原油");
+  });
+  return uniqueTags(found).slice(0,6);
+}
+function radarDirection(text,assets){
+  const bull=[], bear=[];
+  const dovish=/(降息|宽松|鸽派|暂停加息|通胀降温|低于预期|失业率上升|就业放缓|流动性|刺激)/i.test(text);
+  const hawkish=/(加息|鹰派|通胀升温|高于预期|收益率上行|降息预期降温|强劲就业|工资上涨|紧缩)/i.test(text);
+  const riskOff=/(战争|袭击|制裁|关税|禁令|调查|衰退|违约|危机|避险|地缘|中东|伊朗|以色列)/i.test(text);
+  const oilBull=/(供应中断|减产|库存下降|需求上升|制裁|袭击|霍尔木兹|OPEC).{0,28}(油|原油|能源)|油|原油|能源/i.test(text)&&/(供应中断|减产|库存下降|需求上升|制裁|袭击|霍尔木兹|OPEC)/i.test(text);
+  const nvdaBear=/(NVDA|NVIDIA|英伟达|芯片|半导体|AI).{0,60}(限制|禁令|调查|下调|放缓|出口管制|制裁)|出口管制.{0,60}(芯片|英伟达|AI)/i.test(text);
+  const nvdaBull=/(NVDA|NVIDIA|英伟达|芯片|半导体|AI).{0,60}(上调|订单|强劲|超预期|合作|需求|Blackwell|财报)/i.test(text);
+  if(dovish){ bull.push("SPY","QQQ","NVDA","黄金"); bear.push("美元","美债"); }
+  if(hawkish){ bear.push("SPY","QQQ","NVDA","黄金"); bull.push("美元","美债"); }
+  if(riskOff){ bull.push("黄金","美元","原油"); bear.push("SPY","QQQ"); }
+  if(oilBull){ bull.push("原油","能源股"); bear.push("QQQ"); }
+  if(nvdaBear){ bear.push("NVDA","QQQ"); }
+  if(nvdaBull){ bull.push("NVDA","QQQ"); }
+  assets.forEach(a=>{ if(!bull.includes(a)&&!bear.includes(a)&&/(Poly|Polymarket|预测|赔率)/i.test(text)) bull.push(a); });
+  return {bull:uniqueTags(bull).filter(a=>assets.includes(a)||assets.length<2),bear:uniqueTags(bear).filter(a=>assets.includes(a)||assets.length<2)};
+}
+function radarReason(text){
+  if(/FOMC|美联储|鲍威尔|利率|降息|加息/i.test(text)) return "改降息预期";
+  if(/CPI|PCE|PPI|通胀/i.test(text)) return "改通胀定价";
+  if(/非农|就业|失业|工资/i.test(text)) return "改就业预期";
+  if(/EIA|API|OPEC|原油|库存|油价/i.test(text)) return "影响油价";
+  if(/NVDA|NVIDIA|英伟达|芯片|半导体|AI/i.test(text)) return "影响AI链";
+  if(/战争|袭击|制裁|地缘|伊朗|以色列|中东/i.test(text)) return "避险升温";
+  if(/Polymarket|预测|赔率/i.test(text)) return "看预期差";
+  return "影响风险偏好";
+}
+function radarScore(n,assets,dir){
+  const text=radarText(n);
+  let s=n.source==="BWE TradFi"?58:(n.source==="JIN10 TG"?52:44);
+  if(/FOMC|美联储|鲍威尔|CPI|PCE|PPI|非农|就业|EIA|OPEC|NVDA|NVIDIA|英伟达|战争|袭击|制裁|关税|财报/i.test(text)) s+=18;
+  if(/突发|快讯|breaking|独家|宣布|决定|超预期|低于预期|高于预期/i.test(text)) s+=10;
+  if(/传闻|据悉|考虑|可能|预计/i.test(text)) s-=5;
+  if(/观点|复盘|午间|早盘|收评|日报|周报|整理|汇总/i.test(text)) s-=14;
+  s+=Math.min(12,assets.length*3);
+  s+=Math.min(10,(dir.bull.length+dir.bear.length)*2);
+  const age=Date.now()-Number(n.ts||n.receivedAt||n.storedAt||0);
+  if(isFinite(age)&&age<30*60*1000) s+=8;
+  else if(isFinite(age)&&age>12*60*60*1000) s-=8;
+  return Math.max(0,Math.min(99,Math.round(s)));
+}
+function radarAnalyzeNews(n){
+  const text=radarText(n);
+  const assets=radarAssets(text,n.tags);
+  const dir=radarDirection(text,assets);
+  const score=radarScore(n,assets,dir);
+  const direction=dir.bull.length&&dir.bear.length?"多空都有":(dir.bull.length?"偏利好":(dir.bear.length?"偏利空":"中性观察"));
+  const action=score>=82?"先看价格确认":(score>=66?"值得盯盘":"只做背景");
+  return {news:n,assets,dir,score,direction,reason:radarReason(text),action};
+}
+function radarScoreClass(score){
+  return score>=82?"hot":(score>=66?"mid":"low");
+}
+function radarAssetRank(items){
+  const map=new Map();
+  items.forEach(x=>{
+    x.assets.forEach(asset=>{
+      const old=map.get(asset)||{asset,score:0,count:0,bull:0,bear:0,latest:0};
+      old.score+=x.score;
+      old.count++;
+      if(x.dir.bull.includes(asset)) old.bull++;
+      if(x.dir.bear.includes(asset)) old.bear++;
+      old.latest=Math.max(old.latest,Number(x.news.ts||x.news.receivedAt||x.news.storedAt||0));
+      map.set(asset,old);
+    });
+  });
+  return [...map.values()].sort((a,b)=>(b.score-a.score)||(b.latest-a.latest)).slice(0,8);
+}
+function radarSetStatus(text,kind){
+  const el=document.getElementById("radarStatus"), tx=document.getElementById("radarStatusText");
+  if(!el||!tx) return;
+  el.className="bwe-status "+(kind||"warn");
+  tx.textContent=text;
+}
+function renderOpportunityRadar(){
+  const nowBox=document.getElementById("radarNow"), assetsBox=document.getElementById("radarAssets"), feedBox=document.getElementById("radarFeed");
+  if(!nowBox||!assetsBox||!feedBox) return;
+  const analyzed=(NEWS_STORE||[]).slice(0,180).map(radarAnalyzeNews).filter(x=>x.assets.length||x.score>=60).sort((a,b)=>b.score-a.score);
+  const top=analyzed.slice(0,3);
+  const feed=analyzed.filter(x=>x.score>=55).slice(0,18);
+  const assets=radarAssetRank(analyzed);
+  radarSetStatus(analyzed.length?`${feed.length} 条高分`:"等待快讯",analyzed.length?"ok":"warn");
+  nowBox.innerHTML=top.length?top.map(x=>{
+    const src=`${x.news.source} · ${fmtNewsStoreTime(x.news)}`;
+    const line=`${x.direction} ${x.assets.slice(0,4).join(" / ")||"市场"} · ${x.reason}`;
+    return `<div class="radar-line"><div class="radar-score ${radarScoreClass(x.score)}">${x.score}</div><div><div class="radar-main">${esc(truncateText(x.news.title,72))}</div><div class="radar-sub">${esc(line)}<br>${esc(src)}</div></div></div>`;
+  }).join(""):'<div class="bwe-empty">暂无可判断的高影响新闻。</div>';
+  assetsBox.innerHTML=assets.length?assets.map(a=>{
+    const bias=a.bull>a.bear?["偏多","up"]:(a.bear>a.bull?["偏空","dn"]:(a.bull||a.bear?["分歧","flat"]:["观察","flat"]));
+    return `<div class="radar-asset"><b>${esc(a.asset)}<span class="radar-bias ${bias[1]}">${bias[0]}</span></b><small>${a.count} 条相关 · 热度 ${Math.round(a.score/a.count)}</small></div>`;
+  }).join(""):'<div class="bwe-empty">暂无标的聚合。</div>';
+  feedBox.innerHTML=feed.length?feed.map(x=>{
+    const open=x.news.url?`<a href="${esc(x.news.url)}" target="_blank" rel="noopener">原文</a>`:"";
+    const bull=x.dir.bull.length?x.dir.bull.join(" / "):"--";
+    const bear=x.dir.bear.length?x.dir.bear.join(" / "):"--";
+    return `<div class="trade-card"><div class="trade-head"><span class="bwe-source${newsSourceClass(x.news.source)}">${esc(x.news.source)}</span><span>${esc(fmtNewsStoreTime(x.news))}</span><span class="radar-score ${radarScoreClass(x.score)}">${x.score}</span>${open}</div><div class="trade-title">${esc(x.news.title)}</div><div class="trade-impact"><div class="trade-chip"><span>方向</span><b>${esc(x.direction)}</b></div><div class="trade-chip"><span>利好</span><b class="up">${esc(bull)}</b></div><div class="trade-chip"><span>利空</span><b class="dn">${esc(bear)}</b></div><div class="trade-chip"><span>追单</span><b>${esc(x.action)}</b></div></div></div>`;
+  }).join(""):'<div class="bwe-empty">暂无高分新闻。</div>';
 }
 const TG_FEEDS_URL="tg-feeds.json";
 function tgBackendUrl(){
@@ -1406,6 +1580,7 @@ function renderNewsStore(){
   const box=document.getElementById("newsStoreList"), count=document.getElementById("newsStoreCount");
   if(count) count.textContent=NEWS_STORE.length+" 条";
   setNewsStoreStatus(`本机保存 ${NEWS_STORE_DAYS}日`,"ok");
+  renderOpportunityRadar();
   if(!box) return;
   if(!NEWS_STORE.length){ box.innerHTML='<div class="bwe-empty">还没有保存的快讯。</div>'; renderMacroCalendar(); return; }
   const rows=NEWS_STORE.slice(0,NEWS_STORE_RENDER_LIMIT).map(n=>{
