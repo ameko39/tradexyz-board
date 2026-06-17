@@ -1,47 +1,59 @@
 # TradeXYZ Board Backend
 
-This backend makes TG refresh stable for the static dashboard.
+This is now a single Node service for the dashboard and APIs.
 
-It:
-- polls public Telegram pages for `BWEtradfi`, `jin10light`, and `PolyBeats_Bot`;
-- stores a 15-day JSON archive on disk;
-- exposes `GET /api/feeds`;
-- exposes `GET/POST /api/refresh` for fast latest-page refresh;
-- runs 15-day backfill in the background and also exposes `GET/POST /api/refresh?full=1` for manual full backfill;
-- supports CORS for the GitHub Pages frontend.
+It serves:
+- `GET /` and `GET /index.html` for the board UI;
+- `GET /api/feeds` for the stored 15-day TG archive;
+- `GET/POST /api/refresh` for latest TG refresh;
+- `GET/POST /api/refresh?full=1` for 15-day backfill;
+- `GET /api/yahoo/search`, `/api/yahoo/quote`, and `/api/yahoo/chart`.
+
+The browser uses the same origin automatically when the board is not hosted on GitHub Pages, so no `?backend=` parameter is needed after deploying this service.
 
 ## Local
 
+From the repo root:
+
 ```bash
 cd backend
+npm install
 node server.mjs
 ```
 
 Open:
 
 ```text
+http://127.0.0.1:8787/
 http://127.0.0.1:8787/api/health
 ```
 
-## Deploy
+If Telegram is blocked on your network, start with a proxy:
 
-Deploy this `backend` folder to Render, Railway, Fly.io, or a VPS.
+```bash
+HTTPS_PROXY=http://127.0.0.1:7897 HTTP_PROXY=http://127.0.0.1:7897 node server.mjs
+```
 
-Environment variables:
+## Stable Deploy
+
+Deploy the whole repository as one web service. Do not deploy only `backend/`, because the service also needs to serve `index.html`.
+
+Recommended environment variables:
 
 ```text
 PORT=8787
-CORS_ORIGIN=https://ameko39.github.io
+CORS_ORIGIN=*
 POLL_MS=60000
+LATEST_MAX_PAGES=4
 RETAIN_DAYS=15
 DATA_FILE=/data/tg-feeds-store.json
 ```
 
-After deployment, set this in the browser console on the dashboard:
+Use a persistent disk mounted at `/data`, otherwise the 15-day archive will be lost when the service restarts.
 
-```js
-localStorage.setItem("tradexyz-backend-url", "https://YOUR-BACKEND-DOMAIN");
-location.reload();
+Render is already configured by `render.yaml`:
+
+```text
+buildCommand: cd backend && npm ci
+startCommand: node backend/server.mjs
 ```
-
-The frontend will use the backend first and fall back to `tg-feeds.json` if the backend is unavailable.

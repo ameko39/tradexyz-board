@@ -1,16 +1,17 @@
 services:
   - type: web
-    name: tradexyz-board-backend
+    name: tradexyz-board
     env: node
-    rootDir: backend
     plan: starter
-    buildCommand: npm install
-    startCommand: npm start
+    buildCommand: cd backend && npm ci
+    startCommand: node backend/server.mjs
     envVars:
       - key: CORS_ORIGIN
-        value: https://ameko39.github.io
+        value: "*"
       - key: POLL_MS
         value: "60000"
+      - key: LATEST_MAX_PAGES
+        value: "4"
       - key: RETAIN_DAYS
         value: "15"
       - key: DATA_FILE

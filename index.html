@@ -341,7 +341,7 @@
   个股专属两列（均按北京时间，UTC+8 无夏令时）：<b>盘前</b> = 自当日 16:00 起的累计涨幅（含美股盘前 16:00–21:30 及盘中 21:30–04:00）；<b>夜盘</b> = 04:00–16:00 时段涨幅（美股盘后 + 隔夜延长时段）。两段在时间上拼成完整一天；进行中的时段实时累计，已结束的时段为固定值。大宗 / 指数为近 24h 连续交易品种，不适用盘前 / 夜盘，故只保留 24h / 12h。<br>
   覆盖：tradexyz(<code>xyz</code> dex)上全部标的，按资产类别分 个股 / 大宗商品 / 指数·ETF 三表；外汇(EUR/GBP/JPY/KRW/DXY)与加密噪音(QNT/PURRDAT)已剔除。任何新上标的若未归类，默认进「个股」表，不会漏。<br>
   Binance TradFi 合约：浏览器直连 <code>fapi.binance.com</code> 公共 USDⓈ-M Futures 行情接口读取 24h ticker 与 1h K 线；该区块只展示 Binance 合约行情，不与 trade.xyz / Hyperliquid 表混合。<br>
-  TG 快讯：GitHub Action 后台读取公开 Telegram 频道并生成 <code>tg-feeds.json</code> 快照，前端每 60s 读取本站快照；这是公开页读取，不是 Telegram 官方实时推送 API。<br>
+  TG 快讯：连接后端时，前端每 60s 调用后端 <code>/api/refresh</code> 抓取公开 Telegram 频道最新页；未配置后端时只能读取本站 <code>tg-feeds.json</code> 静态快照，不能实时同步。<br>
   15日快讯库：使用浏览器 <code>localStorage</code> 本机保存 BWE TradFi TG、金十 TG 与 PolyBeats TG 收到的快讯，自动删除 15 天前的数据；不同设备/浏览器之间不会同步。消息时间优先使用 TG 原始发布时间并统一转为北京时间 UTC+8，缺失时才用首次入库时间兜底。<br>
   本周市场关注：仅基于本机收到的 BWE TradFi 与金十快讯做本地规则筛选，不上传到外部 AI 服务；筛选结果是交易日历参考，不等同于官方财经日历。<br>
   交易员宏观日历：浏览器读取金十公开日历 JSON，按本地规则二次筛选高星级和高交易相关事件；低重要度日历项会被忽略。<br>
@@ -562,6 +562,7 @@ const BWE_REFRESH_MS=60*1000;
 const BWE_MAX_ITEMS=80;
 let BWE_ITEMS=[];
 const BEIJING_TZ="Asia/Shanghai";
+let TG_REFRESHING=false;
 
 function esc(s){
   return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -975,7 +976,14 @@ function tgBackendUrl(){
       localStorage.setItem("tradexyz-backend-url",clean);
       return clean;
     }
-    return String(localStorage.getItem("tradexyz-backend-url")||"").replace(/\/+$/,"");
+    const stored=String(localStorage.getItem("tradexyz-backend-url")||"").replace(/\/+$/,"");
+    if(stored) return stored;
+    const host=location.hostname;
+    const isGithubPages=/\.github\.io$/i.test(host);
+    if(location.protocol.indexOf("http")===0 && !isGithubPages){
+      return location.origin.replace(/\/+$/,"");
+    }
+    return "";
   }catch(e){ return ""; }
 }
 async function fetchTgFeedData(force){
@@ -986,16 +994,19 @@ async function fetchTgFeedData(force){
       const r=await fetch(endpoint,{cache:"no-store",method:force?"POST":"GET"});
       if(!r.ok) throw new Error(`backend HTTP ${r.status}`);
       const data=await r.json();
-      data.__sourceLabel=force?"后端刷新":"后端";
+      data.__sourceLabel=force?"后端实时刷新":"后端同步";
+      data.__realtime=true;
       return data;
     }catch(e){
-      console.warn("TG backend unavailable, using snapshot",e);
+      console.warn("TG backend unavailable",e);
+      throw new Error(`后端连接失败：${e.message||e}`);
     }
   }
   const r=await fetch(`${TG_FEEDS_URL}${force?`?v=${Date.now()}`:""}`,{cache:"no-store"});
   if(!r.ok) throw new Error(`snapshot HTTP ${r.status}`);
   const data=await r.json();
-  data.__sourceLabel="快照";
+  data.__sourceLabel="未连接后端·快照";
+  data.__realtime=false;
   return data;
 }
 function mergeFeedItems(snapshotItems,currentItems,max,keyFn){
@@ -1008,50 +1019,56 @@ function mergeFeedItems(snapshotItems,currentItems,max,keyFn){
 }
 function tgSnapshotStatus(data,count){
   const ms=Date.parse(data&&data.updatedAt||"");
-  const src=data&&data.__sourceLabel?data.__sourceLabel:"快照";
+  const src=data&&data.__sourceLabel?data.__sourceLabel:"未连接后端·快照";
   const label=isFinite(ms)?`${src} ${fmtBeijingClock(ms)}`:`${src}已更新`;
   return count?label:"暂无数据";
 }
 async function refreshTgFeeds(force){
-  setBweStatus("刷新中","warn");
-  setJin10Status("刷新中","warn");
-  setPolyStatus("刷新中","warn");
+  if(TG_REFRESHING) return;
+  TG_REFRESHING=true;
+  const hasBackend=!!tgBackendUrl();
+  setBweStatus(hasBackend?"后端刷新中":"未连接后端","warn");
+  setJin10Status(hasBackend?"后端刷新中":"未连接后端","warn");
+  setPolyStatus(hasBackend?"后端刷新中":"未连接后端","warn");
   try{
     const data=await fetchTgFeedData(force);
     const ch=data.channels||{};
+    const statusKind=data.__realtime?"ok":"warn";
     if(ch.bwe&&Array.isArray(ch.bwe.items)){
       BWE_ITEMS=mergeFeedItems(ch.bwe.items,BWE_ITEMS,BWE_MAX_ITEMS,x=>x&&x.id);
       saveBweCache();
       renderBwe();
       addNewsItems(ch.bwe.items.map(newsFromBwe),false);
-      setBweStatus(tgSnapshotStatus(data,BWE_ITEMS.length),BWE_ITEMS.length?"ok":"warn");
+      setBweStatus(tgSnapshotStatus(data,BWE_ITEMS.length),BWE_ITEMS.length?statusKind:"warn");
     }
     if(ch.jin10&&Array.isArray(ch.jin10.items)){
       JIN10_ITEMS=mergeFeedItems(ch.jin10.items,JIN10_ITEMS,JIN10_MAX_ITEMS,x=>x&&x.id);
       saveJin10Cache();
       renderJin10();
       addNewsItems(ch.jin10.items.map(newsFromJin10),false);
-      setJin10Status(tgSnapshotStatus(data,JIN10_ITEMS.length),JIN10_ITEMS.length?"ok":"warn");
+      setJin10Status(tgSnapshotStatus(data,JIN10_ITEMS.length),JIN10_ITEMS.length?statusKind:"warn");
     }
     if(ch.poly&&Array.isArray(ch.poly.items)){
       POLY_ITEMS=mergeFeedItems(ch.poly.items,POLY_ITEMS,POLY_MAX_ITEMS,x=>x&&x.id);
       savePolyCache();
       renderPoly();
       addNewsItems(ch.poly.items.map(newsFromPoly),false);
-      setPolyStatus(tgSnapshotStatus(data,POLY_ITEMS.length),POLY_ITEMS.length?"ok":"warn");
+      setPolyStatus(tgSnapshotStatus(data,POLY_ITEMS.length),POLY_ITEMS.length?statusKind:"warn");
     }
     renderNewsStore();
     renderMacroCalendar();
   }catch(e){
-    console.warn("TG snapshot fetch failed",e);
+    console.warn("TG feed fetch failed",e);
     const fallback=BWE_ITEMS.length||JIN10_ITEMS.length||POLY_ITEMS.length;
-    const text=fallback?"本机缓存":"快照失败";
+    const text=fallback?`${e.message||"后端失败"}，保留本机缓存`:(e.message||"后端失败");
     setBweStatus(text,fallback?"warn":"bad");
     setJin10Status(text,fallback?"warn":"bad");
     setPolyStatus(text,fallback?"warn":"bad");
     renderBwe();
     renderJin10();
     renderPoly();
+  }finally{
+    TG_REFRESHING=false;
   }
 }
 const JIN10_CAL_BASE="https://cdn-rili.jin10.com/web_data";
@@ -2089,10 +2106,10 @@ loadPolyCache();
 renderPoly();
 syncNewsStoreFromFeeds();
 loadJin10Calendar();
-refreshTgFeeds();
+refreshTgFeeds(true);
 load();
 setInterval(load,REFRESH_MS);
-setInterval(()=>refreshTgFeeds(false),BWE_REFRESH_MS);
+setInterval(()=>refreshTgFeeds(true),BWE_REFRESH_MS);
 setInterval(tick,1000);
 </script>
 </body>

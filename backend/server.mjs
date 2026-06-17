@@ -1,21 +1,29 @@
 import http from "node:http";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
-import { dirname, resolve } from "node:path";
+import { dirname, extname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { ProxyAgent, setGlobalDispatcher } from "undici";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PORT = Number(process.env.PORT || 8787);
+const STATIC_DIR = resolve(process.env.STATIC_DIR || `${__dirname}/..`);
 const DATA_FILE = resolve(process.env.DATA_FILE || `${__dirname}/data/tg-feeds-store.json`);
 const RETAIN_DAYS = Number(process.env.RETAIN_DAYS || 15);
 const RETAIN_MS = RETAIN_DAYS * 24 * 60 * 60 * 1000;
 const POLL_MS = Number(process.env.POLL_MS || 60_000);
+const LATEST_MAX_PAGES = Number(process.env.LATEST_MAX_PAGES || 4);
 const CORS_ORIGIN = process.env.CORS_ORIGIN || "*";
 const CHANNELS = [
   { key: "bwe", channel: "BWEtradfi", archiveMax: 5000, maxPages: 160 },
   { key: "jin10", channel: "jin10light", archiveMax: 8000, maxPages: 260 },
   { key: "poly", channel: "PolyBeats_Bot", archiveMax: 5000, maxPages: 180 }
 ];
+const STATIC_FILES = new Set(["/", "/index.html", "/tg-feeds.json", "/jin10-calendar.json"]);
+const MIME_TYPES = {
+  ".html": "text/html; charset=utf-8",
+  ".json": "application/json; charset=utf-8",
+  ".txt": "text/plain; charset=utf-8"
+};
 
 const PROXY_URL = process.env.HTTPS_PROXY || process.env.HTTP_PROXY || "";
 if (PROXY_URL) {
@@ -244,7 +252,8 @@ async function fetchChannelArchive(cfg, previous, opts = {}) {
   let overlapped = false;
   let reachedCutoff = false;
   let pages = 0;
-  for (; pages < cfg.maxPages; pages++) {
+  const maxPages = fullBackfill ? cfg.maxPages : Math.min(cfg.maxPages, LATEST_MAX_PAGES);
+  for (; pages < maxPages; pages++) {
     const url = before ? `https://t.me/s/${cfg.channel}?before=${before}` : `https://t.me/s/${cfg.channel}`;
     const html = await fetchText(url);
     const pageItems = parseTelegramHtml(html, cfg, previous);
@@ -356,6 +365,19 @@ function corsHeaders() {
 function sendJson(res, status, data) {
   res.writeHead(status, { "Content-Type": "application/json; charset=utf-8", ...corsHeaders() });
   res.end(JSON.stringify(data));
+}
+
+async function sendStatic(reqPath, res) {
+  const path = reqPath === "/" ? "/index.html" : reqPath;
+  if (!STATIC_FILES.has(path)) return false;
+  const file = resolve(STATIC_DIR, path.slice(1));
+  const body = await readFile(file);
+  res.writeHead(200, {
+    "Content-Type": MIME_TYPES[extname(file).toLowerCase()] || "application/octet-stream",
+    "Cache-Control": path === "/index.html" ? "no-store" : "no-cache"
+  });
+  res.end(body);
+  return true;
 }
 
 function publicFeeds() {
@@ -634,6 +656,9 @@ const server = http.createServer(async (req, res) => {
       const range = url.searchParams.get("range") || "1d";
       const interval = url.searchParams.get("interval") || "5m";
       sendJson(res, 200, await yahooChart(symbol, range, interval));
+      return;
+    }
+    if (req.method === "GET" && await sendStatic(url.pathname, res)) {
       return;
     }
     sendJson(res, 404, { error: "not found" });
