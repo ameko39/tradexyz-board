@@ -1134,6 +1134,7 @@ function renderOpportunityRadar(opts={}){
   if(!opts.skipAiFetch) refreshAiNewsAnalysisForRadar(sourceNews.slice(0,36));
 }
 const TG_FEEDS_URL="tg-feeds.json";
+const DEFAULT_BACKEND_URL="https://tradexyz-news.173923359p.workers.dev";
 function tgBackendUrl(){
   try{
     const fromUrl=new URLSearchParams(location.search).get("backend");
@@ -1146,10 +1147,11 @@ function tgBackendUrl(){
     if(stored) return stored;
     const host=location.hostname;
     const isGithubPages=/\.github\.io$/i.test(host);
+    if(isGithubPages) return DEFAULT_BACKEND_URL;
     if(location.protocol.indexOf("http")===0 && !isGithubPages){
       return location.origin.replace(/\/+$/,"");
     }
-    return "";
+    return DEFAULT_BACKEND_URL;
   }catch(e){ return ""; }
 }
 async function fetchTgFeedData(force){
