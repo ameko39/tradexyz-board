@@ -1402,6 +1402,40 @@ function macroSimpleTitle(item){
   const title=String(item&&item.title||"").replace(/^美国\s*/,"").replace(/^欧元区\s*/,"").trim();
   return macroShortLine(title||"市场事件",28);
 }
+function macroFocusDateKey(e){
+  const text=[e&&e.title,e&&e.country,(e&&e.tags||[]).join(" ")].join(" ");
+  const time=String(e&&e.time||"");
+  const h=Number((time.match(/^(\d{1,2}):/)||[])[1]);
+  if(Number.isFinite(h)&&h<6&&/(美国|FOMC|美联储|Fed|沃什|利率决定)/i.test(text)){
+    return addDaysKey(e.dateKey,-1);
+  }
+  return e.dateKey;
+}
+function macroDisplayTime(e,focusDateKey){
+  const time=String(e&&e.time||"--");
+  if(e&&e.dateKey!==focusDateKey&&time!=="--") return `明晨 ${time}`;
+  return time;
+}
+function macroSimpleCalTitle(e){
+  const title=String(e&&e.title||"");
+  if(/美联储FOMC公布利率决议|美联储利率决定|FOMC/i.test(title)) return "FOMC利率决议";
+  if(/经济预期摘要|点阵图/i.test(title)) return "SEP/点阵图";
+  if(/沃什|新闻发布会|记者会/i.test(title)) return "沃什发布会";
+  if(/储备余额利率/i.test(title)) return "美联储利率细项";
+  return macroSimpleTitle(e);
+}
+function macroDedupeCalItems(items){
+  const seen=new Set();
+  return (items||[]).filter(e=>{
+    let key=`${e.dateKey}|${e.time}|${e.title}`;
+    if(/FOMC|美联储.*利率决定|经济预期摘要/i.test(e.title)) key=`${e.dateKey}|${e.time}|FOMC`;
+    if(/沃什|新闻发布会|记者会/i.test(e.title)) key=`${e.dateKey}|${e.time}|FED-PRESSER`;
+    if(/储备余额利率/i.test(e.title)) return false;
+    if(seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
 function buildWeeklyMainlines(){
   const today=beijingDateKey();
   const start=weekStartDateKey(today);
@@ -1409,12 +1443,14 @@ function buildWeeklyMainlines(){
   const days=[];
   for(let i=0;i<7;i++){
     const dateKey=addDaysKey(start,i);
-    const calItems=(JIN10_CAL_MAIN_ITEMS||[]).filter(e=>e.dateKey===dateKey).slice(0,3);
+    const calItems=macroDedupeCalItems((JIN10_CAL_MAIN_ITEMS||[])
+      .filter(e=>macroFocusDateKey(e)===dateKey)
+      .sort((a,b)=>(b.score-a.score)||a.time.localeCompare(b.time))).slice(0,3);
     const newsItems=news.filter(e=>e.dateKey===dateKey).slice(0,1);
     const rows=[
       ...calItems.map(e=>({
-        time:e.time||"--",
-        title:macroSimpleTitle(e),
+        time:macroDisplayTime(e,dateKey),
+        title:macroSimpleCalTitle(e),
         assets:macroAssetsFromText([e.title,e.impact,e.signal,(e.tags||[]).join(" ")].join(" "),e.tags)
       })),
       ...newsItems.map(e=>({
