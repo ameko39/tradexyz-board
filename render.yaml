@@ -16,6 +16,12 @@ services:
         value: "15"
       - key: DATA_FILE
         value: /data/tg-feeds-store.json
+      - key: AI_CAL_FILE
+        value: /data/ai-calendar.json
+      - key: OPENAI_MODEL
+        value: gpt-4.1-mini
+      - key: OPENAI_API_KEY
+        sync: false
     disk:
       name: tg-feed-data
       mountPath: /data

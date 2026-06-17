@@ -283,7 +283,7 @@
       <h2>本周市场关注 <span class="macro-sub">几点 · 什么事 · 影响谁</span></h2>
       <div id="macroStatus" class="bwe-status ok"><span class="bwe-dot"></span><span id="macroStatusText">等待快讯</span></div>
       <div class="bwe-actions">
-        <button class="mini-btn" onclick="renderMacroCalendar()">刷新</button>
+        <button class="mini-btn" onclick="loadJin10Calendar(true)">刷新</button>
       </div>
     </div>
     <div id="macroTimeline" class="macro-timeline"><div class="macro-empty">等待金十日历与 BWE / 金十快讯入库后自动生成。</div></div>
@@ -988,6 +988,7 @@ async function refreshTgFeeds(force){
 const JIN10_CAL_BASE="https://cdn-rili.jin10.com/web_data";
 let JIN10_CAL_ITEMS=[];
 let JIN10_CAL_MAIN_ITEMS=[];
+let AI_WEEKLY_CALENDAR=null;
 function jin10CalSetStatus(text,kind){
   const el=document.getElementById("jin10CalStatus"), tx=document.getElementById("jin10CalStatusText");
   if(!el||!tx) return;
@@ -1050,6 +1051,15 @@ async function fetchJin10Snapshot(force){
   if(!r.ok) throw new Error(`snapshot HTTP ${r.status}`);
   const data=await r.json();
   return data&&Array.isArray(data.rows)?data:null;
+}
+async function fetchAiWeeklyCalendar(force){
+  const backend=tgBackendUrl();
+  if(!backend) return null;
+  const endpoint=force?`${backend}/api/ai-calendar?refresh_view=${Date.now()}`:`${backend}/api/ai-calendar`;
+  const r=await fetchWithTimeout(endpoint,{cache:"no-store"},9000);
+  if(!r.ok) throw new Error(`ai calendar HTTP ${r.status}`);
+  const data=await r.json();
+  return data&&Array.isArray(data.days)?data:null;
 }
 function collectJin10Rows(node,kind,dateHint,out){
   if(!node) return;
@@ -1172,6 +1182,7 @@ async function loadJin10Calendar(force){
   const uniqWeeks=weeks.filter((w,i,a)=>a.findIndex(x=>x.year===w.year&&x.week===w.week)===i);
   const rows=[];
   try{
+    try{ AI_WEEKLY_CALENDAR=await fetchAiWeeklyCalendar(force); }catch(e){ AI_WEEKLY_CALENDAR=null; }
     let snapshot=null;
     try{ snapshot=await fetchJin10Snapshot(force); }catch(e){}
     if(snapshot&&snapshot.rows.length){
@@ -1470,12 +1481,32 @@ function buildWeeklyMainlines(){
   }
   return days;
 }
+function renderAiWeeklyCalendar(data){
+  const box=document.getElementById("macroTimeline");
+  if(!box||!data||data.status!=="ok"||!Array.isArray(data.days)||!data.days.length) return false;
+  const active=data.days.filter(d=>d.events&&d.events.length).length;
+  const updated=data.updatedAt?fmtBeijingClock(Date.parse(data.updatedAt)):"";
+  macroSetStatus(`AI整理 ${updated}`,active?"ok":"warn");
+  box.innerHTML=data.days.map(d=>{
+    const st=macroStatusForDate(d.dateKey);
+    const rows=(d.events&&d.events.length?d.events:[{time:"--",event:"无高优先级",assets:[],reason:""}]).slice(0,3);
+    const title=rows[0]?.event||d.summary||"无高优先级";
+    const assets=uniqueTags(rows.flatMap(r=>r.assets||[])).slice(0,5).join(" / ");
+    const descHtml=`<div class="macro-desc">${rows.map(r=>`<div class="macro-row"><span class="macro-time">${esc(r.time||"--")}</span>${esc(r.event||"市场事件")}${r.reason?` · ${esc(r.reason)}`:""}</div>`).join("")}</div>`;
+    const impact=assets?`影响：${assets}`:"";
+    return `<div class="macro-event ${st.cls}"><span class="macro-dot"></span><div class="macro-box"><div class="macro-date"><span>${esc(prettyDateKey(d.dateKey))}</span><span class="macro-state">${esc(st.text)}</span></div><div class="macro-title">${esc(title)}</div>${descHtml}<div class="macro-impact">${esc(impact)}</div></div></div>`;
+  }).join("");
+  box.innerHTML=`<div class="macro-rail">${box.innerHTML}</div>`;
+  return true;
+}
 function renderMacroCalendar(){
   const box=document.getElementById("macroTimeline");
   if(!box) return;
+  if(renderAiWeeklyCalendar(AI_WEEKLY_CALENDAR)) return;
   const events=buildWeeklyMainlines();
   const active=events.filter(e=>e.score>0).length;
-  macroSetStatus(active?`本周 ${active} 天有主线`:"等待数据",active?"ok":"warn");
+  const aiStatus=AI_WEEKLY_CALENDAR&&AI_WEEKLY_CALENDAR.status&&AI_WEEKLY_CALENDAR.status!=="ok"?`AI${AI_WEEKLY_CALENDAR.status==="not_configured"?"未配置":"失败"} · `:"";
+  macroSetStatus(active?`${aiStatus}本地 ${active} 天有主线`:`${aiStatus}等待数据`,active?"warn":"warn");
   box.innerHTML=events.map(e=>{
     const st=macroStatusForDate(e.dateKey);
     const rows=e.rows&&e.rows.length?e.rows:[{time:"--",title:"无高优先级",assets:""}];
