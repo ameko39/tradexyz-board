@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-06-18T18:18:15.520Z",
+  "updatedAt": "2026-06-18T20:41:39.161Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6239",
+          "url": "https://t.me/BWEtradfi/6239",
+          "title": "*英特尔任命前SK海力士首席执行官李锡熙为英特尔代工业务执行副总裁",
+          "body": "*INTEL APPOINTS FORMER SK HYNIX CEO SEOK-HEE LEE AS EVP OF INTEL FOUNDRY $INTC",
+          "tags": [],
+          "ts": 1781814751000,
+          "time": "04:32:31",
+          "receivedAt": 1781815279468,
+          "receivedTime": true
+        },
+        {
+          "id": "6238",
+          "url": "https://t.me/BWEtradfi/6238",
+          "title": "DB: 标准普尔500指数收盘上涨1.2%，纳斯达克指数上涨2%",
+          "body": "DB: *S&P 500 CLOSES UP 1.2%, NASDAQ UP 2%",
+          "tags": [],
+          "ts": 1781812813000,
+          "time": "04:00:13",
+          "receivedAt": 1781815279468,
+          "receivedTime": true
+        },
         {
           "id": "6237",
           "url": "https://t.me/BWEtradfi/6237",
@@ -2850,101 +2872,84 @@
           "time": "08:00:24",
           "receivedAt": 1781669681871,
           "receivedTime": true
-        },
-        {
-          "id": "5980",
-          "url": "https://t.me/BWEtradfi/5980",
-          "title": "消息人士称，QUANTINUUM 上调美国首次公开募股价格至每股 60 美元，筹集 16.8 亿美元",
-          "body": "*QUANTINUUM PRICES UPSIZED US IPO AT $60/SHARE TO RAISE $1.68 BILLION, SOURCE SAYS",
-          "tags": [],
-          "ts": 1780518898000,
-          "time": "04:34:58",
-          "receivedAt": 1781669681871,
-          "receivedTime": true
-        },
-        {
-          "id": "5979",
-          "url": "https://t.me/BWEtradfi/5979",
-          "title": "特朗普：试图将霍尔木兹海峡开放问题与黎巴嫩敌对行动区分开来",
-          "body": "*TRUMP: TRYING TO SEPARATE ISSUE OF OPENING HORMUZ STRAIT AND HOSTILITIES IN LEBANON",
-          "tags": [],
-          "ts": 1780518280000,
-          "time": "04:24:40",
-          "receivedAt": 1781669682066,
-          "receivedTime": true
-        },
-        {
-          "id": "5978",
-          "url": "https://t.me/BWEtradfi/5978",
-          "title": "*特朗普：伊朗“理论上”即将签署文件",
-          "body": "*TRUMP: IRAN CLOSE TO SIGNING PAPER 'IN THEORY'",
-          "tags": [],
-          "ts": 1780517992000,
-          "time": "04:19:52",
-          "receivedAt": 1781669682066,
-          "receivedTime": true
-        },
-        {
-          "id": "5977",
-          "url": "https://t.me/BWEtradfi/5977",
-          "title": "特朗普：伊朗若签署协议，将同意放弃核武器",
-          "body": "*TRUMP: IRAN WILL AGREE TO NO NUCLEAR WEAPON IF THEY SIGN *TRUMP ON IRAN: THEY ARE CLOSE TO SIGNING PAPERS 特朗普谈伊朗：他们即将签署文件",
-          "tags": [],
-          "ts": 1780517973000,
-          "time": "04:19:33",
-          "receivedAt": 1781669682066,
-          "receivedTime": true
-        },
-        {
-          "id": "5976",
-          "url": "https://t.me/BWEtradfi/5976",
-          "title": "*特朗普谈伊朗问题：我们还可以再撑两到三周",
-          "body": "*TRUMP ON IRAN: WE COULD GO ANOTHER TWO, THREE WEEKS",
-          "tags": [],
-          "ts": 1780517903000,
-          "time": "04:18:23",
-          "receivedAt": 1781669682066,
-          "receivedTime": true
-        },
-        {
-          "id": "5975",
-          "url": "https://t.me/BWEtradfi/5975",
-          "title": "特朗普谈伊朗：宁愿不“抹去”伊朗",
-          "body": "*TRUMP ON IRAN: WOULD RATHER NOT WIPE IRAN OUT",
-          "tags": [],
-          "ts": 1780517876000,
-          "time": "04:17:56",
-          "receivedAt": 1781669682066,
-          "receivedTime": true
-        },
-        {
-          "id": "5974",
-          "url": "https://t.me/BWEtradfi/5974",
-          "title": "*特朗普：我们对伊朗进行了重击",
-          "body": "*TRUMP: WE HIT IRAN PRETTY HARD *TRUMP ON IRAN: NEGOTIATIONS GOING WELL *特朗普谈伊朗：谈判进展顺利",
-          "tags": [],
-          "ts": 1780517601000,
-          "time": "04:13:21",
-          "receivedAt": 1781669682066,
-          "receivedTime": true
-        },
-        {
-          "id": "5973",
-          "url": "https://t.me/BWEtradfi/5973",
-          "title": "DB: 标准普尔500指数收跌0.7%，纳斯达克指数下跌0.9%",
-          "body": "DB: *S&P 500 CLOSES 0.7% LOWER, NASDAQ FALLS 0.9%",
-          "tags": [],
-          "ts": 1780516813000,
-          "time": "04:00:13",
-          "receivedAt": 1781669682066,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "211800",
+          "url": "https://t.me/jin10light/211800",
+          "title": "穆迪授予SpaceX Baa1评级，属投资级，前景展望稳定。",
+          "body": "#SpaceX #Baa1",
+          "tags": [
+            "#SpaceX",
+            "#Baa1"
+          ],
+          "ts": 1781813320000,
+          "time": "04:08:40",
+          "receivedAt": 1781815280418,
+          "receivedTime": true
+        },
+        {
+          "id": "211799",
+          "url": "https://t.me/jin10light/211799",
+          "title": "美股收盘：三大股指集体收涨 SpaceX跌3.5%",
+          "body": "6月19日讯，美股周四收盘，道指初步收涨0.14%，标普500指数涨1.09%，纳指涨1.91%。 SpaceX(SPCX.O)收跌3.56%，盘中一度跌10%。 半导体板块全天维持强势，迈威尔科技(MRVL.O)涨7.27%，英特尔(INTC.O)涨10.64%，美光科技(MU.O)涨8.7%。 纳斯达克中国金龙指数跌0.89%。 #美股 #SpaceX",
+          "tags": [
+            "#美股",
+            "#SpaceX"
+          ],
+          "ts": 1781812960000,
+          "time": "04:02:40",
+          "receivedAt": 1781815280418,
+          "receivedTime": true
+        },
+        {
+          "id": "211798",
+          "url": "https://t.me/jin10light/211798",
+          "title": "纳指尾盘涨幅扩大至2%。",
+          "body": "#纳斯达克指数 #上涨",
+          "tags": [
+            "#纳斯达克指数",
+            "#上涨"
+          ],
+          "ts": 1781812360000,
+          "time": "03:52:40",
+          "receivedAt": 1781815280418,
+          "receivedTime": true
+        },
+        {
+          "id": "211797",
+          "url": "https://t.me/jin10light/211797",
+          "title": "美元兑日元USD/JPY短线一度下挫约80点至160.94，现回升至161.53。",
+          "body": "#美元 #日元 #USD /JPY",
+          "tags": [
+            "#美元",
+            "#日元",
+            "#USD"
+          ],
+          "ts": 1781811222000,
+          "time": "03:33:42",
+          "receivedAt": 1781815280418,
+          "receivedTime": true
+        },
+        {
+          "id": "211796",
+          "url": "https://t.me/jin10light/211796",
+          "title": "布伦特原油日内涨超1%，现报79.32美元/桶。",
+          "body": "WTI原油现接近平盘。 #布伦特原油 #WTI原油",
+          "tags": [
+            "#布伦特原油",
+            "#WTI原油"
+          ],
+          "ts": 1781807440000,
+          "time": "02:30:40",
+          "receivedAt": 1781815280418,
+          "receivedTime": true
+        },
         {
           "id": "211795",
           "url": "https://t.me/jin10light/211795",
@@ -19965,68 +19970,6 @@
           "ts": 1781567081000,
           "time": "07:44:41",
           "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210600",
-          "url": "https://t.me/jin10light/210600",
-          "title": "美股AI交易回归，半导体板块普涨，四大存储巨头齐创历史新高 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "body": "",
-          "tags": [],
-          "ts": 1781566720000,
-          "time": "07:38:40",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210599",
-          "url": "https://t.me/jin10light/210599",
-          "title": "美伊谅解备忘录将于周五正式签署，纳指大涨3.07%，SpaceX大涨近20% ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "body": "",
-          "tags": [],
-          "ts": 1781566480000,
-          "time": "07:34:40",
-          "receivedAt": 1781669687438,
-          "receivedTime": true
-        },
-        {
-          "id": "210598",
-          "url": "https://t.me/jin10light/210598",
-          "title": "今日重点关注的财经数据与事件：2026年6月16日 周二",
-          "body": "① 待定 中国信通院启动Token服务能力攀登计划 ② 待定 日本央行公布利率决议 ③ 09:30 中国70个大中城市住宅售价月报 ④ 10:00 中国5月社会消费品零售总额同比 ⑤ 10:00 中国5月规模以上工业增加值同比 ⑥ 10:00 国新办就国民经济运行情况举行新闻发布会 ⑦ 12:30 澳洲联储公布利率决议 ⑧ 13:30 澳洲联储主席布洛克召开新闻发布会 ⑨ 14:30 日本央行副行长内田真一召开新闻发布会 ⑩ 17:00 德国6月ZEW经济景气指数 ⑪ 17:00 欧元区6月ZEW经济景气指数 ⑫ 20:15 美国至5月30日当周ADP...",
-          "tags": [
-            "#中国",
-            "#日本央行",
-            "#美国"
-          ],
-          "ts": 1781563903000,
-          "time": "06:51:43",
-          "receivedAt": 1781669687438,
-          "receivedTime": true
-        },
-        {
-          "id": "210597",
-          "url": "https://t.me/jin10light/210597",
-          "title": "1. 国家发展改革委等部门发布开展重点行业节能降碳改造攻坚三年行动的通知，决定组织开展钢铁、电解铝、水泥、平板玻璃、炼油、乙烯、合成氨、甲醇、煤电等重点行业节能降碳改造攻坚三年行动。",
-          "body": "2. 据上海航运交易所数据，截至2026年6月15日，上海出口集装箱结算运价指数（欧洲航线）报2821.72点，与上期相比涨12.8%。 3. 据Mysteel最新调研结果：5月23日起山西炼焦煤矿山共计148座煤矿存在停产现象，产能合计17170万吨。 截至6月15日，总计复产煤矿数量97座，产能共计11590万吨；仍在停产煤矿共计51座，产能共计5580万吨。 最新结果显示，山西煤矿复产进程仍在延续，但仍有部分煤矿复产时间仍难以确定。 4. 马来西亚棕榈油局（MPOB）周一官网发布的通告显示，马来西亚核定的7月份毛棕榈油参考价为4346.79林吉特...",
-          "tags": [],
-          "ts": 1781562704000,
-          "time": "06:31:44",
-          "receivedAt": 1781669687438,
-          "receivedTime": true
-        },
-        {
-          "id": "210596",
-          "url": "https://t.me/jin10light/210596",
-          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少1.427吨，当前持仓量为1012.213吨。",
-          "body": "#黄金 #SPDR Gold Trust",
-          "tags": [
-            "#黄金",
-            "#SPDR"
-          ],
-          "ts": 1781562160000,
-          "time": "06:22:40",
-          "receivedAt": 1781669687438,
           "receivedTime": true
         }
       ],
