@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-06-19T22:15:15.690Z",
+  "updatedAt": "2026-06-19T23:16:25.370Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6248",
+          "url": "https://t.me/BWEtradfi/6248",
+          "title": "*特朗普特使维特科夫前往瑞士，为可能举行的伊朗问题会谈做准备 - Axios",
+          "body": "*TRUMP ENVOY WITKOFF HEADS TO SWITZERLAND AHEAD OF POTENTIAL IRAN TALKS - AXIOS *IRAN TALKS WERE PREVIOUSLY POSTPONED DUE TO ESCALATING CONFLICT BETWEEN ISRAEL AND HEZBOLLAH *NOT YET CLEAR IF THERE IS A NEW TIME HAS BEEN SET FOR THE TALKS *此前，由于以色列和真主党之间的冲突升级，伊朗问题会谈已被推迟。 *目前尚不清楚会谈是否已确定新的时间。",
+          "tags": [],
+          "ts": 1781909555000,
+          "time": "06:52:35",
+          "receivedAt": 1781910968644,
+          "receivedTime": true
+        },
         {
           "id": "6247",
           "url": "https://t.me/BWEtradfi/6247",
@@ -2806,20 +2817,9 @@
           "time": "20:30:14",
           "receivedAt": 1781669681871,
           "receivedTime": true
-        },
-        {
-          "id": "5994",
-          "url": "https://t.me/BWEtradfi/5994",
-          "title": "*美国已就收购人工智能巨头股份进行谈判：NOTUS",
-          "body": "*US HAS HELD TALKS ABOUT ACQUIRING SHARES IN AI GIANTS: NOTUS *SAM ALTMAN SPOKE ABOUT GOVERNMENT SHARES WITH TRUMP: NOTUS *DISCUSSIONS HAVE CENTERED ON HAVING THE FIRMS VOLUNTARILY CEDE THE SHARES TO THE GOVERNMENT, NOT SELLING *萨姆·奥特曼与特朗普讨论了政府持股事宜：NOTUS *讨论的重点在于让这些公司自愿将股份转让给政府，而不是出售股份。",
-          "tags": [],
-          "ts": 1780613707000,
-          "time": "06:55:07",
-          "receivedAt": 1781669681871,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
