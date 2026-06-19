@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-06-19T16:19:37.192Z",
+  "updatedAt": "2026-06-19T18:11:20.839Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6246",
+          "url": "https://t.me/BWEtradfi/6246",
+          "title": "特朗普：不认为Anthropic是国家安全威胁",
+          "body": "*TRUMP: DON'T VIEW ANTHROPIC AS NATIONAL SECURITY THREAT",
+          "tags": [],
+          "ts": 1781892655000,
+          "time": "02:10:55",
+          "receivedAt": 1781892665094,
+          "receivedTime": true
+        },
         {
           "id": "6245",
           "url": "https://t.me/BWEtradfi/6245",
@@ -2828,17 +2839,6 @@
           "time": "03:45:10",
           "receivedAt": 1781669681871,
           "receivedTime": true
-        },
-        {
-          "id": "5990",
-          "url": "https://t.me/BWEtradfi/5990",
-          "title": "*QUANTINUUM 以 68 美元开盘，IPO 价格为 60 美元",
-          "body": "*QUANTINUUM OPENS AT $68, IPO AT $60 $QNT",
-          "tags": [],
-          "ts": 1780594456000,
-          "time": "01:34:16",
-          "receivedAt": 1781669681871,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2846,6 +2846,79 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "212007",
+          "url": "https://t.me/jin10light/212007",
+          "title": "据国际文传电讯社：俄罗斯将从9月1日起对钻石征收8%的出口关税。",
+          "body": "#好的 #只有",
+          "tags": [
+            "#好的",
+            "#只有"
+          ],
+          "ts": 1781889761000,
+          "time": "01:22:41",
+          "receivedAt": 1781892665515,
+          "receivedTime": true
+        },
+        {
+          "id": "212006",
+          "url": "https://t.me/jin10light/212006",
+          "title": "据NBC新闻：美国总统特朗普周五早些时候与以色列进行了对话，要求他们同意与黎巴嫩真主党停火。",
+          "body": "#特朗普 #以色列 #黎巴嫩真主党",
+          "tags": [
+            "#特朗普",
+            "#以色列",
+            "#黎巴嫩真主党"
+          ],
+          "ts": 1781888920000,
+          "time": "01:08:40",
+          "receivedAt": 1781892665515,
+          "receivedTime": true
+        },
+        {
+          "id": "212005",
+          "url": "https://t.me/jin10light/212005",
+          "title": "民调：特朗普支持率维持于37%，美伊协议背景下民意仍对军事行动存分歧",
+          "body": "#特朗普 #美国 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1781888145000,
+          "time": "00:55:45",
+          "receivedAt": 1781892665515,
+          "receivedTime": true
+        },
+        {
+          "id": "212004",
+          "url": "https://t.me/jin10light/212004",
+          "title": "SpaceX单季运力占全球86%，马斯克称星舰量产后将超所有对手百倍",
+          "body": "#SpaceX #马斯克 #星舰",
+          "tags": [
+            "#SpaceX",
+            "#马斯克",
+            "#星舰"
+          ],
+          "ts": 1781886762000,
+          "time": "00:32:42",
+          "receivedAt": 1781892665515,
+          "receivedTime": true
+        },
+        {
+          "id": "212003",
+          "url": "https://t.me/jin10light/212003",
+          "title": "英媒：英国首相斯塔默将利用周末时间权衡去留",
+          "body": "6月20日讯，据《泰晤士报》获悉，在安迪·伯纳姆补选获胜后，面对来自内阁日益增长的压力，英国首相斯塔默正在权衡自己的去留。 斯塔默公开坚称他不会“走人”，并表示如果伯纳姆发起挑战并进行领导人竞选，他已准备好应战。 然而，私下里，接近斯塔默的消息人士表示，他意识到议会工党内部要求他下台的压力越来越大。 预计他将利用这个周末与家人共处，在决定是否继续抗争之前，仔细考量自己的处境。 #英国 #斯塔默",
+          "tags": [
+            "#英国",
+            "#斯塔默"
+          ],
+          "ts": 1781886524000,
+          "time": "00:28:44",
+          "receivedAt": 1781892665515,
+          "receivedTime": true
+        },
         {
           "id": "212002",
           "url": "https://t.me/jin10light/212002",
@@ -19838,80 +19911,6 @@
           ],
           "ts": 1781599965000,
           "time": "16:52:45",
-          "receivedAt": 1781669685248,
-          "receivedTime": true
-        },
-        {
-          "id": "210807",
-          "url": "https://t.me/jin10light/210807",
-          "title": "德国及欧元区6月ZEW经济景气指数将于十分钟后公布。",
-          "body": "#德国 #欧元区",
-          "tags": [
-            "#德国",
-            "#欧元区"
-          ],
-          "ts": 1781599901000,
-          "time": "16:51:41",
-          "receivedAt": 1781669685248,
-          "receivedTime": true
-        },
-        {
-          "id": "210806",
-          "url": "https://t.me/jin10light/210806",
-          "title": "花旗：AI推理需求仍紧，瓶颈正从芯片扩散至电力和数据中心",
-          "body": "#花旗 #AI 算力 #GPU",
-          "tags": [
-            "#花旗",
-            "#AI",
-            "#GPU"
-          ],
-          "ts": 1781599844000,
-          "time": "16:50:44",
-          "receivedAt": 1781669685248,
-          "receivedTime": true
-        },
-        {
-          "id": "210805",
-          "url": "https://t.me/jin10light/210805",
-          "title": "Redis创始人反驳「中国大模型靠蒸馏美国模型变强」论调：API答案不能一键复制前沿模型",
-          "body": "#Redis #Salvatore Sanfilippo #DeepSeek",
-          "tags": [
-            "#Redis",
-            "#Salvatore",
-            "#DeepSeek"
-          ],
-          "ts": 1781599664000,
-          "time": "16:47:44",
-          "receivedAt": 1781669685248,
-          "receivedTime": true
-        },
-        {
-          "id": "210804",
-          "url": "https://t.me/jin10light/210804",
-          "title": "美光科技盘前短时突破1121美元，创历史新高",
-          "body": "#美光科技 #高通 #希捷科技",
-          "tags": [
-            "#美光科技",
-            "#高通",
-            "#希捷科技"
-          ],
-          "ts": 1781599437000,
-          "time": "16:43:57",
-          "receivedAt": 1781669685248,
-          "receivedTime": true
-        },
-        {
-          "id": "210803",
-          "url": "https://t.me/jin10light/210803",
-          "title": "高盛：维持特斯拉「中性」评级，12个月目标价较现价低8.8%",
-          "body": "#特斯拉 #欧洲 #中国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#特斯拉",
-            "#欧洲",
-            "#中国"
-          ],
-          "ts": 1781599242000,
-          "time": "16:40:42",
           "receivedAt": 1781669685248,
           "receivedTime": true
         }
