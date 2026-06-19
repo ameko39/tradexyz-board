@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-06-19T20:02:59.766Z",
+  "updatedAt": "2026-06-19T21:17:34.043Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6247",
+          "url": "https://t.me/BWEtradfi/6247",
+          "title": "美国情报部门总结称，以色列可能继续袭击黎巴嫩 - 纽约时报",
+          "body": "*ISRAEL IS LIKELY TO CONTINUE ATTACKS IN LEBANON, U.S. INTELLIGENCE CONCLUDES - NYT",
+          "tags": [],
+          "ts": 1781902344000,
+          "time": "04:52:24",
+          "receivedAt": 1781903837647,
+          "receivedTime": true
+        },
         {
           "id": "6246",
           "url": "https://t.me/BWEtradfi/6246",
@@ -2804,17 +2815,6 @@
           "tags": [],
           "ts": 1780613707000,
           "time": "06:55:07",
-          "receivedAt": 1781669681871,
-          "receivedTime": true
-        },
-        {
-          "id": "5993",
-          "url": "https://t.me/BWEtradfi/5993",
-          "title": "*LULULEMON 第一季度每股收益 1.69 美元，与预期一致",
-          "body": "*LULULEMON 1Q EPS $1.69, EST. $1.69 *LULULEMON SEES 2Q EPS $1.76 TO $1.81, EST. $2.69 *LULULEMON ATHLETICA - Q1 AMERICAS NET REVENUE DECREASES 3%, DOWN 4% ON CONSTANT DOLLAR BASIS $LULU *LULULEMON 预计第二季度每股收益为 1.76 美元至 1.81 美元，与预期一致 *LULULEMON ATHLETICA - 第一季度美洲净收入下降 3%，按固定汇率计算下降 4% $LULU",
-          "tags": [],
-          "ts": 1780603525000,
-          "time": "04:05:25",
           "receivedAt": 1781669681871,
           "receivedTime": true
         }
