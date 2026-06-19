@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-06-18T22:33:38.979Z",
+  "updatedAt": "2026-06-19T00:13:23.219Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6241",
+          "url": "https://t.me/BWEtradfi/6241",
+          "title": "DB: *日本整体消费者价格指数可能同比上涨1.5%；预期上涨1.5%",
+          "body": "DB: *JAPAN MAY OVERALL CONSUMER PRICES RISE 1.5% Y/Y; EST. +1.5% *JAPAN MAY CORE CONSUMER PRICES RISE 1.4% Y/Y; EST. +1.4% *日本核心消费者价格指数可能同比上涨1.4%；预期上涨1.4%",
+          "tags": [],
+          "ts": 1781825419000,
+          "time": "07:30:19",
+          "receivedAt": 1781827989552,
+          "receivedTime": true
+        },
+        {
+          "id": "6240",
+          "url": "https://t.me/BWEtradfi/6240",
+          "title": "*特朗普：我的权力没有极限",
+          "body": "*TRUMP: NO LIMITS TO MY POWER *TRUMP: MOU IS PROBABLY UNCONDITIONAL SURRENDER *特朗普：这份谅解备忘录很可能就是无条件投降",
+          "tags": [],
+          "ts": 1781823849000,
+          "time": "07:04:09",
+          "receivedAt": 1781827989552,
+          "receivedTime": true
+        },
         {
           "id": "6239",
           "url": "https://t.me/BWEtradfi/6239",
@@ -2861,24 +2883,200 @@
           "time": "10:07:39",
           "receivedAt": 1781669681871,
           "receivedTime": true
-        },
-        {
-          "id": "5981",
-          "url": "https://t.me/BWEtradfi/5981",
-          "title": "特朗普告诉助手，除非美军遇袭身亡，否则他不会对伊朗恢复全面战争 - 华尔街日报",
-          "body": "*TRUMP TELLS AIDES HE WON'T RESUME ALL-OUT WAR WITH IRAN UNLESS U.S. TROOPS KILLED - WSJ",
-          "tags": [],
-          "ts": 1780531224000,
-          "time": "08:00:24",
-          "receivedAt": 1781669681871,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "211815",
+          "url": "https://t.me/jin10light/211815",
+          "title": "日韩股指高开，韩国KOSPI指数涨2.55%",
+          "body": "#日经225 #KOSPI #三星电子",
+          "tags": [
+            "#日经225",
+            "#KOSPI",
+            "#三星电子"
+          ],
+          "ts": 1781827421000,
+          "time": "08:03:41",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211814",
+          "url": "https://t.me/jin10light/211814",
+          "title": "日韩股指高开",
+          "body": "日经225指数6月19日（周五）开盘上涨372.55点，涨幅0.52%，报71426.04点。 韩国KOSPI指数6月19日（周五）开盘上涨231.44点，涨幅2.55%，报9295.28点。 三星电子股价上涨3%。 #韩国 #三星电子 #日经225",
+          "tags": [
+            "#韩国",
+            "#三星电子",
+            "#日经225"
+          ],
+          "ts": 1781827361000,
+          "time": "08:02:41",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211813",
+          "url": "https://t.me/jin10light/211813",
+          "title": "美股收盘三大股指普涨，半导体指数创新高，英特尔涨超10%",
+          "body": "#美股 #特朗普 #半导体 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美股",
+            "#特朗普",
+            "#半导体"
+          ],
+          "ts": 1781827180000,
+          "time": "07:59:40",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211812",
+          "url": "https://t.me/jin10light/211812",
+          "title": "Anthropic承诺与白宫展开更紧密合作，努力解决模型安全隐患",
+          "body": "#Anthropic #美国 #特朗普政府 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#Anthropic",
+            "#美国",
+            "#特朗普政府"
+          ],
+          "ts": 1781826643000,
+          "time": "07:50:43",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211811",
+          "url": "https://t.me/jin10light/211811",
+          "title": "标普授予SpaceX「BBB」信用评级，前景展望稳定",
+          "body": "#SPCX .O #SpaceX #标普",
+          "tags": [
+            "#SPCX",
+            "#SpaceX",
+            "#标普"
+          ],
+          "ts": 1781825981000,
+          "time": "07:39:41",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211810",
+          "url": "https://t.me/jin10light/211810",
+          "title": "美军：已解除对伊朗港口的海上封锁",
+          "body": "#美国 #伊朗",
+          "tags": [
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1781825621000,
+          "time": "07:33:41",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211809",
+          "url": "https://t.me/jin10light/211809",
+          "title": "日本5月核心CPI年率 1.4%，预期1.40%，前值1.40%。",
+          "body": "#日本 #CPI",
+          "tags": [
+            "#日本",
+            "#CPI"
+          ],
+          "ts": 1781825440000,
+          "time": "07:30:40",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211808",
+          "url": "https://t.me/jin10light/211808",
+          "title": "日本5月核心CPI年率将于十分钟后公布。",
+          "body": "#日本 #CPI",
+          "tags": [
+            "#日本",
+            "#CPI"
+          ],
+          "ts": 1781824900000,
+          "time": "07:21:40",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211807",
+          "url": "https://t.me/jin10light/211807",
+          "title": "中美股市今日休市 金银油交易提前结束",
+          "body": "6月19日讯，6月19日（今日），“端午节”遇上“六月节”，中美市场双双休市。 A股、港股、台股、美股均休市一日。 中国国内期货交易所全天不交易。 芝商所（CME）旗下贵金属、能源、外汇、股指、美债期货合约交易提前于北京时间20日01:00结束。 洲际交易所（ICE）旗下布伦特原油期货合约交易提前于北京时间20日01:30结束。 敬请各位投资者留意。 #中国 #A股 #美股 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#中国",
+            "#A股",
+            "#美股"
+          ],
+          "ts": 1781824780000,
+          "time": "07:19:40",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211806",
+          "url": "https://t.me/jin10light/211806",
+          "title": "国内新闻ï",
+          "body": "1.市场监管总局督导货拉拉落实反垄断合规整改。 2. 国家能源局：2026年5月份全社会用电量同比增长6.9%。 3. 商务部等8部门关于加快“人工智能+消费”发展的实施意见。 4. 国家金融监督管理总局发布关于银行业保险业人工智能安全开发应用的指导意见。 5. 国家发改委：自6月18日24时起，国内汽、柴油（标准品）价格每吨分别下调515元、495元。 6. 工信部等七部门联合印发《促进平台经济大中小企业协同发展行动方案（2026—2028年）》。 7. 商务部：6月20日零点起自澳大利亚进口牛肉将在现行适用关税税率基础上加征55%关税。 国际新闻ï...",
+          "tags": [
+            "#货拉拉",
+            "#SpaceX",
+            "#伊朗"
+          ],
+          "ts": 1781824304000,
+          "time": "07:11:44",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211805",
+          "url": "https://t.me/jin10light/211805",
+          "title": "英国6月Gfk消费者信心指数 -23，预期-24，前值-23。",
+          "body": "",
+          "tags": [],
+          "ts": 1781823161000,
+          "time": "06:52:41",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211804",
+          "url": "https://t.me/jin10light/211804",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日大增7.422吨，为2月24日以来最大增幅，当前持仓量为1020.491吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1781822920000,
+          "time": "06:48:40",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
+        {
+          "id": "211803",
+          "url": "https://t.me/jin10light/211803",
+          "title": "今日重点关注的财经数据与事件：2026年6月19日 周五",
+          "body": "① 待定 美伊首轮直接技术谈判在瑞士举行 ② 07:01 英国6月Gfk消费者信心指数 ③ 07:30 日本5月核心CPI年率 ④ 14:00 德国5月PPI月率 ⑤ 14:00 英国5月公共部门净借款 ⑥ 14:00 英国5月季调后零售销售月率 ⑦ 20:30 加拿大4月零售销售月率 #美国 #瑞士 #英国",
+          "tags": [
+            "#美国",
+            "#瑞士",
+            "#英国"
+          ],
+          "ts": 1781822501000,
+          "time": "06:41:41",
+          "receivedAt": 1781827989950,
+          "receivedTime": true
+        },
         {
           "id": "211802",
           "url": "https://t.me/jin10light/211802",
@@ -19783,196 +19981,6 @@
           ],
           "ts": 1781571161000,
           "time": "08:52:41",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210615",
-          "url": "https://t.me/jin10light/210615",
-          "title": "渣打预测UNI跑赢以太坊和比特币，2030年涨至100美元",
-          "body": "#UNI #DeFi #以太坊",
-          "tags": [
-            "#UNI",
-            "#DeFi",
-            "#以太坊"
-          ],
-          "ts": 1781571101000,
-          "time": "08:51:41",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210614",
-          "url": "https://t.me/jin10light/210614",
-          "title": "两市融资余额增加240.6亿元",
-          "body": "6月16日讯，截至6月15日，上交所融资余额报14617.67亿元，较前一交易日增加128.71亿元；深交所融资余额报14057.07亿元，较前一交易日增加111.89亿元；两市合计28674.74亿元，较前一交易日增加240.6亿元。 #上交所 #深交所 #融资余额",
-          "tags": [
-            "#上交所",
-            "#深交所",
-            "#融资余额"
-          ],
-          "ts": 1781570921000,
-          "time": "08:48:41",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210613",
-          "url": "https://t.me/jin10light/210613",
-          "title": "美国国会推动建立加密货币盗窃执法与协调任务组",
-          "body": "#美国 #BTC #DOJ",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#DOJ"
-          ],
-          "ts": 1781570805000,
-          "time": "08:46:45",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210612",
-          "url": "https://t.me/jin10light/210612",
-          "title": "加密恐慌指数回升至23，市场「极度恐慌」情绪小幅缓解",
-          "body": "#BTC #加密货币 #恐慌指数",
-          "tags": [
-            "#BTC",
-            "#加密货币",
-            "#恐慌指数"
-          ],
-          "ts": 1781570562000,
-          "time": "08:42:42",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210611",
-          "url": "https://t.me/jin10light/210611",
-          "title": "某鲸鱼将29,000枚ETH存入FalconX，价值5,310万美元",
-          "body": "#ETH #FalconX #wsETH",
-          "tags": [
-            "#ETH",
-            "#FalconX",
-            "#wsETH"
-          ],
-          "ts": 1781570507000,
-          "time": "08:41:47",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210610",
-          "url": "https://t.me/jin10light/210610",
-          "title": "CFTC主席澄清永续期货合约的四大误区",
-          "body": "#CFTC #Mike Selig #BTC",
-          "tags": [
-            "#CFTC",
-            "#Mike",
-            "#BTC"
-          ],
-          "ts": 1781570506000,
-          "time": "08:41:46",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210609",
-          "url": "https://t.me/jin10light/210609",
-          "title": "某巨鲸加仓SPCX多单至超1300万美元",
-          "body": "#SPCX #0x3E7",
-          "tags": [
-            "#SPCX",
-            "#0x3E7"
-          ],
-          "ts": 1781570505000,
-          "time": "08:41:45",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210608",
-          "url": "https://t.me/jin10light/210608",
-          "title": "比特币矿企MARA增持1,000枚BTC，总价值约6,670万美元",
-          "body": "#BTC #MARA Holdings #FalconX",
-          "tags": [
-            "#BTC",
-            "#MARA",
-            "#FalconX"
-          ],
-          "ts": 1781570381000,
-          "time": "08:39:41",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210607",
-          "url": "https://t.me/jin10light/210607",
-          "title": "世界杯西班牙惊天爆冷，有人赛前8分钟精准预测赚取约900万美元，有人一夜归零",
-          "body": "",
-          "tags": [],
-          "ts": 1781569903000,
-          "time": "08:31:43",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210606",
-          "url": "https://t.me/jin10light/210606",
-          "title": "美国政府地址转移价值34.9万美元加密资产，包括MKR、COMP、GRT、ENJ和MDT",
-          "body": "#美国 #FTX #加密货币",
-          "tags": [
-            "#美国",
-            "#FTX",
-            "#加密货币"
-          ],
-          "ts": 1781569002000,
-          "time": "08:16:42",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210605",
-          "url": "https://t.me/jin10light/210605",
-          "title": "首批现货HYPE ETF上线一个月录得1.53亿美元累计净流入",
-          "body": "#HYPE #ETF #21Shares",
-          "tags": [
-            "#HYPE",
-            "#ETF",
-            "#21Shares"
-          ],
-          "ts": 1781568703000,
-          "time": "08:11:43",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210604",
-          "url": "https://t.me/jin10light/210604",
-          "title": "贝莱德比特币高级收益ETF BITA将于今日上市",
-          "body": "#BITA #BTC #贝莱德",
-          "tags": [
-            "#BITA",
-            "#BTC",
-            "#贝莱德"
-          ],
-          "ts": 1781568520000,
-          "time": "08:08:40",
-          "receivedAt": 1781669687213,
-          "receivedTime": true
-        },
-        {
-          "id": "210603",
-          "url": "https://t.me/jin10light/210603",
-          "title": "中东局势一览：美伊谅解备忘录本周五签署，美军开始解除海上封锁，以色列搅局拒绝撤军",
-          "body": "#伊朗 #特朗普 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#特朗普",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1781568074000,
-          "time": "08:01:14",
           "receivedAt": 1781669687213,
           "receivedTime": true
         }
