@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T18:11:20.839Z",
+  "updatedAt": "2026-06-19T20:02:59.766Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2817,28 +2817,6 @@
           "time": "04:05:25",
           "receivedAt": 1781669681871,
           "receivedTime": true
-        },
-        {
-          "id": "5992",
-          "url": "https://t.me/BWEtradfi/5992",
-          "title": "DB: 标准普尔500指数收盘上涨0.5%，纳斯达克指数几无变动",
-          "body": "DB: *S&P 500 CLOSES UP 0.5%, NASDAQ LITTLE CHANGED",
-          "tags": [],
-          "ts": 1780603213000,
-          "time": "04:00:13",
-          "receivedAt": 1781669681871,
-          "receivedTime": true
-        },
-        {
-          "id": "5991",
-          "url": "https://t.me/BWEtradfi/5991",
-          "title": "*QUANTINUUM股价跌破60美元IPO发行价，抹去19%的涨幅",
-          "body": "*QUANTINUUM DIPS BELOW $60 PER SHARE IPO PRICE TO ERASE 19% GAIN $QNT $QNT",
-          "tags": [],
-          "ts": 1780602310000,
-          "time": "03:45:10",
-          "receivedAt": 1781669681871,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2846,6 +2824,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "212008",
+          "url": "https://t.me/jin10light/212008",
+          "title": "美国总统特朗普：约有700艘船只正在通过霍尔木兹海峡。",
+          "body": "伊朗必须在60天内达成协议，否则我们将采取一些让他们不高兴的行动。 #特朗普 #霍尔木兹海峡 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#霍尔木兹海峡",
+            "#伊朗"
+          ],
+          "ts": 1781898645000,
+          "time": "03:50:45",
+          "receivedAt": 1781899365933,
+          "receivedTime": true
+        },
         {
           "id": "212007",
           "url": "https://t.me/jin10light/212007",
@@ -19896,21 +19889,6 @@
           ],
           "ts": 1781600084000,
           "time": "16:54:44",
-          "receivedAt": 1781669685248,
-          "receivedTime": true
-        },
-        {
-          "id": "210808",
-          "url": "https://t.me/jin10light/210808",
-          "title": "比特币财库公司Capital B计划推出类STRC数字信贷工具，布局欧洲市场",
-          "body": "#BTC #法国 #数字信贷工具 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#BTC",
-            "#法国",
-            "#数字信贷工具"
-          ],
-          "ts": 1781599965000,
-          "time": "16:52:45",
           "receivedAt": 1781669685248,
           "receivedTime": true
         }
