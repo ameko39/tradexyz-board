@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T19:48:03.396Z",
+  "updatedAt": "2026-06-20T20:57:34.372Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2685,28 +2685,6 @@
           "time": "05:16:06",
           "receivedAt": 1781669681663,
           "receivedTime": true
-        },
-        {
-          "id": "6007",
-          "url": "https://t.me/BWEtradfi/6007",
-          "title": "标准普尔500指数九周连涨势头中断；本周标准普尔500指数下跌2.59%，纳斯达克指数下跌4.68%，道琼斯指数下跌0.32%",
-          "body": "*S&P 500 SNAPS 9-WEEK WINNING STREAK *FOR THE WEEK, S&P 500 DOWN 2.59%, NASDAQ DOWN 4.68%, DOW DOWN 0.32%",
-          "tags": [],
-          "ts": 1780689925000,
-          "time": "04:05:25",
-          "receivedAt": 1781669681663,
-          "receivedTime": true
-        },
-        {
-          "id": "6006",
-          "url": "https://t.me/BWEtradfi/6006",
-          "title": "DB: 标准普尔500指数收跌2.6%，纳斯达克指数暴跌4%",
-          "body": "DB: *S&P 500 CLOSES DOWN 2.6%, NASDAQ TUMBLES 4%",
-          "tags": [],
-          "ts": 1780689613000,
-          "time": "04:00:13",
-          "receivedAt": 1781669681663,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2714,6 +2692,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "212110",
+          "url": "https://t.me/jin10light/212110",
+          "title": "据伊朗媒体报道，伊朗谈判代表团已抵达瑞士。",
+          "body": "#伊朗 #瑞士",
+          "tags": [
+            "#伊朗",
+            "#瑞士"
+          ],
+          "ts": 1781988040000,
+          "time": "04:40:40",
+          "receivedAt": 1781989040129,
+          "receivedTime": true
+        },
+        {
+          "id": "212109",
+          "url": "https://t.me/jin10light/212109",
+          "title": "美国副总统万斯：（关于前往瑞士进行伊朗会谈）我只能在那里待一两天。",
+          "body": "希望在核问题上取得进展，并在黎巴嫩停火问题上取得进展。 #美国 #伊朗 #万斯",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#万斯"
+          ],
+          "ts": 1781987801000,
+          "time": "04:36:41",
+          "receivedAt": 1781989040129,
+          "receivedTime": true
+        },
         {
           "id": "212108",
           "url": "https://t.me/jin10light/212108",
@@ -19771,36 +19778,6 @@
           ],
           "ts": 1781614601000,
           "time": "20:56:41",
-          "receivedAt": 1781669684273,
-          "receivedTime": true
-        },
-        {
-          "id": "210910",
-          "url": "https://t.me/jin10light/210910",
-          "title": "黎巴嫩真主党媒体联络办公室表示，真主党已收到伊朗方面的承诺，除非以色列从黎巴嫩撤军，否则伊朗不会与美国签署最终核协议。",
-          "body": "#伊朗 #黎巴嫩 #真主党",
-          "tags": [
-            "#伊朗",
-            "#黎巴嫩",
-            "#真主党"
-          ],
-          "ts": 1781614361000,
-          "time": "20:52:41",
-          "receivedAt": 1781669684273,
-          "receivedTime": true
-        },
-        {
-          "id": "210909",
-          "url": "https://t.me/jin10light/210909",
-          "title": "Coinbase将GEODNET(GEOD)列入上币路线图",
-          "body": "#Coinbase #GEOD #GEODNET",
-          "tags": [
-            "#Coinbase",
-            "#GEOD",
-            "#GEODNET"
-          ],
-          "ts": 1781614181000,
-          "time": "20:49:41",
           "receivedAt": 1781669684273,
           "receivedTime": true
         }
