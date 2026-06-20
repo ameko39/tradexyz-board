@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T20:57:34.372Z",
+  "updatedAt": "2026-06-20T22:05:02.516Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2649,42 +2649,6 @@
           "time": "06:10:07",
           "receivedAt": 1781669681663,
           "receivedTime": true
-        },
-        {
-          "id": "6010",
-          "url": "https://t.me/BWEtradfi/6010",
-          "title": "特朗普：伊朗冲突结束后，我们“准备好大干一场”",
-          "body": "*TRUMP: WE ARE 'READY TO ROCK\" AFTER IRAN CONFLICT ENDS",
-          "tags": [],
-          "ts": 1780695322000,
-          "time": "05:35:22",
-          "receivedAt": 1781669681663,
-          "receivedTime": true
-        },
-        {
-          "id": "6009",
-          "url": "https://t.me/BWEtradfi/6009",
-          "title": "特朗普：马斯克曾有过糟糕时刻，但现在他是我的朋友；特朗普：埃隆·马斯克有80%是天才，20%是糟糕时刻 $TSLA",
-          "body": "*TRUMP: MUSK HAD A BAD MOMENT, BUT NOW HE'S A FRIEND OF MINE *TRUMP: ELON MUSK IS 80% BRILLIANT, 20% BAD MOMENTS $TSLA",
-          "tags": [],
-          "ts": 1780694999000,
-          "time": "05:29:59",
-          "receivedAt": 1781669681663,
-          "receivedTime": true
-        },
-        {
-          "id": "6008",
-          "url": "https://t.me/BWEtradfi/6008",
-          "title": "*漫威科技 (MARVELL TECHNOLOGY) 和 FLEX 即将加入标普 500 强",
-          "body": "*MARVELL TECHNOLOGY & FLEX SET TO JOIN S&P 500 #MRVL • #FLEX #MRVL • #FLEX",
-          "tags": [
-            "#MRVL",
-            "#FLEX"
-          ],
-          "ts": 1780694166000,
-          "time": "05:16:06",
-          "receivedAt": 1781669681663,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2692,6 +2656,34 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "212112",
+          "url": "https://t.me/jin10light/212112",
+          "title": "据路透社：英国政府消息人士称，英国首相斯塔默专注于履行职责。",
+          "body": "#英国 #斯塔默",
+          "tags": [
+            "#英国",
+            "#斯塔默"
+          ],
+          "ts": 1781990860000,
+          "time": "05:27:40",
+          "receivedAt": 1781993081461,
+          "receivedTime": true
+        },
+        {
+          "id": "212111",
+          "url": "https://t.me/jin10light/212111",
+          "title": "据英国《观察家报》：英国首相斯塔默预计将于下周一辞职，并启动有序交接程序。",
+          "body": "#好的 #国家方面",
+          "tags": [
+            "#好的",
+            "#国家方面"
+          ],
+          "ts": 1781989541000,
+          "time": "05:05:41",
+          "receivedAt": 1781993081461,
+          "receivedTime": true
+        },
         {
           "id": "212110",
           "url": "https://t.me/jin10light/212110",
@@ -19748,36 +19740,6 @@
           ],
           "ts": 1781614842000,
           "time": "21:00:42",
-          "receivedAt": 1781669684273,
-          "receivedTime": true
-        },
-        {
-          "id": "210912",
-          "url": "https://t.me/jin10light/210912",
-          "title": "《CLARITY法案》拟拨款1.5亿美元打击数字资产犯罪",
-          "body": "#美国 #Cynthia Lummis #CLARITY法案",
-          "tags": [
-            "#美国",
-            "#Cynthia",
-            "#CLARITY法案"
-          ],
-          "ts": 1781614783000,
-          "time": "20:59:43",
-          "receivedAt": 1781669684273,
-          "receivedTime": true
-        },
-        {
-          "id": "210911",
-          "url": "https://t.me/jin10light/210911",
-          "title": "微信支付正测试AI支付功能，最快将于本周上线",
-          "body": "#腾讯 #AI 支付 #微信支付",
-          "tags": [
-            "#腾讯",
-            "#AI",
-            "#微信支付"
-          ],
-          "ts": 1781614601000,
-          "time": "20:56:41",
           "receivedAt": 1781669684273,
           "receivedTime": true
         }
