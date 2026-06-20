@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T15:06:47.697Z",
+  "updatedAt": "2026-06-20T16:44:40.667Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2740,28 +2740,6 @@
           "time": "01:48:17",
           "receivedAt": 1781669681663,
           "receivedTime": true
-        },
-        {
-          "id": "6001",
-          "url": "https://t.me/BWEtradfi/6001",
-          "title": "纳斯达克100指数跌幅扩大至3%，标普500指数下跌1.7%",
-          "body": "*NASDAQ 100 EXTENDS DECLINE TO 3%, S&P 500 FALLS 1.7%",
-          "tags": [],
-          "ts": 1780676375000,
-          "time": "00:19:35",
-          "receivedAt": 1781669681663,
-          "receivedTime": true
-        },
-        {
-          "id": "6000",
-          "url": "https://t.me/BWEtradfi/6000",
-          "title": "*特朗普命令代理国家情报总监比尔·普尔特开始大规模裁员，涉及多个情报机构",
-          "body": "*TRUMP ORDERS ACTING DNI BILL PULTE TO BEGIN MASS FIRINGS AT INTELLIGENCE AGENCIES *TRUMP DEEMS OFFICE OF THE DIRECTOR OF NATIONAL INTELLIGENCE “UNNECESSARY” AND TOO LARGE *特朗普认为国家情报总监办公室“不必要”且规模过大",
-          "tags": [],
-          "ts": 1780675847000,
-          "time": "00:10:47",
-          "receivedAt": 1781669681663,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2769,6 +2747,106 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "212103",
+          "url": "https://t.me/jin10light/212103",
+          "title": "美国中央司令部发言人：伊朗并不控制霍尔木兹海峡。",
+          "body": "#伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1781973341000,
+          "time": "00:35:41",
+          "receivedAt": 1781973864818,
+          "receivedTime": true
+        },
+        {
+          "id": "212102",
+          "url": "https://t.me/jin10light/212102",
+          "title": "据伊朗迈赫尔通讯社：伊朗最高领袖顾问表示，如果协议仍停留在纸面上，中东地区的能源流动将继续处于中断状态。",
+          "body": "#伊朗 #中东",
+          "tags": [
+            "#伊朗",
+            "#中东"
+          ],
+          "ts": 1781971361000,
+          "time": "00:02:41",
+          "receivedAt": 1781973864818,
+          "receivedTime": true
+        },
+        {
+          "id": "212101",
+          "url": "https://t.me/jin10light/212101",
+          "title": "【晚间独家观点】",
+          "body": "【修正后综合观点】 • 港股：当前缺乏独立驱动逻辑，走势完全受制于全球风险偏好与美元流动性预期。积极因素在于若中东局势意外缓和、油价回落，可间接利好中下游运输及航空板块，但[暂无明显信号]显示内资主动做多意愿。核心风险仍是美联储紧缩预期尚未完全消化，下周核心PCE数据若超预期上行，将对离岸市场形成直接冲击。 • 美股：市场正处于“鹰派定价”与“鸽派解读”的激烈博弈期，Tom Lee的表态暂时安抚了情绪，但并未根除不确定性。积极因素在于若经济数据配合降温，利率敏感型成长股将迎来估值修复窗口；风险在于目前7月加息概率已升至敏感阈值，任何通胀或就业数据的意外...",
+          "tags": [
+            "#独家观点"
+          ],
+          "ts": 1781971284000,
+          "time": "00:01:24",
+          "receivedAt": 1781973864818,
+          "receivedTime": true
+        },
+        {
+          "id": "212100",
+          "url": "https://t.me/jin10light/212100",
+          "title": "美联储7月加息25个基点概率现报38.5%",
+          "body": "#美联储 #利率 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美联储",
+            "#利率"
+          ],
+          "ts": 1781971123000,
+          "time": "23:58:43",
+          "receivedAt": 1781973864818,
+          "receivedTime": true
+        },
+        {
+          "id": "212099",
+          "url": "https://t.me/jin10light/212099",
+          "title": "过去24小时全网爆仓1.8亿美元，主爆空单",
+          "body": "#BTC #ETH #爆仓",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#爆仓"
+          ],
+          "ts": 1781970220000,
+          "time": "23:43:40",
+          "receivedAt": 1781973864818,
+          "receivedTime": true
+        },
+        {
+          "id": "212098",
+          "url": "https://t.me/jin10light/212098",
+          "title": "联合健康集团计划豪掷30亿美元布局AI",
+          "body": "#美国 #UnitedHealth Group #AI",
+          "tags": [
+            "#美国",
+            "#UnitedHealth",
+            "#AI"
+          ],
+          "ts": 1781969622000,
+          "time": "23:33:42",
+          "receivedAt": 1781973864818,
+          "receivedTime": true
+        },
+        {
+          "id": "212097",
+          "url": "https://t.me/jin10light/212097",
+          "title": "挪威拟近乎全面禁止小学生使用生成式AI工具，以防影响学习",
+          "body": "#挪威 #人工智能 #教育政策",
+          "tags": [
+            "#挪威",
+            "#人工智能",
+            "#教育政策"
+          ],
+          "ts": 1781968721000,
+          "time": "23:18:41",
+          "receivedAt": 1781973864818,
+          "receivedTime": true
+        },
         {
           "id": "212096",
           "url": "https://t.me/jin10light/212096",
@@ -19752,104 +19830,6 @@
           "ts": 1781613521000,
           "time": "20:38:41",
           "receivedAt": 1781669684273,
-          "receivedTime": true
-        },
-        {
-          "id": "210903",
-          "url": "https://t.me/jin10light/210903",
-          "title": "特朗普：我们很快就能对俄罗斯实施更严厉的制裁",
-          "body": "",
-          "tags": [],
-          "ts": 1781613402000,
-          "time": "20:36:42",
-          "receivedAt": 1781669684273,
-          "receivedTime": true
-        },
-        {
-          "id": "210902",
-          "url": "https://t.me/jin10light/210902",
-          "title": "WTI原油日内跌5.00%，现报77.32美元/桶。",
-          "body": "#WTI原油 #油价下跌",
-          "tags": [
-            "#WTI原油",
-            "#油价下跌"
-          ],
-          "ts": 1781613341000,
-          "time": "20:35:41",
-          "receivedAt": 1781669684273,
-          "receivedTime": true
-        },
-        {
-          "id": "210901",
-          "url": "https://t.me/jin10light/210901",
-          "title": "美国总统特朗普：将就伊朗协议举行新闻发布会。",
-          "body": "#特朗普 #伊朗",
-          "tags": [
-            "#特朗普",
-            "#伊朗"
-          ],
-          "ts": 1781613227000,
-          "time": "20:33:47",
-          "receivedAt": 1781669684273,
-          "receivedTime": true
-        },
-        {
-          "id": "210900",
-          "url": "https://t.me/jin10light/210900",
-          "title": "布油跌破80美元 为三月初以来首次",
-          "body": "6月16日讯，全球基准布伦特原油在伦敦交易时段一度下跌3.9%，跌破每桶80美元，为3月初以来首次。 此前，美国与伊朗就重启霍尔木兹海峡达成协议，提振了市场对原油供应恢复的预期。 美国和伊朗预计将于周五在瑞士签署一项临时协议，但华盛顿和德黑兰迄今仍未公布双方谅解备忘录的具体内容。 #布油 #美国 #伊朗",
-          "tags": [
-            "#布油",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1781613226000,
-          "time": "20:33:46",
-          "receivedAt": 1781669684273,
-          "receivedTime": true
-        },
-        {
-          "id": "210899",
-          "url": "https://t.me/jin10light/210899",
-          "title": "美国5月石油进口价格上升13%。",
-          "body": "#美国 #石油",
-          "tags": [
-            "#美国",
-            "#石油"
-          ],
-          "ts": 1781613102000,
-          "time": "20:31:42",
-          "receivedAt": 1781669684458,
-          "receivedTime": true
-        },
-        {
-          "id": "210898",
-          "url": "https://t.me/jin10light/210898",
-          "title": "万斯：绝不向伊朗提供一分钱美国资金",
-          "body": "#美国 #伊朗 #万斯",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#万斯"
-          ],
-          "ts": 1781613101000,
-          "time": "20:31:41",
-          "receivedAt": 1781669684458,
-          "receivedTime": true
-        },
-        {
-          "id": "210897",
-          "url": "https://t.me/jin10light/210897",
-          "title": "美国副总统万斯：（关于伊朗协议）绝不向他们提供一分钱美国资金。",
-          "body": "#美国 #伊朗 #万斯",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#万斯"
-          ],
-          "ts": 1781613077000,
-          "time": "20:31:17",
-          "receivedAt": 1781669684458,
           "receivedTime": true
         }
       ],
