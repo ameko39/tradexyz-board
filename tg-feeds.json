@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-06-20T18:00:50.630Z",
+  "updatedAt": "2026-06-20T19:48:03.396Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6249",
+          "url": "https://t.me/BWEtradfi/6249",
+          "title": "*特朗普：60天后不得收取通行费，除非美国强制征收，否则协议不得完成。",
+          "body": "*TRUMP: NO TOLLS AFTER 60 DAYS UNLESS IMPOSED BY UNITED STATES SHOULD DEAL NOT BE COMPLETED *TRUMP: US RESERVES RIGHT TO IMPOSE TOLLS FOR REIMBURSEMENT OF COSTS AS GUARDIAN ANGEL TO MIDDLE EAST *特朗普：美国保留征收通行费的权利，以补偿其作为中东守护天使所付出的成本。",
+          "tags": [],
+          "ts": 1781982930000,
+          "time": "03:15:30",
+          "receivedAt": 1781984863749,
+          "receivedTime": true
+        },
         {
           "id": "6248",
           "url": "https://t.me/BWEtradfi/6248",
@@ -2696,28 +2707,6 @@
           "time": "04:00:13",
           "receivedAt": 1781669681663,
           "receivedTime": true
-        },
-        {
-          "id": "6005",
-          "url": "https://t.me/BWEtradfi/6005",
-          "title": "DB: 美国4月消费信贷环比增加207.3亿美元；预期增加180亿美元",
-          "body": "DB: *US APRIL CONSUMER CREDIT RISES $20.73B M/M; EST. +18.00B",
-          "tags": [],
-          "ts": 1780686031000,
-          "time": "03:00:31",
-          "receivedAt": 1781669681663,
-          "receivedTime": true
-        },
-        {
-          "id": "6004",
-          "url": "https://t.me/BWEtradfi/6004",
-          "title": "消息人士称，SpaceX首次公开募股需求在路演初期约为750亿美元发行规模的两倍",
-          "body": "*SPACEX IPO DEMAND ABOUT TWICE SIZE OF $75 BILLION OFFERING EARLY IN ROADSHOW, SOURCES SAY",
-          "tags": [],
-          "ts": 1780684257000,
-          "time": "02:30:57",
-          "receivedAt": 1781669681663,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2725,6 +2714,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "212108",
+          "url": "https://t.me/jin10light/212108",
+          "title": "美国总统特朗普：在60天停火期内，霍尔木兹海峡将不会收取任何通行费用，停火期结束后也不会收取任何费用，除非在协议未能完成的情况下，由美国为其自身目的征收相关费用，以作为“守护天使”向中东各国提供服务的报酬，用于过去、现...",
+          "body": "#美国 #特朗普 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1781983120000,
+          "time": "03:18:40",
+          "receivedAt": 1781984864373,
+          "receivedTime": true
+        },
+        {
+          "id": "212107",
+          "url": "https://t.me/jin10light/212107",
+          "title": "消息人士：伊拉克国民议会议长住所遭无人机袭击",
+          "body": "6月21日讯，当地时间20日，伊拉克安全部门消息人士称，伊拉克国民议会议长海巴特·哈勒布西的住所遭不明无人机袭击。 #伊拉克 #无人机袭击",
+          "tags": [
+            "#伊拉克",
+            "#无人机袭击"
+          ],
+          "ts": 1781978921000,
+          "time": "02:08:41",
+          "receivedAt": 1781984864373,
+          "receivedTime": true
+        },
         {
           "id": "212106",
           "url": "https://t.me/jin10light/212106",
@@ -19783,32 +19801,6 @@
           ],
           "ts": 1781614181000,
           "time": "20:49:41",
-          "receivedAt": 1781669684273,
-          "receivedTime": true
-        },
-        {
-          "id": "210908",
-          "url": "https://t.me/jin10light/210908",
-          "title": "现货白银突破71美元/盎司，日内涨1.49%。",
-          "body": "现货黄金日内涨幅达1.00%，现报4351.93美元/盎司。",
-          "tags": [],
-          "ts": 1781614001000,
-          "time": "20:46:41",
-          "receivedAt": 1781669684273,
-          "receivedTime": true
-        },
-        {
-          "id": "210907",
-          "url": "https://t.me/jin10light/210907",
-          "title": "WTI原油失守77美元/桶，为3月10日以来新低，日内跌幅5.39%。",
-          "body": "#WTI原油 #美元 #下跌",
-          "tags": [
-            "#WTI原油",
-            "#美元",
-            "#下跌"
-          ],
-          "ts": 1781613821000,
-          "time": "20:43:41",
           "receivedAt": 1781669684273,
           "receivedTime": true
         }
