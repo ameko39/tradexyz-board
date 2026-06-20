@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T11:17:10.096Z",
+  "updatedAt": "2026-06-20T13:00:25.895Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2795,35 +2795,73 @@
           "time": "21:30:42",
           "receivedAt": 1781669681871,
           "receivedTime": true
-        },
-        {
-          "id": "5996",
-          "url": "https://t.me/BWEtradfi/5996",
-          "title": "DB: *美国5月非农就业人数环比增加17.2万人；预期增加8.5万人",
-          "body": "DB: *US MAY NONFARM PAYROLLS RISE 172K M/M; EST. +85K *US MAY UNEMPLOYMENT RATE 4.3%; EST. 4.3% *US MAY AVERAGE HOURLY EARNINGS RISE 0.3% M/M; EST. +0.3% *US MAY AVERAGE HOURLY EARNINGS RISE 3.4% Y/Y; EST. +3.4% *美国5月失业率4.3%；预期4.3% *美国5月平均时薪环比增长0.3%；预期增长0.3% *美国5月平均时薪同比增长3.4%；预期增长3.4%",
-          "tags": [],
-          "ts": 1780662617000,
-          "time": "20:30:17",
-          "receivedAt": 1781669681871,
-          "receivedTime": true
-        },
-        {
-          "id": "5995",
-          "url": "https://t.me/BWEtradfi/5995",
-          "title": "DB: *加拿大5月就业人数环比增加8.78万人；预期增加1万人",
-          "body": "DB: *CANADA MAY EMPLOYMENT RISES 87.8K M/M; EST. +10.0K *CANADA MAY UNEMPLOYMENT RATE 6.6%; EST. 6.9% *加拿大5月失业率6.6%；预期6.9%",
-          "tags": [],
-          "ts": 1780662614000,
-          "time": "20:30:14",
-          "receivedAt": 1781669681871,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "212072",
+          "url": "https://t.me/jin10light/212072",
+          "title": "派盾：BSC上OLPC流动性池遭攻击，黑客将盗取资金跨链为633.4枚ETH存入Tornado Cash",
+          "body": "#BNB Chain #ETH #PancakeSwap ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#BNB",
+            "#ETH",
+            "#PancakeSwap"
+          ],
+          "ts": 1781959965000,
+          "time": "20:52:45",
+          "receivedAt": 1781960409290,
+          "receivedTime": true
+        },
+        {
+          "id": "212071",
+          "url": "https://t.me/jin10light/212071",
+          "title": "Serenity：市场才是最终裁判，个人投资逻辑在质疑中持续被验证并兑现",
+          "body": "#AXTI #Reddit WSB #投资逻辑",
+          "tags": [
+            "#AXTI",
+            "#Reddit",
+            "#投资逻辑"
+          ],
+          "ts": 1781959181000,
+          "time": "20:39:41",
+          "receivedAt": 1781960409290,
+          "receivedTime": true
+        },
+        {
+          "id": "212070",
+          "url": "https://t.me/jin10light/212070",
+          "title": "Tether联创：稳定币2.0时代需要重构用户美元资金收益分配机制",
+          "body": "#Tether #Reeve Collins #美国国债",
+          "tags": [
+            "#Tether",
+            "#Reeve",
+            "#美国国债"
+          ],
+          "ts": 1781957983000,
+          "time": "20:19:43",
+          "receivedAt": 1781960409290,
+          "receivedTime": true
+        },
+        {
+          "id": "212069",
+          "url": "https://t.me/jin10light/212069",
+          "title": "下周宏观展望：中东局势与核心PCE数据主导，美光周三盘后发布财报",
+          "body": "#美国 #FED #MU",
+          "tags": [
+            "#美国",
+            "#FED",
+            "#MU"
+          ],
+          "ts": 1781957024000,
+          "time": "20:03:44",
+          "receivedAt": 1781960409290,
+          "receivedTime": true
+        },
         {
           "id": "212068",
           "url": "https://t.me/jin10light/212068",
@@ -19840,65 +19878,6 @@
           "time": "19:23:40",
           "receivedAt": 1781669684648,
           "receivedTime": true
-        },
-        {
-          "id": "210872",
-          "url": "https://t.me/jin10light/210872",
-          "title": "Wintermute：判断加密市场「见底」仍为时尚早，但风险偏好明显回归",
-          "body": "#美国 #BTC #特朗普",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#特朗普"
-          ],
-          "ts": 1781608606000,
-          "time": "19:16:46",
-          "receivedAt": 1781669684648,
-          "receivedTime": true
-        },
-        {
-          "id": "210871",
-          "url": "https://t.me/jin10light/210871",
-          "title": "火币HTX已上线CIEN、PANW、EVAA永续合约",
-          "body": "#HTX #BTC #ETH",
-          "tags": [
-            "#HTX",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1781608606000,
-          "time": "19:16:46",
-          "receivedAt": 1781669684648,
-          "receivedTime": true
-        },
-        {
-          "id": "210870",
-          "url": "https://t.me/jin10light/210870",
-          "title": "Humanity公布恢复方案：旧代币全面作废，新H代币将按1:1比例空投发放",
-          "body": "#Humanity #H #ETH",
-          "tags": [
-            "#Humanity",
-            "#H",
-            "#ETH"
-          ],
-          "ts": 1781608241000,
-          "time": "19:10:41",
-          "receivedAt": 1781669684648,
-          "receivedTime": true
-        },
-        {
-          "id": "210869",
-          "url": "https://t.me/jin10light/210869",
-          "title": "东山精密：子公司索尔思光电拟投资12亿美元实施光芯片及光模块扩建项目",
-          "body": "6月16日讯，东山精密公告，公司于2026年6月16日召开董事会，审议通过了子公司索尔思光电及其子公司在常州等地实施光芯片及光模块扩建项目，总投资额12亿美元。 此举旨在提升索尔思光电整体产能规模，满足行业及下游客户需求。 索尔思光电自2025年10月起纳入公司合并报表范围，2025年度并表后收入占公司合并营业收入的3.58%，利润占22.69%；2026年第一季度并表后收入占16.02%，利润占52.92%。 #东山精密 #常州",
-          "tags": [
-            "#东山精密",
-            "#常州"
-          ],
-          "ts": 1781607942000,
-          "time": "19:05:42",
-          "receivedAt": 1781669684648,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -21394,7 +21373,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
