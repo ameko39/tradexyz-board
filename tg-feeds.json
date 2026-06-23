@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-06-23T22:36:50.506Z",
+  "updatedAt": "2026-06-23T23:38:25.663Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6275",
+          "url": "https://t.me/BWEtradfi/6275",
+          "title": "SK海力士将启动美国存托凭证（ADR）流程，并向韩国金融监督院（FSS）提交与ADR相关的股票出售计划：每日经济",
+          "body": "*SK HYNIX TO BEGIN U.S. ADR PROCESS, FILE ADR-LINKED SHARE SALE PLAN WITH SOUTH KOREA'S FSS: DAILY",
+          "tags": [],
+          "ts": 1782256978000,
+          "time": "07:22:58",
+          "receivedAt": 1782257883584,
+          "receivedTime": true
+        },
         {
           "id": "6274",
           "url": "https://t.me/BWEtradfi/6274",
@@ -2621,11 +2632,69 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "212944",
+          "url": "https://t.me/jin10light/212944",
+          "title": "谷歌A(GOOGL.O)将被纳入道琼斯工业指数",
+          "body": "#GOOGL #VZ",
+          "tags": [
+            "#GOOGL",
+            "#VZ"
+          ],
+          "ts": 1782257860000,
+          "time": "07:37:40",
+          "receivedAt": 1782257886767,
+          "receivedTime": true
+        },
+        {
+          "id": "212943",
+          "url": "https://t.me/jin10light/212943",
+          "title": "Coinbase将Grove (GROVE)添加至上币路线图",
+          "body": "#Coinbase #GROVE",
+          "tags": [
+            "#Coinbase",
+            "#GROVE"
+          ],
+          "ts": 1782257740000,
+          "time": "07:35:40",
+          "receivedAt": 1782257886767,
+          "receivedTime": true
+        },
+        {
+          "id": "212942",
+          "url": "https://t.me/jin10light/212942",
+          "title": "英伟达要求PCB厂商降价10%？ PCB厂商、市场人士称传闻存在明显夸大和误读",
+          "body": "6月24日讯，6月23日，PCB板块大跌之际，市场围绕产业链出现多重讨论。 一方面，市场流传“英伟达要求PCB厂商降价10%”“胜宏科技扩产拖累Rubin平台出货”等消息。 对此，记者向PCB厂商、市场人士等进行了求证。 多位受访者表示，上述传闻存在明显夸大和误读，其中“胜宏科技导致Rubin延期”的说法缺乏产业逻辑支撑。 另一方面，外资行杰富瑞近日发布研报称，原计划于2027年导入的Kyber背板PCB方案或推迟至2028年落地，引发市场对AI PCB景气度的讨论。 #英伟达 #PCB #胜宏科技",
+          "tags": [
+            "#英伟达",
+            "#PCB",
+            "#胜宏科技"
+          ],
+          "ts": 1782257500000,
+          "time": "07:31:40",
+          "receivedAt": 1782257886767,
+          "receivedTime": true
+        },
+        {
+          "id": "212941",
+          "url": "https://t.me/jin10light/212941",
+          "title": "今日重点关注的财经数据与事件：2026年6月24日 周三",
+          "body": "① 待定 2026上海世界移动通信大会举行 ② 07:50 日本央行公布审议委员意见摘要 ③ 09:30 澳大利亚5月未季调CPI年率 ④ 16:00 德国6月IFO商业景气指数 ⑤ 16:00 瑞士6月ZEW投资者信心指数 ⑥ 20:30 美国第一季度经常帐 ⑦ 22:00 美国5月新屋销售总数年化 ⑧ 22:30 美国至6月19日当周EIA原油库存 ⑨ 22:30 美国至6月19日当周EIA库欣原油库存 ⑩ 22:30 美国至6月19日当周EIA战略石油储备库存 ⑪ 次日01:00 英伟达举行年度股东大会 ⑫ 次日01:30 加拿大央行公布货币政策...",
+          "tags": [
+            "#中国",
+            "#日本",
+            "#美国"
+          ],
+          "ts": 1782255103000,
+          "time": "06:51:43",
+          "receivedAt": 1782257886767,
+          "receivedTime": true
+        },
         {
           "id": "212940",
           "url": "https://t.me/jin10light/212940",
@@ -19712,64 +19781,6 @@
           ],
           "ts": 1781791782000,
           "time": "22:09:42",
-          "receivedAt": 1781797720452,
-          "receivedTime": true
-        },
-        {
-          "id": "211743",
-          "url": "https://t.me/jin10light/211743",
-          "title": "Kraken将Solana DEX交易集成至主应用，推进DeFi Mullet战略",
-          "body": "#Kraken #Solana #DEX",
-          "tags": [
-            "#Kraken",
-            "#Solana",
-            "#DEX"
-          ],
-          "ts": 1781791667000,
-          "time": "22:07:47",
-          "receivedAt": 1781797720452,
-          "receivedTime": true
-        },
-        {
-          "id": "211742",
-          "url": "https://t.me/jin10light/211742",
-          "title": "Algorand公布2028年实现抗量子抗性路线图",
-          "body": "#Algorand #抗量子攻击",
-          "tags": [
-            "#Algorand",
-            "#抗量子攻击"
-          ],
-          "ts": 1781791667000,
-          "time": "22:07:47",
-          "receivedAt": 1781797720452,
-          "receivedTime": true
-        },
-        {
-          "id": "211741",
-          "url": "https://t.me/jin10light/211741",
-          "title": "伊媒称伊朗代表团赴瑞士行程未确定",
-          "body": "6月18日讯，伊朗塔斯尼姆通讯今天（6月18日）援引一位知情人士的消息称，截至目前，关于伊朗代表团前往瑞士的任何事项都尚未最终确定，相关评估与磋商也尚未完成。 该知情人士指出，未来数小时内将会明确伊朗代表团明天是否会出现在瑞士。 如果答案是肯定的，相关细节也将随后公布。 瑞士外交部今天（6月18日）表示，美国和伊朗计划与调解方巴基斯坦、卡塔尔及其他相关国家于19日在瑞士比尔根山举行会谈，就协议的执行进行初步谈判。 #伊朗 #瑞士 #会谈",
-          "tags": [
-            "#伊朗",
-            "#瑞士",
-            "#会谈"
-          ],
-          "ts": 1781791481000,
-          "time": "22:04:41",
-          "receivedAt": 1781797720452,
-          "receivedTime": true
-        },
-        {
-          "id": "211740",
-          "url": "https://t.me/jin10light/211740",
-          "title": "市场消息：巴基斯坦总理访问瑞士的行程已被取消，未提及官方理由。",
-          "body": "#巴基斯坦 #瑞士",
-          "tags": [
-            "#巴基斯坦",
-            "#瑞士"
-          ],
-          "ts": 1781791302000,
-          "time": "22:01:42",
           "receivedAt": 1781797720452,
           "receivedTime": true
         }
