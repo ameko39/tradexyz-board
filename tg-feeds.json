@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-06-23T17:23:39.577Z",
+  "updatedAt": "2026-06-23T19:22:23.104Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6270",
+          "url": "https://t.me/BWEtradfi/6270",
+          "title": "特朗普在宾夕法尼亚州的一次集会上声称今日股市创下新高",
+          "body": "*TRUMP CLAIMS STOCK MARKET HIT NEW HIGH TODAY AT RALLY IN PENNSYLVANIA",
+          "tags": [],
+          "ts": 1782241364000,
+          "time": "03:02:44",
+          "receivedAt": 1782242524911,
+          "receivedTime": true
+        },
+        {
+          "id": "6269",
+          "url": "https://t.me/BWEtradfi/6269",
+          "title": "据英国《金融时报》报道，SPACE X的250亿美元债券发行吸引了近900亿美元的订单。",
+          "body": "*SPACEX'S $25 BLN BOND OFFERING ATTRACTED NEARLY $90 BLN OF ORDERS: FT $SPCX",
+          "tags": [],
+          "ts": 1782237173000,
+          "time": "01:52:53",
+          "receivedAt": 1782242524911,
+          "receivedTime": true
+        },
         {
           "id": "6268",
           "url": "https://t.me/BWEtradfi/6268",
@@ -2605,28 +2627,6 @@
           "time": "03:38:52",
           "receivedAt": 1781669681446,
           "receivedTime": true
-        },
-        {
-          "id": "6033",
-          "url": "https://t.me/BWEtradfi/6033",
-          "title": "*苹果公司：部分Apple Intelligence功能，包括图像生成，将设置每日使用限制 - WWDC主题演讲",
-          "body": "*APPLE: SOME APPLE INTELLIGENCE FEATURES, INCLUDING IMAGE GENERATION, HAVE DAILY USAGE LIMITS- WWDC KEYNOTE $AAPL",
-          "tags": [],
-          "ts": 1780942144000,
-          "time": "02:09:04",
-          "receivedAt": 1781669681446,
-          "receivedTime": true
-        },
-        {
-          "id": "6032",
-          "url": "https://t.me/BWEtradfi/6032",
-          "title": "*苹果股价在Siri发布会期间跌至盘中低点",
-          "body": "*APPLE SHARES SINK TO SESSION LOW DURING SIRI PRESENTATION $AAPL $AAPL",
-          "tags": [],
-          "ts": 1780940644000,
-          "time": "01:44:04",
-          "receivedAt": 1781669681446,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2634,6 +2634,33 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "212932",
+          "url": "https://t.me/jin10light/212932",
+          "title": "特朗普称国际原子能机构核查人员将适时访问伊朗",
+          "body": "6月24日讯，当地时间6月23日，美国总统特朗普表示，伊朗在国际原子能机构核查问题上的说法是错误的。 他同时表示，核查人员将在适当时候进入当地开展工作。 伊朗外交部发言人巴加埃23日早些时候表示，暂无国际原子能机构核查人员访问伊朗受损核设施的计划。 #特朗普 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#伊朗"
+          ],
+          "ts": 1782236621000,
+          "time": "01:43:41",
+          "receivedAt": 1782242525441,
+          "receivedTime": true
+        },
+        {
+          "id": "212931",
+          "url": "https://t.me/jin10light/212931",
+          "title": "市场消息：SpaceX拟通过高等级债券发行筹资250亿美元。",
+          "body": "#好的",
+          "tags": [
+            "#好的"
+          ],
+          "ts": 1782235542000,
+          "time": "01:25:42",
+          "receivedAt": 1782242525441,
+          "receivedTime": true
+        },
         {
           "id": "212930",
           "url": "https://t.me/jin10light/212930",
@@ -19749,35 +19776,6 @@
           ],
           "ts": 1781790525000,
           "time": "21:48:45",
-          "receivedAt": 1781797720746,
-          "receivedTime": true
-        },
-        {
-          "id": "211731",
-          "url": "https://t.me/jin10light/211731",
-          "title": "芝加哥商品交易所（CME）就Kalshi进军永续期货交易一事起诉美国商品期货交易委员会（CFTC）。",
-          "body": "#CME #CFTC #美国",
-          "tags": [
-            "#CME",
-            "#CFTC",
-            "#美国"
-          ],
-          "ts": 1781790462000,
-          "time": "21:47:42",
-          "receivedAt": 1781797720746,
-          "receivedTime": true
-        },
-        {
-          "id": "211730",
-          "url": "https://t.me/jin10light/211730",
-          "title": "SPCX短时跌破180美元，盘中跌幅扩大至5.98%",
-          "body": "#SPCX #美元",
-          "tags": [
-            "#SPCX",
-            "#美元"
-          ],
-          "ts": 1781790461000,
-          "time": "21:47:41",
           "receivedAt": 1781797720746,
           "receivedTime": true
         }
