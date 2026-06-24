@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-06-24T13:37:06.087Z",
+  "updatedAt": "2026-06-24T15:57:16.889Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6285",
+          "url": "https://t.me/BWEtradfi/6285",
+          "title": "DB: 美国原油库存减少608.8万桶；预估减少446.1万桶",
+          "body": "DB: *US CRUDE OIL INVENTORIES FELL 6.088M BARRELS; EST. -4.461M",
+          "tags": [],
+          "ts": 1782311413000,
+          "time": "22:30:13",
+          "receivedAt": 1782316618259,
+          "receivedTime": true
+        },
+        {
+          "id": "6284",
+          "url": "https://t.me/BWEtradfi/6284",
+          "title": "*特朗普：取消住房新闻发布会和签署仪式",
+          "body": "*TRUMP: CANCELLED HOUSING NEWS CONFERENCE AND SIGNING *TRUMP: LINKING FUTURE HOUSING ACTIONS TO PASSAGE OF SAVE AMERICA ACT *特朗普：将未来的住房行动与《拯救美国法案》的通过挂钩",
+          "tags": [],
+          "ts": 1782311194000,
+          "time": "22:26:34",
+          "receivedAt": 1782316618259,
+          "receivedTime": true
+        },
+        {
+          "id": "6283",
+          "url": "https://t.me/BWEtradfi/6283",
+          "title": "DB: *美国5月新房销售量为58万套；预期为63.9万套",
+          "body": "DB: *US MAY NEW HOME SALES AT 0.58M; EST. 0.639M *US MAY NEW HOME SALES FALL 7.3% M/M; PREV. -6.2% *美国5月新房销售量环比下降7.3%；前值下降6.2%",
+          "tags": [],
+          "ts": 1782309616000,
+          "time": "22:00:16",
+          "receivedAt": 1782316618259,
+          "receivedTime": true
+        },
+        {
+          "id": "6282",
+          "url": "https://t.me/BWEtradfi/6282",
+          "title": "Infinityhedge: MICROSTRATEGY跌破100美元，为2024年3月以来首次：INFINITYHEDGE",
+          "body": "Infinityhedge: MICROSTRATEGY DROPS BELOW $100, FIRST TIME SINCE MAR 2024: INFINITYHEDGE",
+          "tags": [],
+          "ts": 1782308595000,
+          "time": "21:43:15",
+          "receivedAt": 1782316618259,
+          "receivedTime": true
+        },
         {
           "id": "6281",
           "url": "https://t.me/BWEtradfi/6281",
@@ -2641,39 +2685,6 @@
           "time": "00:38:25",
           "receivedAt": 1781669681217,
           "receivedTime": true
-        },
-        {
-          "id": "6043",
-          "url": "https://t.me/BWEtradfi/6043",
-          "title": "*标普500指数和纳斯达克指数跌破上周五低点",
-          "body": "*S&P AND NASDAQ BREAK BELOW FRIDAY'S LOW *S&P NOW DOWN 1.2%, NASDAQ DOWN 2% *标普500指数下跌1.2%，纳斯达克指数下跌2%",
-          "tags": [],
-          "ts": 1781019047000,
-          "time": "23:30:47",
-          "receivedAt": 1781669681217,
-          "receivedTime": true
-        },
-        {
-          "id": "6042",
-          "url": "https://t.me/BWEtradfi/6042",
-          "title": "Infinityhedge: *据知情人士透露，Anthropico将于今日晚些时候发布Claude Fable，这是Mythos系列的全新版本。",
-          "body": "Infinityhedge: *ANTHROPIC TO RELEASE CLAUDE FABLE, A NEW VERSION OF MYTHOS-CLASS MODEL, LATER TODAY ACCORDING TO PERSON WITH KNOWLEDGE OF RELEASE *CLAUDE FABLE IS A NEUTERED VERSION OF MYTHOS WITH SAFEGUARDS TO PROTECT AGAINST MISUSE IN CYBERSECURITY HACKS OR CONSTRUCTION OF BIOWEAPONS, SOURCE SAYS...",
-          "tags": [],
-          "ts": 1781014241000,
-          "time": "22:10:41",
-          "receivedAt": 1781669681217,
-          "receivedTime": true
-        },
-        {
-          "id": "6041",
-          "url": "https://t.me/BWEtradfi/6041",
-          "title": "DB: *美国5月成屋销售量为417万套；预期为407万套",
-          "body": "DB: *US MAY EXISTING HOME SALES AT 4.17M; EST. 4.07M *US MAY EXISTING HOME SALES RISE 3.2% M/M; EST. 1.1% *美国5月成屋销售量环比增长3.2%；预期为1.1%",
-          "tags": [],
-          "ts": 1781013613000,
-          "time": "22:00:13",
-          "receivedAt": 1781669681217,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2681,6 +2692,429 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "213272",
+          "url": "https://t.me/jin10light/213272",
+          "title": "消息人士称，由于炼油厂停产，俄罗斯6月份从西部港口出口的石油量预计将达到创纪录的270万桶/日。",
+          "body": "#俄罗斯 #石油",
+          "tags": [
+            "#俄罗斯",
+            "#石油"
+          ],
+          "ts": 1782316600000,
+          "time": "23:56:40",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213271",
+          "url": "https://t.me/jin10light/213271",
+          "title": "特朗普拒签含CBDC禁令法案，或影响加密市场结构法案推进",
+          "body": "#美国 #BTC #特朗普",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#特朗普"
+          ],
+          "ts": 1782316303000,
+          "time": "23:51:43",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213270",
+          "url": "https://t.me/jin10light/213270",
+          "title": "世界杯热潮推动Polymarket足球预测市场交易量增长300%，Kalshi未平仓合约首次突破10亿美元",
+          "body": "#Polymarket #Kalshi #世界杯",
+          "tags": [
+            "#Polymarket",
+            "#Kalshi",
+            "#世界杯"
+          ],
+          "ts": 1782315946000,
+          "time": "23:45:46",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213269",
+          "url": "https://t.me/jin10light/213269",
+          "title": "国内新闻ï",
+          "body": "1.十四届全国人大常委会第二十三次会议举行联组会议，审议国务院关于建设全国统一大市场工作情况的报告并开展专题询问。 2. 央行：以固定数量、利率招标、多重价位中标方式开展5000亿元MLF操作，期限为1年期。 3. 工信部等五部门办公厅开展工业5G独立专网试点。 4. 商务部等7部门制定了《报废机动车非法回收拆解专项整治行动方案》。 5. 商务部：进一步完善战略矿产两用物项出口管制违法违规行为举报处理工作。 6. 商务部公布《产业链供应链安全调查工作办法》。 国际新闻ï 1.美财长贝森特再强调美元主导地位，赞扬沃什消除前瞻指引。 2. 消息称台积电先进...",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#黄金"
+          ],
+          "ts": 1782315584000,
+          "time": "23:39:44",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213268",
+          "url": "https://t.me/jin10light/213268",
+          "title": "王毅同巴基斯坦副总理兼外长达尔通电话",
+          "body": "6月24日讯，中共中央政治局委员、外交部长王毅24日晚应约同巴基斯坦副总理兼外长达尔通电话。 达尔通报了伊朗与美国开启新阶段谈判有关情况，感谢中方始终坚定支持巴方和平斡旋努力。 王毅感谢巴方第一时间通报伊美新阶段谈判情况，同时王毅指出，下阶段应重点做好三件事。 一是巩固全面停火止战局面，绝不能重燃战火。 伊美谅备符合伊朗根本和长远利益，也符合国际社会普遍期待。 中方愿同各方一起坚定支持谈判排除干扰推进下去。 二是尽快恢复霍尔木兹海峡正常通航，确保全球产供链稳定。 海峡的安排既要尊重沿岸国主权和合法权益，也要符合国际惯例和各国共同愿望。 三是支持中东国家...",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1782315402000,
+          "time": "23:36:42",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213267",
+          "url": "https://t.me/jin10light/213267",
+          "title": "欧洲央行执委施纳贝尔：欧洲央行的利率尚未具限制性。",
+          "body": "#欧洲央行 #利率",
+          "tags": [
+            "#欧洲央行",
+            "#利率"
+          ],
+          "ts": 1782314747000,
+          "time": "23:25:47",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213266",
+          "url": "https://t.me/jin10light/213266",
+          "title": "美股延续涨势，道指涨超1%",
+          "body": "#美股 #纳指 #标普500",
+          "tags": [
+            "#美股",
+            "#纳指",
+            "#标普500"
+          ],
+          "ts": 1782314747000,
+          "time": "23:25:47",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213265",
+          "url": "https://t.me/jin10light/213265",
+          "title": "伦铝日内大跌4.00%，现报3124.92美元/吨。",
+          "body": "#伦铝 #美元",
+          "tags": [
+            "#伦铝",
+            "#美元"
+          ],
+          "ts": 1782314443000,
+          "time": "23:20:43",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213264",
+          "url": "https://t.me/jin10light/213264",
+          "title": "比特币跌破彩虹图底部，进入「比特币已死」区域",
+          "body": "#BTC #比特币彩虹图 #市场情绪",
+          "tags": [
+            "#BTC",
+            "#比特币彩虹图",
+            "#市场情绪"
+          ],
+          "ts": 1782314442000,
+          "time": "23:20:42",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213263",
+          "url": "https://t.me/jin10light/213263",
+          "title": "Ansem：美光财报或推动其股价再创新高，并成为未来数月「存储行情」顶部",
+          "body": "#SOL #BTC #美联储",
+          "tags": [
+            "#SOL",
+            "#BTC",
+            "#美联储"
+          ],
+          "ts": 1782313843000,
+          "time": "23:10:43",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213262",
+          "url": "https://t.me/jin10light/213262",
+          "title": "截至23:00收盘，国内期货主力合约跌多涨少，20号胶跌超5%，瓶片、PTA跌近5%，合成橡胶、对二甲苯、橡胶、丙烯跌超4%，液化石油气（LPG）、聚丙烯、短纤、乙二醇跌超3%。",
+          "body": "涨幅方面，焦炭涨超1%。 #焦炭 #20号胶",
+          "tags": [
+            "#焦炭",
+            "#20号胶"
+          ],
+          "ts": 1782313301000,
+          "time": "23:01:41",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213261",
+          "url": "https://t.me/jin10light/213261",
+          "title": "Kalshi CEO确认正考虑IPO，但不会在2026年上市",
+          "body": "#Kalshi #IPO #美国",
+          "tags": [
+            "#Kalshi",
+            "#IPO",
+            "#美国"
+          ],
+          "ts": 1782312463000,
+          "time": "22:47:43",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213260",
+          "url": "https://t.me/jin10light/213260",
+          "title": "美国能源信息署（EIA）：上周库欣原油的库存降至2014年10月以来的最低水平。",
+          "body": "",
+          "tags": [],
+          "ts": 1782312340000,
+          "time": "22:45:40",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213259",
+          "url": "https://t.me/jin10light/213259",
+          "title": "Bitget股票合约新增索尼、迈威尔两倍做多ETF，最高支持20倍杠杆",
+          "body": "#Bitget #SONY #MVLL",
+          "tags": [
+            "#Bitget",
+            "#SONY",
+            "#MVLL"
+          ],
+          "ts": 1782312221000,
+          "time": "22:43:41",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213258",
+          "url": "https://t.me/jin10light/213258",
+          "title": "以色列总理内塔尼亚胡：我没有向特朗普请求攻击伊朗的许可，我只是向他通报了此事。",
+          "body": "#好的 #这里被提到",
+          "tags": [
+            "#好的",
+            "#这里被提到"
+          ],
+          "ts": 1782312161000,
+          "time": "22:42:41",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213257",
+          "url": "https://t.me/jin10light/213257",
+          "title": "Binance：已决定撤回希腊MiCA牌照申请，将在其他欧盟成员国寻求授权",
+          "body": "#Binance #希腊 #MiCA",
+          "tags": [
+            "#Binance",
+            "#希腊",
+            "#MiCA"
+          ],
+          "ts": 1782311861000,
+          "time": "22:37:41",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213256",
+          "url": "https://t.me/jin10light/213256",
+          "title": "Ornn完成3300万美元种子轮融资，a16z Crypto领投",
+          "body": "#Ornn #a16z Crypto #OCPI",
+          "tags": [
+            "#Ornn",
+            "#a16z",
+            "#OCPI"
+          ],
+          "ts": 1782311681000,
+          "time": "22:34:41",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213255",
+          "url": "https://t.me/jin10light/213255",
+          "title": "美国至6月19日当周EIA原油库存 -608.8万桶，预期-446.1万桶，前值-826.3万桶。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1782311444000,
+          "time": "22:30:44",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213254",
+          "url": "https://t.me/jin10light/213254",
+          "title": "美国至6月19日当周EIA战略石油储备库存为1983年6月24日当周以来最低。",
+          "body": "",
+          "tags": [],
+          "ts": 1782311443000,
+          "time": "22:30:43",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213253",
+          "url": "https://t.me/jin10light/213253",
+          "title": "整理：美国当周EIA数据最值一览",
+          "body": "1.美国至6月19日当周EIA原油库存为连续第9周录得下降。 2. 美国至6月19日当周EIA战略石油储备库存为1983年6月24日当周以来最低。 3. 美国至6月19日当周EIA精炼油库存增幅录得2026年1月16日当周以来最大。 4. 美国至6月19日当周国内原油产量为2025年12月26日当周以来最高。 5. 美国至6月19日当周除却战略储备的商业原油库存为2025年1月17日当周以来最低。",
+          "tags": [],
+          "ts": 1782311443000,
+          "time": "22:30:43",
+          "receivedAt": 1782316618810,
+          "receivedTime": true
+        },
+        {
+          "id": "213252",
+          "url": "https://t.me/jin10light/213252",
+          "title": "过去1小时全网爆仓1.34亿美元，主爆多单",
+          "body": "#BTC #美元 #爆仓",
+          "tags": [
+            "#BTC",
+            "#美元",
+            "#爆仓"
+          ],
+          "ts": 1782310961000,
+          "time": "22:22:41",
+          "receivedAt": 1782316619044,
+          "receivedTime": true
+        },
+        {
+          "id": "213251",
+          "url": "https://t.me/jin10light/213251",
+          "title": "美国至6月19日当周EIA原油库存、库欣原油库存、战略石油储备库存将于十分钟后公布。",
+          "body": "#美国 #EIA原油库存",
+          "tags": [
+            "#美国",
+            "#EIA原油库存"
+          ],
+          "ts": 1782310902000,
+          "time": "22:21:42",
+          "receivedAt": 1782316619044,
+          "receivedTime": true
+        },
+        {
+          "id": "213250",
+          "url": "https://t.me/jin10light/213250",
+          "title": "Greeks.live：市场避险情绪升温，比特币或在季度交割前后迎来突发行情",
+          "body": "#BTC #美国 #下跌",
+          "tags": [
+            "#BTC",
+            "#美国",
+            "#下跌"
+          ],
+          "ts": 1782310783000,
+          "time": "22:19:43",
+          "receivedAt": 1782316619044,
+          "receivedTime": true
+        },
+        {
+          "id": "213249",
+          "url": "https://t.me/jin10light/213249",
+          "title": "佩洛西披露英特尔、优步期权多头持仓，估值合计最高600万美元",
+          "body": "#美国 #佩洛西 #INTC",
+          "tags": [
+            "#美国",
+            "#佩洛西",
+            "#INTC"
+          ],
+          "ts": 1782309882000,
+          "time": "22:04:42",
+          "receivedAt": 1782316619044,
+          "receivedTime": true
+        },
+        {
+          "id": "213248",
+          "url": "https://t.me/jin10light/213248",
+          "title": "美国5月新屋销售总数年化 58万户，预期63.9万户，前值由62.2万户修正为62.6万户。",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1782309704000,
+          "time": "22:01:44",
+          "receivedAt": 1782316619044,
+          "receivedTime": true
+        },
+        {
+          "id": "213247",
+          "url": "https://t.me/jin10light/213247",
+          "title": "OpenAI首款芯片Jalapeño亮相：9个月流片，拟2026年底吉瓦级部署",
+          "body": "#OpenAI #Jalapeño #Broadcom",
+          "tags": [
+            "#OpenAI",
+            "#Jalapeño",
+            "#Broadcom"
+          ],
+          "ts": 1782309582000,
+          "time": "21:59:42",
+          "receivedAt": 1782316619044,
+          "receivedTime": true
+        },
+        {
+          "id": "213246",
+          "url": "https://t.me/jin10light/213246",
+          "title": "Strategy股价跌破100美元，创2024年3月以来新低",
+          "body": "#Strategy #美元",
+          "tags": [
+            "#Strategy",
+            "#美元"
+          ],
+          "ts": 1782309222000,
+          "time": "21:53:42",
+          "receivedAt": 1782316619044,
+          "receivedTime": true
+        },
+        {
+          "id": "213245",
+          "url": "https://t.me/jin10light/213245",
+          "title": "美国5月新屋销售总数年化将于十分钟后公布。",
+          "body": "#美国 #新屋销售",
+          "tags": [
+            "#美国",
+            "#新屋销售"
+          ],
+          "ts": 1782309041000,
+          "time": "21:50:41",
+          "receivedAt": 1782316619044,
+          "receivedTime": true
+        },
+        {
+          "id": "213244",
+          "url": "https://t.me/jin10light/213244",
+          "title": "CBOT农产品晚间分析：USDA种植面积报告前夕，CBOT玉米多头连跌三天后勉强喘息，然而强势美元重创小麦出口，七月初中西部开启“水火两重天”，农产品板块整体如何看待？",
+          "body": "#CBOT #农产品 #美元",
+          "tags": [
+            "#CBOT",
+            "#农产品",
+            "#美元"
+          ],
+          "ts": 1782308683000,
+          "time": "21:44:43",
+          "receivedAt": 1782316619044,
+          "receivedTime": true
+        },
+        {
+          "id": "213243",
+          "url": "https://t.me/jin10light/213243",
+          "title": "「散户大战华尔街」概念WEN涨超40%，此前Serenity调侃Reddit散户发起拯救Wendy's运动",
+          "body": "",
+          "tags": [],
+          "ts": 1782308561000,
+          "time": "21:42:41",
+          "receivedAt": 1782316619044,
+          "receivedTime": true
+        },
         {
           "id": "213242",
           "url": "https://t.me/jin10light/213242",
@@ -19428,442 +19862,6 @@
           "time": "20:52:45",
           "receivedAt": 1781960409290,
           "receivedTime": true
-        },
-        {
-          "id": "212071",
-          "url": "https://t.me/jin10light/212071",
-          "title": "Serenity：市场才是最终裁判，个人投资逻辑在质疑中持续被验证并兑现",
-          "body": "#AXTI #Reddit WSB #投资逻辑",
-          "tags": [
-            "#AXTI",
-            "#Reddit",
-            "#投资逻辑"
-          ],
-          "ts": 1781959181000,
-          "time": "20:39:41",
-          "receivedAt": 1781960409290,
-          "receivedTime": true
-        },
-        {
-          "id": "212070",
-          "url": "https://t.me/jin10light/212070",
-          "title": "Tether联创：稳定币2.0时代需要重构用户美元资金收益分配机制",
-          "body": "#Tether #Reeve Collins #美国国债",
-          "tags": [
-            "#Tether",
-            "#Reeve",
-            "#美国国债"
-          ],
-          "ts": 1781957983000,
-          "time": "20:19:43",
-          "receivedAt": 1781960409290,
-          "receivedTime": true
-        },
-        {
-          "id": "212069",
-          "url": "https://t.me/jin10light/212069",
-          "title": "下周宏观展望：中东局势与核心PCE数据主导，美光周三盘后发布财报",
-          "body": "#美国 #FED #MU",
-          "tags": [
-            "#美国",
-            "#FED",
-            "#MU"
-          ],
-          "ts": 1781957024000,
-          "time": "20:03:44",
-          "receivedAt": 1781960409290,
-          "receivedTime": true
-        },
-        {
-          "id": "212068",
-          "url": "https://t.me/jin10light/212068",
-          "title": "特朗普自夸：伊朗被「彻底击败」，美国不再软弱",
-          "body": "#美国 #BTC #伊朗",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#伊朗"
-          ],
-          "ts": 1781953781000,
-          "time": "19:09:41",
-          "receivedAt": 1781954215772,
-          "receivedTime": true
-        },
-        {
-          "id": "212067",
-          "url": "https://t.me/jin10light/212067",
-          "title": "日本大阪警方逮捕3名以稳定币洗钱数十亿日元案嫌疑人",
-          "body": "#大阪府 #稳定币 #加密货币",
-          "tags": [
-            "#大阪府",
-            "#稳定币",
-            "#加密货币"
-          ],
-          "ts": 1781953180000,
-          "time": "18:59:40",
-          "receivedAt": 1781954215772,
-          "receivedTime": true
-        },
-        {
-          "id": "212066",
-          "url": "https://t.me/jin10light/212066",
-          "title": "1. 将参加北约峰会——特朗普：将于7月7-8日赴土耳其参加北约峰会。",
-          "body": "2. 吹嘘自己民调数据非常好——特朗普：我的民调数据非常好。 我能以25个百分点的优势击败他们推出的任何候选人。 3. 美伊双方或于瑞士举行会谈——据Axios报道，一名美国官员表示，美国特使威特科夫正前往瑞士，特朗普女婿库什纳已在瑞士。 伊朗外长阿拉格奇计划于周六前往瑞士，但计划仍可能有变。 伊朗方面强调，希望看到停火落实后再前往瑞士。 该消息人士表示，因此谈判最早可能要到周一才能开始，不过时间表仍可能有变。 4. 称着急会面的是伊朗——特朗普：并非我们急于会面，而是伊朗。 他们已经完了！我们会坚持60天。 他们拿不到一毛钱，连一分钱都别想拿到！此外...",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1781952581000,
-          "time": "18:49:41",
-          "receivedAt": 1781954215772,
-          "receivedTime": true
-        },
-        {
-          "id": "212065",
-          "url": "https://t.me/jin10light/212065",
-          "title": "Michael Saylor：Strategy比特币与美元储备相较债务高出约480亿美元",
-          "body": "#BTC #Strategy #Michael Saylor",
-          "tags": [
-            "#BTC",
-            "#Strategy",
-            "#Michael"
-          ],
-          "ts": 1781951502000,
-          "time": "18:31:42",
-          "receivedAt": 1781954215772,
-          "receivedTime": true
-        },
-        {
-          "id": "212064",
-          "url": "https://t.me/jin10light/212064",
-          "title": "隐私公链Namada发布安全警报：协议遭攻击，正调查处理",
-          "body": "#Namada #Cosmos #安全漏洞",
-          "tags": [
-            "#Namada",
-            "#Cosmos",
-            "#安全漏洞"
-          ],
-          "ts": 1781950662000,
-          "time": "18:17:42",
-          "receivedAt": 1781954215772,
-          "receivedTime": true
-        },
-        {
-          "id": "212063",
-          "url": "https://t.me/jin10light/212063",
-          "title": "OKX Star：不鼓励员工以炒币、暴富为职业愿景，提倡长短期激励相结合",
-          "body": "#OKX #Star",
-          "tags": [
-            "#OKX",
-            "#Star"
-          ],
-          "ts": 1781950001000,
-          "time": "18:06:41",
-          "receivedAt": 1781954215772,
-          "receivedTime": true
-        },
-        {
-          "id": "212062",
-          "url": "https://t.me/jin10light/212062",
-          "title": "马斯克拿下1160亿美元天价薪酬",
-          "body": "#马斯克 #美国 #股票",
-          "tags": [
-            "#马斯克",
-            "#美国",
-            "#股票"
-          ],
-          "ts": 1781948922000,
-          "time": "17:48:42",
-          "receivedAt": 1781954215772,
-          "receivedTime": true
-        },
-        {
-          "id": "212061",
-          "url": "https://t.me/jin10light/212061",
-          "title": "据阿拉伯卫星电视台：消息人士称，目前谈判中的主要棘手问题是黎巴嫩。",
-          "body": "伊朗代表团威胁称，如果以色列继续在黎巴嫩进行攻击，他们将退出谈判。 #伊朗 #黎巴嫩",
-          "tags": [
-            "#伊朗",
-            "#黎巴嫩"
-          ],
-          "ts": 1781948561000,
-          "time": "17:42:41",
-          "receivedAt": 1781954215772,
-          "receivedTime": true
-        },
-        {
-          "id": "212060",
-          "url": "https://t.me/jin10light/212060",
-          "title": "伊朗：若以色列继续在黎巴嫩进行攻击，将退出谈判",
-          "body": "#伊朗 #黎巴嫩",
-          "tags": [
-            "#伊朗",
-            "#黎巴嫩"
-          ],
-          "ts": 1781948561000,
-          "time": "17:42:41",
-          "receivedAt": 1781954215772,
-          "receivedTime": true
-        },
-        {
-          "id": "212059",
-          "url": "https://t.me/jin10light/212059",
-          "title": "腾讯客服：微信正灰度测试AI助手「小微」",
-          "body": "#腾讯 #微信小微 #AI助手",
-          "tags": [
-            "#腾讯",
-            "#微信小微",
-            "#AI助手"
-          ],
-          "ts": 1781945380000,
-          "time": "16:49:40",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212058",
-          "url": "https://t.me/jin10light/212058",
-          "title": "CoinUp Alpha（CPA）IEO圆满收官，全球申购金额超830万USDT",
-          "body": "#CPA #CoinUp #DeFi",
-          "tags": [
-            "#CPA",
-            "#CoinUp",
-            "#DeFi"
-          ],
-          "ts": 1781943881000,
-          "time": "16:24:41",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212057",
-          "url": "https://t.me/jin10light/212057",
-          "title": "CZ：预测市场有助于价格发现，Hyperliquid验证了新的市场需求",
-          "body": "#Binance #CZ #Hyperliquid",
-          "tags": [
-            "#Binance",
-            "#CZ",
-            "#Hyperliquid"
-          ],
-          "ts": 1781942863000,
-          "time": "16:07:43",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212056",
-          "url": "https://t.me/jin10light/212056",
-          "title": "美国高级代表团已抵达瑞士",
-          "body": "6月20日讯，据阿拉伯卫星电视台报道，一个高级美国代表团已抵达瑞士。 #美国 #瑞士",
-          "tags": [
-            "#美国",
-            "#瑞士"
-          ],
-          "ts": 1781942862000,
-          "time": "16:07:42",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212055",
-          "url": "https://t.me/jin10light/212055",
-          "title": "某鲸鱼过去3小时花费1655.5万枚USDC买入23.49万枚SOL",
-          "body": "#SOL #USDC #霍尔木兹海峡",
-          "tags": [
-            "#SOL",
-            "#USDC",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1781941661000,
-          "time": "15:47:41",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212054",
-          "url": "https://t.me/jin10light/212054",
-          "title": "CZ：AI代理交易和支付将在数月内到来，并会使用区块链",
-          "body": "#Binance #CZ #AI ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Binance",
-            "#CZ",
-            "#AI"
-          ],
-          "ts": 1781941364000,
-          "time": "15:42:44",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212053",
-          "url": "https://t.me/jin10light/212053",
-          "title": "CZ：现在不再运营交易平台，BNB Chain正开发更快、更便宜并带有更多隐私控制的新版本",
-          "body": "#Binance #CZ #RWA ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Binance",
-            "#CZ",
-            "#RWA"
-          ],
-          "ts": 1781940040000,
-          "time": "15:20:40",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212052",
-          "url": "https://t.me/jin10light/212052",
-          "title": "CZ：若中本聪地址在比特币抗量子升级后仍长期未移动，应冻结相关BTC",
-          "body": "",
-          "tags": [],
-          "ts": 1781939500000,
-          "time": "15:11:40",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212051",
-          "url": "https://t.me/jin10light/212051",
-          "title": "以色列总理内塔尼亚胡：以色列人民已经回到家园，且将永远留在这里。",
-          "body": "因为这是我们的土地，这是我们的家园。 #以色列 #内塔尼亚胡",
-          "tags": [
-            "#以色列",
-            "#内塔尼亚胡"
-          ],
-          "ts": 1781939320000,
-          "time": "15:08:40",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212050",
-          "url": "https://t.me/jin10light/212050",
-          "title": "以色列开始对黎巴嫩东部发动空袭",
-          "body": "#以色列 #黎巴嫩",
-          "tags": [
-            "#以色列",
-            "#黎巴嫩"
-          ],
-          "ts": 1781939141000,
-          "time": "15:05:41",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212049",
-          "url": "https://t.me/jin10light/212049",
-          "title": "💥 备战世界杯 💥",
-          "body": "【G66体育】世界杯6-7月代理新增活动，每月单独计算有效，次月初申请 亏损5万以上可扶持55%分红比例 1万亏损以上40% 总代理注册： xx16.me 总代理邀请码： 353000 合作热线： @xiaogege888 官方频道： @xxoo196 #赞助商",
-          "tags": [
-            "#赞助商"
-          ],
-          "ts": 1781938840000,
-          "time": "15:00:40",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212048",
-          "url": "https://t.me/jin10light/212048",
-          "title": "CZ：加密市场仍处正常四年周期，周期低点持续抬升",
-          "body": "#BTC #美国 #Binance ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#BTC",
-            "#美国",
-            "#Binance"
-          ],
-          "ts": 1781938723000,
-          "time": "14:58:43",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212047",
-          "url": "https://t.me/jin10light/212047",
-          "title": "上交所拟完善股票期权组合策略业务 推出单边平仓功能",
-          "body": "6月20日讯，从业内获悉，为进一步提升期权投资者资金使用效率、降低交易成本、促进期权市场健康发展，上交所发布股票期权组合策略单边平仓业务方案，拟在现有组合策略业务基础上推出单边平仓功能。 此次推出的单边平仓功能，允许对投资者组合策略中的义务仓单独进行买入平仓操作，从而先解除组合再各自平仓，进一步简化了交易流程。 #上交所 #股票期权",
-          "tags": [
-            "#上交所",
-            "#股票期权"
-          ],
-          "ts": 1781937940000,
-          "time": "14:45:40",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212046",
-          "url": "https://t.me/jin10light/212046",
-          "title": "若比特币突破6.5万美元，主流CEX累计空单清算强度将达4.54亿",
-          "body": "#BTC #CEX #美元",
-          "tags": [
-            "#BTC",
-            "#CEX",
-            "#美元"
-          ],
-          "ts": 1781937642000,
-          "time": "14:40:42",
-          "receivedAt": 1781945844050,
-          "receivedTime": true
-        },
-        {
-          "id": "212045",
-          "url": "https://t.me/jin10light/212045",
-          "title": "AI威胁加剧，埃森哲股价跌至2017年以来最低水平",
-          "body": "#埃森哲 #AI #中东战争",
-          "tags": [
-            "#埃森哲",
-            "#AI",
-            "#中东战争"
-          ],
-          "ts": 1781934522000,
-          "time": "13:48:42",
-          "receivedAt": 1781935090452,
-          "receivedTime": true
-        },
-        {
-          "id": "212044",
-          "url": "https://t.me/jin10light/212044",
-          "title": "伊朗革命卫队：已进入高度战备状态",
-          "body": "6月20日讯，据伊朗塔斯尼姆通讯社报道，伊朗革命卫队表示，武装部队已进入高度戒备状态，准备好抵御任何潜在敌人的侵犯和违反协议的行为，捍卫国家安全、尊严和利益。 #伊朗 #革命卫队",
-          "tags": [
-            "#伊朗",
-            "#革命卫队"
-          ],
-          "ts": 1781934522000,
-          "time": "13:48:42",
-          "receivedAt": 1781935090452,
-          "receivedTime": true
-        },
-        {
-          "id": "212043",
-          "url": "https://t.me/jin10light/212043",
-          "title": "加密市场小幅反弹，资金费率显示BTC、ETH仍处于看跌区间",
-          "body": "#BTC #ETH #加密市场",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#加密市场"
-          ],
-          "ts": 1781933800000,
-          "time": "13:36:40",
-          "receivedAt": 1781935090452,
-          "receivedTime": true
-        },
-        {
-          "id": "212042",
-          "url": "https://t.me/jin10light/212042",
-          "title": "Tom Lee：投资者对美联储会议反应过度，本次会议实际相当鸽派",
-          "body": "#Tom Lee #美国 #美联储",
-          "tags": [
-            "#Tom",
-            "#美国",
-            "#美联储"
-          ],
-          "ts": 1781932069000,
-          "time": "13:07:49",
-          "receivedAt": 1781935090452,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -21381,7 +21379,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
