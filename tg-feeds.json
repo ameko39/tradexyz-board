@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T20:26:32.221Z",
+  "updatedAt": "2026-06-25T22:00:06.097Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2509,17 +2509,6 @@
           "time": "07:19:55",
           "receivedAt": 1781669680777,
           "receivedTime": true
-        },
-        {
-          "id": "6082",
-          "url": "https://t.me/BWEtradfi/6082",
-          "title": "*美国对伊朗的空袭已经开始：AXIOS",
-          "body": "*US STRIKES ON IRAN HAVE STARTED: AXIOS *AIR DEFENCES ACTIVIATED IN IRAN'S ASALUYEH -MEHR *伊朗阿萨鲁耶防空系统启动：MEHR",
-          "tags": [],
-          "ts": 1781127304000,
-          "time": "05:35:04",
-          "receivedAt": 1781669680777,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2527,6 +2516,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "213676",
+          "url": "https://t.me/jin10light/213676",
+          "title": "据纽约时报：OpenAI倾向于等到明年再进行IPO。",
+          "body": "#OpenAI #美国",
+          "tags": [
+            "#OpenAI",
+            "#美国"
+          ],
+          "ts": 1782419800000,
+          "time": "04:36:40",
+          "receivedAt": 1782424788197,
+          "receivedTime": true
+        },
         {
           "id": "213675",
           "url": "https://t.me/jin10light/213675",
@@ -19596,21 +19599,6 @@
           ],
           "ts": 1782131803000,
           "time": "20:36:43",
-          "receivedAt": 1782134164252,
-          "receivedTime": true
-        },
-        {
-          "id": "212476",
-          "url": "https://t.me/jin10light/212476",
-          "title": "Strive上周增持759枚BTC，均价65,850美元",
-          "body": "#BTC #Strive #Matt ColeStrive",
-          "tags": [
-            "#BTC",
-            "#Strive",
-            "#Matt"
-          ],
-          "ts": 1782131743000,
-          "time": "20:35:43",
           "receivedAt": 1782134164252,
           "receivedTime": true
         }
