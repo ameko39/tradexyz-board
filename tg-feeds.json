@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-06-25T22:00:06.097Z",
+  "updatedAt": "2026-06-25T23:22:31.870Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6311",
+          "url": "https://t.me/BWEtradfi/6311",
+          "title": "美国司法部官员告诉工作人员，反垄断和解优先于审判：《华尔街日报》",
+          "body": "*DOJ OFFICIAL TELLS STAFF PREFERENCE FOR ANTITRUST SETTLEMENTS OVER TRIALS: WSJ",
+          "tags": [],
+          "ts": 1782429576000,
+          "time": "07:19:36",
+          "receivedAt": 1782429740376,
+          "receivedTime": true
+        },
+        {
+          "id": "6310",
+          "url": "https://t.me/BWEtradfi/6310",
+          "title": "*特朗普：即将从伊朗购买小麦、大豆和玉米",
+          "body": "*TRUMP: WILL SOON BE BUYING WHEAT, SOYBEANS AND CORN FROM IRAN",
+          "tags": [],
+          "ts": 1782429108000,
+          "time": "07:11:48",
+          "receivedAt": 1782429740376,
+          "receivedTime": true
+        },
+        {
+          "id": "6309",
+          "url": "https://t.me/BWEtradfi/6309",
+          "title": "TRUMP：我们有一个名为伊朗的新市场即将到来",
+          "body": "*TRUMP: WE HAVE A NEW MARKET COMING UP CALLED IRAN",
+          "tags": [],
+          "ts": 1782429098000,
+          "time": "07:11:38",
+          "receivedAt": 1782429740376,
+          "receivedTime": true
+        },
         {
           "id": "6308",
           "url": "https://t.me/BWEtradfi/6308",
@@ -2476,39 +2509,6 @@
           "time": "07:32:14",
           "receivedAt": 1781669680777,
           "receivedTime": true
-        },
-        {
-          "id": "6085",
-          "url": "https://t.me/BWEtradfi/6085",
-          "title": "特朗普为更多伊朗打击保留选项 - 福克斯新闻",
-          "body": "*TRUMP LEAVES OPTION OPEN FOR MORE IRAN STRIKES - FOX NEWS",
-          "tags": [],
-          "ts": 1781133640000,
-          "time": "07:20:40",
-          "receivedAt": 1781669680777,
-          "receivedTime": true
-        },
-        {
-          "id": "6084",
-          "url": "https://t.me/BWEtradfi/6084",
-          "title": "特朗普告诉福克斯新闻：轰炸将很快停止",
-          "body": "*TRUMP TELLS FOX NEWS: BOMBING WILL STOP SHORTLY",
-          "tags": [],
-          "ts": 1781133617000,
-          "time": "07:20:17",
-          "receivedAt": 1781669680777,
-          "receivedTime": true
-        },
-        {
-          "id": "6083",
-          "url": "https://t.me/BWEtradfi/6083",
-          "title": "TRUMP 告诉福克斯新闻：直接与伊朗官员对话",
-          "body": "*TRUMP TELLS FOX NEWS: SPOKE DIRECTLY WITH IRANIAN OFFICIALS",
-          "tags": [],
-          "ts": 1781133595000,
-          "time": "07:19:55",
-          "receivedAt": 1781669680777,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2516,6 +2516,92 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "213682",
+          "url": "https://t.me/jin10light/213682",
+          "title": "市场消息：三星电子或将在韩国新建芯片工厂，投资规模或达300万亿韩元。",
+          "body": "#好的",
+          "tags": [
+            "#好的"
+          ],
+          "ts": 1782427901000,
+          "time": "06:51:41",
+          "receivedAt": 1782429740739,
+          "receivedTime": true
+        },
+        {
+          "id": "213681",
+          "url": "https://t.me/jin10light/213681",
+          "title": "市场消息：三星集团将在未来10年内在韩国投资1000万亿韩元。",
+          "body": "#三星集团 #韩国",
+          "tags": [
+            "#三星集团",
+            "#韩国"
+          ],
+          "ts": 1782427844000,
+          "time": "06:50:44",
+          "receivedAt": 1782429740739,
+          "receivedTime": true
+        },
+        {
+          "id": "213680",
+          "url": "https://t.me/jin10light/213680",
+          "title": "今日重点关注的财经数据与事件：2026年6月26日 周五",
+          "body": "① 22:00 美国6月密歇根大学消费者信心指数终值 ② 22:00 美国6月一年期通胀率预期终值 ③ 23:30 美联储卡什卡利发表讲话 ④ 次日01:00 美国至6月26日当周石油钻井总数 #美国 #美联储 #通胀率",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#通胀率"
+          ],
+          "ts": 1782427844000,
+          "time": "06:50:44",
+          "receivedAt": 1782429740739,
+          "receivedTime": true
+        },
+        {
+          "id": "213679",
+          "url": "https://t.me/jin10light/213679",
+          "title": "国内新闻ï",
+          "body": "1.商务部回应中美经贸磋商最新进展：双方同意成立贸易理事会，并将在理事会项下讨论对等降税等合作。 2. 我国发电装机突破40亿千瓦。 3. 市场监管总局召开2026年第二次企业公平竞争座谈会。 4. 央行：将在6月29日、6月30日公开市场操作中增加隔夜逆回购操作品种。 5. 两部门：强化可控核聚变、太空电站、高温超导输电等理论研究和技术创新。 6. 丁薛祥出席第九届中国-亚欧博览会开幕式并会见与会外国政要。 国际新闻ï 1.苹果提高Mac、iPad等多种产品价格，iPhone不在调价之列。 2. 伊拉克石油部否认考虑退出欧佩克。 3. IBM发布0....",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1782426704000,
+          "time": "06:31:44",
+          "receivedAt": 1782429740739,
+          "receivedTime": true
+        },
+        {
+          "id": "213678",
+          "url": "https://t.me/jin10light/213678",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少6.28吨，当前持仓量为1007.075吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1782426220000,
+          "time": "06:23:40",
+          "receivedAt": 1782429740739,
+          "receivedTime": true
+        },
+        {
+          "id": "213677",
+          "url": "https://t.me/jin10light/213677",
+          "title": "整理：中东局势跟踪（6月26日）",
+          "body": "①伊æ 1.消息人士：以军撤离黎巴嫩是伊朗谈判的重要“红线”。 2. 伊朗“圣城军”司令：如果以色列今天不自愿撤出黎巴嫩南部，明天将被迫败逃。 3. 伊朗议长否认被解冻资产将用于购买美国农产品。 ②美å 1.美国国务卿鲁比奥：即将促成以黎达成意向承诺。 2. 美国能源部长赖特：预计伊朗每日原油出口量最高将达到200万桶。 ③以色å 1.以高级官员否认已从黎巴嫩南部缓冲区部分地区撤军。 2. 以防长：军方将在黎巴嫩、叙利亚和加沙的“安全区”内维持驻军；不会撤出“安全区”。 ④霍尔木兹海å 1.美官员：伊朗革命卫队周四在霍尔木兹海峡袭击了一艘货船。 2....",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡",
+            "#美国"
+          ],
+          "ts": 1782425681000,
+          "time": "06:14:41",
+          "receivedAt": 1782429740739,
+          "receivedTime": true
+        },
         {
           "id": "213676",
           "url": "https://t.me/jin10light/213676",
@@ -2575,13 +2661,9 @@
         {
           "id": "213672",
           "url": "https://t.me/jin10light/213672",
-          "title": "FOMC永久票委、纽约联储主席威廉姆斯将于十分钟后发表讲话。",
-          "body": "#美国 #FOMC #纽约联储",
-          "tags": [
-            "#美国",
-            "#FOMC",
-            "#纽约联储"
-          ],
+          "title": "2027年FOMC票委、芝加哥联储主席古尔斯比将于十分钟后发表讲话。",
+          "body": "",
+          "tags": [],
           "ts": 1782415904000,
           "time": "03:31:44",
           "receivedAt": 1782419169081,
@@ -19510,95 +19592,6 @@
           ],
           "ts": 1782133061000,
           "time": "20:57:41",
-          "receivedAt": 1782134164252,
-          "receivedTime": true
-        },
-        {
-          "id": "212482",
-          "url": "https://t.me/jin10light/212482",
-          "title": "摩根大通：比特币矿业对价格波动愈发敏感，更多矿工接近盈亏线",
-          "body": "#BTC #摩根大通 #比特币矿业",
-          "tags": [
-            "#BTC",
-            "#摩根大通",
-            "#比特币矿业"
-          ],
-          "ts": 1782132881000,
-          "time": "20:54:41",
-          "receivedAt": 1782134164252,
-          "receivedTime": true
-        },
-        {
-          "id": "212481",
-          "url": "https://t.me/jin10light/212481",
-          "title": "惠誉：将SpaceX拟发行的高级无担保债券评级为「BBB+」",
-          "body": "#SpaceX #SPCX .O #债券发行",
-          "tags": [
-            "#SpaceX",
-            "#SPCX",
-            "#债券发行"
-          ],
-          "ts": 1782132644000,
-          "time": "20:50:44",
-          "receivedAt": 1782134164252,
-          "receivedTime": true
-        },
-        {
-          "id": "212480",
-          "url": "https://t.me/jin10light/212480",
-          "title": "美股盘前加密货币概念股普涨，MSTR涨4.19%",
-          "body": "#美股 #BTC #MSTR",
-          "tags": [
-            "#美股",
-            "#BTC",
-            "#MSTR"
-          ],
-          "ts": 1782132221000,
-          "time": "20:43:41",
-          "receivedAt": 1782134164252,
-          "receivedTime": true
-        },
-        {
-          "id": "212479",
-          "url": "https://t.me/jin10light/212479",
-          "title": "高盛下调美国未来12个月经济衰退概率至15%，此前为25%",
-          "body": "#高盛 #美国 #经济衰退概率",
-          "tags": [
-            "#高盛",
-            "#美国",
-            "#经济衰退概率"
-          ],
-          "ts": 1782131988000,
-          "time": "20:39:48",
-          "receivedAt": 1782134164252,
-          "receivedTime": true
-        },
-        {
-          "id": "212478",
-          "url": "https://t.me/jin10light/212478",
-          "title": "比特币短时回升突破6.5万美元",
-          "body": "#BTC #回升",
-          "tags": [
-            "#BTC",
-            "#回升"
-          ],
-          "ts": 1782131863000,
-          "time": "20:37:43",
-          "receivedAt": 1782134164252,
-          "receivedTime": true
-        },
-        {
-          "id": "212477",
-          "url": "https://t.me/jin10light/212477",
-          "title": "支付公司MoneyGram成为Solana验证节点，进一步扩大区块链支付布局",
-          "body": "#SOL #MoneyGram #Solana",
-          "tags": [
-            "#SOL",
-            "#MoneyGram",
-            "#Solana"
-          ],
-          "ts": 1782131803000,
-          "time": "20:36:43",
           "receivedAt": 1782134164252,
           "receivedTime": true
         }
