@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T11:50:18.848Z",
+  "updatedAt": "2026-06-27T12:59:44.902Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2415,6 +2415,66 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "214129",
+          "url": "https://t.me/jin10light/214129",
+          "title": "分析：STRC价格稳定机制大体失效，Strategy或需回购STRC以解决问题",
+          "body": "#MSTR #BTC #STRC",
+          "tags": [
+            "#MSTR",
+            "#BTC",
+            "#STRC"
+          ],
+          "ts": 1782564281000,
+          "time": "20:44:41",
+          "receivedAt": 1782565165209,
+          "receivedTime": true
+        },
+        {
+          "id": "214128",
+          "url": "https://t.me/jin10light/214128",
+          "title": "Strategy mNAV跌破1，市场估值已低于其比特币持仓价值",
+          "body": "#MSTR #BTC #美国",
+          "tags": [
+            "#MSTR",
+            "#BTC",
+            "#美国"
+          ],
+          "ts": 1782563142000,
+          "time": "20:25:42",
+          "receivedAt": 1782565165209,
+          "receivedTime": true
+        },
+        {
+          "id": "214127",
+          "url": "https://t.me/jin10light/214127",
+          "title": "Coinbase比特币溢价指数已连续40日处于负溢价，美国市场购买力持续低迷",
+          "body": "#Coinbase #BTC #美国",
+          "tags": [
+            "#Coinbase",
+            "#BTC",
+            "#美国"
+          ],
+          "ts": 1782562540000,
+          "time": "20:15:40",
+          "receivedAt": 1782565165209,
+          "receivedTime": true
+        },
+        {
+          "id": "214126",
+          "url": "https://t.me/jin10light/214126",
+          "title": "本周美国比特币现货ETF净流出17.873亿美元",
+          "body": "#美国 #BTC #ETF",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#ETF"
+          ],
+          "ts": 1782561161000,
+          "time": "19:52:41",
+          "receivedAt": 1782565165209,
+          "receivedTime": true
+        },
         {
           "id": "214125",
           "url": "https://t.me/jin10light/214125",
@@ -19484,64 +19544,6 @@
           "time": "01:18:41",
           "receivedAt": 1782235405286,
           "receivedTime": true
-        },
-        {
-          "id": "212929",
-          "url": "https://t.me/jin10light/212929",
-          "title": "伊朗总统：伊美谅解备忘录不涉及导弹问题",
-          "body": "6月24日讯，当地时间23日，正在巴基斯坦访问的伊朗总统佩泽希齐扬在接受采访时表示，伊美谅解备忘录中并不包含导弹问题，未来也不会将其纳入议题。 佩泽希齐扬称，伊朗永远不会与任何人协商伊朗方面的防御能力。 #伊朗 #佩泽希齐扬",
-          "tags": [
-            "#伊朗",
-            "#佩泽希齐扬"
-          ],
-          "ts": 1782234702000,
-          "time": "01:11:42",
-          "receivedAt": 1782235405286,
-          "receivedTime": true
-        },
-        {
-          "id": "212928",
-          "url": "https://t.me/jin10light/212928",
-          "title": "伊朗总统称若无导弹伊朗已成加沙",
-          "body": "6月24日讯，当地时间6月23日，正在巴基斯坦访问的伊朗总统佩泽希齐扬在接受采访时表示，伊美谅解备忘录中不包含伊朗导弹问题，而且未来也绝不会将此纳入谈判中。 佩泽希齐扬说，“如果不是因为我们的导弹，伊朗早就被美国和以色列夷为平地了，就像巴勒斯坦加沙地带一样。 伊朗永远不会与任何人谈判我们的防御能力。 ”巴基斯坦总理夏巴兹·谢里夫表示，其他国家拥有弹道导弹，伊朗被禁止拥有的话那就是“双重标准”，这是不可接受且不合逻辑的。 #伊朗 #佩泽希齐扬 #导弹",
-          "tags": [
-            "#伊朗",
-            "#佩泽希齐扬",
-            "#导弹"
-          ],
-          "ts": 1782234522000,
-          "time": "01:08:42",
-          "receivedAt": 1782235405286,
-          "receivedTime": true
-        },
-        {
-          "id": "212927",
-          "url": "https://t.me/jin10light/212927",
-          "title": "美联储7月加息25个基点概率现报34.2%",
-          "body": "#美联储 #利率",
-          "tags": [
-            "#美联储",
-            "#利率"
-          ],
-          "ts": 1782234103000,
-          "time": "01:01:43",
-          "receivedAt": 1782235405286,
-          "receivedTime": true
-        },
-        {
-          "id": "212926",
-          "url": "https://t.me/jin10light/212926",
-          "title": "Baird：预计特斯拉与SpaceX有可能合并",
-          "body": "#TSLA #SPCX #特斯拉",
-          "tags": [
-            "#TSLA",
-            "#SPCX",
-            "#特斯拉"
-          ],
-          "ts": 1782233681000,
-          "time": "00:54:41",
-          "receivedAt": 1782235405286,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20762,7 +20764,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
