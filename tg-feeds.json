@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-06-27T22:31:19.292Z",
+  "updatedAt": "2026-06-27T23:35:36.185Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6333",
+          "url": "https://t.me/BWEtradfi/6333",
+          "title": "*特朗普谈伊朗：他们很可能永远不会吸取教训",
+          "body": "*TRUMP ON IRAN: VERY POSSIBLE THEY WILL NEVER LEARN *TRUMP: MAY COME A POINT WHERE WE ARE NO LONGER ABLE TO BE REASONABLE, FORCED TO MILITARILY COMPLETE THE JOB *TRUMP: IF THAT HAPPENS, THE ISLAMIC REPUBLIC OF IRAN WILL NO LONGER EXIST *特朗普：或许有一天，我们将无法再讲道理，被迫诉诸武力完成任务 *特朗普：如果这种情况发生，伊朗伊斯兰共和国将不复存在",
+          "tags": [],
+          "ts": 1782602037000,
+          "time": "07:13:57",
+          "receivedAt": 1782603323274,
+          "receivedTime": true
+        },
         {
           "id": "6332",
           "url": "https://t.me/BWEtradfi/6332",
@@ -2141,20 +2152,9 @@
           "time": "07:45:50",
           "receivedAt": 1781664912946,
           "receivedTime": true
-        },
-        {
-          "id": "6139",
-          "url": "https://t.me/BWEtradfi/6139",
-          "title": "*据《华尔街日报》报道，由各州总检察长组成的联盟已对OPENAI展开调查，并于周五收到传票。",
-          "body": "*A COALITION OF STATE ATTORNEYS GENERAL HAS OPENED AN INVESTIGATION INTO OPENAI, SERVED FRIDAY WITH A SUBOPOENA: WSJ *OPENAI SAYS IT TAKES CONCERNS RAISED BY STATE AGS SERIOUSLY: WSJ *据《华尔街日报》报道，OPENAI表示，他们非常重视各州总检察长提出的担忧。",
-          "tags": [],
-          "ts": 1781306388000,
-          "time": "07:19:48",
-          "receivedAt": 1781669680369,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
