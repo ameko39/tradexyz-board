@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T19:00:39.268Z",
+  "updatedAt": "2026-06-28T20:18:18.987Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2099,11 +2099,39 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "214249",
+          "url": "https://t.me/jin10light/214249",
+          "title": "伊朗官员称伊朗未参加周日的谈判",
+          "body": "6月29日讯，据伊朗国家电视台：伊朗官员表示，由于近期袭击事件以及未兑现的条件，伊朗未参加周日安排的技术谈判。 #伊朗",
+          "tags": [
+            "#伊朗"
+          ],
+          "ts": 1782675701000,
+          "time": "03:41:41",
+          "receivedAt": 1782677877920,
+          "receivedTime": true
+        },
+        {
+          "id": "214248",
+          "url": "https://t.me/jin10light/214248",
+          "title": "美媒：美伊技术谈判仍计划在未来几天内进行",
+          "body": "6月29日讯，据纽约时报报道，一位美国高级官员表示，美伊关于如何落实谅解备忘录的技术会谈仍计划在接下来的几天内举行。 尽管双方近日发生过相互打击，但这位官员在谈及持续谈判时表示，目前尚未取消任何会谈，双方正通过所谓的“缓和冲突渠道”进行信息交流。 #美国 #伊朗 #谈判 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#谈判"
+          ],
+          "ts": 1782673840000,
+          "time": "03:10:40",
+          "receivedAt": 1782677877920,
+          "receivedTime": true
+        },
         {
           "id": "214247",
           "url": "https://t.me/jin10light/214247",
@@ -19239,34 +19267,6 @@
           ],
           "ts": 1782278681000,
           "time": "13:24:41",
-          "receivedAt": 1782279568044,
-          "receivedTime": true
-        },
-        {
-          "id": "213048",
-          "url": "https://t.me/jin10light/213048",
-          "title": "A股持续走高，深成指、创业板指双双涨超1%，沪指涨0.15%。",
-          "body": "#好的",
-          "tags": [
-            "#好的"
-          ],
-          "ts": 1782278502000,
-          "time": "13:21:42",
-          "receivedAt": 1782279568044,
-          "receivedTime": true
-        },
-        {
-          "id": "213047",
-          "url": "https://t.me/jin10light/213047",
-          "title": "中证500股指期货（IC）主力合约站上8600点，日内涨2.03%。",
-          "body": "#中证500 #股指期货 #IC",
-          "tags": [
-            "#中证500",
-            "#股指期货",
-            "#IC"
-          ],
-          "ts": 1782278446000,
-          "time": "13:20:46",
           "receivedAt": 1782279568044,
           "receivedTime": true
         }
