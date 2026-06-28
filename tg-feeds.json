@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-06-27T23:35:36.185Z",
+  "updatedAt": "2026-06-28T01:37:08.473Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6337",
+          "url": "https://t.me/BWEtradfi/6337",
+          "title": "*伊朗伊斯兰革命卫队海军司令：美国在该地区的基地在这些日子里将经历‘地狱’",
+          "body": "*IRAN'S IRGC NAVY COMMAND: U.S. BASES IN THE REGION WILL EXPERIENCE 'HELL' IN THESE DAYS",
+          "tags": [],
+          "ts": 1782608472000,
+          "time": "09:01:12",
+          "receivedAt": 1782610614690,
+          "receivedTime": true
+        },
+        {
+          "id": "6336",
+          "url": "https://t.me/BWEtradfi/6336",
+          "title": "IRGC称可能更强硬处理霍尔木兹海峡船只：Press TV",
+          "body": "*IRGC SAYS MAY DEAL WITH SHIPS IN HORMUZ MORE STRONGLY: PRESS TV",
+          "tags": [],
+          "ts": 1782607606000,
+          "time": "08:46:46",
+          "receivedAt": 1782610614690,
+          "receivedTime": true
+        },
+        {
+          "id": "6335",
+          "url": "https://t.me/BWEtradfi/6335",
+          "title": "伊朗革命卫队称对8个美国目标发动袭击：Press TV",
+          "body": "*IRGC SAYS LAUNCHED STRIKES AGAINST 8 US TARGETS: PRESS TV",
+          "tags": [],
+          "ts": 1782607500000,
+          "time": "08:45:00",
+          "receivedAt": 1782610614690,
+          "receivedTime": true
+        },
+        {
+          "id": "6334",
+          "url": "https://t.me/BWEtradfi/6334",
+          "title": "伊朗伊斯兰革命卫队称任何违反停火协议的行为都与《伊斯兰堡协议》相悖，并将使所有正在进行中的进程完全停止",
+          "body": "*IRAN'S IRGC SAYS ANY CEASEFIRE VIOLATION CONTRADICTS ISLAMABAD AGREEMENT AND WILL BRING ALL ONGOING PROCESSES TO A COMPLETE HALT",
+          "tags": [],
+          "ts": 1782607350000,
+          "time": "08:42:30",
+          "receivedAt": 1782610614690,
+          "receivedTime": true
+        },
         {
           "id": "6333",
           "url": "https://t.me/BWEtradfi/6333",
@@ -2097,61 +2141,6 @@
           "time": "00:45:54",
           "receivedAt": 1781664912946,
           "receivedTime": true
-        },
-        {
-          "id": "6144",
-          "url": "https://t.me/BWEtradfi/6144",
-          "title": "*特朗普：美国南方司令部使用致命动能打击处决了“阿拉瓜列车”头目尼诺·格雷罗",
-          "body": "*TRUMP: US SOUTHERN COMMAND EXECUTED TREN DE ARAGUA LEADER NINO GUERRERO VIA LETHAL KINETIC STRIKE *TRUMP: ACTION COORDINATED CLOSELY WITH VENEZUELA GOVERNMENT *TRUMP: TREN DE ARAGUA TERRORISTS NO LONGER HAVE SAFE HAVEN IN VENEZUELA OR ANYWHERE ELSE *特朗普：此次行动与委内瑞拉政府密切协调 *特朗普：阿拉瓜列车恐怖分子在委内瑞拉乃至任何其他地方都...",
-          "tags": [],
-          "ts": 1781312662000,
-          "time": "09:04:22",
-          "receivedAt": 1781664912946,
-          "receivedTime": true
-        },
-        {
-          "id": "6143",
-          "url": "https://t.me/BWEtradfi/6143",
-          "title": "*Anthropico：今天下午5点21分收到美国政府的指令，但信中并未提供其国家安全关切的具体细节。",
-          "body": "*ANTHROPIC: RECEIVED DIRECTIVE FROM U.S. GOVERNMENT TODAY AT 5:21PM, LETTER DID NOT PROVIDE SPECIFIC DETAILS OF ITS NATIONAL SECURITY CONCERN *ANTHROPIC: OUR UNDERSTANDING IS THAT U.S. GOVT BELIEVES IT HAS BECOME AWARE OF A METHOD OF BYPASSING, OR “JAILBREAKING” FABLE 5… *Anthropico：据我们了解，美国政府认为他们已...",
-          "tags": [],
-          "ts": 1781311851000,
-          "time": "08:50:51",
-          "receivedAt": 1781664912946,
-          "receivedTime": true
-        },
-        {
-          "id": "6142",
-          "url": "https://t.me/BWEtradfi/6142",
-          "title": "ANTHROPIC 将根据美国政府出口指令，为所有客户禁用 FABLE 5 和 MYTHOS 5：博客",
-          "body": "*ANTHROPIC TO DISABLE FABLE 5 AND MYTHOS 5 FOR ALL CUSTOMERS FOLLOWING US GOVT EXPORT DIRECTIVE: BLOG",
-          "tags": [],
-          "ts": 1781311794000,
-          "time": "08:49:54",
-          "receivedAt": 1781664912946,
-          "receivedTime": true
-        },
-        {
-          "id": "6141",
-          "url": "https://t.me/BWEtradfi/6141",
-          "title": "知情人士告诉路透社，美国军队击落多架飞向霍尔木兹海峡的伊朗单向攻击无人机",
-          "body": "*U.S. FORCES SHOOT DOWN MULTIPLE IRANIAN ONE-WAY ATTACK DRONES HEADED TOWARD THE STRAIT OF HORMUZ, A PERSON FAMILIAR WITH MATTER TELLS REUTERS",
-          "tags": [],
-          "ts": 1781310462000,
-          "time": "08:27:42",
-          "receivedAt": 1781664912946,
-          "receivedTime": true
-        },
-        {
-          "id": "6140",
-          "url": "https://t.me/BWEtradfi/6140",
-          "title": "*Anthropico公司面临出口管制，其先进的Mythos 5和Fable 5模型将无法出口",
-          "body": "*ANTHROPIC FACES EXPORT CONTROLS BLOCKING FOREIGN ACCESS TO ADVANCED MYTHOS 5, FABLE 5 MODELS *ANTHROPIC FACES POTENTIAL FINANCIAL AND CIVIL PENALTIES FOR FAILURE TO COMPLY WITH NEW MANDATES *Anthropico公司若不遵守新规，可能面临经济和民事处罚",
-          "tags": [],
-          "ts": 1781307950000,
-          "time": "07:45:50",
-          "receivedAt": 1781664912946,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2159,6 +2148,215 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "214167",
+          "url": "https://t.me/jin10light/214167",
+          "title": "加密股跌幅远超大型科技股：Coinbase、Circle较高点分别下跌69%和72%，比特币一度跌破6万美元加剧悲观情绪",
+          "body": "#COIN #CRCL #BTC",
+          "tags": [
+            "#COIN",
+            "#CRCL",
+            "#BTC"
+          ],
+          "ts": 1782610181000,
+          "time": "09:29:41",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214166",
+          "url": "https://t.me/jin10light/214166",
+          "title": "软银孙正义质疑马斯克轨道数据中心价值，分析人士称各方预测背后均有利益驱动",
+          "body": "#孙正义 #马斯克 #SpaceX",
+          "tags": [
+            "#孙正义",
+            "#马斯克",
+            "#SpaceX"
+          ],
+          "ts": 1782610061000,
+          "time": "09:27:41",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214165",
+          "url": "https://t.me/jin10light/214165",
+          "title": "整理：中东局势跟踪（6月28日）",
+          "body": "①伊æ 1.伊朗外长明天将前往巴格达。 2. 伊朗革命卫队称将更强硬对待“违规”船只。 3. 伊朗约三成民众将参加已故最高领袖葬礼。 4. 受中东战事影响，伊朗6月通胀率同比大幅升至88.6%。 5. 美国打击伊朗后，伊朗无人机袭击巴林且有油轮在霍尔木兹海峡遭袭。 6. 伊朗伊斯兰革命卫队：摧毁了位于科威特阿里·萨利姆空军基地和位于巴林的美军第五舰队的8处美军重要基础设施 ②美å 1.美国再次打击伊朗，锡里克地区传出爆炸声。 2. 特朗普称美军打击伊朗导弹和无人机储存地点。 3. 据CNN：美国官员称，当伊朗声称对中东的美军目标发动袭击时，美国“探测到...",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#以色列"
+          ],
+          "ts": 1782610001000,
+          "time": "09:26:41",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214164",
+          "url": "https://t.me/jin10light/214164",
+          "title": "Token实际成本降至0.99美元，SemiAnalysis披露大模型消费已占薪酬30%",
+          "body": "#AI #Token #DeepSeek",
+          "tags": [
+            "#AI",
+            "#Token",
+            "#DeepSeek"
+          ],
+          "ts": 1782609461000,
+          "time": "09:17:41",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214163",
+          "url": "https://t.me/jin10light/214163",
+          "title": "SharpLink三日累计增持39,196枚ETH，耗资6243万美元",
+          "body": "#ETH #中东 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#ETH",
+            "#中东"
+          ],
+          "ts": 1782609161000,
+          "time": "09:12:41",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214162",
+          "url": "https://t.me/jin10light/214162",
+          "title": "伊朗革命卫队宣称袭击8个美国目标，扬言美军基地将经历「地狱」",
+          "body": "#伊朗 #BTC #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#BTC",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1782608981000,
+          "time": "09:09:41",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214161",
+          "url": "https://t.me/jin10light/214161",
+          "title": "黄金一度跌破4000美元、白银腰斩、比特币跌至5.8万美元，「货币贬值交易」全面瓦解",
+          "body": "#黄金 #白银 #BTC",
+          "tags": [
+            "#黄金",
+            "#白银",
+            "#BTC"
+          ],
+          "ts": 1782608503000,
+          "time": "09:01:43",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214160",
+          "url": "https://t.me/jin10light/214160",
+          "title": "DCG旗下Yuma推出Bittensor生态机构基金，去中心化AI叙事因Anthropic模型受限事件获新动力",
+          "body": "#Bittensor #TAO #美国",
+          "tags": [
+            "#Bittensor",
+            "#TAO",
+            "#美国"
+          ],
+          "ts": 1782608142000,
+          "time": "08:55:42",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214159",
+          "url": "https://t.me/jin10light/214159",
+          "title": "超级数据周来袭：非农提前至周四公布，美伊冲突再度升级，月末调仓放大波动风险",
+          "body": "#伊朗 #美国 #油价",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#油价"
+          ],
+          "ts": 1782607784000,
+          "time": "08:49:44",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214158",
+          "url": "https://t.me/jin10light/214158",
+          "title": "伊朗：违反停火将导致所有相关进程完全停止，对科威特和巴林发动导弹与无人机打击",
+          "body": "#伊朗 #特朗普 #美国",
+          "tags": [
+            "#伊朗",
+            "#特朗普",
+            "#美国"
+          ],
+          "ts": 1782607600000,
+          "time": "08:46:40",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214157",
+          "url": "https://t.me/jin10light/214157",
+          "title": "富达反驳减半削弱比特币安全性论断：矿工日均收入已从2.63万美元增至4020万美元",
+          "body": "#BTC #矿工收入 #AI转型",
+          "tags": [
+            "#BTC",
+            "#矿工收入",
+            "#AI转型"
+          ],
+          "ts": 1782607361000,
+          "time": "08:42:41",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214156",
+          "url": "https://t.me/jin10light/214156",
+          "title": "据伊朗塔斯尼姆通讯社：伊朗伊斯兰革命卫队海军和航空航天部队在科威特和巴林发起联合导弹和无人机行动，以回应美国近期的打击。",
+          "body": "#伊朗 #科威特 #巴林",
+          "tags": [
+            "#伊朗",
+            "#科威特",
+            "#巴林"
+          ],
+          "ts": 1782607121000,
+          "time": "08:38:41",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214155",
+          "url": "https://t.me/jin10light/214155",
+          "title": "国内新闻ï",
+          "body": "1.我国核聚变堆超导磁体研发取得重要突破。 2. 武汉光谷出台一揽子科技金融新政，力争上市企业突破100家。 3. 国家统计局：前5月工业企业利润同比增长18.8%，电子行业贡献超4成。 4. 国务院副总理张国清在浙江调研时强调，强化科技创新和产业创新深度融合。 国际新闻ï 1.美国务卿鲁比奥：正推动特朗普明年初访问印度事宜。 2. 美国政府或最早于下周解除对Anthropic Fable 5模型的限制。 3. 欧洲央行执委施纳贝尔：价格压力或仍强于预期，预计将进一步加息。 4. 阿富汗兴都库什地区发生6级地震，首都喀布尔震感明显。 5. 中东局势——...",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1782606885000,
+          "time": "08:34:45",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
+        {
+          "id": "214154",
+          "url": "https://t.me/jin10light/214154",
+          "title": "特朗普称美军打击伊朗导弹和无人机储存地点",
+          "body": "6月28日讯，美国总统特朗普当地时间27日表示，美军刚刚打击了伊朗的导弹和无人机储存地点，以及沿海雷达站点，因为他们再次违反了停火协议。 特朗普还威胁道：“终有一刻，我们将不再保持克制，被迫以军事手段完成我们业已成功开启的行动。 若真走到那一步，伊朗伊斯兰共和国将不复存在！”美军中央司令部27日在社交媒体发布声明称，美军当天对伊朗境内多个目标实施新一轮打击。 美军当天发起的军事打击行动是对“伊朗持续针对商船行为”的直接回应。 美军战机打击了伊朗的军事监视设施、通信系统、防空阵地、无人机储存设施以及布雷装备等目标。 #美国 #伊朗 #特朗普",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#特朗普"
+          ],
+          "ts": 1782605320000,
+          "time": "08:08:40",
+          "receivedAt": 1782610615470,
+          "receivedTime": true
+        },
         {
           "id": "214153",
           "url": "https://t.me/jin10light/214153",
@@ -19095,207 +19293,6 @@
           "ts": 1782263083000,
           "time": "09:04:43",
           "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212967",
-          "url": "https://t.me/jin10light/212967",
-          "title": "消息称台积电先进制程代工将全线涨价",
-          "body": "6月24日讯，据台媒报道，科技分析师指出，台积电已陆续向客户通知调涨晶圆代工价格，涨价范围不仅涵盖市场传言的3nm制程，更扩及7nm及以下所有先进制程，整体涨幅约5%至10%，影响范围涵盖约75%的晶圆营收来源。 #台积电 #晶圆代工 #制程涨价",
-          "tags": [
-            "#台积电",
-            "#晶圆代工",
-            "#制程涨价"
-          ],
-          "ts": 1782262901000,
-          "time": "09:01:41",
-          "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212966",
-          "url": "https://t.me/jin10light/212966",
-          "title": "早盘开盘，国内期货主力合约跌多涨少，沪锡、沪银跌超4%，沪镍跌超2%，SC原油、纯苯、丙烯跌近2%，沪锌、沪金、沪铝、不锈钢（SS）跌超1%。",
-          "body": "涨幅方面，菜粕涨超1%，铁矿石、豆一涨近1%。 #沪锡 #沪银 #沪镍",
-          "tags": [
-            "#沪锡",
-            "#沪银",
-            "#沪镍"
-          ],
-          "ts": 1782262846000,
-          "time": "09:00:46",
-          "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212965",
-          "url": "https://t.me/jin10light/212965",
-          "title": "SpaceX发行250亿美元债券重组债务以降低利息",
-          "body": "#SpaceX #债券 #马斯克",
-          "tags": [
-            "#SpaceX",
-            "#债券",
-            "#马斯克"
-          ],
-          "ts": 1782262781000,
-          "time": "08:59:41",
-          "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212964",
-          "url": "https://t.me/jin10light/212964",
-          "title": "《金融时报》：霍尔木兹海峡仍处于封锁状态",
-          "body": "#霍尔木兹海峡 #货船",
-          "tags": [
-            "#霍尔木兹海峡",
-            "#货船"
-          ],
-          "ts": 1782262724000,
-          "time": "08:58:44",
-          "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212963",
-          "url": "https://t.me/jin10light/212963",
-          "title": "三星拟启动规模近90万亿韩元的股票回购计划，股价盘中上涨9.35%",
-          "body": "#三星电子 #股票回购 #上涨",
-          "tags": [
-            "#三星电子",
-            "#股票回购",
-            "#上涨"
-          ],
-          "ts": 1782262541000,
-          "time": "08:55:41",
-          "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212962",
-          "url": "https://t.me/jin10light/212962",
-          "title": "三星电子据悉将展开规模近90万亿韩元的股票回购",
-          "body": "6月24日讯，据韩联社报道，三星电子即将展开规模近90万亿韩元（约合590亿美元）的大规模股票回购。 根据劳资双方达成的协议，由于劳资双方已同意将特别经营绩效奖金以自家股票（库存股）形式发放，公司因此需要大规模回购股票，以弥补超过当前持有库存股部分的缺口，预计不久将公布具体实施方案。 #三星电子 #股票回购 #韩国",
-          "tags": [
-            "#三星电子",
-            "#股票回购",
-            "#韩国"
-          ],
-          "ts": 1782262243000,
-          "time": "08:50:43",
-          "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212961",
-          "url": "https://t.me/jin10light/212961",
-          "title": "据美联社：Anthropic的Mythos模型发现了美国政府机密系统的漏洞。",
-          "body": "#Anthropic #美国",
-          "tags": [
-            "#Anthropic",
-            "#美国"
-          ],
-          "ts": 1782261941000,
-          "time": "08:45:41",
-          "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212960",
-          "url": "https://t.me/jin10light/212960",
-          "title": "某新地址3小时前从Coinbase提币278,827枚HYPE",
-          "body": "#HYPE #Coinbase",
-          "tags": [
-            "#HYPE",
-            "#Coinbase"
-          ],
-          "ts": 1782261820000,
-          "time": "08:43:40",
-          "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212959",
-          "url": "https://t.me/jin10light/212959",
-          "title": "Anthropic的Mythos系统检测到美国基础设施存在安全隐患",
-          "body": "#Anthropic #美国",
-          "tags": [
-            "#Anthropic",
-            "#美国"
-          ],
-          "ts": 1782261581000,
-          "time": "08:39:41",
-          "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212958",
-          "url": "https://t.me/jin10light/212958",
-          "title": "美股AI赛道遇「黑色星期二」，美光闪迪跌超13%，光模块、存储板块无一幸免",
-          "body": "#美股 #加密股 #道指",
-          "tags": [
-            "#美股",
-            "#加密股",
-            "#道指"
-          ],
-          "ts": 1782260981000,
-          "time": "08:29:41",
-          "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212957",
-          "url": "https://t.me/jin10light/212957",
-          "title": "某巨鲸4小时前从BitGo提币96,930枚HYPE",
-          "body": "#HYPE #BitGo",
-          "tags": [
-            "#HYPE",
-            "#BitGo"
-          ],
-          "ts": 1782260740000,
-          "time": "08:25:40",
-          "receivedAt": 1782264536876,
-          "receivedTime": true
-        },
-        {
-          "id": "212956",
-          "url": "https://t.me/jin10light/212956",
-          "title": "韩国KOSPI指数继续拉升，涨幅扩大至4%，SK海力士涨超5%。",
-          "body": "#韩国 #KOSPI #SK海力士",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1782260321000,
-          "time": "08:18:41",
-          "receivedAt": 1782264537115,
-          "receivedTime": true
-        },
-        {
-          "id": "212955",
-          "url": "https://t.me/jin10light/212955",
-          "title": "a16z关联地址过去9小时累计从Binance提币25,560枚ETH",
-          "body": "#a16z #ETH #Binance",
-          "tags": [
-            "#a16z",
-            "#ETH",
-            "#Binance"
-          ],
-          "ts": 1782260021000,
-          "time": "08:13:41",
-          "receivedAt": 1782264537115,
-          "receivedTime": true
-        },
-        {
-          "id": "212954",
-          "url": "https://t.me/jin10light/212954",
-          "title": "韩国KOSPI指数涨幅扩大至3%，三星涨6.6%、海力士涨5%",
-          "body": "",
-          "tags": [],
-          "ts": 1782259841000,
-          "time": "08:10:41",
-          "receivedAt": 1782264537115,
           "receivedTime": true
         }
       ],
