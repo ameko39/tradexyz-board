@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-06-29T19:25:37.667Z",
+  "updatedAt": "2026-06-29T21:05:44.630Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6349",
+          "url": "https://t.me/BWEtradfi/6349",
+          "title": "*特朗普政府最终敲定与毕业生收入挂钩的学生贷款资格规则：《华尔街日报》",
+          "body": "*TRUMP ADMIN FINALIZES STUDENT LOAN ELIGIBILITY RULES TIED TO GRADUATE EARNINGS: WSJ *COLLEGES MUST SHOW GRADUATES EARN MORE THAN COMPARABLE NON-GRADUATES TO MAINTAIN FEDERAL STUDENT LOAN ELIGIBILITY: WSJ *高校必须证明其毕业生收入高于同等非毕业生才能维持联邦学生贷款资格：《华尔街日报》",
+          "tags": [],
+          "ts": 1782765980000,
+          "time": "04:46:20",
+          "receivedAt": 1782767129022,
+          "receivedTime": true
+        },
+        {
+          "id": "6348",
+          "url": "https://t.me/BWEtradfi/6348",
+          "title": "*情境感知报告：持有 Sharonai Holdings Inc. 19.9% 的股份（5,404,540 股）。· 2026年6月29日",
+          "body": "[SEC-13G] *SITUATIONAL AWARENESS REPORTS 19.9% STAKE (5,404,540 SH) IN SHARONAI HOLDINGS INC. · 06-29-2026 $SHAZ Tradfin: [SEC-13G] $SHAZ",
+          "tags": [],
+          "ts": 1782763713000,
+          "time": "04:08:33",
+          "receivedAt": 1782767129022,
+          "receivedTime": true
+        },
+        {
+          "id": "6347",
+          "url": "https://t.me/BWEtradfi/6347",
+          "title": "DB: 标准普尔500指数收盘上涨1.2%，纳斯达克指数跳涨2%",
+          "body": "DB: *S&P 500 CLOSES 1.2% HIGHER, NASDAQ JUMPS 2%",
+          "tags": [],
+          "ts": 1782763213000,
+          "time": "04:00:13",
+          "receivedAt": 1782767129022,
+          "receivedTime": true
+        },
         {
           "id": "6346",
           "url": "https://t.me/BWEtradfi/6346",
@@ -2184,6 +2217,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "214566",
+          "url": "https://t.me/jin10light/214566",
+          "title": "美股收盘：纳指涨2%，西部数据大涨11%",
+          "body": "6月30日讯，美股周一收盘，道指初步收涨0.59%，标普500指数涨1.1%，纳指涨2.07%。 西部数据(WDC.O)涨11%，希捷科技(STX.O)涨超7%，SpaceX(SPCX.O)涨7%，美光科技(MU.O)涨1%，英伟达(NVDA.O)涨1%。 纳斯达克中国金龙指数收涨1.4%，百度(BIDU.O)涨超7%。 #美股 #纳指 #百度",
+          "tags": [
+            "#美股",
+            "#纳指",
+            "#百度"
+          ],
+          "ts": 1782763360000,
+          "time": "04:02:40",
+          "receivedAt": 1782767130929,
+          "receivedTime": true
+        },
         {
           "id": "214565",
           "url": "https://t.me/jin10light/214565",
@@ -19325,20 +19373,6 @@
           ],
           "ts": 1782350801000,
           "time": "09:26:41",
-          "receivedAt": 1782351339574,
-          "receivedTime": true
-        },
-        {
-          "id": "213365",
-          "url": "https://t.me/jin10light/213365",
-          "title": "伊朗革命卫队海军：通过霍尔木兹海峡的航行必须与革命卫队海军在16频道进行协调。",
-          "body": "违反通行指令的船只将面临行动。 未经伊朗协调的新霍尔木兹航运路线不可接受且危险。 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1782350514000,
-          "time": "09:21:54",
           "receivedAt": 1782351339574,
           "receivedTime": true
         }
