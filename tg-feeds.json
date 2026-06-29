@@ -1,11 +1,47 @@
 {
-  "updatedAt": "2026-06-29T17:44:12.502Z",
+  "updatedAt": "2026-06-29T19:25:37.667Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6346",
+          "url": "https://t.me/BWEtradfi/6346",
+          "title": "*苹果供应商塔塔电子遭黑客攻击后，未发布的 iPhone 18 Pro 文件被发布在暗网上——文件及来源",
+          "body": "*FILES ON UNRELEASED IPHONE 18 PRO POSTED ON DARK WEB AFTER APPLE SUPPLIER TATA ELECTRONICS HACK-DOCUMENTS, SOURCE *LIST OF SUPPLIERS, PARTS, PHOTOS OF IPHONE 18 PRO ARE PART OF TATA ELECTRONICS DATA BREACH-SOURCE, DOCUMENTS $AAPL *塔塔电子数据泄露事件中泄露的 iPhone 18 Pro 供应商列表、零部件及照片——来源及文件 $AAPL",
+          "tags": [],
+          "ts": 1782757318000,
+          "time": "02:21:58",
+          "receivedAt": 1782761118569,
+          "receivedTime": true
+        },
+        {
+          "id": "6345",
+          "url": "https://t.me/BWEtradfi/6345",
+          "title": "*阿里巴巴、腾讯被华盛顿特区说客放弃以遵守美国法律",
+          "body": "*ALIBABA, TENCENT DROPPED BY DC LOBBYISTS TO COMPLY WITH US LAW #BABA • #TME",
+          "tags": [
+            "#BABA",
+            "#TME"
+          ],
+          "ts": 1782756881000,
+          "time": "02:14:41",
+          "receivedAt": 1782761118569,
+          "receivedTime": true
+        },
+        {
+          "id": "6344",
+          "url": "https://t.me/BWEtradfi/6344",
+          "title": "SUPER MICRO 办公室遭突击检查，台湾扩大芯片走私调查",
+          "body": "*SUPER MICRO OFFICE RAIDED AS TAIWAN EXPANDS CHIP SMUGGLING PROBE $SMCI",
+          "tags": [],
+          "ts": 1782755996000,
+          "time": "01:59:56",
+          "receivedAt": 1782761118569,
+          "receivedTime": true
+        },
         {
           "id": "6343",
           "url": "https://t.me/BWEtradfi/6343",
@@ -2143,11 +2179,53 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "214565",
+          "url": "https://t.me/jin10light/214565",
+          "title": "美股扩大涨幅，纳指涨超2%， 标普500指数涨1.15%，道指涨0.67%。",
+          "body": "#美股 #纳指",
+          "tags": [
+            "#美股",
+            "#纳指"
+          ],
+          "ts": 1782758981000,
+          "time": "02:49:41",
+          "receivedAt": 1782761121084,
+          "receivedTime": true
+        },
+        {
+          "id": "214564",
+          "url": "https://t.me/jin10light/214564",
+          "title": "伊朗副外长：伊朗反对任何船只通过德黑兰未指定的霍尔木兹海峡航线，并将设法阻止此类通行。",
+          "body": "#伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1782757660000,
+          "time": "02:27:40",
+          "receivedAt": 1782761121084,
+          "receivedTime": true
+        },
+        {
+          "id": "214563",
+          "url": "https://t.me/jin10light/214563",
+          "title": "伊朗副外长：我们已告知阿曼方面，需要重新划定霍尔木兹海峡的通航航线，双方将就此举行技术性会谈。",
+          "body": "#伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1782757300000,
+          "time": "02:21:40",
+          "receivedAt": 1782761121084,
+          "receivedTime": true
+        },
         {
           "id": "214562",
           "url": "https://t.me/jin10light/214562",
@@ -19261,51 +19339,6 @@
           ],
           "ts": 1782350514000,
           "time": "09:21:54",
-          "receivedAt": 1782351339574,
-          "receivedTime": true
-        },
-        {
-          "id": "213364",
-          "url": "https://t.me/jin10light/213364",
-          "title": "中国央行：今日开展3705亿元7天逆回购操作，投标量3705亿元，中标量3705亿元，操作利率为1.40%，与此前持平。",
-          "body": "#中国 #央行 #逆回购",
-          "tags": [
-            "#中国",
-            "#央行",
-            "#逆回购"
-          ],
-          "ts": 1782350514000,
-          "time": "09:21:54",
-          "receivedAt": 1782351339574,
-          "receivedTime": true
-        },
-        {
-          "id": "213363",
-          "url": "https://t.me/jin10light/213363",
-          "title": "港股开盘，恒指开跌0.1%，科指开涨0.41%。",
-          "body": "智谱( 02513.HK )涨近7%，舜宇光学科技( 02382.HK )涨超5%，MINIMAX-W( 00100.HK )涨超4%。 #港股 #恒指 #科指",
-          "tags": [
-            "#港股",
-            "#恒指",
-            "#科指"
-          ],
-          "ts": 1782350513000,
-          "time": "09:21:53",
-          "receivedAt": 1782351339574,
-          "receivedTime": true
-        },
-        {
-          "id": "213362",
-          "url": "https://t.me/jin10light/213362",
-          "title": "Claude Code更新泄露Fable 5将以每周配额模式回归",
-          "body": "#Anthropic #Claude Code #Fable 5",
-          "tags": [
-            "#Anthropic",
-            "#Claude",
-            "#Fable"
-          ],
-          "ts": 1782350513000,
-          "time": "09:21:53",
           "receivedAt": 1782351339574,
           "receivedTime": true
         }
