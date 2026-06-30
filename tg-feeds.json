@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-06-30T18:06:50.520Z",
+  "updatedAt": "2026-06-30T20:14:37.738Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6362",
+          "url": "https://t.me/BWEtradfi/6362",
+          "title": "DB: 标准普尔500指数收盘上涨0.8%，纳斯达克指数上涨1.7%",
+          "body": "DB: *S&P 500 CLOSES 0.8% HIGHER, NASDAQ RISES 1.7%",
+          "tags": [],
+          "ts": 1782849612000,
+          "time": "04:00:12",
+          "receivedAt": 1782850460859,
+          "receivedTime": true
+        },
         {
           "id": "6361",
           "url": "https://t.me/BWEtradfi/6361",
@@ -2202,24 +2213,56 @@
           "time": "05:05:51",
           "receivedAt": 1781663722075,
           "receivedTime": true
-        },
-        {
-          "id": "6163",
-          "url": "https://t.me/BWEtradfi/6163",
-          "title": "DB: 标准普尔500指数收盘上涨1.6%，纳斯达克指数上涨3%",
-          "body": "DB: *S&P 500 RISES 1.6% AT THE CLOSE, NASDAQ JUMPS 3%",
-          "tags": [],
-          "ts": 1781553613000,
-          "time": "04:00:13",
-          "receivedAt": 1781663722075,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "214953",
+          "url": "https://t.me/jin10light/214953",
+          "title": "美股上半年收官：纳指累涨近13% 七巨头走势分化",
+          "body": "7月1日讯，美股2026年上半年收官，道指累涨8.8%，标普500指数涨9.5%，纳指涨12.79%。 存储与芯片板块表现尤为亮眼，闪迪(SNDK.O)暴涨857%，在标普500成分股中涨幅居首；美光科技(MU.O)涨304%，市值首破1万亿美元；英特尔(INTC.O)涨278%，西部数据(WDC.O)涨270%。 上半年，美股七巨头微软(MSFT.O)领跌，下跌幅度超22%；特斯拉(TSLA.O)跌6%；Meta(META.O)跌14%。 上涨方面，谷歌A(GOOGL.O)累涨14%；苹果(AAPL.O)涨6%；亚马逊(AMZN.O)涨3%；英伟达(...",
+          "tags": [
+            "#美股",
+            "#纳指",
+            "#七巨头"
+          ],
+          "ts": 1782850001000,
+          "time": "04:06:41",
+          "receivedAt": 1782850461321,
+          "receivedTime": true
+        },
+        {
+          "id": "214952",
+          "url": "https://t.me/jin10light/214952",
+          "title": "美股收盘：三大股指收涨 闪迪涨超10%",
+          "body": "7月1日讯，美股周二收盘，道指初步收涨0.26%，标普500指数涨0.78%，纳指涨1.52%。 苹果(AAPL.O)和英伟达(NVDA.O)涨于2%一线，美光科技(MU.O)涨近1%，SpaceX(SPCX.O)涨4%，闪迪(SNDK.O)涨超10%。 纳斯达克中国金龙指数收涨0.63%，小鹏汽车(XPEV.N)涨3.4%。 #美股 #AAPL #NVDA ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美股",
+            "#AAPL",
+            "#NVDA"
+          ],
+          "ts": 1782849760000,
+          "time": "04:02:40",
+          "receivedAt": 1782850461321,
+          "receivedTime": true
+        },
+        {
+          "id": "214951",
+          "url": "https://t.me/jin10light/214951",
+          "title": "伊朗议会议长卡利巴夫：在谅解备忘录中的条件得到满足之前，伊朗不会进行进一步谈判。",
+          "body": "#好的",
+          "tags": [
+            "#好的"
+          ],
+          "ts": 1782845321000,
+          "time": "02:48:41",
+          "receivedAt": 1782850461321,
+          "receivedTime": true
+        },
         {
           "id": "214950",
           "url": "https://t.me/jin10light/214950",
@@ -2237,12 +2280,9 @@
         {
           "id": "214949",
           "url": "https://t.me/jin10light/214949",
-          "title": "WTI原油日内跌超1.00%，现报69.55美元/桶。",
-          "body": "#WTI原油 #美元",
-          "tags": [
-            "#WTI原油",
-            "#美元"
-          ],
+          "title": "WTI原油期货日内下跌2.00%，现报69.33美元/桶。",
+          "body": "",
+          "tags": [],
           "ts": 1782840222000,
           "time": "01:23:42",
           "receivedAt": 1782842798001,
@@ -19349,49 +19389,6 @@
           ],
           "ts": 1782440682000,
           "time": "10:24:42",
-          "receivedAt": 1782453142187,
-          "receivedTime": true
-        },
-        {
-          "id": "213752",
-          "url": "https://t.me/jin10light/213752",
-          "title": "美股股指期货持续下挫，纳斯达克100指数期货跌超1%",
-          "body": "#美股 #标普500指数",
-          "tags": [
-            "#美股",
-            "#标普500指数"
-          ],
-          "ts": 1782440682000,
-          "time": "10:24:42",
-          "receivedAt": 1782453142187,
-          "receivedTime": true
-        },
-        {
-          "id": "213751",
-          "url": "https://t.me/jin10light/213751",
-          "title": "宁德时代A股跌超3%，宁德时代( 03750.HK )港股跌超5%。",
-          "body": "#宁德时代 #A股 #港股",
-          "tags": [
-            "#宁德时代",
-            "#A股",
-            "#港股"
-          ],
-          "ts": 1782440563000,
-          "time": "10:22:43",
-          "receivedAt": 1782453142187,
-          "receivedTime": true
-        },
-        {
-          "id": "213750",
-          "url": "https://t.me/jin10light/213750",
-          "title": "沙特阿美已恢复在拉斯坦努拉码头恢复石油装载，此前暂停将近四个月",
-          "body": "#沙特阿美 #拉斯坦努拉港",
-          "tags": [
-            "#沙特阿美",
-            "#拉斯坦努拉港"
-          ],
-          "ts": 1782440261000,
-          "time": "10:17:41",
           "receivedAt": 1782453142187,
           "receivedTime": true
         }
