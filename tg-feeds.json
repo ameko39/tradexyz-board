@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-06-30T20:14:37.738Z",
+  "updatedAt": "2026-06-30T21:47:34.045Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6365",
+          "url": "https://t.me/BWEtradfi/6365",
+          "title": "特朗普报告与媒体公司和解获得超过8000万美元收入",
+          "body": "*TRUMP REPORTS OVER $80 MLN INCOME FROM SETTLEMENTS WITH MEDIA FIRMS",
+          "tags": [],
+          "ts": 1782853032000,
+          "time": "04:57:12",
+          "receivedAt": 1782856042326,
+          "receivedTime": true
+        },
+        {
+          "id": "6364",
+          "url": "https://t.me/BWEtradfi/6364",
+          "title": "特朗普报告通过World Liberty Financial的加密代币销售获得超过5亿美元收益",
+          "body": "*TRUMP REPORTS RECEIVING OVER $500 MILLION IN PROCEEDS FROM CRYPTO TOKEN SALES BY WORLD LIBERTY FINANCIAL",
+          "tags": [],
+          "ts": 1782852790000,
+          "time": "04:53:10",
+          "receivedAt": 1782856042326,
+          "receivedTime": true
+        },
+        {
+          "id": "6363",
+          "url": "https://t.me/BWEtradfi/6363",
+          "title": "特朗普报告称，通过Meme币赚取6.35亿美元特许权使用费",
+          "body": "*TRUMP REPORTS EARNING $635 MILLION IN ROYALTIES LINKED TO MEME COIN",
+          "tags": [],
+          "ts": 1782852654000,
+          "time": "04:50:54",
+          "receivedAt": 1782856042326,
+          "receivedTime": true
+        },
         {
           "id": "6362",
           "url": "https://t.me/BWEtradfi/6362",
@@ -2202,17 +2235,6 @@
           "time": "07:17:59",
           "receivedAt": 1781663722075,
           "receivedTime": true
-        },
-        {
-          "id": "6164",
-          "url": "https://t.me/BWEtradfi/6164",
-          "title": "*SpaceX：不打算通过通讯社发布季度或年度财务业绩或其他重大新闻。",
-          "body": "*SPACEX: DOES NOT INTEND TO RELEASE QUARTERLY OR ANNUAL FINANCIAL RESULTS OR OTHER MATERIAL NEWS THROUGH WIRE DISTRIBUTION SERVICES *SPACEX: WILL ANNOUNCE MATERIAL INFORMATION TO PUBLIC PRIMARILY THROUGH INVESTOR RELATIONS PAGE ON ITS AND ITS X ACCOUNT - SEC FILING $SPCX *SpaceX：将主要通过其公司及X账户的投资者关系页...",
-          "tags": [],
-          "ts": 1781557551000,
-          "time": "05:05:51",
-          "receivedAt": 1781663722075,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2220,6 +2242,109 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "214960",
+          "url": "https://t.me/jin10light/214960",
+          "title": "外汇市场上半年收官：美元先弱后强 澳元逆势升值",
+          "body": "7月1日讯，纵观外汇市场2026年上半年行情，美元指数DXY在年初跌至95.5的水平，最终在年中收于101之上，累涨近3%。 上半年，七大货币对中，欧元兑美元累跌2.7%；英镑兑美元跌1.4%；美元兑加元涨3.4%；美元兑瑞郎涨2%；美元兑日元涨3.8%，日元贬值至40年低位；纽元兑美元跌1.4%；澳元兑美元逆势涨3.7%。 其他货币方面，离岸人民币兑美元上半年升值2.7%；美元兑俄罗斯卢布跌0.5%；得益于墨西哥国内的高利率环境，美元兑墨西哥比索上半年跌近3%。 #美元 #澳元 #人民币",
+          "tags": [
+            "#美元",
+            "#澳元",
+            "#人民币"
+          ],
+          "ts": 1782854920000,
+          "time": "05:28:40",
+          "receivedAt": 1782856042697,
+          "receivedTime": true
+        },
+        {
+          "id": "214959",
+          "url": "https://t.me/jin10light/214959",
+          "title": "大宗商品上半年收官：贵金属惨淡回落 原油仍涨超20%",
+          "body": "7月1日讯，金银油等大宗商品2026年上半年收官，贵金属价格上半年多数冲高后回落，现货黄金累跌逾7%，较年内所创历史高位回落超1500美元；现货白银累跌约18%，价格较年内所创历史新高腰斩有余；现货铂金累跌超24%、现货钯金累跌近25%。 基础金属伦铜价格年内创下新高，上半年累涨7%；伦铝涨3.7%。 受地缘冲突影响冲高的油价虽已从高位大幅回落，年内仍维持涨幅，WTI原油累涨21.6%，布伦特原油累涨20%。 #黄金 #白银 #原油",
+          "tags": [
+            "#黄金",
+            "#白银",
+            "#原油"
+          ],
+          "ts": 1782854501000,
+          "time": "05:21:41",
+          "receivedAt": 1782856042697,
+          "receivedTime": true
+        },
+        {
+          "id": "214958",
+          "url": "https://t.me/jin10light/214958",
+          "title": "美国总统特朗普2025年度的财务报告称，其从“迷因币”相关的授权或收益分成获得6.35亿美元收入。",
+          "body": "#特朗普 #美国 #加密货币",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#加密货币"
+          ],
+          "ts": 1782852820000,
+          "time": "04:53:40",
+          "receivedAt": 1782856042697,
+          "receivedTime": true
+        },
+        {
+          "id": "214957",
+          "url": "https://t.me/jin10light/214957",
+          "title": "市场消息：美国总统特朗普提交2025年度财务披露报告，披露其通过加密货币获得数亿美元收入。",
+          "body": "#特朗普 #加密货币 #美国",
+          "tags": [
+            "#特朗普",
+            "#加密货币",
+            "#美国"
+          ],
+          "ts": 1782852580000,
+          "time": "04:49:40",
+          "receivedAt": 1782856042697,
+          "receivedTime": true
+        },
+        {
+          "id": "214956",
+          "url": "https://t.me/jin10light/214956",
+          "title": "美国至6月26日当周API原油库存 -607.2万桶，预期-405万桶，前值-76.5万桶。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1782851740000,
+          "time": "04:35:40",
+          "receivedAt": 1782856042697,
+          "receivedTime": true
+        },
+        {
+          "id": "214955",
+          "url": "https://t.me/jin10light/214955",
+          "title": "根据美国证交会（SEC）文件，英伟达(NVDA.O)公司股东批准一项提案，将“超级多数投票规则”改为“简单多数投票标准”。",
+          "body": "#美国 #英伟达 #NVDA .O",
+          "tags": [
+            "#美国",
+            "#英伟达",
+            "#NVDA"
+          ],
+          "ts": 1782851501000,
+          "time": "04:31:41",
+          "receivedAt": 1782856042697,
+          "receivedTime": true
+        },
+        {
+          "id": "214954",
+          "url": "https://t.me/jin10light/214954",
+          "title": "美国至6月26日当周API原油库存将于十分钟后公布。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1782850900000,
+          "time": "04:21:40",
+          "receivedAt": 1782856042697,
+          "receivedTime": true
+        },
         {
           "id": "214953",
           "url": "https://t.me/jin10light/214953",
@@ -19290,105 +19415,6 @@
           ],
           "ts": 1782441343000,
           "time": "10:35:43",
-          "receivedAt": 1782453142187,
-          "receivedTime": true
-        },
-        {
-          "id": "213759",
-          "url": "https://t.me/jin10light/213759",
-          "title": "观点：AI资本开支担忧发酵，全球科技股同步承压",
-          "body": "#MU #AAPL #科技股",
-          "tags": [
-            "#MU",
-            "#AAPL",
-            "#科技股"
-          ],
-          "ts": 1782441281000,
-          "time": "10:34:41",
-          "receivedAt": 1782453142187,
-          "receivedTime": true
-        },
-        {
-          "id": "213758",
-          "url": "https://t.me/jin10light/213758",
-          "title": "沪指跌超2%，深成指跌超2.7%，创业板指跌3.3%。",
-          "body": "全市场下跌个股超4500只。",
-          "tags": [],
-          "ts": 1782441041000,
-          "time": "10:30:41",
-          "receivedAt": 1782453142187,
-          "receivedTime": true
-        },
-        {
-          "id": "213757",
-          "url": "https://t.me/jin10light/213757",
-          "title": "港股半导体股震荡走低，天数智芯( 09903.HK )跌超10%，澜起科技( 06809.HK )跌超8%，纳芯微( 02676.HK )跌超6%，中芯国际( 00981.HK )、兆易创新( 03986.HK )、华...",
-          "body": "#港股 #半导体股",
-          "tags": [
-            "#港股",
-            "#半导体股"
-          ],
-          "ts": 1782440922000,
-          "time": "10:28:42",
-          "receivedAt": 1782453142187,
-          "receivedTime": true
-        },
-        {
-          "id": "213756",
-          "url": "https://t.me/jin10light/213756",
-          "title": "韩国KOSPI指数下跌6%，抹去美光财报带来的涨幅",
-          "body": "#韩国股市 #KOSPI #SK海力士",
-          "tags": [
-            "#韩国股市",
-            "#KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1782440921000,
-          "time": "10:28:41",
-          "receivedAt": 1782453142187,
-          "receivedTime": true
-        },
-        {
-          "id": "213755",
-          "url": "https://t.me/jin10light/213755",
-          "title": "港股低开低走，恒生科技指数跌超3%，恒生指数跌1.7%。",
-          "body": "#港股 #恒生指数",
-          "tags": [
-            "#港股",
-            "#恒生指数"
-          ],
-          "ts": 1782440683000,
-          "time": "10:24:43",
-          "receivedAt": 1782453142187,
-          "receivedTime": true
-        },
-        {
-          "id": "213754",
-          "url": "https://t.me/jin10light/213754",
-          "title": "美股股指期货持续下挫，纳斯达克100指数期货跌超1%，标普500指数期货跌0.42%，道琼斯指数期货跌0.08%。",
-          "body": "#美股 #纳斯达克100 #标普500",
-          "tags": [
-            "#美股",
-            "#纳斯达克100",
-            "#标普500"
-          ],
-          "ts": 1782440683000,
-          "time": "10:24:43",
-          "receivedAt": 1782453142187,
-          "receivedTime": true
-        },
-        {
-          "id": "213753",
-          "url": "https://t.me/jin10light/213753",
-          "title": "韩国KOSPI指数回落至8400点下方，日内跌近6%。",
-          "body": "#韩国 #KOSPI指数 #下跌 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#韩国",
-            "#KOSPI指数",
-            "#下跌"
-          ],
-          "ts": 1782440682000,
-          "time": "10:24:42",
           "receivedAt": 1782453142187,
           "receivedTime": true
         }
