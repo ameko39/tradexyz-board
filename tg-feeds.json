@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T22:59:00.342Z",
+  "updatedAt": "2026-07-01T00:06:18.720Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2224,24 +2224,102 @@
           "time": "10:00:14",
           "receivedAt": 1781663722075,
           "receivedTime": true
-        },
-        {
-          "id": "6165",
-          "url": "https://t.me/BWEtradfi/6165",
-          "title": "*特朗普：美国向伊朗支付3亿美元是假新闻",
-          "body": "*TRUMP: U.S. PAYING IRAN 300 MILLION DOLLARS IS FAKE NEWS",
-          "tags": [],
-          "ts": 1781565479000,
-          "time": "07:17:59",
-          "receivedAt": 1781663722075,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "214972",
+          "url": "https://t.me/jin10light/214972",
+          "title": "两大消息面致CRCL暴跌17.55%，收盘于62.63美元历史低位区间",
+          "body": "#CRCL #BTC #Open USD",
+          "tags": [
+            "#CRCL",
+            "#BTC",
+            "#Open"
+          ],
+          "ts": 1782864161000,
+          "time": "08:02:41",
+          "receivedAt": 1782864364603,
+          "receivedTime": true
+        },
+        {
+          "id": "214971",
+          "url": "https://t.me/jin10light/214971",
+          "title": "Anthropic：我们已收到通知，美国商务部已解除对Claude Fable 5和Mythos 5的出口管制。",
+          "body": "我们将于明天开始恢复访问权限。 #美国 #BTC",
+          "tags": [
+            "#美国",
+            "#BTC"
+          ],
+          "ts": 1782863742000,
+          "time": "07:55:42",
+          "receivedAt": 1782864364603,
+          "receivedTime": true
+        },
+        {
+          "id": "214970",
+          "url": "https://t.me/jin10light/214970",
+          "title": "FG Nexus已清仓全部ETH，累计抛售5.12万枚ETH亏损8660万美元",
+          "body": "#FG Nexus #ETH #Galaxy Digital",
+          "tags": [
+            "#FG",
+            "#ETH",
+            "#Galaxy"
+          ],
+          "ts": 1782863741000,
+          "time": "07:55:41",
+          "receivedAt": 1782864364603,
+          "receivedTime": true
+        },
+        {
+          "id": "214969",
+          "url": "https://t.me/jin10light/214969",
+          "title": "美股加密概念股普遍收跌，Circle跌超17%",
+          "body": "#美股 #CRCL #BMNR",
+          "tags": [
+            "#美股",
+            "#CRCL",
+            "#BMNR"
+          ],
+          "ts": 1782863440000,
+          "time": "07:50:40",
+          "receivedAt": 1782864364603,
+          "receivedTime": true
+        },
+        {
+          "id": "214968",
+          "url": "https://t.me/jin10light/214968",
+          "title": "美股三大指数集体收涨，标普、纳指创2020年以来最佳季度表现",
+          "body": "#美股 #AMD #台积电",
+          "tags": [
+            "#美股",
+            "#AMD",
+            "#台积电"
+          ],
+          "ts": 1782863021000,
+          "time": "07:43:41",
+          "receivedAt": 1782864364603,
+          "receivedTime": true
+        },
+        {
+          "id": "214967",
+          "url": "https://t.me/jin10light/214967",
+          "title": "美国商务部长卢特尼克：我们与Anthropic紧密合作，对AI模型Fable 5进行了分析和审核。",
+          "body": "批准Fable 5旨在确保美国政府各部门的政策协调一致，并巩固美国在人工智能领域的领导地位。 #美国 #Anthropic #AI模型",
+          "tags": [
+            "#美国",
+            "#Anthropic",
+            "#AI模型"
+          ],
+          "ts": 1782862604000,
+          "time": "07:36:44",
+          "receivedAt": 1782864364603,
+          "receivedTime": true
+        },
         {
           "id": "214966",
           "url": "https://t.me/jin10light/214966",
@@ -19333,93 +19411,6 @@
           "ts": 1782442422000,
           "time": "10:53:42",
           "receivedAt": 1782453142023,
-          "receivedTime": true
-        },
-        {
-          "id": "213771",
-          "url": "https://t.me/jin10light/213771",
-          "title": "自繁自养生猪养殖利润与外购仔猪养殖利润",
-          "body": "6月26日讯，截至6月26日当周，自繁自养生猪养殖利润为亏损346.04元/头，6月19日为亏损345.53元/头，外购仔猪养殖利润为亏损339.44元/头，6月19日为亏损339.09元/头。 #生猪 #养殖利润",
-          "tags": [
-            "#生猪",
-            "#养殖利润"
-          ],
-          "ts": 1782442421000,
-          "time": "10:53:41",
-          "receivedAt": 1782453142023,
-          "receivedTime": true
-        },
-        {
-          "id": "213770",
-          "url": "https://t.me/jin10light/213770",
-          "title": "科创50指数跌超3%。",
-          "body": "#科创50 #下跌",
-          "tags": [
-            "#科创50",
-            "#下跌"
-          ],
-          "ts": 1782442360000,
-          "time": "10:52:40",
-          "receivedAt": 1782453142023,
-          "receivedTime": true
-        },
-        {
-          "id": "213769",
-          "url": "https://t.me/jin10light/213769",
-          "title": "韩国KOSPI指数跌势不止，日内重挫7.00%，现报8303.60点。",
-          "body": "#韩国 #KOSPI指数 #下跌",
-          "tags": [
-            "#韩国",
-            "#KOSPI指数",
-            "#下跌"
-          ],
-          "ts": 1782442302000,
-          "time": "10:51:42",
-          "receivedAt": 1782453142023,
-          "receivedTime": true
-        },
-        {
-          "id": "213768",
-          "url": "https://t.me/jin10light/213768",
-          "title": "韩国KOSPI指数日内重挫7%",
-          "body": "#韩国 #KOSPI",
-          "tags": [
-            "#韩国",
-            "#KOSPI"
-          ],
-          "ts": 1782442302000,
-          "time": "10:51:42",
-          "receivedAt": 1782453142023,
-          "receivedTime": true
-        },
-        {
-          "id": "213767",
-          "url": "https://t.me/jin10light/213767",
-          "title": "华尔街共识趋同：标普500年底8000点成新心理锚，多头与保守派同步上调",
-          "body": "#美股 #S &P 500 #AI投资",
-          "tags": [
-            "#美股",
-            "#S",
-            "#AI投资"
-          ],
-          "ts": 1782442301000,
-          "time": "10:51:41",
-          "receivedAt": 1782453142187,
-          "receivedTime": true
-        },
-        {
-          "id": "213766",
-          "url": "https://t.me/jin10light/213766",
-          "title": "疑似归属同一巨鲸地址昨日做多500枚BTC，已浮亏25.8万美元",
-          "body": "#BTC #巨鲸 #Bridgers",
-          "tags": [
-            "#BTC",
-            "#巨鲸",
-            "#Bridgers"
-          ],
-          "ts": 1782442061000,
-          "time": "10:47:41",
-          "receivedAt": 1782453142187,
           "receivedTime": true
         }
       ],
