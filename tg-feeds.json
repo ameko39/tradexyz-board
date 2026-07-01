@@ -1,11 +1,25 @@
 {
-  "updatedAt": "2026-07-01T16:16:38.240Z",
+  "updatedAt": "2026-07-01T18:18:29.521Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6375",
+          "url": "https://t.me/BWEtradfi/6375",
+          "title": "*据消息人士透露，SpaceX 已研发出一款类似手机的设备原型，旨在改变人们与人工智能的交互方式——《华尔街日报》",
+          "body": "*SPACEX HAS HANDSET-LIKE DEVICE PROTOTYPE TO SHAPE HOW PEOPLE INTERACT WITH AI, SOURCES SAY -- WSJ *DEVICE WOULD USE A QUALCOMM SNAPDRAGON CHIPSET, SOURCE SAY . -- WSJ #SPCX • #QCOM *消息人士称，该设备将采用高通骁龙芯片组——《华尔街日报》 #SPCX • #QCOM",
+          "tags": [
+            "#SPCX",
+            "#QCOM"
+          ],
+          "ts": 1782928562000,
+          "time": "01:56:02",
+          "receivedAt": 1782929892629,
+          "receivedTime": true
+        },
         {
           "id": "6374",
           "url": "https://t.me/BWEtradfi/6374",
@@ -2221,28 +2235,6 @@
           "time": "02:31:52",
           "receivedAt": 1781663722075,
           "receivedTime": true
-        },
-        {
-          "id": "6174",
-          "url": "https://t.me/BWEtradfi/6174",
-          "title": "*据路透社援引知情人士消息称，美伊框架协议包含一项3000亿美元私人基金计划，旨在促进对伊朗的投资。",
-          "body": "*US-IRAN FRAMEWORK AGREEMENT INCLUDES PLANS FOR $300 BILLION PRIVATE FUND TO TRIGGER INVESTMENT IN IRAN - SOURCE WITH DIRECT KNOWLEDGE OF AGREEMENT TELLS REUTERS *$300 BILLION IRAN INVESTMENT FUND IS A PRIVATE VEHICLE WITH NO GOVERNMENT MONEY, SEPARATE FROM NEGOTIATIONS OVER… *这项3000亿美元的伊朗投资基金是一个私人...",
-          "tags": [],
-          "ts": 1781632264000,
-          "time": "01:51:04",
-          "receivedAt": 1781663722075,
-          "receivedTime": true
-        },
-        {
-          "id": "6173",
-          "url": "https://t.me/BWEtradfi/6173",
-          "title": "*SpaceX 首日交易量超过 100 万份期权合约",
-          "body": "*MORE THAN 1 MILLION SPACEX OPTIONS CONTRACTS TRADED IN DEBUT SESSION $SPCX $SPCX",
-          "tags": [],
-          "ts": 1781627143000,
-          "time": "00:25:43",
-          "receivedAt": 1781663722075,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2250,6 +2242,137 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "215323",
+          "url": "https://t.me/jin10light/215323",
+          "title": "据华尔街日报：消息人士透露，SpaceX(SPCX.O)已开发一款类似手机的设备原型，旨在改变人们与人工智能的交互方式。",
+          "body": "SpaceX在IPO前夕向部分投资者展示了该原型机。 #SpaceX #SPCX .O",
+          "tags": [
+            "#SpaceX",
+            "#SPCX"
+          ],
+          "ts": 1782929140000,
+          "time": "02:05:40",
+          "receivedAt": 1782929893169,
+          "receivedTime": true
+        },
+        {
+          "id": "215322",
+          "url": "https://t.me/jin10light/215322",
+          "title": "据伊朗伊斯兰共和国通讯社（IRNA）：伊朗副外长表示，伊朗代表团在多哈的会谈已结束。",
+          "body": "#伊朗 #多哈",
+          "tags": [
+            "#伊朗",
+            "#多哈"
+          ],
+          "ts": 1782927043000,
+          "time": "01:30:43",
+          "receivedAt": 1782929893169,
+          "receivedTime": true
+        },
+        {
+          "id": "215321",
+          "url": "https://t.me/jin10light/215321",
+          "title": "美媒：美方试图劝说伊朗放弃征收通行费，称解除制裁后收益将高出“百倍”",
+          "body": "7月2日讯，据AXIOS网站报道，美国和伊朗谈判代表正在多哈进行会谈，重点聚焦霍尔木兹海峡问题。 特朗普政府向伊朗方面表示，伊朗从核协议中获得的收益将远超其通过征收海峡通行费所能得到的收入。 该报道称，美国中东问题特使威特科夫和特朗普高级顾问库什纳周二在多哈会见了卡塔尔首相及其他担任美伊调解人的卡塔尔官员。 周三，他们会见了卡塔尔埃米尔。 维特科夫和库什纳一直在试图向伊朗传达，其征收通行费的要求可能会破坏最终对伊朗更为有利的美伊协议。 “美国向伊朗传达的信息是‘把眼光放长远’，”一名美国官员表示。 该官员称，若美国在协议下解除全部制裁，伊朗通过自由开发...",
+          "tags": [],
+          "ts": 1782925481000,
+          "time": "01:04:41",
+          "receivedAt": 1782929893169,
+          "receivedTime": true
+        },
+        {
+          "id": "215320",
+          "url": "https://t.me/jin10light/215320",
+          "title": "美联储7月加息25个基点概率现报29.4%",
+          "body": "#美联储 #利率",
+          "tags": [
+            "#美联储",
+            "#利率"
+          ],
+          "ts": 1782925184000,
+          "time": "00:59:44",
+          "receivedAt": 1782929893169,
+          "receivedTime": true
+        },
+        {
+          "id": "215319",
+          "url": "https://t.me/jin10light/215319",
+          "title": "美国在谈判中试图劝说伊朗放弃霍尔木兹海峡「通行收费」机制",
+          "body": "",
+          "tags": [],
+          "ts": 1782924763000,
+          "time": "00:52:43",
+          "receivedAt": 1782929893169,
+          "receivedTime": true
+        },
+        {
+          "id": "215318",
+          "url": "https://t.me/jin10light/215318",
+          "title": "欧盟MiCA监管新规全面生效，244家加密资产服务提供商完成注册",
+          "body": "#MiCA #欧盟 #加密资产",
+          "tags": [
+            "#MiCA",
+            "#欧盟",
+            "#加密资产"
+          ],
+          "ts": 1782924404000,
+          "time": "00:46:44",
+          "receivedAt": 1782929893169,
+          "receivedTime": true
+        },
+        {
+          "id": "215317",
+          "url": "https://t.me/jin10light/215317",
+          "title": "分析师：沃什采取「两面派」策略，嘴上偏鹰安抚加息派，行动上实施拖字诀",
+          "body": "#美联储 #沃什 #辛特拉会议",
+          "tags": [
+            "#美联储",
+            "#沃什",
+            "#辛特拉会议"
+          ],
+          "ts": 1782923743000,
+          "time": "00:35:43",
+          "receivedAt": 1782929893169,
+          "receivedTime": true
+        },
+        {
+          "id": "215316",
+          "url": "https://t.me/jin10light/215316",
+          "title": "Twelve Labs正洽谈1亿美元B轮融资，用于开发能快速搜索和分析视频内容的AI技术",
+          "body": "#Twelve Labs #AWS #AI",
+          "tags": [
+            "#Twelve",
+            "#AWS",
+            "#AI"
+          ],
+          "ts": 1782923321000,
+          "time": "00:28:41",
+          "receivedAt": 1782929893169,
+          "receivedTime": true
+        },
+        {
+          "id": "215315",
+          "url": "https://t.me/jin10light/215315",
+          "title": "美国总统特朗普：美光科技(MU.O)宣布向“特朗普账户”投资2.5亿美元。",
+          "body": "",
+          "tags": [],
+          "ts": 1782922961000,
+          "time": "00:22:41",
+          "receivedAt": 1782929893169,
+          "receivedTime": true
+        },
+        {
+          "id": "215314",
+          "url": "https://t.me/jin10light/215314",
+          "title": "道指刷新盘中历史新高，现涨0.79%。 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "body": "",
+          "tags": [],
+          "ts": 1782922661000,
+          "time": "00:17:41",
+          "receivedAt": 1782929893169,
+          "receivedTime": true
+        },
         {
           "id": "215313",
           "url": "https://t.me/jin10light/215313",
@@ -19258,153 +19381,6 @@
           "time": "19:04:50",
           "receivedAt": 1782561001114,
           "receivedTime": true
-        },
-        {
-          "id": "214122",
-          "url": "https://t.me/jin10light/214122",
-          "title": "Binance将上线CAP永续合约",
-          "body": "#Binance #CAPU #ETH",
-          "tags": [
-            "#Binance",
-            "#CAPU",
-            "#ETH"
-          ],
-          "ts": 1782557562000,
-          "time": "18:52:42",
-          "receivedAt": 1782561001114,
-          "receivedTime": true
-        },
-        {
-          "id": "214121",
-          "url": "https://t.me/jin10light/214121",
-          "title": "Ansem：股指和存储板块短期或已见顶，预计加密市场出现看涨背离",
-          "body": "#BTC #SOL #加密市场",
-          "tags": [
-            "#BTC",
-            "#SOL",
-            "#加密市场"
-          ],
-          "ts": 1782557381000,
-          "time": "18:49:41",
-          "receivedAt": 1782561001114,
-          "receivedTime": true
-        },
-        {
-          "id": "214120",
-          "url": "https://t.me/jin10light/214120",
-          "title": "联合海上信息中心提升霍尔木兹海峡威胁等级",
-          "body": "6月27日讯，当地时间27日，英国海上贸易行动办公室转发联合海上信息中心的一份公告称，联合海上信息中心27日将霍尔木兹海峡海上安全威胁等级由“中等”上调至“较高”。 #霍尔木兹海峡 #英国",
-          "tags": [
-            "#霍尔木兹海峡",
-            "#英国"
-          ],
-          "ts": 1782556661000,
-          "time": "18:37:41",
-          "receivedAt": 1782561001114,
-          "receivedTime": true
-        },
-        {
-          "id": "214119",
-          "url": "https://t.me/jin10light/214119",
-          "title": "若比特币突破6.2万美元，主流CEX累计空单清算强度将达9.15亿",
-          "body": "#BTC #CEX #清算强度 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#BTC",
-            "#CEX",
-            "#清算强度"
-          ],
-          "ts": 1782556540000,
-          "time": "18:35:40",
-          "receivedAt": 1782561001114,
-          "receivedTime": true
-        },
-        {
-          "id": "214118",
-          "url": "https://t.me/jin10light/214118",
-          "title": "高通欲挑战英伟达AI芯片主导地位，预计2029财年数据中心AI组件年销售额超150亿美元",
-          "body": "#高通 #AI 芯片 #曼哈顿",
-          "tags": [
-            "#高通",
-            "#AI",
-            "#曼哈顿"
-          ],
-          "ts": 1782556062000,
-          "time": "18:27:42",
-          "receivedAt": 1782561001114,
-          "receivedTime": true
-        },
-        {
-          "id": "214117",
-          "url": "https://t.me/jin10light/214117",
-          "title": "据黎巴嫩国家通讯社：以色列无人机袭击黎巴嫩南部纳巴提耶地区。",
-          "body": "#以色列 #黎巴嫩",
-          "tags": [
-            "#以色列",
-            "#黎巴嫩"
-          ],
-          "ts": 1782555463000,
-          "time": "18:17:43",
-          "receivedAt": 1782555741609,
-          "receivedTime": true
-        },
-        {
-          "id": "214116",
-          "url": "https://t.me/jin10light/214116",
-          "title": "Cathie Wood：AI吸引大量投资关注，但无法替代比特币的财富保护属性",
-          "body": "#ARK Invest #Cathie Wood #BTC",
-          "tags": [
-            "#ARK",
-            "#Cathie",
-            "#BTC"
-          ],
-          "ts": 1782555160000,
-          "time": "18:12:40",
-          "receivedAt": 1782555741609,
-          "receivedTime": true
-        },
-        {
-          "id": "214115",
-          "url": "https://t.me/jin10light/214115",
-          "title": "MSX麦通正式上线生态代币MSX申领，空投额度分三个月解锁",
-          "body": "#MSX #美股 #代币发行",
-          "tags": [
-            "#MSX",
-            "#美股",
-            "#代币发行"
-          ],
-          "ts": 1782554683000,
-          "time": "18:04:43",
-          "receivedAt": 1782555741609,
-          "receivedTime": true
-        },
-        {
-          "id": "214114",
-          "url": "https://t.me/jin10light/214114",
-          "title": "摩根大通：SpaceX纳入纳斯达克100指数或带来43亿美元被动资金流入",
-          "body": "#SPCX #美国",
-          "tags": [
-            "#SPCX",
-            "#美国"
-          ],
-          "ts": 1782554081000,
-          "time": "17:54:41",
-          "receivedAt": 1782555741609,
-          "receivedTime": true
-        },
-        {
-          "id": "214113",
-          "url": "https://t.me/jin10light/214113",
-          "title": "1. 续签行政令 巩固对伊拉克石油收入控制——特朗普已再次下令，将伊拉克所有由其控制的石油收入存入纽约联储的账户。",
-          "body": "白宫没有就此事发布新闻稿，但特朗普于5月4日就该命令的延期向国会发出了一份正式通知。 2. 谴责伊朗违反停火协议——特朗普发文称，伊朗向穿越霍尔木兹海峡的船只发射了至少四架单向攻击无人机。 其中一架击中一艘大型且非常昂贵的货船的上层甲板。 损坏已造成，但船只仍能继续航行。 我们击落了另外三架无人机。 显然，这是对停火协议的愚蠢违反。 3. 威胁欧洲勿征收数字服务税——特朗普：任何对美国公司征收数字服务税的欧洲国家，其所有输美商品将立即被加征100%的关税，该关税将优先于所有现有或未生效的贸易协议。 4. 炮轰“假新闻”：伊朗实力已所剩无几——特朗普：伊...",
-          "tags": [
-            "#特朗普",
-            "#霍尔木兹海峡",
-            "#美国"
-          ],
-          "ts": 1782552704000,
-          "time": "17:31:44",
-          "receivedAt": 1782555741609,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20689,7 +20665,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
