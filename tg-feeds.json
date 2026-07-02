@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T21:51:06.251Z",
+  "updatedAt": "2026-07-02T22:51:52.312Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1963,24 +1963,57 @@
           "time": "12:34:42",
           "receivedAt": 1781771233108,
           "receivedTime": true
-        },
-        {
-          "id": "6226",
-          "url": "https://t.me/BWEtradfi/6226",
-          "title": "DB: *新西兰第一季度GDP环比增长0.8%；预期增长0.8%",
-          "body": "DB: *NEW ZEALAND 1Q GDP GREW 0.8% Q/Q; EST. +0.8% *NEW ZEALAND 1Q GDP GREW 1.5% Y/Y; EST. +1.1% *新西兰第一季度GDP同比增长1.5%；预期增长1.1%",
-          "tags": [],
-          "ts": 1781736314000,
-          "time": "06:45:14",
-          "receivedAt": 1781740636549,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "215732",
+          "url": "https://t.me/jin10light/215732",
+          "title": "国内新闻ï",
+          "body": "1.证监会同意宇树科技科创板IPO注册申请。 2. A股6月新开户数为286.46万户。 3. 中英经贸联委会第15次会议在伦敦举行。 4. 快手：多方投资者同意向可灵AI注资20亿美元。 5. 媒体：Meta“小作文”有偏误，国内算力供不应求。 6. 商务部回应对美农产品关税问题：同意将美国相关农产品纳入对等降税框架安排。 7. 《智能网联汽车 组合驾驶辅助系统安全要求》强制性国家标准正式发布。 8. 国务院批复《体育强国建设“十五五”规划》，推进“三大球”振兴发展。 国际新闻ï 1.特朗普：沃什有一个稍显敌对的美联储理事会，将通过“打赢官司”继续推...",
+          "tags": [
+            "#中国",
+            "#AI",
+            "#特朗普"
+          ],
+          "ts": 1783031625000,
+          "time": "06:33:45",
+          "receivedAt": 1783032696085,
+          "receivedTime": true
+        },
+        {
+          "id": "215731",
+          "url": "https://t.me/jin10light/215731",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少3.996吨，当前持仓量为1001.366吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1783031080000,
+          "time": "06:24:40",
+          "receivedAt": 1783032696085,
+          "receivedTime": true
+        },
+        {
+          "id": "215730",
+          "url": "https://t.me/jin10light/215730",
+          "title": "美国总统特朗普：我认为马斯克会将SpaceX(SPCX.O)股票捐赠给“特朗普账户”。",
+          "body": "#特朗普 #SpaceX #SPCX .O",
+          "tags": [
+            "#特朗普",
+            "#SpaceX",
+            "#SPCX"
+          ],
+          "ts": 1783029160000,
+          "time": "05:52:40",
+          "receivedAt": 1783032696085,
+          "receivedTime": true
+        },
         {
           "id": "215729",
           "url": "https://t.me/jin10light/215729",
@@ -19066,51 +19099,6 @@
           "tags": [],
           "ts": 1782744823000,
           "time": "22:53:43",
-          "receivedAt": 1782745222199,
-          "receivedTime": true
-        },
-        {
-          "id": "214532",
-          "url": "https://t.me/jin10light/214532",
-          "title": "对冲基金过去一周卖出美国信息技术股票规模创历史纪录",
-          "body": "#高盛 #美国 #对冲基金",
-          "tags": [
-            "#高盛",
-            "#美国",
-            "#对冲基金"
-          ],
-          "ts": 1782744401000,
-          "time": "22:46:41",
-          "receivedAt": 1782745222199,
-          "receivedTime": true
-        },
-        {
-          "id": "214531",
-          "url": "https://t.me/jin10light/214531",
-          "title": "特朗普女婿及特使将于今日前往多哈与伊朗进行谈判",
-          "body": "#美国 #伊朗 #卡塔尔",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#卡塔尔"
-          ],
-          "ts": 1782744041000,
-          "time": "22:40:41",
-          "receivedAt": 1782745222199,
-          "receivedTime": true
-        },
-        {
-          "id": "214530",
-          "url": "https://t.me/jin10light/214530",
-          "title": "据Axios记者：美国特使威特科夫和特朗普高级顾问库什纳今日将前往多哈，于周二会见卡塔尔首相及其他官员，讨论与伊朗的谈判。",
-          "body": "周三，美国和伊朗技术团队将分别与卡塔尔和巴基斯坦调解人会面。 #美国 #伊朗 #卡塔尔",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#卡塔尔"
-          ],
-          "ts": 1782743985000,
-          "time": "22:39:45",
           "receivedAt": 1782745222199,
           "receivedTime": true
         }
