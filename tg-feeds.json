@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T19:42:46.865Z",
+  "updatedAt": "2026-07-03T20:43:31.755Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1820,31 +1820,9 @@
           "time": "07:04:09",
           "receivedAt": 1781827989552,
           "receivedTime": true
-        },
-        {
-          "id": "6239",
-          "url": "https://t.me/BWEtradfi/6239",
-          "title": "*英特尔任命前SK海力士首席执行官李锡熙为英特尔代工业务执行副总裁",
-          "body": "*INTEL APPOINTS FORMER SK HYNIX CEO SEOK-HEE LEE AS EVP OF INTEL FOUNDRY $INTC",
-          "tags": [],
-          "ts": 1781814751000,
-          "time": "04:32:31",
-          "receivedAt": 1781815279468,
-          "receivedTime": true
-        },
-        {
-          "id": "6238",
-          "url": "https://t.me/BWEtradfi/6238",
-          "title": "DB: 标准普尔500指数收盘上涨1.2%，纳斯达克指数上涨2%",
-          "body": "DB: *S&P 500 CLOSES UP 1.2%, NASDAQ UP 2%",
-          "tags": [],
-          "ts": 1781812813000,
-          "time": "04:00:13",
-          "receivedAt": 1781815279468,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
