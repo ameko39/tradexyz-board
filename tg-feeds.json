@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T22:43:56.224Z",
+  "updatedAt": "2026-07-03T23:43:30.716Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1798,31 +1798,9 @@
           "time": "10:11:32",
           "receivedAt": 1781846710294,
           "receivedTime": true
-        },
-        {
-          "id": "6241",
-          "url": "https://t.me/BWEtradfi/6241",
-          "title": "DB: *日本整体消费者价格指数可能同比上涨1.5%；预期上涨1.5%",
-          "body": "DB: *JAPAN MAY OVERALL CONSUMER PRICES RISE 1.5% Y/Y; EST. +1.5% *JAPAN MAY CORE CONSUMER PRICES RISE 1.4% Y/Y; EST. +1.4% *日本核心消费者价格指数可能同比上涨1.4%；预期上涨1.4%",
-          "tags": [],
-          "ts": 1781825419000,
-          "time": "07:30:19",
-          "receivedAt": 1781827989552,
-          "receivedTime": true
-        },
-        {
-          "id": "6240",
-          "url": "https://t.me/BWEtradfi/6240",
-          "title": "*特朗普：我的权力没有极限",
-          "body": "*TRUMP: NO LIMITS TO MY POWER *TRUMP: MOU IS PROBABLY UNCONDITIONAL SURRENDER *特朗普：这份谅解备忘录很可能就是无条件投降",
-          "tags": [],
-          "ts": 1781823849000,
-          "time": "07:04:09",
-          "receivedAt": 1781827989552,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
