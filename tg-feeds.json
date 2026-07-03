@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T16:47:53.582Z",
+  "updatedAt": "2026-07-03T18:04:08.977Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1842,46 +1842,56 @@
           "time": "04:00:13",
           "receivedAt": 1781815279468,
           "receivedTime": true
-        },
-        {
-          "id": "6237",
-          "url": "https://t.me/BWEtradfi/6237",
-          "title": "*特朗普：美国致力于和平",
-          "body": "*TRUMP: US COMMITTED TO PEACE *TRUMP: EXPECT COMPLETE CEASEFIRE ON ALL FRONTS INCLUDING LEBANON HEZBOLLAH AND ISRAEL *TRUMP: MARKETS ARE LOVING OIL PRICES WAY DOWN AND STOCKS WAY UP *特朗普：期待在包括黎巴嫩真主党和以色列在内的所有战线上实现全面停火 *特朗普：市场对油价大幅下跌和股市大幅上涨非常满意",
-          "tags": [],
-          "ts": 1781805699000,
-          "time": "02:01:39",
-          "receivedAt": 1781806676801,
-          "receivedTime": true
-        },
-        {
-          "id": "6236",
-          "url": "https://t.me/BWEtradfi/6236",
-          "title": "*特朗普表示，如果以色列袭击伊朗，美国将支持以色列：第14频道",
-          "body": "*TRUMP SAYS US WOULD BACK ISRAEL IF IT ATTACKS IRAN: CHANNEL 14",
-          "tags": [],
-          "ts": 1781804348000,
-          "time": "01:39:08",
-          "receivedAt": 1781806676801,
-          "receivedTime": true
-        },
-        {
-          "id": "6235",
-          "url": "https://t.me/BWEtradfi/6235",
-          "title": "特朗普：美国只有成功、更低的油价和胜利。看看股市：真相帖",
-          "body": "*TRUMP: ALL THERE IS FOR THE US IS SUCCESS, LOWER OIL PRICES, AND VICTORY. CHECK OUT THE STOCK MARKET: TRUTH POST",
-          "tags": [],
-          "ts": 1781801413000,
-          "time": "00:50:13",
-          "receivedAt": 1781806676801,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216030",
+          "url": "https://t.me/jin10light/216030",
+          "title": "摩根大通维持对黄金的长期看涨展望，并预计金价将在2027年进一步回升。",
+          "body": "#好的",
+          "tags": [
+            "#好的"
+          ],
+          "ts": 1783099361000,
+          "time": "01:22:41",
+          "receivedAt": 1783101831758,
+          "receivedTime": true
+        },
+        {
+          "id": "216029",
+          "url": "https://t.me/jin10light/216029",
+          "title": "摩根大通：预计黄金短期内将维持区间震荡，随后回升，2026年第三季度均价为4,300美元/盎司，第四季度均价为4,500美元/盎司。",
+          "body": "#摩根大通 #黄金 #回升",
+          "tags": [
+            "#摩根大通",
+            "#黄金",
+            "#回升"
+          ],
+          "ts": 1783099120000,
+          "time": "01:18:40",
+          "receivedAt": 1783101831758,
+          "receivedTime": true
+        },
+        {
+          "id": "216028",
+          "url": "https://t.me/jin10light/216028",
+          "title": "上市公司年内已净买入166,984枚BTC，超过同期挖矿产出的2倍",
+          "body": "#BTC #上市公司 #比特币",
+          "tags": [
+            "#BTC",
+            "#上市公司",
+            "#比特币"
+          ],
+          "ts": 1783098702000,
+          "time": "01:11:42",
+          "receivedAt": 1783101831758,
+          "receivedTime": true
+        },
         {
           "id": "216027",
           "url": "https://t.me/jin10light/216027",
@@ -19061,50 +19071,6 @@
           ],
           "ts": 1782819043000,
           "time": "19:30:43",
-          "receivedAt": 1782819266227,
-          "receivedTime": true
-        },
-        {
-          "id": "214830",
-          "url": "https://t.me/jin10light/214830",
-          "title": "伊朗外交部发言人巴加埃：与调解方卡塔尔就落实伊朗与美国临时协议进行的对话可能将于周三在多哈举行，议题包括解冻资产的释放。",
-          "body": "#伊朗 #多哈",
-          "tags": [
-            "#伊朗",
-            "#多哈"
-          ],
-          "ts": 1782818982000,
-          "time": "19:29:42",
-          "receivedAt": 1782819266227,
-          "receivedTime": true
-        },
-        {
-          "id": "214829",
-          "url": "https://t.me/jin10light/214829",
-          "title": "特朗普加码1.5万亿战争开支，「SpaceX系」军工新贵抢滩超音速导弹赛道",
-          "body": "#美国 #SpaceX #新墨西哥州",
-          "tags": [
-            "#美国",
-            "#SpaceX",
-            "#新墨西哥州"
-          ],
-          "ts": 1782818921000,
-          "time": "19:28:41",
-          "receivedAt": 1782819266227,
-          "receivedTime": true
-        },
-        {
-          "id": "214828",
-          "url": "https://t.me/jin10light/214828",
-          "title": "比特币现44亿美元供应过剩，机构需求疲软拖累反弹前景",
-          "body": "#BTC #英国 #国际油价",
-          "tags": [
-            "#BTC",
-            "#英国",
-            "#国际油价"
-          ],
-          "ts": 1782818743000,
-          "time": "19:25:43",
           "receivedAt": 1782819266227,
           "receivedTime": true
         }
