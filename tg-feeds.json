@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T18:04:08.977Z",
+  "updatedAt": "2026-07-03T19:42:46.865Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1844,11 +1844,26 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216031",
+          "url": "https://t.me/jin10light/216031",
+          "title": "摩根大通：黄金短期承压，2026下半年或冲4500美元",
+          "body": "#摩根大通 #黄金 #美元",
+          "tags": [
+            "#摩根大通",
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1783103624000,
+          "time": "02:33:44",
+          "receivedAt": 1783107755051,
+          "receivedTime": true
+        },
         {
           "id": "216030",
           "url": "https://t.me/jin10light/216030",
@@ -19056,21 +19071,6 @@
           ],
           "ts": 1782819221000,
           "time": "19:33:41",
-          "receivedAt": 1782819266227,
-          "receivedTime": true
-        },
-        {
-          "id": "214831",
-          "url": "https://t.me/jin10light/214831",
-          "title": "施压美联储受挫后转向加油站，特朗普喊话油企：汽油须降至2.5美元/加仑",
-          "body": "#特朗普 #美国 #汽油价格",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#汽油价格"
-          ],
-          "ts": 1782819043000,
-          "time": "19:30:43",
           "receivedAt": 1782819266227,
           "receivedTime": true
         }
