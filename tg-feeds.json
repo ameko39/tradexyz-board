@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T17:29:22.041Z",
+  "updatedAt": "2026-07-04T18:33:17.989Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1743,20 +1743,9 @@
           "time": "04:52:24",
           "receivedAt": 1781903837647,
           "receivedTime": true
-        },
-        {
-          "id": "6246",
-          "url": "https://t.me/BWEtradfi/6246",
-          "title": "特朗普：不认为Anthropic是国家安全威胁",
-          "body": "*TRUMP: DON'T VIEW ANTHROPIC AS NATIONAL SECURITY THREAT",
-          "tags": [],
-          "ts": 1781892655000,
-          "time": "02:10:55",
-          "receivedAt": 1781892665094,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
