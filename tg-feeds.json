@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T20:37:41.888Z",
+  "updatedAt": "2026-07-04T21:35:55.963Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1732,24 +1732,27 @@
           "time": "06:52:35",
           "receivedAt": 1781910968644,
           "receivedTime": true
-        },
-        {
-          "id": "6247",
-          "url": "https://t.me/BWEtradfi/6247",
-          "title": "美国情报部门总结称，以色列可能继续袭击黎巴嫩 - 纽约时报",
-          "body": "*ISRAEL IS LIKELY TO CONTINUE ATTACKS IN LEBANON, U.S. INTELLIGENCE CONCLUDES - NYT",
-          "tags": [],
-          "ts": 1781902344000,
-          "time": "04:52:24",
-          "receivedAt": 1781903837647,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216113",
+          "url": "https://t.me/jin10light/216113",
+          "title": "据黎巴嫩国家通讯社：过去数小时内，以色列袭击了黎巴嫩南部的曼苏里与塔卢萨两地。",
+          "body": "#以色列 #黎巴嫩",
+          "tags": [
+            "#以色列",
+            "#黎巴嫩"
+          ],
+          "ts": 1783200400000,
+          "time": "05:26:40",
+          "receivedAt": 1783200943056,
+          "receivedTime": true
+        },
         {
           "id": "216112",
           "url": "https://t.me/jin10light/216112",
@@ -18982,20 +18985,6 @@
           ],
           "ts": 1782831344000,
           "time": "22:55:44",
-          "receivedAt": 1782835341192,
-          "receivedTime": true
-        },
-        {
-          "id": "214913",
-          "url": "https://t.me/jin10light/214913",
-          "title": "美元指数DXY抹去日内涨幅，转为下跌，现报101.1。",
-          "body": "#美元 #下跌",
-          "tags": [
-            "#美元",
-            "#下跌"
-          ],
-          "ts": 1782831280000,
-          "time": "22:54:40",
           "receivedAt": 1782835341192,
           "receivedTime": true
         }
