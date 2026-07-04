@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T04:54:48.143Z",
+  "updatedAt": "2026-07-04T07:37:15.524Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1765,28 +1765,6 @@
           "time": "20:30:14",
           "receivedAt": 1781876084822,
           "receivedTime": true
-        },
-        {
-          "id": "6244",
-          "url": "https://t.me/BWEtradfi/6244",
-          "title": "DB: *德国5月生产者价格环比上涨0.3%；预期上涨0.7%",
-          "body": "DB: *GERMANY MAY PRODUCER PRICES RISE 0.3% M/M; EST. +0.7% *GERMANY MAY PRODUCER PRICES RISE 2.2% Y/Y; EST. +2.5% *德国5月生产者价格同比上涨2.2%；预期上涨2.5%",
-          "tags": [],
-          "ts": 1781848819000,
-          "time": "14:00:19",
-          "receivedAt": 1781863068127,
-          "receivedTime": true
-        },
-        {
-          "id": "6243",
-          "url": "https://t.me/BWEtradfi/6243",
-          "title": "DB: *英国5月零售额环比增长1.2%；预期增长0.5%",
-          "body": "DB: *UK MAY RETAIL SALES RISE 1.2% M/M; EST. +0.5% *UK MAY RETAIL SALES RISE 3.2% Y/Y; EST. +1.9% *UK MAY CORE RETAIL SALES RISE 1.2% M/M; EST. +0.4% *UK MAY CORE RETAIL SALES RISE 4.6% Y/Y; EST. +3.3% *英国5月零售额同比增长3.2%；预期增长1.9% *英国5月核心零售额环比增长1.2%；预期增长0.4% *英国5月核心零售额同比增长4.6%；预期增长3.3%",
-          "tags": [],
-          "ts": 1781848815000,
-          "time": "14:00:15",
-          "receivedAt": 1781863068127,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1794,6 +1772,153 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216073",
+          "url": "https://t.me/jin10light/216073",
+          "title": "Serenity关注浮动AI数据中心：三星重工目标2028年商用，免费海水冷却解决电力与土地瓶颈",
+          "body": "#Serenity #三星重工",
+          "tags": [
+            "#Serenity",
+            "#三星重工"
+          ],
+          "ts": 1783150422000,
+          "time": "15:33:42",
+          "receivedAt": 1783150618653,
+          "receivedTime": true
+        },
+        {
+          "id": "216072",
+          "url": "https://t.me/jin10light/216072",
+          "title": "美光90亿美元扩建日本西部芯片工厂，预计2028年夏季前后投产出货",
+          "body": "#美光科技 #日本 #人工智能",
+          "tags": [
+            "#美光科技",
+            "#日本",
+            "#人工智能"
+          ],
+          "ts": 1783149702000,
+          "time": "15:21:42",
+          "receivedAt": 1783150618653,
+          "receivedTime": true
+        },
+        {
+          "id": "216071",
+          "url": "https://t.me/jin10light/216071",
+          "title": "字节炒股赚3000万主角谈存储行情：市场进入连锁清算，降杠杆长期来看更健康",
+          "body": "#Leto Bao #存储 #新加坡",
+          "tags": [
+            "#Leto",
+            "#存储",
+            "#新加坡"
+          ],
+          "ts": 1783148561000,
+          "time": "15:02:41",
+          "receivedAt": 1783150618653,
+          "receivedTime": true
+        },
+        {
+          "id": "216070",
+          "url": "https://t.me/jin10light/216070",
+          "title": "马来西亚警方突击捣毁巴生港自贸区内非法加密货币挖矿窝点",
+          "body": "#马来西亚 #加密货币 #非法挖矿",
+          "tags": [
+            "#马来西亚",
+            "#加密货币",
+            "#非法挖矿"
+          ],
+          "ts": 1783147606000,
+          "time": "14:46:46",
+          "receivedAt": 1783150618653,
+          "receivedTime": true
+        },
+        {
+          "id": "216069",
+          "url": "https://t.me/jin10light/216069",
+          "title": "Jupiter战略储备信托基金增持约18.65万枚JUP，总持仓价值升至约3480万美元",
+          "body": "#JUP #Jupiter",
+          "tags": [
+            "#JUP",
+            "#Jupiter"
+          ],
+          "ts": 1783146101000,
+          "time": "14:21:41",
+          "receivedAt": 1783150618653,
+          "receivedTime": true
+        },
+        {
+          "id": "216068",
+          "url": "https://t.me/jin10light/216068",
+          "title": "Bitdeer连续19周维持零比特币持仓，本周产出223.1枚BTC",
+          "body": "#Bitdeer #BTC #美股",
+          "tags": [
+            "#Bitdeer",
+            "#BTC",
+            "#美股"
+          ],
+          "ts": 1783145742000,
+          "time": "14:15:42",
+          "receivedAt": 1783150618653,
+          "receivedTime": true
+        },
+        {
+          "id": "216067",
+          "url": "https://t.me/jin10light/216067",
+          "title": "分析：本轮比特币弱反弹目标区间6.4至6.8万美元，7万美元为熊市短线反弹天花板",
+          "body": "#BTC #美国 #比特币回升",
+          "tags": [
+            "#BTC",
+            "#美国",
+            "#比特币回升"
+          ],
+          "ts": 1783143702000,
+          "time": "13:41:42",
+          "receivedAt": 1783150618653,
+          "receivedTime": true
+        },
+        {
+          "id": "216066",
+          "url": "https://t.me/jin10light/216066",
+          "title": "高盛维持MiniMax「买入」评级，目标价860港元",
+          "body": "#高盛 #MiniMax #DeepSeek",
+          "tags": [
+            "#高盛",
+            "#MiniMax",
+            "#DeepSeek"
+          ],
+          "ts": 1783142802000,
+          "time": "13:26:42",
+          "receivedAt": 1783150618653,
+          "receivedTime": true
+        },
+        {
+          "id": "216065",
+          "url": "https://t.me/jin10light/216065",
+          "title": "特朗普：伊朗非常想达成协议",
+          "body": "#美国 #伊朗",
+          "tags": [
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1783142201000,
+          "time": "13:16:41",
+          "receivedAt": 1783150618653,
+          "receivedTime": true
+        },
+        {
+          "id": "216064",
+          "url": "https://t.me/jin10light/216064",
+          "title": "华为「韬定律」V2版论文发布：Kirin 2026数据首次公开，补充工程细节与实测数据",
+          "body": "#华为 #中国 #半导体",
+          "tags": [
+            "#华为",
+            "#中国",
+            "#半导体"
+          ],
+          "ts": 1783141661000,
+          "time": "13:07:41",
+          "receivedAt": 1783150618653,
+          "receivedTime": true
+        },
         {
           "id": "216063",
           "url": "https://t.me/jin10light/216063",
@@ -18874,147 +18999,6 @@
           ],
           "ts": 1782825702000,
           "time": "21:21:42",
-          "receivedAt": 1782826008982,
-          "receivedTime": true
-        },
-        {
-          "id": "214873",
-          "url": "https://t.me/jin10light/214873",
-          "title": "Strategy新资本框架引发市场分歧，Benchmark维持「买入」评级",
-          "body": "#MSTR #BTC #Arca ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#MSTR",
-            "#BTC",
-            "#Arca"
-          ],
-          "ts": 1782825642000,
-          "time": "21:20:42",
-          "receivedAt": 1782826008982,
-          "receivedTime": true
-        },
-        {
-          "id": "214872",
-          "url": "https://t.me/jin10light/214872",
-          "title": "阿联酋退出欧佩克后石油出口量创历史新高",
-          "body": "",
-          "tags": [],
-          "ts": 1782825342000,
-          "time": "21:15:42",
-          "receivedAt": 1782826008982,
-          "receivedTime": true
-        },
-        {
-          "id": "214871",
-          "url": "https://t.me/jin10light/214871",
-          "title": "黄金一度跌破3950美元/盎司，高盛等多家投行下调金价预期",
-          "body": "#黄金 #美联储 #高盛",
-          "tags": [
-            "#黄金",
-            "#美联储",
-            "#高盛"
-          ],
-          "ts": 1782825166000,
-          "time": "21:12:46",
-          "receivedAt": 1782826008982,
-          "receivedTime": true
-        },
-        {
-          "id": "214870",
-          "url": "https://t.me/jin10light/214870",
-          "title": "纳斯达克选择Pyth分发市场数据，首次将TotalView行情接入链上网络",
-          "body": "#Nasdaq #Pyth Network",
-          "tags": [
-            "#Nasdaq",
-            "#Pyth"
-          ],
-          "ts": 1782824742000,
-          "time": "21:05:42",
-          "receivedAt": 1782826008982,
-          "receivedTime": true
-        },
-        {
-          "id": "214869",
-          "url": "https://t.me/jin10light/214869",
-          "title": "寒武纪：若未来上游原材料价格持续走高，将可能对公司经营业绩产生不利影响",
-          "body": "6月30日讯，寒武纪发布异动公告，公司股票价格累计涨幅较大，超过科创综指、上证综指等相关指数涨幅，可能存在短期上涨过快出现的下跌风险。 公司采用Fabless模式经营，供应商包括IP授权厂商、服务器厂商、晶圆制造厂和封装测试厂等。 由于集成电路整个行业链是专业化分工且技术门槛较高，加之公司及部分子公司已被列入“实体清单”，将对公司供应链的稳定造成一定风险。 近年来，国内半导体行业原材料需求持续增长，上游供应短缺，采购价格整体呈上涨态势。 若未来上游原材料价格持续走高，将可能对公司经营业绩产生不利影响。 #寒武纪 #实体清单 #半导体",
-          "tags": [
-            "#寒武纪",
-            "#实体清单",
-            "#半导体"
-          ],
-          "ts": 1782824621000,
-          "time": "21:03:41",
-          "receivedAt": 1782826008982,
-          "receivedTime": true
-        },
-        {
-          "id": "214868",
-          "url": "https://t.me/jin10light/214868",
-          "title": "美国4月FHFA房价指数月率 -0.1%，预期0.2%，前值由0.10%修正为0.2%。",
-          "body": "",
-          "tags": [],
-          "ts": 1782824443000,
-          "time": "21:00:43",
-          "receivedAt": 1782826008982,
-          "receivedTime": true
-        },
-        {
-          "id": "214867",
-          "url": "https://t.me/jin10light/214867",
-          "title": "夜盘开盘，国内期货主力合约涨多跌少，合成橡胶、聚氯乙烯（PVC）、沪锡、纯苯、沪银涨超1%，低硫燃料油（LU）、不锈钢（SS）涨近1%。",
-          "body": "跌幅方面，菜粕跌超1%，棕榈油跌近1%。 #国内期货 #合成橡胶 #PVC",
-          "tags": [
-            "#国内期货",
-            "#合成橡胶",
-            "#PVC"
-          ],
-          "ts": 1782824443000,
-          "time": "21:00:43",
-          "receivedAt": 1782826008982,
-          "receivedTime": true
-        },
-        {
-          "id": "214866",
-          "url": "https://t.me/jin10light/214866",
-          "title": "机构：美股出现两项历史罕见背离信号，未来三个月陷入熊市概率约67%",
-          "body": "#美股 #SOX #纳指",
-          "tags": [
-            "#美股",
-            "#SOX",
-            "#纳指"
-          ],
-          "ts": 1782824382000,
-          "time": "20:59:42",
-          "receivedAt": 1782826008982,
-          "receivedTime": true
-        },
-        {
-          "id": "214865",
-          "url": "https://t.me/jin10light/214865",
-          "title": "分析：长期持有者持仓创历史新高，或意味着比特币本轮周期提前见底",
-          "body": "#BTC #美国 #CLARITY Act",
-          "tags": [
-            "#BTC",
-            "#美国",
-            "#CLARITY"
-          ],
-          "ts": 1782824082000,
-          "time": "20:54:42",
-          "receivedAt": 1782826008982,
-          "receivedTime": true
-        },
-        {
-          "id": "214864",
-          "url": "https://t.me/jin10light/214864",
-          "title": "重要新é",
-          "body": "1.美国财长贝森特：如果6月份的就业形势“非常强劲”，不会感到惊讶。 2. 据外媒6月30日援引卡塔尔方面消息，美国和伊朗当天没有高级别会晤的计划。 个股新é 1.SK海力士启动美国IPO，拟登陆纳斯达克发行ADS。 2. Digital Realty(DLR.N)斥资35亿美元收购黑石数据中心。 3. 亚马逊(AMZN.O)使用Anthropic技术或将支付更高费用。 4. 苹果(AAPL.O)印度代工厂遭黑客攻击，iPhone 18 Pro供应链机密曝光。 5. 英伟达(NVDA.O)机器人团队围绕具身智能、仿真、部署及解决方案架构四大核心方向开放...",
-          "tags": [
-            "#美国",
-            "#贝森特",
-            "#美股"
-          ],
-          "ts": 1782824021000,
-          "time": "20:53:41",
           "receivedAt": 1782826008982,
           "receivedTime": true
         }
