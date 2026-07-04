@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T12:17:42.328Z",
+  "updatedAt": "2026-07-04T14:02:12.569Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1754,24 +1754,98 @@
           "time": "02:10:55",
           "receivedAt": 1781892665094,
           "receivedTime": true
-        },
-        {
-          "id": "6245",
-          "url": "https://t.me/BWEtradfi/6245",
-          "title": "DB: *加拿大4月零售销售额环比增长0.5%；预期增长0.6%",
-          "body": "DB: *CANADA APRIL RETAIL SALES RISE 0.5% M/M; EST. +0.6% *CANADA APRIL CORE RETAIL SALES RISE 0.1% M/M; EST. +0.7% *加拿大4月核心零售销售额环比增长0.1%；预期增长0.7%",
-          "tags": [],
-          "ts": 1781872214000,
-          "time": "20:30:14",
-          "receivedAt": 1781876084822,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216096",
+          "url": "https://t.me/jin10light/216096",
+          "title": "本周美国比特币现货ETF累计净流出5.261亿美元",
+          "body": "#美国 #BTC #ETH",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1783172861000,
+          "time": "21:47:41",
+          "receivedAt": 1783173718710,
+          "receivedTime": true
+        },
+        {
+          "id": "216095",
+          "url": "https://t.me/jin10light/216095",
+          "title": "沙特媒体：美伊下一轮谈判将于11日进行，将讨论被冻结资金与核问题",
+          "body": "7月4日讯，综合沙特媒体哈达斯与阿拉伯卫星电视台报道，美国与伊朗的谈判将于7月11日在巴基斯坦进行，将讨论制裁、被冻结的伊朗资金以及核问题。 伊朗代表团的人员组成将在哈梅内伊的葬礼结束后确定。 #伊朗 #美国 #巴基斯坦",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#巴基斯坦"
+          ],
+          "ts": 1783171542000,
+          "time": "21:25:42",
+          "receivedAt": 1783173718710,
+          "receivedTime": true
+        },
+        {
+          "id": "216094",
+          "url": "https://t.me/jin10light/216094",
+          "title": "据沙特媒体哈达斯与阿拉伯卫星电视台报道，美国与伊朗的谈判将于7月11日在巴基斯坦进行。",
+          "body": "#美国 #伊朗 #巴基斯坦",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#巴基斯坦"
+          ],
+          "ts": 1783171421000,
+          "time": "21:23:41",
+          "receivedAt": 1783173718710,
+          "receivedTime": true
+        },
+        {
+          "id": "216093",
+          "url": "https://t.me/jin10light/216093",
+          "title": "美伊下一轮谈判将于7月11日在巴基斯坦进行 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "body": "",
+          "tags": [],
+          "ts": 1783171362000,
+          "time": "21:22:42",
+          "receivedAt": 1783173718710,
+          "receivedTime": true
+        },
+        {
+          "id": "216092",
+          "url": "https://t.me/jin10light/216092",
+          "title": "美媒曝美伊停火协议内幕：伊总统与央行行长齐出面，劝谏最高领袖「赶紧签字」",
+          "body": "#伊朗 #佩泽希齐扬 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#伊朗",
+            "#佩泽希齐扬"
+          ],
+          "ts": 1783169684000,
+          "time": "20:54:44",
+          "receivedAt": 1783173718710,
+          "receivedTime": true
+        },
+        {
+          "id": "216091",
+          "url": "https://t.me/jin10light/216091",
+          "title": "数据中心运营商Crusoe正洽谈融资30亿美元，估值或升至300亿美元",
+          "body": "#Crusoe #Meta #人工智能",
+          "tags": [
+            "#Crusoe",
+            "#Meta",
+            "#人工智能"
+          ],
+          "ts": 1783168601000,
+          "time": "20:36:41",
+          "receivedAt": 1783173718710,
+          "receivedTime": true
+        },
         {
           "id": "216090",
           "url": "https://t.me/jin10light/216090",
@@ -18930,85 +19004,6 @@
           "ts": 1782828822000,
           "time": "22:13:42",
           "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214896",
-          "url": "https://t.me/jin10light/214896",
-          "title": "OpenAI找到优化方案，可将推理成本减半",
-          "body": "6月30日讯，据The Information，一位知情人士透露，本月早些时候，OpenAI工程师向部分同事表示，依托几项全新研发的优化技术，他们找到了一套方案，能将模型推理成本削减一半以上。 工程师将这套新技术应用于没有免费或付费帐户的访客使用ChatGPT的场景后，一度把所需英伟达图形处理器（GPU）数量压至仅数百个。",
-          "tags": [],
-          "ts": 1782828520000,
-          "time": "22:08:40",
-          "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214895",
-          "url": "https://t.me/jin10light/214895",
-          "title": "MetaMask推出Money Account，一站式支持稳定币生息、支付与交易",
-          "body": "#MetaMask #mUSD #以太坊",
-          "tags": [
-            "#MetaMask",
-            "#mUSD",
-            "#以太坊"
-          ],
-          "ts": 1782828462000,
-          "time": "22:07:42",
-          "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214894",
-          "url": "https://t.me/jin10light/214894",
-          "title": "美股半导体板块普涨，英特尔涨4.81%",
-          "body": "#美股 #半导体 #MRVL",
-          "tags": [
-            "#美股",
-            "#半导体",
-            "#MRVL"
-          ],
-          "ts": 1782828401000,
-          "time": "22:06:41",
-          "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214893",
-          "url": "https://t.me/jin10light/214893",
-          "title": "美国6月谘商会消费者信心指数 91.2，预期94.6，前值93.1。",
-          "body": "#美国",
-          "tags": [
-            "#美国"
-          ],
-          "ts": 1782828043000,
-          "time": "22:00:43",
-          "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214892",
-          "url": "https://t.me/jin10light/214892",
-          "title": "美国5月JOLTs职位空缺 759.4万人，预期730万人，前值由761.8万人修正为758.5万人。",
-          "body": "#美国 #JOLTs",
-          "tags": [
-            "#美国",
-            "#JOLTs"
-          ],
-          "ts": 1782828042000,
-          "time": "22:00:42",
-          "receivedAt": 1782835341698,
-          "receivedTime": true
-        },
-        {
-          "id": "214891",
-          "url": "https://t.me/jin10light/214891",
-          "title": "国际金价围绕4000美元震荡，机构称需站稳4100美元方可确认见底",
-          "body": "",
-          "tags": [],
-          "ts": 1782827980000,
-          "time": "21:59:40",
-          "receivedAt": 1782835341698,
           "receivedTime": true
         }
       ],
