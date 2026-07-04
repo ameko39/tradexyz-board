@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T21:35:55.963Z",
+  "updatedAt": "2026-07-04T22:34:45.642Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1734,11 +1734,22 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216114",
+          "url": "https://t.me/jin10light/216114",
+          "title": "中央气象台7月5日06时继续发布暴雨橙色预警。",
+          "body": "",
+          "tags": [],
+          "ts": 1783202561000,
+          "time": "06:02:41",
+          "receivedAt": 1783204469138,
+          "receivedTime": true
+        },
         {
           "id": "216113",
           "url": "https://t.me/jin10light/216113",
@@ -18967,21 +18978,6 @@
             "#美联储",
             "#利率",
             "#通胀"
-          ],
-          "ts": 1782831344000,
-          "time": "22:55:44",
-          "receivedAt": 1782835341192,
-          "receivedTime": true
-        },
-        {
-          "id": "214914",
-          "url": "https://t.me/jin10light/214914",
-          "title": "OKX推出AI Agent市场，支持智能体接单并以USDT、USDG收款",
-          "body": "#OKX #USDT #AI Agent",
-          "tags": [
-            "#OKX",
-            "#USDT",
-            "#AI"
           ],
           "ts": 1782831344000,
           "time": "22:55:44",
