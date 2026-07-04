@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T14:02:12.569Z",
+  "updatedAt": "2026-07-04T15:15:10.642Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1756,11 +1756,116 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216103",
+          "url": "https://t.me/jin10light/216103",
+          "title": "若比特币突破6.5万美元，主流CEX累计空单清算强度将达6.51亿",
+          "body": "#BTC #CEX #清算强度",
+          "tags": [
+            "#BTC",
+            "#CEX",
+            "#清算强度"
+          ],
+          "ts": 1783177961000,
+          "time": "23:12:41",
+          "receivedAt": 1783178099005,
+          "receivedTime": true
+        },
+        {
+          "id": "216102",
+          "url": "https://t.me/jin10light/216102",
+          "title": "整理：周六重要消息汇总",
+          "body": "国内新闻ï 1.豆包、千问将下线智能体功能。 2. 瑞典首相克里斯特松会见王毅。 3. 我国成功发射千帆极轨13组卫星。 4. 王毅同瑞典外交大臣斯蒂纳加德会谈。 5. 中国海警位中国台湾岛以东海域开展常态化执法巡查。 6. 首款神经动力学芯片问世，有助于脑机接口等技术发展。 7. 华为何庭波发布V2版“韬定律”论文，补充工程细节和实测数据。 8. 进一步明确平台经济各方权利义务，新版电子商务法公开征求意见。 国际新闻ï 1.美光斥资90亿美元扩建日本西部芯片工厂。 2. 马里多地军方阵地遭袭，军方称击退多起袭击。 3. 欧洲央行管委穆兰：在上月加息之...",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#欧洲央行"
+          ],
+          "ts": 1783177484000,
+          "time": "23:04:44",
+          "receivedAt": 1783178099005,
+          "receivedTime": true
+        },
+        {
+          "id": "216101",
+          "url": "https://t.me/jin10light/216101",
+          "title": "「5连败」交易员平仓空单止损，三天亏损350万美元",
+          "body": "#ETH #亏损 #交易员",
+          "tags": [
+            "#ETH",
+            "#亏损",
+            "#交易员"
+          ],
+          "ts": 1783177062000,
+          "time": "22:57:42",
+          "receivedAt": 1783178099005,
+          "receivedTime": true
+        },
+        {
+          "id": "216100",
+          "url": "https://t.me/jin10light/216100",
+          "title": "六个地址通过Cowswap买入总计12,128枚ETH后转入Tornado Cash",
+          "body": "#ETH #Tornado Cash #Solana",
+          "tags": [
+            "#ETH",
+            "#Tornado",
+            "#Solana"
+          ],
+          "ts": 1783176343000,
+          "time": "22:45:43",
+          "receivedAt": 1783178099005,
+          "receivedTime": true
+        },
+        {
+          "id": "216099",
+          "url": "https://t.me/jin10light/216099",
+          "title": "Strategy CEO：比特币为抗货币通胀需求带来希望",
+          "body": "#BTC #美国 #比特币",
+          "tags": [
+            "#BTC",
+            "#美国",
+            "#比特币"
+          ],
+          "ts": 1783175741000,
+          "time": "22:35:41",
+          "receivedAt": 1783178099005,
+          "receivedTime": true
+        },
+        {
+          "id": "216098",
+          "url": "https://t.me/jin10light/216098",
+          "title": "一新地址斥资4150万美元建仓WBTC与ETH，现浮盈359万美元",
+          "body": "#Binance #ETH #WBTC",
+          "tags": [
+            "#Binance",
+            "#ETH",
+            "#WBTC"
+          ],
+          "ts": 1783174781000,
+          "time": "22:19:41",
+          "receivedAt": 1783178099005,
+          "receivedTime": true
+        },
+        {
+          "id": "216097",
+          "url": "https://t.me/jin10light/216097",
+          "title": "F2Pool联创王纯将部分6月「抄底」WBTC与ETH转入Binance，浮盈340万美元",
+          "body": "#ETH #Binance #王纯 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#ETH",
+            "#Binance",
+            "#王纯"
+          ],
+          "ts": 1783174062000,
+          "time": "22:07:42",
+          "receivedAt": 1783178099005,
+          "receivedTime": true
+        },
         {
           "id": "216096",
           "url": "https://t.me/jin10light/216096",
@@ -18903,106 +19008,6 @@
           "tags": [],
           "ts": 1782829780000,
           "time": "22:29:40",
-          "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214903",
-          "url": "https://t.me/jin10light/214903",
-          "title": "沪银主力合约日内大涨4%，现报14658元/千克。",
-          "body": "沪金主力合约涨超1%，现报888.38元/克。 #沪银 #沪金",
-          "tags": [
-            "#沪银",
-            "#沪金"
-          ],
-          "ts": 1782829541000,
-          "time": "22:25:41",
-          "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214902",
-          "url": "https://t.me/jin10light/214902",
-          "title": "现货黄金日内涨超1%，向上触及4060美元/盎司。",
-          "body": "#黄金 #美元",
-          "tags": [
-            "#黄金",
-            "#美元"
-          ],
-          "ts": 1782829481000,
-          "time": "22:24:41",
-          "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214901",
-          "url": "https://t.me/jin10light/214901",
-          "title": "现货白银站上60美元/盎司",
-          "body": "6月30日讯，现货白银日内涨幅达3%，现报60.10美元/盎司。 现货黄金上涨近1%，报4054.64美元/盎司美元。 #白银 #黄金",
-          "tags": [
-            "#白银",
-            "#黄金"
-          ],
-          "ts": 1782829421000,
-          "time": "22:23:41",
-          "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214900",
-          "url": "https://t.me/jin10light/214900",
-          "title": "闪迪(SNDK.O)股价涨超5%，伯恩斯坦将该股目标价从1700美元上调至3000美元。",
-          "body": "#SNDK #伯恩斯坦 #上调目标价",
-          "tags": [
-            "#SNDK",
-            "#伯恩斯坦",
-            "#上调目标价"
-          ],
-          "ts": 1782829243000,
-          "time": "22:20:43",
-          "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214899",
-          "url": "https://t.me/jin10light/214899",
-          "title": "美国5月职位空缺升至近两年新高，大幅超出市场预期",
-          "body": "#美国 #伊朗 #职位空缺",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#职位空缺"
-          ],
-          "ts": 1782829243000,
-          "time": "22:20:43",
-          "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214898",
-          "url": "https://t.me/jin10light/214898",
-          "title": "据The Information：OpenAI研发出了一种将推理成本降低一半的新方法。",
-          "body": "#OpenAI",
-          "tags": [
-            "#OpenAI"
-          ],
-          "ts": 1782829001000,
-          "time": "22:16:41",
-          "receivedAt": 1782835341437,
-          "receivedTime": true
-        },
-        {
-          "id": "214897",
-          "url": "https://t.me/jin10light/214897",
-          "title": "美股科技设备板块普涨，ONTO涨6.84%",
-          "body": "#美股 #ONTO #AMAT",
-          "tags": [
-            "#美股",
-            "#ONTO",
-            "#AMAT"
-          ],
-          "ts": 1782828822000,
-          "time": "22:13:42",
           "receivedAt": 1782835341437,
           "receivedTime": true
         }
