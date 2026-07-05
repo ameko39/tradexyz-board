@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T17:16:11.509Z",
+  "updatedAt": "2026-07-05T18:17:34.095Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1728,6 +1728,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216198",
+          "url": "https://t.me/jin10light/216198",
+          "title": "白宫：特朗普将在北约峰会期间与乌克兰和叙利亚领导人举行双边会晤。",
+          "body": "#特朗普 #北约 #乌克兰 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#特朗普",
+            "#北约",
+            "#乌克兰"
+          ],
+          "ts": 1783275221000,
+          "time": "02:13:41",
+          "receivedAt": 1783275439065,
+          "receivedTime": true
+        },
         {
           "id": "216197",
           "url": "https://t.me/jin10light/216197",
@@ -18972,21 +18987,6 @@
           "time": "09:29:42",
           "receivedAt": 1782881389344,
           "receivedTime": true
-        },
-        {
-          "id": "214997",
-          "url": "https://t.me/jin10light/214997",
-          "title": "A股开盘，上证指数跌0.09%，深证成指涨0.13%，创业板指跌0.15%。",
-          "body": "#A股 #上证指数 #创业板指 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#A股",
-            "#上证指数",
-            "#创业板指"
-          ],
-          "ts": 1782869202000,
-          "time": "09:26:42",
-          "receivedAt": 1782881389344,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20216,7 +20216,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
