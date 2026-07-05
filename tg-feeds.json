@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T18:17:34.095Z",
+  "updatedAt": "2026-07-05T19:45:53.648Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1710,24 +1710,28 @@
           "time": "08:33:10",
           "receivedAt": 1782006193308,
           "receivedTime": true
-        },
-        {
-          "id": "6249",
-          "url": "https://t.me/BWEtradfi/6249",
-          "title": "*特朗普：60天后不得收取通行费，除非美国强制征收，否则协议不得完成。",
-          "body": "*TRUMP: NO TOLLS AFTER 60 DAYS UNLESS IMPOSED BY UNITED STATES SHOULD DEAL NOT BE COMPLETED *TRUMP: US RESERVES RIGHT TO IMPOSE TOLLS FOR REIMBURSEMENT OF COSTS AS GUARDIAN ANGEL TO MIDDLE EAST *特朗普：美国保留征收通行费的权利，以补偿其作为中东守护天使所付出的成本。",
-          "tags": [],
-          "ts": 1781982930000,
-          "time": "03:15:30",
-          "receivedAt": 1781984863749,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216199",
+          "url": "https://t.me/jin10light/216199",
+          "title": "CZ点赞MEME币TCC捐赠推文，TCC市值短时突破7200万美元",
+          "body": "#BNB #SOL #TCC",
+          "tags": [
+            "#BNB",
+            "#SOL",
+            "#TCC"
+          ],
+          "ts": 1783277140000,
+          "time": "02:45:40",
+          "receivedAt": 1783280734266,
+          "receivedTime": true
+        },
         {
           "id": "216198",
           "url": "https://t.me/jin10light/216198",
@@ -18971,20 +18975,6 @@
           ],
           "ts": 1782869441000,
           "time": "09:30:41",
-          "receivedAt": 1782881389344,
-          "receivedTime": true
-        },
-        {
-          "id": "214998",
-          "url": "https://t.me/jin10light/214998",
-          "title": "A股益生股份竞价涨停，公司预计上半年净利润同比增长4,286.61%-4,774.01%。",
-          "body": "#A股 #益生股份",
-          "tags": [
-            "#A股",
-            "#益生股份"
-          ],
-          "ts": 1782869382000,
-          "time": "09:29:42",
           "receivedAt": 1782881389344,
           "receivedTime": true
         }
