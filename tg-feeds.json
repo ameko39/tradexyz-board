@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-06T18:29:46.386Z",
+  "updatedAt": "2026-07-06T20:26:50.519Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6410",
+          "url": "https://t.me/BWEtradfi/6410",
+          "title": "DB: 标准普尔500指数收盘上涨0.7%，纳斯达克指数上涨1.1%",
+          "body": "DB: *S&P 500 CLOSES 0.7% HIGHER, NASDAQ RISES 1.1%",
+          "tags": [],
+          "ts": 1783368013000,
+          "time": "04:00:13",
+          "receivedAt": 1783369592316,
+          "receivedTime": true
+        },
         {
           "id": "6409",
           "url": "https://t.me/BWEtradfi/6409",
@@ -1787,6 +1798,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216482",
+          "url": "https://t.me/jin10light/216482",
+          "title": "美股收盘：三大股指收涨 芯片股走强",
+          "body": "7月7日讯，美股周一收盘，道指初步收涨0.3%，标普500指数涨0.7%，纳指涨1.1%。 西部数据(WDC.O)涨7%，博通(AVGO.O)涨3.7%，阿斯麦(ASML.O)涨3%，美光科技(MU.O)和英特尔(INTC.O)涨于1%一线。 纳斯达克中国金龙指数收涨1.7%，蔚来汽车(NIO.N)涨4.7%。 #美股 #芯片股",
+          "tags": [
+            "#美股",
+            "#芯片股"
+          ],
+          "ts": 1783368160000,
+          "time": "04:02:40",
+          "receivedAt": 1783369594671,
+          "receivedTime": true
+        },
         {
           "id": "216481",
           "url": "https://t.me/jin10light/216481",
@@ -19080,21 +19105,6 @@
           ],
           "ts": 1782916841000,
           "time": "22:40:41",
-          "receivedAt": 1782922588007,
-          "receivedTime": true
-        },
-        {
-          "id": "215281",
-          "url": "https://t.me/jin10light/215281",
-          "title": "Venice(VVV)市值突破6.8亿美元，1小时涨超17%",
-          "body": "#Venice #VVV #Dragonfly Capital",
-          "tags": [
-            "#Venice",
-            "#VVV",
-            "#Dragonfly"
-          ],
-          "ts": 1782916661000,
-          "time": "22:37:41",
           "receivedAt": 1782922588007,
           "receivedTime": true
         }
