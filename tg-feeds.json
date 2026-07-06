@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-06T20:26:50.519Z",
+  "updatedAt": "2026-07-06T21:54:15.622Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6411",
+          "url": "https://t.me/BWEtradfi/6411",
+          "title": "特朗普：沃尔玛将应政府要求大幅降价",
+          "body": "*TRUMP: WALMART, WILL BE LOWERING PRICES, BY A LOT AT ADMINISTRATION'S REQUEST $WMT",
+          "tags": [],
+          "ts": 1783370766000,
+          "time": "04:46:06",
+          "receivedAt": 1783374839077,
+          "receivedTime": true
+        },
         {
           "id": "6410",
           "url": "https://t.me/BWEtradfi/6410",
@@ -1798,6 +1809,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216483",
+          "url": "https://t.me/jin10light/216483",
+          "title": "冲突情å",
+          "body": "1.黎巴嫩消息人士：以色列从试验区撤军的日期尚未确定。 2. 以色列官员：我们不计划在黎巴嫩南部安全区内建立永久性（军事）据点。 3. 特朗普：我可以“不到一下午”摧毁伊朗所有电厂。 4. 美国总统特朗普：（关于伊朗）要么达成协议，要么完成任务。 更愿意达成协议。 5. 伊朗议会议长卡利巴夫：袭击伊朗、杀害伊朗人民的责任人，尤其是针对伊斯兰革命最高领袖的人，终将被追究责任。 6. 伊朗最高国家安全委员会秘书：（回应特朗普）请尊重伊朗人民，否则我们将用另一种语言回应。 美伊谈å 1.以色列驻美国大使：以色列与黎巴嫩下一轮会谈将于7月14日至15日在意大利...",
+          "tags": [
+            "#伊朗",
+            "#特朗普",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1783372900000,
+          "time": "05:21:40",
+          "receivedAt": 1783374840965,
+          "receivedTime": true
+        },
         {
           "id": "216482",
           "url": "https://t.me/jin10light/216482",
@@ -19087,21 +19113,6 @@
             "#Meta",
             "#META",
             "#O"
-          ],
-          "ts": 1782916841000,
-          "time": "22:40:41",
-          "receivedAt": 1782922588007,
-          "receivedTime": true
-        },
-        {
-          "id": "215282",
-          "url": "https://t.me/jin10light/215282",
-          "title": "Meta盘中涨超10%",
-          "body": "#Meta Platforms #云业务 #算力",
-          "tags": [
-            "#Meta",
-            "#云业务",
-            "#算力"
           ],
           "ts": 1782916841000,
           "time": "22:40:41",
