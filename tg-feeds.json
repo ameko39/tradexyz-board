@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-07-07T19:26:48.894Z",
+  "updatedAt": "2026-07-07T21:04:32.755Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6420",
+          "url": "https://t.me/BWEtradfi/6420",
+          "title": "*企鹅解决方案公司第三季度净销售额 4.787 亿美元，预期为 4.007 亿美元",
+          "body": "*PENGUIN SOLUTIONS 3Q NET SALES $478.7M, EST. $400.7M *PENGUIN SOLUTIONS 3Q ADJ EPS 84C, EST. 54C $PENG *企鹅解决方案公司第三季度调整后每股收益 0.84 美元，预期为 0.54 美元 $PENG",
+          "tags": [],
+          "ts": 1783454722000,
+          "time": "04:05:22",
+          "receivedAt": 1783458257305,
+          "receivedTime": true
+        },
+        {
+          "id": "6419",
+          "url": "https://t.me/BWEtradfi/6419",
+          "title": "DB: 标准普尔500指数收跌0.5%，纳斯达克指数下跌1.2%",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.5%, NASDAQ DECLINES 1.2%",
+          "tags": [],
+          "ts": 1783454413000,
+          "time": "04:00:13",
+          "receivedAt": 1783458257305,
+          "receivedTime": true
+        },
+        {
+          "id": "6418",
+          "url": "https://t.me/BWEtradfi/6418",
+          "title": "伊朗最高领袖顾问穆赫森·雷扎伊：很明显，美国将导致谈判失败",
+          "body": "*ADVISOR TO IRAN'S SUPREME LEADER, MOHSEN REZAEI: IT IS QUITE CLEAR THAT THE U.S. WILL LEAD THE NEGOTIATIONS TO FAILURE",
+          "tags": [],
+          "ts": 1783454347000,
+          "time": "03:59:07",
+          "receivedAt": 1783458257305,
+          "receivedTime": true
+        },
         {
           "id": "6417",
           "url": "https://t.me/BWEtradfi/6417",
@@ -1721,105 +1754,55 @@
           "time": "06:54:15",
           "receivedAt": 1782172048906,
           "receivedTime": true
-        },
-        {
-          "id": "6263",
-          "url": "https://t.me/BWEtradfi/6263",
-          "title": "*美联储主席沃什将于美国东部时间7月14日上午10点在众议院金融服务委员会作证",
-          "body": "*FED CHAIR WARSH TO TESTIFY JULY 14 10AM ET AT HOUSE FINANCIAL SERVICES COMMITTEE",
-          "tags": [],
-          "ts": 1782160553000,
-          "time": "04:35:53",
-          "receivedAt": 1782167035063,
-          "receivedTime": true
-        },
-        {
-          "id": "6262",
-          "url": "https://t.me/BWEtradfi/6262",
-          "title": "Meta 在敏感数据可被全公司访问后暂停内部人工智能训练项目：商业内幕",
-          "body": "*META IS PAUSING AN INTERNAL AI TRAINING PROGRAM AFTER SENSITIVE DATA WAS ACCESSIBLE ACROSS THE ENTIRE COMPANY: BIZ INSIDER $META",
-          "tags": [],
-          "ts": 1782160038000,
-          "time": "04:27:18",
-          "receivedAt": 1782160460772,
-          "receivedTime": true
-        },
-        {
-          "id": "6261",
-          "url": "https://t.me/BWEtradfi/6261",
-          "title": "*特朗普：股票回购是抬高价格的虚假手段",
-          "body": "*TRUMP: STOCK BUYBACKS ARE FAKE WAY TO RAISE A PRICE",
-          "tags": [],
-          "ts": 1782159200000,
-          "time": "04:13:20",
-          "receivedAt": 1782160460772,
-          "receivedTime": true
-        },
-        {
-          "id": "6260",
-          "url": "https://t.me/BWEtradfi/6260",
-          "title": "特朗普谈国防承包商：禁止股票回购",
-          "body": "*TRUMP ON DEFENSE CONTRACTORS: STOCK BUYBACKS NOT ALLOWED #LMT • #NOC • #RTX #LMT • #NOC • #RTX",
-          "tags": [
-            "#LMT",
-            "#NOC",
-            "#RTX"
-          ],
-          "ts": 1782159188000,
-          "time": "04:13:08",
-          "receivedAt": 1782160460772,
-          "receivedTime": true
-        },
-        {
-          "id": "6259",
-          "url": "https://t.me/BWEtradfi/6259",
-          "title": "*特朗普：如果伊朗不遵守协议，我将采取我必须采取的行动",
-          "body": "*TRUMP: IF IRAN DOESN'T STICK TO AGREEMENT, I WILL DO WHAT I HAVE TO DO",
-          "tags": [],
-          "ts": 1782158859000,
-          "time": "04:07:39",
-          "receivedAt": 1782160460772,
-          "receivedTime": true
-        },
-        {
-          "id": "6258",
-          "url": "https://t.me/BWEtradfi/6258",
-          "title": "特朗普谈经济：我们正处于萧条的反面",
-          "body": "*TRUMP ON ECONOMY: WE HAVE THE OPPOSITE OF A DEPRESSION",
-          "tags": [],
-          "ts": 1782158822000,
-          "time": "04:07:02",
-          "receivedAt": 1782160460772,
-          "receivedTime": true
-        },
-        {
-          "id": "6257",
-          "url": "https://t.me/BWEtradfi/6257",
-          "title": "DB: 标准普尔500指数收盘下跌0.4%，纳斯达克指数下跌1.4%",
-          "body": "DB: *S&P 500 CLOSES DOWN 0.4%, NASDAQ DECLINES 1.4%",
-          "tags": [],
-          "ts": 1782158413000,
-          "time": "04:00:13",
-          "receivedAt": 1782160460772,
-          "receivedTime": true
-        },
-        {
-          "id": "6256",
-          "url": "https://t.me/BWEtradfi/6256",
-          "title": "特朗普：以前所未有的方式投资量子领导力",
-          "body": "*TRUMP: INVESTING IN QUANTUM LEADERSHIP LIKE NEVER BEFORE",
-          "tags": [],
-          "ts": 1782157965000,
-          "time": "03:52:45",
-          "receivedAt": 1782160460772,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216792",
+          "url": "https://t.me/jin10light/216792",
+          "title": "美国至7月3日当周API原油库存 -39.9万桶，预期-150万桶，前值-607.2万桶。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1783456660000,
+          "time": "04:37:40",
+          "receivedAt": 1783458257745,
+          "receivedTime": true
+        },
+        {
+          "id": "216791",
+          "url": "https://t.me/jin10light/216791",
+          "title": "美国至7月3日当周API原油库存将于十分钟后公布。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1783455700000,
+          "time": "04:21:40",
+          "receivedAt": 1783458257745,
+          "receivedTime": true
+        },
+        {
+          "id": "216790",
+          "url": "https://t.me/jin10light/216790",
+          "title": "美股收盘：三大股指收跌 闪迪跌7%",
+          "body": "7月8日讯，美股周二收盘，道指初步收跌0.25%，标普500指数跌0.45%，纳指跌1.16%。 存储芯片股继续下挫，闪迪(SNDK.O)跌7%，西部数据(WDC.O)跌近8%，美光科技(MU.O)跌4.7%。 SpaceX(SPCX.O)跌近7%。 纳斯达克中国金龙指数收跌0.57%，爱奇艺(IQ.O)跌近7%。 #美股 #闪迪 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美股",
+            "#闪迪"
+          ],
+          "ts": 1783454560000,
+          "time": "04:02:40",
+          "receivedAt": 1783458257745,
+          "receivedTime": true
+        },
         {
           "id": "216789",
           "url": "https://t.me/jin10light/216789",
@@ -19082,50 +19065,6 @@
           ],
           "ts": 1782993342000,
           "time": "19:55:42",
-          "receivedAt": 1782995027795,
-          "receivedTime": true
-        },
-        {
-          "id": "215591",
-          "url": "https://t.me/jin10light/215591",
-          "title": "非农数据即将公布，黄金走势何去何从？震荡僵局能否打破？金十研究员Steven正在直播，立即观看>>",
-          "body": "#黄金 #非农数据",
-          "tags": [
-            "#黄金",
-            "#非农数据"
-          ],
-          "ts": 1782993341000,
-          "time": "19:55:41",
-          "receivedAt": 1782995027795,
-          "receivedTime": true
-        },
-        {
-          "id": "215590",
-          "url": "https://t.me/jin10light/215590",
-          "title": "加密友好银行Erebor Bank寻求融资，估值至少80亿美元",
-          "body": "#Erebor Bank #Peter Thiel #美国",
-          "tags": [
-            "#Erebor",
-            "#Peter",
-            "#美国"
-          ],
-          "ts": 1782993281000,
-          "time": "19:54:41",
-          "receivedAt": 1782995027795,
-          "receivedTime": true
-        },
-        {
-          "id": "215589",
-          "url": "https://t.me/jin10light/215589",
-          "title": "矿企Ionic Digital完成4亿美元融资，向纳斯达克提交上市申请",
-          "body": "#Ionic Digital #BTC #纳斯达克",
-          "tags": [
-            "#Ionic",
-            "#BTC",
-            "#纳斯达克"
-          ],
-          "ts": 1782992740000,
-          "time": "19:45:40",
           "receivedAt": 1782995027795,
           "receivedTime": true
         }
