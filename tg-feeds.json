@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T22:19:27.879Z",
+  "updatedAt": "2026-07-07T23:17:42.224Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1732,35 +1732,86 @@
           "time": "08:09:48",
           "receivedAt": 1782179352561,
           "receivedTime": true
-        },
-        {
-          "id": "6265",
-          "url": "https://t.me/BWEtradfi/6265",
-          "title": "美国法官阻止特朗普政府对汽水、糖果的快速限制",
-          "body": "*US JUDGE BLOCKS TRUMP ADMINISTRATION SNAP RESTRICTIONS ON SODA, CANDY",
-          "tags": [],
-          "ts": 1782169399000,
-          "time": "07:03:19",
-          "receivedAt": 1782172048906,
-          "receivedTime": true
-        },
-        {
-          "id": "6264",
-          "url": "https://t.me/BWEtradfi/6264",
-          "title": "*特斯拉Model 3撞入德州民宅致人死亡后，美国国家公路交通安全管理局（NHTSA）正在对特斯拉展开联邦调查：纽约时报",
-          "body": "*TESLA IS UNDER FEDERAL INVESTIGATION BY NHTSA FOLLOWING A FATAL MODEL 3 CRASH INTO TEXAS HOUSE: NYT *NHTSA IS CONDUCTING A \"SPECIAL CRASH INVESTIGATION\" TO EVALUATE TESLA’S DRIVER-ASSISTANCE SYSTEM PERFORMANCE $TSLA *NHTSA正在进行一项“特别事故调查”，以评估特斯拉驾驶辅助系统的性能。 $TSLA",
-          "tags": [],
-          "ts": 1782168855000,
-          "time": "06:54:15",
-          "receivedAt": 1782172048906,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "216806",
+          "url": "https://t.me/jin10light/216806",
+          "title": "美军恢复对伊打击并进行石油制裁",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1783466115000,
+          "time": "07:15:15",
+          "receivedAt": 1783466246300,
+          "receivedTime": true
+        },
+        {
+          "id": "216805",
+          "url": "https://t.me/jin10light/216805",
+          "title": "今日重点关注的财经数据与事件：2026年7月8日 周三",
+          "body": "① 07:50 日本5月贸易帐 ② 10:00 新西兰联储公布利率决议 ③ 11:00 新西兰联储主席布雷曼召开新闻发布会 ④ 22:00 美国5月批发销售月率 ⑤ 22:30 美国至7月3日当周EIA原油库存 ⑥ 22:30 美国至7月3日当周EIA库欣原油库存 ⑦ 22:30 美国至7月3日当周EIA战略石油储备库存 ⑧ 次日01:00 美国至7月8日10年期国债竞拍-得标利率 ⑨ 次日01:00 美国至7月8日10年期国债竞拍-投标倍数 ⑩ 次日02:00 美联储公布货币政策会议纪要 #日本 #新西兰 #美国",
+          "tags": [
+            "#日本",
+            "#新西兰",
+            "#美国"
+          ],
+          "ts": 1783464703000,
+          "time": "06:51:43",
+          "receivedAt": 1783466246300,
+          "receivedTime": true
+        },
+        {
+          "id": "216804",
+          "url": "https://t.me/jin10light/216804",
+          "title": "国内新闻ï",
+          "body": "1.中国央行连续第20个月增持黄金。 2. 市场监管总局将开展公平竞争审查抽查。 3. 中国6月外汇储备为34162.62亿美元。 4. 国务院：原则同意《旅游强国建设“十五五”规划》。 5. 证监会对安某编造传播涉中公教育虚假信息立案调查。 6. 人民银行行长潘功胜：国家外汇储备将继续提高在香港的资产配置比例。 7. 人民银行等三部门：欢迎中国外汇交易中心与香港交易所共建香港电子固定收益及货币交易平台。 国际新闻ï 1.法国极右翼领导人勒庞宣布参选2027年总统竞选。 2. 法国总统马克龙下榻的叙利亚酒店附近发生两起爆炸。 3. 美国5月贸易逆差扩大...",
+          "tags": [
+            "#中国",
+            "#黄金",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1783463504000,
+          "time": "06:31:44",
+          "receivedAt": 1783466246300,
+          "receivedTime": true
+        },
+        {
+          "id": "216803",
+          "url": "https://t.me/jin10light/216803",
+          "title": "美官员：此次对伊打击力度比上次大四到五倍",
+          "body": "7月8日讯，据Axios：一位美国官员表示，美国当地时间周二对伊朗发动的打击，无论是行动规模还是打击力度，都比10天前的那轮打击大了四到五倍。 #美国 #伊朗",
+          "tags": [
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1783463320000,
+          "time": "06:28:40",
+          "receivedAt": 1783466246300,
+          "receivedTime": true
+        },
+        {
+          "id": "216802",
+          "url": "https://t.me/jin10light/216802",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少0.285吨，当前持仓量为1002.508吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1783463140000,
+          "time": "06:25:40",
+          "receivedAt": 1783466246300,
+          "receivedTime": true
+        },
         {
           "id": "216801",
           "url": "https://t.me/jin10light/216801",
@@ -18992,80 +19043,6 @@
           "ts": 1782995443000,
           "time": "20:30:43",
           "receivedAt": 1783002862799,
-          "receivedTime": true
-        },
-        {
-          "id": "215605",
-          "url": "https://t.me/jin10light/215605",
-          "title": "美股盘前算力租赁商Nebius和CoreWeave转涨，摆脱Meta拟自建云业务阴云",
-          "body": "#美股 #Nebius #CoreWeave",
-          "tags": [
-            "#美股",
-            "#Nebius",
-            "#CoreWeave"
-          ],
-          "ts": 1782995095000,
-          "time": "20:24:55",
-          "receivedAt": 1783002862799,
-          "receivedTime": true
-        },
-        {
-          "id": "215604",
-          "url": "https://t.me/jin10light/215604",
-          "title": "美国6月失业率、美国6月季调后非农就业人口及失业率、平均时薪月率及年率、上周初请数据将于十分钟后公布。",
-          "body": "#美国 #失业率 #非农就业人口",
-          "tags": [
-            "#美国",
-            "#失业率",
-            "#非农就业人口"
-          ],
-          "ts": 1782994844000,
-          "time": "20:20:44",
-          "receivedAt": 1782995027795,
-          "receivedTime": true
-        },
-        {
-          "id": "215603",
-          "url": "https://t.me/jin10light/215603",
-          "title": "Hamilton Lane直接股权策略基金EO VI完成38亿美元募资",
-          "body": "#Hamilton Lane #加密货币 #Polygon",
-          "tags": [
-            "#Hamilton",
-            "#加密货币",
-            "#Polygon"
-          ],
-          "ts": 1782994844000,
-          "time": "20:20:44",
-          "receivedAt": 1782995027795,
-          "receivedTime": true
-        },
-        {
-          "id": "215602",
-          "url": "https://t.me/jin10light/215602",
-          "title": "数据中心运营商Switch启动20亿美元私募融资，a16z领投，最早明年IPO",
-          "body": "#Switch #a16z",
-          "tags": [
-            "#Switch",
-            "#a16z"
-          ],
-          "ts": 1782994843000,
-          "time": "20:20:43",
-          "receivedAt": 1782995027795,
-          "receivedTime": true
-        },
-        {
-          "id": "215601",
-          "url": "https://t.me/jin10light/215601",
-          "title": "美股盘前存储板块由跌转涨，美光涨2.1%，新内存ETF KMEM涨0.78%",
-          "body": "#美股 #STX #MU",
-          "tags": [
-            "#美股",
-            "#STX",
-            "#MU"
-          ],
-          "ts": 1782994842000,
-          "time": "20:20:42",
-          "receivedAt": 1782995027795,
           "receivedTime": true
         }
       ],
