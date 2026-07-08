@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-08T21:38:01.726Z",
+  "updatedAt": "2026-07-08T22:39:39.037Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6449",
+          "url": "https://t.me/BWEtradfi/6449",
+          "title": "*据AXIOS报道，Citadel首席执行官肯·格里芬暗示支持马可·卢比奥而非J·D·万斯竞选2028年总统。",
+          "body": "*CITADEL CEO KEN GRIFFIN SIGNALED SUPPORT FOR MARCO RUBIO OVER J.D. VANCE FOR 2028: AXIOS *GRIFFIN, A TOP GOP DONOR, CONTRIBUTED OVER $100 MILLION DURING THE 2024 ELECTION CYCLE *格里芬是共和党的主要捐款人，在2024年总统选举周期中捐款超过1亿美元。",
+          "tags": [],
+          "ts": 1783550028000,
+          "time": "06:33:48",
+          "receivedAt": 1783550364238,
+          "receivedTime": true
+        },
         {
           "id": "6448",
           "url": "https://t.me/BWEtradfi/6448",
@@ -1945,7 +1956,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
