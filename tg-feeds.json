@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-08T20:25:27.392Z",
+  "updatedAt": "2026-07-08T21:38:01.726Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6448",
+          "url": "https://t.me/BWEtradfi/6448",
+          "title": "伊朗Nournews援引军方消息人士称，伊朗武装部队将很快对美国在该地区的军事基地发动“大规模”袭击",
+          "body": "*IRAN'S NOURNEWS CITES MILITARY SOURCE AS SAYING THAT IRANIAN ARMED FORCES TO LAUNCH 'MASSIVE' ATTACK ON U.S. ARMY BASES IN THE REGION SHORTLY",
+          "tags": [],
+          "ts": 1783542850000,
+          "time": "04:34:10",
+          "receivedAt": 1783546664874,
+          "receivedTime": true
+        },
         {
           "id": "6447",
           "url": "https://t.me/BWEtradfi/6447",
@@ -1931,28 +1942,6 @@
           "ts": 1782256978000,
           "time": "07:22:58",
           "receivedAt": 1782257883584,
-          "receivedTime": true
-        },
-        {
-          "id": "6274",
-          "url": "https://t.me/BWEtradfi/6274",
-          "title": "*CEREBRAS SYSTEMS 第一季度收入1.934亿美元，预估1.814亿美元",
-          "body": "*CEREBRAS SYSTEMS 1Q REV. $193.4M, EST. $181.4M $CBRS",
-          "tags": [],
-          "ts": 1782247512000,
-          "time": "04:45:12",
-          "receivedAt": 1782254195577,
-          "receivedTime": true
-        },
-        {
-          "id": "6273",
-          "url": "https://t.me/BWEtradfi/6273",
-          "title": "*Cerebras Systems——宣布与OpenAI达成一项价值超过200亿美元的750兆瓦多年期电力供应协议——美国证券交易委员会文件",
-          "body": "*CEREBRAS SYSTEMS - ANNOUNCES MULTI-YEAR DEAL WITH OPENAI FOR 750MW VALUED AT OVER $20 BLN - SEC FILING $CBRS $CBRS",
-          "tags": [],
-          "ts": 1782247467000,
-          "time": "04:44:27",
-          "receivedAt": 1782254195577,
           "receivedTime": true
         }
       ],
