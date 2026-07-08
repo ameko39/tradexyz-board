@@ -1,11 +1,80 @@
 {
-  "updatedAt": "2026-07-08T17:54:01.100Z",
+  "updatedAt": "2026-07-08T19:02:58.151Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6444",
+          "url": "https://t.me/BWEtradfi/6444",
+          "title": "DB: 美国5月消费信贷环比下降0.18亿美元；预计增加171亿美元",
+          "body": "DB: *US MAY CONSUMER CREDIT FALLS $0.18B M/M; EST. +17.10B",
+          "tags": [],
+          "ts": 1783537229000,
+          "time": "03:00:29",
+          "receivedAt": 1783537362703,
+          "receivedTime": true
+        },
+        {
+          "id": "6443",
+          "url": "https://t.me/BWEtradfi/6443",
+          "title": "*布鲁姆能源：正在审查做空报告，将“纠正记录”",
+          "body": "*BLOOM ENERGY: REVIEWING SHORT REPORT, WILL 'CORRECT THE RECORD' $BE $BE",
+          "tags": [],
+          "ts": 1783536048000,
+          "time": "02:40:48",
+          "receivedAt": 1783537362703,
+          "receivedTime": true
+        },
+        {
+          "id": "6442",
+          "url": "https://t.me/BWEtradfi/6442",
+          "title": "*BURRY LONGS FLUTTER ENTERTAINMENT, DRAFTKINGS",
+          "body": "#FLUT • #DKNG Tradfin: *BURRY LONGS FLUTTER ENTERTAINMENT，DRAFTKINGS #FLUT • #DKNG",
+          "tags": [
+            "#FLUT",
+            "#DKNG"
+          ],
+          "ts": 1783533742000,
+          "time": "02:02:22",
+          "receivedAt": 1783537362703,
+          "receivedTime": true
+        },
+        {
+          "id": "6441",
+          "url": "https://t.me/BWEtradfi/6441",
+          "title": "美联储：人工智能可能导致通胀居高不下，系最常被引用的可能性",
+          "body": "*FED: MOST CITED POSSIBILITY INFLATION COULD STAY HIGH DUE TO AI",
+          "tags": [],
+          "ts": 1783533631000,
+          "time": "02:00:31",
+          "receivedAt": 1783537362703,
+          "receivedTime": true
+        },
+        {
+          "id": "6440",
+          "url": "https://t.me/BWEtradfi/6440",
+          "title": "美联储：所有官员均支持6月份维持利率不变",
+          "body": "*FED: ALL OFFICIALS SUPPORTED LEAVING RATES UNCHANGED IN JUNE",
+          "tags": [],
+          "ts": 1783533628000,
+          "time": "02:00:28",
+          "receivedAt": 1783537362703,
+          "receivedTime": true
+        },
+        {
+          "id": "6439",
+          "url": "https://t.me/BWEtradfi/6439",
+          "title": "美联储会议纪要：少数与会者认为有理由加息，但表示支持在本次会议上维持当前区间",
+          "body": "*FED MINUTES: A FEW PARTICIPANTS SAW A CASE FOR RAISING RATES BUT INDICATED THEY SUPPORTED MAINTAINING THE CURRENT RANGE AT THIS MEETING",
+          "tags": [],
+          "ts": 1783533615000,
+          "time": "02:00:15",
+          "receivedAt": 1783537362703,
+          "receivedTime": true
+        },
         {
           "id": "6438",
           "url": "https://t.me/BWEtradfi/6438",
@@ -1877,24 +1946,99 @@
           "time": "04:00:13",
           "receivedAt": 1782254195577,
           "receivedTime": true
-        },
-        {
-          "id": "6270",
-          "url": "https://t.me/BWEtradfi/6270",
-          "title": "特朗普在宾夕法尼亚州的一次集会上声称今日股市创下新高",
-          "body": "*TRUMP CLAIMS STOCK MARKET HIT NEW HIGH TODAY AT RALLY IN PENNSYLVANIA",
-          "tags": [],
-          "ts": 1782241364000,
-          "time": "03:02:44",
-          "receivedAt": 1782242524911,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "217182",
+          "url": "https://t.me/jin10light/217182",
+          "title": "美联储会议纪要：官员们对利率年底是可能上升还是下降存在分歧。",
+          "body": "#好的 #比如比特币 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#好的",
+            "#比如比特币"
+          ],
+          "ts": 1783534181000,
+          "time": "02:09:41",
+          "receivedAt": 1783537364695,
+          "receivedTime": true
+        },
+        {
+          "id": "217181",
+          "url": "https://t.me/jin10light/217181",
+          "title": "美联储会议纪要：数位官员表示，通胀降温可能允许维持或降低利率。",
+          "body": "#美联储 #利率 #通胀 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美联储",
+            "#利率",
+            "#通胀"
+          ],
+          "ts": 1783533930000,
+          "time": "02:05:30",
+          "receivedAt": 1783537364695,
+          "receivedTime": true
+        },
+        {
+          "id": "217180",
+          "url": "https://t.me/jin10light/217180",
+          "title": "美联储会议纪要：“大多数”与会者希望从声明中去除美联储的“宽松偏向”。",
+          "body": "#美联储 #宽松偏向 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美联储",
+            "#宽松偏向"
+          ],
+          "ts": 1783533802000,
+          "time": "02:03:22",
+          "receivedAt": 1783537364695,
+          "receivedTime": true
+        },
+        {
+          "id": "217179",
+          "url": "https://t.me/jin10light/217179",
+          "title": "美联储会议纪要：所有与会者均支持维持当前利率目标区间不变。",
+          "body": "部分与会者认为加息有必要，但表示支持在本次会议上维持当前利率区间。 #美联储 #利率 #美国",
+          "tags": [
+            "#美联储",
+            "#利率",
+            "#美国"
+          ],
+          "ts": 1783533744000,
+          "time": "02:02:24",
+          "receivedAt": 1783537364695,
+          "receivedTime": true
+        },
+        {
+          "id": "217178",
+          "url": "https://t.me/jin10light/217178",
+          "title": "美联储会议纪要：大多数官员认为缩短美联储政策声明有利。",
+          "body": "#美联储",
+          "tags": [
+            "#美联储"
+          ],
+          "ts": 1783533744000,
+          "time": "02:02:24",
+          "receivedAt": 1783537364695,
+          "receivedTime": true
+        },
+        {
+          "id": "217177",
+          "url": "https://t.me/jin10light/217177",
+          "title": "美联储会议纪要：大多数与会者指出，由于与人工智能相关的需求、中东冲突或关税，通胀可能仍将保持高位。",
+          "body": "在这种情况下，几乎所有与会者都表示可能需要采取一些政策收紧措施。 #美联储 #通胀 #政策收紧",
+          "tags": [
+            "#美联储",
+            "#通胀",
+            "#政策收紧"
+          ],
+          "ts": 1783533681000,
+          "time": "02:01:21",
+          "receivedAt": 1783537364695,
+          "receivedTime": true
+        },
         {
           "id": "217176",
           "url": "https://t.me/jin10light/217176",
@@ -19019,95 +19163,6 @@
           "ts": 1783077162000,
           "time": "19:12:42",
           "receivedAt": 1783083767176,
-          "receivedTime": true
-        },
-        {
-          "id": "215981",
-          "url": "https://t.me/jin10light/215981",
-          "title": "分析：存储与半导体股票回调之际比特币反弹，表明投资者关注点或开始转变",
-          "body": "#AI #BTC #美国",
-          "tags": [
-            "#AI",
-            "#BTC",
-            "#美国"
-          ],
-          "ts": 1783077041000,
-          "time": "19:10:41",
-          "receivedAt": 1783083767176,
-          "receivedTime": true
-        },
-        {
-          "id": "215980",
-          "url": "https://t.me/jin10light/215980",
-          "title": "联动科技：拟1,000万美元收购NorthstarTechnologies Limited100%股权，将存储测试设备技术等落地国内",
-          "body": "7月3日讯，联动科技公告，公司第三届董事会第八次会议审议通过，同意香港联动科技实业有限公司向RenaissanceMaverick Corp.收购NorthstarTechnologies Limited100%股权。 2026年7月3日，公司、香港联动与Renaissance Maverick Corp.签订《Share Purchase Agreement》。 香港联动以现金方式收购标的公司100%股权，交易对价为1,000万美元。 通过本次收购，公司能够将存储测试设备的关键技术和相关产品落地国内，有效补齐公司在该领域的空白和行业应用经验，进一步完...",
-          "tags": [
-            "#联动科技",
-            "#美国"
-          ],
-          "ts": 1783076980000,
-          "time": "19:09:40",
-          "receivedAt": 1783083767176,
-          "receivedTime": true
-        },
-        {
-          "id": "215979",
-          "url": "https://t.me/jin10light/215979",
-          "title": "OUSD宣称140多家公司参与，三星电子等多家韩国公司称并未与发行方正式协商",
-          "body": "#OUSD #Open Standard #Visa",
-          "tags": [
-            "#OUSD",
-            "#Open",
-            "#Visa"
-          ],
-          "ts": 1783076565000,
-          "time": "19:02:45",
-          "receivedAt": 1783083767399,
-          "receivedTime": true
-        },
-        {
-          "id": "215978",
-          "url": "https://t.me/jin10light/215978",
-          "title": "视频｜美国SEC主席Paul Atkins：要为数字资产发行方提供监管确定性",
-          "body": "#美国 #BTC #SEC",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#SEC"
-          ],
-          "ts": 1783076564000,
-          "time": "19:02:44",
-          "receivedAt": 1783083767399,
-          "receivedTime": true
-        },
-        {
-          "id": "215977",
-          "url": "https://t.me/jin10light/215977",
-          "title": "Bitget升级机构费率框架，全面优化PRO与流动性激励计划",
-          "body": "#Bitget #机构费率 #流动性激励",
-          "tags": [
-            "#Bitget",
-            "#机构费率",
-            "#流动性激励"
-          ],
-          "ts": 1783076141000,
-          "time": "18:55:41",
-          "receivedAt": 1783076556021,
-          "receivedTime": true
-        },
-        {
-          "id": "215976",
-          "url": "https://t.me/jin10light/215976",
-          "title": "上交所：本周对中船特气、长盈通、昀冢科技等异常波动股票进行重点监控",
-          "body": "7月3日讯，2026年6月29日至2026年7月3日，上交所对366起拉抬打压、虚假申报等证券异常交易行为采取了自律监管措施，对中船特气、长盈通、昀冢科技等异常波动股票以及财通福鑫LOF、全球芯片LOF等溢价较高的基金进行重点监控，对29起上市公司重大事项等进行专项核查，向证监会上报涉嫌违法违规案件线索2起。 #上交所 #中船特气 #长盈通",
-          "tags": [
-            "#上交所",
-            "#中船特气",
-            "#长盈通"
-          ],
-          "ts": 1783076024000,
-          "time": "18:53:44",
-          "receivedAt": 1783076556021,
           "receivedTime": true
         }
       ],
