@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-07-08T19:02:58.151Z",
+  "updatedAt": "2026-07-08T20:25:27.392Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6447",
+          "url": "https://t.me/BWEtradfi/6447",
+          "title": "美国军方正在对伊朗进行打击 - AXIOS",
+          "body": "*U.S. MILITARY IS CONDUCTING STRIKES ON IRAN - AXIOS",
+          "tags": [],
+          "ts": 1783541477000,
+          "time": "04:11:17",
+          "receivedAt": 1783542300488,
+          "receivedTime": true
+        },
+        {
+          "id": "6446",
+          "url": "https://t.me/BWEtradfi/6446",
+          "title": "DB: *标准普尔500指数收跌0.2%，纳斯达克指数上涨0.3%",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.2%, NASDAQ RISES 0.3%",
+          "tags": [],
+          "ts": 1783540813000,
+          "time": "04:00:13",
+          "receivedAt": 1783542300488,
+          "receivedTime": true
+        },
+        {
+          "id": "6445",
+          "url": "https://t.me/BWEtradfi/6445",
+          "title": "贝莱德的瑞克·里德：一些与人工智能更直接相关的公司，我们已经回调了一些，并进行了一些再平衡",
+          "body": "*BLACKROCK'S RICK RIEDER: SOME OF THE COMPANIES THAT ARE MORE DIRECTLY TIED TO AI, WE'VE PULLED BACK A BIT AND REBALANCED A BIT",
+          "tags": [],
+          "ts": 1783538435000,
+          "time": "03:20:35",
+          "receivedAt": 1783542300488,
+          "receivedTime": true
+        },
         {
           "id": "6444",
           "url": "https://t.me/BWEtradfi/6444",
@@ -1921,38 +1954,69 @@
           "time": "04:44:27",
           "receivedAt": 1782254195577,
           "receivedTime": true
-        },
-        {
-          "id": "6272",
-          "url": "https://t.me/BWEtradfi/6272",
-          "title": "*GameStop董事会撤回了CEO Ryan Cohen的绩效奖，以便集中精力完成对eBay的收购",
-          "body": "*GAMESTOP BOARD WITHDREW CEO RYAN COHEN’S PERFORMANCE AWARD TO FOCUS ON THE EBAY ACQUISITION *GAMESTOP WILL RELEASE A DETAILED STRATEGIC PRESENTATION REGARDING THE EBAY ACQUISITION THIS WEEK #GME • #EBAY *GameStop将于本周发布一份关于eBay收购的详细战略报告 #GME • #EBAY",
-          "tags": [
-            "#GME",
-            "#EBAY"
-          ],
-          "ts": 1782246021000,
-          "time": "04:20:21",
-          "receivedAt": 1782254195577,
-          "receivedTime": true
-        },
-        {
-          "id": "6271",
-          "url": "https://t.me/BWEtradfi/6271",
-          "title": "DB: *标准普尔500指数收盘下跌1.3%，纳斯达克指数下跌2.1%",
-          "body": "DB: *S&P 500 CLOSES 1.3% LOWER, NASDAQ DROPS 2.1%",
-          "tags": [],
-          "ts": 1782244813000,
-          "time": "04:00:13",
-          "receivedAt": 1782254195577,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "217186",
+          "url": "https://t.me/jin10light/217186",
+          "title": "据Axios：美国军方正在对伊朗进行打击。",
+          "body": "#美国 #伊朗 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1783541599000,
+          "time": "04:13:19",
+          "receivedAt": 1783542300925,
+          "receivedTime": true
+        },
+        {
+          "id": "217185",
+          "url": "https://t.me/jin10light/217185",
+          "title": "美股收盘：三大股指涨跌不一 金龙指数涨2%",
+          "body": "7月9日讯，美股周三收盘，道指初步收跌1.09%，标普500指数跌0.28%，纳指涨0.2%。 美光科技(MU.O)涨1%，英伟达(NVDA.O)涨3.6%，闪迪(SNDK.O)涨6.7%。 纳斯达克中国金龙指数收涨2.05%，阿里巴巴(BABA.N)涨11%。 #美股 #阿里巴巴 #金龙指数",
+          "tags": [
+            "#美股",
+            "#阿里巴巴",
+            "#金龙指数"
+          ],
+          "ts": 1783540939000,
+          "time": "04:02:19",
+          "receivedAt": 1783542300925,
+          "receivedTime": true
+        },
+        {
+          "id": "217184",
+          "url": "https://t.me/jin10light/217184",
+          "title": "据伊朗媒体：伊朗锡里克岛防空系统已启动。",
+          "body": "#伊朗 #锡里克岛",
+          "tags": [
+            "#伊朗",
+            "#锡里克岛"
+          ],
+          "ts": 1783540518000,
+          "time": "03:55:18",
+          "receivedAt": 1783542300925,
+          "receivedTime": true
+        },
+        {
+          "id": "217183",
+          "url": "https://t.me/jin10light/217183",
+          "title": "据伊朗迈赫尔通讯社：伊朗南部班达尔阿巴斯传出爆炸声，当地防空系统被启动。",
+          "body": "#好的",
+          "tags": [
+            "#好的"
+          ],
+          "ts": 1783540158000,
+          "time": "03:49:18",
+          "receivedAt": 1783542300925,
+          "receivedTime": true
+        },
         {
           "id": "217182",
           "url": "https://t.me/jin10light/217182",
@@ -19104,64 +19168,6 @@
           ],
           "ts": 1783077701000,
           "time": "19:21:41",
-          "receivedAt": 1783083767176,
-          "receivedTime": true
-        },
-        {
-          "id": "215985",
-          "url": "https://t.me/jin10light/215985",
-          "title": "证监会：建立再融资定向增发储架发行制度",
-          "body": "7月3日讯，中国证监会就完善上市公司再融资规则公开征求意见。 建立再融资定向增发储架发行制度。 信息披露工作规范程度较高的上市公司申请竞价定增的，可采取一次注册、多次发行方式，更好适应双边市场特征，便利上市公司迅速抓住市场时机实施融资，引导其理性融资、有序融资，减少一次性大额融资对市场的扰动。 #中国证监会 #再融资 #定向增发",
-          "tags": [
-            "#中国证监会",
-            "#再融资",
-            "#定向增发"
-          ],
-          "ts": 1783077701000,
-          "time": "19:21:41",
-          "receivedAt": 1783083767176,
-          "receivedTime": true
-        },
-        {
-          "id": "215984",
-          "url": "https://t.me/jin10light/215984",
-          "title": "中国证监会就完善上市公司再融资规则公开征求意见。",
-          "body": "#中国 #证监会",
-          "tags": [
-            "#中国",
-            "#证监会"
-          ],
-          "ts": 1783077640000,
-          "time": "19:20:40",
-          "receivedAt": 1783083767176,
-          "receivedTime": true
-        },
-        {
-          "id": "215983",
-          "url": "https://t.me/jin10light/215983",
-          "title": "福赛科技：公司机器人零部件业务尚未形成正式订单",
-          "body": "7月3日讯，福赛科技发布异动公告，公司股票2026年7月1日、2日、3日连续三个交易日收盘价格涨幅偏离值累计达到33.14%（超过30%），根据深圳证券交易所的有关规定，属于股票交易异常波动的情形。 目前，公司机器人零部件产品处于早期研发、小批量试制及送样实验阶段，该部分业务尚未形成正式订单，未实现收入与利润，对公司业绩尚未产生影响，未来商业化落地尚存在不确定性。 #福赛科技 #机器人零部件",
-          "tags": [
-            "#福赛科技",
-            "#机器人零部件"
-          ],
-          "ts": 1783077341000,
-          "time": "19:15:41",
-          "receivedAt": 1783083767176,
-          "receivedTime": true
-        },
-        {
-          "id": "215982",
-          "url": "https://t.me/jin10light/215982",
-          "title": "鹏鼎控股：拟定增募资不超96亿元，用于庆鼎AI服务器和高速光模块高密度互连积层板项目",
-          "body": "7月3日讯，鹏鼎控股公告，公司本次发行拟募集资金总额不超过960,000.00万元（含本数），募集资金扣除发行费用后的净额用于庆鼎AI服务器和高速光模块高密度互连积层板项目。 在本次发行募集资金到位之前，公司将根据项目进度的实际情况以自筹资金先行投入，并在募集资金到位之后按照相关法规规定的程序予以置换。 若本次发行实际募集资金净额低于拟投入募集资金额，不足部分由公司自筹资金解决。 #鹏鼎控股 #AI服务器 #高速光模块",
-          "tags": [
-            "#鹏鼎控股",
-            "#AI服务器",
-            "#高速光模块"
-          ],
-          "ts": 1783077162000,
-          "time": "19:12:42",
           "receivedAt": 1783083767176,
           "receivedTime": true
         }
