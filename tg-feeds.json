@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-07-09T18:22:55.976Z",
+  "updatedAt": "2026-07-09T20:13:08.941Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6460",
+          "url": "https://t.me/BWEtradfi/6460",
+          "title": "DB: 标准普尔500指数收盘上涨0.8%，纳斯达克指数上涨1.3%",
+          "body": "DB: *S&P 500 RISES 0.8% AT THE CLOSE, NASDAQ UP 1.3%",
+          "tags": [],
+          "ts": 1783627213000,
+          "time": "04:00:13",
+          "receivedAt": 1783627976132,
+          "receivedTime": true
+        },
+        {
+          "id": "6459",
+          "url": "https://t.me/BWEtradfi/6459",
+          "title": "*沃什宣布美联储特别工作组新顾问名单 - 纽约时报",
+          "body": "*WARSH ANNOUNCES SLATE OF NEW ADVISERS FOR FED TASK FORCES - NYT *FED SELECTED FORMER GLOBAL CENTRAL BANKERS AND ECONOMISTS INCLUDING MERVYN KING AND RAGHURAM RAJAN *FED APPOINTED MARC ANDREESSEN AND XBOX CEO ASHA SHARMA TO LEAD AI AND PRODUCTIVITY STUDY *美联储遴选了包括默文·金和拉古拉姆·拉詹在内的多位前全球央行行长和经济学家 *美联储任...",
+          "tags": [],
+          "ts": 1783623653000,
+          "time": "03:00:53",
+          "receivedAt": 1783627976132,
+          "receivedTime": true
+        },
         {
           "id": "6458",
           "url": "https://t.me/BWEtradfi/6458",
@@ -1822,123 +1844,127 @@
           "time": "09:02:22",
           "receivedAt": 1782351339174,
           "receivedTime": true
-        },
-        {
-          "id": "6295",
-          "url": "https://t.me/BWEtradfi/6295",
-          "title": "*美光科技：由于人工智能驱动所有细分市场需求，预计紧俏状况将持续到2027日历年之后",
-          "body": "*MICRON TECHNOLOGY: EXPECT TIGHT CONDITIONS TO PERSIST BEYOND CALENDAR 2027 DUE TO AI-DRIVEN DEMAND ACROSS ALL SEGMENTS $MU",
-          "tags": [],
-          "ts": 1782331488000,
-          "time": "04:04:48",
-          "receivedAt": 1782334901970,
-          "receivedTime": true
-        },
-        {
-          "id": "6294",
-          "url": "https://t.me/BWEtradfi/6294",
-          "title": "*美光第四季度调整后每股收益预计为30至32美元，预期25.31美元",
-          "body": "*MICRON SEES 4Q ADJ EPS $30 TO $32, EST. $25.31 $MU",
-          "tags": [],
-          "ts": 1782331462000,
-          "time": "04:04:22",
-          "receivedAt": 1782334901970,
-          "receivedTime": true
-        },
-        {
-          "id": "6293",
-          "url": "https://t.me/BWEtradfi/6293",
-          "title": "*美光第三季度云存储收入137.7亿美元，预期106.9亿美元",
-          "body": "*MICRON 3Q CLOUD MEMORY REV. $13.77B, EST. $10.69B $MU",
-          "tags": [],
-          "ts": 1782331434000,
-          "time": "04:03:54",
-          "receivedAt": 1782334901970,
-          "receivedTime": true
-        },
-        {
-          "id": "6292",
-          "url": "https://t.me/BWEtradfi/6292",
-          "title": "*美光科技第三季度核心数据中心营收：115.2亿美元，预期68亿美元",
-          "body": "*MICRON 3Q CORE DATA CENTER REV. $11.52B, EST. $6.8B $MU $MU",
-          "tags": [],
-          "ts": 1782331426000,
-          "time": "04:03:46",
-          "receivedAt": 1782334901970,
-          "receivedTime": true
-        },
-        {
-          "id": "6291",
-          "url": "https://t.me/BWEtradfi/6291",
-          "title": "*美光科技第三季度移动及客户端业务营收：115.2亿美元，高于预期97.3亿美元",
-          "body": "*MICRON 3Q MOBILE AND CLIENT REV. $11.52B, EST. $9.73B $MU $MU",
-          "tags": [],
-          "ts": 1782331406000,
-          "time": "04:03:26",
-          "receivedAt": 1782334901970,
-          "receivedTime": true
-        },
-        {
-          "id": "6290",
-          "url": "https://t.me/BWEtradfi/6290",
-          "title": "*美光科技预计第四季度调整后毛利率约为 86%，高于此前预期的 83.6%。",
-          "body": "*MICRON SEES 4Q ADJ GROSS MARGIN ABOUT 86%, EST. 83.6% $MU $MU",
-          "tags": [],
-          "ts": 1782331323000,
-          "time": "04:02:03",
-          "receivedAt": 1782334901970,
-          "receivedTime": true
-        },
-        {
-          "id": "6289",
-          "url": "https://t.me/BWEtradfi/6289",
-          "title": "美光第四季度调整后收入预估为490亿美元至510亿美元，预估中值为432.4亿美元 $MU",
-          "body": "*MICRON SEES 4Q ADJ. REV. $49B TO $51B, EST. $43.24B $MU",
-          "tags": [],
-          "ts": 1782331317000,
-          "time": "04:01:57",
-          "receivedAt": 1782334901970,
-          "receivedTime": true
-        },
-        {
-          "id": "6288",
-          "url": "https://t.me/BWEtradfi/6288",
-          "title": "*美光科技第三季度调整后毛利率为 84.9%，高于预期的 81.9%",
-          "body": "*MICRON 3Q ADJ GROSS MARGIN 84.9%, EST. 81.9% *MICRON TECHNOLOGY Q3 REVENUE USD 41,456 MILLION VS. IBES ESTIMATE USD 35,590 MILLION *MICRON TECHNOLOGY Q3 ADJUSTED EPS USD 25.11 VS. IBES ESTIMATE USD 20.6 $MU *美光科技第三季度营收为 414.56 亿美元，高于 IBES 预期的 355.9 亿美元 *美光科技第三季度调整后每股收益为 25.11 美元，高于 IBES 预期的 20.6 美...",
-          "tags": [],
-          "ts": 1782331298000,
-          "time": "04:01:38",
-          "receivedAt": 1782334901970,
-          "receivedTime": true
-        },
-        {
-          "id": "6287",
-          "url": "https://t.me/BWEtradfi/6287",
-          "title": "DB: 标准普尔500指数收跌0.1%，纳斯达克指数下跌0.6%",
-          "body": "DB: *S&P 500 CLOSES DOWN 0.1%, NASDAQ DECLINES 0.6%",
-          "tags": [],
-          "ts": 1782331213000,
-          "time": "04:00:13",
-          "receivedAt": 1782334901970,
-          "receivedTime": true
-        },
-        {
-          "id": "6286",
-          "url": "https://t.me/BWEtradfi/6286",
-          "title": "*Anthropico指控阿里巴巴“非法”获取其人工智能模型",
-          "body": "*ANTHROPIC ACCUSES ALIBABA OF ‘ILLICITLY’ ACCESSING AI MODELS *ALIBABA HAD NO COMMENT ON ANTHROPIC'S CLAIMS $BABA *阿里巴巴对Anthropico的指控未予置评 $BABA",
-          "tags": [],
-          "ts": 1782329804000,
-          "time": "03:36:44",
-          "receivedAt": 1782334901970,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "217467",
+          "url": "https://t.me/jin10light/217467",
+          "title": "美股收盘：三大股指收涨 芯片股走强",
+          "body": "7月10日讯，美股周四收盘，道指初步收涨0.26%，标普500指数涨0.8%，纳指涨1.3%。 美光科技(MU.O)涨4.5%，闪迪(SNDK.O)涨7.5%，西部数据(WDC.O)涨5%。 Meta Platforms(META.O)涨4.7%。 纳斯达克中国金龙指数涨0.56%，爱奇艺(IQ.O)涨8.5%，阿里巴巴(BABA.N)涨2%。 #美股 #芯片股 #阿里巴巴",
+          "tags": [
+            "#美股",
+            "#芯片股",
+            "#阿里巴巴"
+          ],
+          "ts": 1783627381000,
+          "time": "04:03:01",
+          "receivedAt": 1783627976517,
+          "receivedTime": true
+        },
+        {
+          "id": "217466",
+          "url": "https://t.me/jin10light/217466",
+          "title": "据伊朗国家电视台：近期在伊朗阿巴斯港、格什姆岛、西里克和贾斯克等地均未记录到任何爆炸事件。",
+          "body": "#伊朗 #阿巴斯港",
+          "tags": [
+            "#伊朗",
+            "#阿巴斯港"
+          ],
+          "ts": 1783624622000,
+          "time": "03:17:02",
+          "receivedAt": 1783627976517,
+          "receivedTime": true
+        },
+        {
+          "id": "217465",
+          "url": "https://t.me/jin10light/217465",
+          "title": "据伊朗国家电视台：伊朗阿巴斯港发生爆炸的报道是错误的。",
+          "body": "#伊朗 #阿巴斯港",
+          "tags": [
+            "#伊朗",
+            "#阿巴斯港"
+          ],
+          "ts": 1783624441000,
+          "time": "03:14:01",
+          "receivedAt": 1783627976517,
+          "receivedTime": true
+        },
+        {
+          "id": "217464",
+          "url": "https://t.me/jin10light/217464",
+          "title": "美联储主席沃什：美联储对物价稳定和充分就业目标的承诺“坚定不移”。",
+          "body": "#美联储 #物价稳定 #充分就业",
+          "tags": [
+            "#美联储",
+            "#物价稳定",
+            "#充分就业"
+          ],
+          "ts": 1783623783000,
+          "time": "03:03:03",
+          "receivedAt": 1783627976517,
+          "receivedTime": true
+        },
+        {
+          "id": "217463",
+          "url": "https://t.me/jin10light/217463",
+          "title": "美联储宣布工作组领导层及目标。",
+          "body": "#美联储",
+          "tags": [
+            "#美联储"
+          ],
+          "ts": 1783623724000,
+          "time": "03:02:04",
+          "receivedAt": 1783627976517,
+          "receivedTime": true
+        },
+        {
+          "id": "217462",
+          "url": "https://t.me/jin10light/217462",
+          "title": "美官员称伊朗最新遭袭与美国无关",
+          "body": "7月10日讯，据Axios记者称，一位美国高级官员表示，美国军方与伊朗最新遭受的袭击无关。 此前伊朗南部传出爆炸声。 #美国 #伊朗",
+          "tags": [
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1783623241000,
+          "time": "02:54:01",
+          "receivedAt": 1783627976517,
+          "receivedTime": true
+        },
+        {
+          "id": "217461",
+          "url": "https://t.me/jin10light/217461",
+          "title": "据伊朗迈赫尔通讯社：数分钟前，伊朗布什尔周边以及乔加达克市附近传出两起爆炸声。",
+          "body": "#伊朗 #布什尔 #爆炸",
+          "tags": [
+            "#伊朗",
+            "#布什尔",
+            "#爆炸"
+          ],
+          "ts": 1783621561000,
+          "time": "02:26:01",
+          "receivedAt": 1783627976517,
+          "receivedTime": true
+        },
+        {
+          "id": "217460",
+          "url": "https://t.me/jin10light/217460",
+          "title": "据伊朗迈赫尔通讯社：伊朗恰巴哈尔省科纳拉克传出三声爆炸声。",
+          "body": "目前尚无关于爆炸原因以及可能造成损失程度的详细信息。 #伊朗 #恰巴哈尔省 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#伊朗",
+            "#恰巴哈尔省"
+          ],
+          "ts": 1783621381000,
+          "time": "02:23:01",
+          "receivedAt": 1783627976517,
+          "receivedTime": true
+        },
         {
           "id": "217459",
           "url": "https://t.me/jin10light/217459",
@@ -18978,124 +19004,6 @@
           ],
           "ts": 1783310501000,
           "time": "12:01:41",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216267",
-          "url": "https://t.me/jin10light/216267",
-          "title": "南向资金净买额达100亿元。",
-          "body": "#好的 #标签需要简洁",
-          "tags": [
-            "#好的",
-            "#标签需要简洁"
-          ],
-          "ts": 1783310323000,
-          "time": "11:58:43",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216266",
-          "url": "https://t.me/jin10light/216266",
-          "title": "低点反弹超2.5倍！Lighter近期利好一览",
-          "body": "#LIT #Vitalik #美国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#LIT",
-            "#Vitalik",
-            "#美国"
-          ],
-          "ts": 1783310262000,
-          "time": "11:57:42",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216265",
-          "url": "https://t.me/jin10light/216265",
-          "title": "A股午评：科创50指数涨近2% 存储芯片板块V型反弹",
-          "body": "7月6日讯，A股三大股指早盘高开，震荡走高后持续下挫，临近午盘，探底回升，截至中午收盘，沪指涨0.08%，深证成指跌0.36%，创业板指跌0.51%，科创50指数涨1.96%；沪深两市半日成交额2.21万亿，较上个交易日放量1466亿。 全市场超3500只个股下跌。 盘面上，创新药概念逆势走强，甘李药业、华海药业、罗欣药业涨停，首药控股、三元基因、诚达药业、热景生物涨超10%。 培育钻石板块持续活跃，黄河旋风涨停，国力电子、惠丰钻石涨超10%。 钛白粉概念、猪肉股、乳业股、化肥板块等涨幅居前。 稀土永磁板块低迷，横店东磁、领益智造、英思特纷纷走低。 玻...",
-          "tags": [
-            "#A股",
-            "#科创50指数",
-            "#存储芯片"
-          ],
-          "ts": 1783309121000,
-          "time": "11:38:41",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216264",
-          "url": "https://t.me/jin10light/216264",
-          "title": "企业微信发布首批AI录音笔：线下开会一键转纪要，打通日程与工作台",
-          "body": "#企业微信 #AI 录音笔",
-          "tags": [
-            "#企业微信",
-            "#AI"
-          ],
-          "ts": 1783309121000,
-          "time": "11:38:41",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216263",
-          "url": "https://t.me/jin10light/216263",
-          "title": "韩国釜山银行在Kaia Chain上完成韩元稳定币基础设施试点",
-          "body": "#韩国 #Kaia Chain #釜山银行",
-          "tags": [
-            "#韩国",
-            "#Kaia",
-            "#釜山银行"
-          ],
-          "ts": 1783308703000,
-          "time": "11:31:43",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216262",
-          "url": "https://t.me/jin10light/216262",
-          "title": "早盘收盘，国内期货主力合约涨多跌少，鸡蛋涨超3%，沪锡涨近3%，合成橡胶涨超2%，PTA涨近2%，豆粕、20号胶、对二甲苯、乙二醇（EG）涨超1%。",
-          "body": "跌幅方面，碳酸锂、集运欧线跌超2%，低硫燃料油（LU）、液化石油气（LPG）跌近2%，红枣、钯、铂跌超1%，苹果跌近1%。 #鸡蛋 #碳酸锂 #苹果",
-          "tags": [
-            "#鸡蛋",
-            "#碳酸锂",
-            "#苹果"
-          ],
-          "ts": 1783308702000,
-          "time": "11:31:42",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216261",
-          "url": "https://t.me/jin10light/216261",
-          "title": "三星电子今年营业利润有望超40年累计总和，二季度或创全球科技企业史上最高纪录",
-          "body": "#三星电子 #SK海力士 #半导体 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#三星电子",
-            "#SK海力士",
-            "#半导体"
-          ],
-          "ts": 1783308641000,
-          "time": "11:30:41",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216260",
-          "url": "https://t.me/jin10light/216260",
-          "title": "Meme币交易带动链上活跃度上升，Solana活跃地址近一周激增38%，BNB Chain 24小时交易量上涨45%",
-          "body": "#SOL #BNB Chain #活跃度上升",
-          "tags": [
-            "#SOL",
-            "#BNB",
-            "#活跃度上升"
-          ],
-          "ts": 1783308285000,
-          "time": "11:24:45",
           "receivedAt": 1783316532383,
           "receivedTime": true
         }
