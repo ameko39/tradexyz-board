@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-07-09T16:37:10.608Z",
+  "updatedAt": "2026-07-09T18:22:55.976Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6458",
+          "url": "https://t.me/BWEtradfi/6458",
+          "title": "*Redfin 估计，OpenAI 和 Anthropologie 的员工如果通过 IPO 获得收益，可以购买旧金山近三分之一的房屋。",
+          "body": "*OPENAI, ANTHROPIC EMPLOYEES COULD BUY NEARLY ONE-THIRD OF ALL HOMES IN SAN FRANCISCO WITH IPO EARNINGS, REDFIN ESTIMATES",
+          "tags": [],
+          "ts": 1783617146000,
+          "time": "01:12:26",
+          "receivedAt": 1783621357554,
+          "receivedTime": true
+        },
+        {
+          "id": "6457",
+          "url": "https://t.me/BWEtradfi/6457",
+          "title": "内塔尼亚胡：战争尚未结束，以色列已做好应对任何情况的准备",
+          "body": "*NETANYAHU: WAR IS NOT OVER, ISRAEL READY FOR ANY SCENARIO *NETANYAHU: ALONGSIDE EXISTING CHALLENGES, NEW ONES EMERGING 内塔尼亚胡：除了现有的挑战，新的挑战也在不断涌现",
+          "tags": [],
+          "ts": 1783615221000,
+          "time": "00:40:21",
+          "receivedAt": 1783621357554,
+          "receivedTime": true
+        },
         {
           "id": "6456",
           "url": "https://t.me/BWEtradfi/6456",
@@ -1912,11 +1934,68 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "217459",
+          "url": "https://t.me/jin10light/217459",
+          "title": "OpenAI正式推出GPT-5.6系列模型",
+          "body": "7月10日讯，继此前开放有限预览后，OpenAI正式推出GPT-5.6系列模型，面向公众开放使用。 GPT-5.6系列模型Sol、Terra、Luna将登陆ChatGPT 、Codex及API。 GPT-5.6模型按每百万Token计费，包含3种模型规格：Sol模型输入为5美元，输出为30美元；Terra模型输入为2.50美元，输出为15美元；Luna模型输入为1美元，输出为6美元。 #OpenAI #GPT -5.6 #Sol",
+          "tags": [
+            "#OpenAI",
+            "#GPT",
+            "#Sol"
+          ],
+          "ts": 1783617721000,
+          "time": "01:22:01",
+          "receivedAt": 1783621359663,
+          "receivedTime": true
+        },
+        {
+          "id": "217458",
+          "url": "https://t.me/jin10light/217458",
+          "title": "2026年FOMC票委、达拉斯联储主席洛根将于十分钟后发表讲话。",
+          "body": "#好的",
+          "tags": [
+            "#好的"
+          ],
+          "ts": 1783617664000,
+          "time": "01:21:04",
+          "receivedAt": 1783621359663,
+          "receivedTime": true
+        },
+        {
+          "id": "217457",
+          "url": "https://t.me/jin10light/217457",
+          "title": "OpenAI：正式推出GPT-5.6系列模型，面向公众开放使用。",
+          "body": "#OpenAI #GPT -5.6",
+          "tags": [
+            "#OpenAI",
+            "#GPT"
+          ],
+          "ts": 1783616941000,
+          "time": "01:09:01",
+          "receivedAt": 1783621359663,
+          "receivedTime": true
+        },
+        {
+          "id": "217456",
+          "url": "https://t.me/jin10light/217456",
+          "title": "OpenAI：推出由GPT-5.6驱动的Chatgpt Work，这是我们最新的前沿模型系列。",
+          "body": "全新Chatgpt桌面应用将聊天、工作与Codex整合在一起。 #OpenAI #Chatgpt Work #GPT -5.6",
+          "tags": [
+            "#OpenAI",
+            "#Chatgpt",
+            "#GPT"
+          ],
+          "ts": 1783616581000,
+          "time": "01:03:01",
+          "receivedAt": 1783621359663,
+          "receivedTime": true
+        },
         {
           "id": "217455",
           "url": "https://t.me/jin10light/217455",
@@ -19017,65 +19096,6 @@
           ],
           "ts": 1783308285000,
           "time": "11:24:45",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216259",
-          "url": "https://t.me/jin10light/216259",
-          "title": "LIT在代币经济模型调整后持续上涨突破2.7美元，自低点反弹2.5倍",
-          "body": "#LIT #销毁机制 #回购",
-          "tags": [
-            "#LIT",
-            "#销毁机制",
-            "#回购"
-          ],
-          "ts": 1783307982000,
-          "time": "11:19:42",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216258",
-          "url": "https://t.me/jin10light/216258",
-          "title": "创业板指探底回升，跌幅收窄至1%以内，此前一度跌超2.8%，深证成指现跌0.68%，沪指跌0.23%，存储芯片板块拉升。",
-          "body": "#创业板指 #存储芯片 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#创业板指",
-            "#存储芯片"
-          ],
-          "ts": 1783307862000,
-          "time": "11:17:42",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216257",
-          "url": "https://t.me/jin10light/216257",
-          "title": "科创50指数V型反弹，再度转涨，成分股中，华虹宏力、盛科通信、海光信息涨超6%。",
-          "body": "#科创50 #华虹宏力 #盛科通信",
-          "tags": [
-            "#科创50",
-            "#华虹宏力",
-            "#盛科通信"
-          ],
-          "ts": 1783307697000,
-          "time": "11:14:57",
-          "receivedAt": 1783316532383,
-          "receivedTime": true
-        },
-        {
-          "id": "216256",
-          "url": "https://t.me/jin10light/216256",
-          "title": "美团开源万亿参数大模型LongCat-2.0，同步开放中国国产卡推理代码",
-          "body": "#美团 #LongCat -2.0 #国产算力 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#美团",
-            "#LongCat",
-            "#国产算力"
-          ],
-          "ts": 1783307621000,
-          "time": "11:13:41",
           "receivedAt": 1783316532383,
           "receivedTime": true
         }
