@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-07-10T20:08:36.123Z",
+  "updatedAt": "2026-07-10T21:18:06.395Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6479",
+          "url": "https://t.me/BWEtradfi/6479",
+          "title": "美国要求伊朗声明霍尔木兹海峡开放：美联社援引官员消息",
+          "body": "*US DEMANDS IRAN STATE THAT HORMUZ IS OPEN: AP CITING OFFICIALS",
+          "tags": [],
+          "ts": 1783717259000,
+          "time": "05:00:59",
+          "receivedAt": 1783718270994,
+          "receivedTime": true
+        },
+        {
+          "id": "6478",
+          "url": "https://t.me/BWEtradfi/6478",
+          "title": "如果我们没有获得核尘埃，我们就不会与伊朗达成协议——美国高级官员",
+          "body": "*IF WE DON'T GET THE NUCLEAR DUST, WE DO NOT HAVE A DEAL WITH IRAN – SENIOR U.S. OFFICIALS",
+          "tags": [],
+          "ts": 1783717249000,
+          "time": "05:00:49",
+          "receivedAt": 1783718270994,
+          "receivedTime": true
+        },
+        {
+          "id": "6477",
+          "url": "https://t.me/BWEtradfi/6477",
+          "title": "伊朗已告知美国官员，近期对航运的袭击来自“其系统的一个错误部分”——美国高级官员",
+          "body": "*IRAN HAS TOLD U.S. OFFICIALS THAT RECENT ATTACKS ON SHIPPING WERE FROM 'AN ERRANT PART OF THEIR SYSTEM' – SENIOR U.S. OFFICIALS",
+          "tags": [],
+          "ts": 1783717247000,
+          "time": "05:00:47",
+          "receivedAt": 1783718270994,
+          "receivedTime": true
+        },
+        {
+          "id": "6476",
+          "url": "https://t.me/BWEtradfi/6476",
+          "title": "美国官员称，美国坚持伊朗承诺停止在霍尔木兹海峡的袭击",
+          "body": "*US INSISTS IRAN COMMIT TO STOPPING ATTACKS IN HORMUZ STRAIT, SAY US OFFICIALS",
+          "tags": [],
+          "ts": 1783717242000,
+          "time": "05:00:42",
+          "receivedAt": 1783718270994,
+          "receivedTime": true
+        },
         {
           "id": "6475",
           "url": "https://t.me/BWEtradfi/6475",
@@ -1866,24 +1910,70 @@
           "time": "07:11:38",
           "receivedAt": 1782429740376,
           "receivedTime": true
-        },
-        {
-          "id": "6308",
-          "url": "https://t.me/BWEtradfi/6308",
-          "title": "*特朗普政府要求 OpenAI 分阶段发布新模型，以保障安全 - 信息网",
-          "body": "*TRUMP ADMINISTRATION ASKS OPENAI TO STAGGER RELEASE OF NEW MODEL OVER SECURITY CONCERNS - THE INFORMATION *OPENAI WILL IMPLEMENT A STAGGERED RELEASE FOR GPT 5.6 PER FEDERAL GOVERNMENT SECURITY REQUESTS *OPENAI’S MODEL PREVIEW ACCESS WILL BE APPROVED BY THE FEDERAL GOVERNMENT… *根据联邦政府的安全要求，OpenAI 将...",
-          "tags": [],
-          "ts": 1782418690000,
-          "time": "04:18:10",
-          "receivedAt": 1782419168507,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "217752",
+          "url": "https://t.me/jin10light/217752",
+          "title": "美媒：伊朗称霍尔木兹袭船系“内部失误”所致",
+          "body": "7月11日讯，据CBS报道，美国高级官员透露，伊朗官员私下向特朗普政府顾问表示，伊朗在霍尔木兹海峡向商业船只开火是一个“错误”，相关袭击源于试图破坏谈判的“强硬派错误派系”。 报道称，伊朗方面表示希望继续进行谈判。 美国白宫希望伊朗公开承认这一错误。 特朗普政府认为，针对商业船只的袭击行为违反了双方停火安排。 美国官员称，特朗普已指示由副总统万斯、特朗普女婿库什纳、美国中东问题特使威特科夫以及国务卿鲁比奥组成的团队继续推进谈判。 相关会谈将在阿曼举行。 美方官员表示，如果伊朗继续采取敌对行动，美国将利用军事和经济手段进行回应。 #伊朗 #霍尔木兹海峡...",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡",
+            "#特朗普"
+          ],
+          "ts": 1783718161000,
+          "time": "05:16:01",
+          "receivedAt": 1783718271474,
+          "receivedTime": true
+        },
+        {
+          "id": "217751",
+          "url": "https://t.me/jin10light/217751",
+          "title": "美国高级官员：伊朗表示，近期船只遇袭事件是其内部系统出现偏差所致。",
+          "body": "#伊朗 #美国",
+          "tags": [
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1783717621000,
+          "time": "05:07:01",
+          "receivedAt": 1783718271474,
+          "receivedTime": true
+        },
+        {
+          "id": "217750",
+          "url": "https://t.me/jin10light/217750",
+          "title": "美国高级官员：如果无法获得伊朗核问题的明确承诺，美方不会与伊朗达成协议。",
+          "body": "#美国 #伊朗",
+          "tags": [
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1783717530000,
+          "time": "05:05:30",
+          "receivedAt": 1783718271474,
+          "receivedTime": true
+        },
+        {
+          "id": "217749",
+          "url": "https://t.me/jin10light/217749",
+          "title": "伊朗外交部：从未提出与美谈判诉求 同意调解方访伊",
+          "body": "7月11日讯，伊朗外交部发言人巴加埃10日表示，伊朗从未提出过与美国谈判的诉求，但同意调解方访问伊朗。 当天早些时候，美国总统特朗普在其社交媒体“真实社交”发文称，伊朗希望与美方继续“谈判”，美国已同意继续谈判。 #伊朗 #特朗普",
+          "tags": [
+            "#伊朗",
+            "#特朗普"
+          ],
+          "ts": 1783715761000,
+          "time": "04:36:01",
+          "receivedAt": 1783718271474,
+          "receivedTime": true
+        },
         {
           "id": "217748",
           "url": "https://t.me/jin10light/217748",
@@ -18966,66 +19056,6 @@
           ],
           "ts": 1783392401000,
           "time": "10:46:41",
-          "receivedAt": 1783397472267,
-          "receivedTime": true
-        },
-        {
-          "id": "216552",
-          "url": "https://t.me/jin10light/216552",
-          "title": "观点：以太坊正测试重要阻力位，若突破可看涨至2245美元",
-          "body": "#ETH #以太坊 #1796美元",
-          "tags": [
-            "#ETH",
-            "#以太坊",
-            "#1796美元"
-          ],
-          "ts": 1783392342000,
-          "time": "10:45:42",
-          "receivedAt": 1783397472267,
-          "receivedTime": true
-        },
-        {
-          "id": "216551",
-          "url": "https://t.me/jin10light/216551",
-          "title": "三星利润暴增难掩隐忧，股价重挫拖累KOSPI指数大跌6%",
-          "body": "7月7日讯，三星电子今日早间公布第二季度初步业绩，营业利润同比暴增19倍，超越了过去三年利润总和。 具体来看，三星预告二季度营业利润为89.4万亿韩元（同比+1810.2%），市场预期为87.3万亿韩元。 但公司股价却大幅下挫，因业绩未能缓解市场对AI驱动芯片热潮可持续性的担忧。 三星股价早盘一度暴跌超8%，竞争对手SK海力士股价亦下跌7.3%，拖累韩国KOSPI指数重挫6%。 分析师将三星股价疲软归因于部分市场预期过高——在计入员工奖金拨备后，受创纪录存储芯片价格推动的利润本可能超过90万亿韩元；此外，市场还担忧AI数据中心的建设可能放缓。 Petr...",
-          "tags": [
-            "#三星电子",
-            "#韩国",
-            "#KOSPI指数"
-          ],
-          "ts": 1783392342000,
-          "time": "10:45:42",
-          "receivedAt": 1783397472267,
-          "receivedTime": true
-        },
-        {
-          "id": "216550",
-          "url": "https://t.me/jin10light/216550",
-          "title": "从「词典特征」到「思维流监控」：Anthropic雅可比空间研究揭示大模型类脑推理中枢",
-          "body": "#大模型 #AI安全 #Anthropic ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#大模型",
-            "#AI安全",
-            "#Anthropic"
-          ],
-          "ts": 1783392284000,
-          "time": "10:44:44",
-          "receivedAt": 1783397472267,
-          "receivedTime": true
-        },
-        {
-          "id": "216549",
-          "url": "https://t.me/jin10light/216549",
-          "title": "ANSEM超11万名持有者中有94%处于盈利状态",
-          "body": "#ANSEM #盈利分布 #代币持有者",
-          "tags": [
-            "#ANSEM",
-            "#盈利分布",
-            "#代币持有者"
-          ],
-          "ts": 1783391981000,
-          "time": "10:39:41",
           "receivedAt": 1783397472267,
           "receivedTime": true
         }
