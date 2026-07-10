@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-10T18:51:20.344Z",
+  "updatedAt": "2026-07-10T20:08:36.123Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6475",
+          "url": "https://t.me/BWEtradfi/6475",
+          "title": "DB: 标准普尔500指数收盘上涨0.4%，纳斯达克指数上涨0.3%",
+          "body": "DB: *S&P 500 RISES 0.4% AT THE CLOSE, NASDAQ GAINS 0.3%",
+          "tags": [],
+          "ts": 1783713613000,
+          "time": "04:00:13",
+          "receivedAt": 1783714094182,
+          "receivedTime": true
+        },
         {
           "id": "6474",
           "url": "https://t.me/BWEtradfi/6474",
@@ -1873,6 +1884,48 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "217748",
+          "url": "https://t.me/jin10light/217748",
+          "title": "伊朗外交部发言人巴盖伊否认有关“伊朗请求与美国谈判”的说法，表示伊朗方面从未提出此类请求。",
+          "body": "#好的",
+          "tags": [
+            "#好的"
+          ],
+          "ts": 1783714081000,
+          "time": "04:08:01",
+          "receivedAt": 1783714096635,
+          "receivedTime": true
+        },
+        {
+          "id": "217747",
+          "url": "https://t.me/jin10light/217747",
+          "title": "美股收盘：三大股指小幅走高 SK海力士收涨近13%",
+          "body": "7月11日讯，美股周五收盘，道指初步收涨0.29%，标普500指数涨0.42%，纳指涨0.29%。 SK海力士(SKHYV.O)美股首日收涨12.76%，带动大部分芯片股走强，Meta Platforms(META.O)涨5.97%，闪迪(SNDK.O)涨3.1%，英伟达(NVDA.O)涨4.03%。 纳斯达克中国金龙指数收跌0.23%。 #美股 #SK海力士",
+          "tags": [
+            "#美股",
+            "#SK海力士"
+          ],
+          "ts": 1783713721000,
+          "time": "04:02:01",
+          "receivedAt": 1783714096635,
+          "receivedTime": true
+        },
+        {
+          "id": "217746",
+          "url": "https://t.me/jin10light/217746",
+          "title": "消息人士：美国、伊朗、巴基斯坦与卡塔尔将举行四方通话",
+          "body": "7月11日讯，沙特方面10日晚有信息显示，消息人士称，美国、伊朗、巴基斯坦和卡塔尔将举行四方通话。 截至目前，相关内容暂未有任何相关方证实。 #美国 #伊朗 #巴基斯坦",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#巴基斯坦"
+          ],
+          "ts": 1783710721000,
+          "time": "03:12:01",
+          "receivedAt": 1783714096635,
+          "receivedTime": true
+        },
         {
           "id": "217745",
           "url": "https://t.me/jin10light/217745",
@@ -18973,51 +19026,6 @@
           ],
           "ts": 1783391981000,
           "time": "10:39:41",
-          "receivedAt": 1783397472267,
-          "receivedTime": true
-        },
-        {
-          "id": "216548",
-          "url": "https://t.me/jin10light/216548",
-          "title": "韩国KOSPI指数大跌6% 三星电子跌8%",
-          "body": "韩国KOSPI指数日内跌幅达6.00%，现报7565.84点，三星电子大跌8%，SK海力士跌超7%。 #韩国 #KOSPI #三星电子",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#三星电子"
-          ],
-          "ts": 1783391685000,
-          "time": "10:34:45",
-          "receivedAt": 1783397472267,
-          "receivedTime": true
-        },
-        {
-          "id": "216547",
-          "url": "https://t.me/jin10light/216547",
-          "title": "沪指跌超1%，失守4000点关口，ST板块、创新药板块、兵装重组概念跌幅居前。",
-          "body": "#A股 #ST板块 #创新药板块",
-          "tags": [
-            "#A股",
-            "#ST板块",
-            "#创新药板块"
-          ],
-          "ts": 1783391684000,
-          "time": "10:34:44",
-          "receivedAt": 1783397472267,
-          "receivedTime": true
-        },
-        {
-          "id": "216546",
-          "url": "https://t.me/jin10light/216546",
-          "title": "三星、海力士日内跌幅继续扩大",
-          "body": "#韩国 #KOSPI #三星电子",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#三星电子"
-          ],
-          "ts": 1783391683000,
-          "time": "10:34:43",
           "receivedAt": 1783397472267,
           "receivedTime": true
         }
