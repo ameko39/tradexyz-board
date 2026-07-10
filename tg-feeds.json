@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T22:27:28.291Z",
+  "updatedAt": "2026-07-10T23:27:33.238Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1877,42 +1877,9 @@
           "time": "07:30:16",
           "receivedAt": 1782437612410,
           "receivedTime": true
-        },
-        {
-          "id": "6311",
-          "url": "https://t.me/BWEtradfi/6311",
-          "title": "美国司法部官员告诉工作人员，反垄断和解优先于审判：《华尔街日报》",
-          "body": "*DOJ OFFICIAL TELLS STAFF PREFERENCE FOR ANTITRUST SETTLEMENTS OVER TRIALS: WSJ",
-          "tags": [],
-          "ts": 1782429576000,
-          "time": "07:19:36",
-          "receivedAt": 1782429740376,
-          "receivedTime": true
-        },
-        {
-          "id": "6310",
-          "url": "https://t.me/BWEtradfi/6310",
-          "title": "*特朗普：即将从伊朗购买小麦、大豆和玉米",
-          "body": "*TRUMP: WILL SOON BE BUYING WHEAT, SOYBEANS AND CORN FROM IRAN",
-          "tags": [],
-          "ts": 1782429108000,
-          "time": "07:11:48",
-          "receivedAt": 1782429740376,
-          "receivedTime": true
-        },
-        {
-          "id": "6309",
-          "url": "https://t.me/BWEtradfi/6309",
-          "title": "TRUMP：我们有一个名为伊朗的新市场即将到来",
-          "body": "*TRUMP: WE HAVE A NEW MARKET COMING UP CALLED IRAN",
-          "tags": [],
-          "ts": 1782429098000,
-          "time": "07:11:38",
-          "receivedAt": 1782429740376,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
