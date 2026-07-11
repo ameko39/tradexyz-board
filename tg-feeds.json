@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T12:37:04.932Z",
+  "updatedAt": "2026-07-11T14:07:01.712Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1855,34 +1855,78 @@
           "time": "23:51:17",
           "receivedAt": 1782489315571,
           "receivedTime": true
-        },
-        {
-          "id": "6314",
-          "url": "https://t.me/BWEtradfi/6314",
-          "title": "DB: 标准普尔500指数开盘下跌0.7%，纳斯达克指数下跌1.1%",
-          "body": "DB: *S&P 500 OPENS DOWN 0.7%, NASDAQ DECLINES 1.1%",
-          "tags": [],
-          "ts": 1782480643000,
-          "time": "21:30:43",
-          "receivedAt": 1782480811373,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
         {
+          "id": "217824",
+          "url": "https://t.me/jin10light/217824",
+          "title": "Hyperliquid永续合约未平仓头寸市场份额达9%，创历史新高",
+          "body": "#Hyperliquid #HYPE #Binance",
+          "tags": [
+            "#Hyperliquid",
+            "#HYPE",
+            "#Binance"
+          ],
+          "ts": 1783778224000,
+          "time": "21:57:04",
+          "receivedAt": 1783778802867,
+          "receivedTime": true
+        },
+        {
+          "id": "217823",
+          "url": "https://t.me/jin10light/217823",
+          "title": "以太坊基金会利用AI挖掘漏洞：成功发现安全缺陷，称人工审核仍不可替代",
+          "body": "#ETH #AI #漏洞挖掘",
+          "tags": [
+            "#ETH",
+            "#AI",
+            "#漏洞挖掘"
+          ],
+          "ts": 1783777622000,
+          "time": "21:47:02",
+          "receivedAt": 1783778802867,
+          "receivedTime": true
+        },
+        {
+          "id": "217822",
+          "url": "https://t.me/jin10light/217822",
+          "title": "Critini分析师：听闻英伟达Rubin架构再次延期",
+          "body": "#英伟达 #Rubin架构",
+          "tags": [
+            "#英伟达",
+            "#Rubin架构"
+          ],
+          "ts": 1783776601000,
+          "time": "21:30:01",
+          "receivedAt": 1783778802867,
+          "receivedTime": true
+        },
+        {
+          "id": "217821",
+          "url": "https://t.me/jin10light/217821",
+          "title": "本周美国比特币现货ETF净流入1.974亿美元",
+          "body": "#美国 #BTC #ETH",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1783774982000,
+          "time": "21:03:02",
+          "receivedAt": 1783778802867,
+          "receivedTime": true
+        },
+        {
           "id": "217820",
           "url": "https://t.me/jin10light/217820",
-          "title": "「总盈利1144万美元」聪明钱3倍做多100万枚CASHCAT",
-          "body": "#Bharat Krymo #CASHCAT #Hyperliquid ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Bharat",
-            "#CASHCAT",
-            "#Hyperliquid"
-          ],
+          "title": "「总盈利9720万美元」聪明钱3倍做空185万枚CASHCAT",
+          "body": "",
+          "tags": [],
           "ts": 1783772942000,
           "time": "20:29:02",
           "receivedAt": 1783773409287,
@@ -1891,12 +1935,9 @@
         {
           "id": "217819",
           "url": "https://t.me/jin10light/217819",
-          "title": "Galaxy研究主管：比特币政策研究所申请介入遗弃比特币案，拟推动法院驳回全部诉讼",
-          "body": "#BTC #美国",
-          "tags": [
-            "#BTC",
-            "#美国"
-          ],
+          "title": "Galaxy研究主管：比特币政策研究所申请介入「沉睡比特币」案，拟推动法院驳回全部诉讼 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "body": "",
+          "tags": [],
           "ts": 1783772225000,
           "time": "20:17:05",
           "receivedAt": 1783773409287,
@@ -18971,63 +19012,6 @@
           "ts": 1783407282000,
           "time": "14:54:42",
           "receivedAt": 1783410698140,
-          "receivedTime": true
-        },
-        {
-          "id": "216624",
-          "url": "https://t.me/jin10light/216624",
-          "title": "高盛首次覆盖SpaceX，目标价205美元",
-          "body": "#高盛 #SpaceX",
-          "tags": [
-            "#高盛",
-            "#SpaceX"
-          ],
-          "ts": 1783407162000,
-          "time": "14:52:42",
-          "receivedAt": 1783410698140,
-          "receivedTime": true
-        },
-        {
-          "id": "216623",
-          "url": "https://t.me/jin10light/216623",
-          "title": "小米大调小爱架构：罗福莉团队负责模型底座，开发权下放手机与汽车终端",
-          "body": "#小米 #雷军 #人工智能",
-          "tags": [
-            "#小米",
-            "#雷军",
-            "#人工智能"
-          ],
-          "ts": 1783406804000,
-          "time": "14:46:44",
-          "receivedAt": 1783410698140,
-          "receivedTime": true
-        },
-        {
-          "id": "216622",
-          "url": "https://t.me/jin10light/216622",
-          "title": "法国5月贸易帐 -69.28亿欧元，前值由-56.4亿欧元修正为-54.16亿欧元。",
-          "body": "#法国 #贸易帐",
-          "tags": [
-            "#法国",
-            "#贸易帐"
-          ],
-          "ts": 1783406741000,
-          "time": "14:45:41",
-          "receivedAt": 1783410698140,
-          "receivedTime": true
-        },
-        {
-          "id": "216621",
-          "url": "https://t.me/jin10light/216621",
-          "title": "三星超越英伟达，成全球盈利能力最强公司",
-          "body": "#三星电子 #英伟达",
-          "tags": [
-            "#三星电子",
-            "#英伟达"
-          ],
-          "ts": 1783406561000,
-          "time": "14:42:41",
-          "receivedAt": 1783410698315,
           "receivedTime": true
         }
       ],
