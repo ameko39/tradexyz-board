@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-11T00:56:24.578Z",
+  "updatedAt": "2026-07-11T04:09:11.662Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6480",
+          "url": "https://t.me/BWEtradfi/6480",
+          "title": "*特朗普：如果伊朗真的威胁要暗杀我，1000枚导弹已经上膛，后续还将发射数千枚。",
+          "body": "*TRUMP: IF IRAN ACTS ON THREAT TO ASSASSINATE ME 1000 MISSILES ARE LOCKED AND LOADED WITH THOUSANDS MORE TO FOLLOW *TRUMP: ORDERS GIVEN TO U.S. MILITARY TO COMPLETELY DECIMATE AND DESTROY ALL AREAS OF IRAN *TRUMP: MILITARY ACTIONS SUBJECT TO ONE YEAR PERIOD OF TIME SUBJECT TO… *特朗普：已下令美军彻底摧毁伊朗所有地区。...",
+          "tags": [],
+          "ts": 1783739899000,
+          "time": "11:18:19",
+          "receivedAt": 1783742937823,
+          "receivedTime": true
+        },
         {
           "id": "6479",
           "url": "https://t.me/BWEtradfi/6479",
@@ -1855,17 +1866,6 @@
           "time": "21:30:43",
           "receivedAt": 1782480811373,
           "receivedTime": true
-        },
-        {
-          "id": "6313",
-          "url": "https://t.me/BWEtradfi/6313",
-          "title": "韩国股市KOSPI指数下跌6%，抹去美光财报带来的涨幅",
-          "body": "*SEOUL STOCK MARKET'S KOSPI FALLS 6%, ERASING MICRON EARNINGS RALLY",
-          "tags": [],
-          "ts": 1782440766000,
-          "time": "10:26:06",
-          "receivedAt": 1782453139419,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1873,6 +1873,297 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "217787",
+          "url": "https://t.me/jin10light/217787",
+          "title": "某巨鲸从Core DAO解除质押440.822枚比特币，约合2827万美元",
+          "body": "#BTC #Core DAO",
+          "tags": [
+            "#BTC",
+            "#Core"
+          ],
+          "ts": 1783742761000,
+          "time": "12:06:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217786",
+          "url": "https://t.me/jin10light/217786",
+          "title": "【午间独家观点】",
+          "body": "【修正后综合观点】 【港股】 市场缺乏内生性催化剂，主要跟随美股科技情绪波动。SK海力士上市大涨及美光追加投资将直接提振港股半导体供应链标的，但美联储7月仍存近三成加息概率，叠加国内政策信号偏中性，限制了风险偏好全面回暖的空间。 【美股】 AI硬件与半导体本土制造已成为明确投资主线，美光2500亿美元投资承诺和SK海力士首日大涨13%构成双重验证，资金正加速向芯片及算力基础设施集中。主要风险在于加息预期若被通胀数据重新点燃，当前高位运行的科技股估值将首当其冲。 【虚拟货币】 市场正面临“热概念”与“冷减持”并存的撕裂格局。代币化股票等新叙事持续出现，但...",
+          "tags": [
+            "#独家观点"
+          ],
+          "ts": 1783742464000,
+          "time": "12:01:04",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217785",
+          "url": "https://t.me/jin10light/217785",
+          "title": "昨日比特币现货ETF净流入9040万美元，以太坊现货ETF净流入1840万美元",
+          "body": "#BTC #ETH #IBIT",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#IBIT"
+          ],
+          "ts": 1783742222000,
+          "time": "11:57:02",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217784",
+          "url": "https://t.me/jin10light/217784",
+          "title": "特朗普再次发出警告：若伊朗企图暗杀我数千枚导弹将向伊朗发射",
+          "body": "",
+          "tags": [],
+          "ts": 1783740182000,
+          "time": "11:23:02",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217783",
+          "url": "https://t.me/jin10light/217783",
+          "title": "稳定币总发行量近月减少约139亿美元，Tron链上USDT逆势创新高",
+          "body": "#USDT #USDC #Tron",
+          "tags": [
+            "#USDT",
+            "#USDC",
+            "#Tron"
+          ],
+          "ts": 1783740181000,
+          "time": "11:23:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217782",
+          "url": "https://t.me/jin10light/217782",
+          "title": "Lighter已完成历史回购代币销毁，合计销毁约1564万枚",
+          "body": "#Lighter #LIT",
+          "tags": [
+            "#Lighter",
+            "#LIT"
+          ],
+          "ts": 1783739642000,
+          "time": "11:14:02",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217781",
+          "url": "https://t.me/jin10light/217781",
+          "title": "Circle开源Agent Stack启动套件，支持主流AI Agent框架集成USDC与链上功能",
+          "body": "#Circle #USDC #AI Agent ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#Circle",
+            "#USDC",
+            "#AI"
+          ],
+          "ts": 1783739581000,
+          "time": "11:13:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217780",
+          "url": "https://t.me/jin10light/217780",
+          "title": "Hyperliquid海力士相关合约24小时交易量超ETH，跃居平台第二大活跃资产",
+          "body": "#Hyperliquid #SKHX #SKHY",
+          "tags": [
+            "#Hyperliquid",
+            "#SKHX",
+            "#SKHY"
+          ],
+          "ts": 1783739521000,
+          "time": "11:12:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217779",
+          "url": "https://t.me/jin10light/217779",
+          "title": "Bubblemaps支持Robinhood链，新增持有者分布与鲸鱼追踪功能",
+          "body": "#Bubblemaps #Robinhood 链",
+          "tags": [
+            "#Bubblemaps",
+            "#Robinhood"
+          ],
+          "ts": 1783739462000,
+          "time": "11:11:02",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217778",
+          "url": "https://t.me/jin10light/217778",
+          "title": "Coinbase工程负责人Brock Miller离职，加入Anthropic担任技术团队成员",
+          "body": "#Coinbase #Anthropic #Brock Miller",
+          "tags": [
+            "#Coinbase",
+            "#Anthropic",
+            "#Brock"
+          ],
+          "ts": 1783739461000,
+          "time": "11:11:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217777",
+          "url": "https://t.me/jin10light/217777",
+          "title": "马斯克让特斯拉员工改用Grok，其他AI每周限额200美元",
+          "body": "#Grok #特斯拉 #SpaceXAI",
+          "tags": [
+            "#Grok",
+            "#特斯拉",
+            "#SpaceXAI"
+          ],
+          "ts": 1783738381000,
+          "time": "10:53:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217776",
+          "url": "https://t.me/jin10light/217776",
+          "title": "某巨鲸再从Binance提取9,883枚ETH，本月累计浮盈超475万美元",
+          "body": "#ETH #Binance #WBTC",
+          "tags": [
+            "#ETH",
+            "#Binance",
+            "#WBTC"
+          ],
+          "ts": 1783737061000,
+          "time": "10:31:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217775",
+          "url": "https://t.me/jin10light/217775",
+          "title": "OpenAI挖走苹果400多人，苹果加薪加职紧急留人",
+          "body": "#苹果 #OpenAI #OpenAI硬件主管",
+          "tags": [
+            "#苹果",
+            "#OpenAI",
+            "#OpenAI硬件主管"
+          ],
+          "ts": 1783736523000,
+          "time": "10:22:03",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217774",
+          "url": "https://t.me/jin10light/217774",
+          "title": "某巨鲸亏损440万美元后做多英伟达，开设2022万美元3倍杠杆多单",
+          "body": "#英伟达 #NVDA #做多",
+          "tags": [
+            "#英伟达",
+            "#NVDA",
+            "#做多"
+          ],
+          "ts": 1783736101000,
+          "time": "10:15:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217773",
+          "url": "https://t.me/jin10light/217773",
+          "title": "中东局势追踪：美伊将继续谈判，伊朗外长周六访阿曼磋商霍尔木兹问题",
+          "body": "#伊朗 #霍尔木兹海峡 #特朗普",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡",
+            "#特朗普"
+          ],
+          "ts": 1783734662000,
+          "time": "09:51:02",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217772",
+          "url": "https://t.me/jin10light/217772",
+          "title": "GPT-5.6刚上线就翻车，被曝误删Mac所有本地文件",
+          "body": "#Matt Shumer #GPT -5.6 #OpenAI",
+          "tags": [
+            "#Matt",
+            "#GPT",
+            "#OpenAI"
+          ],
+          "ts": 1783734481000,
+          "time": "09:48:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217771",
+          "url": "https://t.me/jin10light/217771",
+          "title": "整理：中东局势跟踪（7月11日）",
+          "body": "冲突情å 1.伊朗圣城马什哈德发生枪击事件致2人死亡。 2. 伊朗：任何对伊袭击都将使以色列遭到报复。 3. 以色列消息人士：特朗普目前不想让以色列参战，因担心失去控制。 美伊谈å 1.美官员称外交努力仍在进行，如有必要将继续打击伊朗。 2. 特朗普：同意与伊朗继续谈判，但停火已经结束。 3. 伊朗议长放话：不会投降，若美方“背信”将全面防御。 4. 消息人士：美国、伊朗、巴基斯坦与卡塔尔将举行四方通话。 5. 伊朗外交部：从未提出与美谈判诉求，同意调解方访伊。 6. 伊朗不会允许对遭美国和以色列袭击受损的设施进行核查。 7. 美方要求伊朗周六前承诺停...",
+          "tags": [
+            "#伊朗",
+            "#特朗普",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1783734301000,
+          "time": "09:45:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217770",
+          "url": "https://t.me/jin10light/217770",
+          "title": "GPT-5.6调64个Agent，一小时给出50年猜想证明",
+          "body": "#OpenAI #GPT -5.6 #数学证明",
+          "tags": [
+            "#OpenAI",
+            "#GPT",
+            "#数学证明"
+          ],
+          "ts": 1783733161000,
+          "time": "09:26:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217769",
+          "url": "https://t.me/jin10light/217769",
+          "title": "早期「币安人生」巨鲸再抛售250万枚代币，累计套现1112万美元",
+          "body": "#Binance #代币 #鲸鱼",
+          "tags": [
+            "#Binance",
+            "#代币",
+            "#鲸鱼"
+          ],
+          "ts": 1783732621000,
+          "time": "09:17:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
+        {
+          "id": "217768",
+          "url": "https://t.me/jin10light/217768",
+          "title": "Serenity：OpenAI网络优化不会削弱光模块需求，AI算力扩张仍将推动光通信增长",
+          "body": "#Serenity #AMZN #光模块",
+          "tags": [
+            "#Serenity",
+            "#AMZN",
+            "#光模块"
+          ],
+          "ts": 1783731901000,
+          "time": "09:05:01",
+          "receivedAt": 1783742938553,
+          "receivedTime": true
+        },
         {
           "id": "217767",
           "url": "https://t.me/jin10light/217767",
@@ -18719,294 +19010,6 @@
           "time": "12:46:41",
           "receivedAt": 1783410698493,
           "receivedTime": true
-        },
-        {
-          "id": "216587",
-          "url": "https://t.me/jin10light/216587",
-          "title": "Upbit将上线OPG韩元交易对，后者短时拉升40%",
-          "body": "#Upbit #OPG #韩元",
-          "tags": [
-            "#Upbit",
-            "#OPG",
-            "#韩元"
-          ],
-          "ts": 1783399483000,
-          "time": "12:44:43",
-          "receivedAt": 1783410698493,
-          "receivedTime": true
-        },
-        {
-          "id": "216586",
-          "url": "https://t.me/jin10light/216586",
-          "title": "Upbit将上线OPG韩元交易对",
-          "body": "#Upbit #OPG",
-          "tags": [
-            "#Upbit",
-            "#OPG"
-          ],
-          "ts": 1783399361000,
-          "time": "12:42:41",
-          "receivedAt": 1783410698493,
-          "receivedTime": true
-        },
-        {
-          "id": "216585",
-          "url": "https://t.me/jin10light/216585",
-          "title": "摩根士丹利：AI芯片降温，云巨头或迎来轮动",
-          "body": "#摩根士丹利 #半导体 #AI",
-          "tags": [
-            "#摩根士丹利",
-            "#半导体",
-            "#AI"
-          ],
-          "ts": 1783399121000,
-          "time": "12:38:41",
-          "receivedAt": 1783410698493,
-          "receivedTime": true
-        },
-        {
-          "id": "216584",
-          "url": "https://t.me/jin10light/216584",
-          "title": "韩股熔断成「日常」，高波动性吸引散户，韩股交易已变为「鱿鱼游戏」",
-          "body": "#韩国 #KOSPI #散户投资者",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#散户投资者"
-          ],
-          "ts": 1783398761000,
-          "time": "12:32:41",
-          "receivedAt": 1783410698493,
-          "receivedTime": true
-        },
-        {
-          "id": "216583",
-          "url": "https://t.me/jin10light/216583",
-          "title": "昨日比特币ETF净流入2.657亿美元，连续两日净流入超2亿美元",
-          "body": "",
-          "tags": [],
-          "ts": 1783397862000,
-          "time": "12:17:42",
-          "receivedAt": 1783410698493,
-          "receivedTime": true
-        },
-        {
-          "id": "216582",
-          "url": "https://t.me/jin10light/216582",
-          "title": "韩国KOSPI指数跌幅扩大至7%，港股两倍做多ETF跌20%",
-          "body": "#韩国 #KOSPI #三星",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#三星"
-          ],
-          "ts": 1783397381000,
-          "time": "12:09:41",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216581",
-          "url": "https://t.me/jin10light/216581",
-          "title": "Claude Code研发往事：从截图听歌的玩具到全自动编写全量代码",
-          "body": "#Anthropic #Claude Code #Boris Cherny",
-          "tags": [
-            "#Anthropic",
-            "#Claude",
-            "#Boris"
-          ],
-          "ts": 1783397321000,
-          "time": "12:08:41",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216580",
-          "url": "https://t.me/jin10light/216580",
-          "title": "港股午评：科指冲高回落半日跌0.28% 快手跌9.5%",
-          "body": "7月7日讯，港股今日低开，早盘冲高回落，恒生科技指数盘中一度涨超2%，恒指收跌0.42%，报23517.7点；科指收跌0.28%，报4528.55点。 盘面上，科网股冲高，电子竞技板块走强；存储芯片、核电核能、有色金属板块下挫。 个股方面，诺比侃( 02635.HK )涨8%，智谱( 02513.HK )涨5%，美团( 03690.HK )涨4.3%，腾讯控股( 00700.HK )涨2.8%；澜起科技( 06809.HK )跌10.5%，长飞光纤光缆( 06869.HK )跌近10%，快手( 01024.HK )跌9.5%，建滔积层板( 01888....",
-          "tags": [
-            "#港股",
-            "#快手",
-            "#恒生科技指数"
-          ],
-          "ts": 1783397141000,
-          "time": "12:05:41",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216579",
-          "url": "https://t.me/jin10light/216579",
-          "title": "【午间独家观点】",
-          "body": "【修正后综合观点】 • 港股：AI硬件供应链受全球芯片景气辐射存在估值修复逻辑，但腾讯减持快手、AI应用专项整治及个股异常交易监管表明内部流动性压力和题材炒作受限并存，短期呈“跟涨动能不足”的震荡格局。 • 美股：资金已完成阶段性格局切换，芯片半导体成为新领涨板块，三星业绩史诗级爆发为该逻辑提供强力基本面支撑；潜在风险在于沃勒表态削弱前瞻性指引、增加政策不确定性，可能造成阶段性的利率敏感型资产波动。 • 虚拟货币：机构增持BTC与合规稳定币USDC交易量创历史新高构筑中期基本面支撑，但Meme币投机热与BonkDAO被盗等安全事件造成市场结构性撕裂，内...",
-          "tags": [
-            "#独家观点"
-          ],
-          "ts": 1783396903000,
-          "time": "12:01:43",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216578",
-          "url": "https://t.me/jin10light/216578",
-          "title": "国家发展改革委披露人工智能产业“十五五”五大工作思路",
-          "body": "7月7日讯，7月7日，在上海市政府新闻发布会上，国家发展改革委创新和高技术发展司副司长王若蒙披露了我国人工智能产业“十五五”期间的工作思路：强化模型、算力、数据等关键技术攻关，加大基础研究，形成更多原创性成果，为全球人工智能发展贡献中国智慧。 聚焦对经济贡献大、战略价值高、社会效益好的领域，开放一批高价值场景，打造一批标杆应用。 同时，关注人工智能对就业的影响，促进人工智能创造新岗位、赋能传统岗位，优先在“险脏累繁重”场景推广应用。 持续推动软硬件深度适配、开闭源共同繁荣、产学研用贯通融合、区域错位发展，大幅提升生态协同效能。 #中国 #人工智能",
-          "tags": [
-            "#中国",
-            "#人工智能"
-          ],
-          "ts": 1783396902000,
-          "time": "12:01:42",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216577",
-          "url": "https://t.me/jin10light/216577",
-          "title": "易理华：比特币强力突破6万8方能确认反转，若无法突破将再次下探寻底",
-          "body": "#BTC #Liquid Capital #Render ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#BTC",
-            "#Liquid",
-            "#Render"
-          ],
-          "ts": 1783396541000,
-          "time": "11:55:41",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216576",
-          "url": "https://t.me/jin10light/216576",
-          "title": "快手( 01024.HK )跌超10%，公司称预期腾讯控股( 00700.HK )出售事项将不会对本集团营运产生任何重大不利影响。",
-          "body": "#快手 #腾讯控股",
-          "tags": [
-            "#快手",
-            "#腾讯控股"
-          ],
-          "ts": 1783396421000,
-          "time": "11:53:41",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216575",
-          "url": "https://t.me/jin10light/216575",
-          "title": "智谱：媒体称撤回A股辅导备案报导失实",
-          "body": "#港股 #辅导备案",
-          "tags": [
-            "#港股",
-            "#辅导备案"
-          ],
-          "ts": 1783396182000,
-          "time": "11:49:42",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216574",
-          "url": "https://t.me/jin10light/216574",
-          "title": "Ondo将于今日上线股票永续合约，支持最高20倍杠杆",
-          "body": "#Ondo Perps #股票永续合约 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Ondo",
-            "#股票永续合约"
-          ],
-          "ts": 1783396123000,
-          "time": "11:48:43",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216573",
-          "url": "https://t.me/jin10light/216573",
-          "title": "1. 英伟达否认Kyber延期传闻：产品路线图未受影响。",
-          "body": "2. SpaceX和特斯拉合并逻辑强化，“何时合并”成为讨论焦点。 3. 中央网信办深入开展“清朗·整治AI应用乱象”专项行动第一阶段工作。 4. 我国规上工业企业人工智能应用普及率已超30%。 5. 国家发改委王若蒙：AI手机、AI电脑的销量预计今年有望首次超过非AI产品。 6. 2025年上海规上AI企业产业规模超6370亿元 同比增长39.5%。 7. 上海市经信委主任汤文侃：业界最大规模超节点华为Atlas 950、阶跃Agent操作系统、全球首款AI智能体手机将在2026世界人工智能大会首秀。 8. 千问大模型升级实时语音识别大模型Fun-A...",
-          "tags": [
-            "#AI",
-            "#华为",
-            "#韩国"
-          ],
-          "ts": 1783396005000,
-          "time": "11:46:45",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216572",
-          "url": "https://t.me/jin10light/216572",
-          "title": "今日外资在韩国股市再度抛售约14.93亿美元，散户资金接盘",
-          "body": "#韩国 #净流入 #净买入",
-          "tags": [
-            "#韩国",
-            "#净流入",
-            "#净买入"
-          ],
-          "ts": 1783395883000,
-          "time": "11:44:43",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216571",
-          "url": "https://t.me/jin10light/216571",
-          "title": "日本30年期国债拍卖投标倍数为4.55，此前6月拍卖的投标倍数为2.94。",
-          "body": "日本30年期国债拍卖需求为2019年5月以来最强。 #日本 #国债",
-          "tags": [
-            "#日本",
-            "#国债"
-          ],
-          "ts": 1783395701000,
-          "time": "11:41:41",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216570",
-          "url": "https://t.me/jin10light/216570",
-          "title": "韩国金融监督院再度警告过度「杠杆投资」风险",
-          "body": "#韩国 #李灿镇 #杠杆投资 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#韩国",
-            "#李灿镇",
-            "#杠杆投资"
-          ],
-          "ts": 1783395521000,
-          "time": "11:38:41",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216569",
-          "url": "https://t.me/jin10light/216569",
-          "title": "A股午评：沪指失守4000点 全市场超4700只个股下跌",
-          "body": "7月7日讯，A股三大股指早盘低开，小幅冲高后震荡回落，盘中三大股指均跌超1%，截至中午收盘，沪指跌1.04%失守4000点，深证成指跌1.02%，创业板指跌0.78%；沪深两市半日成交额1.63万亿，较上个交易日缩量5757亿。 全市场超4700只个股下跌。 盘面上，培育钻石板块持续活跃，夜光明涨超20%，惠丰钻石、国力电子、奔朗新材等跟涨。 硅能源板块冲高回落，有研硅、晨光新材、TCL中环、恒星科技涨停。 创新药板块回调，海南海药跌停，上海谊众、泽璟制药、阳光诺和纷纷下挫。 存储芯片板块分化，大港股份、有研新材、万通发展、华天科技涨停，江波龙、德明利...",
-          "tags": [
-            "#A股",
-            "#创业板指",
-            "#沪指"
-          ],
-          "ts": 1783395221000,
-          "time": "11:33:41",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
-        },
-        {
-          "id": "216568",
-          "url": "https://t.me/jin10light/216568",
-          "title": "早盘收盘，国内期货主力合约涨跌不一，集运欧线跌超5%，红枣、沪银、玻璃跌超2%，碳酸锂跌近2%，生猪、铂、胶版纸跌超1%。",
-          "body": "涨幅方面，液化石油气（LPG）涨超2%，菜油、不锈钢（SS）涨近2%，丙烯、苯乙烯（EB）、豆二、塑料、塑料月均涨超1%。 #国内期货 #LPG #碳酸锂",
-          "tags": [
-            "#国内期货",
-            "#LPG",
-            "#碳酸锂"
-          ],
-          "ts": 1783395102000,
-          "time": "11:31:42",
-          "receivedAt": 1783397472028,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20344,20 +20347,9 @@
           "time": "12:23:01",
           "receivedAt": 1782453152288,
           "receivedTime": true
-        },
-        {
-          "id": "1359",
-          "url": "https://t.me/PolyBeats_Bot/1359",
-          "title": "1 名聪明钱买入「GPT-5.6 是否会在 2026 年 7 月 10 日前发布」",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 GPT-5.6 是否会在 2026 年 7 月 10 日前发布？ 」投入 $480「是」，平均买入概率为 48.0%，目前「是」概率为 47.5%。 0x0dba1031 投入 $480，与本市场最佳相关板块为 人工智能 ，板块净盈利 $9.8k。其在该板块共 14 笔已结算交易的胜率为 11/14（79%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 8 笔。 Axios 25 日报道，据知情人士透露，Sam Altman 在内部备忘录中表示，希望 GPT-5.6 在有限预览开始后的「大约两周」进入更广泛发布。按照消息曝光的 6 月 25 日计算，两周后的时间约为 7 月 9 日。Axios 同时确认，白宫已经了解并预览过新模型的能力，Altman 还在周三与美国商务部长 Howard Lutnick 讨论 GPT-5.6，说明政府评估并非刚刚启动，而是已经进入具体协调阶段。 金融时报今日报道，OpenAI 计划在全面推出 GPT-5.6 前，先让大约二十余家合作伙伴获得访问权限，每家机构都需要经过美国政府审核。审批涉及美国财政部、商务部、白宫国家...",
-          "tags": [],
-          "ts": 1782443221000,
-          "time": "11:07:01",
-          "receivedAt": 1782453152288,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
