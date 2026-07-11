@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T22:59:29.100Z",
+  "updatedAt": "2026-07-11T23:58:26.604Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1667,11 +1667,36 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "217842",
+          "url": "https://t.me/jin10light/217842",
+          "title": "伊朗革命卫队宣布关闭霍尔木兹海峡",
+          "body": "7月12日讯，伊朗伊斯兰革命卫队海军12日凌晨宣布，霍尔木兹海峡即日起关闭，任何船只不得通行。 声明说，伊方此前公告表示，外国势力干预霍尔木兹海峡事务、非法划定船只通行路线的行为都将招致伊方“坚决应对”。 鉴于外国势力非法干预造成不安全局面，霍尔木兹海峡即日起关闭，直至另行通知以及美国停止干涉这一地区为止。 声明说，数小时前，数艘船只试图沿未经伊方批准的路线航行，并无视伊方关于修正航向的提示和警告。 其中一艘船只关闭自动识别系统，被伊方警告性射击击中并停航。 声明还警告说，如美方以此次事件为借口对伊朗发动新的袭击，伊方将予以猛烈回应，打击美国在中东地区...",
+          "tags": [],
+          "ts": 1783814222000,
+          "time": "07:57:02",
+          "receivedAt": 1783814292599,
+          "receivedTime": true
+        },
+        {
+          "id": "217841",
+          "url": "https://t.me/jin10light/217841",
+          "title": "美军中央司令部在社交媒体发文说，美军开始对伊朗发动一周内的第三轮打击。",
+          "body": "#好的 #比如比特币",
+          "tags": [
+            "#好的",
+            "#比如比特币"
+          ],
+          "ts": 1783813921000,
+          "time": "07:52:01",
+          "receivedAt": 1783814292599,
+          "receivedTime": true
+        },
         {
           "id": "217840",
           "url": "https://t.me/jin10light/217840",
@@ -18798,34 +18823,6 @@
           "ts": 1783411360000,
           "time": "16:02:40",
           "receivedAt": 1783420862523,
-          "receivedTime": true
-        },
-        {
-          "id": "216642",
-          "url": "https://t.me/jin10light/216642",
-          "title": "前Tether首席投资官拟出售部分1.26%股权",
-          "body": "#Tether #Richard Heathcote #PJT Partners",
-          "tags": [
-            "#Tether",
-            "#Richard",
-            "#PJT"
-          ],
-          "ts": 1783410762000,
-          "time": "15:52:42",
-          "receivedAt": 1783420862523,
-          "receivedTime": true
-        },
-        {
-          "id": "216641",
-          "url": "https://t.me/jin10light/216641",
-          "title": "法国爱舍丽宫：总统马克龙在前往会见叙利亚总统沙拉的途中未听到任何爆炸声。",
-          "body": "#好的",
-          "tags": [
-            "#好的"
-          ],
-          "ts": 1783410525000,
-          "time": "15:48:45",
-          "receivedAt": 1783410698140,
           "receivedTime": true
         }
       ],
