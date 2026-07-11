@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T04:09:11.662Z",
+  "updatedAt": "2026-07-11T06:24:26.749Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1868,11 +1868,99 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "217793",
+          "url": "https://t.me/jin10light/217793",
+          "title": "某鲸鱼在Hyperliquid上做空111万枚CASHCAT",
+          "body": "#Hyperliquid #CASHCAT #做空",
+          "tags": [
+            "#Hyperliquid",
+            "#CASHCAT",
+            "#做空"
+          ],
+          "ts": 1783749782000,
+          "time": "14:03:02",
+          "receivedAt": 1783751054032,
+          "receivedTime": true
+        },
+        {
+          "id": "217792",
+          "url": "https://t.me/jin10light/217792",
+          "title": "Hyperliquid上线CASHCAT合约交易，最高支持3倍杠杆",
+          "body": "#Hyperliquid #Robinhood Chain #CASHCAT",
+          "tags": [
+            "#Hyperliquid",
+            "#Robinhood",
+            "#CASHCAT"
+          ],
+          "ts": 1783749061000,
+          "time": "13:51:01",
+          "receivedAt": 1783751054032,
+          "receivedTime": true
+        },
+        {
+          "id": "217791",
+          "url": "https://t.me/jin10light/217791",
+          "title": "白宫证实特朗普已「清空」美选举援助委员会",
+          "body": "#美国 #特朗普",
+          "tags": [
+            "#美国",
+            "#特朗普"
+          ],
+          "ts": 1783749003000,
+          "time": "13:50:03",
+          "receivedAt": 1783751054032,
+          "receivedTime": true
+        },
+        {
+          "id": "217790",
+          "url": "https://t.me/jin10light/217790",
+          "title": "CASHCAT市值短时突破2亿美元，日内涨超22%",
+          "body": "#CASHCAT #Robinhood Chain #Meme 币",
+          "tags": [
+            "#CASHCAT",
+            "#Robinhood",
+            "#Meme"
+          ],
+          "ts": 1783748521000,
+          "time": "13:42:01",
+          "receivedAt": 1783751054032,
+          "receivedTime": true
+        },
+        {
+          "id": "217789",
+          "url": "https://t.me/jin10light/217789",
+          "title": "某鲸鱼25倍做空ETH，持仓价值1243万美元",
+          "body": "#ETH #Hyperliquid #杠杆交易",
+          "tags": [
+            "#ETH",
+            "#Hyperliquid",
+            "#杠杆交易"
+          ],
+          "ts": 1783748101000,
+          "time": "13:35:01",
+          "receivedAt": 1783751054032,
+          "receivedTime": true
+        },
+        {
+          "id": "217788",
+          "url": "https://t.me/jin10light/217788",
+          "title": "某交易者在CASHCAT上盈利超100万美元，回报率高达1183倍",
+          "body": "#ETH #CASHCAT",
+          "tags": [
+            "#ETH",
+            "#CASHCAT"
+          ],
+          "ts": 1783747023000,
+          "time": "13:17:03",
+          "receivedAt": 1783751054032,
+          "receivedTime": true
+        },
         {
           "id": "217787",
           "url": "https://t.me/jin10light/217787",
@@ -18933,83 +19021,6 @@
           "time": "13:04:44",
           "receivedAt": 1783410698493,
           "receivedTime": true
-        },
-        {
-          "id": "216593",
-          "url": "https://t.me/jin10light/216593",
-          "title": "现货黄金日内下跌1.00%，现报4122.52美元/盎司。",
-          "body": "",
-          "tags": [],
-          "ts": 1783400683000,
-          "time": "13:04:43",
-          "receivedAt": 1783410698493,
-          "receivedTime": true
-        },
-        {
-          "id": "216592",
-          "url": "https://t.me/jin10light/216592",
-          "title": "伊朗外长阿拉格齐：若威胁持续，最终协议谈判将不会启动，请信守承诺。",
-          "body": "",
-          "tags": [],
-          "ts": 1783400561000,
-          "time": "13:02:41",
-          "receivedAt": 1783410698493,
-          "receivedTime": true
-        },
-        {
-          "id": "216591",
-          "url": "https://t.me/jin10light/216591",
-          "title": "日经225指数日内跌幅达2.00%。",
-          "body": "#日经225 #下跌",
-          "tags": [
-            "#日经225",
-            "#下跌"
-          ],
-          "ts": 1783400201000,
-          "time": "12:56:41",
-          "receivedAt": 1783410698493,
-          "receivedTime": true
-        },
-        {
-          "id": "216590",
-          "url": "https://t.me/jin10light/216590",
-          "title": "高盛：维持英伟达285美元目标价，估值已反映ASIC抢份额风险",
-          "body": "#高盛 #英伟达 #AMD",
-          "tags": [
-            "#高盛",
-            "#英伟达",
-            "#AMD"
-          ],
-          "ts": 1783400081000,
-          "time": "12:54:41",
-          "receivedAt": 1783410698493,
-          "receivedTime": true
-        },
-        {
-          "id": "216589",
-          "url": "https://t.me/jin10light/216589",
-          "title": "韩国KOSPI指数触发熔断",
-          "body": "韩国交易所因KOSPI指数下跌8%触发熔断机制，交易暂停20分钟。",
-          "tags": [],
-          "ts": 1783399841000,
-          "time": "12:50:41",
-          "receivedAt": 1783410698493,
-          "receivedTime": true
-        },
-        {
-          "id": "216588",
-          "url": "https://t.me/jin10light/216588",
-          "title": "高盛：芯片回调可买，但不能再「一篮子买入」",
-          "body": "#高盛 #半导体 #AMD ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#高盛",
-            "#半导体",
-            "#AMD"
-          ],
-          "ts": 1783399601000,
-          "time": "12:46:41",
-          "receivedAt": 1783410698493,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20313,39 +20324,6 @@
           "ts": 1782457561000,
           "time": "15:06:01",
           "receivedAt": 1782463439774,
-          "receivedTime": true
-        },
-        {
-          "id": "1362",
-          "url": "https://t.me/PolyBeats_Bot/1362",
-          "title": "1 名聪明钱买入「原油 (CL) 在 7 月前是否触及 $70（LOW）」",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 原油 (CL) 在 7 月前是否触及 $70（LOW）？ 」投入 $738「是」，平均买入概率为 74.6%，目前「是」概率为 53.6%。 0xd226cdb3 投入 $738，与本市场最佳相关板块为 大宗商品 ，板块净盈利 $2.7k。其在该板块共 30 笔已结算交易的胜率为 24/30（80%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 14 笔。相近成本价区间（$0.651-$0.8）内，其历史投入金额中位数为 $928。 路透社 25 日报道，霍尔木兹海峡原油运输量已经升至 2 月 28 日伊朗战争开始以来的最高水平。Kpler 数据显示，仅周三和周四两天，就有合计超过 2000 万桶原油通过海峡；部分船只虽然仍避开存在水雷风险的中央航道，但正在使用靠近阿曼一侧的替代路线。大量此前被困在波斯湾内的原油重新进入国际市场，正在迅速消除战争期间累积的供应短缺预期，并直接压低原油价格。 MarketWatch 今日报道，伊拉克已暗示，如果无法获得更高的生产配额，可能考虑退出 OPEC；阿联酋则已于 5 月退出该组织。Mizuho 能源期货主管 R...",
-          "tags": [],
-          "ts": 1782454321000,
-          "time": "14:12:01",
-          "receivedAt": 1782463439774,
-          "receivedTime": true
-        },
-        {
-          "id": "1361",
-          "url": "https://t.me/PolyBeats_Bot/1361",
-          "title": "1 名聪明钱买入「GRVT 的治理代币发行后一天 FDV 是否超过 $200M」",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱买入「 GRVT 的治理代币发行后一天 FDV 是否超过 $200M？ 」，目前「是」概率为 67.5%。 账户1 与本市场最佳相关板块为 加密货币 ，板块净盈利 $1.0k。其在该板块共 16 笔已结算交易的胜率为 13/16（81%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 2 笔。",
-          "tags": [],
-          "ts": 1782451321000,
-          "time": "13:22:01",
-          "receivedAt": 1782453152288,
-          "receivedTime": true
-        },
-        {
-          "id": "1360",
-          "url": "https://t.me/PolyBeats_Bot/1360",
-          "title": "1 名新账户买入「俄罗斯会在 6 月 30 日前占领 Kostyantynivka 吗」",
-          "body": "在预测市场 Polymarket 上，1 名新账户在「 俄罗斯会在 6 月 30 日前占领 Kostyantynivka 吗？ 」投入 $4.9k「否」，平均买入概率为 79.4%，目前「是」概率为 10.4%。 根据该市场规则，结算为「是」并不要求俄军控制整座 Kostyantynivka，而是要求 ISW 地图将 Pravoberezhna 街上的 Kostyantynivka 火车站至少一部分标记为俄军控制或确认推进区域；单纯的俄军渗透区、灰色地带或零散步兵进入车站附近都不算。 25 日白天，俄军在 Kostyantynivka 方向发动 11 次攻击，主要位于 Pleshchiivka、Illinivka、Rusyn Yar 及通往 Kostyantynivka 的区域，其中多数已被乌军阻止，白天结束时仅有一场交战仍在进行。战报没有记录俄军在市中心、铁路线路或火车站形成新的稳固控制点。俄军保持了较高进攻频率，但攻击次数没有转化为足以改变市场判定地图的领土成果。 25 日，乌克兰东部作战司令部司令 Viktor Nikoliuk 少将表示，目前守卫 Kostyantynivka 所需的资源仍然充足，城市既没有被包围，...",
-          "tags": [],
-          "ts": 1782447781000,
-          "time": "12:23:01",
-          "receivedAt": 1782453152288,
           "receivedTime": true
         }
       ],
