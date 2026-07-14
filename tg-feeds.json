@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-07-14T15:50:42.450Z",
+  "updatedAt": "2026-07-14T16:57:19.568Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6506",
+          "url": "https://t.me/BWEtradfi/6506",
+          "title": "*TRUMP: 周四的演讲将涉及选举和其他几件事",
+          "body": "*TRUMP: SPEECH THURSDAY WILL CONCERN ELECTIONS, COUPLE OTHER THINGS",
+          "tags": [],
+          "ts": 1784046134000,
+          "time": "00:22:14",
+          "receivedAt": 1784048188189,
+          "receivedTime": true
+        },
+        {
+          "id": "6505",
+          "url": "https://t.me/BWEtradfi/6505",
+          "title": "*特朗普：通胀报告令人震惊，谢谢你提到这一点",
+          "body": "*TRUMP: INFLATION REPORT WAS INCREDIBLE, THANK YOU FOR BRINGING THAT UP *TRUMP ON INFLATION REPORT: REMEMBER THAT FOR THE MIDTERMS *TRUMP: WILL BRING PRICES MUCH LOWER YET *特朗普谈通胀报告：记住这一点，它对中期选举至关重要 *特朗普：物价还会大幅下降",
+          "tags": [],
+          "ts": 1784046104000,
+          "time": "00:21:44",
+          "receivedAt": 1784048188189,
+          "receivedTime": true
+        },
         {
           "id": "6504",
           "url": "https://t.me/BWEtradfi/6504",
@@ -1808,24 +1830,298 @@
           "time": "01:21:47",
           "receivedAt": 1782755039894,
           "receivedTime": true
-        },
-        {
-          "id": "6342",
-          "url": "https://t.me/BWEtradfi/6342",
-          "title": "*Anthropic与亚马逊重新谈判，将合作协议从计算时长改为代币制——The Information",
-          "body": "*ANTHROPIC RENEGOTIATED DEAL WITH AMAZON TO ONE BASED ON TOKENS RATHER THAN COMPUTE HOURS- THE INFORMATION *AMAZON IS EVALUATING OTHER AI MODELS TO MITIGATE RISING ANTHROPIC COSTS- THE INFORMATION $AMZN *亚马逊正在评估其他人工智能模型，以缓解Anthropic不断上涨的成本——The Information $AMZN",
-          "tags": [],
-          "ts": 1782748929000,
-          "time": "00:02:09",
-          "receivedAt": 1782755039894,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "218712",
+          "url": "https://t.me/jin10light/218712",
+          "title": "美联储主席沃什：关于「我有一个青睐的通胀指标」的说法并不正确",
+          "body": "#美联储 #沃什",
+          "tags": [
+            "#美联储",
+            "#沃什"
+          ],
+          "ts": 1784048163000,
+          "time": "00:56:03",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218711",
+          "url": "https://t.me/jin10light/218711",
+          "title": "何一：Binance已帮助用户追回超80亿美元错误加密转账",
+          "body": "#Binance #何一",
+          "tags": [
+            "#Binance",
+            "#何一"
+          ],
+          "ts": 1784048041000,
+          "time": "00:54:01",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218710",
+          "url": "https://t.me/jin10light/218710",
+          "title": "2027年FOMC票委、芝加哥联储主席古尔斯比将于十分钟后参加一场炉边谈话。",
+          "body": "#芝加哥联储 #古尔斯比 #美国",
+          "tags": [
+            "#芝加哥联储",
+            "#古尔斯比",
+            "#美国"
+          ],
+          "ts": 1784047923000,
+          "time": "00:52:03",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218709",
+          "url": "https://t.me/jin10light/218709",
+          "title": "沃什：并未暗示「美联储不会在危机时期扩大资产负债表规模」",
+          "body": "#美联储 #通胀 #CPI",
+          "tags": [
+            "#美联储",
+            "#通胀",
+            "#CPI"
+          ],
+          "ts": 1784046967000,
+          "time": "00:36:07",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218708",
+          "url": "https://t.me/jin10light/218708",
+          "title": "SK海力士ADR大涨22％",
+          "body": "#SK海力士 #美国 #上涨",
+          "tags": [
+            "#SK海力士",
+            "#美国",
+            "#上涨"
+          ],
+          "ts": 1784046844000,
+          "time": "00:34:04",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218707",
+          "url": "https://t.me/jin10light/218707",
+          "title": "沃什：6月CPI与通胀预期呈现出正相关",
+          "body": "#美联储 #通胀",
+          "tags": [
+            "#美联储",
+            "#通胀"
+          ],
+          "ts": 1784046843000,
+          "time": "00:34:03",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218706",
+          "url": "https://t.me/jin10light/218706",
+          "title": "美联储理事巴尔将于十分钟后在美联储年度金融普惠会议上就人工智能发表讲话。",
+          "body": "#美联储 #巴尔 #人工智能 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美联储",
+            "#巴尔",
+            "#人工智能"
+          ],
+          "ts": 1784046726000,
+          "time": "00:32:06",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218705",
+          "url": "https://t.me/jin10light/218705",
+          "title": "Coinbase涨超2%，此前开放中国用户注册",
+          "body": "#Coinbase #中国",
+          "tags": [
+            "#Coinbase",
+            "#中国"
+          ],
+          "ts": 1784046601000,
+          "time": "00:30:01",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218704",
+          "url": "https://t.me/jin10light/218704",
+          "title": "Noxa官方X账号疑似被盗，用户需警惕风险",
+          "body": "#Noxa #X #钱包安全 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#Noxa",
+            "#X",
+            "#钱包安全"
+          ],
+          "ts": 1784046422000,
+          "time": "00:27:02",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218703",
+          "url": "https://t.me/jin10light/218703",
+          "title": "美国总统特朗普：正在考虑将伊朗和黎巴嫩真主党纳入俄罗斯制裁法案。",
+          "body": "#好的 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#好的"
+          ],
+          "ts": 1784046362000,
+          "time": "00:26:02",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218702",
+          "url": "https://t.me/jin10light/218702",
+          "title": "美国商务部官员：有关芯片和AI的监管措施即将出台 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "body": "",
+          "tags": [],
+          "ts": 1784046303000,
+          "time": "00:25:03",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218701",
+          "url": "https://t.me/jin10light/218701",
+          "title": "NOXA：交易手续费已设置为100%归代币创建者所有",
+          "body": "#NOXA #CASHCAT ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#NOXA",
+            "#CASHCAT"
+          ],
+          "ts": 1784046061000,
+          "time": "00:21:01",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218700",
+          "url": "https://t.me/jin10light/218700",
+          "title": "美国总统特朗普：将与伊拉克达成大量交易，并大量提取石油。",
+          "body": "",
+          "tags": [],
+          "ts": 1784045941000,
+          "time": "00:19:01",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218699",
+          "url": "https://t.me/jin10light/218699",
+          "title": "英美联合声明：计划在跨境金融领域应用稳定币",
+          "body": "#英国 #美国 #稳定币",
+          "tags": [
+            "#英国",
+            "#美国",
+            "#稳定币"
+          ],
+          "ts": 1784045823000,
+          "time": "00:17:03",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218698",
+          "url": "https://t.me/jin10light/218698",
+          "title": "美联储主席沃什：更高的通胀是不可接受的。",
+          "body": "",
+          "tags": [],
+          "ts": 1784045646000,
+          "time": "00:14:06",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218697",
+          "url": "https://t.me/jin10light/218697",
+          "title": "英国财政部预计英国央行将在2026年至少加息一次。",
+          "body": "",
+          "tags": [],
+          "ts": 1784045465000,
+          "time": "00:11:05",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218696",
+          "url": "https://t.me/jin10light/218696",
+          "title": "美国总统特朗普：我认为任何人都不应该对海峡收取费用。",
+          "body": "",
+          "tags": [],
+          "ts": 1784045401000,
+          "time": "00:10:01",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218695",
+          "url": "https://t.me/jin10light/218695",
+          "title": "CASHCAT市值跌破1.5亿美元，1小时跌超22%",
+          "body": "#CASHCAT #跌幅",
+          "tags": [
+            "#CASHCAT",
+            "#跌幅"
+          ],
+          "ts": 1784045341000,
+          "time": "00:09:01",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218694",
+          "url": "https://t.me/jin10light/218694",
+          "title": "今日重点关注的财经数据与事件：2026年7月15日 周三",
+          "body": "① 待定 阿斯麦ASML公布二季度财报 ② 00:40 美联储理事巴尔谈AI ③ 01:00 美联储古尔斯比参与对话 ④ 01:30 美联储理事库克发表讲话 ⑤ 02:55 美联储理事鲍曼发表讲话 ⑥ 04:00 英国央行行长贝利发表讲话 ⑦ 04:30 美国至7月10日当周API原油库存 ⑧ 09:30 中国70城住宅售价月报 ⑨ 10:00 中国第二季度GDP年率 ⑩ 10:00 中国6月社会消费品零售总额同比 ⑪ 10:00 中国6月规模以上工业增加值同比 ⑫ 10:00 国新办介绍国民经济运行情况 ⑬ 15:00 国新办介绍上半年货币政策执行情...",
+          "tags": [
+            "#美国",
+            "#中国",
+            "#美联储"
+          ],
+          "ts": 1784044877000,
+          "time": "00:01:17",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218693",
+          "url": "https://t.me/jin10light/218693",
+          "title": "过去24小时全网爆仓4.41亿美元，多空双爆",
+          "body": "#BTC #ETH #爆仓 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#爆仓"
+          ],
+          "ts": 1784044876000,
+          "time": "00:01:16",
+          "receivedAt": 1784048189492,
+          "receivedTime": true
+        },
+        {
+          "id": "218692",
+          "url": "https://t.me/jin10light/218692",
+          "title": "【晚间独家观点】",
+          "body": "【修正后综合观点】 市场热度极度聚焦，今日行情完全由美国6月CPI数据和美联储主席沃什听证会主导。在111条资讯中，与美联储直接相关的占比近四成，其他资产类别如港股和虚拟货币均处于被动跟随状态，缺乏独立定价能力。市场最大的陷阱在于，即使CPI数据降温，沃什已多次强硬化表态，明确反对“任务完成”的乐观叙事，这限制了任何由数据引发的反弹高度，风险资产面临“买预期、卖事实”的抛压风险。 港股方面，其走势是被动的情绪映射，自身缺乏强力驱动。国内AI政策面持续提供底部逻辑支撑，但韩国芯片股崩盘所揭示的全球AI硬件交易去杠杆风险，通过供应链和情绪面对港股科技板块构...",
+          "tags": [
+            "#独家观点"
+          ],
+          "ts": 1784044863000,
+          "time": "00:01:03",
+          "receivedAt": 1784048189889,
+          "receivedTime": true
+        },
         {
           "id": "218691",
           "url": "https://t.me/jin10light/218691",
@@ -18641,311 +18937,6 @@
           "ts": 1783649221000,
           "time": "10:07:01",
           "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217511",
-          "url": "https://t.me/jin10light/217511",
-          "title": "今年上半年3.69亿人次出入境 创历史新高",
-          "body": "7月10日讯，7月10日，国家移民管理局召开新闻发布会，发布2026年上半年移民管理工作主要数据。 上半年，全国移民管理机构累计查验出入境人员3.69亿人次，同比上升10.8%，创历史新高；其中内地（大陆）居民1.76亿人次、港澳台居民1.47亿人次、外国人4590.6万人次，同比分别上升10.7%、8.1%、20.6%。 入境外国人达2291.4万人次，同比增长20.4%，呈现快速增长趋势；其中免签入境外国人1781.5万人次，占入境外国人77.7%，同比上升30.6%。 入境外籍旅客排名前十位的国家为韩国、俄罗斯、马来西亚、越南、泰国、新加坡、美国...",
-          "tags": [
-            "#中国",
-            "#美国",
-            "#韩国"
-          ],
-          "ts": 1783649041000,
-          "time": "10:04:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217510",
-          "url": "https://t.me/jin10light/217510",
-          "title": "恒生指数涨超1%，恒生科技指数涨超1.8%。",
-          "body": "#恒生指数 #恒生科技指数",
-          "tags": [
-            "#恒生指数",
-            "#恒生科技指数"
-          ],
-          "ts": 1783648742000,
-          "time": "09:59:02",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217509",
-          "url": "https://t.me/jin10light/217509",
-          "title": "MiniMax创始人：不再领取薪酬，个人拿出5%公司股份用于团队激励和开源支持",
-          "body": "",
-          "tags": [],
-          "ts": 1783648621000,
-          "time": "09:57:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217508",
-          "url": "https://t.me/jin10light/217508",
-          "title": "创业板指、深成指双双涨超1%，沪指涨超0.4%，光刻机、CPO、存储概念涨幅居前。",
-          "body": "#创业板指 #深成指 #光刻机",
-          "tags": [
-            "#创业板指",
-            "#深成指",
-            "#光刻机"
-          ],
-          "ts": 1783648441000,
-          "time": "09:54:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217507",
-          "url": "https://t.me/jin10light/217507",
-          "title": "日本10年期国债收益率下跌10个基点，至2.775%；日本20年期国债收益率下跌10个基点，至3.765%。",
-          "body": "#日本 #国债收益率 #下跌",
-          "tags": [
-            "#日本",
-            "#国债收益率",
-            "#下跌"
-          ],
-          "ts": 1783648262000,
-          "time": "09:51:02",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217506",
-          "url": "https://t.me/jin10light/217506",
-          "title": "从「反人类」到AI领头羊，马斯克对Anthropic彻底改口",
-          "body": "#马斯克 #Anthropic #SpaceX",
-          "tags": [
-            "#马斯克",
-            "#Anthropic",
-            "#SpaceX"
-          ],
-          "ts": 1783648261000,
-          "time": "09:51:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217505",
-          "url": "https://t.me/jin10light/217505",
-          "title": "韩国KOSPI指数日内涨超4%，三星电子涨超5%",
-          "body": "#韩国 #KOSPI #SK海力士",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1783648021000,
-          "time": "09:47:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217504",
-          "url": "https://t.me/jin10light/217504",
-          "title": "「曾做空16个山寨币获利350万美元巨鲸」疑似再次抛售1369万美元ETH",
-          "body": "#ETH #Binance #Hyperliquid",
-          "tags": [
-            "#ETH",
-            "#Binance",
-            "#Hyperliquid"
-          ],
-          "ts": 1783647841000,
-          "time": "09:44:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217503",
-          "url": "https://t.me/jin10light/217503",
-          "title": "长征十号乙已经开始燃料加注 今日中午有望首飞",
-          "body": "7月10日讯，据悉，长征十号乙遥一火箭已开始燃料加注，有望在12点10分左右发射升空，挑战全球首次火箭一子级海上网系回收验证。 如果本次验证成功，我国将成为全球第二个掌握大运力可回收火箭技术的国家。 #中国 #长征十号乙 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#中国",
-            "#长征十号乙"
-          ],
-          "ts": 1783647541000,
-          "time": "09:39:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217502",
-          "url": "https://t.me/jin10light/217502",
-          "title": "BitMine疑似再次增持2.05万枚ETH，价值3592万美元",
-          "body": "#ETH #Galaxy Digital #BitMine",
-          "tags": [
-            "#ETH",
-            "#Galaxy",
-            "#BitMine"
-          ],
-          "ts": 1783647301000,
-          "time": "09:35:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217501",
-          "url": "https://t.me/jin10light/217501",
-          "title": "新股N托伦斯盘初快速涨超1000%触发临停。",
-          "body": "#N托伦斯 #新股 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#N托伦斯",
-            "#新股"
-          ],
-          "ts": 1783647242000,
-          "time": "09:34:02",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217500",
-          "url": "https://t.me/jin10light/217500",
-          "title": "韩国KOSPI指数日内上涨4.00%，现报7596.58点。",
-          "body": "#好的 #但根据要求 #趋势类标签",
-          "tags": [
-            "#好的",
-            "#但根据要求",
-            "#趋势类标签"
-          ],
-          "ts": 1783647122000,
-          "time": "09:32:02",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217499",
-          "url": "https://t.me/jin10light/217499",
-          "title": "存储模组大厂透露：内存将继续涨价",
-          "body": "7月10日讯，威刚7月8日公布2026年6月合并营收快报，单月营收146.61亿元新台币，同比增长212.06%，环比增长13.28%，连续第四个月创单月新高。 上半年，威刚的总营收达到642.72亿元新台币，已超过2025年全年的总营收530.43亿元新台币，同比增长183.33%。 业绩发布之际，威刚董事长陈立白表示，2026年第三季度内存（DRAM）与闪存（NANDFlash）价格将再度大幅上调，两大产品线涨势明确，存储产业的上升通道仍在加速。 陈立白透露，存储器原厂已通知第三季度DRAM合约价将上涨20%至30%，NANDFlash将调涨35%...",
-          "tags": [
-            "#威刚",
-            "#DRAM",
-            "#NANDFlash"
-          ],
-          "ts": 1783647121000,
-          "time": "09:32:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217498",
-          "url": "https://t.me/jin10light/217498",
-          "title": "OpenAI砍掉Atlas浏览器，上线不到一年并入ChatGPT",
-          "body": "#OpenAI #ChatGPT #Atlas",
-          "tags": [
-            "#OpenAI",
-            "#ChatGPT",
-            "#Atlas"
-          ],
-          "ts": 1783647001000,
-          "time": "09:30:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217497",
-          "url": "https://t.me/jin10light/217497",
-          "title": "A股开盘，上证指数跌0.13%，深证成指涨0.53%，创业板指涨0.59%。",
-          "body": "半导体设备精密金属零部件“小巨人”托伦斯上市首日涨800%。 #A股 #托伦斯 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#A股",
-            "#托伦斯"
-          ],
-          "ts": 1783646761000,
-          "time": "09:26:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217496",
-          "url": "https://t.me/jin10light/217496",
-          "title": "OpenAI推出工作流Agent ChatGPT Work，并把Codex并入ChatGPT",
-          "body": "#OpenAI #ChatGPT Work #Codex",
-          "tags": [
-            "#OpenAI",
-            "#ChatGPT",
-            "#Codex"
-          ],
-          "ts": 1783646581000,
-          "time": "09:23:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217495",
-          "url": "https://t.me/jin10light/217495",
-          "title": "港股开盘，恒指开涨0.76%，科指开涨1.25%。",
-          "body": "联想集团( 00992.HK )涨约9%，百度( 09888.HK )涨约3%；智谱( 02513.HK )跌约9%，MINIMAX-W( 00100.HK )跌超5%。 #港股 #联想集团 #百度",
-          "tags": [
-            "#港股",
-            "#联想集团",
-            "#百度"
-          ],
-          "ts": 1783646521000,
-          "time": "09:22:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217494",
-          "url": "https://t.me/jin10light/217494",
-          "title": "中国央行：今日开展200亿元7天逆回购操作，投标量200亿元，中标量200亿元，操作利率为1.40%，与此前持平。",
-          "body": "#中国 #央行 #逆回购",
-          "tags": [
-            "#中国",
-            "#央行",
-            "#逆回购"
-          ],
-          "ts": 1783646463000,
-          "time": "09:21:03",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217493",
-          "url": "https://t.me/jin10light/217493",
-          "title": "2026年7月10日银行间外汇市场人民币汇率中间价",
-          "body": "美元/人民币报6.7989，下调（人民币升值）47点； 欧元/人民币报7.7712，上调16点；港元/人民币报0.86754，下调3.7点； 英镑/人民币报9.1157，上调59点；澳元/人民币报4.7173，上调23点； 加元/人民币报4.7970，下调29点；100日元/人民币报4.1876，上调13点； 人民币/俄罗斯卢布报11.2046，下调769点；新西兰元/人民币报3.9150，上调296点； 人民币/林吉特报0.59923，上调0.9点；瑞士法郎/人民币报8.4278，上调107点； 新加坡元/人民币报5.2606，上调21点。 #人民币...",
-          "tags": [
-            "#人民币",
-            "#美元",
-            "#港元"
-          ],
-          "ts": 1783646221000,
-          "time": "09:17:01",
-          "receivedAt": 1783656318089,
-          "receivedTime": true
-        },
-        {
-          "id": "217492",
-          "url": "https://t.me/jin10light/217492",
-          "title": "人民币兑美元中间价较上日调升47点至6.7989，中间价升值至2023年2月10日以来最高。",
-          "body": "#好的",
-          "tags": [
-            "#好的"
-          ],
-          "ts": 1783646161000,
-          "time": "09:16:01",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217491",
-          "url": "https://t.me/jin10light/217491",
-          "title": "GPT-5.6正式发布：Agent评测领先Claude Fable模型13.1分",
-          "body": "#OpenAI #GPT -5.6 #Sol",
-          "tags": [
-            "#OpenAI",
-            "#GPT",
-            "#Sol"
-          ],
-          "ts": 1783645982000,
-          "time": "09:13:02",
-          "receivedAt": 1783656318345,
           "receivedTime": true
         }
       ],
