@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-07-14T19:22:34.367Z",
+  "updatedAt": "2026-07-14T20:33:58.369Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6508",
+          "url": "https://t.me/BWEtradfi/6508",
+          "title": "DB: 标准普尔500指数收盘上涨0.4%，纳斯达克指数上涨1%",
+          "body": "DB: *S&P 500 RISES 0.4% AT THE CLOSE, NASDAQ GAINS 1%",
+          "tags": [],
+          "ts": 1784059213000,
+          "time": "04:00:13",
+          "receivedAt": 1784061223043,
+          "receivedTime": true
+        },
+        {
+          "id": "6507",
+          "url": "https://t.me/BWEtradfi/6507",
+          "title": "OPENAI就苹果诉讼表示：我们严肃对待这些指控；OPENAI：不清楚有任何证据表明该投诉有价值；OPENAI：我们相信竞争，人们应在他们想工作的地方工作",
+          "body": "*OPENAI ON APPLE LAWSUIT: WE TAKE THESE ALLEGATIONS SERIOUSLY *OPENAI: NOT AWARE OF ANY EVIDENCE THAT THIS COMPLAINT HAS MERIT *OPENAI: BELIEVE IN COMPETITION, PEOPLE WORKING WHERE THEY WANT",
+          "tags": [],
+          "ts": 1784057718000,
+          "time": "03:35:18",
+          "receivedAt": 1784061223043,
+          "receivedTime": true
+        },
         {
           "id": "6506",
           "url": "https://t.me/BWEtradfi/6506",
@@ -1761,28 +1783,6 @@
           "time": "04:46:20",
           "receivedAt": 1782767129022,
           "receivedTime": true
-        },
-        {
-          "id": "6348",
-          "url": "https://t.me/BWEtradfi/6348",
-          "title": "*情境感知报告：持有 Sharonai Holdings Inc. 19.9% 的股份（5,404,540 股）。· 2026年6月29日",
-          "body": "[SEC-13G] *SITUATIONAL AWARENESS REPORTS 19.9% STAKE (5,404,540 SH) IN SHARONAI HOLDINGS INC. · 06-29-2026 $SHAZ Tradfin: [SEC-13G] $SHAZ",
-          "tags": [],
-          "ts": 1782763713000,
-          "time": "04:08:33",
-          "receivedAt": 1782767129022,
-          "receivedTime": true
-        },
-        {
-          "id": "6347",
-          "url": "https://t.me/BWEtradfi/6347",
-          "title": "DB: 标准普尔500指数收盘上涨1.2%，纳斯达克指数跳涨2%",
-          "body": "DB: *S&P 500 CLOSES 1.2% HIGHER, NASDAQ JUMPS 2%",
-          "tags": [],
-          "ts": 1782763213000,
-          "time": "04:00:13",
-          "receivedAt": 1782767129022,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1790,6 +1790,92 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "218726",
+          "url": "https://t.me/jin10light/218726",
+          "title": "美国至7月10日当周API原油库存将于十分钟后公布。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1784060521000,
+          "time": "04:22:01",
+          "receivedAt": 1784061223429,
+          "receivedTime": true
+        },
+        {
+          "id": "218725",
+          "url": "https://t.me/jin10light/218725",
+          "title": "美股收盘：三大股指收涨 海力士涨超27%",
+          "body": "7月15日讯，美股周二收盘，道指初步收涨0.02%，标普500指数涨0.38%，纳指涨0.9%。 闪迪(SNDK.O)和美光科技(MU.O)涨约5%，SK海力士ADR(SKHY.O)暴涨27.2%。 纳斯达克中国金龙指数收跌0.1%，百度(BIDU.O)跌3%。 #美股 #SK海力士",
+          "tags": [
+            "#美股",
+            "#SK海力士"
+          ],
+          "ts": 1784059441000,
+          "time": "04:04:01",
+          "receivedAt": 1784061223429,
+          "receivedTime": true
+        },
+        {
+          "id": "218724",
+          "url": "https://t.me/jin10light/218724",
+          "title": "金十提示：美军针对伊朗港口和沿海地区的海上封锁措施开始生效。",
+          "body": "#美军 #伊朗",
+          "tags": [
+            "#美军",
+            "#伊朗"
+          ],
+          "ts": 1784059321000,
+          "time": "04:02:01",
+          "receivedAt": 1784061223429,
+          "receivedTime": true
+        },
+        {
+          "id": "218723",
+          "url": "https://t.me/jin10light/218723",
+          "title": "英国央行行长贝利将于十分钟后发表讲话。",
+          "body": "#英国 #贝利",
+          "tags": [
+            "#英国",
+            "#贝利"
+          ],
+          "ts": 1784058722000,
+          "time": "03:52:02",
+          "receivedAt": 1784061223429,
+          "receivedTime": true
+        },
+        {
+          "id": "218722",
+          "url": "https://t.me/jin10light/218722",
+          "title": "股价盘中腰斩，Lucid否认有关私有化和破产的报道",
+          "body": "7月15日讯，电车公司Lucid Group(LCID.O)否认了有关该公司可能进行私有化交易或申请美国《破产法》第11章保护的博客文章，称该文章“完全不实”。 此前，该公司股价暴跌逾50%，创下其历史最大单日跌幅。 Lucid表示，公司拥有充足的流动性，足以支撑运营直至明年，且并未成立特别董事会委员会来探讨报道中所提的情景。 该公司还表示，重组顾问AlixPartners正在协助公司改进执行和运营，并未建议申请破产。 受股价剧烈波动影响，该股在美东时间下午1点后多次临停，一度暴跌57%至2.37美元，临近收盘时跌幅收窄至15%。 #Lucid Gro...",
+          "tags": [
+            "#Lucid",
+            "#LCID",
+            "#股价暴跌"
+          ],
+          "ts": 1784058601000,
+          "time": "03:50:01",
+          "receivedAt": 1784061223429,
+          "receivedTime": true
+        },
+        {
+          "id": "218721",
+          "url": "https://t.me/jin10light/218721",
+          "title": "美国中央司令部：美东时间今日（周二）下午三点，美军已对伊朗发动新一轮打击，目标是削弱伊朗攻击霍尔木兹海峡商业船只的能力。",
+          "body": "针对伊朗港口和沿海地区的海上封锁将于美东时间下午4点启动。 #美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1784057521000,
+          "time": "03:32:01",
+          "receivedAt": 1784061223429,
+          "receivedTime": true
+        },
         {
           "id": "218720",
           "url": "https://t.me/jin10light/218720",
@@ -18791,95 +18877,6 @@
           ],
           "ts": 1783652821000,
           "time": "11:07:01",
-          "receivedAt": 1783656317846,
-          "receivedTime": true
-        },
-        {
-          "id": "217525",
-          "url": "https://t.me/jin10light/217525",
-          "title": "Meta新模型连夺三榜第一，法律Agent反超Grok 4.5",
-          "body": "#Muse Spark 1.1 #AI模型 #税务评测",
-          "tags": [
-            "#Muse",
-            "#AI模型",
-            "#税务评测"
-          ],
-          "ts": 1783652521000,
-          "time": "11:02:01",
-          "receivedAt": 1783656317846,
-          "receivedTime": true
-        },
-        {
-          "id": "217524",
-          "url": "https://t.me/jin10light/217524",
-          "title": "港股MINIMAX-W( 00100.HK )跌超10%，MINIMAX-W完成新一轮160亿港币融资。",
-          "body": "#MINIMAX -W #港股 #融资",
-          "tags": [
-            "#MINIMAX",
-            "#港股",
-            "#融资"
-          ],
-          "ts": 1783652341000,
-          "time": "10:59:01",
-          "receivedAt": 1783656317846,
-          "receivedTime": true
-        },
-        {
-          "id": "217523",
-          "url": "https://t.me/jin10light/217523",
-          "title": "比特币短时突破6.4万美元",
-          "body": "#BTC #比特币回升",
-          "tags": [
-            "#BTC",
-            "#比特币回升"
-          ],
-          "ts": 1783652101000,
-          "time": "10:55:01",
-          "receivedAt": 1783656317846,
-          "receivedTime": true
-        },
-        {
-          "id": "217522",
-          "url": "https://t.me/jin10light/217522",
-          "title": "Bitwise Q2总结：加密市场量价齐跌，预测市场交投火爆",
-          "body": "#BTC #ETH #DeFi",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#DeFi"
-          ],
-          "ts": 1783651981000,
-          "time": "10:53:01",
-          "receivedAt": 1783656317846,
-          "receivedTime": true
-        },
-        {
-          "id": "217521",
-          "url": "https://t.me/jin10light/217521",
-          "title": "传Meta内部模型已到Mythos 5水平，数月内或上线",
-          "body": "#Meta #ICML #Anthropic",
-          "tags": [
-            "#Meta",
-            "#ICML",
-            "#Anthropic"
-          ],
-          "ts": 1783651501000,
-          "time": "10:45:01",
-          "receivedAt": 1783656317846,
-          "receivedTime": true
-        },
-        {
-          "id": "217520",
-          "url": "https://t.me/jin10light/217520",
-          "title": "安全机构：Robinhood Chain出现大量诈骗代币",
-          "body": "#Relay Protocol #Robinhood Chain #诈骗代币",
-          "tags": [
-            "#Relay",
-            "#Robinhood",
-            "#诈骗代币"
-          ],
-          "ts": 1783650901000,
-          "time": "10:35:01",
           "receivedAt": 1783656317846,
           "receivedTime": true
         }
