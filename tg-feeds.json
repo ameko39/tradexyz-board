@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T20:33:58.369Z",
+  "updatedAt": "2026-07-14T21:32:59.274Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1772,17 +1772,6 @@
           "time": "09:30:37",
           "receivedAt": 1782798273601,
           "receivedTime": true
-        },
-        {
-          "id": "6349",
-          "url": "https://t.me/BWEtradfi/6349",
-          "title": "*特朗普政府最终敲定与毕业生收入挂钩的学生贷款资格规则：《华尔街日报》",
-          "body": "*TRUMP ADMIN FINALIZES STUDENT LOAN ELIGIBILITY RULES TIED TO GRADUATE EARNINGS: WSJ *COLLEGES MUST SHOW GRADUATES EARN MORE THAN COMPARABLE NON-GRADUATES TO MAINTAIN FEDERAL STUDENT LOAN ELIGIBILITY: WSJ *高校必须证明其毕业生收入高于同等非毕业生才能维持联邦学生贷款资格：《华尔街日报》",
-          "tags": [],
-          "ts": 1782765980000,
-          "time": "04:46:20",
-          "receivedAt": 1782767129022,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1790,6 +1779,33 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "218728",
+          "url": "https://t.me/jin10light/218728",
+          "title": "美国众议院投票通过永久实行夏令时的法案，并将该法案提交参议院审议。",
+          "body": "#好的 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#好的"
+          ],
+          "ts": 1784064061000,
+          "time": "05:21:01",
+          "receivedAt": 1784064767644,
+          "receivedTime": true
+        },
+        {
+          "id": "218727",
+          "url": "https://t.me/jin10light/218727",
+          "title": "美国至7月10日当周API原油库存 -56.4万桶，预期-273.6万桶，前值-39.9万桶。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1784061421000,
+          "time": "04:37:01",
+          "receivedAt": 1784064767644,
+          "receivedTime": true
+        },
         {
           "id": "218726",
           "url": "https://t.me/jin10light/218726",
@@ -18848,35 +18864,6 @@
           ],
           "ts": 1783652943000,
           "time": "11:09:03",
-          "receivedAt": 1783656317846,
-          "receivedTime": true
-        },
-        {
-          "id": "217527",
-          "url": "https://t.me/jin10light/217527",
-          "title": "沪深两市成交额连续第64个交易日突破2万亿元。",
-          "body": "#A股 #成交额",
-          "tags": [
-            "#A股",
-            "#成交额"
-          ],
-          "ts": 1783652822000,
-          "time": "11:07:02",
-          "receivedAt": 1783656317846,
-          "receivedTime": true
-        },
-        {
-          "id": "217526",
-          "url": "https://t.me/jin10light/217526",
-          "title": "长鑫科技IPO中金公司领衔承销团，承销费约1.84亿元",
-          "body": "#中国 #券商 #承销费",
-          "tags": [
-            "#中国",
-            "#券商",
-            "#承销费"
-          ],
-          "ts": 1783652821000,
-          "time": "11:07:01",
           "receivedAt": 1783656317846,
           "receivedTime": true
         }
