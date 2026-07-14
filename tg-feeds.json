@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T03:23:43.910Z",
+  "updatedAt": "2026-07-14T05:43:33.485Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -20175,7 +20175,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false,
+      "archiveComplete": true,
       "error": "fetch failed"
     }
   }
