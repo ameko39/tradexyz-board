@@ -1,11 +1,66 @@
 {
-  "updatedAt": "2026-07-14T14:18:17.628Z",
+  "updatedAt": "2026-07-14T15:50:42.450Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6504",
+          "url": "https://t.me/BWEtradfi/6504",
+          "title": "沃什：我将把2%的通胀目标加倍",
+          "body": "*WARSH: I AM DOUBLING DOWN ON 2% INFLATION TARGET",
+          "tags": [],
+          "ts": 1784044126000,
+          "time": "23:48:46",
+          "receivedAt": 1784044222976,
+          "receivedTime": true
+        },
+        {
+          "id": "6503",
+          "url": "https://t.me/BWEtradfi/6503",
+          "title": "*沃什：不要认为在今天的消费者物价指数报告发布后一切都很好",
+          "body": "*WARSH: DO NOT THINK AFTER TODAY'S CPI REPORT THAT EVERYTHING IS SWELL",
+          "tags": [],
+          "ts": 1784043734000,
+          "time": "23:42:14",
+          "receivedAt": 1784044222976,
+          "receivedTime": true
+        },
+        {
+          "id": "6502",
+          "url": "https://t.me/BWEtradfi/6502",
+          "title": "*WARSH：根据今天的数据，我并不认为“任务完成”是事实。",
+          "body": "*WARSH: 'MISSION ACCOMPLISHED' IS NOT MY VIEW AFTER TODAY'S DATA",
+          "tags": [],
+          "ts": 1784043720000,
+          "time": "23:42:00",
+          "receivedAt": 1784044222976,
+          "receivedTime": true
+        },
+        {
+          "id": "6501",
+          "url": "https://t.me/BWEtradfi/6501",
+          "title": "*特朗普：霍尔木兹海峡对除伊朗以外的所有船只开放",
+          "body": "*TRUMP: STRAIT OF HORMUZ OPEN TO ALL SHIP TRAFFIC EXCEPT IRAN *TRUMP: REPLACE 20% US REIMBURSEMENT FEE WITH MASSIVE TRADE AND INVESTMENT DEALS FROM GULF STATES *特朗普：用海湾国家的大规模贸易和投资协议取代美国20%的补偿费",
+          "tags": [],
+          "ts": 1784041477000,
+          "time": "23:04:37",
+          "receivedAt": 1784044222976,
+          "receivedTime": true
+        },
+        {
+          "id": "6500",
+          "url": "https://t.me/BWEtradfi/6500",
+          "title": "*WARSH：我们不想涉足救助业务",
+          "body": "*WARSH: WE DO NOT WANT TO BE IN THE BAILOUT BUSINESS *WARSH: WANT TO BE IN A POSITION WE AREN'T BAILING OUT ANYONE INCLUDING CRYPTO *WARSH：我们希望保持中立，不救助任何人，包括加密货币。",
+          "tags": [],
+          "ts": 1784040822000,
+          "time": "22:53:42",
+          "receivedAt": 1784044222976,
+          "receivedTime": true
+        },
         {
           "id": "6499",
           "url": "https://t.me/BWEtradfi/6499",
@@ -1766,21 +1821,422 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
         {
+          "id": "218691",
+          "url": "https://t.me/jin10light/218691",
+          "title": "沃什：我将坚定支持2%的通胀目标",
+          "body": "",
+          "tags": [],
+          "ts": 1784044206000,
+          "time": "23:50:06",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218690",
+          "url": "https://t.me/jin10light/218690",
+          "title": "沃什：不要认为今天的CPI报告出炉后一切已「万事大吉」",
+          "body": "",
+          "tags": [],
+          "ts": 1784043904000,
+          "time": "23:45:04",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218689",
+          "url": "https://t.me/jin10light/218689",
+          "title": "美联储主席沃什：今天的数据并不意味着“任务完成”。",
+          "body": "不要认为今天的CPI报告出炉后，一切就万事大吉了。 #美联储 #CPI ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美联储",
+            "#CPI"
+          ],
+          "ts": 1784043848000,
+          "time": "23:44:08",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218688",
+          "url": "https://t.me/jin10light/218688",
+          "title": "沃什：力求在周六前出台《GENIUS Act》的相关规则",
+          "body": "#美联储 #GENIUS Act",
+          "tags": [
+            "#美联储",
+            "#GENIUS"
+          ],
+          "ts": 1784043847000,
+          "time": "23:44:07",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218687",
+          "url": "https://t.me/jin10light/218687",
+          "title": "花旗跌幅扩大至5.5%，该公司正举行分析师电话会议",
+          "body": "#花旗 #BIT",
+          "tags": [
+            "#花旗",
+            "#BIT"
+          ],
+          "ts": 1784043847000,
+          "time": "23:44:07",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218686",
+          "url": "https://t.me/jin10light/218686",
+          "title": "美国政府将5939枚ETH转入Coinbase Prime",
+          "body": "#美国 #ETH #Coinbase Prime",
+          "tags": [
+            "#美国",
+            "#ETH",
+            "#Coinbase"
+          ],
+          "ts": 1784043541000,
+          "time": "23:39:01",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218685",
+          "url": "https://t.me/jin10light/218685",
+          "title": "沃什：美联储将设法深入讨论，降低发布声明的频率",
+          "body": "#美联储 #美国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1784043243000,
+          "time": "23:34:03",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218684",
+          "url": "https://t.me/jin10light/218684",
+          "title": "SK海力士ADR(SKHY.O)涨幅扩大至19%。",
+          "body": "",
+          "tags": [],
+          "ts": 1784042884000,
+          "time": "23:28:04",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218683",
+          "url": "https://t.me/jin10light/218683",
+          "title": "沃什：我们无法重返2006年那样的资产负债表规模",
+          "body": "#美联储 #美国 #美元",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#美元"
+          ],
+          "ts": 1784042524000,
+          "time": "23:22:04",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218682",
+          "url": "https://t.me/jin10light/218682",
+          "title": "数据中心公司Switch最早Q4 IPO，目标估值800亿美元",
+          "body": "#Switch #高盛 #摩根大通",
+          "tags": [
+            "#Switch",
+            "#高盛",
+            "#摩根大通"
+          ],
+          "ts": 1784042463000,
+          "time": "23:21:03",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218681",
+          "url": "https://t.me/jin10light/218681",
+          "title": "币安人生市值突破8亿美元，24小时涨超13%",
+          "body": "#HTX #BTC",
+          "tags": [
+            "#HTX",
+            "#BTC"
+          ],
+          "ts": 1784042282000,
+          "time": "23:18:02",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218680",
+          "url": "https://t.me/jin10light/218680",
+          "title": "国内新闻ï",
+          "body": "1.长鑫科技：发行价格为8.66元/股。 2. 全国用电负荷达15.51亿千瓦再创新高。 3. 已有基金公司递交主动ETF发行申请材料。 4. 央行：7月15日将开展14000亿元买断式逆回购操作，期限为6个月。 国际新闻ï 1.美联储主席沃什：美联储不会容忍通胀过高。 2. 美国纽约州将暂时禁止建设新的大型数据中心。 3. 美国CPI自2020年以来首次下降，核心指标持平。 4. 三星电子：目前未考虑发行美国存托凭证的可能性。 5. 中东局势— ①据伊朗国家媒体：伊朗阿巴斯港西部传出五声爆炸声。 ②伊朗外交部谴责英国将革命卫队列为国家支持的威胁。 ③...",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1784042047000,
+          "time": "23:14:07",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218679",
+          "url": "https://t.me/jin10light/218679",
+          "title": "美国政府将Bitfinex黑客案扣押29.671万枚USDT转入Coinbase Prime",
+          "body": "#美国 #USDT",
+          "tags": [
+            "#美国",
+            "#USDT"
+          ],
+          "ts": 1784042045000,
+          "time": "23:14:05",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218678",
+          "url": "https://t.me/jin10light/218678",
+          "title": "特朗普：仅封锁伊朗海运，以海湾投资取代美国20%补偿费",
+          "body": "7月14日讯，美国总统特朗普发文称：石油的流动性前所未有。 霍尔木兹海峡对除伊朗以外的所有船只开放——之所以将伊朗排除在外，是因为其领导层充斥着谎言、暴力与恶意，正将国家引向彻底毁灭的深渊。 我们将实施全面封锁，但仅针对往返于伊朗港口或运载与伊朗货物相关物资的船只。 我已决定取消“美国20%补偿费”这一要求，改为用海湾国家与美国达成的贸易和投资协议替代。 这些投资的规模将是巨大的。 伊朗造成数十万人死亡的日子已经结束，更重要的是，伊朗永远不会拥有核武器！ #特朗普 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1784041982000,
+          "time": "23:13:02",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218677",
+          "url": "https://t.me/jin10light/218677",
+          "title": "现货黄金短线走高，现报4098.99美元/盎司；现货白银日内涨2美元，现报59.67美元/盎司，涨幅3.47%。",
+          "body": "#黄金 #白银",
+          "tags": [
+            "#黄金",
+            "#白银"
+          ],
+          "ts": 1784041803000,
+          "time": "23:10:03",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218676",
+          "url": "https://t.me/jin10light/218676",
+          "title": "美国总统特朗普：霍尔木兹海峡对所有船只开放，但伊朗除外，这是因为他们那谎话连篇的领导层正将他们引向彻底毁灭之路。",
+          "body": "#特朗普 #霍尔木兹海峡 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#霍尔木兹海峡",
+            "#伊朗"
+          ],
+          "ts": 1784041623000,
+          "time": "23:07:03",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218675",
+          "url": "https://t.me/jin10light/218675",
+          "title": "美国总统特朗普：我决定用海湾国家与美国达成的贸易和投资协议替代美国要收取的20%通行费用。",
+          "body": "#美国 #特朗普 #海湾国家",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#海湾国家"
+          ],
+          "ts": 1784041622000,
+          "time": "23:07:02",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218674",
+          "url": "https://t.me/jin10light/218674",
+          "title": "特朗普：霍尔木兹海峡对所有船只开放，但伊朗除外",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1784041562000,
+          "time": "23:06:02",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218673",
+          "url": "https://t.me/jin10light/218673",
+          "title": "沃什：即便遭特朗普谴责，我也要根据数据来采取行动",
+          "body": "#美国 #FED #特朗普",
+          "tags": [
+            "#美国",
+            "#FED",
+            "#特朗普"
+          ],
+          "ts": 1784041507000,
+          "time": "23:05:07",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218672",
+          "url": "https://t.me/jin10light/218672",
+          "title": "英国将推迟对DeFi借贷和流动性池存款征收资本利得税",
+          "body": "#英国 #加密资产 #DeFi",
+          "tags": [
+            "#英国",
+            "#加密资产",
+            "#DeFi"
+          ],
+          "ts": 1784041507000,
+          "time": "23:05:07",
+          "receivedAt": 1784044225633,
+          "receivedTime": true
+        },
+        {
+          "id": "218671",
+          "url": "https://t.me/jin10light/218671",
+          "title": "截至23:00收盘，国内期货主力合约涨多跌少，燃料油涨超4%，低硫燃料油（LU）涨超3%，乙二醇（EG）涨近3%，苯乙烯（EB）、沥青涨超2%，丙烯、纯苯涨近2%。",
+          "body": "跌幅方面，纯碱、玻璃小幅下跌。 #国内期货 #燃料油 #乙二醇",
+          "tags": [
+            "#国内期货",
+            "#燃料油",
+            "#乙二醇"
+          ],
+          "ts": 1784041261000,
+          "time": "23:01:01",
+          "receivedAt": 1784044225866,
+          "receivedTime": true
+        },
+        {
+          "id": "218670",
+          "url": "https://t.me/jin10light/218670",
+          "title": "沃什：美联储不想涉足救助业务，包括在加密货币领域",
+          "body": "#美联储 #加密行业",
+          "tags": [
+            "#美联储",
+            "#加密行业"
+          ],
+          "ts": 1784041083000,
+          "time": "22:58:03",
+          "receivedAt": 1784044225866,
+          "receivedTime": true
+        },
+        {
+          "id": "218669",
+          "url": "https://t.me/jin10light/218669",
+          "title": "美国软件股重挫，IBM业绩逊于预期引发投资者担忧",
+          "body": "#IBM #美股 #微软",
+          "tags": [
+            "#IBM",
+            "#美股",
+            "#微软"
+          ],
+          "ts": 1784040842000,
+          "time": "22:54:02",
+          "receivedAt": 1784044225866,
+          "receivedTime": true
+        },
+        {
+          "id": "218668",
+          "url": "https://t.me/jin10light/218668",
+          "title": "SK海力士ADR期权交易初期倾向于短期合约",
+          "body": "#SK海力士 #美国 #期权交易 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#SK海力士",
+            "#美国",
+            "#期权交易"
+          ],
+          "ts": 1784040122000,
+          "time": "22:42:02",
+          "receivedAt": 1784044225866,
+          "receivedTime": true
+        },
+        {
+          "id": "218667",
+          "url": "https://t.me/jin10light/218667",
+          "title": "全国用电负荷达15.51亿千瓦再创新高",
+          "body": "7月14日讯，从国家能源局了解到，继7月10日全国用电负荷15.18亿千瓦首创新高后，7月14日全国用电负荷再创新高，达到15.51亿千瓦。 国家发展改革委、国家能源局充分发挥全国统一电力市场体系作用，加强电力互济，7月10日跨省跨区跨网最大输送电力合计2.63亿千瓦，7月14日合计2.78亿千瓦，有力支撑全国用电保障。 目前，全国能源电力供需形势总体平稳。 #中国 #用电负荷 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#中国",
+            "#用电负荷"
+          ],
+          "ts": 1784040061000,
+          "time": "22:41:01",
+          "receivedAt": 1784044225866,
+          "receivedTime": true
+        },
+        {
+          "id": "218666",
+          "url": "https://t.me/jin10light/218666",
+          "title": "英伟达与三菱重工就AI数据中心的冷却和电力合作进行洽谈",
+          "body": "#英伟达 #三菱重工",
+          "tags": [
+            "#英伟达",
+            "#三菱重工"
+          ],
+          "ts": 1784039581000,
+          "time": "22:33:01",
+          "receivedAt": 1784044225866,
+          "receivedTime": true
+        },
+        {
+          "id": "218665",
+          "url": "https://t.me/jin10light/218665",
+          "title": "美联储主席沃什：我们希望通胀上升幅度更为有限。",
+          "body": "",
+          "tags": [],
+          "ts": 1784039168000,
+          "time": "22:26:08",
+          "receivedAt": 1784044225866,
+          "receivedTime": true
+        },
+        {
+          "id": "218664",
+          "url": "https://t.me/jin10light/218664",
+          "title": "美联储主席沃什：我们希望经济增长更加广泛。 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "body": "",
+          "tags": [],
+          "ts": 1784039106000,
+          "time": "22:25:06",
+          "receivedAt": 1784044225866,
+          "receivedTime": true
+        },
+        {
+          "id": "218663",
+          "url": "https://t.me/jin10light/218663",
+          "title": "长鑫科技创始人朱一明身家超300亿元",
+          "body": "#长鑫科技 #朱一明 #科创板",
+          "tags": [
+            "#长鑫科技",
+            "#朱一明",
+            "#科创板"
+          ],
+          "ts": 1784038921000,
+          "time": "22:22:01",
+          "receivedAt": 1784044225866,
+          "receivedTime": true
+        },
+        {
           "id": "218662",
           "url": "https://t.me/jin10light/218662",
-          "title": "高盛(GS.N)涨超8%，股价创历史新高。",
-          "body": "#高盛 #GS .N #股价创新高",
-          "tags": [
-            "#高盛",
-            "#GS",
-            "#股价创新高"
-          ],
+          "title": "高盛涨超8%，股价创历史新高",
+          "body": "",
+          "tags": [],
           "ts": 1784038682000,
           "time": "22:18:02",
           "receivedAt": 1784038683179,
@@ -18491,427 +18947,6 @@
           "time": "09:13:02",
           "receivedAt": 1783656318345,
           "receivedTime": true
-        },
-        {
-          "id": "217490",
-          "url": "https://t.me/jin10light/217490",
-          "title": "SK海力士在美完成ADR发售募资265亿美元，创外企赴美IPO纪录",
-          "body": "#SK 海力士 #美国 #纳斯达克",
-          "tags": [
-            "#SK",
-            "#美国",
-            "#纳斯达克"
-          ],
-          "ts": 1783645622000,
-          "time": "09:07:02",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217489",
-          "url": "https://t.me/jin10light/217489",
-          "title": "1. MINIMAX-W( 00100.HK )拟折价9.8%配股筹资逾95亿港元。",
-          "body": "2. 晶合集成( 02249.HK )今日上市，获逾344倍认购，以上限定价，每股32.3港元。 3. 大族数控( 03200.HK )：预计上半年净利润约人民币9亿元–10亿元，同比增长241.85%–279.84%。 4. 紫金矿业( 02899.HK )：预计2026年半年度归属于上市公司股东的净利润约391亿元，同比增长68%。 5. 瑞浦兰钧( 00666.HK )：预计2026年上半年净利润区间为人民币7亿元至人民币8.5亿元，同比扭亏为盈。 6. 兆易创新( 03986.HK )：预计2026年半年度归属于上市公司股东的净利润为69亿元左...",
-          "tags": [],
-          "ts": 1783645444000,
-          "time": "09:04:04",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217488",
-          "url": "https://t.me/jin10light/217488",
-          "title": "早盘开盘，国内期货主力合约跌多涨少，SC原油跌超3%，焦煤跌近3%，纯苯、焦炭跌超2%，燃料油、低硫燃料油（LU）跌近2%，聚丙烯、聚丙烯月均跌超1%。",
-          "body": "涨幅方面，沪银涨超3%，纸浆、沪锡涨超2%，铂、钯、多晶硅、国际铜、沪铜、沪锌、沪金、鸡蛋涨超1%。 #SC原油 #沪银 #铂",
-          "tags": [
-            "#SC原油",
-            "#沪银",
-            "#铂"
-          ],
-          "ts": 1783645323000,
-          "time": "09:02:03",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217487",
-          "url": "https://t.me/jin10light/217487",
-          "title": "Polymarket寻求在美国提供合法保证金交易",
-          "body": "#Polymarket #美国 #FCM",
-          "tags": [
-            "#Polymarket",
-            "#美国",
-            "#FCM"
-          ],
-          "ts": 1783644723000,
-          "time": "08:52:03",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217486",
-          "url": "https://t.me/jin10light/217486",
-          "title": "美联储组建五个外部工作组，全面审查货币政策运行机制",
-          "body": "#美联储 #美国 #凯文·沃什",
-          "tags": [
-            "#美联储",
-            "#美国",
-            "#凯文"
-          ],
-          "ts": 1783644544000,
-          "time": "08:49:04",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217485",
-          "url": "https://t.me/jin10light/217485",
-          "title": "Bitwise：比特币每轮周期底部都在抬升，机构投资者正逢低买入",
-          "body": "#BTC #美国 #AI",
-          "tags": [
-            "#BTC",
-            "#美国",
-            "#AI"
-          ],
-          "ts": 1783644362000,
-          "time": "08:46:02",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217484",
-          "url": "https://t.me/jin10light/217484",
-          "title": "SK海力士：计划在ADR上市中筹集40万亿韩元，此前为43万亿韩元",
-          "body": "#SK海力士 #ADR",
-          "tags": [
-            "#SK海力士",
-            "#ADR"
-          ],
-          "ts": 1783644001000,
-          "time": "08:40:01",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217483",
-          "url": "https://t.me/jin10light/217483",
-          "title": "美国新罕布什尔州否决1亿美元州政府比特币债券项目",
-          "body": "#美国 #BTC #新罕布什尔州",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#新罕布什尔州"
-          ],
-          "ts": 1783643881000,
-          "time": "08:38:01",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217482",
-          "url": "https://t.me/jin10light/217482",
-          "title": "Coinbase首席法律官Paul Grewal将卸任，并转任顾问角色",
-          "body": "#Coinbase #Paul Grewal #美国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Coinbase",
-            "#Paul",
-            "#美国"
-          ],
-          "ts": 1783643764000,
-          "time": "08:36:04",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217481",
-          "url": "https://t.me/jin10light/217481",
-          "title": "高盛禁止员工参与金融和政治相关的预测市场交易",
-          "body": "#高盛 #预测市场 #BTC",
-          "tags": [
-            "#高盛",
-            "#预测市场",
-            "#BTC"
-          ],
-          "ts": 1783643643000,
-          "time": "08:34:03",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217480",
-          "url": "https://t.me/jin10light/217480",
-          "title": "某鲸鱼此前仅花费2480美元买入「币安人生」，已累计套现约942万美元",
-          "body": "#Binance #BNB #余烬",
-          "tags": [
-            "#Binance",
-            "#BNB",
-            "#余烬"
-          ],
-          "ts": 1783643341000,
-          "time": "08:29:01",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217479",
-          "url": "https://t.me/jin10light/217479",
-          "title": "特朗普重启对伊朗打击，共和党担忧拖累中期选举",
-          "body": "#特朗普 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1783643103000,
-          "time": "08:25:03",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217478",
-          "url": "https://t.me/jin10light/217478",
-          "title": "美股收盘半导体、光通信及存储股集体走强，LITE涨超11%、ARM涨超9%",
-          "body": "#美股 #半导体股 #光通信概念 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#美股",
-            "#半导体股",
-            "#光通信概念"
-          ],
-          "ts": 1783642741000,
-          "time": "08:19:01",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217477",
-          "url": "https://t.me/jin10light/217477",
-          "title": "美官员：美伊相关技术谈判仍在继续",
-          "body": "#美国 #伊朗",
-          "tags": [
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1783642441000,
-          "time": "08:14:01",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217476",
-          "url": "https://t.me/jin10light/217476",
-          "title": "Meta否认算力过剩：有时候出租比自用更具价值",
-          "body": "#Meta #扎克伯格 #算力",
-          "tags": [
-            "#Meta",
-            "#扎克伯格",
-            "#算力"
-          ],
-          "ts": 1783642201000,
-          "time": "08:10:01",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217475",
-          "url": "https://t.me/jin10light/217475",
-          "title": "MINIMAX拟折价9.8%配股筹资逾95亿港元",
-          "body": "7月10日讯，MINIMAX-W( 00100.HK )在港交所公告，拟配售3560万股新A类股份，配售价为每股268.00港元（折价9.89%），预计配售所得款项约为95.408亿港元。 #MINIMAX -W #港交所 #配股筹资",
-          "tags": [
-            "#MINIMAX",
-            "#港交所",
-            "#配股筹资"
-          ],
-          "ts": 1783642021000,
-          "time": "08:07:01",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217474",
-          "url": "https://t.me/jin10light/217474",
-          "title": "OpenAI正式推出GPT-5.6系列模型",
-          "body": "#OpenAI #GPT -5.6 #Sol",
-          "tags": [
-            "#OpenAI",
-            "#GPT",
-            "#Sol"
-          ],
-          "ts": 1783641961000,
-          "time": "08:06:01",
-          "receivedAt": 1783656318345,
-          "receivedTime": true
-        },
-        {
-          "id": "217473",
-          "url": "https://t.me/jin10light/217473",
-          "title": "SK海力士：计划在ADR上市中筹集40万亿韩元，此前为43万亿韩元。",
-          "body": "#好的 #比如比特币",
-          "tags": [
-            "#好的",
-            "#比如比特币"
-          ],
-          "ts": 1783638181000,
-          "time": "07:03:01",
-          "receivedAt": 1783641705795,
-          "receivedTime": true
-        },
-        {
-          "id": "217472",
-          "url": "https://t.me/jin10light/217472",
-          "title": "今日重点关注的财经数据与事件：2026年7月10日 周五",
-          "body": "① 待定 SK海力士ADR上市 ② 14:00 德国6月CPI月率终值 ③ 14:45 法国6月CPI月率终值 ④ 15:00 瑞士6月消费者信心指数 ⑤ 16:00 IEA公布月度原油市场报告 ⑥ 20:30 加拿大6月就业人数 ⑦ 次日01:00 美国至7月10日当周石油钻井总数 #SK海力士 #德国 #法国",
-          "tags": [
-            "#SK海力士",
-            "#德国",
-            "#法国"
-          ],
-          "ts": 1783637461000,
-          "time": "06:51:01",
-          "receivedAt": 1783637816950,
-          "receivedTime": true
-        },
-        {
-          "id": "217471",
-          "url": "https://t.me/jin10light/217471",
-          "title": "国内新闻ï",
-          "body": "1.新版国家基本药物目录发布，共收录药品794种。 2. 兆易创新：预计上半年净利润69亿元左右，同比增长1099%左右。 3. 工业富联：预计上半年净利润234亿元-244亿元，同比增长93%-101%。 4. 统计局：2026年6月份，全国居民消费价格同比上涨1.0%，全国工业生产者出厂价格同比上涨4.1%。 5. 中汽协：今年1至6月份，我国新能源汽车产销量分别完成743.8万辆和744.6万辆，同比分别增长6.7%和7.3%。 6. 国务院印发《“十五五”碳达峰行动方案》：到2030年，非化石能源消费占比达到25%，新能源汽车保有量占比力争达到...",
-          "tags": [
-            "#中国",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1783636324000,
-          "time": "06:32:04",
-          "receivedAt": 1783637816950,
-          "receivedTime": true
-        },
-        {
-          "id": "217470",
-          "url": "https://t.me/jin10light/217470",
-          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加3.14吨，当前持仓量为1005.648吨。",
-          "body": "#黄金 #SPDR Gold Trust",
-          "tags": [
-            "#黄金",
-            "#SPDR"
-          ],
-          "ts": 1783636081000,
-          "time": "06:28:01",
-          "receivedAt": 1783637816950,
-          "receivedTime": true
-        },
-        {
-          "id": "217469",
-          "url": "https://t.me/jin10light/217469",
-          "title": "据NewsNation：美国官员表示，与伊朗的技术层面谈判仍在继续，美国仍致力于寻求解决方案。",
-          "body": "伊朗绝不能拥有核武器。 #美国 #伊朗",
-          "tags": [
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1783632781000,
-          "time": "05:33:01",
-          "receivedAt": 1783633466264,
-          "receivedTime": true
-        },
-        {
-          "id": "217468",
-          "url": "https://t.me/jin10light/217468",
-          "title": "冲突情å",
-          "body": "1.伊朗打击位于科威特和巴林的共四个美军基地，称这只是“第一阶段”。 2. 美国中央司令部：美军完成新一轮对伊朗打击，对伊朗沿海约90个军事目标发动袭击。 3. 伊朗革命卫队：如果美国再次发动攻击，我们的反应将扩展到地区的其他美国基地。 4. 美军动用巡航导弹袭击伊朗北部两座铁路桥，为自美伊4月8日达成停火以来，美方首次对伊朗基础设施发动袭击。 5. 据伊朗迈赫尔通讯社：伊朗南部布什尔地区传出爆炸声。 6. 据伊朗国家媒体：伊朗布什尔核电站周边遭到美国炮弹袭击。 7. 据伊朗塔斯尼姆通讯社：科威特境内的阿里·萨利姆空军基地及港口区域发生爆炸。 8. 据...",
-          "tags": [
-            "#伊朗",
-            "#美国",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1783632721000,
-          "time": "05:32:01",
-          "receivedAt": 1783633466264,
-          "receivedTime": true
-        },
-        {
-          "id": "217467",
-          "url": "https://t.me/jin10light/217467",
-          "title": "美股收盘：三大股指收涨 芯片股走强",
-          "body": "7月10日讯，美股周四收盘，道指初步收涨0.26%，标普500指数涨0.8%，纳指涨1.3%。 美光科技(MU.O)涨4.5%，闪迪(SNDK.O)涨7.5%，西部数据(WDC.O)涨5%。 Meta Platforms(META.O)涨4.7%。 纳斯达克中国金龙指数涨0.56%，爱奇艺(IQ.O)涨8.5%，阿里巴巴(BABA.N)涨2%。 #美股 #芯片股 #阿里巴巴",
-          "tags": [
-            "#美股",
-            "#芯片股",
-            "#阿里巴巴"
-          ],
-          "ts": 1783627381000,
-          "time": "04:03:01",
-          "receivedAt": 1783627976517,
-          "receivedTime": true
-        },
-        {
-          "id": "217466",
-          "url": "https://t.me/jin10light/217466",
-          "title": "据伊朗国家电视台：近期在伊朗阿巴斯港、格什姆岛、西里克和贾斯克等地均未记录到任何爆炸事件。",
-          "body": "#伊朗 #阿巴斯港",
-          "tags": [
-            "#伊朗",
-            "#阿巴斯港"
-          ],
-          "ts": 1783624622000,
-          "time": "03:17:02",
-          "receivedAt": 1783627976517,
-          "receivedTime": true
-        },
-        {
-          "id": "217465",
-          "url": "https://t.me/jin10light/217465",
-          "title": "据伊朗国家电视台：伊朗阿巴斯港发生爆炸的报道是错误的。",
-          "body": "#伊朗 #阿巴斯港",
-          "tags": [
-            "#伊朗",
-            "#阿巴斯港"
-          ],
-          "ts": 1783624441000,
-          "time": "03:14:01",
-          "receivedAt": 1783627976517,
-          "receivedTime": true
-        },
-        {
-          "id": "217464",
-          "url": "https://t.me/jin10light/217464",
-          "title": "美联储主席沃什：美联储对物价稳定和充分就业目标的承诺“坚定不移”。",
-          "body": "#美联储 #物价稳定 #充分就业",
-          "tags": [
-            "#美联储",
-            "#物价稳定",
-            "#充分就业"
-          ],
-          "ts": 1783623783000,
-          "time": "03:03:03",
-          "receivedAt": 1783627976517,
-          "receivedTime": true
-        },
-        {
-          "id": "217463",
-          "url": "https://t.me/jin10light/217463",
-          "title": "美联储宣布工作组领导层及目标。",
-          "body": "#美联储",
-          "tags": [
-            "#美联储"
-          ],
-          "ts": 1783623724000,
-          "time": "03:02:04",
-          "receivedAt": 1783627976517,
-          "receivedTime": true
-        },
-        {
-          "id": "217462",
-          "url": "https://t.me/jin10light/217462",
-          "title": "美官员称伊朗最新遭袭与美国无关",
-          "body": "7月10日讯，据Axios记者称，一位美国高级官员表示，美国军方与伊朗最新遭受的袭击无关。 此前伊朗南部传出爆炸声。 #美国 #伊朗",
-          "tags": [
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1783623241000,
-          "time": "02:54:01",
-          "receivedAt": 1783627976517,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20218,7 +20253,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
