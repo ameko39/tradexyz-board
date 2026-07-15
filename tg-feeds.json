@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-07-15T17:36:52.147Z",
+  "updatedAt": "2026-07-15T18:42:27.320Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6523",
+          "url": "https://t.me/BWEtradfi/6523",
+          "title": "美国曾探讨对古巴进行空袭的可能性：哥伦比亚广播公司",
+          "body": "*US HAS EXPLORED POSSIBILITY OF AIR ASSAULT ON CUBA: CBS",
+          "tags": [],
+          "ts": 1784140356000,
+          "time": "02:32:36",
+          "receivedAt": 1784140931190,
+          "receivedTime": true
+        },
+        {
+          "id": "6522",
+          "url": "https://t.me/BWEtradfi/6522",
+          "title": "*万斯：我们正在努力降低利率：JRE播客",
+          "body": "*VANCE: WE'RE TRYING TO LOWER INTEREST RATES: JRE PODCAST *VANCE: BIG MISTAKE NOT HITTING BIG TECH WITH ANTITRUST IN 2000S; WE MUST BE WILLING TO USE IT IN 21ST CENTURY *VANCE: BIG AI RISK IS A HYPER-MONOPOLIST DOMINATING THE SPACE AND INFLUENCING GOVERNMENT *VANCE: IF AI… *万斯：2000年代没有对大型科技公司采取反垄断措...",
+          "tags": [],
+          "ts": 1784137696000,
+          "time": "01:48:16",
+          "receivedAt": 1784140931190,
+          "receivedTime": true
+        },
         {
           "id": "6521",
           "url": "https://t.me/BWEtradfi/6521",
@@ -1787,6 +1809,48 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "219114",
+          "url": "https://t.me/jin10light/219114",
+          "title": "美国总统特朗普：（关于伊朗）不喜欢设定最后期限。",
+          "body": "#特朗普 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#伊朗"
+          ],
+          "ts": 1784140201000,
+          "time": "02:30:01",
+          "receivedAt": 1784140933049,
+          "receivedTime": true
+        },
+        {
+          "id": "219113",
+          "url": "https://t.me/jin10light/219113",
+          "title": "美联储褐皮书：5月底至6月期间，美联储12个辖区中有11个地区经济活动以轻微至温和速度增长，另一个地区报告经济活动没有变化。",
+          "body": "#美联储 #美国 #经济活动",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#经济活动"
+          ],
+          "ts": 1784138463000,
+          "time": "02:01:03",
+          "receivedAt": 1784140933049,
+          "receivedTime": true
+        },
+        {
+          "id": "219112",
+          "url": "https://t.me/jin10light/219112",
+          "title": "美联储将于十分钟后公布经济状况褐皮书。",
+          "body": "#美联储",
+          "tags": [
+            "#美联储"
+          ],
+          "ts": 1784137863000,
+          "time": "01:51:03",
+          "receivedAt": 1784140933049,
+          "receivedTime": true
+        },
         {
           "id": "219111",
           "url": "https://t.me/jin10light/219111",
@@ -18822,50 +18886,6 @@
           "ts": 1783861625000,
           "time": "21:07:05",
           "receivedAt": 1783865716543,
-          "receivedTime": true
-        },
-        {
-          "id": "217914",
-          "url": "https://t.me/jin10light/217914",
-          "title": "伊朗：霍尔木兹海峡目前无法通行",
-          "body": "#伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1783861382000,
-          "time": "21:03:02",
-          "receivedAt": 1783865716543,
-          "receivedTime": true
-        },
-        {
-          "id": "217913",
-          "url": "https://t.me/jin10light/217913",
-          "title": "Michael Saylor再次发布比特币Tracker信息",
-          "body": "#BTC #Michael Saylor #Strategy ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#BTC",
-            "#Michael",
-            "#Strategy"
-          ],
-          "ts": 1783859701000,
-          "time": "20:35:01",
-          "receivedAt": 1783860220794,
-          "receivedTime": true
-        },
-        {
-          "id": "217912",
-          "url": "https://t.me/jin10light/217912",
-          "title": "企业级公链ENI官宣启动ENI Superteam全球招募，首批锁定日韩及东南亚四国",
-          "body": "#ENI #日本 #韩国",
-          "tags": [
-            "#ENI",
-            "#日本",
-            "#韩国"
-          ],
-          "ts": 1783859282000,
-          "time": "20:28:02",
-          "receivedAt": 1783860220794,
           "receivedTime": true
         }
       ],
