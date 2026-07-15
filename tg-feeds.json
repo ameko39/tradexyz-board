@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-07-15T19:50:42.718Z",
+  "updatedAt": "2026-07-15T20:45:11.991Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6531",
+          "url": "https://t.me/BWEtradfi/6531",
+          "title": "AST SPACEMOBILE 将发行 10 亿美元 2034 年到期可转换优先票据",
+          "body": "*AST SPACEMOBILE TO OFFER $1B OF CONV SR NOTES DUE '34 $ASTS",
+          "tags": [],
+          "ts": 1784145670000,
+          "time": "04:01:10",
+          "receivedAt": 1784148296729,
+          "receivedTime": true
+        },
+        {
+          "id": "6530",
+          "url": "https://t.me/BWEtradfi/6530",
+          "title": "DB: *标普500指数收盘上涨0.4%，纳斯达克指数上涨0.6%",
+          "body": "DB: *S&P 500 CLOSES UP 0.4%, NASDAQ UP 0.6%",
+          "tags": [],
+          "ts": 1784145612000,
+          "time": "04:00:12",
+          "receivedAt": 1784148296729,
+          "receivedTime": true
+        },
         {
           "id": "6529",
           "url": "https://t.me/BWEtradfi/6529",
@@ -1857,24 +1879,42 @@
           "time": "04:50:54",
           "receivedAt": 1782856042326,
           "receivedTime": true
-        },
-        {
-          "id": "6362",
-          "url": "https://t.me/BWEtradfi/6362",
-          "title": "DB: 标准普尔500指数收盘上涨0.8%，纳斯达克指数上涨1.7%",
-          "body": "DB: *S&P 500 CLOSES 0.8% HIGHER, NASDAQ RISES 1.7%",
-          "tags": [],
-          "ts": 1782849612000,
-          "time": "04:00:12",
-          "receivedAt": 1782850460859,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "219122",
+          "url": "https://t.me/jin10light/219122",
+          "title": "SPACEXAI：开源Grok构建，SPACEXAI的编码代理和TUI。",
+          "body": "#SPACEXAI #Grok",
+          "tags": [
+            "#SPACEXAI",
+            "#Grok"
+          ],
+          "ts": 1784147641000,
+          "time": "04:34:01",
+          "receivedAt": 1784148297179,
+          "receivedTime": true
+        },
+        {
+          "id": "219121",
+          "url": "https://t.me/jin10light/219121",
+          "title": "美股收盘：三大股指小幅收涨 海力士跌9%",
+          "body": "7月16日讯，美股周三收盘，道指初步收涨0.29%，标普500指数涨0.38%，纳指涨0.6%。 苹果(AAPL.O)涨4%，阿斯麦(ASML.O)涨2%，SK海力士(SKHY.O)跌9%，闪迪(SNDK.O)跌8%，英特尔(INTC.O)跌4.4%。 纳斯达克中国金龙指数收涨2.9%，阿里巴巴(BABA.N)涨4.7%，百度(BIDU.O)涨1.5%。 #美股 #AAPL #ASML",
+          "tags": [
+            "#美股",
+            "#AAPL",
+            "#ASML"
+          ],
+          "ts": 1784145721000,
+          "time": "04:02:01",
+          "receivedAt": 1784148297179,
+          "receivedTime": true
+        },
         {
           "id": "219120",
           "url": "https://t.me/jin10light/219120",
@@ -18923,35 +18963,6 @@
           "ts": 1783867681000,
           "time": "22:48:01",
           "receivedAt": 1783869443386,
-          "receivedTime": true
-        },
-        {
-          "id": "217922",
-          "url": "https://t.me/jin10light/217922",
-          "title": "分析：BTC收复70,700美元是趋势转变首要信号，部分长期投资者已在低位吸筹",
-          "body": "#BTC #熊市 #STH成本基础 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#BTC",
-            "#熊市",
-            "#STH成本基础"
-          ],
-          "ts": 1783866361000,
-          "time": "22:26:01",
-          "receivedAt": 1783869443386,
-          "receivedTime": true
-        },
-        {
-          "id": "217921",
-          "url": "https://t.me/jin10light/217921",
-          "title": "特朗普：伊朗昨天已同意「完美协议」，但转头就开了火",
-          "body": "#特朗普 #伊朗",
-          "tags": [
-            "#特朗普",
-            "#伊朗"
-          ],
-          "ts": 1783865287000,
-          "time": "22:08:07",
-          "receivedAt": 1783865716543,
           "receivedTime": true
         }
       ],
