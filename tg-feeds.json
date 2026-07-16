@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T20:30:42.636Z",
+  "updatedAt": "2026-07-16T21:35:15.101Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1864,11 +1864,26 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "219485",
+          "url": "https://t.me/jin10light/219485",
+          "title": "据伊朗媒体：美军袭击了阿巴斯港铁路枢纽站，已造成2人受伤。",
+          "body": "#伊朗 #美军 #阿巴斯港",
+          "tags": [
+            "#伊朗",
+            "#美军",
+            "#阿巴斯港"
+          ],
+          "ts": 1784235001000,
+          "time": "04:50:01",
+          "receivedAt": 1784237694626,
+          "receivedTime": true
+        },
         {
           "id": "219484",
           "url": "https://t.me/jin10light/219484",
@@ -18947,21 +18962,6 @@
           ],
           "ts": 1783957861000,
           "time": "23:51:01",
-          "receivedAt": 1783963622515,
-          "receivedTime": true
-        },
-        {
-          "id": "218285",
-          "url": "https://t.me/jin10light/218285",
-          "title": "阶跃星辰正式做手机，STEPX Neo首秀",
-          "body": "#STEPX Neo #AI 终端 #L3 测试",
-          "tags": [
-            "#STEPX",
-            "#AI",
-            "#L3"
-          ],
-          "ts": 1783957681000,
-          "time": "23:48:01",
           "receivedAt": 1783963622515,
           "receivedTime": true
         }
