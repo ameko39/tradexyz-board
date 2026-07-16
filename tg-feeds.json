@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-07-16T19:35:48.721Z",
+  "updatedAt": "2026-07-16T20:30:42.636Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6547",
+          "url": "https://t.me/BWEtradfi/6547",
+          "title": "*伊朗半官方的法尔斯通讯社称，班达尔哈米尔的一座桥梁在美国袭击中成为目标",
+          "body": "*IRAN'S SEMI OFFICIAL FARS SAYS BRIDGE IN BANDAR KHAMIR TARGETED IN U.S. ATTACK",
+          "tags": [],
+          "ts": 1784232707000,
+          "time": "04:11:47",
+          "receivedAt": 1784233826528,
+          "receivedTime": true
+        },
+        {
+          "id": "6546",
+          "url": "https://t.me/BWEtradfi/6546",
+          "title": "*Netflix 第三季度营收预期：128.6亿美元，低于IBES预期的130.1亿美元",
+          "body": "*NETFLIX OUTLOOK Q3 REVENUE $12.86 BLN VS IBES ESTIMATE $13.01 BLN *NETFLIX OUTLOOK Q3 EPS $0.82 VS IBES ESTIMATE $0.84 $NFLX *Netflix 第三季度每股收益预期：0.82美元，低于IBES预期的0.84美元 $NFLX",
+          "tags": [],
+          "ts": 1784232073000,
+          "time": "04:01:13",
+          "receivedAt": 1784233826528,
+          "receivedTime": true
+        },
+        {
+          "id": "6545",
+          "url": "https://t.me/BWEtradfi/6545",
+          "title": "DB: *标普500指数收跌0.5%，纳斯达克指数下跌1.5%",
+          "body": "DB: *S&P 500 CLOSES 0.5% LOWER, NASDAQ DOWN 1.5%",
+          "tags": [],
+          "ts": 1784232012000,
+          "time": "04:00:12",
+          "receivedAt": 1784233826528,
+          "receivedTime": true
+        },
         {
           "id": "6544",
           "url": "https://t.me/BWEtradfi/6544",
@@ -1829,39 +1862,6 @@
           "time": "14:30:14",
           "receivedAt": 1782978344374,
           "receivedTime": true
-        },
-        {
-          "id": "6379",
-          "url": "https://t.me/BWEtradfi/6379",
-          "title": "*消息人士称，软银正与贷款方洽谈，拟以其持有的 OpenAI 股份作为抵押，获得 100 亿美元的保证金贷款，并提供还款担保。",
-          "body": "*SOFTBANK IN TALKS WITH LENDERS ON SECURING $10 BILLION MARGIN LOAN BACKED BY OPENAI STAKE AND REPAYMENT GUARANTEE, SOURCES SAY *PREVIOUS SOFTBANK EFFORTS TO SECURE LOAN AGAINST ITS OPENAI STAKE HAD STALLED DUE TO LACK OF LENDER SUPPORT, SOURCES SAY *消息人士称，此前软银曾试图以其持有的 OpenAI 股份作为抵押获得贷款，但由于缺乏贷款方支持而...",
-          "tags": [],
-          "ts": 1782936637000,
-          "time": "04:10:37",
-          "receivedAt": 1782937033251,
-          "receivedTime": true
-        },
-        {
-          "id": "6378",
-          "url": "https://t.me/BWEtradfi/6378",
-          "title": "DB: 标准普尔500指数收跌0.2%，纳斯达克指数下跌0.7%",
-          "body": "DB: *S&P 500 CLOSES DOWN 0.2%, NASDAQ DECLINES 0.7%",
-          "tags": [],
-          "ts": 1782936012000,
-          "time": "04:00:12",
-          "receivedAt": 1782937033251,
-          "receivedTime": true
-        },
-        {
-          "id": "6377",
-          "url": "https://t.me/BWEtradfi/6377",
-          "title": "*苹果公司正与特朗普政府就从中国公司采购芯片进行谈判",
-          "body": "*APPLE IN TALKS WITH TRUMP ADMINISTRATION ON CHIP PURCHASES FROM CHINESE COMPANIES $AAPL $AAPL",
-          "tags": [],
-          "ts": 1782935710000,
-          "time": "03:55:10",
-          "receivedAt": 1782937033251,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1869,6 +1869,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "219484",
+          "url": "https://t.me/jin10light/219484",
+          "title": "奈飞(NFLX.O)第二季度营收为125.6亿美元，市场预期为125.9亿美元。",
+          "body": "#NFLX #奈飞",
+          "tags": [
+            "#NFLX",
+            "#奈飞"
+          ],
+          "ts": 1784232241000,
+          "time": "04:04:01",
+          "receivedAt": 1784233827042,
+          "receivedTime": true
+        },
+        {
+          "id": "219483",
+          "url": "https://t.me/jin10light/219483",
+          "title": "美股收盘：三大股指收跌 SK海力士跌13%",
+          "body": "7月17日讯，美股周四收盘，纳指初步收跌1.47%，道指跌0.2%，标普500指数跌0.5%。 SK海力士ADR(SKHY.O)收跌13.6%，闪迪(SNDK.O)跌12.6%，美光科技(MU.O)跌5.6%，谷歌(GOOG.O)跌超4%，英伟达(NVDA.O)跌超2%。 纳斯达克中国金龙指数收涨1.8%，腾讯音乐(TME.N)涨4%。 #美股 #SKHY .O #TME .N",
+          "tags": [
+            "#美股",
+            "#SKHY",
+            "#TME"
+          ],
+          "ts": 1784232181000,
+          "time": "04:03:01",
+          "receivedAt": 1784233827042,
+          "receivedTime": true
+        },
         {
           "id": "219482",
           "url": "https://t.me/jin10light/219482",
@@ -18933,36 +18962,6 @@
           ],
           "ts": 1783957681000,
           "time": "23:48:01",
-          "receivedAt": 1783963622515,
-          "receivedTime": true
-        },
-        {
-          "id": "218284",
-          "url": "https://t.me/jin10light/218284",
-          "title": "国内新闻ï",
-          "body": "1.国家药监局和国家医保局联合检查药店和医疗机构。 2. 长征五号遥十四火箭运抵文昌，将执行嫦娥七号发射任务。 3. 中共中央办公厅、国务院办公厅发布关于完善自然资源资产管理制度体系的意见。 4. 国务院日前印发《国民健康“十五五”规划》：到2030年，人均预期寿命达到80岁。 5. 国务院批复《扩大消费“十五五”规划》：目标到2030年，社会消费品零售总额达到60万亿元左右。 6. 李强主持召开经济形势专家和企业家座谈会，听取对当前经济形势和下一步经济工作的意见建议。 国际新闻ï 1.市场定价显示，美联储到9月至少加息一次的预期几乎被完全消化，并充分...",
-          "tags": [
-            "#中国",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1783957444000,
-          "time": "23:44:04",
-          "receivedAt": 1783963622515,
-          "receivedTime": true
-        },
-        {
-          "id": "218283",
-          "url": "https://t.me/jin10light/218283",
-          "title": "数据：DeFi总TVL过去一年下滑42%，Morpho上USDC存款逆势增长86%",
-          "body": "#USDC #Morpho #DeFi",
-          "tags": [
-            "#USDC",
-            "#Morpho",
-            "#DeFi"
-          ],
-          "ts": 1783957263000,
-          "time": "23:41:03",
           "receivedAt": 1783963622515,
           "receivedTime": true
         }
