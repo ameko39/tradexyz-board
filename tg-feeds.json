@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-16T18:16:57.832Z",
+  "updatedAt": "2026-07-16T19:35:48.721Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6544",
+          "url": "https://t.me/BWEtradfi/6544",
+          "title": "*伊朗称特朗普关于释放美国囚犯的说法不实",
+          "body": "*IRAN SAYS TRUMP'S CLAIM OF US PRISONER RELEASE IS FALSE *IRAN'S JUDICIARY SAYS NO US DETAINEE FREED FROM IRAN: MIZAN *伊朗司法部门表示，没有美国被拘留者从伊朗获释：米赞",
+          "tags": [],
+          "ts": 1784227564000,
+          "time": "02:46:04",
+          "receivedAt": 1784230533982,
+          "receivedTime": true
+        },
         {
           "id": "6543",
           "url": "https://t.me/BWEtradfi/6543",
@@ -1851,20 +1862,6 @@
           "time": "03:55:10",
           "receivedAt": 1782937033251,
           "receivedTime": true
-        },
-        {
-          "id": "6376",
-          "url": "https://t.me/BWEtradfi/6376",
-          "title": "埃隆·马斯克针对SpaceX设备和高通使用情况的推文“完全不实”回应",
-          "body": "*ELON TWEETS \"UTTERLY FALSE\" IN RESPONSE TO SPACEX DEVICE & QUALCOMM USAGE #SPCX • #QCOM",
-          "tags": [
-            "#SPCX",
-            "#QCOM"
-          ],
-          "ts": 1782930701000,
-          "time": "02:31:41",
-          "receivedAt": 1782937033251,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1872,6 +1869,34 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "219482",
+          "url": "https://t.me/jin10light/219482",
+          "title": "伊朗司法部门：暂无美国囚犯从伊朗监狱获释或交换。",
+          "body": "#伊朗 #美国",
+          "tags": [
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1784227801000,
+          "time": "02:50:01",
+          "receivedAt": 1784230534462,
+          "receivedTime": true
+        },
+        {
+          "id": "219481",
+          "url": "https://t.me/jin10light/219481",
+          "title": "美国连续五晚打击伊朗",
+          "body": "7月17日讯，美国中央司令部表示，美东时间周四下午2点（北京时间周五凌晨2点），美国军队开始对伊朗进行连续第五个夜晚的新一轮打击，以进一步削弱伊朗的军事能力。 #美国 #伊朗",
+          "tags": [
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1784226421000,
+          "time": "02:27:01",
+          "receivedAt": 1784230534462,
+          "receivedTime": true
+        },
         {
           "id": "219480",
           "url": "https://t.me/jin10light/219480",
@@ -18938,32 +18963,6 @@
           ],
           "ts": 1783957263000,
           "time": "23:41:03",
-          "receivedAt": 1783963622515,
-          "receivedTime": true
-        },
-        {
-          "id": "218282",
-          "url": "https://t.me/jin10light/218282",
-          "title": "美军将稍后公布「封锁伊朗」的具体启动时间 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "body": "",
-          "tags": [],
-          "ts": 1783956901000,
-          "time": "23:35:01",
-          "receivedAt": 1783963622515,
-          "receivedTime": true
-        },
-        {
-          "id": "218281",
-          "url": "https://t.me/jin10light/218281",
-          "title": "Robinhood Chain上线两周TVL突破1.35亿美元，Meme币交易远超RWA",
-          "body": "#ETH #Robinhood Chain #USDG",
-          "tags": [
-            "#ETH",
-            "#Robinhood",
-            "#USDG"
-          ],
-          "ts": 1783956482000,
-          "time": "23:28:02",
           "receivedAt": 1783963622515,
           "receivedTime": true
         }
