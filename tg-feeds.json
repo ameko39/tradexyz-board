@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T21:29:27.200Z",
+  "updatedAt": "2026-07-17T22:22:28.880Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1851,39 +1851,6 @@
           "time": "21:30:43",
           "receivedAt": 1783355942347,
           "receivedTime": true
-        },
-        {
-          "id": "6402",
-          "url": "https://t.me/BWEtradfi/6402",
-          "title": "特朗普：认为马斯克将把SpaceX股票捐赠给特朗普账户 $SPCX",
-          "body": "*TRUMP: THINK MUSK WILL DONATE SPACEX STOCK TO TRUMP ACCOUNTS $SPCX",
-          "tags": [],
-          "ts": 1783029002000,
-          "time": "05:50:02",
-          "receivedAt": 1783029049355,
-          "receivedTime": true
-        },
-        {
-          "id": "6401",
-          "url": "https://t.me/BWEtradfi/6401",
-          "title": "*TRUMP：我一直是以色列历史上最好的总统",
-          "body": "*TRUMP: I'VE BEEN THE BEST PRESIDENT IN THE HISTORY OF ISRAEL",
-          "tags": [],
-          "ts": 1783028525000,
-          "time": "05:42:05",
-          "receivedAt": 1783029049355,
-          "receivedTime": true
-        },
-        {
-          "id": "6400",
-          "url": "https://t.me/BWEtradfi/6400",
-          "title": "特朗普：我认为人工智能比互联网更重要",
-          "body": "*TRUMP: I THINK AI IS BIGGER THAN THE INTERNET",
-          "tags": [],
-          "ts": 1783027950000,
-          "time": "05:32:30",
-          "receivedAt": 1783029049355,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1891,6 +1858,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "219847",
+          "url": "https://t.me/jin10light/219847",
+          "title": "据伊朗国家电视台：伊朗革命卫队称，两艘油轮在驶经霍尔木兹海峡以南一条布设有水雷的航线后发生爆炸并起火。",
+          "body": "#伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1784325661000,
+          "time": "06:01:01",
+          "receivedAt": 1784326936057,
+          "receivedTime": true
+        },
         {
           "id": "219846",
           "url": "https://t.me/jin10light/219846",
@@ -18971,21 +18952,6 @@
           ],
           "ts": 1784035261000,
           "time": "21:21:01",
-          "receivedAt": 1784038683179,
-          "receivedTime": true
-        },
-        {
-          "id": "218647",
-          "url": "https://t.me/jin10light/218647",
-          "title": "重要新é",
-          "body": "1.美联储主席沃什：美联储不会容忍通胀过高。 2. 美国纽约州将暂时禁止建设新的大型数据中心。 3. 美国6月未季调CPI年率录得3.5%（前值4.2%），市场预期为3.8%；美国6月季调后CPI月率录得-0.4%，为2020年4月以来最大降幅。 4. 美国6月未季调核心CPI年率录得2.6%，市场预期为2.8%；美国6月未季调核心CPI月率录得0%，为2021年1月来最小增幅，市场预期为0.2%。 个股新é 1.SpaceX(SPCX.O)：成功部署27颗“星链”卫星。 2. 据市场消息，英伟达(NVDA.O)将亚洲买家名单减半。 3. 三星电子：目...",
-          "tags": [
-            "#美联储",
-            "#CPI",
-            "#英伟达"
-          ],
-          "ts": 1784034848000,
-          "time": "21:14:08",
           "receivedAt": 1784038683179,
           "receivedTime": true
         }
