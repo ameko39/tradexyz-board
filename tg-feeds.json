@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-17T16:52:57.136Z",
+  "updatedAt": "2026-07-17T17:52:50.422Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6567",
+          "url": "https://t.me/BWEtradfi/6567",
+          "title": "*NBC：利维特确认习近平访问计划照常进行",
+          "body": "*NBC: LEAVITT CONFIRMS XI JINPING’S VISIT REMAINS ON TRACK",
+          "tags": [],
+          "ts": 1784309141000,
+          "time": "01:25:41",
+          "receivedAt": 1784310752000,
+          "receivedTime": true
+        },
         {
           "id": "6566",
           "url": "https://t.me/BWEtradfi/6566",
@@ -1991,14 +2002,36 @@
       "channel": "jin10light",
       "items": [
         {
+          "id": "219835",
+          "url": "https://t.me/jin10light/219835",
+          "title": "据伊朗塔斯尼姆通讯社：知情人士称，伊朗革命卫队在霍尔木兹海峡袭击了一艘船只。",
+          "body": "#伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1784309761000,
+          "time": "01:36:01",
+          "receivedAt": 1784310754726,
+          "receivedTime": true
+        },
+        {
+          "id": "219834",
+          "url": "https://t.me/jin10light/219834",
+          "title": "Venice AI更新代币经济学：引入回购销毁机制，提升DIEM供应上限",
+          "body": "",
+          "tags": [],
+          "ts": 1784307361000,
+          "time": "00:56:01",
+          "receivedAt": 1784310754726,
+          "receivedTime": true
+        },
+        {
           "id": "219833",
           "url": "https://t.me/jin10light/219833",
-          "title": "美国至7月17日当周石油钻井总数将于十分钟后公布。",
-          "body": "#美国 #石油钻井",
-          "tags": [
-            "#美国",
-            "#石油钻井"
-          ],
+          "title": "美国至7月17日当周石油钻井总数 452口，前值445口。",
+          "body": "",
+          "tags": [],
           "ts": 1784307062000,
           "time": "00:51:02",
           "receivedAt": 1784307158487,
@@ -19070,35 +19103,6 @@
           ],
           "ts": 1784033341000,
           "time": "20:49:01",
-          "receivedAt": 1784038683399,
-          "receivedTime": true
-        },
-        {
-          "id": "218635",
-          "url": "https://t.me/jin10light/218635",
-          "title": "美国CPI自2020年以来首次下降，核心指标持平",
-          "body": "7月14日讯，美国6月份消费者价格六年来首次出现下滑，且一项衡量潜在通胀的关键指标基本持平，这在一定程度上缓解了美联储加息的压力。 根据美国劳工统计局周二公布的数据，消费者价格指数（CPI）较5月份下降0.4%，较上年同期上涨3.5%。 剔除食品和能源后的核心指数与5月份持平，较上年同期上涨2.6%。 该报告显示，随着伊朗战争引发的能源价格冲击最严重时期开始消退，6月份汽油价格的下跌为消费者带来了一定程度的缓解。 在美联储本月底召开会议之前，美联储官员可能会对这一数据表示欢迎；不过，美伊敌对局势重燃导致油价再次上涨，这可能延长该冲突引发的通胀影响。 随...",
-          "tags": [
-            "#美国",
-            "#CPI",
-            "#伊朗"
-          ],
-          "ts": 1784032864000,
-          "time": "20:41:04",
-          "receivedAt": 1784038683399,
-          "receivedTime": true
-        },
-        {
-          "id": "218634",
-          "url": "https://t.me/jin10light/218634",
-          "title": "沃什：AI机遇对决策者构成挑战",
-          "body": "#美联储 #AI",
-          "tags": [
-            "#美联储",
-            "#AI"
-          ],
-          "ts": 1784032744000,
-          "time": "20:39:04",
           "receivedAt": 1784038683399,
           "receivedTime": true
         }
