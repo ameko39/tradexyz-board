@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-17T18:45:18.079Z",
+  "updatedAt": "2026-07-17T19:49:15.777Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6568",
+          "url": "https://t.me/BWEtradfi/6568",
+          "title": "*特朗普：加拿大必须为其森林维护不善承担责任",
+          "body": "*TRUMP: HOLDING CANADA RESPONSIBLE FOR FACT THAT THEY ARE NOT PROPERLY MAINTAINING THEIR FORESTS *TRUMP: COSTS OF CANADIAN AIR POLLUTION MUST BE ADDED TO EXISTING TARIFFS ON CANADA *特朗普：加拿大空气污染的成本必须加到对加拿大征收的现有关税中",
+          "tags": [],
+          "ts": 1784316320000,
+          "time": "03:25:20",
+          "receivedAt": 1784317742656,
+          "receivedTime": true
+        },
         {
           "id": "6567",
           "url": "https://t.me/BWEtradfi/6567",
@@ -1961,28 +1972,6 @@
           "time": "04:00:14",
           "receivedAt": 1783025141862,
           "receivedTime": true
-        },
-        {
-          "id": "6390",
-          "url": "https://t.me/BWEtradfi/6390",
-          "title": "特斯拉将员工人工智能支出上限设定为每周200美元：The Information",
-          "body": "*TESLA CAPS EMPLOYEE AI SPEND AT $200/WEEK: INFORMATION $TSLA",
-          "tags": [],
-          "ts": 1783019410000,
-          "time": "03:10:10",
-          "receivedAt": 1783021610793,
-          "receivedTime": true
-        },
-        {
-          "id": "6389",
-          "url": "https://t.me/BWEtradfi/6389",
-          "title": "*META首席执行官马克·扎克伯格在内部市政厅会议上表示，过去四个月的AI代理开发并未“以我们预期的方式加速”。 $META",
-          "body": "*META CEO MARK ZUCKERBERG SAYS IN INTERNAL TOWN HALL THAT AI AGENT DEVELOPMENT OVER THE LAST FOUR MONTHS HASN'T 'ACCELERATED IN THE WAY WE EXPECTED' $META",
-          "tags": [],
-          "ts": 1783018495000,
-          "time": "02:54:55",
-          "receivedAt": 1783021610793,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1991,15 +1980,83 @@
       "channel": "jin10light",
       "items": [
         {
+          "id": "219841",
+          "url": "https://t.me/jin10light/219841",
+          "title": "伊朗最高领袖顾问：若美军继续行动，伊朗或转入全面进攻阶段",
+          "body": "7月18日讯，伊朗最高领袖顾问雷扎伊表示，若美国未来两三天持续发动攻击，伊朗将结束此前的威慑与对等反击策略，转向“全面进攻与摧毁”阶段，并可能直接打击美国境外军事基地和人员。 他称，伊朗此前克制是为避免地区冲突外溢，但美国的“误判”可能推动局势升级。 雷扎伊同时呼吁科威特、约旦、卡塔尔、阿联酋等地区国家和政府阻止美国和以色列扩大行动，并称美方“战争与谈判并行”的策略已经失败，伊朗未来几天将加强反击力度。 #伊朗 #美军 #雷扎伊",
+          "tags": [
+            "#伊朗",
+            "#美军",
+            "#雷扎伊"
+          ],
+          "ts": 1784315701000,
+          "time": "03:15:01",
+          "receivedAt": 1784317743069,
+          "receivedTime": true
+        },
+        {
+          "id": "219840",
+          "url": "https://t.me/jin10light/219840",
+          "title": "据悉SpaceX正洽谈为美国防部的AI项目提供数十亿美元算力",
+          "body": "7月18日讯，据华尔街日报报道，消息人士透露，SpaceX(SPCX.O)正与美国国防部洽谈，希望为该机构提供价值数十亿美元的算力，用于运行人工智能模型，进一步加强马斯克公司与美国防部之间的合作关系。 这些谈判仍在进行中，但有可能最终破裂。 据熟悉相关计划的人士称，SpaceX最近几个月已与Anthropic和谷歌签署了类似协议，目前正在计划大幅扩大其云计算业务。 据知情人士透露，最近几周，SpaceX的员工讨论了计划以更低的价格向人工智能客户提供算力，从而更直接地与CoreWeave等现有供应商竞争。 #SpaceX #美国国防部 #AI",
+          "tags": [
+            "#SpaceX",
+            "#美国国防部",
+            "#AI"
+          ],
+          "ts": 1784315461000,
+          "time": "03:11:01",
+          "receivedAt": 1784317743069,
+          "receivedTime": true
+        },
+        {
+          "id": "219839",
+          "url": "https://t.me/jin10light/219839",
+          "title": "伊朗最高领袖顾问雷扎伊：如果美国的袭击持续数天，伊朗将进入全面进攻行动阶段。",
+          "body": "#好的",
+          "tags": [
+            "#好的"
+          ],
+          "ts": 1784315401000,
+          "time": "03:10:01",
+          "receivedAt": 1784317743069,
+          "receivedTime": true
+        },
+        {
+          "id": "219838",
+          "url": "https://t.me/jin10light/219838",
+          "title": "据华尔街日报：SpaceX(SPCX.O)正在洽谈为五角大楼的人工智能推进计划提供计算能力。",
+          "body": "#SpaceX #五角大楼 #人工智能",
+          "tags": [
+            "#SpaceX",
+            "#五角大楼",
+            "#人工智能"
+          ],
+          "ts": 1784315221000,
+          "time": "03:07:01",
+          "receivedAt": 1784317743069,
+          "receivedTime": true
+        },
+        {
+          "id": "219837",
+          "url": "https://t.me/jin10light/219837",
+          "title": "伊朗最高领袖顾问雷扎伊：如果美国人占领伊朗境内任何地点，我们可能会进入进攻性战争阶段，而不再只是防御性战争。",
+          "body": "#伊朗 #美国",
+          "tags": [
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1784315101000,
+          "time": "03:05:01",
+          "receivedAt": 1784317743069,
+          "receivedTime": true
+        },
+        {
           "id": "219836",
           "url": "https://t.me/jin10light/219836",
-          "title": "美国原油期货结算价为每桶82.49美元，上涨3.54美元，涨幅4.48%。",
-          "body": "#美国 #原油期货 #美元 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#美国",
-            "#原油期货",
-            "#美元"
-          ],
+          "title": "布伦特原油期货结算价为每桶88.10美元，上涨3.87美元，涨幅4.59%。",
+          "body": "",
+          "tags": [],
           "ts": 1784313181000,
           "time": "02:33:01",
           "receivedAt": 1784313905285,
@@ -19022,76 +19079,6 @@
           ],
           "ts": 1784034064000,
           "time": "21:01:04",
-          "receivedAt": 1784038683399,
-          "receivedTime": true
-        },
-        {
-          "id": "218641",
-          "url": "https://t.me/jin10light/218641",
-          "title": "美股盘前要闻一览：CPI数据低于预期，IBM营收不及预期大跌",
-          "body": "#美国 #BTC #美联储",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#美联储"
-          ],
-          "ts": 1784034064000,
-          "time": "21:01:04",
-          "receivedAt": 1784038683399,
-          "receivedTime": true
-        },
-        {
-          "id": "218640",
-          "url": "https://t.me/jin10light/218640",
-          "title": "某币本位交易员卖出全部30,139枚ETH兑换为859枚BTC",
-          "body": "#ETH #BTC #汇率下跌",
-          "tags": [
-            "#ETH",
-            "#BTC",
-            "#汇率下跌"
-          ],
-          "ts": 1784033884000,
-          "time": "20:58:04",
-          "receivedAt": 1784038683399,
-          "receivedTime": true
-        },
-        {
-          "id": "218639",
-          "url": "https://t.me/jin10light/218639",
-          "title": "交易员将美联储加息押注推迟至10月",
-          "body": "#美联储 #美元 #美国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#美联储",
-            "#美元",
-            "#美国"
-          ],
-          "ts": 1784033883000,
-          "time": "20:58:03",
-          "receivedAt": 1784038683399,
-          "receivedTime": true
-        },
-        {
-          "id": "218638",
-          "url": "https://t.me/jin10light/218638",
-          "title": "纳斯达克100期货上涨1.3%",
-          "body": "#标普500 #纳斯达克100",
-          "tags": [
-            "#标普500",
-            "#纳斯达克100"
-          ],
-          "ts": 1784033762000,
-          "time": "20:56:02",
-          "receivedAt": 1784038683399,
-          "receivedTime": true
-        },
-        {
-          "id": "218637",
-          "url": "https://t.me/jin10light/218637",
-          "title": "沃什：对经济持乐观态度，对AI繁荣持谨慎态度",
-          "body": "",
-          "tags": [],
-          "ts": 1784033403000,
-          "time": "20:50:03",
           "receivedAt": 1784038683399,
           "receivedTime": true
         }
