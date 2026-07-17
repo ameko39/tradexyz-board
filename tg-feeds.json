@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T17:52:50.422Z",
+  "updatedAt": "2026-07-17T18:45:18.079Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1983,24 +1983,28 @@
           "time": "02:54:55",
           "receivedAt": 1783021610793,
           "receivedTime": true
-        },
-        {
-          "id": "6388",
-          "url": "https://t.me/BWEtradfi/6388",
-          "title": "特斯拉撞入德克萨斯州住宅，致屋内一名女性死亡，司机被控过失杀人——华尔街日报",
-          "body": "*DRIVER CHARGED WITH MANSLAUGHTER AFTER TESLA CRASHED INTO TEXAS HOME, KILLING WOMAN INSIDE -- WSJ $TSLA",
-          "tags": [],
-          "ts": 1783015499000,
-          "time": "02:04:59",
-          "receivedAt": 1783015678078,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "219836",
+          "url": "https://t.me/jin10light/219836",
+          "title": "美国原油期货结算价为每桶82.49美元，上涨3.54美元，涨幅4.48%。",
+          "body": "#美国 #原油期货 #美元 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美国",
+            "#原油期货",
+            "#美元"
+          ],
+          "ts": 1784313181000,
+          "time": "02:33:01",
+          "receivedAt": 1784313905285,
+          "receivedTime": true
+        },
         {
           "id": "219835",
           "url": "https://t.me/jin10light/219835",
@@ -19088,21 +19092,6 @@
           "tags": [],
           "ts": 1784033403000,
           "time": "20:50:03",
-          "receivedAt": 1784038683399,
-          "receivedTime": true
-        },
-        {
-          "id": "218636",
-          "url": "https://t.me/jin10light/218636",
-          "title": "CPI公布后，美股半导体、光通信及存储板块盘前集体走强",
-          "body": "#美股 #半导体 #CPI",
-          "tags": [
-            "#美股",
-            "#半导体",
-            "#CPI"
-          ],
-          "ts": 1784033341000,
-          "time": "20:49:01",
           "receivedAt": 1784038683399,
           "receivedTime": true
         }
