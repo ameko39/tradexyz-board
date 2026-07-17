@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-17T19:49:15.777Z",
+  "updatedAt": "2026-07-17T20:38:22.398Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6569",
+          "url": "https://t.me/BWEtradfi/6569",
+          "title": "DB: 标普500指数收跌1%，纳斯达克指数下跌1.3%",
+          "body": "DB: *S&P 500 CLOSES 1% LOWER, NASDAQ FALLS 1.3%",
+          "tags": [],
+          "ts": 1784318412000,
+          "time": "04:00:12",
+          "receivedAt": 1784320683919,
+          "receivedTime": true
+        },
         {
           "id": "6568",
           "url": "https://t.me/BWEtradfi/6568",
@@ -1961,17 +1972,6 @@
           "time": "04:53:58",
           "receivedAt": 1783029049355,
           "receivedTime": true
-        },
-        {
-          "id": "6391",
-          "url": "https://t.me/BWEtradfi/6391",
-          "title": "DB: 标准普尔500指数收盘几无变动，纳斯达克指数下跌0.8%",
-          "body": "DB: *S&P 500 CLOSES LITTLE CHANGED, NASDAQ DECLINES 0.8%",
-          "tags": [],
-          "ts": 1783022414000,
-          "time": "04:00:14",
-          "receivedAt": 1783025141862,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1979,6 +1979,61 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "219845",
+          "url": "https://t.me/jin10light/219845",
+          "title": "费城半导体指数进入熊市",
+          "body": "7月18日讯，美股费城半导体指数较6月22日所创收盘历史最高位回撤超20%，进入熊市。 费城半导体指数本周下跌10%，为2025年4月以来最大周跌幅。 #美股",
+          "tags": [
+            "#美股"
+          ],
+          "ts": 1784318941000,
+          "time": "04:09:01",
+          "receivedAt": 1784320684492,
+          "receivedTime": true
+        },
+        {
+          "id": "219844",
+          "url": "https://t.me/jin10light/219844",
+          "title": "费城半导体指数较6月22日创下的历史收盘高点下跌20.2%。",
+          "body": "#下跌",
+          "tags": [
+            "#下跌"
+          ],
+          "ts": 1784318701000,
+          "time": "04:05:01",
+          "receivedAt": 1784320684492,
+          "receivedTime": true
+        },
+        {
+          "id": "219843",
+          "url": "https://t.me/jin10light/219843",
+          "title": "美股收盘：三大股指低收，芯片股涨跌不一",
+          "body": "7月18日讯，美股周五收盘，道指初步收跌0.77%，标普500指数跌1.07%，纳指跌1.4%。 芯片股涨跌不一，西部数据(WDC.O)涨2.23%，SK海力士ADR(SKHY.O)涨1.13%，英伟达(NVDA.O)跌2.21%，Meta Platforms(META.O)跌2.79%，SpaceX(SPCX.O)跌5.43%。 苹果(AAPL.O)收涨0.14%，盘中市值短暂超越英伟达。 纳斯达克中国金龙指数跌1.82%，阿里巴巴(BABA.N)跌2%。 #美股 #纳指 #芯片股 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中...",
+          "tags": [
+            "#美股",
+            "#纳指",
+            "#芯片股"
+          ],
+          "ts": 1784318581000,
+          "time": "04:03:01",
+          "receivedAt": 1784320684492,
+          "receivedTime": true
+        },
+        {
+          "id": "219842",
+          "url": "https://t.me/jin10light/219842",
+          "title": "美国连续第七晚打击伊朗",
+          "body": "7月18日讯，美国中央司令部：美东时间周五下午3点，美国中央司令部对伊朗发起了连续第七晚的打击，旨在继续削弱伊朗的军事能力。 #美国 #伊朗",
+          "tags": [
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1784318221000,
+          "time": "03:57:01",
+          "receivedAt": 1784320684492,
+          "receivedTime": true
+        },
         {
           "id": "219841",
           "url": "https://t.me/jin10light/219841",
@@ -19021,65 +19076,6 @@
           "ts": 1784034847000,
           "time": "21:14:07",
           "receivedAt": 1784038683179,
-          "receivedTime": true
-        },
-        {
-          "id": "218645",
-          "url": "https://t.me/jin10light/218645",
-          "title": "长鑫科技：发行价格为8.66元/股",
-          "body": "#长鑫科技 #科创板",
-          "tags": [
-            "#长鑫科技",
-            "#科创板"
-          ],
-          "ts": 1784034781000,
-          "time": "21:13:01",
-          "receivedAt": 1784038683179,
-          "receivedTime": true
-        },
-        {
-          "id": "218644",
-          "url": "https://t.me/jin10light/218644",
-          "title": "Aster推出ANSEM、CASHCAT及CARDS网格交易活动，总奖池1万美元ASTER",
-          "body": "#Aster #ANSEMUSDT #CASHCATUSDT",
-          "tags": [
-            "#Aster",
-            "#ANSEMUSDT",
-            "#CASHCATUSDT"
-          ],
-          "ts": 1784034242000,
-          "time": "21:04:02",
-          "receivedAt": 1784038683179,
-          "receivedTime": true
-        },
-        {
-          "id": "218643",
-          "url": "https://t.me/jin10light/218643",
-          "title": "Tether领投Pact Labs 700万美元A轮融资，推动稳定币USAT拓展服务领域",
-          "body": "#Tether #USAT #Pact Labs ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Tether",
-            "#USAT",
-            "#Pact"
-          ],
-          "ts": 1784034241000,
-          "time": "21:04:01",
-          "receivedAt": 1784038683179,
-          "receivedTime": true
-        },
-        {
-          "id": "218642",
-          "url": "https://t.me/jin10light/218642",
-          "title": "夜盘开盘，国内期货主力合约涨跌不一，低硫燃料油（LU）、SC原油涨超4%，苯乙烯涨超3%。",
-          "body": "下跌方面，棉花、棉纱小幅下跌。 #LU #SC原油 #棉花",
-          "tags": [
-            "#LU",
-            "#SC原油",
-            "#棉花"
-          ],
-          "ts": 1784034064000,
-          "time": "21:01:04",
-          "receivedAt": 1784038683399,
           "receivedTime": true
         }
       ],
