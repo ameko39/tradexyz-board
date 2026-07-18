@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T17:34:53.150Z",
+  "updatedAt": "2026-07-18T18:31:59.298Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1880,6 +1880,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "219946",
+          "url": "https://t.me/jin10light/219946",
+          "title": "据以色列第13频道：美国正准备通过向中东地区派遣约100架加油机，扩大对伊朗的行动范围。",
+          "body": "以色列国防机构正在为该地区可能出现的重大局势升级做准备。 #美国 #伊朗 #中东",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#中东"
+          ],
+          "ts": 1784398408000,
+          "time": "02:13:28",
+          "receivedAt": 1784399506190,
+          "receivedTime": true
+        },
         {
           "id": "219945",
           "url": "https://t.me/jin10light/219945",
@@ -19019,20 +19034,6 @@
           ],
           "ts": 1784073481000,
           "time": "07:58:01",
-          "receivedAt": 1784074373708,
-          "receivedTime": true
-        },
-        {
-          "id": "218746",
-          "url": "https://t.me/jin10light/218746",
-          "title": "苹果指控技术遭窃，OpenAI称「毫无根据」",
-          "body": "#苹果 #OpenAI",
-          "tags": [
-            "#苹果",
-            "#OpenAI"
-          ],
-          "ts": 1784073301000,
-          "time": "07:55:01",
           "receivedAt": 1784074373708,
           "receivedTime": true
         }
