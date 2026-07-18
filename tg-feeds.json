@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T11:28:49.678Z",
+  "updatedAt": "2026-07-18T12:13:23.836Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1869,6 +1869,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "219925",
+          "url": "https://t.me/jin10light/219925",
+          "title": "Hyperliquid永续合约未平仓头寸市场份额达9.4%，创历史新高",
+          "body": "#Hyperliquid #HYPE #Binance",
+          "tags": [
+            "#Hyperliquid",
+            "#HYPE",
+            "#Binance"
+          ],
+          "ts": 1784375404000,
+          "time": "19:50:04",
+          "receivedAt": 1784376784143,
+          "receivedTime": true
+        },
         {
           "id": "219924",
           "url": "https://t.me/jin10light/219924",
@@ -19010,20 +19025,6 @@
           "time": "04:22:01",
           "receivedAt": 1784061223429,
           "receivedTime": true
-        },
-        {
-          "id": "218725",
-          "url": "https://t.me/jin10light/218725",
-          "title": "美股收盘：三大股指收涨 海力士涨超27%",
-          "body": "7月15日讯，美股周二收盘，道指初步收涨0.02%，标普500指数涨0.38%，纳指涨0.9%。 闪迪(SNDK.O)和美光科技(MU.O)涨约5%，SK海力士ADR(SKHY.O)暴涨27.2%。 纳斯达克中国金龙指数收跌0.1%，百度(BIDU.O)跌3%。 #美股 #SK海力士",
-          "tags": [
-            "#美股",
-            "#SK海力士"
-          ],
-          "ts": 1784059441000,
-          "time": "04:04:01",
-          "receivedAt": 1784061223429,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20154,7 +20155,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
