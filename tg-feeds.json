@@ -1,11 +1,36 @@
 {
-  "updatedAt": "2026-07-20T18:22:41.437Z",
+  "updatedAt": "2026-07-20T20:00:55.867Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6580",
+          "url": "https://t.me/BWEtradfi/6580",
+          "title": "DB: 标准普尔500指数收盘下跌0.2%，纳斯达克指数几无变化",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.2%, NASDAQ LITTLE CHANGED",
+          "tags": [],
+          "ts": 1784577625000,
+          "time": "04:00:25",
+          "receivedAt": 1784577636338,
+          "receivedTime": true
+        },
+        {
+          "id": "6579",
+          "url": "https://t.me/BWEtradfi/6579",
+          "title": "*特朗普总统签署公告，为将铝冶炼厂迁回美国本土的投资提供50%的铝关税减免。",
+          "body": "*PRESIDENT TRUMP SIGNED A PROCLAMATION OFFERING 50% REDUCED ALUMINUM TARIFFS FOR ONSHORING INVESTMENTS *U.S. ALUMINUM SMELTERS (AA, CENX) MAY NOW QUALIFY FOR REDUCED SECTION 232 TARIFF RATES #CENX • #AA *美国铝冶炼厂（AA、CENX）现在可能有资格享受第232条规定的优惠关税。 #CENX • #AA",
+          "tags": [
+            "#CENX",
+            "#AA"
+          ],
+          "ts": 1784576704000,
+          "time": "03:45:04",
+          "receivedAt": 1784577636338,
+          "receivedTime": true
+        },
         {
           "id": "6578",
           "url": "https://t.me/BWEtradfi/6578",
@@ -1957,6 +1982,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "220384",
+          "url": "https://t.me/jin10light/220384",
+          "title": "白宫：特朗普采取进一步措施，调整美国铝进口政策。",
+          "body": "#特朗普 #美国 #白宫",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#白宫"
+          ],
+          "ts": 1784576850000,
+          "time": "03:47:30",
+          "receivedAt": 1784577638589,
+          "receivedTime": true
+        },
+        {
+          "id": "220383",
+          "url": "https://t.me/jin10light/220383",
+          "title": "贝莱德牵头至少120亿美元债务融资 支持Meta得州大型数据中心项目",
+          "body": "7月21日讯，据华尔街日报援引知情人士表示，贝莱德正牵头一项规模至少120亿美元的债务融资，为其与Meta Platforms共同支持的得州埃尔帕索（El Paso）大型数据中心项目提供资金。 知情人士称，贝莱德及其基础设施和私募信贷业务部门持有该数据中心项目80%的股权，而将使用该数据中心的Meta Platforms则持有剩余20%的股权。 该园区预计将拥有约1吉瓦的算力容量。 知情人士表示，摩根大通和摩根士丹利正牵头此次大规模债务发行，以为项目融资，并正与其他潜在投资者接洽。 过去一年，贝莱德持续与AI超大规模云服务商合作，向数据中心投资数百亿美...",
+          "tags": [
+            "#贝莱德",
+            "#Meta",
+            "#得州"
+          ],
+          "ts": 1784572235000,
+          "time": "02:30:35",
+          "receivedAt": 1784577638589,
+          "receivedTime": true
+        },
         {
           "id": "220382",
           "url": "https://t.me/jin10light/220382",
@@ -19132,36 +19187,6 @@
           ],
           "ts": 1784166002000,
           "time": "09:40:02",
-          "receivedAt": 1784175543295,
-          "receivedTime": true
-        },
-        {
-          "id": "219183",
-          "url": "https://t.me/jin10light/219183",
-          "title": "港股阿里巴巴涨超5%",
-          "body": "#恒生科技指数 #阿里巴巴 #Apple ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#恒生科技指数",
-            "#阿里巴巴",
-            "#Apple"
-          ],
-          "ts": 1784166001000,
-          "time": "09:40:01",
-          "receivedAt": 1784175543295,
-          "receivedTime": true
-        },
-        {
-          "id": "219182",
-          "url": "https://t.me/jin10light/219182",
-          "title": "恒生科技指数持续走强涨超2%，成分股中阿里巴巴( 09988.HK )涨超5%领涨成分股，恒指现涨1.77%。",
-          "body": "#恒生科技指数 #阿里巴巴 #恒指",
-          "tags": [
-            "#恒生科技指数",
-            "#阿里巴巴",
-            "#恒指"
-          ],
-          "ts": 1784165881000,
-          "time": "09:38:01",
           "receivedAt": 1784175543295,
           "receivedTime": true
         }
