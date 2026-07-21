@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T17:22:40.751Z",
+  "updatedAt": "2026-07-21T18:45:53.325Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2017,11 +2017,40 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "220718",
+          "url": "https://t.me/jin10light/220718",
+          "title": "据伊通社（IRNA）：伊朗军方发言人表示，伊朗已完成部分受损防空系统修复，并将新型防空装备纳入作战体系，大幅提升防空能力。",
+          "body": "#伊朗 #防空系统 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#伊朗",
+            "#防空系统"
+          ],
+          "ts": 1784658389000,
+          "time": "02:26:29",
+          "receivedAt": 1784659532822,
+          "receivedTime": true
+        },
+        {
+          "id": "220717",
+          "url": "https://t.me/jin10light/220717",
+          "title": "特朗普警告胡塞武装：若封锁红海 美国将“采取行动”",
+          "body": "7月22日讯，据美媒报道，美国总统特朗普周二表示，如果也门胡塞武装对来自沙特阿拉伯的航运和能源出口实施封锁，美国将“处理这一问题”。 特朗普当天在白宫椭圆形办公室会见黎巴嫩总统约瑟夫·奥恩时表示：“到目前为止，事情还没有发生，也许会发生，但我们会处理。 ”他说：“如果类似情况发生，我们会采取行动。 我们之前已经对胡塞武装采取过行动，自从我们最初采取措施后，已经有一段时间没有听到他们的动静了。 ” #特朗普 #胡塞武装 #红海",
+          "tags": [
+            "#特朗普",
+            "#胡塞武装",
+            "#红海"
+          ],
+          "ts": 1784655450000,
+          "time": "01:37:30",
+          "receivedAt": 1784659532822,
+          "receivedTime": true
+        },
         {
           "id": "220716",
           "url": "https://t.me/jin10light/220716",
@@ -19173,36 +19202,6 @@
           ],
           "ts": 1784249103000,
           "time": "08:45:03",
-          "receivedAt": 1784250198866,
-          "receivedTime": true
-        },
-        {
-          "id": "219517",
-          "url": "https://t.me/jin10light/219517",
-          "title": "Predict.fun上线Up/Down市场Maker返佣：返佣比例高于Polymarket，并实时到账",
-          "body": "#Predict .fun #Maker #Polymarket",
-          "tags": [
-            "#Predict",
-            "#Maker",
-            "#Polymarket"
-          ],
-          "ts": 1784248801000,
-          "time": "08:40:01",
-          "receivedAt": 1784250198866,
-          "receivedTime": true
-        },
-        {
-          "id": "219516",
-          "url": "https://t.me/jin10light/219516",
-          "title": "日本启动「Noetra」国产AI项目：英伟达供应2.75万颗Rubin GPU，索尼软银等44家企业团体参与",
-          "body": "#日本 #Noetra #NVIDIA",
-          "tags": [
-            "#日本",
-            "#Noetra",
-            "#NVIDIA"
-          ],
-          "ts": 1784248681000,
-          "time": "08:38:01",
           "receivedAt": 1784250198866,
           "receivedTime": true
         }
