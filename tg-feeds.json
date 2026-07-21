@@ -1,11 +1,36 @@
 {
-  "updatedAt": "2026-07-21T20:06:59.233Z",
+  "updatedAt": "2026-07-21T21:23:01.670Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6597",
+          "url": "https://t.me/BWEtradfi/6597",
+          "title": "*火箭实验室赢得美国空军价值 2.66 亿美元的合同",
+          "body": "*ROCKET LAB WINS $266 MILLION U.S. AIR FORCE CONTRACT $RKLB $RKLB",
+          "tags": [],
+          "ts": 1784667795000,
+          "time": "05:03:15",
+          "receivedAt": 1784668962770,
+          "receivedTime": true
+        },
+        {
+          "id": "6596",
+          "url": "https://t.me/BWEtradfi/6596",
+          "title": "*OKLO、X-ENERGY 加入特朗普的核反应堆加速人工智能计划",
+          "body": "*OKLO, X-ENERGY JOIN TRUMP BID TO SPEED NUCLEAR REACTORS FOR AI #OKLO • #XE",
+          "tags": [
+            "#OKLO",
+            "#XE"
+          ],
+          "ts": 1784665547000,
+          "time": "04:25:47",
+          "receivedAt": 1784668962770,
+          "receivedTime": true
+        },
         {
           "id": "6595",
           "url": "https://t.me/BWEtradfi/6595",
@@ -2037,17 +2062,6 @@
           "time": "08:26:07",
           "receivedAt": 1783397471526,
           "receivedTime": true
-        },
-        {
-          "id": "6411",
-          "url": "https://t.me/BWEtradfi/6411",
-          "title": "特朗普：沃尔玛将应政府要求大幅降价",
-          "body": "*TRUMP: WALMART, WILL BE LOWERING PRICES, BY A LOT AT ADMINISTRATION'S REQUEST $WMT",
-          "tags": [],
-          "ts": 1783370766000,
-          "time": "04:46:06",
-          "receivedAt": 1783374839077,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2055,6 +2069,78 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "220727",
+          "url": "https://t.me/jin10light/220727",
+          "title": "伊朗最高联合军事指挥部：如果美国袭击伊朗核设施，地区内所有美国及其盟友的利益都将成为目标",
+          "body": "#伊朗 #美国 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1784667268000,
+          "time": "04:54:28",
+          "receivedAt": 1784668963306,
+          "receivedTime": true
+        },
+        {
+          "id": "220726",
+          "url": "https://t.me/jin10light/220726",
+          "title": "美国至7月17日当周API原油库存 260.3万桶，预期-50万桶，前值-56.4万桶。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1784666247000,
+          "time": "04:37:27",
+          "receivedAt": 1784668963306,
+          "receivedTime": true
+        },
+        {
+          "id": "220725",
+          "url": "https://t.me/jin10light/220725",
+          "title": "AI逃离沙盒 OpenAI认下Hugging Face被黑事件",
+          "body": "7月22日讯，OpenAI表示，上周全球最大AI开源社区Hugging Face遭遇的基础设施入侵事件由其正在测试的AI模型引发。 调查显示，多个模型在安全评估任务中逃离沙盒环境，并利用“零日漏洞”获得互联网访问权限，随后在Hugging Face生产环境中执行自动化操作。 OpenAI表示，事件是由多个OpenAI模型共同导致，其中包括GPT-5.6 Sol以及一款能力更强的预发布模型。 为进行此次评估测试，模型的安全防护机制被有意降低。 OpenAI称，此次事件暴露出先进AI模型在缺少安全限制时可能执行复杂网络攻击的风险，但同时也显示AI可用于漏洞...",
+          "tags": [
+            "#OpenAI",
+            "#Hugging",
+            "#GPT"
+          ],
+          "ts": 1784666128000,
+          "time": "04:35:28",
+          "receivedAt": 1784668963306,
+          "receivedTime": true
+        },
+        {
+          "id": "220724",
+          "url": "https://t.me/jin10light/220724",
+          "title": "美国至7月17日当周API原油库存将于十分钟后公布。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1784665289000,
+          "time": "04:21:29",
+          "receivedAt": 1784668963306,
+          "receivedTime": true
+        },
+        {
+          "id": "220723",
+          "url": "https://t.me/jin10light/220723",
+          "title": "超微电脑大幅上调毛利率指引 股价盘后大涨",
+          "body": "7月22日讯，超微电脑(SMCI.O)预计第四财季营收接近指引区间110亿-125亿美元的底部。 预计第四财季毛利润率15%-17%，远高于此前8.2%至8.4%的指引。 本财年结束时，未交付订单创下历史新高，该季度录得超过600亿美元的待交付新订单。 超微电脑盘后涨超20%。 #超微电脑 #SMCI .O",
+          "tags": [
+            "#超微电脑",
+            "#SMCI"
+          ],
+          "ts": 1784665289000,
+          "time": "04:21:29",
+          "receivedAt": 1784668963306,
+          "receivedTime": true
+        },
         {
           "id": "220722",
           "url": "https://t.me/jin10light/220722",
@@ -19161,81 +19247,6 @@
           ],
           "ts": 1784250121000,
           "time": "09:02:01",
-          "receivedAt": 1784250198866,
-          "receivedTime": true
-        },
-        {
-          "id": "219526",
-          "url": "https://t.me/jin10light/219526",
-          "title": "BONK财库攻击者将约411万美元代币转入Binance",
-          "body": "#BONK #Binance #OKX",
-          "tags": [
-            "#BONK",
-            "#Binance",
-            "#OKX"
-          ],
-          "ts": 1784250064000,
-          "time": "09:01:04",
-          "receivedAt": 1784250198866,
-          "receivedTime": true
-        },
-        {
-          "id": "219525",
-          "url": "https://t.me/jin10light/219525",
-          "title": "Kimi暂不跟进视频模型，称视频生成难以提升智能",
-          "body": "#周昕宇 #Kimi #视频生成 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#周昕宇",
-            "#Kimi",
-            "#视频生成"
-          ],
-          "ts": 1784250064000,
-          "time": "09:01:04",
-          "receivedAt": 1784250198866,
-          "receivedTime": true
-        },
-        {
-          "id": "219524",
-          "url": "https://t.me/jin10light/219524",
-          "title": "Muse Spark 1.1登陆OpenRouter，仍仅限美国用户可用",
-          "body": "#Meta #OpenRouter #美国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Meta",
-            "#OpenRouter",
-            "#美国"
-          ],
-          "ts": 1784250063000,
-          "time": "09:01:03",
-          "receivedAt": 1784250198866,
-          "receivedTime": true
-        },
-        {
-          "id": "219523",
-          "url": "https://t.me/jin10light/219523",
-          "title": "视频｜贝莱德CEO Larry Fink：对未来12个月的市场前景非常看好",
-          "body": "#BTC #韩国 #贝莱德",
-          "tags": [
-            "#BTC",
-            "#韩国",
-            "#贝莱德"
-          ],
-          "ts": 1784250062000,
-          "time": "09:01:02",
-          "receivedAt": 1784250198866,
-          "receivedTime": true
-        },
-        {
-          "id": "219522",
-          "url": "https://t.me/jin10light/219522",
-          "title": "AI推理平台Fireworks融资15亿美元，年化收入突破10亿美元",
-          "body": "#Fireworks #Atreides Management #英伟达",
-          "tags": [
-            "#Fireworks",
-            "#Atreides",
-            "#英伟达"
-          ],
-          "ts": 1784250062000,
-          "time": "09:01:02",
           "receivedAt": 1784250198866,
           "receivedTime": true
         }
