@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-07-21T18:45:53.325Z",
+  "updatedAt": "2026-07-21T20:06:59.233Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6595",
+          "url": "https://t.me/BWEtradfi/6595",
+          "title": "*SUPER MICRO 第四季度初步营收预计接近此前预期的 110 亿美元至 125 亿美元区间的低端",
+          "body": "*SUPER MICRO PRELIM Q4 REV. SEEN NEAR LOW END OF $11.0B-$12.5B GUIDANCE RANGE *SUPER MICRO SEES PRELIM Q4 GROSS MARGIN 15% TO 17% VS GUIDANCE 8.2% TO 8.4% *SUPER MICRO ATTRIBUTES GROSS MARGIN BEAT TO FAVORABLE PRODUCT, CUSTOMER MIX *SUPER MICRO BOOKED OVER $60 BILLION IN NEW… *SUPER MICRO 第四季度初步毛利率...",
+          "tags": [],
+          "ts": 1784664360000,
+          "time": "04:06:00",
+          "receivedAt": 1784664401614,
+          "receivedTime": true
+        },
+        {
+          "id": "6594",
+          "url": "https://t.me/BWEtradfi/6594",
+          "title": "*盈透证券第二季度调整后净收入：18.8亿美元，预期为17.9亿美元",
+          "body": "*INTERACTIVE BROKERS 2Q ADJ. NET REV. $1.88B, EST. $1.79B *INTERACTIVE BROKERS 2Q ADJ EPS 69C, EST. 63C $IBKR *盈透证券第二季度调整后每股收益：0.69美元，预期为0.63美元 $IBKR",
+          "tags": [],
+          "ts": 1784664072000,
+          "time": "04:01:12",
+          "receivedAt": 1784664401614,
+          "receivedTime": true
+        },
+        {
+          "id": "6593",
+          "url": "https://t.me/BWEtradfi/6593",
+          "title": "DB: 标准普尔500指数收盘上涨0.9%，纳斯达克指数上涨1.3%",
+          "body": "DB: *S&P 500 CLOSES 0.9% HIGHER, NASDAQ UP 1.3%",
+          "tags": [],
+          "ts": 1784664013000,
+          "time": "04:00:13",
+          "receivedAt": 1784664401614,
+          "receivedTime": true
+        },
+        {
+          "id": "6592",
+          "url": "https://t.me/BWEtradfi/6592",
+          "title": "*OpenAI称其人工智能模型秘密突破安全测试环境，入侵人工智能公司Hugging Face的系统，企图在评估中作弊 - 《财富》杂志",
+          "body": "*OPENAI SAYS ITS AI MODELS SECRETLY BROKE OUT OF A SECURE TEST ENVIRONMENT AND HACKED INTO AI COMPANY HUGGING FACE IN ORDER TO CHEAT ON AN EVALUATION - FORTUNE *OPENAI CONFIRMED THE BREACH INVOLVED ITS GPT-5.6 SOL AND AN UNRELEASED, MORE POWERFUL MODEL *OpenAI证实，此次入侵事件涉及其GPT-5.6 SOL模型以及一个尚未发布的更强大的模...",
+          "tags": [],
+          "ts": 1784663149000,
+          "time": "03:45:49",
+          "receivedAt": 1784664401614,
+          "receivedTime": true
+        },
         {
           "id": "6591",
           "url": "https://t.me/BWEtradfi/6591",
@@ -2004,24 +2048,72 @@
           "time": "04:46:06",
           "receivedAt": 1783374839077,
           "receivedTime": true
-        },
-        {
-          "id": "6410",
-          "url": "https://t.me/BWEtradfi/6410",
-          "title": "DB: 标准普尔500指数收盘上涨0.7%，纳斯达克指数上涨1.1%",
-          "body": "DB: *S&P 500 CLOSES 0.7% HIGHER, NASDAQ RISES 1.1%",
-          "tags": [],
-          "ts": 1783368013000,
-          "time": "04:00:13",
-          "receivedAt": 1783369592316,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "220722",
+          "url": "https://t.me/jin10light/220722",
+          "title": "美股收盘：三大股指收涨 美光和海力士大涨",
+          "body": "7月22日讯，美股周二收盘，道指初步收涨0.74%，标普500指数涨0.89%，纳指涨1.29%。 SK海力士(SKHY.O)涨13.7%，美光科技(MU.O)涨12%，闪迪(SNDK.O)涨14%，英伟达(NVDA.O)涨近2%，SpaceX(SPCX.O)涨3%。 纳斯达克中国金龙指数收跌0.69%，网易(NTES.O)跌超3%。 #美股 #SK海力士 #美光科技 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美股",
+            "#SK海力士",
+            "#美光科技"
+          ],
+          "ts": 1784664208000,
+          "time": "04:03:28",
+          "receivedAt": 1784664402063,
+          "receivedTime": true
+        },
+        {
+          "id": "220721",
+          "url": "https://t.me/jin10light/220721",
+          "title": "据Axios：OpenAI表示，Hugging Face遭遇的安全漏洞事件是由其旗下一个模型导致的。",
+          "body": "#OpenAI #Hugging Face",
+          "tags": [
+            "#OpenAI",
+            "#Hugging"
+          ],
+          "ts": 1784663848000,
+          "time": "03:57:28",
+          "receivedAt": 1784664402063,
+          "receivedTime": true
+        },
+        {
+          "id": "220720",
+          "url": "https://t.me/jin10light/220720",
+          "title": "伊拉克石油部长：伊拉克总理访美期间，伊拉克石油部与美国企业签署协议的总价值预计达到2000亿美元。",
+          "body": "#伊拉克 #美国 #2000亿美元",
+          "tags": [
+            "#伊拉克",
+            "#美国",
+            "#2000亿美元"
+          ],
+          "ts": 1784661508000,
+          "time": "03:18:28",
+          "receivedAt": 1784664402063,
+          "receivedTime": true
+        },
+        {
+          "id": "220719",
+          "url": "https://t.me/jin10light/220719",
+          "title": "新任英国首相伯纳姆批准美国使用英国基地对伊朗进行部分打击。",
+          "body": "#英国 #美国 #伊朗",
+          "tags": [
+            "#英国",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1784661148000,
+          "time": "03:12:28",
+          "receivedAt": 1784664402063,
+          "receivedTime": true
+        },
         {
           "id": "220718",
           "url": "https://t.me/jin10light/220718",
@@ -19144,64 +19236,6 @@
           ],
           "ts": 1784250062000,
           "time": "09:01:02",
-          "receivedAt": 1784250198866,
-          "receivedTime": true
-        },
-        {
-          "id": "219521",
-          "url": "https://t.me/jin10light/219521",
-          "title": "美国总统特朗普将于十分钟后发表全国讲话。",
-          "body": "#特朗普 #美国",
-          "tags": [
-            "#特朗普",
-            "#美国"
-          ],
-          "ts": 1784249521000,
-          "time": "08:52:01",
-          "receivedAt": 1784250198866,
-          "receivedTime": true
-        },
-        {
-          "id": "219520",
-          "url": "https://t.me/jin10light/219520",
-          "title": "日本存储股铠侠盘中跌停，美股存储股闪迪、西数、美光盘后持续下跌",
-          "body": "#日本 #存储股 #美股",
-          "tags": [
-            "#日本",
-            "#存储股",
-            "#美股"
-          ],
-          "ts": 1784249521000,
-          "time": "08:52:01",
-          "receivedAt": 1784250198866,
-          "receivedTime": true
-        },
-        {
-          "id": "219519",
-          "url": "https://t.me/jin10light/219519",
-          "title": "两市融资余额减少285.86亿元",
-          "body": "7月17日讯，截至7月16日，上交所融资余额报14308.21亿元，较前一交易日减少139.61亿元；深交所融资余额报13982.04亿元，较前一交易日减少146.25亿元；两市合计28290.25亿元，较前一交易日减少285.86亿元。 #A股 #融资余额",
-          "tags": [
-            "#A股",
-            "#融资余额"
-          ],
-          "ts": 1784249341000,
-          "time": "08:49:01",
-          "receivedAt": 1784250198866,
-          "receivedTime": true
-        },
-        {
-          "id": "219518",
-          "url": "https://t.me/jin10light/219518",
-          "title": "SEC主席力推电子交付新规：AI与区块链时代，纸质交付应成为历史遗物",
-          "body": "#美国 #SEC #BTC",
-          "tags": [
-            "#美国",
-            "#SEC",
-            "#BTC"
-          ],
-          "ts": 1784249103000,
-          "time": "08:45:03",
           "receivedAt": 1784250198866,
           "receivedTime": true
         }
