@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-22T18:38:01.106Z",
+  "updatedAt": "2026-07-22T19:55:56.533Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6610",
+          "url": "https://t.me/BWEtradfi/6610",
+          "title": "*特朗普重申石油公司将进军委内瑞拉",
+          "body": "*TRUMP REITERATES OIL COMPANIES GOING INTO VENEZUELA *TRUMP: WE DON'T NEED HORMUZ STRAIT *特朗普：我们不需要霍尔木兹海峡",
+          "tags": [],
+          "ts": 1784749416000,
+          "time": "03:43:36",
+          "receivedAt": 1784750135896,
+          "receivedTime": true
+        },
         {
           "id": "6609",
           "url": "https://t.me/BWEtradfi/6609",
@@ -2133,11 +2144,70 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "221054",
+          "url": "https://t.me/jin10light/221054",
+          "title": "英国撤回驻伊朗外交人员",
+          "body": "7月23日讯，据CNN报道，英国外交、联邦及发展事务部（FCDO）宣布，由于伊朗安全局势变化，英国驻伊外交人员已暂时撤离。 FCDO表示，英国驻伊朗大使馆将继续以远程方式运作，维持相关外交工作。 #英国 #伊朗 #FCDO",
+          "tags": [
+            "#英国",
+            "#伊朗",
+            "#FCDO"
+          ],
+          "ts": 1784748386000,
+          "time": "03:26:26",
+          "receivedAt": 1784750138539,
+          "receivedTime": true
+        },
+        {
+          "id": "221053",
+          "url": "https://t.me/jin10light/221053",
+          "title": "据CNN：英国政府正在撤回驻伊朗外交人员。",
+          "body": "#英国 #伊朗",
+          "tags": [
+            "#英国",
+            "#伊朗"
+          ],
+          "ts": 1784748328000,
+          "time": "03:25:28",
+          "receivedAt": 1784750138539,
+          "receivedTime": true
+        },
+        {
+          "id": "221052",
+          "url": "https://t.me/jin10light/221052",
+          "title": "若美国兑现威胁 伊朗将切断全部石油出口并打击能源及经济基础设施",
+          "body": "7月23日讯，据伊朗塔斯尼姆通讯社报道，伊朗伊朗哈塔姆·安比亚中央司令部发表声明称，霍尔木兹海峡仍处于关闭状态。 如有任何船只须通过该海峡，必须经由指定航线，并依照此前公布的通行安排行驶。 声明指出，如果美国兑现威胁，伊朗将切断海湾地区全部石油流动，并打击该地区的石油、天然气、电力及经济基础设施。 声明还表示，美国的屡次威胁只会导致战争在地区乃至更广范围内扩大。 #美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1784746528000,
+          "time": "02:55:28",
+          "receivedAt": 1784750138539,
+          "receivedTime": true
+        },
+        {
+          "id": "221051",
+          "url": "https://t.me/jin10light/221051",
+          "title": "据伊朗国家媒体：伊朗最高联合军事指挥部表示，如果美国兑现威胁，伊朗将切断海湾地区全部石油流动，并将该地区的石油、天然气、电力及经济基础设施作为打击目标。",
+          "body": "#伊朗 #美国 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1784746117000,
+          "time": "02:48:37",
+          "receivedAt": 1784750138539,
+          "receivedTime": true
+        },
         {
           "id": "221050",
           "url": "https://t.me/jin10light/221050",
@@ -19329,63 +19399,6 @@
           "ts": 1784335148000,
           "time": "08:39:08",
           "receivedAt": 1784345186251,
-          "receivedTime": true
-        },
-        {
-          "id": "219849",
-          "url": "https://t.me/jin10light/219849",
-          "title": "美国中央司令部：伊朗革命卫队声称两艘油轮在霍尔木兹海峡的国际水域触雷后发生爆炸，这一说法是虚假的。",
-          "body": "#美国 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1784334064000,
-          "time": "08:21:04",
-          "receivedAt": 1784345186251,
-          "receivedTime": true
-        },
-        {
-          "id": "219848",
-          "url": "https://t.me/jin10light/219848",
-          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少2.854吨，当前持仓量为999.024吨。",
-          "body": "#黄金 #SPDR Gold Trust",
-          "tags": [
-            "#黄金",
-            "#SPDR"
-          ],
-          "ts": 1784333884000,
-          "time": "08:18:04",
-          "receivedAt": 1784345186251,
-          "receivedTime": true
-        },
-        {
-          "id": "219847",
-          "url": "https://t.me/jin10light/219847",
-          "title": "据伊朗国家电视台：伊朗革命卫队称，两艘油轮在驶经霍尔木兹海峡以南一条布设有水雷的航线后发生爆炸并起火。",
-          "body": "#伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1784325661000,
-          "time": "06:01:01",
-          "receivedAt": 1784326936057,
-          "receivedTime": true
-        },
-        {
-          "id": "219846",
-          "url": "https://t.me/jin10light/219846",
-          "title": "伊朗革命卫队：此次行动是对美国此前袭击伊朗桥梁等基础设施事件的回应。",
-          "body": "如果美国继续打击伊朗目标，伊方将扩大对美国在中东地区相关工业、科技和人工智能资产的攻击。 #伊朗 #美国",
-          "tags": [
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1784321221000,
-          "time": "04:47:01",
-          "receivedAt": 1784323741244,
           "receivedTime": true
         }
       ],
