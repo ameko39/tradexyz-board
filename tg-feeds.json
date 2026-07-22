@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-22T17:24:19.373Z",
+  "updatedAt": "2026-07-22T18:38:01.106Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6609",
+          "url": "https://t.me/BWEtradfi/6609",
+          "title": "*加利巴夫（伊朗议会议长）：战争的等式很明确：要么全赢，要么全输",
+          "body": "*GHALIBAF (IRAN PARLIAMENT SPEAKER): EQUATION OF WAR CLEAR: EITHER ALL OR NONE *GHALIBAF: SITUATION IN STRAIT WILL NOT RETURN TO WAY IT WAS BEFORE WAR *GHALIBAF: IN REGION WHERE WE DO NOT SELL OIL, NO ONE WILL SELL OIL *加利巴夫：海峡局势不会回到战前状态 *加利巴夫：在我们无法出售石油的地区，没有人会出售石油",
+          "tags": [],
+          "ts": 1784741082000,
+          "time": "01:24:42",
+          "receivedAt": 1784745467485,
+          "receivedTime": true
+        },
         {
           "id": "6608",
           "url": "https://t.me/BWEtradfi/6608",
@@ -2120,24 +2131,113 @@
           "time": "03:59:07",
           "receivedAt": 1783458257305,
           "receivedTime": true
-        },
-        {
-          "id": "6417",
-          "url": "https://t.me/BWEtradfi/6417",
-          "title": "Meta将发布首个名为“Muse”的AI图像生成模型。Meta计划用其专有的Muse图像技术取代第三方AI图像模型。",
-          "body": "*META TO RELEASE FIRST AI MODEL FOR IMAGE CREATION TITLED 'MUSE' *META PLANS TO REPLACE THIRD-PARTY AI IMAGE MODELS WITH ITS PROPRIETARY MUSE IMAGE TECHNOLOGY $META",
-          "tags": [],
-          "ts": 1783447295000,
-          "time": "02:01:35",
-          "receivedAt": 1783452392648,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "221050",
+          "url": "https://t.me/jin10light/221050",
+          "title": "伊朗革命卫队发言人：警告航运公司，霍尔木兹海峡南侧航线已布设水雷。",
+          "body": "#伊朗 #霍尔木兹海峡 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1784744728000,
+          "time": "02:25:28",
+          "receivedAt": 1784745468268,
+          "receivedTime": true
+        },
+        {
+          "id": "221049",
+          "url": "https://t.me/jin10light/221049",
+          "title": "据伊朗塔斯尼姆通讯社：伊朗革命卫队航空航天部队司令称，如果伊朗的桥梁或发电厂遭到袭击，伊朗将切断美国地区盟友的电力供应。",
+          "body": "#伊朗 #美国 #伊朗革命卫队",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#伊朗革命卫队"
+          ],
+          "ts": 1784744309000,
+          "time": "02:18:29",
+          "receivedAt": 1784745468268,
+          "receivedTime": true
+        },
+        {
+          "id": "221048",
+          "url": "https://t.me/jin10light/221048",
+          "title": "伊朗革命卫队海军：警告各方不要使用霍尔木兹海峡替代航线。",
+          "body": "#伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1784743948000,
+          "time": "02:12:28",
+          "receivedAt": 1784745468268,
+          "receivedTime": true
+        },
+        {
+          "id": "221047",
+          "url": "https://t.me/jin10light/221047",
+          "title": "卡利巴夫：如果伊朗没办法卖油 谁都别想卖",
+          "body": "7月23日讯，伊朗议会议长卡利巴夫表示，“这场战争的逻辑很明确：谁都别想置身事外。 在一个我们无法出售石油的地区，没有人能够出售石油。 如果我们的安全无法得到保障，那么任何基础设施都不会安全。 海峡的安全建立在没有美国军队存在的基础上。 我们已经多次表示，海峡的局势不会恢复到战前状态。 ” #伊朗 #卡利巴夫 #霍尔木兹海峡 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#伊朗",
+            "#卡利巴夫",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1784742808000,
+          "time": "01:53:28",
+          "receivedAt": 1784745468268,
+          "receivedTime": true
+        },
+        {
+          "id": "221046",
+          "url": "https://t.me/jin10light/221046",
+          "title": "欧盟外交官：欧盟各国大使未能就第21轮对俄制裁方案达成一致。",
+          "body": "#欧盟 #俄罗斯 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#欧盟",
+            "#俄罗斯"
+          ],
+          "ts": 1784742632000,
+          "time": "01:50:32",
+          "receivedAt": 1784745468268,
+          "receivedTime": true
+        },
+        {
+          "id": "221045",
+          "url": "https://t.me/jin10light/221045",
+          "title": "欧盟反垄断监管机构批准派拉蒙(PSKY.O)以1100亿美元收购华纳兄弟探索公司(WBD.O)。",
+          "body": "#欧盟 #派拉蒙 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#欧盟",
+            "#派拉蒙"
+          ],
+          "ts": 1784742032000,
+          "time": "01:40:32",
+          "receivedAt": 1784745468268,
+          "receivedTime": true
+        },
+        {
+          "id": "221044",
+          "url": "https://t.me/jin10light/221044",
+          "title": "伊朗议会议长卡利巴夫：如果我们所在地区无法出售石油，那么任何人都别想出售石油。",
+          "body": "#伊朗 #卡利巴夫 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#伊朗",
+            "#卡利巴夫"
+          ],
+          "ts": 1784741310000,
+          "time": "01:28:30",
+          "receivedAt": 1784745468268,
+          "receivedTime": true
+        },
         {
           "id": "221043",
           "url": "https://t.me/jin10light/221043",
@@ -19286,104 +19386,6 @@
           "ts": 1784321221000,
           "time": "04:47:01",
           "receivedAt": 1784323741244,
-          "receivedTime": true
-        },
-        {
-          "id": "219845",
-          "url": "https://t.me/jin10light/219845",
-          "title": "费城半导体指数进入熊市",
-          "body": "7月18日讯，美股费城半导体指数较6月22日所创收盘历史最高位回撤超20%，进入熊市。 费城半导体指数本周下跌10%，为2025年4月以来最大周跌幅。 #美股",
-          "tags": [
-            "#美股"
-          ],
-          "ts": 1784318941000,
-          "time": "04:09:01",
-          "receivedAt": 1784320684492,
-          "receivedTime": true
-        },
-        {
-          "id": "219844",
-          "url": "https://t.me/jin10light/219844",
-          "title": "费城半导体指数较6月22日创下的历史收盘高点下跌20.2%。",
-          "body": "#下跌",
-          "tags": [
-            "#下跌"
-          ],
-          "ts": 1784318701000,
-          "time": "04:05:01",
-          "receivedAt": 1784320684492,
-          "receivedTime": true
-        },
-        {
-          "id": "219843",
-          "url": "https://t.me/jin10light/219843",
-          "title": "美股收盘：三大股指低收，芯片股涨跌不一",
-          "body": "7月18日讯，美股周五收盘，道指初步收跌0.77%，标普500指数跌1.07%，纳指跌1.4%。 芯片股涨跌不一，西部数据(WDC.O)涨2.23%，SK海力士ADR(SKHY.O)涨1.13%，英伟达(NVDA.O)跌2.21%，Meta Platforms(META.O)跌2.79%，SpaceX(SPCX.O)跌5.43%。 苹果(AAPL.O)收涨0.14%，盘中市值短暂超越英伟达。 纳斯达克中国金龙指数跌1.82%，阿里巴巴(BABA.N)跌2%。 #美股 #纳指 #芯片股 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中...",
-          "tags": [
-            "#美股",
-            "#纳指",
-            "#芯片股"
-          ],
-          "ts": 1784318581000,
-          "time": "04:03:01",
-          "receivedAt": 1784320684492,
-          "receivedTime": true
-        },
-        {
-          "id": "219842",
-          "url": "https://t.me/jin10light/219842",
-          "title": "美国连续第七晚打击伊朗",
-          "body": "7月18日讯，美国中央司令部：美东时间周五下午3点，美国中央司令部对伊朗发起了连续第七晚的打击，旨在继续削弱伊朗的军事能力。 #美国 #伊朗",
-          "tags": [
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1784318221000,
-          "time": "03:57:01",
-          "receivedAt": 1784320684492,
-          "receivedTime": true
-        },
-        {
-          "id": "219841",
-          "url": "https://t.me/jin10light/219841",
-          "title": "伊朗最高领袖顾问：若美军继续行动，伊朗或转入全面进攻阶段",
-          "body": "7月18日讯，伊朗最高领袖顾问雷扎伊表示，若美国未来两三天持续发动攻击，伊朗将结束此前的威慑与对等反击策略，转向“全面进攻与摧毁”阶段，并可能直接打击美国境外军事基地和人员。 他称，伊朗此前克制是为避免地区冲突外溢，但美国的“误判”可能推动局势升级。 雷扎伊同时呼吁科威特、约旦、卡塔尔、阿联酋等地区国家和政府阻止美国和以色列扩大行动，并称美方“战争与谈判并行”的策略已经失败，伊朗未来几天将加强反击力度。 #伊朗 #美军 #雷扎伊",
-          "tags": [
-            "#伊朗",
-            "#美军",
-            "#雷扎伊"
-          ],
-          "ts": 1784315701000,
-          "time": "03:15:01",
-          "receivedAt": 1784317743069,
-          "receivedTime": true
-        },
-        {
-          "id": "219840",
-          "url": "https://t.me/jin10light/219840",
-          "title": "据悉SpaceX正洽谈为美国防部的AI项目提供数十亿美元算力",
-          "body": "7月18日讯，据华尔街日报报道，消息人士透露，SpaceX(SPCX.O)正与美国国防部洽谈，希望为该机构提供价值数十亿美元的算力，用于运行人工智能模型，进一步加强马斯克公司与美国防部之间的合作关系。 这些谈判仍在进行中，但有可能最终破裂。 据熟悉相关计划的人士称，SpaceX最近几个月已与Anthropic和谷歌签署了类似协议，目前正在计划大幅扩大其云计算业务。 据知情人士透露，最近几周，SpaceX的员工讨论了计划以更低的价格向人工智能客户提供算力，从而更直接地与CoreWeave等现有供应商竞争。 #SpaceX #美国国防部 #AI",
-          "tags": [
-            "#SpaceX",
-            "#美国国防部",
-            "#AI"
-          ],
-          "ts": 1784315461000,
-          "time": "03:11:01",
-          "receivedAt": 1784317743069,
-          "receivedTime": true
-        },
-        {
-          "id": "219839",
-          "url": "https://t.me/jin10light/219839",
-          "title": "伊朗最高领袖顾问雷扎伊：如果美国的袭击持续数天，伊朗将进入全面进攻行动阶段。",
-          "body": "#好的",
-          "tags": [
-            "#好的"
-          ],
-          "ts": 1784315401000,
-          "time": "03:10:01",
-          "receivedAt": 1784317743069,
           "receivedTime": true
         }
       ],
