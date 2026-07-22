@@ -1,11 +1,121 @@
 {
-  "updatedAt": "2026-07-22T19:55:56.533Z",
+  "updatedAt": "2026-07-22T20:57:58.216Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6620",
+          "url": "https://t.me/BWEtradfi/6620",
+          "title": "*ServiceNow 第二季度营收 39.9 亿美元，高于预期 39.3 亿美元",
+          "body": "*SERVICENOW 2Q REV. $3.99B, EST. $3.93B *SERVICENOW RAISES FY 2026 SUBSCRIPTION REV GUIDANCE $NOW *ServiceNow 上调 2026 财年订阅收入预期 $NOW",
+          "tags": [],
+          "ts": 1784751017000,
+          "time": "04:10:17",
+          "receivedAt": 1784753861806,
+          "receivedTime": true
+        },
+        {
+          "id": "6619",
+          "url": "https://t.me/BWEtradfi/6619",
+          "title": "*特斯拉预计今年晚些时候弗里蒙特工厂将投产Optimus车型",
+          "body": "*TESLA EXPECTS OPTIMUS PRODUCTION IN FREMONT LATER THIS YEAR $TSLA $TSLA",
+          "tags": [],
+          "ts": 1784750747000,
+          "time": "04:05:47",
+          "receivedAt": 1784753861806,
+          "receivedTime": true
+        },
+        {
+          "id": "6618",
+          "url": "https://t.me/BWEtradfi/6618",
+          "title": "*特朗普：去买台戴尔电脑吧",
+          "body": "*TRUMP: GO OUT AND BUY A DELL COMPUTER $DELL $戴尔",
+          "tags": [],
+          "ts": 1784750686000,
+          "time": "04:04:46",
+          "receivedAt": 1784753861806,
+          "receivedTime": true
+        },
+        {
+          "id": "6617",
+          "url": "https://t.me/BWEtradfi/6617",
+          "title": "*特斯拉第二季度营收：282.4亿美元，预期为263.2亿美元",
+          "body": "*TESLA 2Q REV. $28.24B, EST. $26.32B *TESLA 2Q EPS 32C VS. 33C Y/Y *TESLA 2Q ADJ EPS 33C, EST. 51C *TESLA 2Q GROSS MARGIN 16.8%, EST. 19.4% $TSLA *特斯拉第二季度每股收益：32美分，去年同期为33美分 *特斯拉第二季度调整后每股收益：33​​美分，预期为51美分 *特斯拉第二季度毛利率：16.8%，预期为19.4% $TSLA",
+          "tags": [],
+          "ts": 1784750676000,
+          "time": "04:04:36",
+          "receivedAt": 1784753861806,
+          "receivedTime": true
+        },
+        {
+          "id": "6616",
+          "url": "https://t.me/BWEtradfi/6616",
+          "title": "Infinityhedge: ALPHABET 第二季度 GOOGLE CLOUD 营收 247.7 亿美元，预期 224.6 亿美元",
+          "body": "Infinityhedge: ALPHABET 2Q GOOGLE CLOUD REV. $24.77B, EST. $22.46B",
+          "tags": [],
+          "ts": 1784750561000,
+          "time": "04:02:41",
+          "receivedAt": 1784753861806,
+          "receivedTime": true
+        },
+        {
+          "id": "6615",
+          "url": "https://t.me/BWEtradfi/6615",
+          "title": "*Alphabet 第二季度 Google 广告收入：816.3 亿美元，预期为 811.2 亿美元",
+          "body": "*ALPHABET 2Q GOOGLE AD REV. $81.63B, EST. $81.12B *ALPHABET 2Q GOOGLE SERVICES REV. $94.54B, EST. $94.32B *ALPHABET 2Q OPER INCOME $40.77B, EST. $40.55B *ALPHABET 2Q REV. $119.80B, EST. $117.02B $GOOGL *Alphabet 第二季度 Google 服务收入：945.4 亿美元，预期为 943.2 亿美元 *Alphabet 第二季度运营收入：407.7 亿美元，预期为 405.5 亿美元 *Al...",
+          "tags": [],
+          "ts": 1784750537000,
+          "time": "04:02:17",
+          "receivedAt": 1784753861806,
+          "receivedTime": true
+        },
+        {
+          "id": "6614",
+          "url": "https://t.me/BWEtradfi/6614",
+          "title": "*ALPHABET 第二季度资本支出 $44.92B，EST。 $44.15B",
+          "body": "*ALPHABET 2Q CAPEX $44.92B, EST. $44.15B $GOOGL $GOOGL",
+          "tags": [],
+          "ts": 1784750534000,
+          "time": "04:02:14",
+          "receivedAt": 1784753861806,
+          "receivedTime": true
+        },
+        {
+          "id": "6613",
+          "url": "https://t.me/BWEtradfi/6613",
+          "title": "Infinityhedge: ALPHABET第二季度营收1198亿美元，IBES估计为1169.26亿美元：ALPHABET",
+          "body": "Infinityhedge: ALPHABET Q2 REVENUE USD 119,800 MILLION VS. IBES ESTIMATE USD 116,926 MILLION: ALPHABET",
+          "tags": [],
+          "ts": 1784750532000,
+          "time": "04:02:12",
+          "receivedAt": 1784753861806,
+          "receivedTime": true
+        },
+        {
+          "id": "6612",
+          "url": "https://t.me/BWEtradfi/6612",
+          "title": "Infinityhedge: ALPHABET 第二季度扣除流量获得成本后营收为 1036.2 亿美元，预期为 1010.7 亿美元：ALPHABET",
+          "body": "Infinityhedge: ALPHABET 2Q REV. EX-TAC $103.62B, EST. $101.07B: ALPHABET",
+          "tags": [],
+          "ts": 1784750532000,
+          "time": "04:02:12",
+          "receivedAt": 1784753861806,
+          "receivedTime": true
+        },
+        {
+          "id": "6611",
+          "url": "https://t.me/BWEtradfi/6611",
+          "title": "DB: 标普500指数收盘下跌0.1%，纳斯达克指数下跌0.5%",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.1%, NASDAQ FALLS 0.5%",
+          "tags": [],
+          "ts": 1784750413000,
+          "time": "04:00:13",
+          "receivedAt": 1784753861806,
+          "receivedTime": true
+        },
         {
           "id": "6610",
           "url": "https://t.me/BWEtradfi/6610",
@@ -2109,46 +2219,106 @@
           "time": "09:53:04",
           "receivedAt": 1783482348869,
           "receivedTime": true
-        },
-        {
-          "id": "6420",
-          "url": "https://t.me/BWEtradfi/6420",
-          "title": "*企鹅解决方案公司第三季度净销售额 4.787 亿美元，预期为 4.007 亿美元",
-          "body": "*PENGUIN SOLUTIONS 3Q NET SALES $478.7M, EST. $400.7M *PENGUIN SOLUTIONS 3Q ADJ EPS 84C, EST. 54C $PENG *企鹅解决方案公司第三季度调整后每股收益 0.84 美元，预期为 0.54 美元 $PENG",
-          "tags": [],
-          "ts": 1783454722000,
-          "time": "04:05:22",
-          "receivedAt": 1783458257305,
-          "receivedTime": true
-        },
-        {
-          "id": "6419",
-          "url": "https://t.me/BWEtradfi/6419",
-          "title": "DB: 标准普尔500指数收跌0.5%，纳斯达克指数下跌1.2%",
-          "body": "DB: *S&P 500 CLOSES DOWN 0.5%, NASDAQ DECLINES 1.2%",
-          "tags": [],
-          "ts": 1783454413000,
-          "time": "04:00:13",
-          "receivedAt": 1783458257305,
-          "receivedTime": true
-        },
-        {
-          "id": "6418",
-          "url": "https://t.me/BWEtradfi/6418",
-          "title": "伊朗最高领袖顾问穆赫森·雷扎伊：很明显，美国将导致谈判失败",
-          "body": "*ADVISOR TO IRAN'S SUPREME LEADER, MOHSEN REZAEI: IT IS QUITE CLEAR THAT THE U.S. WILL LEAD THE NEGOTIATIONS TO FAILURE",
-          "tags": [],
-          "ts": 1783454347000,
-          "time": "03:59:07",
-          "receivedAt": 1783458257305,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "221061",
+          "url": "https://t.me/jin10light/221061",
+          "title": "也门胡塞武装发言人：将发表声明，宣布一项重大军事行动。",
+          "body": "#也门 #胡塞武装",
+          "tags": [
+            "#也门",
+            "#胡塞武装"
+          ],
+          "ts": 1784753607000,
+          "time": "04:53:27",
+          "receivedAt": 1784753862503,
+          "receivedTime": true
+        },
+        {
+          "id": "221060",
+          "url": "https://t.me/jin10light/221060",
+          "title": "美国总统特朗普：9月份将面临政府停摆。",
+          "body": "#美国 #特朗普",
+          "tags": [
+            "#美国",
+            "#特朗普"
+          ],
+          "ts": 1784753488000,
+          "time": "04:51:28",
+          "receivedAt": 1784753862503,
+          "receivedTime": true
+        },
+        {
+          "id": "221059",
+          "url": "https://t.me/jin10light/221059",
+          "title": "美国众议院通过国防授权法案",
+          "body": "7月23日讯，据Politico：美国众议院以216票赞成、212票反对的微弱优势通过规模达1.15万亿美元的《国防授权法案》。 7名共和党议员投票反对，6名民主党议员投票支持。 #美国 #国防授权法案",
+          "tags": [
+            "#美国",
+            "#国防授权法案"
+          ],
+          "ts": 1784753008000,
+          "time": "04:43:28",
+          "receivedAt": 1784753862503,
+          "receivedTime": true
+        },
+        {
+          "id": "221058",
+          "url": "https://t.me/jin10light/221058",
+          "title": "特斯拉(TSLA.O)2026财年Q2毛利率为16.8%，市场预期19.33%。",
+          "body": "#特斯拉 #TSLA ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#特斯拉",
+            "#TSLA"
+          ],
+          "ts": 1784750787000,
+          "time": "04:06:27",
+          "receivedAt": 1784753862503,
+          "receivedTime": true
+        },
+        {
+          "id": "221057",
+          "url": "https://t.me/jin10light/221057",
+          "title": "美股收盘：三大股指小幅收低，SpaceX跌超6%",
+          "body": "7月23日讯，美股周三收盘，道指初步收跌0.01%，标普500指数跌0.14%，纳指跌0.57%。 SpaceX(SPCX.O)跌6.7%，创下收盘新低。 英伟达(NVDA.O)涨2.3%，SK海力士(SKHY.O)跌3.8%，超微电脑(SMCI.O)涨近20%，戴尔(DELL.N)涨9%。 纳斯达克中国金龙指数收跌1.8%，网易(NTES.O)跌超6%。 #美股 #SpaceX #英伟达",
+          "tags": [
+            "#美股",
+            "#SpaceX",
+            "#英伟达"
+          ],
+          "ts": 1784750611000,
+          "time": "04:03:31",
+          "receivedAt": 1784753862503,
+          "receivedTime": true
+        },
+        {
+          "id": "221056",
+          "url": "https://t.me/jin10light/221056",
+          "title": "Alphabet(GOOG.O)2026财年Q2谷歌广告业务收入为816.3亿美元，市场预期811.29亿美元。",
+          "body": "",
+          "tags": [],
+          "ts": 1784750611000,
+          "time": "04:03:31",
+          "receivedAt": 1784753862503,
+          "receivedTime": true
+        },
+        {
+          "id": "221055",
+          "url": "https://t.me/jin10light/221055",
+          "title": "IBM(IBM.N)2026年Q2营收172亿美元，去年同期169.8亿美元，市场预期177.7亿美元。",
+          "body": "",
+          "tags": [],
+          "ts": 1784750610000,
+          "time": "04:03:30",
+          "receivedAt": 1784753862503,
+          "receivedTime": true
+        },
         {
           "id": "221054",
           "url": "https://t.me/jin10light/221054",
@@ -19293,111 +19463,6 @@
           ],
           "ts": 1784335982000,
           "time": "08:53:02",
-          "receivedAt": 1784345186251,
-          "receivedTime": true
-        },
-        {
-          "id": "219856",
-          "url": "https://t.me/jin10light/219856",
-          "title": "美国连续第七晚打击伊朗，伊朗威胁将转向「全面进攻与摧毁」阶段",
-          "body": "#美国 #伊朗 #雷扎伊",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#雷扎伊"
-          ],
-          "ts": 1784335922000,
-          "time": "08:52:02",
-          "receivedAt": 1784345186251,
-          "receivedTime": true
-        },
-        {
-          "id": "219855",
-          "url": "https://t.me/jin10light/219855",
-          "title": "美股今晨收盘三大股指普跌，SpaceX跌5.43%",
-          "body": "#美股 #道指 #标普 500",
-          "tags": [
-            "#美股",
-            "#道指",
-            "#标普"
-          ],
-          "ts": 1784335804000,
-          "time": "08:50:04",
-          "receivedAt": 1784345186251,
-          "receivedTime": true
-        },
-        {
-          "id": "219854",
-          "url": "https://t.me/jin10light/219854",
-          "title": "特朗普：6月通胀传来「好消息」，美国迎来「黄金时代」",
-          "body": "#美国 #特朗普 #台积电",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#台积电"
-          ],
-          "ts": 1784335625000,
-          "time": "08:47:05",
-          "receivedAt": 1784345186251,
-          "receivedTime": true
-        },
-        {
-          "id": "219853",
-          "url": "https://t.me/jin10light/219853",
-          "title": "伊朗最高领袖顾问：若美军继续行动，伊朗或转入全面进攻阶段",
-          "body": "#伊朗 #美国 #雷扎伊",
-          "tags": [
-            "#伊朗",
-            "#美国",
-            "#雷扎伊"
-          ],
-          "ts": 1784335502000,
-          "time": "08:45:02",
-          "receivedAt": 1784345186251,
-          "receivedTime": true
-        },
-        {
-          "id": "219852",
-          "url": "https://t.me/jin10light/219852",
-          "title": "一艘悬挂泰国国旗船只今晨在霍尔木兹海峡遭袭",
-          "body": "#伊朗 #霍尔木兹海峡 #泰国",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡",
-            "#泰国"
-          ],
-          "ts": 1784335444000,
-          "time": "08:44:04",
-          "receivedAt": 1784345186251,
-          "receivedTime": true
-        },
-        {
-          "id": "219851",
-          "url": "https://t.me/jin10light/219851",
-          "title": "WSJ：SpaceX正洽谈为美国防部的AI项目提供数十亿美元算力",
-          "body": "#SpaceX #美国国防部 #美国",
-          "tags": [
-            "#SpaceX",
-            "#美国国防部",
-            "#美国"
-          ],
-          "ts": 1784335264000,
-          "time": "08:41:04",
-          "receivedAt": 1784345186251,
-          "receivedTime": true
-        },
-        {
-          "id": "219850",
-          "url": "https://t.me/jin10light/219850",
-          "title": "国内新闻ï",
-          "body": "1.铁路部门试点提前60天预约购票服务。 2. 国家发改委发布人工智能合作发展行动计划。 3. 中国证监会组织财务造假综合惩防跨部门培训。 4. 习近平宣布中国支持全球人工智能发展重大举措。 5. 两融集中强平？多家券商回应：未出现大规模平仓。 6. 贵州茅台：上调飞天茅台i茅台平台零售价及合同价。 7. 商务部新闻发言人就美不再延续涉港国家紧急状态答记者问。 8. 财政部调整部分电池消费税政策，部分新能源电池逐步恢复征收消费税。 9. 国家发改委：自7月17日24时起，国内汽、柴油（标准品）价格每吨分别上调300元、290元。 10. 工业和信息化部...",
-          "tags": [
-            "#中国",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1784335148000,
-          "time": "08:39:08",
           "receivedAt": 1784345186251,
           "receivedTime": true
         }
