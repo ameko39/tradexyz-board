@@ -1,11 +1,66 @@
 {
-  "updatedAt": "2026-07-23T18:49:51.363Z",
+  "updatedAt": "2026-07-23T20:03:15.878Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6645",
+          "url": "https://t.me/BWEtradfi/6645",
+          "title": "*英特尔第三季度调整后毛利率预计为 42%，高于预期的 40.2%",
+          "body": "*INTEL SEES 3Q ADJ GROSS MARGIN 42%, EST. 40.2% *INTEL 2Q REV. $16.13B, EST. $14.43B $INTC *英特尔第二季度营收预计为 161.3 亿美元，高于预期的 144.3 亿美元 $INTC",
+          "tags": [],
+          "ts": 1784836877000,
+          "time": "04:01:17",
+          "receivedAt": 1784836981102,
+          "receivedTime": true
+        },
+        {
+          "id": "6644",
+          "url": "https://t.me/BWEtradfi/6644",
+          "title": "据首席财务官大卫·津斯纳（David Zinsner）在采访中透露，英特尔计划将2026年资本支出从180亿美元上调至200亿美元 - $INTC",
+          "body": "*INTEL PLANS TO RAISE CAPITAL EXPENDITURES FROM $18 BLN TO $20 BLN FOR 2026 - CFO DAVID ZINSNER IN INTERVIEW $INTC",
+          "tags": [],
+          "ts": 1784836833000,
+          "time": "04:00:33",
+          "receivedAt": 1784836981102,
+          "receivedTime": true
+        },
+        {
+          "id": "6643",
+          "url": "https://t.me/BWEtradfi/6643",
+          "title": "*英特尔第二季度营收161.3亿美元，高于IBES预期的144.2亿美元",
+          "body": "*INTEL Q2 REVENUE $16.13 BLN VS IBES ESTIMATE $14.42 BLN *INTEL OUTLOOK Q3 ADJ EPS $0.38 VS IBES ESTIMATE $0.27 $INTC *英特尔第三季度展望调整后每股收益0.38美元，高于IBES预期的0.27美元 $INTC",
+          "tags": [],
+          "ts": 1784836819000,
+          "time": "04:00:19",
+          "receivedAt": 1784836981102,
+          "receivedTime": true
+        },
+        {
+          "id": "6642",
+          "url": "https://t.me/BWEtradfi/6642",
+          "title": "DB: *标普500指数收跌1.2%，纳斯达克指数下跌2.1%",
+          "body": "DB: *S&P 500 CLOSES DOWN 1.2%, NASDAQ FALLS 2.1%",
+          "tags": [],
+          "ts": 1784836814000,
+          "time": "04:00:14",
+          "receivedAt": 1784836981102,
+          "receivedTime": true
+        },
+        {
+          "id": "6641",
+          "url": "https://t.me/BWEtradfi/6641",
+          "title": "*特朗普力荐美国情报投资",
+          "body": "*TRUMP TOUTS US INTEL INVESTMENT *NOTE: INTEL REPORTS EARNINGS AFTER CLOSE $INTC *注：英特尔财报将于收盘后发布 $INTC",
+          "tags": [],
+          "ts": 1784831550000,
+          "time": "02:32:30",
+          "receivedAt": 1784836981102,
+          "receivedTime": true
+        },
         {
           "id": "6640",
           "url": "https://t.me/BWEtradfi/6640",
@@ -2157,105 +2212,171 @@
           "time": "04:11:17",
           "receivedAt": 1783542300488,
           "receivedTime": true
-        },
-        {
-          "id": "6446",
-          "url": "https://t.me/BWEtradfi/6446",
-          "title": "DB: *标准普尔500指数收跌0.2%，纳斯达克指数上涨0.3%",
-          "body": "DB: *S&P 500 CLOSES DOWN 0.2%, NASDAQ RISES 0.3%",
-          "tags": [],
-          "ts": 1783540813000,
-          "time": "04:00:13",
-          "receivedAt": 1783542300488,
-          "receivedTime": true
-        },
-        {
-          "id": "6445",
-          "url": "https://t.me/BWEtradfi/6445",
-          "title": "贝莱德的瑞克·里德：一些与人工智能更直接相关的公司，我们已经回调了一些，并进行了一些再平衡",
-          "body": "*BLACKROCK'S RICK RIEDER: SOME OF THE COMPANIES THAT ARE MORE DIRECTLY TIED TO AI, WE'VE PULLED BACK A BIT AND REBALANCED A BIT",
-          "tags": [],
-          "ts": 1783538435000,
-          "time": "03:20:35",
-          "receivedAt": 1783542300488,
-          "receivedTime": true
-        },
-        {
-          "id": "6444",
-          "url": "https://t.me/BWEtradfi/6444",
-          "title": "DB: 美国5月消费信贷环比下降0.18亿美元；预计增加171亿美元",
-          "body": "DB: *US MAY CONSUMER CREDIT FALLS $0.18B M/M; EST. +17.10B",
-          "tags": [],
-          "ts": 1783537229000,
-          "time": "03:00:29",
-          "receivedAt": 1783537362703,
-          "receivedTime": true
-        },
-        {
-          "id": "6443",
-          "url": "https://t.me/BWEtradfi/6443",
-          "title": "*布鲁姆能源：正在审查做空报告，将“纠正记录”",
-          "body": "*BLOOM ENERGY: REVIEWING SHORT REPORT, WILL 'CORRECT THE RECORD' $BE $BE",
-          "tags": [],
-          "ts": 1783536048000,
-          "time": "02:40:48",
-          "receivedAt": 1783537362703,
-          "receivedTime": true
-        },
-        {
-          "id": "6442",
-          "url": "https://t.me/BWEtradfi/6442",
-          "title": "*BURRY LONGS FLUTTER ENTERTAINMENT, DRAFTKINGS",
-          "body": "#FLUT • #DKNG Tradfin: *BURRY LONGS FLUTTER ENTERTAINMENT，DRAFTKINGS #FLUT • #DKNG",
-          "tags": [
-            "#FLUT",
-            "#DKNG"
-          ],
-          "ts": 1783533742000,
-          "time": "02:02:22",
-          "receivedAt": 1783537362703,
-          "receivedTime": true
-        },
-        {
-          "id": "6441",
-          "url": "https://t.me/BWEtradfi/6441",
-          "title": "美联储：人工智能可能导致通胀居高不下，系最常被引用的可能性",
-          "body": "*FED: MOST CITED POSSIBILITY INFLATION COULD STAY HIGH DUE TO AI",
-          "tags": [],
-          "ts": 1783533631000,
-          "time": "02:00:31",
-          "receivedAt": 1783537362703,
-          "receivedTime": true
-        },
-        {
-          "id": "6440",
-          "url": "https://t.me/BWEtradfi/6440",
-          "title": "美联储：所有官员均支持6月份维持利率不变",
-          "body": "*FED: ALL OFFICIALS SUPPORTED LEAVING RATES UNCHANGED IN JUNE",
-          "tags": [],
-          "ts": 1783533628000,
-          "time": "02:00:28",
-          "receivedAt": 1783537362703,
-          "receivedTime": true
-        },
-        {
-          "id": "6439",
-          "url": "https://t.me/BWEtradfi/6439",
-          "title": "美联储会议纪要：少数与会者认为有理由加息，但表示支持在本次会议上维持当前区间",
-          "body": "*FED MINUTES: A FEW PARTICIPANTS SAW A CASE FOR RAISING RATES BUT INDICATED THEY SUPPORTED MAINTAINING THE CURRENT RANGE AT THIS MEETING",
-          "tags": [],
-          "ts": 1783533615000,
-          "time": "02:00:15",
-          "receivedAt": 1783537362703,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true,
-      "error": "502 Bad Gateway"
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "221422",
+          "url": "https://t.me/jin10light/221422",
+          "title": "英特尔(INTC.O)第三季度营收展望为158亿美元至168亿美元，低于IBES预期的151亿美元。",
+          "body": "#英特尔 #INTC .O ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#英特尔",
+            "#INTC"
+          ],
+          "ts": 1784836948000,
+          "time": "04:02:28",
+          "receivedAt": 1784836981852,
+          "receivedTime": true
+        },
+        {
+          "id": "221421",
+          "url": "https://t.me/jin10light/221421",
+          "title": "英特尔(INTC.O)首席财务官：英特尔计划在2027年大幅增加资本支出。",
+          "body": "#英特尔 #INTC .O",
+          "tags": [
+            "#英特尔",
+            "#INTC"
+          ],
+          "ts": 1784836948000,
+          "time": "04:02:28",
+          "receivedAt": 1784836981852,
+          "receivedTime": true
+        },
+        {
+          "id": "221420",
+          "url": "https://t.me/jin10light/221420",
+          "title": "市场消息：Alphabet(GOOG.O)持有的Anthropic股份价值飙升至约1240亿美元。",
+          "body": "#Alphabet #Anthropic ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#Alphabet",
+            "#Anthropic"
+          ],
+          "ts": 1784836890000,
+          "time": "04:01:30",
+          "receivedAt": 1784836981852,
+          "receivedTime": true
+        },
+        {
+          "id": "221419",
+          "url": "https://t.me/jin10light/221419",
+          "title": "英特尔（INTC.O）2026年第二季度营收161.3亿美元，去年同期为129亿美元，市场预期为144.3亿美元。",
+          "body": "#英特尔 #INTC .O",
+          "tags": [
+            "#英特尔",
+            "#INTC"
+          ],
+          "ts": 1784836889000,
+          "time": "04:01:29",
+          "receivedAt": 1784836981852,
+          "receivedTime": true
+        },
+        {
+          "id": "221418",
+          "url": "https://t.me/jin10light/221418",
+          "title": "特斯拉(TSLA.O)跌至盘中低点，现跌超15%。",
+          "body": "#特斯拉 #TSLA",
+          "tags": [
+            "#特斯拉",
+            "#TSLA"
+          ],
+          "ts": 1784835808000,
+          "time": "03:43:28",
+          "receivedAt": 1784836981852,
+          "receivedTime": true
+        },
+        {
+          "id": "221417",
+          "url": "https://t.me/jin10light/221417",
+          "title": "夜盘主力合约收盘",
+          "body": "截至2:30收盘，沪金主力合约收跌2.25%，报884元/克，沪银主力合约收跌4.22%，报14110元/千克，SC原油主力合约收涨7.11%，报604元/桶。 #沪金 #沪银 #SC原油",
+          "tags": [
+            "#沪金",
+            "#沪银",
+            "#SC原油"
+          ],
+          "ts": 1784831608000,
+          "time": "02:33:28",
+          "receivedAt": 1784836981852,
+          "receivedTime": true
+        },
+        {
+          "id": "221416",
+          "url": "https://t.me/jin10light/221416",
+          "title": "Robinhood CEO官推发布可疑信息，疑似被盗",
+          "body": "#Robinhood #Vlad Tenev #VLAD ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#Robinhood",
+            "#Vlad",
+            "#VLAD"
+          ],
+          "ts": 1784831188000,
+          "time": "02:26:28",
+          "receivedAt": 1784836981852,
+          "receivedTime": true
+        },
+        {
+          "id": "221415",
+          "url": "https://t.me/jin10light/221415",
+          "title": "美、布两油日内分别大涨8%和6%",
+          "body": "7月24日讯，国际油价持续走高，WTI原油日内暴涨8.00%，现报93.87美元/桶。 布伦特原油日内暴涨6.00%，现报96.11美元/桶。 #WTI原油 #布伦特原油",
+          "tags": [
+            "#WTI原油",
+            "#布伦特原油"
+          ],
+          "ts": 1784830348000,
+          "time": "02:12:28",
+          "receivedAt": 1784836981852,
+          "receivedTime": true
+        },
+        {
+          "id": "221414",
+          "url": "https://t.me/jin10light/221414",
+          "title": "布伦特原油一度向上触及96美元/桶，为6月8日以来首次，日内涨5.89%。",
+          "body": "#布伦特原油 #美元",
+          "tags": [
+            "#布伦特原油",
+            "#美元"
+          ],
+          "ts": 1784829509000,
+          "time": "01:58:29",
+          "receivedAt": 1784836981852,
+          "receivedTime": true
+        },
+        {
+          "id": "221413",
+          "url": "https://t.me/jin10light/221413",
+          "title": "据德黑兰时报：英国外交人员撤离德黑兰是美方施压伊朗的“心理战”。",
+          "body": "德国大使认为，因为英国把伊朗革命卫队列为威胁后，伊朗可能会驱逐英国外交官，所以英国提前撤离人员避免被动。 #伊朗 #英国 #德黑兰",
+          "tags": [
+            "#伊朗",
+            "#英国",
+            "#德黑兰"
+          ],
+          "ts": 1784828907000,
+          "time": "01:48:27",
+          "receivedAt": 1784836981852,
+          "receivedTime": true
+        },
+        {
+          "id": "221412",
+          "url": "https://t.me/jin10light/221412",
+          "title": "以色列防长称已为应对伊朗局势做好“全方位准备”",
+          "body": "7月24日讯，当地时间23日，据以色列方面消息，以色列国防部长卡茨当天表示，鉴于当前与伊朗的紧张局势不断升级，以色列方面目前已为“所有可能发生的情况”做好了准备。 据称，卡茨当天召集以军总参谋长扎米尔及多名军方高级官员，在国防部总部举行了紧急局势安全评估会议。 卡茨在会议结束时向伊朗方面发出了严厉警告。 他宣称，如果伊朗选择对以色列发动任何形式的袭击，“都将承受来自以方的毁灭性打击”。 #以色列 #伊朗 #卡茨",
+          "tags": [
+            "#以色列",
+            "#伊朗",
+            "#卡茨"
+          ],
+          "ts": 1784828788000,
+          "time": "01:46:28",
+          "receivedAt": 1784836981852,
+          "receivedTime": true
+        },
         {
           "id": "221411",
           "url": "https://t.me/jin10light/221411",
@@ -19319,165 +19440,9 @@
           "time": "16:10:30",
           "receivedAt": 1784543424635,
           "receivedTime": true
-        },
-        {
-          "id": "220218",
-          "url": "https://t.me/jin10light/220218",
-          "title": "市场监管总局：合理降低佣金、抽成、会员费等费用，减轻个体工商户运营初期成本压力",
-          "body": "7月20日讯，市场监管总局办公厅印发《推动平台企业赋能个体工商户发展行动方案》的通知。 引导平台企业为新入驻个体工商户提供让利服务，合理降低佣金、抽成、会员费、技术服务费、信息服务费、营销推广费等费用，减轻个体工商户运营初期成本压力。 落实《网络交易平台收费行为合规指南》，规范和引导平台企业收费行为。 #市场监管总局 #个体工商户 #平台企业",
-          "tags": [
-            "#市场监管总局",
-            "#个体工商户",
-            "#平台企业"
-          ],
-          "ts": 1784534674000,
-          "time": "16:04:34",
-          "receivedAt": 1784543424635,
-          "receivedTime": true
-        },
-        {
-          "id": "220217",
-          "url": "https://t.me/jin10light/220217",
-          "title": "南向资金净卖额达50亿元。",
-          "body": "#南向资金 #港股",
-          "tags": [
-            "#南向资金",
-            "#港股"
-          ],
-          "ts": 1784534309000,
-          "time": "15:58:29",
-          "receivedAt": 1784543424635,
-          "receivedTime": true
-        },
-        {
-          "id": "220216",
-          "url": "https://t.me/jin10light/220216",
-          "title": "比特币多单持仓超1亿美元鲸鱼于1小时前平仓",
-          "body": "#BTC #鲸鱼",
-          "tags": [
-            "#BTC",
-            "#鲸鱼"
-          ],
-          "ts": 1784534309000,
-          "time": "15:58:29",
-          "receivedAt": 1784543424923,
-          "receivedTime": true
-        },
-        {
-          "id": "220215",
-          "url": "https://t.me/jin10light/220215",
-          "title": "伊朗外交部确认收到调解方提议，但未透露详情",
-          "body": "",
-          "tags": [],
-          "ts": 1784534192000,
-          "time": "15:56:32",
-          "receivedAt": 1784543424923,
-          "receivedTime": true
-        },
-        {
-          "id": "220214",
-          "url": "https://t.me/jin10light/220214",
-          "title": "里海管道联盟：在7月20日油轮再次遇袭后，石油装运在短暂恢复后再次暂停。",
-          "body": "#里海管道联盟 #霍尔木兹海峡",
-          "tags": [
-            "#里海管道联盟",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1784533887000,
-          "time": "15:51:27",
-          "receivedAt": 1784543424923,
-          "receivedTime": true
-        },
-        {
-          "id": "220213",
-          "url": "https://t.me/jin10light/220213",
-          "title": "布油较美伊冲突重启累涨16%，当日踩点开多巨鲸已浮盈97%本金",
-          "body": "#布伦特原油 #伊朗 #美国",
-          "tags": [
-            "#布伦特原油",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1784533829000,
-          "time": "15:50:29",
-          "receivedAt": 1784543424923,
-          "receivedTime": true
-        },
-        {
-          "id": "220212",
-          "url": "https://t.me/jin10light/220212",
-          "title": "伊朗外交部发言人：伊朗在霍尔木兹海峡的主权权利不可谈判。",
-          "body": "#伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1784533648000,
-          "time": "15:47:28",
-          "receivedAt": 1784543424923,
-          "receivedTime": true
-        },
-        {
-          "id": "220211",
-          "url": "https://t.me/jin10light/220211",
-          "title": "某新建地址从Binance提取1万枚ETH，并全部质押",
-          "body": "#ETH #Binance",
-          "tags": [
-            "#ETH",
-            "#Binance"
-          ],
-          "ts": 1784533469000,
-          "time": "15:44:29",
-          "receivedAt": 1784543424923,
-          "receivedTime": true
-        },
-        {
-          "id": "220210",
-          "url": "https://t.me/jin10light/220210",
-          "title": "外交部：中美双方就年内元首互动安排保持沟通",
-          "body": "7月20日讯，外交部发言人林剑主持例行记者会。 有记者提问，美国国务卿鲁比奥表示，中国国家主席习近平即将于9月对美国进行的访问仍在按计划进行。 请问，中国外交部是否认为此次访问仍在按计划进行？林剑表示，元首外交对中美关系具有不可替代的战略引领作用。 双方就年内元首的互动安排保持了沟通。 #中国 #美国 #习近平 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#中国",
-            "#美国",
-            "#习近平"
-          ],
-          "ts": 1784533407000,
-          "time": "15:43:27",
-          "receivedAt": 1784533447665,
-          "receivedTime": true
-        },
-        {
-          "id": "220209",
-          "url": "https://t.me/jin10light/220209",
-          "title": "伊朗抛出橄榄枝，两油短线回落",
-          "body": "#伊朗 #美国 #WTI原油 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#伊朗",
-            "#美国",
-            "#WTI原油"
-          ],
-          "ts": 1784533350000,
-          "time": "15:42:30",
-          "receivedAt": 1784533447665,
-          "receivedTime": true
-        },
-        {
-          "id": "220208",
-          "url": "https://t.me/jin10light/220208",
-          "title": "WTI原油和布伦特原油回落，日内涨幅均收窄至约1%，现报83.16美元/桶和87.63美元/桶。",
-          "body": "#WTI原油 #布伦特原油",
-          "tags": [
-            "#WTI原油",
-            "#布伦特原油"
-          ],
-          "ts": 1784533287000,
-          "time": "15:41:27",
-          "receivedAt": 1784533447665,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": false,
-      "error": "502 Bad Gateway"
+      "archiveComplete": false
     },
     "poly": {
       "channel": "PolyBeats_Bot",
@@ -20748,8 +20713,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false,
-      "error": "502 Bad Gateway"
+      "archiveComplete": true
     }
   }
 }
