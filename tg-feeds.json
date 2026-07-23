@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T17:44:40.674Z",
+  "updatedAt": "2026-07-23T18:49:51.363Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2250,7 +2250,8 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true,
+      "error": "502 Bad Gateway"
     },
     "jin10": {
       "channel": "jin10light",
@@ -19475,7 +19476,8 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": false,
+      "error": "502 Bad Gateway"
     },
     "poly": {
       "channel": "PolyBeats_Bot",
@@ -20746,7 +20748,8 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false,
+      "error": "502 Bad Gateway"
     }
   }
 }
