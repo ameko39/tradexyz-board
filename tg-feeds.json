@@ -1,11 +1,99 @@
 {
-  "updatedAt": "2026-07-24T18:44:33.145Z",
+  "updatedAt": "2026-07-24T20:03:04.562Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6663",
+          "url": "https://t.me/BWEtradfi/6663",
+          "title": "DB: 标普500指数小幅收平，纳斯达克指数下跌0.7%",
+          "body": "DB: *S&P 500 CLOSES LITTLE CHANGED, NASDAQ DECLINES 0.7%",
+          "tags": [],
+          "ts": 1784923213000,
+          "time": "04:00:13",
+          "receivedAt": 1784923366434,
+          "receivedTime": true
+        },
+        {
+          "id": "6662",
+          "url": "https://t.me/BWEtradfi/6662",
+          "title": "*TRUMP: 尽管所有人都在议论大选，但我并不急于求成",
+          "body": "*TRUMP: DESPITE WHAT EVERYONE SAYS ABOUT ELECTIONS I AM NOT IN A HURRY",
+          "tags": [],
+          "ts": 1784921814000,
+          "time": "03:36:54",
+          "receivedAt": 1784923366434,
+          "receivedTime": true
+        },
+        {
+          "id": "6661",
+          "url": "https://t.me/BWEtradfi/6661",
+          "title": "*特朗普：我们已万事俱备，蓄势待发",
+          "body": "*TRUMP: WE'RE LOCKED AND LOADED AND READY TO GO",
+          "tags": [],
+          "ts": 1784921762000,
+          "time": "03:36:02",
+          "receivedAt": 1784923366434,
+          "receivedTime": true
+        },
+        {
+          "id": "6660",
+          "url": "https://t.me/BWEtradfi/6660",
+          "title": "*特朗普：尚未决定是否对伊朗发动重大打击",
+          "body": "*TRUMP: HAVEN'T MADE DECISION ON MAJOR STRIKES ON IRAN *TRUMP: TALKING TO THEM NOW *TRUMP: THINK THEY'RE GETTING MORE SERIOUS AS DAYS GO BY *特朗普：正在与他们谈判 *特朗普：我认为随着时间的推移，他们的态度越来越认真了",
+          "tags": [],
+          "ts": 1784921745000,
+          "time": "03:35:45",
+          "receivedAt": 1784923366434,
+          "receivedTime": true
+        },
+        {
+          "id": "6659",
+          "url": "https://t.me/BWEtradfi/6659",
+          "title": "特朗普：我觉得我们会因为生菜的事对墨西哥征收重税。",
+          "body": "*TRUMP: THINK WE'LL PUT MAJOR TARIFF ON MEXICO BECAUSE OF THE LETTUCE",
+          "tags": [],
+          "ts": 1784921701000,
+          "time": "03:35:01",
+          "receivedAt": 1784923366434,
+          "receivedTime": true
+        },
+        {
+          "id": "6658",
+          "url": "https://t.me/BWEtradfi/6658",
+          "title": "*特朗普：我们可以把他们一块一块地拆散，或者更快一点——我们或许会这么做——或者我们可以谈判。",
+          "body": "*TRUMP: WE CAN TAKE THEM APART PIECE BY PIECE, OR FASTER WHICH WE MAY, OR WE CAN NEGOTIATE *TRUMP: AS WE SPEAK, WE'RE TALKING TO IRAN *特朗普：就在我们说话的时候，我们正在和伊朗谈判。",
+          "tags": [],
+          "ts": 1784921630000,
+          "time": "03:33:50",
+          "receivedAt": 1784923366434,
+          "receivedTime": true
+        },
+        {
+          "id": "6657",
+          "url": "https://t.me/BWEtradfi/6657",
+          "title": "特朗普被问及伊朗撤军策略时表示：策略有很多",
+          "body": "*TRUMP, ASKED ABOUT IRAN EXIT STRATEGY: THERE ARE A LOT OF THEM",
+          "tags": [],
+          "ts": 1784921577000,
+          "time": "03:32:57",
+          "receivedAt": 1784923366434,
+          "receivedTime": true
+        },
+        {
+          "id": "6656",
+          "url": "https://t.me/BWEtradfi/6656",
+          "title": "*特朗普：委内瑞拉尚未做好选举准备",
+          "body": "*TRUMP: VENEZUELA NOT READY FOR ELECTIONS YET *TRUMP ASKED ABOUT VENEZUELA ELECTIONS: DELCY DOING GREAT *特朗普被问及委内瑞拉选举：德尔西表现出色",
+          "tags": [],
+          "ts": 1784921481000,
+          "time": "03:31:21",
+          "receivedAt": 1784923366434,
+          "receivedTime": true
+        },
         {
           "id": "6655",
           "url": "https://t.me/BWEtradfi/6655",
@@ -2171,28 +2259,6 @@
           "time": "04:35:18",
           "receivedAt": 1783633463949,
           "receivedTime": true
-        },
-        {
-          "id": "6460",
-          "url": "https://t.me/BWEtradfi/6460",
-          "title": "DB: 标准普尔500指数收盘上涨0.8%，纳斯达克指数上涨1.3%",
-          "body": "DB: *S&P 500 RISES 0.8% AT THE CLOSE, NASDAQ UP 1.3%",
-          "tags": [],
-          "ts": 1783627213000,
-          "time": "04:00:13",
-          "receivedAt": 1783627976132,
-          "receivedTime": true
-        },
-        {
-          "id": "6459",
-          "url": "https://t.me/BWEtradfi/6459",
-          "title": "*沃什宣布美联储特别工作组新顾问名单 - 纽约时报",
-          "body": "*WARSH ANNOUNCES SLATE OF NEW ADVISERS FOR FED TASK FORCES - NYT *FED SELECTED FORMER GLOBAL CENTRAL BANKERS AND ECONOMISTS INCLUDING MERVYN KING AND RAGHURAM RAJAN *FED APPOINTED MARC ANDREESSEN AND XBOX CEO ASHA SHARMA TO LEAD AI AND PRODUCTIVITY STUDY *美联储遴选了包括默文·金和拉古拉姆·拉詹在内的多位前全球央行行长和经济学家 *美联储任...",
-          "tags": [],
-          "ts": 1783623653000,
-          "time": "03:00:53",
-          "receivedAt": 1783627976132,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2200,6 +2266,195 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "221746",
+          "url": "https://t.me/jin10light/221746",
+          "title": "市场消息：目击人士称，也门荷台达港发生多起空袭。",
+          "body": "#也门 #荷台达港",
+          "tags": [
+            "#也门",
+            "#荷台达港"
+          ],
+          "ts": 1784923109000,
+          "time": "03:58:29",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221745",
+          "url": "https://t.me/jin10light/221745",
+          "title": "美国总统特朗普：（关于沙特核协议）如果沙特阿拉伯不加入（亚伯拉罕）协议，就不会达成核协议。",
+          "body": "#特朗普 #沙特阿拉伯 #亚伯拉罕协议",
+          "tags": [
+            "#特朗普",
+            "#沙特阿拉伯",
+            "#亚伯拉罕协议"
+          ],
+          "ts": 1784922687000,
+          "time": "03:51:27",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221744",
+          "url": "https://t.me/jin10light/221744",
+          "title": "特朗普：尚未就对伊朗进行重大打击作出决定 认为伊朗更认真对待谈判了",
+          "body": "7月25日讯，美国总统特朗普：已做好在伊朗采取更高级别军事行动的准备；尚未决定对伊朗进行重大打击。 我认为，随着时间推移，伊朗在谈判中变得更加认真了；并不急于与伊朗达成协议；将关注伊朗谈判的进展。 #特朗普 #伊朗 #美国",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1784922571000,
+          "time": "03:49:31",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221743",
+          "url": "https://t.me/jin10light/221743",
+          "title": "巴克莱：我们对油价预测的风险偏向上行，具体取决于霍尔木兹海峡的僵局持续多久。",
+          "body": "#霍尔木兹海峡 #巴克莱",
+          "tags": [
+            "#霍尔木兹海峡",
+            "#巴克莱"
+          ],
+          "ts": 1784922269000,
+          "time": "03:44:29",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221742",
+          "url": "https://t.me/jin10light/221742",
+          "title": "巴克莱：如果当前局势再持续1个月、2个月或3个月，我们认为，相较于我们对2026年布伦特原油96美元/桶的预测，油价分别存在每桶上涨2美元、7美元或10美元的风险。",
+          "body": "#巴克莱 #布伦特原油",
+          "tags": [
+            "#巴克莱",
+            "#布伦特原油"
+          ],
+          "ts": 1784922268000,
+          "time": "03:44:28",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221741",
+          "url": "https://t.me/jin10light/221741",
+          "title": "美国总统特朗普：已做好在伊朗采取更高级别军事行动的准备。",
+          "body": "#特朗普 #美国 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1784922146000,
+          "time": "03:42:26",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221740",
+          "url": "https://t.me/jin10light/221740",
+          "title": "美国总统特朗普：将对加拿大的烟草征收高额关税。",
+          "body": "#美国 #特朗普 #加拿大",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#加拿大"
+          ],
+          "ts": 1784922088000,
+          "time": "03:41:28",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221739",
+          "url": "https://t.me/jin10light/221739",
+          "title": "特朗普就伊朗问题发表讲话 称有很多种退出策略",
+          "body": "7月25日讯，美国总统特朗普：我们在伊朗问题上有很多退出策略，比如军事退出策略或者与伊朗达成协议，但不认为伊朗目前已准备好达成协议。 我们也可能会以更激烈的方式攻击伊朗。 目前正在与伊朗进行谈判。 #特朗普 #伊朗 #美国",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1784921967000,
+          "time": "03:39:27",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221738",
+          "url": "https://t.me/jin10light/221738",
+          "title": "美国商品期货交易委员会（CFTC）：在截至7月21日的一周内，投机者将WTI原油净多头头寸增加了8,289手，至78,348手。",
+          "body": "#美国 #WTI原油",
+          "tags": [
+            "#美国",
+            "#WTI原油"
+          ],
+          "ts": 1784921670000,
+          "time": "03:34:30",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221737",
+          "url": "https://t.me/jin10light/221737",
+          "title": "美国总统特朗普：我们在伊朗问题上有很多退出策略。",
+          "body": "#特朗普 #伊朗 #美国",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1784921669000,
+          "time": "03:34:29",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221736",
+          "url": "https://t.me/jin10light/221736",
+          "title": "加拿大贸易部长：加拿大与阿联酋签署了全面经济伙伴关系贸易协定。",
+          "body": "#加拿大 #阿联酋",
+          "tags": [
+            "#加拿大",
+            "#阿联酋"
+          ],
+          "ts": 1784920768000,
+          "time": "03:19:28",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221735",
+          "url": "https://t.me/jin10light/221735",
+          "title": "费城半导体指数跌幅一度扩大至5%。",
+          "body": "#费城 #半导体指数",
+          "tags": [
+            "#费城",
+            "#半导体指数"
+          ],
+          "ts": 1784920408000,
+          "time": "03:13:28",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
+        {
+          "id": "221734",
+          "url": "https://t.me/jin10light/221734",
+          "title": "沙特阿拉伯公共投资基金与美国进出口银行签署价值最高达150亿美元的谅解备忘录。",
+          "body": "#沙特阿拉伯 #美国 #进出口银行",
+          "tags": [
+            "#沙特阿拉伯",
+            "#美国",
+            "#进出口银行"
+          ],
+          "ts": 1784920048000,
+          "time": "03:07:28",
+          "receivedAt": 1784923367626,
+          "receivedTime": true
+        },
         {
           "id": "221733",
           "url": "https://t.me/jin10light/221733",
@@ -19217,197 +19472,6 @@
           ],
           "ts": 1784616567000,
           "time": "14:49:27",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220542",
-          "url": "https://t.me/jin10light/220542",
-          "title": "1. 工信部锂电池及类似产品标准工作组：将召开10项固态锂电池行业标准讨论会。",
-          "body": "2. 中国汽车流通协会：上半年二手车累计交易量971.32万辆，同比增长1.50%。 3. 国家能源局：到2028年底建成一批村镇微能网试点项目，探索新能源汽车、大型农用机具车网互动。 4. 我国将建超3000个电动重卡充换电站，安排220亿元支持老旧营运货车报废更新。 5. 小鹏集团发布TuringViT高效视觉编码器。 6. 德国汽车市场迎来历史转折：6月纯电车销量首次拿下头把交椅。 7. 国民技术N32A车规芯片已应用于主流新能源车企。 8. 买车最高补2万元，河南下半年促消费稳外贸新政出炉。 9. 丰田汽车：将推进精简零部件种类以提升盈利能力。...",
-          "tags": [
-            "#中国",
-            "#德国",
-            "#河南"
-          ],
-          "ts": 1784616512000,
-          "time": "14:48:32",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220541",
-          "url": "https://t.me/jin10light/220541",
-          "title": "A股科创50指数涨超10%创年内最高单日涨幅，半导体板块出现涨停潮",
-          "body": "#A股 #科创50 #半导体",
-          "tags": [
-            "#A股",
-            "#科创50",
-            "#半导体"
-          ],
-          "ts": 1784616512000,
-          "time": "14:48:32",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220540",
-          "url": "https://t.me/jin10light/220540",
-          "title": "创业板指涨超7%，半导体产业链全线走强，存储芯片、CPO、光刻机等概念涨幅居前；成分股中，三环集团、北京君正、中际旭创、江波龙等逾25股涨超10%。",
-          "body": "#创业板指 #半导体 #存储芯片",
-          "tags": [
-            "#创业板指",
-            "#半导体",
-            "#存储芯片"
-          ],
-          "ts": 1784616327000,
-          "time": "14:45:27",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220539",
-          "url": "https://t.me/jin10light/220539",
-          "title": "比特币矿工持仓影响力连续四年下降，场外余额降至13.97万枚",
-          "body": "#BTC #Axel Adler Jr. #CryptoQuant",
-          "tags": [
-            "#BTC",
-            "#Axel",
-            "#CryptoQuant"
-          ],
-          "ts": 1784616268000,
-          "time": "14:44:28",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220538",
-          "url": "https://t.me/jin10light/220538",
-          "title": "技术性熊市里，华尔街依然看好半导体",
-          "body": "#华尔街 #半导体",
-          "tags": [
-            "#华尔街",
-            "#半导体"
-          ],
-          "ts": 1784616148000,
-          "time": "14:42:28",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220537",
-          "url": "https://t.me/jin10light/220537",
-          "title": "贵金属期货主力合约涨幅持续扩大，沪金2608上涨1.69%，现报888.88元/克。",
-          "body": "沪银2610上涨4.91%，现报14358元/千克。 铂2608上涨1.96%，现报400.6元/克。 钯2608日内涨近4%，现报304.3元/克。 #黄金 #白银 #铂",
-          "tags": [
-            "#黄金",
-            "#白银",
-            "#铂"
-          ],
-          "ts": 1784615906000,
-          "time": "14:38:26",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220536",
-          "url": "https://t.me/jin10light/220536",
-          "title": "科创50指数涨超10%，续刷年内最大单日涨幅",
-          "body": "7月21日讯，科创50指数涨超10%，刷新年内最高单日涨幅，此前于2026年7月9日，科创50指数单日上涨8.41%；成分股中，格科微、华虹宏力、中科飞测均触达20cm涨停。 #科创50指数 #A股",
-          "tags": [
-            "#科创50指数",
-            "#A股"
-          ],
-          "ts": 1784615846000,
-          "time": "14:37:26",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220535",
-          "url": "https://t.me/jin10light/220535",
-          "title": "现货白银日内大涨4.00%，现报58.66美元/盎司。",
-          "body": "#白银 #美元 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#白银",
-            "#美元"
-          ],
-          "ts": 1784615788000,
-          "time": "14:36:28",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220534",
-          "url": "https://t.me/jin10light/220534",
-          "title": "日韩股市收涨，SK海力士涨4%，三星电子涨6.1%",
-          "body": "#日经225 #韩国KOSPI #SK海力士",
-          "tags": [
-            "#日经225",
-            "#韩国KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1784615670000,
-          "time": "14:34:30",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220533",
-          "url": "https://t.me/jin10light/220533",
-          "title": "日韩基准股指均收涨",
-          "body": "7月21日讯，日经225指数7月21日（周二）收盘上涨2091.07点，涨幅3.26%，报66232.19点。 韩国KOSPI指数7月21日（周二）收盘上涨231.68点，涨幅3.56%，报6747.95点。 SK海力士收涨4%，三星电子涨6.1%。 #日经225 #KOSPI #SK海力士",
-          "tags": [
-            "#日经225",
-            "#KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1784615550000,
-          "time": "14:32:30",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220532",
-          "url": "https://t.me/jin10light/220532",
-          "title": "某巨鲸将43.1万枚LINK转入Gnosis Safe多签钱包",
-          "body": "#LINK #Binance #Gnosis Safe ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#LINK",
-            "#Binance",
-            "#Gnosis"
-          ],
-          "ts": 1784615369000,
-          "time": "14:29:29",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220531",
-          "url": "https://t.me/jin10light/220531",
-          "title": "韩元兑美元升至1472.1，创5月11日以来最高水平。",
-          "body": "#韩元 #美元",
-          "tags": [
-            "#韩元",
-            "#美元"
-          ],
-          "ts": 1784614891000,
-          "time": "14:21:31",
-          "receivedAt": 1784623648610,
-          "receivedTime": true
-        },
-        {
-          "id": "220530",
-          "url": "https://t.me/jin10light/220530",
-          "title": "科创50指数涨超9%，芯片股爆发；成分股中逾40股飘红，格科微、中科飞测双双20cm涨停。",
-          "body": "#科创50 #芯片股 #格科微",
-          "tags": [
-            "#科创50",
-            "#芯片股",
-            "#格科微"
-          ],
-          "ts": 1784614587000,
-          "time": "14:16:27",
           "receivedAt": 1784623648610,
           "receivedTime": true
         }
