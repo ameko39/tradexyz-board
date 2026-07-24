@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-24T22:19:37.253Z",
+  "updatedAt": "2026-07-24T23:28:38.009Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6664",
+          "url": "https://t.me/BWEtradfi/6664",
+          "title": "SpaceX星舰在IPO后首次试飞成功升空",
+          "body": "*SPACEX’S STARSHIP SUCCESSFULLY LIFTS OFF IN FIRST TEST FLIGHT AFTER IPO $SPCX $SPCX",
+          "tags": [],
+          "ts": 1784933525000,
+          "time": "06:52:05",
+          "receivedAt": 1784935705270,
+          "receivedTime": true
+        },
         {
           "id": "6663",
           "url": "https://t.me/BWEtradfi/6663",
@@ -2217,7 +2228,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
