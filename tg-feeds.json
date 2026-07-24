@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T21:14:36.778Z",
+  "updatedAt": "2026-07-24T22:19:37.253Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2215,17 +2215,6 @@
           "time": "20:30:14",
           "receivedAt": 1783688208450,
           "receivedTime": true
-        },
-        {
-          "id": "6464",
-          "url": "https://t.me/BWEtradfi/6464",
-          "title": "以色列就伊朗暗杀特朗普的阴谋与美国分享了新情报：华尔街日报",
-          "body": "*ISRAEL SHARED NEW INTELLIGENCE WITH THE U.S. REGARDING AN IRANIAN PLOT TO KILL TRUMP: WSJ",
-          "tags": [],
-          "ts": 1783632794000,
-          "time": "05:33:14",
-          "receivedAt": 1783633463949,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2233,6 +2222,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "221752",
+          "url": "https://t.me/jin10light/221752",
+          "title": "据伊朗塔斯尼姆通讯社：美国第五舰队驻巴林基地遭到导弹和无人机袭击。",
+          "body": "#美国 #伊朗 #巴林",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#巴林"
+          ],
+          "ts": 1784927788000,
+          "time": "05:16:28",
+          "receivedAt": 1784931564935,
+          "receivedTime": true
+        },
         {
           "id": "221751",
           "url": "https://t.me/jin10light/221751",
@@ -19427,20 +19431,6 @@
           ],
           "ts": 1784617407000,
           "time": "15:03:27",
-          "receivedAt": 1784623648430,
-          "receivedTime": true
-        },
-        {
-          "id": "220548",
-          "url": "https://t.me/jin10light/220548",
-          "title": "股指期货午盘收盘",
-          "body": "7月21日讯，沪深300股指期货（IF）主力合约涨3.40%，上证50股指期货（IH）主力合约涨2.32%，中证500股指期货（IC）主力合约涨6.71%，中证1000股指期货（IM）主力合约涨5.68%。 #A股 #股指期货",
-          "tags": [
-            "#A股",
-            "#股指期货"
-          ],
-          "ts": 1784617347000,
-          "time": "15:02:27",
           "receivedAt": 1784623648430,
           "receivedTime": true
         }
