@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T14:13:07.634Z",
+  "updatedAt": "2026-07-25T15:19:38.254Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2174,50 +2174,6 @@
           "time": "23:35:03",
           "receivedAt": 1783703994396,
           "receivedTime": true
-        },
-        {
-          "id": "6471",
-          "url": "https://t.me/BWEtradfi/6471",
-          "title": "SK海力士美国存托凭证（ADR）开盘指示价为172美元，而首次公开募股（IPO）价格为149美元",
-          "body": "*SK HYNIX ADR'S INDICATED TO OPEN AT $172 VS $149 IPO PRICE $SKHYV",
-          "tags": [],
-          "ts": 1783696741000,
-          "time": "23:19:01",
-          "receivedAt": 1783697380111,
-          "receivedTime": true
-        },
-        {
-          "id": "6470",
-          "url": "https://t.me/BWEtradfi/6470",
-          "title": "美联储报告：股票、公司债、住宅房地产资产价值高于历史常态",
-          "body": "*FED REPORT: ASSET VALUES IN STOCKS, CORPORATE DEBT, RESIDENTIAL REAL ESTATE ABOVE HISTORIC NORMS",
-          "tags": [],
-          "ts": 1783695668000,
-          "time": "23:01:08",
-          "receivedAt": 1783697380111,
-          "receivedTime": true
-        },
-        {
-          "id": "6469",
-          "url": "https://t.me/BWEtradfi/6469",
-          "title": "*美联储报告：房地产市场活动“停滞不前”",
-          "body": "*FED REPORT: ACTIVITY IN HOUSING MARKET HAS BEEN ‘STAGNANT’",
-          "tags": [],
-          "ts": 1783695661000,
-          "time": "23:01:01",
-          "receivedAt": 1783697380111,
-          "receivedTime": true
-        },
-        {
-          "id": "6468",
-          "url": "https://t.me/BWEtradfi/6468",
-          "title": "*美联储：部分通胀指标，包括截尾均值，有所下降",
-          "body": "*FED: SOME INFL. MEASURES, INCLUDING TRIMMED MEAN, HAVE DECLINED",
-          "tags": [],
-          "ts": 1783695660000,
-          "time": "23:01:00",
-          "receivedAt": 1783697380111,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2225,6 +2181,76 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "221847",
+          "url": "https://t.me/jin10light/221847",
+          "title": "整理：周六重要消息汇总",
+          "body": "国内新闻ï 1.2025年我国数字产业收入超39万亿元。 2. VC价格一个多月涨幅超40%，厂商限量供货。 3. 国家防总对广东启动防汛防台风三级应急响应。 4. 刘烈宏赴上海市调研数据要素市场化配置改革工作。 5. 大连首推二套房公积金贷款贴息，年内近90城发“房补”。 6. 市场监管总局对携程集团实施垄断行为作出处罚，携程公布十九项整改措施。 国际新闻ï 1.美国“星舰”第13次试飞实现部分目标。 2. 俄罗斯将汽油出口禁令延长至2026年底。 3. 韩国与全球科技巨头达成9500亿美元的合作项目。 4. 中东局势— ①伊朗官员：镐山设施“目前是...",
+          "tags": [
+            "#中国",
+            "#携程集团",
+            "#美国"
+          ],
+          "ts": 1784991815000,
+          "time": "23:03:35",
+          "receivedAt": 1784992761640,
+          "receivedTime": true
+        },
+        {
+          "id": "221846",
+          "url": "https://t.me/jin10light/221846",
+          "title": "梁文锋对4小时内部发言外泄不满，DeepSeek宣布暂停第二轮融资",
+          "body": "",
+          "tags": [],
+          "ts": 1784991686000,
+          "time": "23:01:26",
+          "receivedAt": 1784992761640,
+          "receivedTime": true
+        },
+        {
+          "id": "221845",
+          "url": "https://t.me/jin10light/221845",
+          "title": "DeepSeek宣布暂停其第二轮融资，部分因梁文峰对其言论的网络报道感到不满",
+          "body": "#DeepSeek #梁文峰 #IPO",
+          "tags": [
+            "#DeepSeek",
+            "#梁文峰",
+            "#IPO"
+          ],
+          "ts": 1784991629000,
+          "time": "23:00:29",
+          "receivedAt": 1784992761640,
+          "receivedTime": true
+        },
+        {
+          "id": "221844",
+          "url": "https://t.me/jin10light/221844",
+          "title": "Coinbase比特币负溢价已持续67天，美国市场购买力持续低迷",
+          "body": "#Coinbase #BTC",
+          "tags": [
+            "#Coinbase",
+            "#BTC"
+          ],
+          "ts": 1784990551000,
+          "time": "22:42:31",
+          "receivedAt": 1784992761640,
+          "receivedTime": true
+        },
+        {
+          "id": "221843",
+          "url": "https://t.me/jin10light/221843",
+          "title": "伊朗官员：镐山核设施「目前是空的」，特朗普想通过袭击为自己创造政绩",
+          "body": "#伊朗 #镐山 #特朗普",
+          "tags": [
+            "#伊朗",
+            "#镐山",
+            "#特朗普"
+          ],
+          "ts": 1784989050000,
+          "time": "22:17:30",
+          "receivedAt": 1784992761640,
+          "receivedTime": true
+        },
         {
           "id": "221842",
           "url": "https://t.me/jin10light/221842",
@@ -19365,76 +19391,6 @@
           "ts": 1784636252000,
           "time": "20:17:32",
           "receivedAt": 1784643890226,
-          "receivedTime": true
-        },
-        {
-          "id": "220643",
-          "url": "https://t.me/jin10light/220643",
-          "title": "欧洲人形机器人公司Humanoid完成1.52亿美元A轮融资",
-          "body": "#Humanoid #伦敦 #舍弗勒 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Humanoid",
-            "#伦敦",
-            "#舍弗勒"
-          ],
-          "ts": 1784636252000,
-          "time": "20:17:32",
-          "receivedAt": 1784643890226,
-          "receivedTime": true
-        },
-        {
-          "id": "220642",
-          "url": "https://t.me/jin10light/220642",
-          "title": "万科A：深铁集团提供不超过5.19亿元股东借款",
-          "body": "7月21日讯，万科A公告，公司第一大股东深圳市地铁集团有限公司向公司提供不超过5.19亿元借款，用于偿还公司在公开市场发行的债券本息及指定借款利息。 借款期限最晚不晚于首笔借款资金实际支付之日起3年届满之日，借款利率为1年期LPR减71个基点，目前为2.29%。 公司及下属子公司以海南万骏享有的应收账款及处置收益提供质押担保，质押率为100%。 本次借款已获公司董事会审议通过，关联董事回避表决。 #万科A #海南",
-          "tags": [
-            "#万科A",
-            "#海南"
-          ],
-          "ts": 1784636139000,
-          "time": "20:15:39",
-          "receivedAt": 1784643890226,
-          "receivedTime": true
-        },
-        {
-          "id": "220641",
-          "url": "https://t.me/jin10light/220641",
-          "title": "美国财长：冻结与伊朗伊斯兰革命卫队有关的1.3亿美元加密钱包",
-          "body": "#美国 #伊朗 #加密货币",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#加密货币"
-          ],
-          "ts": 1784635888000,
-          "time": "20:11:28",
-          "receivedAt": 1784636124814,
-          "receivedTime": true
-        },
-        {
-          "id": "220640",
-          "url": "https://t.me/jin10light/220640",
-          "title": "Galaxy启动比特币量子安全计划，旨在保护比特币应对潜在威胁",
-          "body": "#BTC #美国 #Galaxy",
-          "tags": [
-            "#BTC",
-            "#美国",
-            "#Galaxy"
-          ],
-          "ts": 1784635773000,
-          "time": "20:09:33",
-          "receivedAt": 1784636124814,
-          "receivedTime": true
-        },
-        {
-          "id": "220639",
-          "url": "https://t.me/jin10light/220639",
-          "title": "美国至7月4日当周ADP就业人数周度变动 1.65万人，前值1.975万人。 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "body": "",
-          "tags": [],
-          "ts": 1784635530000,
-          "time": "20:05:30",
-          "receivedAt": 1784636124814,
           "receivedTime": true
         }
       ],
