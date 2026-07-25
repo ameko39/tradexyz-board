@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T17:16:43.720Z",
+  "updatedAt": "2026-07-25T18:10:16.900Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2141,31 +2141,9 @@
           "time": "04:00:13",
           "receivedAt": 1783714094182,
           "receivedTime": true
-        },
-        {
-          "id": "6474",
-          "url": "https://t.me/BWEtradfi/6474",
-          "title": "SK海力士首席执行官：美国是未来晶圆厂的候选地之一，尚未做出决定",
-          "body": "*SK HYNIX CEO: U.S. AMONG CANDIDATES FOR FUTURE WAFER FAB, NO DECISION MADE $SKHYV",
-          "tags": [],
-          "ts": 1783706839000,
-          "time": "02:07:19",
-          "receivedAt": 1783709458634,
-          "receivedTime": true
-        },
-        {
-          "id": "6473",
-          "url": "https://t.me/BWEtradfi/6473",
-          "title": "*SK海力士CEO：存储芯片短缺可能持续到2030年以后",
-          "body": "*SK HYNIX CEO: MEMORY CHIP SHORTAGE MAY PERSIST PAST 2030 $SKHYV",
-          "tags": [],
-          "ts": 1783704928000,
-          "time": "01:35:28",
-          "receivedAt": 1783709458634,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
@@ -20554,7 +20532,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
