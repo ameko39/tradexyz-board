@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T19:32:30.437Z",
+  "updatedAt": "2026-07-25T20:28:52.265Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2130,24 +2130,28 @@
           "time": "05:00:42",
           "receivedAt": 1783718270994,
           "receivedTime": true
-        },
-        {
-          "id": "6475",
-          "url": "https://t.me/BWEtradfi/6475",
-          "title": "DB: 标准普尔500指数收盘上涨0.4%，纳斯达克指数上涨0.3%",
-          "body": "DB: *S&P 500 RISES 0.4% AT THE CLOSE, NASDAQ GAINS 0.3%",
-          "tags": [],
-          "ts": 1783713613000,
-          "time": "04:00:13",
-          "receivedAt": 1783714094182,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "221857",
+          "url": "https://t.me/jin10light/221857",
+          "title": "据伊朗法尔斯通讯社：伊朗革命卫队发言人表示，如果英国在战争中支持美国，将成为明确且合法的目标。",
+          "body": "#伊朗 #英国 #美国",
+          "tags": [
+            "#伊朗",
+            "#英国",
+            "#美国"
+          ],
+          "ts": 1785010108000,
+          "time": "04:08:28",
+          "receivedAt": 1785011315225,
+          "receivedTime": true
+        },
         {
           "id": "221856",
           "url": "https://t.me/jin10light/221856",
@@ -19341,21 +19345,6 @@
           ],
           "ts": 1784638895000,
           "time": "21:01:35",
-          "receivedAt": 1784643890226,
-          "receivedTime": true
-        },
-        {
-          "id": "220653",
-          "url": "https://t.me/jin10light/220653",
-          "title": "美股盘前要闻一览：特朗普政策密集推进，AI产业链再迎催化",
-          "body": "#特朗普 #美国 #霍尔木兹海峡 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1784638894000,
-          "time": "21:01:34",
           "receivedAt": 1784643890226,
           "receivedTime": true
         }
