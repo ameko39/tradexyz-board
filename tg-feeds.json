@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-26T22:37:57.076Z",
+  "updatedAt": "2026-07-26T23:37:24.728Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6667",
+          "url": "https://t.me/BWEtradfi/6667",
+          "title": "*据《华尔街日报》报道，消息人士透露，英伟达正在洽谈为OpenAI位于俄亥俄州的数据中心提供2500亿美元的融资支持。",
+          "body": "*NVIDIA IN TALKS TO PROVIDE $250 BILLION FINANCIAL BACKSTOP FOR OPENAI DATA CENTER IN OHIO, SOURCES SAY -- WSJ *BACKSTOP IS PART OF OPENAI'S BID TO WORK WITH SOFTBANK ON WHAT COULD BE THE LARGEST DATA CENTER IN THE U.S., SOURCES SAY -- WSJ *NVIDIA WOULD GUARANTEE FINANCING… *据《华尔街日报》报道，消息人士称，这笔融资支持...",
+          "tags": [],
+          "ts": 1785107952000,
+          "time": "07:19:12",
+          "receivedAt": 1785109031134,
+          "receivedTime": true
+        },
         {
           "id": "6666",
           "url": "https://t.me/BWEtradfi/6666",
@@ -2082,6 +2093,66 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "221963",
+          "url": "https://t.me/jin10light/221963",
+          "title": "英伟达拟为OpenAI数据中心项目提供2500亿美元财务担保",
+          "body": "7月27日讯，据华尔街日报报道，英伟达(NVDA.O)正谈判为OpenAI提供约2500亿美元财务担保，以支持一个庞大的数据中心项目——这将成为美国人工智能热潮中规模最为宏大的金融交易之一。 据知情人士透露，英伟达的担保将帮助OpenAI租赁软银正在俄亥俄州南部开发的10吉瓦（GW）数据中心项目。 该项目总成本（包括数据中心内部署的芯片）可能超过5000亿美元，将成为迄今宣布的最大规模数据中心项目。 项目用电由美国政府控制，并由日本根据近期贸易协定单独出资。 美国商务部长卢特尼克参与了电力分配决策。 根据安排，英伟达将为一系列融资工具提供担保，以增强贷...",
+          "tags": [
+            "#英伟达",
+            "#OpenAI",
+            "#美国"
+          ],
+          "ts": 1785108508000,
+          "time": "07:28:28",
+          "receivedAt": 1785109033182,
+          "receivedTime": true
+        },
+        {
+          "id": "221962",
+          "url": "https://t.me/jin10light/221962",
+          "title": "据华尔街日报：知情人士称，英伟达(NVDA.O)正就为OpenAI俄亥俄州数据中心项目提供约2500亿美元财务担保进行谈判。",
+          "body": "#英伟达 #OpenAI #俄亥俄州",
+          "tags": [
+            "#英伟达",
+            "#OpenAI",
+            "#俄亥俄州"
+          ],
+          "ts": 1785108150000,
+          "time": "07:22:30",
+          "receivedAt": 1785109033182,
+          "receivedTime": true
+        },
+        {
+          "id": "221961",
+          "url": "https://t.me/jin10light/221961",
+          "title": "本周重要事件与数据预告：美联储领衔“超级央行周”，海力士、Meta等科技股财报与PCE通胀数据轮番登场",
+          "body": "7月27日讯ï 1.周一： ①数据：德国7月IFO商业景气指数；英国7月CBI零售销售差值；美国6月耐用品订单月率、美国7月达拉斯联储商业活动指数。 2. 周二： ①数据：美国至7月11日当周ADP就业人数周度变动、美国5月FHFA房价指数月率、美国5月S&P/CS20座大城市未季调房价指数年率、美国7月谘商会消费者信心指数、美国7月里奇蒙德联储制造业指数。 ②事件：澳洲联储主席布洛克发表讲话。 3. 周三： ①数据：美国至7月24日当周API原油库存；澳大利亚6月未季调CPI年率；瑞士7月ZEW投资者信心指数；英国6月央行抵押贷款许可；美国至7月24...",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#PCE"
+          ],
+          "ts": 1785106952000,
+          "time": "07:02:32",
+          "receivedAt": 1785109033182,
+          "receivedTime": true
+        },
+        {
+          "id": "221960",
+          "url": "https://t.me/jin10light/221960",
+          "title": "国内新闻ï",
+          "body": "1.越南籍船舶南海遇险沉没，中方已救起45人。 2. 希音通过港交所上市聆讯：去年营收418亿美元，净利20.6亿美元。 3. 南部战区新闻发言人就菲律宾拉拢域外国家组织所谓“联合巡航”发表谈话。 国际新闻ï 1.“大空头”迈克尔·伯里据悉加码做空美光和英伟达。 2. 美国能源部因高温天气对17个州发布电网紧急状态令。 3. 英伟达“开放权重模型”公开信联署方翻倍至50个，谷歌等加入。 4. 韩国养老金基金今年首次转为KOSPI净买入，SK海力士获大举加仓。 5. 据日本共同社：日本首相高市早苗内阁支持率降至53.7%，为内阁成立以来最低。 6. 中东...",
+          "tags": [
+            "#越南",
+            "#南海",
+            "#希音"
+          ],
+          "ts": 1785105570000,
+          "time": "06:39:30",
+          "receivedAt": 1785109033182,
+          "receivedTime": true
+        },
         {
           "id": "221959",
           "url": "https://t.me/jin10light/221959",
@@ -19259,65 +19330,6 @@
           ],
           "ts": 1784680708000,
           "time": "08:38:28",
-          "receivedAt": 1784691546425,
-          "receivedTime": true
-        },
-        {
-          "id": "220758",
-          "url": "https://t.me/jin10light/220758",
-          "title": "现货黄金上触4100美元/盎司关口，为一周以来首次。",
-          "body": "#黄金 #美元",
-          "tags": [
-            "#黄金",
-            "#美元"
-          ],
-          "ts": 1784680288000,
-          "time": "08:31:28",
-          "receivedAt": 1784691546425,
-          "receivedTime": true
-        },
-        {
-          "id": "220757",
-          "url": "https://t.me/jin10light/220757",
-          "title": "SpaceX终结日线7连跌，Rocket Lab今日累涨超12%",
-          "body": "#Rocket Lab #SpaceX #美国",
-          "tags": [
-            "#Rocket",
-            "#SpaceX",
-            "#美国"
-          ],
-          "ts": 1784680167000,
-          "time": "08:29:27",
-          "receivedAt": 1784691546425,
-          "receivedTime": true
-        },
-        {
-          "id": "220756",
-          "url": "https://t.me/jin10light/220756",
-          "title": "中际旭创：在港上市最高发行价不超1010港元/股，最高融资约70亿美元",
-          "body": "#中际旭创 #香港 #港股 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#中际旭创",
-            "#香港",
-            "#港股"
-          ],
-          "ts": 1784679868000,
-          "time": "08:24:28",
-          "receivedAt": 1784691546425,
-          "receivedTime": true
-        },
-        {
-          "id": "220755",
-          "url": "https://t.me/jin10light/220755",
-          "title": "Movement Labs向美国特拉华州破产法院申请破产保护",
-          "body": "#Movement Labs #MOVE #美国",
-          "tags": [
-            "#Movement",
-            "#MOVE",
-            "#美国"
-          ],
-          "ts": 1784679507000,
-          "time": "08:18:27",
           "receivedAt": 1784691546425,
           "receivedTime": true
         }
