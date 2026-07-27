@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-27T17:59:32.968Z",
+  "updatedAt": "2026-07-27T19:38:37.624Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6671",
+          "url": "https://t.me/BWEtradfi/6671",
+          "title": "*特朗普谈伊朗：目前正在进行非常友好的谈判",
+          "body": "*TRUMP ON IRAN: RIGHT NOW VERY FRIENDLY NEGOTIATIONS GOING ON *TRUMP CLAIMS IRAN IS SAYING 'PLEASE, PLEASE, NO BLOCKADE' *特朗普声称伊朗方面表示“求求你们，不要封锁”",
+          "tags": [],
+          "ts": 1785180816000,
+          "time": "03:33:36",
+          "receivedAt": 1785181097944,
+          "receivedTime": true
+        },
         {
           "id": "6670",
           "url": "https://t.me/BWEtradfi/6670",
@@ -2129,6 +2140,51 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "222301",
+          "url": "https://t.me/jin10light/222301",
+          "title": "苹果因App Store加密钱包诈骗案遭起诉，用户损失超180万美元",
+          "body": "#苹果 #BTC #美国",
+          "tags": [
+            "#苹果",
+            "#BTC",
+            "#美国"
+          ],
+          "ts": 1785179667000,
+          "time": "03:14:27",
+          "receivedAt": 1785181100610,
+          "receivedTime": true
+        },
+        {
+          "id": "222300",
+          "url": "https://t.me/jin10light/222300",
+          "title": "Microsoft AI推出全新自主研发的网络安全模型",
+          "body": "#Microsoft AI #MAI -Cyber-1-Flash #MDASH",
+          "tags": [
+            "#Microsoft",
+            "#MAI",
+            "#MDASH"
+          ],
+          "ts": 1785179369000,
+          "time": "03:09:29",
+          "receivedAt": 1785181100610,
+          "receivedTime": true
+        },
+        {
+          "id": "222299",
+          "url": "https://t.me/jin10light/222299",
+          "title": "谷歌(GOOG.O)和微软(MSFT.O)表示发现的软件漏洞数量创下历史新高。",
+          "body": "美国方面称已知网络漏洞数量预计将大幅超过205个。 #谷歌 #微软 #美国",
+          "tags": [
+            "#谷歌",
+            "#微软",
+            "#美国"
+          ],
+          "ts": 1785175649000,
+          "time": "02:07:29",
+          "receivedAt": 1785181100610,
+          "receivedTime": true
+        },
         {
           "id": "222298",
           "url": "https://t.me/jin10light/222298",
@@ -19309,47 +19365,6 @@
           ],
           "ts": 1784768549000,
           "time": "09:02:29",
-          "receivedAt": 1784778239025,
-          "receivedTime": true
-        },
-        {
-          "id": "221100",
-          "url": "https://t.me/jin10light/221100",
-          "title": "早盘开盘，国内期货主力合约涨多跌少，SC原油涨超3%，燃料油、集运欧线、低硫燃料油（LU）、豆粕涨近2%，棕榈油、沪银、菜粕、碳酸锂涨超1%。",
-          "body": "跌幅方面，氧化铝跌超1%，合成橡胶、鸡蛋、生猪跌近1%。 #SC原油 #燃料油 #低硫燃料油",
-          "tags": [
-            "#SC原油",
-            "#燃料油",
-            "#低硫燃料油"
-          ],
-          "ts": 1784768428000,
-          "time": "09:00:28",
-          "receivedAt": 1784778239025,
-          "receivedTime": true
-        },
-        {
-          "id": "221099",
-          "url": "https://t.me/jin10light/221099",
-          "title": "1. 美国证交会批准新规，市值低于500万美元公司将加速退市。",
-          "body": "2. 美国众议院通过法案 限制议员买卖股票。 3. 韩国股东团体就三星与SK海力士的奖金协议提起刑事控告。 4. 胡塞武装称袭击两艘沙特油轮 警告或对沙特境内发动更大规模打击。 5. 若美国兑现威胁，伊朗将切断全部石油出口并打击能源及经济基础设施。 6. OpenAI上调云服务支出预测至7000亿美元 斥资300亿美元建数据中心。 7. 体育强国建设“十五五”规划发布，到2030年产业规模破7万亿元。 8. 全球芯片LOF溢价超34%，23日开盘停牌示警风险。 9. 易方达原油LOF溢价超22%，23日停牌示警风险。 10. 国投白银LOF溢价超20%...",
-          "tags": [],
-          "ts": 1784768369000,
-          "time": "08:59:29",
-          "receivedAt": 1784778239025,
-          "receivedTime": true
-        },
-        {
-          "id": "221098",
-          "url": "https://t.me/jin10light/221098",
-          "title": "B² Network遭受黑客攻击，损失约386万美元",
-          "body": "#BNB Chain #B ² Network #WBNB ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#BNB",
-            "#B",
-            "#WBNB"
-          ],
-          "ts": 1784768066000,
-          "time": "08:54:26",
           "receivedAt": 1784778239025,
           "receivedTime": true
         }
