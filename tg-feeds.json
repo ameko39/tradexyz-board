@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-27T19:38:37.624Z",
+  "updatedAt": "2026-07-27T20:52:25.291Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6672",
+          "url": "https://t.me/BWEtradfi/6672",
+          "title": "DB: 标普500指数小幅收平，纳斯达克指数下跌0.2%",
+          "body": "DB: *S&P 500 CLOSES LITTLE CHANGED, NASDAQ FALLS 0.2%",
+          "tags": [],
+          "ts": 1785182413000,
+          "time": "04:00:13",
+          "receivedAt": 1785185523507,
+          "receivedTime": true
+        },
         {
           "id": "6671",
           "url": "https://t.me/BWEtradfi/6671",
@@ -2140,6 +2151,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "222303",
+          "url": "https://t.me/jin10light/222303",
+          "title": "WTI原油日内重挫9.00%，现报81.16美元/桶。",
+          "body": "#WTI原油 #美元",
+          "tags": [
+            "#WTI原油",
+            "#美元"
+          ],
+          "ts": 1785183029000,
+          "time": "04:10:29",
+          "receivedAt": 1785185526438,
+          "receivedTime": true
+        },
+        {
+          "id": "222302",
+          "url": "https://t.me/jin10light/222302",
+          "title": "美股收盘：海力士跌超7%，苹果市值直逼5万亿美元",
+          "body": "7月28日讯，美股周一收盘，道指初步收涨0.5%，标普500指数涨0.02%，纳指跌0.18%。 美光科技(MU.O)跌2%，闪迪(SNDK.O)跌11%，英伟达(NVDA.O)跌5%，SK海力士(SKHY.O)跌7.5%。 苹果(AAPL.O)涨1%，市值逼近5万亿美元。 纳斯达克中国金龙指数收涨2.5%，网易(NTES.O)涨3.5%，阿里巴巴(BABA.N)涨2.5%。 #美股 #苹果 #SK海力士",
+          "tags": [
+            "#美股",
+            "#苹果",
+            "#SK海力士"
+          ],
+          "ts": 1785182548000,
+          "time": "04:02:28",
+          "receivedAt": 1785185526438,
+          "receivedTime": true
+        },
         {
           "id": "222301",
           "url": "https://t.me/jin10light/222301",
@@ -19335,36 +19375,6 @@
           ],
           "ts": 1784768787000,
           "time": "09:06:27",
-          "receivedAt": 1784778239025,
-          "receivedTime": true
-        },
-        {
-          "id": "221102",
-          "url": "https://t.me/jin10light/221102",
-          "title": "发改委、能源局发布关于印发《可再生能源发展“十五五”规划》的通知。",
-          "body": "#发改委 #能源局 #可再生能源",
-          "tags": [
-            "#发改委",
-            "#能源局",
-            "#可再生能源"
-          ],
-          "ts": 1784768608000,
-          "time": "09:03:28",
-          "receivedAt": 1784778239025,
-          "receivedTime": true
-        },
-        {
-          "id": "221101",
-          "url": "https://t.me/jin10light/221101",
-          "title": "Kimi员工回怼白宫指控：15天蒸馏出前沿模型？那得申报吉尼斯了",
-          "body": "#美国 #Moonshot AI #Anthropic",
-          "tags": [
-            "#美国",
-            "#Moonshot",
-            "#Anthropic"
-          ],
-          "ts": 1784768549000,
-          "time": "09:02:29",
           "receivedAt": 1784778239025,
           "receivedTime": true
         }
