@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-07-28T15:39:10.859Z",
+  "updatedAt": "2026-07-28T17:06:53.025Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6680",
+          "url": "https://t.me/BWEtradfi/6680",
+          "title": "伊朗表示过去16至17天未寻求与美国会谈：IRIB",
+          "body": "*IRAN SAYS IT HASN'T SOUGHT US TALKS IN PAST 16-17 DAYS: IRIB",
+          "tags": [],
+          "ts": 1785257084000,
+          "time": "00:44:44",
+          "receivedAt": 1785258377232,
+          "receivedTime": true
+        },
+        {
+          "id": "6679",
+          "url": "https://t.me/BWEtradfi/6679",
+          "title": "*英伟达首席执行官黄仁勋与美国商务部长霍华德·卢特尼克会面，就中国出口调查展开磋商",
+          "body": "*NVIDIA CEO JENSEN HUANG MET WITH COMMERCE SECRETARY HOWARD LUTNICK AMID CHINA EXPORT PROBES *THE COMMERCE DEPARTMENT IS INVESTIGATING POTENTIAL NVIDIA BLACKWELL CHIP EXPORT VIOLATIONS TO CHINA $NVDA *美国商务部正在调查英伟达Blackwell芯片可能违反对华出口规定的行为 $NVDA",
+          "tags": [],
+          "ts": 1785256992000,
+          "time": "00:43:12",
+          "receivedAt": 1785258377232,
+          "receivedTime": true
+        },
         {
           "id": "6678",
           "url": "https://t.me/BWEtradfi/6678",
@@ -2136,39 +2158,6 @@
           "time": "02:45:28",
           "receivedAt": 1783968893212,
           "receivedTime": true
-        },
-        {
-          "id": "6487",
-          "url": "https://t.me/BWEtradfi/6487",
-          "title": "*沃勒：如果我再收到一份更高的通胀数据，我会将其视为信号而非噪音",
-          "body": "*WALLER: IF I GET ANOTHER HIGHER INFLATION PRINT I WILL TREAT THAT AS SIGNAL NOT NOISE",
-          "tags": [],
-          "ts": 1783962324000,
-          "time": "01:05:24",
-          "receivedAt": 1783963620275,
-          "receivedTime": true
-        },
-        {
-          "id": "6486",
-          "url": "https://t.me/BWEtradfi/6486",
-          "title": "美联储沃勒：如果人工智能出现泡沫或回调，金融状况将出现相当大的变化",
-          "body": "*FED'S WALLER: IF AI WERE TO POP OR PULL BACK WOULD SEE PRETTY BIG CHANGES IN FINANCIAL CONDITIONS",
-          "tags": [],
-          "ts": 1783961569000,
-          "time": "00:52:49",
-          "receivedAt": 1783963620275,
-          "receivedTime": true
-        },
-        {
-          "id": "6485",
-          "url": "https://t.me/BWEtradfi/6485",
-          "title": "*沃勒：近期核心通胀上升范围相当广泛",
-          "body": "*WALLER: RECENT INCREASES IN CORE INFLATION ARE QUITE BROAD *FED’S WALLER: FOMC MAY NEED TO CONSIDER NEAR-TERM RATE HIKES *美联储主席沃勒：联邦公开市场委员会可能需要考虑近期加息",
-          "tags": [],
-          "ts": 1783960237000,
-          "time": "00:30:37",
-          "receivedAt": 1783963620275,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2176,6 +2165,260 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "222659",
+          "url": "https://t.me/jin10light/222659",
+          "title": "美联储7月加息25个基点概率现报30.5%",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1785257971000,
+          "time": "00:59:31",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222658",
+          "url": "https://t.me/jin10light/222658",
+          "title": "Michael Saylor：比特币未来最大的挑战并非外部竞争，而是内部对共识规则的侵蚀",
+          "body": "#Michael Saylor #BTC #BIP -110",
+          "tags": [
+            "#Michael",
+            "#BTC",
+            "#BIP"
+          ],
+          "ts": 1785257429000,
+          "time": "00:50:29",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222657",
+          "url": "https://t.me/jin10light/222657",
+          "title": "伊朗副外长：过去15天内未收到与美国进行谈判的请求。",
+          "body": "#伊朗 #美国",
+          "tags": [
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1785257007000,
+          "time": "00:43:27",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222656",
+          "url": "https://t.me/jin10light/222656",
+          "title": "伊朗副外长：美国人通过阿曼传达称不会对我们采取军事行动 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "body": "",
+          "tags": [],
+          "ts": 1785256891000,
+          "time": "00:41:31",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222655",
+          "url": "https://t.me/jin10light/222655",
+          "title": "布伦特原油跌破81美元/桶，日内跌5.23%。",
+          "body": "#布伦特原油 #美元",
+          "tags": [
+            "#布伦特原油",
+            "#美元"
+          ],
+          "ts": 1785256470000,
+          "time": "00:34:30",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222654",
+          "url": "https://t.me/jin10light/222654",
+          "title": "美股加密货币概念股普跌，RIOT跌近5%",
+          "body": "#美股 #CRCL #MARA",
+          "tags": [
+            "#美股",
+            "#CRCL",
+            "#MARA"
+          ],
+          "ts": 1785256469000,
+          "time": "00:34:29",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222653",
+          "url": "https://t.me/jin10light/222653",
+          "title": "加密投资基金Translunar创始人因逃税获刑37个月",
+          "body": "#美国 #Justin Ryan Schmidt #Translunar Crypto LP",
+          "tags": [
+            "#美国",
+            "#Justin",
+            "#Translunar"
+          ],
+          "ts": 1785255687000,
+          "time": "00:21:27",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222652",
+          "url": "https://t.me/jin10light/222652",
+          "title": "Tom Lee：加密货币市场已经「触底」",
+          "body": "#ETH #Tom Lee #Bitmine",
+          "tags": [
+            "#ETH",
+            "#Tom",
+            "#Bitmine"
+          ],
+          "ts": 1785255389000,
+          "time": "00:16:29",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222651",
+          "url": "https://t.me/jin10light/222651",
+          "title": "比特币矿企Ionic Digital上市首日股价上涨4%",
+          "body": "#Ionic Digital #BTC #纳斯达克",
+          "tags": [
+            "#Ionic",
+            "#BTC",
+            "#纳斯达克"
+          ],
+          "ts": 1785255031000,
+          "time": "00:10:31",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222650",
+          "url": "https://t.me/jin10light/222650",
+          "title": "【晚间独家观点】",
+          "body": "【修正后综合观点】 【港股】 内地能源资源税收政策与潜在的中美贸易表态缓和提供结构性支撑，高股息和资源央国企相对占优，但韩国半导体暴跌已通过映射交易传导至港股存储与科技硬件，外部利率扰动未解前成长股修复基础不牢。 【美股】 市场以美联储按兵不动为基准情景，经济数据显示韧性，韩国散户资金大举流入半导体和科技板块说明边际配置力量仍在，但意外加息的尾部风险与英伟达CDS飙升反映AI交易正从叙事驱动转向盈利兑现检验，若议息偏鹰叠加美债收益率上行，高估值科技股面临二次回调压力。 【虚拟货币】 SEC主席对《Clarity法案》的乐观表态与新加坡合规基金募资完成构...",
+          "tags": [
+            "#独家观点"
+          ],
+          "ts": 1785254724000,
+          "time": "00:05:24",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222649",
+          "url": "https://t.me/jin10light/222649",
+          "title": "今日重点关注的财经数据与事件：2026年7月29日 周三",
+          "body": "① 04:30 美国至7月24日当周API原油库存 ② 08:00 SK海力士公布Q2财报 ③ 09:30 澳大利亚6月未季调CPI年率 ④ 16:00 瑞士7月ZEW投资者信心指数 ⑤ 16:30 英国6月央行抵押贷款许可 ⑥ 22:30 美国至7月24日当周EIA原油库存 ⑦ 22:30 美国至7月24日当周EIA库欣原油库存 ⑧ 22:30 美国至7月24日当周EIA战略石油储备库存 ⑨ 次日01:30 加拿大央行公布货币政策会议纪要 ⑩ 次日02:00 美联储FOMC公布利率决议 ⑪ 次日02:30 美联储主席沃什召开新闻发布会 ⑫ 次日04:...",
+          "tags": [
+            "#美国",
+            "#SK海力士",
+            "#澳大利亚"
+          ],
+          "ts": 1785254494000,
+          "time": "00:01:34",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222648",
+          "url": "https://t.me/jin10light/222648",
+          "title": "过去24小时全网爆仓6.11亿美元，主爆多单",
+          "body": "#加密货币 #BTC",
+          "tags": [
+            "#加密货币",
+            "#BTC"
+          ],
+          "ts": 1785254494000,
+          "time": "00:01:34",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222647",
+          "url": "https://t.me/jin10light/222647",
+          "title": "WTI原油期货日内大跌5.00%，现报77.81美元/桶。",
+          "body": "",
+          "tags": [],
+          "ts": 1785254247000,
+          "time": "23:57:27",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222646",
+          "url": "https://t.me/jin10light/222646",
+          "title": "Vitalik：Diamond iO探索程序「隐身」新范式，或推动隐私计算迈向新阶段",
+          "body": "#ETH #Vitalik Buterin #Diamond iO",
+          "tags": [
+            "#ETH",
+            "#Vitalik",
+            "#Diamond"
+          ],
+          "ts": 1785254130000,
+          "time": "23:55:30",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222645",
+          "url": "https://t.me/jin10light/222645",
+          "title": "Base Build推出Verify Onchain，利用链上身份验证解决空投女巫攻击问题",
+          "body": "#Base #Coinbase #Web3",
+          "tags": [
+            "#Base",
+            "#Coinbase",
+            "#Web3"
+          ],
+          "ts": 1785253649000,
+          "time": "23:47:29",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222644",
+          "url": "https://t.me/jin10light/222644",
+          "title": "布伦特原油日内下跌4.5%",
+          "body": "#布伦特原油 #WTI原油 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#布伦特原油",
+            "#WTI原油"
+          ],
+          "ts": 1785253347000,
+          "time": "23:42:27",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222643",
+          "url": "https://t.me/jin10light/222643",
+          "title": "布伦特原油日内跌幅一度扩大至4.00%，现报82.2美元/桶；WTI原油现跌超3%，报78.6美元/桶。",
+          "body": "#布伦特原油 #WTI原油",
+          "tags": [
+            "#布伦特原油",
+            "#WTI原油"
+          ],
+          "ts": 1785253288000,
+          "time": "23:41:28",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
+        {
+          "id": "222642",
+          "url": "https://t.me/jin10light/222642",
+          "title": "方程式创始人：今日卖出近700万美元存储股看跌期权，板块下跌情绪接近极限",
+          "body": "#Vida #存储股 #AI",
+          "tags": [
+            "#Vida",
+            "#存储股",
+            "#AI"
+          ],
+          "ts": 1785253228000,
+          "time": "23:40:28",
+          "receivedAt": 1785258379687,
+          "receivedTime": true
+        },
         {
           "id": "222641",
           "url": "https://t.me/jin10light/222641",
@@ -19145,266 +19388,6 @@
           "ts": 1784854830000,
           "time": "09:00:30",
           "receivedAt": 1784864484129,
-          "receivedTime": true
-        },
-        {
-          "id": "221458",
-          "url": "https://t.me/jin10light/221458",
-          "title": "某实体通过8个钱包质押149万枚HYPE，约8820万美元",
-          "body": "#HYPE #Bybit",
-          "tags": [
-            "#HYPE",
-            "#Bybit"
-          ],
-          "ts": 1784854348000,
-          "time": "08:52:28",
-          "receivedAt": 1784864484129,
-          "receivedTime": true
-        },
-        {
-          "id": "221457",
-          "url": "https://t.me/jin10light/221457",
-          "title": "Hyperliquid RWA上周交易量首次超越加密资产，占比达54%",
-          "body": "#Hyperliquid #RWA #BTC",
-          "tags": [
-            "#Hyperliquid",
-            "#RWA",
-            "#BTC"
-          ],
-          "ts": 1784853987000,
-          "time": "08:46:27",
-          "receivedAt": 1784864484129,
-          "receivedTime": true
-        },
-        {
-          "id": "221456",
-          "url": "https://t.me/jin10light/221456",
-          "title": "ChatGPT Voice接管桌面：说话就能控制电脑和Agent干活",
-          "body": "#OpenAI #ChatGPT #GPT -Live",
-          "tags": [
-            "#OpenAI",
-            "#ChatGPT",
-            "#GPT"
-          ],
-          "ts": 1784853688000,
-          "time": "08:41:28",
-          "receivedAt": 1784864484129,
-          "receivedTime": true
-        },
-        {
-          "id": "221455",
-          "url": "https://t.me/jin10light/221455",
-          "title": "Ark Invest昨日增持特斯拉、Circle，减持Figma与Robinhood",
-          "body": "#Cathie Wood #Tesla #Circle",
-          "tags": [
-            "#Cathie",
-            "#Tesla",
-            "#Circle"
-          ],
-          "ts": 1784853208000,
-          "time": "08:33:28",
-          "receivedAt": 1784864484129,
-          "receivedTime": true
-        },
-        {
-          "id": "221454",
-          "url": "https://t.me/jin10light/221454",
-          "title": "ODOS将于7月底停止运营，提醒用户及时迁移资产",
-          "body": "#ODOS #DEX",
-          "tags": [
-            "#ODOS",
-            "#DEX"
-          ],
-          "ts": 1784852367000,
-          "time": "08:19:27",
-          "receivedAt": 1784864484129,
-          "receivedTime": true
-        },
-        {
-          "id": "221453",
-          "url": "https://t.me/jin10light/221453",
-          "title": "韩国KOSPI指数跌幅扩大至3%，三星电子跌3.5%，SK海力士跌4.2%。",
-          "body": "#韩国 #KOSPI #三星电子",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#三星电子"
-          ],
-          "ts": 1784852247000,
-          "time": "08:17:27",
-          "receivedAt": 1784864484129,
-          "receivedTime": true
-        },
-        {
-          "id": "221452",
-          "url": "https://t.me/jin10light/221452",
-          "title": "日经225指数日内跌幅达2.00%。",
-          "body": "#日经225 #日本 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#日经225",
-            "#日本"
-          ],
-          "ts": 1784851887000,
-          "time": "08:11:27",
-          "receivedAt": 1784864484317,
-          "receivedTime": true
-        },
-        {
-          "id": "221451",
-          "url": "https://t.me/jin10light/221451",
-          "title": "7月24日，中国海警依法对位中国黄岩岛管辖海域非法活动的菲律宾多艘船只采取管制措施。",
-          "body": "#中国 #菲律宾 #黄岩岛",
-          "tags": [
-            "#中国",
-            "#菲律宾",
-            "#黄岩岛"
-          ],
-          "ts": 1784851768000,
-          "time": "08:09:28",
-          "receivedAt": 1784851877823,
-          "receivedTime": true
-        },
-        {
-          "id": "221450",
-          "url": "https://t.me/jin10light/221450",
-          "title": "韩股低开1.5%",
-          "body": "#韩国 #KOSPI #SK海力士",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1784851347000,
-          "time": "08:02:27",
-          "receivedAt": 1784851877823,
-          "receivedTime": true
-        },
-        {
-          "id": "221449",
-          "url": "https://t.me/jin10light/221449",
-          "title": "特斯拉绩后股价暴跌超14%，华尔街称AI投资拖累利润及现金流",
-          "body": "#特斯拉 #美国 #AI",
-          "tags": [
-            "#特斯拉",
-            "#美国",
-            "#AI"
-          ],
-          "ts": 1784851048000,
-          "time": "07:57:28",
-          "receivedAt": 1784851877823,
-          "receivedTime": true
-        },
-        {
-          "id": "221448",
-          "url": "https://t.me/jin10light/221448",
-          "title": "美媒：伊朗周四拒绝特朗普提出的停火方案",
-          "body": "#伊朗 #伊拉克 #特朗普",
-          "tags": [
-            "#伊朗",
-            "#伊拉克",
-            "#特朗普"
-          ],
-          "ts": 1784850747000,
-          "time": "07:52:27",
-          "receivedAt": 1784851877823,
-          "receivedTime": true
-        },
-        {
-          "id": "221447",
-          "url": "https://t.me/jin10light/221447",
-          "title": "据纽约时报：伊朗和伊拉克官员透露，伊朗周四拒绝了美国总统特朗普提出的停火方案，该方案由伊拉克总理转交至德黑兰。",
-          "body": "此次调停努力最终未能取得成果，而在此期间，特朗普正威胁升级战争，并考虑针对伊朗关键基础设施采取行动。 #伊朗 #美国 #特朗普",
-          "tags": [
-            "#伊朗",
-            "#美国",
-            "#特朗普"
-          ],
-          "ts": 1784850626000,
-          "time": "07:50:26",
-          "receivedAt": 1784851877823,
-          "receivedTime": true
-        },
-        {
-          "id": "221446",
-          "url": "https://t.me/jin10light/221446",
-          "title": "韩国提前3天上调单股杠杆ETF交易的现金存款要求",
-          "body": "7月24日讯，据韩联社，针对外界连续批评政府实施单只股票杠杆投资监管措施时间过晚的问题，韩国政府决定将原计划于下月实施的强化基本保证金措施提前至本月31日，比原计划提前三天。 韩国金融委员会（FSC）24日表示，为快速稳定市场需求，原定于8月实施的基本保证金强化措施将提前至31日执行。 韩国金融委员会于本月16日公布相关补充方案，核心内容包括：将基本保证金要求从现行的1000万韩元提高至3000万韩元，并且仅限现金形式。 #韩国",
-          "tags": [
-            "#韩国"
-          ],
-          "ts": 1784850573000,
-          "time": "07:49:33",
-          "receivedAt": 1784851877823,
-          "receivedTime": true
-        },
-        {
-          "id": "221445",
-          "url": "https://t.me/jin10light/221445",
-          "title": "英特尔营收及展望超预期，盘后股价一度上涨13%",
-          "body": "#英特尔 #美国",
-          "tags": [
-            "#英特尔",
-            "#美国"
-          ],
-          "ts": 1784850572000,
-          "time": "07:49:32",
-          "receivedAt": 1784851877823,
-          "receivedTime": true
-        },
-        {
-          "id": "221444",
-          "url": "https://t.me/jin10light/221444",
-          "title": "美国关税新政叠加伊朗局势恶化推高国际油价，科技股回调拖累美股股指走低",
-          "body": "#美国 #伊朗 #BTC",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#BTC"
-          ],
-          "ts": 1784850088000,
-          "time": "07:41:28",
-          "receivedAt": 1784851877823,
-          "receivedTime": true
-        },
-        {
-          "id": "221443",
-          "url": "https://t.me/jin10light/221443",
-          "title": "日本6月核心CPI年率 1.6%，预期1.60%，前值1.40%。",
-          "body": "#日本 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#日本"
-          ],
-          "ts": 1784849428000,
-          "time": "07:30:28",
-          "receivedAt": 1784851877823,
-          "receivedTime": true
-        },
-        {
-          "id": "221442",
-          "url": "https://t.me/jin10light/221442",
-          "title": "日本6月核心CPI年率将于十分钟后公布。",
-          "body": "#日本",
-          "tags": [
-            "#日本"
-          ],
-          "ts": 1784848888000,
-          "time": "07:21:28",
-          "receivedAt": 1784851877823,
-          "receivedTime": true
-        },
-        {
-          "id": "221441",
-          "url": "https://t.me/jin10light/221441",
-          "title": "今年上半年我国汽车出口超6000亿元 同比增长48.3%",
-          "body": "7月24日讯，今年上半年，我国汽车出口6358.2亿元，同比增长48.3%，销往全球210多个国家和地区。 其中，新能源汽车出口3606.8亿元，同比增长68.7%。 #中国 #汽车出口 #新能源汽车",
-          "tags": [
-            "#中国",
-            "#汽车出口",
-            "#新能源汽车"
-          ],
-          "ts": 1784848468000,
-          "time": "07:14:28",
-          "receivedAt": 1784851877823,
           "receivedTime": true
         }
       ],
