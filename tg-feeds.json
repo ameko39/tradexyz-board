@@ -1,11 +1,66 @@
 {
-  "updatedAt": "2026-07-28T20:04:35.580Z",
+  "updatedAt": "2026-07-28T21:17:26.809Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6691",
+          "url": "https://t.me/BWEtradfi/6691",
+          "title": "知情人士称：OpenAI 的失控智能体在第二家科技公司滥用客户账户",
+          "body": "*OPENAI'S ROGUE AGENT ABUSED CUSTOMER ACCOUNT AT SECOND TECH COMPANY, SOURCES SAY",
+          "tags": [],
+          "ts": 1785273338000,
+          "time": "05:15:38",
+          "receivedAt": 1785273425043,
+          "receivedTime": true
+        },
+        {
+          "id": "6690",
+          "url": "https://t.me/BWEtradfi/6690",
+          "title": "美国官员表示：伊朗对霍尔木兹海峡提出过分要求，阿曼、美国及国际社会理应予以拒绝",
+          "body": "*IRAN IS OVER REACHING WITH DEMANDS THAT OMAN, THE UNITED STATES, AND THE INTERNATIONAL COMMUNITY ARE RIGHTLY REJECTING ON STRAIT OF HORMUZ -U.S. OFFICIAL",
+          "tags": [],
+          "ts": 1785271057000,
+          "time": "04:37:37",
+          "receivedAt": 1785273425043,
+          "receivedTime": true
+        },
+        {
+          "id": "6689",
+          "url": "https://t.me/BWEtradfi/6689",
+          "title": "*布鲁姆能源公司第二季度营收10.7亿美元，预期8.387亿美元",
+          "body": "*BLOOM ENERGY 2Q REV. $1.07B, EST. $838.7M $BE $BE",
+          "tags": [],
+          "ts": 1785269236000,
+          "time": "04:07:16",
+          "receivedAt": 1785273425043,
+          "receivedTime": true
+        },
+        {
+          "id": "6688",
+          "url": "https://t.me/BWEtradfi/6688",
+          "title": "*布鲁姆能源公司第二季度调整后每股收益 78 美分，预期 40 美分",
+          "body": "*BLOOM ENERGY 2Q ADJ EPS 78C, EST. 40C *BLOOM ENERGY 2Q ADJ. EBITDA $253.4M, EST. $152.1M $BE *布鲁姆能源公司第二季度调整后 EBITDA 为 2.534 亿美元，预期 1.521 亿美元 $BE",
+          "tags": [],
+          "ts": 1785269174000,
+          "time": "04:06:14",
+          "receivedAt": 1785273425043,
+          "receivedTime": true
+        },
+        {
+          "id": "6687",
+          "url": "https://t.me/BWEtradfi/6687",
+          "title": "*希捷第四季度营收：36.3亿美元，预期34.9亿美元",
+          "body": "*SEAGATE 4Q REV. $3.63B, EST. $3.49B *SEAGATE 4Q ADJ EPS $5.71, EST. $5.08 $STX *希捷第四季度调整后每股收益：5.71美元，预期5.08美元 $STX",
+          "tags": [],
+          "ts": 1785269147000,
+          "time": "04:05:47",
+          "receivedAt": 1785273425043,
+          "receivedTime": true
+        },
         {
           "id": "6686",
           "url": "https://t.me/BWEtradfi/6686",
@@ -2174,11 +2229,68 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "222679",
+          "url": "https://t.me/jin10light/222679",
+          "title": "美国至7月24日当周API原油库存 -329.6万桶，预期-135万桶，前值260.3万桶。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1785270988000,
+          "time": "04:36:28",
+          "receivedAt": 1785273427743,
+          "receivedTime": true
+        },
+        {
+          "id": "222678",
+          "url": "https://t.me/jin10light/222678",
+          "title": "受希捷科技(STX.O)财报提振，美股存储芯片概念股盘后走高，西部数据(WDC.O)涨6.5%，SK海力士(SKHY.O)涨2.5%，美光科技(MU.O)涨0.8%，闪迪(SNDK.O)涨1%，希捷科技(STX.O)一...",
+          "body": "#希捷科技 #西部数据 #SK海力士",
+          "tags": [
+            "#希捷科技",
+            "#西部数据",
+            "#SK海力士"
+          ],
+          "ts": 1785270207000,
+          "time": "04:23:27",
+          "receivedAt": 1785273427743,
+          "receivedTime": true
+        },
+        {
+          "id": "222677",
+          "url": "https://t.me/jin10light/222677",
+          "title": "美国至7月24日当周API原油库存将于十分钟后公布。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1785270089000,
+          "time": "04:21:29",
+          "receivedAt": 1785273427743,
+          "receivedTime": true
+        },
+        {
+          "id": "222676",
+          "url": "https://t.me/jin10light/222676",
+          "title": "希捷盘后涨超5%，Q4营收和调整后EPS均超预期",
+          "body": "#希捷科技 #美股",
+          "tags": [
+            "#希捷科技",
+            "#美股"
+          ],
+          "ts": 1785269368000,
+          "time": "04:09:28",
+          "receivedAt": 1785273427743,
+          "receivedTime": true
+        },
         {
           "id": "222675",
           "url": "https://t.me/jin10light/222675",
@@ -19347,63 +19459,6 @@
           ],
           "ts": 1784857887000,
           "time": "09:51:27",
-          "receivedAt": 1784864483949,
-          "receivedTime": true
-        },
-        {
-          "id": "221478",
-          "url": "https://t.me/jin10light/221478",
-          "title": "TYLsemi完成4300万美元融资，要把定制AI芯片成本砍半",
-          "body": "#TYLsemi #Alphawave ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#TYLsemi",
-            "#Alphawave"
-          ],
-          "ts": 1784857588000,
-          "time": "09:46:28",
-          "receivedAt": 1784864483949,
-          "receivedTime": true
-        },
-        {
-          "id": "221477",
-          "url": "https://t.me/jin10light/221477",
-          "title": "港股脑机接口板块走强，脑动极光-B( 06681.HK )涨超10%，南京熊猫电子股份( 00553.HK )、蓝思科技( 06613.HK )、微创脑科学( 02172.HK )等个股跟涨。",
-          "body": "消息面上，我国科研团队发布一款新型脑电信号采集装置，在全球范围内首次实现跨地域上千人同步脑电信号采集。 #港股 #脑机接口 #中国",
-          "tags": [
-            "#港股",
-            "#脑机接口",
-            "#中国"
-          ],
-          "ts": 1784857287000,
-          "time": "09:41:27",
-          "receivedAt": 1784864483949,
-          "receivedTime": true
-        },
-        {
-          "id": "221476",
-          "url": "https://t.me/jin10light/221476",
-          "title": "MaxLinear股价盘后大跌逾11%，Q2总营收同比增长55%",
-          "body": "#MaxLinear #美国",
-          "tags": [
-            "#MaxLinear",
-            "#美国"
-          ],
-          "ts": 1784857229000,
-          "time": "09:40:29",
-          "receivedAt": 1784864483949,
-          "receivedTime": true
-        },
-        {
-          "id": "221475",
-          "url": "https://t.me/jin10light/221475",
-          "title": "AMD推出全新X100芯片系列，主要面向机器人及物理AI领域",
-          "body": "#AMD #英伟达",
-          "tags": [
-            "#AMD",
-            "#英伟达"
-          ],
-          "ts": 1784856866000,
-          "time": "09:34:26",
           "receivedAt": 1784864483949,
           "receivedTime": true
         }
