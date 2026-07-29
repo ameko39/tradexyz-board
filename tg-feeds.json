@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-07-29T15:23:30.975Z",
+  "updatedAt": "2026-07-29T16:43:53.666Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6700",
+          "url": "https://t.me/BWEtradfi/6700",
+          "title": "美国联邦贸易委员会发言人称，该委员会正就计费、取消和隐私保护措施起诉HIMS & HERS。",
+          "body": "*U.S. FEDERAL TRADE COMMISSION IS SUING HIMS & HERS OVER BILLING, CANCELLATION AND PRIVACY PRACTICES, FTC SPOKESPERSON SAYS $HIMS $HIMS",
+          "tags": [],
+          "ts": 1785342611000,
+          "time": "00:30:11",
+          "receivedAt": 1785343416818,
+          "receivedTime": true
+        },
         {
           "id": "6699",
           "url": "https://t.me/BWEtradfi/6699",
@@ -2161,61 +2172,6 @@
           "time": "03:35:18",
           "receivedAt": 1784061223043,
           "receivedTime": true
-        },
-        {
-          "id": "6506",
-          "url": "https://t.me/BWEtradfi/6506",
-          "title": "*TRUMP: 周四的演讲将涉及选举和其他几件事",
-          "body": "*TRUMP: SPEECH THURSDAY WILL CONCERN ELECTIONS, COUPLE OTHER THINGS",
-          "tags": [],
-          "ts": 1784046134000,
-          "time": "00:22:14",
-          "receivedAt": 1784048188189,
-          "receivedTime": true
-        },
-        {
-          "id": "6505",
-          "url": "https://t.me/BWEtradfi/6505",
-          "title": "*特朗普：通胀报告令人震惊，谢谢你提到这一点",
-          "body": "*TRUMP: INFLATION REPORT WAS INCREDIBLE, THANK YOU FOR BRINGING THAT UP *TRUMP ON INFLATION REPORT: REMEMBER THAT FOR THE MIDTERMS *TRUMP: WILL BRING PRICES MUCH LOWER YET *特朗普谈通胀报告：记住这一点，它对中期选举至关重要 *特朗普：物价还会大幅下降",
-          "tags": [],
-          "ts": 1784046104000,
-          "time": "00:21:44",
-          "receivedAt": 1784048188189,
-          "receivedTime": true
-        },
-        {
-          "id": "6504",
-          "url": "https://t.me/BWEtradfi/6504",
-          "title": "沃什：我将把2%的通胀目标加倍",
-          "body": "*WARSH: I AM DOUBLING DOWN ON 2% INFLATION TARGET",
-          "tags": [],
-          "ts": 1784044126000,
-          "time": "23:48:46",
-          "receivedAt": 1784044222976,
-          "receivedTime": true
-        },
-        {
-          "id": "6503",
-          "url": "https://t.me/BWEtradfi/6503",
-          "title": "*沃什：不要认为在今天的消费者物价指数报告发布后一切都很好",
-          "body": "*WARSH: DO NOT THINK AFTER TODAY'S CPI REPORT THAT EVERYTHING IS SWELL",
-          "tags": [],
-          "ts": 1784043734000,
-          "time": "23:42:14",
-          "receivedAt": 1784044222976,
-          "receivedTime": true
-        },
-        {
-          "id": "6502",
-          "url": "https://t.me/BWEtradfi/6502",
-          "title": "*WARSH：根据今天的数据，我并不认为“任务完成”是事实。",
-          "body": "*WARSH: 'MISSION ACCOMPLISHED' IS NOT MY VIEW AFTER TODAY'S DATA",
-          "tags": [],
-          "ts": 1784043720000,
-          "time": "23:42:00",
-          "receivedAt": 1784044222976,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2223,6 +2179,211 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "223079",
+          "url": "https://t.me/jin10light/223079",
+          "title": "市场消息：OpenAI首席执行官奥尔特曼在与美国共和党参议员特德·克鲁兹会晤后向记者发表评论，双方讨论了新的人工智能模型，奥尔特曼表达了对人工智能安全法案的支持，但未透露具体细节。",
+          "body": "#OpenAI #奥尔特曼 #特德·克鲁兹 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#OpenAI",
+            "#奥尔特曼",
+            "#特德"
+          ],
+          "ts": 1785343170000,
+          "time": "00:39:30",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223078",
+          "url": "https://t.me/jin10light/223078",
+          "title": "闪迪跌破千元大关，近一个月累计跌超50%",
+          "body": "#闪迪 #美元",
+          "tags": [
+            "#闪迪",
+            "#美元"
+          ],
+          "ts": 1785341909000,
+          "time": "00:18:29",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223077",
+          "url": "https://t.me/jin10light/223077",
+          "title": "美银：AI与半导体行业股票存在七大持续隐患",
+          "body": "#美国 #美股 #AI",
+          "tags": [
+            "#美国",
+            "#美股",
+            "#AI"
+          ],
+          "ts": 1785341370000,
+          "time": "00:09:30",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223076",
+          "url": "https://t.me/jin10light/223076",
+          "title": "布伦特原油站上88美元/桶，日内涨7.40%。",
+          "body": "#布伦特原油 #美元",
+          "tags": [
+            "#布伦特原油",
+            "#美元"
+          ],
+          "ts": 1785341127000,
+          "time": "00:05:27",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223075",
+          "url": "https://t.me/jin10light/223075",
+          "title": "【晚间独家观点】",
+          "body": "【修正后综合观点】 当前市场关注点高度集中，主线是美联储利率决议、韩国市场去杠杆冲击与科技半导体链估值出清三条线索，市场情绪偏事件驱动，短线波动风险显著高于趋势机会。 【港股方面】 恒指与科指日内走强，汽车、科网、新消费领涨，显示仍有承接资金，若美联储口径温和，港股科技存在情绪修复窗口。但存储概念与挂钩韩国芯片股的杠杆产品单日暴跌逾两成、月内跌超八成，说明半导体链映射品种仍在去估值过程中，一旦美联储偏鹰或油价继续冲高，当前反弹容易被打断。 【美股方面】 市场对本次不加息的预期占优，叠加微软、Meta等财报今晚落地，若AI资本开支能转化为盈利指引，纳指有...",
+          "tags": [
+            "#独家观点"
+          ],
+          "ts": 1785340944000,
+          "time": "00:02:24",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223074",
+          "url": "https://t.me/jin10light/223074",
+          "title": "今日重点关注的财经数据与事件：2026年7月30日 周四",
+          "body": "① 01:30 加拿大央行公布货币政策会议纪要 ② 02:00 美联储FOMC公布利率决议 ③ 02:30 美联储主席沃什召开货币政策新闻发布会 ④ 04:00 Meta、微软、高通、ARM公布Q2财报 ⑤ 09:00 三星电子公布二季度财报并举行业绩说明会 ⑥ 13:30 法国第二季度GDP年率初值 ⑦ 15:00 瑞士7月KOF经济领先指标 ⑧ 16:00 德国第二季度未季调GDP年率初值 ⑨ 17:00 欧元区第二季度GDP年率初值 ⑩ 17:00 欧元区6月失业率 ⑪ 17:00 欧元区7月工业景气指数 ⑫ 17:00 欧元区7月经济景气指数...",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#欧元区"
+          ],
+          "ts": 1785340893000,
+          "time": "00:01:33",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223073",
+          "url": "https://t.me/jin10light/223073",
+          "title": "美股三大股指悉数跌超1%，标普500指数跌幅扩大至1%，纳指现跌1.3%，道指现跌1.6%。",
+          "body": "#美股 #纳指 #道指",
+          "tags": [
+            "#美股",
+            "#纳指",
+            "#道指"
+          ],
+          "ts": 1785340771000,
+          "time": "23:59:31",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223072",
+          "url": "https://t.me/jin10light/223072",
+          "title": "美股三大股指悉数跌超1%",
+          "body": "#美股 #标普 500 #纳指",
+          "tags": [
+            "#美股",
+            "#标普",
+            "#纳指"
+          ],
+          "ts": 1785340710000,
+          "time": "23:58:30",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223071",
+          "url": "https://t.me/jin10light/223071",
+          "title": "海上安全公司安布雷：一艘由美国运营、悬挂马绍尔群岛旗帜的LNG浮式储存船，在埃及达米埃塔港停靠期间遭到至少一架无人机攻击。",
+          "body": "#美国 #马绍尔群岛 #埃及",
+          "tags": [
+            "#美国",
+            "#马绍尔群岛",
+            "#埃及"
+          ],
+          "ts": 1785340470000,
+          "time": "23:54:30",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223070",
+          "url": "https://t.me/jin10light/223070",
+          "title": "美银客户连续四周买入美股，机构投资者录得自2020年12月以来最大的周度净买入额",
+          "body": "#美国 #美股",
+          "tags": [
+            "#美国",
+            "#美股"
+          ],
+          "ts": 1785340287000,
+          "time": "23:51:27",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223069",
+          "url": "https://t.me/jin10light/223069",
+          "title": "前美联储高级顾问：美联储今天不会加息",
+          "body": "#美联储 #美国 #乔恩·福斯特",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#乔恩"
+          ],
+          "ts": 1785340051000,
+          "time": "23:47:31",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223068",
+          "url": "https://t.me/jin10light/223068",
+          "title": "长江存储：网传“核心 3DNAND专利全部19项权利要求被裁定无效”系严重误导性描述",
+          "body": "7月29日讯，长江存储发布声明称，网传“美国专利商标局于7月28日裁定长江存储核心3DNAND专利全部19项权利要求无效”等信息，系严重误导性描述。 网传“长存相关概念股全线暴跌”系基于上述误导信息所作的恶意编造，相关描述与事实严重不符。 2023年11月以来，长江存储在美国发起对美光科技公司的专利侵权诉讼，共涉及27项专利、295项专利权利主张，目前仍在审理中。 我司不对正在进行中的诉讼发表评论，相关进展在公开渠道均可查询。 #长江存储 #美光科技 #美国",
+          "tags": [
+            "#长江存储",
+            "#美光科技",
+            "#美国"
+          ],
+          "ts": 1785339810000,
+          "time": "23:43:30",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223067",
+          "url": "https://t.me/jin10light/223067",
+          "title": "Robinhood链上神秘Meme币PIPEDOG再起升势，其他代币惨遭「吸血」",
+          "body": "#PIPEDOG #Robinhood #STONKBROKER",
+          "tags": [
+            "#PIPEDOG",
+            "#Robinhood",
+            "#STONKBROKER"
+          ],
+          "ts": 1785339569000,
+          "time": "23:39:29",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
+        {
+          "id": "223066",
+          "url": "https://t.me/jin10light/223066",
+          "title": "Tom Lee：预计美联储本次不会加息，或恢复量化紧缩",
+          "body": "#Tom Lee #FOMC #美联储",
+          "tags": [
+            "#Tom",
+            "#FOMC",
+            "#美联储"
+          ],
+          "ts": 1785338732000,
+          "time": "23:25:32",
+          "receivedAt": 1785343417575,
+          "receivedTime": true
+        },
         {
           "id": "223065",
           "url": "https://t.me/jin10light/223065",
@@ -19266,205 +19427,6 @@
           "ts": 1785034113000,
           "time": "10:48:33",
           "receivedAt": 1785040513809,
-          "receivedTime": true
-        },
-        {
-          "id": "221878",
-          "url": "https://t.me/jin10light/221878",
-          "title": "全球股市总市值升至全球GDP的137%，接近历史最高水平",
-          "body": "#美股 #美国 #AI",
-          "tags": [
-            "#美股",
-            "#美国",
-            "#AI"
-          ],
-          "ts": 1785033809000,
-          "time": "10:43:29",
-          "receivedAt": 1785040513809,
-          "receivedTime": true
-        },
-        {
-          "id": "221877",
-          "url": "https://t.me/jin10light/221877",
-          "title": "彭博社：特朗普成《CLARITY法案》通过的最大障碍，伦理条款遭民主党反对",
-          "body": "",
-          "tags": [],
-          "ts": 1785033393000,
-          "time": "10:36:33",
-          "receivedAt": 1785040513809,
-          "receivedTime": true
-        },
-        {
-          "id": "221876",
-          "url": "https://t.me/jin10light/221876",
-          "title": "某巨鲸过去一周增持158万枚LINK，约合1320万美元",
-          "body": "#LINK #Binance",
-          "tags": [
-            "#LINK",
-            "#Binance"
-          ],
-          "ts": 1785032908000,
-          "time": "10:28:28",
-          "receivedAt": 1785040513809,
-          "receivedTime": true
-        },
-        {
-          "id": "221875",
-          "url": "https://t.me/jin10light/221875",
-          "title": "BitMart宣布停止运营，8月26日起关闭全部交易服务",
-          "body": "",
-          "tags": [],
-          "ts": 1785032308000,
-          "time": "10:18:28",
-          "receivedAt": 1785040513809,
-          "receivedTime": true
-        },
-        {
-          "id": "221874",
-          "url": "https://t.me/jin10light/221874",
-          "title": "黄仁勋谈开放与闭源AI模型：两者将长期共存，闭源模型并非天然更安全",
-          "body": "#英伟达 #黄仁勋 #Hugging Face",
-          "tags": [
-            "#英伟达",
-            "#黄仁勋",
-            "#Hugging"
-          ],
-          "ts": 1785031949000,
-          "time": "10:12:29",
-          "receivedAt": 1785040513809,
-          "receivedTime": true
-        },
-        {
-          "id": "221873",
-          "url": "https://t.me/jin10light/221873",
-          "title": "黄仁勋：未来10年半导体产业规模或需扩大至当前10倍",
-          "body": "#英伟达 #SK集团 #韩国",
-          "tags": [
-            "#英伟达",
-            "#SK集团",
-            "#韩国"
-          ],
-          "ts": 1785031349000,
-          "time": "10:02:29",
-          "receivedAt": 1785040513809,
-          "receivedTime": true
-        },
-        {
-          "id": "221872",
-          "url": "https://t.me/jin10light/221872",
-          "title": "长鑫存储最大空头加仓至1278万美元，目前浮盈约56.3万美元",
-          "body": "#长鑫存储 #CXMT #Hyperliquid",
-          "tags": [
-            "#长鑫存储",
-            "#CXMT",
-            "#Hyperliquid"
-          ],
-          "ts": 1785030748000,
-          "time": "09:52:28",
-          "receivedAt": 1785040513809,
-          "receivedTime": true
-        },
-        {
-          "id": "221871",
-          "url": "https://t.me/jin10light/221871",
-          "title": "Hyperliquid已累计销毁4727万枚HYPE，占最大供应量4.73%",
-          "body": "#Hyperliquid #HYPE",
-          "tags": [
-            "#Hyperliquid",
-            "#HYPE"
-          ],
-          "ts": 1785030388000,
-          "time": "09:46:28",
-          "receivedAt": 1785040514048,
-          "receivedTime": true
-        },
-        {
-          "id": "221870",
-          "url": "https://t.me/jin10light/221870",
-          "title": "Arthur Hayes再次买入644.723枚ETH，近期累计增持3914.84枚",
-          "body": "#ETH #Arthur Hayes #BitMEX",
-          "tags": [
-            "#ETH",
-            "#Arthur",
-            "#BitMEX"
-          ],
-          "ts": 1785029969000,
-          "time": "09:39:29",
-          "receivedAt": 1785040514048,
-          "receivedTime": true
-        },
-        {
-          "id": "221869",
-          "url": "https://t.me/jin10light/221869",
-          "title": "加密恐慌指数降至26，市场情绪维持「恐慌」",
-          "body": "#加密货币 #BTC ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#加密货币",
-            "#BTC"
-          ],
-          "ts": 1785029191000,
-          "time": "09:26:31",
-          "receivedAt": 1785040514048,
-          "receivedTime": true
-        },
-        {
-          "id": "221868",
-          "url": "https://t.me/jin10light/221868",
-          "title": "SK集团董事长：韩国需转型为「AI原生」国家",
-          "body": "#韩国 #SK集团 #崔泰源",
-          "tags": [
-            "#韩国",
-            "#SK集团",
-            "#崔泰源"
-          ],
-          "ts": 1785028768000,
-          "time": "09:19:28",
-          "receivedAt": 1785040514048,
-          "receivedTime": true
-        },
-        {
-          "id": "221867",
-          "url": "https://t.me/jin10light/221867",
-          "title": "民调：民主党具备在众议院翻盘的机会，共和党面临压力",
-          "body": "#美国 #特朗普 #民主党",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#民主党"
-          ],
-          "ts": 1785028167000,
-          "time": "09:09:27",
-          "receivedAt": 1785040514048,
-          "receivedTime": true
-        },
-        {
-          "id": "221866",
-          "url": "https://t.me/jin10light/221866",
-          "title": "知名交易员：比特币长期持有者亏损供应量已超「FTX暴雷」时期",
-          "body": "#BTC #Killa #FTX ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#BTC",
-            "#Killa",
-            "#FTX"
-          ],
-          "ts": 1785028049000,
-          "time": "09:07:29",
-          "receivedAt": 1785040514048,
-          "receivedTime": true
-        },
-        {
-          "id": "221865",
-          "url": "https://t.me/jin10light/221865",
-          "title": "Upbit将上线EUL韩元交易对",
-          "body": "#Upbit #EUL #韩元",
-          "tags": [
-            "#Upbit",
-            "#EUL",
-            "#韩元"
-          ],
-          "ts": 1785027447000,
-          "time": "08:57:27",
-          "receivedAt": 1785027920111,
           "receivedTime": true
         }
       ],
