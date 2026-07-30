@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-07-30T16:11:34.374Z",
+  "updatedAt": "2026-07-30T17:47:16.173Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6752",
+          "url": "https://t.me/BWEtradfi/6752",
+          "title": "*据消息人士透露，Nexus数据中心正在洽谈借款150亿美元，用于在德克萨斯州新建数据中心园区——《华尔街日报》",
+          "body": "*NEXUS DATA CENTERS IN TALKS TO BORROW $15 BILLION FOR NEW DATA CENTER CAMPUS IN TEXAS, SOURCES SAY -- WSJ *ANTHROPIC WOULD LEASE NEW 1.6 GIGAWATT CAMPUS IN TEXAS, WITH GOOGLE GUARANTEEING LEASE AND POWER PAYMENTS, SOURCES SAY -- WSJ *NEW ANTHROPIC-LEASED DATA CENTER CAMPUS IN… *据消息人士透露，Anthropico将...",
+          "tags": [],
+          "ts": 1785433375000,
+          "time": "01:42:55",
+          "receivedAt": 1785433616284,
+          "receivedTime": true
+        },
+        {
+          "id": "6751",
+          "url": "https://t.me/BWEtradfi/6751",
+          "title": "*OpenAI 下调 GPT-5.6 价格 - Axios",
+          "body": "*OPENAI CUTS GPT-5.6 PRICES - AXIOS *OPENAI CUT PRICES FOR GPT-5.6 LUNA BY ROUGHLY 80% TO 20 CENTS PER MILLION INPUT TOKENS *OPENAI REDUCED PRICES FOR GPT-5.6 TERRA BY 20% TO $2 PER MILLION INPUT TOKENS *OpenAI 将 GPT-5.6 Luna 的价格下调了约 80%，至每百万输入代币 0.2 美元 *OpenAI 将 GPT-5.6 Terra 的价格下调了 20%，至每百万输入代币 2...",
+          "tags": [],
+          "ts": 1785430836000,
+          "time": "01:00:36",
+          "receivedAt": 1785433616284,
+          "receivedTime": true
+        },
         {
           "id": "6750",
           "url": "https://t.me/BWEtradfi/6750",
@@ -2557,35 +2579,171 @@
           "time": "01:48:16",
           "receivedAt": 1784140931190,
           "receivedTime": true
-        },
-        {
-          "id": "6521",
-          "url": "https://t.me/BWEtradfi/6521",
-          "title": "*万斯：以色列在影响美国方面比大多数国家都有效",
-          "body": "*VANCE: ISRAEL MORE EFFECTIVE THAN MOST AT INFLUENCING US",
-          "tags": [],
-          "ts": 1784136666000,
-          "time": "01:31:06",
-          "receivedAt": 1784136994768,
-          "receivedTime": true
-        },
-        {
-          "id": "6520",
-          "url": "https://t.me/BWEtradfi/6520",
-          "title": "美联储库克表示，等待通胀放缓“更多一点时间”是谨慎的，但如果通胀没有“很快”发生，她准备采取行动。",
-          "body": "*FED'S COOK SAYS IT IS PRUDENT TO WAIT 'A BIT MORE TIME' FOR INFLATION TO SLOW, BUT SHE IS PREPARED TO ACT IF IT DOES NOT OCCUR 'SOON'",
-          "tags": [],
-          "ts": 1784134673000,
-          "time": "00:57:53",
-          "receivedAt": 1784136994768,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "223580",
+          "url": "https://t.me/jin10light/223580",
+          "title": "OpenAI首席执行官奥尔特曼：我们希望在每个层级都提供最佳的价格与智能水平的平衡。",
+          "body": "#OpenAI #奥尔特曼",
+          "tags": [
+            "#OpenAI",
+            "#奥尔特曼"
+          ],
+          "ts": 1785432808000,
+          "time": "01:33:28",
+          "receivedAt": 1785433616844,
+          "receivedTime": true
+        },
+        {
+          "id": "223579",
+          "url": "https://t.me/jin10light/223579",
+          "title": "闪迪(SNDK.O)涨至日内高点，现涨超25%。",
+          "body": "#闪迪 #SNDK .O",
+          "tags": [
+            "#闪迪",
+            "#SNDK"
+          ],
+          "ts": 1785432210000,
+          "time": "01:23:30",
+          "receivedAt": 1785433616844,
+          "receivedTime": true
+        },
+        {
+          "id": "223578",
+          "url": "https://t.me/jin10light/223578",
+          "title": "据纽约时报：据知情人士透露，马斯克计划在中期选举中至少投入1亿美元，助力共和党在中期选举中获胜。",
+          "body": "#马斯克 #美国 #共和党",
+          "tags": [
+            "#马斯克",
+            "#美国",
+            "#共和党"
+          ],
+          "ts": 1785431430000,
+          "time": "01:10:30",
+          "receivedAt": 1785433616844,
+          "receivedTime": true
+        },
+        {
+          "id": "223577",
+          "url": "https://t.me/jin10light/223577",
+          "title": "OpenAI：LUNA API定价为每百万个输入Token0.20美元，每百万个输出Token1.20美元。",
+          "body": "#OpenAI #LUNA",
+          "tags": [
+            "#OpenAI",
+            "#LUNA"
+          ],
+          "ts": 1785430947000,
+          "time": "01:02:27",
+          "receivedAt": 1785433616844,
+          "receivedTime": true
+        },
+        {
+          "id": "223576",
+          "url": "https://t.me/jin10light/223576",
+          "title": "OpenAI将GPT-5.6 Luna价格下调80%，GPT-5.6 Terra价格下调20%",
+          "body": "",
+          "tags": [],
+          "ts": 1785430888000,
+          "time": "01:01:28",
+          "receivedAt": 1785433616844,
+          "receivedTime": true
+        },
+        {
+          "id": "223575",
+          "url": "https://t.me/jin10light/223575",
+          "title": "交易员欧阳拽白评存储暴力反弹：物极必反，交易层面一致看多会产生反向清杠杆势能",
+          "body": "#SK海力士 #首尔 #欧阳拽白",
+          "tags": [
+            "#SK海力士",
+            "#首尔",
+            "#欧阳拽白"
+          ],
+          "ts": 1785430649000,
+          "time": "00:57:29",
+          "receivedAt": 1785433616844,
+          "receivedTime": true
+        },
+        {
+          "id": "223574",
+          "url": "https://t.me/jin10light/223574",
+          "title": "也门胡塞武装发言人：迹象显示，沙特正走向全面升级局势。",
+          "body": "#也门 #胡塞武装 #沙特",
+          "tags": [
+            "#也门",
+            "#胡塞武装",
+            "#沙特"
+          ],
+          "ts": 1785429752000,
+          "time": "00:42:32",
+          "receivedAt": 1785433616844,
+          "receivedTime": true
+        },
+        {
+          "id": "223573",
+          "url": "https://t.me/jin10light/223573",
+          "title": "Strategy Q2财报公布在即，STRC盘中涨超2%创7月2日以来新高",
+          "body": "#Strategy #STRC #BTC ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#Strategy",
+            "#STRC",
+            "#BTC"
+          ],
+          "ts": 1785429752000,
+          "time": "00:42:32",
+          "receivedAt": 1785433616844,
+          "receivedTime": true
+        },
+        {
+          "id": "223572",
+          "url": "https://t.me/jin10light/223572",
+          "title": "卖出后大暴涨！华尔街AI股神清盘股全线涨超20%",
+          "body": "#Leopold #CLSK #RIOT",
+          "tags": [
+            "#Leopold",
+            "#CLSK",
+            "#RIOT"
+          ],
+          "ts": 1785428790000,
+          "time": "00:26:30",
+          "receivedAt": 1785433616844,
+          "receivedTime": true
+        },
+        {
+          "id": "223571",
+          "url": "https://t.me/jin10light/223571",
+          "title": "沙特国防部：联军将加强在曼德海峡、红海及亚丁湾的防务合作。",
+          "body": "#沙特 #曼德海峡 #红海",
+          "tags": [
+            "#沙特",
+            "#曼德海峡",
+            "#红海"
+          ],
+          "ts": 1785428668000,
+          "time": "00:24:28",
+          "receivedAt": 1785433616844,
+          "receivedTime": true
+        },
+        {
+          "id": "223570",
+          "url": "https://t.me/jin10light/223570",
+          "title": "沙特国防部：43个国家和欧盟代表团参加了关于提议的海洋防御联盟的会议。",
+          "body": "#沙特 #欧盟 #海洋防御联盟 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#沙特",
+            "#欧盟",
+            "#海洋防御联盟"
+          ],
+          "ts": 1785428430000,
+          "time": "00:20:30",
+          "receivedAt": 1785433616844,
+          "receivedTime": true
+        },
         {
           "id": "223569",
           "url": "https://t.me/jin10light/223569",
@@ -19631,166 +19789,6 @@
           "ts": 1785206729000,
           "time": "10:45:29",
           "receivedAt": 1785212613752,
-          "receivedTime": true
-        },
-        {
-          "id": "222380",
-          "url": "https://t.me/jin10light/222380",
-          "title": "OKX闪赚上线AEON「交易赚币」，总奖池达6,000,000AEON",
-          "body": "#OKX #AEON #USDT",
-          "tags": [
-            "#OKX",
-            "#AEON",
-            "#USDT"
-          ],
-          "ts": 1785206612000,
-          "time": "10:43:32",
-          "receivedAt": 1785212613752,
-          "receivedTime": true
-        },
-        {
-          "id": "222379",
-          "url": "https://t.me/jin10light/222379",
-          "title": "A股创业板指跌超5%，深证成指跌3.28%，上证指数跌1.27%，CPO、存储芯片、铜缆高速连接等板块跌幅居前。",
-          "body": "#A股 #创业板指 #深证成指",
-          "tags": [
-            "#A股",
-            "#创业板指",
-            "#深证成指"
-          ],
-          "ts": 1785206250000,
-          "time": "10:37:30",
-          "receivedAt": 1785212613752,
-          "receivedTime": true
-        },
-        {
-          "id": "222378",
-          "url": "https://t.me/jin10light/222378",
-          "title": "沪深两市成交额连续第285个交易日突破1万亿元。",
-          "body": "#A股 #沪深两市",
-          "tags": [
-            "#A股",
-            "#沪深两市"
-          ],
-          "ts": 1785206250000,
-          "time": "10:37:30",
-          "receivedAt": 1785212613752,
-          "receivedTime": true
-        },
-        {
-          "id": "222377",
-          "url": "https://t.me/jin10light/222377",
-          "title": "科创50指数日内跌逾3%。",
-          "body": "#科创50",
-          "tags": [
-            "#科创50"
-          ],
-          "ts": 1785205828000,
-          "time": "10:30:28",
-          "receivedAt": 1785212613941,
-          "receivedTime": true
-        },
-        {
-          "id": "222376",
-          "url": "https://t.me/jin10light/222376",
-          "title": "A股三大股指走低，沪指跌逾1%，深证成指现跌3%，创业板指现跌4.6%。",
-          "body": "#A股 #沪指 #创业板指",
-          "tags": [
-            "#A股",
-            "#沪指",
-            "#创业板指"
-          ],
-          "ts": 1785205710000,
-          "time": "10:28:30",
-          "receivedAt": 1785212613941,
-          "receivedTime": true
-        },
-        {
-          "id": "222375",
-          "url": "https://t.me/jin10light/222375",
-          "title": "英伟达债务违约保护成本创史上最大单日涨幅，7500亿美元AI交易引发债务担忧",
-          "body": "#英伟达 #OpenAI #SK集团",
-          "tags": [
-            "#英伟达",
-            "#OpenAI",
-            "#SK集团"
-          ],
-          "ts": 1785205709000,
-          "time": "10:28:29",
-          "receivedAt": 1785212613941,
-          "receivedTime": true
-        },
-        {
-          "id": "222374",
-          "url": "https://t.me/jin10light/222374",
-          "title": "SK海力士多单爆仓8000万美元，链上持仓量骤降14%",
-          "body": "#SKHX #Hyperliquid #韩国",
-          "tags": [
-            "#SKHX",
-            "#Hyperliquid",
-            "#韩国"
-          ],
-          "ts": 1785205526000,
-          "time": "10:25:26",
-          "receivedAt": 1785212613941,
-          "receivedTime": true
-        },
-        {
-          "id": "222373",
-          "url": "https://t.me/jin10light/222373",
-          "title": "富时中国A50指数期货盘中跌逾2%。",
-          "body": "#富时中国A50 #A股",
-          "tags": [
-            "#富时中国A50",
-            "#A股"
-          ],
-          "ts": 1785205468000,
-          "time": "10:24:28",
-          "receivedAt": 1785212613941,
-          "receivedTime": true
-        },
-        {
-          "id": "222372",
-          "url": "https://t.me/jin10light/222372",
-          "title": "Bitget已上线U本位AEON永续合约，最高支持20倍杠杆",
-          "body": "#Bitget #AEON ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Bitget",
-            "#AEON"
-          ],
-          "ts": 1785205107000,
-          "time": "10:18:27",
-          "receivedAt": 1785212613941,
-          "receivedTime": true
-        },
-        {
-          "id": "222371",
-          "url": "https://t.me/jin10light/222371",
-          "title": "中国DUV量产叠加AI资本开支担忧等因素，引发美韩半导体板块抛售，韩国KOSPI指数触发熔断",
-          "body": "#韩国 #中国 #ASML",
-          "tags": [
-            "#韩国",
-            "#中国",
-            "#ASML"
-          ],
-          "ts": 1785205048000,
-          "time": "10:17:28",
-          "receivedAt": 1785212613941,
-          "receivedTime": true
-        },
-        {
-          "id": "222370",
-          "url": "https://t.me/jin10light/222370",
-          "title": "A股半导体板块走弱，兆易创新跌停，西安奕材-U、普冉股份跌超10%，源杰科技、恒运昌、长光华芯、北京君正等跟跌。",
-          "body": "#A股 #兆易创新 #西安奕材 -U",
-          "tags": [
-            "#A股",
-            "#兆易创新",
-            "#西安奕材"
-          ],
-          "ts": 1785204989000,
-          "time": "10:16:29",
-          "receivedAt": 1785212613941,
           "receivedTime": true
         }
       ],
