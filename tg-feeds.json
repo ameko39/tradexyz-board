@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-07-30T17:47:16.173Z",
+  "updatedAt": "2026-07-30T19:02:34.837Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6754",
+          "url": "https://t.me/BWEtradfi/6754",
+          "title": "*亨特布鲁克研究公司发布另一份看空布鲁姆能源公司的报告",
+          "body": "*HUNTERBROOK RESEARCH POSTS ANOTHER BEARISH BLOOM ENERGY PIECE *DO THE FUEL CELLS WORK AS CLAIMED? DATA SAYS NO - HUNTERBROOK *BLOOM ENERGY FUEL CELLS UNDERPERFORM CLAIMED EFFICIENCY AND LIFESPAN BENCHMARKS, ACCORDING TO GOVERNMENT DATA ANALYSIS $BE *燃料电池真的像宣传的那样好用吗？数据表明并非如此 - 亨特布鲁克 *根据政府数据分析，布鲁姆能源...",
+          "tags": [],
+          "ts": 1785434551000,
+          "time": "02:02:31",
+          "receivedAt": 1785438137935,
+          "receivedTime": true
+        },
+        {
+          "id": "6753",
+          "url": "https://t.me/BWEtradfi/6753",
+          "title": "据称SITUATIONAL AWARENESS ASSETS降至100亿美元",
+          "body": "*SITUATIONAL AWARENESS ASSETS SAID TO FALL TO $10 BILLION",
+          "tags": [],
+          "ts": 1785433677000,
+          "time": "01:47:57",
+          "receivedAt": 1785438137935,
+          "receivedTime": true
+        },
         {
           "id": "6752",
           "url": "https://t.me/BWEtradfi/6752",
@@ -2546,39 +2568,6 @@
           "time": "03:15:53",
           "receivedAt": 1784145022701,
           "receivedTime": true
-        },
-        {
-          "id": "6524",
-          "url": "https://t.me/BWEtradfi/6524",
-          "title": "美国官员告诉路透社，美国近期对伊朗的打击正在加强美国潜在升级的选择。",
-          "body": "*RECENT U.S. STRIKES ON IRAN ARE STRENGTHENING OPTIONS FOR POTENTIAL U.S. ESCALATION, THREE U.S. OFFICIALS TELL REUTERS",
-          "tags": [],
-          "ts": 1784141233000,
-          "time": "02:47:13",
-          "receivedAt": 1784145022701,
-          "receivedTime": true
-        },
-        {
-          "id": "6523",
-          "url": "https://t.me/BWEtradfi/6523",
-          "title": "美国曾探讨对古巴进行空袭的可能性：哥伦比亚广播公司",
-          "body": "*US HAS EXPLORED POSSIBILITY OF AIR ASSAULT ON CUBA: CBS",
-          "tags": [],
-          "ts": 1784140356000,
-          "time": "02:32:36",
-          "receivedAt": 1784140931190,
-          "receivedTime": true
-        },
-        {
-          "id": "6522",
-          "url": "https://t.me/BWEtradfi/6522",
-          "title": "*万斯：我们正在努力降低利率：JRE播客",
-          "body": "*VANCE: WE'RE TRYING TO LOWER INTEREST RATES: JRE PODCAST *VANCE: BIG MISTAKE NOT HITTING BIG TECH WITH ANTITRUST IN 2000S; WE MUST BE WILLING TO USE IT IN 21ST CENTURY *VANCE: BIG AI RISK IS A HYPER-MONOPOLIST DOMINATING THE SPACE AND INFLUENCING GOVERNMENT *VANCE: IF AI… *万斯：2000年代没有对大型科技公司采取反垄断措...",
-          "tags": [],
-          "ts": 1784137696000,
-          "time": "01:48:16",
-          "receivedAt": 1784140931190,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2586,6 +2575,66 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "223584",
+          "url": "https://t.me/jin10light/223584",
+          "title": "Meta Platforms(META.O)报告称，已通过长期和短期协议，承诺在未来投入近7000亿美元，用于人工智能数据中心、云计算等领域。",
+          "body": "#Meta Platforms #人工智能 #云计算",
+          "tags": [
+            "#Meta",
+            "#人工智能",
+            "#云计算"
+          ],
+          "ts": 1785437908000,
+          "time": "02:58:28",
+          "receivedAt": 1785438138363,
+          "receivedTime": true
+        },
+        {
+          "id": "223583",
+          "url": "https://t.me/jin10light/223583",
+          "title": "美国参议院以49比50的投票结果否决了一项决议。",
+          "body": "该决议要求特朗普在未获国会授权的情况下停止对伊朗采取敌对行动。 #美国 #特朗普 #伊朗",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#伊朗"
+          ],
+          "ts": 1785434671000,
+          "time": "02:04:31",
+          "receivedAt": 1785438138363,
+          "receivedTime": true
+        },
+        {
+          "id": "223582",
+          "url": "https://t.me/jin10light/223582",
+          "title": "据沙特通讯社：沙特阿拉伯组建了一支旨在保护红海航运的海上防御联盟，另有13个国家参与其中。",
+          "body": "#沙特阿拉伯 #红海 #海上防御联盟",
+          "tags": [
+            "#沙特阿拉伯",
+            "#红海",
+            "#海上防御联盟"
+          ],
+          "ts": 1785433708000,
+          "time": "01:48:28",
+          "receivedAt": 1785438138363,
+          "receivedTime": true
+        },
+        {
+          "id": "223581",
+          "url": "https://t.me/jin10light/223581",
+          "title": "据华尔街日报：多家银行正洽谈为一家与Anthropic合作的数据中心开发商提供150亿美元贷款，谷歌将提供财务担保和芯片支持。",
+          "body": "#华尔街日报 #Anthropic #谷歌",
+          "tags": [
+            "#华尔街日报",
+            "#Anthropic",
+            "#谷歌"
+          ],
+          "ts": 1785433649000,
+          "time": "01:47:29",
+          "receivedAt": 1785438138363,
+          "receivedTime": true
+        },
         {
           "id": "223580",
           "url": "https://t.me/jin10light/223580",
@@ -19729,65 +19778,6 @@
           ],
           "ts": 1785207028000,
           "time": "10:50:28",
-          "receivedAt": 1785212613752,
-          "receivedTime": true
-        },
-        {
-          "id": "222384",
-          "url": "https://t.me/jin10light/222384",
-          "title": "A股科创50指数跌超4%，源杰科技跌超13%，生益电子、佰维存储、沐曦股份、澜起科技等均跌超8%。",
-          "body": "#A股 #科创50指数 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#A股",
-            "#科创50指数"
-          ],
-          "ts": 1785206969000,
-          "time": "10:49:29",
-          "receivedAt": 1785212613752,
-          "receivedTime": true
-        },
-        {
-          "id": "222383",
-          "url": "https://t.me/jin10light/222383",
-          "title": "1. SK海力士跌破发行价，隔夜美股半导体股遭集中抛售。",
-          "body": "2. 分析师：SK海力士第二季度业绩预计将创历史新高。 3. 消息称SK海力士计划下半年量产LPDDR6。 4. 三星电子确认HBM5将采用2纳米GAA工艺，速度较HBM4E提升50%以上。 5. 存储模组厂商宇瞻科技：DRAM、企业级SSD供需失衡至少持续到明年上半年。 6. 机构：英伟达、博通CPO交换机展开小量出货，光引擎良率、先进封装产能成关键因素。 7. 内存中嵌入逻辑单元：三星电子有望在8月发布LPDDR5X-PIM。 8. 传闻三星MX考虑为在中销售中低端智能手机导入中国产DRAM内存。 9. 英特尔更新XeSS SDK至3.0.2，解决...",
-          "tags": [
-            "#SK海力士",
-            "#三星电子",
-            "#AMD"
-          ],
-          "ts": 1785206850000,
-          "time": "10:47:30",
-          "receivedAt": 1785212613752,
-          "receivedTime": true
-        },
-        {
-          "id": "222382",
-          "url": "https://t.me/jin10light/222382",
-          "title": "港股恒生指数盘中转跌，此前一度涨近1%，恒生科技指数涨幅快速收窄至0.1%，老铺黄金( 06181.HK )跌超20%，智谱( 02513.HK )跌超18.5%，MiniMax( 00100.HK )跌超11.3%，...",
-          "body": "#港股 #老铺黄金 #智谱",
-          "tags": [
-            "#港股",
-            "#老铺黄金",
-            "#智谱"
-          ],
-          "ts": 1785206849000,
-          "time": "10:47:29",
-          "receivedAt": 1785212613752,
-          "receivedTime": true
-        },
-        {
-          "id": "222381",
-          "url": "https://t.me/jin10light/222381",
-          "title": "A股CPO板块持续走弱，剑桥科技封板跌停，东山精密、景旺电子触及跌停，新易盛、源杰科技、中际旭创、锐捷网络跌超10%，通富微电、天孚通信等跟跌。",
-          "body": "#A股 #CPO #剑桥科技",
-          "tags": [
-            "#A股",
-            "#CPO",
-            "#剑桥科技"
-          ],
-          "ts": 1785206729000,
-          "time": "10:45:29",
           "receivedAt": 1785212613752,
           "receivedTime": true
         }
