@@ -1,11 +1,77 @@
 {
-  "updatedAt": "2026-07-30T12:19:13.680Z",
+  "updatedAt": "2026-07-30T14:36:58.602Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6747",
+          "url": "https://t.me/BWEtradfi/6747",
+          "title": "Situational Awareness清仓全部公开投资账目：CNBC",
+          "body": "*SITUATIONAL AWARENESS SELLS ENTIRE PUBLIC INVESTMENT BOOK: CNBC",
+          "tags": [],
+          "ts": 1785419171000,
+          "time": "21:46:11",
+          "receivedAt": 1785422201687,
+          "receivedTime": true
+        },
+        {
+          "id": "6746",
+          "url": "https://t.me/BWEtradfi/6746",
+          "title": "DB: 标普500指数开盘上涨0.9%，纳斯达克指数上涨1.5%",
+          "body": "DB: *S&P 500 OPENS UP 0.9%, NASDAQ UP 1.5%",
+          "tags": [],
+          "ts": 1785418243000,
+          "time": "21:30:43",
+          "receivedAt": 1785422201687,
+          "receivedTime": true
+        },
+        {
+          "id": "6745",
+          "url": "https://t.me/BWEtradfi/6745",
+          "title": "DB: *美国6月个人消费支出价格指数环比下降0.1%；预期下降0.1%",
+          "body": "DB: *US JUNE PCE PRICE INDEX FALLS 0.1% M/M; EST. -0.1% *US JUNE PCE PRICE INDEX RISES 3.7% Y/Y; EST. +3.7% *US JUNE CORE PCE PRICE INDEX RISES 0.1% M/M; EST. +0.2% *US JUNE CORE PCE PRICE INDEX RISES 3.3% Y/Y; EST. +3.3% *美国6月个人消费支出价格指数同比上涨3.7%；预期上涨3.7% *美国6月核心个人消费支出价格指数环比上涨0.1%；预期上涨0.2% *美国6月核心个人...",
+          "tags": [],
+          "ts": 1785414622000,
+          "time": "20:30:22",
+          "receivedAt": 1785422201687,
+          "receivedTime": true
+        },
+        {
+          "id": "6744",
+          "url": "https://t.me/BWEtradfi/6744",
+          "title": "DB: *美国第二季度实际GDP年化季率增长1.5%；预期增长2.1%",
+          "body": "DB: *US 2Q GDP RISES ANNUALIZED 1.5% Q/Q; EST. +2.1%",
+          "tags": [],
+          "ts": 1785414620000,
+          "time": "20:30:20",
+          "receivedAt": 1785422201687,
+          "receivedTime": true
+        },
+        {
+          "id": "6743",
+          "url": "https://t.me/BWEtradfi/6743",
+          "title": "DB: *美国6月个人收入环比增长0.2%；预期增长0.3%",
+          "body": "DB: *US JUNE PERSONAL INCOME RISES 0.2% M/M; EST. +0.3% *US JUNE PERSONAL SPENDING RISES 0.3% M/M; EST. +0.3% *US JUNE REAL PERSONAL SPENDING RISES 0.4% M/M; PREV. 0.3% *美国6月个人支出环比增长0.3%；预期增长0.3% *美国6月实际个人支出环比增长0.4%；前值0.3%",
+          "tags": [],
+          "ts": 1785414619000,
+          "time": "20:30:19",
+          "receivedAt": 1785422201687,
+          "receivedTime": true
+        },
+        {
+          "id": "6742",
+          "url": "https://t.me/BWEtradfi/6742",
+          "title": "DB: *美国7月第25周首次申请失业救济人数为19.7万人；预计为20万人",
+          "body": "DB: *US JOBLESS CLAIMS 197K IN JULY 25 WEEK; EST. 200K *US CONTINUING CLAIMS 1.782M IN JULY 18 WEEK; EST. 1.798M *美国7月第18周持续申请失业救济人数为178.2万人；预计为179.8万人",
+          "tags": [],
+          "ts": 1785414615000,
+          "time": "20:30:15",
+          "receivedAt": 1785422201687,
+          "receivedTime": true
+        },
         {
           "id": "6741",
           "url": "https://t.me/BWEtradfi/6741",
@@ -2480,68 +2546,1097 @@
           "time": "00:57:53",
           "receivedAt": 1784136994768,
           "receivedTime": true
-        },
-        {
-          "id": "6519",
-          "url": "https://t.me/BWEtradfi/6519",
-          "title": "DB: 美国原油库存减少169.2万桶；预计减少259.4万桶",
-          "body": "DB: *US CRUDE OIL INVENTORIES FELL 1.692M BARRELS; EST. -2.594M",
-          "tags": [],
-          "ts": 1784125814000,
-          "time": "22:30:14",
-          "receivedAt": 1784126966380,
-          "receivedTime": true
-        },
-        {
-          "id": "6518",
-          "url": "https://t.me/BWEtradfi/6518",
-          "title": "DB: 加拿大央行将主要利率维持在2.25%；预期2.25%",
-          "body": "DB: *BOC LEAVES KEY INTEREST RATE AT 2.25%; EST. 2.25%",
-          "tags": [],
-          "ts": 1784123121000,
-          "time": "21:45:21",
-          "receivedAt": 1784126966380,
-          "receivedTime": true
-        },
-        {
-          "id": "6517",
-          "url": "https://t.me/BWEtradfi/6517",
-          "title": "DB: 标准普尔500指数开盘上涨0.4%，纳斯达克指数上涨0.6%",
-          "body": "DB: *S&P 500 RISES 0.4% AT THE OPEN, NASDAQ RISES 0.6%",
-          "tags": [],
-          "ts": 1784122243000,
-          "time": "21:30:43",
-          "receivedAt": 1784126966380,
-          "receivedTime": true
-        },
-        {
-          "id": "6516",
-          "url": "https://t.me/BWEtradfi/6516",
-          "title": "DB: *美国6月生产者价格指数环比下降0.3%；预期增长0.0%",
-          "body": "DB: *US JUNE PRODUCER PRICES FALL 0.3% M/M; EST. +0.0% *US JUNE PRODUCER PRICES RISE 5.5% Y/Y; EST. +6.2% *US JUNE CORE PPI RISES 0.2% M/M; EST. +0.4% *US JUNE CORE PPI RISES 4.7% Y/Y; EST. +5.2% *美国6月生产者价格指数同比上涨5.5%；预期增长6.2% *美国6月核心生产者价格指数环比上涨0.2%；预期增长0.4% *美国6月核心生产者价格指数同比上涨4.7%；预期增长5.2%",
-          "tags": [],
-          "ts": 1784118618000,
-          "time": "20:30:18",
-          "receivedAt": 1784120260312,
-          "receivedTime": true
-        },
-        {
-          "id": "6515",
-          "url": "https://t.me/BWEtradfi/6515",
-          "title": "DB: 美国7月纽约州制造业指数为15.6；预期为8.8",
-          "body": "DB: *US JULY EMPIRE STATE FACTORY INDEX AT 15.6; EST. 8.8",
-          "tags": [],
-          "ts": 1784118612000,
-          "time": "20:30:12",
-          "receivedAt": 1784120260312,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "223548",
+          "url": "https://t.me/jin10light/223548",
+          "title": "费城半导体指数大涨9%",
+          "body": "7月30日讯，美股半导体板块涨势进一步扩大，费城半导体指数涨幅扩大至9%，纳斯达克综合指数现涨2.6%。 美光科技(MU.O)涨超16%，AMD(AMD.O)涨超15%，英特尔(INTC.O)涨超14%。 #美光科技 #AMD #英特尔",
+          "tags": [
+            "#美光科技",
+            "#AMD",
+            "#英特尔"
+          ],
+          "ts": 1785422190000,
+          "time": "22:36:30",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223547",
+          "url": "https://t.me/jin10light/223547",
+          "title": "中国人民解放军南部战区位中国黄岩岛领海领空及周边区域组织战备警巡。",
+          "body": "#中国 #黄岩岛",
+          "tags": [
+            "#中国",
+            "#黄岩岛"
+          ],
+          "ts": 1785422008000,
+          "time": "22:33:28",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223546",
+          "url": "https://t.me/jin10light/223546",
+          "title": "EIA天然气报告：截至7月24日当周，美国天然气库存总量为30840亿立方英尺，较此前一周增加280亿立方英尺，较去年同期减少320亿立方英尺，同比降幅1.0%，同时较5年均值高1850亿立方英尺，增幅6.4%。",
+          "body": "#美国 #天然气 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美国",
+            "#天然气"
+          ],
+          "ts": 1785421949000,
+          "time": "22:32:29",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223545",
+          "url": "https://t.me/jin10light/223545",
+          "title": "美国至7月24日当周EIA天然气库存 280亿立方英尺，预期350亿立方英尺，前值320亿立方英尺。",
+          "body": "#美国 #EIA #天然气",
+          "tags": [
+            "#美国",
+            "#EIA",
+            "#天然气"
+          ],
+          "ts": 1785421836000,
+          "time": "22:30:36",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223544",
+          "url": "https://t.me/jin10light/223544",
+          "title": "美股存储板块全线暴涨，闪迪涨超23%，美光、海力士双双涨超16%",
+          "body": "#美股 #存储板块 #希捷科技",
+          "tags": [
+            "#美股",
+            "#存储板块",
+            "#希捷科技"
+          ],
+          "ts": 1785421835000,
+          "time": "22:30:35",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223543",
+          "url": "https://t.me/jin10light/223543",
+          "title": "意大利富时MIB指数站上52000点，日内涨超1%。",
+          "body": "#意大利 #富时MIB指数",
+          "tags": [
+            "#意大利",
+            "#富时MIB指数"
+          ],
+          "ts": 1785421587000,
+          "time": "22:26:27",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223542",
+          "url": "https://t.me/jin10light/223542",
+          "title": "美联储主席沃什：我们将实现价格稳定；不存在软通胀目标。",
+          "body": "#美联储 #沃什",
+          "tags": [
+            "#美联储",
+            "#沃什"
+          ],
+          "ts": 1785421419000,
+          "time": "22:23:39",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223541",
+          "url": "https://t.me/jin10light/223541",
+          "title": "日本央行明日利率决议在即，日元暴涨3%，日本政府或再度干预汇市",
+          "body": "#日本 #美元 #日本央行",
+          "tags": [
+            "#日本",
+            "#美元",
+            "#日本央行"
+          ],
+          "ts": 1785421418000,
+          "time": "22:23:38",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223540",
+          "url": "https://t.me/jin10light/223540",
+          "title": "美国至7月24日当周EIA天然气库存将于十分钟后公布。",
+          "body": "#美国 #天然气库存",
+          "tags": [
+            "#美国",
+            "#天然气库存"
+          ],
+          "ts": 1785421294000,
+          "time": "22:21:34",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223539",
+          "url": "https://t.me/jin10light/223539",
+          "title": "美联储主席沃什：经济展现出令人印象深刻的韧性。",
+          "body": "#美联储 #沃什",
+          "tags": [
+            "#美联储",
+            "#沃什"
+          ],
+          "ts": 1785421293000,
+          "time": "22:21:33",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223538",
+          "url": "https://t.me/jin10light/223538",
+          "title": "日元涨幅扩大至3%",
+          "body": "#美元 #日元 #USD /JPY ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美元",
+            "#日元",
+            "#USD"
+          ],
+          "ts": 1785421229000,
+          "time": "22:20:29",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223537",
+          "url": "https://t.me/jin10light/223537",
+          "title": "AI股神倒在黎明前？旗下基金平仓所有公开上市股票资产，开启逐步清算",
+          "body": "",
+          "tags": [],
+          "ts": 1785421050000,
+          "time": "22:17:30",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223536",
+          "url": "https://t.me/jin10light/223536",
+          "title": "美元兑日元USD/JPY势将创下自2022年12月以来最大单日跌幅。",
+          "body": "#美元 #日元",
+          "tags": [
+            "#美元",
+            "#日元"
+          ],
+          "ts": 1785420867000,
+          "time": "22:14:27",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223535",
+          "url": "https://t.me/jin10light/223535",
+          "title": "日元暴涨2%，市场猜测日本再度干预汇市",
+          "body": "7月30日讯，美元兑日元USD/JPY日内飙升约2.6%，创下自今年早些时候日本政府干预市场以来的最大涨幅，市场猜测日本当局可能再次出手支撑日元。 截至发稿，美元兑日元USD/JPY累计跳水超300点，现报159.19。 此前，日元汇率一路走弱，曾一度跌至近40年来最低水平。 尽管日本政府曾于4月28日至5月27日期间累计实施创纪录的11.73万亿日元（约732亿美元）汇市干预，以阻止美元兑日元跌破160关口，但日元此后依然持续承压。 根据日本财务省公布的外汇储备数据，日本政府近期干预汇市所需资金，很可能来自出售其持有的外国证券资产，其中包括美国国债。...",
+          "tags": [],
+          "ts": 1785420860000,
+          "time": "22:14:20",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223534",
+          "url": "https://t.me/jin10light/223534",
+          "title": "AI股神旗下基金开启逐步平仓清算，试图出售Anthropic等投资增加流动性",
+          "body": "#Anthropic",
+          "tags": [
+            "#Anthropic"
+          ],
+          "ts": 1785420860000,
+          "time": "22:14:20",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223533",
+          "url": "https://t.me/jin10light/223533",
+          "title": "日元全线飙升 数个日元货币对重挫超百点",
+          "body": "7月30日讯，日元短线快速升值，引发干预猜测。 截至发稿，美元兑日元、欧元兑日元均累计下跌约350点，英镑兑日元累计下跌约400点，加元兑日元累计下跌超200点，澳元兑日元累计下跌超150点。 #日元 #美元 #欧元",
+          "tags": [
+            "#日元",
+            "#美元",
+            "#欧元"
+          ],
+          "ts": 1785420748000,
+          "time": "22:12:28",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223532",
+          "url": "https://t.me/jin10light/223532",
+          "title": "美元兑日元USD/JPY向下触及159关口，日内跌2.68%。",
+          "body": "#美元 #日元",
+          "tags": [
+            "#美元",
+            "#日元"
+          ],
+          "ts": 1785420573000,
+          "time": "22:09:33",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223531",
+          "url": "https://t.me/jin10light/223531",
+          "title": "泰国期货交易所：宣布暂停美元/日元期货交易。",
+          "body": "#泰国 #美元 #日元",
+          "tags": [
+            "#泰国",
+            "#美元",
+            "#日元"
+          ],
+          "ts": 1785420572000,
+          "time": "22:09:32",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223530",
+          "url": "https://t.me/jin10light/223530",
+          "title": "美元兑日元累计跳水超300点 美指失守100关口",
+          "body": "7月30日讯，美元兑日元USD/JPY累计跳水超300点，现报159.19；美元指数DXY失守100关口，为6月17日以来首次，日内跌幅0.81%。 #美元 #日元 #美元指数",
+          "tags": [
+            "#美元",
+            "#日元",
+            "#美元指数"
+          ],
+          "ts": 1785420452000,
+          "time": "22:07:32",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223529",
+          "url": "https://t.me/jin10light/223529",
+          "title": "俄罗斯将柴油出口禁令延长至9月1日。",
+          "body": "#俄罗斯 #柴油 #出口禁令",
+          "tags": [
+            "#俄罗斯",
+            "#柴油",
+            "#出口禁令"
+          ],
+          "ts": 1785420452000,
+          "time": "22:07:32",
+          "receivedAt": 1785422202413,
+          "receivedTime": true
+        },
+        {
+          "id": "223528",
+          "url": "https://t.me/jin10light/223528",
+          "title": "据国际文传电讯社：俄罗斯延长柴油和汽油出口禁令。",
+          "body": "#俄罗斯",
+          "tags": [
+            "#俄罗斯"
+          ],
+          "ts": 1785420211000,
+          "time": "22:03:31",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223527",
+          "url": "https://t.me/jin10light/223527",
+          "title": "美元兑日元失守160关口",
+          "body": "7月30日讯，美元兑日元USD/JPY向下触及160，为6月15日以来最低水平，日内跌2.06%。 #美元 #日元 #USD /JPY",
+          "tags": [
+            "#美元",
+            "#日元",
+            "#USD"
+          ],
+          "ts": 1785420089000,
+          "time": "22:01:29",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223526",
+          "url": "https://t.me/jin10light/223526",
+          "title": "现货黄金持续走高，现涨约1%，报4103.67美元。",
+          "body": "#黄金 #美元",
+          "tags": [
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1785419912000,
+          "time": "21:58:32",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223525",
+          "url": "https://t.me/jin10light/223525",
+          "title": "美元兑日元跌幅扩大至2%",
+          "body": "7月30日讯，美元兑日元USD/JPY日内跌幅扩大至2.00%，最低触及160.05。 #美元 #日元",
+          "tags": [
+            "#美元",
+            "#日元"
+          ],
+          "ts": 1785419850000,
+          "time": "21:57:30",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223524",
+          "url": "https://t.me/jin10light/223524",
+          "title": "美股全线反攻纳指涨超2%，半导体板块领涨，美光、海力士、闪迪等存储主要个股全部涨超10%",
+          "body": "#美股 #纳指 #微软",
+          "tags": [
+            "#美股",
+            "#纳指",
+            "#微软"
+          ],
+          "ts": 1785419551000,
+          "time": "21:52:31",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223523",
+          "url": "https://t.me/jin10light/223523",
+          "title": "美股存储板块涨幅扩大 多个个股涨超10%",
+          "body": "7月30日讯，美股存储板块涨幅扩大，希捷科技(STX.O)涨超17%，闪迪(SNDK.O)涨18%，西部数据(WDC.O)涨16%，SK海力士(SKHY.O)、美光科技(MU.O)涨11%。 #美股 #希捷科技 #闪迪",
+          "tags": [
+            "#美股",
+            "#希捷科技",
+            "#闪迪"
+          ],
+          "ts": 1785419429000,
+          "time": "21:50:29",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223522",
+          "url": "https://t.me/jin10light/223522",
+          "title": "费城半导体指数有望创下一个多月以来最大单日涨幅，现涨超6%。",
+          "body": "纳斯达克综合指数涨幅扩大至2%。",
+          "tags": [],
+          "ts": 1785419249000,
+          "time": "21:47:29",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223521",
+          "url": "https://t.me/jin10light/223521",
+          "title": "美元兑日元USD/JPY短线持续跳水，累计跳水幅度超250点，引发干预预测。",
+          "body": "#美元 #日元 #USD /JPY",
+          "tags": [
+            "#美元",
+            "#日元",
+            "#USD"
+          ],
+          "ts": 1785419129000,
+          "time": "21:45:29",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223520",
+          "url": "https://t.me/jin10light/223520",
+          "title": "金融博客零对冲：日本央行终于有所行动：美元兑日元大幅下跌，似乎有干预迹象。",
+          "body": "#日本央行 #美元 #日元 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#日本央行",
+            "#美元",
+            "#日元"
+          ],
+          "ts": 1785418949000,
+          "time": "21:42:29",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223519",
+          "url": "https://t.me/jin10light/223519",
+          "title": "微软涨幅扩大至超15%，有望创2020年3月以来最大单日涨幅",
+          "body": "#微软 #美股 #Azure",
+          "tags": [
+            "#微软",
+            "#美股",
+            "#Azure"
+          ],
+          "ts": 1785418888000,
+          "time": "21:41:28",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223518",
+          "url": "https://t.me/jin10light/223518",
+          "title": "美元兑日元USD/JPY短线跳水，日内跌幅达1.50%，现报160.9。",
+          "body": "#美元 #日元",
+          "tags": [
+            "#美元",
+            "#日元"
+          ],
+          "ts": 1785418828000,
+          "time": "21:40:28",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223517",
+          "url": "https://t.me/jin10light/223517",
+          "title": "Arm(ARM.O)涨约12%，公司预测第二季度收入和调整后利润均超出预期。",
+          "body": "#Arm #美国",
+          "tags": [
+            "#Arm",
+            "#美国"
+          ],
+          "ts": 1785418593000,
+          "time": "21:36:33",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223516",
+          "url": "https://t.me/jin10light/223516",
+          "title": "微软(MSFT.O)有望创下自2020年3月以来最大的单日百分比涨幅，现涨15%。",
+          "body": "#微软 #美股 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#微软",
+            "#美股"
+          ],
+          "ts": 1785418593000,
+          "time": "21:36:33",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223515",
+          "url": "https://t.me/jin10light/223515",
+          "title": "美股开盘ARM涨幅一度扩大至19%，创3月25日以来最大单日涨幅",
+          "body": "#ARM #美股",
+          "tags": [
+            "#ARM",
+            "#美股"
+          ],
+          "ts": 1785418592000,
+          "time": "21:36:32",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223514",
+          "url": "https://t.me/jin10light/223514",
+          "title": "美股开盘加密概念股多数上涨，Strategy涨1.25%",
+          "body": "#美股 #MSTR #COIN",
+          "tags": [
+            "#美股",
+            "#MSTR",
+            "#COIN"
+          ],
+          "ts": 1785418529000,
+          "time": "21:35:29",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223513",
+          "url": "https://t.me/jin10light/223513",
+          "title": "美股高开纳指涨1.6%，微软涨约12%，存储板块大幅走高",
+          "body": "#美股 #微软 #SK海力士 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美股",
+            "#微软",
+            "#SK海力士"
+          ],
+          "ts": 1785418406000,
+          "time": "21:33:26",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223512",
+          "url": "https://t.me/jin10light/223512",
+          "title": "美股三大股指高开 存储板块反弹",
+          "body": "7月30日讯，美股开盘，三大股指悉数走高，道指涨0.6%，标普500指数涨1%，纳指涨1.6%。 微软(MSFT.O)涨约12%，第四财季云业务增长远超预期。 存储板块大幅走高，闪迪(SNDK.O)涨约11%，SK海力士(SKHY.O)涨约7%。 #美股 #微软 #存储板块",
+          "tags": [
+            "#美股",
+            "#微软",
+            "#存储板块"
+          ],
+          "ts": 1785418351000,
+          "time": "21:32:31",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223511",
+          "url": "https://t.me/jin10light/223511",
+          "title": "Meta Platforms(META.O)跌约9%，股价跌至四个月低点，此前报告二季度现金流大幅下滑。",
+          "body": "#Meta Platforms #META",
+          "tags": [
+            "#Meta",
+            "#META"
+          ],
+          "ts": 1785418351000,
+          "time": "21:32:31",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223510",
+          "url": "https://t.me/jin10light/223510",
+          "title": "台积电美股盘前涨超4%，将开发AI芯片封装技术",
+          "body": "#台积电 #美股",
+          "tags": [
+            "#台积电",
+            "#美股"
+          ],
+          "ts": 1785418289000,
+          "time": "21:31:29",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223509",
+          "url": "https://t.me/jin10light/223509",
+          "title": "焦煤主力合约持续走弱，日内跌幅达3.00%，现报1199元/吨。",
+          "body": "#焦煤 #主力合约",
+          "tags": [
+            "#焦煤",
+            "#主力合约"
+          ],
+          "ts": 1785417566000,
+          "time": "21:19:26",
+          "receivedAt": 1785422202637,
+          "receivedTime": true
+        },
+        {
+          "id": "223508",
+          "url": "https://t.me/jin10light/223508",
+          "title": "视频｜美联储主席Kevin Warsh：拒绝前瞻指引，把国债、汇率交给市场自由定价",
+          "body": "#美联储 #美国 #Kevin Warsh",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#Kevin"
+          ],
+          "ts": 1785417513000,
+          "time": "21:18:33",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223507",
+          "url": "https://t.me/jin10light/223507",
+          "title": "宇树科技：初步询价日为8月5日 网下申购日为8月10日",
+          "body": "7月30日讯，宇树科技公告，公司首次公开发行股票并在科创板上市，本次发行采用战略配售、网下发行与网上发行相结合的方式进行。 本次拟公开发行股份4044.6434万股，占发行后总股本的10%，发行后总股本为40446.4340万股。 初步询价日为2026年8月5日，网下申购日为2026年8月10日。 公司存在特别表决权机制安排，实际控制人王兴兴在表决权差异安排下合计控制公司68.78%的表决权。 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [],
+          "ts": 1785417512000,
+          "time": "21:18:32",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223506",
+          "url": "https://t.me/jin10light/223506",
+          "title": "国际原油日内跌幅扩大至2%",
+          "body": "7月30日讯，美、布两油日内跌幅均扩大至2%，WTI原油现报81.8美元/桶，布伦特原油一度跌破86美元/桶。 #WTI原油 #布伦特原油",
+          "tags": [
+            "#WTI原油",
+            "#布伦特原油"
+          ],
+          "ts": 1785417447000,
+          "time": "21:17:27",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223505",
+          "url": "https://t.me/jin10light/223505",
+          "title": "美国6月PCE意外转负为2020年以来首次，二季度GDP表面放缓但内需创两年新高",
+          "body": "#美国 #美联储 #伊朗",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#伊朗"
+          ],
+          "ts": 1785417391000,
+          "time": "21:16:31",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223504",
+          "url": "https://t.me/jin10light/223504",
+          "title": "Polymarket将升级加密涨跌市场结算规则：放弃单一价格快照，改用时间加权均价",
+          "body": "#Polymarket #Chainlink #加密货币",
+          "tags": [
+            "#Polymarket",
+            "#Chainlink",
+            "#加密货币"
+          ],
+          "ts": 1785417031000,
+          "time": "21:10:31",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223503",
+          "url": "https://t.me/jin10light/223503",
+          "title": "据The Information：台积电(TSM.N) 将开发AI芯片封装技术。",
+          "body": "#台积电 #AI芯片",
+          "tags": [
+            "#台积电",
+            "#AI芯片"
+          ],
+          "ts": 1785416670000,
+          "time": "21:04:30",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223502",
+          "url": "https://t.me/jin10light/223502",
+          "title": "甲骨文盘前拉升涨近5%，将推出谷歌Gemini模型企业应用",
+          "body": "#甲骨文 #谷歌 #Gemini",
+          "tags": [
+            "#甲骨文",
+            "#谷歌",
+            "#Gemini"
+          ],
+          "ts": 1785416669000,
+          "time": "21:04:29",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223501",
+          "url": "https://t.me/jin10light/223501",
+          "title": "据伊通社（IRNA）援引伊朗议员的话称，伊朗永远不会接受美国式的停火，将继续对侵略者作出回应。",
+          "body": "#伊朗 #美国 #伊通社",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#伊通社"
+          ],
+          "ts": 1785416607000,
+          "time": "21:03:27",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223500",
+          "url": "https://t.me/jin10light/223500",
+          "title": "微软考虑推出开放权重AI模型，以面对DeepSeek、月之暗面等中国AI开发商竞争",
+          "body": "#微软 #中国 #Mustafa Suleyman",
+          "tags": [
+            "#微软",
+            "#中国",
+            "#Mustafa"
+          ],
+          "ts": 1785416488000,
+          "time": "21:01:28",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223499",
+          "url": "https://t.me/jin10light/223499",
+          "title": "甲骨文(ORCL.N)美股盘前涨幅一度扩大至4%，此前宣布将与谷歌扩大合作伙伴关系。",
+          "body": "#甲骨文 #谷歌 #美股",
+          "tags": [
+            "#甲骨文",
+            "#谷歌",
+            "#美股"
+          ],
+          "ts": 1785416442000,
+          "time": "21:00:42",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223498",
+          "url": "https://t.me/jin10light/223498",
+          "title": "夜盘开盘，国内期货主力合约涨跌不一，低硫燃料油（LU）、铁矿石、焦煤跌超1%。",
+          "body": "涨幅方面，对二甲苯、PTA涨超1%，瓶片涨近1%。 #低硫燃料油 #铁矿石 #焦煤 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#低硫燃料油",
+            "#铁矿石",
+            "#焦煤"
+          ],
+          "ts": 1785416441000,
+          "time": "21:00:41",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223497",
+          "url": "https://t.me/jin10light/223497",
+          "title": "美股盘前要闻一览：苹果、亚马逊与Strategy财报即将发布，半导体存储板块涨幅扩大、SK集团会长买入3620股SK海力士",
+          "body": "#SK海力士 #美股 #韩国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#SK海力士",
+            "#美股",
+            "#韩国"
+          ],
+          "ts": 1785416441000,
+          "time": "21:00:41",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223496",
+          "url": "https://t.me/jin10light/223496",
+          "title": "甲骨文与谷歌扩大合作关系，甲骨文将推出谷歌的Gemini模型企业应用。",
+          "body": "#甲骨文 #谷歌 #Gemini",
+          "tags": [
+            "#甲骨文",
+            "#谷歌",
+            "#Gemini"
+          ],
+          "ts": 1785416250000,
+          "time": "20:57:30",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223495",
+          "url": "https://t.me/jin10light/223495",
+          "title": "美股盘前半导体、存储板块涨幅扩大，ARM涨幅扩大至11%，闪迪、西数涨超8%",
+          "body": "#美股 #ARM #LRCX",
+          "tags": [
+            "#美股",
+            "#ARM",
+            "#LRCX"
+          ],
+          "ts": 1785416128000,
+          "time": "20:55:28",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223494",
+          "url": "https://t.me/jin10light/223494",
+          "title": "美国上周初请失业金人数增幅低于预期，美国劳动力市场仍处于「招聘放缓、裁员放缓」状态",
+          "body": "#美国 #美国劳工部 #通用汽车",
+          "tags": [
+            "#美国",
+            "#美国劳工部",
+            "#通用汽车"
+          ],
+          "ts": 1785416068000,
+          "time": "20:54:28",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223493",
+          "url": "https://t.me/jin10light/223493",
+          "title": "美股盘前半导体、存储板块涨幅扩大，闪迪、西数涨超8%，SK海力士ADR涨5.3%",
+          "body": "#美股 #ARM #LRCX",
+          "tags": [
+            "#美股",
+            "#ARM",
+            "#LRCX"
+          ],
+          "ts": 1785415948000,
+          "time": "20:52:28",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223492",
+          "url": "https://t.me/jin10light/223492",
+          "title": "据伊朗塔斯尼姆通讯社：伊朗革命卫队当地时间周四早晨袭击了位于科威特的美国基地。",
+          "body": "#伊朗 #科威特 #美国",
+          "tags": [
+            "#伊朗",
+            "#科威特",
+            "#美国"
+          ],
+          "ts": 1785415827000,
+          "time": "20:50:27",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223491",
+          "url": "https://t.me/jin10light/223491",
+          "title": "美国6月PCE意外转负 核心通胀降温",
+          "body": "7月30日讯，美国政府周四公布的数据显示，美国6月PCE物价指数环比下降0.1%，这是自2020年疫情暴发以来首次出现月度下降，也进一步解释了美联储本周为何选择维持利率不变。 PCE通胀年率由5月的三年来高点4.1%放缓至3.7%。 不过，目前尚不清楚通胀是否会继续回落。 6月通胀降温主要得益于美伊达成脆弱的临时停火协议后油价下跌。 核心PCE物价指数6月环比上涨0.1%，涨幅低于市场预期，同比增速由3.4%降至3.3%。 美联储认为，PCE物价指数，尤其是核心PCE，是衡量美国通胀趋势最准确的指标。 目前，该指标显示，美国通胀已连续第六年高于美联储2...",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#伊朗"
+          ],
+          "ts": 1785415773000,
+          "time": "20:49:33",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223490",
+          "url": "https://t.me/jin10light/223490",
+          "title": "小米汽车发布小米澎程N90 Max，预售价29.99万元。",
+          "body": "#小米汽车 #小米澎程N90 Max",
+          "tags": [
+            "#小米汽车",
+            "#小米澎程N90"
+          ],
+          "ts": 1785415773000,
+          "time": "20:49:33",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223489",
+          "url": "https://t.me/jin10light/223489",
+          "title": "英国央行行长贝利：希望大家不要带着“英国央行接近加息”的想法离开这个房间。",
+          "body": "#英国 #英国央行 #贝利",
+          "tags": [
+            "#英国",
+            "#英国央行",
+            "#贝利"
+          ],
+          "ts": 1785415478000,
+          "time": "20:44:38",
+          "receivedAt": 1785422202857,
+          "receivedTime": true
+        },
+        {
+          "id": "223488",
+          "url": "https://t.me/jin10light/223488",
+          "title": "以太坊11周年：从简陋办公室到「世界计算机」，核心开发者晒出启动日经典合影",
+          "body": "#ETH #柏林 #Vitalik Buterin",
+          "tags": [
+            "#ETH",
+            "#柏林",
+            "#Vitalik"
+          ],
+          "ts": 1785415478000,
+          "time": "20:44:38",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223487",
+          "url": "https://t.me/jin10light/223487",
+          "title": "中际旭创：控股股东及一致行动人持股比例降1.46%",
+          "body": "7月30日讯，中际旭创公告，2025年5月28日-2026年7月30日，因公司境外发行股份、股权激励股份行权及二级市场减持等，控股股东中际控股及其一致行动人王伟修、王晓东合计持股比例从17.99%降至16.53%，变动超1%整数倍。 期间，中际控股减持550万股，王晓东减持708,552股，王伟修未减持。 本次权益变动未违规、未违反承诺，也不会导致公司控制权变更。 #中际旭创 #中际控股 #王伟修",
+          "tags": [
+            "#中际旭创",
+            "#中际控股",
+            "#王伟修"
+          ],
+          "ts": 1785415348000,
+          "time": "20:42:28",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223486",
+          "url": "https://t.me/jin10light/223486",
+          "title": "据日经新闻：微软正在考虑提供一些内部开发的、具有开放权重的AI模型。",
+          "body": "#微软 #AI模型",
+          "tags": [
+            "#微软",
+            "#AI模型"
+          ],
+          "ts": 1785415229000,
+          "time": "20:40:29",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223485",
+          "url": "https://t.me/jin10light/223485",
+          "title": "美国国家公路交通安全管理局局长：美国预计将在特朗普政府任期结束前发布首个联邦自动驾驶系统安全标准。",
+          "body": "#美国 #特朗普 #自动驾驶 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#自动驾驶"
+          ],
+          "ts": 1785415051000,
+          "time": "20:37:31",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223484",
+          "url": "https://t.me/jin10light/223484",
+          "title": "英国央行行长贝利：等待所有第二轮效应出现再采取行动将为时已晚；但目前无法确定何时会采取行动。",
+          "body": "#英国 #英国央行 #贝利",
+          "tags": [
+            "#英国",
+            "#英国央行",
+            "#贝利"
+          ],
+          "ts": 1785414871000,
+          "time": "20:34:31",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223483",
+          "url": "https://t.me/jin10light/223483",
+          "title": "美国6月核心PCE物价指数月率录得0.1%，为2025年3月以来最小增幅。",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1785414751000,
+          "time": "20:32:31",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223482",
+          "url": "https://t.me/jin10light/223482",
+          "title": "美国6月个人支出月率 0.3%，预期0.3%，前值由0.70%修正为0.9%。",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1785414694000,
+          "time": "20:31:34",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223481",
+          "url": "https://t.me/jin10light/223481",
+          "title": "多家沪市公司集中发布回购增持、业绩喜报及中期分红等利好",
+          "body": "7月30日讯，2026年7月30日晚间，多家沪市上市公司集中释放利好信号，涵盖股份回购增持、经营业绩报喜、中期分红回报等多个维度，积极信号密集释放，市场信心持续巩固。 回购增持持续扩容增量。 当日新增回购计划4家，合计拟回购金额上限达3.2亿元；新增增持计划3家，合计拟增持金额上限为1.66亿元。 另有6家公司披露回购进展公告，持续向市场传递对公司长期投资价值的坚定信心。 经营层面延续向好态势，3家沪市公司提交绩优定期报告或业绩快报。 股东回报及市场稳定性持续提升。 #沪市 #A股 #回购",
+          "tags": [
+            "#沪市",
+            "#A股",
+            "#回购"
+          ],
+          "ts": 1785414694000,
+          "time": "20:31:34",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223480",
+          "url": "https://t.me/jin10light/223480",
+          "title": "美国核心PCE回落，符合预期",
+          "body": "",
+          "tags": [],
+          "ts": 1785414693000,
+          "time": "20:31:33",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223479",
+          "url": "https://t.me/jin10light/223479",
+          "title": "美国至7月25日当周初请失业金人数19.7万人，预期20万人",
+          "body": "#美国 #美元",
+          "tags": [
+            "#美国",
+            "#美元"
+          ],
+          "ts": 1785414693000,
+          "time": "20:31:33",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223478",
+          "url": "https://t.me/jin10light/223478",
+          "title": "美国6月核心PCE物价指数年率3.3%，预期3.30% ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "body": "",
+          "tags": [],
+          "ts": 1785414635000,
+          "time": "20:30:35",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223477",
+          "url": "https://t.me/jin10light/223477",
+          "title": "美国第二季度实际个人消费支出季率初值 3.2%，预期2.3%，前值0.50%。",
+          "body": "#美国 #美元",
+          "tags": [
+            "#美国",
+            "#美元"
+          ],
+          "ts": 1785414634000,
+          "time": "20:30:34",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223476",
+          "url": "https://t.me/jin10light/223476",
+          "title": "韩国「ETF之父」：单股杠杆产品不应强制摘牌，建议投资应覆盖整个半导体产业链",
+          "body": "#韩国 #三星电子 #SK 海力士 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#韩国",
+            "#三星电子",
+            "#SK"
+          ],
+          "ts": 1785414448000,
+          "time": "20:27:28",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223475",
+          "url": "https://t.me/jin10light/223475",
+          "title": "市场定价下调对英国央行的加息押注；现预计九月加息的可能性不足40%。",
+          "body": "#英国央行 #英国",
+          "tags": [
+            "#英国央行",
+            "#英国"
+          ],
+          "ts": 1785414393000,
+          "time": "20:26:33",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223474",
+          "url": "https://t.me/jin10light/223474",
+          "title": "前OpenAI研究人员质疑前沿AI实验室万亿估值：越领先越烧钱",
+          "body": "#OpenAI #Anthropic #Andrew Ho",
+          "tags": [
+            "#OpenAI",
+            "#Anthropic",
+            "#Andrew"
+          ],
+          "ts": 1785414150000,
+          "time": "20:22:30",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
+        {
+          "id": "223473",
+          "url": "https://t.me/jin10light/223473",
+          "title": "美国上周初请数据、6月个人支出月率、核心PCE物价指数月率及年率、二季度实际个人消费支出季率初值、实际GDP及核心PCE物价指数年化季率初值将于十分钟后公布。",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1785414027000,
+          "time": "20:20:27",
+          "receivedAt": 1785422203053,
+          "receivedTime": true
+        },
         {
           "id": "223472",
           "url": "https://t.me/jin10light/223472",
@@ -18669,1112 +19764,6 @@
           "time": "09:38:30",
           "receivedAt": 1785212614107,
           "receivedTime": true
-        },
-        {
-          "id": "222348",
-          "url": "https://t.me/jin10light/222348",
-          "title": "A股流感板块盘初拉升，海南海药封板涨停，爱朋医疗、陇神戎发均涨超9%，珍宝岛、美诺华、哈三联、新赣江等跟涨。",
-          "body": "#A股 #海南海药 #爱朋医疗",
-          "tags": [
-            "#A股",
-            "#海南海药",
-            "#爱朋医疗"
-          ],
-          "ts": 1785202527000,
-          "time": "09:35:27",
-          "receivedAt": 1785212614107,
-          "receivedTime": true
-        },
-        {
-          "id": "222347",
-          "url": "https://t.me/jin10light/222347",
-          "title": "A股开盘，长鑫开跌7.7%",
-          "body": "#A股 #上证指数 #长鑫 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#A股",
-            "#上证指数",
-            "#长鑫"
-          ],
-          "ts": 1785202408000,
-          "time": "09:33:28",
-          "receivedAt": 1785212614107,
-          "receivedTime": true
-        },
-        {
-          "id": "222346",
-          "url": "https://t.me/jin10light/222346",
-          "title": "微软首个网络安全模型：九成任务交给自研小模型，成本省一半",
-          "body": "#微软 #MAI -Cyber-1-Flash #GPT -5.4 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#微软",
-            "#MAI",
-            "#GPT"
-          ],
-          "ts": 1785202288000,
-          "time": "09:31:28",
-          "receivedAt": 1785212614107,
-          "receivedTime": true
-        },
-        {
-          "id": "222345",
-          "url": "https://t.me/jin10light/222345",
-          "title": "港股存储概念股低开调整，南方两倍做多海力士( 07709.HK )、南方两倍做多三星电子( 07747.HK )双双跌近15%，兆易创新( 03986.HK )跌超8%，澜起科技( 06809.HK )跌近7%。",
-          "body": "#港股 #存储概念股",
-          "tags": [
-            "#港股",
-            "#存储概念股"
-          ],
-          "ts": 1785202227000,
-          "time": "09:30:27",
-          "receivedAt": 1785212614107,
-          "receivedTime": true
-        },
-        {
-          "id": "222344",
-          "url": "https://t.me/jin10light/222344",
-          "title": "A股光刻机概念板块竞价高开，波长广电、永新光学、张江高科、海立股份一字涨停，茂莱光学、蓝英装备涨超10%。",
-          "body": "#A股 #光刻机",
-          "tags": [
-            "#A股",
-            "#光刻机"
-          ],
-          "ts": 1785202167000,
-          "time": "09:29:27",
-          "receivedAt": 1785212614107,
-          "receivedTime": true
-        },
-        {
-          "id": "222343",
-          "url": "https://t.me/jin10light/222343",
-          "title": "燃油主力合约日内大跌6.00%，现报3505.00元/吨。",
-          "body": "#燃油 #下跌",
-          "tags": [
-            "#燃油",
-            "#下跌"
-          ],
-          "ts": 1785202049000,
-          "time": "09:27:29",
-          "receivedAt": 1785212614107,
-          "receivedTime": true
-        },
-        {
-          "id": "222342",
-          "url": "https://t.me/jin10light/222342",
-          "title": "A股开盘，上证指数跌0.91%，深证成指跌2.25%，创业板指跌3.12%；C长鑫开跌7.7%。",
-          "body": "#A股 #上证指数 #深证成指 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#A股",
-            "#上证指数",
-            "#深证成指"
-          ],
-          "ts": 1785201987000,
-          "time": "09:26:27",
-          "receivedAt": 1785212614107,
-          "receivedTime": true
-        },
-        {
-          "id": "222341",
-          "url": "https://t.me/jin10light/222341",
-          "title": "Anthropic终于回应开源争议：反对封禁，但要卡芯片和蒸馏",
-          "body": "#Anthropic #Dario Amodei #中国",
-          "tags": [
-            "#Anthropic",
-            "#Dario",
-            "#中国"
-          ],
-          "ts": 1785201809000,
-          "time": "09:23:29",
-          "receivedAt": 1785212614107,
-          "receivedTime": true
-        },
-        {
-          "id": "222340",
-          "url": "https://t.me/jin10light/222340",
-          "title": "富时中国A50指数期货盘初下挫跌超1%。",
-          "body": "#富时中国A50 #A股",
-          "tags": [
-            "#富时中国A50",
-            "#A股"
-          ],
-          "ts": 1785201808000,
-          "time": "09:23:28",
-          "receivedAt": 1785212614107,
-          "receivedTime": true
-        },
-        {
-          "id": "222339",
-          "url": "https://t.me/jin10light/222339",
-          "title": "中国央行：今日开展3055亿元7天逆回购操作，投标量3055亿元，中标量3055亿元，操作利率为1.40%，与此前持平。",
-          "body": "#中国 #央行",
-          "tags": [
-            "#中国",
-            "#央行"
-          ],
-          "ts": 1785201748000,
-          "time": "09:22:28",
-          "receivedAt": 1785212614107,
-          "receivedTime": true
-        },
-        {
-          "id": "222338",
-          "url": "https://t.me/jin10light/222338",
-          "title": "港股开盘，恒指开涨0.26%，科指开涨0.64%；石药集团( 01093.HK )、理想汽车( 02015.HK )均涨超3%，老铺黄金( 06181.HK )跌近13%。",
-          "body": "#港股 #石药集团 #理想汽车",
-          "tags": [
-            "#港股",
-            "#石药集团",
-            "#理想汽车"
-          ],
-          "ts": 1785201689000,
-          "time": "09:21:29",
-          "receivedAt": 1785212614107,
-          "receivedTime": true
-        },
-        {
-          "id": "222337",
-          "url": "https://t.me/jin10light/222337",
-          "title": "芯片股抛售加剧，日韩股市重挫",
-          "body": "#日本 #韩国 #英伟达 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#日本",
-            "#韩国",
-            "#英伟达"
-          ],
-          "ts": 1785201568000,
-          "time": "09:19:28",
-          "receivedAt": 1785212614308,
-          "receivedTime": true
-        },
-        {
-          "id": "222336",
-          "url": "https://t.me/jin10light/222336",
-          "title": "2026年7月28日银行间外汇市场人民币汇率中间价",
-          "body": "美元/人民币报6.7928，上调（人民币贬值）17点； 欧元/人民币报7.7119，下调148点；港元/人民币报0.86627，上调2.6点； 英镑/人民币报9.0141，下调353点；澳元/人民币报4.7380，下调20点； 加元/人民币报4.8012，下调101点；100日元/人民币报4.1427，下调14点； 人民币/俄罗斯卢布报11.5215，上调389点；新西兰元/人民币报3.9140，下调148点； 人民币/林吉特报0.60204，下调0.7点；瑞士法郎/人民币报8.2825，下调231点； 新加坡元/人民币报5.2514，下调56点。 #...",
-          "tags": [
-            "#美元",
-            "#人民币",
-            "#中国"
-          ],
-          "ts": 1785201387000,
-          "time": "09:16:27",
-          "receivedAt": 1785212614308,
-          "receivedTime": true
-        },
-        {
-          "id": "222335",
-          "url": "https://t.me/jin10light/222335",
-          "title": "韩国KOSPI指数触发熔断",
-          "body": "#韩国 #KOSPI",
-          "tags": [
-            "#韩国",
-            "#KOSPI"
-          ],
-          "ts": 1785201329000,
-          "time": "09:15:29",
-          "receivedAt": 1785212614308,
-          "receivedTime": true
-        },
-        {
-          "id": "222334",
-          "url": "https://t.me/jin10light/222334",
-          "title": "三星证券：中国DUV进展对本轮AI芯片周期影响有限，美股半导体股抛售反应过度",
-          "body": "#中国 #ASML #中芯国际",
-          "tags": [
-            "#中国",
-            "#ASML",
-            "#中芯国际"
-          ],
-          "ts": 1785201208000,
-          "time": "09:13:28",
-          "receivedAt": 1785212614308,
-          "receivedTime": true
-        },
-        {
-          "id": "222333",
-          "url": "https://t.me/jin10light/222333",
-          "title": "1. SK海力士跌破发行价，隔夜美股半导体股遭集中抛售。",
-          "body": "2. 芝商所全天候黄金期货上线首周末需求强劲。 3. LME铝库存降至271275吨，为本世纪最低。 4. 富国纳指100ETF提示溢价风险，或启动连续停牌。 5. 博时纳指100ETF溢价风险升温，基金提示或临时停牌。 6. 景顺全球芯片LOF溢价近27%，基金于7月28日开市起停牌至10:30。 7. 华夏纳斯达克ETF提示高溢价风险，或申请盘中临时停牌。 8. 华泰柏瑞中韩半导体ETF提示高溢价风险，开盘停牌至10:30。 9. 景顺纳指科技ETF溢价超20%，基金于7月28日开市起停牌至10:30。 10. 广发纳指ETF溢价超10%，开盘停牌...",
-          "tags": [],
-          "ts": 1785200973000,
-          "time": "09:09:33",
-          "receivedAt": 1785212614308,
-          "receivedTime": true
-        },
-        {
-          "id": "222332",
-          "url": "https://t.me/jin10light/222332",
-          "title": "SK海力士ADR跌破发行价，并创上市以来新低",
-          "body": "#SK海力士 #美股 #半导体 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#SK海力士",
-            "#美股",
-            "#半导体"
-          ],
-          "ts": 1785200668000,
-          "time": "09:04:28",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222331",
-          "url": "https://t.me/jin10light/222331",
-          "title": "早盘开盘，国内期货主力合约跌多涨少，SC原油跌近5%，燃料油跌超4%，液化石油气（LPG）、纯苯、低硫燃料油（LU）、纯碱、苯乙烯（EB）、焦煤跌超2%。",
-          "body": "涨幅方面，集运欧线涨超2%，红枣、鸡蛋涨近1%。 #SC原油 #燃料油 #液化石油气",
-          "tags": [
-            "#SC原油",
-            "#燃料油",
-            "#液化石油气"
-          ],
-          "ts": 1785200490000,
-          "time": "09:01:30",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222330",
-          "url": "https://t.me/jin10light/222330",
-          "title": "视频｜英伟达CEO黄仁勋：半导体产业规模将在未来十年内增长10倍",
-          "body": "#黄仁勋 #英伟达 #韩国",
-          "tags": [
-            "#黄仁勋",
-            "#英伟达",
-            "#韩国"
-          ],
-          "ts": 1785200428000,
-          "time": "09:00:28",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222329",
-          "url": "https://t.me/jin10light/222329",
-          "title": "韩国股指暴跌8%",
-          "body": "7月28日讯，韩国KOSPI指数跌幅扩大至8%，SK海力士跌11%，三星电子跌超9%。 #韩国 #KOSPI #SK海力士",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1785200248000,
-          "time": "08:57:28",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222328",
-          "url": "https://t.me/jin10light/222328",
-          "title": "Citrini分析师：中国DUV取得进展并不意外，ASML等半导体设备股抛售过度",
-          "body": "#中国 #ASML #半导体",
-          "tags": [
-            "#中国",
-            "#ASML",
-            "#半导体"
-          ],
-          "ts": 1785199947000,
-          "time": "08:52:27",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222327",
-          "url": "https://t.me/jin10light/222327",
-          "title": "两市融资余额增加100.25亿元",
-          "body": "7月28日讯，截至7月27日，上交所融资余额报13643.15亿元，较前一交易日增加136.7亿元；深交所融资余额报13039.62亿元，较前一交易日减少36.45亿元；两市合计26682.77亿元，较前一交易日增加100.25亿元。 #A股 #融资余额 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#A股",
-            "#融资余额"
-          ],
-          "ts": 1785199710000,
-          "time": "08:48:30",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222326",
-          "url": "https://t.me/jin10light/222326",
-          "title": "贝莱德发行125.5亿美元Meta数据中心债券，收益率为7.534%",
-          "body": "#贝莱德 #Meta #得克萨斯州",
-          "tags": [
-            "#贝莱德",
-            "#Meta",
-            "#得克萨斯州"
-          ],
-          "ts": 1785199409000,
-          "time": "08:43:29",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222325",
-          "url": "https://t.me/jin10light/222325",
-          "title": "日经225指数日内大跌4%，铠侠重挫18%",
-          "body": "#日经225 #铠侠控股",
-          "tags": [
-            "#日经225",
-            "#铠侠控股"
-          ],
-          "ts": 1785199107000,
-          "time": "08:38:27",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222324",
-          "url": "https://t.me/jin10light/222324",
-          "title": "日股铠侠控股股价重挫18%。",
-          "body": "#日股 #铠侠控股",
-          "tags": [
-            "#日股",
-            "#铠侠控股"
-          ],
-          "ts": 1785199048000,
-          "time": "08:37:28",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222323",
-          "url": "https://t.me/jin10light/222323",
-          "title": "日经225指数日内大跌4.00%，现报62320.32点。",
-          "body": "#日经225 #日本",
-          "tags": [
-            "#日经225",
-            "#日本"
-          ],
-          "ts": 1785198927000,
-          "time": "08:35:27",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222322",
-          "url": "https://t.me/jin10light/222322",
-          "title": "城堡证券：沃什本周或将意外加息",
-          "body": "#美联储 #美国 #伊朗",
-          "tags": [
-            "#美联储",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1785198631000,
-          "time": "08:30:31",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222321",
-          "url": "https://t.me/jin10light/222321",
-          "title": "Arthur Hayes再次买入3298枚ETH，7月15日以来累计增持7212.6枚",
-          "body": "#Arthur Hayes #ETH #USDC",
-          "tags": [
-            "#Arthur",
-            "#ETH",
-            "#USDC"
-          ],
-          "ts": 1785198507000,
-          "time": "08:28:27",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222320",
-          "url": "https://t.me/jin10light/222320",
-          "title": "韩国股指暴跌8%，SK海力士跌11%",
-          "body": "",
-          "tags": [],
-          "ts": 1785198208000,
-          "time": "08:23:28",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222319",
-          "url": "https://t.me/jin10light/222319",
-          "title": "Hyperliquid上SKHX「插针」一度短时跌超17%至927美元，现回升至1112美元",
-          "body": "#Hyperliquid #SKHX #上海",
-          "tags": [
-            "#Hyperliquid",
-            "#SKHX",
-            "#上海"
-          ],
-          "ts": 1785197968000,
-          "time": "08:19:28",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222318",
-          "url": "https://t.me/jin10light/222318",
-          "title": "1. 唐山市场主流钢厂计划对湿熄焦炭下调50元/吨、干熄焦炭下调55元/吨，2026年7月29日零点执行。",
-          "body": "邢台地区部分钢厂对湿熄焦炭下调50元/吨、干熄焦炭下调55元/吨，2026年7月29日零点执行。 2. 南部半岛棕榈油压榨商协会（SPPOMA）数据显示，2026年7月1-25日马来西亚棕榈油单产环比上月同期减少1.32%，出油率环比上月同期增加0.23%，产量环比上月同期减少0.11%。 3. 美国农业部（USDA）公布数据，民间出口商报告向中国出售了13.2万吨大豆，向未知目的地出售了12.6万吨大豆，于2026/2027年度交付。 4. 美国农业部（USDA）周二凌晨公布的每周作物生长报告显示，截至7月26日当周，美国大豆优良率为63%，市场预期...",
-          "tags": [
-            "#唐山",
-            "#邢台",
-            "#马来西亚"
-          ],
-          "ts": 1785197729000,
-          "time": "08:15:29",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222317",
-          "url": "https://t.me/jin10light/222317",
-          "title": "日韩股市低开低走，日经225指数跌幅扩大至3%，跌破63000点，韩国KOSPI指数跌6.5%。",
-          "body": "#日经225 #韩国KOSPI #日本",
-          "tags": [
-            "#日经225",
-            "#韩国KOSPI",
-            "#日本"
-          ],
-          "ts": 1785197669000,
-          "time": "08:14:29",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222316",
-          "url": "https://t.me/jin10light/222316",
-          "title": "日经225指数盘初快速下挫，跌幅扩大至2.5%。",
-          "body": "#日经225 #日本",
-          "tags": [
-            "#日经225",
-            "#日本"
-          ],
-          "ts": 1785197427000,
-          "time": "08:10:27",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222315",
-          "url": "https://t.me/jin10light/222315",
-          "title": "韩国交易所启动KOSPI侧车机制，暂停KOSPI程序化卖盘。",
-          "body": "#韩国 #KOSPI",
-          "tags": [
-            "#韩国",
-            "#KOSPI"
-          ],
-          "ts": 1785197367000,
-          "time": "08:09:27",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222314",
-          "url": "https://t.me/jin10light/222314",
-          "title": "BitMine于4小时前从BitGo收到7500枚ETH",
-          "body": "#ETH #BitMine #BitGo",
-          "tags": [
-            "#ETH",
-            "#BitMine",
-            "#BitGo"
-          ],
-          "ts": 1785197308000,
-          "time": "08:08:28",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222313",
-          "url": "https://t.me/jin10light/222313",
-          "title": "韩国股指低开5%，SK海力士跌超8%",
-          "body": "#韩国 #KOSPI #SK海力士",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1785197007000,
-          "time": "08:03:27",
-          "receivedAt": 1785200877997,
-          "receivedTime": true
-        },
-        {
-          "id": "222312",
-          "url": "https://t.me/jin10light/222312",
-          "title": "韩国股指低开5%",
-          "body": "7月28日讯，韩国KOSPI指数开盘跌超5%，SK海力士跌超8%，三星电子跌6%。 日经225指数低开0.6%。 #韩国 #KOSPI #SK海力士",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1785196952000,
-          "time": "08:02:32",
-          "receivedAt": 1785200878287,
-          "receivedTime": true
-        },
-        {
-          "id": "222311",
-          "url": "https://t.me/jin10light/222311",
-          "title": "AI担忧盖过油价下跌，芯片股重挫拖累纳指，半导体指数一度跌超5%，闪迪超跌11%",
-          "body": "#美股 #纳指 #特朗普",
-          "tags": [
-            "#美股",
-            "#纳指",
-            "#特朗普"
-          ],
-          "ts": 1785196951000,
-          "time": "08:02:31",
-          "receivedAt": 1785200878287,
-          "receivedTime": true
-        },
-        {
-          "id": "222310",
-          "url": "https://t.me/jin10light/222310",
-          "title": "贝莱德向Coinbase Prime转入3310枚BTC和28,370枚ETH",
-          "body": "#贝莱德 #Coinbase Prime #BTC",
-          "tags": [
-            "#贝莱德",
-            "#Coinbase",
-            "#BTC"
-          ],
-          "ts": 1785196229000,
-          "time": "07:50:29",
-          "receivedAt": 1785200878287,
-          "receivedTime": true
-        },
-        {
-          "id": "222309",
-          "url": "https://t.me/jin10light/222309",
-          "title": "特朗普政府接近敲定AI自愿审查框架",
-          "body": "#特朗普 #美国 #OpenAI",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#OpenAI"
-          ],
-          "ts": 1785195809000,
-          "time": "07:43:29",
-          "receivedAt": 1785196033093,
-          "receivedTime": true
-        },
-        {
-          "id": "222308",
-          "url": "https://t.me/jin10light/222308",
-          "title": "瑞银：微软财报或遇「高支出低增长」困境，下调目标价至480美元",
-          "body": "#微软 #MSFT #美国",
-          "tags": [
-            "#微软",
-            "#MSFT",
-            "#美国"
-          ],
-          "ts": 1785195327000,
-          "time": "07:35:27",
-          "receivedAt": 1785196033093,
-          "receivedTime": true
-        },
-        {
-          "id": "222307",
-          "url": "https://t.me/jin10light/222307",
-          "title": "今日重点关注的财经数据与事件：2026年7月28日 周二",
-          "body": "① 待定 以色列总理内塔尼亚胡会晤特朗普 ② 11:05 澳洲联储主席布洛克发表讲话 ③ 20:15 美国至7月11日当周ADP就业人数周度变动 ④ 21:00 美国5月FHFA房价指数月率 ⑤ 21:00 美国5月S&P/CS20座大城市房价指数年率 ⑥ 22:00 美国7月谘商会消费者信心指数 ⑦ 22:00 美国7月里奇蒙德联储制造业指数 ⑧ 次日04:30 美国至7月24日当周API原油库存 #以色列 #内塔尼亚胡 #特朗普",
-          "tags": [
-            "#以色列",
-            "#内塔尼亚胡",
-            "#特朗普"
-          ],
-          "ts": 1785192692000,
-          "time": "06:51:32",
-          "receivedAt": 1785196033093,
-          "receivedTime": true
-        },
-        {
-          "id": "222306",
-          "url": "https://t.me/jin10light/222306",
-          "title": "国内新闻ï",
-          "body": "1.月之暗面正式发布Kimi K3模型权重及技术报告。 2. 市场人士：行情接入方式变更属常规操作，不针对量化交易。 3. 商务部新闻发言人就美发布“强迫劳动”301调查最终措施答记者问。 4. 国家统计局：2026年1—6月份全国规模以上工业企业利润增长18.7%。 5. 中央结算公司：拟调降部分主营业务收费，全额免除熊猫债发行登记服务费。 6. 东方证券：拟发行股份及支付现金收购上海证券100%股权，交易对价251.2亿元。 7. 商务部新闻发言人就美宣称拟对中国人工智能企业开展调查并实施制裁答记者问。 国际新闻ï 1.据悉瑞士央行计划维持零利率至...",
-          "tags": [
-            "#中国",
-            "#美国",
-            "#特朗普"
-          ],
-          "ts": 1785191493000,
-          "time": "06:31:33",
-          "receivedAt": 1785192352998,
-          "receivedTime": true
-        },
-        {
-          "id": "222305",
-          "url": "https://t.me/jin10light/222305",
-          "title": "美机构：今年AI发现的网络安全漏洞数量将是去年的两倍",
-          "body": "#美国 #甲骨文 #微软",
-          "tags": [
-            "#美国",
-            "#甲骨文",
-            "#微软"
-          ],
-          "ts": 1785190589000,
-          "time": "06:16:29",
-          "receivedAt": 1785192352998,
-          "receivedTime": true
-        },
-        {
-          "id": "222304",
-          "url": "https://t.me/jin10light/222304",
-          "title": "整理：中东局势跟踪（7月28日）",
-          "body": "冲突情å 1.胡塞武装称打击沙特的原油运输基础设施。 2. 伊朗官员警告乌克兰：对伊攻击会付出代价。 3. 沙特称拦截并摧毁了从伊拉克领土发射的无人机。 4. 也门军方人士称巡逻艇在红海遭胡塞武装袭击3人失踪。 5. 以色列前高官发联名信警告约旦河西岸局势或升级。 6. 据伊朗媒体Fars News：消息人士称，以色列炮击了黎巴嫩南部的阿里·塔希尔高地。 7. 据伊朗Press TV：伊朗伊斯兰革命卫队发言人表示，美国隐瞒了部队伤亡的真实规模，据估计有超过200名美军士兵死亡。 8. 据伊朗伊斯兰共和国广播电视台（IRIB）：伊拉克国家安全顾问称，乌克...",
-          "tags": [
-            "#伊朗",
-            "#特朗普",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1785189448000,
-          "time": "05:57:28",
-          "receivedAt": 1785192352998,
-          "receivedTime": true
-        },
-        {
-          "id": "222303",
-          "url": "https://t.me/jin10light/222303",
-          "title": "WTI原油日内重挫9.00%，现报81.16美元/桶。",
-          "body": "#WTI原油 #美元",
-          "tags": [
-            "#WTI原油",
-            "#美元"
-          ],
-          "ts": 1785183029000,
-          "time": "04:10:29",
-          "receivedAt": 1785185526438,
-          "receivedTime": true
-        },
-        {
-          "id": "222302",
-          "url": "https://t.me/jin10light/222302",
-          "title": "美股收盘：海力士跌超7%，苹果市值直逼5万亿美元",
-          "body": "7月28日讯，美股周一收盘，道指初步收涨0.5%，标普500指数涨0.02%，纳指跌0.18%。 美光科技(MU.O)跌2%，闪迪(SNDK.O)跌11%，英伟达(NVDA.O)跌5%，SK海力士(SKHY.O)跌7.5%。 苹果(AAPL.O)涨1%，市值逼近5万亿美元。 纳斯达克中国金龙指数收涨2.5%，网易(NTES.O)涨3.5%，阿里巴巴(BABA.N)涨2.5%。 #美股 #苹果 #SK海力士",
-          "tags": [
-            "#美股",
-            "#苹果",
-            "#SK海力士"
-          ],
-          "ts": 1785182548000,
-          "time": "04:02:28",
-          "receivedAt": 1785185526438,
-          "receivedTime": true
-        },
-        {
-          "id": "222301",
-          "url": "https://t.me/jin10light/222301",
-          "title": "苹果因App Store加密钱包诈骗案遭起诉，用户损失超180万美元",
-          "body": "#苹果 #BTC #美国",
-          "tags": [
-            "#苹果",
-            "#BTC",
-            "#美国"
-          ],
-          "ts": 1785179667000,
-          "time": "03:14:27",
-          "receivedAt": 1785181100610,
-          "receivedTime": true
-        },
-        {
-          "id": "222300",
-          "url": "https://t.me/jin10light/222300",
-          "title": "Microsoft AI推出全新自主研发的网络安全模型",
-          "body": "#Microsoft AI #MAI -Cyber-1-Flash #MDASH",
-          "tags": [
-            "#Microsoft",
-            "#MAI",
-            "#MDASH"
-          ],
-          "ts": 1785179369000,
-          "time": "03:09:29",
-          "receivedAt": 1785181100610,
-          "receivedTime": true
-        },
-        {
-          "id": "222299",
-          "url": "https://t.me/jin10light/222299",
-          "title": "谷歌(GOOG.O)和微软(MSFT.O)表示发现的软件漏洞数量创下历史新高。",
-          "body": "美国方面称已知网络漏洞数量预计将大幅超过205个。 #谷歌 #微软 #美国",
-          "tags": [
-            "#谷歌",
-            "#微软",
-            "#美国"
-          ],
-          "ts": 1785175649000,
-          "time": "02:07:29",
-          "receivedAt": 1785181100610,
-          "receivedTime": true
-        },
-        {
-          "id": "222298",
-          "url": "https://t.me/jin10light/222298",
-          "title": "据阿拉比亚电视台：伊拉克总理下令调查使用伊拉克领土发动无人机袭击沙特的事件。",
-          "body": "#伊拉克 #沙特 #无人机袭击",
-          "tags": [
-            "#伊拉克",
-            "#沙特",
-            "#无人机袭击"
-          ],
-          "ts": 1785174689000,
-          "time": "01:51:29",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222297",
-          "url": "https://t.me/jin10light/222297",
-          "title": "Microsoft AI：推出MAI-Cyber-1-Flash，这是我们自主研发的新型网络安全模型。",
-          "body": "#Microsoft #MAI -Cyber-1-Flash ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Microsoft",
-            "#MAI"
-          ],
-          "ts": 1785174150000,
-          "time": "01:42:30",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222296",
-          "url": "https://t.me/jin10light/222296",
-          "title": "英伟达与OpenAI酝酿5000亿美元AI数据中心项目，10GW规模或成全球最大",
-          "body": "#英伟达 #OpenAI #美国",
-          "tags": [
-            "#英伟达",
-            "#OpenAI",
-            "#美国"
-          ],
-          "ts": 1785172947000,
-          "time": "01:22:27",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222295",
-          "url": "https://t.me/jin10light/222295",
-          "title": "「特朗普账户」注册量突破700万，美国财政部长称其为「政府历史最成功启动项目」",
-          "body": "#美国 #特朗普 #美元 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#美元"
-          ],
-          "ts": 1785172829000,
-          "time": "01:20:29",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222294",
-          "url": "https://t.me/jin10light/222294",
-          "title": "比特币回调冲击财库公司：TD Cowen下调Nakamoto目标价58%仍维持「买入」评级",
-          "body": "#Nakamoto Inc. #BTC #TD Cowen",
-          "tags": [
-            "#Nakamoto",
-            "#BTC",
-            "#TD"
-          ],
-          "ts": 1785172772000,
-          "time": "01:19:32",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222293",
-          "url": "https://t.me/jin10light/222293",
-          "title": "美国战略石油储备的原油库存上周下降约370万桶，降至3.077亿桶，为1983年以来最低水平。",
-          "body": "#美国 #原油",
-          "tags": [
-            "#美国",
-            "#原油"
-          ],
-          "ts": 1785172771000,
-          "time": "01:19:31",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222292",
-          "url": "https://t.me/jin10light/222292",
-          "title": "特朗普：美国应拥有全球最低的利率",
-          "body": "7月28日讯，美国总统特朗普周一在谈及美联储的问题时表示，美联储主席沃什很出色，但他必须处理委员会的问题。 他相信沃什会做正确的事，他知道沃什想要什么。 而关于利率，特朗普则表示，利率应该更低，美国应拥有全球最低的利率。 他还提到，成本正在迅速下降。 #特朗普 #美国 #美联储",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#美联储"
-          ],
-          "ts": 1785171631000,
-          "time": "01:00:31",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222291",
-          "url": "https://t.me/jin10light/222291",
-          "title": "数字资产平台Uphold裁员17%，转向企业业务",
-          "body": "#Uphold #纽约 #加密货币",
-          "tags": [
-            "#Uphold",
-            "#纽约",
-            "#加密货币"
-          ],
-          "ts": 1785171388000,
-          "time": "00:56:28",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222290",
-          "url": "https://t.me/jin10light/222290",
-          "title": "Tori上线前7天募资5000万美元，将机构级套利策略搬上链",
-          "body": "#荷兰 #Tori Finance #strUSD",
-          "tags": [
-            "#荷兰",
-            "#Tori",
-            "#strUSD"
-          ],
-          "ts": 1785171328000,
-          "time": "00:55:28",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222289",
-          "url": "https://t.me/jin10light/222289",
-          "title": "美、布两油短线下跌，特朗普称正与伊朗进行「良好谈判」",
-          "body": "#美国 #伊朗 #特朗普",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#特朗普"
-          ],
-          "ts": 1785171267000,
-          "time": "00:54:27",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222288",
-          "url": "https://t.me/jin10light/222288",
-          "title": "特朗普称正与伊朗进行“良好谈判” 暗示可能会发生一些事情",
-          "body": "7月28日讯，美国总统特朗普周一在乘坐空军一号前往密歇根州途中向记者表示，美国目前正与伊朗进行“良好的谈判”。 特朗普称，他有“充足的时间”来处理伊朗问题。 而在谈到与伊朗可能达成协议时表示：“很有可能会发生一些事情。 ”此外，他还提到，他将向俄罗斯询问是否提供卫星图像以协助伊朗的问题。 特朗普称，一旦战争结束，你就会看到物价大幅下跌。 #特朗普 #伊朗 #美国",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1785171151000,
-          "time": "00:52:31",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222287",
-          "url": "https://t.me/jin10light/222287",
-          "title": "特朗普再施压美联储：美国应拥有全球最低利率，要求沃什降息",
-          "body": "",
-          "tags": [],
-          "ts": 1785171032000,
-          "time": "00:50:32",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222286",
-          "url": "https://t.me/jin10light/222286",
-          "title": "特朗普：美伊谈判「很有机会达成成果」，拟用伊朗资金赔偿霍尔木兹损失",
-          "body": "#特朗普 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1785170909000,
-          "time": "00:48:29",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222285",
-          "url": "https://t.me/jin10light/222285",
-          "title": "美、布两油短线下挫超0.5美元，现分别报81.86美元/桶和86.18美元/桶，此前特朗普表示，与伊朗的谈判进展良好，会同意与伊朗会面。",
-          "body": "#美国 #伊朗 #特朗普",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#特朗普"
-          ],
-          "ts": 1785170731000,
-          "time": "00:45:31",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222284",
-          "url": "https://t.me/jin10light/222284",
-          "title": "美国总统特朗普：（关于美联储）我们应该拥有全球最低的利率。",
-          "body": "#特朗普 #美国 #美联储",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#美联储"
-          ],
-          "ts": 1785170192000,
-          "time": "00:36:32",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222283",
-          "url": "https://t.me/jin10light/222283",
-          "title": "美国总统特朗普：（关于美联储）美联储主席沃什必须处理委员会的问题。",
-          "body": "利率应该降低。 #特朗普 #美联储 #美国",
-          "tags": [
-            "#特朗普",
-            "#美联储",
-            "#美国"
-          ],
-          "ts": 1785170136000,
-          "time": "00:35:36",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222282",
-          "url": "https://t.me/jin10light/222282",
-          "title": "美国总统特朗普：伊朗通过协调方提出了会面请求。",
-          "body": "#特朗普 #伊朗 #美国",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1785169767000,
-          "time": "00:29:27",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222281",
-          "url": "https://t.me/jin10light/222281",
-          "title": "美国总统特朗普：（关于伊朗）我们正在进行良好的谈判。",
-          "body": "有很大机会会发生一些事情。 #特朗普 #伊朗 #美国",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1785169710000,
-          "time": "00:28:30",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222280",
-          "url": "https://t.me/jin10light/222280",
-          "title": "Kimi K3开源登顶Hugging Face热榜，30分钟获4000+点赞创最快增长纪录",
-          "body": "#Moonshot AI #Hugging Face #中国",
-          "tags": [
-            "#Moonshot",
-            "#Hugging",
-            "#中国"
-          ],
-          "ts": 1785169588000,
-          "time": "00:26:28",
-          "receivedAt": 1785175155513,
-          "receivedTime": true
-        },
-        {
-          "id": "222279",
-          "url": "https://t.me/jin10light/222279",
-          "title": "Kimi K3凭什么追近Fable 5？月之暗面同时重写注意力、残差和MoE",
-          "body": "#月之暗面 #Kimi K3 #GPT -5.6 Sol ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#月之暗面",
-            "#Kimi",
-            "#GPT"
-          ],
-          "ts": 1785169290000,
-          "time": "00:21:30",
-          "receivedAt": 1785169374626,
-          "receivedTime": true
-        },
-        {
-          "id": "222278",
-          "url": "https://t.me/jin10light/222278",
-          "title": "英伟达数十亿美元投资押注Ilya Sutskever超级智能实验室",
-          "body": "#英伟达 #Ilya Sutskever ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#英伟达",
-            "#Ilya"
-          ],
-          "ts": 1785168928000,
-          "time": "00:15:28",
-          "receivedAt": 1785169374626,
-          "receivedTime": true
-        },
-        {
-          "id": "222277",
-          "url": "https://t.me/jin10light/222277",
-          "title": "英伟达发布量子计算AI校准模型：实现量子计算机自动调优，推动AI+量子融合",
-          "body": "#英伟达 #量子计算 #AI ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#英伟达",
-            "#量子计算",
-            "#AI"
-          ],
-          "ts": 1785168631000,
-          "time": "00:10:31",
-          "receivedAt": 1785169374626,
-          "receivedTime": true
-        },
-        {
-          "id": "222276",
-          "url": "https://t.me/jin10light/222276",
-          "title": "【晚间独家观点】",
-          "body": "【修正后综合观点】 【港股】恒指重返25000点上方，科指、小米及PCB链走强，显示资金正追逐科技成长与内需消费线索，短线修复动能较足。但本轮上涨结构性特征明显，半导体、油气等板块偏弱，若本周美联储措辞偏鹰或美元走强，高弹性成长板块将率先回吐，当前更像情绪修复而非趋势确认。 【美股】地区制造业数据回暖与本周大概率按兵不动的议息结果，短期对指数构成支撑，AI财报若兑现仍可托住龙头权重。核心风险在于市场逐步接受利率更高更久的定价，反对票数量若超预期将强化9月收紧押注，小盘股与高估值成长股承压最明显，资金或继续向现金流确定的大盘科技集中。 【虚拟货币】巨鲸持...",
-          "tags": [
-            "#独家观点"
-          ],
-          "ts": 1785168111000,
-          "time": "00:01:51",
-          "receivedAt": 1785169374626,
-          "receivedTime": true
-        },
-        {
-          "id": "222275",
-          "url": "https://t.me/jin10light/222275",
-          "title": "今日重点关注的财经数据与事件：2026年7月28日 周二",
-          "body": "① 待定 以色列总理内塔尼亚胡会晤特朗普 ② 11:05 澳洲联储主席布洛克发表讲话 ③ 20:15 美国至7月11日当周ADP就业人数周度变动 ④ 21:00 美国5月FHFA房价指数月率 ⑤ 21:00 美国5月S&P/CS20座大城市房价指数年率 ⑥ 22:00 美国7月谘商会消费者信心指数 ⑦ 22:00 美国7月里奇蒙德联储制造业指数 ⑧ 次日04:30 美国至7月24日当周API原油库存 #以色列 #内塔尼亚胡 #特朗普",
-          "tags": [
-            "#以色列",
-            "#内塔尼亚胡",
-            "#特朗普"
-          ],
-          "ts": 1785168106000,
-          "time": "00:01:46",
-          "receivedAt": 1785169374626,
-          "receivedTime": true
-        },
-        {
-          "id": "222274",
-          "url": "https://t.me/jin10light/222274",
-          "title": "Ondo放弃独立公链路线，推出新执行网络：打造「链上版交易所级性能」架构",
-          "body": "#Ondo Finance #ONDO #CEX ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Ondo",
-            "#ONDO",
-            "#CEX"
-          ],
-          "ts": 1785167849000,
-          "time": "23:57:29",
-          "receivedAt": 1785169374626,
-          "receivedTime": true
-        },
-        {
-          "id": "222273",
-          "url": "https://t.me/jin10light/222273",
-          "title": "美股芯片股下挫，费城半导体指数跌约5%",
-          "body": "",
-          "tags": [],
-          "ts": 1785167488000,
-          "time": "23:51:28",
-          "receivedAt": 1785169374626,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -21070,7 +21059,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
