@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T22:42:32.680Z",
+  "updatedAt": "2026-07-31T23:41:55.795Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2572,20 +2572,9 @@
           "time": "09:01:39",
           "receivedAt": 1784250197181,
           "receivedTime": true
-        },
-        {
-          "id": "6548",
-          "url": "https://t.me/BWEtradfi/6548",
-          "title": "SpaceX取消星舰火箭重大测试任务",
-          "body": "*SPACEX SCRUBS MAJOR TEST MISSION OF STARSHIP ROCKET $SPCX $SPCX",
-          "tags": [],
-          "ts": 1784242073000,
-          "time": "06:47:53",
-          "receivedAt": 1784244575640,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
