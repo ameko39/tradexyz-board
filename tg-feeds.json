@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T04:35:12.296Z",
+  "updatedAt": "2026-08-01T07:07:32.611Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2442,11 +2442,215 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "224105",
+          "url": "https://t.me/jin10light/224105",
+          "title": "以太坊8月历史回报率：2016年起4次收涨6次收跌，平均回报率6.74%",
+          "body": "#ETH #BTC",
+          "tags": [
+            "#ETH",
+            "#BTC"
+          ],
+          "ts": 1785567270000,
+          "time": "14:54:30",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224104",
+          "url": "https://t.me/jin10light/224104",
+          "title": "Claude Code跑Kimi K3最贵最慢，成本是Hermes Agent近4倍",
+          "body": "#Composio #Kimi K3 #Hermes",
+          "tags": [
+            "#Composio",
+            "#Kimi",
+            "#Hermes"
+          ],
+          "ts": 1785567212000,
+          "time": "14:53:32",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224103",
+          "url": "https://t.me/jin10light/224103",
+          "title": "Google AI Studio手机App胎死腹中：80万人预约，功能转入Gemini",
+          "body": "#谷歌 #Gemini #Google AI Studio",
+          "tags": [
+            "#谷歌",
+            "#Gemini",
+            "#Google"
+          ],
+          "ts": 1785566683000,
+          "time": "14:44:43",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224102",
+          "url": "https://t.me/jin10light/224102",
+          "title": "亚马逊提前兑现500亿美元承诺，OpenAI最后213亿美元到账",
+          "body": "#亚马逊 #OpenAI ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#亚马逊",
+            "#OpenAI"
+          ],
+          "ts": 1785565828000,
+          "time": "14:30:28",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224101",
+          "url": "https://t.me/jin10light/224101",
+          "title": "科威特军方：防空部队目前正在拦截来自伊朗的敌方导弹。",
+          "body": "",
+          "tags": [],
+          "ts": 1785565710000,
+          "time": "14:28:30",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224100",
+          "url": "https://t.me/jin10light/224100",
+          "title": "加密寒冬重塑韩国CEX格局：Upbit份额升至67%，中小平台侧重金融融合转型突围",
+          "body": "#韩国 #BTC #Upbit ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#韩国",
+            "#BTC",
+            "#Upbit"
+          ],
+          "ts": 1785565231000,
+          "time": "14:20:31",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224099",
+          "url": "https://t.me/jin10light/224099",
+          "title": "SemiAnalysis要募4亿美元基金：边写AI芯片研报边投资",
+          "body": "#SemiAnalysis #Dylan Patel #美国",
+          "tags": [
+            "#SemiAnalysis",
+            "#Dylan",
+            "#美国"
+          ],
+          "ts": 1785564087000,
+          "time": "14:01:27",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224098",
+          "url": "https://t.me/jin10light/224098",
+          "title": "英国海上贸易行动办公室：已收到有关在阿曼哈萨布东北21海里处发生事件的报告。",
+          "body": "一艘油轮船长称，看到该船附近出现大范围水花和爆炸。 目前尚未报告船只受损情况。 #英国 #阿曼 #哈萨布",
+          "tags": [
+            "#英国",
+            "#阿曼",
+            "#哈萨布"
+          ],
+          "ts": 1785564029000,
+          "time": "14:00:29",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224097",
+          "url": "https://t.me/jin10light/224097",
+          "title": "Altman回应Kimi K3：部分速度档位OpenAI更划算",
+          "body": "#OpenAI #Sam Altman #Kimi K3",
+          "tags": [
+            "#OpenAI",
+            "#Sam",
+            "#Kimi"
+          ],
+          "ts": 1785563611000,
+          "time": "13:53:31",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224096",
+          "url": "https://t.me/jin10light/224096",
+          "title": "TST dev再出手？BSC生态meme币ASTEROID上线4小时市值速通1000万美元",
+          "body": "#BSC #ASTEROID #CZ ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#BSC",
+            "#ASTEROID",
+            "#CZ"
+          ],
+          "ts": 1785562830000,
+          "time": "13:40:30",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224095",
+          "url": "https://t.me/jin10light/224095",
+          "title": "「AI股神」基金爆仓幕后：婚礼期间彻夜谈判卖Anthropic股权引入资金，最终改变决定转为出售公开股票",
+          "body": "#Citadel #Anthropic #Greenoaks",
+          "tags": [
+            "#Citadel",
+            "#Anthropic",
+            "#Greenoaks"
+          ],
+          "ts": 1785562229000,
+          "time": "13:30:29",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224094",
+          "url": "https://t.me/jin10light/224094",
+          "title": "YC开源内部多Agent平台QM，让公司拥有自己的AI员工团队",
+          "body": "#Y Combinator #QM #AI Agent",
+          "tags": [
+            "#Y",
+            "#QM",
+            "#AI"
+          ],
+          "ts": 1785560909000,
+          "time": "13:08:29",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224093",
+          "url": "https://t.me/jin10light/224093",
+          "title": "韩股股灾致股民资金回流银行，超24万亿韩元转存定期",
+          "body": "#韩国 #韩股 #银行",
+          "tags": [
+            "#韩国",
+            "#韩股",
+            "#银行"
+          ],
+          "ts": 1785560252000,
+          "time": "12:57:32",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
+        {
+          "id": "224092",
+          "url": "https://t.me/jin10light/224092",
+          "title": "CC Switch升级：DeepSeek-V4-Flash接Codex终于不用后台中转",
+          "body": "#DeepSeek #CC Switch #Codex",
+          "tags": [
+            "#DeepSeek",
+            "#CC",
+            "#Codex"
+          ],
+          "ts": 1785559588000,
+          "time": "12:46:28",
+          "receivedAt": 1785568034260,
+          "receivedTime": true
+        },
         {
           "id": "224091",
           "url": "https://t.me/jin10light/224091",
@@ -19386,210 +19590,6 @@
           "time": "15:19:33",
           "receivedAt": 1785317013888,
           "receivedTime": true
-        },
-        {
-          "id": "222904",
-          "url": "https://t.me/jin10light/222904",
-          "title": "外交部回应美国实施先进机器人进口限制",
-          "body": "7月29日讯，针对美国联邦通信委员会宣布对外国制造的先进机器人实施进口限制，包括中方占有主导地位的人形机器人，外交部发言人毛宁29日在例行记者会上说，中方一贯坚决反对美方泛化国家安全概念打压中国企业。 保护主义提升不了美国的竞争力，只会损害美国企业和消费者的利益。 中方将继续采取必要措施，坚定维护中国企业的正当合法权益。 #美国 #中国 #机器人 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#美国",
-            "#中国",
-            "#机器人"
-          ],
-          "ts": 1785309508000,
-          "time": "15:18:28",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222903",
-          "url": "https://t.me/jin10light/222903",
-          "title": "某巨鲸从Binance提取4万枚ETH，价值约7667万美元",
-          "body": "#ETH #Binance",
-          "tags": [
-            "#ETH",
-            "#Binance"
-          ],
-          "ts": 1785309326000,
-          "time": "15:15:26",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222902",
-          "url": "https://t.me/jin10light/222902",
-          "title": "A股收评：三大股指震荡上升 创新药板块持续爆发",
-          "body": "7月29日讯，今日市场探底回升，三大指数集体收涨。 截至收盘，上证指数涨0.40%，深证成指涨1.10%，创业板指涨1.55%，北证50涨0.85%，科创50跌0.87%。 沪深两市成交额2.3万亿，较上一个交易日放量2708亿。 盘面上，市场热点快速轮动，两市超4100只个股上涨，C长鑫涨超12.6%，报52.95元，成交额近450亿元。 证券板块午后持续上扬，华林证券封板涨停；电力板块午后再度拉升，京能电力直线涨停，此前桂冠电力涨停；游戏板块午后持续走强，世纪华通涨超9.5%，巨人网络此前涨停。 此外，光刻机板块低开低走，茂莱光学、蓝英装备、新莱应...",
-          "tags": [
-            "#A股",
-            "#创新药",
-            "#华林证券"
-          ],
-          "ts": 1785309271000,
-          "time": "15:14:31",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222901",
-          "url": "https://t.me/jin10light/222901",
-          "title": "「巨鲸追踪」海力士午后反弹，某巨鲸重仓3122万美元SKHX多单",
-          "body": "",
-          "tags": [],
-          "ts": 1785309150000,
-          "time": "15:12:30",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222900",
-          "url": "https://t.me/jin10light/222900",
-          "title": "A股创业板指探底回升涨1.55%",
-          "body": "#A股 #光刻机 #存储芯片",
-          "tags": [
-            "#A股",
-            "#光刻机",
-            "#存储芯片"
-          ],
-          "ts": 1785308970000,
-          "time": "15:09:30",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222899",
-          "url": "https://t.me/jin10light/222899",
-          "title": "午盘收盘，国内期货主力合约涨多跌少，乙二醇（EG）、瓶片、碳酸锂、集运欧线涨超2%，丙烯涨近2%，甲醇、硅铁、苯乙烯（EB）、聚丙烯、原木、短纤、燃料油、沪铝涨超1%。",
-          "body": "跌幅方面，20号胶、橡胶跌超2%，纯碱跌近2%，合成橡胶、红枣、多晶硅跌超1%。 #乙二醇 #碳酸锂 #甲醇 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#乙二醇",
-            "#碳酸锂",
-            "#甲醇"
-          ],
-          "ts": 1785308551000,
-          "time": "15:02:31",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222898",
-          "url": "https://t.me/jin10light/222898",
-          "title": "瑞银CEO：未来市场将继续出现波动性「飙升」",
-          "body": "#瑞银集团 #Sergio Ermotti #波动性飙升",
-          "tags": [
-            "#瑞银集团",
-            "#Sergio",
-            "#波动性飙升"
-          ],
-          "ts": 1785308368000,
-          "time": "14:59:28",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222897",
-          "url": "https://t.me/jin10light/222897",
-          "title": "1. 国家能源局：上半年全国电动汽车充电设施快速发展，同比增长43.2%。",
-          "body": "2. 特斯拉将从KKR支持的亚利桑那太阳能电池厂采购电力。 3. 奇瑞ROE位列《财富》世界500强全球第30，仅三家中国公司进入净资产收益率（ROE）50强子榜单。 4. 比亚迪董秘：六年前比亚迪以198亿投前估值参与了长鑫科技首轮融资。 5. 工信部：将会同相关部门加快编制发布汽车企业供应商货款支付规范指引。 6. 商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问。 7. 沙特王子入股助Lucid股价大涨。 8. 保时捷上半年交付量同比下降16.5%，营业利润增至13.48亿欧元。 9. 特斯拉优...",
-          "tags": [
-            "#特斯拉",
-            "#比亚迪",
-            "#沙特"
-          ],
-          "ts": 1785308307000,
-          "time": "14:58:27",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222896",
-          "url": "https://t.me/jin10light/222896",
-          "title": "慢雾：发现针对Web3从业者的新型招聘诈骗，恶意软件伪装为AI面试工具",
-          "body": "#SlowMist #Relay #Web3",
-          "tags": [
-            "#SlowMist",
-            "#Relay",
-            "#Web3"
-          ],
-          "ts": 1785308188000,
-          "time": "14:56:28",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222895",
-          "url": "https://t.me/jin10light/222895",
-          "title": "现货白银日内上涨1.75%",
-          "body": "#白银 #美元",
-          "tags": [
-            "#白银",
-            "#美元"
-          ],
-          "ts": 1785308070000,
-          "time": "14:54:30",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222894",
-          "url": "https://t.me/jin10light/222894",
-          "title": "Binance将上线PayPal、高盛等股票及ETF永续合约",
-          "body": "#Binance #PayPal #Goldman Sachs",
-          "tags": [
-            "#Binance",
-            "#PayPal",
-            "#Goldman"
-          ],
-          "ts": 1785307831000,
-          "time": "14:50:31",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222893",
-          "url": "https://t.me/jin10light/222893",
-          "title": "Claude开始挑战全球加密系统，但互联网暂未失守",
-          "body": "#Anthropic #Claude #HAWK",
-          "tags": [
-            "#Anthropic",
-            "#Claude",
-            "#HAWK"
-          ],
-          "ts": 1785307708000,
-          "time": "14:48:28",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222892",
-          "url": "https://t.me/jin10light/222892",
-          "title": "Bitunix分析师：加息与否都不是终点，市场交易的是沃什的政策函数",
-          "body": "#美联储 #沃什 #美国",
-          "tags": [
-            "#美联储",
-            "#沃什",
-            "#美国"
-          ],
-          "ts": 1785307413000,
-          "time": "14:43:33",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
-        },
-        {
-          "id": "222891",
-          "url": "https://t.me/jin10light/222891",
-          "title": "某巨鲸追加保证金后开设3100万美元SKHX多单",
-          "body": "#SKHX #USDC #Hyperliquid",
-          "tags": [
-            "#SKHX",
-            "#USDC",
-            "#Hyperliquid"
-          ],
-          "ts": 1785307287000,
-          "time": "14:41:27",
-          "receivedAt": 1785317013888,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20849,28 +20849,6 @@
           "ts": 1784272621000,
           "time": "15:17:01",
           "receivedAt": 1784277357657,
-          "receivedTime": true
-        },
-        {
-          "id": "1524",
-          "url": "https://t.me/PolyBeats_Bot/1524",
-          "title": "8 球 4 助攻再进决赛，新账户押注梅西第 9 次捧起金球奖",
-          "body": "在预测市场 Polymarket 上，1 名新账户在「 莱昂内尔·梅西会赢得 2026 年金球奖吗？ 」投入 $1.7k「是」，平均买入概率为 41.8%，目前「是」概率为 41.9%。 39 岁的梅西已重新成为 2026 年金球奖的重要热门。阿根廷在世界杯半决赛 2 比 1 逆转英格兰，梅西送出两次关键助攻，将个人本届数据提升至 8 球 4 助攻，并带队连续第二届进入决赛。相比亚马尔，梅西的欧洲俱乐部赛季分量较弱，但世界杯产出、淘汰赛影响力及阿根廷卫冕机会，正在推动评选叙事向他倾斜。 梅西最直接的竞争者之一，正是决赛对手亚马尔。19 岁的亚马尔本赛季取得 26 球 21 助攻，随巴塞罗那赢得西甲和西班牙超级杯，俱乐部履历优于梅西；半决赛对法国时，他还制造了首开纪录的点球。不过，亚马尔本届世界杯的决定性数据暂不及梅西，且近期因碰撞淤伤单独恢复。若阿根廷夺冠，梅西可能凭世界杯表现取得明显优势；若西班牙夺冠且亚马尔直接决定比赛，金球奖竞争仍可能在决赛当晚反转。 账户： 0x356dc18585acbd90384c06d6d55f2706d340cfe7 总投入：$1.7k",
-          "tags": [],
-          "ts": 1784268061000,
-          "time": "14:01:01",
-          "receivedAt": 1784269775259,
-          "receivedTime": true
-        },
-        {
-          "id": "1523",
-          "url": "https://t.me/PolyBeats_Bot/1523",
-          "title": "勒布朗播客中闭口不谈下赛季去向，加盟骑士的概率一周内折半",
-          "body": "在预测市场 Polymarket 上，市场「 勒布朗詹姆斯下赛季是否会加盟骑士队？ 」的「是」概率在过去一周从约 62.6% 跌至 34.4%，接近腰斩。「勒布朗詹姆斯下赛季去向」交易事件在过去 3 个月已累计超过 2200 万美元交易量。 昨日勒布朗在纽约 Fanatics Fest 现场录制《Mind the Game》播客中，当面对泰瑞斯·哈利伯顿和现场观众追问下家时，勒布朗明确表示不会在节目中公布决定。 随后他在 CNBC 与 Boardroom 的活动上称，自己「不会让大家等太久」。他同时称赞湖人八年经历，感谢珍妮·巴斯、佩林卡、教练组和队友，并表示无论秋天加盟哪里，都会继续做自己最擅长的事。",
-          "tags": [],
-          "ts": 1784264041000,
-          "time": "12:54:01",
-          "receivedAt": 1784269775259,
           "receivedTime": true
         }
       ],
