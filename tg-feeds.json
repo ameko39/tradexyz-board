@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T17:18:12.787Z",
+  "updatedAt": "2026-08-01T18:14:26.759Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2363,17 +2363,6 @@
           "time": "03:25:20",
           "receivedAt": 1784317742656,
           "receivedTime": true
-        },
-        {
-          "id": "6567",
-          "url": "https://t.me/BWEtradfi/6567",
-          "title": "*NBC：利维特确认习近平访问计划照常进行",
-          "body": "*NBC: LEAVITT CONFIRMS XI JINPING’S VISIT REMAINS ON TRACK",
-          "tags": [],
-          "ts": 1784309141000,
-          "time": "01:25:41",
-          "receivedAt": 1784310752000,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2381,6 +2370,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "224143",
+          "url": "https://t.me/jin10light/224143",
+          "title": "以色列官员：紧张局势达到顶点，濒临爆发边缘",
+          "body": "8月2日讯，据以色列第12频道报道，一名以色列官员表示：“当前紧张局势已达到顶点，正处于爆发边缘。 ”以方评估认为，美国总统特朗普“比以往任何时候都更接近对伊朗发动重大打击，但目前尚无定论”。 以色列目前已提高戒备等级。 该官员称：“我们估计特朗普尚未决定袭击的规模，目前还不清楚他是否希望以色列参与第一阶段的行动。 ”他补充称，特朗普认为谈判只是“浪费时间”，并且“愤怒、恼火和沮丧”。 据其透露，白宫向特朗普提出的方案支持以色列的评估，即对能源设施发动大规模、有针对性的袭击，可能动摇伊朗政权。 该官员表示：“这样的强力打击可以及时完成，并不一定会引发导...",
+          "tags": [
+            "#以色列",
+            "#伊朗",
+            "#特朗普"
+          ],
+          "ts": 1785605129000,
+          "time": "01:25:29",
+          "receivedAt": 1785608044112,
+          "receivedTime": true
+        },
         {
           "id": "224142",
           "url": "https://t.me/jin10light/224142",
@@ -19525,17 +19529,6 @@
           ],
           "ts": 1785315092000,
           "time": "16:51:32",
-          "receivedAt": 1785317013409,
-          "receivedTime": true
-        },
-        {
-          "id": "222942",
-          "url": "https://t.me/jin10light/222942",
-          "title": "AI牛市迎来急刹车，资金回流「老登股」，港股小米单月涨46%",
-          "body": "",
-          "tags": [],
-          "ts": 1785315029000,
-          "time": "16:50:29",
           "receivedAt": 1785317013409,
           "receivedTime": true
         }
