@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T12:43:39.811Z",
+  "updatedAt": "2026-08-01T14:14:22.610Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2385,39 +2385,6 @@
           "time": "00:25:50",
           "receivedAt": 1784307156064,
           "receivedTime": true
-        },
-        {
-          "id": "6565",
-          "url": "https://t.me/BWEtradfi/6565",
-          "title": "DB: *密歇根州7月消费者信心指数初值为54.4，预期值为51.0",
-          "body": "DB: *MICHIGAN PRELIM. JULY CONSUMER SENTIMENT AT 54.4; EST. 51.0 *MICHIGAN PRELIM. JULY 1-YR EXPECTED INFLATION AT 4.2% VS 3.5% *密歇根州7月一年期预期通胀率初值为4.2%，预期值为3.5%",
-          "tags": [],
-          "ts": 1784296818000,
-          "time": "22:00:18",
-          "receivedAt": 1784298041260,
-          "receivedTime": true
-        },
-        {
-          "id": "6564",
-          "url": "https://t.me/BWEtradfi/6564",
-          "title": "SK海力士ADRs首次跌破149美元发行价",
-          "body": "*SK HYNIX ADRS FALL BELOW $149 LISTING PRICE FOR FIRST TIME $SKHY",
-          "tags": [],
-          "ts": 1784295953000,
-          "time": "21:45:53",
-          "receivedAt": 1784298041260,
-          "receivedTime": true
-        },
-        {
-          "id": "6563",
-          "url": "https://t.me/BWEtradfi/6563",
-          "title": "DB: *标普500指数开盘下跌1.2%，纳斯达克指数下跌1.8%",
-          "body": "DB: *S&P 500 OPENS 1.2% LOWER, NASDAQ DECLINES 1.8%",
-          "tags": [],
-          "ts": 1784295044000,
-          "time": "21:30:44",
-          "receivedAt": 1784298041260,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2425,6 +2392,50 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "224131",
+          "url": "https://t.me/jin10light/224131",
+          "title": "Michael Saylor：BIP-110在当前比特币挖矿难度周期已无法达成55%自愿支持门槛",
+          "body": "#BTC #Michael Saylor #BIP -110",
+          "tags": [
+            "#BTC",
+            "#Michael",
+            "#BIP"
+          ],
+          "ts": 1785592529000,
+          "time": "21:55:29",
+          "receivedAt": 1785593644258,
+          "receivedTime": true
+        },
+        {
+          "id": "224130",
+          "url": "https://t.me/jin10light/224130",
+          "title": "ASTEROID发行者已抛售大部分持仓，获利62.8万美元",
+          "body": "#BNB Chain #ASTEROID #BNB ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#BNB",
+            "#ASTEROID"
+          ],
+          "ts": 1785591269000,
+          "time": "21:34:29",
+          "receivedAt": 1785593644258,
+          "receivedTime": true
+        },
+        {
+          "id": "224129",
+          "url": "https://t.me/jin10light/224129",
+          "title": "Hyperliquid永续合约未平仓头寸市场份额突破10%",
+          "body": "#Hyperliquid #HYPE #Binance ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#Hyperliquid",
+            "#HYPE",
+            "#Binance"
+          ],
+          "ts": 1785589469000,
+          "time": "21:04:29",
+          "receivedAt": 1785593644258,
+          "receivedTime": true
+        },
         {
           "id": "224128",
           "url": "https://t.me/jin10light/224128",
@@ -19535,48 +19546,6 @@
           "time": "16:30:41",
           "receivedAt": 1785317013409,
           "receivedTime": true
-        },
-        {
-          "id": "222930",
-          "url": "https://t.me/jin10light/222930",
-          "title": "市场消息：月之暗面（Moonshot AI）在刚刚完成的一轮融资中筹集了超出预期的35亿美元，估值达到350亿美元。",
-          "body": "#Moonshot AI #35亿美元",
-          "tags": [
-            "#Moonshot",
-            "#35亿美元"
-          ],
-          "ts": 1785313840000,
-          "time": "16:30:40",
-          "receivedAt": 1785317013409,
-          "receivedTime": true
-        },
-        {
-          "id": "222929",
-          "url": "https://t.me/jin10light/222929",
-          "title": "英国6月央行抵押贷款许可 5.82万件，预期5.71万件，前值由5.62万件修正为5.6565万件。",
-          "body": "#英国",
-          "tags": [
-            "#英国"
-          ],
-          "ts": 1785313840000,
-          "time": "16:30:40",
-          "receivedAt": 1785317013409,
-          "receivedTime": true
-        },
-        {
-          "id": "222928",
-          "url": "https://t.me/jin10light/222928",
-          "title": "金十整理：美联储利率决议今夜来袭 各大机构行情前瞻一览",
-          "body": "1.三菱日联：如果美联储在利率决定中偏鹰派地维持利率不变，美债收益率和美元料将获得支撑。 2. 德商银行：下调年底黄金和白银预测至4500美元和67美元，因通胀压力持续迫使美联储保持紧缩倾向。 3. 道明证券：决议若没有出现任何反对票将令人意外，意味着沃什在一定程度上凝聚了内部共识，美元或出现大幅度抛售。 4. SIA财富管理：美联储最早要等到9月才会做出重大调整。 黄金区间震荡或将延续至秋季，极端情况下或持续至2027年初。 5. 盛宝银行：若美联储决定加息，远期利率曲线很可能进一步上移，除非市场将此次行动理解成一次防御性加息。 6. 高盛集团：即便...",
-          "tags": [
-            "#美联储",
-            "#美元",
-            "#黄金"
-          ],
-          "ts": 1785313781000,
-          "time": "16:29:41",
-          "receivedAt": 1785317013409,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20773,7 +20742,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
