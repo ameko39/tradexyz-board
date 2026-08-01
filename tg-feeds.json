@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T20:29:40.936Z",
+  "updatedAt": "2026-08-01T21:26:30.788Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2343,11 +2343,25 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "224146",
+          "url": "https://t.me/jin10light/224146",
+          "title": "伊拉克政府声明：我们确认武装部队已做好准备，挫败任何针对邻国的企图，维护我们的地区安全。",
+          "body": "武装部队重申，不允许将伊拉克领土作为对邻国进行攻击的出发点或通道。 #伊拉克 #武装部队",
+          "tags": [
+            "#伊拉克",
+            "#武装部队"
+          ],
+          "ts": 1785616168000,
+          "time": "04:29:28",
+          "receivedAt": 1785619569678,
+          "receivedTime": true
+        },
         {
           "id": "224145",
           "url": "https://t.me/jin10light/224145",
@@ -19493,21 +19507,6 @@
           ],
           "ts": 1785315928000,
           "time": "17:05:28",
-          "receivedAt": 1785317013409,
-          "receivedTime": true
-        },
-        {
-          "id": "222945",
-          "url": "https://t.me/jin10light/222945",
-          "title": "MARA CEO：AI用电收益远高于比特币挖矿，矿企未来核心竞争力将转向电力资源",
-          "body": "#MARA Holdings #BTC #得州",
-          "tags": [
-            "#MARA",
-            "#BTC",
-            "#得州"
-          ],
-          "ts": 1785315629000,
-          "time": "17:00:29",
           "receivedAt": 1785317013409,
           "receivedTime": true
         }
