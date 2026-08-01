@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T10:50:56.771Z",
+  "updatedAt": "2026-08-01T11:51:20.091Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2436,6 +2436,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "224123",
+          "url": "https://t.me/jin10light/224123",
+          "title": "过去7日CEX净流入4701.35枚BTC",
+          "body": "#BTC #CEX #Binance",
+          "tags": [
+            "#BTC",
+            "#CEX",
+            "#Binance"
+          ],
+          "ts": 1785584728000,
+          "time": "19:45:28",
+          "receivedAt": 1785585065368,
+          "receivedTime": true
+        },
+        {
+          "id": "224122",
+          "url": "https://t.me/jin10light/224122",
+          "title": "韩国券商KIS：三星电子被「严重低估」，上调目标价10%至65万韩元",
+          "body": "#韩国 #三星电子",
+          "tags": [
+            "#韩国",
+            "#三星电子"
+          ],
+          "ts": 1785583348000,
+          "time": "19:22:28",
+          "receivedAt": 1785585065368,
+          "receivedTime": true
+        },
         {
           "id": "224121",
           "url": "https://t.me/jin10light/224121",
@@ -19560,34 +19589,6 @@
           "time": "16:23:31",
           "receivedAt": 1785317013635,
           "receivedTime": true
-        },
-        {
-          "id": "222922",
-          "url": "https://t.me/jin10light/222922",
-          "title": "英国6月央行抵押贷款许可将于十分钟后公布。",
-          "body": "#英国",
-          "tags": [
-            "#英国"
-          ],
-          "ts": 1785313233000,
-          "time": "16:20:33",
-          "receivedAt": 1785317013635,
-          "receivedTime": true
-        },
-        {
-          "id": "222921",
-          "url": "https://t.me/jin10light/222921",
-          "title": "港股收盘，恒指收涨1.96%，科指收涨2.84%；汽车股强势领涨，理想汽车( 02015.HK )涨近10%，零跑汽车( 09863.HK )涨9.5%，小米集团( 01810.HK )涨近9%。",
-          "body": "#港股 #理想汽车 #零跑汽车",
-          "tags": [
-            "#港股",
-            "#理想汽车",
-            "#零跑汽车"
-          ],
-          "ts": 1785312691000,
-          "time": "16:11:31",
-          "receivedAt": 1785317013635,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20792,17 +20793,6 @@
           "ts": 1784290691000,
           "time": "20:18:11",
           "receivedAt": 1784292600296,
-          "receivedTime": true
-        },
-        {
-          "id": "1529",
-          "url": "https://t.me/PolyBeats_Bot/1529",
-          "title": "俄乌对占领关键城市各执一词，军事分析聪明钱异常押注该地实际控制方",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱买入「 俄罗斯会在今年内占领科斯蒂安蒂尼夫卡全部地区吗？ 」，目前「是」概率为 48.5%。 账户1 与本市场最佳相关板块为 乌克兰地图 ，板块净盈利 $119k。其在该板块共 387 笔已结算交易的胜率为 310/387（80%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 61 笔。本笔投入为其相近成本价区间内历史投入金额中位数的 15.0 倍。",
-          "tags": [],
-          "ts": 1784285761000,
-          "time": "18:56:01",
-          "receivedAt": 1784288812559,
           "receivedTime": true
         }
       ],
