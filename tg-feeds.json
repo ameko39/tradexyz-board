@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T16:17:25.816Z",
+  "updatedAt": "2026-08-01T17:18:12.787Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2374,24 +2374,27 @@
           "time": "01:25:41",
           "receivedAt": 1784310752000,
           "receivedTime": true
-        },
-        {
-          "id": "6566",
-          "url": "https://t.me/BWEtradfi/6566",
-          "title": "Infinityhedge: 特朗普媒体将出售更快获取总统社交媒体帖子的服务",
-          "body": "Infinityhedge: TRUMP MEDIA TO SELL FASTER ACCESS TO PRESIDENT’S SOCIAL POSTS TRUMP MEDIA PITCHED $100,000 MONTHLY FEE FOR FAST FEED OF PRESIDENT’S POSTS 特朗普媒体提出每月收取10万美元费用，即可快速获取总统的帖子。",
-          "tags": [],
-          "ts": 1784305550000,
-          "time": "00:25:50",
-          "receivedAt": 1784307156064,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "224142",
+          "url": "https://t.me/jin10light/224142",
+          "title": "DeepSeek Harness开始内测，申请者需要提交开源作品",
+          "body": "#DeepSeek #Harness",
+          "tags": [
+            "#DeepSeek",
+            "#Harness"
+          ],
+          "ts": 1785601650000,
+          "time": "00:27:30",
+          "receivedAt": 1785604673709,
+          "receivedTime": true
+        },
         {
           "id": "224141",
           "url": "https://t.me/jin10light/224141",
@@ -19533,19 +19536,6 @@
           "tags": [],
           "ts": 1785315029000,
           "time": "16:50:29",
-          "receivedAt": 1785317013409,
-          "receivedTime": true
-        },
-        {
-          "id": "222941",
-          "url": "https://t.me/jin10light/222941",
-          "title": "据日本共同社：日本政府周三公布的数据显示，截至今年年初，日本本国人口降至119,736,483人，为42年来首次跌破1.2亿大关。",
-          "body": "#日本",
-          "tags": [
-            "#日本"
-          ],
-          "ts": 1785314727000,
-          "time": "16:45:27",
           "receivedAt": 1785317013409,
           "receivedTime": true
         }
