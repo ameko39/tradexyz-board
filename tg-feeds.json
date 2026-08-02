@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-08-02T01:05:06.730Z",
+  "updatedAt": "2026-08-02T04:32:25.849Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6781",
+          "url": "https://t.me/BWEtradfi/6781",
+          "title": "*特朗普：取消袭击的前提是能够迅速达成协议",
+          "body": "*TRUMP: CANCELLATION OF ATTACK IS SUBJECT TO BEING ABLE TO RAPIDLY MAKE A DEAL *TRUMP: COUNTRY OF ISRAEL JOINS ME IN THIS COMMITMENT\\ *特朗普：以色列与我一道做出这项承诺",
+          "tags": [],
+          "ts": 1785636342000,
+          "time": "10:05:42",
+          "receivedAt": 1785645121637,
+          "receivedTime": true
+        },
+        {
+          "id": "6780",
+          "url": "https://t.me/BWEtradfi/6780",
+          "title": "*TRUMP：应伊朗及中东国家要求，同意取消对伊朗的打击",
+          "body": "*TRUMP: AGREED TO CANCEL ATTACK ON IRAN AFTER REQUEST FROM IRAN AND MIDDLE EASTERN COUNTRIES TO HOLD OFF",
+          "tags": [],
+          "ts": 1785636335000,
+          "time": "10:05:35",
+          "receivedAt": 1785645121637,
+          "receivedTime": true
+        },
+        {
+          "id": "6779",
+          "url": "https://t.me/BWEtradfi/6779",
+          "title": "*据消息人士透露，沙特王储警告特朗普不要对伊朗发动空袭——哥伦比亚广播公司",
+          "body": "*SAUDI CROWN PRINCE CAUTIONS TRUMP AGAINST IRAN BOMBING CAMPAIGN, SOURCES SAY - CBS *MBS URGED TRUMP TO PURSUE DEESCALATION INSTEAD OF A HEAVY BOMBING CAMPAIGN *US AND ISRAEL PREPARED POTENTIAL STRIKES TARGETING IRANIAN ENERGY INFRASTRUCTURE *穆罕默德·本·萨勒曼敦促特朗普寻求缓和局势，而不是发动大规模空袭 *美国和以色列准备对伊朗能源基础设施发动潜在打击",
+          "tags": [],
+          "ts": 1785634016000,
+          "time": "09:26:56",
+          "receivedAt": 1785645121637,
+          "receivedTime": true
+        },
+        {
+          "id": "6778",
+          "url": "https://t.me/BWEtradfi/6778",
+          "title": "*消息人士称，日本将宣布东京和华盛顿就日元采取联合行动",
+          "body": "*JAPAN TO ANNOUNCE TOKYO, WASHINGTON TOOK JOINT ACTION ON YEN, SOURCES SAY *U.S.-JAPANESE YEN 'OPERATION IS STILL ONGOING,' OFFICIAL SAYS *官员称，美日日元“行动仍在进行中”",
+          "tags": [],
+          "ts": 1785633044000,
+          "time": "09:10:44",
+          "receivedAt": 1785645121637,
+          "receivedTime": true
+        },
         {
           "id": "6777",
           "url": "https://t.me/BWEtradfi/6777",
@@ -2330,24 +2374,396 @@
           "time": "01:13:40",
           "receivedAt": 1784396078414,
           "receivedTime": true
-        },
-        {
-          "id": "6570",
-          "url": "https://t.me/BWEtradfi/6570",
-          "title": "*中国称人工智能提炼指控“被误导”",
-          "body": "*CHINA SAYS AI DISTILLATION ALLEGATIONS ARE \"MISGUIDED\"",
-          "tags": [],
-          "ts": 1784337921000,
-          "time": "09:25:21",
-          "receivedAt": 1784345184428,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "224178",
+          "url": "https://t.me/jin10light/224178",
+          "title": "美国AI初创公司竞相打造中国廉价AI替代品，但仍面临融资阻力",
+          "body": "#中国 #美国 #英伟达",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#英伟达"
+          ],
+          "ts": 1785644369000,
+          "time": "12:19:29",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224177",
+          "url": "https://t.me/jin10light/224177",
+          "title": "差点卖掉35亿美元Anthropic股权，Leopold第二天早上撤回",
+          "body": "#Anthropic #Greenoaks #红杉资本",
+          "tags": [
+            "#Anthropic",
+            "#Greenoaks",
+            "#红杉资本"
+          ],
+          "ts": 1785643653000,
+          "time": "12:07:33",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224176",
+          "url": "https://t.me/jin10light/224176",
+          "title": "特朗普媒体集团正式上线Truth API，付费客户可更快获取特朗普帖文",
+          "body": "#特朗普 #Truth Social #美国",
+          "tags": [
+            "#特朗普",
+            "#Truth",
+            "#美国"
+          ],
+          "ts": 1785643652000,
+          "time": "12:07:32",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224175",
+          "url": "https://t.me/jin10light/224175",
+          "title": "#频道互推 #群组推荐",
+          "body": "某咕咕机场测评站（真实机场测评） 影视直播app分享 全能搜书·福利书库 二手机场流转中心 互联E栈‖免费资源‖限免软件 书墨频道索引 趣味播报 财新 财新周刊 合租 分享频道 百度网盘影音资源频道 电报频道&群组索引",
+          "tags": [
+            "#频道互推",
+            "#群组推荐"
+          ],
+          "ts": 1785643377000,
+          "time": "12:02:57",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224174",
+          "url": "https://t.me/jin10light/224174",
+          "title": "【午间独家观点】",
+          "body": "【修正后综合观点】 【港股】 本窗口无直接增量催化，核心逻辑是受外部风险偏好与中东地缘牵动，若油价和避险情绪上行，成长与高Beta板块先承压，暂无明显独立信号。 【美股】 Saylor澄清无新增出售授权对加密概念与持币公司情绪偏暖，但Trump Media疑似转币与中东升级会通过抛压预期、油价和通胀预期压制估值。 【虚拟货币】 热点高度集中于BTC，Coldcard被盗扩大且攻击未止构成短线主风险，Strategy长期净买入口径与低位分批买盘提供缓冲，关键看赃款与企业币是否真正流向卖盘。 【今日可执行建议】 【风险】 若Coldcard出现新一轮程序化...",
+          "tags": [
+            "#独家观点"
+          ],
+          "ts": 1785643299000,
+          "time": "12:01:39",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224173",
+          "url": "https://t.me/jin10light/224173",
+          "title": "24岁AI股神Leopold婚礼前先开研讨会：圆桌讨论、分组交流，还谢绝份子钱",
+          "body": "#Avital Balwit #Anthropic #FTX",
+          "tags": [
+            "#Avital",
+            "#Anthropic",
+            "#FTX"
+          ],
+          "ts": 1785643289000,
+          "time": "12:01:29",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224172",
+          "url": "https://t.me/jin10light/224172",
+          "title": "中国VC经历三年「寒冬」后竞相募资，至少60只美元基金拟筹集350亿美元",
+          "body": "#中国 #美国 #AI",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#AI"
+          ],
+          "ts": 1785643050000,
+          "time": "11:57:30",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224171",
+          "url": "https://t.me/jin10light/224171",
+          "title": "伊朗军方：特朗普称伊朗要求停止攻击是“谎言”",
+          "body": "8月2日讯，伊朗迈赫尔通讯社2日援引伊朗军方官员的话报道说，美国总统特朗普称伊朗要求停止攻击是“一个新的谎言”。 这名官员说：“无论他继续侵略还是退缩，我们的部队都处于最高戒备状态，已为一切可能做好准备。 如果对抗不可避免，战场将决定一切，届时所有人都会明白，谁掌握着力量，谁将拥有最终发言权。 ”",
+          "tags": [],
+          "ts": 1785642750000,
+          "time": "11:52:30",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224170",
+          "url": "https://t.me/jin10light/224170",
+          "title": "谷歌错过ChatGPT有多离谱：提前一年做出来，却没敢发布",
+          "body": "#OpenAI #Google DeepMind #Tibo Sottiaux",
+          "tags": [
+            "#OpenAI",
+            "#Google",
+            "#Tibo"
+          ],
+          "ts": 1785642207000,
+          "time": "11:43:27",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224169",
+          "url": "https://t.me/jin10light/224169",
+          "title": "安全警告：Coldcard攻击仍在持续，用户应立即迁移相关地址资金",
+          "body": "#Coldcard #BTC #美国",
+          "tags": [
+            "#Coldcard",
+            "#BTC",
+            "#美国"
+          ],
+          "ts": 1785641912000,
+          "time": "11:38:32",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224168",
+          "url": "https://t.me/jin10light/224168",
+          "title": "Kimi算力底牌曝光：阿里提供约2万张英伟达H200",
+          "body": "#月之暗面 #阿里 #英伟达 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#月之暗面",
+            "#阿里",
+            "#英伟达"
+          ],
+          "ts": 1785641369000,
+          "time": "11:29:29",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224167",
+          "url": "https://t.me/jin10light/224167",
+          "title": "韩国散户指责政府将股市变成「赌场」，部分投资者誓言不再购买股票",
+          "body": "#韩国 #KOSPI #三星电子",
+          "tags": [
+            "#韩国",
+            "#KOSPI",
+            "#三星电子"
+          ],
+          "ts": 1785640528000,
+          "time": "11:15:28",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224166",
+          "url": "https://t.me/jin10light/224166",
+          "title": "CNN：美伊协议草案未触及「终结核威胁」，海峡细节仍模糊",
+          "body": "#特朗普 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1785639746000,
+          "time": "11:02:26",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224165",
+          "url": "https://t.me/jin10light/224165",
+          "title": "Roundhill Memory ETF已将长鑫科技纳入持仓，权重2.52%",
+          "body": "#CXMT #三星电子 #美光科技",
+          "tags": [
+            "#CXMT",
+            "#三星电子",
+            "#美光科技"
+          ],
+          "ts": 1785639689000,
+          "time": "11:01:29",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224164",
+          "url": "https://t.me/jin10light/224164",
+          "title": "LAB内幕地址时隔三周再次向CEX转移580万枚LAB，仍持有7470万枚",
+          "body": "",
+          "tags": [],
+          "ts": 1785638610000,
+          "time": "10:43:30",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224163",
+          "url": "https://t.me/jin10light/224163",
+          "title": "知名交易员：继续在5.4万至6.4万美元区间分批买入BTC，已投入35%计划资金",
+          "body": "#BTC #Doctor Profit",
+          "tags": [
+            "#BTC",
+            "#Doctor"
+          ],
+          "ts": 1785637888000,
+          "time": "10:31:28",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224162",
+          "url": "https://t.me/jin10light/224162",
+          "title": "特朗普称收到伊朗请求暂缓攻击，同意取消对伊打击以换取协议",
+          "body": "#特朗普 #伊朗 #霍尔木兹海峡 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1785636749000,
+          "time": "10:12:29",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224161",
+          "url": "https://t.me/jin10light/224161",
+          "title": "特朗普：我已同意取消对伊朗的攻击，前提是能够迅速达成协议",
+          "body": "",
+          "tags": [],
+          "ts": 1785636507000,
+          "time": "10:08:27",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224160",
+          "url": "https://t.me/jin10light/224160",
+          "title": "Michael Saylor回应「Strategy授权拟出售最多50亿美元比特币」：旧闻重提，并未宣布新的授权",
+          "body": "",
+          "tags": [],
+          "ts": 1785636448000,
+          "time": "10:07:28",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224159",
+          "url": "https://t.me/jin10light/224159",
+          "title": "美媒：沙特王储对特朗普大规模打击伊朗的计划表示担忧，敦促其保持克制",
+          "body": "#沙特 #美国 #伊朗",
+          "tags": [
+            "#沙特",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1785635913000,
+          "time": "09:58:33",
+          "receivedAt": 1785645122432,
+          "receivedTime": true
+        },
+        {
+          "id": "224158",
+          "url": "https://t.me/jin10light/224158",
+          "title": "韩国稳定币连续18个月净流向海外，6月净流出5603亿韩元",
+          "body": "#韩国 #稳定币",
+          "tags": [
+            "#韩国",
+            "#稳定币"
+          ],
+          "ts": 1785634532000,
+          "time": "09:35:32",
+          "receivedAt": 1785645123098,
+          "receivedTime": true
+        },
+        {
+          "id": "224157",
+          "url": "https://t.me/jin10light/224157",
+          "title": "日本官员：财务大臣周一将官宣日美协同行动遏制日元贬值，干预行动尚未结束",
+          "body": "#日本 #美国 #日元",
+          "tags": [
+            "#日本",
+            "#美国",
+            "#日元"
+          ],
+          "ts": 1785634168000,
+          "time": "09:29:28",
+          "receivedAt": 1785645123098,
+          "receivedTime": true
+        },
+        {
+          "id": "224156",
+          "url": "https://t.me/jin10light/224156",
+          "title": "瑞银：预计2027年超大规模云服务商资本支出的73%流向存储，约合7613亿美元",
+          "body": "#瑞银 #存储支出 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
+          "tags": [
+            "#瑞银",
+            "#存储支出"
+          ],
+          "ts": 1785633810000,
+          "time": "09:23:30",
+          "receivedAt": 1785645123098,
+          "receivedTime": true
+        },
+        {
+          "id": "224155",
+          "url": "https://t.me/jin10light/224155",
+          "title": "日本官员：日本财务大臣片山皋月周一将宣布东京和华盛顿已采取联合行动以遏制日元贬值。",
+          "body": "美日联合干预日元的“行动仍在进行中”。 #日本 #美国 #日元",
+          "tags": [
+            "#日本",
+            "#美国",
+            "#日元"
+          ],
+          "ts": 1785633333000,
+          "time": "09:15:33",
+          "receivedAt": 1785645123098,
+          "receivedTime": true
+        },
+        {
+          "id": "224154",
+          "url": "https://t.me/jin10light/224154",
+          "title": "Michael Saylor ：Strategy从未实行「永不出售」政策，长期仍将净买入比特币",
+          "body": "#Michael Saylor #Strategy #BTC",
+          "tags": [
+            "#Michael",
+            "#Strategy",
+            "#BTC"
+          ],
+          "ts": 1785633332000,
+          "time": "09:15:32",
+          "receivedAt": 1785645123098,
+          "receivedTime": true
+        },
+        {
+          "id": "224153",
+          "url": "https://t.me/jin10light/224153",
+          "title": "整理：每日科技要闻速递（8月2日）",
+          "body": "人工智能ï 1.超聚变AI Lab平台上线DeepSeek-V4-Flash正式版。 2. 杰创智能：2026年以来公司在国产算力领域已签约项目金额合计约4.3亿元。 3. IDC报告：2025年中国工业具身智能机器人市场达57.4亿元，商业化进程全面提速。 集成电路（芯片）ï 1.受强震影响，日本“硅岛”多家半导体工厂持续停产。 2. 中微董事长尹志尧：到2035年在规模、产品竞争力上成为全球第一梯队的半导体设备公司。 新能源汽车ï 1.8月1日起电动汽车充电桩CCC认证开始强制实施。 2. 特斯拉：平均每18秒左右全球就有一辆新的特斯拉下线。 3....",
+          "tags": [
+            "#DeepSeek",
+            "#特斯拉",
+            "#比亚迪"
+          ],
+          "ts": 1785633028000,
+          "time": "09:10:28",
+          "receivedAt": 1785645123098,
+          "receivedTime": true
+        },
+        {
+          "id": "224152",
+          "url": "https://t.me/jin10light/224152",
+          "title": "Coldcard被盗金额升至8860万美元，涉及4585个地址",
+          "body": "#BTC #Coldcard #Galaxy Research",
+          "tags": [
+            "#BTC",
+            "#Coldcard",
+            "#Galaxy"
+          ],
+          "ts": 1785632788000,
+          "time": "09:06:28",
+          "receivedAt": 1785645123098,
+          "receivedTime": true
+        },
         {
           "id": "224151",
           "url": "https://t.me/jin10light/224151",
@@ -19111,401 +19527,6 @@
           "ts": 1785321995000,
           "time": "18:46:35",
           "receivedAt": 1785325034799,
-          "receivedTime": true
-        },
-        {
-          "id": "222977",
-          "url": "https://t.me/jin10light/222977",
-          "title": "格芯公司GlobalFoundries美股盘前一度涨超16%。",
-          "body": "美国政府此前宣布，该公司将获得高达3亿美元的资助。 #格芯 #GlobalFoundries #美股",
-          "tags": [
-            "#格芯",
-            "#GlobalFoundries",
-            "#美股"
-          ],
-          "ts": 1785321927000,
-          "time": "18:45:27",
-          "receivedAt": 1785325034799,
-          "receivedTime": true
-        },
-        {
-          "id": "222976",
-          "url": "https://t.me/jin10light/222976",
-          "title": "K33：比特币7月交易量创2023年以来最低记录",
-          "body": "#BTC #K33 Research",
-          "tags": [
-            "#BTC",
-            "#K33"
-          ],
-          "ts": 1785321751000,
-          "time": "18:42:31",
-          "receivedAt": 1785325034799,
-          "receivedTime": true
-        },
-        {
-          "id": "222975",
-          "url": "https://t.me/jin10light/222975",
-          "title": "「巨鲸发现」FOMC前聪明钱41倍做空标普500，规模达2400万美元",
-          "body": "#美联储 #SP500 #美国",
-          "tags": [
-            "#美联储",
-            "#SP500",
-            "#美国"
-          ],
-          "ts": 1785321630000,
-          "time": "18:40:30",
-          "receivedAt": 1785325034799,
-          "receivedTime": true
-        },
-        {
-          "id": "222974",
-          "url": "https://t.me/jin10light/222974",
-          "title": "美国拟投入8.74亿美元支持半导体研发，格芯最高获3亿美元资助",
-          "body": "#美国 #GlobalFoundries #半导体",
-          "tags": [
-            "#美国",
-            "#GlobalFoundries",
-            "#半导体"
-          ],
-          "ts": 1785321388000,
-          "time": "18:36:28",
-          "receivedAt": 1785325034799,
-          "receivedTime": true
-        },
-        {
-          "id": "222973",
-          "url": "https://t.me/jin10light/222973",
-          "title": "美国方面宣布，半导体晶圆代工公司格芯将获得高达3亿美元的资助。",
-          "body": "#美国 #格芯 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#美国",
-            "#格芯"
-          ],
-          "ts": 1785321327000,
-          "time": "18:35:27",
-          "receivedAt": 1785325034799,
-          "receivedTime": true
-        },
-        {
-          "id": "222972",
-          "url": "https://t.me/jin10light/222972",
-          "title": "恒瑞医药：舒地胰岛素注射液上市，为中国首个自主研发的长效胰岛素类似物",
-          "body": "7月29日讯，恒瑞医药公告，近日，公司收到国家药品监督管理局的通知，批准公司自主研发的1类治疗用生物制品舒地胰岛素注射液上市，该产品是中国首个自主研发的长效胰岛素类似物。 目前全球范围内已有同类产品获批上市，如诺和诺德的德谷胰岛素(Tresiba ® )和赛诺菲的甘精胰岛素(Toujeo ® )等。 经查询Evaluate Pharma数据库，2025年Tresiba ® 和Toujeo ® 全球销售额合计约为33.45亿美元。 截至目前，舒地胰岛素注射液相关项目累计研发投入约为54,430万元(未经审计)。 #恒瑞医药 #中国",
-          "tags": [
-            "#恒瑞医药",
-            "#中国"
-          ],
-          "ts": 1785321213000,
-          "time": "18:33:33",
-          "receivedAt": 1785325034799,
-          "receivedTime": true
-        },
-        {
-          "id": "222971",
-          "url": "https://t.me/jin10light/222971",
-          "title": "美国宣布了一项总额为8.74亿美元的半导体研发投资意向书。",
-          "body": "#美国 #半导体",
-          "tags": [
-            "#美国",
-            "#半导体"
-          ],
-          "ts": 1785321212000,
-          "time": "18:33:32",
-          "receivedAt": 1785325034799,
-          "receivedTime": true
-        },
-        {
-          "id": "222970",
-          "url": "https://t.me/jin10light/222970",
-          "title": "灰度：HYPE相较金融科技股仍被低估，预计2027年协议利润达10亿美元",
-          "body": "#HYPE #Hyperliquid #Grayscale",
-          "tags": [
-            "#HYPE",
-            "#Hyperliquid",
-            "#Grayscale"
-          ],
-          "ts": 1785321211000,
-          "time": "18:33:31",
-          "receivedAt": 1785325034799,
-          "receivedTime": true
-        },
-        {
-          "id": "222969",
-          "url": "https://t.me/jin10light/222969",
-          "title": "据伊朗媒体Fars News：当地危机管理部门称，一枚敌方投射物击中了伊朗西阿塞拜疆省。",
-          "body": "#伊朗 #西阿塞拜疆省 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#伊朗",
-            "#西阿塞拜疆省"
-          ],
-          "ts": 1785321147000,
-          "time": "18:32:27",
-          "receivedAt": 1785325034799,
-          "receivedTime": true
-        },
-        {
-          "id": "222968",
-          "url": "https://t.me/jin10light/222968",
-          "title": "月之暗面（Kimi）半年多估值涨超10倍，K2.5后融资开始踩着模型发",
-          "body": "#月之暗面",
-          "tags": [
-            "#月之暗面"
-          ],
-          "ts": 1785321029000,
-          "time": "18:30:29",
-          "receivedAt": 1785325034799,
-          "receivedTime": true
-        },
-        {
-          "id": "222967",
-          "url": "https://t.me/jin10light/222967",
-          "title": "两大MLCC龙头涨价：三星电机8月起涨30% 太阳诱电9月起涨价",
-          "body": "7月29日讯，据朝鲜日报消息，三星电机近日已向销售合作伙伴发出通知，自8月1日起，MLCC产品出货价格将在现行基础上统一上调30%。 另一家MLCC龙头日本太阳诱电同样也已经发出涨价通知，宣布自9月1日起出货的MLCC将涨价。 涨价理由为原材料及辅料价格急剧上涨，公司“一直在为降低成本接近全力，但仅靠自身努力已难以完全消化成本上升的部分。 ” #三星电机 #太阳诱电 #MLCC",
-          "tags": [
-            "#三星电机",
-            "#太阳诱电",
-            "#MLCC"
-          ],
-          "ts": 1785320548000,
-          "time": "18:22:28",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222966",
-          "url": "https://t.me/jin10light/222966",
-          "title": "俄罗斯央行发布加密交易平台及托管机构监管规则草案",
-          "body": "#俄罗斯 #BTC #ETH",
-          "tags": [
-            "#俄罗斯",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1785320433000,
-          "time": "18:20:33",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222965",
-          "url": "https://t.me/jin10light/222965",
-          "title": "俄罗斯卢布稳定币A7A5一年内转移超1000亿美元，如今市值已缩水96%",
-          "body": "#A7A5 #俄罗斯 #美国",
-          "tags": [
-            "#A7A5",
-            "#俄罗斯",
-            "#美国"
-          ],
-          "ts": 1785320187000,
-          "time": "18:16:27",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222964",
-          "url": "https://t.me/jin10light/222964",
-          "title": "Binance推出黄金和白银欧式期权，金银永续合约日交易量均超70亿美元",
-          "body": "#Binance #黄金 #白银 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#Binance",
-            "#黄金",
-            "#白银"
-          ],
-          "ts": 1785320070000,
-          "time": "18:14:30",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222963",
-          "url": "https://t.me/jin10light/222963",
-          "title": "消息称也门胡塞武装考虑对途经红海的船只征收费用",
-          "body": "7月29日讯，据路透引述消息人士报道，也门胡塞武装正考虑对途经红海南部海域的商船征收费用。 胡塞武装于7月20日宣布对沙特实施海上禁运，这开辟了针对美国及其盟友的新战线，并将针对运载全球能源及其他物资的油轮的袭击范围扩大到了海湾以外的水域。 消息人士称，胡塞武装正在研究对大部分通过曼德海峡的船只征收费用，目前尚未确定相关措施的实施时间。 目前胡塞武装媒体办公室尚未作出回应。 消息人士表示，此举旨在使针对国际水道征收费用的做法常态化，并加大对美国的施压。 #也门 #胡塞武装 #红海",
-          "tags": [
-            "#也门",
-            "#胡塞武装",
-            "#红海"
-          ],
-          "ts": 1785320010000,
-          "time": "18:13:30",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222962",
-          "url": "https://t.me/jin10light/222962",
-          "title": "据路透：消息人士称，也门胡塞武装正在考虑对通过红海南部的商业船只征收费用。",
-          "body": "#也门 #胡塞武装 #红海",
-          "tags": [
-            "#也门",
-            "#胡塞武装",
-            "#红海"
-          ],
-          "ts": 1785319651000,
-          "time": "18:07:31",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222961",
-          "url": "https://t.me/jin10light/222961",
-          "title": "1. 宣称控制霍尔木兹海峡——特朗普：伊朗没有控制霍尔木兹海峡，我们控制着霍尔木兹海峡。",
-          "body": "只有我们想让通过的船只才能通过海峡。 2. 希望伊朗正式承诺不拥核——特朗普：伊朗明白他们永远不会拥有核武器，伊朗基本上已经同意不拥有核武器，伊朗需要正式承诺不拥有核武器。 3. 称美伊谈判“进展良好”，不达成协议就进行打击——特朗普表示，美国已与伊朗进行了良好的谈判，尽管他重申如果与伊朗未能达成协议，将对“镐山”以及桥梁和发电厂实施打击，如果可能的话，他希望避免攻击伊朗的桥梁和发电厂。 4. 称不关心美墨加贸易协定——特朗普表示，与墨西哥和加拿大续签贸易协定对这些国家而言比对美国更重要。 当被问及是否会续签美墨加协议时，特朗普称：“我不在乎；对我们来...",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1785319650000,
-          "time": "18:07:30",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222960",
-          "url": "https://t.me/jin10light/222960",
-          "title": "消息人士：部分中东美军会被没收手机，明令禁止分享军事行动视频",
-          "body": "#美国 #伊朗 #中东 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#中东"
-          ],
-          "ts": 1785319650000,
-          "time": "18:07:30",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222959",
-          "url": "https://t.me/jin10light/222959",
-          "title": "长鑫科技上市第三日收涨12.7%，最坚定的早期多头仍维持买入",
-          "body": "#长鑫科技 #CXMT #Hyperliquid",
-          "tags": [
-            "#长鑫科技",
-            "#CXMT",
-            "#Hyperliquid"
-          ],
-          "ts": 1785319588000,
-          "time": "18:06:28",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222958",
-          "url": "https://t.me/jin10light/222958",
-          "title": "市场消息：消息人士称，部分美国驻中东部队人员可能会被没收手机，美军指挥官警告部队不得分享伊朗打击行动相关视频。",
-          "body": "#美国 #伊朗 #中东",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#中东"
-          ],
-          "ts": 1785319358000,
-          "time": "18:02:38",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222957",
-          "url": "https://t.me/jin10light/222957",
-          "title": "阿里Qoder开源AI编程体检工具，Claude Code和Codex也能用",
-          "body": "#阿里云 #Qoder #Better Harness",
-          "tags": [
-            "#阿里云",
-            "#Qoder",
-            "#Better"
-          ],
-          "ts": 1785319357000,
-          "time": "18:02:37",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222956",
-          "url": "https://t.me/jin10light/222956",
-          "title": "Selini Capital创始人回应抛售HYPE事件：非砸盘，多个业务环节均需使用HYPE",
-          "body": "#HYPE #Selini Capital #Jordi Alexander",
-          "tags": [
-            "#HYPE",
-            "#Selini",
-            "#Jordi"
-          ],
-          "ts": 1785319357000,
-          "time": "18:02:37",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222955",
-          "url": "https://t.me/jin10light/222955",
-          "title": "市场消息：约旦发生多起重大爆炸。",
-          "body": "#约旦",
-          "tags": [
-            "#约旦"
-          ],
-          "ts": 1785318987000,
-          "time": "17:56:27",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222954",
-          "url": "https://t.me/jin10light/222954",
-          "title": "Strategy称MSTR自采用比特币储备以来年化回报达42%，持仓仍浮亏约114亿美元",
-          "body": "#MSTR #BTC #Michael Saylor",
-          "tags": [
-            "#MSTR",
-            "#BTC",
-            "#Michael"
-          ],
-          "ts": 1785318935000,
-          "time": "17:55:35",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222953",
-          "url": "https://t.me/jin10light/222953",
-          "title": "伊朗要求霍尔木兹海峡通行船只须经伊朗水域",
-          "body": "#伊朗 #阿曼 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#阿曼",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1785318934000,
-          "time": "17:55:34",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222952",
-          "url": "https://t.me/jin10light/222952",
-          "title": "据AXIOS：乌克兰总统泽连斯基向特朗普请求在冬季之前提供300台爱国者拦截器。",
-          "body": "泽连斯基称，美国特使可能在未来两周内访问基辅。 #乌克兰 #泽连斯基 #特朗普",
-          "tags": [
-            "#乌克兰",
-            "#泽连斯基",
-            "#特朗普"
-          ],
-          "ts": 1785317972000,
-          "time": "17:39:32",
-          "receivedAt": 1785325035138,
-          "receivedTime": true
-        },
-        {
-          "id": "222951",
-          "url": "https://t.me/jin10light/222951",
-          "title": "美国特使可能在未来两周内访问基辅",
-          "body": "#乌克兰 #特朗普",
-          "tags": [
-            "#乌克兰",
-            "#特朗普"
-          ],
-          "ts": 1785317971000,
-          "time": "17:39:31",
-          "receivedAt": 1785325035138,
           "receivedTime": true
         }
       ],
