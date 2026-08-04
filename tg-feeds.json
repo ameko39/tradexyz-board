@@ -1,11 +1,47 @@
 {
-  "updatedAt": "2026-08-04T15:41:12.964Z",
+  "updatedAt": "2026-08-04T17:19:00.693Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6799",
+          "url": "https://t.me/BWEtradfi/6799",
+          "title": "*奇波雷餐厅已移除与明尼苏达州沙门氏菌感染病例相关的墨西哥辣椒",
+          "body": "*CHIPOTLE REMOVED JALAPENOS LINKED TO MINNESOTA SALMONELLA CASES $CMG $CMG",
+          "tags": [],
+          "ts": 1785862155000,
+          "time": "00:49:15",
+          "receivedAt": 1785863917981,
+          "receivedTime": true
+        },
+        {
+          "id": "6798",
+          "url": "https://t.me/BWEtradfi/6798",
+          "title": "*伊朗外交部发言人称，与阿曼就霍尔木兹海峡过境问题进行的谈判仍在继续——伊朗国家媒体",
+          "body": "*IRAN'S FOREIGN MINISTRY SPOKESPERSON SAYS TALKS WITH OMAN OVER TRANSIT IN STRAIT OF HORMUZ CONTINUE - STATE MEDIA *IRAN'S FOREIGN MINISTER SPOKESPERSON SAYS TALKS WITH OMAN ASSESSED AS 'POSITIVE' AT BOTH TECHNICAL AND POLITICAL LEVELS - STATE MEDIA *伊朗外交部发言人称，与阿曼的谈判在技术和政治层面均取得“积极进展”——伊朗国家媒体",
+          "tags": [],
+          "ts": 1785860489000,
+          "time": "00:21:29",
+          "receivedAt": 1785863917981,
+          "receivedTime": true
+        },
+        {
+          "id": "6797",
+          "url": "https://t.me/BWEtradfi/6797",
+          "title": "*消息人士称，特朗普政府正准备对用于芯片和太阳能电池板的多晶硅及其衍生产品的进口设定价格下限和关税。",
+          "body": "*TRUMP ADMINISTRATION PREPARING TO SET PRICE FLOOR, TARIFFS ON IMPORTS OF POLYSILICON AND DERIVATIVE PRODUCTS USED IN CHIPS AND SOLAR PANELS-SOURCES #FSLR • #ENPH #FSLR • #ENPH",
+          "tags": [
+            "#FSLR",
+            "#ENPH"
+          ],
+          "ts": 1785859369000,
+          "time": "00:02:49",
+          "receivedAt": 1785863917981,
+          "receivedTime": true
+        },
         {
           "id": "6796",
           "url": "https://t.me/BWEtradfi/6796",
@@ -2453,11 +2489,255 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "224876",
+          "url": "https://t.me/jin10light/224876",
+          "title": "纳斯达克100指数涨幅扩大至3%，刷新日高。",
+          "body": "Palantir(PLTR.N)涨近30%，Arm(ARM.O)涨15%，闪迪(SNDK.O)涨超11%，英特尔(INTC.O)涨10.3%。 #Palantir #Arm #闪迪 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#Palantir",
+            "#Arm",
+            "#闪迪"
+          ],
+          "ts": 1785863188000,
+          "time": "01:06:28",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224875",
+          "url": "https://t.me/jin10light/224875",
+          "title": "美联储9月加息25个基点概率现报56.9%",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1785863011000,
+          "time": "01:03:31",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224874",
+          "url": "https://t.me/jin10light/224874",
+          "title": "印度航运部长：印度籍MSV Faize Noore Oliya号船在也门水域附近遭到射弹击中，船只倾覆并沉没。",
+          "body": "#印度 #也门",
+          "tags": [
+            "#印度",
+            "#也门"
+          ],
+          "ts": 1785862229000,
+          "time": "00:50:29",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224873",
+          "url": "https://t.me/jin10light/224873",
+          "title": "Circle Gateway新增支持ERC-1271，实现可编程授权",
+          "body": "#Circle #USDC #ERC -1271",
+          "tags": [
+            "#Circle",
+            "#USDC",
+            "#ERC"
+          ],
+          "ts": 1785861990000,
+          "time": "00:46:30",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224872",
+          "url": "https://t.me/jin10light/224872",
+          "title": "现货铂金上涨超过7%，报1,745.93美元/盎司。",
+          "body": "#铂金 #美元",
+          "tags": [
+            "#铂金",
+            "#美元"
+          ],
+          "ts": 1785861811000,
+          "time": "00:43:31",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224871",
+          "url": "https://t.me/jin10light/224871",
+          "title": "「美联储传声筒」：贝森特政策反应函数转向不再那么鸽派",
+          "body": "#美联储 #美国 #Nick Timiraos",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#Nick"
+          ],
+          "ts": 1785861272000,
+          "time": "00:34:32",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224870",
+          "url": "https://t.me/jin10light/224870",
+          "title": "美股光通信板块涨势延续，AAOI涨超21%",
+          "body": "#美股 #FOTO #GLW",
+          "tags": [
+            "#美股",
+            "#FOTO",
+            "#GLW"
+          ],
+          "ts": 1785861090000,
+          "time": "00:31:30",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224869",
+          "url": "https://t.me/jin10light/224869",
+          "title": "伊朗外交部发言人：与阿曼在霍尔木兹海峡过境问题上的谈判仍在继续",
+          "body": "#伊朗 #阿曼 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#阿曼",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1785860609000,
+          "time": "00:23:29",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224868",
+          "url": "https://t.me/jin10light/224868",
+          "title": "纽约联邦法院驳回SBF上诉",
+          "body": "#美国 #FTX #SBF",
+          "tags": [
+            "#美国",
+            "#FTX",
+            "#SBF"
+          ],
+          "ts": 1785860130000,
+          "time": "00:15:30",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224867",
+          "url": "https://t.me/jin10light/224867",
+          "title": "过去24小时全网爆仓1.65亿美元，主爆空单",
+          "body": "#加密货币 #BTC #ETH",
+          "tags": [
+            "#加密货币",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1785859710000,
+          "time": "00:08:30",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224866",
+          "url": "https://t.me/jin10light/224866",
+          "title": "【晚间独家观点】",
+          "body": "【修正后综合观点】 【港股】 港股本轮缺乏本地政策催化，主要由外部变量驱动：美国财长释放通胀放缓信号、FIMA回购工具扩容预期改善离岸美元流动性，叠加韩国半导体政策加码与SK海力士评级上调带动亚洲科技链情绪，均偏利好。核心风险在于美联储官员保留重新收紧的表态，若长端美债收益率反弹，港股互联网与成长股估值修复将被压制。 【美股】 核心通胀放缓表态与龙头业绩亮眼（英伟达、卡特彼勒等）支撑科技加周期主线，摩根大通继续看多AI资产均值回归。风险集中在两点：一是美联储强调通胀反复时可能重新调整政策，降息交易不稳；二是财政部上调三季度借款预估至7390亿美元，美债...",
+          "tags": [
+            "#独家观点"
+          ],
+          "ts": 1785859325000,
+          "time": "00:02:05",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224865",
+          "url": "https://t.me/jin10light/224865",
+          "title": "今日重点关注的财经数据与事件：2026年8月5日 周三",
+          "body": "① 04:30 美国至7月31日当周API原油库存 ② 08:15 美联储主席施密德发表讲话 ③ 09:45 中国7月RatingDog服务业PMI ④ 14:45 法国6月工业产出月率 ⑤ 15:50 法国7月服务业PMI终值 ⑥ 15:55 德国7月服务业PMI终值 ⑦ 16:00 欧元区7月服务业PMI终值 ⑧ 16:30 英国7月服务业PMI终值 ⑨ 17:00 欧元区6月PPI月率 ⑩ 20:15 美国7月ADP就业人数 ⑪ 21:45 美国7月标普全球服务业PMI终值 ⑫ 22:00 美国7月ISM非制造业PMI ⑬ 22:30 美国至7月...",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#法国"
+          ],
+          "ts": 1785859291000,
+          "time": "00:01:31",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224864",
+          "url": "https://t.me/jin10light/224864",
+          "title": "伊朗高官：美国试图阻挠伊朗阿曼就霍尔木兹海峡谈判",
+          "body": "#伊朗 #阿曼 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#阿曼",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1785859171000,
+          "time": "23:59:31",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224863",
+          "url": "https://t.me/jin10light/224863",
+          "title": "国内新闻ï",
+          "body": "1.央行公告，8月5日将开展5000亿元买断式逆回购操作，期限为3个月。 2. 《智能网联汽车自动驾驶系统安全要求》强制性国家标准正式发布。 3. 市场监管总局召开深入贯彻落实公平竞争审查制度专项行动推进会，会议强调，要对企业反映强烈的不当干预市场竞争痛点卡点和公平竞争问题较多地区开展重点抽查。 4. 国家邮政局依法对申通快递有限公司立案调查。 5. 央行公布2026年7月各项工具流动性投放情况，公开市场业务方面，7天期逆回购净投放2495亿元，公开国债买卖净投放500亿元。 6. 我国在海南商业航天发射场使用长征八号甲运载火箭，成功将卫星互联网低轨2...",
+          "tags": [
+            "#中国",
+            "#日本",
+            "#沙特"
+          ],
+          "ts": 1785858932000,
+          "time": "23:55:32",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224862",
+          "url": "https://t.me/jin10light/224862",
+          "title": "美股存储板块普涨，闪迪涨超10%",
+          "body": "#美股 #希捷科技 #西部数据",
+          "tags": [
+            "#美股",
+            "#希捷科技",
+            "#西部数据"
+          ],
+          "ts": 1785858749000,
+          "time": "23:52:29",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224861",
+          "url": "https://t.me/jin10light/224861",
+          "title": "英特尔(INTC.O)涨幅扩大至10%，费城半导体指数现涨6.2%。",
+          "body": "#英特尔 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#英特尔"
+          ],
+          "ts": 1785858567000,
+          "time": "23:49:27",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
+        {
+          "id": "224860",
+          "url": "https://t.me/jin10light/224860",
+          "title": "市场定价不再押注英国央行今年加息25个基点。",
+          "body": "",
+          "tags": [],
+          "ts": 1785858391000,
+          "time": "23:46:31",
+          "receivedAt": 1785863921416,
+          "receivedTime": true
+        },
         {
           "id": "224859",
           "url": "https://t.me/jin10light/224859",
@@ -2475,12 +2755,9 @@
         {
           "id": "224858",
           "url": "https://t.me/jin10light/224858",
-          "title": "伊朗考虑允许欧洲在霍尔木兹海峡排雷",
-          "body": "#伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
+          "title": "据彭博社：伊朗考虑允许欧洲在霍尔木兹海峡清除水雷。",
+          "body": "",
+          "tags": [],
           "ts": 1785858033000,
           "time": "23:40:33",
           "receivedAt": 1785858039887,
@@ -19340,247 +19617,6 @@
           "ts": 1785462448000,
           "time": "09:47:28",
           "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223675",
-          "url": "https://t.me/jin10light/223675",
-          "title": "A股小金属板块盘初走强，东方钽业、云南锗业均封板涨停，中钨高新、厦门钨业、东方锆业、锡业股份等跟涨",
-          "body": "#A股 #东方钽业 #云南锗业",
-          "tags": [
-            "#A股",
-            "#东方钽业",
-            "#云南锗业"
-          ],
-          "ts": 1785462271000,
-          "time": "09:44:31",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223674",
-          "url": "https://t.me/jin10light/223674",
-          "title": "谷歌2028年TPU产量或超英伟达销量，或推动谷歌使用英特尔代工",
-          "body": "#Google #Nvidia #Intel Foundry",
-          "tags": [
-            "#Google",
-            "#Nvidia",
-            "#Intel"
-          ],
-          "ts": 1785462270000,
-          "time": "09:44:30",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223673",
-          "url": "https://t.me/jin10light/223673",
-          "title": "某鲸鱼8563万美元多单押注AI股票反弹已止盈，总体盈利134.5万美元",
-          "body": "#SP500 #MU #SNDK",
-          "tags": [
-            "#SP500",
-            "#MU",
-            "#SNDK"
-          ],
-          "ts": 1785462147000,
-          "time": "09:42:27",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223672",
-          "url": "https://t.me/jin10light/223672",
-          "title": "A股电子化学品板块盘中拉升，方邦股份20cm涨停，广钢气体、海星股份封板涨停，唯特偶、兴福电子、莱特光电、中巨芯等均大涨超11%。",
-          "body": "#A股 #方邦股份 #广钢气体",
-          "tags": [
-            "#A股",
-            "#方邦股份",
-            "#广钢气体"
-          ],
-          "ts": 1785462087000,
-          "time": "09:41:27",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223671",
-          "url": "https://t.me/jin10light/223671",
-          "title": "中证1000股指期货（IM）主力合约日内涨幅扩大至4.00%，现报7153.0点。",
-          "body": "#中证1000 #A股",
-          "tags": [
-            "#中证1000",
-            "#A股"
-          ],
-          "ts": 1785461970000,
-          "time": "09:39:30",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223670",
-          "url": "https://t.me/jin10light/223670",
-          "title": "金十整理：日本央行本次料将按兵不动，10月或是下一次加息时点",
-          "body": "1.德商银行：预计日本央行将维持利率不变，若认真将10月加息纳入考虑或能支撑日元。 2. 路透调查：预计日本央行本季度将维持利率不变，最早可能在10月加息且明年将继续。 3. 摩根大通：日本央行料将按兵不动，通胀放缓及工资疲软证明了年底前只加息一次的定价合理。 4. 花旗集团：若植田和男释放10月加息路线图，将构成强烈鹰派信号，但短期明确指引难度较大。 5. 瑞联银行：日本央行不太可能在本周五出台重大政策调整，也不会释放加快紧缩步伐的信号。 6. 荷兰国际：料利率维持不变，若植田和男表态不够鹰，美/日可能冲击165，但干预风险仍在。 7. 盛宝银行：本...",
-          "tags": [
-            "#日本央行",
-            "#日元",
-            "#植田和男"
-          ],
-          "ts": 1785461852000,
-          "time": "09:37:32",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223669",
-          "url": "https://t.me/jin10light/223669",
-          "title": "A股C长鑫盘中市值突破4万亿元，现涨14.3%，报60.49元，股价再创新高，成交额达88亿元。",
-          "body": "#A股 #长鑫",
-          "tags": [
-            "#A股",
-            "#长鑫"
-          ],
-          "ts": 1785461668000,
-          "time": "09:34:28",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223668",
-          "url": "https://t.me/jin10light/223668",
-          "title": "长鑫科技盘中市值突破4万亿元，股价再创新高",
-          "body": "",
-          "tags": [],
-          "ts": 1785461667000,
-          "time": "09:34:27",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223667",
-          "url": "https://t.me/jin10light/223667",
-          "title": "国家统计局：装备制造业和高技术制造业继续发挥支撑引领作用",
-          "body": "7月31日讯，国家统计局服务业调查中心首席统计师霍丽慧表示，7月份，制造业采购经理指数有所回落，高技术制造业持续扩张。 受前期制造业较快增长基数较高、部分制造业行业进入传统生产淡季等因素影响，制造业PMI降至49.2%。 装备制造业和高技术制造业继续发挥支撑引领作用。 装备制造业和高技术制造业PMI分别为51.4%和53.3%，明显高于制造业总体，保持较快扩张，带动制造业发展向新向优；消费品行业和高耗能行业PMI分别为47.8%和47.0%，比上月下降2.4个和0.1个百分点，景气水平回落。 #中国 #装备制造业 #高技术制造业",
-          "tags": [
-            "#中国",
-            "#装备制造业",
-            "#高技术制造业"
-          ],
-          "ts": 1785461610000,
-          "time": "09:33:30",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223666",
-          "url": "https://t.me/jin10light/223666",
-          "title": "但斌评AI股神基金清盘：不加杠杆永远是对的",
-          "body": "",
-          "tags": [],
-          "ts": 1785461609000,
-          "time": "09:33:29",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223665",
-          "url": "https://t.me/jin10light/223665",
-          "title": "股指期货早盘开盘",
-          "body": "沪深300股指期货（IF）主力合约涨1.73%，上证50股指期货（IH）主力合约涨0.89%，中证500股指期货（IC）主力合约涨3.56%，中证1000股指期货（IM）主力合约涨3.54%。 #A股 #沪深300 #上证50",
-          "tags": [
-            "#A股",
-            "#沪深300",
-            "#上证50"
-          ],
-          "ts": 1785461547000,
-          "time": "09:32:27",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223664",
-          "url": "https://t.me/jin10light/223664",
-          "title": "7月份中国制造业采购经理指数为49.2%，制造业生产端韧性较好。",
-          "body": "#中国",
-          "tags": [
-            "#中国"
-          ],
-          "ts": 1785461488000,
-          "time": "09:31:28",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223663",
-          "url": "https://t.me/jin10light/223663",
-          "title": "中国7月官方制造业PMI 49.2，预期50.1，前值50.3。",
-          "body": "#中国 #PMI",
-          "tags": [
-            "#中国",
-            "#PMI"
-          ],
-          "ts": 1785461487000,
-          "time": "09:31:27",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223662",
-          "url": "https://t.me/jin10light/223662",
-          "title": "A股存储芯片竞价大幅高开，兆易创新、德明利、太极实业竞价一字涨停，普冉股份、北京君正、佰维存储、江波龙、大普微等多股涨超10%。",
-          "body": "#A股 #兆易创新 #德明利",
-          "tags": [
-            "#A股",
-            "#兆易创新",
-            "#德明利"
-          ],
-          "ts": 1785461430000,
-          "time": "09:30:30",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223661",
-          "url": "https://t.me/jin10light/223661",
-          "title": "DeepSeek拟在中国内蒙古乌兰察布建1GW数据中心",
-          "body": "#DeepSeek #美国",
-          "tags": [
-            "#DeepSeek",
-            "#美国"
-          ],
-          "ts": 1785461429000,
-          "time": "09:30:29",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223660",
-          "url": "https://t.me/jin10light/223660",
-          "title": "上海艾晟纳被确认为中国首台国产浸没式DUV芯片制造工具制造商",
-          "body": "#中国 #上海艾晟纳 #中芯国际",
-          "tags": [
-            "#中国",
-            "#上海艾晟纳",
-            "#中芯国际"
-          ],
-          "ts": 1785461307000,
-          "time": "09:28:27",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223659",
-          "url": "https://t.me/jin10light/223659",
-          "title": "A股开盘，上证指数涨0.76%，深证成指涨3.04%，创业板指涨5.15%，科创50指数涨8.37%；C长鑫高开超10%。",
-          "body": "#A股 #上证指数 #深证成指 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#A股",
-            "#上证指数",
-            "#深证成指"
-          ],
-          "ts": 1785461249000,
-          "time": "09:27:29",
-          "receivedAt": 1785472835765,
           "receivedTime": true
         }
       ],
