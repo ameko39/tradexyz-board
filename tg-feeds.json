@@ -1,11 +1,110 @@
 {
-  "updatedAt": "2026-08-04T18:58:35.964Z",
+  "updatedAt": "2026-08-04T20:23:17.670Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6808",
+          "url": "https://t.me/BWEtradfi/6808",
+          "title": "*AMD 第二季度资本支出 8.08 亿美元，预计2.986 亿美元",
+          "body": "*AMD 2Q CAPEX $808M, EST. $298.6M *AMD 2Q ADJ. OPER MARGIN 27%, EST. 26.9% *AMD 2Q ADJ EPS $1.66, EST. $1.62 *AMD 2Q REV. $11.54B, EST. $11.31B $AMD *AMD 第二季度调整。营业利润率 27%，预计26.9% *AMD 第二季度调整每股收益 1.66 美元，东部时间1.62 美元 *AMD 第二季度修订版。 $11.54B，东部时间。 $11.31B $AMD",
+          "tags": [],
+          "ts": 1785874514000,
+          "time": "04:15:14",
+          "receivedAt": 1785874976472,
+          "receivedTime": true
+        },
+        {
+          "id": "6807",
+          "url": "https://t.me/BWEtradfi/6807",
+          "title": "*SpaceX 第二季度末积压订单价值 475 亿美元",
+          "body": "*SPACEX ENDED 2Q WITH $47.5B IN BACKLOG $SPCX $SPCX",
+          "tags": [],
+          "ts": 1785873807000,
+          "time": "04:03:27",
+          "receivedAt": 1785874976472,
+          "receivedTime": true
+        },
+        {
+          "id": "6806",
+          "url": "https://t.me/BWEtradfi/6806",
+          "title": "*SpaceX 第二季度人工智能业务运营亏损 12.6 亿美元，预计亏损 23.9 亿美元",
+          "body": "*SPACEX 2Q AI SEGMENT OPER LOSS $1.26B, EST. LOSS $2.39B $SPCX $SPCX",
+          "tags": [],
+          "ts": 1785873797000,
+          "time": "04:03:17",
+          "receivedAt": 1785874976472,
+          "receivedTime": true
+        },
+        {
+          "id": "6805",
+          "url": "https://t.me/BWEtradfi/6805",
+          "title": "*SpaceX 第二季度营收：78亿美元，预期为68.1亿美元",
+          "body": "*SPACEX 2Q REV. $7.8B, EST. $6.81B $SPCX $SPCX",
+          "tags": [],
+          "ts": 1785873750000,
+          "time": "04:02:30",
+          "receivedAt": 1785874976472,
+          "receivedTime": true
+        },
+        {
+          "id": "6804",
+          "url": "https://t.me/BWEtradfi/6804",
+          "title": "DB: 标普500指数收盘上涨1.9%，纳斯达克指数攀升2.6%",
+          "body": "DB: *S&P 500 CLOSES 1.9% HIGHER, NASDAQ CLIMBS 2.6%",
+          "tags": [],
+          "ts": 1785873613000,
+          "time": "04:00:13",
+          "receivedAt": 1785874976472,
+          "receivedTime": true
+        },
+        {
+          "id": "6803",
+          "url": "https://t.me/BWEtradfi/6803",
+          "title": "*伯里：已完全平仓微软看涨期权",
+          "body": "*BURRY: EXITED MSFT CALLS COMPLETELY *BURRY: ROLLED NVIDIA PUTS JUNE 27 LOW 100S STRIKE *BURRY: CLOSED PALANTIR PUTS, NO ROLL, CONTINUING TO HOLD SHORT *BURRY: CLOSED ORACLE PUTS, NO ROLL *BURRY: CONTINUE TO HOLD REST OF SHORTS #MSFT • #NVDA • #PLTR • #ORCL *伯里：已展期6月27日到期的英伟达看跌期权（行权价100美元左右） *伯里：已平...",
+          "tags": [
+            "#MSFT",
+            "#NVDA",
+            "#PLTR",
+            "#ORCL"
+          ],
+          "ts": 1785873129000,
+          "time": "03:52:09",
+          "receivedAt": 1785874976472,
+          "receivedTime": true
+        },
+        {
+          "id": "6802",
+          "url": "https://t.me/BWEtradfi/6802",
+          "title": "*SpaceX：SpaceX 与 NVIDIA 合作设计 Starmind AI1 卫星计算有效载荷",
+          "body": "*SPACEX: SPACEX IS PARTNERING WITH NVIDIA TO DESIGN THE STARMIND AI1 SATELLITE COMPUTE PAYLOAD #SPCX • #NVDA #SPCX • #NVDA",
+          "tags": [
+            "#SPCX",
+            "#NVDA"
+          ],
+          "ts": 1785871921000,
+          "time": "03:32:01",
+          "receivedAt": 1785874976472,
+          "receivedTime": true
+        },
+        {
+          "id": "6801",
+          "url": "https://t.me/BWEtradfi/6801",
+          "title": "*SpaceX：SpaceX 与 NVIDIA 达成合作",
+          "body": "*SPACEX: SPACEX IS PARTNERING WITH NVIDIA #SPCX • #NVDA #SPCX • #NVDA",
+          "tags": [
+            "#SPCX",
+            "#NVDA"
+          ],
+          "ts": 1785871902000,
+          "time": "03:31:42",
+          "receivedAt": 1785874976472,
+          "receivedTime": true
+        },
         {
           "id": "6800",
           "url": "https://t.me/BWEtradfi/6800",
@@ -2473,38 +2572,128 @@
           "time": "06:45:14",
           "receivedAt": 1784589337063,
           "receivedTime": true
-        },
-        {
-          "id": "6580",
-          "url": "https://t.me/BWEtradfi/6580",
-          "title": "DB: 标准普尔500指数收盘下跌0.2%，纳斯达克指数几无变化",
-          "body": "DB: *S&P 500 CLOSES DOWN 0.2%, NASDAQ LITTLE CHANGED",
-          "tags": [],
-          "ts": 1784577625000,
-          "time": "04:00:25",
-          "receivedAt": 1784577636338,
-          "receivedTime": true
-        },
-        {
-          "id": "6579",
-          "url": "https://t.me/BWEtradfi/6579",
-          "title": "*特朗普总统签署公告，为将铝冶炼厂迁回美国本土的投资提供50%的铝关税减免。",
-          "body": "*PRESIDENT TRUMP SIGNED A PROCLAMATION OFFERING 50% REDUCED ALUMINUM TARIFFS FOR ONSHORING INVESTMENTS *U.S. ALUMINUM SMELTERS (AA, CENX) MAY NOW QUALIFY FOR REDUCED SECTION 232 TARIFF RATES #CENX • #AA *美国铝冶炼厂（AA、CENX）现在可能有资格享受第232条规定的优惠关税。 #CENX • #AA",
-          "tags": [
-            "#CENX",
-            "#AA"
-          ],
-          "ts": 1784576704000,
-          "time": "03:45:04",
-          "receivedAt": 1784577636338,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "224888",
+          "url": "https://t.me/jin10light/224888",
+          "title": "美国至7月31日当周API原油库存将于十分钟后公布。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1785874887000,
+          "time": "04:21:27",
+          "receivedAt": 1785874976983,
+          "receivedTime": true
+        },
+        {
+          "id": "224887",
+          "url": "https://t.me/jin10light/224887",
+          "title": "财报公布后，AMD(AMD.O)和SpaceX(SPCX.O)美股盘后均跌8%。",
+          "body": "#AMD #SpaceX #美股",
+          "tags": [
+            "#AMD",
+            "#SpaceX",
+            "#美股"
+          ],
+          "ts": 1785874766000,
+          "time": "04:19:26",
+          "receivedAt": 1785874976983,
+          "receivedTime": true
+        },
+        {
+          "id": "224886",
+          "url": "https://t.me/jin10light/224886",
+          "title": "AMD(AMD.O)预计2026年Q3营收为127亿美元至133亿美元，市场预期为125.1亿美元。",
+          "body": "#AMD #美国",
+          "tags": [
+            "#AMD",
+            "#美国"
+          ],
+          "ts": 1785874707000,
+          "time": "04:18:27",
+          "receivedAt": 1785874976983,
+          "receivedTime": true
+        },
+        {
+          "id": "224885",
+          "url": "https://t.me/jin10light/224885",
+          "title": "AMD(AMD.O)2026年Q2营收115亿美元，市场预期为112.84亿美元，上年同期为76.85亿美元。",
+          "body": "#AMD #美国",
+          "tags": [
+            "#AMD",
+            "#美国"
+          ],
+          "ts": 1785874657000,
+          "time": "04:17:37",
+          "receivedAt": 1785874976983,
+          "receivedTime": true
+        },
+        {
+          "id": "224884",
+          "url": "https://t.me/jin10light/224884",
+          "title": "SpaceX(SPCX.O)2026年Q2营收78亿美元，市场预期为69.34亿美元。",
+          "body": "#SpaceX #美国",
+          "tags": [
+            "#SpaceX",
+            "#美国"
+          ],
+          "ts": 1785873867000,
+          "time": "04:04:27",
+          "receivedAt": 1785874976983,
+          "receivedTime": true
+        },
+        {
+          "id": "224883",
+          "url": "https://t.me/jin10light/224883",
+          "title": "美股收盘：道指、标普500创新高 海力士涨8%",
+          "body": "8月5日讯，美股周二收盘，道指初步收涨1.7%，标普500指数涨1.73%，纳指涨2.59%，前两者创下历史新高。 SK海力士(SKHY.O)涨8%，美光科技(MU.O)涨7.6%，闪迪(SNDK.O)涨10.8%，英伟达(NVDA.O)涨超2%，SpaceX(SPCX.O)涨9.4%。 纳斯达克中国金龙指数收跌0.35%，阿里巴巴(BABA.N)涨1%。 #美股 #SK海力士 #英伟达 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美股",
+            "#SK海力士",
+            "#英伟达"
+          ],
+          "ts": 1785873749000,
+          "time": "04:02:29",
+          "receivedAt": 1785874976983,
+          "receivedTime": true
+        },
+        {
+          "id": "224882",
+          "url": "https://t.me/jin10light/224882",
+          "title": "英媒：伊朗考虑向欧洲国家收取霍尔木兹海峡维护费用",
+          "body": "8月5日讯，据英国《每日电讯报》报道，伊朗正在考虑根据一项重新开放霍尔木兹海峡的方案，向欧洲国家收取维护该战略水道的费用。 该方案包括设立一个“自愿基金”，将由海湾国家以及国际海事组织的部分欧洲成员国提供资金支持。 海湾和欧洲消息人士表示，拟议中的自愿费用将用于支付霍尔木兹海峡航行管理、环境保护、搜救以及其他服务的成本。 报道称，阿曼认为，依赖海湾地区能源供应的国家和船东将愿意向这一基金提供资金。 意大利、比利时和法国是最依赖海湾石油和液化天然气进口的欧洲国家之一。 英国政府则坚持认为，2025年英国炼制的原油中仅约1%来自中东。 #伊朗 #霍尔木兹海...",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡",
+            "#欧洲"
+          ],
+          "ts": 1785870268000,
+          "time": "03:04:28",
+          "receivedAt": 1785874976983,
+          "receivedTime": true
+        },
+        {
+          "id": "224881",
+          "url": "https://t.me/jin10light/224881",
+          "title": "据英国《每日电讯报》：欧洲可能在重新开放霍尔木兹海峡的新计划中承担费用。",
+          "body": "#欧洲 #霍尔木兹海峡",
+          "tags": [
+            "#欧洲",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1785869908000,
+          "time": "02:58:28",
+          "receivedAt": 1785874976983,
+          "receivedTime": true
+        },
         {
           "id": "224880",
           "url": "https://t.me/jin10light/224880",
@@ -19511,119 +19700,6 @@
           ],
           "ts": 1785464071000,
           "time": "10:14:31",
-          "receivedAt": 1785472835367,
-          "receivedTime": true
-        },
-        {
-          "id": "223687",
-          "url": "https://t.me/jin10light/223687",
-          "title": "Uniswap成员疑似于Robinhood链部署代币， Hayden Adams暧昧回应",
-          "body": "#Uniswap #FRONG #Hayden Adams",
-          "tags": [
-            "#Uniswap",
-            "#FRONG",
-            "#Hayden"
-          ],
-          "ts": 1785463827000,
-          "time": "10:10:27",
-          "receivedAt": 1785472835367,
-          "receivedTime": true
-        },
-        {
-          "id": "223686",
-          "url": "https://t.me/jin10light/223686",
-          "title": "今年7550亿元中央预算内投资已基本下达完毕。",
-          "body": "#中国",
-          "tags": [
-            "#中国"
-          ],
-          "ts": 1785463647000,
-          "time": "10:07:27",
-          "receivedAt": 1785472835367,
-          "receivedTime": true
-        },
-        {
-          "id": "223685",
-          "url": "https://t.me/jin10light/223685",
-          "title": "受合并传闻影响，特斯拉、SpaceX股价盘后上涨",
-          "body": "#特斯拉 #SpaceX #中国",
-          "tags": [
-            "#特斯拉",
-            "#SpaceX",
-            "#中国"
-          ],
-          "ts": 1785463528000,
-          "time": "10:05:28",
-          "receivedAt": 1785472835367,
-          "receivedTime": true
-        },
-        {
-          "id": "223684",
-          "url": "https://t.me/jin10light/223684",
-          "title": "沪深两市成交额连续第288个交易日突破1万亿元。",
-          "body": "#A股",
-          "tags": [
-            "#A股"
-          ],
-          "ts": 1785463287000,
-          "time": "10:01:27",
-          "receivedAt": 1785472835367,
-          "receivedTime": true
-        },
-        {
-          "id": "223683",
-          "url": "https://t.me/jin10light/223683",
-          "title": "半导体设备板块持续走高 多只ETF封涨停",
-          "body": "7月31日讯，A股半导体设备板块盘中持续走高，半导体设备ETF华夏、半导体设备ETF招商、半导体设备ETF国泰封涨停，科创半导体设备ETF鹏华、科创半导体设备ETF华泰柏瑞均涨超10%。 #A股 #半导体设备 #ETF",
-          "tags": [
-            "#A股",
-            "#半导体设备",
-            "#ETF"
-          ],
-          "ts": 1785463107000,
-          "time": "09:58:27",
-          "receivedAt": 1785472835367,
-          "receivedTime": true
-        },
-        {
-          "id": "223682",
-          "url": "https://t.me/jin10light/223682",
-          "title": "中国湛江公安捣毁虚拟货币「跑分」洗钱团伙，16人被刑拘",
-          "body": "#中国 #湛江 #虚拟货币",
-          "tags": [
-            "#中国",
-            "#湛江",
-            "#虚拟货币"
-          ],
-          "ts": 1785462989000,
-          "time": "09:56:29",
-          "receivedAt": 1785472835367,
-          "receivedTime": true
-        },
-        {
-          "id": "223681",
-          "url": "https://t.me/jin10light/223681",
-          "title": "A股C长鑫成交额超200亿元，现涨12.9%。",
-          "body": "#A股 #长鑫",
-          "tags": [
-            "#A股",
-            "#长鑫"
-          ],
-          "ts": 1785462868000,
-          "time": "09:54:28",
-          "receivedAt": 1785472835367,
-          "receivedTime": true
-        },
-        {
-          "id": "223680",
-          "url": "https://t.me/jin10light/223680",
-          "title": "极限行情！南方两倍做多海力士涨超55%，此前5分钟内一度飙升270%",
-          "body": "#港元",
-          "tags": [
-            "#港元"
-          ],
-          "ts": 1785462807000,
-          "time": "09:53:27",
           "receivedAt": 1785472835367,
           "receivedTime": true
         }
