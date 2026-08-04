@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-04T17:19:00.693Z",
+  "updatedAt": "2026-08-04T18:58:35.964Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6800",
+          "url": "https://t.me/BWEtradfi/6800",
+          "title": "*白宫计划对其新的先进人工智能评估框架保密",
+          "body": "*WHITE HOUSE PLANS TO KEEP ITS NEW ADVANCED AI EVALUATION FRAMEWORK PRIVATE *WHITE HOUSE HELD STAFF-LEVEL MEETINGS ON TUESDAY TO REVIEW THE FRAMEWORK WITH INDUSTRY *白宫周二举行了工作人员级别的会议，与业界人士共同审查该框架。",
+          "tags": [],
+          "ts": 1785867992000,
+          "time": "02:26:32",
+          "receivedAt": 1785869875576,
+          "receivedTime": true
+        },
         {
           "id": "6799",
           "url": "https://t.me/BWEtradfi/6799",
@@ -2494,6 +2505,63 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "224880",
+          "url": "https://t.me/jin10light/224880",
+          "title": "据路透社：消息人士称，美国白宫预计将在未来几天延长《琼斯法案》豁免期限。",
+          "body": "#美国 #《琼斯法案》",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1785867688000,
+          "time": "02:21:28",
+          "receivedAt": 1785869894639,
+          "receivedTime": true
+        },
+        {
+          "id": "224879",
+          "url": "https://t.me/jin10light/224879",
+          "title": "8月5日讯，道指、标普500指数涨幅扩大至2%，纳指上涨2.7%。",
+          "body": "费城半导体指数涨幅扩大至7%，Arm(ARM.O)上涨17.4%，英特尔(INTC.O)涨10.9%，AMD(AMD.O)涨9.3%，博通(AVGO.O)、高通(QCOM.O)涨超7%，英伟达(NVDA.O)涨2.5%。 #美股 #Arm #英特尔",
+          "tags": [
+            "#美股",
+            "#Arm",
+            "#英特尔"
+          ],
+          "ts": 1785865830000,
+          "time": "01:50:30",
+          "receivedAt": 1785869894639,
+          "receivedTime": true
+        },
+        {
+          "id": "224878",
+          "url": "https://t.me/jin10light/224878",
+          "title": "现货白银突破60美元/盎司，为7月27日以来首次，日内涨3.14%。",
+          "body": "#白银 #美元",
+          "tags": [
+            "#白银",
+            "#美元"
+          ],
+          "ts": 1785864268000,
+          "time": "01:24:28",
+          "receivedAt": 1785869894639,
+          "receivedTime": true
+        },
+        {
+          "id": "224877",
+          "url": "https://t.me/jin10light/224877",
+          "title": "黄仁勋误打误撞关注meme币社区成员，相关meme币短时冲高7倍后回落",
+          "body": "#黄仁勋 #RTX #BSC",
+          "tags": [
+            "#黄仁勋",
+            "#RTX",
+            "#BSC"
+          ],
+          "ts": 1785864028000,
+          "time": "01:20:28",
+          "receivedAt": 1785869894639,
+          "receivedTime": true
+        },
         {
           "id": "224876",
           "url": "https://t.me/jin10light/224876",
@@ -19557,66 +19625,6 @@
           "ts": 1785462807000,
           "time": "09:53:27",
           "receivedAt": 1785472835367,
-          "receivedTime": true
-        },
-        {
-          "id": "223679",
-          "url": "https://t.me/jin10light/223679",
-          "title": "A股银行板块逆势下挫，农业银行、建设银行跌超4%，工商银行、中国银行、交通银行、浦发银行、中信银行跌超3%。",
-          "body": "#A股 #农业银行 #建设银行",
-          "tags": [
-            "#A股",
-            "#农业银行",
-            "#建设银行"
-          ],
-          "ts": 1785462748000,
-          "time": "09:52:28",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223678",
-          "url": "https://t.me/jin10light/223678",
-          "title": "港股存储概念股盘初飙升，南方两倍做多海力士( 07709.HK )涨超55%，此前5分钟内一度飙升270%，成交额超35亿港元；南方两倍做多三星电子( 07747.HK )涨超40%，成交额超5.5亿港元；兆易创新(...",
-          "body": "#港股 #存储概念股 #兆易创新 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#港股",
-            "#存储概念股",
-            "#兆易创新"
-          ],
-          "ts": 1785462629000,
-          "time": "09:50:29",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223677",
-          "url": "https://t.me/jin10light/223677",
-          "title": "CZ回应「Giggle Academy抛售捐赠代币致币价不稳」：捐赠应纯粹，不要刷互动",
-          "body": "#CZ #Giggle Academy #加密货币",
-          "tags": [
-            "#CZ",
-            "#Giggle",
-            "#加密货币"
-          ],
-          "ts": 1785462567000,
-          "time": "09:49:27",
-          "receivedAt": 1785472835562,
-          "receivedTime": true
-        },
-        {
-          "id": "223676",
-          "url": "https://t.me/jin10light/223676",
-          "title": "A股上证指数涨超1%，深证成指涨3.75%，创业板指涨超6%，科创50指数涨超7.4%，CPO概念板块等集体反弹。",
-          "body": "#A股 #上证指数 #创业板指",
-          "tags": [
-            "#A股",
-            "#上证指数",
-            "#创业板指"
-          ],
-          "ts": 1785462448000,
-          "time": "09:47:28",
-          "receivedAt": 1785472835562,
           "receivedTime": true
         }
       ],
