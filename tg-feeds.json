@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-04T22:44:46.655Z",
+  "updatedAt": "2026-08-04T23:43:53.367Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6809",
+          "url": "https://t.me/BWEtradfi/6809",
+          "title": "DB: *新西兰第二季度就业人数环比增长0.5%；预期增长0.2%",
+          "body": "DB: *NEW ZEALAND 2Q EMPLOYMENT RISES 0.5% Q/Q; EST. +0.2% *NEW ZEALAND 2Q JOBLESS RATE 5.6%; EST. 5.4% *新西兰第二季度失业率5.6%；预期5.4%",
+          "tags": [],
+          "ts": 1785883514000,
+          "time": "06:45:14",
+          "receivedAt": 1785887003729,
+          "receivedTime": true
+        },
         {
           "id": "6808",
           "url": "https://t.me/BWEtradfi/6808",
@@ -2561,24 +2572,87 @@
           "time": "14:00:17",
           "receivedAt": 1784614576295,
           "receivedTime": true
-        },
-        {
-          "id": "6581",
-          "url": "https://t.me/BWEtradfi/6581",
-          "title": "DB: *新西兰第二季度消费者价格指数环比上涨1.5%；上年同期上涨0.9%",
-          "body": "DB: *NEW ZEALAND 2Q CONSUMER PRICES RISE 1.5% Q/Q; PREV. 0.9% *NEW ZEALAND 2Q CONSUMER PRICES RISE 4.1% Y/Y; PREV. 3.1% *新西兰第二季度消费者价格指数同比上涨4.1%；上年同期上涨3.1%",
-          "tags": [],
-          "ts": 1784587514000,
-          "time": "06:45:14",
-          "receivedAt": 1784589337063,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "224902",
+          "url": "https://t.me/jin10light/224902",
+          "title": "马斯克称下周发布Grok 4.6，SpaceX全量数据将用于模型训练",
+          "body": "#SpaceX #马斯克 #Grok",
+          "tags": [
+            "#SpaceX",
+            "#马斯克",
+            "#Grok"
+          ],
+          "ts": 1785886828000,
+          "time": "07:40:28",
+          "receivedAt": 1785887004633,
+          "receivedTime": true
+        },
+        {
+          "id": "224901",
+          "url": "https://t.me/jin10light/224901",
+          "title": "SpaceX 2026年Q2营收78亿美元，AI业务收入超25亿美元",
+          "body": "#SpaceX #Starlink #AI",
+          "tags": [
+            "#SpaceX",
+            "#Starlink",
+            "#AI"
+          ],
+          "ts": 1785886527000,
+          "time": "07:35:27",
+          "receivedAt": 1785887004633,
+          "receivedTime": true
+        },
+        {
+          "id": "224900",
+          "url": "https://t.me/jin10light/224900",
+          "title": "美股今晨收盘道指、标普500创新高，海力士涨8%，SpaceX涨9.4%",
+          "body": "#美股 #SK海力士 #美光科技 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美股",
+            "#SK海力士",
+            "#美光科技"
+          ],
+          "ts": 1785886348000,
+          "time": "07:32:28",
+          "receivedAt": 1785887004633,
+          "receivedTime": true
+        },
+        {
+          "id": "224899",
+          "url": "https://t.me/jin10light/224899",
+          "title": "国内航线燃油附加费今起再次下调",
+          "body": "8月5日讯，从多家航空公司了解到，从今天（5日）起销售的国内航线机票燃油附加费再次下调。 调整后的国内航线燃油附加费标准为：800公里以上航线每位成人旅客收取70元燃油附加费，800公里（含）以下航线每位成人旅客收取40元燃油附加费，相较于调整前分别降低了30元和10元。 这是今年6月以来第三次下调国内航线燃油附加费，进一步降低旅客出行成本。 #国内航线 #燃油附加费",
+          "tags": [
+            "#国内航线",
+            "#燃油附加费"
+          ],
+          "ts": 1785884428000,
+          "time": "07:00:28",
+          "receivedAt": 1785887004633,
+          "receivedTime": true
+        },
+        {
+          "id": "224898",
+          "url": "https://t.me/jin10light/224898",
+          "title": "今日重点关注的财经数据与事件：2026年8月5日 周三",
+          "body": "① 08:15 美联储主席施密德发表讲话 ② 09:45 中国7月RatingDog服务业PMI ③ 14:45 法国6月工业产出月率 ④ 15:50 法国7月服务业PMI终值 ⑤ 15:55 德国7月服务业PMI终值 ⑥ 16:00 欧元区7月服务业PMI终值 ⑦ 16:30 英国7月服务业PMI终值 ⑧ 17:00 欧元区6月PPI月率 ⑨ 20:15 美国7月ADP就业人数 ⑩ 21:45 美国7月标普全球服务业PMI终值 ⑪ 22:00 美国7月ISM非制造业PMI ⑫ 22:30 美国至7月31日当周EIA原油库存 ⑬ 22:30 美国至7月...",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#欧元区"
+          ],
+          "ts": 1785883890000,
+          "time": "06:51:30",
+          "receivedAt": 1785887004633,
+          "receivedTime": true
+        },
         {
           "id": "224897",
           "url": "https://t.me/jin10light/224897",
@@ -19623,78 +19697,6 @@
           "ts": 1785465634000,
           "time": "10:40:34",
           "receivedAt": 1785472835177,
-          "receivedTime": true
-        },
-        {
-          "id": "223701",
-          "url": "https://t.me/jin10light/223701",
-          "title": "5万亿美元加息押注瓦解：美联储按兵不动，史上最大利率交易反转",
-          "body": "#美联储 #美国 #美元",
-          "tags": [
-            "#美联储",
-            "#美国",
-            "#美元"
-          ],
-          "ts": 1785465634000,
-          "time": "10:40:34",
-          "receivedAt": 1785472835177,
-          "receivedTime": true
-        },
-        {
-          "id": "223700",
-          "url": "https://t.me/jin10light/223700",
-          "title": "MiniMax发布全模态生成模型H3，一个模型包办图片、视频和声音",
-          "body": "#MiniMax #H3",
-          "tags": [
-            "#MiniMax",
-            "#H3"
-          ],
-          "ts": 1785465326000,
-          "time": "10:35:26",
-          "receivedAt": 1785472835177,
-          "receivedTime": true
-        },
-        {
-          "id": "223699",
-          "url": "https://t.me/jin10light/223699",
-          "title": "7月31日讯，据Mysteel数据显示，今日MMLC电池级碳酸锂（早盘）价格较昨日下跌1250元/吨，中间价报143350元/吨。",
-          "body": "#碳酸锂",
-          "tags": [
-            "#碳酸锂"
-          ],
-          "ts": 1785465270000,
-          "time": "10:34:30",
-          "receivedAt": 1785472835367,
-          "receivedTime": true
-        },
-        {
-          "id": "223698",
-          "url": "https://t.me/jin10light/223698",
-          "title": "Perceptron完成650万美元融资，加速建设去中心化AI数据基础设施",
-          "body": "#Perceptron #Web3 #AI",
-          "tags": [
-            "#Perceptron",
-            "#Web3",
-            "#AI"
-          ],
-          "ts": 1785465269000,
-          "time": "10:34:29",
-          "receivedAt": 1785472835367,
-          "receivedTime": true
-        },
-        {
-          "id": "223697",
-          "url": "https://t.me/jin10light/223697",
-          "title": "A股CPO概念板块盘中冲高回落，兆易创新、德明利相继炸板，此前一度双双一字涨停。",
-          "body": "#A股 #CPO #兆易创新",
-          "tags": [
-            "#A股",
-            "#CPO",
-            "#兆易创新"
-          ],
-          "ts": 1785464969000,
-          "time": "10:29:29",
-          "receivedAt": 1785472835367,
           "receivedTime": true
         }
       ],
