@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-05T20:14:42.502Z",
+  "updatedAt": "2026-08-05T21:33:48.349Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6825",
+          "url": "https://t.me/BWEtradfi/6825",
+          "title": "*妮基塔·比尔卸任 X: POST 产品负责人一职",
+          "body": "*NIKITA BIER STEPS DOWN AS HEAD OF PRODUCT AT X: POST $SPCX $SPCX",
+          "tags": [],
+          "ts": 1785963088000,
+          "time": "04:51:28",
+          "receivedAt": 1785965606135,
+          "receivedTime": true
+        },
+        {
+          "id": "6824",
+          "url": "https://t.me/BWEtradfi/6824",
+          "title": "*亚马逊创始人贝佐斯出售价值 3.465 亿美元的股票",
+          "body": "*AMAZON’S BEZOS SELLS $346.5 MILLION OF SHARES $AMZN $AMZN",
+          "tags": [],
+          "ts": 1785962193000,
+          "time": "04:36:33",
+          "receivedAt": 1785965606135,
+          "receivedTime": true
+        },
         {
           "id": "6823",
           "url": "https://t.me/BWEtradfi/6823",
@@ -2550,31 +2572,6 @@
           "time": "07:33:16",
           "receivedAt": 1784678876408,
           "receivedTime": true
-        },
-        {
-          "id": "6597",
-          "url": "https://t.me/BWEtradfi/6597",
-          "title": "*火箭实验室赢得美国空军价值 2.66 亿美元的合同",
-          "body": "*ROCKET LAB WINS $266 MILLION U.S. AIR FORCE CONTRACT $RKLB $RKLB",
-          "tags": [],
-          "ts": 1784667795000,
-          "time": "05:03:15",
-          "receivedAt": 1784668962770,
-          "receivedTime": true
-        },
-        {
-          "id": "6596",
-          "url": "https://t.me/BWEtradfi/6596",
-          "title": "*OKLO、X-ENERGY 加入特朗普的核反应堆加速人工智能计划",
-          "body": "*OKLO, X-ENERGY JOIN TRUMP BID TO SPEED NUCLEAR REACTORS FOR AI #OKLO • #XE",
-          "tags": [
-            "#OKLO",
-            "#XE"
-          ],
-          "ts": 1784665547000,
-          "time": "04:25:47",
-          "receivedAt": 1784668962770,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2582,6 +2579,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225276",
+          "url": "https://t.me/jin10light/225276",
+          "title": "整理：中东局势跟踪（8月6日）",
+          "body": "冲突情å 1.胡塞武装再称袭击沙特油轮。 2. 据伊朗塔斯尼姆通讯社：也门正在为与沙特展开全面对抗做准备。 美伊谈å 1.伊朗外交部发言人：外交部长或议长暂无出访巴基斯坦或卡塔尔的计划。 2. 特朗普：美伊协议48小时内见分晓；美伊谈判“进展很好”，伊朗却不愿承认。 3. 据CNN：一名海湾国家官员认为，美国与伊朗在周五前达成协议的可能性为50%。 霍尔木兹海å 1.也门武装部队：在红海和阿拉伯海，被阻止并被迫撤退、返回的沙特油轮总数为29艘。 2. 英国海上贸易行动办公室：收到一份8月4日关于也门摩卡地区9海里处发生事件的报告。 8月4日也门附近的船...",
+          "tags": [
+            "#霍尔木兹海峡",
+            "#伊朗",
+            "#特朗普"
+          ],
+          "ts": 1785964888000,
+          "time": "05:21:28",
+          "receivedAt": 1785965607007,
+          "receivedTime": true
+        },
         {
           "id": "225275",
           "url": "https://t.me/jin10light/225275",
@@ -19749,21 +19761,6 @@
           ],
           "ts": 1785553291000,
           "time": "11:01:31",
-          "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224076",
-          "url": "https://t.me/jin10light/224076",
-          "title": "英国海事贸易组织：已收到一份关于阿曼利马东北偏北约11海里处发生一起事件的报告。",
-          "body": "#英国 #阿曼 #利马",
-          "tags": [
-            "#英国",
-            "#阿曼",
-            "#利马"
-          ],
-          "ts": 1785553107000,
-          "time": "10:58:27",
           "receivedAt": 1785558902000,
           "receivedTime": true
         }
