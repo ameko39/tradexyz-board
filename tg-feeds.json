@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T21:33:48.349Z",
+  "updatedAt": "2026-08-05T22:37:34.731Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2574,11 +2574,55 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225279",
+          "url": "https://t.me/jin10light/225279",
+          "title": "国内新闻ï",
+          "body": "1.商务部：对美国合规性测试公司采取反制措施。 2. 商务部：加强无人机相关两用物项对美国出口管制。 3. 商务部：对应用DNA科学公司等6家美国实体采取反制措施。 4. 上交所行动之后，深交所也将切换交易线路，周边机房已“比较紧张”。 5. 我国CCC认证指定机构暂停委托在美认证机构实施工厂跟踪检查。 6. 报道称长鑫拒绝苹果压价：坚持要求不低于三星电子和SK海力士。 7. 工信部会同多个部门联合制定的《“十五五”促进中小企业发展规划》即将发布。 国际新闻ï 1.现货金银均涨超4%，黄金一度升至4260美元上方。 2. 美国7月ADP就业人数录得4....",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1785969211000,
+          "time": "06:33:31",
+          "receivedAt": 1785969435215,
+          "receivedTime": true
+        },
+        {
+          "id": "225278",
+          "url": "https://t.me/jin10light/225278",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上一交易日增加4.851吨，当前持仓量为1014.148吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1785968428000,
+          "time": "06:20:28",
+          "receivedAt": 1785969435215,
+          "receivedTime": true
+        },
+        {
+          "id": "225277",
+          "url": "https://t.me/jin10light/225277",
+          "title": "美国总统特朗普：我更愿意与伊朗达成协议。",
+          "body": "#特朗普 #伊朗 #美国",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1785966568000,
+          "time": "05:49:28",
+          "receivedAt": 1785969435215,
+          "receivedTime": true
+        },
         {
           "id": "225276",
           "url": "https://t.me/jin10light/225276",
@@ -19719,48 +19763,6 @@
           ],
           "ts": 1785553949000,
           "time": "11:12:29",
-          "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224079",
-          "url": "https://t.me/jin10light/224079",
-          "title": "Arena上线AutoEval：AI先模拟真人打分，新模型1小时就能出分",
-          "body": "#Arena #AutoEval",
-          "tags": [
-            "#Arena",
-            "#AutoEval"
-          ],
-          "ts": 1785553948000,
-          "time": "11:12:28",
-          "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224078",
-          "url": "https://t.me/jin10light/224078",
-          "title": "零跑汽车：7月交付量首超10万辆",
-          "body": "8月1日讯，8月1日，零跑汽车正式发布2026年7月交付数据。 数据显示，零跑7月交付量达101267台，同比增长102%，单月交付首次突破10万台大关，成为国内首个达成单月超10万台量级交付的造车新势力品牌。 #零跑汽车 #中国",
-          "tags": [
-            "#零跑汽车",
-            "#中国"
-          ],
-          "ts": 1785553709000,
-          "time": "11:08:29",
-          "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224077",
-          "url": "https://t.me/jin10light/224077",
-          "title": "日本财政部：货币当局拥有广泛的工具来应对市场流动性需求。",
-          "body": "#日本 #财政部",
-          "tags": [
-            "#日本",
-            "#财政部"
-          ],
-          "ts": 1785553291000,
-          "time": "11:01:31",
           "receivedAt": 1785558902000,
           "receivedTime": true
         }
