@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T22:37:34.731Z",
+  "updatedAt": "2026-08-05T23:34:15.233Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2558,27 +2558,58 @@
           "time": "08:50:39",
           "receivedAt": 1784691545279,
           "receivedTime": true
-        },
-        {
-          "id": "6598",
-          "url": "https://t.me/BWEtradfi/6598",
-          "title": "*英特尔表示将继续投资美国俄亥俄州芯片制造园区",
-          "body": "*INTEL SAYS COMMITTED TO INVESTING IN US OHIO CHIPMAKING CAMPUS *HYNIX SAYS HAS NO PLANS FOR INTEL OHIO CHIP PLANT ACQUISITION #INTC • #SKHY *海力士表示暂无收购英特尔俄亥俄州芯片工厂的计划 #INTC • #SKHY",
-          "tags": [
-            "#INTC",
-            "#SKHY"
-          ],
-          "ts": 1784676796000,
-          "time": "07:33:16",
-          "receivedAt": 1784678876408,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225282",
+          "url": "https://t.me/jin10light/225282",
+          "title": "西部数据盘后跌超10%，业绩指引令市场失望",
+          "body": "#西部数据 #WDC #美国",
+          "tags": [
+            "#西部数据",
+            "#WDC",
+            "#美国"
+          ],
+          "ts": 1785972628000,
+          "time": "07:30:28",
+          "receivedAt": 1785972835677,
+          "receivedTime": true
+        },
+        {
+          "id": "225281",
+          "url": "https://t.me/jin10light/225281",
+          "title": "美联储理事库克：若通胀不放缓，我将准备支持加息",
+          "body": "#美联储 #库克 #美国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美联储",
+            "#库克",
+            "#美国"
+          ],
+          "ts": 1785970348000,
+          "time": "06:52:28",
+          "receivedAt": 1785972835677,
+          "receivedTime": true
+        },
+        {
+          "id": "225280",
+          "url": "https://t.me/jin10light/225280",
+          "title": "今日重点关注的财经数据与事件：2026年8月6日 周四",
+          "body": "① 08:35 美联储戴利发表讲话 ② 15:00 瑞士7月季调后失业率 ③ 17:00 欧元区6月零售销售月率 ④ 17:30 美国7月挑战者企业裁员人数 ⑤ 20:30 美国至8月1日当周初请失业金人数 ⑥ 22:00 美国7月全球供应链压力指数 ⑦ 22:00 美国6月批发销售月率 ⑧ 22:30 美国至7月31日当周EIA天然气库存 ⑨ 次日05:30 美联储穆萨莱姆发表讲话 #美国 #瑞士 #欧元区",
+          "tags": [
+            "#美国",
+            "#瑞士",
+            "#欧元区"
+          ],
+          "ts": 1785970294000,
+          "time": "06:51:34",
+          "receivedAt": 1785972835677,
+          "receivedTime": true
+        },
         {
           "id": "225279",
           "url": "https://t.me/jin10light/225279",
@@ -2611,13 +2642,9 @@
         {
           "id": "225277",
           "url": "https://t.me/jin10light/225277",
-          "title": "美国总统特朗普：我更愿意与伊朗达成协议。",
-          "body": "#特朗普 #伊朗 #美国",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#美国"
-          ],
+          "title": "特朗普：我更愿意与伊朗达成协议",
+          "body": "",
+          "tags": [],
           "ts": 1785966568000,
           "time": "05:49:28",
           "receivedAt": 1785969435215,
@@ -19721,48 +19748,6 @@
           ],
           "ts": 1785555391000,
           "time": "11:36:31",
-          "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224082",
-          "url": "https://t.me/jin10light/224082",
-          "title": "派盾：7月加密行业遭遇30起重大黑客攻击事件，损失超2.1亿美元",
-          "body": "#加密货币 #Coldcard ⚡️ 免费助力 ⚡️ | 注册币安 | Claude&GPT AI中转 | USDT全球刷卡",
-          "tags": [
-            "#加密货币",
-            "#Coldcard"
-          ],
-          "ts": 1785554849000,
-          "time": "11:27:29",
-          "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224081",
-          "url": "https://t.me/jin10light/224081",
-          "title": "更新：疑似Bitmine地址近10小时囤积18914.13枚ETH",
-          "body": "#ETH #Bitmine",
-          "tags": [
-            "#ETH",
-            "#Bitmine"
-          ],
-          "ts": 1785554129000,
-          "time": "11:15:29",
-          "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224080",
-          "url": "https://t.me/jin10light/224080",
-          "title": "长鑫科技LPDDR6接近研发验证尾声",
-          "body": "8月1日讯，行业人士透露，长鑫存储的LPDDR6（第六代低功耗双倍数据速率内存标准）已接近研发验证尾声，这是量产前的重要一步。 今年3月便有市场消息称，长鑫科技旗下的长鑫存储在积极推进LPDDR6产品落地，并已向核心客户送样，有望2026年下半年发布并实现量产导入。 相关信息称长鑫首款LPDDR6产品的设计规格速率为12800 Mbps，与SoC（系统级芯片）协同的运行基础速率为10667Mbps，颗粒容量16Gb，采用1295 Ball（焊球）的POP（堆叠）封装，在低功耗设计、RAS（可靠性、可用性和可维护性）功能比LPDDR5X（LPDDR5的强...",
-          "tags": [
-            "#长鑫存储",
-            "#LPDDR6"
-          ],
-          "ts": 1785553949000,
-          "time": "11:12:29",
           "receivedAt": 1785558902000,
           "receivedTime": true
         }
