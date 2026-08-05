@@ -1,11 +1,58 @@
 {
-  "updatedAt": "2026-08-05T18:44:02.769Z",
+  "updatedAt": "2026-08-05T20:14:42.502Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6823",
+          "url": "https://t.me/BWEtradfi/6823",
+          "title": "*闪迪第一季度营收展望：103亿美元至108亿美元；FactSet 预估：108亿美元",
+          "body": "*SANDISK 1Q OUTLOOK REVENUE $10.3B - 10.8B; FACTSET EST. $10.8B $SNDK $SNDK",
+          "tags": [],
+          "ts": 1785960365000,
+          "time": "04:06:05",
+          "receivedAt": 1785960863205,
+          "receivedTime": true
+        },
+        {
+          "id": "6822",
+          "url": "https://t.me/BWEtradfi/6822",
+          "title": "*闪迪第四季度营收89.7亿美元；FactSet预估84.8亿美元",
+          "body": "*SANDISK 4Q REVENUE $8.97B; FACTSET EST. $8.48B #SNDK • #FDS #SNDK • #FDS",
+          "tags": [
+            "#SNDK",
+            "#FDS"
+          ],
+          "ts": 1785960343000,
+          "time": "04:05:43",
+          "receivedAt": 1785960863205,
+          "receivedTime": true
+        },
+        {
+          "id": "6821",
+          "url": "https://t.me/BWEtradfi/6821",
+          "title": "*西部数据第四季度营收为37.47亿美元，高于IBES预期的36.92亿美元",
+          "body": "*WESTERN DIGITAL Q4 REVENUE USD 3,747 MILLION VS. IBES ESTIMATE USD 3,692 MILLION *WESTERN DIGITAL Q4 ADJUSTED EPS USD 3.56 VS. IBES ESTIMATE USD 3.3 $WDC *西部数据第四季度调整后每股收益为3.56美元，高于IBES预期的3.3美元 $WDC",
+          "tags": [],
+          "ts": 1785960138000,
+          "time": "04:02:18",
+          "receivedAt": 1785960863205,
+          "receivedTime": true
+        },
+        {
+          "id": "6820",
+          "url": "https://t.me/BWEtradfi/6820",
+          "title": "DB: 标普500指数收盘下跌0.1%，纳斯达克指数下跌0.7%",
+          "body": "DB: *S&P 500 CLOSES 0.1% LOWER, NASDAQ DECLINES 0.7%",
+          "tags": [],
+          "ts": 1785960014000,
+          "time": "04:00:14",
+          "receivedAt": 1785960863205,
+          "receivedTime": true
+        },
         {
           "id": "6819",
           "url": "https://t.me/BWEtradfi/6819",
@@ -2528,57 +2575,114 @@
           "time": "04:25:47",
           "receivedAt": 1784668962770,
           "receivedTime": true
-        },
-        {
-          "id": "6595",
-          "url": "https://t.me/BWEtradfi/6595",
-          "title": "*SUPER MICRO 第四季度初步营收预计接近此前预期的 110 亿美元至 125 亿美元区间的低端",
-          "body": "*SUPER MICRO PRELIM Q4 REV. SEEN NEAR LOW END OF $11.0B-$12.5B GUIDANCE RANGE *SUPER MICRO SEES PRELIM Q4 GROSS MARGIN 15% TO 17% VS GUIDANCE 8.2% TO 8.4% *SUPER MICRO ATTRIBUTES GROSS MARGIN BEAT TO FAVORABLE PRODUCT, CUSTOMER MIX *SUPER MICRO BOOKED OVER $60 BILLION IN NEW… *SUPER MICRO 第四季度初步毛利率...",
-          "tags": [],
-          "ts": 1784664360000,
-          "time": "04:06:00",
-          "receivedAt": 1784664401614,
-          "receivedTime": true
-        },
-        {
-          "id": "6594",
-          "url": "https://t.me/BWEtradfi/6594",
-          "title": "*盈透证券第二季度调整后净收入：18.8亿美元，预期为17.9亿美元",
-          "body": "*INTERACTIVE BROKERS 2Q ADJ. NET REV. $1.88B, EST. $1.79B *INTERACTIVE BROKERS 2Q ADJ EPS 69C, EST. 63C $IBKR *盈透证券第二季度调整后每股收益：0.69美元，预期为0.63美元 $IBKR",
-          "tags": [],
-          "ts": 1784664072000,
-          "time": "04:01:12",
-          "receivedAt": 1784664401614,
-          "receivedTime": true
-        },
-        {
-          "id": "6593",
-          "url": "https://t.me/BWEtradfi/6593",
-          "title": "DB: 标准普尔500指数收盘上涨0.9%，纳斯达克指数上涨1.3%",
-          "body": "DB: *S&P 500 CLOSES 0.9% HIGHER, NASDAQ UP 1.3%",
-          "tags": [],
-          "ts": 1784664013000,
-          "time": "04:00:13",
-          "receivedAt": 1784664401614,
-          "receivedTime": true
-        },
-        {
-          "id": "6592",
-          "url": "https://t.me/BWEtradfi/6592",
-          "title": "*OpenAI称其人工智能模型秘密突破安全测试环境，入侵人工智能公司Hugging Face的系统，企图在评估中作弊 - 《财富》杂志",
-          "body": "*OPENAI SAYS ITS AI MODELS SECRETLY BROKE OUT OF A SECURE TEST ENVIRONMENT AND HACKED INTO AI COMPANY HUGGING FACE IN ORDER TO CHEAT ON AN EVALUATION - FORTUNE *OPENAI CONFIRMED THE BREACH INVOLVED ITS GPT-5.6 SOL AND AN UNRELEASED, MORE POWERFUL MODEL *OpenAI证实，此次入侵事件涉及其GPT-5.6 SOL模型以及一个尚未发布的更强大的模...",
-          "tags": [],
-          "ts": 1784663149000,
-          "time": "03:45:49",
-          "receivedAt": 1784664401614,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225275",
+          "url": "https://t.me/jin10light/225275",
+          "title": "闪迪(SNDK.O)预计2027财年第一季度营收为103亿至108亿美元，市场预期为108亿美元。",
+          "body": "#闪迪 #SNDK .O ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#闪迪",
+            "#SNDK"
+          ],
+          "ts": 1785960687000,
+          "time": "04:11:27",
+          "receivedAt": 1785960863740,
+          "receivedTime": true
+        },
+        {
+          "id": "225274",
+          "url": "https://t.me/jin10light/225274",
+          "title": "美联储理事库克：如果通胀回落的趋势没有恢复，我们准备加息。",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1785960515000,
+          "time": "04:08:35",
+          "receivedAt": 1785960863740,
+          "receivedTime": true
+        },
+        {
+          "id": "225273",
+          "url": "https://t.me/jin10light/225273",
+          "title": "美联储理事库克：美联储最终或许仍无需加息。",
+          "body": "#美联储 #库克",
+          "tags": [
+            "#美联储",
+            "#库克"
+          ],
+          "ts": 1785960514000,
+          "time": "04:08:34",
+          "receivedAt": 1785960863740,
+          "receivedTime": true
+        },
+        {
+          "id": "225272",
+          "url": "https://t.me/jin10light/225272",
+          "title": "美股收盘：三大股指涨跌不一，SpaceX跌超13%",
+          "body": "8月6日讯，美股周三收盘，道指初步收涨0.49%，标普500指数跌0.17%，纳指跌0.8%。 SpaceX(SPCX.O)跌13.6%。 英伟达(NVDA.O)涨3.4%，SK海力士(SKHY.O)跌2%，AMD(AMD.O)跌7%，闪迪(SNDK.O)跌5%。 纳斯达克中国金龙指数收跌1.08%，小鹏汽车(XPEV.N)和蔚来汽车(NIO.N)跌2%。 #美股 #SpaceX #英伟达",
+          "tags": [
+            "#美股",
+            "#SpaceX",
+            "#英伟达"
+          ],
+          "ts": 1785960149000,
+          "time": "04:02:29",
+          "receivedAt": 1785960863740,
+          "receivedTime": true
+        },
+        {
+          "id": "225271",
+          "url": "https://t.me/jin10light/225271",
+          "title": "美联储理事丽莎·库克将于十分钟后就经济前景发表讲话。",
+          "body": "#美联储 #丽莎·库克 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美联储",
+            "#丽莎"
+          ],
+          "ts": 1785959790000,
+          "time": "03:56:30",
+          "receivedAt": 1785960863740,
+          "receivedTime": true
+        },
+        {
+          "id": "225270",
+          "url": "https://t.me/jin10light/225270",
+          "title": "外媒：伊朗寻求对海峡过境船只收取货物价值5%至7%的费用",
+          "body": "8月6日讯，据路透社周三援引一名伊朗高级消息人士和两名地区官员称，伊朗-阿曼拟议协议将赋予伊朗对通过霍尔木兹海峡进入海湾船只的控制权，这是迄今伊朗获得的最大让步之一。 伊朗随后表示，船只进出海湾都将经过伊朗水域。 地区消息人士表示，关于如何界定“控制权”仍有细节需要确定。 伊朗消息人士表示，目前摆在桌面上的协议文本设想，伊朗将控制通过该海峡驶入海湾的船只，主要争议之一是对于驶出方向船只伊朗应发挥何种作用。 伊朗副外长随后表示：“该航线的设计方式是，商业船只的进出航线都将通过伊朗领海。 ”伊朗高级官员透露，伊朗寻求向使用该海峡的船只收取相当于货物价值5%...",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡",
+            "#阿曼"
+          ],
+          "ts": 1785957452000,
+          "time": "03:17:32",
+          "receivedAt": 1785960863740,
+          "receivedTime": true
+        },
+        {
+          "id": "225269",
+          "url": "https://t.me/jin10light/225269",
+          "title": "伊朗总统：目前与伊朗最高领袖的沟通“非常困难”。",
+          "body": "#伊朗 #伊朗总统 #伊朗最高领袖",
+          "tags": [
+            "#伊朗",
+            "#伊朗总统",
+            "#伊朗最高领袖"
+          ],
+          "ts": 1785955768000,
+          "time": "02:49:28",
+          "receivedAt": 1785960863740,
+          "receivedTime": true
+        },
         {
           "id": "225268",
           "url": "https://t.me/jin10light/225268",
@@ -19661,108 +19765,6 @@
           "ts": 1785553107000,
           "time": "10:58:27",
           "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224074",
-          "url": "https://t.me/jin10light/224074",
-          "title": "市场消息：中国台湾美光工会正考虑因奖金低于三星和海力士而罢工",
-          "body": "#中国台湾 #美光 #三星",
-          "tags": [
-            "#中国台湾",
-            "#美光",
-            "#三星"
-          ],
-          "ts": 1785552989000,
-          "time": "10:56:29",
-          "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224073",
-          "url": "https://t.me/jin10light/224073",
-          "title": "去中心化AI数据网络Perceptron Network完成650万美元战略融资，Selini Capital等参投",
-          "body": "#Perceptron Network #AI #加密货币",
-          "tags": [
-            "#Perceptron",
-            "#AI",
-            "#加密货币"
-          ],
-          "ts": 1785552508000,
-          "time": "10:48:28",
-          "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224072",
-          "url": "https://t.me/jin10light/224072",
-          "title": "比特币8月历史回报率：2013年起9次收跌4次收涨，回报中位数-7.49%",
-          "body": "#BTC #美国",
-          "tags": [
-            "#BTC",
-            "#美国"
-          ],
-          "ts": 1785552031000,
-          "time": "10:40:31",
-          "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224071",
-          "url": "https://t.me/jin10light/224071",
-          "title": "美国圣路易斯联储主席：希望美联储尽早小幅渐进加息",
-          "body": "#美国 #美联储 #穆萨莱姆",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#穆萨莱姆"
-          ],
-          "ts": 1785551551000,
-          "time": "10:32:31",
-          "receivedAt": 1785558902000,
-          "receivedTime": true
-        },
-        {
-          "id": "224070",
-          "url": "https://t.me/jin10light/224070",
-          "title": "Robinhood Chain发射平台Pons正式上线v2版本",
-          "body": "#Robinhood Chain #Pons #ETH",
-          "tags": [
-            "#Robinhood",
-            "#Pons",
-            "#ETH"
-          ],
-          "ts": 1785550408000,
-          "time": "10:13:28",
-          "receivedAt": 1785558902178,
-          "receivedTime": true
-        },
-        {
-          "id": "224069",
-          "url": "https://t.me/jin10light/224069",
-          "title": "理想汽车：2026年7月交付车辆30468辆。",
-          "body": "#理想汽车",
-          "tags": [
-            "#理想汽车"
-          ],
-          "ts": 1785549867000,
-          "time": "10:04:27",
-          "receivedAt": 1785558902178,
-          "receivedTime": true
-        },
-        {
-          "id": "224068",
-          "url": "https://t.me/jin10light/224068",
-          "title": "整理：每日科技要闻速递（8月1日）",
-          "body": "人工智能ï 1.OpenAI：我们的模型现在拥有超过十亿活跃用户。 2. 美媒：OpenAI面临投资者担忧与竞争压力，IPO或推迟至明年。 3. 美媒：OpenAI筹备发布新模型系列Astra，主打多智能体长周期任务协同。 4. 字节火山引擎：小鹏汽车、智元机器人等将率先接入Seedance2.5视频生成模型。 5. 谷歌(GOOG.O)：Gemini Spark正在向美国以外的GoogleAI Pro用户推出。 6. Anthropic披露三起AI模型安全测试入侵事件，OpenAI发现更多AI智能体突破隔离的证据。 7. OpenAI：GPT-5.4...",
-          "tags": [
-            "#OpenAI",
-            "#三星电子",
-            "#韩国"
-          ],
-          "ts": 1785549632000,
-          "time": "10:00:32",
-          "receivedAt": 1785558902178,
           "receivedTime": true
         }
       ],
