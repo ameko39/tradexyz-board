@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-08-07T13:24:36.161Z",
+  "updatedAt": "2026-08-07T14:29:50.448Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6842",
+          "url": "https://t.me/BWEtradfi/6842",
+          "title": "部分美国初创公司将中国机器人零部件放在行李中携带，以规避正式进口流程：The Information",
+          "body": "*SOME U.S. STARTUPS ARE BYPASSING FORMAL IMPORT PROCESSES BY CARRYING CHINESE ROBOT PARTS IN THEIR LUGGAGE: THE INFORMATION",
+          "tags": [],
+          "ts": 1786111278000,
+          "time": "22:01:18",
+          "receivedAt": 1786112977847,
+          "receivedTime": true
+        },
+        {
+          "id": "6841",
+          "url": "https://t.me/BWEtradfi/6841",
+          "title": "*哈塞特：政府雇员、世界杯，就业岗位增加10万个",
+          "body": "*HASSETT: TAKE OUT GOVT WORKERS, WORLD CUP, JOBS ROSE 100,000",
+          "tags": [],
+          "ts": 1786110298000,
+          "time": "21:44:58",
+          "receivedAt": 1786112977847,
+          "receivedTime": true
+        },
+        {
+          "id": "6840",
+          "url": "https://t.me/BWEtradfi/6840",
+          "title": "DB: 标普500指数高开0.3%，纳斯达克指数上涨0.8%",
+          "body": "DB: *S&P 500 OPENS 0.3% HIGHER, NASDAQ UP 0.8%",
+          "tags": [],
+          "ts": 1786109443000,
+          "time": "21:30:43",
+          "receivedAt": 1786112977847,
+          "receivedTime": true
+        },
         {
           "id": "6839",
           "url": "https://t.me/BWEtradfi/6839",
@@ -2310,17 +2343,6 @@
           "time": "23:29:10",
           "receivedAt": 1784823096499,
           "receivedTime": true
-        },
-        {
-          "id": "6634",
-          "url": "https://t.me/BWEtradfi/6634",
-          "title": "DB: 标普500指数低开1.1%，纳斯达克指数下跌1.8%",
-          "body": "DB: *S&P 500 OPENS 1.1% LOWER, NASDAQ DOWN 1.8%",
-          "tags": [],
-          "ts": 1784813443000,
-          "time": "21:30:43",
-          "receivedAt": 1784817346924,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2328,6 +2350,372 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225881",
+          "url": "https://t.me/jin10light/225881",
+          "title": "为规避贸易政策，美国初创公司行李夹带中国机器人零件回国",
+          "body": "#美国 #中国 #机器人",
+          "tags": [
+            "#美国",
+            "#中国",
+            "#机器人"
+          ],
+          "ts": 1786112789000,
+          "time": "22:26:29",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225880",
+          "url": "https://t.me/jin10light/225880",
+          "title": "美联储巴尔金：（谈通货膨胀）如果面临逆风，就必须收紧（政策）。",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1786112612000,
+          "time": "22:23:32",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225879",
+          "url": "https://t.me/jin10light/225879",
+          "title": "SpaceX盘中涨近8.5%",
+          "body": "#SpaceX #BIT ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#SpaceX",
+            "#BIT"
+          ],
+          "ts": 1786112432000,
+          "time": "22:20:32",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225878",
+          "url": "https://t.me/jin10light/225878",
+          "title": "SpaceX(SPCX.O)继续上涨，涨幅近8.5%",
+          "body": "#SpaceX #SPCX .O",
+          "tags": [
+            "#SpaceX",
+            "#SPCX"
+          ],
+          "ts": 1786112309000,
+          "time": "22:18:29",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225877",
+          "url": "https://t.me/jin10light/225877",
+          "title": "美股存储板块跌幅扩大，海力士领跌",
+          "body": "#美股 #美光科技 #SK海力士",
+          "tags": [
+            "#美股",
+            "#美光科技",
+            "#SK海力士"
+          ],
+          "ts": 1786112308000,
+          "time": "22:18:28",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225876",
+          "url": "https://t.me/jin10light/225876",
+          "title": "美股存储板块跌幅进一步扩大",
+          "body": "8月7日讯，美光科技(MU.O)跌3.5%，SK海力士(SKHY.O)跌6%，闪迪(SNDK.O)跌5.2%，西部数据(WDC.O)跌5.8%，希捷科技(STX.O)跌10%。 #美股 #美光科技 #SK海力士",
+          "tags": [
+            "#美股",
+            "#美光科技",
+            "#SK海力士"
+          ],
+          "ts": 1786112248000,
+          "time": "22:17:28",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225875",
+          "url": "https://t.me/jin10light/225875",
+          "title": "美联储巴尔金：就业市场处于弱平衡状态。",
+          "body": "#美联储 #巴尔金",
+          "tags": [
+            "#美联储",
+            "#巴尔金"
+          ],
+          "ts": 1786111829000,
+          "time": "22:10:29",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225874",
+          "url": "https://t.me/jin10light/225874",
+          "title": "哈塞特：相信特朗普不会给沃什关于利率的建议",
+          "body": "#特朗普 #美联储 #美国",
+          "tags": [
+            "#特朗普",
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1786111776000,
+          "time": "22:09:36",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225873",
+          "url": "https://t.me/jin10light/225873",
+          "title": "白宫国家经济委员会主任哈塞特：我相信美国总统特朗普不会给美联储主席沃什关于利率的建议。",
+          "body": "#特朗普 #美联储 #白宫",
+          "tags": [
+            "#特朗普",
+            "#美联储",
+            "#白宫"
+          ],
+          "ts": 1786111775000,
+          "time": "22:09:35",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225872",
+          "url": "https://t.me/jin10light/225872",
+          "title": "SpaceX(SPCX.O)涨逾5%，阿格斯研究上调其评级至买入。",
+          "body": "#SpaceX #美国",
+          "tags": [
+            "#SpaceX",
+            "#美国"
+          ],
+          "ts": 1786111470000,
+          "time": "22:04:30",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225871",
+          "url": "https://t.me/jin10light/225871",
+          "title": "SpaceX延续涨势，今日盘中涨超5%",
+          "body": "#SpaceX #美国",
+          "tags": [
+            "#SpaceX",
+            "#美国"
+          ],
+          "ts": 1786111047000,
+          "time": "21:57:27",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225870",
+          "url": "https://t.me/jin10light/225870",
+          "title": "加媒：加拿大正与美国商讨贸易方面的让步，以换取部分关税减免",
+          "body": "8月7日讯，据环球邮报报道，随着美国威胁实施新一轮关税前谈判日益白热化，加拿大和美国正在商讨一项潜在协议：渥太华将同意满足特朗普政府提出的一系列贸易要求，以换取部分行业关税的减免。 据三位熟悉谈判情况的行业消息人士透露，双方已就多项提议进行了深入讨论，并交换了书面谈判立场，但目前尚未达成协议。 目前讨论方案的核心是一项“交换”：加拿大将在一系列美国认为是双边贸易主要矛盾的问题上作出让步，包括取消针对美国商品（如汽车）的报复性关税；恢复美国酒类产品进入加拿大市场；取消各省政府采购限制；以及接受华盛顿对于乳制品配额分配方式的解释。 其中一名消息人士表示，美...",
+          "tags": [],
+          "ts": 1786110989000,
+          "time": "21:56:29",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225869",
+          "url": "https://t.me/jin10light/225869",
+          "title": "2027年FOMC票委、里奇蒙联储主席巴尔金将于十分钟后发表讲话。",
+          "body": "#美国 #美联储 #巴尔金 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#巴尔金"
+          ],
+          "ts": 1786110690000,
+          "time": "21:51:30",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225868",
+          "url": "https://t.me/jin10light/225868",
+          "title": "白宫国家经济委员会主任哈塞特：我几乎只关注失业率，而它已经下降了。",
+          "body": "#白宫 #哈塞特 #失业率 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#白宫",
+            "#哈塞特",
+            "#失业率"
+          ],
+          "ts": 1786110507000,
+          "time": "21:48:27",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225867",
+          "url": "https://t.me/jin10light/225867",
+          "title": "白宫国家经济委员会主任哈塞特：剔除政府雇员和世界杯因素后，就业增长为10万人。",
+          "body": "#白宫 #哈塞特 #美国",
+          "tags": [
+            "#白宫",
+            "#哈塞特",
+            "#美国"
+          ],
+          "ts": 1786110452000,
+          "time": "21:47:32",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225866",
+          "url": "https://t.me/jin10light/225866",
+          "title": "哈塞特：剔除政府就业和世界杯因素，新增就业岗位10万个",
+          "body": "",
+          "tags": [],
+          "ts": 1786110451000,
+          "time": "21:47:31",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225865",
+          "url": "https://t.me/jin10light/225865",
+          "title": "巨鲸「先定10个大目标」唱响比特币做多集结号：「最后上车的机会」",
+          "body": "#BTC #比特币回升",
+          "tags": [
+            "#BTC",
+            "#比特币回升"
+          ],
+          "ts": 1786110269000,
+          "time": "21:44:29",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225864",
+          "url": "https://t.me/jin10light/225864",
+          "title": "前日40倍做空比特币鲸鱼被迫减仓，已浮亏154万美元",
+          "body": "#BTC #鲸鱼",
+          "tags": [
+            "#BTC",
+            "#鲸鱼"
+          ],
+          "ts": 1786110030000,
+          "time": "21:40:30",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225863",
+          "url": "https://t.me/jin10light/225863",
+          "title": "非农爆冷促美股集体高开，光通讯继续领跑AI行情，Cloudflare涨11.5%，创历史新高 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "body": "",
+          "tags": [],
+          "ts": 1786109670000,
+          "time": "21:34:30",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225862",
+          "url": "https://t.me/jin10light/225862",
+          "title": "北京：适度提高住房公积金最高贷款额度 夫妻双方首套房公积金最高可贷340万元",
+          "body": "8月7日讯，北京市住房和城乡建设委员会、北京市规划和自然资源委员会、北京住房公积金管理中心7日晚联合印发《关于进一步优化调整本市房地产政策的通知》。 其中提到，适度提高住房公积金最高贷款额度。 购房家庭中1人为公积金缴存人的，购买首套住房公积金贷款最高贷款额度为120万元，二套住房公积金贷款最高额度为100万元；夫妻双方均为缴存人的，购买首套住房公积金贷款最高贷款额度为240万元，二套住房公积金贷款最高额度为200万元。 符合以下条件的，最高贷款额度可进一步上浮：1.城六区户籍居民家庭，在城六区外购买首套住房的，最高可上浮20万元；2.购买住房符合本市...",
+          "tags": [
+            "#北京",
+            "#住房公积金",
+            "#房地产政策"
+          ],
+          "ts": 1786109614000,
+          "time": "21:33:34",
+          "receivedAt": 1786112978237,
+          "receivedTime": true
+        },
+        {
+          "id": "225861",
+          "url": "https://t.me/jin10light/225861",
+          "title": "Cloudflare(NET.N)涨11.5%，创下历史新高，此前上调年收入预测。",
+          "body": "#Cloudflare #NET .N ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#Cloudflare",
+            "#NET"
+          ],
+          "ts": 1786109613000,
+          "time": "21:33:33",
+          "receivedAt": 1786112978427,
+          "receivedTime": true
+        },
+        {
+          "id": "225860",
+          "url": "https://t.me/jin10light/225860",
+          "title": "7月非农意外爆冷 纳指开涨0.74%",
+          "body": "8月7日讯，美股开盘，道指涨0.23%，标普500指数涨0.31%，纳指涨0.74%。 光通信板块走强，Applied Optoelectronics(AAOI.O)涨12.46%，Lumentum(LITE.O)涨4%，康宁(GLW.N)涨3.7%。 太阳能板块普涨，FTC Solar(FTCI.O)涨1.8%，第一太阳能(FSLR)涨4.5%。 #美股 #纳指",
+          "tags": [
+            "#美股",
+            "#纳指"
+          ],
+          "ts": 1786109547000,
+          "time": "21:32:27",
+          "receivedAt": 1786112978427,
+          "receivedTime": true
+        },
+        {
+          "id": "225859",
+          "url": "https://t.me/jin10light/225859",
+          "title": "巨鲸「先定10个大目标」晒比特币多单收益：6.4万美元下方开单，浮盈超400万美元",
+          "body": "#BTC #比特币反弹",
+          "tags": [
+            "#BTC",
+            "#比特币反弹"
+          ],
+          "ts": 1786109490000,
+          "time": "21:31:30",
+          "receivedAt": 1786112978427,
+          "receivedTime": true
+        },
+        {
+          "id": "225858",
+          "url": "https://t.me/jin10light/225858",
+          "title": "Nick Timiraos：7月非农未提供明确信号 通胀成加息关键变量",
+          "body": "8月7日讯，华尔街日报记者Nick Timiraos表示，对于美联储而言，7月就业报告将是一份难以解读的数据。 劳动力市场并未重新加速的新证据，可能会削弱下月加息的紧迫性，但这仍取决于更好的通胀数据。 失业率下降将继续使市场关注通胀数据。 物价压力是上升还是下降，将决定是否会有更多官员得出结论，认为在利率维持不变的情况下，他们无法继续维持通胀目标的预测。 温和的通胀报告将强化维持利率不变的理由（因为连续两个月的温和数据开始显现趋势而非噪音）。 而强劲的数据则会使预测再次受到质疑，并让反对加息的官员有机会争取第四张赞成票。 #美国 #美联储 #通胀",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#通胀"
+          ],
+          "ts": 1786109371000,
+          "time": "21:29:31",
+          "receivedAt": 1786112978427,
+          "receivedTime": true
+        },
+        {
+          "id": "225857",
+          "url": "https://t.me/jin10light/225857",
+          "title": "USDC原生部署X Layer，OKX Wallet已支持相关服务",
+          "body": "#USDC #X Layer #OKX Wallet",
+          "tags": [
+            "#USDC",
+            "#X",
+            "#OKX"
+          ],
+          "ts": 1786109189000,
+          "time": "21:26:29",
+          "receivedAt": 1786112978427,
+          "receivedTime": true
+        },
+        {
+          "id": "225856",
+          "url": "https://t.me/jin10light/225856",
+          "title": "北京：非京籍家庭购房社保个税缴纳年限下调为一年",
+          "body": "8月7日讯，北京市住房和城乡建设委员会、北京市规划和自然资源委员会、北京住房公积金管理中心7日晚联合印发《关于进一步优化调整本市房地产政策的通知》，明确非京籍家庭购买五环内商品住房的社保或个税缴纳年限由“2年”，调减为“1年”。 调整后，非京籍家庭在全市范围内购买商品住房的社保或个税缴纳年限统一为“1年”，购买商品住房的套数保持不变。 即：社保或个税缴纳满1年的非京籍家庭，在五环内可购买1套商品住房，多子女家庭可再多购买1套；在五环外，不限购买套数。 《通知》自8日起实施。 #北京 #中国",
+          "tags": [
+            "#北京",
+            "#中国"
+          ],
+          "ts": 1786109070000,
+          "time": "21:24:30",
+          "receivedAt": 1786112978427,
+          "receivedTime": true
+        },
         {
           "id": "225855",
           "url": "https://t.me/jin10light/225855",
@@ -19107,380 +19495,6 @@
           "ts": 1785825807000,
           "time": "14:43:27",
           "receivedAt": 1785835744010,
-          "receivedTime": true
-        },
-        {
-          "id": "224681",
-          "url": "https://t.me/jin10light/224681",
-          "title": "苹果前工程师泄密案：OpenAI放出聊天记录「翻盘」，苹果还指控其另用漏洞下载文件",
-          "body": "#苹果 #OpenAI #Chang Liu ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#苹果",
-            "#OpenAI",
-            "#Chang"
-          ],
-          "ts": 1785825629000,
-          "time": "14:40:29",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224680",
-          "url": "https://t.me/jin10light/224680",
-          "title": "沪深两市成交额突破2万亿元，较上日此时放量超1900亿元。",
-          "body": "#A股 #沪深两市",
-          "tags": [
-            "#A股",
-            "#沪深两市"
-          ],
-          "ts": 1785825450000,
-          "time": "14:37:30",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224679",
-          "url": "https://t.me/jin10light/224679",
-          "title": "韩国KOSPI指数收涨1.62%，SK海力士与三星电子微涨不足1%",
-          "body": "#韩国 #KOSPI #SK海力士",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1785825271000,
-          "time": "14:34:31",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224678",
-          "url": "https://t.me/jin10light/224678",
-          "title": "日股小幅收涨 韩国创业板指延续涨势",
-          "body": "8月4日讯，日经225指数8月4日（周二）收盘上涨202.63点，涨幅0.32%，报63957.53点，铠侠涨超4%。 韩国KOSPI指数8月4日（周二）收盘上涨101.5点，涨幅1.62%，报6358.95点，盘中一度承压跌跌超2%；韩国创业板指（KOSDAQ）收涨5.88%，连涨3个交易日走强并在盘中触发买方程序化交易暂停机制；SK海力士微涨0.63%，三星电子涨0.2%。 #日股 #韩国 #KOSDAQ",
-          "tags": [
-            "#日股",
-            "#韩国",
-            "#KOSDAQ"
-          ],
-          "ts": 1785825149000,
-          "time": "14:32:29",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224677",
-          "url": "https://t.me/jin10light/224677",
-          "title": "摩根大通股票配置：继续看好「科技+周期」，建议加入医疗板块降风险",
-          "body": "#摩根大通 #美股 #韩国",
-          "tags": [
-            "#摩根大通",
-            "#美股",
-            "#韩国"
-          ],
-          "ts": 1785824566000,
-          "time": "14:22:46",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224676",
-          "url": "https://t.me/jin10light/224676",
-          "title": "A股CPO板块持续冲高，联讯仪器20CM涨停，协创数据、鼎通科技、长光华芯、天孚通信、仕佳光子跟涨。",
-          "body": "#A股 #CPO #联讯仪器 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#A股",
-            "#CPO",
-            "#联讯仪器"
-          ],
-          "ts": 1785824075000,
-          "time": "14:14:35",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224675",
-          "url": "https://t.me/jin10light/224675",
-          "title": "五大热门标的TOP 1挂单一览：闪迪、SpaceX财报前被布设3000万订单",
-          "body": "#SNDK #SPCX #SKHX",
-          "tags": [
-            "#SNDK",
-            "#SPCX",
-            "#SKHX"
-          ],
-          "ts": 1785824074000,
-          "time": "14:14:34",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224674",
-          "url": "https://t.me/jin10light/224674",
-          "title": "彭博：韩股最大危机并非暴跌，而是市场信任正在流失",
-          "body": "#韩国 #KOSPI #SK海力士",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1785823533000,
-          "time": "14:05:33",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224673",
-          "url": "https://t.me/jin10light/224673",
-          "title": "创业板指涨超6%，深成指涨超3.5%，沪指涨0.6%。",
-          "body": "全市场上涨个股超3700只。 #创业板指 #深成指 #沪指",
-          "tags": [
-            "#创业板指",
-            "#深成指",
-            "#沪指"
-          ],
-          "ts": 1785823349000,
-          "time": "14:02:29",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224672",
-          "url": "https://t.me/jin10light/224672",
-          "title": "Bitunix分析师：政策工具正在金融化，全球市场交易的不只是利率，而是制度信用",
-          "body": "#美国 #特朗普 #霍尔木兹海峡 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1785823121000,
-          "time": "13:58:41",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224671",
-          "url": "https://t.me/jin10light/224671",
-          "title": "SK海力士DRAM市场份额仅领先美光约1个百分点，HBM价格变化成关键因素",
-          "body": "#SK海力士 #美光 #DRAM",
-          "tags": [
-            "#SK海力士",
-            "#美光",
-            "#DRAM"
-          ],
-          "ts": 1785822749000,
-          "time": "13:52:29",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224670",
-          "url": "https://t.me/jin10light/224670",
-          "title": "美伊官员称伊朗与阿曼接近达成霍尔木兹海峡航行协议",
-          "body": "8月4日讯，美国方面3日援引伊朗和美国官员的话称，就霍尔木兹海峡航行，伊朗和阿曼正接近达成协议。 美国方面消息显示，根据双方商讨的协议，进入波斯湾的船只将从靠近伊朗海岸且由伊方控制的一条航道行驶，而驶出的船只将取道一条靠近阿曼的航道。 多名伊朗官员说，往来船只需要缴纳“服务费”，这笔收入将由伊朗和阿曼平分。 不过，一名了解谈判情况的美方官员称，伊方官员表述“不准确”，而且霍尔木兹海峡任何“临时”航道的设立都无须伊方批准，不会对过往船只收费。 #伊朗 #阿曼 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#阿曼",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1785822390000,
-          "time": "13:46:30",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224669",
-          "url": "https://t.me/jin10light/224669",
-          "title": "能源ï",
-          "body": "1.特朗普喊话石油巨头：现在就降低零售油价。 2. 南非政府表示，8月份汽油价格将下调52分/升。 3. 科威特7月原油产量升至中东战争爆发以来最高水平。 4. 市场消息：伊朗战争使比利时在7月完全依赖俄罗斯液化天然气。 5. 消息人士称，受里海管道联盟出口中断影响，哈萨克斯坦7月油气凝析油产量较6月下降14%。 6. 俄气7月通过“土耳其溪”管道向欧洲输送的日均天然气量为4880万立方米，较去年同期下降5.2%。 7. 通知显示，印度自8月3日起将汽油出口的暴利税从每升2.5卢比提高至每升3.5卢比。 印度将把柴油出口税上调至每升24卢比。 8. 船...",
-          "tags": [],
-          "ts": 1785822271000,
-          "time": "13:44:31",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224668",
-          "url": "https://t.me/jin10light/224668",
-          "title": "今日重点关注的财经数据与事件：2026年8月4日 周二",
-          "body": "① 待定 SpaceX公布二季度业绩 ② 待定 FMS 2026闪存峰会举行 ③ 20:30 美国6月贸易帐 ④ 22:00 美国6月JOLTs职位空缺 ⑤ 22:00 美国6月工厂订单月率 ⑥ 次日04:30 美国至7月31日当周API原油库存 #SpaceX #美国 #FMS 2026",
-          "tags": [
-            "#SpaceX",
-            "#美国",
-            "#FMS"
-          ],
-          "ts": 1785822087000,
-          "time": "13:41:27",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224667",
-          "url": "https://t.me/jin10light/224667",
-          "title": "某CXMT空头巨鲸资金费支出超204万美元，持仓浮亏430万美元",
-          "body": "#CXMT #空头巨鲸",
-          "tags": [
-            "#CXMT",
-            "#空头巨鲸"
-          ],
-          "ts": 1785822028000,
-          "time": "13:40:28",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224666",
-          "url": "https://t.me/jin10light/224666",
-          "title": "科创50指数涨超5%，成分股中，源杰科技涨超14%，芯原股份涨超13%，华虹宏力涨近10%。",
-          "body": "",
-          "tags": [],
-          "ts": 1785821491000,
-          "time": "13:31:31",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224665",
-          "url": "https://t.me/jin10light/224665",
-          "title": "沪银主力合约日内涨幅达2.00%，现报14394.00元/千克。",
-          "body": "#沪银 #A股",
-          "tags": [
-            "#沪银",
-            "#A股"
-          ],
-          "ts": 1785821491000,
-          "time": "13:31:31",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224664",
-          "url": "https://t.me/jin10light/224664",
-          "title": "甲骨文链上持仓量激增88%居首，1名聪明钱开立950万ORCL多仓",
-          "body": "#ORCL #Hyperliquid #美国",
-          "tags": [
-            "#ORCL",
-            "#Hyperliquid",
-            "#美国"
-          ],
-          "ts": 1785820888000,
-          "time": "13:21:28",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224663",
-          "url": "https://t.me/jin10light/224663",
-          "title": "铠侠涨2.97%，推出GP1系列高性能固态硬盘以抢占AI存储市场",
-          "body": "#铠侠 #日经225",
-          "tags": [
-            "#铠侠",
-            "#日经225"
-          ],
-          "ts": 1785820529000,
-          "time": "13:15:29",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224662",
-          "url": "https://t.me/jin10light/224662",
-          "title": "分析：英伟达或调整Rubin Ultra HBM规格，以缓解HBM供应压力",
-          "body": "#英伟达 #HBM #AI 芯片",
-          "tags": [
-            "#英伟达",
-            "#HBM",
-            "#AI"
-          ],
-          "ts": 1785820048000,
-          "time": "13:07:28",
-          "receivedAt": 1785825763603,
-          "receivedTime": true
-        },
-        {
-          "id": "224661",
-          "url": "https://t.me/jin10light/224661",
-          "title": "Bithumb将上线META2、USDG韩元交易对",
-          "body": "#Bithumb #韩国 #META2",
-          "tags": [
-            "#Bithumb",
-            "#韩国",
-            "#META2"
-          ],
-          "ts": 1785819987000,
-          "time": "13:06:27",
-          "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224660",
-          "url": "https://t.me/jin10light/224660",
-          "title": "深成指涨超3%，成分股光库科技20CM涨停。",
-          "body": "#深成指 #光库科技",
-          "tags": [
-            "#深成指",
-            "#光库科技"
-          ],
-          "ts": 1785819869000,
-          "time": "13:04:29",
-          "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224659",
-          "url": "https://t.me/jin10light/224659",
-          "title": "8月4日讯，创业板指涨超5%，深成指涨2.75%，沪指涨0.16%。",
-          "body": "全市场上涨个股超3700只。 #创业板指 #深成指 #沪指",
-          "tags": [
-            "#创业板指",
-            "#深成指",
-            "#沪指"
-          ],
-          "ts": 1785819747000,
-          "time": "13:02:27",
-          "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224658",
-          "url": "https://t.me/jin10light/224658",
-          "title": "苹果最严保密却栽在iCloud：员工离职仍能收到机密文件更新",
-          "body": "#苹果 #OpenAI",
-          "tags": [
-            "#苹果",
-            "#OpenAI"
-          ],
-          "ts": 1785819689000,
-          "time": "13:01:29",
-          "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224657",
-          "url": "https://t.me/jin10light/224657",
-          "title": "HYPE套利空间收窄，资金费率回落下巨鲸撤出1100万对冲仓位",
-          "body": "#HYPE",
-          "tags": [
-            "#HYPE"
-          ],
-          "ts": 1785819329000,
-          "time": "12:55:29",
-          "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224656",
-          "url": "https://t.me/jin10light/224656",
-          "title": "HOME短时涨超30%，市值升至3850万美元",
-          "body": "#HOME #Upbit #韩国",
-          "tags": [
-            "#HOME",
-            "#Upbit",
-            "#韩国"
-          ],
-          "ts": 1785818848000,
-          "time": "12:47:28",
-          "receivedAt": 1785825763918,
           "receivedTime": true
         }
       ],
