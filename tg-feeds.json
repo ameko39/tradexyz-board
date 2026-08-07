@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T23:09:13.520Z",
+  "updatedAt": "2026-08-07T23:46:03.338Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2401,20 +2401,9 @@
           "time": "14:00:15",
           "receivedAt": 1784873590424,
           "receivedTime": true
-        },
-        {
-          "id": "6646",
-          "url": "https://t.me/BWEtradfi/6646",
-          "title": "DB: *日本6月整体消费者价格指数同比上涨1.7%（预期涨幅1.7%）",
-          "body": "DB: *JAPAN JUNE OVERALL CONSUMER PRICES RISE 1.7% Y/Y; EST. +1.7% *JAPAN JUNE CORE CONSUMER PRICES RISE 1.6% Y/Y; EST. +1.6% *日本6月核心消费者价格指数同比上涨1.6%（预期涨幅1.6%）",
-          "tags": [],
-          "ts": 1784849419000,
-          "time": "07:30:19",
-          "receivedAt": 1784851875372,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
