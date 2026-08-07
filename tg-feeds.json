@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-07T18:01:18.909Z",
+  "updatedAt": "2026-08-07T19:07:08.015Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6852",
+          "url": "https://t.me/BWEtradfi/6852",
+          "title": "*一旦达成恢复商业航运畅通无阻的协议，美国将解除对伊朗港口的封锁——美国官员",
+          "body": "*ONCE A DEAL IS ANNOUNCED TO RESTORE COMMERCIAL SHIPPING WITHOUT IMPEDIMENTS, THE U.S. WILL LIFT THE BLOCKADE OF IRANIAN PORTS -U.S. OFFICIAL *U.S. ACTIONS WILL CONTINUE TO BE PERFORMANCE-BASED AND TIED TO IRAN'S IMPLEMENTATION OF ITS COMMITMENTS -U.S. OFFICIAL *美国的行动将继续以伊朗履行承诺为依据，并与伊朗的履约情况挂钩——美国官员",
+          "tags": [],
+          "ts": 1786129310000,
+          "time": "03:01:50",
+          "receivedAt": 1786129614747,
+          "receivedTime": true
+        },
+        {
+          "id": "6851",
+          "url": "https://t.me/BWEtradfi/6851",
+          "title": "DB: *美国6月消费者信贷环比增加141.7亿美元；预期增加105.0亿美元",
+          "body": "DB: *US JUNE CONSUMER CREDIT RISES $14.17B M/M; EST. +10.50B",
+          "tags": [],
+          "ts": 1786129218000,
+          "time": "03:00:18",
+          "receivedAt": 1786129614747,
+          "receivedTime": true
+        },
         {
           "id": "6850",
           "url": "https://t.me/BWEtradfi/6850",
@@ -2357,17 +2379,6 @@
           "time": "04:00:14",
           "receivedAt": 1784836981102,
           "receivedTime": true
-        },
-        {
-          "id": "6641",
-          "url": "https://t.me/BWEtradfi/6641",
-          "title": "*特朗普力荐美国情报投资",
-          "body": "*TRUMP TOUTS US INTEL INVESTMENT *NOTE: INTEL REPORTS EARNINGS AFTER CLOSE $INTC *注：英特尔财报将于收盘后发布 $INTC",
-          "tags": [],
-          "ts": 1784831550000,
-          "time": "02:32:30",
-          "receivedAt": 1784836981102,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2375,6 +2386,31 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225916",
+          "url": "https://t.me/jin10light/225916",
+          "title": "美、布两油短线走低，美国官员称阿曼与伊朗在霍尔木兹海峡的谈判取得进展，预计将很快达成协议。",
+          "body": "",
+          "tags": [],
+          "ts": 1786129348000,
+          "time": "03:02:28",
+          "receivedAt": 1786129615188,
+          "receivedTime": true
+        },
+        {
+          "id": "225915",
+          "url": "https://t.me/jin10light/225915",
+          "title": "据路透社：消息人士透露，加拿大方面表示，美方已同意在8月19日前每天举行谈判。",
+          "body": "加拿大准备回应美国对酒类销售以及乳制品和汽车行业的关切，但作为交换，加拿大需要获得美国《贸易扩展法》第232条关税豁免。 #加拿大 #美国",
+          "tags": [
+            "#加拿大",
+            "#美国"
+          ],
+          "ts": 1786126108000,
+          "time": "02:08:28",
+          "receivedAt": 1786129615188,
+          "receivedTime": true
+        },
         {
           "id": "225914",
           "url": "https://t.me/jin10light/225914",
@@ -19479,36 +19515,6 @@
           ],
           "ts": 1785832829000,
           "time": "16:40:29",
-          "receivedAt": 1785835743596,
-          "receivedTime": true
-        },
-        {
-          "id": "224716",
-          "url": "https://t.me/jin10light/224716",
-          "title": "DeepSeek便宜到离谱：OpenCode两个月狂跑90万亿Token，账单仅92万美元",
-          "body": "#DeepSeek #OpenCode #AI 编程工具",
-          "tags": [
-            "#DeepSeek",
-            "#OpenCode",
-            "#AI"
-          ],
-          "ts": 1785832470000,
-          "time": "16:34:30",
-          "receivedAt": 1785835743596,
-          "receivedTime": true
-        },
-        {
-          "id": "224715",
-          "url": "https://t.me/jin10light/224715",
-          "title": "腾讯混元正式发布新一代语音识别模型Hy ASR 3.0 preview",
-          "body": "#腾讯 #Hy ASR 3.0 #腾讯云",
-          "tags": [
-            "#腾讯",
-            "#Hy",
-            "#腾讯云"
-          ],
-          "ts": 1785832470000,
-          "time": "16:34:30",
           "receivedAt": 1785835743596,
           "receivedTime": true
         }
