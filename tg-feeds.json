@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-08-07T12:05:23.681Z",
+  "updatedAt": "2026-08-07T13:24:36.161Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6839",
+          "url": "https://t.me/BWEtradfi/6839",
+          "title": "DB: *美国7月非农就业人数环比减少2.3万人；预期增加8万人",
+          "body": "DB: *US JULY NONFARM PAYROLLS FALL -23K M/M; EST. +80K *US JULY UNEMPLOYMENT RATE 4.1%; EST. 4.2% *US JULY AVERAGE HOURLY EARNINGS RISE 0.1% M/M; EST. +0.3% *US JULY AVERAGE HOURLY EARNINGS RISE 3.2% Y/Y; EST. +3.5% *美国7月失业率4.1%；预期4.2% *美国7月平均时薪环比增长0.1%；预期增长0.3% *美国7月平均时薪同比增长3.2%；预期增长3.5%",
+          "tags": [],
+          "ts": 1786105816000,
+          "time": "20:30:16",
+          "receivedAt": 1786109059142,
+          "receivedTime": true
+        },
+        {
+          "id": "6838",
+          "url": "https://t.me/BWEtradfi/6838",
+          "title": "Infinityhedge: 非农就业人口变动：-2.3万",
+          "body": "Infinityhedge: NFP: -23k",
+          "tags": [],
+          "ts": 1786105815000,
+          "time": "20:30:15",
+          "receivedAt": 1786109059142,
+          "receivedTime": true
+        },
+        {
+          "id": "6837",
+          "url": "https://t.me/BWEtradfi/6837",
+          "title": "DB: *加拿大7月就业人数环比增加7.51万人；预期增加1.5万人",
+          "body": "DB: *CANADA JULY EMPLOYMENT RISES 75.1K M/M; EST. +15.0K *CANADA JULY UNEMPLOYMENT RATE 6.4%; EST. 6.5% *加拿大7月失业率6.4%；预期6.5%",
+          "tags": [],
+          "ts": 1786105814000,
+          "time": "20:30:14",
+          "receivedAt": 1786109059142,
+          "receivedTime": true
+        },
         {
           "id": "6836",
           "url": "https://t.me/BWEtradfi/6836",
@@ -2288,46 +2321,681 @@
           "time": "21:30:43",
           "receivedAt": 1784817346924,
           "receivedTime": true
-        },
-        {
-          "id": "6633",
-          "url": "https://t.me/BWEtradfi/6633",
-          "title": "DB: *加拿大5月零售额环比增长1%；预期增长1.0%",
-          "body": "DB: *CANADA MAY RETAIL SALES RISE 1% M/M; EST. +1.0% *CANADA MAY CORE RETAIL SALES RISE 1.2% M/M; EST. +1.4% *加拿大5月核心零售额环比增长1.2%；预期增长1.4%",
-          "tags": [],
-          "ts": 1784809816000,
-          "time": "20:30:16",
-          "receivedAt": 1784817346924,
-          "receivedTime": true
-        },
-        {
-          "id": "6632",
-          "url": "https://t.me/BWEtradfi/6632",
-          "title": "DB: *美国7月第18周首次申请失业救济人数为18.7万人；预计为21.2万人",
-          "body": "DB: *US JOBLESS CLAIMS 187K IN JULY 18 WEEK; EST. 212K *US CONTINUING CLAIMS 1.796M IN JULY 11 WEEK; EST. 1.807M *美国7月第11周持续申请失业救济人数为179.6万人；预计为180.7万人",
-          "tags": [],
-          "ts": 1784809814000,
-          "time": "20:30:14",
-          "receivedAt": 1784817346924,
-          "receivedTime": true
-        },
-        {
-          "id": "6631",
-          "url": "https://t.me/BWEtradfi/6631",
-          "title": "DB: *欧洲央行维持存款机制利率在2.25%不变；预期为2.25%",
-          "body": "DB: *ECB LEAVES DEPOSIT FACILITY RATE AT 2.25%; EST. 2.25%",
-          "tags": [],
-          "ts": 1784808914000,
-          "time": "20:15:14",
-          "receivedAt": 1784809031516,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225855",
+          "url": "https://t.me/jin10light/225855",
+          "title": "白宫国家经济委员会主任哈塞特：（谈就业数据）看到参与率略有疲软。",
+          "body": "#白宫 #哈塞特 #美国",
+          "tags": [
+            "#白宫",
+            "#哈塞特",
+            "#美国"
+          ],
+          "ts": 1786108949000,
+          "time": "21:22:29",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225854",
+          "url": "https://t.me/jin10light/225854",
+          "title": "观点：比特币宏观底部或已经形成，三大长线指标暗示周期底部",
+          "body": "#BTC #Alicharts",
+          "tags": [
+            "#BTC",
+            "#Alicharts"
+          ],
+          "ts": 1786108949000,
+          "time": "21:22:29",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225853",
+          "url": "https://t.me/jin10light/225853",
+          "title": "重要新é",
+          "body": "1.美国劳工统计局：5月份非农新增就业人数从12.9万人下修至6.3万人；6月份非农新增就业人数从5.7万人下修至2万人。 修正后，5月和6月新增就业人数合计较修正前低10.3万人。 2. 美国7月季调后非农就业人口减少2.3万人，为2月以来首次出现下降，市场预期为增加8万人。 美国7月失业率略降至4.1%，为2025年6月以来最低水平，低于市场预期中值4.2%。 3. 美国利率期货市场定价显示，预计到12月加息幅度仅为28个基点，低于非农就业数据公布前的32个基点。 4. 日本财务大臣片山皋月：日美双方一直在密切沟通，都将在必要时毫不犹豫地采取干预措...",
+          "tags": [
+            "#美国",
+            "#韩国",
+            "#SpaceX"
+          ],
+          "ts": 1786108833000,
+          "time": "21:20:33",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225852",
+          "url": "https://t.me/jin10light/225852",
+          "title": "SharpLink联创反对以太坊EIP-8361提案，称其削弱DeFi且推出时机不对",
+          "body": "#ETH #SharpLink #Joseph Chalom",
+          "tags": [
+            "#ETH",
+            "#SharpLink",
+            "#Joseph"
+          ],
+          "ts": 1786108527000,
+          "time": "21:15:27",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225851",
+          "url": "https://t.me/jin10light/225851",
+          "title": "Gemini 3.5 Pro一拖再拖，3.7 Flash已经开始冒头",
+          "body": "#谷歌 #Gemini",
+          "tags": [
+            "#谷歌",
+            "#Gemini"
+          ],
+          "ts": 1786108469000,
+          "time": "21:14:29",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225850",
+          "url": "https://t.me/jin10light/225850",
+          "title": "Vitalik再赞中国AI：MiniMax H3是首个超越混元Video1.5的开源视频模型",
+          "body": "#Vitalik Buterin #ETH #腾讯",
+          "tags": [
+            "#Vitalik",
+            "#ETH",
+            "#腾讯"
+          ],
+          "ts": 1786108050000,
+          "time": "21:07:30",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225849",
+          "url": "https://t.me/jin10light/225849",
+          "title": "SemiAnalysis唱衰谷歌DeepMind：已经不算最前沿AI实验室了",
+          "body": "#谷歌 #DeepMind #Anthropic",
+          "tags": [
+            "#谷歌",
+            "#DeepMind",
+            "#Anthropic"
+          ],
+          "ts": 1786107699000,
+          "time": "21:01:39",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225848",
+          "url": "https://t.me/jin10light/225848",
+          "title": "夜盘开盘，国内期货主力合约涨多跌少。",
+          "body": "沪银涨超4%，沪金涨超2%，乙二醇（EG）、不锈钢（SS）涨超1%，沪镍、沪锡涨近1%。 跌幅方面，沪锌、SC原油跌近1%。 #沪银 #沪金 #SC原油 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#沪银",
+            "#沪金",
+            "#SC原油"
+          ],
+          "ts": 1786107631000,
+          "time": "21:00:31",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225847",
+          "url": "https://t.me/jin10light/225847",
+          "title": "Vitalik：Signal正探索无需手机号注册，真正隐私仍需「逐条消息不可关联」",
+          "body": "#Vitalik Buterin #ETH #Signal",
+          "tags": [
+            "#Vitalik",
+            "#ETH",
+            "#Signal"
+          ],
+          "ts": 1786107630000,
+          "time": "21:00:30",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225846",
+          "url": "https://t.me/jin10light/225846",
+          "title": "Bitwise CIO：若Clarity Act本周未通过，加密市场或先抑后扬，秋季迎来反弹",
+          "body": "#Bitwise #Matt Hougan #Clarity Act",
+          "tags": [
+            "#Bitwise",
+            "#Matt",
+            "#Clarity"
+          ],
+          "ts": 1786107271000,
+          "time": "20:54:31",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225845",
+          "url": "https://t.me/jin10light/225845",
+          "title": "美国非农数据意外“大降温” 失业率降至4.1%",
+          "body": "8月7日讯，美国经济在7月意外出现就业岗位减少，且前一个月的非农就业数据被大幅下调，这可能引发人们对美联储下月是否会加息的质疑。 周五发布的就业报告指出，上个月非农就业人数减少了2.3万个，此前6月份的新增就业人数下修为增长2万个。 然而，就业数据在7月通常表现较为温和。 经济学家普遍认为劳动力市场正处于“缓慢招聘、缓慢裁员”的状态。 尽管中东局势持续至今已进入第六个月，但经济似乎已成功应对，第二季度国内需求增速达到三年来最快水平。 随着劳动力参与率进一步下降，失业率从6月的4.2%回落至4.1%。 在报告发布前，金融市场预计美联储将在9月加息。 预计...",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#非农数据"
+          ],
+          "ts": 1786106671000,
+          "time": "20:44:31",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225844",
+          "url": "https://t.me/jin10light/225844",
+          "title": "现货黄金日内大涨3.00%，现报4367.90美元/盎司。",
+          "body": "现货白银现涨5.5%。 #黄金 #美元",
+          "tags": [
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1786106611000,
+          "time": "20:43:31",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225843",
+          "url": "https://t.me/jin10light/225843",
+          "title": "美国劳工统计局：7月份非农就业人数意外减少2.3万人，使得过去12个月的平均月度增幅调整为3.4万人。",
+          "body": "#美国 #非农就业",
+          "tags": [
+            "#美国",
+            "#非农就业"
+          ],
+          "ts": 1786106560000,
+          "time": "20:42:40",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225842",
+          "url": "https://t.me/jin10light/225842",
+          "title": "日本财务大臣：已与美国财长达成共识，双方在必要时都不会犹豫进行干预",
+          "body": "#日本 #美国 #片山皋月",
+          "tags": [
+            "#日本",
+            "#美国",
+            "#片山皋月"
+          ],
+          "ts": 1786106427000,
+          "time": "20:40:27",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225841",
+          "url": "https://t.me/jin10light/225841",
+          "title": "非农数据公布后，美股股指期货快速拉升",
+          "body": "#美国 #美股 #美元",
+          "tags": [
+            "#美国",
+            "#美股",
+            "#美元"
+          ],
+          "ts": 1786106367000,
+          "time": "20:39:27",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225840",
+          "url": "https://t.me/jin10light/225840",
+          "title": "美国7月就业超预期萎缩，美联储迎政策难题，市场加息预期快速回落",
+          "body": "",
+          "tags": [],
+          "ts": 1786106311000,
+          "time": "20:38:31",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225839",
+          "url": "https://t.me/jin10light/225839",
+          "title": "美元兑日元USD/JPY失守157，日内跌超1.00%。",
+          "body": "#美元 #日元",
+          "tags": [
+            "#美元",
+            "#日元"
+          ],
+          "ts": 1786106191000,
+          "time": "20:36:31",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225838",
+          "url": "https://t.me/jin10light/225838",
+          "title": "“美联储传声筒”Nick Timiraos：7月份，美国失业率降至4.09%，因为求职人数和被统计为失业的人数均有所下降；这一数据使失业率降至两年来的最低水平。",
+          "body": "2月份为4.44%，去年11月份为4.54%。 #美联储 #美国 #Nick Timiraos",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#Nick"
+          ],
+          "ts": 1786106190000,
+          "time": "20:36:30",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225837",
+          "url": "https://t.me/jin10light/225837",
+          "title": "7月非农就业数据疲软，美债价格飙升。",
+          "body": "#美国 #美债",
+          "tags": [
+            "#美国",
+            "#美债"
+          ],
+          "ts": 1786106136000,
+          "time": "20:35:36",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225836",
+          "url": "https://t.me/jin10light/225836",
+          "title": "日本财务大臣片山皋月：日美双方一直在密切沟通，都将在必要时毫不犹豫地采取干预措施。",
+          "body": "#日本 #美国 #片山皋月",
+          "tags": [
+            "#日本",
+            "#美国",
+            "#片山皋月"
+          ],
+          "ts": 1786106135000,
+          "time": "20:35:35",
+          "receivedAt": 1786109059652,
+          "receivedTime": true
+        },
+        {
+          "id": "225835",
+          "url": "https://t.me/jin10light/225835",
+          "title": "非农数据公布后，12月加息幅度预期明显下降",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1786106135000,
+          "time": "20:35:35",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225834",
+          "url": "https://t.me/jin10light/225834",
+          "title": "日本财务大臣片山皋月：已与美国财长贝森特达成一致，认为外汇市场受到了非实际需求驱动的走势的影响。",
+          "body": "#日本 #美国 #片山皋月",
+          "tags": [
+            "#日本",
+            "#美国",
+            "#片山皋月"
+          ],
+          "ts": 1786106078000,
+          "time": "20:34:38",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225833",
+          "url": "https://t.me/jin10light/225833",
+          "title": "非农数据公布后，非美货币普遍走高，美元兑日元USD/JPY短线走低80点，报157.72；欧元兑美元EUR/USD短线走高20点，报1.1544；英镑兑美元GBP/USD短线走高约20点，报1.3463。",
+          "body": "#美元 #日元 #欧元",
+          "tags": [
+            "#美元",
+            "#日元",
+            "#欧元"
+          ],
+          "ts": 1786106077000,
+          "time": "20:34:37",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225832",
+          "url": "https://t.me/jin10light/225832",
+          "title": "美国利率期货市场定价显示，预计到12月加息幅度仅为28个基点，低于非农就业数据公布前的32个基点。",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1786106077000,
+          "time": "20:34:37",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225831",
+          "url": "https://t.me/jin10light/225831",
+          "title": "纽约期金站上4400美元/盎司，日内涨2.36%。",
+          "body": "#纽约 #黄金",
+          "tags": [
+            "#纽约",
+            "#黄金"
+          ],
+          "ts": 1786106012000,
+          "time": "20:33:32",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225830",
+          "url": "https://t.me/jin10light/225830",
+          "title": "美国劳工统计局：7月份，失业率录得4.1%，而失业人数则达到了690万。",
+          "body": "#美国 #失业率 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美国",
+            "#失业率"
+          ],
+          "ts": 1786106011000,
+          "time": "20:33:31",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225829",
+          "url": "https://t.me/jin10light/225829",
+          "title": "美国劳工统计局：7月份，地方政府教育部门与零售业的就业人数有所下降，而医疗保健行业的就业人数则持续上升。",
+          "body": "#美国 #医疗保健 #零售业",
+          "tags": [
+            "#美国",
+            "#医疗保健",
+            "#零售业"
+          ],
+          "ts": 1786106010000,
+          "time": "20:33:30",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225828",
+          "url": "https://t.me/jin10light/225828",
+          "title": "非农数据公布后，美元指数DXY短线走低近30点，报99.67。",
+          "body": "#美元 #美国",
+          "tags": [
+            "#美元",
+            "#美国"
+          ],
+          "ts": 1786105950000,
+          "time": "20:32:30",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225827",
+          "url": "https://t.me/jin10light/225827",
+          "title": "美国5月和6月非农就业新增人数合计下修10.3万人",
+          "body": "8月7日讯，美国劳工统计局：5月份非农新增就业人数从12.9万人下修至6.3万人；6月份非农新增就业人数从5.7万人下修至2万人。 修正后，5月和6月新增就业人数合计较修正前低10.3万人。 #美国 #非农就业 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美国",
+            "#非农就业"
+          ],
+          "ts": 1786105949000,
+          "time": "20:32:29",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225826",
+          "url": "https://t.me/jin10light/225826",
+          "title": "非农数据公布后，美元走低，比特币冲高回落，黄金上扬 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "body": "",
+          "tags": [],
+          "ts": 1786105949000,
+          "time": "20:32:29",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225825",
+          "url": "https://t.me/jin10light/225825",
+          "title": "美国7月非农意外减少",
+          "body": "8月7日讯，美国7月季调后非农就业人口减少2.3万人，为2月以来首次出现下降，市场预期为增加8万人。 #美国 #非农就业 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美国",
+            "#非农就业"
+          ],
+          "ts": 1786105896000,
+          "time": "20:31:36",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225824",
+          "url": "https://t.me/jin10light/225824",
+          "title": "美国7月失业率将至一年多低位",
+          "body": "8月7日讯，美国7月失业率略降至4.1%，为2025年6月以来最低水平，低于市场预期中值4.2%。 #美国 #失业率",
+          "tags": [
+            "#美国",
+            "#失业率"
+          ],
+          "ts": 1786105895000,
+          "time": "20:31:35",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225823",
+          "url": "https://t.me/jin10light/225823",
+          "title": "非农数据公布后，现货黄金短线上扬约40美元，报4351.43美元/盎司。",
+          "body": "#黄金 #美国",
+          "tags": [
+            "#黄金",
+            "#美国"
+          ],
+          "ts": 1786105895000,
+          "time": "20:31:35",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225822",
+          "url": "https://t.me/jin10light/225822",
+          "title": "美国7月失业率4.1%，略低于预期",
+          "body": "#美国 #美元",
+          "tags": [
+            "#美国",
+            "#美元"
+          ],
+          "ts": 1786105894000,
+          "time": "20:31:34",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225821",
+          "url": "https://t.me/jin10light/225821",
+          "title": "美国7月季调后非农就业人口-2.3万人，远低于预期",
+          "body": "#美国 #非农就业",
+          "tags": [
+            "#美国",
+            "#非农就业"
+          ],
+          "ts": 1786105893000,
+          "time": "20:31:33",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225820",
+          "url": "https://t.me/jin10light/225820",
+          "title": "加拿大7月就业人数 7.51万人，预期1.5万人，前值1.82万人。",
+          "body": "#加拿大",
+          "tags": [
+            "#加拿大"
+          ],
+          "ts": 1786105840000,
+          "time": "20:30:40",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225819",
+          "url": "https://t.me/jin10light/225819",
+          "title": "美国7月季调后非农就业人口 -2.3万人，预期8万人，前值由5.7万人修正为2万人。",
+          "body": "#美国 #非农就业 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美国",
+            "#非农就业"
+          ],
+          "ts": 1786105838000,
+          "time": "20:30:38",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225818",
+          "url": "https://t.me/jin10light/225818",
+          "title": "美国7月平均每小时工资月率 0.1%，预期0.30%，前值0.30%。",
+          "body": "",
+          "tags": [],
+          "ts": 1786105838000,
+          "time": "20:30:38",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225817",
+          "url": "https://t.me/jin10light/225817",
+          "title": "美国7月失业率 4.1%，预期4.2%，前值4.20%。",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1786105837000,
+          "time": "20:30:37",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225816",
+          "url": "https://t.me/jin10light/225816",
+          "title": "美股盘前要闻一览：非农左右市场情绪，特朗普召集矿企开会，海力士豪掷383亿美元扩产",
+          "body": "#美国 #美联储 #特朗普",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#特朗普"
+          ],
+          "ts": 1786105470000,
+          "time": "20:24:30",
+          "receivedAt": 1786109059887,
+          "receivedTime": true
+        },
+        {
+          "id": "225815",
+          "url": "https://t.me/jin10light/225815",
+          "title": "国家能源局：8月7日全国用电负荷入夏以来第四次创历史新高 达到15.57亿千瓦",
+          "body": "8月7日讯，8月7日，全国用电负荷入夏以来第四次创历史新高，达到15.57亿千瓦，较上一次创新高数值上涨约480万千瓦。 7月29日以来，全国用电负荷持续高位运行，日最大负荷（除周末假期外）均超过去年极值15.08亿千瓦，尖峰负荷呈现明显“平台化”特征。 今年以来，全国用电需求保持旺盛增长态势。 华北、东北、华东等6个区域电网21次创历史新高，北京、辽宁、江苏、江西、四川、甘肃等25个省（自治区、直辖市）用电负荷累计78次创新高。 #中国 #国家能源局 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#中国",
+            "#国家能源局"
+          ],
+          "ts": 1786105410000,
+          "time": "20:23:30",
+          "receivedAt": 1786109060125,
+          "receivedTime": true
+        },
+        {
+          "id": "225814",
+          "url": "https://t.me/jin10light/225814",
+          "title": "美国7月季调后非农就业人口及失业率、平均时薪月率及年率、加拿大7月就业人数将于十分钟后公布。",
+          "body": "#美国 #加拿大",
+          "tags": [
+            "#美国",
+            "#加拿大"
+          ],
+          "ts": 1786105287000,
+          "time": "20:21:27",
+          "receivedAt": 1786109060125,
+          "receivedTime": true
+        },
+        {
+          "id": "225813",
+          "url": "https://t.me/jin10light/225813",
+          "title": "美银警告：投资者看涨情绪已达2021年来最极端水平",
+          "body": "#美国 #美股 #美元",
+          "tags": [
+            "#美国",
+            "#美股",
+            "#美元"
+          ],
+          "ts": 1786105049000,
+          "time": "20:17:29",
+          "receivedAt": 1786109060125,
+          "receivedTime": true
+        },
+        {
+          "id": "225812",
+          "url": "https://t.me/jin10light/225812",
+          "title": "BitFuFu 7月比特币产量为112枚，总算力降至14.2EH/s",
+          "body": "#BTC #BitFuFu Inc. #纳斯达克",
+          "tags": [
+            "#BTC",
+            "#BitFuFu",
+            "#纳斯达克"
+          ],
+          "ts": 1786104934000,
+          "time": "20:15:34",
+          "receivedAt": 1786109060125,
+          "receivedTime": true
+        },
+        {
+          "id": "225811",
+          "url": "https://t.me/jin10light/225811",
+          "title": "上半年国内居民出游人次34.63亿 出游总花费3.21万亿元",
+          "body": "8月7日讯，从文化和旅游部了解到，根据国内居民出游抽样调查结果，2026年上半年，国内居民出游人次34.63亿，比上年同期增加1.78亿，同比增长5.4%。 其中：城镇居民国内出游人次25.94亿，同比增长5.8%；农村居民国内出游人次8.69亿，同比增长4.3%。 分季度看，一季度国内居民出游人次19.01亿，同比增长6.0%；二季度国内居民出游人次15.62亿，同比增长4.8%。 2026年上半年，国内居民出游总花费3.21万亿元，比上年增加0.06万亿元，同比增长2.0%。 其中，城镇居民出游花费2.66万亿元，同比增长2.2%；农村居民出游花费...",
+          "tags": [
+            "#中国",
+            "#文化和旅游部"
+          ],
+          "ts": 1786104808000,
+          "time": "20:13:28",
+          "receivedAt": 1786109060125,
+          "receivedTime": true
+        },
+        {
+          "id": "225810",
+          "url": "https://t.me/jin10light/225810",
+          "title": "Hyperliquid政策中心向CFTC提交声明，呼吁支持链上永续期货创新",
+          "body": "#Hyperliquid #美国 #CFTC",
+          "tags": [
+            "#Hyperliquid",
+            "#美国",
+            "#CFTC"
+          ],
+          "ts": 1786104635000,
+          "time": "20:10:35",
+          "receivedAt": 1786109060125,
+          "receivedTime": true
+        },
+        {
+          "id": "225809",
+          "url": "https://t.me/jin10light/225809",
+          "title": "矿企转型AI又一成功案例，Firmus完成20亿美元股权融资，英伟达参投",
+          "body": "#Firmus #BTC #澳大利亚",
+          "tags": [
+            "#Firmus",
+            "#BTC",
+            "#澳大利亚"
+          ],
+          "ts": 1786104328000,
+          "time": "20:05:28",
+          "receivedAt": 1786109060125,
+          "receivedTime": true
+        },
         {
           "id": "225808",
           "url": "https://t.me/jin10light/225808",
@@ -18813,687 +19481,6 @@
           "ts": 1785818848000,
           "time": "12:47:28",
           "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224655",
-          "url": "https://t.me/jin10light/224655",
-          "title": "昨日美国现货比特币ETF净流入1.701亿美元，现货以太坊ETF净流出1190万美元",
-          "body": "#美国 #BTC #ETH",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1785818729000,
-          "time": "12:45:29",
-          "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224654",
-          "url": "https://t.me/jin10light/224654",
-          "title": "韩国央行时隔13年恢复购买实物黄金，推动外汇储备多元化",
-          "body": "#韩国 #黄金 #韩国央行",
-          "tags": [
-            "#韩国",
-            "#黄金",
-            "#韩国央行"
-          ],
-          "ts": 1785818431000,
-          "time": "12:40:31",
-          "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224653",
-          "url": "https://t.me/jin10light/224653",
-          "title": "Palantir营收同比增长93%大超预期，「AI主权」战略推动估值重估",
-          "body": "#Palantir #美国 #亚历克斯·卡普",
-          "tags": [
-            "#Palantir",
-            "#美国",
-            "#亚历克斯"
-          ],
-          "ts": 1785818368000,
-          "time": "12:39:28",
-          "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224652",
-          "url": "https://t.me/jin10light/224652",
-          "title": "Upbit将上线HOME",
-          "body": "#Upbit #HOME #KRW",
-          "tags": [
-            "#Upbit",
-            "#HOME",
-            "#KRW"
-          ],
-          "ts": 1785817889000,
-          "time": "12:31:29",
-          "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224651",
-          "url": "https://t.me/jin10light/224651",
-          "title": "穆迪首次给予SK海力士A类评级，因AI存储热潮提振业绩",
-          "body": "#SK海力士 #穆迪 #韩国",
-          "tags": [
-            "#SK海力士",
-            "#穆迪",
-            "#韩国"
-          ],
-          "ts": 1785817529000,
-          "time": "12:25:29",
-          "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224650",
-          "url": "https://t.me/jin10light/224650",
-          "title": "韩国半导体集群获政策加码，政府最高100%承担基础设施建设成本",
-          "body": "#韩国",
-          "tags": [
-            "#韩国"
-          ],
-          "ts": 1785817057000,
-          "time": "12:17:37",
-          "receivedAt": 1785825763918,
-          "receivedTime": true
-        },
-        {
-          "id": "224649",
-          "url": "https://t.me/jin10light/224649",
-          "title": "美国完成AI模型发布前自愿审查框架，OpenAI、Anthropic等进白宫讨论",
-          "body": "#特朗普 #美国 #OpenAI",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#OpenAI"
-          ],
-          "ts": 1785816931000,
-          "time": "12:15:31",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224648",
-          "url": "https://t.me/jin10light/224648",
-          "title": "CNN：特朗普尚未犯下扩大伊朗战争的「致命错误」，但正面临关键抉择",
-          "body": "#美国 #伊朗 #特朗普",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#特朗普"
-          ],
-          "ts": 1785816571000,
-          "time": "12:09:31",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224647",
-          "url": "https://t.me/jin10light/224647",
-          "title": "【午间独家观点】",
-          "body": "【修正后综合观点】 【港股】美股科技大涨叠加两地证监会深化合作举措，港股互联网和硬科技情绪获得外溢支撑，短线有情绪修复空间。风险在于美债长端收益率上行与亚洲监管收紧杠杆，若外资贴现率抬升，高估值成长股会先回撤，且本地基本面增量催化暂缺，反弹持续性依赖南向资金接力。 【美股】纳指涨超2%、道指创新高，AI盈利和产业催化（英伟达存储加速器）支撑上涨质量，资金主线仍在算力、云和大市值科技龙头。核心风险是美国三季度借款预估上调至7390亿美元，长端利率若快速上行将直接压制估值，叠加AI集中交易过深与关税诉讼扰动，需警惕高位轮动或回撤。 【虚拟货币】资金正向主流...",
-          "tags": [
-            "#独家观点"
-          ],
-          "ts": 1785816154000,
-          "time": "12:02:34",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224646",
-          "url": "https://t.me/jin10light/224646",
-          "title": "1. 美媒：白宫拟于周二举办人工智能企业会议，审查人工智能框架。",
-          "body": "2. 月之暗面计划最早本月内提交香港IPO申请，或募资约30亿美元。 3. 国家发改委等两部门：增强电力供应保障能力，满足各类算力设施高可靠供电需要。 4. Hugging Face首席执行官：中国在开源模型领域占据主导地位，正在赢得AI竞赛。 5. 上半年3000亿元涌入中国AI创业公司，创投资金加速涌向AI和硬科技。 6. 中国信通院：2025年我国人工智能产业规模超1.2万亿元。 7. 亚马逊云业务负责人：人工智能业务潜在规模非常巨大。 8. 日本央行警告AI需求或推高通胀。 9. 国际刑警组织：AI已成非洲网络犯罪核心驱动力。 10. 3D建模...",
-          "tags": [
-            "#人工智能",
-            "#中国",
-            "#香港"
-          ],
-          "ts": 1785816093000,
-          "time": "12:01:33",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224645",
-          "url": "https://t.me/jin10light/224645",
-          "title": "某巨鲸近3周从Gemini提取11.2万枚ETH并质押，价值约2.08亿美元",
-          "body": "#ETH #Gemini #Lookonchain",
-          "tags": [
-            "#ETH",
-            "#Gemini",
-            "#Lookonchain"
-          ],
-          "ts": 1785816093000,
-          "time": "12:01:33",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224644",
-          "url": "https://t.me/jin10light/224644",
-          "title": "Serenity：SK海力士、美光、三星2027年DRAM/HBM产能已售罄，存储短缺或持续",
-          "body": "#SK海力士 #美光 #三星电子",
-          "tags": [
-            "#SK海力士",
-            "#美光",
-            "#三星电子"
-          ],
-          "ts": 1785815489000,
-          "time": "11:51:29",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224643",
-          "url": "https://t.me/jin10light/224643",
-          "title": "美股周内财报前瞻：AI芯片修复行情迎来「三场硬仗」",
-          "body": "#美股 #AMD #闪迪",
-          "tags": [
-            "#美股",
-            "#AMD",
-            "#闪迪"
-          ],
-          "ts": 1785815309000,
-          "time": "11:48:29",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224642",
-          "url": "https://t.me/jin10light/224642",
-          "title": "30万亿美元美债市场波动升温，长期收益率上行压力或传导至股市",
-          "body": "#美国 #美联储 #美债",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#美债"
-          ],
-          "ts": 1785814859000,
-          "time": "11:40:59",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224641",
-          "url": "https://t.me/jin10light/224641",
-          "title": "梁文锋青年往事：疑似曾独闯阿里无人区被困一周，菲亚特留在西藏",
-          "body": "",
-          "tags": [],
-          "ts": 1785814647000,
-          "time": "11:37:27",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224640",
-          "url": "https://t.me/jin10light/224640",
-          "title": "A股午评：创业板指半日涨4.83% 算力租赁板块走强",
-          "body": "8月4日讯，今日早盘沪指维持震荡，创业板指走强。 截至午间收盘，沪指0.16%，深证成指涨2.74%，创业板指涨4.83%。 盘面上，算力概念股掀涨停潮，利通电子等多股涨停；液冷服务器概念走强，博杰股份等涨停；医药板块活跃，药明康德等涨停；游戏、半导体、教育、消费电子等板块涨幅居前；银行、保险、白酒等板块跌幅居前。 全市场超3700只个股上涨，半日成交额逾1.3万亿元。 #A股 #创业板指 #算力租赁",
-          "tags": [
-            "#A股",
-            "#创业板指",
-            "#算力租赁"
-          ],
-          "ts": 1785814589000,
-          "time": "11:36:29",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224639",
-          "url": "https://t.me/jin10light/224639",
-          "title": "早盘收盘，国内期货主力合约涨多跌少，硅铁涨超4%，集运欧线涨超3%，20号胶、不锈钢（SS）、PTA涨超2%，橡胶、焦煤涨近2%，菜油涨超1%。",
-          "body": "跌幅方面，红枣、SC原油跌超1%，燃料油、玉米跌近1%。 #硅铁 #集运欧线 #不锈钢",
-          "tags": [
-            "#硅铁",
-            "#集运欧线",
-            "#不锈钢"
-          ],
-          "ts": 1785814287000,
-          "time": "11:31:27",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224638",
-          "url": "https://t.me/jin10light/224638",
-          "title": "韩国监管新规压制投机热潮，杠杆ETF交易量大跌",
-          "body": "#韩国 #SK海力士 #三星电子",
-          "tags": [
-            "#韩国",
-            "#SK海力士",
-            "#三星电子"
-          ],
-          "ts": 1785814232000,
-          "time": "11:30:32",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224637",
-          "url": "https://t.me/jin10light/224637",
-          "title": "SK海力士与韩国工会就奖金问题举行谈判",
-          "body": "#SK海力士 #韩国 #清州市",
-          "tags": [
-            "#SK海力士",
-            "#韩国",
-            "#清州市"
-          ],
-          "ts": 1785813991000,
-          "time": "11:26:31",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224636",
-          "url": "https://t.me/jin10light/224636",
-          "title": "真人盲选AI评测平台DesignArena获790万美元融资",
-          "body": "#DesignArena #Intelligence #Index Ventures",
-          "tags": [
-            "#DesignArena",
-            "#Intelligence",
-            "#Index"
-          ],
-          "ts": 1785813990000,
-          "time": "11:26:30",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224635",
-          "url": "https://t.me/jin10light/224635",
-          "title": "机构：半导体板块或出现情绪底部，周内聚焦AMD、西数、闪迪财报",
-          "body": "",
-          "tags": [],
-          "ts": 1785813749000,
-          "time": "11:22:29",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224634",
-          "url": "https://t.me/jin10light/224634",
-          "title": "机构：盈利韧性叠加霍尔木兹海峡逐步恢复，将为股市提供支撑",
-          "body": "#美国 #霍尔木兹海峡 #瑞银",
-          "tags": [
-            "#美国",
-            "#霍尔木兹海峡",
-            "#瑞银"
-          ],
-          "ts": 1785813447000,
-          "time": "11:17:27",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224633",
-          "url": "https://t.me/jin10light/224633",
-          "title": "SpaceX解禁利空或正被Price in？多仓倍增伴随日环比15倍成交放量",
-          "body": "#SpaceX #BTC",
-          "tags": [
-            "#SpaceX",
-            "#BTC"
-          ],
-          "ts": 1785813335000,
-          "time": "11:15:35",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224632",
-          "url": "https://t.me/jin10light/224632",
-          "title": "UCLA土拨鼠研究团队转向OnlyFans筹资，相关Solana Meme币已出现",
-          "body": "#UCLA #Solana #SOL",
-          "tags": [
-            "#UCLA",
-            "#Solana",
-            "#SOL"
-          ],
-          "ts": 1785813334000,
-          "time": "11:15:34",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224631",
-          "url": "https://t.me/jin10light/224631",
-          "title": "新地址斥资369万美元买入4000万枚ENA，并质押至Ethena",
-          "body": "#ENA #Ethena ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#ENA",
-            "#Ethena"
-          ],
-          "ts": 1785813334000,
-          "time": "11:15:34",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224630",
-          "url": "https://t.me/jin10light/224630",
-          "title": "存储市场迎涨价潮：DRAM、NAND供应紧张，AI需求推动产业链扩产",
-          "body": "#韩国 #SK海力士 #三星电子",
-          "tags": [
-            "#韩国",
-            "#SK海力士",
-            "#三星电子"
-          ],
-          "ts": 1785812907000,
-          "time": "11:08:27",
-          "receivedAt": 1785816978502,
-          "receivedTime": true
-        },
-        {
-          "id": "224629",
-          "url": "https://t.me/jin10light/224629",
-          "title": "亚马逊两日涨超20%，AI需求转化收入推动股价拉升",
-          "body": "#亚马逊 #AWS #安迪·贾西",
-          "tags": [
-            "#亚马逊",
-            "#AWS",
-            "#安迪"
-          ],
-          "ts": 1785812788000,
-          "time": "11:06:28",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224628",
-          "url": "https://t.me/jin10light/224628",
-          "title": "律动联合Trade.xyz中文社区发起首期「XYZ」交易策略分享活动，最高奖励18.88 HYPE",
-          "body": "#Trade .xyz #HYPE #MOJO",
-          "tags": [
-            "#Trade",
-            "#HYPE",
-            "#MOJO"
-          ],
-          "ts": 1785812726000,
-          "time": "11:05:26",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224627",
-          "url": "https://t.me/jin10light/224627",
-          "title": "1. SK海力士与闪迪发布HBF首份标准规范。",
-          "body": "2. 韩国单层NAND产品7月平均售价环比上涨35% 创历史新高。 3. TrendForce：供应短缺，预计第三季度PC DRAM固定交易价格将环比上涨15%至20%。 4. 消息称存储三大原厂已完成2027全年产能分配谈判，DRAM与HBM产能售罄。 5. 三星电子晶圆代工业务预计年内达100%利用率。 6. Counterpoint：三星电子扩大DRAM市占优势，美光已迫近SK海力士。 7. 德明利发布企业级DDR5 RDIMM内存模组，传输速率至高6400MT/s。 8. 行云科技：在手算力、存储类3-5年期长期框架订单规模超154亿元。 9....",
-          "tags": [
-            "#SK海力士",
-            "#闪迪",
-            "#韩国"
-          ],
-          "ts": 1785812667000,
-          "time": "11:04:27",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224626",
-          "url": "https://t.me/jin10light/224626",
-          "title": "摩根大通：AI/科技股下半年或让出领涨位置",
-          "body": "#美股 #摩根大通 #纳指",
-          "tags": [
-            "#美股",
-            "#摩根大通",
-            "#纳指"
-          ],
-          "ts": 1785812611000,
-          "time": "11:03:31",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224625",
-          "url": "https://t.me/jin10light/224625",
-          "title": "美财长贝森特敦促美联储扩大FIMA工具，或介入日元稳定行动引发关注",
-          "body": "#美国 #日本 #美联储 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#日本",
-            "#美联储"
-          ],
-          "ts": 1785812431000,
-          "time": "11:00:31",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224624",
-          "url": "https://t.me/jin10light/224624",
-          "title": "Uniswap或将在Robinhood Chain推出代币发行平台Pools，基础设施已上线",
-          "body": "#Uniswap #Robinhood Chain #FRONG",
-          "tags": [
-            "#Uniswap",
-            "#Robinhood",
-            "#FRONG"
-          ],
-          "ts": 1785812311000,
-          "time": "10:58:31",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224623",
-          "url": "https://t.me/jin10light/224623",
-          "title": "安森美半导体Q2营收超预期，AI数据中心收入预计全年翻倍",
-          "body": "#安森美半导体 #Synaptics #Hassane El-Khoury",
-          "tags": [
-            "#安森美半导体",
-            "#Synaptics",
-            "#Hassane"
-          ],
-          "ts": 1785812130000,
-          "time": "10:55:30",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224622",
-          "url": "https://t.me/jin10light/224622",
-          "title": "GRAM 24小时跌幅收窄至1.98%，市值暂报37.7亿美元",
-          "body": "#GRAM #Telegram #苹果 App Store",
-          "tags": [
-            "#GRAM",
-            "#Telegram",
-            "#苹果"
-          ],
-          "ts": 1785811768000,
-          "time": "10:49:28",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224621",
-          "url": "https://t.me/jin10light/224621",
-          "title": "多晶硅主力合约短线下挫，日内涨幅缩窄至1.63%，现报35580元/吨。",
-          "body": "#多晶硅",
-          "tags": [
-            "#多晶硅"
-          ],
-          "ts": 1785811707000,
-          "time": "10:48:27",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224620",
-          "url": "https://t.me/jin10light/224620",
-          "title": "Telegram已从苹果App Store恢复上线",
-          "body": "#Telegram #美国 #App Store ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#Telegram",
-            "#美国",
-            "#App"
-          ],
-          "ts": 1785811408000,
-          "time": "10:43:28",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224619",
-          "url": "https://t.me/jin10light/224619",
-          "title": "8月4日讯，创业板指涨超4%，深成指涨超2%。",
-          "body": "CPO、光刻机、PCB板块涨幅居前。 全市场上涨个股超3500只。 #创业板指 #深成指 #A股",
-          "tags": [
-            "#创业板指",
-            "#深成指",
-            "#A股"
-          ],
-          "ts": 1785811289000,
-          "time": "10:41:29",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224618",
-          "url": "https://t.me/jin10light/224618",
-          "title": "KOSDAQ涨超5%触发买入侧车，机构净买入3540亿韩元",
-          "body": "#韩国 #KOSDAQ #生物科技股",
-          "tags": [
-            "#韩国",
-            "#KOSDAQ",
-            "#生物科技股"
-          ],
-          "ts": 1785811106000,
-          "time": "10:38:26",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224617",
-          "url": "https://t.me/jin10light/224617",
-          "title": "「巨鲸发现」SPCX反弹9.5%，大额地址一天合开2740万美元多仓",
-          "body": "#SPCX #USDC",
-          "tags": [
-            "#SPCX",
-            "#USDC"
-          ],
-          "ts": 1785811048000,
-          "time": "10:37:28",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224616",
-          "url": "https://t.me/jin10light/224616",
-          "title": "沪镍主力合约日内涨超2.00%，现报133250.00元/吨。",
-          "body": "#沪镍 #A股",
-          "tags": [
-            "#沪镍",
-            "#A股"
-          ],
-          "ts": 1785810690000,
-          "time": "10:31:30",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224615",
-          "url": "https://t.me/jin10light/224615",
-          "title": "NEAR联创提议设立主权基金，长期目标为降低通胀",
-          "body": "#NEAR #Illia Polosukhin",
-          "tags": [
-            "#NEAR",
-            "#Illia"
-          ],
-          "ts": 1785810689000,
-          "time": "10:31:29",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224614",
-          "url": "https://t.me/jin10light/224614",
-          "title": "NTT Data拟投90亿美元扩建日本数据中心",
-          "body": "#日本 #NTT Data #AI ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#日本",
-            "#NTT",
-            "#AI"
-          ],
-          "ts": 1785810388000,
-          "time": "10:26:28",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224613",
-          "url": "https://t.me/jin10light/224613",
-          "title": "美房地产投资公司Cardone Capital增持350枚比特币",
-          "body": "#美国 #Cardone Capital #Grant Cardone",
-          "tags": [
-            "#美国",
-            "#Cardone",
-            "#Grant"
-          ],
-          "ts": 1785810388000,
-          "time": "10:26:28",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224612",
-          "url": "https://t.me/jin10light/224612",
-          "title": "某交易员累计卖出价值1.73亿美元的BTC看涨期权，押注9月25日前比特币不会突破7万美元",
-          "body": "#BTC #Ai 姨",
-          "tags": [
-            "#BTC",
-            "#Ai"
-          ],
-          "ts": 1785810328000,
-          "time": "10:25:28",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224611",
-          "url": "https://t.me/jin10light/224611",
-          "title": "韩国交易所：KOSDAQ期货涨超6%，触发五分钟交易暂停",
-          "body": "",
-          "tags": [],
-          "ts": 1785809668000,
-          "time": "10:14:28",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224610",
-          "url": "https://t.me/jin10light/224610",
-          "title": "韩国KOSPI指数再度转涨，此前韩国财政部长承诺缓解股市波动",
-          "body": "#韩国 #KOSPI #具润哲",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#具润哲"
-          ],
-          "ts": 1785809010000,
-          "time": "10:03:30",
-          "receivedAt": 1785816978709,
-          "receivedTime": true
-        },
-        {
-          "id": "224609",
-          "url": "https://t.me/jin10light/224609",
-          "title": "科创50指数涨超3%，源杰科技涨超14%领涨成分股。",
-          "body": "#科创50 #源杰科技 #A股",
-          "tags": [
-            "#科创50",
-            "#源杰科技",
-            "#A股"
-          ],
-          "ts": 1785808766000,
-          "time": "09:59:26",
-          "receivedAt": 1785816978946,
           "receivedTime": true
         }
       ],
