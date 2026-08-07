@@ -1,11 +1,36 @@
 {
-  "updatedAt": "2026-08-07T14:29:50.448Z",
+  "updatedAt": "2026-08-07T15:26:55.296Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6844",
+          "url": "https://t.me/BWEtradfi/6844",
+          "title": "*摇滚明星能源公司创始人增持 Celsius 股份，有意接任 CEO - CNBC",
+          "body": "*ROCKSTAR ENERGY FOUNDER BUILDS CELSIUS STAKE, WANTS TO TAKE OVER AS CEO - CNBC $CELH $CELH",
+          "tags": [],
+          "ts": 1786116046000,
+          "time": "23:20:46",
+          "receivedAt": 1786116401677,
+          "receivedTime": true
+        },
+        {
+          "id": "6843",
+          "url": "https://t.me/BWEtradfi/6843",
+          "title": "*摇滚明星能源公司创始人增持Celsius股份，有意接任CEO - CNBC",
+          "body": "*ROCKSTAR ENERGY FOUNDER BUILDS CELSIUS STAKE, WANTS TO TAKE OVER AS CEO - CNBC #TTWO • #CELH #TTWO • #CELH",
+          "tags": [
+            "#TTWO",
+            "#CELH"
+          ],
+          "ts": 1786116029000,
+          "time": "23:20:29",
+          "receivedAt": 1786116401677,
+          "receivedTime": true
+        },
         {
           "id": "6842",
           "url": "https://t.me/BWEtradfi/6842",
@@ -2345,11 +2370,198 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225894",
+          "url": "https://t.me/jin10light/225894",
+          "title": "中国国家税务总局回应境外征税新政：居民境外所得依法纳税，不属新增政策",
+          "body": "#中国 #香港 #CRS",
+          "tags": [
+            "#中国",
+            "#香港",
+            "#CRS"
+          ],
+          "ts": 1786115789000,
+          "time": "23:16:29",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225893",
+          "url": "https://t.me/jin10light/225893",
+          "title": "美联储：美国7月短期通胀预期降温，消费者对就业变得更加乐观",
+          "body": "#美国 #纽约联储 #美股",
+          "tags": [
+            "#美国",
+            "#纽约联储",
+            "#美股"
+          ],
+          "ts": 1786115611000,
+          "time": "23:13:31",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225892",
+          "url": "https://t.me/jin10light/225892",
+          "title": "Kalshi推出AI风控工具Blanket，帮助小企业通过预测市场对冲经营风险",
+          "body": "#Kalshi #Lauris Zminsky #CFTC",
+          "tags": [
+            "#Kalshi",
+            "#Lauris",
+            "#CFTC"
+          ],
+          "ts": 1786115309000,
+          "time": "23:08:29",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225891",
+          "url": "https://t.me/jin10light/225891",
+          "title": "瑞银：黄金上涨行情具备支撑，金价明年有望向5000美元迈进",
+          "body": "#瑞银 #黄金 #美国",
+          "tags": [
+            "#瑞银",
+            "#黄金",
+            "#美国"
+          ],
+          "ts": 1786115194000,
+          "time": "23:06:34",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225890",
+          "url": "https://t.me/jin10light/225890",
+          "title": "截至23:00收盘，国内期货主力合约涨多跌少，纯碱涨超3%，乙二醇（EG）涨超2%，燃料油、焦煤涨近2%。",
+          "body": "跌幅方面，合成橡胶跌超1%。 #纯碱 #乙二醇 #燃料油",
+          "tags": [
+            "#纯碱",
+            "#乙二醇",
+            "#燃料油"
+          ],
+          "ts": 1786114895000,
+          "time": "23:01:35",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225889",
+          "url": "https://t.me/jin10light/225889",
+          "title": "Jane Street正计划将110亿美元公开债务转移给外部投资者，为进一步投资AI提供灵活性",
+          "body": "#Jane Street #Pimco #英国",
+          "tags": [
+            "#Jane",
+            "#Pimco",
+            "#英国"
+          ],
+          "ts": 1786114831000,
+          "time": "23:00:31",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225888",
+          "url": "https://t.me/jin10light/225888",
+          "title": "美国7月纽约联储1年通胀预期 3.63%，预期3.71%，前值3.67%。",
+          "body": "",
+          "tags": [],
+          "ts": 1786114288000,
+          "time": "22:51:28",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225887",
+          "url": "https://t.me/jin10light/225887",
+          "title": "glassnode：比特币期权情绪正在改善，但长期下行保护需求仍高",
+          "body": "#BTC #glassnode",
+          "tags": [
+            "#BTC",
+            "#glassnode"
+          ],
+          "ts": 1786114232000,
+          "time": "22:50:32",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225886",
+          "url": "https://t.me/jin10light/225886",
+          "title": "「美联储传声筒」：7月非农信号难以解读，通胀成加息关键变量",
+          "body": "#美联储 #美国 #美元",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#美元"
+          ],
+          "ts": 1786113931000,
+          "time": "22:45:31",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225885",
+          "url": "https://t.me/jin10light/225885",
+          "title": "Bullish高管呼吁通过CLARITY法案：FTX事件证明市场需要法律监管",
+          "body": "#美国 #CLARITY Act #JPMorgan Chase",
+          "tags": [
+            "#美国",
+            "#CLARITY",
+            "#JPMorgan"
+          ],
+          "ts": 1786113815000,
+          "time": "22:43:35",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225884",
+          "url": "https://t.me/jin10light/225884",
+          "title": "Pump.fun上线社交交易功能",
+          "body": "#Pump .fun #USDC",
+          "tags": [
+            "#Pump",
+            "#USDC"
+          ],
+          "ts": 1786113390000,
+          "time": "22:36:30",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225883",
+          "url": "https://t.me/jin10light/225883",
+          "title": "SpaceX盘中大涨超11%，现报127.96美元",
+          "body": "#SpaceX #美国",
+          "tags": [
+            "#SpaceX",
+            "#美国"
+          ],
+          "ts": 1786113091000,
+          "time": "22:31:31",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
+        {
+          "id": "225882",
+          "url": "https://t.me/jin10light/225882",
+          "title": "SpaceX(SPCX.O)股价持续走高，日内涨幅扩大至逾11%。",
+          "body": "#SpaceX #SPCX .O",
+          "tags": [
+            "#SpaceX",
+            "#SPCX"
+          ],
+          "ts": 1786113090000,
+          "time": "22:31:30",
+          "receivedAt": 1786116403891,
+          "receivedTime": true
+        },
         {
           "id": "225881",
           "url": "https://t.me/jin10light/225881",
@@ -19307,194 +19519,6 @@
           "ts": 1785829110000,
           "time": "15:38:30",
           "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224694",
-          "url": "https://t.me/jin10light/224694",
-          "title": "Robinhood链Meme币TENDIES市值突破2000万美元，24小时涨幅64%",
-          "body": "#TENDIES #Robinhood #Reddit",
-          "tags": [
-            "#TENDIES",
-            "#Robinhood",
-            "#Reddit"
-          ],
-          "ts": 1785828747000,
-          "time": "15:32:27",
-          "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224693",
-          "url": "https://t.me/jin10light/224693",
-          "title": "重要新é",
-          "body": "1.工业和信息化部召开光伏行业座谈会 进一步解读宣贯光伏组件强制性国家标准。 个股新é 1.主力资金流向数据显示，中际旭创主力资金净流入49.98亿元居首位，新易盛、东山精密、天孚通信、N嘉立创获主力资金净流入居前；比亚迪主力资金净流出14.14亿元居首位，长鑫科技、农业银行、紫金矿业、风华高科主力资金净流出居前。 2. 长鑫科技旗下股权投资公司增资至约61.3亿。 3. 兆易创新GD32A7车规级MCU与Elektrobit EB tresos完成技术适配。 4. 东山精密：公司持续跟踪前沿光互联技术 积极开展相关预研。 5. 南网科技外挂控制系统E...",
-          "tags": [
-            "#中国",
-            "#中际旭创",
-            "#比亚迪"
-          ],
-          "ts": 1785828629000,
-          "time": "15:30:29",
-          "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224692",
-          "url": "https://t.me/jin10light/224692",
-          "title": "模型太多不会选？OpenRouter推出Ori Eval替AI应用挑模型",
-          "body": "#OpenRouter #Ori Eval #AI模型",
-          "tags": [
-            "#OpenRouter",
-            "#Ori",
-            "#AI模型"
-          ],
-          "ts": 1785828511000,
-          "time": "15:28:31",
-          "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224691",
-          "url": "https://t.me/jin10light/224691",
-          "title": "市场消息：苹果公司在印度的年销售额首次突破100亿美元。",
-          "body": "#苹果公司 #印度 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#苹果公司",
-            "#印度"
-          ],
-          "ts": 1785828510000,
-          "time": "15:28:30",
-          "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224690",
-          "url": "https://t.me/jin10light/224690",
-          "title": "BBX平台上线宇树科技IPO前永续合约",
-          "body": "#宇树科技 #UNITREEUSDT #中国",
-          "tags": [
-            "#宇树科技",
-            "#UNITREEUSDT",
-            "#中国"
-          ],
-          "ts": 1785827790000,
-          "time": "15:16:30",
-          "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224689",
-          "url": "https://t.me/jin10light/224689",
-          "title": "CASHCAT市值突破7500万美元，24小时涨超71%",
-          "body": "#CASHCAT #Robinhood Chain",
-          "tags": [
-            "#CASHCAT",
-            "#Robinhood"
-          ],
-          "ts": 1785827188000,
-          "time": "15:06:28",
-          "receivedAt": 1785835744010,
-          "receivedTime": true
-        },
-        {
-          "id": "224688",
-          "url": "https://t.me/jin10light/224688",
-          "title": "午盘收盘，国内期货主力合约涨多跌少，硅铁涨超3%，多晶硅涨超2%，沪银、20号胶、菜油涨近2%，生猪、不锈钢（SS）、橡胶涨超1%。",
-          "body": "跌幅方面，集运欧线跌超3%，乙二醇（EG）、SC原油跌超2%，红枣跌近2%，燃料油、低硫燃料油（LU）跌超1%，液化石油气（LPG）、尿素跌近1%。 #硅铁 #多晶硅 #沪银",
-          "tags": [
-            "#硅铁",
-            "#多晶硅",
-            "#沪银"
-          ],
-          "ts": 1785826890000,
-          "time": "15:01:30",
-          "receivedAt": 1785835744010,
-          "receivedTime": true
-        },
-        {
-          "id": "224687",
-          "url": "https://t.me/jin10light/224687",
-          "title": "A股收盘，沪指涨0.33%，深成指涨3.25%，创业板指涨5.64%。",
-          "body": "科创50指数涨4.09%。 CPO、存储芯片、CRO概念全天爆发，全市场超3600只个股上涨。 #A股 #创业板指 #科创50",
-          "tags": [
-            "#A股",
-            "#创业板指",
-            "#科创50"
-          ],
-          "ts": 1785826889000,
-          "time": "15:01:29",
-          "receivedAt": 1785835744010,
-          "receivedTime": true
-        },
-        {
-          "id": "224686",
-          "url": "https://t.me/jin10light/224686",
-          "title": "韩国散户加速撤离股市，交易占比降至半年低点",
-          "body": "#韩国 #KOSPI #三星电子",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#三星电子"
-          ],
-          "ts": 1785826828000,
-          "time": "15:00:28",
-          "receivedAt": 1785835744010,
-          "receivedTime": true
-        },
-        {
-          "id": "224685",
-          "url": "https://t.me/jin10light/224685",
-          "title": "CZ：将加密货币存储在交易平台比自行保管更安全",
-          "body": "#Binance #CZ #BTC",
-          "tags": [
-            "#Binance",
-            "#CZ",
-            "#BTC"
-          ],
-          "ts": 1785826589000,
-          "time": "14:56:29",
-          "receivedAt": 1785835744010,
-          "receivedTime": true
-        },
-        {
-          "id": "224684",
-          "url": "https://t.me/jin10light/224684",
-          "title": "1. 两部门：到2030年智能有序充电和双向充放电实现规模化应用 车网互动聚合可调充电规模力争达到5000万千瓦。",
-          "body": "2. 特斯拉7月欧洲注册量明显分化，法国丹麦增长多个市场骤减。 3. 比亚迪腾势Z9S打破纯电续航最长量产车纪录，CLTC工况达1100km。 4. 全球份额第九 奇瑞集团跻身全球车企销量前十。 5. 奇瑞将向韩国车企KG Mobility投资7500万美元，深化海外市场布局。 6. 赛力斯：2026年7月新能源汽车销量2.42万辆。 7. 熊本强震冲击日本半导体汽车产业。 8. 兆易创新GD32A7车规级MCU与Elektrobit EB tresos完成技术适配。 9. 丰田推出1万亿日元回购计划，上调全年利润预期。 10. 中国Robotaxi首...",
-          "tags": [
-            "#特斯拉",
-            "#比亚迪",
-            "#奇瑞"
-          ],
-          "ts": 1785826287000,
-          "time": "14:51:27",
-          "receivedAt": 1785835744010,
-          "receivedTime": true
-        },
-        {
-          "id": "224683",
-          "url": "https://t.me/jin10light/224683",
-          "title": "集运指数（欧线）主力合约跳水，日内跌幅达3.00%，现报1732.0点，此前一度涨超4%。",
-          "body": "",
-          "tags": [],
-          "ts": 1785826048000,
-          "time": "14:47:28",
-          "receivedAt": 1785835744010,
-          "receivedTime": true
-        },
-        {
-          "id": "224682",
-          "url": "https://t.me/jin10light/224682",
-          "title": "软银第一季度营收1.81万亿日元，净利润1550.7亿日元。",
-          "body": "#软银 #日本 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#软银",
-            "#日本"
-          ],
-          "ts": 1785825807000,
-          "time": "14:43:27",
-          "receivedAt": 1785835744010,
           "receivedTime": true
         }
       ],
