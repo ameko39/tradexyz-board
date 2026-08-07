@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T15:26:55.296Z",
+  "updatedAt": "2026-08-07T16:22:32.659Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2324,57 +2324,96 @@
           "time": "00:38:04",
           "receivedAt": 1784828666291,
           "receivedTime": true
-        },
-        {
-          "id": "6638",
-          "url": "https://t.me/BWEtradfi/6638",
-          "title": "*利维特：格里尔将在今天公布关税消息",
-          "body": "*LEAVITT: GREER WILL HAVE TARIFF ANNOUNCEMENT TODAY",
-          "tags": [],
-          "ts": 1784821038000,
-          "time": "23:37:18",
-          "receivedAt": 1784823096499,
-          "receivedTime": true
-        },
-        {
-          "id": "6637",
-          "url": "https://t.me/BWEtradfi/6637",
-          "title": "*莱维特谈全球关税：美国贸易代表办公室很快将有公告",
-          "body": "*LEAVITT ON GLOBAL TARIFFS: USTR WILL HAVE ANNOUNCEMENT SOON",
-          "tags": [],
-          "ts": 1784821035000,
-          "time": "23:37:15",
-          "receivedAt": 1784823096499,
-          "receivedTime": true
-        },
-        {
-          "id": "6636",
-          "url": "https://t.me/BWEtradfi/6636",
-          "title": "白宫表示：人工智能窃取问题将在特朗普与习近平的会谈中提及",
-          "body": "*WHITE HOUSE SAYS: IMAGINE AI THEFT WILL COME UP IN TRUMP-XI TALKS",
-          "tags": [],
-          "ts": 1784820865000,
-          "time": "23:34:25",
-          "receivedAt": 1784823096499,
-          "receivedTime": true
-        },
-        {
-          "id": "6635",
-          "url": "https://t.me/BWEtradfi/6635",
-          "title": "*特朗普称他“即将”决定对伊朗发动“大规模袭击”——AXIOS",
-          "body": "*TRUMP SAYS HE'S \"CLOSE\" TO DECISION ON \"MASSIVE ATTACK\" AGAINST IRAN - AXIOS *TRUMP WARNS IRAN WILL FACE MAJOR PUNISHMENT FOR HOUTHI ATTACKS ON RED SEA SHIPPING *特朗普警告称，伊朗将因胡塞武装袭击红海航运而面临严厉惩罚",
-          "tags": [],
-          "ts": 1784820550000,
-          "time": "23:29:10",
-          "receivedAt": 1784823096499,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225900",
+          "url": "https://t.me/jin10light/225900",
+          "title": "期权交易员加大标普500指数看涨押注",
+          "body": "#美股 #标普 500",
+          "tags": [
+            "#美股",
+            "#标普"
+          ],
+          "ts": 1786119030000,
+          "time": "00:10:30",
+          "receivedAt": 1786119741168,
+          "receivedTime": true
+        },
+        {
+          "id": "225899",
+          "url": "https://t.me/jin10light/225899",
+          "title": "【晚间独家观点】",
+          "body": "【修正后综合观点】 【港股】 当前核心逻辑是被动跟随美联储宽松预期做估值修复，纽约联储通胀预期降至3.63%缓解了全球利率压力，科技平台和半导体映射链受益最直接；风险在于本地缺乏新增催化，境外所得征管常态化压制香港财富管理情绪，若后续CPI反弹引发外资回撤，港股弹性会转为跌幅放大，属利率敏感型跟随市场而非独立主线。 【美股】 主线仍是AI资本开支与科技盈利兑现，高盛预计云厂商年投入近8000亿美元，二季度标普盈利增速创2021年以来最强，通胀预期回落进一步抬升成长股估值；风险在于非农爆冷后市场可能在降息利好与衰退担忧之间切换，且指数对少数AI龙头依赖过...",
+          "tags": [
+            "#独家观点"
+          ],
+          "ts": 1786118520000,
+          "time": "00:02:00",
+          "receivedAt": 1786119741168,
+          "receivedTime": true
+        },
+        {
+          "id": "225898",
+          "url": "https://t.me/jin10light/225898",
+          "title": "非农爆冷引发华尔街分歧加剧，市场目光转向下周CPI",
+          "body": "#美国 #美联储 #CPI",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#CPI"
+          ],
+          "ts": 1786118011000,
+          "time": "23:53:31",
+          "receivedAt": 1786119741168,
+          "receivedTime": true
+        },
+        {
+          "id": "225897",
+          "url": "https://t.me/jin10light/225897",
+          "title": "Galaxy Research：Coldcard事件损失或超1.3亿美元，多个攻击者同时利用该漏洞",
+          "body": "",
+          "tags": [],
+          "ts": 1786117053000,
+          "time": "23:37:33",
+          "receivedAt": 1786119741168,
+          "receivedTime": true
+        },
+        {
+          "id": "225896",
+          "url": "https://t.me/jin10light/225896",
+          "title": "Tom Lee：今夜非农证明市场对于通胀担忧过度",
+          "body": "#Tom Lee #美国 #美联储",
+          "tags": [
+            "#Tom",
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1786116991000,
+          "time": "23:36:31",
+          "receivedAt": 1786119741168,
+          "receivedTime": true
+        },
+        {
+          "id": "225895",
+          "url": "https://t.me/jin10light/225895",
+          "title": "国内新闻ï",
+          "body": "1.北京进一步优化房地产政策：非京籍家庭购房社保个税缴纳年限下调为一年；适度提高住房公积金最高贷款额度，夫妻双方首套房公积金最高可贷340万元。 2. 上半年国内居民出游人次34.63亿，出游总花费3.21万亿元。 3. 国家能源局：8月7日全国用电负荷入夏以来第四次创历史新高，达到15.57亿千瓦。 4. 光伏硅料八巨头签署倡议：不得低于成本价销售。 5. 上交所：本周对爱丽家居等严重异常波动股票、财通福鑫LOF等溢价较高的基金进行重点监控。 6. 深交所：本周对近期股价严重异常波动的“传智教育”“高争民爆”进行重点监控。 国际新闻ï 1.据环球邮报...",
+          "tags": [
+            "#北京",
+            "#加拿大",
+            "#美国"
+          ],
+          "ts": 1786116582000,
+          "time": "23:29:42",
+          "receivedAt": 1786119741168,
+          "receivedTime": true
+        },
         {
           "id": "225894",
           "url": "https://t.me/jin10light/225894",
@@ -19432,92 +19471,6 @@
           ],
           "ts": 1785830969000,
           "time": "16:09:29",
-          "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224700",
-          "url": "https://t.me/jin10light/224700",
-          "title": "LME三个月期铜自6月3日以来首次突破14,000美元/吨，上涨0.9%。",
-          "body": "#LME #铜",
-          "tags": [
-            "#LME",
-            "#铜"
-          ],
-          "ts": 1785830731000,
-          "time": "16:05:31",
-          "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224699",
-          "url": "https://t.me/jin10light/224699",
-          "title": "分析：比特币短线持有者活跃度极低，接近历史底部区域",
-          "body": "#韩国 #BTC",
-          "tags": [
-            "#韩国",
-            "#BTC"
-          ],
-          "ts": 1785830610000,
-          "time": "16:03:30",
-          "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224698",
-          "url": "https://t.me/jin10light/224698",
-          "title": "李在明：AI重塑全球产业格局，韩国需大胆投资",
-          "body": "#韩国 #李在明 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#韩国",
-            "#李在明"
-          ],
-          "ts": 1785830249000,
-          "time": "15:57:29",
-          "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224697",
-          "url": "https://t.me/jin10light/224697",
-          "title": "纽约法官驳回CFTC阻止对Kalshi执法行动动议，联邦与州管辖权之争持续",
-          "body": "#美国 #Kalshi #CFTC",
-          "tags": [
-            "#美国",
-            "#Kalshi",
-            "#CFTC"
-          ],
-          "ts": 1785830129000,
-          "time": "15:55:29",
-          "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224696",
-          "url": "https://t.me/jin10light/224696",
-          "title": "1900万美元重仓美光，存储聪明钱另准备撤出其余标的",
-          "body": "#美光 #美国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美光",
-            "#美国"
-          ],
-          "ts": 1785829589000,
-          "time": "15:46:29",
-          "receivedAt": 1785835743799,
-          "receivedTime": true
-        },
-        {
-          "id": "224695",
-          "url": "https://t.me/jin10light/224695",
-          "title": "华为半导体首席警告：英伟达芯片规模扩张逼近物理极限，越过临界点将引发「雪崩」",
-          "body": "#华为 #廖恒 #英伟达",
-          "tags": [
-            "#华为",
-            "#廖恒",
-            "#英伟达"
-          ],
-          "ts": 1785829110000,
-          "time": "15:38:30",
           "receivedAt": 1785835743799,
           "receivedTime": true
         }
