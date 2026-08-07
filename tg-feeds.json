@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-08-07T19:07:08.015Z",
+  "updatedAt": "2026-08-07T19:56:11.531Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6855",
+          "url": "https://t.me/BWEtradfi/6855",
+          "title": "美国情报机构将德国莱比锡/哈勒机场发现的一架爆炸性无人机与俄罗斯联系起来",
+          "body": "*U.S. INTELLIGENCE LINKED AN EXPLOSIVE DRONE FOUND AT GERMANY'S LEIPZIG/HALLE AIRPORT TO RUSSIA",
+          "tags": [],
+          "ts": 1786130553000,
+          "time": "03:22:33",
+          "receivedAt": 1786132556905,
+          "receivedTime": true
+        },
+        {
+          "id": "6854",
+          "url": "https://t.me/BWEtradfi/6854",
+          "title": "白宫官员表示：特朗普政府将向四家电池与矿业公司提供逾20亿美元资金 —— 华尔街日报",
+          "body": "*TRUMP ADMINISTRATION TO PROVIDE MORE THAN $2B TO FOUR BATTERY, MINERALS COMPANIES, WHITE HOUSE OFFICIAL SAYS -- WSJ",
+          "tags": [],
+          "ts": 1786130246000,
+          "time": "03:17:26",
+          "receivedAt": 1786132556905,
+          "receivedTime": true
+        },
+        {
+          "id": "6853",
+          "url": "https://t.me/BWEtradfi/6853",
+          "title": "*特朗普吹嘘MP材料增持政府股份：直播",
+          "body": "*TRUMP TOUTS MP MATERIALS GAIN IN GOVT STAKE: STREAM $MP $MP",
+          "tags": [],
+          "ts": 1786130211000,
+          "time": "03:16:51",
+          "receivedAt": 1786132556905,
+          "receivedTime": true
+        },
         {
           "id": "6852",
           "url": "https://t.me/BWEtradfi/6852",
@@ -2381,7 +2414,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
