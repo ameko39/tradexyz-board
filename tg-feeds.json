@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-07T19:56:11.531Z",
+  "updatedAt": "2026-08-07T20:34:04.590Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6857",
+          "url": "https://t.me/BWEtradfi/6857",
+          "title": "DB: 标普500指数收盘上涨0.7%，纳斯达克指数上涨1.4%",
+          "body": "DB: *S&P 500 CLOSES UP 0.7%, NASDAQ GAINS 1.4%",
+          "tags": [],
+          "ts": 1786132813000,
+          "time": "04:00:13",
+          "receivedAt": 1786134831988,
+          "receivedTime": true
+        },
+        {
+          "id": "6856",
+          "url": "https://t.me/BWEtradfi/6856",
+          "title": "*巴瑞：增加3月半导体ETF看跌期权持仓并做空更多股票",
+          "body": "*BURRY: ADDED TO MARCH SEMICONDUCTOR ETF PUTS & SHORTED MORE SHARES",
+          "tags": [],
+          "ts": 1786132789000,
+          "time": "03:59:49",
+          "receivedAt": 1786134831988,
+          "receivedTime": true
+        },
         {
           "id": "6855",
           "url": "https://t.me/BWEtradfi/6855",
@@ -2368,57 +2390,27 @@
           "time": "07:30:19",
           "receivedAt": 1784851875372,
           "receivedTime": true
-        },
-        {
-          "id": "6645",
-          "url": "https://t.me/BWEtradfi/6645",
-          "title": "*英特尔第三季度调整后毛利率预计为 42%，高于预期的 40.2%",
-          "body": "*INTEL SEES 3Q ADJ GROSS MARGIN 42%, EST. 40.2% *INTEL 2Q REV. $16.13B, EST. $14.43B $INTC *英特尔第二季度营收预计为 161.3 亿美元，高于预期的 144.3 亿美元 $INTC",
-          "tags": [],
-          "ts": 1784836877000,
-          "time": "04:01:17",
-          "receivedAt": 1784836981102,
-          "receivedTime": true
-        },
-        {
-          "id": "6644",
-          "url": "https://t.me/BWEtradfi/6644",
-          "title": "据首席财务官大卫·津斯纳（David Zinsner）在采访中透露，英特尔计划将2026年资本支出从180亿美元上调至200亿美元 - $INTC",
-          "body": "*INTEL PLANS TO RAISE CAPITAL EXPENDITURES FROM $18 BLN TO $20 BLN FOR 2026 - CFO DAVID ZINSNER IN INTERVIEW $INTC",
-          "tags": [],
-          "ts": 1784836833000,
-          "time": "04:00:33",
-          "receivedAt": 1784836981102,
-          "receivedTime": true
-        },
-        {
-          "id": "6643",
-          "url": "https://t.me/BWEtradfi/6643",
-          "title": "*英特尔第二季度营收161.3亿美元，高于IBES预期的144.2亿美元",
-          "body": "*INTEL Q2 REVENUE $16.13 BLN VS IBES ESTIMATE $14.42 BLN *INTEL OUTLOOK Q3 ADJ EPS $0.38 VS IBES ESTIMATE $0.27 $INTC *英特尔第三季度展望调整后每股收益0.38美元，高于IBES预期的0.27美元 $INTC",
-          "tags": [],
-          "ts": 1784836819000,
-          "time": "04:00:19",
-          "receivedAt": 1784836981102,
-          "receivedTime": true
-        },
-        {
-          "id": "6642",
-          "url": "https://t.me/BWEtradfi/6642",
-          "title": "DB: *标普500指数收跌1.2%，纳斯达克指数下跌2.1%",
-          "body": "DB: *S&P 500 CLOSES DOWN 1.2%, NASDAQ FALLS 2.1%",
-          "tags": [],
-          "ts": 1784836814000,
-          "time": "04:00:14",
-          "receivedAt": 1784836981102,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225917",
+          "url": "https://t.me/jin10light/225917",
+          "title": "美股收盘： 三大股指收涨 SpaceX大涨近16%",
+          "body": "8月8日讯，美股周五收盘，道指收涨0.28%，标普500指数涨0.6%，纳指涨1.3%。 SpaceX(SPCX.O)大涨15.8%，高通(QCOM.O)涨4.6%，英伟达(NVDA.O)涨2.2%。 存储概念股多数收跌，SK海力士(SKHY.O)跌近4%，美光科技(MU.O)跌0.4%。 纳斯达克中国金龙指数收涨0.7%。 #美股 #SpaceX",
+          "tags": [
+            "#美股",
+            "#SpaceX"
+          ],
+          "ts": 1786132948000,
+          "time": "04:02:28",
+          "receivedAt": 1786134832380,
+          "receivedTime": true
+        },
         {
           "id": "225916",
           "url": "https://t.me/jin10light/225916",
@@ -19533,21 +19525,6 @@
           ],
           "ts": 1785833009000,
           "time": "16:43:29",
-          "receivedAt": 1785835743596,
-          "receivedTime": true
-        },
-        {
-          "id": "224717",
-          "url": "https://t.me/jin10light/224717",
-          "title": "Hyperliquid已上线宇树IPO前永续合约",
-          "body": "#UNITREE #中国 #上交所科创板",
-          "tags": [
-            "#UNITREE",
-            "#中国",
-            "#上交所科创板"
-          ],
-          "ts": 1785832829000,
-          "time": "16:40:29",
           "receivedAt": 1785835743596,
           "receivedTime": true
         }
