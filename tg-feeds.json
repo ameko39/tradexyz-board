@@ -1,11 +1,47 @@
 {
-  "updatedAt": "2026-08-07T17:12:51.922Z",
+  "updatedAt": "2026-08-07T18:01:18.909Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6850",
+          "url": "https://t.me/BWEtradfi/6850",
+          "title": "*美国情报部门警告：俄罗斯可能在未来几年内对北约国家发动有限袭击：CNN",
+          "body": "*US INTELLIGENCE WARNS RUSSIA MAY LAUNCH LIMITED ATTACKS ON NATO COUNTRIES WITHIN YEARS: CNN *US AND NATO OFFICIALS IDENTIFY THE BALTICS AND POLAND AS LIKELY TARGETS *US MILITARY MUNITIONS STOCKPILES FACE SIGNIFICANT DEPLETION AMID ONGOING GLOBAL CONFLICTS *美国和北约官员将波罗的海三国和波兰列为潜在目标 *持续的全球冲突导致美国军火储备面...",
+          "tags": [],
+          "ts": 1786124899000,
+          "time": "01:48:19",
+          "receivedAt": 1786125661858,
+          "receivedTime": true
+        },
+        {
+          "id": "6849",
+          "url": "https://t.me/BWEtradfi/6849",
+          "title": "*BESSENT：就业数据低估了实体经济的强劲势头",
+          "body": "*BESSENT: JOBS DATA UNDERSTATE STRENGTH OF REAL ECONOMY *BESSENT: ECONOMY IS POSITIONED TO ACCELERATE *BESSENT：经济有望加速增长",
+          "tags": [],
+          "ts": 1786124835000,
+          "time": "01:47:15",
+          "receivedAt": 1786125661858,
+          "receivedTime": true
+        },
+        {
+          "id": "6848",
+          "url": "https://t.me/BWEtradfi/6848",
+          "title": "*英特尔任命迪恩·贾纳克为执行副总裁兼首席销售官，将于9月上任。",
+          "body": "*INTEL APPOINTED DEAN JARNAC AS EXECUTIVE VICE PRESIDENT AND CHIEF SALES OFFICER STARTING SEPTEMBER *JARNAC JOINS INTEL FROM MARVELL, BRINGING OVER 30 YEARS OF SEMICONDUCTOR SALES EXPERIENCE #INTC • #MRVL *贾纳克此前就职于漫威半导体，拥有超过30年的半导体销售经验。 #INTC • #MRVL",
+          "tags": [
+            "#INTC",
+            "#MRVL"
+          ],
+          "ts": 1786123824000,
+          "time": "01:30:24",
+          "receivedAt": 1786125661858,
+          "receivedTime": true
+        },
         {
           "id": "6847",
           "url": "https://t.me/BWEtradfi/6847",
@@ -2332,20 +2368,6 @@
           "time": "02:32:30",
           "receivedAt": 1784836981102,
           "receivedTime": true
-        },
-        {
-          "id": "6640",
-          "url": "https://t.me/BWEtradfi/6640",
-          "title": "AMD与CEREBRAS将推出用于快速推理的组合产品",
-          "body": "*AMD, CEREBRAS TO OFFER COMBINED PRODUCT FOR FAST INFERENCE #AMD • #CBRS",
-          "tags": [
-            "#AMD",
-            "#CBRS"
-          ],
-          "ts": 1784828012000,
-          "time": "01:33:32",
-          "receivedAt": 1784828666291,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2353,6 +2375,49 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225914",
+          "url": "https://t.me/jin10light/225914",
+          "title": "美国财长贝森特：今天公布的就业报告低估了美国经济的潜在实力。",
+          "body": "#美国 #贝森特",
+          "tags": [
+            "#美国",
+            "#贝森特"
+          ],
+          "ts": 1786124909000,
+          "time": "01:48:29",
+          "receivedAt": 1786125662328,
+          "receivedTime": true
+        },
+        {
+          "id": "225913",
+          "url": "https://t.me/jin10light/225913",
+          "title": "据Axios：一名调解国的外交官称，伊朗谈判人员正在等待伊朗最高国家安全委员会就与阿曼和美国达成的协议作出最终批准。",
+          "body": "该外交官表示，“我们预计很快会获得这一批准。 ” #伊朗 #阿曼 #美国",
+          "tags": [
+            "#伊朗",
+            "#阿曼",
+            "#美国"
+          ],
+          "ts": 1786124250000,
+          "time": "01:37:30",
+          "receivedAt": 1786125662328,
+          "receivedTime": true
+        },
+        {
+          "id": "225912",
+          "url": "https://t.me/jin10light/225912",
+          "title": "美国参议院以86票赞成、11票反对通过全面俄罗斯能源制裁法案，并提交众议院审议。",
+          "body": "#美国 #俄罗斯",
+          "tags": [
+            "#美国",
+            "#俄罗斯"
+          ],
+          "ts": 1786123529000,
+          "time": "01:25:29",
+          "receivedAt": 1786125662328,
+          "receivedTime": true
+        },
         {
           "id": "225911",
           "url": "https://t.me/jin10light/225911",
@@ -19444,51 +19509,6 @@
           ],
           "ts": 1785832470000,
           "time": "16:34:30",
-          "receivedAt": 1785835743596,
-          "receivedTime": true
-        },
-        {
-          "id": "224714",
-          "url": "https://t.me/jin10light/224714",
-          "title": "港股收盘智谱涨超7%，中芯国际涨约5%",
-          "body": "#港股 #恒指 #科指",
-          "tags": [
-            "#港股",
-            "#恒指",
-            "#科指"
-          ],
-          "ts": 1785832469000,
-          "time": "16:34:29",
-          "receivedAt": 1785835743596,
-          "receivedTime": true
-        },
-        {
-          "id": "224713",
-          "url": "https://t.me/jin10light/224713",
-          "title": "1. 美联储威廉姆斯：预计通胀将放缓，若情况未实现美联储将采取行动。",
-          "body": "2. 7月债市长端利差收窄，中长债基金业绩领跑，配置端却仍显乏力。 3. 5年期大额存单“返场”，利率可达1.75%。 4. 广汽集团：拟申请注册发行不超过150亿元债务融资工具。 5. 鹏华基金债券指数基金规模接近800亿元。 6. 花旗称日本捍卫日元不必抛售逾1.1万亿美元的美债持仓。 7. 美财政部长期拒绝调整美债发行指引，华尔街逐渐放弃期待。 8. AI存储热潮提振业绩，穆迪首次给予SK海力士A类评级。 9. 交银香港参与首批5年期中国国债期货做市交易。 10. 全市场被动指数债基规模近2万亿，鹏华基金债券指基达792亿。 #美联储 #美国 #...",
-          "tags": [
-            "#美联储",
-            "#美国",
-            "#日本"
-          ],
-          "ts": 1785832417000,
-          "time": "16:33:37",
-          "receivedAt": 1785835743596,
-          "receivedTime": true
-        },
-        {
-          "id": "224712",
-          "url": "https://t.me/jin10light/224712",
-          "title": "三星电机将加快菲律宾MLCC新工厂建设",
-          "body": "#三星电机 #菲律宾 #MLCC ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#三星电机",
-            "#菲律宾",
-            "#MLCC"
-          ],
-          "ts": 1785832416000,
-          "time": "16:33:36",
           "receivedAt": 1785835743596,
           "receivedTime": true
         }
