@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T15:11:42.033Z",
+  "updatedAt": "2026-08-08T15:44:07.270Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2357,24 +2357,41 @@
           "time": "02:24:09",
           "receivedAt": 1784918656231,
           "receivedTime": true
-        },
-        {
-          "id": "6654",
-          "url": "https://t.me/BWEtradfi/6654",
-          "title": "*特朗普：习近平告诉我，北京会议不会向伊朗或中国公司出售武器。",
-          "body": "*TRUMP: XI TOLD ME BEIJING MEETING WOULD NOT SELL WEAPONS TO IRAN OR CHINESE COMPANIES *TRUMP: IF CHINA OR RUSSIA SOLD WEAPONS TO IRAN IT WOULD BE VERY BAD FOR THEM *特朗普：如果中国或俄罗斯向伊朗出售武器，对他们来说将非常糟糕。",
-          "tags": [],
-          "ts": 1784906123000,
-          "time": "23:15:23",
-          "receivedAt": 1784907663138,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226012",
+          "url": "https://t.me/jin10light/226012",
+          "title": "美国原油库存历史性下降至7.12亿桶，为1984年3月以来最低水平",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1786203632000,
+          "time": "23:40:32",
+          "receivedAt": 1786203835404,
+          "receivedTime": true
+        },
+        {
+          "id": "226011",
+          "url": "https://t.me/jin10light/226011",
+          "title": "做空1.02亿美元比特币的巨鲸遭部分清算，剩余仓位清算价约6.53万美元",
+          "body": "#BTC #巨鲸",
+          "tags": [
+            "#BTC",
+            "#巨鲸"
+          ],
+          "ts": 1786202369000,
+          "time": "23:19:29",
+          "receivedAt": 1786203835404,
+          "receivedTime": true
+        },
         {
           "id": "226010",
           "url": "https://t.me/jin10light/226010",
@@ -19492,35 +19509,6 @@
           "tags": [],
           "ts": 1785848848000,
           "time": "21:07:28",
-          "receivedAt": 1785849697312,
-          "receivedTime": true
-        },
-        {
-          "id": "224812",
-          "url": "https://t.me/jin10light/224812",
-          "title": "稳定币基础设施提供商Yellow Card完成4000万美元战略融资",
-          "body": "#Yellow Card #稳定币 #SC Ventures",
-          "tags": [
-            "#Yellow",
-            "#稳定币",
-            "#SC"
-          ],
-          "ts": 1785848787000,
-          "time": "21:06:27",
-          "receivedAt": 1785849697312,
-          "receivedTime": true
-        },
-        {
-          "id": "224811",
-          "url": "https://t.me/jin10light/224811",
-          "title": "阿根廷海事工人罢工导致船只无法进出谷物港口",
-          "body": "8月4日讯，据外媒报道，阿根廷谷物出口商及加工商会（CIARA-CEC）周二表示，受海事工人罢工影响，船只目前无法进出阿根廷的粮食港口。 这一行动导致该国主要农产品出口港陷入中断。 阿根廷是全球最重要的豆粕、豆油和玉米出口国之一，其绝大部分货物均通过巴拉那河（Parana River）沿岸的港口进行转运。 目前，罢工的具体持续时间以及受影响的船舶数量尚不明确。 #阿根廷 #巴拉那河",
-          "tags": [
-            "#阿根廷",
-            "#巴拉那河"
-          ],
-          "ts": 1785848731000,
-          "time": "21:05:31",
           "receivedAt": 1785849697312,
           "receivedTime": true
         }
