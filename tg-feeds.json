@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-07T23:46:03.338Z",
+  "updatedAt": "2026-08-08T00:32:13.741Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6860",
+          "url": "https://t.me/BWEtradfi/6860",
+          "title": "*美国称乌克兰应避免袭击油轮和黑海油田",
+          "body": "*US SAYS UKRAINE TO AVOID TARGETING TANKERS, BLACK SEA OIL SITE *ATTACKS ON SHIPS DISRUPTED ACTIVITY AT MAJOR RUSSIAN TERMINAL *TERMINAL IS CRUCIAL FOR EXPORT OF CRUDE OIL FROM KAZAKHSTAN *袭击船只导致俄罗斯主要码头作业中断 *该码头对哈萨克斯坦原油出口至关重要",
+          "tags": [],
+          "ts": 1786148733000,
+          "time": "08:25:33",
+          "receivedAt": 1786149116215,
+          "receivedTime": true
+        },
         {
           "id": "6859",
           "url": "https://t.me/BWEtradfi/6859",
@@ -2403,11 +2414,40 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225919",
+          "url": "https://t.me/jin10light/225919",
+          "title": "国内新闻ï",
+          "body": "1.中国央行连续第21个月增持黄金。 2. 光伏硅料八巨头签署倡议：不得低于成本价销售。 3. 寒武纪：上半年净利润23.11亿元 同比增123%。 4. 宜春官方：宁德时代锂矿处于停产检修状态。 5. 海关总署：前7个月，我国货物贸易进出口总值30.13万亿元，同比增长17.3%。 6. 北京进一步优化房地产政策：非京籍家庭购房社保个税缴纳年限下调为一年；适度提高住房公积金最高贷款额度。 国际新闻ï 1.土耳其、沙特和巴基斯坦签署联合防务协议。 2. OpenAI暂停新模型Astra开发，担忧其具备关键网络攻击能力。 3. 美联储巴尔金：（谈通货膨胀...",
+          "tags": [
+            "#中国",
+            "#黄金",
+            "#寒武纪"
+          ],
+          "ts": 1786149032000,
+          "time": "08:30:32",
+          "receivedAt": 1786149118714,
+          "receivedTime": true
+        },
+        {
+          "id": "225918",
+          "url": "https://t.me/jin10light/225918",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.818吨，当前持仓量为1017.537吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1786148008000,
+          "time": "08:13:28",
+          "receivedAt": 1786149118714,
+          "receivedTime": true
+        },
         {
           "id": "225917",
           "url": "https://t.me/jin10light/225917",
@@ -19506,36 +19546,6 @@
           ],
           "ts": 1785834150000,
           "time": "17:02:30",
-          "receivedAt": 1785835743596,
-          "receivedTime": true
-        },
-        {
-          "id": "224719",
-          "url": "https://t.me/jin10light/224719",
-          "title": "Hyperliquid提前定价宇树打新收益4.88倍，网下申购日为8月10日",
-          "body": "#宇树科技 #上交所科创板 #UNITREE ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#宇树科技",
-            "#上交所科创板",
-            "#UNITREE"
-          ],
-          "ts": 1785833910000,
-          "time": "16:58:30",
-          "receivedAt": 1785835743596,
-          "receivedTime": true
-        },
-        {
-          "id": "224718",
-          "url": "https://t.me/jin10light/224718",
-          "title": "Polymarket成为男子职业网球协会巡回赛官方预测市场提供商",
-          "body": "#Polymarket #ATP #美国",
-          "tags": [
-            "#Polymarket",
-            "#ATP",
-            "#美国"
-          ],
-          "ts": 1785833009000,
-          "time": "16:43:29",
           "receivedAt": 1785835743596,
           "receivedTime": true
         }
