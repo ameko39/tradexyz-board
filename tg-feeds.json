@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T11:00:56.047Z",
+  "updatedAt": "2026-08-08T11:35:05.903Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2408,6 +2408,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225990",
+          "url": "https://t.me/jin10light/225990",
+          "title": "分析：比特币两次试探65,400美元未能突破，大量买卖订单堆积静待方向选择",
+          "body": "#BTC #Lennaert Snyder",
+          "tags": [
+            "#BTC",
+            "#Lennaert"
+          ],
+          "ts": 1786188149000,
+          "time": "19:22:29",
+          "receivedAt": 1786188890927,
+          "receivedTime": true
+        },
+        {
+          "id": "225989",
+          "url": "https://t.me/jin10light/225989",
+          "title": "Coinbase比特币负溢价已持续82天，美国市场购买力持续低迷",
+          "body": "#Coinbase #BTC #美国",
+          "tags": [
+            "#Coinbase",
+            "#BTC",
+            "#美国"
+          ],
+          "ts": 1786186949000,
+          "time": "19:02:29",
+          "receivedAt": 1786188890927,
+          "receivedTime": true
+        },
         {
           "id": "225988",
           "url": "https://t.me/jin10light/225988",
@@ -19513,35 +19542,6 @@
           "time": "19:58:42",
           "receivedAt": 1785849697537,
           "receivedTime": true
-        },
-        {
-          "id": "224790",
-          "url": "https://t.me/jin10light/224790",
-          "title": "布伦特原油跌幅扩大至3%，现报80.57美元/桶。",
-          "body": "WTI原油失守76美元/桶，日内跌幅3.57%。 #布伦特原油 #WTI原油 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#布伦特原油",
-            "#WTI原油"
-          ],
-          "ts": 1785844649000,
-          "time": "19:57:29",
-          "receivedAt": 1785849697537,
-          "receivedTime": true
-        },
-        {
-          "id": "224789",
-          "url": "https://t.me/jin10light/224789",
-          "title": "视频｜a16z联创Marc Andreessen：五年内，AI芯片会变得廉价且充足",
-          "body": "#Marc Andreessen #a16z #英伟达",
-          "tags": [
-            "#Marc",
-            "#a16z",
-            "#英伟达"
-          ],
-          "ts": 1785844648000,
-          "time": "19:57:28",
-          "receivedAt": 1785849697537,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20714,20 +20714,9 @@
           "time": "19:57:01",
           "receivedAt": 1784894866560,
           "receivedTime": true
-        },
-        {
-          "id": "1585",
-          "url": "https://t.me/PolyBeats_Bot/1585",
-          "title": "油价持续上涨，石油板块聪明钱预测国会暂停 18.4 美分汽油税",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 联邦汽油税将在 11 月 2 日前被暂停 」投入 $878「是」，平均买入概率为 20.2%，目前「是」概率为 33.0%。 0x1104d937 投入 $878，与本市场最佳相关板块为 石油 ，板块净盈利 $14.6k。其在该板块共 37 笔已结算交易的胜率为 33/37（89%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 7 笔。相近成本价区间（$0.151-$0.2）内，其历史投入金额中位数为 $949。 特朗普今年 5 月提出暂停每加仑 18.4 美分的联邦汽油税，国会两党随后分别提交临时减税方案。以缓解美伊战争引发的燃油价格上涨。共和党参议员乔希·霍利随后提出暂停汽油和柴油税 90 天的法案，民主党议员则提出把汽油税暂停至 10 月 1 日的另一套方案。不过，特朗普无法单方面修改联邦税率，按照该市场规则，法案必须通过参众两院并正式生效才能结算为「是」。 近期的油价重新上涨正在为法案提供新的政治催化。美国汽油均价重新突破每加仑 4 美元，布伦特原油升至 101 美元，单周上涨 14.6%；7 月 23 日更只有一艘油轮通过霍尔木兹海峡。皮尤...",
-          "tags": [],
-          "ts": 1784891641000,
-          "time": "19:14:01",
-          "receivedAt": 1784894866560,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
