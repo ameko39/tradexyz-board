@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T22:44:10.086Z",
+  "updatedAt": "2026-08-08T23:04:47.424Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2244,20 +2244,9 @@
           "time": "07:56:51",
           "receivedAt": 1784941327206,
           "receivedTime": true
-        },
-        {
-          "id": "6664",
-          "url": "https://t.me/BWEtradfi/6664",
-          "title": "SpaceX星舰在IPO后首次试飞成功升空",
-          "body": "*SPACEX’S STARSHIP SUCCESSFULLY LIFTS OFF IN FIRST TEST FLIGHT AFTER IPO $SPCX $SPCX",
-          "tags": [],
-          "ts": 1784933525000,
-          "time": "06:52:05",
-          "receivedAt": 1784935705270,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
