@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T13:33:30.853Z",
+  "updatedAt": "2026-08-08T14:08:49.303Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2368,28 +2368,6 @@
           "time": "23:15:23",
           "receivedAt": 1784907663138,
           "receivedTime": true
-        },
-        {
-          "id": "6653",
-          "url": "https://t.me/BWEtradfi/6653",
-          "title": "DB: *美国6月新房销售量为62.8万套；预期为61万套",
-          "body": "DB: *US JUNE NEW HOME SALES AT 0.628M; EST. 0.610M *US JUNE NEW HOME SALES RISE 1.6% M/M; EST. 4.7% *美国6月新房销售量环比增长1.6%；预期为4.7%",
-          "tags": [],
-          "ts": 1784901616000,
-          "time": "22:00:16",
-          "receivedAt": 1784902039753,
-          "receivedTime": true
-        },
-        {
-          "id": "6652",
-          "url": "https://t.me/BWEtradfi/6652",
-          "title": "DB: *美国标普7月制造业采购经理人指数（PMI）为53.8，预期为54.3",
-          "body": "DB: *US S&P JULY MANUFACTURING PMI AT 53.8; EST. 54.3 *US S&P JULY SERVICES PMI AT 53.6; EST. 51.5 *US S&P JULY COMPOSITE PMI AT 53.6; EST. 51.8 *美国标普7月服务业PMI为53.6，预期为51.5 *美国标普7月综合PMI为53.6，预期为51.8",
-          "tags": [],
-          "ts": 1784900713000,
-          "time": "21:45:13",
-          "receivedAt": 1784902039753,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2397,6 +2375,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226003",
+          "url": "https://t.me/jin10light/226003",
+          "title": "Nansen创始人：比特币永远不会再跌破6万美元，全球货币宽松周期没有终结迹象",
+          "body": "#BTC #SOL #Alex Svanevik",
+          "tags": [
+            "#BTC",
+            "#SOL",
+            "#Alex"
+          ],
+          "ts": 1786197571000,
+          "time": "21:59:31",
+          "receivedAt": 1786198111339,
+          "receivedTime": true
+        },
+        {
+          "id": "226002",
+          "url": "https://t.me/jin10light/226002",
+          "title": "谷歌AI管理层调整内幕：Hassabis原拟与Jeff Dean同时离职，因担忧股价崩盘劝其暂留",
+          "body": "#Google #DeepMind #Demis Hassabis",
+          "tags": [
+            "#Google",
+            "#DeepMind",
+            "#Demis"
+          ],
+          "ts": 1786196250000,
+          "time": "21:37:30",
+          "receivedAt": 1786198111339,
+          "receivedTime": true
+        },
         {
           "id": "226001",
           "url": "https://t.me/jin10light/226001",
@@ -19513,35 +19521,6 @@
           ],
           "ts": 1785847532000,
           "time": "20:45:32",
-          "receivedAt": 1785849697312,
-          "receivedTime": true
-        },
-        {
-          "id": "224803",
-          "url": "https://t.me/jin10light/224803",
-          "title": "美银全球研究：首次给予SK海力士「买入」评级，目标价250美元",
-          "body": "#美国 #SK海力士",
-          "tags": [
-            "#美国",
-            "#SK海力士"
-          ],
-          "ts": 1785847052000,
-          "time": "20:37:32",
-          "receivedAt": 1785849697312,
-          "receivedTime": true
-        },
-        {
-          "id": "224802",
-          "url": "https://t.me/jin10light/224802",
-          "title": "Corvex盘前大涨110%，与AI公司签署多年协议提供英伟达Blackwell GPU",
-          "body": "#Corvex #美股 #英伟达",
-          "tags": [
-            "#Corvex",
-            "#美股",
-            "#英伟达"
-          ],
-          "ts": 1785846808000,
-          "time": "20:33:28",
           "receivedAt": 1785849697312,
           "receivedTime": true
         }
