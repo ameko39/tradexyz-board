@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T07:55:57.075Z",
+  "updatedAt": "2026-08-08T08:32:01.599Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2401,17 +2401,6 @@
           "time": "21:30:43",
           "receivedAt": 1784902039753,
           "receivedTime": true
-        },
-        {
-          "id": "6650",
-          "url": "https://t.me/BWEtradfi/6650",
-          "title": "DB: *欧元区7月制造业采购经理人指数（PMI）为52，预期为51.5",
-          "body": "DB: *EURO-AREA JULY MANUFACTURING PMI AT 52; EST. 51.5 *EURO-AREA JULY SERVICES PMI AT 51.6; EST. 49.8 *EURO-AREA JULY COMPOSITE PMI AT 51.9; EST. 50.3 *欧元区7月服务业PMI为51.6，预期为49.8 *欧元区7月综合PMI为51.9，预期为50.3",
-          "tags": [],
-          "ts": 1784880014000,
-          "time": "16:00:14",
-          "receivedAt": 1784882543264,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2419,6 +2408,62 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225972",
+          "url": "https://t.me/jin10light/225972",
+          "title": "Meme币STONKBROKER市值再创新高，短时突破7200万美元",
+          "body": "#Robinhood #STONKBROKER #Ansem",
+          "tags": [
+            "#Robinhood",
+            "#STONKBROKER",
+            "#Ansem"
+          ],
+          "ts": 1786177169000,
+          "time": "16:19:29",
+          "receivedAt": 1786177905116,
+          "receivedTime": true
+        },
+        {
+          "id": "225971",
+          "url": "https://t.me/jin10light/225971",
+          "title": "为避免政府停摆，美参议院通过临时拨款法案",
+          "body": "#美国 #南卡罗来纳州 #达琳·格雷厄姆",
+          "tags": [
+            "#美国",
+            "#南卡罗来纳州",
+            "#达琳"
+          ],
+          "ts": 1786176749000,
+          "time": "16:12:29",
+          "receivedAt": 1786177905116,
+          "receivedTime": true
+        },
+        {
+          "id": "225970",
+          "url": "https://t.me/jin10light/225970",
+          "title": "分析：Cloudflare财报电话会议释放AI代理经济信号，链上结算需求或迎爆发",
+          "body": "#Cloudflare #AI Agents #稳定币",
+          "tags": [
+            "#Cloudflare",
+            "#AI",
+            "#稳定币"
+          ],
+          "ts": 1786176266000,
+          "time": "16:04:26",
+          "receivedAt": 1786177905116,
+          "receivedTime": true
+        },
+        {
+          "id": "225969",
+          "url": "https://t.me/jin10light/225969",
+          "title": "美参议院通过临时拨款法案，有望避免政府停摆",
+          "body": "8月8日讯，美国参议院周六通过了一项临时措施，为联邦机构提供资金至12月11日，此举旨在避免在11月中期选举前数周发生灾难性的联邦政府停摆。 另据福克斯新闻报道，本次投票结果为90票赞成、6票反对，参议员达琳·格雷厄姆（共和党-南卡罗来纳州）投了弃权票。 这并不一定能完全避免政府停摆，但有助于防止10月1日（政府新财年开始之日）出现停摆。 众议院休会归来后仍需就该法案协调一致。",
+          "tags": [],
+          "ts": 1786176208000,
+          "time": "16:03:28",
+          "receivedAt": 1786177905116,
+          "receivedTime": true
+        },
         {
           "id": "225968",
           "url": "https://t.me/jin10light/225968",
@@ -19492,65 +19537,6 @@
           "time": "19:34:32",
           "receivedAt": 1785843599136,
           "receivedTime": true
-        },
-        {
-          "id": "224772",
-          "url": "https://t.me/jin10light/224772",
-          "title": "贝莱德：即便美联储按兵不动，美国国债收益率仍将走高",
-          "body": "#美国 #美联储 #贝莱德 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#贝莱德"
-          ],
-          "ts": 1785843154000,
-          "time": "19:32:34",
-          "receivedAt": 1785843599136,
-          "receivedTime": true
-        },
-        {
-          "id": "224771",
-          "url": "https://t.me/jin10light/224771",
-          "title": "布伦特原油转跌，向下触及83美元/桶。",
-          "body": "#布伦特原油 #83美元",
-          "tags": [
-            "#布伦特原油",
-            "#83美元"
-          ],
-          "ts": 1785842968000,
-          "time": "19:29:28",
-          "receivedAt": 1785843599136,
-          "receivedTime": true
-        },
-        {
-          "id": "224770",
-          "url": "https://t.me/jin10light/224770",
-          "title": "消息人士：伊方希望控制霍尔木兹海峡进港航运",
-          "body": "#伊朗 #阿曼 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#阿曼",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1785842787000,
-          "time": "19:26:27",
-          "receivedAt": 1785843599136,
-          "receivedTime": true
-        },
-        {
-          "id": "224769",
-          "url": "https://t.me/jin10light/224769",
-          "title": "Wintermute：加密边际卖盘接近枯竭，但仍不宜重仓博取强势反弹",
-          "body": "#美联储 #美股 #BTC",
-          "tags": [
-            "#美联储",
-            "#美股",
-            "#BTC"
-          ],
-          "ts": 1785842731000,
-          "time": "19:25:31",
-          "receivedAt": 1785843599136,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20747,7 +20733,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
