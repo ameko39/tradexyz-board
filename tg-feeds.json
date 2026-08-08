@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T18:13:04.175Z",
+  "updatedAt": "2026-08-08T18:58:05.889Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2343,23 +2343,9 @@
           "time": "03:31:21",
           "receivedAt": 1784923366434,
           "receivedTime": true
-        },
-        {
-          "id": "6655",
-          "url": "https://t.me/BWEtradfi/6655",
-          "title": "巴里增加对美光、英伟达及半导体ETF的做空头寸：Substack",
-          "body": "*BURRY ADDS TO MICRON, NVIDIA, SEMICONDUCTOR ETF SHORTS: SUBSTACK #MU • #NVDA",
-          "tags": [
-            "#MU",
-            "#NVDA"
-          ],
-          "ts": 1784917449000,
-          "time": "02:24:09",
-          "receivedAt": 1784918656231,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
