@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T12:44:48.030Z",
+  "updatedAt": "2026-08-08T13:33:30.853Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2390,24 +2390,56 @@
           "time": "21:45:13",
           "receivedAt": 1784902039753,
           "receivedTime": true
-        },
-        {
-          "id": "6651",
-          "url": "https://t.me/BWEtradfi/6651",
-          "title": "DB: 标普500指数开盘上涨0.1%，纳斯达克指数下跌0.1%",
-          "body": "DB: *S&P 500 OPENS UP 0.1%, NASDAQ FALLS 0.1%",
-          "tags": [],
-          "ts": 1784899843000,
-          "time": "21:30:43",
-          "receivedAt": 1784902039753,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226001",
+          "url": "https://t.me/jin10light/226001",
+          "title": "BitMart创始人回应提币困难：没有跑路，核心团队正在资产盘点，计划有序清退",
+          "body": "#BitMart #加密货币",
+          "tags": [
+            "#BitMart",
+            "#加密货币"
+          ],
+          "ts": 1786195168000,
+          "time": "21:19:28",
+          "receivedAt": 1786195994418,
+          "receivedTime": true
+        },
+        {
+          "id": "226000",
+          "url": "https://t.me/jin10light/226000",
+          "title": "SK海力士拟推710亿美元股东回报方案，含284亿美元股票回购，总规模较去年暴增约七倍",
+          "body": "#韩国 #SK海力士 #HBM",
+          "tags": [
+            "#韩国",
+            "#SK海力士",
+            "#HBM"
+          ],
+          "ts": 1786194568000,
+          "time": "21:09:28",
+          "receivedAt": 1786195994418,
+          "receivedTime": true
+        },
+        {
+          "id": "225999",
+          "url": "https://t.me/jin10light/225999",
+          "title": "Citrini观点：短期看空存储、看多光学互联，存储价格或两季度内见顶已形成市场共识",
+          "body": "#韩国 #英伟达",
+          "tags": [
+            "#韩国",
+            "#英伟达"
+          ],
+          "ts": 1786193429000,
+          "time": "20:50:29",
+          "receivedAt": 1786195994418,
+          "receivedTime": true
+        },
         {
           "id": "225998",
           "url": "https://t.me/jin10light/225998",
@@ -19510,50 +19542,6 @@
           ],
           "ts": 1785846808000,
           "time": "20:33:28",
-          "receivedAt": 1785849697312,
-          "receivedTime": true
-        },
-        {
-          "id": "224801",
-          "url": "https://t.me/jin10light/224801",
-          "title": "美国6月贸易帐 -733亿美元，预期-730亿美元，前值-776亿美元。",
-          "body": "#美国 #美元",
-          "tags": [
-            "#美国",
-            "#美元"
-          ],
-          "ts": 1785846689000,
-          "time": "20:31:29",
-          "receivedAt": 1785849697312,
-          "receivedTime": true
-        },
-        {
-          "id": "224800",
-          "url": "https://t.me/jin10light/224800",
-          "title": "受16年AI数据中心租赁协议提振，Bitdeer盘前涨超11%",
-          "body": "#Bitdeer #挪威 #美股",
-          "tags": [
-            "#Bitdeer",
-            "#挪威",
-            "#美股"
-          ],
-          "ts": 1785846569000,
-          "time": "20:29:29",
-          "receivedAt": 1785849697312,
-          "receivedTime": true
-        },
-        {
-          "id": "224799",
-          "url": "https://t.me/jin10light/224799",
-          "title": "疑似梁文锋微博曾用号被清空，西藏无人区旧帖已消失",
-          "body": "#梁文锋 #DeepSeek #西藏阿里",
-          "tags": [
-            "#梁文锋",
-            "#DeepSeek",
-            "#西藏阿里"
-          ],
-          "ts": 1785846208000,
-          "time": "20:23:28",
           "receivedAt": 1785849697312,
           "receivedTime": true
         }
