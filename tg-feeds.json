@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T23:38:54.499Z",
+  "updatedAt": "2026-08-08T23:59:52.175Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2230,23 +2230,9 @@
           "time": "08:46:53",
           "receivedAt": 1784941327206,
           "receivedTime": true
-        },
-        {
-          "id": "6665",
-          "url": "https://t.me/BWEtradfi/6665",
-          "title": "*NVIDIA与SK合作开展总价值5000亿美元的“人工智能计划”",
-          "body": "*NVIDIA WORKING WITH SK ON ‘AI INITIATIVE’ WORTH TOTAL OF $500B *NVIDIA TO GET ACCESS TO SK HYNIX MEMORY AS PART OF AGREEMENT #NVDA • #SKHY *根据协议，NVIDIA将获得SK海力士的内存资源 #NVDA • #SKHY",
-          "tags": [
-            "#NVDA",
-            "#SKHY"
-          ],
-          "ts": 1784937411000,
-          "time": "07:56:51",
-          "receivedAt": 1784941327206,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
