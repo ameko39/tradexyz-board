@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T14:08:49.303Z",
+  "updatedAt": "2026-08-08T14:46:22.848Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2370,11 +2370,66 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226007",
+          "url": "https://t.me/jin10light/226007",
+          "title": "macOS曝高危漏洞：屏幕共享开启下无需密码即可远程登录，建议升级26.6.1版本",
+          "body": "",
+          "tags": [],
+          "ts": 1786199734000,
+          "time": "22:35:34",
+          "receivedAt": 1786200370920,
+          "receivedTime": true
+        },
+        {
+          "id": "226006",
+          "url": "https://t.me/jin10light/226006",
+          "title": "T.Rowe Price回应将狗狗币纳入主动管理ETF：不可将有历史和市值的成熟Meme币排除在外",
+          "body": "#T . Rowe Price #BTC #ETH",
+          "tags": [
+            "#T",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1786199007000,
+          "time": "22:23:27",
+          "receivedAt": 1786200370920,
+          "receivedTime": true
+        },
+        {
+          "id": "226005",
+          "url": "https://t.me/jin10light/226005",
+          "title": "伯克希尔从耐心等待转向开始行动，连续14季度净卖出周期终结，Q2净买入股票约200亿美元",
+          "body": "#Alphabet #美国",
+          "tags": [
+            "#Alphabet",
+            "#美国"
+          ],
+          "ts": 1786198949000,
+          "time": "22:22:29",
+          "receivedAt": 1786200370920,
+          "receivedTime": true
+        },
+        {
+          "id": "226004",
+          "url": "https://t.me/jin10light/226004",
+          "title": "万斯介绍伊朗「谈判」：过去几天取得了一些进展",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786198409000,
+          "time": "22:13:29",
+          "receivedAt": 1786200370920,
+          "receivedTime": true
+        },
         {
           "id": "226003",
           "url": "https://t.me/jin10light/226003",
@@ -19466,61 +19521,6 @@
           ],
           "ts": 1785848432000,
           "time": "21:00:32",
-          "receivedAt": 1785849697312,
-          "receivedTime": true
-        },
-        {
-          "id": "224807",
-          "url": "https://t.me/jin10light/224807",
-          "title": "阿根廷出口与加工商会CIARA-CEC：阿根廷海事工人罢工导致船只无法进出谷物港口。",
-          "body": "#阿根廷 #CIARA -CEC #谷物港口",
-          "tags": [
-            "#阿根廷",
-            "#CIARA",
-            "#谷物港口"
-          ],
-          "ts": 1785848012000,
-          "time": "20:53:32",
-          "receivedAt": 1785849697312,
-          "receivedTime": true
-        },
-        {
-          "id": "224806",
-          "url": "https://t.me/jin10light/224806",
-          "title": "市场消息：美国就扩大金属关税产品范围征求意见。",
-          "body": "美国建议对焊接机、起重机等产品征收关税。",
-          "tags": [],
-          "ts": 1785848011000,
-          "time": "20:53:31",
-          "receivedAt": 1785849697312,
-          "receivedTime": true
-        },
-        {
-          "id": "224805",
-          "url": "https://t.me/jin10light/224805",
-          "title": "法国兴业银行：看涨标普500至8000点，逢低买入",
-          "body": "#法国兴业银行 #美国 #美股",
-          "tags": [
-            "#法国兴业银行",
-            "#美国",
-            "#美股"
-          ],
-          "ts": 1785847948000,
-          "time": "20:52:28",
-          "receivedAt": 1785849697312,
-          "receivedTime": true
-        },
-        {
-          "id": "224804",
-          "url": "https://t.me/jin10light/224804",
-          "title": "美联储保尔森：如果通胀方面没有取得进展，可能需要重新调整政策",
-          "body": "#美联储 #美国",
-          "tags": [
-            "#美联储",
-            "#美国"
-          ],
-          "ts": 1785847532000,
-          "time": "20:45:32",
           "receivedAt": 1785849697312,
           "receivedTime": true
         }
