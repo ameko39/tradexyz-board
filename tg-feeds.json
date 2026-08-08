@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T07:07:16.444Z",
+  "updatedAt": "2026-08-08T07:55:57.075Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2412,35 +2412,57 @@
           "time": "16:00:14",
           "receivedAt": 1784882543264,
           "receivedTime": true
-        },
-        {
-          "id": "6649",
-          "url": "https://t.me/BWEtradfi/6649",
-          "title": "DB: *德国7月制造业采购经理人指数（PMI）为52.2，预期为50.5",
-          "body": "DB: *GERMANY JULY MANUFACTURING PMI AT 52.2; EST. 50.5 *GERMANY JULY SERVICES PMI AT 49.6; EST. 49.0 *GERMANY JULY COMPOSITE PMI AT 51.2; EST. 49.8 *德国7月服务业PMI为49.6，预期为49.0 *德国7月综合PMI为51.2，预期为49.8",
-          "tags": [],
-          "ts": 1784878213000,
-          "time": "15:30:13",
-          "receivedAt": 1784882543264,
-          "receivedTime": true
-        },
-        {
-          "id": "6648",
-          "url": "https://t.me/BWEtradfi/6648",
-          "title": "DB: *法国7月制造业采购经理人指数（PMI）为50，预期值为51.0",
-          "body": "DB: *FRANCE JULY MANUFACTURING PMI AT 50; EST. 51.0 *FRANCE JULY COMPOSITE PMI AT 49.6; EST. 47.8 *法国7月综合采购经理人指数（PMI）为49.6，预期值为47.8",
-          "tags": [],
-          "ts": 1784877318000,
-          "time": "15:15:18",
-          "receivedAt": 1784882543264,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225968",
+          "url": "https://t.me/jin10light/225968",
+          "title": "TUT 24小时涨超55%，市值升至4000万美元",
+          "body": "#TUT #HTX",
+          "tags": [
+            "#TUT",
+            "#HTX"
+          ],
+          "ts": 1786174709000,
+          "time": "15:38:29",
+          "receivedAt": 1786175743480,
+          "receivedTime": true
+        },
+        {
+          "id": "225967",
+          "url": "https://t.me/jin10light/225967",
+          "title": "Aztec私有Rollup桥攻击者再转入300枚ETH至Tornado Cash，累计混币500枚ETH",
+          "body": "#ETH #Aztec Network #Tornado Cash",
+          "tags": [
+            "#ETH",
+            "#Aztec",
+            "#Tornado"
+          ],
+          "ts": 1786174351000,
+          "time": "15:32:31",
+          "receivedAt": 1786175743480,
+          "receivedTime": true
+        },
+        {
+          "id": "225966",
+          "url": "https://t.me/jin10light/225966",
+          "title": "IMF：本土稳定币可能提升美元稳定币需求",
+          "body": "#IMF #美元稳定币 #南非",
+          "tags": [
+            "#IMF",
+            "#美元稳定币",
+            "#南非"
+          ],
+          "ts": 1786173037000,
+          "time": "15:10:37",
+          "receivedAt": 1786175743480,
+          "receivedTime": true
+        },
         {
           "id": "225965",
           "url": "https://t.me/jin10light/225965",
@@ -19529,50 +19551,6 @@
           "time": "19:25:31",
           "receivedAt": 1785843599136,
           "receivedTime": true
-        },
-        {
-          "id": "224768",
-          "url": "https://t.me/jin10light/224768",
-          "title": "电子游戏开发巨头艺电将正式易主沙特财团",
-          "body": "#沙特阿拉伯 #艺电 #贾里德·库什纳",
-          "tags": [
-            "#沙特阿拉伯",
-            "#艺电",
-            "#贾里德"
-          ],
-          "ts": 1785842371000,
-          "time": "19:19:31",
-          "receivedAt": 1785843599136,
-          "receivedTime": true
-        },
-        {
-          "id": "224767",
-          "url": "https://t.me/jin10light/224767",
-          "title": "预测市场交易员「TwoEyes」链上布空，增持140万BTC及Strategy系资产空单",
-          "body": "#BTC #MSTR #STRC",
-          "tags": [
-            "#BTC",
-            "#MSTR",
-            "#STRC"
-          ],
-          "ts": 1785842252000,
-          "time": "19:17:32",
-          "receivedAt": 1785843599136,
-          "receivedTime": true
-        },
-        {
-          "id": "224766",
-          "url": "https://t.me/jin10light/224766",
-          "title": "Coldcard：漏洞威胁仍在持续，建议用户立即转移资金",
-          "body": "#BTC #Coldcard",
-          "tags": [
-            "#BTC",
-            "#Coldcard"
-          ],
-          "ts": 1785841947000,
-          "time": "19:12:27",
-          "receivedAt": 1785843599136,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20765,17 +20743,6 @@
           "tags": [],
           "ts": 1784882341000,
           "time": "16:39:01",
-          "receivedAt": 1784882555757,
-          "receivedTime": true
-        },
-        {
-          "id": "1582",
-          "url": "https://t.me/PolyBeats_Bot/1582",
-          "title": "选民投票也算干预选举？威斯康星州称参与押注选举的选民不许投票",
-          "body": "在预测市场 Polymarket 上，今日上线的新市场「 威斯康星州会在选举日之前因押注选举而剥夺任何选民的投票权吗？ 」的「是」概率目前为 23%。 7 月 21 日，两党委员会正式发布「别拿选票下注」警告。更早些的 7 月 9 日，两党委员一致通过法律备忘录，认定 Kalshi、Polymarket 等平台上的选举交易也可能属于该条所称的「赌注或押注」。 该消息催生了本条市场的诞生：威斯康星州选举委员会本月重新启用一条可追溯至 1849 年的旧规则。州法第 6.03(2) 条规定，直接或间接对某场选举结果持有赌注或利益的人，不得在同一场选举投票。 州方的逻辑是防止选民为了让仓位获利而投票。委员会主席安·雅各布斯说，投票应基于谁最适合职位，而不是「填满自己的口袋」；选委会法律顾问则警告，明知自己已失去资格仍投票，可能触及 I 类重罪。 平台的反应截然相反。Kalshi 称其在威斯康星州有数十万用户，把使用平台等同于失去投票权是「不诚实」且构成「选民压制」；Polymarket 表示将通过适当法律程序回应。两家平台都主张自己提供的是受联邦监管的事件合约，而非州法意义上的赌博。",
-          "tags": [],
-          "ts": 1784878832000,
-          "time": "15:40:32",
           "receivedAt": 1784882555757,
           "receivedTime": true
         }
