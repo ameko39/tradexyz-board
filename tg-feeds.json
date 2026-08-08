@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T05:25:54.478Z",
+  "updatedAt": "2026-08-08T06:03:36.583Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2434,24 +2434,71 @@
           "time": "15:15:18",
           "receivedAt": 1784882543264,
           "receivedTime": true
-        },
-        {
-          "id": "6647",
-          "url": "https://t.me/BWEtradfi/6647",
-          "title": "DB: *英国 6 月零售额环比增长 1%；美国东部时间。 -0.3%",
-          "body": "DB: *UK JUNE RETAIL SALES RISE 1% M/M; EST. -0.3% *UK JUNE RETAIL SALES RISE 4.2% Y/Y; EST. +2.3% *UK JUNE CORE RETAIL SALES RISE 1.1% M/M; EST. -0.4% *UK JUNE CORE RETAIL SALES RISE 5.4% Y/Y; EST. +3.2% *英国 6 月零售额同比增长 4.2%；美国东部时间。 +2.3% *英国 6 月核心零售额环比增长 1.1%；美国东部时间。 -0.4% *英国 6 月核心零售额同比增长 5.4%；美国东...",
-          "tags": [],
-          "ts": 1784872815000,
-          "time": "14:00:15",
-          "receivedAt": 1784873590424,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "225959",
+          "url": "https://t.me/jin10light/225959",
+          "title": "月之暗面赴港上市还差一关，海外股东迁回境内成难题",
+          "body": "#月之暗面 #港股",
+          "tags": [
+            "#月之暗面",
+            "#港股"
+          ],
+          "ts": 1786168895000,
+          "time": "14:01:35",
+          "receivedAt": 1786169000509,
+          "receivedTime": true
+        },
+        {
+          "id": "225958",
+          "url": "https://t.me/jin10light/225958",
+          "title": "本周美国现货比特币ETF净流入8.653亿美元，比特币同期上涨3.18%",
+          "body": "#美国 #BTC #比特币回升",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#比特币回升"
+          ],
+          "ts": 1786168480000,
+          "time": "13:54:40",
+          "receivedAt": 1786169000509,
+          "receivedTime": true
+        },
+        {
+          "id": "225957",
+          "url": "https://t.me/jin10light/225957",
+          "title": "X平台推出原创内容奖励计划，9月起取代原收入分成机制",
+          "body": "#X #Twitter",
+          "tags": [
+            "#X",
+            "#Twitter"
+          ],
+          "ts": 1786167509000,
+          "time": "13:38:29",
+          "receivedAt": 1786169000509,
+          "receivedTime": true
+        },
+        {
+          "id": "225956",
+          "url": "https://t.me/jin10light/225956",
+          "title": "摩根大通：强劲财报未能推动美股上涨，市场更关注资本开支与预期压力",
+          "body": "#摩根大通 #美股 #科技板块",
+          "tags": [
+            "#摩根大通",
+            "#美股",
+            "#科技板块"
+          ],
+          "ts": 1786167149000,
+          "time": "13:32:29",
+          "receivedAt": 1786169000509,
+          "receivedTime": true
+        },
         {
           "id": "225955",
           "url": "https://t.me/jin10light/225955",
@@ -19517,66 +19564,6 @@
           "time": "19:01:29",
           "receivedAt": 1785843599136,
           "receivedTime": true
-        },
-        {
-          "id": "224759",
-          "url": "https://t.me/jin10light/224759",
-          "title": "卡塔尔：各方正努力通过外交途径解决美伊冲突",
-          "body": "8月4日讯，卡塔尔外交部发言人Majed Al Ansari周二表示，目前正在努力寻求通过外交途径解决美伊冲突。 他指出，包括卡塔尔、巴基斯坦和阿曼在内的调解方正在密切协调，以推动双方进行谈判并交换草案。 他表示，目前重要的是尽快恢复谈判。 另有报道称，卡塔尔方面表示，已就可能的美伊协议起草了文本，潜在的美伊协议的草案正在各方之间传阅。 不过，卡塔尔方面还表示，在美伊直接谈判方面，目前没有任何既定议程。 #卡塔尔 #美国 #伊朗",
-          "tags": [
-            "#卡塔尔",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1785840869000,
-          "time": "18:54:29",
-          "receivedAt": 1785843599445,
-          "receivedTime": true
-        },
-        {
-          "id": "224758",
-          "url": "https://t.me/jin10light/224758",
-          "title": "机器人初创公司Exclaim Robotics完成495万美元种子轮融资",
-          "body": "#Exclaim Robotics #瑞士 #Helen Oleynikova",
-          "tags": [
-            "#Exclaim",
-            "#瑞士",
-            "#Helen"
-          ],
-          "ts": 1785840808000,
-          "time": "18:53:28",
-          "receivedAt": 1785843599445,
-          "receivedTime": true
-        },
-        {
-          "id": "224757",
-          "url": "https://t.me/jin10light/224757",
-          "title": "卡塔尔方面表示，在美伊直接谈判方面，目前没有任何既定议程。",
-          "body": "#卡塔尔 #美国 #伊朗",
-          "tags": [
-            "#卡塔尔",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1785840697000,
-          "time": "18:51:37",
-          "receivedAt": 1785843599445,
-          "receivedTime": true
-        },
-        {
-          "id": "224756",
-          "url": "https://t.me/jin10light/224756",
-          "title": "宇树IPO前合约上线即回撤14%，链上UNITREE资金费率快速转负",
-          "body": "#宇树科技 #Hyperliquid #UNITREE",
-          "tags": [
-            "#宇树科技",
-            "#Hyperliquid",
-            "#UNITREE"
-          ],
-          "ts": 1785840631000,
-          "time": "18:50:31",
-          "receivedAt": 1785843599445,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20792,17 +20779,6 @@
           "ts": 1784875562000,
           "time": "14:46:02",
           "receivedAt": 1784882555757,
-          "receivedTime": true
-        },
-        {
-          "id": "1580",
-          "url": "https://t.me/PolyBeats_Bot/1580",
-          "title": "8 旬老汉参议员因健康原因缺席超 30 场表决，3 名政治板块高盈利账户预测其是否辞职",
-          "body": "在预测市场 Polymarket 上，3 名聪明钱买入「 米奇·麦康奈尔是否会在任期结束前辞去参议员职务？ 」，目前「是」概率为 41.5%。 账户1 与本市场最佳相关板块为 政治 ，板块净盈利 $383k。其在该板块共 82 笔已结算交易的胜率为 28/82（34%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 18 笔。 账户2 与本市场最佳相关板块为 政治 ，板块净盈利 $141k。其在该板块共 333 笔已结算交易的胜率为 204/333（61%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 112 笔。本笔投入为其相近成本价区间内历史投入金额中位数的 10.9 倍。 账户3 与本市场最佳相关板块为 政治 ，板块净盈利 $65.8k。其在该板块共 1388 笔已结算交易的胜率为 853/1388（61%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 264 笔。本笔投入为其相近成本价区间内历史投入金额中位数的 17.5 倍。",
-          "tags": [],
-          "ts": 1784872201000,
-          "time": "13:50:01",
-          "receivedAt": 1784873604658,
           "receivedTime": true
         }
       ],
