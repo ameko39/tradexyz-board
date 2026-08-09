@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T20:51:40.412Z",
+  "updatedAt": "2026-08-09T21:15:25.857Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2248,6 +2248,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226101",
+          "url": "https://t.me/jin10light/226101",
+          "title": "马斯克或采用FEL技术挑战EUV光刻机",
+          "body": "8月10日讯，SpaceX(SPCX.O)近日宣布将与特斯拉(TSLA.O)合作，初期投资168亿美元，在美国得州与建Terafab芯片设施。 有博客博主发布消息称，从Terafab发布的消息来看，马斯克似乎要采用“自由电子激光器”(Free Electron Laser, FEL)技术路线，以挑战阿斯麦(ASML.O)的LPP EUV光源，颠覆传统EUV晶片生产技术的垄断。 马斯克其后的回应，似乎印证了这种说法，他贴上“FEL FTW”（FEL For The Win）字眼。 从Terafab细长的厂房设计和马斯克的回复可以看出，Terafab很可能...",
+          "tags": [
+            "#马斯克",
+            "#SpaceX",
+            "#特斯拉"
+          ],
+          "ts": 1786309048000,
+          "time": "04:57:28",
+          "receivedAt": 1786310107343,
+          "receivedTime": true
+        },
         {
           "id": "226100",
           "url": "https://t.me/jin10light/226100",
@@ -19412,21 +19427,6 @@
           ],
           "ts": 1785886828000,
           "time": "07:40:28",
-          "receivedAt": 1785887004633,
-          "receivedTime": true
-        },
-        {
-          "id": "224901",
-          "url": "https://t.me/jin10light/224901",
-          "title": "SpaceX 2026年Q2营收78亿美元，AI业务收入超25亿美元",
-          "body": "#SpaceX #Starlink #AI",
-          "tags": [
-            "#SpaceX",
-            "#Starlink",
-            "#AI"
-          ],
-          "ts": 1785886527000,
-          "time": "07:35:27",
           "receivedAt": 1785887004633,
           "receivedTime": true
         }
