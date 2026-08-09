@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-08T23:59:52.175Z",
+  "updatedAt": "2026-08-09T02:01:36.126Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6865",
+          "url": "https://t.me/BWEtradfi/6865",
+          "title": "DB: *中国7月消费者价格指数环比下降0.1%；预期环比增长0.2%",
+          "body": "DB: *CHINA JULY CONSUMER PRICES FALL 0.1% M/M; EST. +0.2% *CHINA JULY CONSUMER PRICES RISE 0.5% Y/Y; EST. +0.8% *CHINA JULY PRODUCER PRICES RISE 3.5% Y/Y; EST. +3.8% *中国7月消费者价格指数同比上涨0.5%；预期环比增长0.8% *中国7月生产者价格指数同比上涨3.5%；预期环比增长3.8%",
+          "tags": [],
+          "ts": 1786239034000,
+          "time": "09:30:34",
+          "receivedAt": 1786240882973,
+          "receivedTime": true
+        },
+        {
+          "id": "6864",
+          "url": "https://t.me/BWEtradfi/6864",
+          "title": "*韩联社报道，前SK海力士员工因向中国公司泄露信息被判入狱",
+          "body": "*FORMER SK HYNIX EMPLOYEE JAILED FOR LEAKING INFORMATION TO A CHINESE FIRM, YONHAP REPORTS *DEFENDANT STOLE TRADE SECRETS IN 2022 AND DISCLOSED THEM IN A RESUME $SKHY *被告于2022年窃取商业机密并将其泄露于简历中 $SKHY",
+          "tags": [],
+          "ts": 1786238499000,
+          "time": "09:21:39",
+          "receivedAt": 1786240882973,
+          "receivedTime": true
+        },
         {
           "id": "6863",
           "url": "https://t.me/BWEtradfi/6863",
@@ -2219,17 +2241,6 @@
           "time": "07:19:12",
           "receivedAt": 1785109031134,
           "receivedTime": true
-        },
-        {
-          "id": "6666",
-          "url": "https://t.me/BWEtradfi/6666",
-          "title": "*埃隆·马斯克的隧道挖掘公司新一轮融资估值达200亿美元：华尔街日报",
-          "body": "*ELON MUSK'S BORING COMPANY EYES $20 BILLION VALUATION IN NEW FUNDING ROUND: WSJ *THE NEW FUNDING ROUND VALUES ELON MUSK’S TUNNELING STARTUP AT APPROXIMATELY $20 BILLION *埃隆·马斯克的隧道挖掘初创公司新一轮融资估值约为200亿美元。",
-          "tags": [],
-          "ts": 1784940413000,
-          "time": "08:46:53",
-          "receivedAt": 1784941327206,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2237,6 +2248,264 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226033",
+          "url": "https://t.me/jin10light/226033",
+          "title": "SK海力士考虑出售重庆工厂股权，以支持韩国本土大规模投资",
+          "body": "#SK海力士 #中国 #重庆",
+          "tags": [
+            "#SK海力士",
+            "#中国",
+            "#重庆"
+          ],
+          "ts": 1786240768000,
+          "time": "09:59:28",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226032",
+          "url": "https://t.me/jin10light/226032",
+          "title": "因向中国公司泄露SK海力士商业机密，某男子二审被判1年半监禁",
+          "body": "#韩国 #中国 #华为",
+          "tags": [
+            "#韩国",
+            "#中国",
+            "#华为"
+          ],
+          "ts": 1786240048000,
+          "time": "09:47:28",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226031",
+          "url": "https://t.me/jin10light/226031",
+          "title": "6th Man Ventures创始人带货Solana生态meme币TOAD，后者市值速通2000万美元后回落",
+          "body": "#SOL #TOAD #Mike Dudas",
+          "tags": [
+            "#SOL",
+            "#TOAD",
+            "#Mike"
+          ],
+          "ts": 1786239449000,
+          "time": "09:37:29",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226030",
+          "url": "https://t.me/jin10light/226030",
+          "title": "国家统计局：2026年7月份，全国居民消费价格同比上涨0.5%，环比下降0.1%。",
+          "body": "#中国 #CPI",
+          "tags": [
+            "#中国",
+            "#CPI"
+          ],
+          "ts": 1786239086000,
+          "time": "09:31:26",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226029",
+          "url": "https://t.me/jin10light/226029",
+          "title": "中国7月CPI年率 0.5%，预期0.80%，前值1.00%。",
+          "body": "#中国 #CPI",
+          "tags": [
+            "#中国",
+            "#CPI"
+          ],
+          "ts": 1786239028000,
+          "time": "09:30:28",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226028",
+          "url": "https://t.me/jin10light/226028",
+          "title": "中国7月CPI年率将于十分钟后公布。",
+          "body": "#中国 #CPI",
+          "tags": [
+            "#中国",
+            "#CPI"
+          ],
+          "ts": 1786238488000,
+          "time": "09:21:28",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226027",
+          "url": "https://t.me/jin10light/226027",
+          "title": "以太坊ICO参与者休眠11年后向Coinbase进行测试性转账",
+          "body": "#ETH #Coinbase",
+          "tags": [
+            "#ETH",
+            "#Coinbase"
+          ],
+          "ts": 1786237227000,
+          "time": "09:00:27",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226026",
+          "url": "https://t.me/jin10light/226026",
+          "title": "整理：中东局势跟踪（8月9日）",
+          "body": "冲突情å 1.一船只在阿曼以东海域遭袭起火。 2. 据沙特媒体哈达斯：也门军队表示，胡塞武装对马里布的密集居民区进行了炮击。 3. 据阿联酋国家通讯社：阿联酋阿布扎比国家石油公司ADNOC表示，该公司一艘船只在周六早晨通过霍尔木兹海峡时遭到导弹袭击，目前情况已得到控制。 美伊谈å 1.伊朗革命卫队发言人：霍尔木兹海峡的重新开放取决于美国完全接受伊朗的条件；与伊朗和阿曼之间的谈判无关。 2. 据福克斯新闻：美国副总统万斯表示，伊朗已通知美国，尽管政权内部人士发表了将对霍尔木兹海峡征收过境费的声明，但伊朗不会征收此类费用。 霍尔木兹海å 1.霍尔木兹海峡关...",
+          "tags": [
+            "#霍尔木兹海峡",
+            "#伊朗",
+            "#阿曼"
+          ],
+          "ts": 1786237049000,
+          "time": "08:57:29",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226025",
+          "url": "https://t.me/jin10light/226025",
+          "title": "Ledger：BIP-110缺乏重放保护，转移或出售分叉币或危及主链资产",
+          "body": "#BTC #Ledger #BIP -110",
+          "tags": [
+            "#BTC",
+            "#Ledger",
+            "#BIP"
+          ],
+          "ts": 1786236569000,
+          "time": "08:49:29",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226024",
+          "url": "https://t.me/jin10light/226024",
+          "title": "伊朗接近与阿曼达成管理海峡协议",
+          "body": "#伊朗 #阿曼 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#阿曼",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786236207000,
+          "time": "08:43:27",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226023",
+          "url": "https://t.me/jin10light/226023",
+          "title": "疑似某比特币矿工近两日向Binance存入2802枚比特币，价值1.82亿美元",
+          "body": "",
+          "tags": [],
+          "ts": 1786236147000,
+          "time": "08:42:27",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226022",
+          "url": "https://t.me/jin10light/226022",
+          "title": "SpaceX连续暴涨后做空者或被迫回补，期权成交创纪录显示资金正在重新涌入",
+          "body": "#SpaceX #美国",
+          "tags": [
+            "#SpaceX",
+            "#美国"
+          ],
+          "ts": 1786236028000,
+          "time": "08:40:28",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226021",
+          "url": "https://t.me/jin10light/226021",
+          "title": "BitMEX将367枚BTC从冷钱包转入热钱包，或与用户提款处理有关",
+          "body": "#BTC #BitMEX",
+          "tags": [
+            "#BTC",
+            "#BitMEX"
+          ],
+          "ts": 1786235668000,
+          "time": "08:34:28",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226020",
+          "url": "https://t.me/jin10light/226020",
+          "title": "国内新闻ï",
+          "body": "1.国内金饰克价重返1300元。 2. Apple智能可配合阿里巴巴千问模型工作。 3. 江波龙：完成37亿元定增事项，发行价格为560元/股。 国际新闻ï 1.伯克希尔哈撒韦二季度净利润大幅增长，现金储备有所下降。 2. 美官员：乌克兰同意避免攻击非俄籍油轮和黑海石油设施。 3. 美参议院通过临时拨款法案，有望避免政府停摆。 4. 据悉因担忧安全问题，土耳其限制商业船只进入黑海。 5. 中东局势— ①伊朗：接近与阿曼达成管理海峡协议。 同阿曼的谈判与霍尔木兹海峡能否重开无关。 ②万斯：伊朗已告知美国暂无霍尔木兹海峡通行费计划；美伊冲突仍处于“博弈中段...",
+          "tags": [
+            "#中国",
+            "#Apple",
+            "#阿里巴巴"
+          ],
+          "ts": 1786235190000,
+          "time": "08:26:30",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226019",
+          "url": "https://t.me/jin10light/226019",
+          "title": "某鲸鱼计划做多价值3800万美元SOL，均价76美元",
+          "body": "#SOL",
+          "tags": [
+            "#SOL"
+          ],
+          "ts": 1786235189000,
+          "time": "08:26:29",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226018",
+          "url": "https://t.me/jin10light/226018",
+          "title": "万斯：伊朗已告知美国暂无霍尔木兹海峡通行费计划",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786234948000,
+          "time": "08:22:28",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226017",
+          "url": "https://t.me/jin10light/226017",
+          "title": "比特币再分叉，支持BIP-110的分叉链目前落后主网18个区块",
+          "body": "#BTC #BIP -110 #Kevin Loaec",
+          "tags": [
+            "#BTC",
+            "#BIP",
+            "#Kevin"
+          ],
+          "ts": 1786234227000,
+          "time": "08:10:27",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
+        {
+          "id": "226016",
+          "url": "https://t.me/jin10light/226016",
+          "title": "白宫加密顾问：若CLARITY法案在9月15日前无法推进，或将难再通过",
+          "body": "#美国 #BTC #ETH",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1786233990000,
+          "time": "08:06:30",
+          "receivedAt": 1786240883424,
+          "receivedTime": true
+        },
         {
           "id": "226015",
           "url": "https://t.me/jin10light/226015",
@@ -19139,252 +19408,6 @@
           "ts": 1785851970000,
           "time": "21:59:30",
           "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224833",
-          "url": "https://t.me/jin10light/224833",
-          "title": "Palantir(PLTR.N)持续走高，涨幅扩大至21%。",
-          "body": "#Palantir #PLTR #美国",
-          "tags": [
-            "#Palantir",
-            "#PLTR",
-            "#美国"
-          ],
-          "ts": 1785851969000,
-          "time": "21:59:29",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224832",
-          "url": "https://t.me/jin10light/224832",
-          "title": "WTI原油向下触及75美元/桶，创7月13日以来新低，日内跌4.75%。",
-          "body": "#WTI原油 #美元",
-          "tags": [
-            "#WTI原油",
-            "#美元"
-          ],
-          "ts": 1785851852000,
-          "time": "21:57:32",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224831",
-          "url": "https://t.me/jin10light/224831",
-          "title": "纳斯达克100指数涨超2%，创7月15日以来新高 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "body": "",
-          "tags": [],
-          "ts": 1785851610000,
-          "time": "21:53:30",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224830",
-          "url": "https://t.me/jin10light/224830",
-          "title": "美国6月JOLTs职位空缺、工厂订单月率将于十分钟后公布。",
-          "body": "#美国",
-          "tags": [
-            "#美国"
-          ],
-          "ts": 1785851490000,
-          "time": "21:51:30",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224829",
-          "url": "https://t.me/jin10light/224829",
-          "title": "费城半导体指数日内涨超5%，Arm(ARM.O)涨11.5%，迈威尔科技集团(MRVL.O)涨11%，英特尔(INTC.O)涨超7%，美光科技(MU.O)涨6.7%。",
-          "body": "#费城 #Arm #英特尔",
-          "tags": [
-            "#费城",
-            "#Arm",
-            "#英特尔"
-          ],
-          "ts": 1785851130000,
-          "time": "21:45:30",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224828",
-          "url": "https://t.me/jin10light/224828",
-          "title": "Dinari与Circle达成合作，向美国投资者提供代币化股票服务",
-          "body": "",
-          "tags": [],
-          "ts": 1785851010000,
-          "time": "21:43:30",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224827",
-          "url": "https://t.me/jin10light/224827",
-          "title": "原油系期货主力合约集体下跌，SC原油跌幅扩大至4.04%，现报515.3元/桶。",
-          "body": "低硫燃料油（LU）跌幅扩大至3.26%，现报4488元/吨。 燃油下跌3.10%，现报3350元/吨。 沥青下跌1.71%，现报4074元/吨。 #原油 #低硫燃料油 #燃油",
-          "tags": [
-            "#原油",
-            "#低硫燃料油",
-            "#燃油"
-          ],
-          "ts": 1785850709000,
-          "time": "21:38:29",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224826",
-          "url": "https://t.me/jin10light/224826",
-          "title": "亚马逊跌逾2%，创始人贝索斯拟出售1500万股股票",
-          "body": "#亚马逊 #贝索斯 #AMZN .O ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#亚马逊",
-            "#贝索斯",
-            "#AMZN"
-          ],
-          "ts": 1785850649000,
-          "time": "21:37:29",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224825",
-          "url": "https://t.me/jin10light/224825",
-          "title": "费城半导体指数涨超5%",
-          "body": "",
-          "tags": [],
-          "ts": 1785850529000,
-          "time": "21:35:29",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224824",
-          "url": "https://t.me/jin10light/224824",
-          "title": "美股三大股指集体高开",
-          "body": "#美股 #Palantir #SpaceX",
-          "tags": [
-            "#美股",
-            "#Palantir",
-            "#SpaceX"
-          ],
-          "ts": 1785850347000,
-          "time": "21:32:27",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224823",
-          "url": "https://t.me/jin10light/224823",
-          "title": "美股开盘，道指涨1.17%，标普500指数涨0.4%，纳指涨0.78%。",
-          "body": "Palantir(PLTR.N)涨14.7%，公司大幅上调全年收入预期。 SpaceX(SPCX.O)和AMD(AMD.O)盘后将公布财报，分别涨2.8%和3.7%。 美光科技(MU.O)涨4%，康宁(GLW.N)涨5.6%。 #美股 #Palantir #SpaceX ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美股",
-            "#Palantir",
-            "#SpaceX"
-          ],
-          "ts": 1785850287000,
-          "time": "21:31:27",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224822",
-          "url": "https://t.me/jin10light/224822",
-          "title": "布伦特原油跌幅扩大至4%，现报79.71美元/桶。",
-          "body": "WTI原油现跌4.2%。 #布伦特原油 #WTI原油",
-          "tags": [
-            "#布伦特原油",
-            "#WTI原油"
-          ],
-          "ts": 1785850228000,
-          "time": "21:30:28",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224821",
-          "url": "https://t.me/jin10light/224821",
-          "title": "布伦特原油跌幅扩大至4%",
-          "body": "#布伦特原油 #WTI原油 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#布伦特原油",
-            "#WTI原油"
-          ],
-          "ts": 1785850168000,
-          "time": "21:29:28",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224820",
-          "url": "https://t.me/jin10light/224820",
-          "title": "美、布两油短线下挫近1美元，报75.7美元/桶和80.1美元/桶。",
-          "body": "#美国 #布伦特原油 #WTI原油",
-          "tags": [
-            "#美国",
-            "#布伦特原油",
-            "#WTI原油"
-          ],
-          "ts": 1785849991000,
-          "time": "21:26:31",
-          "receivedAt": 1785858040117,
-          "receivedTime": true
-        },
-        {
-          "id": "224819",
-          "url": "https://t.me/jin10light/224819",
-          "title": "霍尔木兹海峡或在数小时内宣布全面开放",
-          "body": "#沙特阿拉伯 #霍尔木兹海峡 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#沙特阿拉伯",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1785849991000,
-          "time": "21:26:31",
-          "receivedAt": 1785858040415,
-          "receivedTime": true
-        },
-        {
-          "id": "224818",
-          "url": "https://t.me/jin10light/224818",
-          "title": "现货黄金短线拉升30美元，突破4090美元/盎司，日内涨0.86%。",
-          "body": "#黄金",
-          "tags": [
-            "#黄金"
-          ],
-          "ts": 1785849929000,
-          "time": "21:25:29",
-          "receivedAt": 1785858040415,
-          "receivedTime": true
-        },
-        {
-          "id": "224817",
-          "url": "https://t.me/jin10light/224817",
-          "title": "沙特媒体：霍尔木兹海峡重开安排或最快数小时内公布",
-          "body": "",
-          "tags": [],
-          "ts": 1785849876000,
-          "time": "21:24:36",
-          "receivedAt": 1785858040415,
-          "receivedTime": true
-        },
-        {
-          "id": "224816",
-          "url": "https://t.me/jin10light/224816",
-          "title": "重要新é",
-          "body": "1.美联储保尔森：目前无法提供利率指引，仍保持开放态度。 如果通胀方面没有取得进展，可能需要重新调整政策。 2. 美国政府在联邦公报中就扩大金属关税产品范围征求意见。 美国建议对焊接机、起重机等产品征收关税。 3. 美国财政部长贝森特称，美国可能明日与伊朗达成协议以开放霍尔木兹海峡。 个股新é 1.卡特彼勒(CAT.N)：第二季度实现销售额205.4亿美元，净利润35.9亿美元，营业利润同比增长50%至43.0亿美元，调整后营业利润率达21.9%。 2. 英伟达(NVDA.O)：开放安全人工智能联盟（OSAA）正在制定新指南，以加强代理式人工智能的网络...",
-          "tags": [
-            "#美联储",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1785849752000,
-          "time": "21:22:32",
-          "receivedAt": 1785858040415,
           "receivedTime": true
         }
       ],
