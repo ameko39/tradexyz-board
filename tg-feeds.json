@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T11:17:24.160Z",
+  "updatedAt": "2026-08-09T11:48:18.388Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2248,6 +2248,17 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226078",
+          "url": "https://t.me/jin10light/226078",
+          "title": "WSJ：惠普、宏碁已在美国以外销售设备中使用长鑫存储内存芯片，并寻求为明年锁定更多供应",
+          "body": "",
+          "tags": [],
+          "ts": 1786274913000,
+          "time": "19:28:33",
+          "receivedAt": 1786276075233,
+          "receivedTime": true
+        },
         {
           "id": "226077",
           "url": "https://t.me/jin10light/226077",
@@ -19413,20 +19424,6 @@
           ],
           "ts": 1785865830000,
           "time": "01:50:30",
-          "receivedAt": 1785869894639,
-          "receivedTime": true
-        },
-        {
-          "id": "224878",
-          "url": "https://t.me/jin10light/224878",
-          "title": "现货白银突破60美元/盎司，为7月27日以来首次，日内涨3.14%。",
-          "body": "#白银 #美元",
-          "tags": [
-            "#白银",
-            "#美元"
-          ],
-          "ts": 1785864268000,
-          "time": "01:24:28",
           "receivedAt": 1785869894639,
           "receivedTime": true
         }
