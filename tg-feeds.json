@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T11:48:18.388Z",
+  "updatedAt": "2026-08-09T12:17:59.858Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2248,6 +2248,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226080",
+          "url": "https://t.me/jin10light/226080",
+          "title": "比特币本月涨至7万美元概率为31%",
+          "body": "#BTC #Polymarket",
+          "tags": [
+            "#BTC",
+            "#Polymarket"
+          ],
+          "ts": 1786277791000,
+          "time": "20:16:31",
+          "receivedAt": 1786277856356,
+          "receivedTime": true
+        },
+        {
+          "id": "226079",
+          "url": "https://t.me/jin10light/226079",
+          "title": "美股韩股周一价格预告：三星预计开盘涨超2%，美股盘前将略微走高",
+          "body": "#Trade .xyz #美股 #韩股",
+          "tags": [
+            "#Trade",
+            "#美股",
+            "#韩股"
+          ],
+          "ts": 1786276590000,
+          "time": "19:56:30",
+          "receivedAt": 1786277856356,
+          "receivedTime": true
+        },
         {
           "id": "226078",
           "url": "https://t.me/jin10light/226078",
@@ -19397,34 +19426,6 @@
           "ts": 1785869908000,
           "time": "02:58:28",
           "receivedAt": 1785874976983,
-          "receivedTime": true
-        },
-        {
-          "id": "224880",
-          "url": "https://t.me/jin10light/224880",
-          "title": "据路透社：消息人士称，美国白宫预计将在未来几天延长《琼斯法案》豁免期限。",
-          "body": "#美国 #《琼斯法案》",
-          "tags": [
-            "#美国"
-          ],
-          "ts": 1785867688000,
-          "time": "02:21:28",
-          "receivedAt": 1785869894639,
-          "receivedTime": true
-        },
-        {
-          "id": "224879",
-          "url": "https://t.me/jin10light/224879",
-          "title": "8月5日讯，道指、标普500指数涨幅扩大至2%，纳指上涨2.7%。",
-          "body": "费城半导体指数涨幅扩大至7%，Arm(ARM.O)上涨17.4%，英特尔(INTC.O)涨10.9%，AMD(AMD.O)涨9.3%，博通(AVGO.O)、高通(QCOM.O)涨超7%，英伟达(NVDA.O)涨2.5%。 #美股 #Arm #英特尔",
-          "tags": [
-            "#美股",
-            "#Arm",
-            "#英特尔"
-          ],
-          "ts": 1785865830000,
-          "time": "01:50:30",
-          "receivedAt": 1785869894639,
           "receivedTime": true
         }
       ],
