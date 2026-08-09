@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T21:49:08.253Z",
+  "updatedAt": "2026-08-09T22:13:38.036Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2248,6 +2248,34 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226103",
+          "url": "https://t.me/jin10light/226103",
+          "title": "WTI原油站上78美元/桶，日内涨2.16%，布伦特原油涨2.4%，报83.5美元/桶。",
+          "body": "#WTI原油 #布伦特原油",
+          "tags": [
+            "#WTI原油",
+            "#布伦特原油"
+          ],
+          "ts": 1786313006000,
+          "time": "06:03:26",
+          "receivedAt": 1786313593024,
+          "receivedTime": true
+        },
+        {
+          "id": "226102",
+          "url": "https://t.me/jin10light/226102",
+          "title": "WTI原油周一开盘上涨1.5%，现报77.6美元/桶。",
+          "body": "#WTI原油 #美元",
+          "tags": [
+            "#WTI原油",
+            "#美元"
+          ],
+          "ts": 1786312888000,
+          "time": "06:01:28",
+          "receivedAt": 1786313593024,
+          "receivedTime": true
+        },
         {
           "id": "226101",
           "url": "https://t.me/jin10light/226101",
@@ -19398,36 +19426,6 @@
           "ts": 1785887189000,
           "time": "07:46:29",
           "receivedAt": 1785891948415,
-          "receivedTime": true
-        },
-        {
-          "id": "224903",
-          "url": "https://t.me/jin10light/224903",
-          "title": "原油大跌，美伊释放积极信号，霍尔木兹海峡「自由通行」协议或近日达成",
-          "body": "#美国 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1785887010000,
-          "time": "07:43:30",
-          "receivedAt": 1785891948415,
-          "receivedTime": true
-        },
-        {
-          "id": "224902",
-          "url": "https://t.me/jin10light/224902",
-          "title": "马斯克称下周发布Grok 4.6，SpaceX全量数据将用于模型训练",
-          "body": "#SpaceX #马斯克 #Grok",
-          "tags": [
-            "#SpaceX",
-            "#马斯克",
-            "#Grok"
-          ],
-          "ts": 1785886828000,
-          "time": "07:40:28",
-          "receivedAt": 1785887004633,
           "receivedTime": true
         }
       ],
