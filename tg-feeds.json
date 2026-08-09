@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T09:41:54.881Z",
+  "updatedAt": "2026-08-09T10:15:34.923Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2248,6 +2248,50 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226072",
+          "url": "https://t.me/jin10light/226072",
+          "title": "美联储9月加息25个基点概率降至44.4%",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1786270350000,
+          "time": "18:12:30",
+          "receivedAt": 1786270514016,
+          "receivedTime": true
+        },
+        {
+          "id": "226071",
+          "url": "https://t.me/jin10light/226071",
+          "title": "AI Financial已将加拿大子公司出售给PrimeDelta",
+          "body": "#AI Financial Corp #ALT5 Sigma Canada #PrimeDelta Corp ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#AI",
+            "#ALT5",
+            "#PrimeDelta"
+          ],
+          "ts": 1786270228000,
+          "time": "18:10:28",
+          "receivedAt": 1786270514016,
+          "receivedTime": true
+        },
+        {
+          "id": "226070",
+          "url": "https://t.me/jin10light/226070",
+          "title": "Michael Saylor：若缺乏安全性、实用性、资本和用户，分叉将毫无意义",
+          "body": "#BTC #Michael Saylor #Strategy",
+          "tags": [
+            "#BTC",
+            "#Michael",
+            "#Strategy"
+          ],
+          "ts": 1786269088000,
+          "time": "17:51:28",
+          "receivedAt": 1786270514016,
+          "receivedTime": true
+        },
         {
           "id": "226069",
           "url": "https://t.me/jin10light/226069",
@@ -19383,50 +19427,6 @@
           "time": "00:46:30",
           "receivedAt": 1785863921416,
           "receivedTime": true
-        },
-        {
-          "id": "224872",
-          "url": "https://t.me/jin10light/224872",
-          "title": "现货铂金上涨超过7%，报1,745.93美元/盎司。",
-          "body": "#铂金 #美元",
-          "tags": [
-            "#铂金",
-            "#美元"
-          ],
-          "ts": 1785861811000,
-          "time": "00:43:31",
-          "receivedAt": 1785863921416,
-          "receivedTime": true
-        },
-        {
-          "id": "224871",
-          "url": "https://t.me/jin10light/224871",
-          "title": "「美联储传声筒」：贝森特政策反应函数转向不再那么鸽派",
-          "body": "#美联储 #美国 #Nick Timiraos",
-          "tags": [
-            "#美联储",
-            "#美国",
-            "#Nick"
-          ],
-          "ts": 1785861272000,
-          "time": "00:34:32",
-          "receivedAt": 1785863921416,
-          "receivedTime": true
-        },
-        {
-          "id": "224870",
-          "url": "https://t.me/jin10light/224870",
-          "title": "美股光通信板块涨势延续，AAOI涨超21%",
-          "body": "#美股 #FOTO #GLW",
-          "tags": [
-            "#美股",
-            "#FOTO",
-            "#GLW"
-          ],
-          "ts": 1785861090000,
-          "time": "00:31:30",
-          "receivedAt": 1785863921416,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20555,20 +20555,9 @@
           "time": "11:39:01",
           "receivedAt": 1785127997360,
           "receivedTime": true
-        },
-        {
-          "id": "1589",
-          "url": "https://t.me/PolyBeats_Bot/1589",
-          "title": "有奖预测倒计时 1 天，polyBeats（领导们）接下来将要重点关注？",
-          "body": "PolyBeats 有奖预测将于明日结束，届时将公布最终结果，请预测成功的老板们将投票截图发送至 @zhy_liu 。 目前未投票的老板们仍有机会获得价值 20u 的 7 天 PolyBeats Pro！ 再次感谢老板们的耐心和支持，即使本次投票结束，老板们后续若有任何建议可随时私信 @zhy_liu 。",
-          "tags": [],
-          "ts": 1784974381000,
-          "time": "18:13:01",
-          "receivedAt": 1784979166445,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
