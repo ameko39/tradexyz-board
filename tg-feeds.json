@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T10:15:34.923Z",
+  "updatedAt": "2026-08-09T10:53:35.054Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2248,6 +2248,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226073",
+          "url": "https://t.me/jin10light/226073",
+          "title": "机构：美国7月CPI数据或显示通胀压力有所缓和",
+          "body": "#美国 #CPI #美联储",
+          "tags": [
+            "#美国",
+            "#CPI",
+            "#美联储"
+          ],
+          "ts": 1786272331000,
+          "time": "18:45:31",
+          "receivedAt": 1786272792607,
+          "receivedTime": true
+        },
         {
           "id": "226072",
           "url": "https://t.me/jin10light/226072",
@@ -19412,21 +19427,6 @@
           "time": "00:50:29",
           "receivedAt": 1785863921416,
           "receivedTime": true
-        },
-        {
-          "id": "224873",
-          "url": "https://t.me/jin10light/224873",
-          "title": "Circle Gateway新增支持ERC-1271，实现可编程授权",
-          "body": "#Circle #USDC #ERC -1271",
-          "tags": [
-            "#Circle",
-            "#USDC",
-            "#ERC"
-          ],
-          "ts": 1785861990000,
-          "time": "00:46:30",
-          "receivedAt": 1785863921416,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20557,7 +20557,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
