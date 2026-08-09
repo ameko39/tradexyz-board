@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T23:15:14.812Z",
+  "updatedAt": "2026-08-09T23:47:57.531Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2248,6 +2248,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226108",
+          "url": "https://t.me/jin10light/226108",
+          "title": "日本央行将于十分钟后公布7月货币政策会议审议委员意见摘要；日本6月贸易帐将于十分钟后公布。",
+          "body": "#日本 #日本央行",
+          "tags": [
+            "#日本",
+            "#日本央行"
+          ],
+          "ts": 1786318890000,
+          "time": "07:41:30",
+          "receivedAt": 1786319258824,
+          "receivedTime": true
+        },
+        {
+          "id": "226107",
+          "url": "https://t.me/jin10light/226107",
+          "title": "特朗普暂缓对伊动武，称正「低调处理」伊朗问题",
+          "body": "#美国 #伊朗 #特朗普",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#特朗普"
+          ],
+          "ts": 1786318228000,
+          "time": "07:30:28",
+          "receivedAt": 1786319258824,
+          "receivedTime": true
+        },
         {
           "id": "226106",
           "url": "https://t.me/jin10light/226106",
@@ -19396,36 +19425,6 @@
           ],
           "ts": 1785888149000,
           "time": "08:02:29",
-          "receivedAt": 1785891948415,
-          "receivedTime": true
-        },
-        {
-          "id": "224908",
-          "url": "https://t.me/jin10light/224908",
-          "title": "AMD Q2数据中心营收翻倍，AI芯片业务加速追赶英伟达，股价盘后表现不佳",
-          "body": "#AMD #英伟达 #Meta",
-          "tags": [
-            "#AMD",
-            "#英伟达",
-            "#Meta"
-          ],
-          "ts": 1785887908000,
-          "time": "07:58:28",
-          "receivedAt": 1785891948415,
-          "receivedTime": true
-        },
-        {
-          "id": "224907",
-          "url": "https://t.me/jin10light/224907",
-          "title": "Spotify付费用户突破3亿，Q2营收不及预期，股价收跌1.57%",
-          "body": "#Spotify #Merlin #AI",
-          "tags": [
-            "#Spotify",
-            "#Merlin",
-            "#AI"
-          ],
-          "ts": 1785887548000,
-          "time": "07:52:28",
           "receivedAt": 1785891948415,
           "receivedTime": true
         }
