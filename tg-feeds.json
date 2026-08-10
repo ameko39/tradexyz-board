@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T22:52:22.219Z",
+  "updatedAt": "2026-08-10T23:21:26.162Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2274,24 +2274,27 @@
           "time": "20:30:17",
           "receivedAt": 1785160741529,
           "receivedTime": true
-        },
-        {
-          "id": "6667",
-          "url": "https://t.me/BWEtradfi/6667",
-          "title": "*据《华尔街日报》报道，消息人士透露，英伟达正在洽谈为OpenAI位于俄亥俄州的数据中心提供2500亿美元的融资支持。",
-          "body": "*NVIDIA IN TALKS TO PROVIDE $250 BILLION FINANCIAL BACKSTOP FOR OPENAI DATA CENTER IN OHIO, SOURCES SAY -- WSJ *BACKSTOP IS PART OF OPENAI'S BID TO WORK WITH SOFTBANK ON WHAT COULD BE THE LARGEST DATA CENTER IN THE U.S., SOURCES SAY -- WSJ *NVIDIA WOULD GUARANTEE FINANCING… *据《华尔街日报》报道，消息人士称，这笔融资支持...",
-          "tags": [],
-          "ts": 1785107952000,
-          "time": "07:19:12",
-          "receivedAt": 1785109031134,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226410",
+          "url": "https://t.me/jin10light/226410",
+          "title": "现货黄金突破4400美元/盎司，为6月5日以来新高，日内涨0.2%。",
+          "body": "#黄金 #美元",
+          "tags": [
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1786402634000,
+          "time": "06:57:14",
+          "receivedAt": 1786404071166,
+          "receivedTime": true
+        },
         {
           "id": "226409",
           "url": "https://t.me/jin10light/226409",
@@ -19470,20 +19473,6 @@
           ],
           "ts": 1785938429000,
           "time": "22:00:29",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225209",
-          "url": "https://t.me/jin10light/225209",
-          "title": "欧洲天然气价格下跌至52.78欧元/兆瓦时，跌幅达5.6%。",
-          "body": "#欧洲 #天然气",
-          "tags": [
-            "#欧洲",
-            "#天然气"
-          ],
-          "ts": 1785938308000,
-          "time": "21:58:28",
           "receivedAt": 1785944029261,
           "receivedTime": true
         }
