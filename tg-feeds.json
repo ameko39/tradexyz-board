@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T17:22:50.799Z",
+  "updatedAt": "2026-08-10T18:08:24.523Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2259,6 +2259,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226396",
+          "url": "https://t.me/jin10light/226396",
+          "title": "WTI原油日内大涨6.00%，现报80.93美元/桶。",
+          "body": "#WTI原油 #美元",
+          "tags": [
+            "#WTI原油",
+            "#美元"
+          ],
+          "ts": 1786383434000,
+          "time": "01:37:14",
+          "receivedAt": 1786385279541,
+          "receivedTime": true
+        },
         {
           "id": "226395",
           "url": "https://t.me/jin10light/226395",
@@ -19441,20 +19455,6 @@
           "tags": [],
           "ts": 1785936987000,
           "time": "21:36:27",
-          "receivedAt": 1785944029544,
-          "receivedTime": true
-        },
-        {
-          "id": "225195",
-          "url": "https://t.me/jin10light/225195",
-          "title": "比特币跌破64,000美元，24小时跌幅0.04%",
-          "body": "#BTC #HTX",
-          "tags": [
-            "#BTC",
-            "#HTX"
-          ],
-          "ts": 1785936927000,
-          "time": "21:35:27",
           "receivedAt": 1785944029544,
           "receivedTime": true
         }
