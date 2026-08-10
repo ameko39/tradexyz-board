@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-10T20:00:46.141Z",
+  "updatedAt": "2026-08-10T20:51:14.277Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6869",
+          "url": "https://t.me/BWEtradfi/6869",
+          "title": "*HIMS & HERS HEALTH 第二季度总订阅用户数为 290 万，预期为 274 万",
+          "body": "*HIMS & HERS HEALTH 2Q TOTAL SUBSCRIBERS 2.9M, EST. 2.74M *HIMS & HERS HEALTH 2Q OPERATING EXPENSE $578.0M, EST. $490.7M *HIMS & HERS HEALTH 2Q REV. $753.2M, EST. $699.2M *HIMS SEES FY ADJ. EBITDA $275M TO $325M, SAW $275M TO $350M *HIMS SEES 3Q ADJ. EBITDA $75M TO $95M, EST.… *HIMS & HERS HEALTH 第...",
+          "tags": [],
+          "ts": 1786392320000,
+          "time": "04:05:20",
+          "receivedAt": 1786395052372,
+          "receivedTime": true
+        },
         {
           "id": "6868",
           "url": "https://t.me/BWEtradfi/6868",
@@ -2281,6 +2292,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226405",
+          "url": "https://t.me/jin10light/226405",
+          "title": "摩根士丹利：启动美国创新基础设施计划，计划在未来10年内促进约1.5万亿美元的资本筹集、融资、顾问及相关投资活动。",
+          "body": "#摩根士丹利 #美国",
+          "tags": [
+            "#摩根士丹利",
+            "#美国"
+          ],
+          "ts": 1786392974000,
+          "time": "04:16:14",
+          "receivedAt": 1786395055718,
+          "receivedTime": true
+        },
+        {
+          "id": "226404",
+          "url": "https://t.me/jin10light/226404",
+          "title": "美股收盘：三大股指收跌 金龙指数涨1.6%",
+          "body": "8月11日讯，美股周一收盘，道指初步收跌0.1%，标普500指数跌0.06%，纳指跌0.32%。 苹果(AAPL.O)跌1.5%，SpaceX(SPCX.O)涨4%，SK海力士(SKHY.O)跌1.9%，英特尔(INTC.O)跌4%。 纳斯达克中国金龙指数收涨1.65%，阿里巴巴(BABA.N)涨3%。 #美股 #金龙指数 #苹果",
+          "tags": [
+            "#美股",
+            "#金龙指数",
+            "#苹果"
+          ],
+          "ts": 1786392194000,
+          "time": "04:03:14",
+          "receivedAt": 1786395055718,
+          "receivedTime": true
+        },
         {
           "id": "226403",
           "url": "https://t.me/jin10light/226403",
@@ -19443,34 +19483,6 @@
           ],
           "ts": 1785937656000,
           "time": "21:47:36",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225204",
-          "url": "https://t.me/jin10light/225204",
-          "title": "分析：熊市已进入最后阶段，比特币盈利供应占比持续徘徊于52%",
-          "body": "#BTC #比特币回升",
-          "tags": [
-            "#BTC",
-            "#比特币回升"
-          ],
-          "ts": 1785937655000,
-          "time": "21:47:35",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225203",
-          "url": "https://t.me/jin10light/225203",
-          "title": "ETH短线做空巨鲸平仓止盈约4866万美元空单，止盈点1864.4美元",
-          "body": "#ETH #Ai 姨 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#ETH",
-            "#Ai"
-          ],
-          "ts": 1785937654000,
-          "time": "21:47:34",
           "receivedAt": 1785944029261,
           "receivedTime": true
         }
