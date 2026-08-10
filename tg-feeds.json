@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T23:21:26.162Z",
+  "updatedAt": "2026-08-10T23:54:47.283Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2276,11 +2276,115 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226417",
+          "url": "https://t.me/jin10light/226417",
+          "title": "美伊谈判陷僵局，油价涨超5%，半导体指数跌近3%，光通信概念股重挫",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786406056000,
+          "time": "07:54:16",
+          "receivedAt": 1786406075861,
+          "receivedTime": true
+        },
+        {
+          "id": "226416",
+          "url": "https://t.me/jin10light/226416",
+          "title": "大摩启动1.5万亿美元美国创新基础设施计划，聚焦AI等前沿技术",
+          "body": "#摩根士丹利 #美国",
+          "tags": [
+            "#摩根士丹利",
+            "#美国"
+          ],
+          "ts": 1786405754000,
+          "time": "07:49:14",
+          "receivedAt": 1786406075861,
+          "receivedTime": true
+        },
+        {
+          "id": "226415",
+          "url": "https://t.me/jin10light/226415",
+          "title": "整理：每日科技要闻速递（8月11日）",
+          "body": "人工智能ï 1.阿里云计划将全球数据中心产能提升两倍以上。 2. Applied Compute融资估值有望翻倍至30亿美元。 3. OpenAI推出GPT-5.6-Cyber模型，提升高级网络安全任务能力。 4. 大摩启动1.5万亿美元美国创新基础设施计划，聚焦AI等前沿技术。 5. 英伟达与华尔街巨头合作，推进规模达5000亿美元的AI融资计划。 6. Meta开源30B模型Muse Glimmer，4bit量化可在单卡24GB显存GPU运行。 7. 据悉OpenAI回购70亿美元员工股份，对应估值8520亿美元，与近期融资估值一致。 +8. 大摩...",
+          "tags": [
+            "#阿里云",
+            "#OpenAI",
+            "#英伟达"
+          ],
+          "ts": 1786405093000,
+          "time": "07:38:13",
+          "receivedAt": 1786406075861,
+          "receivedTime": true
+        },
+        {
+          "id": "226414",
+          "url": "https://t.me/jin10light/226414",
+          "title": "OpenAI推出GPT-5.6-Cyber模型，提升漏洞发现与安全研究能力",
+          "body": "#OpenAI #GPT -5.6-Cyber #Daybreak",
+          "tags": [
+            "#OpenAI",
+            "#GPT",
+            "#Daybreak"
+          ],
+          "ts": 1786405032000,
+          "time": "07:37:12",
+          "receivedAt": 1786406075861,
+          "receivedTime": true
+        },
+        {
+          "id": "226413",
+          "url": "https://t.me/jin10light/226413",
+          "title": "特朗普称自沃什履新以来仅与其短暂交谈一次，否认频繁沟通",
+          "body": "#特朗普 #美国 #美联储",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1786404976000,
+          "time": "07:36:16",
+          "receivedAt": 1786406075861,
+          "receivedTime": true
+        },
+        {
+          "id": "226412",
+          "url": "https://t.me/jin10light/226412",
+          "title": "美联储哈玛克：可能需要多次加息压低通胀",
+          "body": "#克利夫兰联储 #哈玛克 #美联储",
+          "tags": [
+            "#克利夫兰联储",
+            "#哈玛克",
+            "#美联储"
+          ],
+          "ts": 1786404496000,
+          "time": "07:28:16",
+          "receivedAt": 1786406075861,
+          "receivedTime": true
+        },
+        {
+          "id": "226411",
+          "url": "https://t.me/jin10light/226411",
+          "title": "特朗普延长《琼斯法案》航运豁免90天，适用范围转向能源运输",
+          "body": "#特朗普 #美国 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1786404314000,
+          "time": "07:25:14",
+          "receivedAt": 1786406075861,
+          "receivedTime": true
+        },
         {
           "id": "226410",
           "url": "https://t.me/jin10light/226410",
@@ -2371,13 +2475,9 @@
         {
           "id": "226404",
           "url": "https://t.me/jin10light/226404",
-          "title": "美股收盘：三大股指收跌 金龙指数涨1.6%",
-          "body": "8月11日讯，美股周一收盘，道指初步收跌0.1%，标普500指数跌0.06%，纳指跌0.32%。 苹果(AAPL.O)跌1.5%，SpaceX(SPCX.O)涨4%，SK海力士(SKHY.O)跌1.9%，英特尔(INTC.O)跌4%。 纳斯达克中国金龙指数收涨1.65%，阿里巴巴(BABA.N)涨3%。 #美股 #金龙指数 #苹果",
-          "tags": [
-            "#美股",
-            "#金龙指数",
-            "#苹果"
-          ],
+          "title": "美股收盘，三大股指收跌，英特尔跌4% ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "body": "",
+          "tags": [],
           "ts": 1786392194000,
           "time": "04:03:14",
           "receivedAt": 1786395055718,
@@ -19375,104 +19475,6 @@
           ],
           "ts": 1785938974000,
           "time": "22:09:34",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225216",
-          "url": "https://t.me/jin10light/225216",
-          "title": "美财政部解除部分与伊朗相关的制裁",
-          "body": "8月5日讯，据路透社报道，美国财政部周三在其网站上发布详细信息，美国已取消对与伊朗伊斯兰革命卫队有关的两架飞机和三家航空公司的反恐制裁。 据悉，涉及的关联对象包括：FLY BAGHDAD AIRLINES COMPANY、伊拉克快运（IRAQ EXPRESS）、巴格达航空（Fly Baghdad）、YI-BAF号飞机以及YI-BAN号飞机。",
-          "tags": [],
-          "ts": 1785938973000,
-          "time": "22:09:33",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225215",
-          "url": "https://t.me/jin10light/225215",
-          "title": "现货白银日内涨幅扩大至5%，现报62.51美元/盎司。",
-          "body": "现货黄金涨约3.5%。 #黄金 #白银 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#黄金",
-            "#白银"
-          ],
-          "ts": 1785938847000,
-          "time": "22:07:27",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225214",
-          "url": "https://t.me/jin10light/225214",
-          "title": "美国财政部网站显示，美国解除了与伊朗相关的制裁。",
-          "body": "#美国 #伊朗",
-          "tags": [
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1785938793000,
-          "time": "22:06:33",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225213",
-          "url": "https://t.me/jin10light/225213",
-          "title": "据CGTN：也门胡塞武装称，在红海北部向一艘沙特油轮发射了弹道导弹。",
-          "body": "该组织未提供证据，沙特阿拉伯也未立即发表评论。 #也门 #胡塞武装 #沙特阿拉伯",
-          "tags": [
-            "#也门",
-            "#胡塞武装",
-            "#沙特阿拉伯"
-          ],
-          "ts": 1785938670000,
-          "time": "22:04:30",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225212",
-          "url": "https://t.me/jin10light/225212",
-          "title": "美股光通信板块延续昨日涨势，AAOI、COHR涨超5%",
-          "body": "#美股 #美国 #中国",
-          "tags": [
-            "#美股",
-            "#美国",
-            "#中国"
-          ],
-          "ts": 1785938609000,
-          "time": "22:03:29",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225211",
-          "url": "https://t.me/jin10light/225211",
-          "title": "美股存储板块开盘后走高，SK海力士ADR大涨5.77%",
-          "body": "#美股 #闪迪 #西部数据",
-          "tags": [
-            "#美股",
-            "#闪迪",
-            "#西部数据"
-          ],
-          "ts": 1785938487000,
-          "time": "22:01:27",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225210",
-          "url": "https://t.me/jin10light/225210",
-          "title": "美国7月ISM非制造业PMI 54.1，预期54.5，前值54。",
-          "body": "#美国 #美联储 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#美联储"
-          ],
-          "ts": 1785938429000,
-          "time": "22:00:29",
           "receivedAt": 1785944029261,
           "receivedTime": true
         }
