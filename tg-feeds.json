@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-10T19:12:07.641Z",
+  "updatedAt": "2026-08-10T20:00:46.141Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6868",
+          "url": "https://t.me/BWEtradfi/6868",
+          "title": "DB: *标普500指数收盘下跌0.1%，纳斯达克指数下跌0.4%",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.1%, NASDAQ DECLINES 0.4%",
+          "tags": [],
+          "ts": 1786392013000,
+          "time": "04:00:13",
+          "receivedAt": 1786392025662,
+          "receivedTime": true
+        },
+        {
+          "id": "6867",
+          "url": "https://t.me/BWEtradfi/6867",
+          "title": "*特朗普谈伊朗：我们仍有能力升级冲突",
+          "body": "*TRUMP ON IRAN: WE STILL HAVE ABILITY TO ESCALATE *TRUMP ON POTENTIAL ESCALATION WITH IRAN: CERTAINLY POSSIBLE *特朗普谈与伊朗的潜在冲突升级：当然有可能",
+          "tags": [],
+          "ts": 1786389855000,
+          "time": "03:24:15",
+          "receivedAt": 1786392025662,
+          "receivedTime": true
+        },
         {
           "id": "6866",
           "url": "https://t.me/BWEtradfi/6866",
@@ -2259,6 +2281,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226403",
+          "url": "https://t.me/jin10light/226403",
+          "title": "美国总统特朗普：自沃什获得任命以来，我只与他通过一次电话。",
+          "body": "（否认华尔街日报报道称双方频繁通话） #特朗普 #美国",
+          "tags": [
+            "#特朗普",
+            "#美国"
+          ],
+          "ts": 1786390753000,
+          "time": "03:39:13",
+          "receivedAt": 1786392028719,
+          "receivedTime": true
+        },
+        {
+          "id": "226402",
+          "url": "https://t.me/jin10light/226402",
+          "title": "美国总统特朗普：我们已经对整个霍尔木兹海峡进行了扫雷。",
+          "body": "#特朗普 #霍尔木兹海峡 #美国",
+          "tags": [
+            "#特朗普",
+            "#霍尔木兹海峡",
+            "#美国"
+          ],
+          "ts": 1786390514000,
+          "time": "03:35:14",
+          "receivedAt": 1786392028719,
+          "receivedTime": true
+        },
         {
           "id": "226401",
           "url": "https://t.me/jin10light/226401",
@@ -19420,36 +19471,6 @@
           ],
           "ts": 1785937654000,
           "time": "21:47:34",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225202",
-          "url": "https://t.me/jin10light/225202",
-          "title": "字节张一鸣否认对人工智能模型采用蒸馏技术",
-          "body": "#张一鸣 #字节跳动 #中国",
-          "tags": [
-            "#张一鸣",
-            "#字节跳动",
-            "#中国"
-          ],
-          "ts": 1785937654000,
-          "time": "21:47:34",
-          "receivedAt": 1785944029261,
-          "receivedTime": true
-        },
-        {
-          "id": "225201",
-          "url": "https://t.me/jin10light/225201",
-          "title": "霍尔木兹海峡协议草案已敲定，等待伊朗最高领袖批准",
-          "body": "#伊朗 #阿曼 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#阿曼",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1785937653000,
-          "time": "21:47:33",
           "receivedAt": 1785944029261,
           "receivedTime": true
         }
