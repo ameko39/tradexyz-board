@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T12:02:58.128Z",
+  "updatedAt": "2026-08-11T13:26:05.184Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2307,24 +2307,342 @@
           "time": "21:30:43",
           "receivedAt": 1785160741529,
           "receivedTime": true
-        },
-        {
-          "id": "6668",
-          "url": "https://t.me/BWEtradfi/6668",
-          "title": "DB: *美国6月耐用品订单初值环比增长0.3%；预期增长2.5%",
-          "body": "DB: *US PRELIM JUNE DURABLE GOODS ORDERS RISE 0.3% M/M; EST. +2.5% *US PRELIM JUNE DURABLE GOODS EX-TRANS RISE 0.6% M/M; EST. +0.8% *美国6月耐用品订单（不含贸易）初值环比增长0.6%；预期增长0.8%",
-          "tags": [],
-          "ts": 1785155417000,
-          "time": "20:30:17",
-          "receivedAt": 1785160741529,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226669",
+          "url": "https://t.me/jin10light/226669",
+          "title": "布伦特原油回落至86美元/桶下方，日内跌1.32%。",
+          "body": "WTI原油日内走低1.00%，现报80.59美元/桶。",
+          "tags": [],
+          "ts": 1786454295000,
+          "time": "21:18:15",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226668",
+          "url": "https://t.me/jin10light/226668",
+          "title": "瑞士央行美股持仓创新高，英伟达、苹果和微软位居前三",
+          "body": "#瑞士 #美股 #英伟达 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#瑞士",
+            "#美股",
+            "#英伟达"
+          ],
+          "ts": 1786453821000,
+          "time": "21:10:21",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226667",
+          "url": "https://t.me/jin10light/226667",
+          "title": "英伟达正开发一款新的Nemotron 4开源AI模型",
+          "body": "",
+          "tags": [],
+          "ts": 1786453454000,
+          "time": "21:04:14",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226666",
+          "url": "https://t.me/jin10light/226666",
+          "title": "挪威基金CEO：市场「非正常」，2万亿资产或归零",
+          "body": "#挪威",
+          "tags": [
+            "#挪威"
+          ],
+          "ts": 1786453333000,
+          "time": "21:02:13",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226665",
+          "url": "https://t.me/jin10light/226665",
+          "title": "夜盘开盘，国内期货主力合约涨多跌少，焦煤涨超2%，燃料油、低硫燃料油（LU）、丙烯、甲醇、SC原油、焦炭涨超1%。",
+          "body": "跌幅方面，双胶纸、纸浆跌近1%。 #焦煤 #燃料油 #低硫燃料油 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#焦煤",
+            "#燃料油",
+            "#低硫燃料油"
+          ],
+          "ts": 1786453280000,
+          "time": "21:01:20",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226664",
+          "url": "https://t.me/jin10light/226664",
+          "title": "美股盘前要闻一览：Anthropic计划9月或10月初上市，英特尔发股募资规模扩大至200亿美元",
+          "body": "#美股 #Anthropic #BTC ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美股",
+            "#Anthropic",
+            "#BTC"
+          ],
+          "ts": 1786453280000,
+          "time": "21:01:20",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226663",
+          "url": "https://t.me/jin10light/226663",
+          "title": "重构发射平台价值分配，COSM.FUN宇宙发射平台入局，挑战传统Pump生态格局",
+          "body": "发射台赛道竞争日趋白热化，全新项目COSM宇宙发射平台正式对外披露上线规划。 平台借鉴去中心化发币底层逻辑，在商业模式上做出差异化调整。 核心亮点在于价值回流机制：平台产生的收入大部分回馈社区参与者。 同时推出各种特色玩法 发射平台代币：0x0d6ae45c96ec4df860300087462266e19140f6dc 社交链接DEBOX： https://m.debox.pro/group?id=w6agxkyt&code=e6rhdbxn TG： https://t.me/COSM_cn #赞助广告",
+          "tags": [
+            "#赞助广告"
+          ],
+          "ts": 1786453211000,
+          "time": "21:00:11",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226662",
+          "url": "https://t.me/jin10light/226662",
+          "title": "Pendle原生部署X Layer，即将上线多重激励活动",
+          "body": "#Pendle #X Layer #OKX Wallet ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#Pendle",
+            "#X",
+            "#OKX"
+          ],
+          "ts": 1786453153000,
+          "time": "20:59:13",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226661",
+          "url": "https://t.me/jin10light/226661",
+          "title": "LME现货铜合约较三个月远期合约溢价近200美元/吨，创下近10个月以来的最高溢价，凸显了市场供应的严重紧张。",
+          "body": "#LME #铜",
+          "tags": [
+            "#LME",
+            "#铜"
+          ],
+          "ts": 1786452918000,
+          "time": "20:55:18",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226660",
+          "url": "https://t.me/jin10light/226660",
+          "title": "River AI完成11亿美元融资，致力于打造开放式AI技术栈",
+          "body": "#River AI #Igor Babuschkin #General Catalyst",
+          "tags": [
+            "#River",
+            "#Igor",
+            "#General"
+          ],
+          "ts": 1786452917000,
+          "time": "20:55:17",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226659",
+          "url": "https://t.me/jin10light/226659",
+          "title": "Bitget PoolX：锁仓XAUT解锁7万枚EVAA",
+          "body": "#EVAA #XAUT #Bitget",
+          "tags": [
+            "#EVAA",
+            "#XAUT",
+            "#Bitget"
+          ],
+          "ts": 1786452676000,
+          "time": "20:51:16",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226658",
+          "url": "https://t.me/jin10light/226658",
+          "title": "Robinhood Chain过去24小时DEX交易额超6.5亿美元，位居全链第四",
+          "body": "#Robinhood Chain #SOL #BNB Chain",
+          "tags": [
+            "#Robinhood",
+            "#SOL",
+            "#BNB"
+          ],
+          "ts": 1786452497000,
+          "time": "20:48:17",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226657",
+          "url": "https://t.me/jin10light/226657",
+          "title": "1. SK海力士(SKHY.O)计划将在中国的NAND产能提高50%。",
+          "body": "2. 英特尔(INTC.O)据悉拟将股票发行规模扩大至200亿美元。 3. Riot(RIOT.O)盘前涨超15%，Anthropic与矿企Riot签下91亿美元算力大单。 4. 英伟达(NVDA.O)宣布联手六大金融巨头，布局5000亿美元AI基建融资体系。 5. 摩根士丹利(MS.N)启动美国创新基础设施计划，目标撬动1.5万亿美元资本。 6. Beyond Meat(BYND.O)盘前一度跌近21%，公司董事会批准按1:30比例进行反向股票分割。 7. 市场消息：黑石集团(BX.N)即将以20亿美元收购加拿大航空Aeroplan忠诚度计划的少数股...",
+          "tags": [
+            "#SK海力士",
+            "#中国",
+            "#NAND"
+          ],
+          "ts": 1786452133000,
+          "time": "20:42:13",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226656",
+          "url": "https://t.me/jin10light/226656",
+          "title": "通胀数据牵动市场神经，美股高位静待美联储利率线索",
+          "body": "#美国 #伊朗 #美联储",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#美联储"
+          ],
+          "ts": 1786452077000,
+          "time": "20:41:17",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226655",
+          "url": "https://t.me/jin10light/226655",
+          "title": "钛能化学：全资子公司拟投资54.62亿元建设年产60万吨磷酸铁锂/磷酸铁钠前驱体（磷酸铁）项目",
+          "body": "8月11日讯，钛能化学公告，公司于2026年8月11日召开第八届董事会第十四次（临时）会议，审议通过了《关于全资子公司投资建设年产60万吨磷酸铁锂/磷酸铁钠前驱体（磷酸铁）项目的议案》。 两期建设总投资金额预计为546,185.51万元（项目投资金额为初步预估所得，具有一定的不确定性，项目的实际投资金额最终以实际建设情况为准）。 项目采用分期投入分阶段建设，自开工建设起预计不超过18个月完成一期建设并投入使用（最终以实际建设情况为准，不包含场平期），二期建设将结合一期建设投产情况及后续市场环境变化等因素，审慎决定二期项目是否建设、投资建设进度以及实施节...",
+          "tags": [
+            "#钛能化学",
+            "#磷酸铁锂",
+            "#磷酸铁钠"
+          ],
+          "ts": 1786451775000,
+          "time": "20:36:15",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226654",
+          "url": "https://t.me/jin10light/226654",
+          "title": "加密友好银行Erebor正寻求融资15亿美元，a16z等拟参投",
+          "body": "#Erebor Bank #Palmer Luckey #Joe Lonsdale",
+          "tags": [
+            "#Erebor",
+            "#Palmer",
+            "#Joe"
+          ],
+          "ts": 1786451654000,
+          "time": "20:34:14",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226653",
+          "url": "https://t.me/jin10light/226653",
+          "title": "美军开火拦截闯关船只，货船遭袭后疑转移船员 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "body": "",
+          "tags": [],
+          "ts": 1786451240000,
+          "time": "20:27:20",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226652",
+          "url": "https://t.me/jin10light/226652",
+          "title": "瑞士央行：截至6月30日持有SpaceX 150万股A类股份",
+          "body": "#瑞士央行 #SpaceX #美国",
+          "tags": [
+            "#瑞士央行",
+            "#SpaceX",
+            "#美国"
+          ],
+          "ts": 1786451239000,
+          "time": "20:27:19",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226651",
+          "url": "https://t.me/jin10light/226651",
+          "title": "据华尔街日报：美国官员称，美国军队对一艘试图突破伊朗港口封锁的巴拿马籍船只开火。",
+          "body": "",
+          "tags": [],
+          "ts": 1786451054000,
+          "time": "20:24:14",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226650",
+          "url": "https://t.me/jin10light/226650",
+          "title": "美国小企业乐观情绪升至接近一年来的最高水平",
+          "body": "#美国 #NFIB",
+          "tags": [
+            "#美国",
+            "#NFIB"
+          ],
+          "ts": 1786450996000,
+          "time": "20:23:16",
+          "receivedAt": 1786454632336,
+          "receivedTime": true
+        },
+        {
+          "id": "226649",
+          "url": "https://t.me/jin10light/226649",
+          "title": "但斌回应质疑：东方港湾在7月深度回调中并未大幅减仓，仅极小比例结构性微调",
+          "body": "#但斌 #东方港湾 #A股",
+          "tags": [
+            "#但斌",
+            "#东方港湾",
+            "#A股"
+          ],
+          "ts": 1786450035000,
+          "time": "20:07:15",
+          "receivedAt": 1786454632896,
+          "receivedTime": true
+        },
+        {
+          "id": "226648",
+          "url": "https://t.me/jin10light/226648",
+          "title": "美国至7月25日当周ADP就业人数周度变动 0.825万人，前值1.5万人。",
+          "body": "",
+          "tags": [],
+          "ts": 1786449973000,
+          "time": "20:06:13",
+          "receivedAt": 1786454632896,
+          "receivedTime": true
+        },
+        {
+          "id": "226647",
+          "url": "https://t.me/jin10light/226647",
+          "title": "芝商所集团将把全天候交易范围扩大至100盎司白银期货。",
+          "body": "#芝商所集团 #白银期货",
+          "tags": [
+            "#芝商所集团",
+            "#白银期货"
+          ],
+          "ts": 1786449852000,
+          "time": "20:04:12",
+          "receivedAt": 1786454632896,
+          "receivedTime": true
+        },
+        {
+          "id": "226646",
+          "url": "https://t.me/jin10light/226646",
+          "title": "芝商所白银24小时全天候交易将于9月11日启动",
+          "body": "8月11日讯，芝商所（CME）今日宣布，旗下100盎司白银期货合约将于2026年9月11日起扩展至全天候交易，尚待监管审核。 芝加哥商品交易所集团董事总经理兼金属业务全球主管Jin Hennig表示：“白银连接着贵金属与工业金属两大世界，对投资者而言既是多元化配置工具，又同时响应宏观经济消息和实体需求，我们的零售客户对1盎司黄金期货在随时需要时均可交易表现出强烈需求，因此我们现在将同样的全天候交易权限延伸至白银，帮助参与者管理风险并把握机会。 ”自7月24日1盎司黄金期货推出全天候交易以来，新增的周末交易时段累计成交逾5.3万份合约，名义价值约2.19...",
+          "tags": [],
+          "ts": 1786449794000,
+          "time": "20:03:14",
+          "receivedAt": 1786454632896,
+          "receivedTime": true
+        },
         {
           "id": "226645",
           "url": "https://t.me/jin10light/226645",
@@ -19174,337 +19492,6 @@
           "ts": 1786014631000,
           "time": "19:10:31",
           "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225468",
-          "url": "https://t.me/jin10light/225468",
-          "title": "宇树科技：确定本次发行价格为150.80元/股",
-          "body": "#宇树科技 #A股",
-          "tags": [
-            "#宇树科技",
-            "#A股"
-          ],
-          "ts": 1786014209000,
-          "time": "19:03:29",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225467",
-          "url": "https://t.me/jin10light/225467",
-          "title": "贝恩斯坦维持Circle跑赢大盘评级，目标价140美元",
-          "body": "#Circle #美国",
-          "tags": [
-            "#Circle",
-            "#美国"
-          ],
-          "ts": 1786013971000,
-          "time": "18:59:31",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225466",
-          "url": "https://t.me/jin10light/225466",
-          "title": "X Layer进入快速发展期，DeFi TVL半年增长近10倍",
-          "body": "#OKX Wallet #X Layer #稳定币",
-          "tags": [
-            "#OKX",
-            "#X",
-            "#稳定币"
-          ],
-          "ts": 1786013550000,
-          "time": "18:52:30",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225465",
-          "url": "https://t.me/jin10light/225465",
-          "title": "AMD季报公布后，机构分析师喜忧参半，Mizuho下调其目标价",
-          "body": "#AMD #美国",
-          "tags": [
-            "#AMD",
-            "#美国"
-          ],
-          "ts": 1786013128000,
-          "time": "18:45:28",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225464",
-          "url": "https://t.me/jin10light/225464",
-          "title": "Qwen3.8 Max重测后追平Opus 4.8，仍没打过Kimi K3",
-          "body": "#Qwen3 .8 Max #Claude Opus #Kimi K3",
-          "tags": [
-            "#Qwen3",
-            "#Claude",
-            "#Kimi"
-          ],
-          "ts": 1786012227000,
-          "time": "18:30:27",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225463",
-          "url": "https://t.me/jin10light/225463",
-          "title": "软银以OpenAI股份为抵押获得100亿美元保证金贷款",
-          "body": "#软银集团 #OpenAI #高盛",
-          "tags": [
-            "#软银集团",
-            "#OpenAI",
-            "#高盛"
-          ],
-          "ts": 1786012115000,
-          "time": "18:28:35",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225462",
-          "url": "https://t.me/jin10light/225462",
-          "title": "Roundhill将推出光模块股票ETF，涵盖LITE及A股「易中天」 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "body": "",
-          "tags": [],
-          "ts": 1786011869000,
-          "time": "18:24:29",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225461",
-          "url": "https://t.me/jin10light/225461",
-          "title": "Bitget与格勒普正念城管理局签署合作协议，计划在不丹设立办事处",
-          "body": "#Bitget #不丹 #格勒普正念城",
-          "tags": [
-            "#Bitget",
-            "#不丹",
-            "#格勒普正念城"
-          ],
-          "ts": 1786011450000,
-          "time": "18:17:30",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225460",
-          "url": "https://t.me/jin10light/225460",
-          "title": "花旗将闪迪目标价从2500美元下调至2100美元",
-          "body": "",
-          "tags": [],
-          "ts": 1786011391000,
-          "time": "18:16:31",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225459",
-          "url": "https://t.me/jin10light/225459",
-          "title": "X Layer DeFi TVL突破1亿美元，半年增长近10倍",
-          "body": "#OKX Wallet #X Layer #稳定币",
-          "tags": [
-            "#OKX",
-            "#X",
-            "#稳定币"
-          ],
-          "ts": 1786011391000,
-          "time": "18:16:31",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225458",
-          "url": "https://t.me/jin10light/225458",
-          "title": "1. 称更愿意与伊朗达成协议——特朗普：我们正在与伊朗进行对话，将看看会发生什么。",
-          "body": "我更愿意与伊朗达成协议。 伊朗不能拥有核武器。 2. 称或许不得不再让油价上涨 但不希望走到那一步——特朗普在拉斯维加斯一场活动上发表演讲时称，近期油价已下跌并在一定程度上趋于稳定，“我们或许得让它再涨上去”，但他“希望不必走到那一步”。 特朗普没有进一步解释这句话的含义。 3. 被曝在弹药储备问题上被误导 白宫否认其与防长发生争执——两位知情人士透露，特朗普对伊朗战争的挫败感上周在戴维营爆发，他质询国防部长赫格塞斯为何其在关键弹药短缺问题上被明显误导——这一问题如今正威胁着限制对伊朗的军事选项。 一位消息人士称，弹药短缺，尤其是远程制导导弹和防空拦截...",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1786011212000,
-          "time": "18:13:32",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225457",
-          "url": "https://t.me/jin10light/225457",
-          "title": "SK海力士(SKHY.O)：Solidigm子公司正在审查约5万亿韩元的IPO前融资。",
-          "body": "#SK海力士 #Solidigm #韩国",
-          "tags": [
-            "#SK海力士",
-            "#Solidigm",
-            "#韩国"
-          ],
-          "ts": 1786010970000,
-          "time": "18:09:30",
-          "receivedAt": 1786016481658,
-          "receivedTime": true
-        },
-        {
-          "id": "225456",
-          "url": "https://t.me/jin10light/225456",
-          "title": "10连板爱丽家居：公司股票可能存在明显的市场情绪过热和非理性炒作 可能再次申请停牌核查",
-          "body": "8月6日讯，据爱丽家居公告，公司股价连续10个交易日涨停，期间已累积巨大交易风险，现已严重偏离上市公司基本面，存在随时快速下跌的风险。 目前，公司相关指标已严重偏离公司基本面，显著高于行业整体估值水平，公司股票可能存在明显的市场情绪过热和非理性炒作，敬请广大投资者注意二级市场交易风险，审慎决策，理性投资，避免产生较大投资损失。 如公司股票价格进一步异常上涨，公司可能再次申请停牌核查。 #爱丽家居 #A股",
-          "tags": [
-            "#爱丽家居",
-            "#A股"
-          ],
-          "ts": 1786010788000,
-          "time": "18:06:28",
-          "receivedAt": 1786016481658,
-          "receivedTime": true
-        },
-        {
-          "id": "225455",
-          "url": "https://t.me/jin10light/225455",
-          "title": "某鲸鱼一小时内从OKX提取10,500枚ETH，价值超2000万美元",
-          "body": "#ETH #OKX",
-          "tags": [
-            "#ETH",
-            "#OKX"
-          ],
-          "ts": 1786010669000,
-          "time": "18:04:29",
-          "receivedAt": 1786016481658,
-          "receivedTime": true
-        },
-        {
-          "id": "225454",
-          "url": "https://t.me/jin10light/225454",
-          "title": "江卓尔：预计本轮比特币底部价4.4万美元，将于10月底出现",
-          "body": "#BTC #江卓尔 #莱比特矿池",
-          "tags": [
-            "#BTC",
-            "#江卓尔",
-            "#莱比特矿池"
-          ],
-          "ts": 1786010547000,
-          "time": "18:02:27",
-          "receivedAt": 1786016481658,
-          "receivedTime": true
-        },
-        {
-          "id": "225453",
-          "url": "https://t.me/jin10light/225453",
-          "title": "Dow Protocol声明：遭冒充OKX Ventures人员诈骗，切勿相信其投资传闻，本周即将公布的融资信息亦不包含OKX Ventures",
-          "body": "",
-          "tags": [],
-          "ts": 1786010429000,
-          "time": "18:00:29",
-          "receivedAt": 1786016481658,
-          "receivedTime": true
-        },
-        {
-          "id": "225452",
-          "url": "https://t.me/jin10light/225452",
-          "title": "Robinhood旗下CEX Bitstamp上线meme币CASHCAT",
-          "body": "#Robinhood #Bitstamp #CASHCAT",
-          "tags": [
-            "#Robinhood",
-            "#Bitstamp",
-            "#CASHCAT"
-          ],
-          "ts": 1786009949000,
-          "time": "17:52:29",
-          "receivedAt": 1786016481658,
-          "receivedTime": true
-        },
-        {
-          "id": "225451",
-          "url": "https://t.me/jin10light/225451",
-          "title": "美国挑战者企业裁员报告：7月的裁员总数是自2024年7月（当时宣布裁员25,885人）以来最低的月度水平。",
-          "body": "截至7月，雇主已宣布裁员477,033人，较2025年前七个月的806,383人下降41%。 这是今年第五次裁员人数低于去年同期水平。 #美国",
-          "tags": [
-            "#美国"
-          ],
-          "ts": 1786008868000,
-          "time": "17:34:28",
-          "receivedAt": 1786016481658,
-          "receivedTime": true
-        },
-        {
-          "id": "225450",
-          "url": "https://t.me/jin10light/225450",
-          "title": "美国挑战者企业裁员报告：7月裁员人数骤降至33,429人，招聘计划略有增加；人工智能连续第五个月成为裁员主要原因。",
-          "body": "#美国 #人工智能 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#人工智能"
-          ],
-          "ts": 1786008809000,
-          "time": "17:33:29",
-          "receivedAt": 1786016481658,
-          "receivedTime": true
-        },
-        {
-          "id": "225449",
-          "url": "https://t.me/jin10light/225449",
-          "title": "美国7月挑战者企业裁员人数 3.3429万人，前值4.5849万人。",
-          "body": "#美国",
-          "tags": [
-            "#美国"
-          ],
-          "ts": 1786008687000,
-          "time": "17:31:27",
-          "receivedAt": 1786016481658,
-          "receivedTime": true
-        },
-        {
-          "id": "225448",
-          "url": "https://t.me/jin10light/225448",
-          "title": "万科2029年到期美元债势创2个月最大涨幅",
-          "body": "8月6日讯，万科2029年11月到期美元债势创2026年5月11日以来最大涨幅。 该公司3.5%债券每1美元涨1.9美分，至50.2美分。 2027年11月到期的3.975%债券每1美元涨2.4美分，至54.9美分。 #万科 #美元债",
-          "tags": [
-            "#万科",
-            "#美元债"
-          ],
-          "ts": 1786008632000,
-          "time": "17:30:32",
-          "receivedAt": 1786016481658,
-          "receivedTime": true
-        },
-        {
-          "id": "225447",
-          "url": "https://t.me/jin10light/225447",
-          "title": "AI教父杨立昆正式下场做VC，基金管理超1亿美元",
-          "body": "#杨立昆 #Oriol Vinyals #224 Ventures",
-          "tags": [
-            "#杨立昆",
-            "#Oriol",
-            "#224"
-          ],
-          "ts": 1786008632000,
-          "time": "17:30:32",
-          "receivedAt": 1786016481658,
-          "receivedTime": true
-        },
-        {
-          "id": "225446",
-          "url": "https://t.me/jin10light/225446",
-          "title": "观点：以太坊出现MVRV动量金叉，近6年记录显示此前四次引发50%-166%上涨",
-          "body": "#ETH ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#ETH"
-          ],
-          "ts": 1786008328000,
-          "time": "17:25:28",
-          "receivedAt": 1786008561239,
-          "receivedTime": true
-        },
-        {
-          "id": "225445",
-          "url": "https://t.me/jin10light/225445",
-          "title": "高盛、摩根大通大幅增持中际旭创，持仓比例分别升至12.19%和13.72%",
-          "body": "",
-          "tags": [],
-          "ts": 1786008283000,
-          "time": "17:24:43",
-          "receivedAt": 1786008561239,
           "receivedTime": true
         }
       ],
