@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-11T13:26:05.184Z",
+  "updatedAt": "2026-08-11T14:33:56.695Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6875",
+          "url": "https://t.me/BWEtradfi/6875",
+          "title": "DB: *美国7月成屋销售量为406万套；预期为405万套",
+          "body": "DB: *US JULY EXISTING HOME SALES AT 4.06M; EST. 4.05M *US JULY EXISTING HOME SALES FALL 1.7% M/M; EST. -1.0% *美国7月成屋销售量环比下降1.7%；预期为下降1.0%",
+          "tags": [],
+          "ts": 1786456813000,
+          "time": "22:00:13",
+          "receivedAt": 1786458817229,
+          "receivedTime": true
+        },
+        {
+          "id": "6874",
+          "url": "https://t.me/BWEtradfi/6874",
+          "title": "DB: 标普500指数开盘上涨0.1%，纳斯达克指数上涨0.2%",
+          "body": "DB: *S&P 500 OPENS 0.1% HIGHER, NASDAQ UP 0.2%",
+          "tags": [],
+          "ts": 1786455042000,
+          "time": "21:30:42",
+          "receivedAt": 1786458817229,
+          "receivedTime": true
+        },
         {
           "id": "6873",
           "url": "https://t.me/BWEtradfi/6873",
@@ -2282,31 +2304,6 @@
           "time": "03:33:36",
           "receivedAt": 1785181097944,
           "receivedTime": true
-        },
-        {
-          "id": "6670",
-          "url": "https://t.me/BWEtradfi/6670",
-          "title": "*亚马逊已向美国联邦通信委员会 (FCC) 申请在 2028 年前发射由 5105 颗卫星组成的星座",
-          "body": "*AMAZON APPLIED TO THE FCC TO LAUNCH A 5,105-SATELLITE CONSTELLATION BY 2028 *AMAZON AIMS TO PROVIDE DIRECT-TO-DEVICE MOBILE SERVICES, CHALLENGING SPACEX'S STARLINK #AMZN • #SPCX *亚马逊旨在提供直接面向设备的移动服务，挑战 SpaceEx 的星链 (Starlink) 项目 #AMZN • #SPCX",
-          "tags": [
-            "#AMZN",
-            "#SPCX"
-          ],
-          "ts": 1785162293000,
-          "time": "22:24:53",
-          "receivedAt": 1785169372022,
-          "receivedTime": true
-        },
-        {
-          "id": "6669",
-          "url": "https://t.me/BWEtradfi/6669",
-          "title": "DB: 标普500指数高开0.8%，纳斯达克指数上涨1.1%",
-          "body": "DB: *S&P 500 OPENS 0.8% HIGHER, NASDAQ UP 1.1%",
-          "tags": [],
-          "ts": 1785159043000,
-          "time": "21:30:43",
-          "receivedAt": 1785160741529,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2314,6 +2311,281 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226688",
+          "url": "https://t.me/jin10light/226688",
+          "title": "Manus：将恢复以独立公司的形式运营，部分用户数据将被删除",
+          "body": "8月11日讯，8月11日，Manus发布《致Manus用户的一封信》。 Manus表示，即将恢复以独立公司的形式运营，作为恢复独立运营的一部分，同时为遵守特定司法辖区的监管要求，部分用户在2025年12月29日当天或之后产生的数据，将于2026年8月23日08:00起至8月24日期间（SGT）被删除。 受影响的用户可以从现在起至2026年8月23日07:59（SGT）备份数据，并可从2026年8月25日08:00（SGT）起恢复数据。 在此期间，未受影响的用户可以照常使用Manus，无需采取任何行动。 #Manus #新加坡 ⚡️ 免费助力 ⚡️ |...",
+          "tags": [
+            "#Manus",
+            "#新加坡"
+          ],
+          "ts": 1786458496000,
+          "time": "22:28:16",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226687",
+          "url": "https://t.me/jin10light/226687",
+          "title": "美股加密货币概念股普涨，Circle涨超7%",
+          "body": "#美股 #CRCL #MARA ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美股",
+            "#CRCL",
+            "#MARA"
+          ],
+          "ts": 1786458374000,
+          "time": "22:26:14",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226686",
+          "url": "https://t.me/jin10light/226686",
+          "title": "股市繁荣助推提前退休，美国老年人正在以更快速度离开劳动力市场",
+          "body": "#美国 #美股",
+          "tags": [
+            "#美国",
+            "#美股"
+          ],
+          "ts": 1786458075000,
+          "time": "22:21:15",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226685",
+          "url": "https://t.me/jin10light/226685",
+          "title": "特朗普：美国可以动用「强大力量」打击伊朗",
+          "body": "#特朗普 #伊朗 #美国",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1786457534000,
+          "time": "22:12:14",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226684",
+          "url": "https://t.me/jin10light/226684",
+          "title": "AI基础设施初创企业Trajectory完成4000万美元融资，红杉资本参投",
+          "body": "#Trajectory #红杉资本 #AI Agent",
+          "tags": [
+            "#Trajectory",
+            "#红杉资本",
+            "#AI"
+          ],
+          "ts": 1786457418000,
+          "time": "22:10:18",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226683",
+          "url": "https://t.me/jin10light/226683",
+          "title": "贝莱德ETF地址将838.07枚BTC与1.267万枚ETH转入Coinbase",
+          "body": "#贝莱德 #BTC #ETH",
+          "tags": [
+            "#贝莱德",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1786457174000,
+          "time": "22:06:14",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226682",
+          "url": "https://t.me/jin10light/226682",
+          "title": "Binance合约将上线DOSUSDT U本位永续合约",
+          "body": "#Binance #DOS #USDT ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#Binance",
+            "#DOS",
+            "#USDT"
+          ],
+          "ts": 1786456997000,
+          "time": "22:03:17",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226681",
+          "url": "https://t.me/jin10light/226681",
+          "title": "美国7月成屋销售总数年化 406万户，预期405万户，前值由409万户修正为413万户。",
+          "body": "#美国 #美股",
+          "tags": [
+            "#美国",
+            "#美股"
+          ],
+          "ts": 1786456872000,
+          "time": "22:01:12",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226680",
+          "url": "https://t.me/jin10light/226680",
+          "title": "特朗普：伊朗总喜欢耍花招，当面一套背后一套",
+          "body": "#特朗普 #伊朗 #美国",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1786456815000,
+          "time": "22:00:15",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226679",
+          "url": "https://t.me/jin10light/226679",
+          "title": "重构发射平台价值分配，COSM.FUN宇宙发射平台入局，挑战传统Pump生态格局",
+          "body": "发射台赛道竞争日趋白热化，全新项目COSM宇宙发射平台正式对外披露上线规划。 平台借鉴去中心化发币底层逻辑，在商业模式上做出差异化调整。 核心亮点在于价值回流机制：平台产生的收入大部分回馈社区参与者。 同时推出各种特色玩法 发射平台代币：0x0d6ae45c96ec4df860300087462266e19140f6dc 社交链接DEBOX： https://m.debox.pro/group?id=w6agxkyt&code=e6rhdbxn TG： https://t.me/COSM_cn #赞助广告",
+          "tags": [
+            "#赞助广告"
+          ],
+          "ts": 1786456814000,
+          "time": "22:00:14",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226678",
+          "url": "https://t.me/jin10light/226678",
+          "title": "Manus将恢复独立运营，部分用户需在8月23日前完成数据备份",
+          "body": "#Manus #新加坡",
+          "tags": [
+            "#Manus",
+            "#新加坡"
+          ],
+          "ts": 1786456577000,
+          "time": "21:56:17",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226677",
+          "url": "https://t.me/jin10light/226677",
+          "title": "Bitget公布维护公平交易说明，异常获利处置将用于用户保护",
+          "body": "#Bitget #CEX",
+          "tags": [
+            "#Bitget",
+            "#CEX"
+          ],
+          "ts": 1786456332000,
+          "time": "21:52:12",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226676",
+          "url": "https://t.me/jin10light/226676",
+          "title": "美国7月成屋销售总数年化将于十分钟后公布。",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1786456272000,
+          "time": "21:51:12",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226675",
+          "url": "https://t.me/jin10light/226675",
+          "title": "纽交所母公司ICE启动债券发行，为以60亿美元收购MarketAxess融资",
+          "body": "#洲际交易所 #美国",
+          "tags": [
+            "#洲际交易所",
+            "#美国"
+          ],
+          "ts": 1786456155000,
+          "time": "21:49:15",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226674",
+          "url": "https://t.me/jin10light/226674",
+          "title": "River Markets完成850万美元种子轮融资，旨在为机构打造预测市场交易工具",
+          "body": "#River Markets #Haun Ventures #Coinbase Ventures ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#River",
+            "#Haun",
+            "#Coinbase"
+          ],
+          "ts": 1786455734000,
+          "time": "21:42:14",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226673",
+          "url": "https://t.me/jin10light/226673",
+          "title": "eToro拟以至多2.31亿美元收购美国在线券商TradeZero",
+          "body": "#eToro #TradeZero #美国",
+          "tags": [
+            "#eToro",
+            "#TradeZero",
+            "#美国"
+          ],
+          "ts": 1786455434000,
+          "time": "21:37:14",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226672",
+          "url": "https://t.me/jin10light/226672",
+          "title": "美股开盘三大股指普涨",
+          "body": "#美股 #英伟达 #SK海力士",
+          "tags": [
+            "#美股",
+            "#英伟达",
+            "#SK海力士"
+          ],
+          "ts": 1786455192000,
+          "time": "21:33:12",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226671",
+          "url": "https://t.me/jin10light/226671",
+          "title": "美股开盘，道指涨0.11%、标普500指数涨0.14%、纳指涨0.25%。",
+          "body": "英伟达(NVDA.O)涨1.8%，报道称公司正在推出开源AI模型Nemotron 4。 存储概念股走强，SK海力士(SKHY.O)涨2.4%、闪迪(SNDK.O)涨1.7%。 #美股 #英伟达 #SK海力士 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#美股",
+            "#英伟达",
+            "#SK海力士"
+          ],
+          "ts": 1786455137000,
+          "time": "21:32:17",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
+        {
+          "id": "226670",
+          "url": "https://t.me/jin10light/226670",
+          "title": "纳斯达克进军暗池市场，收购LeveL Markets强化股票交易生态",
+          "body": "#纳斯达克 #LeveL Markets #暗池交易",
+          "tags": [
+            "#纳斯达克",
+            "#LeveL",
+            "#暗池交易"
+          ],
+          "ts": 1786454718000,
+          "time": "21:25:18",
+          "receivedAt": 1786458817663,
+          "receivedTime": true
+        },
         {
           "id": "226669",
           "url": "https://t.me/jin10light/226669",
@@ -19232,266 +19504,6 @@
           "ts": 1786020207000,
           "time": "20:43:27",
           "receivedAt": 1786022310631,
-          "receivedTime": true
-        },
-        {
-          "id": "225487",
-          "url": "https://t.me/jin10light/225487",
-          "title": "谷歌母公司拟再借250亿美元，AI扩张开始考验债市",
-          "body": "#Alphabet #美国 #AI",
-          "tags": [
-            "#Alphabet",
-            "#美国",
-            "#AI"
-          ],
-          "ts": 1786020148000,
-          "time": "20:42:28",
-          "receivedAt": 1786022310631,
-          "receivedTime": true
-        },
-        {
-          "id": "225486",
-          "url": "https://t.me/jin10light/225486",
-          "title": "知名分析师：比特币接近第五个枢轴点，或将出现部分去风险行为",
-          "body": "#BTC #Killa",
-          "tags": [
-            "#BTC",
-            "#Killa"
-          ],
-          "ts": 1786020029000,
-          "time": "20:40:29",
-          "receivedAt": 1786022310631,
-          "receivedTime": true
-        },
-        {
-          "id": "225485",
-          "url": "https://t.me/jin10light/225485",
-          "title": "比特币矿企Cipher Digital出售1619枚比特币，亏损4770万美元",
-          "body": "#BTC #Cipher Digital",
-          "tags": [
-            "#BTC",
-            "#Cipher"
-          ],
-          "ts": 1786019251000,
-          "time": "20:27:31",
-          "receivedAt": 1786022310631,
-          "receivedTime": true
-        },
-        {
-          "id": "225484",
-          "url": "https://t.me/jin10light/225484",
-          "title": "美国至8月1日当周初请失业金人数 19.9万人，预期20.2万人，前值由19.7万人修正为19.8万人。",
-          "body": "",
-          "tags": [],
-          "ts": 1786018888000,
-          "time": "20:21:28",
-          "receivedAt": 1786022310892,
-          "receivedTime": true
-        },
-        {
-          "id": "225483",
-          "url": "https://t.me/jin10light/225483",
-          "title": "Alphabet寻求通过债券发行筹集高达250亿美元资金",
-          "body": "",
-          "tags": [],
-          "ts": 1786018767000,
-          "time": "20:19:27",
-          "receivedAt": 1786022310892,
-          "receivedTime": true
-        },
-        {
-          "id": "225482",
-          "url": "https://t.me/jin10light/225482",
-          "title": "Trade.xyz上宇树科技IPO前永续合约突破74美元，创历史新高",
-          "body": "#宇树科技 #IPO",
-          "tags": [
-            "#宇树科技",
-            "#IPO"
-          ],
-          "ts": 1786018471000,
-          "time": "20:14:31",
-          "receivedAt": 1786022310892,
-          "receivedTime": true
-        },
-        {
-          "id": "225481",
-          "url": "https://t.me/jin10light/225481",
-          "title": "高盛：闪迪与西部数据财报超预期但盘后仍下跌，市场预期过高引发获利了结",
-          "body": "#闪迪 #西部数据 #NAND",
-          "tags": [
-            "#闪迪",
-            "#西部数据",
-            "#NAND"
-          ],
-          "ts": 1786017870000,
-          "time": "20:04:30",
-          "receivedAt": 1786022310892,
-          "receivedTime": true
-        },
-        {
-          "id": "225480",
-          "url": "https://t.me/jin10light/225480",
-          "title": "阿曼与伊朗很快将就霍尔木兹海峡过境走廊发表联合声明",
-          "body": "",
-          "tags": [],
-          "ts": 1786017691000,
-          "time": "20:01:31",
-          "receivedAt": 1786022310892,
-          "receivedTime": true
-        },
-        {
-          "id": "225479",
-          "url": "https://t.me/jin10light/225479",
-          "title": "宇树科技中一签利润预估近17.6万元，8月10日开启打新",
-          "body": "#宇树科技 #Unitree #科创板",
-          "tags": [
-            "#宇树科技",
-            "#Unitree",
-            "#科创板"
-          ],
-          "ts": 1786017089000,
-          "time": "19:51:29",
-          "receivedAt": 1786022310892,
-          "receivedTime": true
-        },
-        {
-          "id": "225478",
-          "url": "https://t.me/jin10light/225478",
-          "title": "Alphabet启动10部分美元投资级债券发行",
-          "body": "",
-          "tags": [],
-          "ts": 1786017030000,
-          "time": "19:50:30",
-          "receivedAt": 1786022310892,
-          "receivedTime": true
-        },
-        {
-          "id": "225477",
-          "url": "https://t.me/jin10light/225477",
-          "title": "Figure老板推出浏览器AI：榜单第一是真的，「史上最强」是吹的",
-          "body": "#Figure #Hark #Brett Adcock",
-          "tags": [
-            "#Figure",
-            "#Hark",
-            "#Brett"
-          ],
-          "ts": 1786016369000,
-          "time": "19:39:29",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225476",
-          "url": "https://t.me/jin10light/225476",
-          "title": "SpaceX年内或有超40亿股进入流通，短期股价面临潜在卖压",
-          "body": "#SpaceX #美国",
-          "tags": [
-            "#SpaceX",
-            "#美国"
-          ],
-          "ts": 1786016129000,
-          "time": "19:35:29",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225475",
-          "url": "https://t.me/jin10light/225475",
-          "title": "DeepSeek、腾讯等获宇树科技战略配售",
-          "body": "#宇树科技 #DeepSeek #腾讯",
-          "tags": [
-            "#宇树科技",
-            "#DeepSeek",
-            "#腾讯"
-          ],
-          "ts": 1786015889000,
-          "time": "19:31:29",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225474",
-          "url": "https://t.me/jin10light/225474",
-          "title": "通宇通讯：佳贤通信与英伟达不存在研发合作关系",
-          "body": "8月6日讯，通宇通讯公告，公司2026年8月5日披露拟以自有资金人民币3亿元受让佳贤通信约25%股权，本次交易尚未完成，交易完成后不构成控制、不纳入合并报表范围。 近日网络流传“佳贤通信与英伟达（NVDA）合作开发6GAI-RAN基站”等传闻，经核查，佳贤通信与英伟达（NVDA）不存在研发合作关系；佳贤通信基于英伟达（NVDA）CUDAAerial开源生态平台开展研发，该平台为公开开源生态，不涉及独家授权或排他性合作安排，相关产品仍处于前期研发阶段，尚未实现商业化应用。 佳贤通信2026年1-6月营业收入1.03亿元，净利润-3988.72万元(未经审...",
-          "tags": [
-            "#通宇通讯",
-            "#佳贤通信",
-            "#英伟达"
-          ],
-          "ts": 1786015768000,
-          "time": "19:29:28",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225473",
-          "url": "https://t.me/jin10light/225473",
-          "title": "视频｜All-In Podcast节选：韩国股市或有100万账户爆仓，3%人口血本无归",
-          "body": "#韩国 #加密货币",
-          "tags": [
-            "#韩国",
-            "#加密货币"
-          ],
-          "ts": 1786015707000,
-          "time": "19:28:27",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225472",
-          "url": "https://t.me/jin10light/225472",
-          "title": "沃什坚持审慎的市场指引，若通胀强劲或考虑9月加息",
-          "body": "",
-          "tags": [],
-          "ts": 1786015531000,
-          "time": "19:25:31",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225471",
-          "url": "https://t.me/jin10light/225471",
-          "title": "Serenity：宇树科技上市或带动机器人板块估值，绿的谐波等供应链公司或将受益",
-          "body": "#宇树科技 #机器人板块 #IPO",
-          "tags": [
-            "#宇树科技",
-            "#机器人板块",
-            "#IPO"
-          ],
-          "ts": 1786015418000,
-          "time": "19:23:38",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225470",
-          "url": "https://t.me/jin10light/225470",
-          "title": "英国金融时报在文章中提到，知情人士透露，如果未来几周公布的通胀数据表现强劲，且市场对借贷成本上升的预期升温，美联储主席沃什将准备在9月会议上加息。",
-          "body": "#美联储 #沃什 #美国",
-          "tags": [
-            "#美联储",
-            "#沃什",
-            "#美国"
-          ],
-          "ts": 1786015417000,
-          "time": "19:23:37",
-          "receivedAt": 1786016481416,
-          "receivedTime": true
-        },
-        {
-          "id": "225469",
-          "url": "https://t.me/jin10light/225469",
-          "title": "美股盘前存储股、光通信及半导体普跌，西部数据跌超16%、闪迪跌超11%",
-          "body": "#美股 #西部数据 #美光科技",
-          "tags": [
-            "#美股",
-            "#西部数据",
-            "#美光科技"
-          ],
-          "ts": 1786014631000,
-          "time": "19:10:31",
-          "receivedAt": 1786016481416,
           "receivedTime": true
         }
       ],
