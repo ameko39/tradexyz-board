@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-11T20:06:38.077Z",
+  "updatedAt": "2026-08-11T20:59:08.290Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6879",
+          "url": "https://t.me/BWEtradfi/6879",
+          "title": "*COREWEAVE 第二季度调整后营业收入 1.28 亿美元，预期为 6660 万美元",
+          "body": "*COREWEAVE 2Q ADJ. OPER INCOME $128M, EST. $66.6M *COREWEAVE 2Q ADJ. EBITDA MARGIN 59%, EST. 55.4% *COREWEAVE 2Q REV. $2.58B, EST. $2.56B $CRWV *COREWEAVE 第二季度调整后 EBITDA 利润率 59%，预期为 55.4% *COREWEAVE 第二季度营收 25.8 亿美元，预期为 25.6 亿美元 $CRWV",
+          "tags": [],
+          "ts": 1786479017000,
+          "time": "04:10:17",
+          "receivedAt": 1786481922332,
+          "receivedTime": true
+        },
+        {
+          "id": "6878",
+          "url": "https://t.me/BWEtradfi/6878",
+          "title": "*据内部人士透露，Oracle计划在第二季度初削减员工薪资",
+          "body": "*ORACLE INTENTION OF REDUCING PAYROLL BY START OF 2Q: INSIDER *ORACLE JOB CUTS COULD REACH DOUBLE-DIGIT PERCENTAGES ON SOME TEAMS: INSIDER $ORCL *据内部人士透露，Oracle部分团队的裁员比例可能达到两位数 $ORCL",
+          "tags": [],
+          "ts": 1786478939000,
+          "time": "04:08:59",
+          "receivedAt": 1786481922332,
+          "receivedTime": true
+        },
         {
           "id": "6877",
           "url": "https://t.me/BWEtradfi/6877",
@@ -2306,11 +2328,39 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226731",
+          "url": "https://t.me/jin10light/226731",
+          "title": "美国至8月7日当周API原油库存 907.2万桶，预期-50万桶，前值269万桶。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1786480574000,
+          "time": "04:36:14",
+          "receivedAt": 1786481925844,
+          "receivedTime": true
+        },
+        {
+          "id": "226730",
+          "url": "https://t.me/jin10light/226730",
+          "title": "美国至8月7日当周API原油库存将于十分钟后公布。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1786479674000,
+          "time": "04:21:14",
+          "receivedAt": 1786481925844,
+          "receivedTime": true
+        },
         {
           "id": "226729",
           "url": "https://t.me/jin10light/226729",
@@ -19456,34 +19506,6 @@
           ],
           "ts": 1786026746000,
           "time": "22:32:26",
-          "receivedAt": 1786030412198,
-          "receivedTime": true
-        },
-        {
-          "id": "225530",
-          "url": "https://t.me/jin10light/225530",
-          "title": "EIA天然气报告：截至7月31日当周，美国天然气库存总量为31170亿立方英尺，较此前一周增加330亿立方英尺，较去年同期减少120亿立方英尺，同比降幅0.4%，同时较5年均值高1950亿立方英尺，增幅6.7%。",
-          "body": "#美国 #天然气",
-          "tags": [
-            "#美国",
-            "#天然气"
-          ],
-          "ts": 1786026687000,
-          "time": "22:31:27",
-          "receivedAt": 1786030412198,
-          "receivedTime": true
-        },
-        {
-          "id": "225529",
-          "url": "https://t.me/jin10light/225529",
-          "title": "美国至7月31日当周EIA天然气库存 330亿立方英尺，预期300亿立方英尺，前值280亿立方英尺。",
-          "body": "#美国 #天然气",
-          "tags": [
-            "#美国",
-            "#天然气"
-          ],
-          "ts": 1786026629000,
-          "time": "22:30:29",
           "receivedAt": 1786030412198,
           "receivedTime": true
         }
