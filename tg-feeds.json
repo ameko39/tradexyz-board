@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-11T19:20:22.766Z",
+  "updatedAt": "2026-08-11T20:06:38.077Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6877",
+          "url": "https://t.me/BWEtradfi/6877",
+          "title": "DB: 标普500指数收盘下跌0.4%，纳斯达克指数下跌0.6%",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.4%, NASDAQ DECLINES 0.6%",
+          "tags": [],
+          "ts": 1786478413000,
+          "time": "04:00:13",
+          "receivedAt": 1786478771968,
+          "receivedTime": true
+        },
+        {
+          "id": "6876",
+          "url": "https://t.me/BWEtradfi/6876",
+          "title": "*随着《澄清法案》陷入僵局，美国证券交易委员会（SEC）准备公布重大加密货币计划",
+          "body": "*SEC POISED TO UNVEIL MAJOR CRYPTO PLANS AS CLARITY ACT STALLS $CRCL $CRCL",
+          "tags": [],
+          "ts": 1786477184000,
+          "time": "03:39:44",
+          "receivedAt": 1786478771968,
+          "receivedTime": true
+        },
         {
           "id": "6875",
           "url": "https://t.me/BWEtradfi/6875",
@@ -2282,35 +2304,28 @@
           "time": "05:26:19",
           "receivedAt": 1785189191766,
           "receivedTime": true
-        },
-        {
-          "id": "6672",
-          "url": "https://t.me/BWEtradfi/6672",
-          "title": "DB: 标普500指数小幅收平，纳斯达克指数下跌0.2%",
-          "body": "DB: *S&P 500 CLOSES LITTLE CHANGED, NASDAQ FALLS 0.2%",
-          "tags": [],
-          "ts": 1785182413000,
-          "time": "04:00:13",
-          "receivedAt": 1785185523507,
-          "receivedTime": true
-        },
-        {
-          "id": "6671",
-          "url": "https://t.me/BWEtradfi/6671",
-          "title": "*特朗普谈伊朗：目前正在进行非常友好的谈判",
-          "body": "*TRUMP ON IRAN: RIGHT NOW VERY FRIENDLY NEGOTIATIONS GOING ON *TRUMP CLAIMS IRAN IS SAYING 'PLEASE, PLEASE, NO BLOCKADE' *特朗普声称伊朗方面表示“求求你们，不要封锁”",
-          "tags": [],
-          "ts": 1785180816000,
-          "time": "03:33:36",
-          "receivedAt": 1785181097944,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226729",
+          "url": "https://t.me/jin10light/226729",
+          "title": "美股收盘：三大股指收跌 金龙指数跌近3%",
+          "body": "8月12日讯，美股周二收盘，道指初步收跌0.34%，标普500指数跌0.3%，纳指跌0.6%。 SK海力士(SKHY.O)涨4.7%，SpaceX(SPCX.O)跌3.9%，苹果(AAPL.O)跌1%。 纳斯达克中国金龙指数收跌2.95%，京东(JD.O)、网易(NTES.O)和蔚来汽车(NIO.N)跌于4%一线。 #美股 #金龙指数 #SK海力士",
+          "tags": [
+            "#美股",
+            "#金龙指数",
+            "#SK海力士"
+          ],
+          "ts": 1786478594000,
+          "time": "04:03:14",
+          "receivedAt": 1786478773253,
+          "receivedTime": true
+        },
         {
           "id": "226728",
           "url": "https://t.me/jin10light/226728",
@@ -19469,20 +19484,6 @@
           ],
           "ts": 1786026629000,
           "time": "22:30:29",
-          "receivedAt": 1786030412198,
-          "receivedTime": true
-        },
-        {
-          "id": "225528",
-          "url": "https://t.me/jin10light/225528",
-          "title": "Predict.fun：加密资产涨跌预测市场上线「一键买入」功能",
-          "body": "#predict .fun #加密资产",
-          "tags": [
-            "#predict",
-            "#加密资产"
-          ],
-          "ts": 1786026510000,
-          "time": "22:28:30",
           "receivedAt": 1786030412198,
           "receivedTime": true
         }
