@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T20:59:08.290Z",
+  "updatedAt": "2026-08-11T21:49:56.347Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2312,27 +2312,28 @@
           "time": "08:04:08",
           "receivedAt": 1785200875439,
           "receivedTime": true
-        },
-        {
-          "id": "6673",
-          "url": "https://t.me/BWEtradfi/6673",
-          "title": "SpaceX市值的缩水幅度已相当于一整家Tesla——CNBC",
-          "body": "*SPACEX HAS NOW LOST THE EQUIVALENT OF A FULL TESLA IN MARKET CAPITALIZATION - CNBC #SPCX • #TSLA",
-          "tags": [
-            "#SPCX",
-            "#TSLA"
-          ],
-          "ts": 1785187579000,
-          "time": "05:26:19",
-          "receivedAt": 1785189191766,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226732",
+          "url": "https://t.me/jin10light/226732",
+          "title": "整理：中东局势跟踪（8月12日）",
+          "body": "冲突情å 1.美国总统特朗普：美国可以动用“强大力量”打击伊朗。 2. 安全消息人士称，伊拉克埃尔比勒东北部的一处伊朗库尔德反对派营地遭到火箭袭击，目前没有人员伤亡报告。 3. 据伊朗塔斯尼姆通讯社：也门马里布市传出爆炸声。 4. 美军：在阿曼湾对一艘试图突破伊朗港口封锁的巴拿马籍船只开火。 5. 胡塞武装称打击也门多地的与沙特相关军事目标。 6. 利比亚西部炼油厂再次遭无人机攻击。 7. 据阿拉比亚电视台：也门军方无人机在霍贾省东部多个战线对胡塞武装的据点和集结点实施打击。 霍尔木兹海å 1.美媒：美军情报评估伊朗战略重点已从核计划转向霍尔木兹海峡。...",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#特朗普"
+          ],
+          "ts": 1786483816000,
+          "time": "05:30:16",
+          "receivedAt": 1786484973017,
+          "receivedTime": true
+        },
         {
           "id": "226731",
           "url": "https://t.me/jin10light/226731",
@@ -19491,21 +19492,6 @@
           ],
           "ts": 1786026989000,
           "time": "22:36:29",
-          "receivedAt": 1786030412198,
-          "receivedTime": true
-        },
-        {
-          "id": "225531",
-          "url": "https://t.me/jin10light/225531",
-          "title": "SpaceX涨超5%，创盘中新高",
-          "body": "#SpaceX #SPCX #美国",
-          "tags": [
-            "#SpaceX",
-            "#SPCX",
-            "#美国"
-          ],
-          "ts": 1786026746000,
-          "time": "22:32:26",
           "receivedAt": 1786030412198,
           "receivedTime": true
         }
