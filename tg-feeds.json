@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T21:49:56.347Z",
+  "updatedAt": "2026-08-11T22:26:54.806Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2314,11 +2314,25 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226733",
+          "url": "https://t.me/jin10light/226733",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加1.712吨，当前持仓量为1022.672吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1786486814000,
+          "time": "06:20:14",
+          "receivedAt": 1786487187298,
+          "receivedTime": true
+        },
         {
           "id": "226732",
           "url": "https://t.me/jin10light/226732",
@@ -19477,21 +19491,6 @@
           ],
           "ts": 1786027829000,
           "time": "22:50:29",
-          "receivedAt": 1786030412198,
-          "receivedTime": true
-        },
-        {
-          "id": "225532",
-          "url": "https://t.me/jin10light/225532",
-          "title": "胡塞武装警告沙特：任何侵略行动都将承担后果",
-          "body": "8月6日讯，也门胡塞武装发言人发布声明称，武装部队针对沙特敌人在鲁瓦克、阿巴尔、萨尼亚等地的部队集结地，以及所谓的第一和第三紧急师所属的其他营地，使用大量弹道导弹和无人机，实施了一次大规模、精确的军事行动。 行动取得了以下成果：造成数百名沙特雇佣兵死伤。 摧毁并烧毁了沙特敌人在该国东部瓦迪阿地区的大量营地、部队集结地、仓库和武器。 摧毁了目标营地内的大量军用车辆。 武装部队警告沙特，不要对也门及其人民采取任何侵略行动，否则将承担任何升级行为的后果。 #胡塞武装 #沙特 #也门",
-          "tags": [
-            "#胡塞武装",
-            "#沙特",
-            "#也门"
-          ],
-          "ts": 1786026989000,
-          "time": "22:36:29",
           "receivedAt": 1786030412198,
           "receivedTime": true
         }
