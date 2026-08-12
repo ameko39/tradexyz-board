@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T01:46:03.465Z",
+  "updatedAt": "2026-08-12T03:51:19.453Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2301,28 +2301,6 @@
           "time": "21:30:44",
           "receivedAt": 1785253117214,
           "receivedTime": true
-        },
-        {
-          "id": "6676",
-          "url": "https://t.me/BWEtradfi/6676",
-          "title": "SK海力士股价跌幅扩大至12% $SKHY",
-          "body": "*SK HYNIX SHARES EXTEND LOSSES TO 12% $SKHY",
-          "tags": [],
-          "ts": 1785204917000,
-          "time": "10:15:17",
-          "receivedAt": 1785212613099,
-          "receivedTime": true
-        },
-        {
-          "id": "6675",
-          "url": "https://t.me/BWEtradfi/6675",
-          "title": "美国调查越南中国工厂，加剧新关税担忧",
-          "body": "*US PROBES CHINESE FACTORIES IN VIETNAM, STOKING NEW LEVY FEARS",
-          "tags": [],
-          "ts": 1785204906000,
-          "time": "10:15:06",
-          "receivedAt": 1785212613099,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2330,6 +2308,617 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "226810",
+          "url": "https://t.me/jin10light/226810",
+          "title": "Binance将新增GameStop bStocks交易对",
+          "body": "#Binance #GMEB #bStocks",
+          "tags": [
+            "#Binance",
+            "#GMEB",
+            "#bStocks"
+          ],
+          "ts": 1786506433000,
+          "time": "11:47:13",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226809",
+          "url": "https://t.me/jin10light/226809",
+          "title": "1.14亿BTC空头巨鲸继续豪赌不会反弹，距爆仓不足0.7%",
+          "body": "#BTC #巨鲸",
+          "tags": [
+            "#BTC",
+            "#巨鲸"
+          ],
+          "ts": 1786506314000,
+          "time": "11:45:14",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226808",
+          "url": "https://t.me/jin10light/226808",
+          "title": "淡马锡正对三星、SK海力士进行新一轮投资，为其首次投资韩国股市",
+          "body": "#淡马锡 #韩国 #三星电子",
+          "tags": [
+            "#淡马锡",
+            "#韩国",
+            "#三星电子"
+          ],
+          "ts": 1786506016000,
+          "time": "11:40:16",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226807",
+          "url": "https://t.me/jin10light/226807",
+          "title": "网传英伟达欲投资中际旭创、新易盛？公司紧急回应",
+          "body": "8月12日讯，近日，有市场传闻称英伟达计划斥资20亿美元战略入股光模块龙头中际旭创，资金用于新一代光模块研发、全球产能扩充以及泰国新工厂建设；同时英伟达有意成为新易盛港股IPO的基石投资者。 8月12日，中际旭创相关人士回应：对于该市场传闻，公司并不了解，以公司相关公告为准。 同时，新易盛回应称：对于该传闻，公司不便发表评论，有关于公司H股的事项，请投资者以公告为准。 #英伟达 #中际旭创 #新易盛",
+          "tags": [
+            "#英伟达",
+            "#中际旭创",
+            "#新易盛"
+          ],
+          "ts": 1786505896000,
+          "time": "11:38:16",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226806",
+          "url": "https://t.me/jin10light/226806",
+          "title": "南方两倍做多三星电子涨超17%，南方两倍做多SK海力士涨16%",
+          "body": "#港股 #三星电子 #SK海力士",
+          "tags": [
+            "#港股",
+            "#三星电子",
+            "#SK海力士"
+          ],
+          "ts": 1786505713000,
+          "time": "11:35:13",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226805",
+          "url": "https://t.me/jin10light/226805",
+          "title": "Bernstein上调微软目标价至660美元，AI和云业务将继续给盈利增长提供支撑",
+          "body": "#微软 #Bernstein #美国",
+          "tags": [
+            "#微软",
+            "#Bernstein",
+            "#美国"
+          ],
+          "ts": 1786505533000,
+          "time": "11:32:13",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226804",
+          "url": "https://t.me/jin10light/226804",
+          "title": "早盘收盘，国内期货主力合约涨跌不一。",
+          "body": "燃料油涨超4%，多晶硅涨超3%，低硫燃料油（LU）、碳酸锂涨近3%，合成橡胶、液化石油气（LPG）、焦煤涨超2%。 跌幅方面，钯跌超1%，生猪、尿素跌近1%。 #燃料油 #多晶硅 #碳酸锂",
+          "tags": [
+            "#燃料油",
+            "#多晶硅",
+            "#碳酸锂"
+          ],
+          "ts": 1786505475000,
+          "time": "11:31:15",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226803",
+          "url": "https://t.me/jin10light/226803",
+          "title": "字节刚把AI数据升为一级部门，前负责人傅越被曝离职创业做Agent/FDE",
+          "body": "#傅越 #字节 #AI",
+          "tags": [
+            "#傅越",
+            "#字节",
+            "#AI"
+          ],
+          "ts": 1786504993000,
+          "time": "11:23:13",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226802",
+          "url": "https://t.me/jin10light/226802",
+          "title": "韩国拟9月提高单一股票杠杆ETF交易门槛，最小交易单位将升至20股",
+          "body": "#韩国 #ETF #ETN",
+          "tags": [
+            "#韩国",
+            "#ETF",
+            "#ETN"
+          ],
+          "ts": 1786504816000,
+          "time": "11:20:16",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226801",
+          "url": "https://t.me/jin10light/226801",
+          "title": "韩国KOSPI指数日内大涨5.00%，现报6665.78点。",
+          "body": "SK海力士涨8.2%，三星电子涨8.5%。 #韩国 #KOSPI #SK海力士 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#韩国",
+            "#KOSPI",
+            "#SK海力士"
+          ],
+          "ts": 1786504693000,
+          "time": "11:18:13",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226800",
+          "url": "https://t.me/jin10light/226800",
+          "title": "花旗：金银仍存在上行空间，地缘及宏观向好将恢复贵金属投资需求",
+          "body": "#黄金 #白银 #美联储",
+          "tags": [
+            "#黄金",
+            "#白银",
+            "#美联储"
+          ],
+          "ts": 1786504468000,
+          "time": "11:14:28",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226799",
+          "url": "https://t.me/jin10light/226799",
+          "title": "MetaPlanet和Hut8合计转出近2000枚BTC，价值超1.2亿美元",
+          "body": "",
+          "tags": [],
+          "ts": 1786504154000,
+          "time": "11:09:14",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226798",
+          "url": "https://t.me/jin10light/226798",
+          "title": "Hyperliquid出现1亿美元BTC空单，巨鲸DoshiAtoll开40倍杠杆做空",
+          "body": "#BTC #Hyperliquid ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#BTC",
+            "#Hyperliquid"
+          ],
+          "ts": 1786504033000,
+          "time": "11:07:13",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226797",
+          "url": "https://t.me/jin10light/226797",
+          "title": "Gemini月活破10亿，成谷歌史上增长最快产品",
+          "body": "#谷歌 #Gemini #Sundar Pichai",
+          "tags": [
+            "#谷歌",
+            "#Gemini",
+            "#Sundar"
+          ],
+          "ts": 1786503795000,
+          "time": "11:03:15",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226796",
+          "url": "https://t.me/jin10light/226796",
+          "title": "韩交所启动KOSPI侧车机制，暂停程序化买盘",
+          "body": "",
+          "tags": [],
+          "ts": 1786503613000,
+          "time": "11:00:13",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226795",
+          "url": "https://t.me/jin10light/226795",
+          "title": "1. 韩媒：SK海力士计划将在中国的NAND产能提高50%。",
+          "body": "2. AI存储繁荣还能持续多久？华尔街：涨价潮或降温，但供应紧张料持续。 3. 担忧存储芯片行业见顶，三星、SK海力士目标价遭韩国券商猛砍约30%。 4. 上海：推动自主芯片与主流大模型深度融合。 5. TrendForce：DDR5 16Gb (2Gx8) 4800/5600现货均价较上日上涨0.32%。 6. 韩国拟明年向AI等战略产业主权财富基金注资超7亿美元。 7. 机构：面向维修和翻新机市场的显示面板出货量加速增长。 8. 消息人士：通用汽车计划将一电池合资企业出售给三星SDI。 9. 麦格里：在三星和SK海力士的带动下，Kospi指数预计将...",
+          "tags": [
+            "#韩国",
+            "#SK海力士",
+            "#三星"
+          ],
+          "ts": 1786503435000,
+          "time": "10:57:15",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226794",
+          "url": "https://t.me/jin10light/226794",
+          "title": "Coreum跨链桥遭攻击，近20万枚XRP被盗",
+          "body": "#XRP #Coreum",
+          "tags": [
+            "#XRP",
+            "#Coreum"
+          ],
+          "ts": 1786503435000,
+          "time": "10:57:15",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226793",
+          "url": "https://t.me/jin10light/226793",
+          "title": "Bithumb将上线TRB韩元交易对",
+          "body": "#Bithumb #TRB #韩国",
+          "tags": [
+            "#Bithumb",
+            "#TRB",
+            "#韩国"
+          ],
+          "ts": 1786503315000,
+          "time": "10:55:15",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226792",
+          "url": "https://t.me/jin10light/226792",
+          "title": "Attestable完成AI可验证技术突破，获2000万美元种子轮融资",
+          "body": "#Attestable #Vitalik Buterin #ETH",
+          "tags": [
+            "#Attestable",
+            "#Vitalik",
+            "#ETH"
+          ],
+          "ts": 1786503314000,
+          "time": "10:55:14",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226791",
+          "url": "https://t.me/jin10light/226791",
+          "title": "现货黄金日内涨幅达1.00%，现报4411.72美元/盎司；纽约期金日内涨超1.00%，现报4472.10美元/盎司。",
+          "body": "#黄金 #美元",
+          "tags": [
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1786503253000,
+          "time": "10:54:13",
+          "receivedAt": 1786506657839,
+          "receivedTime": true
+        },
+        {
+          "id": "226790",
+          "url": "https://t.me/jin10light/226790",
+          "title": "科创50指数日内涨逾2%。",
+          "body": "#科创50 #A股",
+          "tags": [
+            "#科创50",
+            "#A股"
+          ],
+          "ts": 1786503077000,
+          "time": "10:51:17",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226789",
+          "url": "https://t.me/jin10light/226789",
+          "title": "高盛：AI资本开支叙事被市场夸大，实际对美国GDP增长影响非常有限",
+          "body": "#美国 #美股 #高盛",
+          "tags": [
+            "#美国",
+            "#美股",
+            "#高盛"
+          ],
+          "ts": 1786503076000,
+          "time": "10:51:16",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226788",
+          "url": "https://t.me/jin10light/226788",
+          "title": "港股南方两倍做多海力士涨10.3%，南方两倍做多三星电子涨13.4%",
+          "body": "#港股 #SK海力士 #三星电子",
+          "tags": [
+            "#港股",
+            "#SK海力士",
+            "#三星电子"
+          ],
+          "ts": 1786502777000,
+          "time": "10:46:17",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226787",
+          "url": "https://t.me/jin10light/226787",
+          "title": "现货黄金日内涨幅达1%",
+          "body": "",
+          "tags": [],
+          "ts": 1786502776000,
+          "time": "10:46:16",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226786",
+          "url": "https://t.me/jin10light/226786",
+          "title": "预告：今晚7月CPI数据公布在即，或直接决定美联储9月是否扣动加息扳机",
+          "body": "",
+          "tags": [],
+          "ts": 1786502535000,
+          "time": "10:42:15",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226785",
+          "url": "https://t.me/jin10light/226785",
+          "title": "现货白银日内涨超1.00%，现报65.32美元/盎司。",
+          "body": "#白银 #美元",
+          "tags": [
+            "#白银",
+            "#美元"
+          ],
+          "ts": 1786502473000,
+          "time": "10:41:13",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226784",
+          "url": "https://t.me/jin10light/226784",
+          "title": "深证成指持续走强，涨超1%。",
+          "body": "#深证成指 #A股",
+          "tags": [
+            "#深证成指",
+            "#A股"
+          ],
+          "ts": 1786502356000,
+          "time": "10:39:16",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226783",
+          "url": "https://t.me/jin10light/226783",
+          "title": "沪深两市成交额连续第296个交易日突破1万亿元。",
+          "body": "#A股",
+          "tags": [
+            "#A股"
+          ],
+          "ts": 1786502054000,
+          "time": "10:34:14",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226782",
+          "url": "https://t.me/jin10light/226782",
+          "title": "8月12日讯，据Mysteel数据显示，今日MMLC电池级碳酸锂（早盘）价格较昨日上涨2850元/吨，中间价报147850元/吨。",
+          "body": "#碳酸锂 #MMLC #Mysteel",
+          "tags": [
+            "#碳酸锂",
+            "#MMLC",
+            "#Mysteel"
+          ],
+          "ts": 1786501996000,
+          "time": "10:33:16",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226781",
+          "url": "https://t.me/jin10light/226781",
+          "title": "韩国KOSPI指数日内涨4.00%，现报6599.61点。",
+          "body": "#韩国 #KOSPI ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#韩国",
+            "#KOSPI"
+          ],
+          "ts": 1786501995000,
+          "time": "10:33:15",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226780",
+          "url": "https://t.me/jin10light/226780",
+          "title": "韩国KOSPI指数盘中涨幅扩大至3.7%，三星电子大涨6.7%，SK海力士涨5.4%",
+          "body": "#韩国 #KOSPI #三星电子",
+          "tags": [
+            "#韩国",
+            "#KOSPI",
+            "#三星电子"
+          ],
+          "ts": 1786501692000,
+          "time": "10:28:12",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226779",
+          "url": "https://t.me/jin10light/226779",
+          "title": "TrendForce内存过剩观点遭反驳：均价增长放缓是正常信号，高价行情将持续至2027年",
+          "body": "",
+          "tags": [],
+          "ts": 1786501636000,
+          "time": "10:27:16",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226778",
+          "url": "https://t.me/jin10light/226778",
+          "title": "Serenity评Leopold重仓太阳诱电：AI瓶颈正向最小元器件扩散，MLCC将迎强劲需求",
+          "body": "#Leopold #太阳诱电 #MLCC",
+          "tags": [
+            "#Leopold",
+            "#太阳诱电",
+            "#MLCC"
+          ],
+          "ts": 1786500972000,
+          "time": "10:16:12",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226777",
+          "url": "https://t.me/jin10light/226777",
+          "title": "Upbit将上线PROM韩元和USDT交易对",
+          "body": "#Upbit #PROM #韩元",
+          "tags": [
+            "#Upbit",
+            "#PROM",
+            "#韩元"
+          ],
+          "ts": 1786500914000,
+          "time": "10:15:14",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226776",
+          "url": "https://t.me/jin10light/226776",
+          "title": "现货黄金向上触及4400美元/盎司，日内涨0.74%。",
+          "body": "#黄金 #美元",
+          "tags": [
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1786500853000,
+          "time": "10:14:13",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226775",
+          "url": "https://t.me/jin10light/226775",
+          "title": "A股半导体材料板块走高，欧莱新材涨超10%，有研新材、先导基电、珂玛科技、臻宝科技、有研硅等跟涨。",
+          "body": "#A股 #半导体材料 #欧莱新材 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#A股",
+            "#半导体材料",
+            "#欧莱新材"
+          ],
+          "ts": 1786500734000,
+          "time": "10:12:14",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226774",
+          "url": "https://t.me/jin10light/226774",
+          "title": "Hyperliquid最大比特币空头巨鲸今早三度加仓，空单价值达新高1.14亿美元",
+          "body": "#BTC #Hyperliquid ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#BTC",
+            "#Hyperliquid"
+          ],
+          "ts": 1786500315000,
+          "time": "10:05:15",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226773",
+          "url": "https://t.me/jin10light/226773",
+          "title": "碳酸锂主力合约突破15万关口，涨幅扩大至3.59%。",
+          "body": "#碳酸锂 #主力合约",
+          "tags": [
+            "#碳酸锂",
+            "#主力合约"
+          ],
+          "ts": 1786500075000,
+          "time": "10:01:15",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226772",
+          "url": "https://t.me/jin10light/226772",
+          "title": "特朗普回应秘密换机返美规避暗杀：收到很多威胁，「我听从军方安排」",
+          "body": "#特朗普 #伊朗 #土耳其",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#土耳其"
+          ],
+          "ts": 1786499955000,
+          "time": "09:59:15",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226771",
+          "url": "https://t.me/jin10light/226771",
+          "title": "MiniMax今日将被纳入港交所科技100等指数，港股人工智能股盘初走强",
+          "body": "#港股 #MiniMax #智谱 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#港股",
+            "#MiniMax",
+            "#智谱"
+          ],
+          "ts": 1786499473000,
+          "time": "09:51:13",
+          "receivedAt": 1786506658156,
+          "receivedTime": true
+        },
+        {
+          "id": "226770",
+          "url": "https://t.me/jin10light/226770",
+          "title": "腾讯、真格基金、红杉中国等斥资20亿美元向Meta购回Manus股份",
+          "body": "#腾讯 #Meta #Manus",
+          "tags": [
+            "#腾讯",
+            "#Meta",
+            "#Manus"
+          ],
+          "ts": 1786499295000,
+          "time": "09:48:15",
+          "receivedAt": 1786506658507,
+          "receivedTime": true
+        },
+        {
+          "id": "226769",
+          "url": "https://t.me/jin10light/226769",
+          "title": "创业板指盘初涨逾1%，深证成指现涨0.74%，CRO概念、先进封装等板块涨幅居前。",
+          "body": "#创业板指 #深证成指 #CRO概念",
+          "tags": [
+            "#创业板指",
+            "#深证成指",
+            "#CRO概念"
+          ],
+          "ts": 1786499232000,
+          "time": "09:47:12",
+          "receivedAt": 1786506658507,
+          "receivedTime": true
+        },
+        {
+          "id": "226768",
+          "url": "https://t.me/jin10light/226768",
+          "title": "A股光刻机板块持续走强，炬光科技涨超14%，富创精密涨超5%，茂莱光学、江丰电子等跟涨。",
+          "body": "#A股 #光刻机",
+          "tags": [
+            "#A股",
+            "#光刻机"
+          ],
+          "ts": 1786499174000,
+          "time": "09:46:14",
+          "receivedAt": 1786506658507,
+          "receivedTime": true
+        },
         {
           "id": "226767",
           "url": "https://t.me/jin10light/226767",
@@ -18859,641 +19448,6 @@
           "time": "08:55:28",
           "receivedAt": 1786073402035,
           "receivedTime": true
-        },
-        {
-          "id": "225609",
-          "url": "https://t.me/jin10light/225609",
-          "title": "矿企MARA与Riot向机构托管平台NYDIG存入总计581枚比特币",
-          "body": "#MARA #Riot Platforms #NYDIG",
-          "tags": [
-            "#MARA",
-            "#Riot",
-            "#NYDIG"
-          ],
-          "ts": 1786063947000,
-          "time": "08:52:27",
-          "receivedAt": 1786073402035,
-          "receivedTime": true
-        },
-        {
-          "id": "225608",
-          "url": "https://t.me/jin10light/225608",
-          "title": "Uniswap联创发布自动复利流动性技术设计，称将纳入Uniswap路线图",
-          "body": "#Uniswap #Hayden Adams #pools .trade",
-          "tags": [
-            "#Uniswap",
-            "#Hayden",
-            "#pools"
-          ],
-          "ts": 1786063648000,
-          "time": "08:47:28",
-          "receivedAt": 1786073402035,
-          "receivedTime": true
-        },
-        {
-          "id": "225607",
-          "url": "https://t.me/jin10light/225607",
-          "title": "据英国金融时报：华盛顿上周晚些时候为提振日元而出售欧元的操作令欧洲央行措手不及，美国在货币干预行动实施后才通知了欧洲央行。",
-          "body": "#美国 #欧洲央行 #日元",
-          "tags": [
-            "#美国",
-            "#欧洲央行",
-            "#日元"
-          ],
-          "ts": 1786063349000,
-          "time": "08:42:29",
-          "receivedAt": 1786073402035,
-          "receivedTime": true
-        },
-        {
-          "id": "225606",
-          "url": "https://t.me/jin10light/225606",
-          "title": "Ondo Finance已故创始人母亲提起诉讼寻求取得公司控制权",
-          "body": "#Ondo Finance #美国 #Kathleen Allman",
-          "tags": [
-            "#Ondo",
-            "#美国",
-            "#Kathleen"
-          ],
-          "ts": 1786063292000,
-          "time": "08:41:32",
-          "receivedAt": 1786073402035,
-          "receivedTime": true
-        },
-        {
-          "id": "225605",
-          "url": "https://t.me/jin10light/225605",
-          "title": "伦敦AI云基础设施公司Nscale拟9月赴美IPO，二季度收入攀升至逾1亿美元",
-          "body": "#Nscale #伦敦 #美国",
-          "tags": [
-            "#Nscale",
-            "#伦敦",
-            "#美国"
-          ],
-          "ts": 1786063291000,
-          "time": "08:41:31",
-          "receivedAt": 1786073402197,
-          "receivedTime": true
-        },
-        {
-          "id": "225604",
-          "url": "https://t.me/jin10light/225604",
-          "title": "疑似Amber Group关联地址从Binance提取997万美元加密货币",
-          "body": "#Amber Group #Binance #ENA ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#Amber",
-            "#Binance",
-            "#ENA"
-          ],
-          "ts": 1786063291000,
-          "time": "08:41:31",
-          "receivedAt": 1786073402197,
-          "receivedTime": true
-        },
-        {
-          "id": "225603",
-          "url": "https://t.me/jin10light/225603",
-          "title": "Roundhill光模块ETF LYTE上市首日表现亮眼，录得7200万美元成交额",
-          "body": "#LYTE #光模块 #A股",
-          "tags": [
-            "#LYTE",
-            "#光模块",
-            "#A股"
-          ],
-          "ts": 1786063290000,
-          "time": "08:41:30",
-          "receivedAt": 1786073402197,
-          "receivedTime": true
-        },
-        {
-          "id": "225602",
-          "url": "https://t.me/jin10light/225602",
-          "title": "AMD宣布收购AI推理芯片公司Taalas，强化推理市场布局",
-          "body": "#AMD #Taalas #多伦多",
-          "tags": [
-            "#AMD",
-            "#Taalas",
-            "#多伦多"
-          ],
-          "ts": 1786063108000,
-          "time": "08:38:28",
-          "receivedAt": 1786073402197,
-          "receivedTime": true
-        },
-        {
-          "id": "225601",
-          "url": "https://t.me/jin10light/225601",
-          "title": "韩国KOSPI指数日内转跌，盘初曾涨1.8%；SK海力士跌近1%。",
-          "body": "#韩国 #KOSPI #SK海力士",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#SK海力士"
-          ],
-          "ts": 1786062807000,
-          "time": "08:33:27",
-          "receivedAt": 1786073402197,
-          "receivedTime": true
-        },
-        {
-          "id": "225600",
-          "url": "https://t.me/jin10light/225600",
-          "title": "英伟达拟下调Rubin Ultra HBM配置以应对高端短缺，已测试至少三种低内存版本",
-          "body": "#英伟达 #HBM #Rubin Ultra",
-          "tags": [
-            "#英伟达",
-            "#HBM",
-            "#Rubin"
-          ],
-          "ts": 1786062688000,
-          "time": "08:31:28",
-          "receivedAt": 1786073402197,
-          "receivedTime": true
-        },
-        {
-          "id": "225599",
-          "url": "https://t.me/jin10light/225599",
-          "title": "特朗普称霍尔木兹海峡协议尚未达成，正参与相关谈判",
-          "body": "#特朗普 #美国 #伊朗",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1786062207000,
-          "time": "08:23:27",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225598",
-          "url": "https://t.me/jin10light/225598",
-          "title": "AI债务融资遇冷蔓延至数据中心CMBS，Pure Data放弃10亿欧元债券发行后市场担忧蔓延",
-          "body": "#AI #数据中心 #KKR",
-          "tags": [
-            "#AI",
-            "#数据中心",
-            "#KKR"
-          ],
-          "ts": 1786062090000,
-          "time": "08:21:30",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225597",
-          "url": "https://t.me/jin10light/225597",
-          "title": "OpenAI首款消费级设备细节曝光：外形似甜甜圈、无显示屏智能音箱，售价或超300美元",
-          "body": "#OpenAI #智能音箱 #苹果",
-          "tags": [
-            "#OpenAI",
-            "#智能音箱",
-            "#苹果"
-          ],
-          "ts": 1786061548000,
-          "time": "08:12:28",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225596",
-          "url": "https://t.me/jin10light/225596",
-          "title": "Wintermute获美国经纪交易商牌照，加密原生机构与传统金融互相渗透加速",
-          "body": "#Wintermute #美国 #Citadel Securities",
-          "tags": [
-            "#Wintermute",
-            "#美国",
-            "#Citadel"
-          ],
-          "ts": 1786061307000,
-          "time": "08:08:27",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225595",
-          "url": "https://t.me/jin10light/225595",
-          "title": "日韩股市高开，韩国KOSPI指数涨近1%",
-          "body": "#韩国 #KOSPI #日经225",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#日经225"
-          ],
-          "ts": 1786061187000,
-          "time": "08:06:27",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225594",
-          "url": "https://t.me/jin10light/225594",
-          "title": "Wintermute获美国经纪交易商牌照，加密做市商首次踏入美国证券市场，剑指传统做市巨头",
-          "body": "#Wintermute #美国 #Citadel Securities",
-          "tags": [
-            "#Wintermute",
-            "#美国",
-            "#Citadel"
-          ],
-          "ts": 1786061127000,
-          "time": "08:05:27",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225593",
-          "url": "https://t.me/jin10light/225593",
-          "title": "Robinhood链代币交易活跃，STONKBROKER市值突破5900万美元创新高，CashCat下行至1亿美元",
-          "body": "#Robinhood #CashCat #STONKBROKER",
-          "tags": [
-            "#Robinhood",
-            "#CashCat",
-            "#STONKBROKER"
-          ],
-          "ts": 1786060828000,
-          "time": "08:00:28",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225592",
-          "url": "https://t.me/jin10light/225592",
-          "title": "加密市场横盘震荡，总市值24小时下行0.3%，以太坊跌破1900美元",
-          "body": "#ETH #BTC #Binance ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#ETH",
-            "#BTC",
-            "#Binance"
-          ],
-          "ts": 1786060587000,
-          "time": "07:56:27",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225591",
-          "url": "https://t.me/jin10light/225591",
-          "title": "SpaceX无惧天量解锁涨逾6%，总市值重新站上1.5万亿美元",
-          "body": "#SpaceX #Redwire #Rocket Lab",
-          "tags": [
-            "#SpaceX",
-            "#Redwire",
-            "#Rocket"
-          ],
-          "ts": 1786059808000,
-          "time": "07:43:28",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225590",
-          "url": "https://t.me/jin10light/225590",
-          "title": "非农与美伊协议落地前市场谨慎，美股三大指数集体收跌，闪迪、西数绩后大跌带动存储板块下挫",
-          "body": "#美股 #微软 #非农就业报告",
-          "tags": [
-            "#美股",
-            "#微软",
-            "#非农就业报告"
-          ],
-          "ts": 1786059688000,
-          "time": "07:41:28",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225589",
-          "url": "https://t.me/jin10light/225589",
-          "title": "今日重点关注的财经数据与事件：2026年8月7日 周五",
-          "body": "① 待定 中国7月贸易帐 ② 待定 中国7月外汇储备 ③ 13:30 法国第二季度ILO失业率 ④ 14:00 德国6月季调后工业产出月率 ⑤ 14:00 德国6月季调后贸易帐 ⑥ 14:00 英国7月Halifax季调后房价指数月率 ⑦ 14:45 法国6月贸易帐 ⑧ 15:00 瑞士7月消费者信心指数 ⑨ 20:30 加拿大7月就业人数 ⑩ 20:30 美国7月失业率 ⑪ 20:30 美国7月季调后非农就业人口 ⑫ 20:30 美国7月平均每小时工资年率 ⑬ 20:30 美国7月平均每小时工资月率 ⑭ 22:00 美联储巴尔金发表讲话 ⑮ 23:0...",
-          "tags": [
-            "#中国",
-            "#美国",
-            "#美联储"
-          ],
-          "ts": 1786056690000,
-          "time": "06:51:30",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225588",
-          "url": "https://t.me/jin10light/225588",
-          "title": "1. 郑商所公告，近期影响尿素市场的不确定性因素较多，请各会员单位切实加强投资者教育和风险防范工作。",
-          "body": "2. 据路透社报道，一份官方法令显示，刚果（金）禁止出口铜精矿和钴精矿。 3. 据Mysteel了解，印尼最大镍矿供应商之一WBN已获批2026年下半年新增约2500万吨湿吨镍矿RKAB配额。 4. 美国农业部（USDA）数据显示，截至2026年8月4日，美国大豆产区干旱比例为26%，较上周持平。 5. USDA数据显示，截至7月30日当周美国2025/2026年度大豆出口净销售为3.2万吨，大幅低于市场预期的10-40万吨。 6. 一位沙特官员表示，多份情报报告显示，胡塞武装、伊拉克民兵与伊朗革命卫队正在协调策划针对沙特的袭击。 7. 据Mystee...",
-          "tags": [],
-          "ts": 1786055433000,
-          "time": "06:30:33",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225587",
-          "url": "https://t.me/jin10light/225587",
-          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上一交易日增加0.571吨，当前持仓量为1014.719吨。",
-          "body": "#黄金 #SPDR Gold Trust",
-          "tags": [
-            "#黄金",
-            "#SPDR"
-          ],
-          "ts": 1786054768000,
-          "time": "06:19:28",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225586",
-          "url": "https://t.me/jin10light/225586",
-          "title": "特朗普宣布对多晶硅及其衍生产品加征关税",
-          "body": "8月7日讯，当地时间8月6日，美国总统特朗普签署行政令，依据《1962年贸易扩展法》第232条，对进口多晶硅及其衍生产品采取最低进口价格和额外关税措施，以支持美国国内多晶硅、半导体和太阳能供应链。 公告规定，最低进口价格分别为：多晶硅每公斤21美元；多晶硅锭和晶圆每公斤100美元；太阳能电池每瓦0.22美元；太阳能组件每瓦0.38美元。 同时，美国将对公告附件所列多晶硅锭及相关衍生产品加征15%的从价关税。 相关措施将自2026年12月4日美国东部时间凌晨12时01分起生效。 公告还授权商务部建立“回流美国”激励计划。 企业如承诺在美国建设、翻新或扩建...",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#多晶硅"
-          ],
-          "ts": 1786053748000,
-          "time": "06:02:28",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225585",
-          "url": "https://t.me/jin10light/225585",
-          "title": "消息人士：土耳其、沙特和巴基斯坦将于周五在沙特签署联合防务协议。",
-          "body": "#土耳其 #沙特 #巴基斯坦",
-          "tags": [
-            "#土耳其",
-            "#沙特",
-            "#巴基斯坦"
-          ],
-          "ts": 1786053268000,
-          "time": "05:54:28",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225584",
-          "url": "https://t.me/jin10light/225584",
-          "title": "整理：中东局势跟踪（8月7日）",
-          "body": "冲突情å 1.沙特官员：伊朗方面正策划袭击沙特。 2. 联黎部队：以军单日向黎发射113枚炮弹。 3. 以海军在地中海和红海举行大规模军事演习。 4. 伊朗格什姆岛传爆炸声 伊朗称系打击敌方目标所致。 5. 美媒曝特朗普在弹药储备问题上被误导，向防长倾泻不满。 特朗普随后否认。 6. 据伊通社：也门境内与胡塞武装有关的消息人士称，沙特位于也门边境的军事指挥中心遭到袭击。 美伊谈å 1.特朗普：与伊朗的协议可能很快达成。 2. 一名了解谈判情况的人士表示，我们正在进入关键的24小时。 要么就霍尔木兹海峡达成临时协议，要么局势将升级。 霍尔木兹海å 1.行...",
-          "tags": [
-            "#霍尔木兹海峡",
-            "#伊朗",
-            "#沙特"
-          ],
-          "ts": 1786051949000,
-          "time": "05:32:29",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225583",
-          "url": "https://t.me/jin10light/225583",
-          "title": "2028年FOMC票委、圣路易联储主席穆萨莱姆将于十分钟后就美国经济和货币政策发表讲话。",
-          "body": "#美国 #美联储 #穆萨莱姆",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#穆萨莱姆"
-          ],
-          "ts": 1786051290000,
-          "time": "05:21:30",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225582",
-          "url": "https://t.me/jin10light/225582",
-          "title": "沙特官员：伊朗方面正策划袭击沙特",
-          "body": "8月7日讯，一位沙特官员表示，多份情报报告显示，胡塞武装、伊拉克民兵与伊朗革命卫队正在协调策划针对沙特的袭击。 沙特已观测到无人机和导弹正在调动，暗示可能从南北两方向发动协同攻击。 潜在袭击可能针对民用和经济设施，包括能源基础设施、港口和机场。 该官员称，这些报告尤其令人担忧，因此时正值沙特继续努力推动局势缓和与和平解决方案、且谈判正朝着积极方向推进之际。 该官员表示，沙特将毫不犹豫采取一切必要措施回应任何侵略行为。 沙特与美国在所有层面上的合作仍然非常紧密和牢固，包括与美国中央司令部在作战层面的合作。 #沙特 #伊朗 #胡塞武装",
-          "tags": [
-            "#沙特",
-            "#伊朗",
-            "#胡塞武装"
-          ],
-          "ts": 1786049188000,
-          "time": "04:46:28",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225581",
-          "url": "https://t.me/jin10light/225581",
-          "title": "美国总统特朗普：霍尔木兹海峡尚未达成协议。",
-          "body": "#特朗普 #霍尔木兹海峡 #美国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#特朗普",
-            "#霍尔木兹海峡",
-            "#美国"
-          ],
-          "ts": 1786047986000,
-          "time": "04:26:26",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225580",
-          "url": "https://t.me/jin10light/225580",
-          "title": "美国总统特朗普：与伊朗的战争将很快结束。",
-          "body": "#特朗普 #伊朗 #美国",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1786047929000,
-          "time": "04:25:29",
-          "receivedAt": 1786062566942,
-          "receivedTime": true
-        },
-        {
-          "id": "225579",
-          "url": "https://t.me/jin10light/225579",
-          "title": "美国总统特朗普正式签署多晶硅关税行政命令。",
-          "body": "#美国 #特朗普",
-          "tags": [
-            "#美国",
-            "#特朗普"
-          ],
-          "ts": 1786047208000,
-          "time": "04:13:28",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225578",
-          "url": "https://t.me/jin10light/225578",
-          "title": "美股收盘： 三大股指收跌 西部数据大跌13%",
-          "body": "8月7日讯，美股周四收盘，道指收跌0.86%，标普500指数跌0.18%，纳指跌0.06%。 闪迪(SNDK.O)跌6.8%，西部数据(WDC.O)跌13%，SK海力士(SKHY.O)跌5%，SpaceX(SPCX.O)涨6%。 纳斯达克中国金龙指数收涨0.27%，阿里巴巴(BABA.N)跌1%。 #美股 #西部数据 #SpaceX ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美股",
-            "#西部数据",
-            "#SpaceX"
-          ],
-          "ts": 1786046488000,
-          "time": "04:01:28",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225577",
-          "url": "https://t.me/jin10light/225577",
-          "title": "WTI原油日内大涨4.00%，现报77.30美元/桶。",
-          "body": "#WTI原油 #美元",
-          "tags": [
-            "#WTI原油",
-            "#美元"
-          ],
-          "ts": 1786044508000,
-          "time": "03:28:28",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225576",
-          "url": "https://t.me/jin10light/225576",
-          "title": "美国考虑推迟征收多晶硅相关产品关税",
-          "body": "8月7日讯，当地时间6日获悉，特朗普政府官员正考虑将原计划对太阳能电池板及其他含多晶硅产品征收的关税推迟数月实施。 知情人士称，美国总统特朗普最快可能于周四下令实施相关关税，但官员正在考虑设置90至120天的过渡期。 据悉，这一安排可能促使参与美国可再生能源项目的企业在关税正式征收前加快进口。 #美国 #特朗普 #多晶硅 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#多晶硅"
-          ],
-          "ts": 1786042409000,
-          "time": "02:53:29",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225575",
-          "url": "https://t.me/jin10light/225575",
-          "title": "据美国哥伦比亚广播公司（CBS）：美国总统特朗普将与沙特领导人就伊朗问题进行电话沟通。",
-          "body": "#美国 #特朗普 #沙特 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#沙特"
-          ],
-          "ts": 1786039715000,
-          "time": "02:08:35",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225574",
-          "url": "https://t.me/jin10light/225574",
-          "title": "美国7月沙特原油进口降至零 40多年来首次整月中断",
-          "body": "8月7日讯，据美国政府初步数据，今年7月美国从沙特进口的原油降至零，这是自1985年以来首次出现整个月没有进口沙特原油的情况。 美国能源部当地时间周三公布的数据显示，7月运往美国的沙特原油船货已完全停止运输。 考虑到今年早些时候美国炼厂每日采购超过80万桶沙特原油，这一降幅十分显著。 由于霍尔木兹海峡关闭以及其他与战争相关的供应中断推高了与全球基准油价挂钩的原油价格，美国炼厂一直在寻找沙特原油的替代供应。 沙特对美原油交付量历史上曾在个别周降至零，但7月是40多年来首次出现整个月降至最低水平的情况。 据Kpler数据，美国从沙特进口原油预计将在本月恢复...",
-          "tags": [
-            "#美国",
-            "#沙特",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1786039355000,
-          "time": "02:02:35",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225573",
-          "url": "https://t.me/jin10light/225573",
-          "title": "「大空头」Michael Burry于144.63美元做空甲骨文",
-          "body": "#Michael Burry #甲骨文 #Nebius",
-          "tags": [
-            "#Michael",
-            "#甲骨文",
-            "#Nebius"
-          ],
-          "ts": 1786038090000,
-          "time": "01:41:30",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225572",
-          "url": "https://t.me/jin10light/225572",
-          "title": "OpenAI：免费用户将获得无限文本聊天功能，并将更新GPT-5.6 Sol",
-          "body": "#OpenAI #GPT -5.6 Sol #GPT -5.6 Luna ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#OpenAI",
-            "#GPT"
-          ],
-          "ts": 1786037554000,
-          "time": "01:32:34",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225571",
-          "url": "https://t.me/jin10light/225571",
-          "title": "Trade.xyz再次使用永续合约手续费收入购买HYPE，转出325万美元并开始买入约5.9万枚HYPE",
-          "body": "#Trade .xyz #HYPE #USDC ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#Trade",
-            "#HYPE",
-            "#USDC"
-          ],
-          "ts": 1786037189000,
-          "time": "01:26:29",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225570",
-          "url": "https://t.me/jin10light/225570",
-          "title": "美国官员：霍尔木兹海峡是国际水道，没有任何一方控制霍尔木兹海峡航道及过境通行。",
-          "body": "临时航线将畅通无阻。 #美国 #霍尔木兹海峡",
-          "tags": [
-            "#美国",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1786036529000,
-          "time": "01:15:29",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225569",
-          "url": "https://t.me/jin10light/225569",
-          "title": "MetaMask正式上线Agent Wallet，支持AI代理自主执行链上交易",
-          "body": "#MetaMask #EVM #AI",
-          "tags": [
-            "#MetaMask",
-            "#EVM",
-            "#AI"
-          ],
-          "ts": 1786035027000,
-          "time": "00:50:27",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225568",
-          "url": "https://t.me/jin10light/225568",
-          "title": "闪迪反弹途中迎来高胜率买家，1名5战全胜巨鲸开多478万美元",
-          "body": "#SNDK #USDC #Hyperliquid",
-          "tags": [
-            "#SNDK",
-            "#USDC",
-            "#Hyperliquid"
-          ],
-          "ts": 1786034906000,
-          "time": "00:48:26",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
-        },
-        {
-          "id": "225567",
-          "url": "https://t.me/jin10light/225567",
-          "title": "美联储9月加息25个基点概率现报56.5%",
-          "body": "#美联储 #美国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美联储",
-            "#美国"
-          ],
-          "ts": 1786034851000,
-          "time": "00:47:31",
-          "receivedAt": 1786062567176,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19501,6 +19455,17 @@
     "poly": {
       "channel": "PolyBeats_Bot",
       "items": [
+        {
+          "id": "1713",
+          "url": "https://t.me/PolyBeats_Bot/1713",
+          "title": "真的要牛回了吗？2 名币价预测专业户认为本月 BTC 不会跌破 6 万美元",
+          "body": "在预测市场 Polymarket 上，2 名聪明钱在「 8 月份比特币会跌至$60,000 吗？ 」投入 $47.4k「否」，平均买入概率为 69.4%，目前「是」概率为 38.5%。 Leebbc 投入 $27.4k，与本市场最佳相关板块为 加密货币价格 ，板块净盈利 $59.4k。其在该板块共 21 笔已结算交易的胜率为 11/21（52%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 14 笔。相近成本价区间（$0.601-$0.75）内，其历史投入金额中位数为 $1.4k，本笔投入为该中位数的 20.1 倍。 bitterfish 投入 $20.0k，与本市场最佳相关板块为 加密货币价格 ，板块净盈利 $49.5k。其在该板块共 17 笔已结算交易的胜率为 13/17（76%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 11 笔。相近成本价区间（$0.651-$0.8）内，其历史投入金额中位数为 $300，本笔投入为该中位数的 66.7 倍。 11 日有分析表示，比特币近期下跌主要由 Binance 和 OKX 现货市场的净卖出推动，两家交易所的卖压仍在扩大。Coinbase...",
+          "tags": [],
+          "ts": 1786504682000,
+          "time": "11:18:02",
+          "receivedAt": 1786506679121,
+          "receivedTime": true
+        },
         {
           "id": "1712",
           "url": "https://t.me/PolyBeats_Bot/1712",
@@ -20710,20 +20675,9 @@
           "time": "12:28:01",
           "receivedAt": 1785222404676,
           "receivedTime": true
-        },
-        {
-          "id": "1600",
-          "url": "https://t.me/PolyBeats_Bot/1600",
-          "title": "环法第 19 赛段开赛前 5 小时买入，新账户押中德尔·托罗白衫",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 艾萨克·德尔·托罗会赢得 2026 年环法自行车赛的白衫吗？ 」投入 $2.2k「是」，平均买入概率为 52.9%，目前该市场已结算。 白衫并不是由某个机构另行主观评选，而是环法赛程结束后，按总成绩排名确定的最佳年轻车手：符合年龄资格的车手中，总成绩最高者获白衫，赛事主办方 A.S.O. 发布正式分类排名。 环法官方在 7 月 22 日、第 17 赛段后已确认，22 岁的德尔·托罗位列总成绩第三并身穿白衫，进入最后 3 个阿尔卑斯高山赛段。7 月 26 日最后一个赛段结束后，德尔·托罗以总成绩第三完成个人首届环法，并拿下白衫。 账户： 0xcc4789d1d6023cfbdf93c90621b50fe8f11c0efd 总投入：$2.2k",
-          "tags": [],
-          "ts": 1785208861000,
-          "time": "11:21:01",
-          "receivedAt": 1785212626355,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
