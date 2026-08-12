@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T21:58:32.379Z",
+  "updatedAt": "2026-08-12T22:41:45.251Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2340,11 +2340,55 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227037",
+          "url": "https://t.me/jin10light/227037",
+          "title": "据华尔街日报：消息人士透露，苹果(AAPL.O)正寻求与出版商达成新协议，以便使用其内容开发人工智能语音助手Siri。",
+          "body": "#苹果 #Siri #人工智能",
+          "tags": [
+            "#苹果",
+            "#Siri",
+            "#人工智能"
+          ],
+          "ts": 1786574112000,
+          "time": "06:35:12",
+          "receivedAt": 1786574412056,
+          "receivedTime": true
+        },
+        {
+          "id": "227036",
+          "url": "https://t.me/jin10light/227036",
+          "title": "国内新闻ï",
+          "body": "1.腾讯控股第二季度营收2,047.9亿元，同比增长11%。 2. DeepSeek V4 Pro正式版API更新：多项测试性能接近Fable 5。 3. 中汽协：今年7月份，汽车出口104.3万辆，环比增长0.6%，同比增长81.3%。 4. 央行：将在8月14日、8月17日至8月19日开展隔夜逆回购操作，每日操作量不超过6000亿元。 5. 央行发布第二季度中国货币政策执行报告：及时谋划出台务实管用的增量政策，加大逆周期调节力度；综合运用并适时调整货币政策工具，保持流动性充裕和社会融资条件相对宽松。 国际新闻ï 1.美国撤销联邦政府设备使用TikT...",
+          "tags": [
+            "#腾讯控股",
+            "#美国",
+            "#特朗普"
+          ],
+          "ts": 1786573937000,
+          "time": "06:32:17",
+          "receivedAt": 1786574412056,
+          "receivedTime": true
+        },
+        {
+          "id": "227035",
+          "url": "https://t.me/jin10light/227035",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加3.139吨，当前持仓量为1025.811吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1786573514000,
+          "time": "06:25:14",
+          "receivedAt": 1786574412056,
+          "receivedTime": true
+        },
         {
           "id": "227034",
           "url": "https://t.me/jin10light/227034",
@@ -19429,50 +19473,6 @@
           "ts": 1786106136000,
           "time": "20:35:36",
           "receivedAt": 1786109059652,
-          "receivedTime": true
-        },
-        {
-          "id": "225836",
-          "url": "https://t.me/jin10light/225836",
-          "title": "日本财务大臣片山皋月：日美双方一直在密切沟通，都将在必要时毫不犹豫地采取干预措施。",
-          "body": "#日本 #美国 #片山皋月",
-          "tags": [
-            "#日本",
-            "#美国",
-            "#片山皋月"
-          ],
-          "ts": 1786106135000,
-          "time": "20:35:35",
-          "receivedAt": 1786109059652,
-          "receivedTime": true
-        },
-        {
-          "id": "225835",
-          "url": "https://t.me/jin10light/225835",
-          "title": "非农数据公布后，12月加息幅度预期明显下降",
-          "body": "#美国 #美联储",
-          "tags": [
-            "#美国",
-            "#美联储"
-          ],
-          "ts": 1786106135000,
-          "time": "20:35:35",
-          "receivedAt": 1786109059887,
-          "receivedTime": true
-        },
-        {
-          "id": "225834",
-          "url": "https://t.me/jin10light/225834",
-          "title": "日本财务大臣片山皋月：已与美国财长贝森特达成一致，认为外汇市场受到了非实际需求驱动的走势的影响。",
-          "body": "#日本 #美国 #片山皋月",
-          "tags": [
-            "#日本",
-            "#美国",
-            "#片山皋月"
-          ],
-          "ts": 1786106078000,
-          "time": "20:34:38",
-          "receivedAt": 1786109059887,
           "receivedTime": true
         }
       ],
