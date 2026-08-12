@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T16:31:48.218Z",
+  "updatedAt": "2026-08-12T17:32:10.857Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2356,35 +2356,24 @@
           "time": "02:27:14",
           "receivedAt": 1785263923838,
           "receivedTime": true
-        },
-        {
-          "id": "6680",
-          "url": "https://t.me/BWEtradfi/6680",
-          "title": "伊朗表示过去16至17天未寻求与美国会谈：IRIB",
-          "body": "*IRAN SAYS IT HASN'T SOUGHT US TALKS IN PAST 16-17 DAYS: IRIB",
-          "tags": [],
-          "ts": 1785257084000,
-          "time": "00:44:44",
-          "receivedAt": 1785258377232,
-          "receivedTime": true
-        },
-        {
-          "id": "6679",
-          "url": "https://t.me/BWEtradfi/6679",
-          "title": "*英伟达首席执行官黄仁勋与美国商务部长霍华德·卢特尼克会面，就中国出口调查展开磋商",
-          "body": "*NVIDIA CEO JENSEN HUANG MET WITH COMMERCE SECRETARY HOWARD LUTNICK AMID CHINA EXPORT PROBES *THE COMMERCE DEPARTMENT IS INVESTIGATING POTENTIAL NVIDIA BLACKWELL CHIP EXPORT VIOLATIONS TO CHINA $NVDA *美国商务部正在调查英伟达Blackwell芯片可能违反对华出口规定的行为 $NVDA",
-          "tags": [],
-          "ts": 1785256992000,
-          "time": "00:43:12",
-          "receivedAt": 1785258377232,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227030",
+          "url": "https://t.me/jin10light/227030",
+          "title": "美国至8月12日10年期国债竞拍-得标利率 4.683%，前值4.58%。",
+          "body": "",
+          "tags": [],
+          "ts": 1786553478000,
+          "time": "00:51:18",
+          "receivedAt": 1786555890861,
+          "receivedTime": true
+        },
         {
           "id": "227029",
           "url": "https://t.me/jin10light/227029",
@@ -19499,21 +19488,6 @@
           ],
           "ts": 1786106011000,
           "time": "20:33:31",
-          "receivedAt": 1786109059887,
-          "receivedTime": true
-        },
-        {
-          "id": "225829",
-          "url": "https://t.me/jin10light/225829",
-          "title": "美国劳工统计局：7月份，地方政府教育部门与零售业的就业人数有所下降，而医疗保健行业的就业人数则持续上升。",
-          "body": "#美国 #医疗保健 #零售业",
-          "tags": [
-            "#美国",
-            "#医疗保健",
-            "#零售业"
-          ],
-          "ts": 1786106010000,
-          "time": "20:33:30",
           "receivedAt": 1786109059887,
           "receivedTime": true
         }
