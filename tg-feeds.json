@@ -1,11 +1,73 @@
 {
-  "updatedAt": "2026-08-12T19:37:36.778Z",
+  "updatedAt": "2026-08-12T20:20:10.787Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6898",
+          "url": "https://t.me/BWEtradfi/6898",
+          "title": "*思科第四季度营收：173亿美元，预期为168.5亿美元",
+          "body": "*CISCO 4Q REV. $17.3B, EST. $16.85B *CISCO 4Q ADJ GROSS MARGIN 66.3%, EST. 66% *CISCO 4Q PRODUCT REV. $13.46B, EST. $13.03B *CISCO 4Q SERVICE REV. $3.79B, EST. $3.81B $CSCO *思科第四季度调整后毛利率：66.3%，预期为66% *思科第四季度产品营收：134.6亿美元，预期为130.3亿美元 *思科第四季度服务营收：37.9亿美元，预期为38.1亿美元 $CSCO",
+          "tags": [],
+          "ts": 1786565146000,
+          "time": "04:05:46",
+          "receivedAt": 1786565991540,
+          "receivedTime": true
+        },
+        {
+          "id": "6897",
+          "url": "https://t.me/BWEtradfi/6897",
+          "title": "*CEREBRAS SYSTEMS 第二季度运营费用 5.028 亿美元，去年同期为 8930 万美元",
+          "body": "*CEREBRAS SYSTEMS 2Q OPERATING EXPENSE $502.8M VS. $89.3M Y/Y *CEREBRAS SYSTEMS 2Q HARDWARE REV. $54.1M, EST. $73.1M $CBRS *CEREBRAS SYSTEMS 第二季度硬件收入 5410 万美元，去年同期为 7310 万美元 $CBRS",
+          "tags": [],
+          "ts": 1786565131000,
+          "time": "04:05:31",
+          "receivedAt": 1786565991540,
+          "receivedTime": true
+        },
+        {
+          "id": "6896",
+          "url": "https://t.me/BWEtradfi/6896",
+          "title": "*CEREBRAS SYSTEMS 第二季度运营费用 5.028 亿美元，去年同期为 8930 万美元",
+          "body": "*CEREBRAS SYSTEMS 2Q OPERATING EXPENSE $502.8M VS. $89.3M Y/Y *CEREBRAS SYSTEMS 2Q HARDWARE REV. $54.1M, EST. $73.1M #CBRS • #MMM *CEREBRAS SYSTEMS 第二季度硬件收入 5410 万美元，去年同期为 7310 万美元 #CBRS • #MMM",
+          "tags": [
+            "#CBRS",
+            "#MMM"
+          ],
+          "ts": 1786565113000,
+          "time": "04:05:13",
+          "receivedAt": 1786565991540,
+          "receivedTime": true
+        },
+        {
+          "id": "6895",
+          "url": "https://t.me/BWEtradfi/6895",
+          "title": "DB: 标普500指数收盘上涨0.3%，纳斯达克指数上涨0.5%",
+          "body": "DB: *S&P 500 CLOSES 0.3% HIGHER, NASDAQ UP 0.5%",
+          "tags": [],
+          "ts": 1786564813000,
+          "time": "04:00:13",
+          "receivedAt": 1786565991540,
+          "receivedTime": true
+        },
+        {
+          "id": "6894",
+          "url": "https://t.me/BWEtradfi/6894",
+          "title": "*伯里：做空更多甲骨文、密克朗和尼比乌斯",
+          "body": "*BURRY: SHORTED MORE ORACLE, MICRON, NEBIUS *BURRY: NEBIUS IS WHAT THE TOP OF A BOOM LOOKS LIKE #ORCL • #MU • #NBIS *伯里：尼比乌斯就是牛市顶峰的缩影 #ORCL • #MU • #NBIS",
+          "tags": [
+            "#ORCL",
+            "#MU",
+            "#NBIS"
+          ],
+          "ts": 1786564756000,
+          "time": "03:59:16",
+          "receivedAt": 1786565991540,
+          "receivedTime": true
+        },
         {
           "id": "6893",
           "url": "https://t.me/BWEtradfi/6893",
@@ -2287,75 +2349,6 @@
           "time": "04:37:37",
           "receivedAt": 1785273425043,
           "receivedTime": true
-        },
-        {
-          "id": "6689",
-          "url": "https://t.me/BWEtradfi/6689",
-          "title": "*布鲁姆能源公司第二季度营收10.7亿美元，预期8.387亿美元",
-          "body": "*BLOOM ENERGY 2Q REV. $1.07B, EST. $838.7M $BE $BE",
-          "tags": [],
-          "ts": 1785269236000,
-          "time": "04:07:16",
-          "receivedAt": 1785273425043,
-          "receivedTime": true
-        },
-        {
-          "id": "6688",
-          "url": "https://t.me/BWEtradfi/6688",
-          "title": "*布鲁姆能源公司第二季度调整后每股收益 78 美分，预期 40 美分",
-          "body": "*BLOOM ENERGY 2Q ADJ EPS 78C, EST. 40C *BLOOM ENERGY 2Q ADJ. EBITDA $253.4M, EST. $152.1M $BE *布鲁姆能源公司第二季度调整后 EBITDA 为 2.534 亿美元，预期 1.521 亿美元 $BE",
-          "tags": [],
-          "ts": 1785269174000,
-          "time": "04:06:14",
-          "receivedAt": 1785273425043,
-          "receivedTime": true
-        },
-        {
-          "id": "6687",
-          "url": "https://t.me/BWEtradfi/6687",
-          "title": "*希捷第四季度营收：36.3亿美元，预期34.9亿美元",
-          "body": "*SEAGATE 4Q REV. $3.63B, EST. $3.49B *SEAGATE 4Q ADJ EPS $5.71, EST. $5.08 $STX *希捷第四季度调整后每股收益：5.71美元，预期5.08美元 $STX",
-          "tags": [],
-          "ts": 1785269147000,
-          "time": "04:05:47",
-          "receivedAt": 1785273425043,
-          "receivedTime": true
-        },
-        {
-          "id": "6686",
-          "url": "https://t.me/BWEtradfi/6686",
-          "title": "特朗普政府将终止联邦医疗保险（Medicare）药物计划补贴项目 —— 华尔街日报",
-          "body": "*TRUMP ADMINISTRATION TO END MEDICARE DRUG-PLAN SUBSIDY PROGRAM -- WSJ #HUM • #UNH",
-          "tags": [
-            "#HUM",
-            "#UNH"
-          ],
-          "ts": 1785268834000,
-          "time": "04:00:34",
-          "receivedAt": 1785269058039,
-          "receivedTime": true
-        },
-        {
-          "id": "6685",
-          "url": "https://t.me/BWEtradfi/6685",
-          "title": "DB: 标普500指数收盘上涨0.3%，纳斯达克指数下跌0.2%",
-          "body": "DB: *S&P 500 CLOSES UP 0.3%, NASDAQ DECLINES 0.2%",
-          "tags": [],
-          "ts": 1785268813000,
-          "time": "04:00:13",
-          "receivedAt": 1785269058039,
-          "receivedTime": true
-        },
-        {
-          "id": "6684",
-          "url": "https://t.me/BWEtradfi/6684",
-          "title": "*特朗普政府拟将航天公司从环境评估中豁免——《华尔街日报》",
-          "body": "*TRUMP ADMINISTRATION MOVES TO SPARE SPACE COMPANIES FROM ENVIRONMENTAL REVIEWS -- WSJ *PROPOSAL AIMS TO ACCELERATE LAUNCH APPROVALS AS ANNUAL COMMERCIAL FLIGHTS ARE PROJECTED TO EXCEED 500 *COMPANIES INCLUDING SPACEX, ROCKET LAB, BLUE ORIGIN, AND STOKE SPACE STAND TO BENEFIT… *该提案旨在加快发射审批速度，预计年度商业...",
-          "tags": [],
-          "ts": 1785268138000,
-          "time": "03:48:58",
-          "receivedAt": 1785269058039,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2363,6 +2356,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227032",
+          "url": "https://t.me/jin10light/227032",
+          "title": "美股收盘：三大股指涨跌不一，海力士涨9%",
+          "body": "8月13日讯，美股周三收盘，道指初步收跌0.04%，标普500指数涨0.26%，纳指涨0.54%。 SpaceX(SPCX.O)涨9.6%。 英伟达(NVDA.O)涨3%，SK海力士(SKHY.O)涨9%，美光科技(MU.O)涨4.9%，Meta(META.O)跌3%，微软(MSFT.O)跌2%。 纳斯达克中国金龙指数收跌2.4%，阿里巴巴(BABA.N)跌2%，网易(NTES.O)跌2.9%。 #美股 #SK海力士 #英伟达",
+          "tags": [
+            "#美股",
+            "#SK海力士",
+            "#英伟达"
+          ],
+          "ts": 1786564934000,
+          "time": "04:02:14",
+          "receivedAt": 1786565991997,
+          "receivedTime": true
+        },
+        {
+          "id": "227031",
+          "url": "https://t.me/jin10light/227031",
+          "title": "美国总统特朗普：白宫新闻秘书莱维特将于本月底离职。",
+          "body": "#特朗普 #美国 #莱维特 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#莱维特"
+          ],
+          "ts": 1786563434000,
+          "time": "03:37:14",
+          "receivedAt": 1786565991997,
+          "receivedTime": true
+        },
         {
           "id": "227030",
           "url": "https://t.me/jin10light/227030",
@@ -19460,34 +19483,6 @@
           ],
           "ts": 1786106077000,
           "time": "20:34:37",
-          "receivedAt": 1786109059887,
-          "receivedTime": true
-        },
-        {
-          "id": "225831",
-          "url": "https://t.me/jin10light/225831",
-          "title": "纽约期金站上4400美元/盎司，日内涨2.36%。",
-          "body": "#纽约 #黄金",
-          "tags": [
-            "#纽约",
-            "#黄金"
-          ],
-          "ts": 1786106012000,
-          "time": "20:33:32",
-          "receivedAt": 1786109059887,
-          "receivedTime": true
-        },
-        {
-          "id": "225830",
-          "url": "https://t.me/jin10light/225830",
-          "title": "美国劳工统计局：7月份，失业率录得4.1%，而失业人数则达到了690万。",
-          "body": "#美国 #失业率 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#失业率"
-          ],
-          "ts": 1786106011000,
-          "time": "20:33:31",
           "receivedAt": 1786109059887,
           "receivedTime": true
         }
