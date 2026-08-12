@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-12T21:07:42.959Z",
+  "updatedAt": "2026-08-12T21:58:32.379Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6899",
+          "url": "https://t.me/BWEtradfi/6899",
+          "title": "美国人工智能框架预计将很快覆盖开源模型：WIRED",
+          "body": "*US AI FRAMEWORK EXPECTED TO SOON COVER OPEN MODELS: WIRED",
+          "tags": [],
+          "ts": 1786569873000,
+          "time": "05:24:33",
+          "receivedAt": 1786571884775,
+          "receivedTime": true
+        },
         {
           "id": "6898",
           "url": "https://t.me/BWEtradfi/6898",
@@ -2327,17 +2338,6 @@
           "time": "06:42:19",
           "receivedAt": 1785281154459,
           "receivedTime": true
-        },
-        {
-          "id": "6691",
-          "url": "https://t.me/BWEtradfi/6691",
-          "title": "知情人士称：OpenAI 的失控智能体在第二家科技公司滥用客户账户",
-          "body": "*OPENAI'S ROGUE AGENT ABUSED CUSTOMER ACCOUNT AT SECOND TECH COMPANY, SOURCES SAY",
-          "tags": [],
-          "ts": 1785273338000,
-          "time": "05:15:38",
-          "receivedAt": 1785273425043,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2345,6 +2345,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227034",
+          "url": "https://t.me/jin10light/227034",
+          "title": "整理：中东局势跟踪（8月13日）",
+          "body": "冲突情å 1.伊朗革命卫队发言人：如果伊朗再次面临威胁，数十万英里的能源传输线路、数千座发电站、 所有美国及非美国设施，甚至与互联网相连的全球基础设施都将面临威胁。 2. 伊朗革命卫队指挥官纳克迪：要条件有利并且命令下达，我们就必须能够将行动推进到敌方领土内。 我们每天生产的导弹数量超过发射的数量。 即使这场战争持续数年，直到最后一天，伊朗的导弹都将继续发射。 3. 也门摩卡港港务负责人：因胡塞武装袭击，港口全面停止作业。 4. 美国中央司令部：截至当地时间8月12日，美军已迫使59艘商船改道，使3艘船只失去行动能力，并登临检查2艘船只。 霍尔木兹海å...",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡",
+            "#美国"
+          ],
+          "ts": 1786571176000,
+          "time": "05:46:16",
+          "receivedAt": 1786571885228,
+          "receivedTime": true
+        },
+        {
+          "id": "227033",
+          "url": "https://t.me/jin10light/227033",
+          "title": "DeepSeek V4 Pro正式版API更新：多项测试性能接近Fable 5",
+          "body": "8月13日讯，8月13日，DeepSeek官方把V4 Pro从预览版正式转正。 官方定价页上，模型版本号已经更新为DeepSeek-V4-Pro-0813。 从官方群放出的评测对比表可以看到，DeepSeek V4 Pro 正式版（DeepSeek-V4-Pro-0813）在多项测试中接近 Fable 5 水平，相比之前的预览版能力大幅提升。 DeepSeek V4 Pro价格明显高于V4-Flash。 按每1M token计算，缓存命中输入0.025元，缓存未命中输入3元，输出6元。 相比之下，V4-Flash分别为0.02元、1元和2元。 #Dee...",
+          "tags": [
+            "#DeepSeek",
+            "#Fable"
+          ],
+          "ts": 1786568954000,
+          "time": "05:09:14",
+          "receivedAt": 1786571885228,
+          "receivedTime": true
+        },
         {
           "id": "227032",
           "url": "https://t.me/jin10light/227032",
@@ -19443,35 +19472,6 @@
           ],
           "ts": 1786106078000,
           "time": "20:34:38",
-          "receivedAt": 1786109059887,
-          "receivedTime": true
-        },
-        {
-          "id": "225833",
-          "url": "https://t.me/jin10light/225833",
-          "title": "非农数据公布后，非美货币普遍走高，美元兑日元USD/JPY短线走低80点，报157.72；欧元兑美元EUR/USD短线走高20点，报1.1544；英镑兑美元GBP/USD短线走高约20点，报1.3463。",
-          "body": "#美元 #日元 #欧元",
-          "tags": [
-            "#美元",
-            "#日元",
-            "#欧元"
-          ],
-          "ts": 1786106077000,
-          "time": "20:34:37",
-          "receivedAt": 1786109059887,
-          "receivedTime": true
-        },
-        {
-          "id": "225832",
-          "url": "https://t.me/jin10light/225832",
-          "title": "美国利率期货市场定价显示，预计到12月加息幅度仅为28个基点，低于非农就业数据公布前的32个基点。",
-          "body": "#美国 #美联储",
-          "tags": [
-            "#美国",
-            "#美联储"
-          ],
-          "ts": 1786106077000,
-          "time": "20:34:37",
           "receivedAt": 1786109059887,
           "receivedTime": true
         }
