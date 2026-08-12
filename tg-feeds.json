@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-12T18:29:14.114Z",
+  "updatedAt": "2026-08-12T19:37:36.778Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6893",
+          "url": "https://t.me/BWEtradfi/6893",
+          "title": "*TRUMP：卡罗琳·莱维特将于月底卸任白宫新闻秘书",
+          "body": "*TRUMP: KAROLINE LEAVITT DEPARTING AS WH PRESS SECRETARY END OF MONTH",
+          "tags": [],
+          "ts": 1786563303000,
+          "time": "03:35:03",
+          "receivedAt": 1786563433756,
+          "receivedTime": true
+        },
         {
           "id": "6892",
           "url": "https://t.me/BWEtradfi/6892",
@@ -2344,28 +2355,6 @@
           "ts": 1785268138000,
           "time": "03:48:58",
           "receivedAt": 1785269058039,
-          "receivedTime": true
-        },
-        {
-          "id": "6683",
-          "url": "https://t.me/BWEtradfi/6683",
-          "title": "*阿拉奇（伊朗外长）：乌克兰外长保证，袭击伊朗船只并非故意，乌克兰不寻求局势升级。",
-          "body": "*ARAGHCHI (IRAN FM): UKRAINIAN FM ASSURED ATTACK ON IRANIAN SHIP WAS UNINTENTIONAL AND UKRAINE SEEKS NO ESCALATION *ARAGHCHI: IRAN DOES NOT SEEK ESCALATION BUT ANY ATTACK ON CITIZENS OR INTERESTS IS UNACCEPTABLE *ARAGHCHI: THERE MUST BE RESTITUTION FOR LOSSES *阿拉奇：伊朗不寻求局势升级，但任何针对公民或利益的袭击都是不可接受的。 *阿...",
-          "tags": [],
-          "ts": 1785264860000,
-          "time": "02:54:20",
-          "receivedAt": 1785269058039,
-          "receivedTime": true
-        },
-        {
-          "id": "6682",
-          "url": "https://t.me/BWEtradfi/6682",
-          "title": "*美国联邦通信委员会（FCC）计划于周二禁止进口中国产人形机器人和四足机器人",
-          "body": "*FCC PLANS TUESDAY BANS ON CHINESE HUMANOID AND QUADRUPED ROBOT IMPORTS *FCC WILL ALSO BAR NEW MODELS OF CHINESE POWER INVERTERS *FCC还将禁止进口中国产新型电源逆变器",
-          "tags": [],
-          "ts": 1785263416000,
-          "time": "02:30:16",
-          "receivedAt": 1785263923838,
           "receivedTime": true
         }
       ],
