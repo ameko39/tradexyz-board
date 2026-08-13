@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T20:08:36.922Z",
+  "updatedAt": "2026-08-13T20:59:03.965Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2082,11 +2082,25 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227336",
+          "url": "https://t.me/jin10light/227336",
+          "title": "惠誉确认美国信用评级为 'AA+'；展望稳定。",
+          "body": "#美国 #惠誉",
+          "tags": [
+            "#美国",
+            "#惠誉"
+          ],
+          "ts": 1786653434000,
+          "time": "04:37:14",
+          "receivedAt": 1786654731735,
+          "receivedTime": true
+        },
         {
           "id": "227335",
           "url": "https://t.me/jin10light/227335",
@@ -19168,20 +19182,6 @@
           ],
           "ts": 1786325548000,
           "time": "09:32:28",
-          "receivedAt": 1786330527419,
-          "receivedTime": true
-        },
-        {
-          "id": "226135",
-          "url": "https://t.me/jin10light/226135",
-          "title": "日经225指数日内涨幅达2.00%。",
-          "body": "#日经225 #日本",
-          "tags": [
-            "#日经225",
-            "#日本"
-          ],
-          "ts": 1786325246000,
-          "time": "09:27:26",
           "receivedAt": 1786330527419,
           "receivedTime": true
         }
