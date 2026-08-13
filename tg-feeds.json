@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T17:35:35.583Z",
+  "updatedAt": "2026-08-13T18:32:06.290Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2253,61 +2253,6 @@
           "time": "02:32:37",
           "receivedAt": 1785351810542,
           "receivedTime": true
-        },
-        {
-          "id": "6706",
-          "url": "https://t.me/BWEtradfi/6706",
-          "title": "*美联储掉期交易不再完全计入9月加息预期",
-          "body": "*FED SWAPS NO LONGER FULLY PRICE IN A SEPTEMBER RATE HIKE",
-          "tags": [],
-          "ts": 1785348348000,
-          "time": "02:05:48",
-          "receivedAt": 1785351810542,
-          "receivedTime": true
-        },
-        {
-          "id": "6705",
-          "url": "https://t.me/BWEtradfi/6705",
-          "title": "Infinityhedge: 美联储：哈马克、卡什卡利和洛根持异议，主张加息",
-          "body": "Infinityhedge: FED: HAMMACK, KASHKARI AND LOGAN DISSENT IN FAVOR OF RATE HIKE",
-          "tags": [],
-          "ts": 1785348051000,
-          "time": "02:00:51",
-          "receivedAt": 1785351810542,
-          "receivedTime": true
-        },
-        {
-          "id": "6704",
-          "url": "https://t.me/BWEtradfi/6704",
-          "title": "DB: 美联储维持基准利率在3.75%不变；预期3.75%",
-          "body": "DB: *FED LEAVES BENCHMARK RATE AT 3.75%; EST. 3.75%",
-          "tags": [],
-          "ts": 1785348014000,
-          "time": "02:00:14",
-          "receivedAt": 1785351810542,
-          "receivedTime": true
-        },
-        {
-          "id": "6703",
-          "url": "https://t.me/BWEtradfi/6703",
-          "title": "美联储维持利率不变",
-          "body": "*FED LEAVES RATES UNCHANGED",
-          "tags": [],
-          "ts": 1785348009000,
-          "time": "02:00:09",
-          "receivedAt": 1785351810542,
-          "receivedTime": true
-        },
-        {
-          "id": "6702",
-          "url": "https://t.me/BWEtradfi/6702",
-          "title": "Infinityhedge: 美联储维持利率不变",
-          "body": "Infinityhedge: FED LEAVES RATES UNCHANGED",
-          "tags": [],
-          "ts": 1785348007000,
-          "time": "02:00:07",
-          "receivedAt": 1785351810542,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2315,6 +2260,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227334",
+          "url": "https://t.me/jin10light/227334",
+          "title": "据沙特媒体哈达斯（Alhadath）：也门胡塞武装用两枚弹道导弹袭击了位于曼德海峡附近的哈里基亚重要设施。",
+          "body": "#也门 #胡塞武装 #曼德海峡",
+          "tags": [
+            "#也门",
+            "#胡塞武装",
+            "#曼德海峡"
+          ],
+          "ts": 1786643954000,
+          "time": "01:59:14",
+          "receivedAt": 1786645904409,
+          "receivedTime": true
+        },
+        {
+          "id": "227333",
+          "url": "https://t.me/jin10light/227333",
+          "title": "Tether完成史上最大规模首次财务审计，毕马威签发无保留意见，储备金超负债68.14亿美元",
+          "body": "#USDT #Tether #毕马威美国",
+          "tags": [
+            "#USDT",
+            "#Tether",
+            "#毕马威美国"
+          ],
+          "ts": 1786642573000,
+          "time": "01:36:13",
+          "receivedAt": 1786645904409,
+          "receivedTime": true
+        },
         {
           "id": "227332",
           "url": "https://t.me/jin10light/227332",
@@ -19380,36 +19355,6 @@
           ],
           "ts": 1786325187000,
           "time": "09:26:27",
-          "receivedAt": 1786330527419,
-          "receivedTime": true
-        },
-        {
-          "id": "226133",
-          "url": "https://t.me/jin10light/226133",
-          "title": "韩国议员提议将虚拟资产收入征税推迟三年至2030年",
-          "body": "#韩国 #虚拟资产 #国民力量党",
-          "tags": [
-            "#韩国",
-            "#虚拟资产",
-            "#国民力量党"
-          ],
-          "ts": 1786325069000,
-          "time": "09:24:29",
-          "receivedAt": 1786330527419,
-          "receivedTime": true
-        },
-        {
-          "id": "226132",
-          "url": "https://t.me/jin10light/226132",
-          "title": "meme顶流疑似转行加密惯骗，Pepe原作者一周发三个归零CA甩锅账号被盗",
-          "body": "#Matt Furie #HOODRAT #DORK",
-          "tags": [
-            "#Matt",
-            "#HOODRAT",
-            "#DORK"
-          ],
-          "ts": 1786324947000,
-          "time": "09:22:27",
           "receivedAt": 1786330527419,
           "receivedTime": true
         }
