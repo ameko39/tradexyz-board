@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T15:43:55.466Z",
+  "updatedAt": "2026-08-13T16:36:12.667Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -2319,24 +2319,118 @@
           "time": "01:07:35",
           "receivedAt": 1785347748831,
           "receivedTime": true
-        },
-        {
-          "id": "6700",
-          "url": "https://t.me/BWEtradfi/6700",
-          "title": "美国联邦贸易委员会发言人称，该委员会正就计费、取消和隐私保护措施起诉HIMS & HERS。",
-          "body": "*U.S. FEDERAL TRADE COMMISSION IS SUING HIMS & HERS OVER BILLING, CANCELLATION AND PRIVACY PRACTICES, FTC SPOKESPERSON SAYS $HIMS $HIMS",
-          "tags": [],
-          "ts": 1785342611000,
-          "time": "00:30:11",
-          "receivedAt": 1785343416818,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227326",
+          "url": "https://t.me/jin10light/227326",
+          "title": "CFTC公布创新咨询委员会首次会议议程，聚焦加密资产、AI与预测市场监管",
+          "body": "#美国 #CFTC #加密货币",
+          "tags": [
+            "#美国",
+            "#CFTC",
+            "#加密货币"
+          ],
+          "ts": 1786638622000,
+          "time": "00:30:22",
+          "receivedAt": 1786638949665,
+          "receivedTime": true
+        },
+        {
+          "id": "227325",
+          "url": "https://t.me/jin10light/227325",
+          "title": "市场消息：乌克兰向俄罗斯提议在黑海停火。",
+          "body": "#乌克兰 #俄罗斯 #黑海",
+          "tags": [
+            "#乌克兰",
+            "#俄罗斯",
+            "#黑海"
+          ],
+          "ts": 1786638135000,
+          "time": "00:22:15",
+          "receivedAt": 1786638949665,
+          "receivedTime": true
+        },
+        {
+          "id": "227324",
+          "url": "https://t.me/jin10light/227324",
+          "title": "以太坊基金会放弃Poseidon哈希算法，转向SHA2或BLAKE2推进后量子密码学路线",
+          "body": "#ETH #Justin Drake #以太坊基金会",
+          "tags": [
+            "#ETH",
+            "#Justin",
+            "#以太坊基金会"
+          ],
+          "ts": 1786637534000,
+          "time": "00:12:14",
+          "receivedAt": 1786638949665,
+          "receivedTime": true
+        },
+        {
+          "id": "227323",
+          "url": "https://t.me/jin10light/227323",
+          "title": "股票Meme代币UTILITY大幅拉升突破1000万美元市值，24小时成交量1748万美元",
+          "body": "#Binance #GME #BSC",
+          "tags": [
+            "#Binance",
+            "#GME",
+            "#BSC"
+          ],
+          "ts": 1786637114000,
+          "time": "00:05:14",
+          "receivedAt": 1786638949665,
+          "receivedTime": true
+        },
+        {
+          "id": "227322",
+          "url": "https://t.me/jin10light/227322",
+          "title": "今日重点关注的财经数据与事件：2026年8月14日 周五",
+          "body": "① 待定 国内成品油开启新一轮调价窗口 ② 07:30 澳洲联储主席布洛克出席听证会 ③ 14:45 法国7月CPI月率终值 ④ 17:00 欧元区第二季度GDP年率修正值 ⑤ 17:00 欧元区第二季度季调后就业人数季率终值 ⑥ 17:00 欧元区6月季调后贸易帐 ⑦ 20:30 加拿大6月批发销售月率 ⑧ 20:30 美国7月零售销售月率 ⑨ 22:00 美国8月一年期通胀率预期初值 ⑩ 22:00 美国6月商业库存月率 ⑪ 22:00 美国8月密歇根大学消费者信心指数初值 ⑫ 次日01:00 美国至8月14日当周石油钻井总数 #美国 #欧元区 #...",
+          "tags": [
+            "#美国",
+            "#欧元区",
+            "#澳洲联储"
+          ],
+          "ts": 1786636910000,
+          "time": "00:01:50",
+          "receivedAt": 1786638949665,
+          "receivedTime": true
+        },
+        {
+          "id": "227321",
+          "url": "https://t.me/jin10light/227321",
+          "title": "据华盛顿邮报：伊朗战争期间，约有25%的美国“死神”无人机被击落。",
+          "body": "#伊朗 #美国 #死神无人机",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#死神无人机"
+          ],
+          "ts": 1786636158000,
+          "time": "23:49:18",
+          "receivedAt": 1786638949665,
+          "receivedTime": true
+        },
+        {
+          "id": "227320",
+          "url": "https://t.me/jin10light/227320",
+          "title": "伊朗最高领袖顾问：若条件得不到满足 或升级冲突",
+          "body": "8月13日讯，伊朗最高领袖顾问穆赫贝尔13日在社交媒体上发文说，如果伊朗提出的条件得不到满足，最高领袖已明确作出战略决策，将采取升级冲突的方式予以回应。 穆赫贝尔说，当前局势已证明美国缺乏保护其波斯湾盟友的能力。 他还表示，建立地区新秩序最为持久的路径，在于推动实施“霍尔木兹经济安全机制”，以摆脱对美国军事保障的依赖。 #伊朗 #美国 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786635977000,
+          "time": "23:46:17",
+          "receivedAt": 1786638949665,
+          "receivedTime": true
+        },
         {
           "id": "227319",
           "url": "https://t.me/jin10light/227319",
@@ -19332,104 +19426,6 @@
           "ts": 1786324348000,
           "time": "09:12:28",
           "receivedAt": 1786330527419,
-          "receivedTime": true
-        },
-        {
-          "id": "226125",
-          "url": "https://t.me/jin10light/226125",
-          "title": "1. 宇树科技今日申购，中一签或赚20万元。",
-          "body": "2. 沪深交易所拟完善LOF退出机制 商品期货LOF、QDII LOF最晚2027年底终止上市。 3. 我国渤海首个千亿方大气田Ⅰ期开发项目全面投产。 4. 八家硅料企业发布倡议，知情人士称或配套惩罚措施。 5. 黄金ETF7月以来揽金超百亿，公募称短期磨底不改长期“黄金牛”。 6. 多家基金管理人上报创业板算力、创业板金融科技ETF。 7. 纳指ETF富国：本基金将于2026年8月10日开市起至当日10:30停牌。 8. 美国50ETF易方达溢价超5%，基金提示高价买入风险。 9. 中韩半导体ETF华泰柏瑞溢价过高，基金将8月10日开市起至当日10:...",
-          "tags": [],
-          "ts": 1786324048000,
-          "time": "09:07:28",
-          "receivedAt": 1786330527419,
-          "receivedTime": true
-        },
-        {
-          "id": "226124",
-          "url": "https://t.me/jin10light/226124",
-          "title": "宇树科技今日开启打新，中一签利润预估约21.6万元",
-          "body": "#宇树科技 #Unitree #科创板 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#宇树科技",
-            "#Unitree",
-            "#科创板"
-          ],
-          "ts": 1786323868000,
-          "time": "09:04:28",
-          "receivedAt": 1786330527419,
-          "receivedTime": true
-        },
-        {
-          "id": "226123",
-          "url": "https://t.me/jin10light/226123",
-          "title": "韩国交易所启动SIDECAR机制，暂停KOSDAQ程序化买盘",
-          "body": "#韩国 #KOSDAQ",
-          "tags": [
-            "#韩国",
-            "#KOSDAQ"
-          ],
-          "ts": 1786323447000,
-          "time": "08:57:27",
-          "receivedAt": 1786330527419,
-          "receivedTime": true
-        },
-        {
-          "id": "226122",
-          "url": "https://t.me/jin10light/226122",
-          "title": "AI热潮引爆MLCC抢货潮，下游客户争签长约锁定产能",
-          "body": "#国巨 #村田 #AI",
-          "tags": [
-            "#国巨",
-            "#村田",
-            "#AI"
-          ],
-          "ts": 1786323266000,
-          "time": "08:54:26",
-          "receivedAt": 1786330527419,
-          "receivedTime": true
-        },
-        {
-          "id": "226121",
-          "url": "https://t.me/jin10light/226121",
-          "title": "韩国交易所启动韩国创业板指（KOSDAQ） 的侧车机制，暂停程序化买盘。",
-          "body": "#韩国 #KOSDAQ",
-          "tags": [
-            "#韩国",
-            "#KOSDAQ"
-          ],
-          "ts": 1786323208000,
-          "time": "08:53:28",
-          "receivedAt": 1786330527419,
-          "receivedTime": true
-        },
-        {
-          "id": "226120",
-          "url": "https://t.me/jin10light/226120",
-          "title": "TUT巨幅震荡后再次向上，日内爆仓超4500万美元冠绝全网",
-          "body": "#TUT #BSC",
-          "tags": [
-            "#TUT",
-            "#BSC"
-          ],
-          "ts": 1786322308000,
-          "time": "08:38:28",
-          "receivedAt": 1786330527419,
-          "receivedTime": true
-        },
-        {
-          "id": "226119",
-          "url": "https://t.me/jin10light/226119",
-          "title": "朝鲜黑客组织构建本地LLM环境，AI攻击能力全面升级",
-          "body": "#朝鲜 #金速基 #Kimsuky ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#朝鲜",
-            "#金速基",
-            "#Kimsuky"
-          ],
-          "ts": 1786321646000,
-          "time": "08:27:26",
-          "receivedAt": 1786322227466,
           "receivedTime": true
         }
       ],
