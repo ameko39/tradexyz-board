@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-13T13:56:00.359Z",
+  "updatedAt": "2026-08-13T14:51:35.048Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6904",
+          "url": "https://t.me/BWEtradfi/6904",
+          "title": "交易员不再完全计入美联储今年加息预期",
+          "body": "*TRADERS NO LONGER FULLY PRICE IN FED RATE HIKE THIS YEAR",
+          "tags": [],
+          "ts": 1786630424000,
+          "time": "22:13:44",
+          "receivedAt": 1786632670561,
+          "receivedTime": true
+        },
         {
           "id": "6903",
           "url": "https://t.me/BWEtradfi/6903",
@@ -2294,17 +2305,6 @@
           "time": "00:30:11",
           "receivedAt": 1785343416818,
           "receivedTime": true
-        },
-        {
-          "id": "6699",
-          "url": "https://t.me/BWEtradfi/6699",
-          "title": "DB: 美国原油库存减少716.7万桶；预期为减少127.2万桶",
-          "body": "DB: *US CRUDE OIL INVENTORIES FELL 7.167M BARRELS; EST. -1.272M",
-          "tags": [],
-          "ts": 1785335414000,
-          "time": "22:30:14",
-          "receivedAt": 1785338594169,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2312,6 +2312,279 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227305",
+          "url": "https://t.me/jin10light/227305",
+          "title": "高盛：美联储7月按兵不动绝对正确，9月前应保持开放",
+          "body": "#高盛集团 #Robert Kaplan #美联储",
+          "tags": [
+            "#高盛集团",
+            "#Robert",
+            "#美联储"
+          ],
+          "ts": 1786632379000,
+          "time": "22:46:19",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227304",
+          "url": "https://t.me/jin10light/227304",
+          "title": "DeepSeek Harness成GitHub史上增长最快开源项目，约1个半小时获2.2万星",
+          "body": "#DeepSeek #GitHub",
+          "tags": [
+            "#DeepSeek",
+            "#GitHub"
+          ],
+          "ts": 1786632193000,
+          "time": "22:43:13",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227303",
+          "url": "https://t.me/jin10light/227303",
+          "title": "纳指涨幅扩大至1%，存储板块领涨，西数大涨7.4%",
+          "body": "#美股 #纳指 #希捷科技",
+          "tags": [
+            "#美股",
+            "#纳指",
+            "#希捷科技"
+          ],
+          "ts": 1786631955000,
+          "time": "22:39:15",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227302",
+          "url": "https://t.me/jin10light/227302",
+          "title": "现货黄金跌破4360美元/盎司，日内跌1.12%。",
+          "body": "#黄金 #美元",
+          "tags": [
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1786631539000,
+          "time": "22:32:19",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227301",
+          "url": "https://t.me/jin10light/227301",
+          "title": "美国7月PPI意外持平但核心指标加速，美联储鹰派仍在「逼宫」，9月加息概率降至约40%",
+          "body": "#美国 #美联储 #美元",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#美元"
+          ],
+          "ts": 1786631539000,
+          "time": "22:32:19",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227300",
+          "url": "https://t.me/jin10light/227300",
+          "title": "EIA天然气报告：截至8月7日当周，美国天然气库存总量为31530亿立方英尺，较此前一周增加360亿立方英尺，较去年同期减少250亿立方英尺，同比降幅0.8%，同时较5年均值高1980亿立方英尺，增幅6.7%。",
+          "body": "#美国 #天然气",
+          "tags": [
+            "#美国",
+            "#天然气"
+          ],
+          "ts": 1786631472000,
+          "time": "22:31:12",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227299",
+          "url": "https://t.me/jin10light/227299",
+          "title": "美国至8月7日当周EIA天然气库存 360亿立方英尺，预期320亿立方英尺，前值330亿立方英尺。",
+          "body": "#美国 #天然气",
+          "tags": [
+            "#美国",
+            "#天然气"
+          ],
+          "ts": 1786631415000,
+          "time": "22:30:15",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227298",
+          "url": "https://t.me/jin10light/227298",
+          "title": "AI开始给自己提速：Grok 4.6提交3个优化已进入Grok Chat生产环境",
+          "body": "#Grok 4.6 #SpaceXAI",
+          "tags": [
+            "#Grok",
+            "#SpaceXAI"
+          ],
+          "ts": 1786630994000,
+          "time": "22:23:14",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227297",
+          "url": "https://t.me/jin10light/227297",
+          "title": "美国至8月7日当周EIA天然气库存将于十分钟后公布。",
+          "body": "#美国 #EIA #天然气",
+          "tags": [
+            "#美国",
+            "#EIA",
+            "#天然气"
+          ],
+          "ts": 1786630874000,
+          "time": "22:21:14",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227296",
+          "url": "https://t.me/jin10light/227296",
+          "title": "通胀见顶信号增强 市场不再完全定价美联储今年加息",
+          "body": "8月13日讯，随着油价回落强化了通胀前景的乐观情绪，债券交易员已不再完全定价美联储今年将加息。 美债市场反弹使各期限收益率下跌多达9个基点，其中30年期收益率在周四该期限新债发行前下跌8个基点。 该笔发行料将创下2001年以来30年期国债发行的最高收益率。 基准油价周四下跌逾3%，油价自2月底美国攻击伊朗引发供应冲击以来一直是美债收益率的主要驱动力，交易员正就持续冲突释放的信号进行解读。 油价的下跌强化了美国通胀已见顶的乐观情绪。 周四公布的美国政府数据显示7月生产者价格放缓，此前一天公布的消费者价格报告也连续第二个月检测到通胀放缓。 短期利率合约上涨...",
+          "tags": [],
+          "ts": 1786630575000,
+          "time": "22:16:15",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227295",
+          "url": "https://t.me/jin10light/227295",
+          "title": "Binance宣布支持第三方代币化股票1:1转换为bStocks",
+          "body": "#Binance #TSLA #MSTR",
+          "tags": [
+            "#Binance",
+            "#TSLA",
+            "#MSTR"
+          ],
+          "ts": 1786630394000,
+          "time": "22:13:14",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227294",
+          "url": "https://t.me/jin10light/227294",
+          "title": "原油系期货主力合约集体下跌，SC原油下跌1.80%，现报544.2元/桶。",
+          "body": "低硫燃料油（LU）下跌1.85%，现报4560元/吨。 燃油下跌0.72%，现报3741元/吨。 沥青下跌0.02%，现报4310元/吨。 #原油 #低硫燃料油 #燃油",
+          "tags": [
+            "#原油",
+            "#低硫燃料油",
+            "#燃油"
+          ],
+          "ts": 1786630153000,
+          "time": "22:09:13",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227293",
+          "url": "https://t.me/jin10light/227293",
+          "title": "OpenAI设「反官僚邮箱」：：一封邮件可以直达Sam Altman",
+          "body": "#OpenAI #Sam Altman #Greg Brockman",
+          "tags": [
+            "#OpenAI",
+            "#Sam",
+            "#Greg"
+          ],
+          "ts": 1786630096000,
+          "time": "22:08:16",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227292",
+          "url": "https://t.me/jin10light/227292",
+          "title": "「RWA第一股」Securitize盘中暴跌超20%，上市后首份财报不及预期",
+          "body": "#Securitize #BUIDL #美国",
+          "tags": [
+            "#Securitize",
+            "#BUIDL",
+            "#美国"
+          ],
+          "ts": 1786630096000,
+          "time": "22:08:16",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227291",
+          "url": "https://t.me/jin10light/227291",
+          "title": "研究显示，标普500指数公司CEO薪酬创历史新高。",
+          "body": "#标普500 #CEO薪酬",
+          "tags": [
+            "#标普500",
+            "#CEO薪酬"
+          ],
+          "ts": 1786629732000,
+          "time": "22:02:12",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227290",
+          "url": "https://t.me/jin10light/227290",
+          "title": "美股盘初高开高走，标普500指数首次突破7800点",
+          "body": "#美股 #标普 500 #纳斯达克 100",
+          "tags": [
+            "#美股",
+            "#标普",
+            "#纳斯达克"
+          ],
+          "ts": 1786629672000,
+          "time": "22:01:12",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227289",
+          "url": "https://t.me/jin10light/227289",
+          "title": "标普500指数首次突破7800点，日内涨幅扩大至0.66%。",
+          "body": "#标普500 #美股",
+          "tags": [
+            "#标普500",
+            "#美股"
+          ],
+          "ts": 1786629617000,
+          "time": "22:00:17",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227288",
+          "url": "https://t.me/jin10light/227288",
+          "title": "美股盘初高开高走，标普500指数涨0.6%再创日内历史新高",
+          "body": "#美股 #标普 500 #纳斯达克 100",
+          "tags": [
+            "#美股",
+            "#标普",
+            "#纳斯达克"
+          ],
+          "ts": 1786629616000,
+          "time": "22:00:16",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
+        {
+          "id": "227287",
+          "url": "https://t.me/jin10light/227287",
+          "title": "布伦特原油日内下跌2.00%，现报85.50美元/桶。",
+          "body": "WTI原油回落至80美元/桶下方，日内跌2.07%。 #布伦特原油 #WTI原油",
+          "tags": [
+            "#布伦特原油",
+            "#WTI原油"
+          ],
+          "ts": 1786629374000,
+          "time": "21:56:14",
+          "receivedAt": 1786632671776,
+          "receivedTime": true
+        },
         {
           "id": "227286",
           "url": "https://t.me/jin10light/227286",
@@ -19138,281 +19411,6 @@
           "ts": 1786314869000,
           "time": "06:34:29",
           "receivedAt": 1786315778275,
-          "receivedTime": true
-        },
-        {
-          "id": "226104",
-          "url": "https://t.me/jin10light/226104",
-          "title": "整理：中东局势跟踪（8月10日）",
-          "body": "冲突情å 1.胡塞武装称袭击沙特阿美公司炼油厂并“命中目标”。 2. 也门军事发言人表示，（胡塞武装对）摩卡港的袭击造成七人死亡。 3. 据天空新闻：也门消息人士表示，胡塞武装的第四波导弹和无人机袭击目标是摩卡港及该市郊区的政府军阵地。 4. 美媒：特朗普暂缓对伊动武，称正“低调处理”伊朗问题。 霍尔木兹海å 1.伊媒说议会国家安全委员会批准霍尔木兹海峡安全纲要。 2. 美媒：美官员称特朗普耐心应对伊朗僵局，重点聚焦海峡通航。 3. 美国中央司令部：截至8月9日，中央司令部已调转55艘在霍尔木兹海峡的商船航线，使2艘船只失去行动能力，并登船检查了2艘船...",
-          "tags": [
-            "#胡塞武装",
-            "#沙特阿美",
-            "#也门"
-          ],
-          "ts": 1786313729000,
-          "time": "06:15:29",
-          "receivedAt": 1786315778275,
-          "receivedTime": true
-        },
-        {
-          "id": "226103",
-          "url": "https://t.me/jin10light/226103",
-          "title": "WTI原油站上78美元/桶，日内涨2.16%，布伦特原油涨2.4%，报83.5美元/桶。",
-          "body": "#WTI原油 #布伦特原油",
-          "tags": [
-            "#WTI原油",
-            "#布伦特原油"
-          ],
-          "ts": 1786313006000,
-          "time": "06:03:26",
-          "receivedAt": 1786313593024,
-          "receivedTime": true
-        },
-        {
-          "id": "226102",
-          "url": "https://t.me/jin10light/226102",
-          "title": "WTI原油周一开盘上涨1.5%，现报77.6美元/桶。",
-          "body": "#WTI原油 #美元",
-          "tags": [
-            "#WTI原油",
-            "#美元"
-          ],
-          "ts": 1786312888000,
-          "time": "06:01:28",
-          "receivedAt": 1786313593024,
-          "receivedTime": true
-        },
-        {
-          "id": "226101",
-          "url": "https://t.me/jin10light/226101",
-          "title": "马斯克或采用FEL技术挑战EUV光刻机",
-          "body": "8月10日讯，SpaceX(SPCX.O)近日宣布将与特斯拉(TSLA.O)合作，初期投资168亿美元，在美国得州与建Terafab芯片设施。 有博客博主发布消息称，从Terafab发布的消息来看，马斯克似乎要采用“自由电子激光器”(Free Electron Laser, FEL)技术路线，以挑战阿斯麦(ASML.O)的LPP EUV光源，颠覆传统EUV晶片生产技术的垄断。 马斯克其后的回应，似乎印证了这种说法，他贴上“FEL FTW”（FEL For The Win）字眼。 从Terafab细长的厂房设计和马斯克的回复可以看出，Terafab很可能...",
-          "tags": [
-            "#马斯克",
-            "#SpaceX",
-            "#特斯拉"
-          ],
-          "ts": 1786309048000,
-          "time": "04:57:28",
-          "receivedAt": 1786310107343,
-          "receivedTime": true
-        },
-        {
-          "id": "226100",
-          "url": "https://t.me/jin10light/226100",
-          "title": "据Axios：美国总统特朗普针对伊朗问题表示，“我们正在低调处理”。",
-          "body": "#特朗普 #伊朗 #美国",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1786294889000,
-          "time": "01:01:29",
-          "receivedAt": 1786295965228,
-          "receivedTime": true
-        },
-        {
-          "id": "226099",
-          "url": "https://t.me/jin10light/226099",
-          "title": "Hyperliquid未平仓合约量创年内新高，但协议收入将或连续四个季度下滑",
-          "body": "#Hyperliquid #HYPE #BTC",
-          "tags": [
-            "#Hyperliquid",
-            "#HYPE",
-            "#BTC"
-          ],
-          "ts": 1786293149000,
-          "time": "00:32:29",
-          "receivedAt": 1786294409541,
-          "receivedTime": true
-        },
-        {
-          "id": "226098",
-          "url": "https://t.me/jin10light/226098",
-          "title": "SemiAnalysis：SpaceX 2027年新增算力或超10GW，年度经常性收入有望达3000亿美元",
-          "body": "#SpaceX #微软 #AI ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#SpaceX",
-            "#微软",
-            "#AI"
-          ],
-          "ts": 1786292008000,
-          "time": "00:13:28",
-          "receivedAt": 1786294409541,
-          "receivedTime": true
-        },
-        {
-          "id": "226097",
-          "url": "https://t.me/jin10light/226097",
-          "title": "今日重点关注的财经数据与事件：2026年8月10日 周一",
-          "body": "① 07:50 日本6月贸易帐 ② 07:50 日本央行公布审议委员意见摘要 ③ 16:30 欧元区8月Sentix投资者信心指数 #日本 #欧元区",
-          "tags": [
-            "#日本",
-            "#欧元区"
-          ],
-          "ts": 1786291322000,
-          "time": "00:02:02",
-          "receivedAt": 1786291970477,
-          "receivedTime": true
-        },
-        {
-          "id": "226096",
-          "url": "https://t.me/jin10light/226096",
-          "title": "Strategy CEO：比特币再次展现出韧性，即使面对Strategy抛售、安全威胁等考验",
-          "body": "#BTC #Strategy #美国 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#BTC",
-            "#Strategy",
-            "#美国"
-          ],
-          "ts": 1786289970000,
-          "time": "23:39:30",
-          "receivedAt": 1786290337240,
-          "receivedTime": true
-        },
-        {
-          "id": "226095",
-          "url": "https://t.me/jin10light/226095",
-          "title": "伊朗议会国家安全委员会批准霍尔木兹海峡安全纲要",
-          "body": "",
-          "tags": [],
-          "ts": 1786288841000,
-          "time": "23:20:41",
-          "receivedAt": 1786290337240,
-          "receivedTime": true
-        },
-        {
-          "id": "226094",
-          "url": "https://t.me/jin10light/226094",
-          "title": "整理：周日重要消息汇总",
-          "body": "国内新闻ï 1.台风“白海豚”9日下午在浙江台州玉环沿海登陆。 2. 国家统计局：7月份居民消费价格同比上涨0.5%。 3. 摩尔线程：筹划发行H股股票并在港交所主板上市。 4. 药明康德：美国法院就公司的初步禁令动议作出裁决。 国际新闻ï 1.以安全部门消息人士称内塔尼亚胡顾问涉嫌泄密。 2. 土耳其官员：尽管实施了临时限制措施，船只在黑海的通行持续顺畅。 3. 中东局势— ①伊朗外长强调霍尔木兹海峡未重新开放。 ②也门军事发言人表示，胡塞武装对也门摩卡港的袭击造成七人死亡。 ③以色列总理内塔尼亚胡：以色列拒绝加沙的15点计划。 #浙江台州 #摩尔线...",
-          "tags": [
-            "#浙江台州",
-            "#摩尔线程",
-            "#药明康德"
-          ],
-          "ts": 1786287631000,
-          "time": "23:00:31",
-          "receivedAt": 1786288337371,
-          "receivedTime": true
-        },
-        {
-          "id": "226093",
-          "url": "https://t.me/jin10light/226093",
-          "title": "分析师：比特币面临6.7万及7.2万美元成本线阻力，或存在潜在抛压",
-          "body": "#BTC #比特币回升",
-          "tags": [
-            "#BTC",
-            "#比特币回升"
-          ],
-          "ts": 1786287392000,
-          "time": "22:56:32",
-          "receivedAt": 1786288337371,
-          "receivedTime": true
-        },
-        {
-          "id": "226092",
-          "url": "https://t.me/jin10light/226092",
-          "title": "PUMP 24小时涨超15%，现报价0.0027美元",
-          "body": "#PUMP #HTX",
-          "tags": [
-            "#PUMP",
-            "#HTX"
-          ],
-          "ts": 1786286370000,
-          "time": "22:39:30",
-          "receivedAt": 1786286596854,
-          "receivedTime": true
-        },
-        {
-          "id": "226091",
-          "url": "https://t.me/jin10light/226091",
-          "title": "若比特币突破6.7万美元，主流CEX累计空单清算强度将达4.12亿",
-          "body": "#BTC #CEX",
-          "tags": [
-            "#BTC",
-            "#CEX"
-          ],
-          "ts": 1786285409000,
-          "time": "22:23:29",
-          "receivedAt": 1786286596854,
-          "receivedTime": true
-        },
-        {
-          "id": "226090",
-          "url": "https://t.me/jin10light/226090",
-          "title": "据沙特媒体哈达斯：也门军事消息人士透露，胡塞武装向摩卡市的民用目标发射了30枚弹道导弹。",
-          "body": "#也门 #胡塞武装 #摩卡市",
-          "tags": [
-            "#也门",
-            "#胡塞武装",
-            "#摩卡市"
-          ],
-          "ts": 1786285049000,
-          "time": "22:17:29",
-          "receivedAt": 1786286596854,
-          "receivedTime": true
-        },
-        {
-          "id": "226089",
-          "url": "https://t.me/jin10light/226089",
-          "title": "2026年已有超100个加密项目关停，行业正经历「互联网泡沫式」大洗牌",
-          "body": "#ETH #Moonbeam #Hyperliquid",
-          "tags": [
-            "#ETH",
-            "#Moonbeam",
-            "#Hyperliquid"
-          ],
-          "ts": 1786283550000,
-          "time": "21:52:30",
-          "receivedAt": 1786284123182,
-          "receivedTime": true
-        },
-        {
-          "id": "226088",
-          "url": "https://t.me/jin10light/226088",
-          "title": "美官员称特朗普耐心应对伊朗僵局，重点聚焦海峡通航",
-          "body": "#美国 #伊朗 #特朗普",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#特朗普"
-          ],
-          "ts": 1786282647000,
-          "time": "21:37:27",
-          "receivedAt": 1786284123182,
-          "receivedTime": true
-        },
-        {
-          "id": "226087",
-          "url": "https://t.me/jin10light/226087",
-          "title": "Cathie Wood：比特币和稳定币或成智能体商业转型两大主要受益者",
-          "body": "#Cathie Wood #美国 #BTC",
-          "tags": [
-            "#Cathie",
-            "#美国",
-            "#BTC"
-          ],
-          "ts": 1786282592000,
-          "time": "21:36:32",
-          "receivedAt": 1786284123182,
-          "receivedTime": true
-        },
-        {
-          "id": "226086",
-          "url": "https://t.me/jin10light/226086",
-          "title": "7月CPI预期小幅回落，花旗与美银对9月加息前景存在分歧",
-          "body": "#美国 #CPI #美联储",
-          "tags": [
-            "#美国",
-            "#CPI",
-            "#美联储"
-          ],
-          "ts": 1786281991000,
-          "time": "21:26:31",
-          "receivedAt": 1786284123182,
           "receivedTime": true
         }
       ],
