@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T15:00:02.179Z",
+  "updatedAt": "2026-08-14T15:56:10.676Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1904,28 +1904,6 @@
           "time": "01:00:36",
           "receivedAt": 1785433616284,
           "receivedTime": true
-        },
-        {
-          "id": "6750",
-          "url": "https://t.me/BWEtradfi/6750",
-          "title": "*高盛参与情境感知（Situational Awareness）的股权出售谈判：英国《金融时报》",
-          "body": "*GOLDMAN INVOLVED IN SITUATIONAL AWARENESS BOOK SALE TALKS: FT *MILLENNIUM MANAGEMENT HAD BID ON SITUATIONAL'S STOCK PORTFOLIO, SOURCES SAY -- WSJ *SITUATIONAL AWARENESS HAS $5B ANTHROPIC HOLDING: FT *SITUATIONAL AWARENESS TO CONTINUE AS PRIVATE INVESTMENT FIRM:FT *消息人士称，千禧管理公司（Millennium Managemen...",
-          "tags": [],
-          "ts": 1785426052000,
-          "time": "23:40:52",
-          "receivedAt": 1785427871270,
-          "receivedTime": true
-        },
-        {
-          "id": "6749",
-          "url": "https://t.me/BWEtradfi/6749",
-          "title": "知情人士称，Citadel从Situational Awareness大举买入股票投资组合 —— 华尔街日报",
-          "body": "*CITADEL BUYS BULK OF STOCK PORTFOLIO FROM SITUATIONAL AWARENESS, SOURCES SAY -- WSJ",
-          "tags": [],
-          "ts": 1785425504000,
-          "time": "23:31:44",
-          "receivedAt": 1785427871270,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1933,6 +1911,116 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227561",
+          "url": "https://t.me/jin10light/227561",
+          "title": "马斯克2025年在特斯拉薪酬约1583亿美元，为员工薪资中位数的252万倍",
+          "body": "#美国 #马斯克 #特斯拉",
+          "tags": [
+            "#美国",
+            "#马斯克",
+            "#特斯拉"
+          ],
+          "ts": 1786722376000,
+          "time": "23:46:16",
+          "receivedAt": 1786722954500,
+          "receivedTime": true
+        },
+        {
+          "id": "227560",
+          "url": "https://t.me/jin10light/227560",
+          "title": "StablecoinX披露持有ENA总供应量约20%，当前价值超2.5亿美元",
+          "body": "#ENA #StablecoinX #USDE",
+          "tags": [
+            "#ENA",
+            "#StablecoinX",
+            "#USDE"
+          ],
+          "ts": 1786721595000,
+          "time": "23:33:15",
+          "receivedAt": 1786722954500,
+          "receivedTime": true
+        },
+        {
+          "id": "227559",
+          "url": "https://t.me/jin10light/227559",
+          "title": "千问27B打到Opus4.6门口：Muse Glimmer 8项全败",
+          "body": "#Qwen3 .8-27B #Meta #Muse Glimmer",
+          "tags": [
+            "#Qwen3",
+            "#Meta",
+            "#Muse"
+          ],
+          "ts": 1786721177000,
+          "time": "23:26:17",
+          "receivedAt": 1786722954500,
+          "receivedTime": true
+        },
+        {
+          "id": "227558",
+          "url": "https://t.me/jin10light/227558",
+          "title": "法国10年期国债收益率上升10个基点，达到4.04%，为2009年以来最高水平。",
+          "body": "",
+          "tags": [],
+          "ts": 1786720935000,
+          "time": "23:22:15",
+          "receivedAt": 1786722954500,
+          "receivedTime": true
+        },
+        {
+          "id": "227557",
+          "url": "https://t.me/jin10light/227557",
+          "title": "千问开源Qwen3.8-27B：量化后17GB就能本地跑",
+          "body": "#Qwen3 .8 #阿里云",
+          "tags": [
+            "#Qwen3",
+            "#阿里云"
+          ],
+          "ts": 1786720753000,
+          "time": "23:19:13",
+          "receivedAt": 1786722954500,
+          "receivedTime": true
+        },
+        {
+          "id": "227556",
+          "url": "https://t.me/jin10light/227556",
+          "title": "沙特公共投资基金披露持有1.541亿股SpaceX A类股",
+          "body": "#美国 #SpaceX",
+          "tags": [
+            "#美国",
+            "#SpaceX"
+          ],
+          "ts": 1786720694000,
+          "time": "23:18:14",
+          "receivedAt": 1786722954500,
+          "receivedTime": true
+        },
+        {
+          "id": "227555",
+          "url": "https://t.me/jin10light/227555",
+          "title": "美联储9月加息概率降至30.6%",
+          "body": "#美联储 #美国 #美元",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#美元"
+          ],
+          "ts": 1786720217000,
+          "time": "23:10:17",
+          "receivedAt": 1786722954500,
+          "receivedTime": true
+        },
+        {
+          "id": "227554",
+          "url": "https://t.me/jin10light/227554",
+          "title": "SK集团会长就天价离婚案判决提出上诉",
+          "body": "",
+          "tags": [],
+          "ts": 1786719915000,
+          "time": "23:05:15",
+          "receivedAt": 1786722954500,
+          "receivedTime": true
+        },
         {
           "id": "227553",
           "url": "https://t.me/jin10light/227553",
@@ -18910,122 +18998,6 @@
           "ts": 1786373960000,
           "time": "22:59:20",
           "receivedAt": 1786375907541,
-          "receivedTime": true
-        },
-        {
-          "id": "226361",
-          "url": "https://t.me/jin10light/226361",
-          "title": "Base推出资助计划Builder Grant Program，向生态开发者提供最高5000美元资金支持",
-          "body": "#Base #ETH",
-          "tags": [
-            "#Base",
-            "#ETH"
-          ],
-          "ts": 1786373773000,
-          "time": "22:56:13",
-          "receivedAt": 1786375907541,
-          "receivedTime": true
-        },
-        {
-          "id": "226360",
-          "url": "https://t.me/jin10light/226360",
-          "title": "美股光通信板块普跌，LITE跌5.54%",
-          "body": "#美股 #康宁 #诺基亚",
-          "tags": [
-            "#美股",
-            "#康宁",
-            "#诺基亚"
-          ],
-          "ts": 1786373536000,
-          "time": "22:52:16",
-          "receivedAt": 1786375907541,
-          "receivedTime": true
-        },
-        {
-          "id": "226359",
-          "url": "https://t.me/jin10light/226359",
-          "title": "现货白银日内涨超2.00%，现报64.80美元/盎司。",
-          "body": "#白银 #美元",
-          "tags": [
-            "#白银",
-            "#美元"
-          ],
-          "ts": 1786373293000,
-          "time": "22:48:13",
-          "receivedAt": 1786375907541,
-          "receivedTime": true
-        },
-        {
-          "id": "226358",
-          "url": "https://t.me/jin10light/226358",
-          "title": "Vitalik更新以太坊路线图：量子安全、隐私保护和原生Rollup成为未来重点",
-          "body": "#ETH #Vitalik Buterin",
-          "tags": [
-            "#ETH",
-            "#Vitalik"
-          ],
-          "ts": 1786373234000,
-          "time": "22:47:14",
-          "receivedAt": 1786375907541,
-          "receivedTime": true
-        },
-        {
-          "id": "226357",
-          "url": "https://t.me/jin10light/226357",
-          "title": "Bithumb暂停DATA、ARIAIP充提服务，因Data Network钱包系统维护",
-          "body": "#韩国 #Bithumb #DATA ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#韩国",
-            "#Bithumb",
-            "#DATA"
-          ],
-          "ts": 1786373115000,
-          "time": "22:45:15",
-          "receivedAt": 1786375907541,
-          "receivedTime": true
-        },
-        {
-          "id": "226356",
-          "url": "https://t.me/jin10light/226356",
-          "title": "OKX完成核心交易系统跨国迁移，实现零用户感知停机",
-          "body": "#OKX #Star",
-          "tags": [
-            "#OKX",
-            "#Star"
-          ],
-          "ts": 1786372699000,
-          "time": "22:38:19",
-          "receivedAt": 1786375907541,
-          "receivedTime": true
-        },
-        {
-          "id": "226355",
-          "url": "https://t.me/jin10light/226355",
-          "title": "智谱API用户近700万，新启用超5万块国产AI芯片缓解算力压力",
-          "body": "#智谱 #GLM -5 #中国",
-          "tags": [
-            "#智谱",
-            "#GLM",
-            "#中国"
-          ],
-          "ts": 1786372219000,
-          "time": "22:30:19",
-          "receivedAt": 1786372322369,
-          "receivedTime": true
-        },
-        {
-          "id": "226354",
-          "url": "https://t.me/jin10light/226354",
-          "title": "韩国拟推「超级特区特别法」，加速半导体、实体AI及AI数据中心建设",
-          "body": "#韩国 #半导体 #Kang Hoon-sik",
-          "tags": [
-            "#韩国",
-            "#半导体",
-            "#Kang"
-          ],
-          "ts": 1786371976000,
-          "time": "22:26:16",
-          "receivedAt": 1786372322369,
           "receivedTime": true
         }
       ],
