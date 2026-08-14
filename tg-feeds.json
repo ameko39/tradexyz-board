@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-14T12:41:45.156Z",
+  "updatedAt": "2026-08-14T14:01:41.090Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6918",
+          "url": "https://t.me/BWEtradfi/6918",
+          "title": "DB: *密歇根州8月消费者信心指数初值为51，预期值为54.5",
+          "body": "DB: *MICHIGAN PRELIM. AUG. CONSUMER SENTIMENT AT 51; EST. 54.5 *MICHIGAN PRELIM. AUG. 1-YR EXPECTED INFLATION AT 4.3% VS 4.2% *密歇根州8月一年期预期通胀率初值为4.3%，高于预期的4.2%",
+          "tags": [],
+          "ts": 1786716020000,
+          "time": "22:00:20",
+          "receivedAt": 1786716088071,
+          "receivedTime": true
+        },
         {
           "id": "6917",
           "url": "https://t.me/BWEtradfi/6917",
@@ -1926,28 +1937,6 @@
           "time": "22:56:52",
           "receivedAt": 1785427871270,
           "receivedTime": true
-        },
-        {
-          "id": "6747",
-          "url": "https://t.me/BWEtradfi/6747",
-          "title": "Situational Awareness清仓全部公开投资账目：CNBC",
-          "body": "*SITUATIONAL AWARENESS SELLS ENTIRE PUBLIC INVESTMENT BOOK: CNBC",
-          "tags": [],
-          "ts": 1785419171000,
-          "time": "21:46:11",
-          "receivedAt": 1785422201687,
-          "receivedTime": true
-        },
-        {
-          "id": "6746",
-          "url": "https://t.me/BWEtradfi/6746",
-          "title": "DB: 标普500指数开盘上涨0.9%，纳斯达克指数上涨1.5%",
-          "body": "DB: *S&P 500 OPENS UP 0.9%, NASDAQ UP 1.5%",
-          "tags": [],
-          "ts": 1785418243000,
-          "time": "21:30:43",
-          "receivedAt": 1785422201687,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1955,6 +1944,290 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227538",
+          "url": "https://t.me/jin10light/227538",
+          "title": "美国6月商业库存月率 0%，预期0.1%，前值由0.30%修正为0.4%。",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1786716020000,
+          "time": "22:00:20",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227537",
+          "url": "https://t.me/jin10light/227537",
+          "title": "美国8月密歇根大学消费者信心指数初值 51，预期54.5，前值55.2。",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1786716019000,
+          "time": "22:00:19",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227536",
+          "url": "https://t.me/jin10light/227536",
+          "title": "美国8月一年期通胀率预期初值 4.3%，预期4.2%，前值4.20%。",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1786716019000,
+          "time": "22:00:19",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227535",
+          "url": "https://t.me/jin10light/227535",
+          "title": "英镑兑美元上涨至三个月高点1.3561。",
+          "body": "#英镑 #美元",
+          "tags": [
+            "#英镑",
+            "#美元"
+          ],
+          "ts": 1786715953000,
+          "time": "21:59:13",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227534",
+          "url": "https://t.me/jin10light/227534",
+          "title": "盖茨与SK、HD现代洽谈核电合作，瞄准AI电力需求",
+          "body": "#比尔·盖茨 #韩国 #TerraPower",
+          "tags": [
+            "#比尔",
+            "#韩国",
+            "#TerraPower"
+          ],
+          "ts": 1786715833000,
+          "time": "21:57:13",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227533",
+          "url": "https://t.me/jin10light/227533",
+          "title": "灰度将572.9枚BTC和44,320枚LINK转入Coinbase Prime",
+          "body": "#灰度 #BTC #LINK",
+          "tags": [
+            "#灰度",
+            "#BTC",
+            "#LINK"
+          ],
+          "ts": 1786715657000,
+          "time": "21:54:17",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227532",
+          "url": "https://t.me/jin10light/227532",
+          "title": "美国6月商业库存月率、8月密歇根大学消费者信心指数初值、一年期通胀率预期初值将于十分钟后公布。",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1786715479000,
+          "time": "21:51:19",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227531",
+          "url": "https://t.me/jin10light/227531",
+          "title": "现货黄金站上4390美元/盎司，日内涨0.90%。",
+          "body": "#黄金",
+          "tags": [
+            "#黄金"
+          ],
+          "ts": 1786714455000,
+          "time": "21:34:15",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227530",
+          "url": "https://t.me/jin10light/227530",
+          "title": "Reddit股价涨超13%，公司将被纳入标普500指数",
+          "body": "",
+          "tags": [],
+          "ts": 1786714336000,
+          "time": "21:32:16",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227529",
+          "url": "https://t.me/jin10light/227529",
+          "title": "美股开盘，纳指涨0.16%，闪迪涨7%",
+          "body": "#美股 #SNDK #WDC",
+          "tags": [
+            "#美股",
+            "#SNDK",
+            "#WDC"
+          ],
+          "ts": 1786714335000,
+          "time": "21:32:15",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227528",
+          "url": "https://t.me/jin10light/227528",
+          "title": "美股开盘，道指跌0.1%、标普500指数涨0.1%、纳指涨0.16%。",
+          "body": "闪迪(SNDK.O)涨7%，公司预计2028至2030财年营收将保持中高双位数增长。 西部数据(WDC.O)和美光科技(MU.O)涨约4%。 应用材料(AMAT.O)跌5%，公司此前公布业绩。 #美股 #闪迪 #西部数据",
+          "tags": [
+            "#美股",
+            "#闪迪",
+            "#西部数据"
+          ],
+          "ts": 1786714275000,
+          "time": "21:31:15",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227527",
+          "url": "https://t.me/jin10light/227527",
+          "title": "灰度：若ETH与SOL降低代币通胀率方案落地，或将对价格形成支撑",
+          "body": "#ETH #SOL #灰度",
+          "tags": [
+            "#ETH",
+            "#SOL",
+            "#灰度"
+          ],
+          "ts": 1786714034000,
+          "time": "21:27:14",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227526",
+          "url": "https://t.me/jin10light/227526",
+          "title": "Citrini分析师质疑闪迪HBF性能对比：演示参数或低估HBM实际能力",
+          "body": "#闪迪 #HBM #HBF",
+          "tags": [
+            "#闪迪",
+            "#HBM",
+            "#HBF"
+          ],
+          "ts": 1786713739000,
+          "time": "21:22:19",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227525",
+          "url": "https://t.me/jin10light/227525",
+          "title": "重要新é",
+          "body": "1.美国零售销售月率意外负增长，美联储在2027年中期之前加息多于一次的概率下降。 2. 白宫宣布对进口无人机及零部件征收关税。 个股新é 1.SpaceX(SPCX.O)宣布与Cursor合并于8月14日生效。 2. Reddit(RDDT.N)盘前涨11%，公司将被纳入标普500指数。 3. 据悉苹果(AAPL.O)告别纯“借力”，携手阿里训练中国市场专属大模型。 4. LG将发布基于英伟达(NVDA.O) ISAAC GR00T平台打造的下一代类人机器人。 5. 小马智行(PONY.O)与Uber(UBER.N)扩大合作，计划在欧洲5城部署超20...",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#SpaceX"
+          ],
+          "ts": 1786712896000,
+          "time": "21:08:16",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227524",
+          "url": "https://t.me/jin10light/227524",
+          "title": "SpaceX豪掷600亿美元完成收购Cursor，马斯克AI版图再落重子",
+          "body": "#SpaceX #Cursor #马斯克",
+          "tags": [
+            "#SpaceX",
+            "#Cursor",
+            "#马斯克"
+          ],
+          "ts": 1786712778000,
+          "time": "21:06:18",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227523",
+          "url": "https://t.me/jin10light/227523",
+          "title": "现货白银日内涨幅达1.00%，现报65.11美元/盎司。",
+          "body": "#白银 #美元",
+          "tags": [
+            "#白银",
+            "#美元"
+          ],
+          "ts": 1786712594000,
+          "time": "21:03:14",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227522",
+          "url": "https://t.me/jin10light/227522",
+          "title": "夜盘开盘，国内期货主力合约涨多跌少，焦煤、PTA、低硫燃料油（LU）、纯苯、苯乙烯（EB）、对二甲苯涨超1%。",
+          "body": "跌幅方面，玻璃跌超1%，烧碱跌近1%。 #焦煤 #PTA #低硫燃料油",
+          "tags": [
+            "#焦煤",
+            "#PTA",
+            "#低硫燃料油"
+          ],
+          "ts": 1786712475000,
+          "time": "21:01:15",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227521",
+          "url": "https://t.me/jin10light/227521",
+          "title": "Netflix：FTX相关剧集「The Altruists」定档11月19日上线",
+          "body": "#Netflix #SBF #Caroline Ellison",
+          "tags": [
+            "#Netflix",
+            "#SBF",
+            "#Caroline"
+          ],
+          "ts": 1786711995000,
+          "time": "20:53:15",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227520",
+          "url": "https://t.me/jin10light/227520",
+          "title": "贵州茅台：2026年上半年公司通过“i茅台”数字营销平台实现酒类不含税收入402.6亿元。",
+          "body": "#贵州茅台 #i茅台",
+          "tags": [
+            "#贵州茅台",
+            "#i茅台"
+          ],
+          "ts": 1786711513000,
+          "time": "20:45:13",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
+        {
+          "id": "227519",
+          "url": "https://t.me/jin10light/227519",
+          "title": "贵州茅台公告，2026年上半年净利润为445.17亿元，同比下降1.95%。",
+          "body": "#贵州茅台 #A股",
+          "tags": [
+            "#贵州茅台",
+            "#A股"
+          ],
+          "ts": 1786711394000,
+          "time": "20:43:14",
+          "receivedAt": 1786716089021,
+          "receivedTime": true
+        },
         {
           "id": "227518",
           "url": "https://t.me/jin10light/227518",
@@ -18757,296 +19030,6 @@
           "ts": 1786369333000,
           "time": "21:42:13",
           "receivedAt": 1786372322369,
-          "receivedTime": true
-        },
-        {
-          "id": "226338",
-          "url": "https://t.me/jin10light/226338",
-          "title": "特朗普家族关联矿企ABTC股价涨超13%，市值升至5.33亿美元",
-          "body": "#ABTC #特朗普 #Justin Mateen",
-          "tags": [
-            "#ABTC",
-            "#特朗普",
-            "#Justin"
-          ],
-          "ts": 1786369096000,
-          "time": "21:38:16",
-          "receivedAt": 1786372322369,
-          "receivedTime": true
-        },
-        {
-          "id": "226337",
-          "url": "https://t.me/jin10light/226337",
-          "title": "美三大股指集体低开，苹果跌2.1%，SpaceX涨1.8%重回135美元IPO发行价上方",
-          "body": "#美股 #苹果 #英特尔",
-          "tags": [
-            "#美股",
-            "#苹果",
-            "#英特尔"
-          ],
-          "ts": 1786368917000,
-          "time": "21:35:17",
-          "receivedAt": 1786372322369,
-          "receivedTime": true
-        },
-        {
-          "id": "226336",
-          "url": "https://t.me/jin10light/226336",
-          "title": "美股开盘，道指跌0.1%、标普500指数跌0.06%、纳指跌0.06%。",
-          "body": "苹果(AAPL.O)跌2.1%，杰富瑞下调公司评级；英特尔(INTC.O)跌4%，公司宣布拟进行150亿美元普通股发行。 #美股 #苹果 #英特尔",
-          "tags": [
-            "#美股",
-            "#苹果",
-            "#英特尔"
-          ],
-          "ts": 1786368675000,
-          "time": "21:31:15",
-          "receivedAt": 1786372322369,
-          "receivedTime": true
-        },
-        {
-          "id": "226335",
-          "url": "https://t.me/jin10light/226335",
-          "title": "分析：美伊谈判「毫无进展」，伊朗局势僵局持续",
-          "body": "#美国 #伊朗 #霍尔木兹海峡 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1786368315000,
-          "time": "21:25:15",
-          "receivedAt": 1786372323208,
-          "receivedTime": true
-        },
-        {
-          "id": "226334",
-          "url": "https://t.me/jin10light/226334",
-          "title": "美股期权市场释放四年来最强看涨信号，FOMO情绪或成上涨新引擎",
-          "body": "#美股 #标普 500 #美国",
-          "tags": [
-            "#美股",
-            "#标普",
-            "#美国"
-          ],
-          "ts": 1786368076000,
-          "time": "21:21:16",
-          "receivedAt": 1786372323208,
-          "receivedTime": true
-        },
-        {
-          "id": "226333",
-          "url": "https://t.me/jin10light/226333",
-          "title": "Strategy上周卖币亏损1880万美元，Bitmine总持仓浮亏收窄至84.06亿美元",
-          "body": "#BTC #ETH #Strategy ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#Strategy"
-          ],
-          "ts": 1786367473000,
-          "time": "21:11:13",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226332",
-          "url": "https://t.me/jin10light/226332",
-          "title": "微软计划大幅提升自研AI芯片产量，下一代MAIA 300将于9月发布",
-          "body": "#微软 #MAIA #台积电",
-          "tags": [
-            "#微软",
-            "#MAIA",
-            "#台积电"
-          ],
-          "ts": 1786367236000,
-          "time": "21:07:16",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226331",
-          "url": "https://t.me/jin10light/226331",
-          "title": "据The Information：微软一直在与台积电(TSM.N)洽谈，以确保获得超过30万颗MAIA芯片的生产能力，并于2027年交付。",
-          "body": "#微软 #台积电 #MAIA芯片",
-          "tags": [
-            "#微软",
-            "#台积电",
-            "#MAIA芯片"
-          ],
-          "ts": 1786367112000,
-          "time": "21:05:12",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226330",
-          "url": "https://t.me/jin10light/226330",
-          "title": "微软(MSFT.O)上涨1.4%，公司将大幅提高人工智能芯片产量。",
-          "body": "Meta Platforms(META.O)上涨1.16%，公司推出轻量级AI模型Muse Glimmer。",
-          "tags": [],
-          "ts": 1786367057000,
-          "time": "21:04:17",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226329",
-          "url": "https://t.me/jin10light/226329",
-          "title": "美、布两油涨超3%，特朗普称美伊仅处于「半谈判」状态",
-          "body": "#伊朗 #霍尔木兹海峡 #美国",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡",
-            "#美国"
-          ],
-          "ts": 1786367056000,
-          "time": "21:04:16",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226328",
-          "url": "https://t.me/jin10light/226328",
-          "title": "据The Information：微软计划于9月发布其下一代MAIA 300人工智能芯片。",
-          "body": "#微软 #MAIA 300",
-          "tags": [
-            "#微软",
-            "#MAIA"
-          ],
-          "ts": 1786366997000,
-          "time": "21:03:17",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226327",
-          "url": "https://t.me/jin10light/226327",
-          "title": "夜盘开盘，国内期货主力合约涨多跌少，低硫燃料油（LU）涨近2%，燃料油、SC原油、液化石油气（LPG）、甲醇、沥青、聚丙烯涨超1%。",
-          "body": "跌幅方面，玻璃、菜粕、纸浆小幅下跌。 #低硫燃料油 #燃料油 #SC原油",
-          "tags": [
-            "#低硫燃料油",
-            "#燃料油",
-            "#SC原油"
-          ],
-          "ts": 1786366879000,
-          "time": "21:01:19",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226326",
-          "url": "https://t.me/jin10light/226326",
-          "title": "美股盘前要闻一览：杰富瑞下调苹果评级；英特尔发股拟募资150亿美元；伯克希尔哈撒韦Q3已回购超33亿美元股票",
-          "body": "#美股 #ETH #BTC",
-          "tags": [
-            "#美股",
-            "#ETH",
-            "#BTC"
-          ],
-          "ts": 1786366879000,
-          "time": "21:01:19",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226325",
-          "url": "https://t.me/jin10light/226325",
-          "title": "重构发射平台价值分配，COSM.FUN宇宙发射平台入局，挑战传统Pump生态格局",
-          "body": "发射台赛道竞争日趋白热化，全新项目COSM宇宙发射平台正式对外披露上线规划。 平台借鉴去中心化发币底层逻辑，在商业模式上做出差异化调整。 核心亮点在于价值回流机制：平台产生的收入大部分回馈社区参与者。 同时推出各种特色玩法 发射平台代币：0x0d6ae45c96ec4df860300087462266e19140f6dc 社交链接DEBOX： https://m.debox.pro/group?id=w6agxkyt&code=e6rhdbxn TG： https://t.me/COSM_cn",
-          "tags": [],
-          "ts": 1786366811000,
-          "time": "21:00:11",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226324",
-          "url": "https://t.me/jin10light/226324",
-          "title": "WTI原油突破79美元/桶，日内涨3.50%。",
-          "body": "#WTI原油 #美元",
-          "tags": [
-            "#WTI原油",
-            "#美元"
-          ],
-          "ts": 1786366576000,
-          "time": "20:56:16",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226323",
-          "url": "https://t.me/jin10light/226323",
-          "title": "英特尔盘前跌4.62%，公司拟募资150亿美元扩充AI投资，加入AI基础设施融资潮",
-          "body": "#英特尔 #AI #美国",
-          "tags": [
-            "#英特尔",
-            "#AI",
-            "#美国"
-          ],
-          "ts": 1786366213000,
-          "time": "20:50:13",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226322",
-          "url": "https://t.me/jin10light/226322",
-          "title": "白宫顾问：不会接替美联储理事库克，支持降息立场",
-          "body": "#美国 #美联储 #特朗普",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#特朗普"
-          ],
-          "ts": 1786366097000,
-          "time": "20:48:17",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226321",
-          "url": "https://t.me/jin10light/226321",
-          "title": "哥伦比亚发生6.7级地震",
-          "body": "8月10日讯，哥伦比亚地质局的地震初步通报显示，当地时间8月10日7时34分，哥伦比亚发生6.7级地震，震中位于乔科省附近，震源深度82公里。 首都波哥大有明显震感。 #哥伦比亚 #乔科省 #波哥大 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#哥伦比亚",
-            "#乔科省",
-            "#波哥大"
-          ],
-          "ts": 1786365792000,
-          "time": "20:43:12",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226320",
-          "url": "https://t.me/jin10light/226320",
-          "title": "日本要拿Fugu当「国产AI」进自卫队，结果指挥模型一直是Qwen",
-          "body": "#日本 #Sakana Fugu #Qwen",
-          "tags": [
-            "#日本",
-            "#Sakana",
-            "#Qwen"
-          ],
-          "ts": 1786365736000,
-          "time": "20:42:16",
-          "receivedAt": 1786367544902,
-          "receivedTime": true
-        },
-        {
-          "id": "226319",
-          "url": "https://t.me/jin10light/226319",
-          "title": "Token价格加速探底，创年内新低，算力过剩隐忧浮现",
-          "body": "#Token #AI #OpenAI",
-          "tags": [
-            "#Token",
-            "#AI",
-            "#OpenAI"
-          ],
-          "ts": 1786365434000,
-          "time": "20:37:14",
-          "receivedAt": 1786367544902,
           "receivedTime": true
         }
       ],
