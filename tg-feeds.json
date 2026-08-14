@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T23:13:33.230Z",
+  "updatedAt": "2026-08-14T23:35:54.643Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1801,20 +1801,9 @@
           "time": "08:04:19",
           "receivedAt": 1785460392569,
           "receivedTime": true
-        },
-        {
-          "id": "6760",
-          "url": "https://t.me/BWEtradfi/6760",
-          "title": "DB: *东京7月整体消费者价格指数同比上涨2%；前值1.7%",
-          "body": "DB: *TOKYO JULY OVERALL CONSUMER PRICES RISE 2% Y/Y; PREV. 1.7% *TOKYO JULY CORE CONSUMER PRICES RISE 1.9% Y/Y; PREV. 1.6% *东京7月核心消费者价格指数同比上涨1.9%；前值1.6%",
-          "tags": [],
-          "ts": 1785454214000,
-          "time": "07:30:14",
-          "receivedAt": 1785454923496,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
