@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-14T19:29:40.410Z",
+  "updatedAt": "2026-08-14T20:03:30.152Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6919",
+          "url": "https://t.me/BWEtradfi/6919",
+          "title": "DB: 标普500指数收盘下跌0.2%，纳斯达克指数下跌0.3%",
+          "body": "DB: *S&P 500 CLOSES 0.2% LOWER, NASDAQ DECLINES 0.3%",
+          "tags": [],
+          "ts": 1786737613000,
+          "time": "04:00:13",
+          "receivedAt": 1786737793554,
+          "receivedTime": true
+        },
         {
           "id": "6918",
           "url": "https://t.me/BWEtradfi/6918",
@@ -1812,61 +1823,42 @@
           "time": "04:30:20",
           "receivedAt": 1785447394363,
           "receivedTime": true
-        },
-        {
-          "id": "6758",
-          "url": "https://t.me/BWEtradfi/6758",
-          "title": "*亚马逊第二季度营业利润率为 13.7%，预计12%",
-          "body": "*AMAZON 2Q OPER MARGIN 13.7%, EST. 12% $AMZN $AMZN",
-          "tags": [],
-          "ts": 1785441686000,
-          "time": "04:01:26",
-          "receivedAt": 1785442826757,
-          "receivedTime": true
-        },
-        {
-          "id": "6757",
-          "url": "https://t.me/BWEtradfi/6757",
-          "title": "*亚马逊第二季度净销售额 2006 亿美元，高于预期 1970.1 亿美元",
-          "body": "*AMAZON 2Q NET SALES $200.6B, EST. $197.01B *AMAZON 2Q AWS NET SALES $42.23B, EST. $40.57B *AMAZON 2Q OPER INCOME $27.46B, EST. $23.61B *AMAZON Q2 EPS USD 5.75 VS. IBES ESTIMATE USD 1.82 $AMZN *亚马逊第二季度 AWS 净销售额 422.3 亿美元，高于预期 405.7 亿美元 *亚马逊第二季度营业收入 274.6 亿美元，高于预期 236.1 亿美元 *亚马逊第二季度每股收益 5.75 美元，高于 I...",
-          "tags": [],
-          "ts": 1785441684000,
-          "time": "04:01:24",
-          "receivedAt": 1785442826757,
-          "receivedTime": true
-        },
-        {
-          "id": "6756",
-          "url": "https://t.me/BWEtradfi/6756",
-          "title": "DB: 标准普尔500指数收盘上涨1.7%，纳斯达克指数跃升2.8%",
-          "body": "DB: *S&P 500 RISES 1.7% AT THE CLOSE, NASDAQ JUMPS 2.8%",
-          "tags": [],
-          "ts": 1785441612000,
-          "time": "04:00:12",
-          "receivedAt": 1785442826757,
-          "receivedTime": true
-        },
-        {
-          "id": "6755",
-          "url": "https://t.me/BWEtradfi/6755",
-          "title": "*BURRY 增持半导体 ETF 空头头寸，美光科技股价跌至 880 美元，同时增持英伟达和 QQQ 看跌期权：SUBSTACK",
-          "body": "*BURRY SHORTS MORE SEMICONDUCTOR ETF, MICRON @880, ADDS TO NVDA AND QQQ PUTS: SUBSTACK #MU • #NVDA • #QQQ #MU • #NVDA • #QQQ",
-          "tags": [
-            "#MU",
-            "#NVDA",
-            "#QQQ"
-          ],
-          "ts": 1785441167000,
-          "time": "03:52:47",
-          "receivedAt": 1785442826757,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227580",
+          "url": "https://t.me/jin10light/227580",
+          "title": "美国总统特朗普：对伊朗的封锁势不可挡，封锁是一道钢铁之墙。",
+          "body": "#特朗普 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#伊朗"
+          ],
+          "ts": 1786737613000,
+          "time": "04:00:13",
+          "receivedAt": 1786737794089,
+          "receivedTime": true
+        },
+        {
+          "id": "227579",
+          "url": "https://t.me/jin10light/227579",
+          "title": "美国总统特朗普：（关于伊朗）我很快将宣布霍尔木兹海峡为美国领土。",
+          "body": "#特朗普 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786737314000,
+          "time": "03:55:14",
+          "receivedAt": 1786737794089,
+          "receivedTime": true
+        },
         {
           "id": "227578",
           "url": "https://t.me/jin10light/227578",
@@ -18927,32 +18919,6 @@
           "tags": [],
           "ts": 1786377733000,
           "time": "00:02:13",
-          "receivedAt": 1786379113979,
-          "receivedTime": true
-        },
-        {
-          "id": "226380",
-          "url": "https://t.me/jin10light/226380",
-          "title": "今日重点关注的财经数据与事件：2026年8月11日 周二",
-          "body": "① 12:30 澳洲联储公布利率决议和货币政策声明 ② 13:30 澳洲联储主席布洛克召开新闻发布会 ③ 18:00 美国7月NFIB小型企业信心指数 ④ 20:15 美国至7月25日当周ADP就业人数周度变动 ⑤ 22:00 美国7月成屋销售总数年化 ⑥ 次日00:00 EIA公布月度短期能源展望报告 ⑦ 次日04:30 美国至8月7日当周API原油库存 #美国 #澳洲联储 #布洛克",
-          "tags": [
-            "#美国",
-            "#澳洲联储",
-            "#布洛克"
-          ],
-          "ts": 1786377708000,
-          "time": "00:01:48",
-          "receivedAt": 1786379113979,
-          "receivedTime": true
-        },
-        {
-          "id": "226379",
-          "url": "https://t.me/jin10light/226379",
-          "title": "重构发射平台价值分配，COSM.FUN宇宙发射平台入局，挑战传统Pump生态格局",
-          "body": "发射台赛道竞争日趋白热化，全新项目COSM宇宙发射平台正式对外披露上线规划。 平台借鉴去中心化发币底层逻辑，在商业模式上做出差异化调整。 核心亮点在于价值回流机制：平台产生的收入大部分回馈社区参与者。 同时推出各种特色玩法 发射平台代币：0x0d6ae45c96ec4df860300087462266e19140f6dc 社交链接DEBOX： https://m.debox.pro/group?id=w6agxkyt&code=e6rhdbxn TG： https://t.me/COSM_cn",
-          "tags": [],
-          "ts": 1786377552000,
-          "time": "23:59:12",
           "receivedAt": 1786379113979,
           "receivedTime": true
         }
