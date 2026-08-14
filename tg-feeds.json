@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T16:48:46.909Z",
+  "updatedAt": "2026-08-14T17:38:36.940Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1893,24 +1893,79 @@
           "time": "01:42:55",
           "receivedAt": 1785433616284,
           "receivedTime": true
-        },
-        {
-          "id": "6751",
-          "url": "https://t.me/BWEtradfi/6751",
-          "title": "*OpenAI 下调 GPT-5.6 价格 - Axios",
-          "body": "*OPENAI CUTS GPT-5.6 PRICES - AXIOS *OPENAI CUT PRICES FOR GPT-5.6 LUNA BY ROUGHLY 80% TO 20 CENTS PER MILLION INPUT TOKENS *OPENAI REDUCED PRICES FOR GPT-5.6 TERRA BY 20% TO $2 PER MILLION INPUT TOKENS *OpenAI 将 GPT-5.6 Luna 的价格下调了约 80%，至每百万输入代币 0.2 美元 *OpenAI 将 GPT-5.6 Terra 的价格下调了 20%，至每百万输入代币 2...",
-          "tags": [],
-          "ts": 1785430836000,
-          "time": "01:00:36",
-          "receivedAt": 1785433616284,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227575",
+          "url": "https://t.me/jin10light/227575",
+          "title": "也门胡塞武装控制的萨巴通讯社援引消息称，胡塞武装使用无人机袭击了沙特阿美公司位于沙特阿拉伯南部奈季兰省的设施。",
+          "body": "#也门 #沙特阿美 #沙特阿拉伯",
+          "tags": [
+            "#也门",
+            "#沙特阿美",
+            "#沙特阿拉伯"
+          ],
+          "ts": 1786727713000,
+          "time": "01:15:13",
+          "receivedAt": 1786729105124,
+          "receivedTime": true
+        },
+        {
+          "id": "227574",
+          "url": "https://t.me/jin10light/227574",
+          "title": "若比特币跌破6.2万美元，主流CEX累计多单清算强度将达8.03亿",
+          "body": "#BTC #CEX",
+          "tags": [
+            "#BTC",
+            "#CEX"
+          ],
+          "ts": 1786727594000,
+          "time": "01:13:14",
+          "receivedAt": 1786729105124,
+          "receivedTime": true
+        },
+        {
+          "id": "227573",
+          "url": "https://t.me/jin10light/227573",
+          "title": "美联储古尔斯比：仍需更多证据确认通胀回落",
+          "body": "#美国 #美联储 #CPI",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#CPI"
+          ],
+          "ts": 1786726815000,
+          "time": "01:00:15",
+          "receivedAt": 1786729105124,
+          "receivedTime": true
+        },
+        {
+          "id": "227572",
+          "url": "https://t.me/jin10light/227572",
+          "title": "摩根大通因监管担忧已终止与Polymarket银行业务关系",
+          "body": "",
+          "tags": [],
+          "ts": 1786726761000,
+          "time": "00:59:21",
+          "receivedAt": 1786729105124,
+          "receivedTime": true
+        },
+        {
+          "id": "227571",
+          "url": "https://t.me/jin10light/227571",
+          "title": "美国至8月14日当周石油钻井总数 455口，前值454口。",
+          "body": "",
+          "tags": [],
+          "ts": 1786726218000,
+          "time": "00:50:18",
+          "receivedAt": 1786729105124,
+          "receivedTime": true
+        },
         {
           "id": "227570",
           "url": "https://t.me/jin10light/227570",
@@ -18932,74 +18987,6 @@
           "ts": 1786376534000,
           "time": "23:42:14",
           "receivedAt": 1786379113979,
-          "receivedTime": true
-        },
-        {
-          "id": "226375",
-          "url": "https://t.me/jin10light/226375",
-          "title": "高盛：英伟达下一代Vera Rubin超级芯片中存储成本占BOM约62%",
-          "body": "#英伟达 #高盛 #AI 芯片",
-          "tags": [
-            "#英伟达",
-            "#高盛",
-            "#AI"
-          ],
-          "ts": 1786376115000,
-          "time": "23:35:15",
-          "receivedAt": 1786379113979,
-          "receivedTime": true
-        },
-        {
-          "id": "226374",
-          "url": "https://t.me/jin10light/226374",
-          "title": "布油突破86美元/桶，为7月31日以来首次，日内涨5.53%",
-          "body": "",
-          "tags": [],
-          "ts": 1786375872000,
-          "time": "23:31:12",
-          "receivedAt": 1786375907541,
-          "receivedTime": true
-        },
-        {
-          "id": "226373",
-          "url": "https://t.me/jin10light/226373",
-          "title": "欧洲天然气价格上涨10.1%，达到每兆瓦时61.14欧元。",
-          "body": "#欧洲 #天然气",
-          "tags": [
-            "#欧洲",
-            "#天然气"
-          ],
-          "ts": 1786375815000,
-          "time": "23:30:15",
-          "receivedAt": 1786375907541,
-          "receivedTime": true
-        },
-        {
-          "id": "226372",
-          "url": "https://t.me/jin10light/226372",
-          "title": "市场消息：上周美国战略石油储备原油库存减少约610万桶，至2.987亿桶，为1983年以来的最低水平。",
-          "body": "#美国 #原油",
-          "tags": [
-            "#美国",
-            "#原油"
-          ],
-          "ts": 1786375394000,
-          "time": "23:23:14",
-          "receivedAt": 1786375907541,
-          "receivedTime": true
-        },
-        {
-          "id": "226371",
-          "url": "https://t.me/jin10light/226371",
-          "title": "MARA上半年出售超2.3万枚BTC，套现约16亿美元",
-          "body": "#MARA #BTC",
-          "tags": [
-            "#MARA",
-            "#BTC"
-          ],
-          "ts": 1786375274000,
-          "time": "23:21:14",
-          "receivedAt": 1786375907541,
           "receivedTime": true
         }
       ],
