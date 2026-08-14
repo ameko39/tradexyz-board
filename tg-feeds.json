@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T18:30:37.173Z",
+  "updatedAt": "2026-08-14T19:29:40.410Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1862,11 +1862,41 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227578",
+          "url": "https://t.me/jin10light/227578",
+          "title": "美国总统特朗普：不在乎在中期选举前打击伊朗经济。",
+          "body": "#特朗普 #美国 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1786735754000,
+          "time": "03:29:14",
+          "receivedAt": 1786735764934,
+          "receivedTime": true
+        },
+        {
+          "id": "227577",
+          "url": "https://t.me/jin10light/227577",
+          "title": "8月15日讯，据福克斯新闻：美国总统特朗普表示，美国将对伊朗实施严厉经济打击。",
+          "body": "#美国 #伊朗 #特朗普",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#特朗普"
+          ],
+          "ts": 1786735214000,
+          "time": "03:20:14",
+          "receivedAt": 1786735764934,
+          "receivedTime": true
+        },
         {
           "id": "227576",
           "url": "https://t.me/jin10light/227576",
@@ -18923,36 +18953,6 @@
           "tags": [],
           "ts": 1786377552000,
           "time": "23:59:12",
-          "receivedAt": 1786379113979,
-          "receivedTime": true
-        },
-        {
-          "id": "226378",
-          "url": "https://t.me/jin10light/226378",
-          "title": "旧金山新AI聊天机器人被曝「全靠真人回复」：创始人一人手写所有答案",
-          "body": "#美国 #旧金山 #Tucker Bryant",
-          "tags": [
-            "#美国",
-            "#旧金山",
-            "#Tucker"
-          ],
-          "ts": 1786377374000,
-          "time": "23:56:14",
-          "receivedAt": 1786379113979,
-          "receivedTime": true
-        },
-        {
-          "id": "226377",
-          "url": "https://t.me/jin10light/226377",
-          "title": "Serenity质疑《巴伦周刊》光模块产业报道专业性：复杂供应链分析却交由非技术背景记者",
-          "body": "#AAOI #光通信 #半导体",
-          "tags": [
-            "#AAOI",
-            "#光通信",
-            "#半导体"
-          ],
-          "ts": 1786376956000,
-          "time": "23:49:16",
           "receivedAt": 1786379113979,
           "receivedTime": true
         }
