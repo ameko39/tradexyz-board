@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T21:00:35.365Z",
+  "updatedAt": "2026-08-14T21:29:57.995Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1819,6 +1819,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227583",
+          "url": "https://t.me/jin10light/227583",
+          "title": "据伊朗学生通讯社：伊朗外长阿拉格齐表示，尚未决定是否恢复与美国谈判。",
+          "body": "卡塔尔和巴基斯坦作为协调方正在与伊朗交换信息，但这并不意味着美伊已进入谈判。 #伊朗 #美国 #阿拉格齐",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#阿拉格齐"
+          ],
+          "ts": 1786741874000,
+          "time": "05:11:14",
+          "receivedAt": 1786742986792,
+          "receivedTime": true
+        },
+        {
+          "id": "227582",
+          "url": "https://t.me/jin10light/227582",
+          "title": "惠誉确认英国评级为“AA-”，展望稳定。",
+          "body": "#英国 #惠誉",
+          "tags": [
+            "#英国",
+            "#惠誉"
+          ],
+          "ts": 1786741454000,
+          "time": "05:04:14",
+          "receivedAt": 1786742986792,
+          "receivedTime": true
+        },
         {
           "id": "227581",
           "url": "https://t.me/jin10light/227581",
@@ -18878,36 +18907,6 @@
           ],
           "ts": 1786378816000,
           "time": "00:20:16",
-          "receivedAt": 1786379113979,
-          "receivedTime": true
-        },
-        {
-          "id": "226383",
-          "url": "https://t.me/jin10light/226383",
-          "title": "观点：当前比特币抛压主要来自Binance、OKX，Coinbase及期货市场持续吸筹",
-          "body": "#BTC #Binance #OKX",
-          "tags": [
-            "#BTC",
-            "#Binance",
-            "#OKX"
-          ],
-          "ts": 1786378574000,
-          "time": "00:16:14",
-          "receivedAt": 1786379113979,
-          "receivedTime": true
-        },
-        {
-          "id": "226382",
-          "url": "https://t.me/jin10light/226382",
-          "title": "某做市商质疑BitMart资不抵债并曾诱导锁仓，资金已无法提取",
-          "body": "#BitMart #OpenGradient #Matthew",
-          "tags": [
-            "#BitMart",
-            "#OpenGradient",
-            "#Matthew"
-          ],
-          "ts": 1786378156000,
-          "time": "00:09:16",
           "receivedAt": 1786379113979,
           "receivedTime": true
         }
