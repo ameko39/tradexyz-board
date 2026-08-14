@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T10:17:17.632Z",
+  "updatedAt": "2026-08-14T11:10:39.457Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1992,24 +1992,148 @@
           "time": "20:00:21",
           "receivedAt": 1785413927763,
           "receivedTime": true
-        },
-        {
-          "id": "6740",
-          "url": "https://t.me/BWEtradfi/6740",
-          "title": "DB: 英格兰银行维持基准利率在3.75%不变；预期为3.75%",
-          "body": "DB: *BOE LEAVES KEY RATE AT 3.75%; EST. 3.75%",
-          "tags": [],
-          "ts": 1785409215000,
-          "time": "19:00:15",
-          "receivedAt": 1785413927763,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227499",
+          "url": "https://t.me/jin10light/227499",
+          "title": "Strategy、Metaplanet或面临被MSCI指数剔除，结果预计10月公布",
+          "body": "#MSCI #Strategy #Metaplanet",
+          "tags": [
+            "#MSCI",
+            "#Strategy",
+            "#Metaplanet"
+          ],
+          "ts": 1786705573000,
+          "time": "19:06:13",
+          "receivedAt": 1786705829195,
+          "receivedTime": true
+        },
+        {
+          "id": "227498",
+          "url": "https://t.me/jin10light/227498",
+          "title": "视频｜SK海力士董事长：AI智能体让需求成倍增长，本轮存储周期会长得多",
+          "body": "#SK海力士 #崔泰源 #AI",
+          "tags": [
+            "#SK海力士",
+            "#崔泰源",
+            "#AI"
+          ],
+          "ts": 1786705337000,
+          "time": "19:02:17",
+          "receivedAt": 1786705829195,
+          "receivedTime": true
+        },
+        {
+          "id": "227497",
+          "url": "https://t.me/jin10light/227497",
+          "title": "深交所：本周对近期股价严重异常波动的“蓝盾光电”进行重点监控",
+          "body": "8月14日讯，2026年8月10日至8月14日，深交所共对114起证券异常交易行为采取了自律监管措施，涉及盘中拉抬打压、虚假申报等异常交易情形；对近期股价严重异常波动的“蓝盾光电”进行重点监控；共对8起上市公司重大事项进行核查，并上报证监会2起涉嫌违法违规案件线索。 #深交所 #蓝盾光电 #A股",
+          "tags": [
+            "#深交所",
+            "#蓝盾光电",
+            "#A股"
+          ],
+          "ts": 1786705215000,
+          "time": "19:00:15",
+          "receivedAt": 1786705829195,
+          "receivedTime": true
+        },
+        {
+          "id": "227496",
+          "url": "https://t.me/jin10light/227496",
+          "title": "美银：牛市终结三要素已具备两项，若共和党守住参议院可推动AI股狂飙至2027年",
+          "body": "#美国 #美股 #AI",
+          "tags": [
+            "#美国",
+            "#美股",
+            "#AI"
+          ],
+          "ts": 1786704556000,
+          "time": "18:49:16",
+          "receivedAt": 1786705829195,
+          "receivedTime": true
+        },
+        {
+          "id": "227495",
+          "url": "https://t.me/jin10light/227495",
+          "title": "Hyperscale Data完成出售约685枚比特币，仍持有约275枚比特币",
+          "body": "#Hyperscale Data #BTC #密歇根",
+          "tags": [
+            "#Hyperscale",
+            "#BTC",
+            "#密歇根"
+          ],
+          "ts": 1786702882000,
+          "time": "18:21:22",
+          "receivedAt": 1786705829195,
+          "receivedTime": true
+        },
+        {
+          "id": "227494",
+          "url": "https://t.me/jin10light/227494",
+          "title": "Mixedbread发布Toast 1：专门用于帮助大模型搜集资料",
+          "body": "#Mixedbread #GPT -5.6 Sol #Claude",
+          "tags": [
+            "#Mixedbread",
+            "#GPT",
+            "#Claude"
+          ],
+          "ts": 1786702882000,
+          "time": "18:21:22",
+          "receivedAt": 1786705829195,
+          "receivedTime": true
+        },
+        {
+          "id": "227493",
+          "url": "https://t.me/jin10light/227493",
+          "title": "稳定币支付公司RedotPay推迟赴美IPO计划",
+          "body": "#中国香港 #RedotPay #稳定币",
+          "tags": [
+            "#中国香港",
+            "#RedotPay",
+            "#稳定币"
+          ],
+          "ts": 1786702881000,
+          "time": "18:21:21",
+          "receivedAt": 1786705829195,
+          "receivedTime": true
+        },
+        {
+          "id": "227492",
+          "url": "https://t.me/jin10light/227492",
+          "title": "主流CEX稳定币活期收益盘点：USDT小额档最高10%，U产品最高8.57%",
+          "body": "#Binance #OKX #HTX",
+          "tags": [
+            "#Binance",
+            "#OKX",
+            "#HTX"
+          ],
+          "ts": 1786702880000,
+          "time": "18:21:20",
+          "receivedAt": 1786705829195,
+          "receivedTime": true
+        },
+        {
+          "id": "227491",
+          "url": "https://t.me/jin10light/227491",
+          "title": "分析：比特币长期持有者并未大规模派发，早期代币因Coldcard黑客事件再度活跃",
+          "body": "#BTC #CryptoQuant #Axel Adler Jr.",
+          "tags": [
+            "#BTC",
+            "#CryptoQuant",
+            "#Axel"
+          ],
+          "ts": 1786702880000,
+          "time": "18:21:20",
+          "receivedAt": 1786705829195,
+          "receivedTime": true
+        },
         {
           "id": "227490",
           "url": "https://t.me/jin10light/227490",
@@ -18973,141 +19097,6 @@
           "time": "19:56:15",
           "receivedAt": 1786363152146,
           "receivedTime": true
-        },
-        {
-          "id": "226299",
-          "url": "https://t.me/jin10light/226299",
-          "title": "美官员：特朗普将决定持有英特尔股票的时间",
-          "body": "#美国 #特朗普 #英特尔 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#英特尔"
-          ],
-          "ts": 1786362855000,
-          "time": "19:54:15",
-          "receivedAt": 1786363152146,
-          "receivedTime": true
-        },
-        {
-          "id": "226298",
-          "url": "https://t.me/jin10light/226298",
-          "title": "Sharplink公布Q2财报：持有近89万枚ETH，营收同比大增但亏损3.94亿美元",
-          "body": "#Sharplink #ETH #Galaxy",
-          "tags": [
-            "#Sharplink",
-            "#ETH",
-            "#Galaxy"
-          ],
-          "ts": 1786362678000,
-          "time": "19:51:18",
-          "receivedAt": 1786363152146,
-          "receivedTime": true
-        },
-        {
-          "id": "226297",
-          "url": "https://t.me/jin10light/226297",
-          "title": "杰富瑞下调苹果评级至「跑输大盘」，股价盘前跌0.97%",
-          "body": "#苹果 #AAPL .O #杰富瑞集团",
-          "tags": [
-            "#苹果",
-            "#AAPL",
-            "#杰富瑞集团"
-          ],
-          "ts": 1786362494000,
-          "time": "19:48:14",
-          "receivedAt": 1786363152146,
-          "receivedTime": true
-        },
-        {
-          "id": "226296",
-          "url": "https://t.me/jin10light/226296",
-          "title": "宇树科技IPO打新结果8月12日公布，中签投资者需缴款7.54万元",
-          "body": "#宇树科技 #科创板 #人形机器人",
-          "tags": [
-            "#宇树科技",
-            "#科创板",
-            "#人形机器人"
-          ],
-          "ts": 1786362255000,
-          "time": "19:44:15",
-          "receivedAt": 1786363152146,
-          "receivedTime": true
-        },
-        {
-          "id": "226295",
-          "url": "https://t.me/jin10light/226295",
-          "title": "日本央行与政府政策分歧加剧：高市施压扩购债，植田坚持货币正常化",
-          "body": "#日本 #高市早苗 #日本央行",
-          "tags": [
-            "#日本",
-            "#高市早苗",
-            "#日本央行"
-          ],
-          "ts": 1786362015000,
-          "time": "19:40:15",
-          "receivedAt": 1786363152146,
-          "receivedTime": true
-        },
-        {
-          "id": "226294",
-          "url": "https://t.me/jin10light/226294",
-          "title": "特朗普帖文提前访问权已开始向交易机构出售，年费最高达120万美元",
-          "body": "#特朗普 #Truth Social #伊朗 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#特朗普",
-            "#Truth",
-            "#伊朗"
-          ],
-          "ts": 1786361896000,
-          "time": "19:38:16",
-          "receivedAt": 1786363152146,
-          "receivedTime": true
-        },
-        {
-          "id": "226293",
-          "url": "https://t.me/jin10light/226293",
-          "title": "美股期指小幅上涨，市场关注霍尔木兹海峡协议与通胀数据",
-          "body": "#美国 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1786361595000,
-          "time": "19:33:15",
-          "receivedAt": 1786363152146,
-          "receivedTime": true
-        },
-        {
-          "id": "226292",
-          "url": "https://t.me/jin10light/226292",
-          "title": "Revolut获法国银行牌照，成为欧盟第二家全牌照银行实体",
-          "body": "#Revolut #法国 #欧洲央行 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#Revolut",
-            "#法国",
-            "#欧洲央行"
-          ],
-          "ts": 1786361478000,
-          "time": "19:31:18",
-          "receivedAt": 1786363152146,
-          "receivedTime": true
-        },
-        {
-          "id": "226291",
-          "url": "https://t.me/jin10light/226291",
-          "title": "视频｜彭博社：伯克希尔终结连续14个季度净卖出，出手买入谷歌、东京海上等公司股票",
-          "body": "#Taylor Morrison #谷歌 #Greg Abel",
-          "tags": [
-            "#Taylor",
-            "#谷歌",
-            "#Greg"
-          ],
-          "ts": 1786361354000,
-          "time": "19:29:14",
-          "receivedAt": 1786363152146,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19115,6 +19104,28 @@
     "poly": {
       "channel": "PolyBeats_Bot",
       "items": [
+        {
+          "id": "1741",
+          "url": "https://t.me/PolyBeats_Bot/1741",
+          "title": "日本二季度 GDP 周一揭晓，宏观聪明钱预测增长率为 0.0%-0.8%",
+          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 日本2026年第二季度GDP年化增长率是否介于0.0%至0.8%之间？ 」投入 $955「是」，平均买入概率为 43.0%，目前「是」概率为 70.0%。 BirobidjanRepublican 投入 $955，与本市场最佳相关板块为 宏观经济 ，板块净盈利 $16.3k。其在该板块共 94 笔已结算交易的胜率为 75/94（80%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 19 笔。相近成本价区间（$0.351-$0.5）内，其历史投入金额中位数为 $545。 日本内阁府将在 8 月 17 日 8:50 公布 2026 年 4–6 月实际 GDP 初值。路透社 7 日调查 15 名经济学家，环比增长预测中值为 0.5%，折合年率增长 2.0%。第一季度二次值为年化增长 1.8%。 路透社调查认为，私人消费在二季度环比增长 0.5%，企业资本支出增长 0.4%。净外需预计贡献 0.3 个百分点。日本 6 月工业产出环比增长 1.3%，半导体和机械相关需求继续支撑制造业活动。 日本经济研究中心 6 月调查的二季度年化平均预测为 0.52%，Miz...",
+          "tags": [],
+          "ts": 1786704721000,
+          "time": "18:52:01",
+          "receivedAt": 1786705839229,
+          "receivedTime": true
+        },
+        {
+          "id": "1740",
+          "url": "https://t.me/PolyBeats_Bot/1740",
+          "title": "乌克兰提出黑海停火方案，预测市场 4 年政治专业户预测俄乌和谈结果",
+          "body": "在预测市场 Polymarket 上，1 名盈利超 3 百万美元、交易时长超 4 年的聪明钱买入俄乌冲突相关市场。 账户1 与本市场最佳相关板块为 地缘政治 ，板块净盈利 $632k。其在该板块共 1791 笔已结算交易的胜率为 880/1791（49%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 246 笔。本笔投入为其相近成本价区间内历史投入金额中位数的 13.5 倍。",
+          "tags": [],
+          "ts": 1786703641000,
+          "time": "18:34:01",
+          "receivedAt": 1786705839229,
+          "receivedTime": true
+        },
         {
           "id": "1739",
           "url": "https://t.me/PolyBeats_Bot/1739",
@@ -20292,28 +20303,6 @@
           "ts": 1785466322000,
           "time": "10:52:02",
           "receivedAt": 1785472847287,
-          "receivedTime": true
-        },
-        {
-          "id": "1631",
-          "url": "https://t.me/PolyBeats_Bot/1631",
-          "title": "城市提前投票回升，初选聪明钱预测 MO-01 民主党不会提名 Wesley Bell",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 MO-01 民主党提名人会是 Wesley Bell 吗？ 」投入 $1.5k「否」，平均买入概率为 41.0%，目前「是」概率为 65.0%。 bernardbulletin 投入 $1.5k，与本市场最佳相关板块为 初选 ，板块净盈利 $46.4k。其在该板块共 186 笔已结算交易的胜率为 152/186（82%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 21 笔。相近成本价区间（$0.351-$0.5）内，其历史投入金额中位数为 $1.8k。 密苏里州第一国会选区民主党初选将于 8 月 4 日举行。现任议员 Wesley Bell 与前议员 Cori Bush 再次进入同一选区竞选。2024 年选举中，Bell 曾以约 51% 对 46% 获胜。 28 日，选举官员预计本次初选投票率约 35%，2024 年略高于 30%。市区无理由提前投票人数在开放初期约为去年同期两倍，显示出更强的早期动员迹象。地方媒体指出，这种「市区升温、县区稳定」的结构，可能直接影响 2024 年 Bell 依靠县区反超的路径是否还能复制。 两人分歧在本轮选战中进一...",
-          "tags": [],
-          "ts": 1785409741000,
-          "time": "19:09:01",
-          "receivedAt": 1785413950836,
-          "receivedTime": true
-        },
-        {
-          "id": "1630",
-          "url": "https://t.me/PolyBeats_Bot/1630",
-          "title": "体彩哥突然 20 万美元押注中东事态恶化，并同时在 Hyperliquid 掷千万美元做多原油",
-          "body": "在预测市场 Polymarket 上，1 名账户投入 $223k 买入中东局势将恶化。 该账户此前 103 笔交易均为体育相关，投入金额中位数 $85。据 Hyperinsight 监测，该账户的链上地址同时与 Hyperliquid 相关联，且于过去 48 小时内累计加仓超过 1000 万美元成交额的原油做多合约。",
-          "tags": [],
-          "ts": 1785407281000,
-          "time": "18:28:01",
-          "receivedAt": 1785408691412,
           "receivedTime": true
         }
       ],
