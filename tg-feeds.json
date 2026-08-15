@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T23:55:02.560Z",
+  "updatedAt": "2026-08-15T00:42:24.417Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1790,24 +1790,55 @@
           "time": "09:00:29",
           "receivedAt": 1785460392569,
           "receivedTime": true
-        },
-        {
-          "id": "6761",
-          "url": "https://t.me/BWEtradfi/6761",
-          "title": "韩国综合股价指数（KOSPI）跳涨14%，SK海力士与三星涨幅均超25%",
-          "body": "*KOSPI JUMPS 14% AS SK HYNIX, SAMSUNG UP MORE THAN 25%",
-          "tags": [],
-          "ts": 1785456259000,
-          "time": "08:04:19",
-          "receivedAt": 1785460392569,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227586",
+          "url": "https://t.me/jin10light/227586",
+          "title": "WSJ：英伟达与OpenAI调整俄亥俄10GW数据中心合作方案，担保规模降至1200亿美元以下",
+          "body": "#英伟达 #OpenAI #俄亥俄州",
+          "tags": [
+            "#英伟达",
+            "#OpenAI",
+            "#俄亥俄州"
+          ],
+          "ts": 1786754234000,
+          "time": "08:37:14",
+          "receivedAt": 1786754533139,
+          "receivedTime": true
+        },
+        {
+          "id": "227585",
+          "url": "https://t.me/jin10light/227585",
+          "title": "消息人士称，Anthropic预计2028年收入将达到1900亿至2000亿美元。",
+          "body": "#Anthropic",
+          "tags": [
+            "#Anthropic"
+          ],
+          "ts": 1786753273000,
+          "time": "08:21:13",
+          "receivedAt": 1786754533139,
+          "receivedTime": true
+        },
+        {
+          "id": "227584",
+          "url": "https://t.me/jin10light/227584",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加0.285吨，当前持仓量为1023.528吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1786752915000,
+          "time": "08:15:15",
+          "receivedAt": 1786754533139,
+          "receivedTime": true
+        },
         {
           "id": "227583",
           "url": "https://t.me/jin10light/227583",
@@ -18852,51 +18883,6 @@
           "ts": 1786379355000,
           "time": "00:29:15",
           "receivedAt": 1786382547194,
-          "receivedTime": true
-        },
-        {
-          "id": "226386",
-          "url": "https://t.me/jin10light/226386",
-          "title": "英伟达与多家公司围绕5000亿美元AI融资协议合作，包括黑石、贝莱德等",
-          "body": "#英伟达 #阿波罗 #黑石",
-          "tags": [
-            "#英伟达",
-            "#阿波罗",
-            "#黑石"
-          ],
-          "ts": 1786379232000,
-          "time": "00:27:12",
-          "receivedAt": 1786382547194,
-          "receivedTime": true
-        },
-        {
-          "id": "226385",
-          "url": "https://t.me/jin10light/226385",
-          "title": "F2Pool联创王纯反对BIP-54提案：若通过BIP-9机制达标将更新节点",
-          "body": "#BTC #F2Pool #王纯",
-          "tags": [
-            "#BTC",
-            "#F2Pool",
-            "#王纯"
-          ],
-          "ts": 1786379056000,
-          "time": "00:24:16",
-          "receivedAt": 1786379113979,
-          "receivedTime": true
-        },
-        {
-          "id": "226384",
-          "url": "https://t.me/jin10light/226384",
-          "title": "日本官员淡化2.3万亿美元投资计划财政压力：称AI、半导体投资将长期支撑日元",
-          "body": "#日本 #日元 #高市早苗",
-          "tags": [
-            "#日本",
-            "#日元",
-            "#高市早苗"
-          ],
-          "ts": 1786378816000,
-          "time": "00:20:16",
-          "receivedAt": 1786379113979,
           "receivedTime": true
         }
       ],
