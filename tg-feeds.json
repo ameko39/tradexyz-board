@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T05:56:33.256Z",
+  "updatedAt": "2026-08-15T06:29:12.930Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,65 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227628",
+          "url": "https://t.me/jin10light/227628",
+          "title": "摩根士丹利Circle持仓大增近6倍，评级却下调至「减持」，目标价下调至38美元",
+          "body": "#Circle #USDC #摩根士丹利",
+          "tags": [
+            "#Circle",
+            "#USDC",
+            "#摩根士丹利"
+          ],
+          "ts": 1786775115000,
+          "time": "14:25:15",
+          "receivedAt": 1786775335262,
+          "receivedTime": true
+        },
+        {
+          "id": "227627",
+          "url": "https://t.me/jin10light/227627",
+          "title": "Serenity晒图回应「归零」传闻：年内收益率仍达2411.84%",
+          "body": "#Serenity #AI #美股",
+          "tags": [
+            "#Serenity",
+            "#AI",
+            "#美股"
+          ],
+          "ts": 1786774454000,
+          "time": "14:14:14",
+          "receivedAt": 1786775335262,
+          "receivedTime": true
+        },
+        {
+          "id": "227626",
+          "url": "https://t.me/jin10light/227626",
+          "title": "Stripe与Advent洽购PayPal谈判升温，交易估值或达530亿美元",
+          "body": "#PayPal #Stripe #Enrique Lores",
+          "tags": [
+            "#PayPal",
+            "#Stripe",
+            "#Enrique"
+          ],
+          "ts": 1786774217000,
+          "time": "14:10:17",
+          "receivedAt": 1786775335262,
+          "receivedTime": true
+        },
+        {
+          "id": "227625",
+          "url": "https://t.me/jin10light/227625",
+          "title": "Claude Code官方省Token指南：11个技巧让额度用得更久",
+          "body": "#Anthropic #Claude Code",
+          "tags": [
+            "#Anthropic",
+            "#Claude"
+          ],
+          "ts": 1786773856000,
+          "time": "14:04:16",
+          "receivedAt": 1786775335262,
+          "receivedTime": true
+        },
         {
           "id": "227624",
           "url": "https://t.me/jin10light/227624",
@@ -18793,64 +18852,6 @@
           "time": "08:43:14",
           "receivedAt": 1786409900943,
           "receivedTime": true
-        },
-        {
-          "id": "226428",
-          "url": "https://t.me/jin10light/226428",
-          "title": "贝莱德：比特币市场情绪正在转变，与美股脱钩趋势逐步显现",
-          "body": "#BTC #美国 #贝莱德",
-          "tags": [
-            "#BTC",
-            "#美国",
-            "#贝莱德"
-          ],
-          "ts": 1786408513000,
-          "time": "08:35:13",
-          "receivedAt": 1786409900943,
-          "receivedTime": true
-        },
-        {
-          "id": "226427",
-          "url": "https://t.me/jin10light/226427",
-          "title": "中信建投：宇树IPO定价超出预期利好机器人板块",
-          "body": "#宇树 #OptimusV3 #机器人",
-          "tags": [
-            "#宇树",
-            "#OptimusV3",
-            "#机器人"
-          ],
-          "ts": 1786408393000,
-          "time": "08:33:13",
-          "receivedAt": 1786409900943,
-          "receivedTime": true
-        },
-        {
-          "id": "226426",
-          "url": "https://t.me/jin10light/226426",
-          "title": "Anthropic与Riot达成91亿美元AI算力协议",
-          "body": "#Riot Platforms #Anthropic #BTC",
-          "tags": [
-            "#Riot",
-            "#Anthropic",
-            "#BTC"
-          ],
-          "ts": 1786408274000,
-          "time": "08:31:14",
-          "receivedAt": 1786409900943,
-          "receivedTime": true
-        },
-        {
-          "id": "226425",
-          "url": "https://t.me/jin10light/226425",
-          "title": "巨鲸「先定10个大目标」：依然认为当前区域是比特币阶段性底部，减仓并非改变方向而是控制风险",
-          "body": "#BTC # @jasonleo",
-          "tags": [
-            "#BTC"
-          ],
-          "ts": 1786407912000,
-          "time": "08:25:12",
-          "receivedAt": 1786409900943,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20038,7 +20039,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
