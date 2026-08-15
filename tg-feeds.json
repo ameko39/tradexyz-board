@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T08:51:22.671Z",
+  "updatedAt": "2026-08-15T09:12:46.877Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227639",
+          "url": "https://t.me/jin10light/227639",
+          "title": "分析：比特币表观需求明显改善，但结构性囤积量尚无法完全吸收新供应",
+          "body": "#BTC #CryptoQuant #Darkfost",
+          "tags": [
+            "#BTC",
+            "#CryptoQuant",
+            "#Darkfost"
+          ],
+          "ts": 1786784895000,
+          "time": "17:08:15",
+          "receivedAt": 1786785118354,
+          "receivedTime": true
+        },
         {
           "id": "227638",
           "url": "https://t.me/jin10light/227638",
@@ -18845,21 +18860,6 @@
           "time": "09:27:13",
           "receivedAt": 1786417442850,
           "receivedTime": true
-        },
-        {
-          "id": "226439",
-          "url": "https://t.me/jin10light/226439",
-          "title": "Arthur Hayes：继续看多比特币与黄金，美元流动性增长或推动ENA未来数月上涨5倍",
-          "body": "#Arthur Hayes #日本 #BTC",
-          "tags": [
-            "#Arthur",
-            "#日本",
-            "#BTC"
-          ],
-          "ts": 1786411456000,
-          "time": "09:24:16",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20012,20 +20012,9 @@
           "time": "17:54:01",
           "receivedAt": 1785492580653,
           "receivedTime": true
-        },
-        {
-          "id": "1638",
-          "url": "https://t.me/PolyBeats_Bot/1638",
-          "title": "创始人转出部分持股，彭博社首次传出 IPO 初步接触",
-          "body": "在预测市场 Polymarket 上，今日上线的新市场「 彭博社会在 2027 年 12 月 31 日前进行 IPO 吗？ 」的「是」概率目前为 20%。 Semafor 于 7 月 28 日援引知情人士称，Bloomberg L.P. 高管近期与投资银行进行了初步接触，讨论潜在 IPO 或其他资本交易。相关交流仍处于非正式阶段，公司没有公布承销商、申请文件及交易时间表。 84 岁的 Michael Bloomberg 近期将部分个人持股转让给彭博慈善基金会 Bloomberg Philanthropies。知情人士称，这项安排可以降低未来上市或出售股权时产生的税务成本。Michael Bloomberg 据估计持有公司约 88% 的股权，Bloomberg L.P. 年收入约为 $150 亿，投行人士给出的估值超过 $800 亿。该公司主要业务为金融数据与分析服务，核心产品 Bloomberg Terminal 为全球金融机构提供实时市场数据、交易信息与通讯工具。 Bloomberg L.P. 发言人 Ty Trippet 表示，Michael Bloomberg 仍然控制公司，目前没有出售公司的计划。Michael B...",
-          "tags": [],
-          "ts": 1785488737000,
-          "time": "17:05:37",
-          "receivedAt": 1785492580653,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
