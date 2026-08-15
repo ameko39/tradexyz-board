@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T18:59:55.066Z",
+  "updatedAt": "2026-08-15T19:24:13.992Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1709,6 +1709,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227665",
+          "url": "https://t.me/jin10light/227665",
+          "title": "据TheInformation：英伟达(NVDA.O)正在洽谈向SB Energy投资30亿美元，作为OpenAI数据中心交易的一部分。",
+          "body": "#英伟达 #SB Energy #OpenAI",
+          "tags": [
+            "#英伟达",
+            "#SB",
+            "#OpenAI"
+          ],
+          "ts": 1786821434000,
+          "time": "03:17:14",
+          "receivedAt": 1786821836593,
+          "receivedTime": true
+        },
         {
           "id": "227664",
           "url": "https://t.me/jin10light/227664",
@@ -18825,20 +18840,6 @@
           ],
           "ts": 1786416077000,
           "time": "10:41:17",
-          "receivedAt": 1786417442677,
-          "receivedTime": true
-        },
-        {
-          "id": "226465",
-          "url": "https://t.me/jin10light/226465",
-          "title": "科创50盘中翻红，此前一度跌逾2%。",
-          "body": "#科创50 #A股",
-          "tags": [
-            "#科创50",
-            "#A股"
-          ],
-          "ts": 1786415654000,
-          "time": "10:34:14",
           "receivedAt": 1786417442677,
           "receivedTime": true
         }
