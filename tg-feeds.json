@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T21:50:45.890Z",
+  "updatedAt": "2026-08-15T22:05:52.071Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1614,31 +1614,9 @@
           "time": "06:10:41",
           "receivedAt": 1785537738453,
           "receivedTime": true
-        },
-        {
-          "id": "6776",
-          "url": "https://t.me/BWEtradfi/6776",
-          "title": "*据AXIOS报道，特朗普考虑在未来几天内对伊朗能源目标发动美国空袭",
-          "body": "*TRUMP CONSIDERS U.S. STRIKES ON IRANIAN ENERGY TARGETS WITHIN COMING DAYS: AXIOS *PROPOSED ATTACKS AIM TO PRESSURE IRAN INTO ACCEPTING CEASEFIRE NEGOTIATION TERMS *拟议的袭击旨在向伊朗施压，迫使其接受停火谈判条款。",
-          "tags": [],
-          "ts": 1785535418000,
-          "time": "06:03:38",
-          "receivedAt": 1785537738453,
-          "receivedTime": true
-        },
-        {
-          "id": "6775",
-          "url": "https://t.me/BWEtradfi/6775",
-          "title": "*特朗普政府放弃对倒影池的指控，称损坏是由于安装“失败”造成的 - NBC",
-          "body": "*TRUMP ADMINISTRATION DROPS REFLECTING POOL CASE, BLAMING DAMAGE ON 'BOTCHED' INSTALLATION - NBC *GOVERNMENT ACKNOWLEDGED ALLEGATIONS REGARDING DAMAGE TO THE REFLECTING POOL LACK MERIT *政府承认有关倒影池损坏的指控缺乏依据",
-          "tags": [],
-          "ts": 1785534956000,
-          "time": "05:55:56",
-          "receivedAt": 1785537738453,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
