@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T16:00:37.272Z",
+  "updatedAt": "2026-08-15T16:31:30.968Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1709,6 +1709,34 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227664",
+          "url": "https://t.me/jin10light/227664",
+          "title": "美联储9月加息25个基点概率现报33.1%",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1786811176000,
+          "time": "00:26:16",
+          "receivedAt": 1786811479705,
+          "receivedTime": true
+        },
+        {
+          "id": "227663",
+          "url": "https://t.me/jin10light/227663",
+          "title": "过去24小时全网爆仓7710万美元，多空双爆",
+          "body": "#加密货币 #BTC",
+          "tags": [
+            "#加密货币",
+            "#BTC"
+          ],
+          "ts": 1786809915000,
+          "time": "00:05:15",
+          "receivedAt": 1786811479705,
+          "receivedTime": true
+        },
         {
           "id": "227662",
           "url": "https://t.me/jin10light/227662",
@@ -18811,35 +18839,6 @@
           ],
           "ts": 1786415654000,
           "time": "10:34:14",
-          "receivedAt": 1786417442677,
-          "receivedTime": true
-        },
-        {
-          "id": "226464",
-          "url": "https://t.me/jin10light/226464",
-          "title": "BIT上线双币投资收益率周榜，每周Top 10共享990枚USDC",
-          "body": "#BIT #USDC",
-          "tags": [
-            "#BIT",
-            "#USDC"
-          ],
-          "ts": 1786415593000,
-          "time": "10:33:13",
-          "receivedAt": 1786417442677,
-          "receivedTime": true
-        },
-        {
-          "id": "226463",
-          "url": "https://t.me/jin10light/226463",
-          "title": "Upbit将上线DOS韩元交易对",
-          "body": "#Upbit #DOS #韩国",
-          "tags": [
-            "#Upbit",
-            "#DOS",
-            "#韩国"
-          ],
-          "ts": 1786415537000,
-          "time": "10:32:17",
           "receivedAt": 1786417442677,
           "receivedTime": true
         }
