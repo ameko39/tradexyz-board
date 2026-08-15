@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T06:29:12.930Z",
+  "updatedAt": "2026-08-15T07:06:51.897Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227630",
+          "url": "https://t.me/jin10light/227630",
+          "title": "DeepSeek Harness开源约42小时，GitHub突破10万星",
+          "body": "#DeepSeek Harness #GitHub",
+          "tags": [
+            "#DeepSeek",
+            "#GitHub"
+          ],
+          "ts": 1786776376000,
+          "time": "14:46:16",
+          "receivedAt": 1786777600573,
+          "receivedTime": true
+        },
+        {
+          "id": "227629",
+          "url": "https://t.me/jin10light/227629",
+          "title": "ABFinance官宣约5个月后关停，正启动有序清算",
+          "body": "#ABFinance #Helen Liu #Bybit",
+          "tags": [
+            "#ABFinance",
+            "#Helen",
+            "#Bybit"
+          ],
+          "ts": 1786776012000,
+          "time": "14:40:12",
+          "receivedAt": 1786777600573,
+          "receivedTime": true
+        },
         {
           "id": "227628",
           "url": "https://t.me/jin10light/227628",
@@ -18826,32 +18855,6 @@
           "time": "09:01:17",
           "receivedAt": 1786417443037,
           "receivedTime": true
-        },
-        {
-          "id": "226430",
-          "url": "https://t.me/jin10light/226430",
-          "title": "黄仁勋回应「5000亿美元融资」质疑：需求真实存在，AI工厂正成为可投资基础设施资产",
-          "body": "",
-          "tags": [],
-          "ts": 1786409835000,
-          "time": "08:57:15",
-          "receivedAt": 1786409900943,
-          "receivedTime": true
-        },
-        {
-          "id": "226429",
-          "url": "https://t.me/jin10light/226429",
-          "title": "Strategy CEO：仅靠比特币无法满足投资者需求，因此调整策略增加现金储备",
-          "body": "#Strategy #BTC #MSTR ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#Strategy",
-            "#BTC",
-            "#MSTR"
-          ],
-          "ts": 1786408994000,
-          "time": "08:43:14",
-          "receivedAt": 1786409900943,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20026,20 +20029,9 @@
           "time": "16:03:01",
           "receivedAt": 1785492580653,
           "receivedTime": true
-        },
-        {
-          "id": "1636",
-          "url": "https://t.me/PolyBeats_Bot/1636",
-          "title": "Tesla 评估拆分中国业务，聪明钱预测 SpaceX 整合特斯拉与 SpaceX 年内合并",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 特斯拉与 SpaceX 的合并将在 2026 年 12 月 31 日前正式宣布吗？ 」投入 $2.7k「是」，平均买入概率为 20.9%，目前「是」概率为 19.5%。 0xf192501a 投入 $2.7k。已结算交易 119 笔，总盈利 $15.2k。该笔交易为其历史交易中位数的 11.7 倍。 华尔街日报今日援引知情人士称，Tesla 部分高管已被要求为中国业务可能独立运营做准备。公司顾问正在研究分拆或出售方案。高管还讨论了为上海工厂出口业务设立独立销售实体，并进一步分隔中国团队与其他业务部门的办公系统。相关方案目前没有确定结构及时间表。 中国市场约占 Tesla 上半年全球销量的 18%。上海超级工厂的汽车年产能超过 950,000 辆，承担 Model 3 与 Model Y 的生产及海外出口。Tesla 还在上海运营 Megapack 储能工厂。上海汽车工厂 6 月销售及出口 89,091 辆汽车，同比增长 24.4%。 马斯克此前于 22 日表示，Tesla 与 SpaceX 的合作范围正在扩大，任何公司层面的整合都需要经过适当程序。双方目前在电池、制造...",
-          "tags": [],
-          "ts": 1785481141000,
-          "time": "14:59:01",
-          "receivedAt": 1785483211133,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
