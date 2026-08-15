@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T10:57:52.404Z",
+  "updatedAt": "2026-08-15T11:20:54.199Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227647",
+          "url": "https://t.me/jin10light/227647",
+          "title": "桥水基金Q2大幅抛售近136万股美光科技，持股比例锐减92%",
+          "body": "#桥水基金 #瑞·达利欧 #美光科技",
+          "tags": [
+            "#桥水基金",
+            "#瑞",
+            "#美光科技"
+          ],
+          "ts": 1786792036000,
+          "time": "19:07:16",
+          "receivedAt": 1786792703773,
+          "receivedTime": true
+        },
         {
           "id": "227646",
           "url": "https://t.me/jin10light/227646",
@@ -18843,20 +18858,6 @@
           "time": "09:46:15",
           "receivedAt": 1786417442850,
           "receivedTime": true
-        },
-        {
-          "id": "226447",
-          "url": "https://t.me/jin10light/226447",
-          "title": "苹果据悉仍计划明年推出一款以玻璃材质为核心的全面升级版iPhone",
-          "body": "#苹果 #iPhone",
-          "tags": [
-            "#苹果",
-            "#iPhone"
-          ],
-          "ts": 1786412533000,
-          "time": "09:42:13",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19989,7 +19990,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
