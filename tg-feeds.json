@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T09:57:14.979Z",
+  "updatedAt": "2026-08-15T10:17:55.317Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,50 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227644",
+          "url": "https://t.me/jin10light/227644",
+          "title": "COW上涨突破0.15美元，24小时涨超50%",
+          "body": "#COW #HTX",
+          "tags": [
+            "#COW",
+            "#HTX"
+          ],
+          "ts": 1786788436000,
+          "time": "18:07:16",
+          "receivedAt": 1786789032854,
+          "receivedTime": true
+        },
+        {
+          "id": "227643",
+          "url": "https://t.me/jin10light/227643",
+          "title": "1. 很快将宣布霍尔木兹海峡为“美国领土”——特朗普称，伊朗正遭受惨败，并表示“彻底击败伊朗后，将很快宣布霍尔木兹海峡为美国领土”，随后补充道“这是真的”。",
+          "body": "2. 将对伊朗实施严厉经济打击——特朗普：将对伊朗实施严厉经济打击；不在乎在中期选举前打击伊朗经济。 3. 预计将参加与预测市场有关的会议——白宫计划于下周三举行一场与相关行业人士的会议，特朗普以及美国商品期货交易委员会（CFTC）主席迈克·塞利格预计将出席，参会者包括预测市场平台Kalshi等。 4. 淡化“林肯号”航母舰员生活状况担忧——特朗普淡化“林肯号”航母长期部署引发的生活条件担忧，称舰员家属“不担心”，并表示此次部署“远远没有”持续过长。 5. 证实部署中东的“林肯”号航母将被替换——特朗普14日证实，因在中东地区长期部署而导致舰上生活条件...",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786788072000,
+          "time": "18:01:12",
+          "receivedAt": 1786789032854,
+          "receivedTime": true
+        },
+        {
+          "id": "227642",
+          "url": "https://t.me/jin10light/227642",
+          "title": "投行调查：AI冲击软件行业，私募二级市场投资者转向观望",
+          "body": "#Lazard #软件行业 #AI",
+          "tags": [
+            "#Lazard",
+            "#软件行业",
+            "#AI"
+          ],
+          "ts": 1786788014000,
+          "time": "18:00:14",
+          "receivedAt": 1786789032854,
+          "receivedTime": true
+        },
         {
           "id": "227641",
           "url": "https://t.me/jin10light/227641",
@@ -18812,51 +18856,6 @@
           "time": "09:40:18",
           "receivedAt": 1786417442850,
           "receivedTime": true
-        },
-        {
-          "id": "226444",
-          "url": "https://t.me/jin10light/226444",
-          "title": "某巨鲸向FalconX及Cumberland合计转入774枚BTC，约合4950万美元",
-          "body": "#BTC #FalconX #Cumberland",
-          "tags": [
-            "#BTC",
-            "#FalconX",
-            "#Cumberland"
-          ],
-          "ts": 1786412418000,
-          "time": "09:40:18",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
-        },
-        {
-          "id": "226443",
-          "url": "https://t.me/jin10light/226443",
-          "title": "BitMine再次「抄底」买入1.3万枚ETH，约合2436万美元",
-          "body": "#ETH #BitMine #BitGo",
-          "tags": [
-            "#ETH",
-            "#BitMine",
-            "#BitGo"
-          ],
-          "ts": 1786412172000,
-          "time": "09:36:12",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
-        },
-        {
-          "id": "226442",
-          "url": "https://t.me/jin10light/226442",
-          "title": "郭明錤：台积电因内存短缺积压10亿美元苹果芯片传闻不实，相关订单会提前规划",
-          "body": "#台积电 #Apple #郭明錤",
-          "tags": [
-            "#台积电",
-            "#Apple",
-            "#郭明錤"
-          ],
-          "ts": 1786412115000,
-          "time": "09:35:15",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20000,7 +19999,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
