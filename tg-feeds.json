@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T12:59:30.089Z",
+  "updatedAt": "2026-08-15T13:29:23.240Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1715,11 +1715,41 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227655",
+          "url": "https://t.me/jin10light/227655",
+          "title": "伊朗与阿曼已就通过霍尔木兹海峡的航运路线达成一致",
+          "body": "8月15日讯，据外媒报道，伊朗与阿曼似乎正逐步就霍尔木兹海峡的管理方式达成协议，双方已就通过这一关键水道的航运路线达成一致。 霍尔木兹海峡一直是解决伊朗与美国近六个月战争、推动停战谈判的主要障碍之一。 伊朗外交部发言人巴加埃称，最终确定一份“航运地图”是管理霍尔木兹海峡航运安排的更广泛协议的一部分，也是伊朗与阿曼两国之间达成的独立安排。 该安排将维护两国主权，并确保船只安全通行。 伊朗国家通讯社此前的报道没有说明船只是否需要缴纳通行费，也未透露将采取何种安全措施，仅表示双方还将举行下一阶段谈判。 这一进展发生之际，霍尔木兹海峡近期接连遭到袭击。 美国并...",
+          "tags": [
+            "#伊朗",
+            "#阿曼",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786800014000,
+          "time": "21:20:14",
+          "receivedAt": 1786800412588,
+          "receivedTime": true
+        },
+        {
+          "id": "227654",
+          "url": "https://t.me/jin10light/227654",
+          "title": "以身入局！DeFiLlama举报假冒App数月无果，亲测被盗后苹果终于将其下架",
+          "body": "#DeFiLlama #苹果 #加密货币",
+          "tags": [
+            "#DeFiLlama",
+            "#苹果",
+            "#加密货币"
+          ],
+          "ts": 1786799115000,
+          "time": "21:05:15",
+          "receivedAt": 1786800412588,
+          "receivedTime": true
+        },
         {
           "id": "227653",
           "url": "https://t.me/jin10light/227653",
@@ -18815,34 +18845,6 @@
           "tags": [],
           "ts": 1786413735000,
           "time": "10:02:15",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
-        },
-        {
-          "id": "226455",
-          "url": "https://t.me/jin10light/226455",
-          "title": "科创50指数盘初走弱，跌逾2%，成分股中源杰科技跌超8%领跌成分股。",
-          "body": "#科创50 #中源杰科技",
-          "tags": [
-            "#科创50",
-            "#中源杰科技"
-          ],
-          "ts": 1786413735000,
-          "time": "10:02:15",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
-        },
-        {
-          "id": "226454",
-          "url": "https://t.me/jin10light/226454",
-          "title": "某巨鲸增持533.02枚BTC空单，持仓规模升至约8402万美元",
-          "body": "#BTC #Hyperliquid",
-          "tags": [
-            "#BTC",
-            "#Hyperliquid"
-          ],
-          "ts": 1786413252000,
-          "time": "09:54:12",
           "receivedAt": 1786417442850,
           "receivedTime": true
         }
