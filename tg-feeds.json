@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T08:25:04.313Z",
+  "updatedAt": "2026-08-15T08:51:22.671Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,51 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227638",
+          "url": "https://t.me/jin10light/227638",
+          "title": "CZ：比特币是通缩资产，仅剩约4.4%供应量待挖",
+          "body": "#Binance #CZ #BTC",
+          "tags": [
+            "#Binance",
+            "#CZ",
+            "#BTC"
+          ],
+          "ts": 1786783158000,
+          "time": "16:39:18",
+          "receivedAt": 1786783834507,
+          "receivedTime": true
+        },
+        {
+          "id": "227637",
+          "url": "https://t.me/jin10light/227637",
+          "title": "伊朗称霍尔木兹海峡归属无可争议",
+          "body": "#伊朗 #美国 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786782796000,
+          "time": "16:33:16",
+          "receivedAt": 1786783834507,
+          "receivedTime": true
+        },
+        {
+          "id": "227636",
+          "url": "https://t.me/jin10light/227636",
+          "title": "BTC与ETH ETF上周吸金11亿美元，结束2026年大部分时间净流出局面",
+          "body": "#BTC #ETH #IBIT",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#IBIT"
+          ],
+          "ts": 1786782257000,
+          "time": "16:24:17",
+          "receivedAt": 1786783834507,
+          "receivedTime": true
+        },
         {
           "id": "227635",
           "url": "https://t.me/jin10light/227635",
@@ -18815,49 +18860,6 @@
           "time": "09:24:16",
           "receivedAt": 1786417442850,
           "receivedTime": true
-        },
-        {
-          "id": "226438",
-          "url": "https://t.me/jin10light/226438",
-          "title": "中国央行：根据公开市场业务一级交易商的需求，2026年8月11日7天期逆回购操作量为零。",
-          "body": "#中国 #央行",
-          "tags": [
-            "#中国",
-            "#央行"
-          ],
-          "ts": 1786411409000,
-          "time": "09:23:29",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
-        },
-        {
-          "id": "226437",
-          "url": "https://t.me/jin10light/226437",
-          "title": "港股开盘，恒指开涨0.24%，科指开涨0.27%，黄金股多股高开，紫金黄金国际( 02259.HK )开涨3.13%，赤峰黄金( 06693.HK )开涨2.55%。",
-          "body": "#港股 #黄金 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#港股",
-            "#黄金"
-          ],
-          "ts": 1786411272000,
-          "time": "09:21:12",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
-        },
-        {
-          "id": "226436",
-          "url": "https://t.me/jin10light/226436",
-          "title": "Bithumb将上线DOS韩元交易对",
-          "body": "#Bithumb #DOS #韩国",
-          "tags": [
-            "#Bithumb",
-            "#DOS",
-            "#韩国"
-          ],
-          "ts": 1786411153000,
-          "time": "09:19:13",
-          "receivedAt": 1786417443037,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20023,7 +20025,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
