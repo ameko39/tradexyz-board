@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T14:12:31.193Z",
+  "updatedAt": "2026-08-15T14:37:00.612Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1709,6 +1709,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227657",
+          "url": "https://t.me/jin10light/227657",
+          "title": "分析：比特币处于彩虹图「极端折价」区间，下行偏离程度超越上轮熊市底部",
+          "body": "#BTC #Axel Adler Jr. #CryptoQuant",
+          "tags": [
+            "#BTC",
+            "#Axel",
+            "#CryptoQuant"
+          ],
+          "ts": 1786803557000,
+          "time": "22:19:17",
+          "receivedAt": 1786804516031,
+          "receivedTime": true
+        },
+        {
+          "id": "227656",
+          "url": "https://t.me/jin10light/227656",
+          "title": "谷歌将允许用户移除其AI生成内容中可见水印",
+          "body": "#谷歌 #Josh Woodward #Gemini",
+          "tags": [
+            "#谷歌",
+            "#Josh",
+            "#Gemini"
+          ],
+          "ts": 1786801934000,
+          "time": "21:52:14",
+          "receivedAt": 1786804516031,
+          "receivedTime": true
+        },
         {
           "id": "227655",
           "url": "https://t.me/jin10light/227655",
@@ -18810,36 +18840,9 @@
           "time": "10:15:14",
           "receivedAt": 1786417442677,
           "receivedTime": true
-        },
-        {
-          "id": "226457",
-          "url": "https://t.me/jin10light/226457",
-          "title": "三星电子涨超4%，SK海力士由跌转涨",
-          "body": "#韩国 #KOSPI #三星电子",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#三星电子"
-          ],
-          "ts": 1786414096000,
-          "time": "10:08:16",
-          "receivedAt": 1786417442677,
-          "receivedTime": true
-        },
-        {
-          "id": "226456",
-          "url": "https://t.me/jin10light/226456",
-          "title": "集运指数（欧线）主力合约日内跌超5.00%，现报1554.5点。",
-          "body": "",
-          "tags": [],
-          "ts": 1786413735000,
-          "time": "10:02:15",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": false,
-      "error": "This operation was aborted"
+      "archiveComplete": false
     },
     "poly": {
       "channel": "PolyBeats_Bot",
