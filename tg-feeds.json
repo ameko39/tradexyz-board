@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T05:36:33.140Z",
+  "updatedAt": "2026-08-15T05:56:33.256Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227624",
+          "url": "https://t.me/jin10light/227624",
+          "title": "段永平押注SpaceX约20天，账面收益超540万美元",
+          "body": "#段永平 #SpaceX #SPCX",
+          "tags": [
+            "#段永平",
+            "#SpaceX",
+            "#SPCX"
+          ],
+          "ts": 1786772835000,
+          "time": "13:47:15",
+          "receivedAt": 1786773377294,
+          "receivedTime": true
+        },
         {
           "id": "227623",
           "url": "https://t.me/jin10light/227623",
@@ -18836,21 +18851,6 @@
           "time": "08:25:12",
           "receivedAt": 1786409900943,
           "receivedTime": true
-        },
-        {
-          "id": "226424",
-          "url": "https://t.me/jin10light/226424",
-          "title": "「10万美元抢先看特朗普帖文」服务已有超10家客户",
-          "body": "#特朗普 #Truth API #美国",
-          "tags": [
-            "#特朗普",
-            "#Truth",
-            "#美国"
-          ],
-          "ts": 1786407736000,
-          "time": "08:22:16",
-          "receivedAt": 1786409900943,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20034,17 +20034,6 @@
           "tags": [],
           "ts": 1785481141000,
           "time": "14:59:01",
-          "receivedAt": 1785483211133,
-          "receivedTime": true
-        },
-        {
-          "id": "1635",
-          "url": "https://t.me/PolyBeats_Bot/1635",
-          "title": "AI 股回撤后寻求新资金，聪明钱预测 Situational Awareness 短期募资无望",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 Situational Awareness 会在 8 月 31 日前筹集到新资金吗？ 」投入 $398「否」，平均买入概率为 46.0%，目前「是」概率为 30.5%。 Tenebrus7 投入 $398，与本市场最佳相关板块为 人工智能 ，板块净盈利 $15.5k。其在该板块共 159 笔已结算交易的胜率为 120/159（75%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 28 笔。相近成本价区间（$0.501-$0.55）内，其历史投入金额中位数为 $106。 Situational Awareness 是前 OpenAI Superalignment 团队研究员 Leopold Aschenbrenner 于 2024 年创立的 AI 主题基金，名称来自其同名长文《Situational Awareness: The Decade Ahead》。这篇文章因押注 AGI 进程快速推进、并提出模型或将在 2027 年具备 AI 研究与工程能力而广受关注；Aschenbrenner 此后将这一判断转化为对芯片、算力、电力及数据中心产业链的集中投资...",
-          "tags": [],
-          "ts": 1785477034000,
-          "time": "13:50:34",
           "receivedAt": 1785483211133,
           "receivedTime": true
         }
