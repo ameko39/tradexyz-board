@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T04:13:45.952Z",
+  "updatedAt": "2026-08-15T04:47:23.592Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227617",
+          "url": "https://t.me/jin10light/227617",
+          "title": "OpenAI IPO冲刺前内斗加剧：高管频繁离职，安全团队重组引发担忧",
+          "body": "#OpenAI #Anthropic #IPO",
+          "tags": [
+            "#OpenAI",
+            "#Anthropic",
+            "#IPO"
+          ],
+          "ts": 1786768815000,
+          "time": "12:40:15",
+          "receivedAt": 1786769229591,
+          "receivedTime": true
+        },
+        {
+          "id": "227616",
+          "url": "https://t.me/jin10light/227616",
+          "title": "Justin Sun：和解谈判进行中，HTX不在英国与欧盟展业",
+          "body": "#Justin Sun #Binance #HTX",
+          "tags": [
+            "#Justin",
+            "#Binance",
+            "#HTX"
+          ],
+          "ts": 1786768456000,
+          "time": "12:34:16",
+          "receivedAt": 1786769229591,
+          "receivedTime": true
+        },
         {
           "id": "227615",
           "url": "https://t.me/jin10light/227615",
@@ -18819,35 +18849,6 @@
           "time": "08:01:14",
           "receivedAt": 1786409900943,
           "receivedTime": true
-        },
-        {
-          "id": "226417",
-          "url": "https://t.me/jin10light/226417",
-          "title": "美伊谈判陷僵局，油价涨超5%，半导体指数跌近3%，光通信概念股重挫",
-          "body": "#美国 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1786406056000,
-          "time": "07:54:16",
-          "receivedAt": 1786406075861,
-          "receivedTime": true
-        },
-        {
-          "id": "226416",
-          "url": "https://t.me/jin10light/226416",
-          "title": "大摩启动1.5万亿美元美国创新基础设施计划，聚焦AI等前沿技术",
-          "body": "#摩根士丹利 #美国",
-          "tags": [
-            "#摩根士丹利",
-            "#美国"
-          ],
-          "ts": 1786405754000,
-          "time": "07:49:14",
-          "receivedAt": 1786406075861,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20055,20 +20056,9 @@
           "time": "13:12:01",
           "receivedAt": 1785483211133,
           "receivedTime": true
-        },
-        {
-          "id": "1633",
-          "url": "https://t.me/PolyBeats_Bot/1633",
-          "title": "Apple 月末最后一个交易日，金融板块聪明钱预测会跌出第一",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 「Apple」会在 7 月 31 日成为全球市值最大的公司吗？ 」投入 $1.7k「否」，平均买入概率为 34.8%，目前「是」概率为 25.3%。 0xf0ca28d5 投入 $1.7k，与本市场最佳相关板块为 金融 ，板块净盈利 $282k。其在该板块共 153 笔已结算交易的胜率为 57/153（37%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 27 笔。相近成本价区间（$0.251-$0.4）内，其历史投入金额中位数为 $3.9k。 路透社报道，Apple 于 7 月 30 日发布 2026 财年第 3 财季业绩，前瞻指引明显低于市场预期。Apple 预计截至 9 月的季度收入同比增长 9%—11%，低于市场普遍预期的约 12% 增速；iPhone 增长指引约 15%，也低于分析师预期的 17%+。同时，Services 收入（$307.4 亿）与大中华区收入（$188.2 亿）均低于市场预期，显示高利润业务与关键区域增长同时放缓。 Tim Cook 提到先进制程芯片供应仍然受限，影响 Apple Silicon 在 iPhone、Mac...",
-          "tags": [],
-          "ts": 1785471241000,
-          "time": "12:14:01",
-          "receivedAt": 1785472847287,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
