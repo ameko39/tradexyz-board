@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T14:37:00.612Z",
+  "updatedAt": "2026-08-15T14:53:33.546Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1709,6 +1709,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227658",
+          "url": "https://t.me/jin10light/227658",
+          "title": "Hyperliquid永续合约未平仓头寸市场份额回升至10%",
+          "body": "#Hyperliquid #HYPE #Binance",
+          "tags": [
+            "#Hyperliquid",
+            "#HYPE",
+            "#Binance"
+          ],
+          "ts": 1786805358000,
+          "time": "22:49:18",
+          "receivedAt": 1786805590965,
+          "receivedTime": true
+        },
         {
           "id": "227657",
           "url": "https://t.me/jin10light/227657",
@@ -18823,21 +18838,6 @@
           ],
           "ts": 1786414994000,
           "time": "10:23:14",
-          "receivedAt": 1786417442677,
-          "receivedTime": true
-        },
-        {
-          "id": "226458",
-          "url": "https://t.me/jin10light/226458",
-          "title": "Serenity：多数AI数据中心公司收入拐点或在2027年下半年",
-          "body": "#Riot Platforms #Anthropic #AMD",
-          "tags": [
-            "#Riot",
-            "#Anthropic",
-            "#AMD"
-          ],
-          "ts": 1786414514000,
-          "time": "10:15:14",
           "receivedAt": 1786417442677,
           "receivedTime": true
         }
