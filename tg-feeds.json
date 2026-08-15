@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T04:47:23.592Z",
+  "updatedAt": "2026-08-15T05:08:20.502Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227619",
+          "url": "https://t.me/jin10light/227619",
+          "title": "美媒：特朗普的要求令美国海军承压",
+          "body": "#特朗普 #美国 #美国海军",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#美国海军"
+          ],
+          "ts": 1786769777000,
+          "time": "12:56:17",
+          "receivedAt": 1786770488526,
+          "receivedTime": true
+        },
+        {
+          "id": "227618",
+          "url": "https://t.me/jin10light/227618",
+          "title": "伊朗外长：目前没有决定是否与美国重新开始谈判",
+          "body": "#伊朗 #美国 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786769476000,
+          "time": "12:51:16",
+          "receivedAt": 1786770488526,
+          "receivedTime": true
+        },
         {
           "id": "227617",
           "url": "https://t.me/jin10light/227617",
@@ -18819,36 +18849,6 @@
           "time": "08:08:14",
           "receivedAt": 1786409900943,
           "receivedTime": true
-        },
-        {
-          "id": "226419",
-          "url": "https://t.me/jin10light/226419",
-          "title": "OpenAI回购约70亿美元员工股份，交易估值为8520亿美元",
-          "body": "#OpenAI #Anthropic #美国",
-          "tags": [
-            "#OpenAI",
-            "#Anthropic",
-            "#美国"
-          ],
-          "ts": 1786406712000,
-          "time": "08:05:12",
-          "receivedAt": 1786409900943,
-          "receivedTime": true
-        },
-        {
-          "id": "226418",
-          "url": "https://t.me/jin10light/226418",
-          "title": "英特尔据悉拟将股票发行募资规模提高至约200亿美元",
-          "body": "#英特尔 #美国 #Alphabet",
-          "tags": [
-            "#英特尔",
-            "#美国",
-            "#Alphabet"
-          ],
-          "ts": 1786406474000,
-          "time": "08:01:14",
-          "receivedAt": 1786409900943,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20058,7 +20058,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
