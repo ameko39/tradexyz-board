@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T19:54:45.692Z",
+  "updatedAt": "2026-08-15T20:11:24.971Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1669,42 +1669,9 @@
           "time": "04:31:26",
           "receivedAt": 1785530265797,
           "receivedTime": true
-        },
-        {
-          "id": "6771",
-          "url": "https://t.me/BWEtradfi/6771",
-          "title": "*ROBLOX 股票收盘下跌 27%，创历史最大单日跌幅",
-          "body": "*ROBLOX SHARES FINISH 27% LOWER, BIGGEST ONE-DAY DROP ON RECORD $RBLX $RBLX",
-          "tags": [],
-          "ts": 1785528053000,
-          "time": "04:00:53",
-          "receivedAt": 1785530265797,
-          "receivedTime": true
-        },
-        {
-          "id": "6770",
-          "url": "https://t.me/BWEtradfi/6770",
-          "title": "*亚马逊股价飙升15%，创2012年以来最佳单日表现",
-          "body": "*AMAZON SHARES SOAR 15% IN BEST DAY SINCE 2012 $AMZN $AMZN",
-          "tags": [],
-          "ts": 1785528048000,
-          "time": "04:00:48",
-          "receivedAt": 1785530265797,
-          "receivedTime": true
-        },
-        {
-          "id": "6769",
-          "url": "https://t.me/BWEtradfi/6769",
-          "title": "DB: 标普500指数收盘上涨0.8%，纳斯达克指数上涨1.2%",
-          "body": "DB: *S&P 500 RISES 0.8% AT THE CLOSE, NASDAQ GAINS 1.2%",
-          "tags": [],
-          "ts": 1785528013000,
-          "time": "04:00:13",
-          "receivedAt": 1785530265797,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
