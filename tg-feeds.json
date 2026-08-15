@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T07:06:51.897Z",
+  "updatedAt": "2026-08-15T07:39:34.504Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227632",
+          "url": "https://t.me/jin10light/227632",
+          "title": "瑞穗下调BitGo目标价至11美元：称《Clarity Act》延期反而扩大监管优势",
+          "body": "#BitGo #美国 #Clarity Act",
+          "tags": [
+            "#BitGo",
+            "#美国",
+            "#Clarity"
+          ],
+          "ts": 1786777816000,
+          "time": "15:10:16",
+          "receivedAt": 1786779515562,
+          "receivedTime": true
+        },
+        {
+          "id": "227631",
+          "url": "https://t.me/jin10light/227631",
+          "title": "全球贸易命脉暴露风险：27个关键海运「咽喉」承载大部分贸易流量，霍尔木兹危机敲响警钟",
+          "body": "#霍尔木兹海峡 #美国 #伊朗",
+          "tags": [
+            "#霍尔木兹海峡",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1786777694000,
+          "time": "15:08:14",
+          "receivedAt": 1786779515562,
+          "receivedTime": true
+        },
         {
           "id": "227630",
           "url": "https://t.me/jin10light/227630",
@@ -18829,32 +18859,6 @@
           "time": "09:05:18",
           "receivedAt": 1786417443037,
           "receivedTime": true
-        },
-        {
-          "id": "226432",
-          "url": "https://t.me/jin10light/226432",
-          "title": "早盘开盘，国内期货主力合约涨多跌少，燃料油、SC原油涨超4%，低硫燃料油（LU）涨近4%，沪银涨超2%。",
-          "body": "跌幅方面，PVC月均价跌超3%，PTA跌超1%，纸浆、氧化铝、红枣跌近1%。 #燃料油 #SC原油 #低硫燃料油",
-          "tags": [
-            "#燃料油",
-            "#SC原油",
-            "#低硫燃料油"
-          ],
-          "ts": 1786410078000,
-          "time": "09:01:18",
-          "receivedAt": 1786417443037,
-          "receivedTime": true
-        },
-        {
-          "id": "226431",
-          "url": "https://t.me/jin10light/226431",
-          "title": "1. 英伟达宣布联手六大金融巨头，布局5000亿美元AI基建融资体系。",
-          "body": "2. 特朗普延长《琼斯法案》航运豁免90天，适用范围转向能源运输。 3. ETF总规模逼近5万亿，半导体主题获资金青睐。 4. 霍尔木兹谈判陷僵局，中东火药味为油价持续“加温”。 5. 汇添富黄金LOF：下调大额申购、定期定额投资业务限制金额至100.00元，暂停大额申购。 6. 中韩半导体ETF华泰柏瑞溢价过高，基金8月11日开市起至10:30停牌。 7. 全球芯片LOF溢价超18%，基金提示追高风险。 8. 国投白银LOF溢价超18%，基金提示追高风险。 9. 美国50ETF易方达溢价近6%，基金提示高价交易风险。 10. 标普500ETF华夏溢价...",
-          "tags": [],
-          "ts": 1786410077000,
-          "time": "09:01:17",
-          "receivedAt": 1786417443037,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20031,7 +20035,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
