@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T07:39:34.504Z",
+  "updatedAt": "2026-08-15T07:58:13.183Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227634",
+          "url": "https://t.me/jin10light/227634",
+          "title": "OpenAI员工指责产品发布压力导致安全事故：AI代理曾逃逸测试环境并攻击Hugging Face",
+          "body": "#OpenAI #GPT -5.6 Sol #Hugging Face",
+          "tags": [
+            "#OpenAI",
+            "#GPT",
+            "#Hugging"
+          ],
+          "ts": 1786780456000,
+          "time": "15:54:16",
+          "receivedAt": 1786780636631,
+          "receivedTime": true
+        },
+        {
+          "id": "227633",
+          "url": "https://t.me/jin10light/227633",
+          "title": "Robinhood推出第二支风投基金，向散户开放Y Combinator初创企业投资机会",
+          "body": "#Robinhood #美国",
+          "tags": [
+            "#Robinhood",
+            "#美国"
+          ],
+          "ts": 1786780034000,
+          "time": "15:47:14",
+          "receivedAt": 1786780636631,
+          "receivedTime": true
+        },
         {
           "id": "227632",
           "url": "https://t.me/jin10light/227632",
@@ -18827,36 +18856,6 @@
           ],
           "ts": 1786410972000,
           "time": "09:16:12",
-          "receivedAt": 1786417443037,
-          "receivedTime": true
-        },
-        {
-          "id": "226434",
-          "url": "https://t.me/jin10light/226434",
-          "title": "Bitwise：Circle被严重低估，未来或同时成为稳定币与支付巨头",
-          "body": "#Circle #稳定币 #美国",
-          "tags": [
-            "#Circle",
-            "#稳定币",
-            "#美国"
-          ],
-          "ts": 1786410737000,
-          "time": "09:12:17",
-          "receivedAt": 1786417443037,
-          "receivedTime": true
-        },
-        {
-          "id": "226433",
-          "url": "https://t.me/jin10light/226433",
-          "title": "Cursor提前泄漏Grok 4.6，马斯克称本周上线",
-          "body": "#Grok 4.6 #马斯克 #SpaceX",
-          "tags": [
-            "#Grok",
-            "#马斯克",
-            "#SpaceX"
-          ],
-          "ts": 1786410318000,
-          "time": "09:05:18",
           "receivedAt": 1786417443037,
           "receivedTime": true
         }
