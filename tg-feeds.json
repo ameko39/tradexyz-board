@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T09:40:19.181Z",
+  "updatedAt": "2026-08-15T09:57:14.979Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227641",
+          "url": "https://t.me/jin10light/227641",
+          "title": "国防部新闻发言人蒋斌就日本政要参拜靖国神社答记者问",
+          "body": "8月15日讯，国防部新闻发言人蒋斌：正视侵略历史、深刻反省战争罪责，是日本发展同亚洲邻国关系的政治基础。 今年是东京审判开庭80周年，我们要求日方切实汲取历史教训，停止倒行逆施，若一意孤行推进“新型军国主义”，成为危害地区和平的祸根乱源，必将再次受到正义审判和历史清算。 #日本 #靖国神社 #东京审判",
+          "tags": [
+            "#日本",
+            "#靖国神社",
+            "#东京审判"
+          ],
+          "ts": 1786787114000,
+          "time": "17:45:14",
+          "receivedAt": 1786787793047,
+          "receivedTime": true
+        },
         {
           "id": "227640",
           "url": "https://t.me/jin10light/227640",
@@ -18842,20 +18857,6 @@
           "time": "09:35:15",
           "receivedAt": 1786417442850,
           "receivedTime": true
-        },
-        {
-          "id": "226441",
-          "url": "https://t.me/jin10light/226441",
-          "title": "Claude Sonnet 5永久保留首发价，比上代便宜三分之一",
-          "body": "#Anthropic #Claude Sonnet 5",
-          "tags": [
-            "#Anthropic",
-            "#Claude"
-          ],
-          "ts": 1786411994000,
-          "time": "09:33:14",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19997,20 +19998,9 @@
           "time": "18:57:01",
           "receivedAt": 1785500054827,
           "receivedTime": true
-        },
-        {
-          "id": "1639",
-          "url": "https://t.me/PolyBeats_Bot/1639",
-          "title": "Situational Awareness 卖掉大部分公开股票，$50 亿 Anthropic 持股传出出售争议",
-          "body": "在预测市场 Polymarket 上，今日上线的新市场「 Situational Awareness 出售所持 Anthropic 股权的消息会在 8 月 31 日前得到确认吗？ 」的「是」概率目前为 28%。 CNBC 30 日援引知情人士称，Situational Awareness 曾向潜在买家推介包括 Anthropic 在内的私人公司持股，以筹集新的流动性。报道没有披露拟出售股份的规模、价格及潜在买家。Situational Awareness 发言人随后表示，有关出售 Anthropic 股权的报道不准确。 Situational Awareness 已将大部分公开股票组合出售给 Citadel，相关资产规模约为 $160 亿。路透社称，该基金在交易完成后保留约 $100 亿资产，其中包括 Anthropic 等私人公司投资。《金融时报》估计其 Anthropic 持股价值约为 $50 亿。 Situational Awareness 于 2025 年开始投资 Anthropic，并参与了该公司 2026 年 5 月完成的 Series H 融资。该轮融资规模为 $650 亿，Anthropic 投后估值达到...",
-          "tags": [],
-          "ts": 1785491641000,
-          "time": "17:54:01",
-          "receivedAt": 1785492580653,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
