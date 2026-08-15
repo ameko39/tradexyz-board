@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T13:52:57.139Z",
+  "updatedAt": "2026-08-15T14:12:31.193Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1704,7 +1704,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
@@ -18838,7 +18838,8 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": false,
+      "error": "This operation was aborted"
     },
     "poly": {
       "channel": "PolyBeats_Bot",
