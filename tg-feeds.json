@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T00:42:24.417Z",
+  "updatedAt": "2026-08-15T02:03:45.025Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1735,61 +1735,6 @@
           "time": "20:30:13",
           "receivedAt": 1785508565571,
           "receivedTime": true
-        },
-        {
-          "id": "6765",
-          "url": "https://t.me/BWEtradfi/6765",
-          "title": "DB: *中国7月制造业采购经理人指数（PMI）49.2；前值50.3",
-          "body": "DB: *CHINA JULY MANUFACTURING PMI 49.2; PREV. 50.3 *CHINA JULY NON-MANUFACTURING PMI 49; PREV. 50.2 *中国7月非制造业采购经理人指数（PMI）49；前值50.2",
-          "tags": [],
-          "ts": 1785461446000,
-          "time": "09:30:46",
-          "receivedAt": 1785472832306,
-          "receivedTime": true
-        },
-        {
-          "id": "6764",
-          "url": "https://t.me/BWEtradfi/6764",
-          "title": "*特斯拉正权衡出售中国业务，为潜在的SpaceX合并铺平道路——《华尔街日报》",
-          "body": "*TESLA WEIGHS SALE OF CHINA BUSINESS TO PAVE WAY FOR POTENTIAL SPACEX MERGER -- WSJ #TSLA • #SPCX #TSLA • #SPCX",
-          "tags": [
-            "#TSLA",
-            "#SPCX"
-          ],
-          "ts": 1785459697000,
-          "time": "09:01:37",
-          "receivedAt": 1785460392569,
-          "receivedTime": true
-        },
-        {
-          "id": "6763",
-          "url": "https://t.me/BWEtradfi/6763",
-          "title": "*特斯拉：高管为可能与SpaceX合并前剥离中国业务做准备",
-          "body": "*TESLA: EXECUTIVES PREPARE FOR CHINA BUSINESS SEPARATION AHEAD OF A POTENTIAL SPACEX MERGER *TESLA: ADVISERS DISCUSS SEPARATION OPTIONS INCLUDING A SPINOFF, SALE, OR FACTORY CLOSURE *SPACEX: POTENTIAL TESLA MERGER AIMS TO ADDRESS CONFLICTS FROM DEFENSE CONTRACTOR STATUS #TSLA … *特斯拉：顾问讨论剥离方案，包括分拆、出...",
-          "tags": [
-            "#TSLA"
-          ],
-          "ts": 1785459638000,
-          "time": "09:00:38",
-          "receivedAt": 1785460392569,
-          "receivedTime": true
-        },
-        {
-          "id": "6762",
-          "url": "https://t.me/BWEtradfi/6762",
-          "title": "*特斯拉正权衡出售中国业务，为潜在的SpaceX合并铺平道路——《华尔街日报》",
-          "body": "*TESLA WEIGHS SALE OF CHINA BUSINESS TO PAVE WAY FOR POTENTIAL SPACEX MERGER -- WSJ #TSLA • #SPCX • #LMT • #NOC • #RTX #TSLA • #SPCX • #LMT • #NOC • #RTX",
-          "tags": [
-            "#TSLA",
-            "#SPCX",
-            "#LMT",
-            "#NOC",
-            "#RTX"
-          ],
-          "ts": 1785459629000,
-          "time": "09:00:29",
-          "receivedAt": 1785460392569,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1797,6 +1742,272 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227604",
+          "url": "https://t.me/jin10light/227604",
+          "title": "Ethena向FalconX转入8197万美元USDC，疑似进行场外出售",
+          "body": "#Ethena #USDC #Coinbase Prime",
+          "tags": [
+            "#Ethena",
+            "#USDC",
+            "#Coinbase"
+          ],
+          "ts": 1786759274000,
+          "time": "10:01:14",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227603",
+          "url": "https://t.me/jin10light/227603",
+          "title": "某巨鲸40倍做多价值605万美元BTC，爆仓价59,147.3美元",
+          "body": "#BTC #Hyperliquid",
+          "tags": [
+            "#BTC",
+            "#Hyperliquid"
+          ],
+          "ts": 1786759093000,
+          "time": "09:58:13",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227602",
+          "url": "https://t.me/jin10light/227602",
+          "title": "特朗普称对伊动武「永远不会道歉」，计划战后宣布霍尔木兹海峡为美国领土",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786758854000,
+          "time": "09:54:14",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227601",
+          "url": "https://t.me/jin10light/227601",
+          "title": "Anthropic自曝Model2：强过Mythos5，暂不发布",
+          "body": "#Anthropic #Claude #Model 2",
+          "tags": [
+            "#Anthropic",
+            "#Claude",
+            "#Model"
+          ],
+          "ts": 1786758495000,
+          "time": "09:48:15",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227600",
+          "url": "https://t.me/jin10light/227600",
+          "title": "霍尔木兹成美伊博弈核心战场：特朗普放话「钢铁之墙」封锁伊朗，德黑兰称开关海峡只能由伊朗决定",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786757473000,
+          "time": "09:31:13",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227599",
+          "url": "https://t.me/jin10light/227599",
+          "title": "Monetalis疑似卖出372万枚UNI，转而买入17.15万枚HYPE",
+          "body": "#Monetalis #UNI #HYPE",
+          "tags": [
+            "#Monetalis",
+            "#UNI",
+            "#HYPE"
+          ],
+          "ts": 1786757353000,
+          "time": "09:29:13",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227598",
+          "url": "https://t.me/jin10light/227598",
+          "title": "World Liberty获美国OCC有条件信托银行牌照，USD1稳定币发行权将转移",
+          "body": "#美国 #特朗普 #BTC",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#BTC"
+          ],
+          "ts": 1786757235000,
+          "time": "09:27:15",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227597",
+          "url": "https://t.me/jin10light/227597",
+          "title": "消息人士：Anthropic预计2028年收入将达到1900亿至2000亿美元",
+          "body": "#Anthropic #AI",
+          "tags": [
+            "#Anthropic",
+            "#AI"
+          ],
+          "ts": 1786757174000,
+          "time": "09:26:14",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227596",
+          "url": "https://t.me/jin10light/227596",
+          "title": "整理：中东局势跟踪（8月15日）",
+          "body": "冲突情å 1.联黎部队持续监测到黎巴嫩领空遭侵犯事件。 2. 美军中央司令部否认推动对伊新一轮军事打击。 3. 美国中央司令部：截至8月14日，美军中央司令部部队已迫使62艘商船改道，使3艘船只失去行动能力，并登临检查2艘船只，以确保其遵守封锁规定。 4. 也门政府军称胡塞武装发射6枚弹道导弹袭击摩卡港。 5. 也门胡塞武装控制的萨巴通讯社援引消息称，胡塞武装使用无人机袭击了沙特阿美公司位于沙特阿拉伯南部奈季兰省的设施。 6. 白宫新闻秘书莱维特：我们还有更多施压伊朗的手段。 美国可以继续惩罚伊朗并削弱其经济。 7. 特朗普：将对伊朗实施严厉经济打击；...",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786756756000,
+          "time": "09:19:16",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227595",
+          "url": "https://t.me/jin10light/227595",
+          "title": "博通AI客户融资平台引担忧，股价收盘跌近6%",
+          "body": "#博通 #美国银行 #黑石集团",
+          "tags": [
+            "#博通",
+            "#美国银行",
+            "#黑石集团"
+          ],
+          "ts": 1786756755000,
+          "time": "09:19:15",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227594",
+          "url": "https://t.me/jin10light/227594",
+          "title": "Chainlink回购12.77万枚LINK，累计储备规模达548万枚",
+          "body": "#Chainlink #LINK",
+          "tags": [
+            "#Chainlink",
+            "#LINK"
+          ],
+          "ts": 1786756272000,
+          "time": "09:11:12",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227593",
+          "url": "https://t.me/jin10light/227593",
+          "title": "美SEC推迟代币化证券监管计划，Coinbase、Circle等相关股票承压下跌",
+          "body": "#美国 #SEC #Coinbase",
+          "tags": [
+            "#美国",
+            "#SEC",
+            "#Coinbase"
+          ],
+          "ts": 1786756216000,
+          "time": "09:10:16",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227592",
+          "url": "https://t.me/jin10light/227592",
+          "title": "Jane Street单月亏损150亿美元，AI基金暴跌致顶级交易巨头遭遇罕见失利",
+          "body": "#Jane Street #美国",
+          "tags": [
+            "#Jane",
+            "#美国"
+          ],
+          "ts": 1786755912000,
+          "time": "09:05:12",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227591",
+          "url": "https://t.me/jin10light/227591",
+          "title": "视频｜Bitwise首席投资官：比特币对利空不再反应，熊市可能已经触底",
+          "body": "#BTC #Matt Hougan #Bitwise",
+          "tags": [
+            "#BTC",
+            "#Matt",
+            "#Bitwise"
+          ],
+          "ts": 1786755794000,
+          "time": "09:03:14",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227590",
+          "url": "https://t.me/jin10light/227590",
+          "title": "特朗普预计出席白宫加密行业会议，Coinbase、Ripple等CEO将参与讨论",
+          "body": "#美国 #特朗普 #BTC",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#BTC"
+          ],
+          "ts": 1786755318000,
+          "time": "08:55:18",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227589",
+          "url": "https://t.me/jin10light/227589",
+          "title": "白宫官员：尚未听闻任何延长停火的计划",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786755072000,
+          "time": "08:51:12",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227588",
+          "url": "https://t.me/jin10light/227588",
+          "title": "美股今晨收盘三大股指低收，闪迪涨超7%，博通跌近6%",
+          "body": "#美股 #Unusual Machines #闪迪",
+          "tags": [
+            "#美股",
+            "#Unusual",
+            "#闪迪"
+          ],
+          "ts": 1786755014000,
+          "time": "08:50:14",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
+        {
+          "id": "227587",
+          "url": "https://t.me/jin10light/227587",
+          "title": "老虎环球Q2建仓SpaceX和AMD，减持谷歌、台积电、英伟达等",
+          "body": "#老虎环球基金 #美国 #AVGO",
+          "tags": [
+            "#老虎环球基金",
+            "#美国",
+            "#AVGO"
+          ],
+          "ts": 1786754595000,
+          "time": "08:43:15",
+          "receivedAt": 1786759408466,
+          "receivedTime": true
+        },
         {
           "id": "227586",
           "url": "https://t.me/jin10light/227586",
@@ -1900,8 +2111,8 @@
         {
           "id": "227579",
           "url": "https://t.me/jin10light/227579",
-          "title": "特朗普：很快将宣布霍尔木兹海峡为“美国领土”",
-          "body": "8月15日讯，美国总统特朗普表示，（在击败伊朗后）将很快宣布霍尔木兹海峡为“美国领土”。 特朗普称，对伊朗的封锁“势不可挡”，并形容封锁是“一道钢铁之墙”。 他表示，美国已做好应对伊朗的充分准备，不会允许伊朗继续相关行动，也不会允许伊朗拥有核武器。 特朗普表示，美国民众将为汽油价格上涨“付出非常微小的代价”。 他还称，不在乎在中期选举前打击伊朗经济，并表示美国通过关税“赚了很多钱”。",
+          "title": "特朗普：很快将宣布霍尔木兹海峡为美国领土",
+          "body": "",
           "tags": [],
           "ts": 1786737314000,
           "time": "03:55:14",
@@ -18632,257 +18843,6 @@
           "ts": 1786392974000,
           "time": "04:16:14",
           "receivedAt": 1786395055718,
-          "receivedTime": true
-        },
-        {
-          "id": "226404",
-          "url": "https://t.me/jin10light/226404",
-          "title": "美股收盘，三大股指收跌，英特尔跌4% ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "body": "",
-          "tags": [],
-          "ts": 1786392194000,
-          "time": "04:03:14",
-          "receivedAt": 1786395055718,
-          "receivedTime": true
-        },
-        {
-          "id": "226403",
-          "url": "https://t.me/jin10light/226403",
-          "title": "美国总统特朗普：自沃什获得任命以来，我只与他通过一次电话。",
-          "body": "（否认华尔街日报报道称双方频繁通话） #特朗普 #美国",
-          "tags": [
-            "#特朗普",
-            "#美国"
-          ],
-          "ts": 1786390753000,
-          "time": "03:39:13",
-          "receivedAt": 1786392028719,
-          "receivedTime": true
-        },
-        {
-          "id": "226402",
-          "url": "https://t.me/jin10light/226402",
-          "title": "美国总统特朗普：我们已经对整个霍尔木兹海峡进行了扫雷。",
-          "body": "#特朗普 #霍尔木兹海峡 #美国",
-          "tags": [
-            "#特朗普",
-            "#霍尔木兹海峡",
-            "#美国"
-          ],
-          "ts": 1786390514000,
-          "time": "03:35:14",
-          "receivedAt": 1786392028719,
-          "receivedTime": true
-        },
-        {
-          "id": "226401",
-          "url": "https://t.me/jin10light/226401",
-          "title": "美联储哈玛克：目前的利率并未对经济造成实质性限制。",
-          "body": "现在是我们采取行动的时候了。 #美联储",
-          "tags": [
-            "#美联储"
-          ],
-          "ts": 1786387815000,
-          "time": "02:50:15",
-          "receivedAt": 1786389106922,
-          "receivedTime": true
-        },
-        {
-          "id": "226400",
-          "url": "https://t.me/jin10light/226400",
-          "title": "美联储哈玛克：可能需要多次加息压低通胀",
-          "body": "8月11日讯，克利夫兰联储主席哈玛克表示，当前通胀仍未回到目标水平，美联储可能需要进行多次加息。 她称，一次25个基点加息“对经济不会产生太大影响”，但其不愿预判具体加息次数或最终利率水平。 哈玛克认为，目前3.50%-3.75%的利率区间并未对经济形成明显限制，企业仍未因高利率减少增长投资，因此“现在是采取行动的时候”。 她表示，等待越久，通胀回到2%的难度越大。 哈玛克同时强调，就业市场目前没有明显问题，7月就业数据不会改变她对通胀的关注。 她认为，市场只能辅助美联储，不能替代美联储采取行动。 哈玛克在美联储7月的议息会议上反对维持利率不变，其倾向...",
-          "tags": [],
-          "ts": 1786387756000,
-          "time": "02:49:16",
-          "receivedAt": 1786389106922,
-          "receivedTime": true
-        },
-        {
-          "id": "226399",
-          "url": "https://t.me/jin10light/226399",
-          "title": "现货白银日内涨幅扩大至3.00%，现报65.44美元/盎司。",
-          "body": "#白银 #美元",
-          "tags": [
-            "#白银",
-            "#美元"
-          ],
-          "ts": 1786386974000,
-          "time": "02:36:14",
-          "receivedAt": 1786389106922,
-          "receivedTime": true
-        },
-        {
-          "id": "226398",
-          "url": "https://t.me/jin10light/226398",
-          "title": "现货黄金短线拉升15美元，站上4380美元/盎司，日内涨0.90%。",
-          "body": "#黄金",
-          "tags": [
-            "#黄金"
-          ],
-          "ts": 1786386853000,
-          "time": "02:34:13",
-          "receivedAt": 1786389106922,
-          "receivedTime": true
-        },
-        {
-          "id": "226397",
-          "url": "https://t.me/jin10light/226397",
-          "title": "布伦特原油突破87美元/桶，日内涨6.77%。",
-          "body": "#布伦特原油 #美元",
-          "tags": [
-            "#布伦特原油",
-            "#美元"
-          ],
-          "ts": 1786386133000,
-          "time": "02:22:13",
-          "receivedAt": 1786389106922,
-          "receivedTime": true
-        },
-        {
-          "id": "226396",
-          "url": "https://t.me/jin10light/226396",
-          "title": "WTI原油日内大涨6.00%，现报80.93美元/桶。",
-          "body": "#WTI原油 #美元",
-          "tags": [
-            "#WTI原油",
-            "#美元"
-          ],
-          "ts": 1786383434000,
-          "time": "01:37:14",
-          "receivedAt": 1786385279541,
-          "receivedTime": true
-        },
-        {
-          "id": "226395",
-          "url": "https://t.me/jin10light/226395",
-          "title": "OpenAI：我们正在扩展网络安全计划Daybreak，并推出新模型GPT-5.6-Cyber，用于开展先进且经过授权的网络安全工作。",
-          "body": "#OpenAI #Daybreak #GPT -5.6-Cyber",
-          "tags": [
-            "#OpenAI",
-            "#Daybreak",
-            "#GPT"
-          ],
-          "ts": 1786382535000,
-          "time": "01:22:15",
-          "receivedAt": 1786382547194,
-          "receivedTime": true
-        },
-        {
-          "id": "226394",
-          "url": "https://t.me/jin10light/226394",
-          "title": "特朗普延长《琼斯法案》航运豁免90天 适用范围转向能源运输",
-          "body": "8月11日讯，特朗普将允许外国船只在美国境内运输石油及其他商品的《琼斯法案》豁免延长90天，但加入新的限制措施。 由于伊朗战争扰乱原油流动并推高燃料成本，特朗普继续维持相关豁免，同时缩小适用范围。 新的豁免将重点针对能源运输，包括汽油、航空燃油、原油、石脑油、液化天然气、大豆油和化肥。 未来五角大楼在决定是否豁免单个航次前，需与美国海事管理局协商。 白宫表示，该豁免有助于确保美国军队和关键产业持续获得关键资源，并增加汽油、柴油和航空燃油等产品的国内运输。 不过，美国造船企业及部分国会议员认为，豁免削弱了《琼斯法案》对本土航运产业的保护。 #特朗普 #美...",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1786382176000,
-          "time": "01:16:16",
-          "receivedAt": 1786382547194,
-          "receivedTime": true
-        },
-        {
-          "id": "226393",
-          "url": "https://t.me/jin10light/226393",
-          "title": "美国总统特朗普：延长并收紧美国《琼斯法案》运输豁免范围。",
-          "body": "将运输豁免范围限定于能源商品和化肥。 #美国 #特朗普 #《琼斯法案》",
-          "tags": [
-            "#美国",
-            "#特朗普"
-          ],
-          "ts": 1786381457000,
-          "time": "01:04:17",
-          "receivedAt": 1786382547194,
-          "receivedTime": true
-        },
-        {
-          "id": "226392",
-          "url": "https://t.me/jin10light/226392",
-          "title": "以太坊质押量创历史新高，超4170万枚ETH占流通总量三分之一",
-          "body": "#ETH",
-          "tags": [
-            "#ETH"
-          ],
-          "ts": 1786381095000,
-          "time": "00:58:15",
-          "receivedAt": 1786382547194,
-          "receivedTime": true
-        },
-        {
-          "id": "226391",
-          "url": "https://t.me/jin10light/226391",
-          "title": "FT：英伟达联手华尔街巨头筹划5000亿美元AI基建融资",
-          "body": "#英伟达 #阿波罗全球 #黑石",
-          "tags": [
-            "#英伟达",
-            "#阿波罗全球",
-            "#黑石"
-          ],
-          "ts": 1786380315000,
-          "time": "00:45:15",
-          "receivedAt": 1786382547194,
-          "receivedTime": true
-        },
-        {
-          "id": "226390",
-          "url": "https://t.me/jin10light/226390",
-          "title": "特朗普要求伊朗赔偿 称将纳入未来谈判",
-          "body": "8月11日讯，美国总统特朗普在社交媒体上表示，伊朗方面正在要求赔偿过去五个月军事冲突造成的损失，但这一要求此前从未在双方谈判中提出。 特朗普称，但这是一个有趣的想法，因为现在我同样要求伊朗赔偿，赔偿其在多次冲突中造成的人员伤亡，包括“科尔号”驱逐舰事件遇难者以及其他战斗死亡人员。 特朗普还要求伊朗赔偿过去50年间被其镇压的抗议者家属，并称过去五个月冲突中有5.2万人死亡。 特朗普表示，已指示美国代表在未来所有谈判中正式提出相关赔偿要求。 #特朗普 #伊朗 #美国",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1786380072000,
-          "time": "00:41:12",
-          "receivedAt": 1786382547194,
-          "receivedTime": true
-        },
-        {
-          "id": "226389",
-          "url": "https://t.me/jin10light/226389",
-          "title": "美国总统特朗普：伊朗要求对过去五个月军事冲突中对其造成的损失进行赔偿。",
-          "body": "我同样要求伊朗赔偿。 已指示我的代表们在未来的任何谈判中，都要坚定地提出这一点。 #特朗普 #伊朗 #美国",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1786379775000,
-          "time": "00:36:15",
-          "receivedAt": 1786382547194,
-          "receivedTime": true
-        },
-        {
-          "id": "226388",
-          "url": "https://t.me/jin10light/226388",
-          "title": "特朗普：将赔偿问题纳入未来美伊谈判",
-          "body": "#特朗普 #伊朗 #美国",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1786379774000,
-          "time": "00:36:14",
-          "receivedAt": 1786382547194,
-          "receivedTime": true
-        },
-        {
-          "id": "226387",
-          "url": "https://t.me/jin10light/226387",
-          "title": "据英国金融时报：多家华尔街巨头与英伟达(NVDA.O)合作，共同推进一项规模达5000亿美元的人工智能融资计划。",
-          "body": "#华尔街 #英伟达 #NVDA",
-          "tags": [
-            "#华尔街",
-            "#英伟达",
-            "#NVDA"
-          ],
-          "ts": 1786379355000,
-          "time": "00:29:15",
-          "receivedAt": 1786382547194,
           "receivedTime": true
         }
       ],
