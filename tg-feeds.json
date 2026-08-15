@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T02:59:50.883Z",
+  "updatedAt": "2026-08-15T03:42:43.612Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1742,6 +1742,49 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227612",
+          "url": "https://t.me/jin10light/227612",
+          "title": "「AI股神」Leopold暴雷前持仓曝光：闪迪、美光两只股票占半壁江山",
+          "body": "#美国 #BTC",
+          "tags": [
+            "#美国",
+            "#BTC"
+          ],
+          "ts": 1786764854000,
+          "time": "11:34:14",
+          "receivedAt": 1786765348227,
+          "receivedTime": true
+        },
+        {
+          "id": "227611",
+          "url": "https://t.me/jin10light/227611",
+          "title": "Bitget股票双币投资上线20+热门美股标的",
+          "body": "#Bitget #美股 #USDT",
+          "tags": [
+            "#Bitget",
+            "#美股",
+            "#USDT"
+          ],
+          "ts": 1786763893000,
+          "time": "11:18:13",
+          "receivedAt": 1786765348227,
+          "receivedTime": true
+        },
+        {
+          "id": "227610",
+          "url": "https://t.me/jin10light/227610",
+          "title": "DeepSeek-V4-Pro被曝「一个API三个模型」？社区测试揭示背后或是Agent环境差异",
+          "body": "#DeepSeek #DeepSeek -V4-Pro #AI",
+          "tags": [
+            "#DeepSeek",
+            "#AI"
+          ],
+          "ts": 1786763775000,
+          "time": "11:16:15",
+          "receivedAt": 1786765348227,
+          "receivedTime": true
+        },
         {
           "id": "227609",
           "url": "https://t.me/jin10light/227609",
@@ -18801,50 +18844,6 @@
           "time": "07:36:16",
           "receivedAt": 1786406075861,
           "receivedTime": true
-        },
-        {
-          "id": "226412",
-          "url": "https://t.me/jin10light/226412",
-          "title": "美联储哈玛克：可能需要多次加息压低通胀",
-          "body": "#克利夫兰联储 #哈玛克 #美联储",
-          "tags": [
-            "#克利夫兰联储",
-            "#哈玛克",
-            "#美联储"
-          ],
-          "ts": 1786404496000,
-          "time": "07:28:16",
-          "receivedAt": 1786406075861,
-          "receivedTime": true
-        },
-        {
-          "id": "226411",
-          "url": "https://t.me/jin10light/226411",
-          "title": "特朗普延长《琼斯法案》航运豁免90天，适用范围转向能源运输",
-          "body": "#特朗普 #美国 #伊朗",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1786404314000,
-          "time": "07:25:14",
-          "receivedAt": 1786406075861,
-          "receivedTime": true
-        },
-        {
-          "id": "226410",
-          "url": "https://t.me/jin10light/226410",
-          "title": "现货黄金突破4400美元/盎司，为6月5日以来新高，日内涨0.2%。",
-          "body": "#黄金 #美元",
-          "tags": [
-            "#黄金",
-            "#美元"
-          ],
-          "ts": 1786402634000,
-          "time": "06:57:14",
-          "receivedAt": 1786404071166,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20065,7 +20064,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
