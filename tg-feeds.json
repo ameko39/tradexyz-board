@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T21:12:05.338Z",
+  "updatedAt": "2026-08-15T21:33:58.803Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1636,31 +1636,9 @@
           "time": "05:55:56",
           "receivedAt": 1785537738453,
           "receivedTime": true
-        },
-        {
-          "id": "6774",
-          "url": "https://t.me/BWEtradfi/6774",
-          "title": "俄罗斯卫星情报可能正在协助伊朗防御：NBC",
-          "body": "*RUSSIA SATELLITE INTEL LIKELY HELPING IRAN'S DEFENSE: NBC",
-          "tags": [],
-          "ts": 1785533158000,
-          "time": "05:25:58",
-          "receivedAt": 1785534188579,
-          "receivedTime": true
-        },
-        {
-          "id": "6773",
-          "url": "https://t.me/BWEtradfi/6773",
-          "title": "美国对伊朗的打击最早可能于周末开始：华尔街日报",
-          "body": "*US STRIKES AGAINST IRAN MAY BEGIN AS SOON AS ON WEEKEND: WSJ",
-          "tags": [],
-          "ts": 1785532613000,
-          "time": "05:16:53",
-          "receivedAt": 1785534188579,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
