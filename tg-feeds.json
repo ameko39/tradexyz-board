@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T13:29:23.240Z",
+  "updatedAt": "2026-08-15T13:52:57.139Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1702,20 +1702,9 @@
           "time": "04:00:13",
           "receivedAt": 1785530265797,
           "receivedTime": true
-        },
-        {
-          "id": "6768",
-          "url": "https://t.me/BWEtradfi/6768",
-          "title": "DB: 标普500指数高开0.5%，纳斯达克指数上涨0.9%",
-          "body": "DB: *S&P 500 OPENS UP 0.5%, NASDAQ UP 0.9%",
-          "tags": [],
-          "ts": 1785504643000,
-          "time": "21:30:43",
-          "receivedAt": 1785508565571,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
