@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T12:12:41.876Z",
+  "updatedAt": "2026-08-15T12:59:30.089Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1713,35 +1713,73 @@
           "time": "21:30:43",
           "receivedAt": 1785508565571,
           "receivedTime": true
-        },
-        {
-          "id": "6767",
-          "url": "https://t.me/BWEtradfi/6767",
-          "title": "DB: 美国第二季度劳工成本指数环比上升0.9%；前值为0.9%",
-          "body": "DB: *US 2Q EMPLOYMENT COST INDEX RISES 0.9% Q/Q; PREV. 0.9%",
-          "tags": [],
-          "ts": 1785501016000,
-          "time": "20:30:16",
-          "receivedAt": 1785508565571,
-          "receivedTime": true
-        },
-        {
-          "id": "6766",
-          "url": "https://t.me/BWEtradfi/6766",
-          "title": "DB: 加拿大5月GDP环比增长0.3%，前值为0.5%",
-          "body": "DB: *CANADA MAY GDP RISES 0.3% M/M; PREV. 0.5%",
-          "tags": [],
-          "ts": 1785501013000,
-          "time": "20:30:13",
-          "receivedAt": 1785508565571,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227653",
+          "url": "https://t.me/jin10light/227653",
+          "title": "伊朗称已与阿曼就霍尔木兹海峡通行方案达成协议",
+          "body": "#伊朗 #阿曼 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#阿曼",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1786798395000,
+          "time": "20:53:15",
+          "receivedAt": 1786798603061,
+          "receivedTime": true
+        },
+        {
+          "id": "227652",
+          "url": "https://t.me/jin10light/227652",
+          "title": "Thrive Capital建仓2.15亿美元亚马逊公司股份",
+          "body": "#亚马逊 #Thrive Capital #约书亚·库什纳",
+          "tags": [
+            "#亚马逊",
+            "#Thrive",
+            "#约书亚"
+          ],
+          "ts": 1786798099000,
+          "time": "20:48:19",
+          "receivedAt": 1786798603061,
+          "receivedTime": true
+        },
+        {
+          "id": "227651",
+          "url": "https://t.me/jin10light/227651",
+          "title": "据沙特阿拉伯阿拉比亚电视台：也门军方誓言对胡塞武装袭击摩卡港口城市的事件作出强硬回应。",
+          "body": "#也门 #胡塞武装 #摩卡",
+          "tags": [
+            "#也门",
+            "#胡塞武装",
+            "#摩卡"
+          ],
+          "ts": 1786797436000,
+          "time": "20:37:16",
+          "receivedAt": 1786798603061,
+          "receivedTime": true
+        },
+        {
+          "id": "227650",
+          "url": "https://t.me/jin10light/227650",
+          "title": "美银：AI泡沫下最优策略是做多科技龙头与超跌资产，同时做空AI债券",
+          "body": "#美国 #美银 #黄金",
+          "tags": [
+            "#美国",
+            "#美银",
+            "#黄金"
+          ],
+          "ts": 1786796176000,
+          "time": "20:16:16",
+          "receivedAt": 1786798603061,
+          "receivedTime": true
+        },
         {
           "id": "227649",
           "url": "https://t.me/jin10light/227649",
@@ -18805,58 +18843,6 @@
           ],
           "ts": 1786413252000,
           "time": "09:54:12",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
-        },
-        {
-          "id": "226453",
-          "url": "https://t.me/jin10light/226453",
-          "title": "Rocket Lab警告Neutron首飞存在延期风险，或推迟至2027年",
-          "body": "#Rocket Lab #Neutron #SpaceX",
-          "tags": [
-            "#Rocket",
-            "#Neutron",
-            "#SpaceX"
-          ],
-          "ts": 1786413137000,
-          "time": "09:52:17",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
-        },
-        {
-          "id": "226452",
-          "url": "https://t.me/jin10light/226452",
-          "title": "现货黄金日内涨幅扩大至1.00%，现报4434.15美元/盎司。",
-          "body": "",
-          "tags": [],
-          "ts": 1786413072000,
-          "time": "09:51:12",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
-        },
-        {
-          "id": "226451",
-          "url": "https://t.me/jin10light/226451",
-          "title": "沪金主力合约日内涨幅扩大至2.00%，现报963.04元/克。",
-          "body": "",
-          "tags": [],
-          "ts": 1786413014000,
-          "time": "09:50:14",
-          "receivedAt": 1786417442850,
-          "receivedTime": true
-        },
-        {
-          "id": "226450",
-          "url": "https://t.me/jin10light/226450",
-          "title": "港股“三桶油”集体走强，中国海洋石油( 00883.HK )涨超4%，中国石油股份( 00857.HK )涨超3%，中国石油化工股份( 00386.HK )涨超1%。",
-          "body": "#港股 #中国海洋石油 #中国石油股份",
-          "tags": [
-            "#港股",
-            "#中国海洋石油",
-            "#中国石油股份"
-          ],
-          "ts": 1786412896000,
-          "time": "09:48:16",
           "receivedAt": 1786417442850,
           "receivedTime": true
         }
