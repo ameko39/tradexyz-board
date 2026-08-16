@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T11:38:59.991Z",
+  "updatedAt": "2026-08-16T12:00:50.626Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1610,6 +1610,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227713",
+          "url": "https://t.me/jin10light/227713",
+          "title": "加密交易平台Bits of Gold遭数据泄露，约20万客户信息或已失窃",
+          "body": "#以色列 #Bits of Gold #BILS",
+          "tags": [
+            "#以色列",
+            "#Bits",
+            "#BILS"
+          ],
+          "ts": 1786880836000,
+          "time": "19:47:16",
+          "receivedAt": 1786881281869,
+          "receivedTime": true
+        },
         {
           "id": "227712",
           "url": "https://t.me/jin10light/227712",
@@ -18747,21 +18762,6 @@
           ],
           "ts": 1786426455000,
           "time": "13:34:15",
-          "receivedAt": 1786426733412,
-          "receivedTime": true
-        },
-        {
-          "id": "226513",
-          "url": "https://t.me/jin10light/226513",
-          "title": "澳洲联储主席布洛克：委员会希望放缓经济增长，认为通胀存在上行风险。",
-          "body": "#澳洲联储 #布洛克 #通胀",
-          "tags": [
-            "#澳洲联储",
-            "#布洛克",
-            "#通胀"
-          ],
-          "ts": 1786426398000,
-          "time": "13:33:18",
           "receivedAt": 1786426733412,
           "receivedTime": true
         }
