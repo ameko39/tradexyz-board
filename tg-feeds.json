@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T13:56:49.048Z",
+  "updatedAt": "2026-08-16T14:17:34.205Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1610,6 +1610,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227720",
+          "url": "https://t.me/jin10light/227720",
+          "title": "美国债务风险激增，转向短期国债满足日益增长的借贷需求",
+          "body": "#美国 #美国财政部 #国债",
+          "tags": [
+            "#美国",
+            "#美国财政部",
+            "#国债"
+          ],
+          "ts": 1786889476000,
+          "time": "22:11:16",
+          "receivedAt": 1786889833714,
+          "receivedTime": true
+        },
         {
           "id": "227719",
           "url": "https://t.me/jin10light/227719",
@@ -18742,20 +18757,6 @@
           ],
           "ts": 1786427778000,
           "time": "13:56:18",
-          "receivedAt": 1786429915505,
-          "receivedTime": true
-        },
-        {
-          "id": "226520",
-          "url": "https://t.me/jin10light/226520",
-          "title": "纯碱主力合约向上触及1000元/吨，日内涨4.28%，创7月27日以来新高。",
-          "body": "#纯碱 #1000元 /吨",
-          "tags": [
-            "#纯碱",
-            "#1000元"
-          ],
-          "ts": 1786427655000,
-          "time": "13:54:15",
           "receivedAt": 1786429915505,
           "receivedTime": true
         }
