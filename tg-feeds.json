@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T03:24:41.083Z",
+  "updatedAt": "2026-08-16T04:05:29.197Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1610,6 +1610,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227683",
+          "url": "https://t.me/jin10light/227683",
+          "title": "#频道互推 #群组推荐",
+          "body": "公益资源外挂分享 折腾IOS内测|限免频道 英语随手记（拆解笔记） VPSXB|主机|羊毛|资讯 健身组（健身小姐姐集合） 电视剧资源免费分享 纵享丝滑（丝袜精选） 白丝雪糕anime(表频道） 每日新闻推送 夸克丶百度4K影视网盘分享 电报频道&群组索引",
+          "tags": [
+            "#频道互推",
+            "#群组推荐"
+          ],
+          "ts": 1786852986000,
+          "time": "12:03:06",
+          "receivedAt": 1786853117711,
+          "receivedTime": true
+        },
+        {
+          "id": "227682",
+          "url": "https://t.me/jin10light/227682",
+          "title": "ElizaOS创始人指控daos.fun创始人通过ai16z内幕交易获利660万美元",
+          "body": "#ai16z #ElizaOS #daos .fun",
+          "tags": [
+            "#ai16z",
+            "#ElizaOS",
+            "#daos"
+          ],
+          "ts": 1786851554000,
+          "time": "11:39:14",
+          "receivedAt": 1786853117711,
+          "receivedTime": true
+        },
         {
           "id": "227681",
           "url": "https://t.me/jin10light/227681",
@@ -18718,30 +18747,6 @@
           "time": "11:30:14",
           "receivedAt": 1786422914053,
           "receivedTime": true
-        },
-        {
-          "id": "226483",
-          "url": "https://t.me/jin10light/226483",
-          "title": "沪深两市成交额连续第260个交易日突破1.5万亿元。",
-          "body": "#A股",
-          "tags": [
-            "#A股"
-          ],
-          "ts": 1786418891000,
-          "time": "11:28:11",
-          "receivedAt": 1786422914053,
-          "receivedTime": true
-        },
-        {
-          "id": "226482",
-          "url": "https://t.me/jin10light/226482",
-          "title": "强推比特币BIP-110分叉失败，Luke Dashjr宣布休假",
-          "body": "",
-          "tags": [],
-          "ts": 1786418834000,
-          "time": "11:27:14",
-          "receivedAt": 1786422914053,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19861,20 +19866,9 @@
           "time": "11:39:01",
           "receivedAt": 1785732148066,
           "receivedTime": true
-        },
-        {
-          "id": "1641",
-          "url": "https://t.me/PolyBeats_Bot/1641",
-          "title": "【预测成功】Polymarket 干涉争议市场结算方向，本频道播报的聪明钱成该市场盈利榜一",
-          "body": "在预测市场 Polymarket 上，此前 1 名聪明钱在「 美国会在本月内于美国境外开展反卡特尔行动吗？ 」「是」概率升至 92.1% 时以 7.2% 的均价投入 $4.6k 买入「否」。目前「否」概率为 99.7%。 Polymarket 于今日发布补充规则说明，明确联合巡逻本身不构成美国人员「直接在地面参与反卡特尔行动」。截至说明发布时，美国政府及可信媒体均未确认美国人员在外国领土直接参与符合条件的反卡特尔行动。 这验证了原快讯中对「否」方逻辑的判断：美军登上巡逻艇、参与海上巡逻，或提供情报、监视、后勤及顾问支持，并不足以满足结算条件；只有美国人员直接参与陆上行动，或在外国领土对卡特尔实施动能打击，才可能结算为「是」。 此前的原快讯内容已提出，该聪明钱买入「否」的理由不是认为美国没有参与反卡特尔合作，而是认为现有公开材料缺少满足结算门槛的关键一环。原快讯提到的 SOUTHCOM 信息，能够证明美军与厄瓜多尔部队开展海上联合巡逻、登上巡逻艇并限制「毒品恐怖组织」活动；但这类事实最多证明联合海上行动，不足以证明美国人员亲自下船、进入陆地，并直接参与对卡特尔目标的搜查或突袭。 争议焦点在于 7 月 4 日 Palma Re...",
-          "tags": [],
-          "ts": 1785555661000,
-          "time": "11:41:01",
-          "receivedAt": 1785558912067,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
