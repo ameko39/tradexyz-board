@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T13:37:58.381Z",
+  "updatedAt": "2026-08-16T13:56:49.048Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1610,6 +1610,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227719",
+          "url": "https://t.me/jin10light/227719",
+          "title": "DeFiLlama：因App Store存在钓鱼应用，延迟移动端上线",
+          "body": "#DeFiLlama #苹果 #App Store",
+          "tags": [
+            "#DeFiLlama",
+            "#苹果",
+            "#App"
+          ],
+          "ts": 1786888457000,
+          "time": "21:54:17",
+          "receivedAt": 1786888585212,
+          "receivedTime": true
+        },
         {
           "id": "227718",
           "url": "https://t.me/jin10light/227718",
@@ -18741,20 +18756,6 @@
           ],
           "ts": 1786427655000,
           "time": "13:54:15",
-          "receivedAt": 1786429915505,
-          "receivedTime": true
-        },
-        {
-          "id": "226519",
-          "url": "https://t.me/jin10light/226519",
-          "title": "A股午后有色板块持续走弱，贵金属方向领跌，洛阳钼业、西部矿业、赤峰黄金跌超6%，紫金矿业、藏格矿业、四川黄金、鹏欣资源等跌幅靠前。",
-          "body": "#A股 #黄金",
-          "tags": [
-            "#A股",
-            "#黄金"
-          ],
-          "ts": 1786427594000,
-          "time": "13:53:14",
           "receivedAt": 1786429915505,
           "receivedTime": true
         }
