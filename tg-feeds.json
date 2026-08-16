@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T07:49:09.540Z",
+  "updatedAt": "2026-08-16T08:10:37.996Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1610,6 +1610,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227696",
+          "url": "https://t.me/jin10light/227696",
+          "title": "分析：比特币首次动量启动失败，若守住62,300美元仍可维持横盘",
+          "body": "#BTC #Swissblock",
+          "tags": [
+            "#BTC",
+            "#Swissblock"
+          ],
+          "ts": 1786867034000,
+          "time": "15:57:14",
+          "receivedAt": 1786867825505,
+          "receivedTime": true
+        },
         {
           "id": "227695",
           "url": "https://t.me/jin10light/227695",
@@ -18736,20 +18750,6 @@
           "ts": 1786423095000,
           "time": "12:38:15",
           "receivedAt": 1786426733412,
-          "receivedTime": true
-        },
-        {
-          "id": "226496",
-          "url": "https://t.me/jin10light/226496",
-          "title": "Santiment：持有超1万枚BTC的精英巨鲸升至90个，创六个月新高",
-          "body": "#BTC #Santiment",
-          "tags": [
-            "#BTC",
-            "#Santiment"
-          ],
-          "ts": 1786423041000,
-          "time": "12:37:21",
-          "receivedAt": 1786426733568,
           "receivedTime": true
         }
       ],
