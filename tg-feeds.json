@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T10:14:27.982Z",
+  "updatedAt": "2026-08-16T10:41:04.503Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1610,6 +1610,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227709",
+          "url": "https://t.me/jin10light/227709",
+          "title": "某巨鲸斥资1.536亿美元进行套利交易，仅净赚0.36美元",
+          "body": "#WETH #Morpho #Spark",
+          "tags": [
+            "#WETH",
+            "#Morpho",
+            "#Spark"
+          ],
+          "ts": 1786876276000,
+          "time": "18:31:16",
+          "receivedAt": 1786876851813,
+          "receivedTime": true
+        },
+        {
+          "id": "227708",
+          "url": "https://t.me/jin10light/227708",
+          "title": "CZ驳斥比特币将会归零：已有许多人对加密货币做出错误判断",
+          "body": "#Binance #CZ #BTC",
+          "tags": [
+            "#Binance",
+            "#CZ",
+            "#BTC"
+          ],
+          "ts": 1786875375000,
+          "time": "18:16:15",
+          "receivedAt": 1786876851813,
+          "receivedTime": true
+        },
         {
           "id": "227707",
           "url": "https://t.me/jin10light/227707",
@@ -18728,35 +18758,6 @@
           "tags": [],
           "ts": 1786426216000,
           "time": "13:30:16",
-          "receivedAt": 1786426733412,
-          "receivedTime": true
-        },
-        {
-          "id": "226509",
-          "url": "https://t.me/jin10light/226509",
-          "title": "比特币跌出2.5亿杠杆资金入场，2名巨鲸完成1.3亿美元对手盘加仓",
-          "body": "#BTC #Hyperliquid #TradingBeats",
-          "tags": [
-            "#BTC",
-            "#Hyperliquid",
-            "#TradingBeats"
-          ],
-          "ts": 1786426215000,
-          "time": "13:30:15",
-          "receivedAt": 1786426733412,
-          "receivedTime": true
-        },
-        {
-          "id": "226508",
-          "url": "https://t.me/jin10light/226508",
-          "title": "现货白银日内跌超1.00%，现报65.07美元/盎司。",
-          "body": "#白银 #美元 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#白银",
-            "#美元"
-          ],
-          "ts": 1786426094000,
-          "time": "13:28:14",
           "receivedAt": 1786426733412,
           "receivedTime": true
         }
