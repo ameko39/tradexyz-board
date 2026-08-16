@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T05:42:41.638Z",
+  "updatedAt": "2026-08-16T06:01:10.359Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1610,6 +1610,34 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227690",
+          "url": "https://t.me/jin10light/227690",
+          "title": "分析师：比特币或于10月触底，可在4.8万至6.2万美元区间定投",
+          "body": "#BTC #Ali Charts",
+          "tags": [
+            "#BTC",
+            "#Ali"
+          ],
+          "ts": 1786859834000,
+          "time": "13:57:14",
+          "receivedAt": 1786860056820,
+          "receivedTime": true
+        },
+        {
+          "id": "227689",
+          "url": "https://t.me/jin10light/227689",
+          "title": "若比特币突破6.5万美元，主流CEX累计空单清算强度将达2.44亿",
+          "body": "#BTC #CEX",
+          "tags": [
+            "#BTC",
+            "#CEX"
+          ],
+          "ts": 1786859354000,
+          "time": "13:49:14",
+          "receivedAt": 1786860056820,
+          "receivedTime": true
+        },
         {
           "id": "227688",
           "url": "https://t.me/jin10light/227688",
@@ -18718,33 +18746,6 @@
           "tags": [],
           "ts": 1786422989000,
           "time": "12:36:29",
-          "receivedAt": 1786426733568,
-          "receivedTime": true
-        },
-        {
-          "id": "226490",
-          "url": "https://t.me/jin10light/226490",
-          "title": "澳洲联储：今天的政策决定是一致通过的。",
-          "body": "#澳洲联储",
-          "tags": [
-            "#澳洲联储"
-          ],
-          "ts": 1786422989000,
-          "time": "12:36:29",
-          "receivedAt": 1786426733568,
-          "receivedTime": true
-        },
-        {
-          "id": "226489",
-          "url": "https://t.me/jin10light/226489",
-          "title": "澳洲联储：委员会将继续采取必要措施，确保通胀可持续回归目标，包括在上行风险显现时进一步提高现金利率目标。",
-          "body": "#澳洲联储 #澳大利亚",
-          "tags": [
-            "#澳洲联储",
-            "#澳大利亚"
-          ],
-          "ts": 1786422988000,
-          "time": "12:36:28",
           "receivedAt": 1786426733568,
           "receivedTime": true
         }
