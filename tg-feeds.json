@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-17T13:23:21.745Z",
+  "updatedAt": "2026-08-17T13:57:39.359Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6923",
+          "url": "https://t.me/BWEtradfi/6923",
+          "title": "DB: 标普500指数开盘基本持平，纳斯达克指数上涨0.2%",
+          "body": "DB: *S&P 500 OPENS LITTLE CHANGED, NASDAQ UP 0.2%",
+          "tags": [],
+          "ts": 1786973442000,
+          "time": "21:30:42",
+          "receivedAt": 1786975026803,
+          "receivedTime": true
+        },
         {
           "id": "6922",
           "url": "https://t.me/BWEtradfi/6922",
@@ -1599,6 +1610,89 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227927",
+          "url": "https://t.me/jin10light/227927",
+          "title": "美国8月NAHB房产市场指数将于十分钟后公布。",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1786974672000,
+          "time": "21:51:12",
+          "receivedAt": 1786975029794,
+          "receivedTime": true
+        },
+        {
+          "id": "227926",
+          "url": "https://t.me/jin10light/227926",
+          "title": "美国稳定币监管进入可执行落地阶段，财政部就《GENIUS法案》稳定币实施规则征求意见",
+          "body": "",
+          "tags": [],
+          "ts": 1786974499000,
+          "time": "21:48:19",
+          "receivedAt": 1786975029794,
+          "receivedTime": true
+        },
+        {
+          "id": "227925",
+          "url": "https://t.me/jin10light/227925",
+          "title": "Predict.fun：Meme币「牛来」11月前市值达到7500万美元的概率为52%",
+          "body": "#Meme 币 #牛来",
+          "tags": [
+            "#Meme",
+            "#牛来"
+          ],
+          "ts": 1786974374000,
+          "time": "21:46:14",
+          "receivedAt": 1786975029794,
+          "receivedTime": true
+        },
+        {
+          "id": "227924",
+          "url": "https://t.me/jin10light/227924",
+          "title": "美股开盘纳指涨0.2%，存储板块领涨，闪迪涨超5%",
+          "body": "#美股 #希捷科技 #西部数据",
+          "tags": [
+            "#美股",
+            "#希捷科技",
+            "#西部数据"
+          ],
+          "ts": 1786973654000,
+          "time": "21:34:14",
+          "receivedAt": 1786975029794,
+          "receivedTime": true
+        },
+        {
+          "id": "227923",
+          "url": "https://t.me/jin10light/227923",
+          "title": "摩根大通表态：若Polymarket上市，将力争担任IPO承销商",
+          "body": "#摩根大通 #Polymarket #美国",
+          "tags": [
+            "#摩根大通",
+            "#Polymarket",
+            "#美国"
+          ],
+          "ts": 1786973235000,
+          "time": "21:27:15",
+          "receivedAt": 1786975029794,
+          "receivedTime": true
+        },
+        {
+          "id": "227922",
+          "url": "https://t.me/jin10light/227922",
+          "title": "摩根大通表态将力争担任Polymarket IPO承销商",
+          "body": "#摩根大通 #Polymarket #Shayne Coplan",
+          "tags": [
+            "#摩根大通",
+            "#Polymarket",
+            "#Shayne"
+          ],
+          "ts": 1786973122000,
+          "time": "21:25:22",
+          "receivedAt": 1786975029794,
+          "receivedTime": true
+        },
         {
           "id": "227921",
           "url": "https://t.me/jin10light/227921",
@@ -18700,88 +18794,6 @@
           "ts": 1786475354000,
           "time": "03:09:14",
           "receivedAt": 1786475998716,
-          "receivedTime": true
-        },
-        {
-          "id": "226727",
-          "url": "https://t.me/jin10light/226727",
-          "title": "据胡塞武装控制的萨巴通讯社：也门胡塞武装称，在曼德海峡袭击一艘载有军事装备的沙特船只。",
-          "body": "",
-          "tags": [],
-          "ts": 1786470735000,
-          "time": "01:52:15",
-          "receivedAt": 1786472003696,
-          "receivedTime": true
-        },
-        {
-          "id": "226726",
-          "url": "https://t.me/jin10light/226726",
-          "title": "伊朗议会国家安全和外交政策委员会主席阿齐兹：核问题是公众的关键诉求，将是谈判中的复杂部分。",
-          "body": "谈判将非常困难。 #伊朗 #阿齐兹",
-          "tags": [
-            "#伊朗",
-            "#阿齐兹"
-          ],
-          "ts": 1786470495000,
-          "time": "01:48:15",
-          "receivedAt": 1786472003696,
-          "receivedTime": true
-        },
-        {
-          "id": "226725",
-          "url": "https://t.me/jin10light/226725",
-          "title": "谷歌(GOOG.O)：Gemini应用的月活跃用户超过10亿，成为谷歌历史上增长速度最快的产品。",
-          "body": "#谷歌 #Gemini",
-          "tags": [
-            "#谷歌",
-            "#Gemini"
-          ],
-          "ts": 1786470253000,
-          "time": "01:44:13",
-          "receivedAt": 1786472003696,
-          "receivedTime": true
-        },
-        {
-          "id": "226724",
-          "url": "https://t.me/jin10light/226724",
-          "title": "美联储9月加息25个基点概率现报49.9%",
-          "body": "#美联储 #美国",
-          "tags": [
-            "#美联储",
-            "#美国"
-          ],
-          "ts": 1786467856000,
-          "time": "01:04:16",
-          "receivedAt": 1786469142736,
-          "receivedTime": true
-        },
-        {
-          "id": "226723",
-          "url": "https://t.me/jin10light/226723",
-          "title": "SpaceXAI：Grok聊天机器人已处于测试阶段",
-          "body": "#SpaceXAI #Grok",
-          "tags": [
-            "#SpaceXAI",
-            "#Grok"
-          ],
-          "ts": 1786467552000,
-          "time": "00:59:12",
-          "receivedAt": 1786469142736,
-          "receivedTime": true
-        },
-        {
-          "id": "226722",
-          "url": "https://t.me/jin10light/226722",
-          "title": "美国能源信息署目前认为，近期对途经曼德海峡运送沙特石油的船只的威胁并未导致石油产量中断。",
-          "body": "#美国 #沙特 #曼德海峡 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#沙特",
-            "#曼德海峡"
-          ],
-          "ts": 1786467374000,
-          "time": "00:56:14",
-          "receivedAt": 1786469142736,
           "receivedTime": true
         }
       ],
