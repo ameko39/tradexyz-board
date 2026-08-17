@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T17:11:53.832Z",
+  "updatedAt": "2026-08-17T17:43:03.892Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1610,6 +1610,31 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227954",
+          "url": "https://t.me/jin10light/227954",
+          "title": "布伦特原油日内涨幅达2%，现报88.95美元/桶。",
+          "body": "#布伦特原油 #美元",
+          "tags": [
+            "#布伦特原油",
+            "#美元"
+          ],
+          "ts": 1786987693000,
+          "time": "01:28:13",
+          "receivedAt": 1786988545765,
+          "receivedTime": true
+        },
+        {
+          "id": "227953",
+          "url": "https://t.me/jin10light/227953",
+          "title": "关键交易数据：30年期美债收益率升至19年新高，市场加码长期风险定价，宏观分析师集体预警",
+          "body": "",
+          "tags": [],
+          "ts": 1786986858000,
+          "time": "01:14:18",
+          "receivedAt": 1786988545765,
+          "receivedTime": true
+        },
         {
           "id": "227952",
           "url": "https://t.me/jin10light/227952",
@@ -18768,35 +18793,6 @@
           ],
           "ts": 1786497254000,
           "time": "09:14:14",
-          "receivedAt": 1786499140532,
-          "receivedTime": true
-        },
-        {
-          "id": "226754",
-          "url": "https://t.me/jin10light/226754",
-          "title": "美国总统特朗普：我不信任伊朗。",
-          "body": "#特朗普 #伊朗",
-          "tags": [
-            "#特朗普",
-            "#伊朗"
-          ],
-          "ts": 1786496717000,
-          "time": "09:05:17",
-          "receivedAt": 1786499140532,
-          "receivedTime": true
-        },
-        {
-          "id": "226753",
-          "url": "https://t.me/jin10light/226753",
-          "title": "杰夫·迪恩披露离开谷歌最后48小时：1500人挤进小咖啡厅送别",
-          "body": "#杰夫·迪 Dean #谷歌 #Discovery Loop ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#杰夫",
-            "#谷歌",
-            "#Discovery"
-          ],
-          "ts": 1786496717000,
-          "time": "09:05:17",
           "receivedAt": 1786499140532,
           "receivedTime": true
         }
