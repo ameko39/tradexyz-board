@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T19:17:22.119Z",
+  "updatedAt": "2026-08-17T19:45:04.300Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1610,6 +1610,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227961",
+          "url": "https://t.me/jin10light/227961",
+          "title": "市场消息：Anthropic年化营收在IPO前突破650亿美元。",
+          "body": "#Anthropic #IPO",
+          "tags": [
+            "#Anthropic",
+            "#IPO"
+          ],
+          "ts": 1786995674000,
+          "time": "03:41:14",
+          "receivedAt": 1786995886053,
+          "receivedTime": true
+        },
         {
           "id": "227960",
           "url": "https://t.me/jin10light/227960",
@@ -18777,21 +18791,6 @@
           ],
           "ts": 1786498274000,
           "time": "09:31:14",
-          "receivedAt": 1786499140532,
-          "receivedTime": true
-        },
-        {
-          "id": "226761",
-          "url": "https://t.me/jin10light/226761",
-          "title": "A股开盘，上证指数跌0.01%，深证成指跌0.04%，创业板指跌0.2%。",
-          "body": "#A股 #上证指数 #深证成指 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#A股",
-            "#上证指数",
-            "#深证成指"
-          ],
-          "ts": 1786497975000,
-          "time": "09:26:15",
           "receivedAt": 1786499140532,
           "receivedTime": true
         }
