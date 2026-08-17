@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-17T19:45:04.300Z",
+  "updatedAt": "2026-08-17T20:01:47.009Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6924",
+          "url": "https://t.me/BWEtradfi/6924",
+          "title": "DB: *标普500指数收盘下跌0.5%，纳斯达克指数下跌0.3%",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.5%, NASDAQ DOWN 0.3%",
+          "tags": [],
+          "ts": 1786996813000,
+          "time": "04:00:13",
+          "receivedAt": 1786996866348,
+          "receivedTime": true
+        },
         {
           "id": "6923",
           "url": "https://t.me/BWEtradfi/6923",
