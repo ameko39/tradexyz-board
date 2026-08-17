@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T23:09:04.771Z",
+  "updatedAt": "2026-08-17T23:33:57.348Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1621,6 +1621,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "227969",
+          "url": "https://t.me/jin10light/227969",
+          "title": "美伊继续僵持，美股三大股指收跌，比特币小幅走强",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787009414000,
+          "time": "07:30:14",
+          "receivedAt": 1787009614769,
+          "receivedTime": true
+        },
         {
           "id": "227968",
           "url": "https://t.me/jin10light/227968",
@@ -18790,21 +18805,6 @@
           ],
           "ts": 1786499295000,
           "time": "09:48:15",
-          "receivedAt": 1786506658507,
-          "receivedTime": true
-        },
-        {
-          "id": "226769",
-          "url": "https://t.me/jin10light/226769",
-          "title": "创业板指盘初涨逾1%，深证成指现涨0.74%，CRO概念、先进封装等板块涨幅居前。",
-          "body": "#创业板指 #深证成指 #CRO概念",
-          "tags": [
-            "#创业板指",
-            "#深证成指",
-            "#CRO概念"
-          ],
-          "ts": 1786499232000,
-          "time": "09:47:12",
           "receivedAt": 1786506658507,
           "receivedTime": true
         }
