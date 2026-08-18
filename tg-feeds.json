@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-18T20:14:37.030Z",
+  "updatedAt": "2026-08-18T20:37:50.428Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6929",
+          "url": "https://t.me/BWEtradfi/6929",
+          "title": "*Anthropico 准备在首次公开募股 (IPO) 前授予首席执行官达里奥·阿莫迪 (Dario Amodei) 和创始人超级投票权股份：相关信息",
+          "body": "*ANTHROPIC IS PREPARING TO GIVE CEO DARIO AMODEI AND FOUNDERS SUPERVOTING SHARES AHEAD OF ITS IPO: THE INFORMATION *ANTHROPIC AIMS TO PROTECT ITS LEADERSHIP FROM OUTSIDE SHAREHOLDER PRESSURE BEFORE A POTENTIAL SEPTEMBER IPO *Anthropico 旨在 9 月份潜在的 IPO 前，保护其领导层免受外部股东的压力。",
+          "tags": [],
+          "ts": 1787085022000,
+          "time": "04:30:22",
+          "receivedAt": 1787085445303,
+          "receivedTime": true
+        },
         {
           "id": "6928",
           "url": "https://t.me/BWEtradfi/6928",
@@ -1539,11 +1550,39 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228224",
+          "url": "https://t.me/jin10light/228224",
+          "title": "美国至8月14日当周API原油库存将于十分钟后公布。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1787084473000,
+          "time": "04:21:13",
+          "receivedAt": 1787085448122,
+          "receivedTime": true
+        },
+        {
+          "id": "228223",
+          "url": "https://t.me/jin10light/228223",
+          "title": "阿联酋外交部表示，暂停与伊朗的所有商业活动和金融交易，直至另行通知。",
+          "body": "#阿联酋 #伊朗",
+          "tags": [
+            "#阿联酋",
+            "#伊朗"
+          ],
+          "ts": 1787084113000,
+          "time": "04:15:13",
+          "receivedAt": 1787085448122,
+          "receivedTime": true
+        },
         {
           "id": "228222",
           "url": "https://t.me/jin10light/228222",
@@ -18751,35 +18790,6 @@
           ],
           "ts": 1786550773000,
           "time": "00:06:13",
-          "receivedAt": 1786552263102,
-          "receivedTime": true
-        },
-        {
-          "id": "227024",
-          "url": "https://t.me/jin10light/227024",
-          "title": "美国农业部：将阿根廷2025/2026年度大豆产量预期从之前的5000万吨下调至4950万吨；将巴西2025/2026年度大豆产量预期从之前的1.8亿吨上调至1.805亿吨。",
-          "body": "#美国 #阿根廷 #巴西 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#阿根廷",
-            "#巴西"
-          ],
-          "ts": 1786550715000,
-          "time": "00:05:15",
-          "receivedAt": 1786552263102,
-          "receivedTime": true
-        },
-        {
-          "id": "227023",
-          "url": "https://t.me/jin10light/227023",
-          "title": "美国农业部：8月美国2026/2027年度大豆产量预期为45.19亿蒲式耳，市场预期为44.72亿蒲式耳，7月预期为44.75亿蒲式耳。",
-          "body": "8月美国2026/2027年度大豆期末库存预期为3.2亿蒲式耳，市场预期为3.04亿蒲式耳，7月预期为3.1亿蒲式耳。 8月美国2026/2027年度大豆单产预期为52.7蒲式耳/英亩，市场预期为52.9蒲式耳/英亩，7月预期为53蒲式耳/英亩。 #美国 #大豆",
-          "tags": [
-            "#美国",
-            "#大豆"
-          ],
-          "ts": 1786550592000,
-          "time": "00:03:12",
           "receivedAt": 1786552263102,
           "receivedTime": true
         }
