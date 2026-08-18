@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T22:44:33.780Z",
+  "updatedAt": "2026-08-18T23:01:05.795Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1539,11 +1539,26 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228228",
+          "url": "https://t.me/jin10light/228228",
+          "title": "今日重点关注的财经数据与事件：2026年8月19日 周三",
+          "body": "① 14:00 英国7月CPI月率 ② 14:00 英国7月零售物价指数月率 ③ 15:10 欧洲央行行长拉加德出席讨论会 ④ 16:00 欧元区6月季调后经常帐 ⑤ 17:00 欧元区7月CPI年率终值 ⑥ 17:00 欧元区7月CPI月率终值 ⑦ 19:00 快手举行财报电话会 ⑧ 22:30 美国至8月14日当周EIA原油库存 ⑨ 22:30 美国至8月14日当周EIA库欣原油库存 ⑩ 22:30 美国至8月14日当周EIA战略石油储备库存 ⑪ 次日02:00 美联储公布货币政策会议纪要 #英国 #欧洲央行 #美国",
+          "tags": [
+            "#英国",
+            "#欧洲央行",
+            "#美国"
+          ],
+          "ts": 1787093475000,
+          "time": "06:51:15",
+          "receivedAt": 1787094042495,
+          "receivedTime": true
+        },
         {
           "id": "228227",
           "url": "https://t.me/jin10light/228227",
@@ -18759,21 +18774,6 @@
           ],
           "ts": 1786552215000,
           "time": "00:30:15",
-          "receivedAt": 1786552263102,
-          "receivedTime": true
-        },
-        {
-          "id": "227028",
-          "url": "https://t.me/jin10light/227028",
-          "title": "千问首次开放Max级旗舰权重，Qwen3.8正式可下载",
-          "body": "#阿里 #Qwen3 .8 #Hugging Face",
-          "tags": [
-            "#阿里",
-            "#Qwen3",
-            "#Hugging"
-          ],
-          "ts": 1786551326000,
-          "time": "00:15:26",
           "receivedAt": 1786552263102,
           "receivedTime": true
         }
