@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-18T13:27:38.055Z",
+  "updatedAt": "2026-08-18T14:05:16.066Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6926",
+          "url": "https://t.me/BWEtradfi/6926",
+          "title": "DB: 标普500指数低开0.6%，纳斯达克指数下跌1.2%",
+          "body": "DB: *S&P 500 OPENS 0.6% LOWER, NASDAQ FALLS 1.2%",
+          "tags": [],
+          "ts": 1787060087000,
+          "time": "21:34:47",
+          "receivedAt": 1787061894181,
+          "receivedTime": true
+        },
         {
           "id": "6925",
           "url": "https://t.me/BWEtradfi/6925",
@@ -1570,46 +1581,263 @@
           "time": "02:02:35",
           "receivedAt": 1785781036141,
           "receivedTime": true
-        },
-        {
-          "id": "6786",
-          "url": "https://t.me/BWEtradfi/6786",
-          "title": "DB: *美国7月ISM制造业指数为55.6，高于去年同期的53.3；预期值为54.0",
-          "body": "DB: *US JULY ISM MANUFACTURING INDEX AT 55.6 VS 53.3; EST. 54.0 *US JULY ISM MANUFACTURING PRICE INDEX AT 71.1 VS 73.0; EST. 71.0 *US JULY ISM MANUFACTURING EMPLOYMENT AT 52.8 VS 49.7; EST. 50.0 *US JULY ISM MANUFACTURING NEW ORDERS AT 56.7 VS 56.0; EST. 56.7 *美国7月ISM制造业价格指数为71.1，高于去年同期的73.0；预期值为71...",
-          "tags": [],
-          "ts": 1785765613000,
-          "time": "22:00:13",
-          "receivedAt": 1785774526632,
-          "receivedTime": true
-        },
-        {
-          "id": "6785",
-          "url": "https://t.me/BWEtradfi/6785",
-          "title": "DB: 美国7月标普全球制造业PMI初值为53.9，预期53.8",
-          "body": "DB: *US S&P JULY MANUFACTURING PMI AT 53.9; EST. 53.8",
-          "tags": [],
-          "ts": 1785764712000,
-          "time": "21:45:12",
-          "receivedAt": 1785765572518,
-          "receivedTime": true
-        },
-        {
-          "id": "6784",
-          "url": "https://t.me/BWEtradfi/6784",
-          "title": "DB: 标普500指数开盘上涨0.5%，纳斯达克指数上涨0.4%",
-          "body": "DB: *S&P 500 OPENS 0.5% HIGHER, NASDAQ UP 0.4%",
-          "tags": [],
-          "ts": 1785763843000,
-          "time": "21:30:43",
-          "receivedAt": 1785765572518,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228182",
+          "url": "https://t.me/jin10light/228182",
+          "title": "Binance安全团队拦截潜在治理攻击，阻止120万美元DAO资金面临风险",
+          "body": "#Binance #DAO #Jimmy Su",
+          "tags": [
+            "#Binance",
+            "#DAO",
+            "#Jimmy"
+          ],
+          "ts": 1787061678000,
+          "time": "22:01:18",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228181",
+          "url": "https://t.me/jin10light/228181",
+          "title": "美国7月成屋签约销售指数月率 -2.3%，预期0.3%，前值由-5.40%修正为-4.8%。",
+          "body": "#美国 #美股",
+          "tags": [
+            "#美国",
+            "#美股"
+          ],
+          "ts": 1787061622000,
+          "time": "22:00:22",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228180",
+          "url": "https://t.me/jin10light/228180",
+          "title": "Cash App通过MoonPay扩展加密资产支持，将新增ETH、SOL、XRP及USDT",
+          "body": "#Cash App #Block #MoonPay",
+          "tags": [
+            "#Cash",
+            "#Block",
+            "#MoonPay"
+          ],
+          "ts": 1787061621000,
+          "time": "22:00:21",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228179",
+          "url": "https://t.me/jin10light/228179",
+          "title": "伊朗：条件满足前绝不开放霍尔木兹，已转向「完全进攻」姿态",
+          "body": "#伊朗 #美国 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787061492000,
+          "time": "21:58:12",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228178",
+          "url": "https://t.me/jin10light/228178",
+          "title": "费城半导体指数下跌5%，迈威尔科技(MRVL.O)跌超7%，Arm(ARM.O)、英特尔(INTC.O)跌近7%，美光科技(MU.O)跌5.7%，英伟达(NVDA.O)跌超2%。",
+          "body": "#费城 #美国 #迈威尔科技",
+          "tags": [
+            "#费城",
+            "#美国",
+            "#迈威尔科技"
+          ],
+          "ts": 1787061435000,
+          "time": "21:57:15",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228177",
+          "url": "https://t.me/jin10light/228177",
+          "title": "美国7月成屋签约销售指数月率将于十分钟后公布。",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1787061082000,
+          "time": "21:51:22",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228176",
+          "url": "https://t.me/jin10light/228176",
+          "title": "Bitget上线VIP专属加息活动，申购ETH最高可享8%APR",
+          "body": "#Bitget #ETH",
+          "tags": [
+            "#Bitget",
+            "#ETH"
+          ],
+          "ts": 1787061081000,
+          "time": "21:51:21",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228175",
+          "url": "https://t.me/jin10light/228175",
+          "title": "DeFiLlama数据：Binance、Bybit、Bitget24H资金净流入位居全网CEX前三",
+          "body": "#Binance #Bybit #Bitget",
+          "tags": [
+            "#Binance",
+            "#Bybit",
+            "#Bitget"
+          ],
+          "ts": 1787060961000,
+          "time": "21:49:21",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228174",
+          "url": "https://t.me/jin10light/228174",
+          "title": "分析：1.8万亿美元「恐慌」可能引发比特币30%剧烈波动",
+          "body": "#BTC #美国 #美联储",
+          "tags": [
+            "#BTC",
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1787060778000,
+          "time": "21:46:18",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228173",
+          "url": "https://t.me/jin10light/228173",
+          "title": "分析：加密行业「轻松赚钱时代」正在结束，2026年已有超100个项目倒闭",
+          "body": "#GSN #Ryan Kirkley #BTC",
+          "tags": [
+            "#GSN",
+            "#Ryan",
+            "#BTC"
+          ],
+          "ts": 1787060597000,
+          "time": "21:43:17",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228172",
+          "url": "https://t.me/jin10light/228172",
+          "title": "特朗普称与伊朗没有任何谈判正在进行，海军封锁仍全面有效",
+          "body": "#特朗普 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787060116000,
+          "time": "21:35:16",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228171",
+          "url": "https://t.me/jin10light/228171",
+          "title": "美股SLE开盘涨超126%，市值升至1160万美元",
+          "body": "#Super League #BTC #美国",
+          "tags": [
+            "#Super",
+            "#BTC",
+            "#美国"
+          ],
+          "ts": 1787060115000,
+          "time": "21:35:15",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228170",
+          "url": "https://t.me/jin10light/228170",
+          "title": "费城半导体指数下跌3.7%，为7月29日以来最大跌幅。",
+          "body": "#费城 #半导体指数",
+          "tags": [
+            "#费城",
+            "#半导体指数"
+          ],
+          "ts": 1787059993000,
+          "time": "21:33:13",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228169",
+          "url": "https://t.me/jin10light/228169",
+          "title": "美股开盘，道指跌0.2%，标普500指数跌0.5%，纳指跌1.1%。",
+          "body": "存储板块普跌，闪迪(SNDK.O)跌5%，美光科技(MU.O)跌4.6%。 明星科技股多数下滑，Meta Platforms(META.O)跌1.9%，公司周二面临天价索赔案庭审。 百度(BIDU.O)绩后下跌9%，小马智行(PONY.O)跌7%，爱奇艺(IQ.O)跌3.7%。 #美股 #美国 #Meta Platforms",
+          "tags": [
+            "#美股",
+            "#美国",
+            "#Meta"
+          ],
+          "ts": 1787059942000,
+          "time": "21:32:22",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228168",
+          "url": "https://t.me/jin10light/228168",
+          "title": "美国总统特朗普：与伊朗没有任何谈判或对话正在进行或安排中。",
+          "body": "海军封锁仍然全面有效。 霍尔木兹海峡开放并正常运作。 所有水雷已被移除或引爆。 #特朗普 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787059942000,
+          "time": "21:32:22",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228167",
+          "url": "https://t.me/jin10light/228167",
+          "title": "美股开盘三大股指普跌，闪迪跌5%，美光跌4.6%",
+          "body": "#美股 #道指 #标普500",
+          "tags": [
+            "#美股",
+            "#道指",
+            "#标普500"
+          ],
+          "ts": 1787059941000,
+          "time": "21:32:21",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
+        {
+          "id": "228166",
+          "url": "https://t.me/jin10light/228166",
+          "title": "自易理华「喊单」AGPU以来，该公司股价已涨超50%",
+          "body": "#Axe Compute #AGPU #易理华",
+          "tags": [
+            "#Axe",
+            "#AGPU",
+            "#易理华"
+          ],
+          "ts": 1787059817000,
+          "time": "21:30:17",
+          "receivedAt": 1787061894704,
+          "receivedTime": true
+        },
         {
           "id": "228165",
           "url": "https://t.me/jin10light/228165",
@@ -18588,240 +18816,6 @@
           "ts": 1786540575000,
           "time": "21:16:15",
           "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226982",
-          "url": "https://t.me/jin10light/226982",
-          "title": "1. 美国7月未季调核心CPI年率录得2.5%，为2月以来最小增幅，符合市场预期。",
-          "body": "2. 通用汽车(GM.N)设立45亿美元计划，确保关键零部件供应。 3. Lumentum(LITE.O)盘前涨超8%，公司第四财季净收入10.1亿美元。 4. Coreweave(CRWV.O)CFO：将2026年全年营收预期上调至124亿美元至132亿美元。 5. 超微电脑(SMCI.O)盘前涨超10%，此前该公司的2027财年营收展望高于市场预期。 6. 据Business Insider：知情人士透露，甲骨文(ORCL.N)已制定新一轮裁员计划，预计本月实施。 7. 量子计算公司Quantinum与甲骨文(ORCL.N)合作，加速在Oracle...",
-          "tags": [
-            "#美国",
-            "#通用汽车",
-            "#Lumentum"
-          ],
-          "ts": 1786540157000,
-          "time": "21:09:17",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226981",
-          "url": "https://t.me/jin10light/226981",
-          "title": "现货黄金突破4440美元/盎司，创6月5日以来新高",
-          "body": "",
-          "tags": [],
-          "ts": 1786539737000,
-          "time": "21:02:17",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226980",
-          "url": "https://t.me/jin10light/226980",
-          "title": "Serenity：持续看空CRWV，该公司债务利息严重侵蚀现金流",
-          "body": "#CRWV #neocloud #Serenity",
-          "tags": [
-            "#CRWV",
-            "#neocloud",
-            "#Serenity"
-          ],
-          "ts": 1786539737000,
-          "time": "21:02:17",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226979",
-          "url": "https://t.me/jin10light/226979",
-          "title": "夜盘开盘，国内期货主力合约涨多跌少，沪银涨超2%，合成橡胶、纸浆涨超1%，沪锌、沪锡、沪金、乙二醇（EG）、棉纱涨近1%。",
-          "body": "跌幅方面，玻璃跌超1%。 #沪银 #沪锌 #沪锡",
-          "tags": [
-            "#沪银",
-            "#沪锌",
-            "#沪锡"
-          ],
-          "ts": 1786539617000,
-          "time": "21:00:17",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226978",
-          "url": "https://t.me/jin10light/226978",
-          "title": "重构发射平台价值分配，COSM.FUN宇宙发射平台入局，挑战传统Pump生态格局",
-          "body": "发射台赛道竞争日趋白热化，全新项目COSM宇宙发射平台正式对外披露上线规划。 平台借鉴去中心化发币底层逻辑，在商业模式上做出差异化调整。 核心亮点在于价值回流机制：平台产生的收入大部分回馈社区参与者。 同时推出各种特色玩法 发射平台代币：0x0d6ae45c96ec4df860300087462266e19140f6dc 社交链接DEBOX： https://m.debox.pro/group?id=w6agxkyt&code=e6rhdbxn TG： https://t.me/COSM_cn #赞助广告",
-          "tags": [
-            "#赞助广告"
-          ],
-          "ts": 1786539616000,
-          "time": "21:00:16",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226977",
-          "url": "https://t.me/jin10light/226977",
-          "title": "CPI数据解读：能源价格下跌贡献明显，但仍可能在8月重新点燃通胀",
-          "body": "#美国 #美元",
-          "tags": [
-            "#美国",
-            "#美元"
-          ],
-          "ts": 1786539135000,
-          "time": "20:52:15",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226976",
-          "url": "https://t.me/jin10light/226976",
-          "title": "高盛：美国七月消费者物价指数表现“令人鼓舞”。",
-          "body": "#高盛 #美国",
-          "tags": [
-            "#高盛",
-            "#美国"
-          ],
-          "ts": 1786538895000,
-          "time": "20:48:15",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226975",
-          "url": "https://t.me/jin10light/226975",
-          "title": "纳斯达克100指数期货上涨1%；标普500指数期货上涨0.5%。",
-          "body": "#美股 #纳斯达克100 #标普500 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美股",
-            "#纳斯达克100",
-            "#标普500"
-          ],
-          "ts": 1786538715000,
-          "time": "20:45:15",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226974",
-          "url": "https://t.me/jin10light/226974",
-          "title": "CPI数据后，投资者降低对9月加息押注",
-          "body": "#美国 #美联储 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#美联储"
-          ],
-          "ts": 1786538538000,
-          "time": "20:42:18",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226973",
-          "url": "https://t.me/jin10light/226973",
-          "title": "美国7月核心通胀表现温和 美联储加息压力有所缓解",
-          "body": "8月12日讯，美国7月核心通胀表现温和，这很可能减轻了美联储加息的压力。 美国劳工统计局周三公布的数据显示，剔除波动较大的食品和能源类别后，7月核心CPI环比上涨0.2%。 同比涨幅为2.5%，持平于2021年3月以来最低增速。 整体来看，7月CPI环比上涨0.1%，同比上涨3.4%。 这份报告表明，伊朗战争带来的能源价格冲击在7月继续消退。 在美联储讨论是否在9月的会议上加息之际，这些数据可能让美联储有更多余地，在通胀压力与近期招聘放缓之间进行权衡。 在9月会议之前，政策制定者还将看到更多关于就业和通胀的报告，而投资者将密切关注美联储主席沃什预计在本...",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#伊朗"
-          ],
-          "ts": 1786538415000,
-          "time": "20:40:15",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226972",
-          "url": "https://t.me/jin10light/226972",
-          "title": "市场定价显示，九月份美联储加息的可能性为45%。",
-          "body": "#美联储 #美国",
-          "tags": [
-            "#美联储",
-            "#美国"
-          ],
-          "ts": 1786538358000,
-          "time": "20:39:18",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226971",
-          "url": "https://t.me/jin10light/226971",
-          "title": "CPI数据后，加密、黄金、美股短线先跌后涨",
-          "body": "#BTC #美股 #黄金",
-          "tags": [
-            "#BTC",
-            "#美股",
-            "#黄金"
-          ],
-          "ts": 1786538293000,
-          "time": "20:38:13",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226970",
-          "url": "https://t.me/jin10light/226970",
-          "title": "现货黄金反弹，现回升至4418美元/盎司，此前数据公布后一度跌至4382美元/盎司。",
-          "body": "#黄金 #美元",
-          "tags": [
-            "#黄金",
-            "#美元"
-          ],
-          "ts": 1786538176000,
-          "time": "20:36:16",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226969",
-          "url": "https://t.me/jin10light/226969",
-          "title": "CPI数据后，美元指数短线走高",
-          "body": "#美国 #美元",
-          "tags": [
-            "#美国",
-            "#美元"
-          ],
-          "ts": 1786538113000,
-          "time": "20:35:13",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226968",
-          "url": "https://t.me/jin10light/226968",
-          "title": "CPI数据后，现货黄金短线跳水50美元",
-          "body": "#黄金 #美元",
-          "tags": [
-            "#黄金",
-            "#美元"
-          ],
-          "ts": 1786537934000,
-          "time": "20:32:14",
-          "receivedAt": 1786541834015,
-          "receivedTime": true
-        },
-        {
-          "id": "226967",
-          "url": "https://t.me/jin10light/226967",
-          "title": "现货白银短线下挫1美元，现报65.89美元/盎司。",
-          "body": "",
-          "tags": [],
-          "ts": 1786537878000,
-          "time": "20:31:18",
-          "receivedAt": 1786541834015,
-          "receivedTime": true
-        },
-        {
-          "id": "226966",
-          "url": "https://t.me/jin10light/226966",
-          "title": "美国7月CPI年率符合预期",
-          "body": "8月12日讯，美国7月未季调CPI年率录得3.4%，为3月以来最小增幅，符合市场预期。",
-          "tags": [],
-          "ts": 1786537877000,
-          "time": "20:31:17",
-          "receivedAt": 1786541834015,
           "receivedTime": true
         }
       ],
