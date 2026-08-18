@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-18T18:35:30.975Z",
+  "updatedAt": "2026-08-18T19:09:23.003Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6927",
+          "url": "https://t.me/BWEtradfi/6927",
+          "title": "*美国证券交易委员会（SEC）发布加密资产监管提案",
+          "body": "*SEC ISSUES CRYPTO-ASSET REGULATORY PROPOSAL *SEC PROPOSES LETTING CRYPTO PROJECTS SELL TOKENS TO RETAIL INVESTORS *SEC PLAN COULD REVIVE ICO-STYLE FUNDRAISING IN U.S. *CRYPTO STARTUPS COULD RAISE UP TO $5M WITHOUT FULL SEC REGISTRATION OR INVESTOR CAPS *SEC PLAN WOULD ALLOW… *SEC提议允许加密项目向散户投资者出售代币...",
+          "tags": [],
+          "ts": 1787078569000,
+          "time": "02:42:49",
+          "receivedAt": 1787080135995,
+          "receivedTime": true
+        },
         {
           "id": "6926",
           "url": "https://t.me/BWEtradfi/6926",
@@ -1539,11 +1550,26 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228219",
+          "url": "https://t.me/jin10light/228219",
+          "title": "美加关税谈判陷入僵局，达成协议希望逐渐消退",
+          "body": "8月19日讯，据知情人士透露，随着新一轮关税将于周三生效，特朗普政府正在降低外界对美国与加拿大在最后时刻达成协议、避免加征关税的预期。 知情人士表示，美国私下传递的信号是，周二达成协议的可能性是“五五开或更低”。 双方正面临午夜最后期限，届时价值数十亿美元的加拿大商品将面临50%的关税。 目前尚不清楚这些信号是否真实反映了谈判进展，还是美国试图借此增加谈判筹码。 特朗普一向会在最后时刻向贸易伙伴提出要求。 知情人士称，特朗普周二预计将再次与加拿大总理卡尼通话。 两人周一也曾进行电话交谈。 #美国 #加拿大 #特朗普",
+          "tags": [
+            "#美国",
+            "#加拿大",
+            "#特朗普"
+          ],
+          "ts": 1787079193000,
+          "time": "02:53:13",
+          "receivedAt": 1787080138865,
+          "receivedTime": true
+        },
         {
           "id": "228218",
           "url": "https://t.me/jin10light/228218",
@@ -18765,21 +18791,6 @@
           ],
           "ts": 1786549516000,
           "time": "23:45:16",
-          "receivedAt": 1786552263102,
-          "receivedTime": true
-        },
-        {
-          "id": "227019",
-          "url": "https://t.me/jin10light/227019",
-          "title": "美银对冲基金客户继续大买美股，单周规模创出2008年以来之最",
-          "body": "#美国 #美股 #BTC",
-          "tags": [
-            "#美国",
-            "#美股",
-            "#BTC"
-          ],
-          "ts": 1786549218000,
-          "time": "23:40:18",
           "receivedAt": 1786552263102,
           "receivedTime": true
         }
