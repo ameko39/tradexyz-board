@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T19:09:23.003Z",
+  "updatedAt": "2026-08-18T19:37:11.415Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1555,6 +1555,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228221",
+          "url": "https://t.me/jin10light/228221",
+          "title": "伊朗外长：伊朗不要停火，只接受战争结束",
+          "body": "8月19日讯，据美国哥伦比亚广播公司，伊朗外长阿拉格齐对美国与伊朗战争期间达成停火的设想泼了一盆冷水。 他表示，伊朗方面只会接受战争结束。 阿拉格齐表示：“我们已经告诉调解方，我们不会接受停火；战争必须结束。 ”他补充道：“我们一直强调，战争必须以一种不会再次发生的方式结束。 ” #伊朗 #美国 #阿拉格齐",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#阿拉格齐"
+          ],
+          "ts": 1787080752000,
+          "time": "03:19:12",
+          "receivedAt": 1787081808419,
+          "receivedTime": true
+        },
+        {
+          "id": "228220",
+          "url": "https://t.me/jin10light/228220",
+          "title": "据Politico：美国总统特朗普正在权衡是否暂缓对加拿大征收关税。",
+          "body": "#美国 #特朗普 #加拿大",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#加拿大"
+          ],
+          "ts": 1787080634000,
+          "time": "03:17:14",
+          "receivedAt": 1787081808419,
+          "receivedTime": true
+        },
         {
           "id": "228219",
           "url": "https://t.me/jin10light/228219",
@@ -18761,36 +18791,6 @@
           ],
           "ts": 1786550511000,
           "time": "00:01:51",
-          "receivedAt": 1786552263102,
-          "receivedTime": true
-        },
-        {
-          "id": "227021",
-          "url": "https://t.me/jin10light/227021",
-          "title": "USDC Treasury在Solana新铸2.5亿枚USDC",
-          "body": "#USDC #Solana #SOL",
-          "tags": [
-            "#USDC",
-            "#Solana",
-            "#SOL"
-          ],
-          "ts": 1786550174000,
-          "time": "23:56:14",
-          "receivedAt": 1786552263102,
-          "receivedTime": true
-        },
-        {
-          "id": "227020",
-          "url": "https://t.me/jin10light/227020",
-          "title": "摩根士丹利维持SpaceX增持评级，牛市情景下目标价600美元",
-          "body": "#SPCX #SpaceX #Adam Jonas",
-          "tags": [
-            "#SPCX",
-            "#SpaceX",
-            "#Adam"
-          ],
-          "ts": 1786549516000,
-          "time": "23:45:16",
           "receivedAt": 1786552263102,
           "receivedTime": true
         }
