@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T17:03:45.036Z",
+  "updatedAt": "2026-08-18T17:36:11.481Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1588,6 +1588,50 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228216",
+          "url": "https://t.me/jin10light/228216",
+          "title": "英国海上贸易行动办公室：一艘无人货船遭到多枚未知弹药袭击，造成损坏。",
+          "body": "#英国 #无人货船",
+          "tags": [
+            "#英国",
+            "#无人货船"
+          ],
+          "ts": 1787074033000,
+          "time": "01:27:13",
+          "receivedAt": 1787074550327,
+          "receivedTime": true
+        },
+        {
+          "id": "228215",
+          "url": "https://t.me/jin10light/228215",
+          "title": "谷歌拟斥资1000万美元收购已破产航空公司Spirit Airlines数据，用于训练AI模型",
+          "body": "#谷歌 #Spirit Airlines #美国",
+          "tags": [
+            "#谷歌",
+            "#Spirit",
+            "#美国"
+          ],
+          "ts": 1787073794000,
+          "time": "01:23:14",
+          "receivedAt": 1787074550327,
+          "receivedTime": true
+        },
+        {
+          "id": "228214",
+          "url": "https://t.me/jin10light/228214",
+          "title": "比特币波动率降至周期低点，交易员转向AI股票和预测市场",
+          "body": "#BTC #美国 #韩国",
+          "tags": [
+            "#BTC",
+            "#美国",
+            "#韩国"
+          ],
+          "ts": 1787072838000,
+          "time": "01:07:18",
+          "receivedAt": 1787074550327,
+          "receivedTime": true
+        },
         {
           "id": "228213",
           "url": "https://t.me/jin10light/228213",
@@ -18779,50 +18823,6 @@
           ],
           "ts": 1786548613000,
           "time": "23:30:13",
-          "receivedAt": 1786548956266,
-          "receivedTime": true
-        },
-        {
-          "id": "227016",
-          "url": "https://t.me/jin10light/227016",
-          "title": "SpaceXAI推出Grok 4.6",
-          "body": "#SpaceXAI #Grok 4.6",
-          "tags": [
-            "#SpaceXAI",
-            "#Grok"
-          ],
-          "ts": 1786548613000,
-          "time": "23:30:13",
-          "receivedAt": 1786548956266,
-          "receivedTime": true
-        },
-        {
-          "id": "227015",
-          "url": "https://t.me/jin10light/227015",
-          "title": "据沙特阿拉伯阿拉比亚电视台：巴基斯坦调解方正寻求延长（美伊）60天停火期限。",
-          "body": "#巴基斯坦 #美国 #伊朗",
-          "tags": [
-            "#巴基斯坦",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1786548554000,
-          "time": "23:29:14",
-          "receivedAt": 1786548956266,
-          "receivedTime": true
-        },
-        {
-          "id": "227014",
-          "url": "https://t.me/jin10light/227014",
-          "title": "巴基斯坦调解方正寻求延长美伊停火期限",
-          "body": "#巴基斯坦 #美国 #伊朗",
-          "tags": [
-            "#巴基斯坦",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1786548554000,
-          "time": "23:29:14",
           "receivedAt": 1786548956266,
           "receivedTime": true
         }
