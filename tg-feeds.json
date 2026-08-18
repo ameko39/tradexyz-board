@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T17:36:11.481Z",
+  "updatedAt": "2026-08-18T17:57:57.508Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1588,6 +1588,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228217",
+          "url": "https://t.me/jin10light/228217",
+          "title": "Telegram申请「.gram」域名，拟为10亿用户提供专属域名",
+          "body": "#Telegram #Pavel Durov #ICANN",
+          "tags": [
+            "#Telegram",
+            "#Pavel",
+            "#ICANN"
+          ],
+          "ts": 1787075594000,
+          "time": "01:53:14",
+          "receivedAt": 1787075854447,
+          "receivedTime": true
+        },
         {
           "id": "228216",
           "url": "https://t.me/jin10light/228216",
@@ -18810,20 +18825,6 @@
           "ts": 1786549217000,
           "time": "23:40:17",
           "receivedAt": 1786552263102,
-          "receivedTime": true
-        },
-        {
-          "id": "227017",
-          "url": "https://t.me/jin10light/227017",
-          "title": "SPACEXAI：推出GROK 4.6。",
-          "body": "#SPACEXAI #GROK 4.6",
-          "tags": [
-            "#SPACEXAI",
-            "#GROK"
-          ],
-          "ts": 1786548613000,
-          "time": "23:30:13",
-          "receivedAt": 1786548956266,
           "receivedTime": true
         }
       ],
