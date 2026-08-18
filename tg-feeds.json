@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-18T19:53:50.661Z",
+  "updatedAt": "2026-08-18T20:14:37.030Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6928",
+          "url": "https://t.me/BWEtradfi/6928",
+          "title": "DB: *标普500指数收跌0.7%，纳斯达克指数下跌1.4%",
+          "body": "DB: *S&P 500 CLOSES 0.7% LOWER, NASDAQ DECLINES 1.4%",
+          "tags": [],
+          "ts": 1787083214000,
+          "time": "04:00:14",
+          "receivedAt": 1787084052913,
+          "receivedTime": true
+        },
         {
           "id": "6927",
           "url": "https://t.me/BWEtradfi/6927",
@@ -1526,35 +1537,28 @@
           "time": "06:39:58",
           "receivedAt": 1785799734693,
           "receivedTime": true
-        },
-        {
-          "id": "6792",
-          "url": "https://t.me/BWEtradfi/6792",
-          "title": "*Palantir 第二季度营收 19.4 亿美元，预期 18.1 亿美元",
-          "body": "*PALANTIR 2Q REV. $1.94B, EST. $1.81B *PALANTIR SEES FY ADJ. OPER PROFIT $4.89B TO $4.90B, EST. $4.51B *PALANTIR 2Q ADJ EPS 41C, EST. 35C *PALANTIR 2Q ADJ. EBITDA $1.20B, EST. $1.09B $PLTR *Palantir 预计全年调整后营业利润为 48.9 亿美元至 49 亿美元，预期 45.1 亿美元 *Palantir 第二季度调整后每股收益 41 美分，预期 35 美分 *Palantir 第二季度调整后 EBI...",
-          "tags": [],
-          "ts": 1785787520000,
-          "time": "04:05:20",
-          "receivedAt": 1785791557940,
-          "receivedTime": true
-        },
-        {
-          "id": "6791",
-          "url": "https://t.me/BWEtradfi/6791",
-          "title": "DB: *标普500指数收盘上涨1.5%，纳斯达克指数攀升2.1%",
-          "body": "DB: *S&P 500 RISES 1.5% AT THE CLOSE, NASDAQ CLIMBS 2.1%",
-          "tags": [],
-          "ts": 1785787213000,
-          "time": "04:00:13",
-          "receivedAt": 1785787264321,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228222",
+          "url": "https://t.me/jin10light/228222",
+          "title": "美股收盘：三大股指收跌 海力士跌9%",
+          "body": "8月19日讯，美股周二收盘，道指初步收跌0.2%，标普500指数跌0.69%，纳指跌1.33%。 闪迪(SNDK.O)跌9%，西部数据(WDC.O)跌7%，美光科技(MU.O)跌7%，SK海力士(SKHY.O)跌超9%，英伟达(NVDA.O)跌2%。 纳斯达克中国金龙指数收跌1%，阿里巴巴(BABA.N)涨2.8%。 #美股 #SK海力士 #英伟达",
+          "tags": [
+            "#美股",
+            "#SK海力士",
+            "#英伟达"
+          ],
+          "ts": 1787083453000,
+          "time": "04:04:13",
+          "receivedAt": 1787084054325,
+          "receivedTime": true
+        },
         {
           "id": "228221",
           "url": "https://t.me/jin10light/228221",
@@ -18776,21 +18780,6 @@
           ],
           "ts": 1786550592000,
           "time": "00:03:12",
-          "receivedAt": 1786552263102,
-          "receivedTime": true
-        },
-        {
-          "id": "227022",
-          "url": "https://t.me/jin10light/227022",
-          "title": "今日重点关注的财经数据与事件：2026年8月13日 周四",
-          "body": "① 01:00 美国至8月12日10年期国债竞拍-得标利率 ② 01:00 美国至8月12日10年期国债竞拍-投标倍数 ③ 14:00 英国第二季度GDP年率初值 ④ 14:00 英国6月三个月GDP月率 ⑤ 14:00 英国6月制造业产出月率 ⑥ 14:00 英国6月季调后商品贸易帐 ⑦ 14:00 英国6月工业产出月率 ⑧ 17:00 欧元区6月工业产出月率 ⑨ 20:00 京东二季度财报电话会 ⑩ 20:15 美联储哈马克发表讲话 ⑪ 20:30 美国至8月8日当周初请失业金人数 ⑫ 20:30 美国7月PPI年率 ⑬ 20:30 美国7月PPI...",
-          "tags": [
-            "#美国",
-            "#英国",
-            "#欧元区"
-          ],
-          "ts": 1786550511000,
-          "time": "00:01:51",
           "receivedAt": 1786552263102,
           "receivedTime": true
         }
