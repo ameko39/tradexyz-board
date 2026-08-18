@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T17:57:57.508Z",
+  "updatedAt": "2026-08-18T18:35:30.975Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1537,57 +1537,26 @@
           "time": "04:00:13",
           "receivedAt": 1785787264321,
           "receivedTime": true
-        },
-        {
-          "id": "6790",
-          "url": "https://t.me/BWEtradfi/6790",
-          "title": "*TRUMP：在实施斩首行动前愿给伊朗最后所有机会",
-          "body": "*TRUMP: WANTS TO GIVE IRAN EVERY LAST CHANCE BEFORE DECAPITATION",
-          "tags": [],
-          "ts": 1785781329000,
-          "time": "02:22:09",
-          "receivedAt": 1785787264321,
-          "receivedTime": true
-        },
-        {
-          "id": "6789",
-          "url": "https://t.me/BWEtradfi/6789",
-          "title": "城堡证券表示，牛市驱动因素“依然完好”",
-          "body": "*CITADEL SECURITIES SAYS BULL MARKET DRIVERS ARE ‘FIRMLY INTACT’",
-          "tags": [],
-          "ts": 1785781239000,
-          "time": "02:20:39",
-          "receivedAt": 1785787264321,
-          "receivedTime": true
-        },
-        {
-          "id": "6788",
-          "url": "https://t.me/BWEtradfi/6788",
-          "title": "TRUMP：正在讨论让海峡于明天开放",
-          "body": "*TRUMP: TALKING ABOUT HAVING STRAIT OPEN BY TOMORROW",
-          "tags": [],
-          "ts": 1785780156000,
-          "time": "02:02:36",
-          "receivedAt": 1785781036141,
-          "receivedTime": true
-        },
-        {
-          "id": "6787",
-          "url": "https://t.me/BWEtradfi/6787",
-          "title": "*特朗普：这是伊朗签署协议的最后机会",
-          "body": "*TRUMP: THIS IS THE LAST CHANCE FOR IRAN TO SIGN A DEAL *TRUMP: GULF NATIONS WANTED TO GIVE TALKS A 'LAST CHANCE' *TRUMP: YOU'LL FIND OUT TODAY OR TOMORROW WHERE IRAN TALKS ARE *特朗普：海湾国家希望给谈判“最后一次机会” *特朗普：今天或明天你们就会知道伊朗谈判的进展如何",
-          "tags": [],
-          "ts": 1785780155000,
-          "time": "02:02:35",
-          "receivedAt": 1785781036141,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228218",
+          "url": "https://t.me/jin10light/228218",
+          "title": "OpenAI：暂时放缓规模扩张步伐，包括暂停对最新部署模型进行强化学习训练，为期两周。",
+          "body": "#OpenAI",
+          "tags": [
+            "#OpenAI"
+          ],
+          "ts": 1787076854000,
+          "time": "02:14:14",
+          "receivedAt": 1787078108165,
+          "receivedTime": true
+        },
         {
           "id": "228217",
           "url": "https://t.me/jin10light/228217",
@@ -18811,19 +18780,6 @@
           ],
           "ts": 1786549218000,
           "time": "23:40:18",
-          "receivedAt": 1786552263102,
-          "receivedTime": true
-        },
-        {
-          "id": "227018",
-          "url": "https://t.me/jin10light/227018",
-          "title": "DeepSeek-V4-Pro正式版疑似已经上线",
-          "body": "#DeepSeek #DeepSeek -V4-Pro",
-          "tags": [
-            "#DeepSeek"
-          ],
-          "ts": 1786549217000,
-          "time": "23:40:17",
           "receivedAt": 1786552263102,
           "receivedTime": true
         }
