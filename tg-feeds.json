@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T22:19:27.902Z",
+  "updatedAt": "2026-08-18T22:44:33.780Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1537,24 +1537,27 @@
           "time": "21:30:44",
           "receivedAt": 1785858039393,
           "receivedTime": true
-        },
-        {
-          "id": "6793",
-          "url": "https://t.me/BWEtradfi/6793",
-          "title": "【旧消息】",
-          "body": "[OLD] *BEZOS FILES TO SELL $4.07B IN AMAZON SHARES $AMZN *贝佐斯提交文件拟出售价值 40.7 亿美元的亚马逊股票 $AMZN",
-          "tags": [],
-          "ts": 1785796798000,
-          "time": "06:39:58",
-          "receivedAt": 1785799734693,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228227",
+          "url": "https://t.me/jin10light/228227",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少5.42吨，当前持仓量为1025.24吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1787091852000,
+          "time": "06:24:12",
+          "receivedAt": 1787093050932,
+          "receivedTime": true
+        },
         {
           "id": "228226",
           "url": "https://t.me/jin10light/228226",
@@ -18771,21 +18774,6 @@
           ],
           "ts": 1786551326000,
           "time": "00:15:26",
-          "receivedAt": 1786552263102,
-          "receivedTime": true
-        },
-        {
-          "id": "227027",
-          "url": "https://t.me/jin10light/227027",
-          "title": "高盛预计核心PCE为0.23%，略高于核心CPI和市场共识",
-          "body": "#美国 #美联储 #CPI",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#CPI"
-          ],
-          "ts": 1786551325000,
-          "time": "00:15:25",
           "receivedAt": 1786552263102,
           "receivedTime": true
         }
