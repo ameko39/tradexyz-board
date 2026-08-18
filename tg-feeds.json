@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T14:05:16.066Z",
+  "updatedAt": "2026-08-18T14:46:15.963Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1583,11 +1583,154 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228192",
+          "url": "https://t.me/jin10light/228192",
+          "title": "OpenAI员工换上Anthropic CEO同款头像，AI圈集体跟风",
+          "body": "#OpenAI #Anthropic #Dario Amodei",
+          "tags": [
+            "#OpenAI",
+            "#Anthropic",
+            "#Dario"
+          ],
+          "ts": 1787064315000,
+          "time": "22:45:15",
+          "receivedAt": 1787064354442,
+          "receivedTime": true
+        },
+        {
+          "id": "228191",
+          "url": "https://t.me/jin10light/228191",
+          "title": "现货白银日内跌幅达2%，现报64.46美元/盎司。",
+          "body": "#白银 #美元",
+          "tags": [
+            "#白银",
+            "#美元"
+          ],
+          "ts": 1787064082000,
+          "time": "22:41:22",
+          "receivedAt": 1787064354442,
+          "receivedTime": true
+        },
+        {
+          "id": "228190",
+          "url": "https://t.me/jin10light/228190",
+          "title": "沪银主力合约日内跌幅达2.00%，现报15773.00元/千克。",
+          "body": "#沪银 #A股",
+          "tags": [
+            "#沪银",
+            "#A股"
+          ],
+          "ts": 1787064082000,
+          "time": "22:41:22",
+          "receivedAt": 1787064354442,
+          "receivedTime": true
+        },
+        {
+          "id": "228189",
+          "url": "https://t.me/jin10light/228189",
+          "title": "Securitize推出Neuberger Berman首只代币化高收益基金HINC",
+          "body": "#Securitize #Neuberger Berman #Avalanche",
+          "tags": [
+            "#Securitize",
+            "#Neuberger",
+            "#Avalanche"
+          ],
+          "ts": 1787063720000,
+          "time": "22:35:20",
+          "receivedAt": 1787064354442,
+          "receivedTime": true
+        },
+        {
+          "id": "228188",
+          "url": "https://t.me/jin10light/228188",
+          "title": "Etched估值一个月内翻倍至210亿美元：Jane Street既领投又买芯片",
+          "body": "#Etched #Jane Street #Nvidia",
+          "tags": [
+            "#Etched",
+            "#Jane",
+            "#Nvidia"
+          ],
+          "ts": 1787063719000,
+          "time": "22:35:19",
+          "receivedAt": 1787064354442,
+          "receivedTime": true
+        },
+        {
+          "id": "228187",
+          "url": "https://t.me/jin10light/228187",
+          "title": "比特币突破6.5万美元，24小时涨超2%",
+          "body": "#BTC #HTX",
+          "tags": [
+            "#BTC",
+            "#HTX"
+          ],
+          "ts": 1787063415000,
+          "time": "22:30:15",
+          "receivedAt": 1787064354442,
+          "receivedTime": true
+        },
+        {
+          "id": "228186",
+          "url": "https://t.me/jin10light/228186",
+          "title": "Meta跌超3.6%，涉嫌危害儿童安全要案于今日开庭",
+          "body": "#Meta Platforms #META .O",
+          "tags": [
+            "#Meta",
+            "#META"
+          ],
+          "ts": 1787063300000,
+          "time": "22:28:20",
+          "receivedAt": 1787064354442,
+          "receivedTime": true
+        },
+        {
+          "id": "228185",
+          "url": "https://t.me/jin10light/228185",
+          "title": "Arthur Hayes：将「出山」领导Flop Labs，FLOP预计Q4空投、2027年Q1推出创世区块",
+          "body": "#Arthur Hayes #FLOP",
+          "tags": [
+            "#Arthur",
+            "#FLOP"
+          ],
+          "ts": 1787062275000,
+          "time": "22:11:15",
+          "receivedAt": 1787064354442,
+          "receivedTime": true
+        },
+        {
+          "id": "228184",
+          "url": "https://t.me/jin10light/228184",
+          "title": "伊朗媒体18日报道，伊朗最高领袖即将在德黑兰主持一场宗教活动。",
+          "body": "#伊朗 #德黑兰",
+          "tags": [
+            "#伊朗",
+            "#德黑兰"
+          ],
+          "ts": 1787062033000,
+          "time": "22:07:13",
+          "receivedAt": 1787064354442,
+          "receivedTime": true
+        },
+        {
+          "id": "228183",
+          "url": "https://t.me/jin10light/228183",
+          "title": "费城半导体指数下跌5%，迈威尔跌超7%",
+          "body": "#Anthropic #英伟达",
+          "tags": [
+            "#Anthropic",
+            "#英伟达"
+          ],
+          "ts": 1787061918000,
+          "time": "22:05:18",
+          "receivedAt": 1787064354442,
+          "receivedTime": true
+        },
         {
           "id": "228182",
           "url": "https://t.me/jin10light/228182",
@@ -18675,147 +18818,6 @@
           "ts": 1786543211000,
           "time": "22:00:11",
           "receivedAt": 1786545604992,
-          "receivedTime": true
-        },
-        {
-          "id": "226992",
-          "url": "https://t.me/jin10light/226992",
-          "title": "Lightspeed拟为旗下二级基金募资6亿美元，加码投资OpenAI与Anthropic",
-          "body": "#OpenAI #Anthropic",
-          "tags": [
-            "#OpenAI",
-            "#Anthropic"
-          ],
-          "ts": 1786543154000,
-          "time": "21:59:14",
-          "receivedAt": 1786545604992,
-          "receivedTime": true
-        },
-        {
-          "id": "226991",
-          "url": "https://t.me/jin10light/226991",
-          "title": "Lighter团队钱包向新地址转移187万枚LIT，价值约457万美元",
-          "body": "#LIT #Lighter",
-          "tags": [
-            "#LIT",
-            "#Lighter"
-          ],
-          "ts": 1786543037000,
-          "time": "21:57:17",
-          "receivedAt": 1786545604992,
-          "receivedTime": true
-        },
-        {
-          "id": "226990",
-          "url": "https://t.me/jin10light/226990",
-          "title": "「美联储传声筒」：7月CPI数据减轻了美联储9月加息压力",
-          "body": "#美联储 #Nick Timiraos #美国",
-          "tags": [
-            "#美联储",
-            "#Nick",
-            "#美国"
-          ],
-          "ts": 1786542558000,
-          "time": "21:49:18",
-          "receivedAt": 1786545604992,
-          "receivedTime": true
-        },
-        {
-          "id": "226989",
-          "url": "https://t.me/jin10light/226989",
-          "title": "美股高开，比特币不涨反跌，短时跌破6.4万美元",
-          "body": "",
-          "tags": [],
-          "ts": 1786541900000,
-          "time": "21:38:20",
-          "receivedAt": 1786545604992,
-          "receivedTime": true
-        },
-        {
-          "id": "226988",
-          "url": "https://t.me/jin10light/226988",
-          "title": "美股高开拥抱温和通胀数据，存储、芯片、光通信、neocloud全面上涨",
-          "body": "#美股 #美国 #BIT ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美股",
-            "#美国",
-            "#BIT"
-          ],
-          "ts": 1786541715000,
-          "time": "21:35:15",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226987",
-          "url": "https://t.me/jin10light/226987",
-          "title": "超微电脑(SMCI.O)股价上涨9%，因其预测2027财年收入将超出预期。",
-          "body": "#超微电脑 #SMCI .O",
-          "tags": [
-            "#超微电脑",
-            "#SMCI"
-          ],
-          "ts": 1786541593000,
-          "time": "21:33:13",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226986",
-          "url": "https://t.me/jin10light/226986",
-          "title": "美国CPI数据符合预期，美股高开",
-          "body": "8月12日讯，美股开盘，道指涨0.33%、标普500指数涨0.49%、纳指涨0.9%。 存储概念股走强，闪迪(SNDK.O)涨6.9%、SK海力士(SKHY.O)涨5.8%、美光科技(MU.O)涨5.5%。 #美国 #美股",
-          "tags": [
-            "#美国",
-            "#美股"
-          ],
-          "ts": 1786541475000,
-          "time": "21:31:15",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226985",
-          "url": "https://t.me/jin10light/226985",
-          "title": "Hyperliquid正寻求开拓美国市场",
-          "body": "#Hyperliquid #美国 #BTC",
-          "tags": [
-            "#Hyperliquid",
-            "#美国",
-            "#BTC"
-          ],
-          "ts": 1786541116000,
-          "time": "21:25:16",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226984",
-          "url": "https://t.me/jin10light/226984",
-          "title": "USDA报告前夜，全球小麦出口命脉被扼住咽喉，美玉米库存预期将收紧，美大豆供应前景黯淡，农产品市场紧平衡已到来？",
-          "body": "#美国 #玉米 #大豆",
-          "tags": [
-            "#美国",
-            "#玉米",
-            "#大豆"
-          ],
-          "ts": 1786541056000,
-          "time": "21:24:16",
-          "receivedAt": 1786541833421,
-          "receivedTime": true
-        },
-        {
-          "id": "226983",
-          "url": "https://t.me/jin10light/226983",
-          "title": "「大空头」Michael Burry批评巴菲特继任者「在市场过热时投资激进」",
-          "body": "#Michael Burry #格雷格·阿贝尔",
-          "tags": [
-            "#Michael",
-            "#格雷格"
-          ],
-          "ts": 1786540575000,
-          "time": "21:16:15",
-          "receivedAt": 1786541833421,
           "receivedTime": true
         }
       ],
