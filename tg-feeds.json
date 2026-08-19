@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-19T22:42:15.726Z",
+  "updatedAt": "2026-08-19T23:00:03.371Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6945",
+          "url": "https://t.me/BWEtradfi/6945",
+          "title": "*特朗普：宣布对伊朗实施史上最严厉的经济打击",
+          "body": "*TRUMP: ANNOUNCING THE MOST CRUSHING ECONOMIC OPERATION ON IRAN *TRUMP: IRAN FAILED TO TAKE DEAL *TRUMP: ECONOMIC WARFARE AND ISOLATION ON AN UNPRECEDENTED SCALE *特朗普：伊朗未能达成协议 *特朗普：前所未有的经济战和孤立",
+          "tags": [],
+          "ts": 1787180379000,
+          "time": "06:59:39",
+          "receivedAt": 1787180383973,
+          "receivedTime": true
+        },
         {
           "id": "6944",
           "url": "https://t.me/BWEtradfi/6944",
@@ -1512,24 +1523,28 @@
           "time": "08:03:28",
           "receivedAt": 1785891945177,
           "receivedTime": true
-        },
-        {
-          "id": "6809",
-          "url": "https://t.me/BWEtradfi/6809",
-          "title": "DB: *新西兰第二季度就业人数环比增长0.5%；预期增长0.2%",
-          "body": "DB: *NEW ZEALAND 2Q EMPLOYMENT RISES 0.5% Q/Q; EST. +0.2% *NEW ZEALAND 2Q JOBLESS RATE 5.6%; EST. 5.4% *新西兰第二季度失业率5.6%；预期5.4%",
-          "tags": [],
-          "ts": 1785883514000,
-          "time": "06:45:14",
-          "receivedAt": 1785887003729,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228533",
+          "url": "https://t.me/jin10light/228533",
+          "title": "今日重点关注的财经数据与事件：2026年8月20日 周四",
+          "body": "① 待定 阿里巴巴公布财报 ② 09:00 中国7月Swift人民币在全球支付中占比 ③ 09:00 中国至8月20日一年期贷款市场报价利率 ④ 09:30 澳大利亚7月季调后失业率 ⑤ 14:00 德国7月PPI月率 ⑥ 14:00 瑞士7月贸易帐 ⑦ 15:00 商务部召开例行新闻发布会 ⑧ 18:00 英国8月CBI工业订单差值 ⑨ 20:30 美国至8月15日当周初请失业金人数 ⑩ 20:30 美国8月费城联储制造业指数 ⑪ 22:00 美国7月谘商会领先指标月率 ⑫ 22:30 美国至8月14日当周EIA天然气库存 ⑬ 23:10 美联储穆萨...",
+          "tags": [
+            "#阿里巴巴",
+            "#中国",
+            "#美国"
+          ],
+          "ts": 1787179876000,
+          "time": "06:51:16",
+          "receivedAt": 1787180384413,
+          "receivedTime": true
+        },
         {
           "id": "228532",
           "url": "https://t.me/jin10light/228532",
@@ -18746,21 +18761,6 @@
           ],
           "ts": 1786643954000,
           "time": "01:59:14",
-          "receivedAt": 1786645904409,
-          "receivedTime": true
-        },
-        {
-          "id": "227333",
-          "url": "https://t.me/jin10light/227333",
-          "title": "Tether完成史上最大规模首次财务审计，毕马威签发无保留意见，储备金超负债68.14亿美元",
-          "body": "#USDT #Tether #毕马威美国",
-          "tags": [
-            "#USDT",
-            "#Tether",
-            "#毕马威美国"
-          ],
-          "ts": 1786642573000,
-          "time": "01:36:13",
           "receivedAt": 1786645904409,
           "receivedTime": true
         }
