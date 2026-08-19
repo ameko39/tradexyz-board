@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-19T19:03:42.311Z",
+  "updatedAt": "2026-08-19T19:33:31.281Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6943",
+          "url": "https://t.me/BWEtradfi/6943",
+          "title": "*美国商品期货交易委员会主席塞利格：明日我将在会议上就未来监管路径提供更多细节",
+          "body": "*CFTC CHAIR SELIG: TOMORROW, I WILL PROVIDE MORE DETAILS ON REGULATORY PATH FORWARD AT MEETING",
+          "tags": [],
+          "ts": 1787167050000,
+          "time": "03:17:30",
+          "receivedAt": 1787167983573,
+          "receivedTime": true
+        },
+        {
+          "id": "6942",
+          "url": "https://t.me/BWEtradfi/6942",
+          "title": "*TRUMP：美国商品期货交易委员会（CFTC）正致力于以合法方式将 Hyperliquid 引入美国",
+          "body": "*TRUMP: CFTC WORKING TO BRING HYPERLIQUID INTO THE UNITED STATES IN A LEGAL FASHION",
+          "tags": [],
+          "ts": 1787166747000,
+          "time": "03:12:27",
+          "receivedAt": 1787167983573,
+          "receivedTime": true
+        },
         {
           "id": "6941",
           "url": "https://t.me/BWEtradfi/6941",
@@ -1561,41 +1583,113 @@
           "time": "03:52:09",
           "receivedAt": 1785874976472,
           "receivedTime": true
-        },
-        {
-          "id": "6802",
-          "url": "https://t.me/BWEtradfi/6802",
-          "title": "*SpaceX：SpaceX 与 NVIDIA 合作设计 Starmind AI1 卫星计算有效载荷",
-          "body": "*SPACEX: SPACEX IS PARTNERING WITH NVIDIA TO DESIGN THE STARMIND AI1 SATELLITE COMPUTE PAYLOAD #SPCX • #NVDA #SPCX • #NVDA",
-          "tags": [
-            "#SPCX",
-            "#NVDA"
-          ],
-          "ts": 1785871921000,
-          "time": "03:32:01",
-          "receivedAt": 1785874976472,
-          "receivedTime": true
-        },
-        {
-          "id": "6801",
-          "url": "https://t.me/BWEtradfi/6801",
-          "title": "*SpaceX：SpaceX 与 NVIDIA 达成合作",
-          "body": "*SPACEX: SPACEX IS PARTNERING WITH NVIDIA #SPCX • #NVDA #SPCX • #NVDA",
-          "tags": [
-            "#SPCX",
-            "#NVDA"
-          ],
-          "ts": 1785871902000,
-          "time": "03:31:42",
-          "receivedAt": 1785874976472,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228505",
+          "url": "https://t.me/jin10light/228505",
+          "title": "据CNBC：OpenAI首席财务官表示，公司将于2027年或更早上市。",
+          "body": "#OpenAI #美国",
+          "tags": [
+            "#OpenAI",
+            "#美国"
+          ],
+          "ts": 1787167812000,
+          "time": "03:30:12",
+          "receivedAt": 1787167984362,
+          "receivedTime": true
+        },
+        {
+          "id": "228504",
+          "url": "https://t.me/jin10light/228504",
+          "title": "美国秘密开辟霍尔木兹海峡航道，每天运出约1000万桶石油",
+          "body": "8月20日讯，两名美国官员告诉Axios，美国军方已悄然在霍尔木兹海峡建立一条进出海峡的航运通道，每天运输数百万桶石油。 尽管更广泛的战争仍陷入僵局，但这项行动取得了显著成果。 这项行动已持续数周，目前已有15至20艘油轮通过阿曼沿岸的南部航道进出霍尔木兹海峡。 官员称，每天约有1000万桶石油经由海峡运出，并进入全球能源市场，但这一数字约为战前运输量的一半。 这项由美国主导的行动正在缓解战争造成的一个最严重影响：石油供应受扰，并由此推动原油价格大幅上涨。 官员表示，尽管目前经由海峡运出的石油仍低于战前水平，但这已经对全球石油供应产生了明显影响。 #美...",
+          "tags": [
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787167693000,
+          "time": "03:28:13",
+          "receivedAt": 1787167984362,
+          "receivedTime": true
+        },
+        {
+          "id": "228503",
+          "url": "https://t.me/jin10light/228503",
+          "title": "据Axios：美国正在通过霍尔木兹海峡秘密运输石油。",
+          "body": "#美国 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787167514000,
+          "time": "03:25:14",
+          "receivedAt": 1787167984362,
+          "receivedTime": true
+        },
+        {
+          "id": "228502",
+          "url": "https://t.me/jin10light/228502",
+          "title": "消息人士：美加贸易协议预计将把美国对加拿大钢铁和铝制品的关税税率下调至25%，但同时也会包含一些配额安排。",
+          "body": "#美国 #加拿大 #钢铁",
+          "tags": [
+            "#美国",
+            "#加拿大",
+            "#钢铁"
+          ],
+          "ts": 1787166793000,
+          "time": "03:13:13",
+          "receivedAt": 1787167984362,
+          "receivedTime": true
+        },
+        {
+          "id": "228501",
+          "url": "https://t.me/jin10light/228501",
+          "title": "美国总统特朗普：非常希望利率能够下降。",
+          "body": "#特朗普 #美国",
+          "tags": [
+            "#特朗普",
+            "#美国"
+          ],
+          "ts": 1787166793000,
+          "time": "03:13:13",
+          "receivedAt": 1787167984362,
+          "receivedTime": true
+        },
+        {
+          "id": "228500",
+          "url": "https://t.me/jin10light/228500",
+          "title": "消息人士：美加贸易协议预计将把美国对加拿大汽车的最高关税税率削减至15%。",
+          "body": "#美国 #加拿大 #汽车关税",
+          "tags": [
+            "#美国",
+            "#加拿大",
+            "#汽车关税"
+          ],
+          "ts": 1787166732000,
+          "time": "03:12:12",
+          "receivedAt": 1787167984362,
+          "receivedTime": true
+        },
+        {
+          "id": "228499",
+          "url": "https://t.me/jin10light/228499",
+          "title": "现货黄金站上4500美元",
+          "body": "8月20日讯，现货黄金站上4500美元/盎司，为6月4日以来首次，日内上涨3.83%。 #黄金 #美元",
+          "tags": [
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1787166673000,
+          "time": "03:11:13",
+          "receivedAt": 1787167984362,
+          "receivedTime": true
+        },
         {
           "id": "228498",
           "url": "https://t.me/jin10light/228498",
@@ -18713,107 +18807,6 @@
           "ts": 1786633337000,
           "time": "23:02:17",
           "receivedAt": 1786635815738,
-          "receivedTime": true
-        },
-        {
-          "id": "227305",
-          "url": "https://t.me/jin10light/227305",
-          "title": "高盛：美联储7月按兵不动绝对正确，9月前应保持开放",
-          "body": "#高盛集团 #Robert Kaplan #美联储",
-          "tags": [
-            "#高盛集团",
-            "#Robert",
-            "#美联储"
-          ],
-          "ts": 1786632379000,
-          "time": "22:46:19",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227304",
-          "url": "https://t.me/jin10light/227304",
-          "title": "DeepSeek Harness成GitHub史上增长最快开源项目，约1个半小时获2.2万星",
-          "body": "#DeepSeek #GitHub",
-          "tags": [
-            "#DeepSeek",
-            "#GitHub"
-          ],
-          "ts": 1786632193000,
-          "time": "22:43:13",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227303",
-          "url": "https://t.me/jin10light/227303",
-          "title": "纳指涨幅扩大至1%，存储板块领涨，西数大涨7.4%",
-          "body": "#美股 #纳指 #希捷科技",
-          "tags": [
-            "#美股",
-            "#纳指",
-            "#希捷科技"
-          ],
-          "ts": 1786631955000,
-          "time": "22:39:15",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227302",
-          "url": "https://t.me/jin10light/227302",
-          "title": "现货黄金跌破4360美元/盎司，日内跌1.12%。",
-          "body": "#黄金 #美元",
-          "tags": [
-            "#黄金",
-            "#美元"
-          ],
-          "ts": 1786631539000,
-          "time": "22:32:19",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227301",
-          "url": "https://t.me/jin10light/227301",
-          "title": "美国7月PPI意外持平但核心指标加速，美联储鹰派仍在「逼宫」，9月加息概率降至约40%",
-          "body": "#美国 #美联储 #美元",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#美元"
-          ],
-          "ts": 1786631539000,
-          "time": "22:32:19",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227300",
-          "url": "https://t.me/jin10light/227300",
-          "title": "EIA天然气报告：截至8月7日当周，美国天然气库存总量为31530亿立方英尺，较此前一周增加360亿立方英尺，较去年同期减少250亿立方英尺，同比降幅0.8%，同时较5年均值高1980亿立方英尺，增幅6.7%。",
-          "body": "#美国 #天然气",
-          "tags": [
-            "#美国",
-            "#天然气"
-          ],
-          "ts": 1786631472000,
-          "time": "22:31:12",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227299",
-          "url": "https://t.me/jin10light/227299",
-          "title": "美国至8月7日当周EIA天然气库存 360亿立方英尺，预期320亿立方英尺，前值330亿立方英尺。",
-          "body": "#美国 #天然气",
-          "tags": [
-            "#美国",
-            "#天然气"
-          ],
-          "ts": 1786631415000,
-          "time": "22:30:15",
-          "receivedAt": 1786632671776,
           "receivedTime": true
         }
       ],
