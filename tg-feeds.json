@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T23:26:53.105Z",
+  "updatedAt": "2026-08-19T23:45:42.778Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1530,6 +1530,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228536",
+          "url": "https://t.me/jin10light/228536",
+          "title": "美财长出手，扩大国债回购，押注主动干预压低长债收益率",
+          "body": "#美国 #美股 #美联储",
+          "tags": [
+            "#美国",
+            "#美股",
+            "#美联储"
+          ],
+          "ts": 1787182756000,
+          "time": "07:39:16",
+          "receivedAt": 1787183117760,
+          "receivedTime": true
+        },
         {
           "id": "228535",
           "url": "https://t.me/jin10light/228535",
@@ -18748,20 +18763,6 @@
           "ts": 1786656434000,
           "time": "05:27:14",
           "receivedAt": 1786657635008,
-          "receivedTime": true
-        },
-        {
-          "id": "227336",
-          "url": "https://t.me/jin10light/227336",
-          "title": "惠誉确认美国信用评级为 'AA+'；展望稳定。",
-          "body": "#美国 #惠誉",
-          "tags": [
-            "#美国",
-            "#惠誉"
-          ],
-          "ts": 1786653434000,
-          "time": "04:37:14",
-          "receivedAt": 1786654731735,
           "receivedTime": true
         }
       ],
