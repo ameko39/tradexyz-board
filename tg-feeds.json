@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-19T13:02:32.175Z",
+  "updatedAt": "2026-08-19T13:51:03.692Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6936",
+          "url": "https://t.me/BWEtradfi/6936",
+          "title": "DB: 标普500指数开盘上涨0.4%，纳斯达克指数上涨0.3%",
+          "body": "DB: *S&P 500 RISES 0.4% AT THE OPEN, NASDAQ UP 0.3%",
+          "tags": [],
+          "ts": 1787146243000,
+          "time": "21:30:43",
+          "receivedAt": 1787147440313,
+          "receivedTime": true
+        },
         {
           "id": "6935",
           "url": "https://t.me/BWEtradfi/6935",
@@ -1592,24 +1603,206 @@
           "time": "22:00:14",
           "receivedAt": 1785858039393,
           "receivedTime": true
-        },
-        {
-          "id": "6794",
-          "url": "https://t.me/BWEtradfi/6794",
-          "title": "DB: 标普 500 指数高开 0.5%，纳斯达克指数上涨 0.8%",
-          "body": "DB: *S&P 500 OPENS UP 0.5%, NASDAQ RISES 0.8%",
-          "tags": [],
-          "ts": 1785850244000,
-          "time": "21:30:44",
-          "receivedAt": 1785858039393,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228447",
+          "url": "https://t.me/jin10light/228447",
+          "title": "中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性",
+          "body": "8月19日讯，中国黄金协会发布严正声明称，近期，美国国土安全部将国内部分黄金企业加入所谓“维吾尔强迫劳动预防法”（UFLPA）实体清单，禁止企业生产的商品进入美国；伦敦金银市场协会（LBMA）据此暂停相关企业合格交割资格。 相关措施缺乏事实依据，违背市场化原则，扰乱全球黄金产业链稳定，中国黄金协会对此坚决反对。 我国黄金产业链完整，具备抵御外部风险的充足韧性。 中国黄金协会敦促美方停止基于虚假信息实施制裁打压；呼吁LBMA秉持中立专业立场，尊重客观事实，纠正不当决定。 全球黄金行业应坚持互利共赢，共同维护公平有序的国际黄金市场秩序。 #中国 #美国 #...",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#黄金"
+          ],
+          "ts": 1787147417000,
+          "time": "21:50:17",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228446",
+          "url": "https://t.me/jin10light/228446",
+          "title": "两鲸鱼累计做空50,838枚ETH，约合9800万美元",
+          "body": "#ETH #Hyperliquid",
+          "tags": [
+            "#ETH",
+            "#Hyperliquid"
+          ],
+          "ts": 1787147053000,
+          "time": "21:44:13",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228445",
+          "url": "https://t.me/jin10light/228445",
+          "title": "Moderna(MRNA.O)盘中涨幅达100%，总市值站上500亿美元，公司与默沙东宣布黑色素瘤疫苗研究取得成功。",
+          "body": "默沙东(MRK.N)上涨10%，BioNTech上涨17.6%。 #Moderna #默沙东 #BioNTech",
+          "tags": [
+            "#Moderna",
+            "#默沙东",
+            "#BioNTech"
+          ],
+          "ts": 1787146877000,
+          "time": "21:41:17",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228444",
+          "url": "https://t.me/jin10light/228444",
+          "title": "美股开盘存储、光通信及半导体股走强，MRVL涨超12%",
+          "body": "#美股 #SKHY #SNDK",
+          "tags": [
+            "#美股",
+            "#SKHY",
+            "#SNDK"
+          ],
+          "ts": 1787146516000,
+          "time": "21:35:16",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228443",
+          "url": "https://t.me/jin10light/228443",
+          "title": "CBOT农产品晚间分析：私人出口商连续报告大单销售，在豆油强势和东部洪水忧虑下，大豆市场信心正在重塑。",
+          "body": "美玉米评级连续多次恶化，美国产量“真面目”何时揭开？ #美国 #大豆 #玉米",
+          "tags": [
+            "#美国",
+            "#大豆",
+            "#玉米"
+          ],
+          "ts": 1787146275000,
+          "time": "21:31:15",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228442",
+          "url": "https://t.me/jin10light/228442",
+          "title": "美股开盘，道指涨0.3%，标普500指数涨0.4%，纳指涨0.3%。",
+          "body": "Moderna(MRNA.O)暴涨90%，与默沙东宣布mRNA癌症疫苗三期试验成功，黑色素瘤治疗迎来历史性突破，默沙东(MRK.N)涨8.4%。 迈威尔科技(MRVL.O)涨9.7%，公司向谷歌发行可购买至多5897万股股票的认股权证。 SK海力士(SKHY.O)涨4.2%，拟回购注销40万亿韩元股份。 #美股 #Moderna #默沙东",
+          "tags": [
+            "#美股",
+            "#Moderna",
+            "#默沙东"
+          ],
+          "ts": 1787146274000,
+          "time": "21:31:14",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228441",
+          "url": "https://t.me/jin10light/228441",
+          "title": "美财政部公布回购相关计划后，美债收益率下行，美股期货应声走高，美元下跌，金银大涨",
+          "body": "#美股 #美元 #黄金",
+          "tags": [
+            "#美股",
+            "#美元",
+            "#黄金"
+          ],
+          "ts": 1787145794000,
+          "time": "21:23:14",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228440",
+          "url": "https://t.me/jin10light/228440",
+          "title": "沪银主力合约日内涨幅扩大至2.00%，现报15937.00元/千克。",
+          "body": "#沪银 #A股",
+          "tags": [
+            "#沪银",
+            "#A股"
+          ],
+          "ts": 1787145733000,
+          "time": "21:22:13",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228439",
+          "url": "https://t.me/jin10light/228439",
+          "title": "现货白银日内涨幅扩大至3.00%，现报65.22美元/盎司。",
+          "body": "#白银 #美元",
+          "tags": [
+            "#白银",
+            "#美元"
+          ],
+          "ts": 1787145675000,
+          "time": "21:21:15",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228438",
+          "url": "https://t.me/jin10light/228438",
+          "title": "美国财政部公布回购相关计划后，美债收益率曲线大幅趋平",
+          "body": "#美国 #美债",
+          "tags": [
+            "#美国",
+            "#美债"
+          ],
+          "ts": 1787145559000,
+          "time": "21:19:19",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228437",
+          "url": "https://t.me/jin10light/228437",
+          "title": "现货黄金日内涨幅达3%",
+          "body": "8月19日讯，现货黄金日内涨幅达3%，现报4464美元/盎司，创6月5日以来新高。 纽约期金日内大涨3%，现报4521.30美元/盎司。 #黄金 #美元",
+          "tags": [
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1787145558000,
+          "time": "21:19:18",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228436",
+          "url": "https://t.me/jin10light/228436",
+          "title": "美元指数DXY向下触及99，为6月以来首次",
+          "body": "",
+          "tags": [],
+          "ts": 1787145376000,
+          "time": "21:16:16",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228435",
+          "url": "https://t.me/jin10light/228435",
+          "title": "某巨鲸9336万美元BTC空单面临清算，触发价65,045.06美元",
+          "body": "",
+          "tags": [],
+          "ts": 1787145253000,
+          "time": "21:14:13",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
+        {
+          "id": "228434",
+          "url": "https://t.me/jin10light/228434",
+          "title": "美股盘前要闻一览：美财政部扩大长期国债回购操作规模，SK海力士承诺将至少50%现金流回馈股东，迈威尔科技与谷歌达成定制芯片协议",
+          "body": "",
+          "tags": [],
+          "ts": 1787144597000,
+          "time": "21:03:17",
+          "receivedAt": 1787147441089,
+          "receivedTime": true
+        },
         {
           "id": "228433",
           "url": "https://t.me/jin10light/228433",
@@ -18641,206 +18834,6 @@
           "ts": 1786623614000,
           "time": "20:20:14",
           "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227247",
-          "url": "https://t.me/jin10light/227247",
-          "title": "DeepSeek涨价后泯然众人？高峰期Flash已经贵过GPT-5.6 Luna",
-          "body": "#DeepSeek #OpenAI #GPT -5.6 Luna",
-          "tags": [
-            "#DeepSeek",
-            "#OpenAI",
-            "#GPT"
-          ],
-          "ts": 1786623555000,
-          "time": "20:19:15",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227246",
-          "url": "https://t.me/jin10light/227246",
-          "title": "Sharplink宣布通过Lido质押2亿美元ETH，获取wstETH并托管于Anchorage Digital",
-          "body": "#ETH #Lido #Sharplink",
-          "tags": [
-            "#ETH",
-            "#Lido",
-            "#Sharplink"
-          ],
-          "ts": 1786623316000,
-          "time": "20:15:16",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227245",
-          "url": "https://t.me/jin10light/227245",
-          "title": "伊朗：未经批准 任何船只都不能安全通过霍尔木兹海峡",
-          "body": "8月13日讯，据伊朗伊斯兰共和国广播电视台报道，伊朗联合军事司令部发言人表示：“未经批准，任何船只都不能安全通过霍尔木兹海峡。 任何船只在霍尔木兹海峡通行必须获得伊朗的许可，伊朗完全控制霍尔木兹海峡。 伊朗军队监视美国在该地区的动向，特朗普关于控制海峡的说法是谎言。 ” ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [],
-          "ts": 1786623073000,
-          "time": "20:11:13",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227244",
-          "url": "https://t.me/jin10light/227244",
-          "title": "某巨鲸动用近5000万美元头寸预测美股后续反弹，20倍做多纳指100",
-          "body": "#美股 #XYZ100",
-          "tags": [
-            "#美股",
-            "#XYZ100"
-          ],
-          "ts": 1786623014000,
-          "time": "20:10:14",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227243",
-          "url": "https://t.me/jin10light/227243",
-          "title": "Michael Saylor提出数字资产「货币光谱」：比特币为数字资本，STRC为数字信用，稳定币为数字通货",
-          "body": "#Michael Saylor #BTC #USDT",
-          "tags": [
-            "#Michael",
-            "#BTC",
-            "#USDT"
-          ],
-          "ts": 1786622894000,
-          "time": "20:08:14",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227242",
-          "url": "https://t.me/jin10light/227242",
-          "title": "2026年FOMC票委、克利夫兰联储主席哈玛克将于十分钟后发表讲话。",
-          "body": "#美国 #美联储 #哈玛克",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#哈玛克"
-          ],
-          "ts": 1786622775000,
-          "time": "20:06:15",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227241",
-          "url": "https://t.me/jin10light/227241",
-          "title": "Robinhood发布7月运营数据：加密货币交易量表现疲软，同比大跌62%",
-          "body": "#Robinhood Markets #Inc . #加密货币",
-          "tags": [
-            "#Robinhood",
-            "#Inc",
-            "#加密货币"
-          ],
-          "ts": 1786622536000,
-          "time": "20:02:16",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227240",
-          "url": "https://t.me/jin10light/227240",
-          "title": "Strategy将于8月17日举行投资者直播问答，Michael Saylor将出席",
-          "body": "#Strategy #Michael Saylor #BTC",
-          "tags": [
-            "#Strategy",
-            "#Michael",
-            "#BTC"
-          ],
-          "ts": 1786622112000,
-          "time": "19:55:12",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227239",
-          "url": "https://t.me/jin10light/227239",
-          "title": "据伊朗媒体Fars News：伊朗在霍尔木兹海峡的石油泄漏清理工作进入最后阶段。",
-          "body": "#伊朗 #霍尔木兹海峡 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1786622057000,
-          "time": "19:54:17",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227238",
-          "url": "https://t.me/jin10light/227238",
-          "title": "以太坊质押比例升至历史新高34.7%，质押收益率小幅降至2.6%",
-          "body": "#ETH #Staking Rewards",
-          "tags": [
-            "#ETH",
-            "#Staking"
-          ],
-          "ts": 1786621872000,
-          "time": "19:51:12",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227237",
-          "url": "https://t.me/jin10light/227237",
-          "title": "京东二季度财报电话会将于十分钟后举行。",
-          "body": "#京东",
-          "tags": [
-            "#京东"
-          ],
-          "ts": 1786621814000,
-          "time": "19:50:14",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227236",
-          "url": "https://t.me/jin10light/227236",
-          "title": "日本股市散户加速使用杠杆参与AI行情，融资交易金额创2016年以来最高水平",
-          "body": "#日本 #AI概念股 #铠侠控股",
-          "tags": [
-            "#日本",
-            "#AI概念股",
-            "#铠侠控股"
-          ],
-          "ts": 1786620974000,
-          "time": "19:36:14",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227235",
-          "url": "https://t.me/jin10light/227235",
-          "title": "DeepSeek-V4正式版大涨价：Pro高峰输出暴涨4.5倍",
-          "body": "#DeepSeek #V4 API #北京",
-          "tags": [
-            "#DeepSeek",
-            "#V4",
-            "#北京"
-          ],
-          "ts": 1786620676000,
-          "time": "19:31:16",
-          "receivedAt": 1786620789241,
-          "receivedTime": true
-        },
-        {
-          "id": "227234",
-          "url": "https://t.me/jin10light/227234",
-          "title": "“铁资源开发计划”国内铁矿项目开发专题座谈会召开",
-          "body": "8月13日讯，据中国钢铁工业协会消息，8月11日，中国钢铁工业协会副会长夏农主持召开“铁资源开发计划”国内铁矿项目开发专题座谈会。 会议认为，国内铁矿资源开发工作已取得阶段性进展，但距离实现资源保障目标仍有差距。 下一步，要聚焦关键环节，强化部门协同，建立健全常态化沟通机制，及时梳理反馈企业实际困难。 动态更新重点铁矿项目清单，推动重点铁矿项目落地投产，切实提升国内铁矿资源保障能力，为钢铁行业平稳健康发展筑牢资源根基。 #夏农 #铁矿 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#夏农",
-            "#铁矿"
-          ],
-          "ts": 1786620556000,
-          "time": "19:29:16",
-          "receivedAt": 1786620789241,
           "receivedTime": true
         }
       ],
