@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-19T01:41:33.246Z",
+  "updatedAt": "2026-08-19T02:43:31.264Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6933",
+          "url": "https://t.me/BWEtradfi/6933",
+          "title": "*特朗普：暂停原定于明日上午对加拿大征收的50%关税，为期三天",
+          "body": "*TRUMP: PAUSED 50 PERCENT TARIFFS AGAINST CANADA SCHEDULED FOR TOMORROW MORNING FOR THREE DAYS *TRUMP: CANADA AND USA HAVE DEAL SUBJECT TO FINALIZATION OF DOCUMENTS *TRUMP: KEYSTONE XL PIPELINE KILLED BY SLEEPY JOE BIDEN MAY BE AWOKEN FROM THE GRAVE $SOBO *特朗普：加美协议尚待最终文件敲定 *特朗普：被瞌睡乔·拜登扼杀的基斯通XL输油管道项...",
+          "tags": [],
+          "ts": 1787105812000,
+          "time": "10:16:52",
+          "receivedAt": 1787107397681,
+          "receivedTime": true
+        },
         {
           "id": "6932",
           "url": "https://t.me/BWEtradfi/6932",
@@ -1577,6 +1588,337 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228288",
+          "url": "https://t.me/jin10light/228288",
+          "title": "A股存储芯片板块持续走低，托伦斯、精智达、麦捷科技、京仪装备、盛美上海、迈为股份、西测测试、香农芯创、华虹宏力、国科微、神工股份跌超10%，晶升股份、德福科技、万通发展、深科达、雅克科技跟跌。",
+          "body": "#A股 #存储芯片",
+          "tags": [
+            "#A股",
+            "#存储芯片"
+          ],
+          "ts": 1787107336000,
+          "time": "10:42:16",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228287",
+          "url": "https://t.me/jin10light/228287",
+          "title": "美银调查：市场乐观情绪触及四年高位，反向信号已触发",
+          "body": "#美国 #美联储 #黄金",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#黄金"
+          ],
+          "ts": 1787107335000,
+          "time": "10:42:15",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228286",
+          "url": "https://t.me/jin10light/228286",
+          "title": "近4小时宇树科技合约全网爆仓量第一，空头单笔最大爆仓超57万美元",
+          "body": "#宇树科技",
+          "tags": [
+            "#宇树科技"
+          ],
+          "ts": 1787107213000,
+          "time": "10:40:13",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228285",
+          "url": "https://t.me/jin10light/228285",
+          "title": "富时中国A50指数期货跌超2%。",
+          "body": "#A股 #中国",
+          "tags": [
+            "#A股",
+            "#中国"
+          ],
+          "ts": 1787106853000,
+          "time": "10:34:13",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228284",
+          "url": "https://t.me/jin10light/228284",
+          "title": "科创50指数跌超5%，成分股中，芯原股份、华虹宏力双双跌超9%。",
+          "body": "#科创50 #芯原股份 #华虹宏力",
+          "tags": [
+            "#科创50",
+            "#芯原股份",
+            "#华虹宏力"
+          ],
+          "ts": 1787106676000,
+          "time": "10:31:16",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228283",
+          "url": "https://t.me/jin10light/228283",
+          "title": "Binance合约上线宇树科技",
+          "body": "#Binance #宇树科技",
+          "tags": [
+            "#Binance",
+            "#宇树科技"
+          ],
+          "ts": 1787106676000,
+          "time": "10:31:16",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228282",
+          "url": "https://t.me/jin10light/228282",
+          "title": "港股短线走高，恒指转涨，恒生科技指数跌幅收窄至1.1%，腾讯控股( 00700.HK )短线拉升，现涨近1%。",
+          "body": "#港股 #恒指 #腾讯控股",
+          "tags": [
+            "#港股",
+            "#恒指",
+            "#腾讯控股"
+          ],
+          "ts": 1787106252000,
+          "time": "10:24:12",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228281",
+          "url": "https://t.me/jin10light/228281",
+          "title": "创业板指跌4%，深证成指跌3.3%，沪指跌1.79%，科创50指数跌4.8%，全市场超4900只个股下跌，MLCC概念、CPO板块、存储芯片、人形机器人板块跌幅居前。",
+          "body": "#创业板指 #深证成指 #沪指",
+          "tags": [
+            "#创业板指",
+            "#深证成指",
+            "#沪指"
+          ],
+          "ts": 1787106015000,
+          "time": "10:20:15",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228280",
+          "url": "https://t.me/jin10light/228280",
+          "title": "Coldcard超千枚比特币被盗事件追踪：首轮攻击者身份或已被FBI掌握",
+          "body": "#BTC #Coldcard #Block",
+          "tags": [
+            "#BTC",
+            "#Coldcard",
+            "#Block"
+          ],
+          "ts": 1787105952000,
+          "time": "10:19:12",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228279",
+          "url": "https://t.me/jin10light/228279",
+          "title": "美国总统特朗普：我已暂停对加拿大加征50%关税，为期三天。",
+          "body": "#特朗普 #美国 #加拿大",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#加拿大"
+          ],
+          "ts": 1787105892000,
+          "time": "10:18:12",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228278",
+          "url": "https://t.me/jin10light/228278",
+          "title": "港股芯片股走低，天数智芯( 09903.HK )跌11%，华虹宏力( 01347.HK )跌超10%，芯智控股 ( 02166.HK )跌超7%，兆易创新( 03986.HK )跌6.8%。",
+          "body": "#港股 #芯片股",
+          "tags": [
+            "#港股",
+            "#芯片股"
+          ],
+          "ts": 1787105774000,
+          "time": "10:16:14",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228277",
+          "url": "https://t.me/jin10light/228277",
+          "title": "某巨鲸300万美元入场做多宇树，成Trade.xyz上宇树第二大多头",
+          "body": "#UNITREE #Trade .xyz",
+          "tags": [
+            "#UNITREE",
+            "#Trade"
+          ],
+          "ts": 1787105654000,
+          "time": "10:14:14",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228276",
+          "url": "https://t.me/jin10light/228276",
+          "title": "雷军打新宇树科技狂赚152亿",
+          "body": "#宇树科技 #科创板 #雷军",
+          "tags": [
+            "#宇树科技",
+            "#科创板",
+            "#雷军"
+          ],
+          "ts": 1787105354000,
+          "time": "10:09:14",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228275",
+          "url": "https://t.me/jin10light/228275",
+          "title": "宇树科技CEO王兴兴成为90后新首富，身家超千亿元",
+          "body": "#宇树科技 #王兴兴 #刘靖康",
+          "tags": [
+            "#宇树科技",
+            "#王兴兴",
+            "#刘靖康"
+          ],
+          "ts": 1787105175000,
+          "time": "10:06:15",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228274",
+          "url": "https://t.me/jin10light/228274",
+          "title": "Trade.xyz上宇树第一大多头盈利超130万美元，已完成首轮减仓",
+          "body": "#宇树科技 #Trade .xyz",
+          "tags": [
+            "#宇树科技",
+            "#Trade"
+          ],
+          "ts": 1787104874000,
+          "time": "10:01:14",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228273",
+          "url": "https://t.me/jin10light/228273",
+          "title": "宇树科技打新开盘最高达7.3倍收益，利润约47.5万元人民币",
+          "body": "#宇树科技 #A股 #科创板",
+          "tags": [
+            "#宇树科技",
+            "#A股",
+            "#科创板"
+          ],
+          "ts": 1787104452000,
+          "time": "09:54:12",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228272",
+          "url": "https://t.me/jin10light/228272",
+          "title": "N双英涨超200%，触发二次临停，成交额超3.5亿元。",
+          "body": "#N双英 #A股",
+          "tags": [
+            "#N双英",
+            "#A股"
+          ],
+          "ts": 1787104393000,
+          "time": "09:53:13",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228271",
+          "url": "https://t.me/jin10light/228271",
+          "title": "A股人形机器人板块持续走低，秦安股份触及跌停，绿的谐波、丰光精密、昊志机电、上纬新材跌超10%，中大力德、巨轮智能、长盛轴承、晋拓股份、斯菱智驱跟跌。",
+          "body": "#A股 #人形机器人",
+          "tags": [
+            "#A股",
+            "#人形机器人"
+          ],
+          "ts": 1787104214000,
+          "time": "09:50:14",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228270",
+          "url": "https://t.me/jin10light/228270",
+          "title": "N宇树成交额超100亿元，股价现报900.8元，涨幅回落至500%以内。",
+          "body": "#N宇树",
+          "tags": [
+            "#N宇树"
+          ],
+          "ts": 1787104032000,
+          "time": "09:47:12",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228269",
+          "url": "https://t.me/jin10light/228269",
+          "title": "梁文锋旗下机构打新宇树科技浮盈超11亿元",
+          "body": "#宇树科技 #科创板 #梁文锋",
+          "tags": [
+            "#宇树科技",
+            "#科创板",
+            "#梁文锋"
+          ],
+          "ts": 1787103972000,
+          "time": "09:46:12",
+          "receivedAt": 1787107399193,
+          "receivedTime": true
+        },
+        {
+          "id": "228268",
+          "url": "https://t.me/jin10light/228268",
+          "title": "多只机器人ETF跌超5%",
+          "body": "8月19日讯，人形机器人主题ETF走弱。 机器人ETF富国、机器人ETF广发、机器人ETF鹏华等多只机器人ETF跌超5%。 #机器人ETF #富国 #广发",
+          "tags": [
+            "#机器人ETF",
+            "#富国",
+            "#广发"
+          ],
+          "ts": 1787103914000,
+          "time": "09:45:14",
+          "receivedAt": 1787107399369,
+          "receivedTime": true
+        },
+        {
+          "id": "228267",
+          "url": "https://t.me/jin10light/228267",
+          "title": "宇树UNITREE开盘大涨，Hyperliquid最大空头浮亏超52万美元",
+          "body": "#UNITREE #Hyperliquid",
+          "tags": [
+            "#UNITREE",
+            "#Hyperliquid"
+          ],
+          "ts": 1787103914000,
+          "time": "09:45:14",
+          "receivedAt": 1787107399369,
+          "receivedTime": true
+        },
+        {
+          "id": "228266",
+          "url": "https://t.me/jin10light/228266",
+          "title": "新股N双英涨143.9%，触发临停，双英集团主营汽车座椅、汽车内外饰件研发、生产和销售。",
+          "body": "#N双英 #双英集团",
+          "tags": [
+            "#N双英",
+            "#双英集团"
+          ],
+          "ts": 1787103854000,
+          "time": "09:44:14",
+          "receivedAt": 1787107399369,
+          "receivedTime": true
+        },
         {
           "id": "228265",
           "url": "https://t.me/jin10light/228265",
@@ -18476,343 +18818,6 @@
           "ts": 1786588692000,
           "time": "10:38:12",
           "receivedAt": 1786595266747,
-          "receivedTime": true
-        },
-        {
-          "id": "227088",
-          "url": "https://t.me/jin10light/227088",
-          "title": "高盛：AI投资正在挤占部分资本开支，但还不足以改写美国宏观周期",
-          "body": "#美国 #美股 #英伟达",
-          "tags": [
-            "#美国",
-            "#美股",
-            "#英伟达"
-          ],
-          "ts": 1786588632000,
-          "time": "10:37:12",
-          "receivedAt": 1786595266747,
-          "receivedTime": true
-        },
-        {
-          "id": "227087",
-          "url": "https://t.me/jin10light/227087",
-          "title": "全球16国将参加第二届世界人形机器人运动会 队伍总量同比增长138%",
-          "body": "8月13日讯，第二届世界人形机器人运动会将于8月22日在国家速滑馆“冰丝带”开幕，本届运动会由北京市人民政府、中央广播电视总台等联合主办。 本届赛事共吸引了六大洲16个国家的666支队伍、2056台机器人同台竞技，队伍总量同比增长138%，机器人数量翻了两番。 国际方面，美国、德国、日本等机器人赛队悉数登场，巴西还集结了五支机器人足球世界杯冠军队伍，组建起一支国家联队参赛。 国内方面，157家企业、641支队伍、1975台机器人齐聚赛场，第一梯队企业基本全部到场，27所985高校参赛，国内队伍覆盖30个省、自治区、直辖市和特别行政区，实现“遍地开花”。...",
-          "tags": [
-            "#北京",
-            "#美国",
-            "#德国"
-          ],
-          "ts": 1786588455000,
-          "time": "10:34:15",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227086",
-          "url": "https://t.me/jin10light/227086",
-          "title": "「Pro信号兑现」完整吃下SPCX约10%主升浪，昨晚TWAP买入者如期盈超161%",
-          "body": "",
-          "tags": [],
-          "ts": 1786588394000,
-          "time": "10:33:14",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227085",
-          "url": "https://t.me/jin10light/227085",
-          "title": "AI代码测试也起飞：Blacksmith估值不到一年涨近10倍",
-          "body": "#Blacksmith #Peak XV Partners #GV",
-          "tags": [
-            "#Blacksmith",
-            "#Peak",
-            "#GV"
-          ],
-          "ts": 1786587794000,
-          "time": "10:23:14",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227084",
-          "url": "https://t.me/jin10light/227084",
-          "title": "全国碳排放权交易市场累计成交量突破9亿吨",
-          "body": "8月13日讯，生态环境部部长黄润秋在8月13日国务院新闻办公室举行的“开局起步‘十五五’”系列主题新闻发布会上介绍，截至7月底，全国碳排放权交易市场累计成交量突破9.3亿吨，在推动行业低成本降碳的同时，有力促进绿色低碳转型。 #黄润秋 #中国",
-          "tags": [
-            "#黄润秋",
-            "#中国"
-          ],
-          "ts": 1786586957000,
-          "time": "10:09:17",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227083",
-          "url": "https://t.me/jin10light/227083",
-          "title": "A股CRO概念拉升走强，博济医药20CM封板涨停，皓元医药涨超9%，万邦医药、昭衍新药等跟涨。",
-          "body": "#A股 #CRO #博济医药",
-          "tags": [
-            "#A股",
-            "#CRO",
-            "#博济医药"
-          ],
-          "ts": 1786586596000,
-          "time": "10:03:16",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227082",
-          "url": "https://t.me/jin10light/227082",
-          "title": "Uniswap创始人回应pools.trade测试代币：已放弃创建者费用并设置自动买入销毁",
-          "body": "#Uniswap #Hayden Adams",
-          "tags": [
-            "#Uniswap",
-            "#Hayden"
-          ],
-          "ts": 1786586595000,
-          "time": "10:03:15",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227081",
-          "url": "https://t.me/jin10light/227081",
-          "title": "A股文化传媒板块持续拉升，读客文化20cm涨停，风语筑、引力传媒、省广集团、出版传媒涨停，易点天下、中信出版、果麦文化跟涨。",
-          "body": "#A股 #文化传媒 #读客文化",
-          "tags": [
-            "#A股",
-            "#文化传媒",
-            "#读客文化"
-          ],
-          "ts": 1786586234000,
-          "time": "09:57:14",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227080",
-          "url": "https://t.me/jin10light/227080",
-          "title": "AI代码审查也能成独角兽：CodeRabbit融资1.43亿美元，估值15亿美元",
-          "body": "#CodeRabbit #Atomico #Japan",
-          "tags": [
-            "#CodeRabbit",
-            "#Atomico",
-            "#Japan"
-          ],
-          "ts": 1786586174000,
-          "time": "09:56:14",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227079",
-          "url": "https://t.me/jin10light/227079",
-          "title": "创业板指持续走强，盘初涨逾2%，算力租赁、存储芯片、CPO等板块涨幅居前。",
-          "body": "#创业板指 #算力租赁 #存储芯片",
-          "tags": [
-            "#创业板指",
-            "#算力租赁",
-            "#存储芯片"
-          ],
-          "ts": 1786585752000,
-          "time": "09:49:12",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227078",
-          "url": "https://t.me/jin10light/227078",
-          "title": "A股CPO概念短线拉升，共进股份涨停，炬光科技、源杰科技、联特科技、天孚通信、太辰光等纷纷走高。",
-          "body": "#A股 #CPO #共进股份",
-          "tags": [
-            "#A股",
-            "#CPO",
-            "#共进股份"
-          ],
-          "ts": 1786585633000,
-          "time": "09:47:13",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227077",
-          "url": "https://t.me/jin10light/227077",
-          "title": "南方两倍做多SK海力士大涨13%",
-          "body": "#SK海力士 #三星电子 #韩国",
-          "tags": [
-            "#SK海力士",
-            "#三星电子",
-            "#韩国"
-          ],
-          "ts": 1786585512000,
-          "time": "09:45:12",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227076",
-          "url": "https://t.me/jin10light/227076",
-          "title": "A股创新药板块探底回升，博济医药涨超12%，瑞联新材、誉衡药业、康龙化成、百普赛斯、普洛药业跟涨。",
-          "body": "#A股 #创新药 #博济医药",
-          "tags": [
-            "#A股",
-            "#创新药",
-            "#博济医药"
-          ],
-          "ts": 1786585455000,
-          "time": "09:44:15",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227075",
-          "url": "https://t.me/jin10light/227075",
-          "title": "据华尔街日报：消息人士称，墨西哥在美墨加协定谈判中推动降低汽车关税。",
-          "body": "#墨西哥 #美墨加协定 #汽车关税",
-          "tags": [
-            "#墨西哥",
-            "#美墨加协定",
-            "#汽车关税"
-          ],
-          "ts": 1786585455000,
-          "time": "09:44:15",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227074",
-          "url": "https://t.me/jin10light/227074",
-          "title": "Codex活跃用户突破1500万，OpenAI再送全员额度重置",
-          "body": "#OpenAI #Codex #Thibault Sottiaux",
-          "tags": [
-            "#OpenAI",
-            "#Codex",
-            "#Thibault"
-          ],
-          "ts": 1786585155000,
-          "time": "09:39:15",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227073",
-          "url": "https://t.me/jin10light/227073",
-          "title": "A股创新药板块盘初走弱，百花医药跌近5%，甘李药业跌超4%，浙江医药、博瑞医药等跟跌。",
-          "body": "#A股 #创新药 #百花医药",
-          "tags": [
-            "#A股",
-            "#创新药",
-            "#百花医药"
-          ],
-          "ts": 1786584913000,
-          "time": "09:35:13",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227072",
-          "url": "https://t.me/jin10light/227072",
-          "title": "AI热潮卷土重来，韩国KOSPI指数进入技术性牛市",
-          "body": "#韩国 #KOSPI #三星电子",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#三星电子"
-          ],
-          "ts": 1786584794000,
-          "time": "09:33:14",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227071",
-          "url": "https://t.me/jin10light/227071",
-          "title": "Anthropic据悉将斥资60亿美元收购AI初创公司Decart",
-          "body": "#Anthropic #Decart",
-          "tags": [
-            "#Anthropic",
-            "#Decart"
-          ],
-          "ts": 1786584612000,
-          "time": "09:30:12",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227070",
-          "url": "https://t.me/jin10light/227070",
-          "title": "A股通信设备板块高开，移远通信涨停，通鼎互联逼近涨停，广和通、星网锐捷、永鼎股份纷纷高开。",
-          "body": "#A股 #通信设备 #移远通信",
-          "tags": [
-            "#A股",
-            "#通信设备",
-            "#移远通信"
-          ],
-          "ts": 1786584492000,
-          "time": "09:28:12",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227069",
-          "url": "https://t.me/jin10light/227069",
-          "title": "A股开盘，上证指数涨0.27%，深证成指涨0.85%，创业板指涨1.52%。",
-          "body": "#A股 #上证指数 #创业板指",
-          "tags": [
-            "#A股",
-            "#上证指数",
-            "#创业板指"
-          ],
-          "ts": 1786584434000,
-          "time": "09:27:14",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227068",
-          "url": "https://t.me/jin10light/227068",
-          "title": "港股开盘，恒指开跌0.6%，科指开跌0.29%，腾讯控股( 00700.HK )绩后开跌3.29%。",
-          "body": "#港股 #腾讯控股 #恒指",
-          "tags": [
-            "#港股",
-            "#腾讯控股",
-            "#恒指"
-          ],
-          "ts": 1786584132000,
-          "time": "09:22:12",
-          "receivedAt": 1786588614203,
-          "receivedTime": true
-        },
-        {
-          "id": "227067",
-          "url": "https://t.me/jin10light/227067",
-          "title": "中国央行：根据公开市场业务一级交易商的需求，2026年8月13日7天期逆回购操作量为零。",
-          "body": "#中国 #央行",
-          "tags": [
-            "#中国",
-            "#央行"
-          ],
-          "ts": 1786584075000,
-          "time": "09:21:15",
-          "receivedAt": 1786588614497,
-          "receivedTime": true
-        },
-        {
-          "id": "227066",
-          "url": "https://t.me/jin10light/227066",
-          "title": "2026年8月13日银行间外汇市场人民币汇率中间价",
-          "body": "美元/人民币报6.7888，上调（人民币贬值）6点； 欧元/人民币报7.8014，下调81点；港元/人民币报0.86518，上调0.3点； 英镑/人民币报9.1355，下调52点；澳元/人民币报4.7797，上调4点； 加元/人民币报4.8526，下调48点；100日元/人民币报4.2508，下调40点； 人民币/俄罗斯卢布报12.2752，上调496点；新西兰元/人民币报3.9652，下调115点； 人民币/林吉特报0.60297，下调10.3点；瑞士法郎/人民币报8.3259，下调202点； 新加坡元/人民币报5.2882，下调2点。 #美元 #人...",
-          "tags": [
-            "#美元",
-            "#人民币",
-            "#中国"
-          ],
-          "ts": 1786583835000,
-          "time": "09:17:15",
-          "receivedAt": 1786588614497,
           "receivedTime": true
         }
       ],
