@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T04:09:07.267Z",
+  "updatedAt": "2026-08-19T04:48:40.834Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1588,6 +1588,47 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228311",
+          "url": "https://t.me/jin10light/228311",
+          "title": "日经225指数跌超3%。",
+          "body": "",
+          "tags": [],
+          "ts": 1787114652000,
+          "time": "12:44:12",
+          "receivedAt": 1787114901387,
+          "receivedTime": true
+        },
+        {
+          "id": "228310",
+          "url": "https://t.me/jin10light/228310",
+          "title": "Avalanche走马换将，Ava Labs迎来新总裁",
+          "body": "#Ava Labs #AVAX #John Wu",
+          "tags": [
+            "#Ava",
+            "#AVAX",
+            "#John"
+          ],
+          "ts": 1787114594000,
+          "time": "12:43:14",
+          "receivedAt": 1787114901387,
+          "receivedTime": true
+        },
+        {
+          "id": "228309",
+          "url": "https://t.me/jin10light/228309",
+          "title": "OpenAI、Anthropic收入不及市场预期，多头拥挤结合空头加码放大波动",
+          "body": "#美股 #AI #OpenAI",
+          "tags": [
+            "#美股",
+            "#AI",
+            "#OpenAI"
+          ],
+          "ts": 1787113274000,
+          "time": "12:21:14",
+          "receivedAt": 1787114901387,
+          "receivedTime": true
+        },
         {
           "id": "228308",
           "url": "https://t.me/jin10light/228308",
@@ -18772,50 +18813,6 @@
           "time": "12:31:16",
           "receivedAt": 1786600576203,
           "receivedTime": true
-        },
-        {
-          "id": "227111",
-          "url": "https://t.me/jin10light/227111",
-          "title": "昨日比特币ETF净流出6110万美元，以太坊ETF净流入740万美元",
-          "body": "#美国 #BTC #ETH",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1786594575000,
-          "time": "12:16:15",
-          "receivedAt": 1786595266393,
-          "receivedTime": true
-        },
-        {
-          "id": "227110",
-          "url": "https://t.me/jin10light/227110",
-          "title": "巨鲸DoshiAtoll 40倍比特币空单加仓至2135枚，成为Hyperliquid上最大空单持仓",
-          "body": "#BTC #Hyperliquid ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#BTC",
-            "#Hyperliquid"
-          ],
-          "ts": 1786593855000,
-          "time": "12:04:15",
-          "receivedAt": 1786595266393,
-          "receivedTime": true
-        },
-        {
-          "id": "227109",
-          "url": "https://t.me/jin10light/227109",
-          "title": "1. DeepSeek V4 Pro正式版API更新：多项测试性能接近Fable 5。",
-          "body": "2. 腾讯二季度现金流转负138亿，剔除算力预付款后376亿。 3. 腾讯刘炽平：逐步建立高盈利AI原生业务，最坏情况下可选择出租基础设施。 4. 上海：推广发放“算力券”“模型券”“语料券”，降低公共数据、算力、模型、语料等数字要素的使用成本。 5. 据悉苹果洽谈向出版商付费，以提升其人工智能Siri。 6. 消息人士：谷歌重组部门全力发展Gemini。 7. 全球最大单体智算中心投产，一度绿电可生成30秒AI文生视频。 8. 国务院国资委：围绕云计算、网络、人工智能、量子等根技术，加力关键核心技术攻关。 9. Anthropic拟60亿美元收购De...",
-          "tags": [
-            "#腾讯",
-            "#上海",
-            "#Anthropic"
-          ],
-          "ts": 1786593315000,
-          "time": "11:55:15",
-          "receivedAt": 1786595266393,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -18823,6 +18820,17 @@
     "poly": {
       "channel": "PolyBeats_Bot",
       "items": [
+        {
+          "id": "1763",
+          "url": "https://t.me/PolyBeats_Bot/1763",
+          "title": "OpenAI 暂停 Astra 部分开发，预测 GPT 模型 7 笔全胜的账户再次出手预测 Astra 发布时间",
+          "body": "在预测市场 Polymarket 上，1 名聪明钱买入 Astra 模型发布时间相关市场。 账户1 与本市场最佳相关板块为 GPT ，板块净盈利 $1.4k。其在该板块共 7 笔已结算交易的胜率为 7/7（100%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 1 笔。",
+          "tags": [],
+          "ts": 1787113498000,
+          "time": "12:24:58",
+          "receivedAt": 1787114919091,
+          "receivedTime": true
+        },
         {
           "id": "1762",
           "url": "https://t.me/PolyBeats_Bot/1762",
@@ -20014,7 +20022,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
