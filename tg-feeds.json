@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T18:31:02.695Z",
+  "updatedAt": "2026-08-19T19:03:42.311Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1591,11 +1591,26 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228498",
+          "url": "https://t.me/jin10light/228498",
+          "title": "美联储会议纪要警示AI股票风险 提及国债波动风险",
+          "body": "8月20日讯，美联储会议纪要提到，在讨论金融稳定时，一些与会者重点关注了与快速扩建人工智能（AI）相关基础设施融资有关的脆弱性。 这些与会者指出，AI相关企业较高的股票估值，反映出市场对该行业长期盈利前景持乐观判断。 他们注意到，如果市场大幅下调对这些企业盈利前景的评估，可能会引发资产价格的广泛重新定价，导致金融环境收紧，并给那些直接或间接暴露于该行业的金融机构带来压力。 此外，两名与会者讨论了美国国债市场价格波动加剧可能对金融体系造成不利影响的情况，以及如何降低此类事件发生的可能性。 #美联储 #美股 #AI",
+          "tags": [
+            "#美联储",
+            "#美股",
+            "#AI"
+          ],
+          "ts": 1787165116000,
+          "time": "02:45:16",
+          "receivedAt": 1787166201753,
+          "receivedTime": true
+        },
         {
           "id": "228497",
           "url": "https://t.me/jin10light/228497",
@@ -18798,20 +18813,6 @@
           ],
           "ts": 1786631415000,
           "time": "22:30:15",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227298",
-          "url": "https://t.me/jin10light/227298",
-          "title": "AI开始给自己提速：Grok 4.6提交3个优化已进入Grok Chat生产环境",
-          "body": "#Grok 4.6 #SpaceXAI",
-          "tags": [
-            "#Grok",
-            "#SpaceXAI"
-          ],
-          "ts": 1786630994000,
-          "time": "22:23:14",
           "receivedAt": 1786632671776,
           "receivedTime": true
         }
