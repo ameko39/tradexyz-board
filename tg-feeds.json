@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T15:54:40.351Z",
+  "updatedAt": "2026-08-19T16:18:49.226Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1578,20 +1578,6 @@
           "time": "00:21:29",
           "receivedAt": 1785863917981,
           "receivedTime": true
-        },
-        {
-          "id": "6797",
-          "url": "https://t.me/BWEtradfi/6797",
-          "title": "*消息人士称，特朗普政府正准备对用于芯片和太阳能电池板的多晶硅及其衍生产品的进口设定价格下限和关税。",
-          "body": "*TRUMP ADMINISTRATION PREPARING TO SET PRICE FLOOR, TARIFFS ON IMPORTS OF POLYSILICON AND DERIVATIVE PRODUCTS USED IN CHIPS AND SOLAR PANELS-SOURCES #FSLR • #ENPH #FSLR • #ENPH",
-          "tags": [
-            "#FSLR",
-            "#ENPH"
-          ],
-          "ts": 1785859369000,
-          "time": "00:02:49",
-          "receivedAt": 1785863917981,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1599,6 +1585,51 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228484",
+          "url": "https://t.me/jin10light/228484",
+          "title": "Coinbase通过Hyperliquid将永续合约引入Base App，最高支持50倍杠杆",
+          "body": "#Coinbase #Base #Hyperliquid",
+          "tags": [
+            "#Coinbase",
+            "#Base",
+            "#Hyperliquid"
+          ],
+          "ts": 1787155996000,
+          "time": "00:13:16",
+          "receivedAt": 1787156295823,
+          "receivedTime": true
+        },
+        {
+          "id": "228483",
+          "url": "https://t.me/jin10light/228483",
+          "title": "分析师：比特币若站稳66,600美元关键阻力位，或将涨至76,000美元",
+          "body": "#BTC #Aksel Kibar #Tech Charts",
+          "tags": [
+            "#BTC",
+            "#Aksel",
+            "#Tech"
+          ],
+          "ts": 1787155454000,
+          "time": "00:04:14",
+          "receivedAt": 1787156295823,
+          "receivedTime": true
+        },
+        {
+          "id": "228482",
+          "url": "https://t.me/jin10light/228482",
+          "title": "今日重点关注的财经数据与事件：2026年8月20日 周四",
+          "body": "① 待定 阿里巴巴公布财报 ② 02:00 美联储公布货币政策会议纪要 ③ 09:00 中国7月Swift人民币在全球支付中占比 ④ 09:00 中国至8月20日一年期贷款市场报价利率 ⑤ 09:30 澳大利亚7月季调后失业率 ⑥ 14:00 德国7月PPI月率 ⑦ 14:00 瑞士7月贸易帐 ⑧ 15:00 商务部召开例行新闻发布会 ⑨ 18:00 英国8月CBI工业订单差值 ⑩ 20:30 美国至8月15日当周初请失业金人数 ⑪ 20:30 美国8月费城联储制造业指数 ⑫ 22:00 美国7月谘商会领先指标月率 ⑬ 22:30 美国至8月14日当周...",
+          "tags": [
+            "#阿里巴巴",
+            "#美联储",
+            "#中国"
+          ],
+          "ts": 1787155304000,
+          "time": "00:01:44",
+          "receivedAt": 1787156295823,
+          "receivedTime": true
+        },
         {
           "id": "228481",
           "url": "https://t.me/jin10light/228481",
@@ -18770,50 +18801,6 @@
           ],
           "ts": 1786629195000,
           "time": "21:53:15",
-          "receivedAt": 1786629341086,
-          "receivedTime": true
-        },
-        {
-          "id": "227284",
-          "url": "https://t.me/jin10light/227284",
-          "title": "英特尔(INTC.O)涨幅扩大至4%。",
-          "body": "戴尔(DELL.N)股价一度首次突破500美元，最高至514美元。 #英特尔 #戴尔",
-          "tags": [
-            "#英特尔",
-            "#戴尔"
-          ],
-          "ts": 1786629014000,
-          "time": "21:50:14",
-          "receivedAt": 1786629341086,
-          "receivedTime": true
-        },
-        {
-          "id": "227283",
-          "url": "https://t.me/jin10light/227283",
-          "title": "美股盘初Neocloud板块走强，IREN涨超5%、Nebius、Coreweave低开高走涨超3%",
-          "body": "#Nebius #Neocloud #美股",
-          "tags": [
-            "#Nebius",
-            "#Neocloud",
-            "#美股"
-          ],
-          "ts": 1786628894000,
-          "time": "21:48:14",
-          "receivedAt": 1786629341086,
-          "receivedTime": true
-        },
-        {
-          "id": "227282",
-          "url": "https://t.me/jin10light/227282",
-          "title": "美股光通信板块开盘涨跌不一，巨头Coherent绩优后仍跌超3%",
-          "body": "#美股 #Coherent #GLW",
-          "tags": [
-            "#美股",
-            "#Coherent",
-            "#GLW"
-          ],
-          "ts": 1786628655000,
-          "time": "21:44:15",
           "receivedAt": 1786629341086,
           "receivedTime": true
         }
