@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T13:51:03.692Z",
+  "updatedAt": "2026-08-19T14:19:35.847Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1592,17 +1592,6 @@
           "time": "23:38:34",
           "receivedAt": 1785858039393,
           "receivedTime": true
-        },
-        {
-          "id": "6795",
-          "url": "https://t.me/BWEtradfi/6795",
-          "title": "DB: 美国6月JOLTS职位空缺数 735.9万，预期 740.0万",
-          "body": "DB: *US JUNE JOB OPENINGS 7.359M; EST. 7.400M",
-          "tags": [],
-          "ts": 1785852014000,
-          "time": "22:00:14",
-          "receivedAt": 1785858039393,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1610,6 +1599,86 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228453",
+          "url": "https://t.me/jin10light/228453",
+          "title": "美国银行家协会：支持CLARITY法案通过，但应收紧稳定币奖励条款",
+          "body": "#美国 #稳定币",
+          "tags": [
+            "#美国",
+            "#稳定币"
+          ],
+          "ts": 1787149041000,
+          "time": "22:17:21",
+          "receivedAt": 1787149145379,
+          "receivedTime": true
+        },
+        {
+          "id": "228452",
+          "url": "https://t.me/jin10light/228452",
+          "title": "纽元兑美元NZD/USD日内涨超1.00%，现报0.5932。",
+          "body": "#纽元 #美元 #NZD /USD",
+          "tags": [
+            "#纽元",
+            "#美元",
+            "#NZD"
+          ],
+          "ts": 1787148853000,
+          "time": "22:14:13",
+          "receivedAt": 1787149145379,
+          "receivedTime": true
+        },
+        {
+          "id": "228451",
+          "url": "https://t.me/jin10light/228451",
+          "title": "美国20年期国债收益率在标售前下跌10个基点",
+          "body": "",
+          "tags": [],
+          "ts": 1787148558000,
+          "time": "22:09:18",
+          "receivedAt": 1787149145379,
+          "receivedTime": true
+        },
+        {
+          "id": "228450",
+          "url": "https://t.me/jin10light/228450",
+          "title": "沪金主力合约日内涨幅达2.00%，现报968.60元/克。",
+          "body": "#黄金 #A股",
+          "tags": [
+            "#黄金",
+            "#A股"
+          ],
+          "ts": 1787148557000,
+          "time": "22:09:17",
+          "receivedAt": 1787149145379,
+          "receivedTime": true
+        },
+        {
+          "id": "228449",
+          "url": "https://t.me/jin10light/228449",
+          "title": "Stifel：英伟达财报料超预期并上调指引，维持「买入」评级及282美元目标价",
+          "body": "#英伟达 #NVDA #Stifel",
+          "tags": [
+            "#英伟达",
+            "#NVDA",
+            "#Stifel"
+          ],
+          "ts": 1787148254000,
+          "time": "22:04:14",
+          "receivedAt": 1787149145379,
+          "receivedTime": true
+        },
+        {
+          "id": "228448",
+          "url": "https://t.me/jin10light/228448",
+          "title": "纳斯达克生物科技指数上涨5%，为2025年4月以来最大盘中涨幅",
+          "body": "",
+          "tags": [],
+          "ts": 1787147837000,
+          "time": "21:57:17",
+          "receivedAt": 1787149145379,
+          "receivedTime": true
+        },
         {
           "id": "228447",
           "url": "https://t.me/jin10light/228447",
@@ -18757,83 +18826,6 @@
           "ts": 1786624275000,
           "time": "20:31:15",
           "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227253",
-          "url": "https://t.me/jin10light/227253",
-          "title": "2027年FOMC票委、里奇蒙联储主席巴尔金将于十分钟后就经济前景发表讲话。",
-          "body": "#美国 #美联储 #巴尔金",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#巴尔金"
-          ],
-          "ts": 1786624218000,
-          "time": "20:30:18",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227252",
-          "url": "https://t.me/jin10light/227252",
-          "title": "美国至8月8日当周初请失业金人数 20.9万人，预期20.2万人，前值由19.9万人修正为20万人。",
-          "body": "#美国",
-          "tags": [
-            "#美国"
-          ],
-          "ts": 1786624217000,
-          "time": "20:30:17",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227251",
-          "url": "https://t.me/jin10light/227251",
-          "title": "美国7月PPI年率4.7%，预期4.9%，为3月以来新低",
-          "body": "",
-          "tags": [],
-          "ts": 1786624216000,
-          "time": "20:30:16",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227250",
-          "url": "https://t.me/jin10light/227250",
-          "title": "创始人拟推新代币带崩BNKR，市值单日大跌约18%降至2500万美元",
-          "body": "",
-          "tags": [],
-          "ts": 1786624096000,
-          "time": "20:28:16",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227249",
-          "url": "https://t.me/jin10light/227249",
-          "title": "中际旭创：拟17.47亿元受让北京中石伟业科技股份有限公司10.47%股份，后者从事高性能导热材料、EMI屏蔽材料的研发等",
-          "body": "8月13日讯，中际旭创公告，公司与中石科技控股股东吴晓宁先生、叶露女士和HANWU先生于2026年8月13日签署《吴晓宁、叶露和HANWU与中际旭创股份有限公司关于北京中石伟业科技股份有限公司之股份转让协议》，公司拟以现金方式协议受让其持有的标的公司31,372,504股，占中石科技总股本的10.47%，本次股份转让价格为55.70元/股，股份转让价款合计为人民币1,747,448,473元。 本次交易前，公司未持有中石科技股份；本次交易后，公司合计持有中石科技31,372,504股股份，占中石科技股份总数10.47%。 公司主要从事高端光通信收发模块...",
-          "tags": [
-            "#中际旭创",
-            "#吴晓宁"
-          ],
-          "ts": 1786623923000,
-          "time": "20:25:23",
-          "receivedAt": 1786624032114,
-          "receivedTime": true
-        },
-        {
-          "id": "227248",
-          "url": "https://t.me/jin10light/227248",
-          "title": "美国至8月8日当周初请失业金人数、7月PPI月率及年率将于十分钟后公布。",
-          "body": "#美国",
-          "tags": [
-            "#美国"
-          ],
-          "ts": 1786623614000,
-          "time": "20:20:14",
-          "receivedAt": 1786624032114,
           "receivedTime": true
         }
       ],
