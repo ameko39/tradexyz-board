@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T15:29:31.391Z",
+  "updatedAt": "2026-08-19T15:54:40.351Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1592,24 +1592,105 @@
           "time": "00:02:49",
           "receivedAt": 1785863917981,
           "receivedTime": true
-        },
-        {
-          "id": "6796",
-          "url": "https://t.me/BWEtradfi/6796",
-          "title": "伊朗正权衡允许欧洲清理霍尔木兹海峡水雷",
-          "body": "*IRAN WEIGHS ALLOWING EUROPE TO CLEAR MINES IN STRAIT OF HORMUZ",
-          "tags": [],
-          "ts": 1785857914000,
-          "time": "23:38:34",
-          "receivedAt": 1785858039393,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228481",
+          "url": "https://t.me/jin10light/228481",
+          "title": "1.25亿美元比特币空头巨鲸仓位已被全部清算，亏损约290万美元",
+          "body": "",
+          "tags": [],
+          "ts": 1787154493000,
+          "time": "23:48:13",
+          "receivedAt": 1787154858363,
+          "receivedTime": true
+        },
+        {
+          "id": "228480",
+          "url": "https://t.me/jin10light/228480",
+          "title": "巨鲸「先定10个大目标」晒单做多比特币，浮盈超1304万美元",
+          "body": "#BTC #合约巨鲸",
+          "tags": [
+            "#BTC",
+            "#合约巨鲸"
+          ],
+          "ts": 1787153955000,
+          "time": "23:39:15",
+          "receivedAt": 1787154858363,
+          "receivedTime": true
+        },
+        {
+          "id": "228479",
+          "url": "https://t.me/jin10light/228479",
+          "title": "Ansem：散户活动多年来首次显著回升，Q3或为加密市场底部",
+          "body": "#Ansem #加密货币",
+          "tags": [
+            "#Ansem",
+            "#加密货币"
+          ],
+          "ts": 1787153839000,
+          "time": "23:37:19",
+          "receivedAt": 1787154858363,
+          "receivedTime": true
+        },
+        {
+          "id": "228478",
+          "url": "https://t.me/jin10light/228478",
+          "title": "美国总统特朗普：我们对海峡拥有完全控制权。",
+          "body": "#特朗普 #霍尔木兹海峡",
+          "tags": [
+            "#特朗普",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787153715000,
+          "time": "23:35:15",
+          "receivedAt": 1787154858363,
+          "receivedTime": true
+        },
+        {
+          "id": "228477",
+          "url": "https://t.me/jin10light/228477",
+          "title": "特朗普：与伊朗谈判或适时进行",
+          "body": "8月19日讯，当地时间8月19日，美国总统特朗普就伊朗问题表示，或许在某个时候会进行谈判。 特朗普18日在社交媒体上称，目前和未来不会与伊朗进行任何会谈或对话。 此前，特朗普一直坚称美国同伊朗正在进行谈判，但遭到伊朗官员多次否认。",
+          "tags": [],
+          "ts": 1787153594000,
+          "time": "23:33:14",
+          "receivedAt": 1787154858363,
+          "receivedTime": true
+        },
+        {
+          "id": "228476",
+          "url": "https://t.me/jin10light/228476",
+          "title": "美国总统特朗普：昨晚有很多船只通过霍尔木兹海峡。",
+          "body": "#特朗普 #霍尔木兹海峡",
+          "tags": [
+            "#特朗普",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787153475000,
+          "time": "23:31:15",
+          "receivedAt": 1787154858363,
+          "receivedTime": true
+        },
+        {
+          "id": "228475",
+          "url": "https://t.me/jin10light/228475",
+          "title": "以太坊短时突破2100美元，24小时涨幅8.55%",
+          "body": "#ETH #HTX",
+          "tags": [
+            "#ETH",
+            "#HTX"
+          ],
+          "ts": 1787153415000,
+          "time": "23:30:15",
+          "receivedAt": 1787154858363,
+          "receivedTime": true
+        },
         {
           "id": "228474",
           "url": "https://t.me/jin10light/228474",
@@ -1685,13 +1766,9 @@
         {
           "id": "228469",
           "url": "https://t.me/jin10light/228469",
-          "title": "过去24小时全网爆仓升至4.25亿美元，主爆空单",
-          "body": "#加密货币 #BTC #ETH",
-          "tags": [
-            "#加密货币",
-            "#BTC",
-            "#ETH"
-          ],
+          "title": "过去24小时全网爆仓升至14.11亿美元，全球超10万人被爆仓",
+          "body": "",
+          "tags": [],
           "ts": 1787151855000,
           "time": "23:04:15",
           "receivedAt": 1787153124514,
@@ -18737,108 +18814,6 @@
           ],
           "ts": 1786628655000,
           "time": "21:44:15",
-          "receivedAt": 1786629341086,
-          "receivedTime": true
-        },
-        {
-          "id": "227281",
-          "url": "https://t.me/jin10light/227281",
-          "title": "Cerebras开盘大跌13.7%，第二季财报喜忧参半",
-          "body": "#Cerebras #美国",
-          "tags": [
-            "#Cerebras",
-            "#美国"
-          ],
-          "ts": 1786628295000,
-          "time": "21:38:15",
-          "receivedAt": 1786629341086,
-          "receivedTime": true
-        },
-        {
-          "id": "227280",
-          "url": "https://t.me/jin10light/227280",
-          "title": "美股开盘三大股指普涨，思科绩后跌7.9%",
-          "body": "#美股 #思科 #CSCO .O",
-          "tags": [
-            "#美股",
-            "#思科",
-            "#CSCO"
-          ],
-          "ts": 1786628054000,
-          "time": "21:34:14",
-          "receivedAt": 1786629341086,
-          "receivedTime": true
-        },
-        {
-          "id": "227279",
-          "url": "https://t.me/jin10light/227279",
-          "title": "美股开盘，道指涨0.26%、标普500指数涨0.29%、纳指涨0.12%。",
-          "body": "计算机硬件概念股走强，惠普(HPQ.N)涨6.4%、戴尔(DELL.N)涨3.4%。 思科(CSCO.O)跌7.9%，公司业绩超出预期，但仍不足以让华尔街满意；纳斯达克中国金龙指数跌0.65%，京东(JD.O)跌2.3%。 #美股 #惠普 #戴尔",
-          "tags": [
-            "#美股",
-            "#惠普",
-            "#戴尔"
-          ],
-          "ts": 1786627938000,
-          "time": "21:32:18",
-          "receivedAt": 1786629341086,
-          "receivedTime": true
-        },
-        {
-          "id": "227278",
-          "url": "https://t.me/jin10light/227278",
-          "title": "硬件钱包Trezor客户数据因物流商泄露，超1.3万名客户敏感信息被窃取",
-          "body": "#Trezor #ShipMonk #美国",
-          "tags": [
-            "#Trezor",
-            "#ShipMonk",
-            "#美国"
-          ],
-          "ts": 1786627937000,
-          "time": "21:32:17",
-          "receivedAt": 1786629341086,
-          "receivedTime": true
-        },
-        {
-          "id": "227277",
-          "url": "https://t.me/jin10light/227277",
-          "title": "Citrini观点：Anthropic年化收入年底或达1200亿美元，按30倍估值将成为三万亿美元公司",
-          "body": "#Anthropic #AI",
-          "tags": [
-            "#Anthropic",
-            "#AI"
-          ],
-          "ts": 1786627160000,
-          "time": "21:19:20",
-          "receivedAt": 1786629341086,
-          "receivedTime": true
-        },
-        {
-          "id": "227276",
-          "url": "https://t.me/jin10light/227276",
-          "title": "DeepSeek Harness公测，同步开放NPM插件生态",
-          "body": "8月13日讯，DeepSeek推出了其代码智能体框架Harness的公开测试版，并同步开放了配套的NPM插件生态系统（但GitHub仓库仍处于非公开状态）。 在产品定位上，DeepSeek Harness精准对标OpenAI Codex及Anthropic Claude Code，旨在成为一款主打编程和办公场景的AI生产力工具。 #DeepSeek #OpenAI Codex",
-          "tags": [
-            "#DeepSeek",
-            "#OpenAI"
-          ],
-          "ts": 1786626858000,
-          "time": "21:14:18",
-          "receivedAt": 1786629341086,
-          "receivedTime": true
-        },
-        {
-          "id": "227275",
-          "url": "https://t.me/jin10light/227275",
-          "title": "Bubblemaps曝光TikTok热炒Meme币XST：74%供应量被集中控制，构成典型Rug代币特征",
-          "body": "#XST #TikTok #Meme 币",
-          "tags": [
-            "#XST",
-            "#TikTok",
-            "#Meme"
-          ],
-          "ts": 1786626738000,
-          "time": "21:12:18",
           "receivedAt": 1786629341086,
           "receivedTime": true
         }
