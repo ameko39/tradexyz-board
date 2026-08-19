@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T22:14:20.279Z",
+  "updatedAt": "2026-08-19T22:42:15.726Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1530,6 +1530,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228532",
+          "url": "https://t.me/jin10light/228532",
+          "title": "国内新闻ï",
+          "body": "1.《全民医疗保障“十五五”规划》发布。 2. 宇树科技上市首日收涨460.34%，市值约3418亿元。 3. 嫦娥七号器箭组合体完成垂直转运，将择机发射。 4. 欧盟对京东跨境调查，司法部回应：构成不当域外管辖。 5. 国家发展改革委召开“六张网”重大项目协调调度机制会，完善“六网协同”工作推进机制。 6. 中国黄金协会发布严正声明称，我国黄金产业链完整，具备抵御外部风险的充足韧性。 国际新闻ï 1.美国联邦政府债务突破40万亿美元。 2. 据悉三星芯片代工价格最高上涨15%。 3. 特朗普称预计今年晚些时候会见金正恩。 4. OpenAI CFO：...",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#特朗普"
+          ],
+          "ts": 1787178917000,
+          "time": "06:35:17",
+          "receivedAt": 1787179312588,
+          "receivedTime": true
+        },
+        {
+          "id": "228531",
+          "url": "https://t.me/jin10light/228531",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加9.414吨，当前持仓量为1034.654吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1787178494000,
+          "time": "06:28:14",
+          "receivedAt": 1787179312588,
+          "receivedTime": true
+        },
         {
           "id": "228530",
           "url": "https://t.me/jin10light/228530",
@@ -18733,34 +18762,6 @@
           "ts": 1786642573000,
           "time": "01:36:13",
           "receivedAt": 1786645904409,
-          "receivedTime": true
-        },
-        {
-          "id": "227332",
-          "url": "https://t.me/jin10light/227332",
-          "title": "超14亿美元加密期权今日到期，BTC最大痛点6.4万美元",
-          "body": "#BTC #ETH",
-          "tags": [
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1786642334000,
-          "time": "01:32:14",
-          "receivedAt": 1786642516665,
-          "receivedTime": true
-        },
-        {
-          "id": "227331",
-          "url": "https://t.me/jin10light/227331",
-          "title": "谷歌宣布推出主力模型Gemini 3.7 Flash，但旗舰模型仍遥遥无期",
-          "body": "#谷歌 #Gemini 3.7 Flash #Gemini 3.5 Pro",
-          "tags": [
-            "#谷歌",
-            "#Gemini"
-          ],
-          "ts": 1786641974000,
-          "time": "01:26:14",
-          "receivedAt": 1786642516665,
           "receivedTime": true
         }
       ],
