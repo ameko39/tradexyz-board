@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T17:12:55.992Z",
+  "updatedAt": "2026-08-19T17:40:10.029Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1563,6 +1563,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228491",
+          "url": "https://t.me/jin10light/228491",
+          "title": "花旗看淡会议纪要「鹰」味，摩根大通关注美联储内部通胀分歧",
+          "body": "#美联储 #美国 #CPI",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#CPI"
+          ],
+          "ts": 1787160616000,
+          "time": "01:30:16",
+          "receivedAt": 1787161187612,
+          "receivedTime": true
+        },
         {
           "id": "228490",
           "url": "https://t.me/jin10light/228490",
@@ -18764,20 +18779,6 @@
           ],
           "ts": 1786630096000,
           "time": "22:08:16",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227291",
-          "url": "https://t.me/jin10light/227291",
-          "title": "研究显示，标普500指数公司CEO薪酬创历史新高。",
-          "body": "#标普500 #CEO薪酬",
-          "tags": [
-            "#标普500",
-            "#CEO薪酬"
-          ],
-          "ts": 1786629732000,
-          "time": "22:02:12",
           "receivedAt": 1786632671776,
           "receivedTime": true
         }
