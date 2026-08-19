@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T17:40:10.029Z",
+  "updatedAt": "2026-08-19T17:57:38.404Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1563,6 +1563,33 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228493",
+          "url": "https://t.me/jin10light/228493",
+          "title": "美联储将于十分钟后公布货币政策会议纪要。",
+          "body": "#美联储",
+          "tags": [
+            "#美联储"
+          ],
+          "ts": 1787161815000,
+          "time": "01:50:15",
+          "receivedAt": 1787162232282,
+          "receivedTime": true
+        },
+        {
+          "id": "228492",
+          "url": "https://t.me/jin10light/228492",
+          "title": "市场消息：美国拟在贸易协议中将加拿大钢铁和铝的关税减半。",
+          "body": "#美国 #加拿大",
+          "tags": [
+            "#美国",
+            "#加拿大"
+          ],
+          "ts": 1787161573000,
+          "time": "01:46:13",
+          "receivedAt": 1787162232282,
+          "receivedTime": true
+        },
         {
           "id": "228491",
           "url": "https://t.me/jin10light/228491",
@@ -18749,36 +18776,6 @@
           ],
           "ts": 1786630153000,
           "time": "22:09:13",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227293",
-          "url": "https://t.me/jin10light/227293",
-          "title": "OpenAI设「反官僚邮箱」：：一封邮件可以直达Sam Altman",
-          "body": "#OpenAI #Sam Altman #Greg Brockman",
-          "tags": [
-            "#OpenAI",
-            "#Sam",
-            "#Greg"
-          ],
-          "ts": 1786630096000,
-          "time": "22:08:16",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227292",
-          "url": "https://t.me/jin10light/227292",
-          "title": "「RWA第一股」Securitize盘中暴跌超20%，上市后首份财报不及预期",
-          "body": "#Securitize #BUIDL #美国",
-          "tags": [
-            "#Securitize",
-            "#BUIDL",
-            "#美国"
-          ],
-          "ts": 1786630096000,
-          "time": "22:08:16",
           "receivedAt": 1786632671776,
           "receivedTime": true
         }
