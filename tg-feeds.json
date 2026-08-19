@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T19:33:31.281Z",
+  "updatedAt": "2026-08-19T19:53:38.337Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1567,22 +1567,6 @@
           "time": "04:00:13",
           "receivedAt": 1785874976472,
           "receivedTime": true
-        },
-        {
-          "id": "6803",
-          "url": "https://t.me/BWEtradfi/6803",
-          "title": "*伯里：已完全平仓微软看涨期权",
-          "body": "*BURRY: EXITED MSFT CALLS COMPLETELY *BURRY: ROLLED NVIDIA PUTS JUNE 27 LOW 100S STRIKE *BURRY: CLOSED PALANTIR PUTS, NO ROLL, CONTINUING TO HOLD SHORT *BURRY: CLOSED ORACLE PUTS, NO ROLL *BURRY: CONTINUE TO HOLD REST OF SHORTS #MSFT • #NVDA • #PLTR • #ORCL *伯里：已展期6月27日到期的英伟达看跌期权（行权价100美元左右） *伯里：已平...",
-          "tags": [
-            "#MSFT",
-            "#NVDA",
-            "#PLTR",
-            "#ORCL"
-          ],
-          "ts": 1785873129000,
-          "time": "03:52:09",
-          "receivedAt": 1785874976472,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1590,6 +1574,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228507",
+          "url": "https://t.me/jin10light/228507",
+          "title": "美国总统特朗普：（关于债券市场）美国人不应担心波动性。",
+          "body": "#美国 #特朗普",
+          "tags": [
+            "#美国",
+            "#特朗普"
+          ],
+          "ts": 1787168834000,
+          "time": "03:47:14",
+          "receivedAt": 1787169193863,
+          "receivedTime": true
+        },
+        {
+          "id": "228506",
+          "url": "https://t.me/jin10light/228506",
+          "title": "美国总统特朗普：（关于加拿大贸易谈判）我们可能会达成协议。",
+          "body": "#美国 #特朗普 #加拿大",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#加拿大"
+          ],
+          "ts": 1787167994000,
+          "time": "03:33:14",
+          "receivedAt": 1787169193863,
+          "receivedTime": true
+        },
         {
           "id": "228505",
           "url": "https://t.me/jin10light/228505",
@@ -18780,32 +18793,6 @@
           ],
           "ts": 1786633575000,
           "time": "23:06:15",
-          "receivedAt": 1786635815738,
-          "receivedTime": true
-        },
-        {
-          "id": "227307",
-          "url": "https://t.me/jin10light/227307",
-          "title": "Garrett Jin：海力士已反弹至获利了结区，计划比特币回调买入，SpaceX逼空后当心剩余解禁",
-          "body": "",
-          "tags": [],
-          "ts": 1786633394000,
-          "time": "23:03:14",
-          "receivedAt": 1786635815738,
-          "receivedTime": true
-        },
-        {
-          "id": "227306",
-          "url": "https://t.me/jin10light/227306",
-          "title": "截至23:00收盘，国内期货主力合约涨多跌少，焦煤、纸浆、豆一、玻璃、纯碱涨超1%，胶版纸涨近1%。",
-          "body": "跌幅方面，20号胶、PTA跌超1%，低硫燃料油（LU）、橡胶跌近1%。 #焦煤 #纸浆 #豆一",
-          "tags": [
-            "#焦煤",
-            "#纸浆",
-            "#豆一"
-          ],
-          "ts": 1786633337000,
-          "time": "23:02:17",
           "receivedAt": 1786635815738,
           "receivedTime": true
         }
