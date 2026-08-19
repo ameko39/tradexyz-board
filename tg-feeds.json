@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T16:50:51.659Z",
+  "updatedAt": "2026-08-19T17:12:55.992Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1558,11 +1558,25 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228490",
+          "url": "https://t.me/jin10light/228490",
+          "title": "知名交易员：ETH彻底突破熊市关键阻力区，首次重新站上「黄金线」",
+          "body": "#ETH #Doctor Profit",
+          "tags": [
+            "#ETH",
+            "#Doctor"
+          ],
+          "ts": 1787158574000,
+          "time": "00:56:14",
+          "receivedAt": 1787159552573,
+          "receivedTime": true
+        },
         {
           "id": "228489",
           "url": "https://t.me/jin10light/228489",
@@ -18764,21 +18778,6 @@
           ],
           "ts": 1786629732000,
           "time": "22:02:12",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227290",
-          "url": "https://t.me/jin10light/227290",
-          "title": "美股盘初高开高走，标普500指数首次突破7800点",
-          "body": "#美股 #标普 500 #纳斯达克 100",
-          "tags": [
-            "#美股",
-            "#标普",
-            "#纳斯达克"
-          ],
-          "ts": 1786629672000,
-          "time": "22:01:12",
           "receivedAt": 1786632671776,
           "receivedTime": true
         }
