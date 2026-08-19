@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-08-19T17:57:38.404Z",
+  "updatedAt": "2026-08-19T18:31:02.695Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6941",
+          "url": "https://t.me/BWEtradfi/6941",
+          "title": "*联邦委员会会议纪要：主席沃什表示，每年六次例会，大约每两个月举行一次，可以让会议间隙积累更多信息。",
+          "body": "*FED MINUTES: CHAIRMAN WARSH SAID SIX SCHEDULED MEETINGS PER YEAR, HELD ROUGHLY EVERY TWO MONTHS, WOULD ALLOW MORE INFORMATION TO ACCUMULATE BETWEEN MEETINGS *FED MINUTES: NO DECISIONS WERE MADE ON NUMBER OF MEETINGS AND WARSH INDICATED NO CHANGE TO THE 2026 SCHEDULE *联邦委员会会议纪要：会议未就会议次数做出任何决定，沃什表示2...",
+          "tags": [],
+          "ts": 1787162504000,
+          "time": "02:01:44",
+          "receivedAt": 1787164235876,
+          "receivedTime": true
+        },
+        {
+          "id": "6940",
+          "url": "https://t.me/BWEtradfi/6940",
+          "title": "*美联储：大多数与会者支持维持基金利率不变",
+          "body": "*FED: MOST PARTICIPANTS SUPPORTED HOLDING FUNDS RATE UNCHANGED *FED: SEVERAL PARTICIPANTS FAVORED RATE HIKE AT JULY MEETING *FED: MANY SAID PROTRACTED MIDEAST WAR COULD BOOST INFLATION *美联储：部分与会者在7月会议上赞成加息 *美联储：许多与会者表示，旷日持久的中东战争可能推高通胀",
+          "tags": [],
+          "ts": 1787162451000,
+          "time": "02:00:51",
+          "receivedAt": 1787164235876,
+          "receivedTime": true
+        },
+        {
+          "id": "6939",
+          "url": "https://t.me/BWEtradfi/6939",
+          "title": "*美联储：多位官员称若通胀未回落可能需加息",
+          "body": "*FED: MANY SAID HIKE LIKELY NEEDED IF INFLATION DIDN'T DECLINE",
+          "tags": [],
+          "ts": 1787162432000,
+          "time": "02:00:32",
+          "receivedAt": 1787164235876,
+          "receivedTime": true
+        },
+        {
+          "id": "6938",
+          "url": "https://t.me/BWEtradfi/6938",
+          "title": "*美联储：参与者对通胀风险的判断偏向上行",
+          "body": "*FED: PARTICIPANTS JUDGED INFLATION RISKS WERE SKEWED TO UPSIDE *FED: SEVERAL SAID TARIFF PASS-THROUGH WAS NOW LARGELY COMPLETE *美联储：多位参与者表示，关税转嫁机制目前已基本完成",
+          "tags": [],
+          "ts": 1787162431000,
+          "time": "02:00:31",
+          "receivedAt": 1787164235876,
+          "receivedTime": true
+        },
         {
           "id": "6937",
           "url": "https://t.me/BWEtradfi/6937",
@@ -1545,24 +1589,72 @@
           "time": "03:31:42",
           "receivedAt": 1785874976472,
           "receivedTime": true
-        },
-        {
-          "id": "6800",
-          "url": "https://t.me/BWEtradfi/6800",
-          "title": "*白宫计划对其新的先进人工智能评估框架保密",
-          "body": "*WHITE HOUSE PLANS TO KEEP ITS NEW ADVANCED AI EVALUATION FRAMEWORK PRIVATE *WHITE HOUSE HELD STAFF-LEVEL MEETINGS ON TUESDAY TO REVIEW THE FRAMEWORK WITH INDUSTRY *白宫周二举行了工作人员级别的会议，与业界人士共同审查该框架。",
-          "tags": [],
-          "ts": 1785867992000,
-          "time": "02:26:32",
-          "receivedAt": 1785869875576,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228497",
+          "url": "https://t.me/jin10light/228497",
+          "title": "美联储会议纪要：沃什推动减少年内政策会议次数",
+          "body": "8月20日讯，美联储会议纪要显示，美联储主席沃什提出了一个想法：将联邦公开市场委员会（FOMC）每年的政策会议次数从8次减少至6次。 会议纪要称：“主席指出，每年安排6次会议，大约每两个月召开一次，将比目前的安排让两次会议之间积累更多信息，同时也能为政策制定者和美联储工作人员留出更多时间，用于研究和考虑货币政策的战略性问题。 ”随后，沃什征求了委员会成员对这一想法的意见。 会议纪要明确指出，今年不会调整会议次数。 如果减少政策会议次数，将意味着美联储运行方式发生重大变化。 #美联储 #沃什 #美国",
+          "tags": [
+            "#美联储",
+            "#沃什",
+            "#美国"
+          ],
+          "ts": 1787163377000,
+          "time": "02:16:17",
+          "receivedAt": 1787164237528,
+          "receivedTime": true
+        },
+        {
+          "id": "228496",
+          "url": "https://t.me/jin10light/228496",
+          "title": "美联储会议纪要：官员们普遍认为通胀存在上行风险。",
+          "body": "#美联储 #美国 #通胀",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#通胀"
+          ],
+          "ts": 1787162774000,
+          "time": "02:06:14",
+          "receivedAt": 1787164237528,
+          "receivedTime": true
+        },
+        {
+          "id": "228495",
+          "url": "https://t.me/jin10light/228495",
+          "title": "现货黄金在美联储会议纪要发布后几乎没有变化，最新上涨3.5%，报每盎司4,489.41美元。",
+          "body": "#黄金 #美联储 #美元",
+          "tags": [
+            "#黄金",
+            "#美联储",
+            "#美元"
+          ],
+          "ts": 1787162599000,
+          "time": "02:03:19",
+          "receivedAt": 1787164237528,
+          "receivedTime": true
+        },
+        {
+          "id": "228494",
+          "url": "https://t.me/jin10light/228494",
+          "title": "美联储会议纪要：大多数与会者支持维持利率不变，但也有几位与会者赞成加息。",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1787162479000,
+          "time": "02:01:19",
+          "receivedAt": 1787164237528,
+          "receivedTime": true
+        },
         {
           "id": "228493",
           "url": "https://t.me/jin10light/228493",
@@ -18720,62 +18812,6 @@
           ],
           "ts": 1786630994000,
           "time": "22:23:14",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227297",
-          "url": "https://t.me/jin10light/227297",
-          "title": "美国至8月7日当周EIA天然气库存将于十分钟后公布。",
-          "body": "#美国 #EIA #天然气",
-          "tags": [
-            "#美国",
-            "#EIA",
-            "#天然气"
-          ],
-          "ts": 1786630874000,
-          "time": "22:21:14",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227296",
-          "url": "https://t.me/jin10light/227296",
-          "title": "通胀见顶信号增强 市场不再完全定价美联储今年加息",
-          "body": "8月13日讯，随着油价回落强化了通胀前景的乐观情绪，债券交易员已不再完全定价美联储今年将加息。 美债市场反弹使各期限收益率下跌多达9个基点，其中30年期收益率在周四该期限新债发行前下跌8个基点。 该笔发行料将创下2001年以来30年期国债发行的最高收益率。 基准油价周四下跌逾3%，油价自2月底美国攻击伊朗引发供应冲击以来一直是美债收益率的主要驱动力，交易员正就持续冲突释放的信号进行解读。 油价的下跌强化了美国通胀已见顶的乐观情绪。 周四公布的美国政府数据显示7月生产者价格放缓，此前一天公布的消费者价格报告也连续第二个月检测到通胀放缓。 短期利率合约上涨...",
-          "tags": [],
-          "ts": 1786630575000,
-          "time": "22:16:15",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227295",
-          "url": "https://t.me/jin10light/227295",
-          "title": "Binance宣布支持第三方代币化股票1:1转换为bStocks",
-          "body": "#Binance #TSLA #MSTR",
-          "tags": [
-            "#Binance",
-            "#TSLA",
-            "#MSTR"
-          ],
-          "ts": 1786630394000,
-          "time": "22:13:14",
-          "receivedAt": 1786632671776,
-          "receivedTime": true
-        },
-        {
-          "id": "227294",
-          "url": "https://t.me/jin10light/227294",
-          "title": "原油系期货主力合约集体下跌，SC原油下跌1.80%，现报544.2元/桶。",
-          "body": "低硫燃料油（LU）下跌1.85%，现报4560元/吨。 燃油下跌0.72%，现报3741元/吨。 沥青下跌0.02%，现报4310元/吨。 #原油 #低硫燃料油 #燃油",
-          "tags": [
-            "#原油",
-            "#低硫燃料油",
-            "#燃油"
-          ],
-          "ts": 1786630153000,
-          "time": "22:09:13",
           "receivedAt": 1786632671776,
           "receivedTime": true
         }
