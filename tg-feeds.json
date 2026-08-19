@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-19T14:19:35.847Z",
+  "updatedAt": "2026-08-19T14:56:31.944Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6937",
+          "url": "https://t.me/BWEtradfi/6937",
+          "title": "DB: 美国原油库存增加 440.5 万桶；前值为 1742.3 万桶",
+          "body": "DB: *US CRUDE OIL INVENTORIES ROSE 4.405M BARRELS; PREV. 17.423M",
+          "tags": [],
+          "ts": 1787149814000,
+          "time": "22:30:14",
+          "receivedAt": 1787151361818,
+          "receivedTime": true
+        },
         {
           "id": "6936",
           "url": "https://t.me/BWEtradfi/6936",
@@ -1594,11 +1605,178 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228465",
+          "url": "https://t.me/jin10light/228465",
+          "title": "美国30年期国债收益率日内下跌10个基点，至5.18%",
+          "body": "",
+          "tags": [],
+          "ts": 1787150837000,
+          "time": "22:47:17",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
+        {
+          "id": "228464",
+          "url": "https://t.me/jin10light/228464",
+          "title": "现货白银日内大涨4%，现报65.85美元/盎司。",
+          "body": "纽约期银向上触及66美元/盎司，日内涨4.07%。 #白银 #纽约",
+          "tags": [
+            "#白银",
+            "#纽约"
+          ],
+          "ts": 1787150653000,
+          "time": "22:44:13",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
+        {
+          "id": "228463",
+          "url": "https://t.me/jin10light/228463",
+          "title": "白宫科技领袖会议今日举行，特朗普将与SEC、CFTC主席及多位加密行业高管出席",
+          "body": "#美国 #特朗普 #BTC",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#BTC"
+          ],
+          "ts": 1787150598000,
+          "time": "22:43:18",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
+        {
+          "id": "228462",
+          "url": "https://t.me/jin10light/228462",
+          "title": "纽约期金向上触及4550美元/盎司，日内涨3.66%。",
+          "body": "#纽约 #黄金",
+          "tags": [
+            "#纽约",
+            "#黄金"
+          ],
+          "ts": 1787150235000,
+          "time": "22:37:15",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
+        {
+          "id": "228461",
+          "url": "https://t.me/jin10light/228461",
+          "title": "X Layer推出RWA生态流动性激励计划，总激励规模达500万美元",
+          "body": "#X Layer #RWA #稳定币",
+          "tags": [
+            "#X",
+            "#RWA",
+            "#稳定币"
+          ],
+          "ts": 1787150234000,
+          "time": "22:37:14",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
+        {
+          "id": "228460",
+          "url": "https://t.me/jin10light/228460",
+          "title": "美股散户看跌期权买入量激增，防御需求上升但仍持续逢低买入科技股",
+          "body": "#美股 #英伟达 #QQQ",
+          "tags": [
+            "#美股",
+            "#英伟达",
+            "#QQQ"
+          ],
+          "ts": 1787149995000,
+          "time": "22:33:15",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
+        {
+          "id": "228459",
+          "url": "https://t.me/jin10light/228459",
+          "title": "整理：美国当周EIA库存数据六大看点一览",
+          "body": "1.EIA报告：08月14日当周美国原油出口增加100.8万桶/日至406.6万桶/日。 2. EIA报告：08月14日当周美国国内原油产量增加2.5万桶至1383.0万桶/日。 3. EIA报告：除却战略储备的商业原油库存增加440.5万桶至4.29亿桶，增幅1.04%。 4. EIA报告：美国原油产品四周平均供应量为2047.5万桶/日，较去年同期减少2.93%。 5. EIA报告：08月14日当周美国战略石油储备（SPR）库存减少526.8万桶至2.934亿桶，降幅1.76%。 6. EIA报告：08月14日当周美国除却战略储备的商业原油进口65...",
+          "tags": [
+            "#美国",
+            "#原油"
+          ],
+          "ts": 1787149873000,
+          "time": "22:31:13",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
+        {
+          "id": "228458",
+          "url": "https://t.me/jin10light/228458",
+          "title": "美国至8月14日当周EIA战略石油储备库存 -526.8万桶，前值-611.5万桶。",
+          "body": "",
+          "tags": [],
+          "ts": 1787149823000,
+          "time": "22:30:23",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
+        {
+          "id": "228457",
+          "url": "https://t.me/jin10light/228457",
+          "title": "Binance区块链周将于11月在泰国曼谷举行，聚焦传统金融与加密产业融合",
+          "body": "#Binance #曼谷 #BTC",
+          "tags": [
+            "#Binance",
+            "#曼谷",
+            "#BTC"
+          ],
+          "ts": 1787149823000,
+          "time": "22:30:23",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
+        {
+          "id": "228456",
+          "url": "https://t.me/jin10light/228456",
+          "title": "Moderna(MRNA.O)继续上涨，盘中涨幅超过150%。",
+          "body": "#Moderna #MRNA .O",
+          "tags": [
+            "#Moderna",
+            "#MRNA"
+          ],
+          "ts": 1787149576000,
+          "time": "22:26:16",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
+        {
+          "id": "228455",
+          "url": "https://t.me/jin10light/228455",
+          "title": "过去24小时全网爆仓2.98亿美元，主爆空单",
+          "body": "#加密货币 #BTC #ETH",
+          "tags": [
+            "#加密货币",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1787149334000,
+          "time": "22:22:14",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
+        {
+          "id": "228454",
+          "url": "https://t.me/jin10light/228454",
+          "title": "美国至8月14日当周EIA原油库存、库欣原油库存、战略石油储备库存将于十分钟后公布。",
+          "body": "#美国 #EIA原油库存",
+          "tags": [
+            "#美国",
+            "#EIA原油库存"
+          ],
+          "ts": 1787149274000,
+          "time": "22:21:14",
+          "receivedAt": 1787151367010,
+          "receivedTime": true
+        },
         {
           "id": "228453",
           "url": "https://t.me/jin10light/228453",
@@ -18659,172 +18837,6 @@
           ],
           "ts": 1786625594000,
           "time": "20:53:14",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227265",
-          "url": "https://t.me/jin10light/227265",
-          "title": "重要新é",
-          "body": "1.美联储官员哈马克重申现在必须加息。 2. 美国7月PPI年率录得4.7%，为3月以来新低，低于市场预期4.9%。 个股新é 1.据悉苹果(AAPL.O)洽谈向出版商付费，以提升其人工智能Siri。 2. 思科(CSCO.O)盘前跌超7%，2027财年AI营收指引保守，订单转化效率存疑。 3. 标普全球扩大与微软(MSFT.O)合作，将丰富的关键智能数据引入微软365 Copilot。 4. AI芯片制造商Cerebras(CBRS.O)盘前跌超16%，公司第二财季营收1.801亿美元不及预期。 5. 联想首席执行官：与英伟达(NVDA.O)合作，计...",
-          "tags": [
-            "#美联储",
-            "#美国",
-            "#AAPL"
-          ],
-          "ts": 1786625537000,
-          "time": "20:52:17",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227264",
-          "url": "https://t.me/jin10light/227264",
-          "title": "美联储巴尔金：可能需要加息来实现美联储的目标",
-          "body": "8月13日讯，美联储官员巴尔金最新表示：“美联储是否需要加息以恢复2%的通胀目标，或者通胀是否已经走上下行之路，仍然是个悬而未决的问题。 因为美国经济的某些方面仍然是个谜，因为消费者和整体经济活动并未受到冲击的影响。 目前美联储‘许多人’认为目前的利率水平已经足够紧缩，足以抑制通胀。 鉴于补偿压力适中，且关税、石油和其他冲击可能消退，有充分理由认为通胀将会缓解。 但也有理由认为价格压力已经根深蒂固，可能需要通过需求减弱或加息来实现美联储的目标。 ” #美联储 #美国 #加息",
-          "tags": [
-            "#美联储",
-            "#美国",
-            "#加息"
-          ],
-          "ts": 1786625477000,
-          "time": "20:51:17",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227263",
-          "url": "https://t.me/jin10light/227263",
-          "title": "DeepSeek Harness正式上线：首款Agent产品，整个Agent可实现自行组装",
-          "body": "#DeepSeek #Agent",
-          "tags": [
-            "#DeepSeek",
-            "#Agent"
-          ],
-          "ts": 1786625477000,
-          "time": "20:51:17",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227262",
-          "url": "https://t.me/jin10light/227262",
-          "title": "美联储巴尔金：内部「许多人」认为目前的利率水平已经足够紧缩，足以抑制通胀",
-          "body": "#美国 #美联储 #巴尔金 ⚡️ 免费助力 ⚡️ | 注册币安 | Claude/GPT/Grok/GLM 全球顶级AI中转站",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#巴尔金"
-          ],
-          "ts": 1786625120000,
-          "time": "20:45:20",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227261",
-          "url": "https://t.me/jin10light/227261",
-          "title": "市场消息：美联储巴尔金没有明确表示他是否认为利率需要上调，但他指出美联储“许多人”认为目前的利率水平已经足够紧缩，足以抑制通胀。",
-          "body": "#美联储 #美国",
-          "tags": [
-            "#美联储",
-            "#美国"
-          ],
-          "ts": 1786624941000,
-          "time": "20:42:21",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227260",
-          "url": "https://t.me/jin10light/227260",
-          "title": "美联储巴尔金：美联储是否需要加息以恢复2%的通胀目标，或者通胀是否已经走上下行之路，仍然是个悬而未决的问题。",
-          "body": "#美联储 #美国",
-          "tags": [
-            "#美联储",
-            "#美国"
-          ],
-          "ts": 1786624875000,
-          "time": "20:41:15",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227259",
-          "url": "https://t.me/jin10light/227259",
-          "title": "Citrini观点：英特尔产品组合与定价能力正在改善，Q2服务器CPU出货量份额下滑但营收上升",
-          "body": "#英特尔 #AMD #服务器 CPU",
-          "tags": [
-            "#英特尔",
-            "#AMD",
-            "#服务器"
-          ],
-          "ts": 1786624757000,
-          "time": "20:39:17",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227258",
-          "url": "https://t.me/jin10light/227258",
-          "title": "美联储哈马克：美联储现在必须加息",
-          "body": "8月13日讯，美联储官员哈玛克最新表示：“美联储现在必须加息，因为现在的政策并具不限制性，近期冲击下通胀上升。 过快的增长可能会对价格施加额外压力。 加息可能会带来痛苦，但不能让经济增长和投资过快，以至于经济过热。 当下的通货膨胀是广泛存在的，不仅仅局限于某些行业。 美联储必须对通胀数据负责，这一点非常重要。 ”",
-          "tags": [],
-          "ts": 1786624642000,
-          "time": "20:37:22",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227257",
-          "url": "https://t.me/jin10light/227257",
-          "title": "美国7月PPI年率录得4.7%，为3月以来新低，低于市场预期的4.9%。",
-          "body": "#美国 #PPI",
-          "tags": [
-            "#美国",
-            "#PPI"
-          ],
-          "ts": 1786624336000,
-          "time": "20:32:16",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227256",
-          "url": "https://t.me/jin10light/227256",
-          "title": "美国7月PPI月率0%，预期0.20%",
-          "body": "#美国 #PPI",
-          "tags": [
-            "#美国",
-            "#PPI"
-          ],
-          "ts": 1786624335000,
-          "time": "20:32:15",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227255",
-          "url": "https://t.me/jin10light/227255",
-          "title": "美国7月PPI月率 0%，预期0.20%，前值由-0.30%修正为-0.1%。",
-          "body": "#美国 #PPI",
-          "tags": [
-            "#美国",
-            "#PPI"
-          ],
-          "ts": 1786624276000,
-          "time": "20:31:16",
-          "receivedAt": 1786629341296,
-          "receivedTime": true
-        },
-        {
-          "id": "227254",
-          "url": "https://t.me/jin10light/227254",
-          "title": "美国至8月8日当周初请失业金人数20.9万人，高于预期20.2万人",
-          "body": "",
-          "tags": [],
-          "ts": 1786624275000,
-          "time": "20:31:15",
           "receivedAt": 1786629341296,
           "receivedTime": true
         }
