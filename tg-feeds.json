@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-20T12:42:45.460Z",
+  "updatedAt": "2026-08-20T13:33:14.079Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6952",
+          "url": "https://t.me/BWEtradfi/6952",
+          "title": "DB: 标普500指数低开0.3%，纳斯达克指数下跌0.5%",
+          "body": "DB: *S&P 500 OPENS 0.3% LOWER, NASDAQ DOWN 0.5%",
+          "tags": [],
+          "ts": 1787232642000,
+          "time": "21:30:42",
+          "receivedAt": 1787232770883,
+          "receivedTime": true
+        },
         {
           "id": "6951",
           "url": "https://t.me/BWEtradfi/6951",
@@ -1512,17 +1523,6 @@
           "time": "21:45:13",
           "receivedAt": 1785944028163,
           "receivedTime": true
-        },
-        {
-          "id": "6816",
-          "url": "https://t.me/BWEtradfi/6816",
-          "title": "DB: 标普500指数开盘上涨0.6%，纳斯达克指数上涨0.4%",
-          "body": "DB: *S&P 500 RISES 0.6% AT THE OPEN, NASDAQ GAINS 0.4%",
-          "tags": [],
-          "ts": 1785936642000,
-          "time": "21:30:42",
-          "receivedAt": 1785944028163,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1530,6 +1530,193 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228774",
+          "url": "https://t.me/jin10light/228774",
+          "title": "美股开盘，三大股指普跌",
+          "body": "#美股 #美光科技 #沃尔玛",
+          "tags": [
+            "#美股",
+            "#美光科技",
+            "#沃尔玛"
+          ],
+          "ts": 1787232732000,
+          "time": "21:32:12",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228773",
+          "url": "https://t.me/jin10light/228773",
+          "title": "美股开盘，道指跌0.6%，标普500指数跌0.3%，纳指跌0.5%。",
+          "body": "美光科技(MU.O)上涨0.4%，公司加码美国内存研发，计划十年投资100亿美元。 沃尔玛(WMT.N)下跌7%，Q2同店销售增速创六年新低，全年盈利指引低于预期。 SK海力士(SKHY.O)上涨4%，劳资达成初步薪资协议。 阿里巴巴(BABA.N)绩后跌4.7%，网易(NTES.O)绩后跌0.5%。 #美股 #美光科技 #沃尔玛",
+          "tags": [
+            "#美股",
+            "#美光科技",
+            "#沃尔玛"
+          ],
+          "ts": 1787232676000,
+          "time": "21:31:16",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228772",
+          "url": "https://t.me/jin10light/228772",
+          "title": "印度政府命令显示，印度允许免税进口糖。",
+          "body": "#印度 #糖",
+          "tags": [
+            "#印度",
+            "#糖"
+          ],
+          "ts": 1787232137000,
+          "time": "21:22:17",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228771",
+          "url": "https://t.me/jin10light/228771",
+          "title": "美CFTC主席：无论《Clarity法案》通过与否，加密行业终将迎来监管规则",
+          "body": "#美国 #CFTC #加密货币",
+          "tags": [
+            "#美国",
+            "#CFTC",
+            "#加密货币"
+          ],
+          "ts": 1787231837000,
+          "time": "21:17:17",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228770",
+          "url": "https://t.me/jin10light/228770",
+          "title": "CBOT农产品晚间分析：伊利诺伊州产量预估骤降，叠加原油飙升，CBOT玉米应声上涨，大豆价格直逼一个月高点，但天气转好或成后续“隐忧”。",
+          "body": "市场对中长期供需关系表示担忧。 #CBOT玉米 #CBOT大豆 #伊利诺伊州",
+          "tags": [
+            "#CBOT玉米",
+            "#CBOT大豆",
+            "#伊利诺伊州"
+          ],
+          "ts": 1787231654000,
+          "time": "21:14:14",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228769",
+          "url": "https://t.me/jin10light/228769",
+          "title": "Anthropic旗下合资企业ODE收购AI咨询公司Casper Studios",
+          "body": "#Anthropic #Ode #Casper Studios",
+          "tags": [
+            "#Anthropic",
+            "#Ode",
+            "#Casper"
+          ],
+          "ts": 1787231237000,
+          "time": "21:07:17",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228768",
+          "url": "https://t.me/jin10light/228768",
+          "title": "Bitget CandyBomb：交易任意币种解锁10枚ETH",
+          "body": "#Bitget #ETH",
+          "tags": [
+            "#Bitget",
+            "#ETH"
+          ],
+          "ts": 1787230933000,
+          "time": "21:02:13",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228767",
+          "url": "https://t.me/jin10light/228767",
+          "title": "美股盘前要闻一览：特朗普发表支持加密货币讲话，CFTC加速拥抱加密衍生品",
+          "body": "#美国 #BTC #ETH",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1787230824000,
+          "time": "21:00:24",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228766",
+          "url": "https://t.me/jin10light/228766",
+          "title": "棉花期货因美国作物状况担忧升至两年高位。",
+          "body": "#棉花期货 #美国",
+          "tags": [
+            "#棉花期货",
+            "#美国"
+          ],
+          "ts": 1787230824000,
+          "time": "21:00:24",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228765",
+          "url": "https://t.me/jin10light/228765",
+          "title": "个股新é",
+          "body": "1.阿里巴巴(BABA.N)那边：本季度集团收入同比升9%，高质量的收益和经营杠杆使得EBITA利润率提升至12%。 2. 美光科技(MU.O)将在未来10年内向美国内存研究实验室投资100亿美元。 3. Coreweave(CRWV.O)：Hudson River Trading将在CoreWeave平台上，利用英伟达Vera Rubin NVL72和HGX B200开展人工智能研究。 4. Meta Platforms(META.O)正向微软Azure人工智能服务投入数亿美元，已悄然成为微软最大的人工智能客户之一。 5. 富途控股(FUTU.O)：...",
+          "tags": [
+            "#阿里巴巴",
+            "#美光科技",
+            "#Coreweave"
+          ],
+          "ts": 1787230823000,
+          "time": "21:00:23",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228764",
+          "url": "https://t.me/jin10light/228764",
+          "title": "夜盘开盘，国内期货主力合约涨多跌少，纯苯涨近3%，沥青、低硫燃料油（LU）、液化石油气（LPG）、燃料油涨超2%，SC原油、苯乙烯（EB）、纸浆、对二甲苯、PTA、甲醇、瓶片涨超1%。",
+          "body": "跌幅方面，沪镍跌超1%，不锈钢（SS）跌近1%。 #纯苯 #沥青 #低硫燃料油",
+          "tags": [
+            "#纯苯",
+            "#沥青",
+            "#低硫燃料油"
+          ],
+          "ts": 1787230822000,
+          "time": "21:00:22",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228763",
+          "url": "https://t.me/jin10light/228763",
+          "title": "美联储戴利：不认为人工智能投资会推动整体通胀上升。",
+          "body": "",
+          "tags": [],
+          "ts": 1787229975000,
+          "time": "20:46:15",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
+        {
+          "id": "228762",
+          "url": "https://t.me/jin10light/228762",
+          "title": "美光推出美光研究实验室，未来十年计划投资100亿美元",
+          "body": "#美光科技 #美国",
+          "tags": [
+            "#美光科技",
+            "#美国"
+          ],
+          "ts": 1787229854000,
+          "time": "20:44:14",
+          "receivedAt": 1787232771770,
+          "receivedTime": true
+        },
         {
           "id": "228761",
           "url": "https://t.me/jin10light/228761",
@@ -18572,189 +18759,6 @@
           "ts": 1786727713000,
           "time": "01:15:13",
           "receivedAt": 1786729105124,
-          "receivedTime": true
-        },
-        {
-          "id": "227574",
-          "url": "https://t.me/jin10light/227574",
-          "title": "若比特币跌破6.2万美元，主流CEX累计多单清算强度将达8.03亿",
-          "body": "#BTC #CEX",
-          "tags": [
-            "#BTC",
-            "#CEX"
-          ],
-          "ts": 1786727594000,
-          "time": "01:13:14",
-          "receivedAt": 1786729105124,
-          "receivedTime": true
-        },
-        {
-          "id": "227573",
-          "url": "https://t.me/jin10light/227573",
-          "title": "美联储古尔斯比：仍需更多证据确认通胀回落",
-          "body": "#美国 #美联储 #CPI",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#CPI"
-          ],
-          "ts": 1786726815000,
-          "time": "01:00:15",
-          "receivedAt": 1786729105124,
-          "receivedTime": true
-        },
-        {
-          "id": "227572",
-          "url": "https://t.me/jin10light/227572",
-          "title": "摩根大通因监管担忧已终止与Polymarket银行业务关系",
-          "body": "",
-          "tags": [],
-          "ts": 1786726761000,
-          "time": "00:59:21",
-          "receivedAt": 1786729105124,
-          "receivedTime": true
-        },
-        {
-          "id": "227571",
-          "url": "https://t.me/jin10light/227571",
-          "title": "美国至8月14日当周石油钻井总数 455口，前值454口。",
-          "body": "",
-          "tags": [],
-          "ts": 1786726218000,
-          "time": "00:50:18",
-          "receivedAt": 1786729105124,
-          "receivedTime": true
-        },
-        {
-          "id": "227570",
-          "url": "https://t.me/jin10light/227570",
-          "title": "Anthropic IPO或成AI热潮关键考验，2万亿美元估值面临盈利能力检验",
-          "body": "#Anthropic #Amazon #Google",
-          "tags": [
-            "#Anthropic",
-            "#Amazon",
-            "#Google"
-          ],
-          "ts": 1786726095000,
-          "time": "00:48:15",
-          "receivedAt": 1786726114900,
-          "receivedTime": true
-        },
-        {
-          "id": "227569",
-          "url": "https://t.me/jin10light/227569",
-          "title": "美联储古尔斯比：零售销售疲弱仅属单月表现。",
-          "body": "#美联储 #美国",
-          "tags": [
-            "#美联储",
-            "#美国"
-          ],
-          "ts": 1786725680000,
-          "time": "00:41:20",
-          "receivedAt": 1786726114900,
-          "receivedTime": true
-        },
-        {
-          "id": "227568",
-          "url": "https://t.me/jin10light/227568",
-          "title": "美联储古尔斯比：CPI数据令人鼓舞，支持7月份维持利率不变的决策",
-          "body": "#美联储 #CPI #AI",
-          "tags": [
-            "#美联储",
-            "#CPI",
-            "#AI"
-          ],
-          "ts": 1786725614000,
-          "time": "00:40:14",
-          "receivedAt": 1786726114900,
-          "receivedTime": true
-        },
-        {
-          "id": "227567",
-          "url": "https://t.me/jin10light/227567",
-          "title": "联合健康集团CEO枪杀案嫌疑人就联邦指控认罪",
-          "body": "#布赖恩·汤普森 #联合健康保险",
-          "tags": [
-            "#布赖恩",
-            "#联合健康保险"
-          ],
-          "ts": 1786725379000,
-          "time": "00:36:19",
-          "receivedAt": 1786726114900,
-          "receivedTime": true
-        },
-        {
-          "id": "227566",
-          "url": "https://t.me/jin10light/227566",
-          "title": "AAOI涨幅扩大至15.37%，现报150.075美元",
-          "body": "#AAOI #美国",
-          "tags": [
-            "#AAOI",
-            "#美国"
-          ],
-          "ts": 1786725312000,
-          "time": "00:35:12",
-          "receivedAt": 1786726114900,
-          "receivedTime": true
-        },
-        {
-          "id": "227565",
-          "url": "https://t.me/jin10light/227565",
-          "title": "据沙特媒体哈达斯（Alhadath）：也门政府军表示，胡塞武装再次用导弹袭击麦赫港。",
-          "body": "#也门 #胡塞武装 #麦赫港",
-          "tags": [
-            "#也门",
-            "#胡塞武装",
-            "#麦赫港"
-          ],
-          "ts": 1786725195000,
-          "time": "00:33:15",
-          "receivedAt": 1786726114900,
-          "receivedTime": true
-        },
-        {
-          "id": "227564",
-          "url": "https://t.me/jin10light/227564",
-          "title": "软银将台积电持仓减少71.5%，降至56.5万份ADR",
-          "body": "#美国 #软银集团 #台积电",
-          "tags": [
-            "#美国",
-            "#软银集团",
-            "#台积电"
-          ],
-          "ts": 1786725195000,
-          "time": "00:33:15",
-          "receivedAt": 1786726114900,
-          "receivedTime": true
-        },
-        {
-          "id": "227563",
-          "url": "https://t.me/jin10light/227563",
-          "title": "美国证券交易委员会（SEC）文件显示，软银集团将其在台积电(TSM.N)的股份减少71.5%，降至56.5万份存托凭证。",
-          "body": "#美国 #软银集团 #台积电",
-          "tags": [
-            "#美国",
-            "#软银集团",
-            "#台积电"
-          ],
-          "ts": 1786725016000,
-          "time": "00:30:16",
-          "receivedAt": 1786726114900,
-          "receivedTime": true
-        },
-        {
-          "id": "227562",
-          "url": "https://t.me/jin10light/227562",
-          "title": "OpenAI上市前现高管离职潮，部分投资者称其为「巨大危险信号」",
-          "body": "#OpenAI #IPO #Greg Brockman",
-          "tags": [
-            "#OpenAI",
-            "#IPO",
-            "#Greg"
-          ],
-          "ts": 1786723158000,
-          "time": "23:59:18",
-          "receivedAt": 1786726114900,
           "receivedTime": true
         }
       ],
