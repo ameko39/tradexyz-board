@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T14:11:20.094Z",
+  "updatedAt": "2026-08-20T14:53:33.092Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1490,17 +1490,6 @@
           "time": "04:00:14",
           "receivedAt": 1785960863205,
           "receivedTime": true
-        },
-        {
-          "id": "6819",
-          "url": "https://t.me/BWEtradfi/6819",
-          "title": "DB: 美国原油库存增加247.9万桶；预期减少150.6万桶",
-          "body": "DB: *US CRUDE OIL INVENTORIES ROSE 2.479M BARRELS; EST. -1.506M",
-          "tags": [],
-          "ts": 1785940214000,
-          "time": "22:30:14",
-          "receivedAt": 1785944028163,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1508,6 +1497,136 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228796",
+          "url": "https://t.me/jin10light/228796",
+          "title": "现货白银日内涨幅达1%，现报67.67美元/盎司。",
+          "body": "#白银 #美元",
+          "tags": [
+            "#白银",
+            "#美元"
+          ],
+          "ts": 1787236514000,
+          "time": "22:35:14",
+          "receivedAt": 1787237589012,
+          "receivedTime": true
+        },
+        {
+          "id": "228795",
+          "url": "https://t.me/jin10light/228795",
+          "title": "Coinbase CEO：目前很可能正处于下轮牛市前夜",
+          "body": "#Coinbase #Brian Armstrong #BTC",
+          "tags": [
+            "#Coinbase",
+            "#Brian",
+            "#BTC"
+          ],
+          "ts": 1787236337000,
+          "time": "22:32:17",
+          "receivedAt": 1787237589012,
+          "receivedTime": true
+        },
+        {
+          "id": "228794",
+          "url": "https://t.me/jin10light/228794",
+          "title": "美国至8月14日当周EIA天然气库存 160亿立方英尺，预期190亿立方英尺，前值360亿立方英尺。",
+          "body": "#美国 #天然气",
+          "tags": [
+            "#美国",
+            "#天然气"
+          ],
+          "ts": 1787236275000,
+          "time": "22:31:15",
+          "receivedAt": 1787237589012,
+          "receivedTime": true
+        },
+        {
+          "id": "228793",
+          "url": "https://t.me/jin10light/228793",
+          "title": "EIA天然气报告：截至8月14日当周，美国天然气库存总量为31690亿立方英尺，较此前一周增加160亿立方英尺，较去年同期减少280亿立方英尺，同比降幅0.9%，同时较5年均值高1850亿立方英尺，增幅6.2%。",
+          "body": "#美国 #天然气",
+          "tags": [
+            "#美国",
+            "#天然气"
+          ],
+          "ts": 1787236274000,
+          "time": "22:31:14",
+          "receivedAt": 1787237589012,
+          "receivedTime": true
+        },
+        {
+          "id": "228792",
+          "url": "https://t.me/jin10light/228792",
+          "title": "沉寂11年比特币钱包集体「苏醒」，24小时内转移1214枚BTC",
+          "body": "#BTC #比特币上涨",
+          "tags": [
+            "#BTC",
+            "#比特币上涨"
+          ],
+          "ts": 1787236036000,
+          "time": "22:27:16",
+          "receivedAt": 1787237589012,
+          "receivedTime": true
+        },
+        {
+          "id": "228791",
+          "url": "https://t.me/jin10light/228791",
+          "title": "某巨鲸「逆势做空」2万枚ETH及500枚BTC",
+          "body": "#BTC #ETH",
+          "tags": [
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1787235734000,
+          "time": "22:22:14",
+          "receivedAt": 1787237589012,
+          "receivedTime": true
+        },
+        {
+          "id": "228790",
+          "url": "https://t.me/jin10light/228790",
+          "title": "美国至8月14日当周EIA天然气库存将于十分钟后公布。",
+          "body": "#美国 #EIA #天然气",
+          "tags": [
+            "#美国",
+            "#EIA",
+            "#天然气"
+          ],
+          "ts": 1787235676000,
+          "time": "22:21:16",
+          "receivedAt": 1787237589012,
+          "receivedTime": true
+        },
+        {
+          "id": "228789",
+          "url": "https://t.me/jin10light/228789",
+          "title": "新一轮芯片涨价潮来袭，半导体公司密集宣布涨价",
+          "body": "#卓胜微 #国民技术 #意法半导体",
+          "tags": [
+            "#卓胜微",
+            "#国民技术",
+            "#意法半导体"
+          ],
+          "ts": 1787235493000,
+          "time": "22:18:13",
+          "receivedAt": 1787237589012,
+          "receivedTime": true
+        },
+        {
+          "id": "228788",
+          "url": "https://t.me/jin10light/228788",
+          "title": "谷歌旗下Waymo为其无人出租车自研定制芯片，已经量产",
+          "body": "#Waymo #谷歌 #英伟达",
+          "tags": [
+            "#Waymo",
+            "#谷歌",
+            "#英伟达"
+          ],
+          "ts": 1787235254000,
+          "time": "22:14:14",
+          "receivedAt": 1787237589012,
+          "receivedTime": true
+        },
         {
           "id": "228787",
           "url": "https://t.me/jin10light/228787",
@@ -18602,139 +18721,6 @@
           ],
           "ts": 1786757174000,
           "time": "09:26:14",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227596",
-          "url": "https://t.me/jin10light/227596",
-          "title": "整理：中东局势跟踪（8月15日）",
-          "body": "冲突情å 1.联黎部队持续监测到黎巴嫩领空遭侵犯事件。 2. 美军中央司令部否认推动对伊新一轮军事打击。 3. 美国中央司令部：截至8月14日，美军中央司令部部队已迫使62艘商船改道，使3艘船只失去行动能力，并登临检查2艘船只，以确保其遵守封锁规定。 4. 也门政府军称胡塞武装发射6枚弹道导弹袭击摩卡港。 5. 也门胡塞武装控制的萨巴通讯社援引消息称，胡塞武装使用无人机袭击了沙特阿美公司位于沙特阿拉伯南部奈季兰省的设施。 6. 白宫新闻秘书莱维特：我们还有更多施压伊朗的手段。 美国可以继续惩罚伊朗并削弱其经济。 7. 特朗普：将对伊朗实施严厉经济打击；...",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1786756756000,
-          "time": "09:19:16",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227595",
-          "url": "https://t.me/jin10light/227595",
-          "title": "博通AI客户融资平台引担忧，股价收盘跌近6%",
-          "body": "#博通 #美国银行 #黑石集团",
-          "tags": [
-            "#博通",
-            "#美国银行",
-            "#黑石集团"
-          ],
-          "ts": 1786756755000,
-          "time": "09:19:15",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227594",
-          "url": "https://t.me/jin10light/227594",
-          "title": "Chainlink回购12.77万枚LINK，累计储备规模达548万枚",
-          "body": "#Chainlink #LINK",
-          "tags": [
-            "#Chainlink",
-            "#LINK"
-          ],
-          "ts": 1786756272000,
-          "time": "09:11:12",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227593",
-          "url": "https://t.me/jin10light/227593",
-          "title": "美SEC推迟代币化证券监管计划，Coinbase、Circle等相关股票承压下跌",
-          "body": "#美国 #SEC #Coinbase",
-          "tags": [
-            "#美国",
-            "#SEC",
-            "#Coinbase"
-          ],
-          "ts": 1786756216000,
-          "time": "09:10:16",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227592",
-          "url": "https://t.me/jin10light/227592",
-          "title": "Jane Street单月亏损150亿美元，AI基金暴跌致顶级交易巨头遭遇罕见失利",
-          "body": "#Jane Street #美国",
-          "tags": [
-            "#Jane",
-            "#美国"
-          ],
-          "ts": 1786755912000,
-          "time": "09:05:12",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227591",
-          "url": "https://t.me/jin10light/227591",
-          "title": "视频｜Bitwise首席投资官：比特币对利空不再反应，熊市可能已经触底",
-          "body": "#BTC #Matt Hougan #Bitwise",
-          "tags": [
-            "#BTC",
-            "#Matt",
-            "#Bitwise"
-          ],
-          "ts": 1786755794000,
-          "time": "09:03:14",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227590",
-          "url": "https://t.me/jin10light/227590",
-          "title": "特朗普预计出席白宫加密行业会议，Coinbase、Ripple等CEO将参与讨论",
-          "body": "#美国 #特朗普 #BTC",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#BTC"
-          ],
-          "ts": 1786755318000,
-          "time": "08:55:18",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227589",
-          "url": "https://t.me/jin10light/227589",
-          "title": "白宫官员：尚未听闻任何延长停火的计划",
-          "body": "#美国 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1786755072000,
-          "time": "08:51:12",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227588",
-          "url": "https://t.me/jin10light/227588",
-          "title": "美股今晨收盘三大股指低收，闪迪涨超7%，博通跌近6%",
-          "body": "#美股 #Unusual Machines #闪迪",
-          "tags": [
-            "#美股",
-            "#Unusual",
-            "#闪迪"
-          ],
-          "ts": 1786755014000,
-          "time": "08:50:14",
           "receivedAt": 1786759408466,
           "receivedTime": true
         }
