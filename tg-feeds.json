@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T04:07:52.129Z",
+  "updatedAt": "2026-08-20T04:49:08.478Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1503,11 +1503,112 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228613",
+          "url": "https://t.me/jin10light/228613",
+          "title": "美国民主党参议员警告：仓促推动CLARITY法案表决或使立法进程倒退",
+          "body": "#美国 #CLARITY Act #Ruben Gallego",
+          "tags": [
+            "#美国",
+            "#CLARITY",
+            "#Ruben"
+          ],
+          "ts": 1787201298000,
+          "time": "12:48:18",
+          "receivedAt": 1787201327257,
+          "receivedTime": true
+        },
+        {
+          "id": "228612",
+          "url": "https://t.me/jin10light/228612",
+          "title": "Anthropic给出2.5亿美元采购协议，Fractile估值3个月涨6倍",
+          "body": "#英国 #Fractile #Anthropic",
+          "tags": [
+            "#英国",
+            "#Fractile",
+            "#Anthropic"
+          ],
+          "ts": 1787201114000,
+          "time": "12:45:14",
+          "receivedAt": 1787201327257,
+          "receivedTime": true
+        },
+        {
+          "id": "228611",
+          "url": "https://t.me/jin10light/228611",
+          "title": "财通福鑫定开混合：将于2026年8月20日下午开盘起至当日收盘停牌。",
+          "body": "",
+          "tags": [],
+          "ts": 1787200153000,
+          "time": "12:29:13",
+          "receivedAt": 1787201327257,
+          "receivedTime": true
+        },
+        {
+          "id": "228610",
+          "url": "https://t.me/jin10light/228610",
+          "title": "本轮上涨最大利好？「Regulation Crypto Assets」草案行业领军人物观点一览",
+          "body": "#BTC #ETH #美国",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#美国"
+          ],
+          "ts": 1787200038000,
+          "time": "12:27:18",
+          "receivedAt": 1787201327257,
+          "receivedTime": true
+        },
+        {
+          "id": "228609",
+          "url": "https://t.me/jin10light/228609",
+          "title": "OpenAI推「零数据留存」，矛头直指Anthropic的30天政策",
+          "body": "#OpenAI #Anthropic #微软",
+          "tags": [
+            "#OpenAI",
+            "#Anthropic",
+            "#微软"
+          ],
+          "ts": 1787199555000,
+          "time": "12:19:15",
+          "receivedAt": 1787201327257,
+          "receivedTime": true
+        },
+        {
+          "id": "228608",
+          "url": "https://t.me/jin10light/228608",
+          "title": "CZ：比特币仍遵循四年周期，加密迎来政策环境最友好的时期",
+          "body": "#CZ #BTC #美国",
+          "tags": [
+            "#CZ",
+            "#BTC",
+            "#美国"
+          ],
+          "ts": 1787199495000,
+          "time": "12:18:15",
+          "receivedAt": 1787201327257,
+          "receivedTime": true
+        },
+        {
+          "id": "228607",
+          "url": "https://t.me/jin10light/228607",
+          "title": "一夜牛回，加密恐慌指数升至62，创近10.11以来新高",
+          "body": "#加密货币 #BTC #贪婪",
+          "tags": [
+            "#加密货币",
+            "#BTC",
+            "#贪婪"
+          ],
+          "ts": 1787199254000,
+          "time": "12:14:14",
+          "receivedAt": 1787201327257,
+          "receivedTime": true
+        },
         {
           "id": "228606",
           "url": "https://t.me/jin10light/228606",
@@ -18633,111 +18734,6 @@
           "time": "12:37:14",
           "receivedAt": 1786684573487,
           "receivedTime": true
-        },
-        {
-          "id": "227413",
-          "url": "https://t.me/jin10light/227413",
-          "title": "Serenity：玻璃基板量产时间或再推迟一个季度，相关厂商放量节奏或随之延后",
-          "body": "#三星 #SKC #玻璃基板",
-          "tags": [
-            "#三星",
-            "#SKC",
-            "#玻璃基板"
-          ],
-          "ts": 1786682114000,
-          "time": "12:35:14",
-          "receivedAt": 1786684573487,
-          "receivedTime": true
-        },
-        {
-          "id": "227412",
-          "url": "https://t.me/jin10light/227412",
-          "title": "智谱GLM-5.3临近？唐杰连续「剧透」，社区已提前沸腾",
-          "body": "#智谱 #唐杰 #GLM -5.3",
-          "tags": [
-            "#智谱",
-            "#唐杰",
-            "#GLM"
-          ],
-          "ts": 1786681755000,
-          "time": "12:29:15",
-          "receivedAt": 1786684573487,
-          "receivedTime": true
-        },
-        {
-          "id": "227411",
-          "url": "https://t.me/jin10light/227411",
-          "title": "高盛据悉正洽谈参与英伟达5000亿美元AI融资计划",
-          "body": "#高盛 #英伟达 #美国",
-          "tags": [
-            "#高盛",
-            "#英伟达",
-            "#美国"
-          ],
-          "ts": 1786681096000,
-          "time": "12:18:16",
-          "receivedAt": 1786684573487,
-          "receivedTime": true
-        },
-        {
-          "id": "227410",
-          "url": "https://t.me/jin10light/227410",
-          "title": "消息人士：高盛正与潜在投资者就参与英伟达5000亿美元人工智能融资计划进行磋商。",
-          "body": "#高盛 #英伟达 #人工智能",
-          "tags": [
-            "#高盛",
-            "#英伟达",
-            "#人工智能"
-          ],
-          "ts": 1786680133000,
-          "time": "12:02:13",
-          "receivedAt": 1786684573487,
-          "receivedTime": true
-        },
-        {
-          "id": "227409",
-          "url": "https://t.me/jin10light/227409",
-          "title": "特朗普与马斯克关系全面回暖：计划至少投入1亿美元助共和党赢下中期选举",
-          "body": "#特朗普 #马斯克 #美国",
-          "tags": [
-            "#特朗普",
-            "#马斯克",
-            "#美国"
-          ],
-          "ts": 1786679960000,
-          "time": "11:59:20",
-          "receivedAt": 1786684573487,
-          "receivedTime": true
-        },
-        {
-          "id": "227408",
-          "url": "https://t.me/jin10light/227408",
-          "title": "分析：AI股神Leopold仅保留Anthropic持仓，AGI长期信仰未变",
-          "body": "#Anthropic #Citadel #Ken Griffin",
-          "tags": [
-            "#Anthropic",
-            "#Citadel",
-            "#Ken"
-          ],
-          "ts": 1786679414000,
-          "time": "11:50:14",
-          "receivedAt": 1786684573487,
-          "receivedTime": true
-        },
-        {
-          "id": "227407",
-          "url": "https://t.me/jin10light/227407",
-          "title": "传Google DeepMind拟裁超1/3：短期停更Pro，资源转向Flash",
-          "body": "#Google DeepMind #Gemini #Flash",
-          "tags": [
-            "#Google",
-            "#Gemini",
-            "#Flash"
-          ],
-          "ts": 1786678634000,
-          "time": "11:37:14",
-          "receivedAt": 1786684573487,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -18745,6 +18741,17 @@
     "poly": {
       "channel": "PolyBeats_Bot",
       "items": [
+        {
+          "id": "1773",
+          "url": "https://t.me/PolyBeats_Bot/1773",
+          "title": "央行持续买金、美元与收益率施压，聪明钱预测金价本月难破 $4,600",
+          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 黄金本月会突破 $4,600 吗？ 」投入 $1.1k「否」，平均买入概率为 83.0%，目前「是」概率为 52.5%。 Avamax 投入 $1.1k，与本市场最佳相关板块为 大宗商品 ，板块净盈利 $55.5k。其在该板块共 190 笔已结算交易的胜率为 163/190（86%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 10 笔。相近成本价区间（$0.751-$0.9）内，其历史投入金额中位数为 $3.3k。 「是」方的逻辑来自黄金的结构性需求和避险属性。世界黄金协会 7 月 30 日发布的二季度报告显示，全球央行二季度净购金 288.9 吨，创二季度历史高位；截至 2026 年上半年，调查中 89% 的央行预计未来 12 个月全球黄金储备仍会增加。世界黄金协会 8 月 11 日的市场报道还称，中国人民银行 7 月增持约 20 吨黄金，连续增持周期延长至 21 个月，地缘政治和霍尔木兹海峡不确定性也在持续支撑避险需求。 「否」方则认为，黄金要从近期约 $4,400–$4,450 区间进一步冲到 $4,600，仍需要约 3%–5% 的额外涨幅。...",
+          "tags": [],
+          "ts": 1787200021000,
+          "time": "12:27:01",
+          "receivedAt": 1787201346568,
+          "receivedTime": true
+        },
         {
           "id": "1772",
           "url": "https://t.me/PolyBeats_Bot/1772",
@@ -19936,7 +19943,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
