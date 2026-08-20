@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-20T17:49:38.332Z",
+  "updatedAt": "2026-08-20T18:16:07.794Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6959",
+          "url": "https://t.me/BWEtradfi/6959",
+          "title": "据悉ANTHROPIC拟于8月底前提交IPO申请",
+          "body": "*ANTHROPIC SAID TO PREPARE IPO FILING AS SOON AS END OF AUGUST",
+          "tags": [],
+          "ts": 1787248567000,
+          "time": "01:56:07",
+          "receivedAt": 1787249740079,
+          "receivedTime": true
+        },
+        {
+          "id": "6958",
+          "url": "https://t.me/BWEtradfi/6958",
+          "title": "*Anthropic 预计首次公开募股规模将追平或超越 SpaceX 的纪录",
+          "body": "*ANTHROPIC EXPECTS TO MATCH SPACEX’S RECORD IPO SIZE OR TOP IT $SPCX",
+          "tags": [],
+          "ts": 1787248520000,
+          "time": "01:55:20",
+          "receivedAt": 1787249740079,
+          "receivedTime": true
+        },
         {
           "id": "6957",
           "url": "https://t.me/BWEtradfi/6957",
@@ -1552,6 +1574,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228833",
+          "url": "https://t.me/jin10light/228833",
+          "title": "消息人士：Anthropic预计将达到或超过SpaceX创纪录的IPO规模。",
+          "body": "该公司表示，最早将于8月底准备IPO申请文件。 Anthropic第二季度营收超过115亿美元，7月份年化营收达到650亿美元。 #Anthropic #SpaceX #IPO",
+          "tags": [
+            "#Anthropic",
+            "#SpaceX",
+            "#IPO"
+          ],
+          "ts": 1787248814000,
+          "time": "02:00:14",
+          "receivedAt": 1787249743762,
+          "receivedTime": true
+        },
         {
           "id": "228832",
           "url": "https://t.me/jin10light/228832",
@@ -18739,20 +18776,6 @@
           ],
           "ts": 1786780456000,
           "time": "15:54:16",
-          "receivedAt": 1786780636631,
-          "receivedTime": true
-        },
-        {
-          "id": "227633",
-          "url": "https://t.me/jin10light/227633",
-          "title": "Robinhood推出第二支风投基金，向散户开放Y Combinator初创企业投资机会",
-          "body": "#Robinhood #美国",
-          "tags": [
-            "#Robinhood",
-            "#美国"
-          ],
-          "ts": 1786780034000,
-          "time": "15:47:14",
           "receivedAt": 1786780636631,
           "receivedTime": true
         }
