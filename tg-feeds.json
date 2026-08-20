@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T23:45:42.778Z",
+  "updatedAt": "2026-08-20T00:00:28.089Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1530,6 +1530,51 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228539",
+          "url": "https://t.me/jin10light/228539",
+          "title": "美CFTC就AI算力期货征求公众意见",
+          "body": "#美国 #CFTC #芝商所",
+          "tags": [
+            "#美国",
+            "#CFTC",
+            "#芝商所"
+          ],
+          "ts": 1787183896000,
+          "time": "07:58:16",
+          "receivedAt": 1787184010593,
+          "receivedTime": true
+        },
+        {
+          "id": "228538",
+          "url": "https://t.me/jin10light/228538",
+          "title": "美股今晨三大股指收涨，Moderna大涨177%，加密概念股暴涨",
+          "body": "#美股 #Moderna #默沙东",
+          "tags": [
+            "#美股",
+            "#Moderna",
+            "#默沙东"
+          ],
+          "ts": 1787183594000,
+          "time": "07:53:14",
+          "receivedAt": 1787184010593,
+          "receivedTime": true
+        },
+        {
+          "id": "228537",
+          "url": "https://t.me/jin10light/228537",
+          "title": "特朗普加密利好发言一览：透露美政府已讨论积累「可观数量」的比特币；彻底结束对加密战争；敦促尽快通过《Genius Act》",
+          "body": "#美国 #BTC #特朗普",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#特朗普"
+          ],
+          "ts": 1787183236000,
+          "time": "07:47:16",
+          "receivedAt": 1787184010593,
+          "receivedTime": true
+        },
         {
           "id": "228536",
           "url": "https://t.me/jin10light/228536",
@@ -18720,48 +18765,6 @@
           ],
           "ts": 1786657393000,
           "time": "05:43:13",
-          "receivedAt": 1786657635008,
-          "receivedTime": true
-        },
-        {
-          "id": "227339",
-          "url": "https://t.me/jin10light/227339",
-          "title": "市场消息：OpenAI年化营收在IPO前已突破400亿美元。",
-          "body": "#OpenAI",
-          "tags": [
-            "#OpenAI"
-          ],
-          "ts": 1786657213000,
-          "time": "05:40:13",
-          "receivedAt": 1786657635008,
-          "receivedTime": true
-        },
-        {
-          "id": "227338",
-          "url": "https://t.me/jin10light/227338",
-          "title": "白宫：美国总统特朗普将对部分缺乏特定能力的小型无人机加征25%从价关税，理由是相关产品涉及国家安全问题。",
-          "body": "#美国 #特朗普",
-          "tags": [
-            "#美国",
-            "#特朗普"
-          ],
-          "ts": 1786656435000,
-          "time": "05:27:15",
-          "receivedAt": 1786657635008,
-          "receivedTime": true
-        },
-        {
-          "id": "227337",
-          "url": "https://t.me/jin10light/227337",
-          "title": "白宫：美国总统特朗普将对特定尺寸或具备敏感性能的无人机加征100%从价关税。",
-          "body": "#美国 #特朗普 #无人机",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#无人机"
-          ],
-          "ts": 1786656434000,
-          "time": "05:27:14",
           "receivedAt": 1786657635008,
           "receivedTime": true
         }
