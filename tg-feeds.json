@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-20T20:30:36.539Z",
+  "updatedAt": "2026-08-20T20:57:43.291Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6963",
+          "url": "https://t.me/BWEtradfi/6963",
+          "title": "美联储表示主席沃什将于8月28日上午10点（美国东部时间）在杰克逊霍尔发表讲话",
+          "body": "*FED SAYS CHAIRMAN WARSH TO SPEAK 10AM ET AUG 28 IN JACKSON HOLE",
+          "tags": [],
+          "ts": 1787258194000,
+          "time": "04:36:34",
+          "receivedAt": 1787259435984,
+          "receivedTime": true
+        },
         {
           "id": "6962",
           "url": "https://t.me/BWEtradfi/6962",
@@ -1531,28 +1542,6 @@
           "time": "09:00:14",
           "receivedAt": 1785989349961,
           "receivedTime": true
-        },
-        {
-          "id": "6825",
-          "url": "https://t.me/BWEtradfi/6825",
-          "title": "*妮基塔·比尔卸任 X: POST 产品负责人一职",
-          "body": "*NIKITA BIER STEPS DOWN AS HEAD OF PRODUCT AT X: POST $SPCX $SPCX",
-          "tags": [],
-          "ts": 1785963088000,
-          "time": "04:51:28",
-          "receivedAt": 1785965606135,
-          "receivedTime": true
-        },
-        {
-          "id": "6824",
-          "url": "https://t.me/BWEtradfi/6824",
-          "title": "*亚马逊创始人贝佐斯出售价值 3.465 亿美元的股票",
-          "body": "*AMAZON’S BEZOS SELLS $346.5 MILLION OF SHARES $AMZN $AMZN",
-          "tags": [],
-          "ts": 1785962193000,
-          "time": "04:36:33",
-          "receivedAt": 1785965606135,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1560,6 +1549,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228839",
+          "url": "https://t.me/jin10light/228839",
+          "title": "中国与瑞士宣布完成自贸协定升级谈判",
+          "body": "8月21日讯，8月20日，瑞士联邦主席兼经济、教研部长帕姆兰在伯尔尼会见商务部部长王文涛，共同宣布完成中国—瑞士自由贸易协定升级谈判并签署谅解备忘录。 中国驻瑞士大使钱敏坚、瑞士驻华大使马婷等出席活动。 #中国 #瑞士 #自贸协定",
+          "tags": [
+            "#中国",
+            "#瑞士",
+            "#自贸协定"
+          ],
+          "ts": 1787259194000,
+          "time": "04:53:14",
+          "receivedAt": 1787259436675,
+          "receivedTime": true
+        },
+        {
+          "id": "228838",
+          "url": "https://t.me/jin10light/228838",
+          "title": "金十提示：美联储主席沃什将于美国东部时间8月28日上午10点（北京时间8月28日晚上10点）在杰克逊霍尔发表讲话。",
+          "body": "#美联储 #沃什 #杰克逊霍尔",
+          "tags": [
+            "#美联储",
+            "#沃什",
+            "#杰克逊霍尔"
+          ],
+          "ts": 1787258476000,
+          "time": "04:41:16",
+          "receivedAt": 1787259436675,
+          "receivedTime": true
+        },
         {
           "id": "228837",
           "url": "https://t.me/jin10light/228837",
@@ -18732,36 +18751,6 @@
           "ts": 1786786096000,
           "time": "17:28:16",
           "receivedAt": 1786786755200,
-          "receivedTime": true
-        },
-        {
-          "id": "227639",
-          "url": "https://t.me/jin10light/227639",
-          "title": "分析：比特币表观需求明显改善，但结构性囤积量尚无法完全吸收新供应",
-          "body": "#BTC #CryptoQuant #Darkfost",
-          "tags": [
-            "#BTC",
-            "#CryptoQuant",
-            "#Darkfost"
-          ],
-          "ts": 1786784895000,
-          "time": "17:08:15",
-          "receivedAt": 1786785118354,
-          "receivedTime": true
-        },
-        {
-          "id": "227638",
-          "url": "https://t.me/jin10light/227638",
-          "title": "CZ：比特币是通缩资产，仅剩约4.4%供应量待挖",
-          "body": "#Binance #CZ #BTC",
-          "tags": [
-            "#Binance",
-            "#CZ",
-            "#BTC"
-          ],
-          "ts": 1786783158000,
-          "time": "16:39:18",
-          "receivedAt": 1786783834507,
           "receivedTime": true
         }
       ],
