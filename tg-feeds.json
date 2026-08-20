@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-20T17:18:44.585Z",
+  "updatedAt": "2026-08-20T17:49:38.332Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6957",
+          "url": "https://t.me/BWEtradfi/6957",
+          "title": "*美国商品期货交易委员会（CFTC）的塞利格（SELIG）：指示工作人员利用该机构现有权限，探索制定规则以规范市场结构。",
+          "body": "*CFTC'S SELIG: DIRECTED STAFF TO EXPLORE RULES TO CODIFY MARKET STRUCTURE USING AGENCY'S EXISTING AUTHORITY *SELIG: THIS COULD ENABLE CURRENT REGISTRANTS AS WELL AS NON-REGISTRANT CRYPTO EXCHANGES TO OFFER LEVERAGE OR MARGIN *塞利格：这可能使现有注册加密货币交易所以及非注册加密货币交易所能够提供杠杆或保证金交易。",
+          "tags": [],
+          "ts": 1787246402000,
+          "time": "01:20:02",
+          "receivedAt": 1787248154332,
+          "receivedTime": true
+        },
         {
           "id": "6956",
           "url": "https://t.me/BWEtradfi/6956",
@@ -1541,6 +1552,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228832",
+          "url": "https://t.me/jin10light/228832",
+          "title": "花旗下调美元预测：美联储转鸽预期与国债回购施压美元",
+          "body": "花旗集团的外汇策略师转而看空美元短期走势，原因是市场正在为立场更加鸽派的美联储、美国中期选举以及美国财政部进一步扩大国债回购规模做准备。 由丹尼尔·托邦领衔的花旗策略师团队表示，将未来3个月的美元指数预测从102.12下调至98.34。 花旗此前指出，美国财长贝森特近期通过扩大对10年至30年期美国国债的回购规模来压低长期借贷成本的举措，可能会令美元付出代价。 美元指数周三跌至5月以来最低水平后，周四基本持平于98.9附近。 花旗团队表示，近几个月他们对美元的看法一直“较为中性”，但已警告未来几个月美元面临的风险可能增加。 #美元 #美联储 #花旗集团",
+          "tags": [
+            "#美元",
+            "#美联储",
+            "#花旗集团"
+          ],
+          "ts": 1787246717000,
+          "time": "01:25:17",
+          "receivedAt": 1787248156519,
+          "receivedTime": true
+        },
         {
           "id": "228831",
           "url": "https://t.me/jin10light/228831",
@@ -18728,21 +18754,6 @@
           "ts": 1786780034000,
           "time": "15:47:14",
           "receivedAt": 1786780636631,
-          "receivedTime": true
-        },
-        {
-          "id": "227632",
-          "url": "https://t.me/jin10light/227632",
-          "title": "瑞穗下调BitGo目标价至11美元：称《Clarity Act》延期反而扩大监管优势",
-          "body": "#BitGo #美国 #Clarity Act",
-          "tags": [
-            "#BitGo",
-            "#美国",
-            "#Clarity"
-          ],
-          "ts": 1786777816000,
-          "time": "15:10:16",
-          "receivedAt": 1786779515562,
           "receivedTime": true
         }
       ],
