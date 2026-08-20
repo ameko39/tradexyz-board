@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-20T20:57:43.291Z",
+  "updatedAt": "2026-08-20T21:27:51.277Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6964",
+          "url": "https://t.me/BWEtradfi/6964",
+          "title": "[SEC-144] CEREBRAS SYSTEMS INC () | 高管 SEAN LIE | 申报抛售 1.5319 亿美元 $CBRS",
+          "body": "[SEC-144] *CEREBRAS SYSTEMS INC () | OFFICER SEAN LIE | FILES TO SELL $153.19M $CBRS",
+          "tags": [],
+          "ts": 1787259751000,
+          "time": "05:02:31",
+          "receivedAt": 1787261082817,
+          "receivedTime": true
+        },
         {
           "id": "6963",
           "url": "https://t.me/BWEtradfi/6963",
@@ -1544,7 +1555,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
