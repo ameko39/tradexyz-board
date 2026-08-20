@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-20T11:57:38.465Z",
+  "updatedAt": "2026-08-20T12:42:45.460Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6951",
+          "url": "https://t.me/BWEtradfi/6951",
+          "title": "DB: *美国8月第15周首次申请失业救济人数为20.6万人，预计为21万人",
+          "body": "DB: *US JOBLESS CLAIMS 206K IN AUG. 15 WEEK; EST. 210K *US CONTINUING CLAIMS 1.799M IN AUG. 8 WEEK; EST. 1.790M *美国8月第8周持续申请失业救济人数为179.9万人，预计为179万人",
+          "tags": [],
+          "ts": 1787229016000,
+          "time": "20:30:16",
+          "receivedAt": 1787229741602,
+          "receivedTime": true
+        },
         {
           "id": "6950",
           "url": "https://t.me/BWEtradfi/6950",
@@ -1512,24 +1523,218 @@
           "time": "21:30:42",
           "receivedAt": 1785944028163,
           "receivedTime": true
-        },
-        {
-          "id": "6815",
-          "url": "https://t.me/BWEtradfi/6815",
-          "title": "DB: 美国7月ADP民间就业人数增加4.4万人；预期增加7.0万人",
-          "body": "DB: *US ADP JULY PRIVATE EMPLOYMENT RISES 44K; EST. +70K",
-          "tags": [],
-          "ts": 1785932113000,
-          "time": "20:15:13",
-          "receivedAt": 1785936188782,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228761",
+          "url": "https://t.me/jin10light/228761",
+          "title": "CryptoQuant创始人：比特币期现需求首次同时转正，新牛市周期或已开启",
+          "body": "#BTC #Ki Young Ju #CryptoQuant",
+          "tags": [
+            "#BTC",
+            "#Ki",
+            "#CryptoQuant"
+          ],
+          "ts": 1787229732000,
+          "time": "20:42:12",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228760",
+          "url": "https://t.me/jin10light/228760",
+          "title": "美联储戴利：债券收益率上升并不发出政策方面的信号。",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1787229614000,
+          "time": "20:40:14",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228759",
+          "url": "https://t.me/jin10light/228759",
+          "title": "美国30年期国债抹去因昨日美国财政部回购公告带来的涨幅。",
+          "body": "",
+          "tags": [],
+          "ts": 1787229500000,
+          "time": "20:38:20",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228758",
+          "url": "https://t.me/jin10light/228758",
+          "title": "美联储戴利：美联储政策处于良好状态。",
+          "body": "没有看到需要提前加息的证据。 #美联储",
+          "tags": [
+            "#美联储"
+          ],
+          "ts": 1787229444000,
+          "time": "20:37:24",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228757",
+          "url": "https://t.me/jin10light/228757",
+          "title": "美联储戴利：没有看到需要提前加息的证据",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1787229443000,
+          "time": "20:37:23",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228756",
+          "url": "https://t.me/jin10light/228756",
+          "title": "美光科技：计划在美国投资超过2500亿美元",
+          "body": "#美光科技 #美国",
+          "tags": [
+            "#美光科技",
+            "#美国"
+          ],
+          "ts": 1787229443000,
+          "time": "20:37:23",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228755",
+          "url": "https://t.me/jin10light/228755",
+          "title": "美光科技(MU.O)：计划在美国投资超过2500亿美元，创造超过9万个就业岗位。",
+          "body": "推出美光研究实验室，一个位于美国、面向长期创新的研发中心，旨在塑造存储技术和人工智能的未来，计划未来十年投资100亿美元。 #美光科技 #美国",
+          "tags": [
+            "#美光科技",
+            "#美国"
+          ],
+          "ts": 1787229373000,
+          "time": "20:36:13",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228754",
+          "url": "https://t.me/jin10light/228754",
+          "title": "美国至8月15日当周初请失业金人数20.6万人，预期21万人",
+          "body": "",
+          "tags": [],
+          "ts": 1787229019000,
+          "time": "20:30:19",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228753",
+          "url": "https://t.me/jin10light/228753",
+          "title": "美国8月费城联储制造业指数 47.4，预期25，前值41.4。",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1787229018000,
+          "time": "20:30:18",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228752",
+          "url": "https://t.me/jin10light/228752",
+          "title": "Optimism核心开发团队关键投票扭转结果，4970万美元OP将从用户空投转入战略生态基金",
+          "body": "#OP #Optimism #Optimism基金会",
+          "tags": [
+            "#OP",
+            "#Optimism",
+            "#Optimism基金会"
+          ],
+          "ts": 1787228533000,
+          "time": "20:22:13",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228751",
+          "url": "https://t.me/jin10light/228751",
+          "title": "美国至8月15日当周初请失业金人数、8月费城联储制造业指数将于十分钟后公布。",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1787228475000,
+          "time": "20:21:15",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228750",
+          "url": "https://t.me/jin10light/228750",
+          "title": "山寨币涨势延续，ETH 24小时涨超18%",
+          "body": "#特朗普 #BTC #ETH",
+          "tags": [
+            "#特朗普",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1787228237000,
+          "time": "20:17:17",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228749",
+          "url": "https://t.me/jin10light/228749",
+          "title": "阿里吴泳铭：AI算力Capex投资回报确定性非常高，Capex投入三年内回本",
+          "body": "#阿里巴巴 #吴泳铭 #AI",
+          "tags": [
+            "#阿里巴巴",
+            "#吴泳铭",
+            "#AI"
+          ],
+          "ts": 1787227933000,
+          "time": "20:12:13",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228748",
+          "url": "https://t.me/jin10light/228748",
+          "title": "美国长期债券跌幅扩大，30年期国债收益率上涨6个基点至5.25%",
+          "body": "",
+          "tags": [],
+          "ts": 1787227513000,
+          "time": "20:05:13",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
+        {
+          "id": "228747",
+          "url": "https://t.me/jin10light/228747",
+          "title": "Claude Code上线Concise模式：Boris称只是临时补丁",
+          "body": "#Anthropic #Claude Code #Boris Cherny",
+          "tags": [
+            "#Anthropic",
+            "#Claude",
+            "#Boris"
+          ],
+          "ts": 1787227334000,
+          "time": "20:02:14",
+          "receivedAt": 1787229742163,
+          "receivedTime": true
+        },
         {
           "id": "228746",
           "url": "https://t.me/jin10light/228746",
@@ -18550,216 +18755,6 @@
           "ts": 1786723158000,
           "time": "23:59:18",
           "receivedAt": 1786726114900,
-          "receivedTime": true
-        },
-        {
-          "id": "227561",
-          "url": "https://t.me/jin10light/227561",
-          "title": "马斯克2025年在特斯拉薪酬约1583亿美元，为员工薪资中位数的252万倍",
-          "body": "#美国 #马斯克 #特斯拉",
-          "tags": [
-            "#美国",
-            "#马斯克",
-            "#特斯拉"
-          ],
-          "ts": 1786722376000,
-          "time": "23:46:16",
-          "receivedAt": 1786722954500,
-          "receivedTime": true
-        },
-        {
-          "id": "227560",
-          "url": "https://t.me/jin10light/227560",
-          "title": "StablecoinX披露持有ENA总供应量约20%，当前价值超2.5亿美元",
-          "body": "#ENA #StablecoinX #USDE",
-          "tags": [
-            "#ENA",
-            "#StablecoinX",
-            "#USDE"
-          ],
-          "ts": 1786721595000,
-          "time": "23:33:15",
-          "receivedAt": 1786722954500,
-          "receivedTime": true
-        },
-        {
-          "id": "227559",
-          "url": "https://t.me/jin10light/227559",
-          "title": "千问27B打到Opus4.6门口：Muse Glimmer 8项全败",
-          "body": "#Qwen3 .8-27B #Meta #Muse Glimmer",
-          "tags": [
-            "#Qwen3",
-            "#Meta",
-            "#Muse"
-          ],
-          "ts": 1786721177000,
-          "time": "23:26:17",
-          "receivedAt": 1786722954500,
-          "receivedTime": true
-        },
-        {
-          "id": "227558",
-          "url": "https://t.me/jin10light/227558",
-          "title": "法国10年期国债收益率上升10个基点，达到4.04%，为2009年以来最高水平。",
-          "body": "",
-          "tags": [],
-          "ts": 1786720935000,
-          "time": "23:22:15",
-          "receivedAt": 1786722954500,
-          "receivedTime": true
-        },
-        {
-          "id": "227557",
-          "url": "https://t.me/jin10light/227557",
-          "title": "千问开源Qwen3.8-27B：量化后17GB就能本地跑",
-          "body": "#Qwen3 .8 #阿里云",
-          "tags": [
-            "#Qwen3",
-            "#阿里云"
-          ],
-          "ts": 1786720753000,
-          "time": "23:19:13",
-          "receivedAt": 1786722954500,
-          "receivedTime": true
-        },
-        {
-          "id": "227556",
-          "url": "https://t.me/jin10light/227556",
-          "title": "沙特公共投资基金披露持有1.541亿股SpaceX A类股",
-          "body": "#美国 #SpaceX",
-          "tags": [
-            "#美国",
-            "#SpaceX"
-          ],
-          "ts": 1786720694000,
-          "time": "23:18:14",
-          "receivedAt": 1786722954500,
-          "receivedTime": true
-        },
-        {
-          "id": "227555",
-          "url": "https://t.me/jin10light/227555",
-          "title": "美联储9月加息概率降至30.6%",
-          "body": "#美联储 #美国 #美元",
-          "tags": [
-            "#美联储",
-            "#美国",
-            "#美元"
-          ],
-          "ts": 1786720217000,
-          "time": "23:10:17",
-          "receivedAt": 1786722954500,
-          "receivedTime": true
-        },
-        {
-          "id": "227554",
-          "url": "https://t.me/jin10light/227554",
-          "title": "SK集团会长就天价离婚案判决提出上诉",
-          "body": "",
-          "tags": [],
-          "ts": 1786719915000,
-          "time": "23:05:15",
-          "receivedAt": 1786722954500,
-          "receivedTime": true
-        },
-        {
-          "id": "227553",
-          "url": "https://t.me/jin10light/227553",
-          "title": "分析：比特币短期恐慌情绪减弱，6万至7万美元成关键博弈区间",
-          "body": "#BTC #Glassnode",
-          "tags": [
-            "#BTC",
-            "#Glassnode"
-          ],
-          "ts": 1786719557000,
-          "time": "22:59:17",
-          "receivedAt": 1786719586152,
-          "receivedTime": true
-        },
-        {
-          "id": "227552",
-          "url": "https://t.me/jin10light/227552",
-          "title": "OpenAI首席财务官今日将召开投资者会议",
-          "body": "",
-          "tags": [],
-          "ts": 1786719252000,
-          "time": "22:54:12",
-          "receivedAt": 1786719586152,
-          "receivedTime": true
-        },
-        {
-          "id": "227551",
-          "url": "https://t.me/jin10light/227551",
-          "title": "Upbit运营商Dunamu Q2营业利润环比下降73%至235亿韩元",
-          "body": "#Upbit #Dunamu #韩国",
-          "tags": [
-            "#Upbit",
-            "#Dunamu",
-            "#韩国"
-          ],
-          "ts": 1786719197000,
-          "time": "22:53:17",
-          "receivedAt": 1786719586152,
-          "receivedTime": true
-        },
-        {
-          "id": "227550",
-          "url": "https://t.me/jin10light/227550",
-          "title": "美光推出2.5亿美元AI投资基金，聚焦模型架构、算力及物理AI",
-          "body": "#美光科技 #AI #美国",
-          "tags": [
-            "#美光科技",
-            "#AI",
-            "#美国"
-          ],
-          "ts": 1786718772000,
-          "time": "22:46:12",
-          "receivedAt": 1786719586152,
-          "receivedTime": true
-        },
-        {
-          "id": "227549",
-          "url": "https://t.me/jin10light/227549",
-          "title": "中央汇金、证金公司均退出贵州茅台十大股东名单",
-          "body": "8月14日讯，贵州茅台发布2026年半年度报告。 截至二季度末，中央汇金、证金公司均退出贵州茅台十大股东名单。 对比一季度末，中央汇金和证金公司分别持有贵州茅台0.83%和0.32%股份，为公司的第五和第十大股东。 #贵州茅台 #中央汇金 #证金公司",
-          "tags": [
-            "#贵州茅台",
-            "#中央汇金",
-            "#证金公司"
-          ],
-          "ts": 1786718712000,
-          "time": "22:45:12",
-          "receivedAt": 1786719586152,
-          "receivedTime": true
-        },
-        {
-          "id": "227548",
-          "url": "https://t.me/jin10light/227548",
-          "title": "摩根士丹利Q2大幅增持Circle至832万股，并加码比特币、以太坊ETF",
-          "body": "#摩根士丹利 #美国 #BTC",
-          "tags": [
-            "#摩根士丹利",
-            "#美国",
-            "#BTC"
-          ],
-          "ts": 1786718655000,
-          "time": "22:44:15",
-          "receivedAt": 1786719586152,
-          "receivedTime": true
-        },
-        {
-          "id": "227547",
-          "url": "https://t.me/jin10light/227547",
-          "title": "特朗普与马斯克关系据悉已部分修复，但永远无法回到从前",
-          "body": "#特朗普 #马斯克 #美国",
-          "tags": [
-            "#特朗普",
-            "#马斯克",
-            "#美国"
-          ],
-          "ts": 1786718299000,
-          "time": "22:38:19",
-          "receivedAt": 1786719586152,
           "receivedTime": true
         }
       ],
