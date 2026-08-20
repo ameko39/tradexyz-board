@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-20T19:59:24.273Z",
+  "updatedAt": "2026-08-20T20:30:36.539Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6962",
+          "url": "https://t.me/BWEtradfi/6962",
+          "title": "*博通公司正在商讨担保部分优先担保债券",
+          "body": "*BROADCOM DISCUSSES GUARANTEEING PART OF SENIOR-SECURED TRANCHE *BROADCOM’S FINANCING PLAN MAY INCLUDE $30B JUNIOR DEBT TRANCHE *BROADCOM SEEKING MORE THAN $60 BILLION IN LATEST AI DEBT DEAL $AVGO *博通公司的融资计划可能包括300亿美元的次级债务 *博通公司寻求在最新的人工智能债务交易中筹集超过600亿美元 $AVGO",
+          "tags": [],
+          "ts": 1787256531000,
+          "time": "04:08:51",
+          "receivedAt": 1787257808786,
+          "receivedTime": true
+        },
+        {
+          "id": "6961",
+          "url": "https://t.me/BWEtradfi/6961",
+          "title": "DB: *标普500指数收跌0.8%，纳斯达克指数下跌1%",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.8%, NASDAQ FALLS 1%",
+          "tags": [],
+          "ts": 1787256013000,
+          "time": "04:00:13",
+          "receivedAt": 1787257808786,
+          "receivedTime": true
+        },
         {
           "id": "6960",
           "url": "https://t.me/BWEtradfi/6960",
@@ -1531,60 +1553,42 @@
           "time": "04:36:33",
           "receivedAt": 1785965606135,
           "receivedTime": true
-        },
-        {
-          "id": "6823",
-          "url": "https://t.me/BWEtradfi/6823",
-          "title": "*闪迪第一季度营收展望：103亿美元至108亿美元；FactSet 预估：108亿美元",
-          "body": "*SANDISK 1Q OUTLOOK REVENUE $10.3B - 10.8B; FACTSET EST. $10.8B $SNDK $SNDK",
-          "tags": [],
-          "ts": 1785960365000,
-          "time": "04:06:05",
-          "receivedAt": 1785960863205,
-          "receivedTime": true
-        },
-        {
-          "id": "6822",
-          "url": "https://t.me/BWEtradfi/6822",
-          "title": "*闪迪第四季度营收89.7亿美元；FactSet预估84.8亿美元",
-          "body": "*SANDISK 4Q REVENUE $8.97B; FACTSET EST. $8.48B #SNDK • #FDS #SNDK • #FDS",
-          "tags": [
-            "#SNDK",
-            "#FDS"
-          ],
-          "ts": 1785960343000,
-          "time": "04:05:43",
-          "receivedAt": 1785960863205,
-          "receivedTime": true
-        },
-        {
-          "id": "6821",
-          "url": "https://t.me/BWEtradfi/6821",
-          "title": "*西部数据第四季度营收为37.47亿美元，高于IBES预期的36.92亿美元",
-          "body": "*WESTERN DIGITAL Q4 REVENUE USD 3,747 MILLION VS. IBES ESTIMATE USD 3,692 MILLION *WESTERN DIGITAL Q4 ADJUSTED EPS USD 3.56 VS. IBES ESTIMATE USD 3.3 $WDC *西部数据第四季度调整后每股收益为3.56美元，高于IBES预期的3.3美元 $WDC",
-          "tags": [],
-          "ts": 1785960138000,
-          "time": "04:02:18",
-          "receivedAt": 1785960863205,
-          "receivedTime": true
-        },
-        {
-          "id": "6820",
-          "url": "https://t.me/BWEtradfi/6820",
-          "title": "DB: 标普500指数收盘下跌0.1%，纳斯达克指数下跌0.7%",
-          "body": "DB: *S&P 500 CLOSES 0.1% LOWER, NASDAQ DECLINES 0.7%",
-          "tags": [],
-          "ts": 1785960014000,
-          "time": "04:00:14",
-          "receivedAt": 1785960863205,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228837",
+          "url": "https://t.me/jin10light/228837",
+          "title": "市场消息：博通(AVGO.O)寻求在最新的人工智能债务交易中获得超过600亿美元的资金。",
+          "body": "#博通 #AVGO .O",
+          "tags": [
+            "#博通",
+            "#AVGO"
+          ],
+          "ts": 1787256674000,
+          "time": "04:11:14",
+          "receivedAt": 1787257809583,
+          "receivedTime": true
+        },
+        {
+          "id": "228836",
+          "url": "https://t.me/jin10light/228836",
+          "title": "美股收盘：三大股指收跌 Moderna跌23.5%",
+          "body": "8月21日讯，美股周四收盘，道指初步收跌1.3%，标普500指数跌0.86%，纳指跌1%。 Moderna(MRNA.O)跌23.5%，沃尔玛百货(WMT.N)跌9%。 迈威尔科技集团(MRVL.O)涨5.8%，美光科技(MU.O)涨约4%，闪迪(SNDK.O)涨约2%。 纳斯达克中国金龙指数收跌超1%，阿里巴巴(BABA.N)涨1.3%。 #美股 #Moderna #阿里巴巴",
+          "tags": [
+            "#美股",
+            "#Moderna",
+            "#阿里巴巴"
+          ],
+          "ts": 1787256314000,
+          "time": "04:05:14",
+          "receivedAt": 1787257809583,
+          "receivedTime": true
+        },
         {
           "id": "228835",
           "url": "https://t.me/jin10light/228835",
@@ -18757,36 +18761,6 @@
           ],
           "ts": 1786783158000,
           "time": "16:39:18",
-          "receivedAt": 1786783834507,
-          "receivedTime": true
-        },
-        {
-          "id": "227637",
-          "url": "https://t.me/jin10light/227637",
-          "title": "伊朗称霍尔木兹海峡归属无可争议",
-          "body": "#伊朗 #美国 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#美国",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1786782796000,
-          "time": "16:33:16",
-          "receivedAt": 1786783834507,
-          "receivedTime": true
-        },
-        {
-          "id": "227636",
-          "url": "https://t.me/jin10light/227636",
-          "title": "BTC与ETH ETF上周吸金11亿美元，结束2026年大部分时间净流出局面",
-          "body": "#BTC #ETH #IBIT",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#IBIT"
-          ],
-          "ts": 1786782257000,
-          "time": "16:24:17",
           "receivedAt": 1786783834507,
           "receivedTime": true
         }
