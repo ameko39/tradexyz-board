@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-20T23:03:16.113Z",
+  "updatedAt": "2026-08-20T23:35:01.305Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6965",
+          "url": "https://t.me/BWEtradfi/6965",
+          "title": "DB: *日本7月整体消费者价格指数同比上涨2%；预期上涨1.9%",
+          "body": "DB: *JAPAN JULY OVERALL CONSUMER PRICES RISE 2% Y/Y; EST. +1.9% *JAPAN JULY CORE CONSUMER PRICES RISE 1.8% Y/Y; EST. +1.8% *日本7月核心消费者价格指数同比上涨1.8%；预期上涨1.8%",
+          "tags": [],
+          "ts": 1787268619000,
+          "time": "07:30:19",
+          "receivedAt": 1787268843983,
+          "receivedTime": true
+        },
         {
           "id": "6964",
           "url": "https://t.me/BWEtradfi/6964",
@@ -1560,6 +1571,46 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228846",
+          "url": "https://t.me/jin10light/228846",
+          "title": "比特币突破7.3万美元，24小时涨幅5.71%",
+          "body": "#BTC #HTX",
+          "tags": [
+            "#BTC",
+            "#HTX"
+          ],
+          "ts": 1787268732000,
+          "time": "07:32:12",
+          "receivedAt": 1787268868627,
+          "receivedTime": true
+        },
+        {
+          "id": "228845",
+          "url": "https://t.me/jin10light/228845",
+          "title": "日本7月核心CPI年率 1.8%，预期1.80%，前值1.60%。",
+          "body": "#日本",
+          "tags": [
+            "#日本"
+          ],
+          "ts": 1787268674000,
+          "time": "07:31:14",
+          "receivedAt": 1787268868627,
+          "receivedTime": true
+        },
+        {
+          "id": "228844",
+          "url": "https://t.me/jin10light/228844",
+          "title": "日本7月核心CPI年率将于十分钟后公布。",
+          "body": "#日本",
+          "tags": [
+            "#日本"
+          ],
+          "ts": 1787268073000,
+          "time": "07:21:13",
+          "receivedAt": 1787268868627,
+          "receivedTime": true
+        },
         {
           "id": "228843",
           "url": "https://t.me/jin10light/228843",
@@ -18718,50 +18769,6 @@
           "ts": 1786792036000,
           "time": "19:07:16",
           "receivedAt": 1786792703773,
-          "receivedTime": true
-        },
-        {
-          "id": "227646",
-          "url": "https://t.me/jin10light/227646",
-          "title": "段永平Q2持仓一览：增持拼多多、大幅减持英伟达、谷歌等科技股",
-          "body": "#段永平 #美国 #苹果",
-          "tags": [
-            "#段永平",
-            "#美国",
-            "#苹果"
-          ],
-          "ts": 1786790295000,
-          "time": "18:38:15",
-          "receivedAt": 1786790513037,
-          "receivedTime": true
-        },
-        {
-          "id": "227645",
-          "url": "https://t.me/jin10light/227645",
-          "title": "FT：Manus创始人肖弘出境限制将解除，准备返回新加坡",
-          "body": "#Manus #肖弘 #新加坡",
-          "tags": [
-            "#Manus",
-            "#肖弘",
-            "#新加坡"
-          ],
-          "ts": 1786789215000,
-          "time": "18:20:15",
-          "receivedAt": 1786790513037,
-          "receivedTime": true
-        },
-        {
-          "id": "227644",
-          "url": "https://t.me/jin10light/227644",
-          "title": "COW上涨突破0.15美元，24小时涨超50%",
-          "body": "#COW #HTX",
-          "tags": [
-            "#COW",
-            "#HTX"
-          ],
-          "ts": 1786788436000,
-          "time": "18:07:16",
-          "receivedAt": 1786789032854,
           "receivedTime": true
         }
       ],
