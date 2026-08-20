@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T16:54:19.129Z",
+  "updatedAt": "2026-08-20T17:18:44.585Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1541,6 +1541,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228831",
+          "url": "https://t.me/jin10light/228831",
+          "title": "美联储9月加息25个基点概率现报34.6%",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1787245276000,
+          "time": "01:01:16",
+          "receivedAt": 1787246298722,
+          "receivedTime": true
+        },
+        {
+          "id": "228830",
+          "url": "https://t.me/jin10light/228830",
+          "title": "花旗：下调美元短期预期",
+          "body": "#美元 #美联储 #花旗集团",
+          "tags": [
+            "#美元",
+            "#美联储",
+            "#花旗集团"
+          ],
+          "ts": 1787244915000,
+          "time": "00:55:15",
+          "receivedAt": 1787246298722,
+          "receivedTime": true
+        },
         {
           "id": "228829",
           "url": "https://t.me/jin10light/228829",
@@ -18714,35 +18743,6 @@
           "ts": 1786777816000,
           "time": "15:10:16",
           "receivedAt": 1786779515562,
-          "receivedTime": true
-        },
-        {
-          "id": "227631",
-          "url": "https://t.me/jin10light/227631",
-          "title": "全球贸易命脉暴露风险：27个关键海运「咽喉」承载大部分贸易流量，霍尔木兹危机敲响警钟",
-          "body": "#霍尔木兹海峡 #美国 #伊朗",
-          "tags": [
-            "#霍尔木兹海峡",
-            "#美国",
-            "#伊朗"
-          ],
-          "ts": 1786777694000,
-          "time": "15:08:14",
-          "receivedAt": 1786779515562,
-          "receivedTime": true
-        },
-        {
-          "id": "227630",
-          "url": "https://t.me/jin10light/227630",
-          "title": "DeepSeek Harness开源约42小时，GitHub突破10万星",
-          "body": "#DeepSeek Harness #GitHub",
-          "tags": [
-            "#DeepSeek",
-            "#GitHub"
-          ],
-          "ts": 1786776376000,
-          "time": "14:46:16",
-          "receivedAt": 1786777600573,
           "receivedTime": true
         }
       ],
