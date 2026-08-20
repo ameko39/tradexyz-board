@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-08-20T14:53:33.092Z",
+  "updatedAt": "2026-08-20T15:21:35.816Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6956",
+          "url": "https://t.me/BWEtradfi/6956",
+          "title": "美国财政部长贝森特：利率与回购决定无关",
+          "body": "*U.S. TREASURY SECRETARY BESSENT: RATES HAVE NOTHING TO DO WITH BUYBACK DECISION",
+          "tags": [],
+          "ts": 1787238472000,
+          "time": "23:07:52",
+          "receivedAt": 1787239267615,
+          "receivedTime": true
+        },
+        {
+          "id": "6955",
+          "url": "https://t.me/BWEtradfi/6955",
+          "title": "*贝森特：本届政府期间我们很有可能已经看到了赤字峰值",
+          "body": "*BESSENT: GOOD CHANCE WE HAVE SEEN PEAK DEFICIT DURING THIS ADMINISTRATION",
+          "tags": [],
+          "ts": 1787238358000,
+          "time": "23:05:58",
+          "receivedAt": 1787239267615,
+          "receivedTime": true
+        },
+        {
+          "id": "6954",
+          "url": "https://t.me/BWEtradfi/6954",
+          "title": "*现状：美国国债收益率未能反映其基本面",
+          "body": "*BESSENT: US YIELDS DON'T REFLECT UNDERLYING FUNDAMENTALS *BESSENT: LIQUIDITY ON 30YR IS PARTICULARLY POOR *现状：30年期国债流动性尤其差",
+          "tags": [],
+          "ts": 1787238205000,
+          "time": "23:03:25",
+          "receivedAt": 1787239267615,
+          "receivedTime": true
+        },
+        {
+          "id": "6953",
+          "url": "https://t.me/BWEtradfi/6953",
+          "title": "*BESSENT：我们将定期进行股票回购，并逐步扩大回购规模。",
+          "body": "*BESSENT: WE WILL ROUTINELY DO BUYBACKS AND INCREASE SIZE OF BUYBACK *BESSENT: WILL BE MORE THAN 4 BILLION *BESSENT：规模将超过40亿。",
+          "tags": [],
+          "ts": 1787238152000,
+          "time": "23:02:32",
+          "receivedAt": 1787239267615,
+          "receivedTime": true
+        },
         {
           "id": "6952",
           "url": "https://t.me/BWEtradfi/6952",
@@ -1492,20 +1536,244 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
         {
+          "id": "228812",
+          "url": "https://t.me/jin10light/228812",
+          "title": "美财长贝森特：债券回购上限或超40亿美元",
+          "body": "8月20日讯，美国财政部长贝森特就债券回购问题表示，单次回购规模（上限）可能超过40亿美元，部分意义在于传递信号。 我们想表明，收益率并不能反映基本面。 同时可能会宣布加大财政整顿力度，我们很有可能已经看到了赤字峰值。 就债务数字而言，40万亿美元债务数字并无特别意义。 市场有点操之过急。 如果资产负债表有任何变化，财政部和美联储将协同合作。 需要明确的是，利率与回购决定无关。 就通胀前景而言，贝森特表示，市场指标显示未来将走低。 关于伊朗经济制裁方面，贝森特称，将于下周一举行新闻发布会，讨论相关行动。 #美国 #贝森特 #伊朗",
+          "tags": [
+            "#美国",
+            "#贝森特",
+            "#伊朗"
+          ],
+          "ts": 1787239095000,
+          "time": "23:18:15",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228811",
+          "url": "https://t.me/jin10light/228811",
+          "title": "美国财长贝森特讲话期间，现货黄金、现货白银短线上涨，现货黄金日内转涨0.2%，报4532.28美元/盎司，现货白银上涨2.8%，报68.85美元/盎司。",
+          "body": "#美国 #黄金 #白银",
+          "tags": [
+            "#美国",
+            "#黄金",
+            "#白银"
+          ],
+          "ts": 1787239039000,
+          "time": "23:17:19",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228810",
+          "url": "https://t.me/jin10light/228810",
+          "title": "美国财长贝森特：在加强移民管控后，不需要那么多就业岗位。",
+          "body": "#美国 #贝森特",
+          "tags": [
+            "#美国",
+            "#贝森特"
+          ],
+          "ts": 1787238916000,
+          "time": "23:15:16",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228809",
+          "url": "https://t.me/jin10light/228809",
+          "title": "沪银2610盘中明显走强，涨幅扩大至4.03%，价格上探16762元/千克，成交额已超760亿元；日内增仓1.99万手，持仓变化明显。",
+          "body": "#沪银2610 #白银",
+          "tags": [
+            "#沪银2610",
+            "#白银"
+          ],
+          "ts": 1787238915000,
+          "time": "23:15:15",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228808",
+          "url": "https://t.me/jin10light/228808",
+          "title": "美国财长：将于下周一举行经济制裁伊朗新闻发布会，讨论相关行动",
+          "body": "#美国 #伊朗 #贝森特",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#贝森特"
+          ],
+          "ts": 1787238792000,
+          "time": "23:13:12",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228807",
+          "url": "https://t.me/jin10light/228807",
+          "title": "美国财长贝森特：（关于伊朗）最大经济压力意味着可能不会重新启动军事行动。",
+          "body": "石油市场误解了经济压力的含义。 #美国 #伊朗 #贝森特",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#贝森特"
+          ],
+          "ts": 1787238733000,
+          "time": "23:12:13",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228806",
+          "url": "https://t.me/jin10light/228806",
+          "title": "美国财长贝森特：（关于伊朗经济制裁）将于下周一举行新闻发布会，讨论相关行动。",
+          "body": "#美国 #伊朗 #贝森特",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#贝森特"
+          ],
+          "ts": 1787238674000,
+          "time": "23:11:14",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228805",
+          "url": "https://t.me/jin10light/228805",
+          "title": "美国财长贝森特：利率与回购决策无关。",
+          "body": "#美国 #贝森特",
+          "tags": [
+            "#美国",
+            "#贝森特"
+          ],
+          "ts": 1787238552000,
+          "time": "23:09:12",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228804",
+          "url": "https://t.me/jin10light/228804",
+          "title": "美国财长：财政公告可能将在本周末或下周初发布",
+          "body": "",
+          "tags": [],
+          "ts": 1787238439000,
+          "time": "23:07:19",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228803",
+          "url": "https://t.me/jin10light/228803",
+          "title": "美国财长贝森特：我们“很有可能”已经看到财政赤字达到峰值。",
+          "body": "#美国 #贝森特",
+          "tags": [
+            "#美国",
+            "#贝森特"
+          ],
+          "ts": 1787238439000,
+          "time": "23:07:19",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228802",
+          "url": "https://t.me/jin10light/228802",
+          "title": "美国财长：美债回购规模可能超过宣布的40亿美元",
+          "body": "",
+          "tags": [],
+          "ts": 1787238265000,
+          "time": "23:04:25",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228801",
+          "url": "https://t.me/jin10light/228801",
+          "title": "美国财长贝森特：（关于回购）这是市场中交易清淡的领域。",
+          "body": "回购规模可能超过我们宣布的40亿美元。 #美国 #贝森特",
+          "tags": [
+            "#美国",
+            "#贝森特"
+          ],
+          "ts": 1787238265000,
+          "time": "23:04:25",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228800",
+          "url": "https://t.me/jin10light/228800",
+          "title": "美国财长贝森特：美债收益率未能反映基本面。",
+          "body": "#美国 #贝森特 #美债",
+          "tags": [
+            "#美国",
+            "#贝森特",
+            "#美债"
+          ],
+          "ts": 1787238264000,
+          "time": "23:04:24",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228799",
+          "url": "https://t.me/jin10light/228799",
+          "title": "截至23:00收盘，国内期货主力合约涨跌不一，液化石油气（LPG）涨近2%，沥青、燃料油、纸浆、20号胶涨超1%，甲醇、纯苯涨近1%。",
+          "body": "跌幅方面，焦煤、菜粕、玻璃、聚氯乙烯（PVC）跌超1%，菜油跌近1%。 #LPG #沥青 #燃料油",
+          "tags": [
+            "#LPG",
+            "#沥青",
+            "#燃料油"
+          ],
+          "ts": 1787238135000,
+          "time": "23:02:15",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228798",
+          "url": "https://t.me/jin10light/228798",
+          "title": "2028年FOMC票委、圣路易联储主席穆萨莱姆将于十分钟后接受CNBC的采访。",
+          "body": "#美国 #美联储 #CNBC",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#CNBC"
+          ],
+          "ts": 1787238015000,
+          "time": "23:00:15",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
+          "id": "228797",
+          "url": "https://t.me/jin10light/228797",
+          "title": "BTC、ETH大涨后加密OI占比升至 67%，但近九成增幅来自价格重估",
+          "body": "#BTC #ETH #HYPE",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#HYPE"
+          ],
+          "ts": 1787237958000,
+          "time": "22:59:18",
+          "receivedAt": 1787239270255,
+          "receivedTime": true
+        },
+        {
           "id": "228796",
           "url": "https://t.me/jin10light/228796",
-          "title": "现货白银日内涨幅达1%，现报67.67美元/盎司。",
-          "body": "#白银 #美元",
-          "tags": [
-            "#白银",
-            "#美元"
-          ],
+          "title": "现货白银日内涨幅达2%，现报68.34美元/盎司",
+          "body": "",
+          "tags": [],
           "ts": 1787236514000,
           "time": "22:35:14",
           "receivedAt": 1787237589012,
@@ -18487,241 +18755,6 @@
           "ts": 1786765815000,
           "time": "11:50:15",
           "receivedAt": 1786767211596,
-          "receivedTime": true
-        },
-        {
-          "id": "227612",
-          "url": "https://t.me/jin10light/227612",
-          "title": "「AI股神」Leopold暴雷前持仓曝光：闪迪、美光两只股票占半壁江山",
-          "body": "#美国 #BTC",
-          "tags": [
-            "#美国",
-            "#BTC"
-          ],
-          "ts": 1786764854000,
-          "time": "11:34:14",
-          "receivedAt": 1786765348227,
-          "receivedTime": true
-        },
-        {
-          "id": "227611",
-          "url": "https://t.me/jin10light/227611",
-          "title": "Bitget股票双币投资上线20+热门美股标的",
-          "body": "#Bitget #美股 #USDT",
-          "tags": [
-            "#Bitget",
-            "#美股",
-            "#USDT"
-          ],
-          "ts": 1786763893000,
-          "time": "11:18:13",
-          "receivedAt": 1786765348227,
-          "receivedTime": true
-        },
-        {
-          "id": "227610",
-          "url": "https://t.me/jin10light/227610",
-          "title": "DeepSeek-V4-Pro被曝「一个API三个模型」？社区测试揭示背后或是Agent环境差异",
-          "body": "#DeepSeek #DeepSeek -V4-Pro #AI",
-          "tags": [
-            "#DeepSeek",
-            "#AI"
-          ],
-          "ts": 1786763775000,
-          "time": "11:16:15",
-          "receivedAt": 1786765348227,
-          "receivedTime": true
-        },
-        {
-          "id": "227609",
-          "url": "https://t.me/jin10light/227609",
-          "title": "华尔街「抄底」情绪回归：美股重返历史高位，机构上调标普500目标",
-          "body": "#美股 #美国 #AI",
-          "tags": [
-            "#美股",
-            "#美国",
-            "#AI"
-          ],
-          "ts": 1786762456000,
-          "time": "10:54:16",
-          "receivedAt": 1786762780428,
-          "receivedTime": true
-        },
-        {
-          "id": "227608",
-          "url": "https://t.me/jin10light/227608",
-          "title": "英伟达披露持有SpaceX约210亿美元股份，AI产业资本纽带进一步加深",
-          "body": "#英伟达 #SpaceX #埃隆·马斯克",
-          "tags": [
-            "#英伟达",
-            "#SpaceX",
-            "#埃隆"
-          ],
-          "ts": 1786761974000,
-          "time": "10:46:14",
-          "receivedAt": 1786762780428,
-          "receivedTime": true
-        },
-        {
-          "id": "227607",
-          "url": "https://t.me/jin10light/227607",
-          "title": "中美AI争霸进入选边站：美国拟逼35国二选一",
-          "body": "#美国 #中国 #哈萨克斯坦",
-          "tags": [
-            "#美国",
-            "#中国",
-            "#哈萨克斯坦"
-          ],
-          "ts": 1786761081000,
-          "time": "10:31:21",
-          "receivedAt": 1786762780428,
-          "receivedTime": true
-        },
-        {
-          "id": "227606",
-          "url": "https://t.me/jin10light/227606",
-          "title": "5000美元变560万美元后归零？LAB公募投资者经历「纸面暴富」到缩水99.94%",
-          "body": "#LAB #加密货币",
-          "tags": [
-            "#LAB",
-            "#加密货币"
-          ],
-          "ts": 1786760114000,
-          "time": "10:15:14",
-          "receivedAt": 1786762780428,
-          "receivedTime": true
-        },
-        {
-          "id": "227605",
-          "url": "https://t.me/jin10light/227605",
-          "title": "分析：AI数据增长速度超越算力规划，存储正成为AI基础设施新瓶颈",
-          "body": "#西部数据 #IDC #AI数据中心",
-          "tags": [
-            "#西部数据",
-            "#IDC",
-            "#AI数据中心"
-          ],
-          "ts": 1786759453000,
-          "time": "10:04:13",
-          "receivedAt": 1786762780428,
-          "receivedTime": true
-        },
-        {
-          "id": "227604",
-          "url": "https://t.me/jin10light/227604",
-          "title": "Ethena向FalconX转入8197万美元USDC，疑似进行场外出售",
-          "body": "#Ethena #USDC #Coinbase Prime",
-          "tags": [
-            "#Ethena",
-            "#USDC",
-            "#Coinbase"
-          ],
-          "ts": 1786759274000,
-          "time": "10:01:14",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227603",
-          "url": "https://t.me/jin10light/227603",
-          "title": "某巨鲸40倍做多价值605万美元BTC，爆仓价59,147.3美元",
-          "body": "#BTC #Hyperliquid",
-          "tags": [
-            "#BTC",
-            "#Hyperliquid"
-          ],
-          "ts": 1786759093000,
-          "time": "09:58:13",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227602",
-          "url": "https://t.me/jin10light/227602",
-          "title": "特朗普称对伊动武「永远不会道歉」，计划战后宣布霍尔木兹海峡为美国领土",
-          "body": "#美国 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1786758854000,
-          "time": "09:54:14",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227601",
-          "url": "https://t.me/jin10light/227601",
-          "title": "Anthropic自曝Model2：强过Mythos5，暂不发布",
-          "body": "#Anthropic #Claude #Model 2",
-          "tags": [
-            "#Anthropic",
-            "#Claude",
-            "#Model"
-          ],
-          "ts": 1786758495000,
-          "time": "09:48:15",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227600",
-          "url": "https://t.me/jin10light/227600",
-          "title": "霍尔木兹成美伊博弈核心战场：特朗普放话「钢铁之墙」封锁伊朗，德黑兰称开关海峡只能由伊朗决定",
-          "body": "#美国 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1786757473000,
-          "time": "09:31:13",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227599",
-          "url": "https://t.me/jin10light/227599",
-          "title": "Monetalis疑似卖出372万枚UNI，转而买入17.15万枚HYPE",
-          "body": "#Monetalis #UNI #HYPE",
-          "tags": [
-            "#Monetalis",
-            "#UNI",
-            "#HYPE"
-          ],
-          "ts": 1786757353000,
-          "time": "09:29:13",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227598",
-          "url": "https://t.me/jin10light/227598",
-          "title": "World Liberty获美国OCC有条件信托银行牌照，USD1稳定币发行权将转移",
-          "body": "#美国 #特朗普 #BTC",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#BTC"
-          ],
-          "ts": 1786757235000,
-          "time": "09:27:15",
-          "receivedAt": 1786759408466,
-          "receivedTime": true
-        },
-        {
-          "id": "227597",
-          "url": "https://t.me/jin10light/227597",
-          "title": "消息人士：Anthropic预计2028年收入将达到1900亿至2000亿美元",
-          "body": "#Anthropic #AI",
-          "tags": [
-            "#Anthropic",
-            "#AI"
-          ],
-          "ts": 1786757174000,
-          "time": "09:26:14",
-          "receivedAt": 1786759408466,
           "receivedTime": true
         }
       ],
