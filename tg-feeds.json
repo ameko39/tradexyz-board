@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T20:10:15.844Z",
+  "updatedAt": "2026-08-21T20:38:02.601Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1564,17 +1564,6 @@
           "time": "09:02:53",
           "receivedAt": 1786073401066,
           "receivedTime": true
-        },
-        {
-          "id": "6834",
-          "url": "https://t.me/BWEtradfi/6834",
-          "title": "*特朗普：我认为伊朗撑不了多久了",
-          "body": "*TRUMP: DON'T THINK IRAN CAN GO MUCH LONGER *TRUMP: I THINK THE WAR WITH IRAN WILL END PRETTY SOON *特朗普：我认为与伊朗的战争很快就会结束。",
-          "tags": [],
-          "ts": 1786047926000,
-          "time": "04:25:26",
-          "receivedAt": 1786062566106,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1582,6 +1571,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229085",
+          "url": "https://t.me/jin10light/229085",
+          "title": "美国商品期货交易委员会（CFTC）：截至8月18日当周，杠杆基金开始重建日元空头仓位。",
+          "body": "#美国 #CFTC #日元",
+          "tags": [
+            "#美国",
+            "#CFTC",
+            "#日元"
+          ],
+          "ts": 1787343793000,
+          "time": "04:23:13",
+          "receivedAt": 1787344662044,
+          "receivedTime": true
+        },
         {
           "id": "229084",
           "url": "https://t.me/jin10light/229084",
@@ -18734,21 +18738,6 @@
           "ts": 1786964234000,
           "time": "18:57:14",
           "receivedAt": 1786965086043,
-          "receivedTime": true
-        },
-        {
-          "id": "227885",
-          "url": "https://t.me/jin10light/227885",
-          "title": "美伊60天谈判期限延长协议已获批准",
-          "body": "#伊朗 #美国 #美股",
-          "tags": [
-            "#伊朗",
-            "#美国",
-            "#美股"
-          ],
-          "ts": 1786963214000,
-          "time": "18:40:14",
-          "receivedAt": 1786963816168,
           "receivedTime": true
         }
       ],
