@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-21T13:39:26.973Z",
+  "updatedAt": "2026-08-21T14:17:42.490Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6973",
+          "url": "https://t.me/BWEtradfi/6973",
+          "title": "DB: *美国标普8月制造业采购经理人指数（PMI）为53.2，预期为53.9",
+          "body": "DB: *US S&P AUG. MANUFACTURING PMI AT 53.2; EST. 53.9 *US S&P AUG. SERVICES PMI AT 56.8; EST. 54.0 *US S&P AUG. COMPOSITE PMI AT 56; EST. 53.9 *美国标普8月服务业PMI为56.8，预期为54.0 *美国标普8月综合PMI为56，预期为53.9",
+          "tags": [],
+          "ts": 1787319913000,
+          "time": "21:45:13",
+          "receivedAt": 1787321842386,
+          "receivedTime": true
+        },
         {
           "id": "6972",
           "url": "https://t.me/BWEtradfi/6972",
@@ -1610,11 +1621,139 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229059",
+          "url": "https://t.me/jin10light/229059",
+          "title": "Arthur Hayes：以太坊存较大补涨空间，突破3000就看5000美元",
+          "body": "#ETH #Arthur Hayes",
+          "tags": [
+            "#ETH",
+            "#Arthur"
+          ],
+          "ts": 1787321472000,
+          "time": "22:11:12",
+          "receivedAt": 1787321844732,
+          "receivedTime": true
+        },
+        {
+          "id": "229058",
+          "url": "https://t.me/jin10light/229058",
+          "title": "WSJ长文复盘：中国AI崛起背后，是一条清华人才链",
+          "body": "#中国 #清华 #智谱",
+          "tags": [
+            "#中国",
+            "#清华",
+            "#智谱"
+          ],
+          "ts": 1787321174000,
+          "time": "22:06:14",
+          "receivedAt": 1787321844732,
+          "receivedTime": true
+        },
+        {
+          "id": "229057",
+          "url": "https://t.me/jin10light/229057",
+          "title": "欧元区8月消费者信心指数初值 -15.5，预期-16.3，前值-15.9。",
+          "body": "#欧元区",
+          "tags": [
+            "#欧元区"
+          ],
+          "ts": 1787321054000,
+          "time": "22:04:14",
+          "receivedAt": 1787321844732,
+          "receivedTime": true
+        },
+        {
+          "id": "229056",
+          "url": "https://t.me/jin10light/229056",
+          "title": "多支加密概念股盘中涨超10%，AI板块波澜不惊",
+          "body": "#美股 #COIN #HOOD",
+          "tags": [
+            "#美股",
+            "#COIN",
+            "#HOOD"
+          ],
+          "ts": 1787320815000,
+          "time": "22:00:15",
+          "receivedAt": 1787321844732,
+          "receivedTime": true
+        },
+        {
+          "id": "229055",
+          "url": "https://t.me/jin10light/229055",
+          "title": "Peter Brandt：比特币形态已转为有效底部，已在突破时买入",
+          "body": "#BTC #Peter Brandt",
+          "tags": [
+            "#BTC",
+            "#Peter"
+          ],
+          "ts": 1787320332000,
+          "time": "21:52:12",
+          "receivedAt": 1787321844732,
+          "receivedTime": true
+        },
+        {
+          "id": "229054",
+          "url": "https://t.me/jin10light/229054",
+          "title": "欧元区8月消费者信心指数初值将于十分钟后公布。",
+          "body": "#欧元区",
+          "tags": [
+            "#欧元区"
+          ],
+          "ts": 1787320274000,
+          "time": "21:51:14",
+          "receivedAt": 1787321844732,
+          "receivedTime": true
+        },
+        {
+          "id": "229053",
+          "url": "https://t.me/jin10light/229053",
+          "title": "标普全球：美国8月制造业PMI初值录得53.2，创5个月新低；综合PMI初值产出指数录得56.0，创52个月新高；服务业PMI初值商业活动指数录得56.8，创20个月新高；制造业产出指数初值录得51.9，创13个月新低。",
+          "body": "#美国 #美股",
+          "tags": [
+            "#美国",
+            "#美股"
+          ],
+          "ts": 1787320153000,
+          "time": "21:49:13",
+          "receivedAt": 1787321844732,
+          "receivedTime": true
+        },
+        {
+          "id": "229052",
+          "url": "https://t.me/jin10light/229052",
+          "title": "Bitwise CIO：贝森特回购美债凸显比特币「硬资产」属性",
+          "body": "#美国 #BTC #比特币回升",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#比特币回升"
+          ],
+          "ts": 1787319858000,
+          "time": "21:44:18",
+          "receivedAt": 1787321844732,
+          "receivedTime": true
+        },
+        {
+          "id": "229051",
+          "url": "https://t.me/jin10light/229051",
+          "title": "摩根大通警告美股秋季抛售风险，或重演互联网泡沫破裂",
+          "body": "#摩根大通 #美股 #人工智能",
+          "tags": [
+            "#摩根大通",
+            "#美股",
+            "#人工智能"
+          ],
+          "ts": 1787319612000,
+          "time": "21:40:12",
+          "receivedAt": 1787321844732,
+          "receivedTime": true
+        },
         {
           "id": "229050",
           "url": "https://t.me/jin10light/229050",
@@ -18654,134 +18793,6 @@
           "ts": 1786956136000,
           "time": "16:42:16",
           "receivedAt": 1786957440008,
-          "receivedTime": true
-        },
-        {
-          "id": "227859",
-          "url": "https://t.me/jin10light/227859",
-          "title": "宇树科技新股现「暗盘」收购，最高报价520元每股，约为发行价3.45倍",
-          "body": "#宇树科技 #科创板 #A股",
-          "tags": [
-            "#宇树科技",
-            "#科创板",
-            "#A股"
-          ],
-          "ts": 1786956012000,
-          "time": "16:40:12",
-          "receivedAt": 1786957440008,
-          "receivedTime": true
-        },
-        {
-          "id": "227858",
-          "url": "https://t.me/jin10light/227858",
-          "title": "融捷股份：2026年上半年净利润10.02亿元，同比增长1076.14%",
-          "body": "8月17日讯，融捷股份公告，2026年上半年营业收入15.24亿元，同比增长402.35%；归属于上市公司股东的净利润10.02亿元，同比增长1076.14%；扣非净利润10.04亿元，同比增长1269.63%。 公司计划不派发现金红利，不送红股，不以公积金转增股本。 #融捷股份 #A股",
-          "tags": [
-            "#融捷股份",
-            "#A股"
-          ],
-          "ts": 1786955776000,
-          "time": "16:36:16",
-          "receivedAt": 1786957440008,
-          "receivedTime": true
-        },
-        {
-          "id": "227857",
-          "url": "https://t.me/jin10light/227857",
-          "title": "豆包补上远程办公：手机一句话，电脑替你干活",
-          "body": "#豆包 #Agent",
-          "tags": [
-            "#豆包",
-            "#Agent"
-          ],
-          "ts": 1786955713000,
-          "time": "16:35:13",
-          "receivedAt": 1786957440008,
-          "receivedTime": true
-        },
-        {
-          "id": "227856",
-          "url": "https://t.me/jin10light/227856",
-          "title": "报告：7月稳定币总市值降至约3083亿美元，连续三个月净流出",
-          "body": "#稳定币 #USDT #USDC",
-          "tags": [
-            "#稳定币",
-            "#USDT",
-            "#USDC"
-          ],
-          "ts": 1786955602000,
-          "time": "16:33:22",
-          "receivedAt": 1786957440008,
-          "receivedTime": true
-        },
-        {
-          "id": "227855",
-          "url": "https://t.me/jin10light/227855",
-          "title": "某巨鲸从Kraken提出5300枚ETH，价值约998万美元",
-          "body": "#ETH #Kraken",
-          "tags": [
-            "#ETH",
-            "#Kraken"
-          ],
-          "ts": 1786955414000,
-          "time": "16:30:14",
-          "receivedAt": 1786957440008,
-          "receivedTime": true
-        },
-        {
-          "id": "227854",
-          "url": "https://t.me/jin10light/227854",
-          "title": "某巨鲸向以太坊质押存款合约转入3.24万枚ETH，价值约6146万美元",
-          "body": "",
-          "tags": [],
-          "ts": 1786954938000,
-          "time": "16:22:18",
-          "receivedAt": 1786957440008,
-          "receivedTime": true
-        },
-        {
-          "id": "227853",
-          "url": "https://t.me/jin10light/227853",
-          "title": "OKX闪赚Lite上线GRVT「质押赚币」，可瓜分1,150,000 GRVT奖励",
-          "body": "#OKX #GRVT #BTC",
-          "tags": [
-            "#OKX",
-            "#GRVT",
-            "#BTC"
-          ],
-          "ts": 1786954694000,
-          "time": "16:18:14",
-          "receivedAt": 1786954835332,
-          "receivedTime": true
-        },
-        {
-          "id": "227852",
-          "url": "https://t.me/jin10light/227852",
-          "title": "港股收评：恒指收涨1.3% 芯片股、光通信走强",
-          "body": "8月17日讯，港股今日高开高走，恒指收涨1.34%，报25453.23点。 恒生科技指数收涨1.58%，报4782.03点。 截至今日收盘，恒指大市成交额2107.7亿港元。 盘面上，半导体、光通信板块大涨，有色金属板块活跃，港口航运股、汽车股上涨；电网设备板块走低。 个股方面，长飞光纤光缆( 06869.HK )涨12%，澜起科技( 06809.HK )、建滔积层板( 01888.HK )涨超9%，商汤( 00020.HK )涨8.9%，兆易创新( 03986.HK )、中际旭创( 03308.HK )涨超8%，华虹宏力( 01347.HK )、壁仞...",
-          "tags": [
-            "#港股",
-            "#恒指",
-            "#半导体"
-          ],
-          "ts": 1786954515000,
-          "time": "16:15:15",
-          "receivedAt": 1786954835332,
-          "receivedTime": true
-        },
-        {
-          "id": "227851",
-          "url": "https://t.me/jin10light/227851",
-          "title": "预测市场Predict.fun上线恒生指数日盘涨跌预测",
-          "body": "#港股 #恒生指数 #Predict .fun",
-          "tags": [
-            "#港股",
-            "#恒生指数",
-            "#Predict"
-          ],
-          "ts": 1786954514000,
-          "time": "16:15:14",
-          "receivedAt": 1786954835332,
           "receivedTime": true
         }
       ],
