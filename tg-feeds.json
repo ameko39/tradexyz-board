@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T18:42:56.905Z",
+  "updatedAt": "2026-08-21T19:14:04.540Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1608,24 +1608,27 @@
           "time": "03:24:12",
           "receivedAt": 1786062566106,
           "receivedTime": true
-        },
-        {
-          "id": "6829",
-          "url": "https://t.me/BWEtradfi/6829",
-          "title": "*参议员米奇·麦康奈尔今日已从康复中心出院",
-          "body": "*SENATOR MITCH MCCONNELL DISCHARGED FROM REHABILITATION CENTER TODAY *MCCONNELL: WILL CONTINUE TO ENGAGE WITH STAFF ON SENATE BUSINESS *麦康奈尔：将继续与工作人员处理参议院事务",
-          "tags": [],
-          "ts": 1786041999000,
-          "time": "02:46:39",
-          "receivedAt": 1786062566106,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229083",
+          "url": "https://t.me/jin10light/229083",
+          "title": "苹果(AAPL.O)裁减了Siri、Vision Pro3D视频和游戏团队的职位，受影响人数超过200人。",
+          "body": "#苹果 #AAPL .O",
+          "tags": [
+            "#苹果",
+            "#AAPL"
+          ],
+          "ts": 1787338153000,
+          "time": "02:49:13",
+          "receivedAt": 1787339621099,
+          "receivedTime": true
+        },
         {
           "id": "229082",
           "url": "https://t.me/jin10light/229082",
@@ -18779,21 +18782,6 @@
           ],
           "ts": 1786962854000,
           "time": "18:34:14",
-          "receivedAt": 1786963816168,
-          "receivedTime": true
-        },
-        {
-          "id": "227883",
-          "url": "https://t.me/jin10light/227883",
-          "title": "宇树科技被链上给出4.3倍估值预期，某多头已按长鑫首日涨幅规划止盈",
-          "body": "#UNITREE #宇树科技 #长鑫科技",
-          "tags": [
-            "#UNITREE",
-            "#宇树科技",
-            "#长鑫科技"
-          ],
-          "ts": 1786962373000,
-          "time": "18:26:13",
           "receivedAt": 1786963816168,
           "receivedTime": true
         }
