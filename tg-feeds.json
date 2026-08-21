@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-21T19:53:39.732Z",
+  "updatedAt": "2026-08-21T20:10:15.844Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6974",
+          "url": "https://t.me/BWEtradfi/6974",
+          "title": "DB: 标普500指数、纳斯达克指数收盘上涨0.5%",
+          "body": "DB: *S&P 500, NASDAQ CLOSE UP 0.5%",
+          "tags": [],
+          "ts": 1787342413000,
+          "time": "04:00:13",
+          "receivedAt": 1787342989036,
+          "receivedTime": true
+        },
         {
           "id": "6973",
           "url": "https://t.me/BWEtradfi/6973",
@@ -1564,42 +1575,9 @@
           "time": "04:25:26",
           "receivedAt": 1786062566106,
           "receivedTime": true
-        },
-        {
-          "id": "6833",
-          "url": "https://t.me/BWEtradfi/6833",
-          "title": "DB: 标普500指数收盘下跌0.2%，纳斯达克指数变动不大",
-          "body": "DB: *S&P 500 CLOSES 0.2% LOWER, NASDAQ LITTLE CHANGED",
-          "tags": [],
-          "ts": 1786046413000,
-          "time": "04:00:13",
-          "receivedAt": 1786062566106,
-          "receivedTime": true
-        },
-        {
-          "id": "6832",
-          "url": "https://t.me/BWEtradfi/6832",
-          "title": "*WINTERMUTE美国业务获颁经纪交易商牌照——《华尔街日报》",
-          "body": "*WINTERMUTE'S U.S. BUSINESS SECURES BROKER-DEALER LICENSE -- WSJ *WINTERMUTE TO TRADE COMMODITIES, CRYPTO ETFS, TOKENIZED STOCKS UPON REGULATORY APPROVAL -- WSJ *WINTERMUTE获监管机构批准后将交易大宗商品、加密货币ETF和代币化股票——《华尔街日报》",
-          "tags": [],
-          "ts": 1786046405000,
-          "time": "04:00:05",
-          "receivedAt": 1786062566106,
-          "receivedTime": true
-        },
-        {
-          "id": "6831",
-          "url": "https://t.me/BWEtradfi/6831",
-          "title": "*OpenAI 的这款设备外形酷似小甜甜圈，售价超过 300 美元",
-          "body": "*OPENAI’S DEVICE TO LOOK LIKE SMALL DOUGHNUT AND COST OVER $300 *OPENAI BELIEVES NEW DEVICE DOESN’T VIOLATE APPLE TRADE SECRETS *OpenAI 认为这款新设备并未侵犯苹果的商业机密",
-          "tags": [],
-          "ts": 1786046365000,
-          "time": "03:59:25",
-          "receivedAt": 1786062566106,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
