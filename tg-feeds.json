@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T15:26:20.763Z",
+  "updatedAt": "2026-08-21T15:57:15.960Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1627,14 +1627,68 @@
       "channel": "jin10light",
       "items": [
         {
+          "id": "229073",
+          "url": "https://t.me/jin10light/229073",
+          "title": "巨鲸「先定10个大目标」：目前利润约7000万，涨速太快未能及时接回多单",
+          "body": "#BTC",
+          "tags": [
+            "#BTC"
+          ],
+          "ts": 1787327360000,
+          "time": "23:49:20",
+          "receivedAt": 1787327822677,
+          "receivedTime": true
+        },
+        {
+          "id": "229072",
+          "url": "https://t.me/jin10light/229072",
+          "title": "现货黄金日内上涨2%，现报4609.67美元/盎司。",
+          "body": "纽约期金日内上涨2%，现报4666.70美元/盎司。 #黄金 #美元",
+          "tags": [
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1787327054000,
+          "time": "23:44:14",
+          "receivedAt": 1787327822677,
+          "receivedTime": true
+        },
+        {
+          "id": "229071",
+          "url": "https://t.me/jin10light/229071",
+          "title": "据加拿大《环球邮报》：美国与加拿大的贸易协议将引入钢铁配额制度。",
+          "body": "#美国 #加拿大 #钢铁",
+          "tags": [
+            "#美国",
+            "#加拿大",
+            "#钢铁"
+          ],
+          "ts": 1787326573000,
+          "time": "23:36:13",
+          "receivedAt": 1787327822677,
+          "receivedTime": true
+        },
+        {
+          "id": "229070",
+          "url": "https://t.me/jin10light/229070",
+          "title": "Tom Lee：本周或为比特币涨幅高度集中的「最佳10日」",
+          "body": "#BTC #Tom Lee #Fundstrat",
+          "tags": [
+            "#BTC",
+            "#Tom",
+            "#Fundstrat"
+          ],
+          "ts": 1787326517000,
+          "time": "23:35:17",
+          "receivedAt": 1787327822677,
+          "receivedTime": true
+        },
+        {
           "id": "229069",
           "url": "https://t.me/jin10light/229069",
-          "title": "特斯拉盘中上涨4.4%，创一个月新高",
-          "body": "#特斯拉 #美股",
-          "tags": [
-            "#特斯拉",
-            "#美股"
-          ],
+          "title": "特斯拉(TSLA.O)盘中上涨4.4%，创一个月新高。",
+          "body": "",
+          "tags": [],
           "ts": 1787325917000,
           "time": "23:25:17",
           "receivedAt": 1787325966307,
@@ -18736,64 +18790,6 @@
           "tags": [],
           "ts": 1786960095000,
           "time": "17:48:15",
-          "receivedAt": 1786960351162,
-          "receivedTime": true
-        },
-        {
-          "id": "227873",
-          "url": "https://t.me/jin10light/227873",
-          "title": "布伦特原油突破88美元，日内涨幅近1%",
-          "body": "#布伦特原油 #美元",
-          "tags": [
-            "#布伦特原油",
-            "#美元"
-          ],
-          "ts": 1786959915000,
-          "time": "17:45:15",
-          "receivedAt": 1786960351162,
-          "receivedTime": true
-        },
-        {
-          "id": "227872",
-          "url": "https://t.me/jin10light/227872",
-          "title": "美国劝退采购难挡CXMT新高，Hyperliquid上持仓量激增56%",
-          "body": "#美国 #中国 #CXMT",
-          "tags": [
-            "#美国",
-            "#中国",
-            "#CXMT"
-          ],
-          "ts": 1786959616000,
-          "time": "17:40:16",
-          "receivedAt": 1786960351162,
-          "receivedTime": true
-        },
-        {
-          "id": "227871",
-          "url": "https://t.me/jin10light/227871",
-          "title": "招金黄金：2026年上半年净利润2.27亿元，同比增407.44%",
-          "body": "8月17日讯，招金黄金公告，2026年上半年营业收入3.63亿元，同比增长85.13%；归属于上市公司股东的净利润2.27亿元，同比增长407.44%；扣非净利润1.04亿元，同比增长666.39%。 公司计划不派发现金红利，不送红股，不以公积金转增股本。 #招金黄金 #黄金",
-          "tags": [
-            "#招金黄金",
-            "#黄金"
-          ],
-          "ts": 1786958534000,
-          "time": "17:22:14",
-          "receivedAt": 1786960351162,
-          "receivedTime": true
-        },
-        {
-          "id": "227870",
-          "url": "https://t.me/jin10light/227870",
-          "title": "Bitget TradFi Quanto永续合约上线联想（LENOVO）",
-          "body": "#LENOVO #Bitget #USDT",
-          "tags": [
-            "#LENOVO",
-            "#Bitget",
-            "#USDT"
-          ],
-          "ts": 1786958176000,
-          "time": "17:16:16",
           "receivedAt": 1786960351162,
           "receivedTime": true
         }
