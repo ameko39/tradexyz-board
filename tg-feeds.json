@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-21T07:12:11.350Z",
+  "updatedAt": "2026-08-21T07:56:01.349Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6968",
+          "url": "https://t.me/BWEtradfi/6968",
+          "title": "DB: *德国8月制造业采购经理人指数（PMI）为54.1，预期为52.0",
+          "body": "DB: *GERMANY AUG. MANUFACTURING PMI AT 54.1; EST. 52.0 *GERMANY AUG. SERVICES PMI AT 48.5; EST. 50.1 *GERMANY AUG. COMPOSITE PMI AT 51; EST. 51.3 *德国8月服务业PMI为48.5，预期为50.1 *德国8月综合PMI为51，预期为51.3",
+          "tags": [],
+          "ts": 1787297413000,
+          "time": "15:30:13",
+          "receivedAt": 1787298942699,
+          "receivedTime": true
+        },
+        {
+          "id": "6967",
+          "url": "https://t.me/BWEtradfi/6967",
+          "title": "DB: *法国8月制造业采购经理人指数（PMI）为51.5，预期为50.0",
+          "body": "DB: *FRANCE AUG. MANUFACTURING PMI AT 51.5; EST. 50.0 *FRANCE AUG. COMPOSITE PMI AT 48.8; EST. 49.5 *法国8月综合采购经理人指数（PMI）为48.8，预期为49.5",
+          "tags": [],
+          "ts": 1787296519000,
+          "time": "15:15:19",
+          "receivedAt": 1787298942699,
+          "receivedTime": true
+        },
         {
           "id": "6966",
           "url": "https://t.me/BWEtradfi/6966",
@@ -1572,6 +1594,110 @@
       "channel": "jin10light",
       "items": [
         {
+          "id": "228956",
+          "url": "https://t.me/jin10light/228956",
+          "title": "视频｜CME与CFTC、Kalshi 就预测市场监管激烈交锋",
+          "body": "#CME #CFTC #Kalshi",
+          "tags": [
+            "#CME",
+            "#CFTC",
+            "#Kalshi"
+          ],
+          "ts": 1787298622000,
+          "time": "15:50:22",
+          "receivedAt": 1787298945066,
+          "receivedTime": true
+        },
+        {
+          "id": "228955",
+          "url": "https://t.me/jin10light/228955",
+          "title": "MSX将于8月31日开放Pre-IPO第三期申购，独家上线Neuralink与Anduril，需持仓平台币MSX",
+          "body": "#Neuralink #Anduril Industries #MSX",
+          "tags": [
+            "#Neuralink",
+            "#Anduril",
+            "#MSX"
+          ],
+          "ts": 1787298316000,
+          "time": "15:45:16",
+          "receivedAt": 1787298945066,
+          "receivedTime": true
+        },
+        {
+          "id": "228954",
+          "url": "https://t.me/jin10light/228954",
+          "title": "上期所：本周铜库存增加19817吨，铝库存减少18300吨，锌库存增加1181吨，铅库存减少209吨，镍库存减少771吨，锡库存增加56吨，天然橡胶库存减少5716吨。",
+          "body": "#上期所 #铜 #铝",
+          "tags": [
+            "#上期所",
+            "#铜",
+            "#铝"
+          ],
+          "ts": 1787297897000,
+          "time": "15:38:17",
+          "receivedAt": 1787298945066,
+          "receivedTime": true
+        },
+        {
+          "id": "228953",
+          "url": "https://t.me/jin10light/228953",
+          "title": "某匿名巨鲸过去2小时再次向Binance转移3,000枚比特币",
+          "body": "#BTC #Binance",
+          "tags": [
+            "#BTC",
+            "#Binance"
+          ],
+          "ts": 1787297655000,
+          "time": "15:34:15",
+          "receivedAt": 1787298945066,
+          "receivedTime": true
+        },
+        {
+          "id": "228952",
+          "url": "https://t.me/jin10light/228952",
+          "title": "以色列消息人士：短期与伊朗产生军事对抗可能性降低",
+          "body": "8月21日讯，据耶路撒冷邮报报道，以色列安全部门消息人士称，在与美国高级官员进行一系列会谈和讨论后，近期扩大与伊朗军事对抗的可能性已经下降。 相关官员透露，特朗普决定实施另一轮严厉经济制裁，旨在为美国中期选举后的局势“争取时间”。 目前尚不清楚，美国是否能够通过石油贸易、银行账户、资金转移、原材料供应以及其他渠道，对直接或间接支持伊朗政权的国家成功实施威慑并施加有力压力。 安全官员表示，如果没有采取极端措施并由美国进行强硬执行，特朗普将无法实现预期目标。 #以色列 #伊朗 #美国",
+          "tags": [
+            "#以色列",
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1787297415000,
+          "time": "15:30:15",
+          "receivedAt": 1787298945066,
+          "receivedTime": true
+        },
+        {
+          "id": "228951",
+          "url": "https://t.me/jin10light/228951",
+          "title": "Hyperliquid上第二大BTC多头整体浮盈超2000万美元，暂无减仓动作",
+          "body": "#BTC #ETH #Hyperliquid",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#Hyperliquid"
+          ],
+          "ts": 1787297355000,
+          "time": "15:29:15",
+          "receivedAt": 1787298945066,
+          "receivedTime": true
+        },
+        {
+          "id": "228950",
+          "url": "https://t.me/jin10light/228950",
+          "title": "重要新é",
+          "body": "1.财政部：财政金融协同促内需政策已优化完善，新政策新举措于今年下半年推出。 2. 财政部：拓宽贴息范围，将包括购车、装修在内新发生的各类信用卡分期消费都纳入政策支持范围。 3. 国家能源局：2026年1-7月份全社会用电量同比增长4.7%。 个股新é 1.主力资金流向数据显示，中际旭创主力资金净流入36.35亿元居首位，新易盛、士兰微、寒武纪、湖南白银获主力资金净流入居前；康龙化成主力资金净流出6.25亿元居首位，恒瑞医药、贵州茅台、长电科技、数据港主力资金净流出居前。 2. 摩尔线程张建中：智算集群向十万卡规模演进已成必然趋势。 3. 牧原股份：计...",
+          "tags": [
+            "#中国",
+            "#中际旭创",
+            "#新易盛"
+          ],
+          "ts": 1787297117000,
+          "time": "15:25:17",
+          "receivedAt": 1787298945066,
+          "receivedTime": true
+        },
+        {
           "id": "228949",
           "url": "https://t.me/jin10light/228949",
           "title": "A股收评：创业板指收涨1.4% 黄金概念涨幅居前",
@@ -1589,11 +1715,9 @@
         {
           "id": "228948",
           "url": "https://t.me/jin10light/228948",
-          "title": "法国8月制造业PMI初值将于十分钟后公布。",
-          "body": "#法国",
-          "tags": [
-            "#法国"
-          ],
+          "title": "德国8月制造业PMI初值将于十分钟后公布。",
+          "body": "",
+          "tags": [],
           "ts": 1787295978000,
           "time": "15:06:18",
           "receivedAt": 1787296318548,
@@ -18648,109 +18772,6 @@
           "time": "09:41:20",
           "receivedAt": 1786932599939,
           "receivedTime": true
-        },
-        {
-          "id": "227756",
-          "url": "https://t.me/jin10light/227756",
-          "title": "A股粮食概念板块短线拉升，金健米业涨停，秋乐种业、康农种业、深粮控股、万向德农、远大控股等纷纷走高。",
-          "body": "#A股 #粮食概念 #金健米业",
-          "tags": [
-            "#A股",
-            "#粮食概念",
-            "#金健米业"
-          ],
-          "ts": 1786930393000,
-          "time": "09:33:13",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227755",
-          "url": "https://t.me/jin10light/227755",
-          "title": "Alphabet考虑发行首笔澳元债，债务融资成为AI基础设施扩张核心资金来源",
-          "body": "#Alphabet #美国 #澳元",
-          "tags": [
-            "#Alphabet",
-            "#美国",
-            "#澳元"
-          ],
-          "ts": 1786930095000,
-          "time": "09:28:15",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227754",
-          "url": "https://t.me/jin10light/227754",
-          "title": "A股开盘，上证指数涨0.07%，深证成指涨0.31%，创业板指涨0.18%。",
-          "body": "贵金属、POE胶膜、CPO板块涨幅居前。 #A股 #上证指数 #深证成指",
-          "tags": [
-            "#A股",
-            "#上证指数",
-            "#深证成指"
-          ],
-          "ts": 1786929974000,
-          "time": "09:26:14",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227753",
-          "url": "https://t.me/jin10light/227753",
-          "title": "中国央行：根据公开市场业务一级交易商的需求，2026年8月17日7天期逆回购操作量为零。",
-          "body": "同时，开展了5655亿元隔夜逆回购操作。 #中国 #央行",
-          "tags": [
-            "#中国",
-            "#央行"
-          ],
-          "ts": 1786929855000,
-          "time": "09:24:15",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227752",
-          "url": "https://t.me/jin10light/227752",
-          "title": "港股开盘，恒指开涨0.74%，科指开涨1.14%。",
-          "body": "黄金股、芯片股普涨。 商汤( 00020.HK )涨超7%，京东( 09618.HK )涨超3%。 #港股 #黄金 #芯片",
-          "tags": [
-            "#港股",
-            "#黄金",
-            "#芯片"
-          ],
-          "ts": 1786929734000,
-          "time": "09:22:14",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227751",
-          "url": "https://t.me/jin10light/227751",
-          "title": "现货白银日内涨幅达2.00%，现报65.96美元/盎司。",
-          "body": "#白银 #美元",
-          "tags": [
-            "#白银",
-            "#美元"
-          ],
-          "ts": 1786929612000,
-          "time": "09:20:12",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227750",
-          "url": "https://t.me/jin10light/227750",
-          "title": "Serenity：通用机器人应适配人类已构建的世界，特斯拉Optimus终将收敛到「正确的样子」",
-          "body": "#马斯克 #特斯拉 #Optimus",
-          "tags": [
-            "#马斯克",
-            "#特斯拉",
-            "#Optimus"
-          ],
-          "ts": 1786929432000,
-          "time": "09:17:12",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19945,17 +19966,6 @@
           "tags": [],
           "ts": 1786005181000,
           "time": "16:33:01",
-          "receivedAt": 1786008581520,
-          "receivedTime": true
-        },
-        {
-          "id": "1677",
-          "url": "https://t.me/PolyBeats_Bot/1677",
-          "title": "Strategy 8 月维持 12% 股息率，微策略聪明钱预测 10 月前不会触达 $100",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 STRC 会在 9 月 30 日前达到 $100 吗？ 」投入 $1.2k「否」，平均买入概率为 65.8%，目前「是」概率为 39.5%。 D8D528 投入 $1.2k，与本市场最佳相关板块为 微策略 ，板块净盈利 $5.2k。其在该板块共 5 笔已结算交易的胜率为 5/5（100%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 1 笔。相近成本价区间（$0.601-$0.65）内，其历史投入金额中位数为 $528。 STRC 是 Strategy 发行的浮动利率永续优先股，每股 stated amount 为 $100，目前年化股息率为 12%。STRC 没有固定到期日，$100 也不是持有人可以在特定日期要求兑付的价格。Strategy 会根据 STRC 交易价格、市场收益率、信用利差、Bitcoin 价格及自身流动性等因素每月决定股息率，希望使其长期交易于 $99 至 $100。公司可以在 STRC 低于 $100 时实施回购，也可以选择维持股息率，因此 STRC 接近 $100 后仍需要市场买盘推动价格真正触及 $100。 STRC 在...",
-          "tags": [],
-          "ts": 1786001941000,
-          "time": "15:39:01",
           "receivedAt": 1786008581520,
           "receivedTime": true
         }
