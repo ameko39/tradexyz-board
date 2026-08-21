@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-21T07:56:01.349Z",
+  "updatedAt": "2026-08-21T08:31:59.403Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6970",
+          "url": "https://t.me/BWEtradfi/6970",
+          "title": "DB: *英国8月制造业采购经理人指数（PMI）为51.5，预期为51.5",
+          "body": "DB: *UK AUG. MANUFACTURING PMI AT 51.5; EST. 51.5 *UK AUG. SERVICES PMI AT 52.8; EST. 51.8 *UK AUG. COMPOSITE PMI AT 52.5; EST. 51.6 *英国8月服务业PMI为52.8，预期为51.8 *英国8月综合PMI为52.5，预期为51.6",
+          "tags": [],
+          "ts": 1787301013000,
+          "time": "16:30:13",
+          "receivedAt": 1787301104655,
+          "receivedTime": true
+        },
+        {
+          "id": "6969",
+          "url": "https://t.me/BWEtradfi/6969",
+          "title": "DB: *欧元区8月制造业采购经理人指数（PMI）为52.8，预期为51.8",
+          "body": "DB: *EURO-AREA AUG. MANUFACTURING PMI AT 52.8; EST. 51.8 *EURO-AREA AUG. SERVICES PMI AT 51.7; EST. 51.5 *EURO-AREA AUG. COMPOSITE PMI AT 52.1; EST. 51.7 *欧元区8月服务业PMI为51.7，预期为51.5 *欧元区8月综合PMI为52.1，预期为51.7",
+          "tags": [],
+          "ts": 1787299213000,
+          "time": "16:00:13",
+          "receivedAt": 1787301104655,
+          "receivedTime": true
+        },
         {
           "id": "6968",
           "url": "https://t.me/BWEtradfi/6968",
@@ -1593,6 +1615,203 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "228970",
+          "url": "https://t.me/jin10light/228970",
+          "title": "英国8月服务业PMI初值 52.8，预期51.8，前值52.1。",
+          "body": "",
+          "tags": [],
+          "ts": 1787301012000,
+          "time": "16:30:12",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228969",
+          "url": "https://t.me/jin10light/228969",
+          "title": "伦敦金属交易所三个月期锌涨至每吨3,804美元，创四年来新高。",
+          "body": "#锌",
+          "tags": [
+            "#锌"
+          ],
+          "ts": 1787300953000,
+          "time": "16:29:13",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228968",
+          "url": "https://t.me/jin10light/228968",
+          "title": "伊拉克总理：伊拉克计划在六年内将石油产量提高到800-1000万桶/日。",
+          "body": "已向沙特派出部级委员会，讨论扩大伊拉克的欧佩克生产配额。 #伊拉克 #沙特 #欧佩克",
+          "tags": [
+            "#伊拉克",
+            "#沙特",
+            "#欧佩克"
+          ],
+          "ts": 1787300892000,
+          "time": "16:28:12",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228967",
+          "url": "https://t.me/jin10light/228967",
+          "title": "过去12小时全网爆仓7.58亿美元，主爆空单",
+          "body": "#加密货币 #BTC #ETH",
+          "tags": [
+            "#加密货币",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1787300784000,
+          "time": "16:26:24",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228966",
+          "url": "https://t.me/jin10light/228966",
+          "title": "现货白银日内涨幅扩大至2%，现报69.45美元/盎司。",
+          "body": "#白银 #美元",
+          "tags": [
+            "#白银",
+            "#美元"
+          ],
+          "ts": 1787300652000,
+          "time": "16:24:12",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228965",
+          "url": "https://t.me/jin10light/228965",
+          "title": "三星电子：将回购15万亿韩元股票。",
+          "body": "#三星电子 #韩国",
+          "tags": [
+            "#三星电子",
+            "#韩国"
+          ],
+          "ts": 1787300593000,
+          "time": "16:23:13",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228964",
+          "url": "https://t.me/jin10light/228964",
+          "title": "英国8月制造业及服务业PMI初值将于十分钟后公布。",
+          "body": "#英国 #PMI",
+          "tags": [
+            "#英国",
+            "#PMI"
+          ],
+          "ts": 1787300472000,
+          "time": "16:21:12",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228963",
+          "url": "https://t.me/jin10light/228963",
+          "title": "名义价值21.8亿美元的BTC、ETH期权将于今日到期交割，市场快速转为全面做多状态",
+          "body": "#BTC #ETH",
+          "tags": [
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1787300414000,
+          "time": "16:20:14",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228962",
+          "url": "https://t.me/jin10light/228962",
+          "title": "比特币短时突破77,000美元",
+          "body": "#BTC #HTX",
+          "tags": [
+            "#BTC",
+            "#HTX"
+          ],
+          "ts": 1787300232000,
+          "time": "16:17:12",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228961",
+          "url": "https://t.me/jin10light/228961",
+          "title": "港股收评：恒指、科指双双收涨超1% 大模型概念、黄金股走强",
+          "body": "8月21日讯，港股早盘震荡，午后走高，恒指收涨1.21%，报26009.46点。 恒生科技指数收涨1.4%，报4766.16点。 截至今日收盘，恒指大市成交额2572.77亿港元。 盘面上，大模型概念、黄金股、电池板块、保险股走高，加密货币概念表现活跃，养殖业股下挫。 个股方面，博雅互动( 00434.HK )涨23.8%，赤峰黄金( 06693.HK )涨12.4%，MINIMAX-W( 00100.HK )、天齐锂业( 09696.HK )涨近12%，智谱( 02513.HK )涨超10%，山东黄金( 01787.HK )、三生制药( 01530....",
+          "tags": [
+            "#港股",
+            "#黄金股",
+            "#加密货币"
+          ],
+          "ts": 1787300054000,
+          "time": "16:14:14",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228960",
+          "url": "https://t.me/jin10light/228960",
+          "title": "港股收盘，恒指收涨1.21%，科指收涨1.4%；黄金股、大模型概念走强，赤峰黄金( 06693.HK )涨12.4%，MINIMAX-W( 00100.HK )涨近12%，智谱( 02513.HK )涨超10%。",
+          "body": "#港股 #黄金 #大模型",
+          "tags": [
+            "#港股",
+            "#黄金",
+            "#大模型"
+          ],
+          "ts": 1787299813000,
+          "time": "16:10:13",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228959",
+          "url": "https://t.me/jin10light/228959",
+          "title": "微策略持仓BTC一周增值百亿美元，现扭亏为盈约8.3亿美元",
+          "body": "#BTC #Michael Saylor #Strategy",
+          "tags": [
+            "#BTC",
+            "#Michael",
+            "#Strategy"
+          ],
+          "ts": 1787299694000,
+          "time": "16:08:14",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228958",
+          "url": "https://t.me/jin10light/228958",
+          "title": "Upbit将MANTRA列为交易注意项目，已暂停充提",
+          "body": "#韩国 #Upbit #MANTRA",
+          "tags": [
+            "#韩国",
+            "#Upbit",
+            "#MANTRA"
+          ],
+          "ts": 1787299456000,
+          "time": "16:04:16",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
+        {
+          "id": "228957",
+          "url": "https://t.me/jin10light/228957",
+          "title": "伊朗议员卡塞姆：一项要求伊朗退出《不扩散核武器条约》的提案已提交至议会，目前正在推进。",
+          "body": "#伊朗",
+          "tags": [
+            "#伊朗"
+          ],
+          "ts": 1787299271000,
+          "time": "16:01:11",
+          "receivedAt": 1787301106548,
+          "receivedTime": true
+        },
         {
           "id": "228956",
           "url": "https://t.me/jin10light/228956",
@@ -18570,208 +18789,6 @@
           "time": "11:01:14",
           "receivedAt": 1786936256521,
           "receivedTime": true
-        },
-        {
-          "id": "227770",
-          "url": "https://t.me/jin10light/227770",
-          "title": "A股三大股指走高，深证成指、创业板指双双涨1%，沪指涨0.61%，科创50指数涨超3%，粮食概念、存储芯片板块涨幅居前。",
-          "body": "#A股 #科创50 #存储芯片",
-          "tags": [
-            "#A股",
-            "#科创50",
-            "#存储芯片"
-          ],
-          "ts": 1786935196000,
-          "time": "10:53:16",
-          "receivedAt": 1786936256521,
-          "receivedTime": true
-        },
-        {
-          "id": "227769",
-          "url": "https://t.me/jin10light/227769",
-          "title": "监控CZ钱包「狙击」MARSCOIN，某交易员数小时内获利28.2万美元",
-          "body": "#MARSCOIN #BNB #CZ",
-          "tags": [
-            "#MARSCOIN",
-            "#BNB",
-            "#CZ"
-          ],
-          "ts": 1786935195000,
-          "time": "10:53:15",
-          "receivedAt": 1786936256521,
-          "receivedTime": true
-        },
-        {
-          "id": "227768",
-          "url": "https://t.me/jin10light/227768",
-          "title": "「牛来」盈利榜一昨夜暴跌时精准抄底，总回报超78倍",
-          "body": "",
-          "tags": [],
-          "ts": 1786934775000,
-          "time": "10:46:15",
-          "receivedAt": 1786936256521,
-          "receivedTime": true
-        },
-        {
-          "id": "227767",
-          "url": "https://t.me/jin10light/227767",
-          "title": "长鑫存储TOP 1空头被费率「逐日收租」：日需缴纳134万美元，两周或将爆仓",
-          "body": "#CXMT #美元",
-          "tags": [
-            "#CXMT",
-            "#美元"
-          ],
-          "ts": 1786933814000,
-          "time": "10:30:14",
-          "receivedAt": 1786936256521,
-          "receivedTime": true
-        },
-        {
-          "id": "227766",
-          "url": "https://t.me/jin10light/227766",
-          "title": "Binance将上线长鑫科技、Cloudflare等U本位TradFi永续合约",
-          "body": "#Binance #GDX #NET",
-          "tags": [
-            "#Binance",
-            "#GDX",
-            "#NET"
-          ],
-          "ts": 1786933274000,
-          "time": "10:21:14",
-          "receivedAt": 1786936256521,
-          "receivedTime": true
-        },
-        {
-          "id": "227765",
-          "url": "https://t.me/jin10light/227765",
-          "title": "「牛来」较低点反弹超47%，市值突破3400万美元",
-          "body": "#BNB Chain #Meme 币",
-          "tags": [
-            "#BNB",
-            "#Meme"
-          ],
-          "ts": 1786932913000,
-          "time": "10:15:13",
-          "receivedAt": 1786936256521,
-          "receivedTime": true
-        },
-        {
-          "id": "227764",
-          "url": "https://t.me/jin10light/227764",
-          "title": "某巨鲸连续交易ASTEROID与「牛来」获利，总盈利超百万美元",
-          "body": "#ETH #ASTEROID #牛来",
-          "tags": [
-            "#ETH",
-            "#ASTEROID",
-            "#牛来"
-          ],
-          "ts": 1786932614000,
-          "time": "10:10:14",
-          "receivedAt": 1786936256521,
-          "receivedTime": true
-        },
-        {
-          "id": "227763",
-          "url": "https://t.me/jin10light/227763",
-          "title": "燃油主力合约日内大涨4.00%，现报3950.00元/吨。",
-          "body": "#燃油 #上涨",
-          "tags": [
-            "#燃油",
-            "#上涨"
-          ],
-          "ts": 1786932192000,
-          "time": "10:03:12",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227762",
-          "url": "https://t.me/jin10light/227762",
-          "title": "港股盘初半导体、光通信板块集体走高，华虹宏力、兆易创新涨约5%",
-          "body": "#港股 #半导体 #韩国",
-          "tags": [
-            "#港股",
-            "#半导体",
-            "#韩国"
-          ],
-          "ts": 1786931774000,
-          "time": "09:56:14",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227761",
-          "url": "https://t.me/jin10light/227761",
-          "title": "某巨鲸累计交易9300万美元HYPE，录得亏损40.6万美元",
-          "body": "#HYPE #Hyperliquid #Kraken",
-          "tags": [
-            "#HYPE",
-            "#Hyperliquid",
-            "#Kraken"
-          ],
-          "ts": 1786931416000,
-          "time": "09:50:16",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227760",
-          "url": "https://t.me/jin10light/227760",
-          "title": "瑞银第二季度大幅增加贝莱德IBIT看涨期权敞口",
-          "body": "#瑞银 #IBIT #BTC",
-          "tags": [
-            "#瑞银",
-            "#IBIT",
-            "#BTC"
-          ],
-          "ts": 1786931415000,
-          "time": "09:50:15",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227759",
-          "url": "https://t.me/jin10light/227759",
-          "title": "Google被曝携手AMD设计下一代TPU，CPU核心IP成关键，AI未来或更依赖CPU密集计算",
-          "body": "#Google #AMD #TPU",
-          "tags": [
-            "#Google",
-            "#AMD",
-            "#TPU"
-          ],
-          "ts": 1786931173000,
-          "time": "09:46:13",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227758",
-          "url": "https://t.me/jin10light/227758",
-          "title": "Bitunix荣获Peru Blockchain Conference 2026「最佳图表交易平台」奖项",
-          "body": "#Bitunix #USDT",
-          "tags": [
-            "#Bitunix",
-            "#USDT"
-          ],
-          "ts": 1786930932000,
-          "time": "09:42:12",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
-        },
-        {
-          "id": "227757",
-          "url": "https://t.me/jin10light/227757",
-          "title": "贵州茅台股价跌破1300元人民币，多年来半年度净利润首次下滑",
-          "body": "#A股 #贵州茅台 #段永平",
-          "tags": [
-            "#A股",
-            "#贵州茅台",
-            "#段永平"
-          ],
-          "ts": 1786930880000,
-          "time": "09:41:20",
-          "receivedAt": 1786932599939,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -18779,6 +18796,17 @@
     "poly": {
       "channel": "PolyBeats_Bot",
       "items": [
+        {
+          "id": "1786",
+          "url": "https://t.me/PolyBeats_Bot/1786",
+          "title": "Mythos 2 已训练但暂不发布？2 名 Anthropic 高胜率账户预测下一个 Mythos 模型发布时间",
+          "body": "在预测市场 Polymarket 上，2 名聪明钱买入「 下一款 Mythos 级别模型会在 ___ 前发布吗？ 」。 账户1 与本市场最佳相关板块为 Claude ，板块净盈利 $8.8k。其在该板块共 44 笔已结算交易的胜率为 36/44（82%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 8 笔。 账户2 与本市场最佳相关板块为 Anthropic ，板块净盈利 $16.9k。其在该板块共 27 笔已结算交易的胜率为 20/27（74%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 16 笔。",
+          "tags": [],
+          "ts": 1787300221000,
+          "time": "16:17:01",
+          "receivedAt": 1787301118107,
+          "receivedTime": true
+        },
         {
           "id": "1785",
           "url": "https://t.me/PolyBeats_Bot/1785",
@@ -19970,7 +19998,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
