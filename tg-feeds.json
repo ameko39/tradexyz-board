@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T20:56:52.472Z",
+  "updatedAt": "2026-08-21T21:19:11.520Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1571,6 +1571,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229086",
+          "url": "https://t.me/jin10light/229086",
+          "title": "美国总统特朗普：（关于伊朗）他们很想达成协议，但还没有准备好达成正确的协议。",
+          "body": "#特朗普 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#伊朗"
+          ],
+          "ts": 1787345953000,
+          "time": "04:59:13",
+          "receivedAt": 1787347131239,
+          "receivedTime": true
+        },
         {
           "id": "229085",
           "url": "https://t.me/jin10light/229085",
@@ -18723,20 +18737,6 @@
           ],
           "ts": 1786964894000,
           "time": "19:08:14",
-          "receivedAt": 1786965086043,
-          "receivedTime": true
-        },
-        {
-          "id": "227886",
-          "url": "https://t.me/jin10light/227886",
-          "title": "AI可能根本没有「语言墙」：只练一种语言，其他语言也会跟着变强",
-          "body": "#苹果 #Qwen3 -4B",
-          "tags": [
-            "#苹果",
-            "#Qwen3"
-          ],
-          "ts": 1786964234000,
-          "time": "18:57:14",
           "receivedAt": 1786965086043,
           "receivedTime": true
         }
