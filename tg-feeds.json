@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T19:37:48.682Z",
+  "updatedAt": "2026-08-21T19:53:39.732Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1599,11 +1599,25 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229084",
+          "url": "https://t.me/jin10light/229084",
+          "title": "OpenAI：未来三个月将把GPT-5.6Sol API及积分价格下调超过20%。",
+          "body": "#OpenAI #GPT -5.6Sol",
+          "tags": [
+            "#OpenAI",
+            "#GPT"
+          ],
+          "ts": 1787341273000,
+          "time": "03:41:13",
+          "receivedAt": 1787341984740,
+          "receivedTime": true
+        },
         {
           "id": "229083",
           "url": "https://t.me/jin10light/229083",
@@ -18756,21 +18770,6 @@
           ],
           "ts": 1786963214000,
           "time": "18:40:14",
-          "receivedAt": 1786963816168,
-          "receivedTime": true
-        },
-        {
-          "id": "227884",
-          "url": "https://t.me/jin10light/227884",
-          "title": "据沙特媒体哈达斯（Alhadath）报道，消息人士称，伊朗与美国之间60天期限的延长协议已获批准。",
-          "body": "美、布两油短线下挫逾1美元，美股三大股指期货短线拉升。 #伊朗 #美国 #美股",
-          "tags": [
-            "#伊朗",
-            "#美国",
-            "#美股"
-          ],
-          "ts": 1786962854000,
-          "time": "18:34:14",
           "receivedAt": 1786963816168,
           "receivedTime": true
         }
