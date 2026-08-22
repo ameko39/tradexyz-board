@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T09:39:52.233Z",
+  "updatedAt": "2026-08-22T09:56:56.286Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1560,6 +1560,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229155",
+          "url": "https://t.me/jin10light/229155",
+          "title": "Garrett Jin包揽链上BTC多头、ZEC空头持仓榜首，总浮亏超1000万美元",
+          "body": "#BTC #ZEC #Garrett Jin",
+          "tags": [
+            "#BTC",
+            "#ZEC",
+            "#Garrett"
+          ],
+          "ts": 1787392515000,
+          "time": "17:55:15",
+          "receivedAt": 1787392595460,
+          "receivedTime": true
+        },
         {
           "id": "229154",
           "url": "https://t.me/jin10light/229154",
@@ -18741,21 +18756,6 @@
           "time": "02:00:14",
           "receivedAt": 1786989749090,
           "receivedTime": true
-        },
-        {
-          "id": "227955",
-          "url": "https://t.me/jin10light/227955",
-          "title": "伊朗外长：（回应伊拉克外长）伊朗没有理由袭击库尔德斯坦政府首脑官邸。",
-          "body": "#伊朗 #伊拉克 #库尔德斯坦",
-          "tags": [
-            "#伊朗",
-            "#伊拉克",
-            "#库尔德斯坦"
-          ],
-          "ts": 1786989255000,
-          "time": "01:54:15",
-          "receivedAt": 1786989749090,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19855,7 +19855,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
