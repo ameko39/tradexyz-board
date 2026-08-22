@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T15:19:50.002Z",
+  "updatedAt": "2026-08-22T15:39:58.226Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1462,38 +1462,24 @@
           "time": "00:29:41",
           "receivedAt": 1786122757218,
           "receivedTime": true
-        },
-        {
-          "id": "6844",
-          "url": "https://t.me/BWEtradfi/6844",
-          "title": "*摇滚明星能源公司创始人增持 Celsius 股份，有意接任 CEO - CNBC",
-          "body": "*ROCKSTAR ENERGY FOUNDER BUILDS CELSIUS STAKE, WANTS TO TAKE OVER AS CEO - CNBC $CELH $CELH",
-          "tags": [],
-          "ts": 1786116046000,
-          "time": "23:20:46",
-          "receivedAt": 1786116401677,
-          "receivedTime": true
-        },
-        {
-          "id": "6843",
-          "url": "https://t.me/BWEtradfi/6843",
-          "title": "*摇滚明星能源公司创始人增持Celsius股份，有意接任CEO - CNBC",
-          "body": "*ROCKSTAR ENERGY FOUNDER BUILDS CELSIUS STAKE, WANTS TO TAKE OVER AS CEO - CNBC #TTWO • #CELH #TTWO • #CELH",
-          "tags": [
-            "#TTWO",
-            "#CELH"
-          ],
-          "ts": 1786116029000,
-          "time": "23:20:29",
-          "receivedAt": 1786116401677,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229177",
+          "url": "https://t.me/jin10light/229177",
+          "title": "加拿大总理卡尼：加拿大针对美国的（关税）措施将于9月8日生效。",
+          "body": "",
+          "tags": [],
+          "ts": 1787412797000,
+          "time": "23:33:17",
+          "receivedAt": 1787413173463,
+          "receivedTime": true
+        },
         {
           "id": "229176",
           "url": "https://t.me/jin10light/229176",
@@ -18673,21 +18659,6 @@
           ],
           "ts": 1787013133000,
           "time": "08:32:13",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227977",
-          "url": "https://t.me/jin10light/227977",
-          "title": "亚马逊大量购买旧书并扫描后销毁，用于AI训练",
-          "body": "#亚马逊 #拉斯维加斯 #AI",
-          "tags": [
-            "#亚马逊",
-            "#拉斯维加斯",
-            "#AI"
-          ],
-          "ts": 1787013072000,
-          "time": "08:31:12",
           "receivedAt": 1787018072706,
           "receivedTime": true
         }
