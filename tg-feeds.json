@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T16:14:08.386Z",
+  "updatedAt": "2026-08-22T16:41:22.022Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1429,46 +1429,28 @@
           "time": "01:30:24",
           "receivedAt": 1786125661858,
           "receivedTime": true
-        },
-        {
-          "id": "6847",
-          "url": "https://t.me/BWEtradfi/6847",
-          "title": "*OpenAI 不排除即将推出的“Astra”模型具备“关键”网络能力：博客",
-          "body": "*OPENAI CANNOT RULE OUT 'CRITICAL' CYBER CAPABILITIES IN UPCOMING 'ASTRA' MODEL: BLOG *ASTRA MODEL SHOWS ADVANCEMENTS IN AGENTIC CODING AND ZERO-DAY EXPLOIT POTENTIAL *OPENAI ENFORCES UNIVERSAL CHAIN-OF-THOUGHT MONITORING FOR MISALIGNMENT ON ASTRA *OPENAI TO WORK WITH GOVT… *Astra 模型展现了智能体编码方面的进步以及...",
-          "tags": [],
-          "ts": 1786120484000,
-          "time": "00:34:44",
-          "receivedAt": 1786122757218,
-          "receivedTime": true
-        },
-        {
-          "id": "6846",
-          "url": "https://t.me/BWEtradfi/6846",
-          "title": "据Axios报道：由于网络安全能力考量，OpenAI放缓Astra模型发布速度",
-          "body": "*OPENAI SLOWS RELEASE OF ASTRA MODEL CITING CYBER CAPABILITIES - AXIOS",
-          "tags": [],
-          "ts": 1786120242000,
-          "time": "00:30:42",
-          "receivedAt": 1786122757218,
-          "receivedTime": true
-        },
-        {
-          "id": "6845",
-          "url": "https://t.me/BWEtradfi/6845",
-          "title": "*萨姆·奥特曼祝贺 OKLO 获得 Criticality 认证：X POST",
-          "body": "*SAM ALTMAN CONGRATULATES OKLO FOR ACHIEVING CRITICALITY: X POST $OKLO $OKLO",
-          "tags": [],
-          "ts": 1786120181000,
-          "time": "00:29:41",
-          "receivedAt": 1786122757218,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229181",
+          "url": "https://t.me/jin10light/229181",
+          "title": "贸易争端升级 加拿大将对美国商品加征等额反制关税",
+          "body": "8月23日讯，美加贸易争端进一步升级，加拿大总理卡尼表示，将从9月8日起对美国进口商品实施等额反制关税。 卡尼周六表示：“我们很不情愿地采取这一步，因为我们意识到这会推高加拿大人的成本、减少购买选项，也会伤及无辜的美国企业和州，妨碍两国合作。 ”他说，报复性关税将主要针对钢铁、乳制品、家电、农业设备、纸浆、造纸产品以及电子产品，更多细节将在未来几天公布。 在周五晚间贸易谈判破裂后，美国于周六对数百种来自加拿大的商品征收了50%的进口关税，总价值约200亿美元，其中包括胶合板、酒类、电气设备和冰球装备。 #加拿大 #美国 #卡尼",
+          "tags": [
+            "#加拿大",
+            "#美国",
+            "#卡尼"
+          ],
+          "ts": 1787415374000,
+          "time": "00:16:14",
+          "receivedAt": 1787416857269,
+          "receivedTime": true
+        },
         {
           "id": "229180",
           "url": "https://t.me/jin10light/229180",
@@ -18643,21 +18625,6 @@
           ],
           "ts": 1787014453000,
           "time": "08:54:13",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227981",
-          "url": "https://t.me/jin10light/227981",
-          "title": "微软关联数据中心债券发行规模或增至39亿美元",
-          "body": "#微软 #美国 #佐治亚州",
-          "tags": [
-            "#微软",
-            "#美国",
-            "#佐治亚州"
-          ],
-          "ts": 1787013614000,
-          "time": "08:40:14",
           "receivedAt": 1787018072706,
           "receivedTime": true
         }
