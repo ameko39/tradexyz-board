@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-22T18:54:00.354Z",
+  "updatedAt": "2026-08-22T19:14:19.450Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6976",
+          "url": "https://t.me/BWEtradfi/6976",
+          "title": "*NVIDIA客户已收到通知，与AI相关的价格将上涨超过15%",
+          "body": "*NVIDIA CUSTOMERS NOTIFIED ABOUT AI-RELATED PRICE HIKES ABOVE 15% $NVDA $NVDA",
+          "tags": [],
+          "ts": 1787425001000,
+          "time": "02:56:41",
+          "receivedAt": 1787426033976,
+          "receivedTime": true
+        },
         {
           "id": "6975",
           "url": "https://t.me/BWEtradfi/6975",
@@ -1371,35 +1382,28 @@
           "time": "03:16:51",
           "receivedAt": 1786132556905,
           "receivedTime": true
-        },
-        {
-          "id": "6852",
-          "url": "https://t.me/BWEtradfi/6852",
-          "title": "*一旦达成恢复商业航运畅通无阻的协议，美国将解除对伊朗港口的封锁——美国官员",
-          "body": "*ONCE A DEAL IS ANNOUNCED TO RESTORE COMMERCIAL SHIPPING WITHOUT IMPEDIMENTS, THE U.S. WILL LIFT THE BLOCKADE OF IRANIAN PORTS -U.S. OFFICIAL *U.S. ACTIONS WILL CONTINUE TO BE PERFORMANCE-BASED AND TIED TO IRAN'S IMPLEMENTATION OF ITS COMMITMENTS -U.S. OFFICIAL *美国的行动将继续以伊朗履行承诺为依据，并与伊朗的履约情况挂钩——美国官员",
-          "tags": [],
-          "ts": 1786129310000,
-          "time": "03:01:50",
-          "receivedAt": 1786129614747,
-          "receivedTime": true
-        },
-        {
-          "id": "6851",
-          "url": "https://t.me/BWEtradfi/6851",
-          "title": "DB: *美国6月消费者信贷环比增加141.7亿美元；预期增加105.0亿美元",
-          "body": "DB: *US JUNE CONSUMER CREDIT RISES $14.17B M/M; EST. +10.50B",
-          "tags": [],
-          "ts": 1786129218000,
-          "time": "03:00:18",
-          "receivedAt": 1786129614747,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229182",
+          "url": "https://t.me/jin10light/229182",
+          "title": "据悉英伟达已通知客户 AI相关产品涨价超15%",
+          "body": "8月23日讯，据知情人士透露，英伟达部分大客户收到通知，搭载其人工智能芯片的服务器价格在多数情况下涨幅将超过15%。 知情人士称，此次涨价将于明年初开始生效，受影响的系统包括搭载Vera Rubin和Grace Blackwell旗舰芯片的机型，具体涨幅将取决于芯片代次与内存配置。 相关沟通尚未对外公开。 知情人士表示，为微软、谷歌、甲骨文等大型数据中心运营商代工服务器的企业，近期已向客户通报涨价事宜。 #英伟达 #微软 #谷歌",
+          "tags": [
+            "#英伟达",
+            "#微软",
+            "#谷歌"
+          ],
+          "ts": 1787425094000,
+          "time": "02:58:14",
+          "receivedAt": 1787426034593,
+          "receivedTime": true
+        },
         {
           "id": "229181",
           "url": "https://t.me/jin10light/229181",
@@ -18574,21 +18578,6 @@
           ],
           "ts": 1787014815000,
           "time": "09:00:15",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227982",
-          "url": "https://t.me/jin10light/227982",
-          "title": "Ansem推出代币发行平台：引入Z500指数及ANSEM代币销毁机制",
-          "body": "#SOL #ANSEM #Solana",
-          "tags": [
-            "#SOL",
-            "#ANSEM",
-            "#Solana"
-          ],
-          "ts": 1787014453000,
-          "time": "08:54:13",
           "receivedAt": 1787018072706,
           "receivedTime": true
         }
