@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T11:42:11.324Z",
+  "updatedAt": "2026-08-22T11:57:07.320Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1560,6 +1560,34 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229164",
+          "url": "https://t.me/jin10light/229164",
+          "title": "「ETH铁头多军」成功做T，再次挂单计划接回1万枚ETH",
+          "body": "#ETH #Ai 姨",
+          "tags": [
+            "#ETH",
+            "#Ai"
+          ],
+          "ts": 1787399534000,
+          "time": "19:52:14",
+          "receivedAt": 1787399812850,
+          "receivedTime": true
+        },
+        {
+          "id": "229163",
+          "url": "https://t.me/jin10light/229163",
+          "title": "稳定币总市值升至3030亿美元，7日增长0.74%",
+          "body": "#稳定币 #USDT",
+          "tags": [
+            "#稳定币",
+            "#USDT"
+          ],
+          "ts": 1787399174000,
+          "time": "19:46:14",
+          "receivedAt": 1787399812850,
+          "receivedTime": true
+        },
         {
           "id": "229162",
           "url": "https://t.me/jin10light/229162",
@@ -18730,36 +18758,6 @@
           "time": "06:32:17",
           "receivedAt": 1787007113483,
           "receivedTime": true
-        },
-        {
-          "id": "227964",
-          "url": "https://t.me/jin10light/227964",
-          "title": "整理：中东局势跟踪（8月18日）",
-          "body": "冲突情å 1.也门方面表示，沙特政权任何加剧紧张局势的举动都将遭到对等回应。 2. 特朗普威胁称，如果阿曼妨碍美国，美国将轰炸阿曼。 3. 伊朗官员：伊朗已决定将其政策从防御性转变为全面进攻性。 已为美国全面履行谅解备忘录设定了数周的最后期限。 4. 伊媒称一艘阿联酋油轮在霍尔木兹海峡被扣押。 霍尔木兹海å 1.伊朗称正在起草与阿曼的海上航线计划。 2. 周末霍尔木兹海峡的船只通行量大幅减少。 3. 伊朗：不要拿霍尔木兹海峡开玩笑。 4. 伊朗重申对霍尔木兹海峡“主权权利”。 5. 消息人士：五角大楼承认现有军事方案无法确保霍尔木兹海峡畅通。 6. 美...",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡",
-            "#特朗普"
-          ],
-          "ts": 1787002036000,
-          "time": "05:27:16",
-          "receivedAt": 1787003120194,
-          "receivedTime": true
-        },
-        {
-          "id": "227963",
-          "url": "https://t.me/jin10light/227963",
-          "title": "中英日在6月均减持美债",
-          "body": "8月18日讯，美国财政部数据显示，6月英国、日本和中国持有的美国国债规模均较5月下降。 其中，日本持有美债1.117万亿美元，较5月减少264亿美元；英国持有9399亿美元，环比减少87亿美元；中国持有6334亿美元，环比减少260亿美元。 #美国 #中国 #日本",
-          "tags": [
-            "#美国",
-            "#中国",
-            "#日本"
-          ],
-          "ts": 1786997475000,
-          "time": "04:11:15",
-          "receivedAt": 1786998881997,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19835,20 +19833,9 @@
           "time": "18:16:04",
           "receivedAt": 1786184914718,
           "receivedTime": true
-        },
-        {
-          "id": "1692",
-          "url": "https://t.me/PolyBeats_Bot/1692",
-          "title": "GTA VI 新预告定档 27 日，8 月底前发布官方 Trailer 的预期却断崖下跌",
-          "body": "在预测市场 Polymarket 上，事件「 GTA VI 月底前再发官方 Trailer？ 」中「是」概率在过去一日内从 78% 下跌至 50%。 根据事件规则，视频必须由 Rockstar Games 或其官方账号发布，并且被 Rockstar 明确标注和宣传为「Trailer」。Gameplay snippet、teaser 和其他宣传素材都不计入，除非 Rockstar 明确把它称作官方 Trailer。Rockstar 8 月 6 日官宣的新视频名为《Grand Theft Auto VI: An Extended Look》，目前官方公告里没有把它称作「Trailer」，消息放出后，8 月底前发布官方 Trailer 的预期日内一度下跌约 40%。 Rockstar Games 将于 8 月 27 日发布《Grand Theft Auto VI: An Extended Look》。Netflix 订阅用户可以在当天 3 p.m. ET 率先观看，Rockstar 官方 YouTube 频道和 GTA VI 官网将在 9 p.m. ET 上线同一内容，相隔整整 6 小时。Netflix 称这是双方首次进行这种形...",
-          "tags": [],
-          "ts": 1786103464000,
-          "time": "19:51:04",
-          "receivedAt": 1786104321834,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
