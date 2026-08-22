@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T08:46:37.988Z",
+  "updatedAt": "2026-08-22T09:11:01.323Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1560,6 +1560,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229152",
+          "url": "https://t.me/jin10light/229152",
+          "title": "江卓尔：警惕极端行情「连环爆仓」，建议高杠杆交易采用逐仓模式",
+          "body": "#BTC #ETH #江卓尔",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#江卓尔"
+          ],
+          "ts": 1787388677000,
+          "time": "16:51:17",
+          "receivedAt": 1787389835908,
+          "receivedTime": true
+        },
         {
           "id": "229151",
           "url": "https://t.me/jin10light/229151",
@@ -18736,21 +18751,6 @@
           "time": "01:14:18",
           "receivedAt": 1786988545765,
           "receivedTime": true
-        },
-        {
-          "id": "227952",
-          "url": "https://t.me/jin10light/227952",
-          "title": "据伊朗媒体Fars News：伊朗在霍尔木兹海峡扣押一艘阿联酋所有的油轮。",
-          "body": "#伊朗 #霍尔木兹海峡 #阿联酋",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡",
-            "#阿联酋"
-          ],
-          "ts": 1786986135000,
-          "time": "01:02:15",
-          "receivedAt": 1786986682886,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19861,7 +19861,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
