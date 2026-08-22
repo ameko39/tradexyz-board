@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T22:30:17.030Z",
+  "updatedAt": "2026-08-22T22:50:12.286Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1316,20 +1316,9 @@
           "time": "06:59:18",
           "receivedAt": 1786144131982,
           "receivedTime": true
-        },
-        {
-          "id": "6858",
-          "url": "https://t.me/BWEtradfi/6858",
-          "title": "*SITUATIONAL AWARENESS 对隐形芯片初创公司 'SOURCE FOUNDRY' 追加 4 亿美元押注",
-          "body": "*SITUATIONAL AWARENESS PLACED NEW $400 MILLION BET ON STEALTH CHIP STARTUP 'SOURCE FOUNDRY'",
-          "tags": [],
-          "ts": 1786141930000,
-          "time": "06:32:10",
-          "receivedAt": 1786142107895,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
