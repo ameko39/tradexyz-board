@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T12:32:00.710Z",
+  "updatedAt": "2026-08-22T13:11:02.866Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1522,11 +1522,26 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229168",
+          "url": "https://t.me/jin10light/229168",
+          "title": "LIT短时突破3.27美元，创历史新高",
+          "body": "#LIT #Vladimir Novakovski #美国",
+          "tags": [
+            "#LIT",
+            "#Vladimir",
+            "#美国"
+          ],
+          "ts": 1787403615000,
+          "time": "21:00:15",
+          "receivedAt": 1787404240059,
+          "receivedTime": true
+        },
         {
           "id": "229167",
           "url": "https://t.me/jin10light/229167",
@@ -18708,21 +18723,6 @@
           "ts": 1787009414000,
           "time": "07:30:14",
           "receivedAt": 1787009614769,
-          "receivedTime": true
-        },
-        {
-          "id": "227968",
-          "url": "https://t.me/jin10light/227968",
-          "title": "美伊局势再添变数，30年期美债收益率创19年来新高",
-          "body": "#美国 #伊朗 #美联储",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#美联储"
-          ],
-          "ts": 1787007435000,
-          "time": "06:57:15",
-          "receivedAt": 1787008120491,
           "receivedTime": true
         }
       ],
