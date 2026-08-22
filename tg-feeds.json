@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T05:43:04.800Z",
+  "updatedAt": "2026-08-22T06:01:05.136Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1560,6 +1560,49 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229135",
+          "url": "https://t.me/jin10light/229135",
+          "title": "巨鲸「先定10个大目标」：上一轮赚取1亿美元利润后遭回撤，本轮多单因恐惧提前离场",
+          "body": "#BTC #Jason Leo",
+          "tags": [
+            "#BTC",
+            "#Jason"
+          ],
+          "ts": 1787378294000,
+          "time": "13:58:14",
+          "receivedAt": 1787378445224,
+          "receivedTime": true
+        },
+        {
+          "id": "229134",
+          "url": "https://t.me/jin10light/229134",
+          "title": "过去1小时以太坊爆仓1.08亿美元，比特币爆仓5094万美元，XRP爆仓4800万美元",
+          "body": "#ETH #BTC #XRP",
+          "tags": [
+            "#ETH",
+            "#BTC",
+            "#XRP"
+          ],
+          "ts": 1787377758000,
+          "time": "13:49:18",
+          "receivedAt": 1787378445224,
+          "receivedTime": true
+        },
+        {
+          "id": "229133",
+          "url": "https://t.me/jin10light/229133",
+          "title": "派盾：The Sandbox遭攻击，149亿枚SAND被异常铸造",
+          "body": "#The Sandbox #SAND",
+          "tags": [
+            "#The",
+            "#SAND"
+          ],
+          "ts": 1787377395000,
+          "time": "13:43:15",
+          "receivedAt": 1787378445224,
+          "receivedTime": true
+        },
         {
           "id": "229132",
           "url": "https://t.me/jin10light/229132",
@@ -18703,50 +18746,6 @@
           "time": "22:37:15",
           "receivedAt": 1786978226479,
           "receivedTime": true
-        },
-        {
-          "id": "227935",
-          "url": "https://t.me/jin10light/227935",
-          "title": "Anthropic与OpenAI或限制企业API获取最强AI模型，引发竞争风险担忧",
-          "body": "#Anthropic #OpenAI #AI",
-          "tags": [
-            "#Anthropic",
-            "#OpenAI",
-            "#AI"
-          ],
-          "ts": 1786977136000,
-          "time": "22:32:16",
-          "receivedAt": 1786978226479,
-          "receivedTime": true
-        },
-        {
-          "id": "227934",
-          "url": "https://t.me/jin10light/227934",
-          "title": "爱丽家居：相关核查工作已完成 8月18日开市起复牌",
-          "body": "8月17日讯，爱丽家居公告，公司股票自2026年7月21日至8月10日，累计11个交易日涨停，股价短期内上涨185.56%，已累积巨大交易风险，严重偏离上市公司基本面。 为维护投资者利益，公司就股票交易进行停牌核查。 经向上海证券交易所申请，公司股票于2026年8月11日（星期二）开市起停牌，自披露核查公告后复牌。 公司就股票交易风险的相关事项进行了核查，鉴于相关核查工作已完成，经公司向上海证券交易所申请，公司股票将于2026年8月18日（星期二）开市起复牌。 公司预计2026年半年度净利润亏损3450万元至4050万元。 公司拟现金收购欧康诺不低于7...",
-          "tags": [
-            "#爱丽家居",
-            "#欧康诺"
-          ],
-          "ts": 1786976836000,
-          "time": "22:27:16",
-          "receivedAt": 1786978226479,
-          "receivedTime": true
-        },
-        {
-          "id": "227933",
-          "url": "https://t.me/jin10light/227933",
-          "title": "美团启动2027届校园招聘，重点加码AI与中国境外业务",
-          "body": "#美团 #北京 #上海",
-          "tags": [
-            "#美团",
-            "#北京",
-            "#上海"
-          ],
-          "ts": 1786976776000,
-          "time": "22:26:16",
-          "receivedAt": 1786978226479,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19901,7 +19900,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
