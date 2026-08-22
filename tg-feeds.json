@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T17:21:17.072Z",
+  "updatedAt": "2026-08-22T17:41:28.876Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1415,23 +1415,9 @@
           "time": "01:47:15",
           "receivedAt": 1786125661858,
           "receivedTime": true
-        },
-        {
-          "id": "6848",
-          "url": "https://t.me/BWEtradfi/6848",
-          "title": "*英特尔任命迪恩·贾纳克为执行副总裁兼首席销售官，将于9月上任。",
-          "body": "*INTEL APPOINTED DEAN JARNAC AS EXECUTIVE VICE PRESIDENT AND CHIEF SALES OFFICER STARTING SEPTEMBER *JARNAC JOINS INTEL FROM MARVELL, BRINGING OVER 30 YEARS OF SEMICONDUCTOR SALES EXPERIENCE #INTC • #MRVL *贾纳克此前就职于漫威半导体，拥有超过30年的半导体销售经验。 #INTC • #MRVL",
-          "tags": [
-            "#INTC",
-            "#MRVL"
-          ],
-          "ts": 1786123824000,
-          "time": "01:30:24",
-          "receivedAt": 1786125661858,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
