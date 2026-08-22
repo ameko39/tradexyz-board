@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T04:52:56.752Z",
+  "updatedAt": "2026-08-22T05:14:13.376Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1560,6 +1560,50 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229129",
+          "url": "https://t.me/jin10light/229129",
+          "title": "昨日美国现货比特币ETF净流入3.075亿美元，现货以太坊ETF净流入1.84亿美元",
+          "body": "#美国 #BTC #ETH",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1787375535000,
+          "time": "13:12:15",
+          "receivedAt": 1787375631041,
+          "receivedTime": true
+        },
+        {
+          "id": "229128",
+          "url": "https://t.me/jin10light/229128",
+          "title": "老牌Meme币板块普涨，DOGE 24小时涨超20%",
+          "body": "#PENGU #TURBO #BONK",
+          "tags": [
+            "#PENGU",
+            "#TURBO",
+            "#BONK"
+          ],
+          "ts": 1787375234000,
+          "time": "13:07:14",
+          "receivedAt": 1787375631041,
+          "receivedTime": true
+        },
+        {
+          "id": "229127",
+          "url": "https://t.me/jin10light/229127",
+          "title": "TRUMP涨超93%，市值升至19.01亿美元",
+          "body": "#TRUMP #美国",
+          "tags": [
+            "#TRUMP",
+            "#美国"
+          ],
+          "ts": 1787374393000,
+          "time": "12:53:13",
+          "receivedAt": 1787375631041,
+          "receivedTime": true
+        },
         {
           "id": "229126",
           "url": "https://t.me/jin10light/229126",
@@ -18702,46 +18746,6 @@
           "time": "22:20:16",
           "receivedAt": 1786976650958,
           "receivedTime": true
-        },
-        {
-          "id": "227929",
-          "url": "https://t.me/jin10light/227929",
-          "title": "法国30年期国债收益率升至18年来的最高点4.86%。",
-          "body": "#法国 #国债收益率",
-          "tags": [
-            "#法国",
-            "#国债收益率"
-          ],
-          "ts": 1786976172000,
-          "time": "22:16:12",
-          "receivedAt": 1786976650958,
-          "receivedTime": true
-        },
-        {
-          "id": "227928",
-          "url": "https://t.me/jin10light/227928",
-          "title": "美股盘初存储板块涨势扩大，铠侠ADR大涨14.6%，闪迪涨超8%",
-          "body": "#美股 #铠侠 #闪迪",
-          "tags": [
-            "#美股",
-            "#铠侠",
-            "#闪迪"
-          ],
-          "ts": 1786975936000,
-          "time": "22:12:16",
-          "receivedAt": 1786976650958,
-          "receivedTime": true
-        },
-        {
-          "id": "227927",
-          "url": "https://t.me/jin10light/227927",
-          "title": "美国8月NAHB房产市场指数 35，预期33，前值34。",
-          "body": "",
-          "tags": [],
-          "ts": 1786974672000,
-          "time": "21:51:12",
-          "receivedAt": 1786975029794,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19907,7 +19911,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
