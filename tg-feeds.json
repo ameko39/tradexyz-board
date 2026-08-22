@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T11:00:14.357Z",
+  "updatedAt": "2026-08-22T11:24:35.186Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1560,6 +1560,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229161",
+          "url": "https://t.me/jin10light/229161",
+          "title": "观点：市场不会直线上涨，但加密波动率正如期回归",
+          "body": "#加密货币 #BTC",
+          "tags": [
+            "#加密货币",
+            "#BTC"
+          ],
+          "ts": 1787397736000,
+          "time": "19:22:16",
+          "receivedAt": 1787397854798,
+          "receivedTime": true
+        },
         {
           "id": "229160",
           "url": "https://t.me/jin10light/229160",
@@ -18746,20 +18760,6 @@
           "ts": 1786997054000,
           "time": "04:04:14",
           "receivedAt": 1786998881997,
-          "receivedTime": true
-        },
-        {
-          "id": "227961",
-          "url": "https://t.me/jin10light/227961",
-          "title": "市场消息：Anthropic年化营收在IPO前突破650亿美元。",
-          "body": "#Anthropic #IPO",
-          "tags": [
-            "#Anthropic",
-            "#IPO"
-          ],
-          "ts": 1786995674000,
-          "time": "03:41:14",
-          "receivedAt": 1786995886053,
           "receivedTime": true
         }
       ],
