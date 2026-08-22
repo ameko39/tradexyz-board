@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-21T23:54:25.830Z",
+  "updatedAt": "2026-08-22T00:34:27.078Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6975",
+          "url": "https://t.me/BWEtradfi/6975",
+          "title": "*据《纽约时报》报道，Anthropic公司的银行家们曾讨论过一项旨在筹集超过1000亿美元资金的IPO计划。",
+          "body": "*ANTHROPIC'S BANKERS DISCUSSED AN IPO AIMING TO RAISE OVER $100 BILLION: NYT *THE POTENTIAL INITIAL PUBLIC OFFERING COULD VALUE ANTHROPIC AT $2 TRILLION *此次潜在的IPO可能使Anthropic的估值达到2万亿美元。",
+          "tags": [],
+          "ts": 1787358293000,
+          "time": "08:24:53",
+          "receivedAt": 1787358849410,
+          "receivedTime": true
+        },
         {
           "id": "6974",
           "url": "https://t.me/BWEtradfi/6974",
@@ -1571,6 +1582,49 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229090",
+          "url": "https://t.me/jin10light/229090",
+          "title": "据纽约时报：Anthropic可能计划在首次公开募股中筹集1000亿美元。",
+          "body": "#Anthropic #纽约时报",
+          "tags": [
+            "#Anthropic",
+            "#纽约时报"
+          ],
+          "ts": 1787358672000,
+          "time": "08:31:12",
+          "receivedAt": 1787358851316,
+          "receivedTime": true
+        },
+        {
+          "id": "229089",
+          "url": "https://t.me/jin10light/229089",
+          "title": "整理：中东局势跟踪（8月22日）",
+          "body": "冲突情å 1.伊朗：将以毁灭性行动回应敌人的威胁。 2. 伊朗对美“经济战”计划曝光，延布与富查伊拉成靶心。 3. 伊朗官员：计划袭击原油出口设施，意在美国中期选举前打击特朗普。 和平谈å 1.联合国呼吁海湾地区有关各方重返谈判。 2. 特朗普：对伊转向“经济战”不意味着美军事选项受限；若输掉中期选举，我将被弹劾。 3. 据阿曼国家通讯社：阿曼和伊朗外长讨论恢复谈判的条件，以支持霍尔木兹海峡航行的恢复。 4. 伊朗议员卡塞姆：一项要求伊朗退出《不扩散核武器条约》的提案已提交至议会，目前正在推进。 其他事é 1.伊朗总统呼吁趁处于强势地位之际结束对美战争...",
+          "tags": [
+            "#伊朗",
+            "#特朗普",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787358374000,
+          "time": "08:26:14",
+          "receivedAt": 1787358851316,
+          "receivedTime": true
+        },
+        {
+          "id": "229088",
+          "url": "https://t.me/jin10light/229088",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加8.273吨，当前持仓量为1047.207吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1787357713000,
+          "time": "08:15:13",
+          "receivedAt": 1787358851316,
+          "receivedTime": true
+        },
         {
           "id": "229087",
           "url": "https://t.me/jin10light/229087",
@@ -18693,51 +18747,6 @@
           ],
           "ts": 1786966155000,
           "time": "19:29:15",
-          "receivedAt": 1786966704825,
-          "receivedTime": true
-        },
-        {
-          "id": "227890",
-          "url": "https://t.me/jin10light/227890",
-          "title": "紫光股份：拟定增募资不超54.1亿元，收购新华三6.98%股权",
-          "body": "8月17日讯，紫光股份公告，公司于2026年8月17日召开董事会，审议通过了调整2026年度向特定对象发行A股股票方案的议案。 调整后，本次发行募集资金总额不超过54.1亿元（含本数），扣除发行费用后拟用于：收购新华三6.98%股权（拟投入33.9亿元）、研发设备购置项目（拟投入4亿元）及偿还银行贷款（拟投入16.2亿元）。 本次调整不构成发行方案重大变化，尚需深交所审核及证监会同意注册。 #紫光股份 #新华三 #A股",
-          "tags": [
-            "#紫光股份",
-            "#新华三",
-            "#A股"
-          ],
-          "ts": 1786965674000,
-          "time": "19:21:14",
-          "receivedAt": 1786966704825,
-          "receivedTime": true
-        },
-        {
-          "id": "227889",
-          "url": "https://t.me/jin10light/227889",
-          "title": "特朗普威胁轰炸阿曼，并称对伊朗问题并不着急",
-          "body": "#特朗普 #阿曼 #伊朗",
-          "tags": [
-            "#特朗普",
-            "#阿曼",
-            "#伊朗"
-          ],
-          "ts": 1786965314000,
-          "time": "19:15:14",
-          "receivedAt": 1786966704825,
-          "receivedTime": true
-        },
-        {
-          "id": "227888",
-          "url": "https://t.me/jin10light/227888",
-          "title": "据福克斯新闻：特朗普威胁称，如果阿曼妨碍美国，美国将轰炸阿曼。",
-          "body": "#特朗普 #美国 #阿曼",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#阿曼"
-          ],
-          "ts": 1786965196000,
-          "time": "19:13:16",
           "receivedAt": 1786966704825,
           "receivedTime": true
         }
