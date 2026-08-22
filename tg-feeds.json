@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T14:22:06.337Z",
+  "updatedAt": "2026-08-22T14:43:01.866Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1489,11 +1489,25 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229172",
+          "url": "https://t.me/jin10light/229172",
+          "title": "若比特币突破8万美元，主流CEX累计空单清算强度将达13.93亿",
+          "body": "#BTC #CEX",
+          "tags": [
+            "#BTC",
+            "#CEX"
+          ],
+          "ts": 1787409736000,
+          "time": "22:42:16",
+          "receivedAt": 1787409763227,
+          "receivedTime": true
+        },
         {
           "id": "229171",
           "url": "https://t.me/jin10light/229171",
@@ -18673,21 +18687,6 @@
           ],
           "ts": 1787011935000,
           "time": "08:12:15",
-          "receivedAt": 1787012586427,
-          "receivedTime": true
-        },
-        {
-          "id": "227972",
-          "url": "https://t.me/jin10light/227972",
-          "title": "韩国股指高开逾2%",
-          "body": "8月18日讯，韩国KOSPI指数8月18日（周二）开盘上涨156.82点，涨幅2.25%，报7134.76点。 三星电子涨3%，SK海力士涨5.8%。 #韩国 #KOSPI #三星电子",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#三星电子"
-          ],
-          "ts": 1787011333000,
-          "time": "08:02:13",
           "receivedAt": 1787012586427,
           "receivedTime": true
         }
