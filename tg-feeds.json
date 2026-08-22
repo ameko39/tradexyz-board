@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T15:55:34.667Z",
+  "updatedAt": "2026-08-22T16:14:08.386Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1469,6 +1469,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229180",
+          "url": "https://t.me/jin10light/229180",
+          "title": "美联储9月加息25个基点概率现报39.9%",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1787414505000,
+          "time": "00:01:45",
+          "receivedAt": 1787415223091,
+          "receivedTime": true
+        },
         {
           "id": "229179",
           "url": "https://t.me/jin10light/229179",
@@ -18644,21 +18658,6 @@
           ],
           "ts": 1787013614000,
           "time": "08:40:14",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227980",
-          "url": "https://t.me/jin10light/227980",
-          "title": "AI自动化初创公司Relay关闭，创始人加入谷歌Chrome团队",
-          "body": "#Relay #谷歌 #Jacob Bank",
-          "tags": [
-            "#Relay",
-            "#谷歌",
-            "#Jacob"
-          ],
-          "ts": 1787013313000,
-          "time": "08:35:13",
           "receivedAt": 1787018072706,
           "receivedTime": true
         }
