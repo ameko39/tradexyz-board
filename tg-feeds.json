@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T11:24:35.186Z",
+  "updatedAt": "2026-08-22T11:42:11.324Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1560,6 +1560,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229162",
+          "url": "https://t.me/jin10light/229162",
+          "title": "某2月建仓ETH鲸鱼疑似清仓，盈利168万美元",
+          "body": "#ETH #OKX",
+          "tags": [
+            "#ETH",
+            "#OKX"
+          ],
+          "ts": 1787398515000,
+          "time": "19:35:15",
+          "receivedAt": 1787398904046,
+          "receivedTime": true
+        },
         {
           "id": "229161",
           "url": "https://t.me/jin10light/229161",
@@ -18744,21 +18758,6 @@
           ],
           "ts": 1786997475000,
           "time": "04:11:15",
-          "receivedAt": 1786998881997,
-          "receivedTime": true
-        },
-        {
-          "id": "227962",
-          "url": "https://t.me/jin10light/227962",
-          "title": "美股收盘：三大股指收跌 存储概念再走强",
-          "body": "8月18日讯，美股周一收盘，道指初步收跌0.5%，标普500指数跌0.5%，纳指跌0.32%。 SK海力士(SKHY.O)涨3%，美光科技(MU.O)涨4%，闪迪(SNDK.O)涨8.8%，耐克(NKE.N)跌4%。 纳斯达克中国金龙指数收涨0.37%，小鹏汽车(XPEV.N)涨4%，名创优品(MNSO.N)跌8%。 #美股 #SK海力士 #美光科技",
-          "tags": [
-            "#美股",
-            "#SK海力士",
-            "#美光科技"
-          ],
-          "ts": 1786997054000,
-          "time": "04:04:14",
           "receivedAt": 1786998881997,
           "receivedTime": true
         }
