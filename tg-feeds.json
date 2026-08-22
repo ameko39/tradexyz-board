@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T05:14:13.376Z",
+  "updatedAt": "2026-08-22T05:43:04.800Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1560,6 +1560,50 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229132",
+          "url": "https://t.me/jin10light/229132",
+          "title": "FT：特朗普时代经济承压，油价与房贷利率同步上升，美国债务突破40万亿美元",
+          "body": "#美国 #特朗普 #伊朗",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#伊朗"
+          ],
+          "ts": 1787376616000,
+          "time": "13:30:16",
+          "receivedAt": 1787377361782,
+          "receivedTime": true
+        },
+        {
+          "id": "229131",
+          "url": "https://t.me/jin10light/229131",
+          "title": "加密短线「闪崩」，过去1小时全网爆仓5.23亿美元，主爆多单",
+          "body": "#BTC #加密货币",
+          "tags": [
+            "#BTC",
+            "#加密货币"
+          ],
+          "ts": 1787375956000,
+          "time": "13:19:16",
+          "receivedAt": 1787377361782,
+          "receivedTime": true
+        },
+        {
+          "id": "229130",
+          "url": "https://t.me/jin10light/229130",
+          "title": "加密大盘短线跳水，比特币短时跌破7.7万美元，以太坊短时跌破2400美元",
+          "body": "#BTC #ETH #SOL",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#SOL"
+          ],
+          "ts": 1787375654000,
+          "time": "13:14:14",
+          "receivedAt": 1787377361782,
+          "receivedTime": true
+        },
         {
           "id": "229129",
           "url": "https://t.me/jin10light/229129",
@@ -18703,49 +18747,6 @@
           "time": "22:26:16",
           "receivedAt": 1786978226479,
           "receivedTime": true
-        },
-        {
-          "id": "227932",
-          "url": "https://t.me/jin10light/227932",
-          "title": "沪银2610成交额已超330亿元，盘面短线上涨，最新报16145元/千克，涨幅0.91%，日内增仓近5400手，量仓活跃度同步抬升。",
-          "body": "#沪银2610 #白银",
-          "tags": [
-            "#沪银2610",
-            "#白银"
-          ],
-          "ts": 1786976593000,
-          "time": "22:23:13",
-          "receivedAt": 1786976650958,
-          "receivedTime": true
-        },
-        {
-          "id": "227931",
-          "url": "https://t.me/jin10light/227931",
-          "title": "现货黄金日内涨超1%，突破4420美元/盎司。",
-          "body": "#黄金 #美元",
-          "tags": [
-            "#黄金",
-            "#美元"
-          ],
-          "ts": 1786976471000,
-          "time": "22:21:11",
-          "receivedAt": 1786976650958,
-          "receivedTime": true
-        },
-        {
-          "id": "227930",
-          "url": "https://t.me/jin10light/227930",
-          "title": "恐慌指数VIX跌至年内低点，标普500连获12周资金净流入，但机构密集警告秋季抛售风险加剧",
-          "body": "#美股 #VIX #美国",
-          "tags": [
-            "#美股",
-            "#VIX",
-            "#美国"
-          ],
-          "ts": 1786976416000,
-          "time": "22:20:16",
-          "receivedAt": 1786976650958,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19898,20 +19899,9 @@
           "time": "14:41:01",
           "receivedAt": 1786089247772,
           "receivedTime": true
-        },
-        {
-          "id": "1685",
-          "url": "https://t.me/PolyBeats_Bot/1685",
-          "title": "Starship Flight 14 暂定 8 月底，聪明钱预测月底前能发射",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 SpaceX星舰第 14 次飞行测试是否在 8 月 31 日前发射？ 」投入 $1.4k「是」，平均买入概率为 38.6%，目前「是」概率为 33.5%。 Hakei. 投入 $1.4k，与本市场最佳相关板块为 科技 ，板块净盈利 $8.1k。其在该板块共 162 笔已结算交易的胜率为 122/162（75%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 27 笔。相近成本价区间（$0.301-$0.45）内，其历史投入金额中位数为 $204。 SpaceX 正在准备 Starship 第 14 次飞行测试。Elon Musk 于 8 月 4 日在公司财报电话会上表示，Flight 14 暂定于 8 月底发射，具体时间仍取决于监管批准。任务计划让 Starship 首次进入轨道，并把可运营的 Starlink V3 卫星送入轨道。Flight 13 于 7 月 24 日完成飞行，Ship 40 经历高速再入后在印度洋软着陆，目前 SpaceX 正在回收这艘仍保持完整的 Starship，对热防护系统进行进一步检查。 Flight 14 预计使用 Bo...",
-          "tags": [],
-          "ts": 1786080328000,
-          "time": "13:25:28",
-          "receivedAt": 1786084441605,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
