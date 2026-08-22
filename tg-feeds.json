@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T03:49:26.209Z",
+  "updatedAt": "2026-08-22T04:17:53.415Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1560,6 +1560,65 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229122",
+          "url": "https://t.me/jin10light/229122",
+          "title": "Anthropic把Mythos 5塞进Claude Security：企业能用，但拿不到模型",
+          "body": "#Anthropic #Claude Mythos 5 #GitHub",
+          "tags": [
+            "#Anthropic",
+            "#Claude",
+            "#GitHub"
+          ],
+          "ts": 1787371753000,
+          "time": "12:09:13",
+          "receivedAt": 1787372253829,
+          "receivedTime": true
+        },
+        {
+          "id": "229121",
+          "url": "https://t.me/jin10light/229121",
+          "title": "华尔街与华盛顿共同推动BTC上涨：ETF资金流入与空头清算加速行情",
+          "body": "#BTC #美国 #特朗普",
+          "tags": [
+            "#BTC",
+            "#美国",
+            "#特朗普"
+          ],
+          "ts": 1787371457000,
+          "time": "12:04:17",
+          "receivedAt": 1787372253829,
+          "receivedTime": true
+        },
+        {
+          "id": "229120",
+          "url": "https://t.me/jin10light/229120",
+          "title": "加拿大拒绝与美国敲定贸易协议，称将对美国对等加征50%关税",
+          "body": "#美国 #加拿大 #特朗普",
+          "tags": [
+            "#美国",
+            "#加拿大",
+            "#特朗普"
+          ],
+          "ts": 1787370973000,
+          "time": "11:56:13",
+          "receivedAt": 1787372253829,
+          "receivedTime": true
+        },
+        {
+          "id": "229119",
+          "url": "https://t.me/jin10light/229119",
+          "title": "BNB突破720美元，24小时涨幅扩大至8.79%",
+          "body": "#BNB #HTX",
+          "tags": [
+            "#BNB",
+            "#HTX"
+          ],
+          "ts": 1787370734000,
+          "time": "11:52:14",
+          "receivedAt": 1787372253829,
+          "receivedTime": true
+        },
         {
           "id": "229118",
           "url": "https://t.me/jin10light/229118",
@@ -18679,65 +18738,6 @@
           "time": "21:27:15",
           "receivedAt": 1786975029794,
           "receivedTime": true
-        },
-        {
-          "id": "227922",
-          "url": "https://t.me/jin10light/227922",
-          "title": "摩根大通表态将力争担任Polymarket IPO承销商",
-          "body": "#摩根大通 #Polymarket #Shayne Coplan",
-          "tags": [
-            "#摩根大通",
-            "#Polymarket",
-            "#Shayne"
-          ],
-          "ts": 1786973122000,
-          "time": "21:25:22",
-          "receivedAt": 1786975029794,
-          "receivedTime": true
-        },
-        {
-          "id": "227921",
-          "url": "https://t.me/jin10light/227921",
-          "title": "CBOT农产品晚间分析：原油走强叠加对市场出口连传捷报，CBOT大豆价格获提振；但中西部降雨充沛，丰产预期是否仍是“达摩克利斯之剑”？",
-          "body": "#CBOT #大豆 #原油",
-          "tags": [
-            "#CBOT",
-            "#大豆",
-            "#原油"
-          ],
-          "ts": 1786972936000,
-          "time": "21:22:16",
-          "receivedAt": 1786972978054,
-          "receivedTime": true
-        },
-        {
-          "id": "227920",
-          "url": "https://t.me/jin10light/227920",
-          "title": "摩根大通上调日本东证指数目标位至4,600点",
-          "body": "#摩根大通 #日本东证指数",
-          "tags": [
-            "#摩根大通",
-            "#日本东证指数"
-          ],
-          "ts": 1786972696000,
-          "time": "21:18:16",
-          "receivedAt": 1786972978054,
-          "receivedTime": true
-        },
-        {
-          "id": "227919",
-          "url": "https://t.me/jin10light/227919",
-          "title": "嘉楠科技7月产出46枚BTC，持有1917枚BTC及3952枚ETH",
-          "body": "#嘉楠科技 #BTC #ETH",
-          "tags": [
-            "#嘉楠科技",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1786972636000,
-          "time": "21:17:16",
-          "receivedAt": 1786972978054,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19914,7 +19914,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
