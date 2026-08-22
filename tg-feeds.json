@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T06:51:28.312Z",
+  "updatedAt": "2026-08-22T07:20:35.790Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1560,6 +1560,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229143",
+          "url": "https://t.me/jin10light/229143",
+          "title": "特斯拉无人驾驶电动车Cybercab发布会定档",
+          "body": "#特斯拉 #美国 #Cybercab",
+          "tags": [
+            "#特斯拉",
+            "#美国",
+            "#Cybercab"
+          ],
+          "ts": 1787382855000,
+          "time": "15:14:15",
+          "receivedAt": 1787383214155,
+          "receivedTime": true
+        },
+        {
+          "id": "229142",
+          "url": "https://t.me/jin10light/229142",
+          "title": "特朗普50%关税冲击加拿大，卡尼政府加速降低对美经济依赖",
+          "body": "#美国 #加拿大 #特朗普",
+          "tags": [
+            "#美国",
+            "#加拿大",
+            "#特朗普"
+          ],
+          "ts": 1787381654000,
+          "time": "14:54:14",
+          "receivedAt": 1787383214155,
+          "receivedTime": true
+        },
         {
           "id": "229141",
           "url": "https://t.me/jin10light/229141",
@@ -18718,32 +18748,6 @@
           "time": "23:30:14",
           "receivedAt": 1786980990112,
           "receivedTime": true
-        },
-        {
-          "id": "227943",
-          "url": "https://t.me/jin10light/227943",
-          "title": "美银首席：美债逼近40万亿美元，做多黄金是当下最优解，AI债券成「做空」反直觉标的",
-          "body": "",
-          "tags": [],
-          "ts": 1786980267000,
-          "time": "23:24:27",
-          "receivedAt": 1786980990112,
-          "receivedTime": true
-        },
-        {
-          "id": "227942",
-          "url": "https://t.me/jin10light/227942",
-          "title": "Tom Lee：希望看到ETH突破日线云层，当前距突破仅3.5%",
-          "body": "#ETH #Tom Lee #BitMine",
-          "tags": [
-            "#ETH",
-            "#Tom",
-            "#BitMine"
-          ],
-          "ts": 1786979473000,
-          "time": "23:11:13",
-          "receivedAt": 1786980990112,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19872,17 +19876,6 @@
           "tags": [],
           "ts": 1786088427000,
           "time": "15:40:27",
-          "receivedAt": 1786089247772,
-          "receivedTime": true
-        },
-        {
-          "id": "1687",
-          "url": "https://t.me/PolyBeats_Bot/1687",
-          "title": "电影板块 93% 胜率账户预测本周 Netflix 剧集榜信息，市价买入导致概率翻 6 倍",
-          "body": "在预测市场 Polymarket 上，20 分钟前，1 名聪明钱买入Netflix 剧集榜信息相关市场。 该账户与本市场最佳相关板块为 电影 ，板块净盈利 $10.0k。其在该板块共 43 笔已结算交易的胜率为 40/43（93%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 17 笔。",
-          "tags": [],
-          "ts": 1786086181000,
-          "time": "15:03:01",
           "receivedAt": 1786089247772,
           "receivedTime": true
         }
