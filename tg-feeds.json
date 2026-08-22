@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T19:51:36.983Z",
+  "updatedAt": "2026-08-22T20:01:35.411Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1327,31 +1327,9 @@
           "time": "06:32:10",
           "receivedAt": 1786142107895,
           "receivedTime": true
-        },
-        {
-          "id": "6857",
-          "url": "https://t.me/BWEtradfi/6857",
-          "title": "DB: 标普500指数收盘上涨0.7%，纳斯达克指数上涨1.4%",
-          "body": "DB: *S&P 500 CLOSES UP 0.7%, NASDAQ GAINS 1.4%",
-          "tags": [],
-          "ts": 1786132813000,
-          "time": "04:00:13",
-          "receivedAt": 1786134831988,
-          "receivedTime": true
-        },
-        {
-          "id": "6856",
-          "url": "https://t.me/BWEtradfi/6856",
-          "title": "*巴瑞：增加3月半导体ETF看跌期权持仓并做空更多股票",
-          "body": "*BURRY: ADDED TO MARCH SEMICONDUCTOR ETF PUTS & SHORTED MORE SHARES",
-          "tags": [],
-          "ts": 1786132789000,
-          "time": "03:59:49",
-          "receivedAt": 1786134831988,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
