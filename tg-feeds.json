@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T07:20:35.790Z",
+  "updatedAt": "2026-08-22T07:49:36.229Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1560,6 +1560,50 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229146",
+          "url": "https://t.me/jin10light/229146",
+          "title": "Strategy比特币持仓已浮盈17.187亿美元",
+          "body": "#BTC #Strategy",
+          "tags": [
+            "#BTC",
+            "#Strategy"
+          ],
+          "ts": 1787384294000,
+          "time": "15:38:14",
+          "receivedAt": 1787384958009,
+          "receivedTime": true
+        },
+        {
+          "id": "229145",
+          "url": "https://t.me/jin10light/229145",
+          "title": "下周宏观展望：美伊制裁、杰克逊霍尔、PCE与英伟达财报四大变量来袭，黄金剑指4700美元",
+          "body": "#美国 #伊朗 #黄金",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#黄金"
+          ],
+          "ts": 1787383696000,
+          "time": "15:28:16",
+          "receivedAt": 1787384958009,
+          "receivedTime": true
+        },
+        {
+          "id": "229144",
+          "url": "https://t.me/jin10light/229144",
+          "title": "某巨鲸4倍做多价值1070万美元HYPE，爆仓价64.47美元",
+          "body": "#USDC #HYPE #Hyperliquid",
+          "tags": [
+            "#USDC",
+            "#HYPE",
+            "#Hyperliquid"
+          ],
+          "ts": 1787383336000,
+          "time": "15:22:16",
+          "receivedAt": 1787384958009,
+          "receivedTime": true
+        },
         {
           "id": "229143",
           "url": "https://t.me/jin10light/229143",
@@ -18704,50 +18748,6 @@
           "time": "23:56:17",
           "receivedAt": 1786983353232,
           "receivedTime": true
-        },
-        {
-          "id": "227946",
-          "url": "https://t.me/jin10light/227946",
-          "title": "软银向Gravis Robotics投资2亿美元，入局建筑机器人",
-          "body": "#软银 #Gravis Robotics #苏黎世",
-          "tags": [
-            "#软银",
-            "#Gravis",
-            "#苏黎世"
-          ],
-          "ts": 1786981038000,
-          "time": "23:37:18",
-          "receivedAt": 1786982087264,
-          "receivedTime": true
-        },
-        {
-          "id": "227945",
-          "url": "https://t.me/jin10light/227945",
-          "title": "OpenAI超级数据中心正式落地，英伟达最高兜底1050亿美元",
-          "body": "#OpenAI #英伟达 #俄亥俄",
-          "tags": [
-            "#OpenAI",
-            "#英伟达",
-            "#俄亥俄"
-          ],
-          "ts": 1786980795000,
-          "time": "23:33:15",
-          "receivedAt": 1786980990112,
-          "receivedTime": true
-        },
-        {
-          "id": "227944",
-          "url": "https://t.me/jin10light/227944",
-          "title": "比特币突破64,000美元，24小时涨幅1.23%",
-          "body": "#BTC #HTX",
-          "tags": [
-            "#BTC",
-            "#HTX"
-          ],
-          "ts": 1786980614000,
-          "time": "23:30:14",
-          "receivedAt": 1786980990112,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19866,17 +19866,6 @@
           "ts": 1786091161000,
           "time": "16:26:01",
           "receivedAt": 1786092163751,
-          "receivedTime": true
-        },
-        {
-          "id": "1688",
-          "url": "https://t.me/PolyBeats_Bot/1688",
-          "title": "被多家主流媒体关注的可疑账户继续买入选举市场",
-          "body": "在预测市场 Polymarket 上，一名此前通过美伊战争相关市场获利 11 倍、总盈利超 20 万美元的账户在昨日继续买入选举相关市场。这是该账户的第二笔交易。 该账户的异常操作在过去数月内引起广泛讨论：《彭博社》、《雅虎金融》、《国土报》等多家媒体曾提及该账户以及其在美伊相关市场的异常盈利；Loononchain、Arkham 等链上数据分析平台目前将该账户标记为「可疑内幕人士」。 该账户与本市场最佳相关板块为 中东 ，板块净盈利 $201k。其在该板块共 1 笔已结算交易的胜率为 1/1（100%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 1 笔。",
-          "tags": [],
-          "ts": 1786088427000,
-          "time": "15:40:27",
-          "receivedAt": 1786089247772,
           "receivedTime": true
         }
       ],
