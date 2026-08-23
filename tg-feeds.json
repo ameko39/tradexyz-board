@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T10:58:02.537Z",
+  "updatedAt": "2026-08-23T11:19:40.441Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1268,6 +1268,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229240",
+          "url": "https://t.me/jin10light/229240",
+          "title": "据伊朗国家媒体：伊朗部长表示，伊朗在法尔斯省南部的油田发现了超过7.5万亿立方英尺的天然气。",
+          "body": "#伊朗 #法尔斯省",
+          "tags": [
+            "#伊朗",
+            "#法尔斯省"
+          ],
+          "ts": 1787483053000,
+          "time": "19:04:13",
+          "receivedAt": 1787483957833,
+          "receivedTime": true
+        },
+        {
+          "id": "229239",
+          "url": "https://t.me/jin10light/229239",
+          "title": "英伟达开源模型战略正式浮出水面，深入模型层从卖铲子转为挖金矿",
+          "body": "#英伟达 #Poolside #Nemotron",
+          "tags": [
+            "#英伟达",
+            "#Poolside",
+            "#Nemotron"
+          ],
+          "ts": 1787482875000,
+          "time": "19:01:15",
+          "receivedAt": 1787483957833,
+          "receivedTime": true
+        },
         {
           "id": "229238",
           "url": "https://t.me/jin10light/229238",
@@ -18432,36 +18461,6 @@
           "ts": 1787030893000,
           "time": "13:28:13",
           "receivedAt": 1787031988307,
-          "receivedTime": true
-        },
-        {
-          "id": "228040",
-          "url": "https://t.me/jin10light/228040",
-          "title": "Anthropic公开模型只是冰山一角：更强的Mythos 2捏着不发，下一代Mythos 3也在推进",
-          "body": "#Anthropic #Dylan Patel #Mythos",
-          "tags": [
-            "#Anthropic",
-            "#Dylan",
-            "#Mythos"
-          ],
-          "ts": 1787030355000,
-          "time": "13:19:15",
-          "receivedAt": 1787031988307,
-          "receivedTime": true
-        },
-        {
-          "id": "228039",
-          "url": "https://t.me/jin10light/228039",
-          "title": "Anthropic ARR引发估值争议：650亿美元年化收入背后，市场开始追问AI增长斜率",
-          "body": "#Anthropic #OpenAI #美国",
-          "tags": [
-            "#Anthropic",
-            "#OpenAI",
-            "#美国"
-          ],
-          "ts": 1787029934000,
-          "time": "13:12:14",
-          "receivedAt": 1787030120078,
           "receivedTime": true
         }
       ],
