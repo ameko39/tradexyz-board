@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T09:34:04.682Z",
+  "updatedAt": "2026-08-23T09:55:06.262Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1268,6 +1268,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229231",
+          "url": "https://t.me/jin10light/229231",
+          "title": "分析：特朗普喊话点燃山寨季，超半数币种重回200日线上方，山寨总市值三天增2150亿美元",
+          "body": "#特朗普 #BTC #山寨币",
+          "tags": [
+            "#特朗普",
+            "#BTC",
+            "#山寨币"
+          ],
+          "ts": 1787477778000,
+          "time": "17:36:18",
+          "receivedAt": 1787478873139,
+          "receivedTime": true
+        },
         {
           "id": "229230",
           "url": "https://t.me/jin10light/229230",
@@ -18439,20 +18454,6 @@
           "tags": [],
           "ts": 1787027113000,
           "time": "12:25:13",
-          "receivedAt": 1787028501088,
-          "receivedTime": true
-        },
-        {
-          "id": "228031",
-          "url": "https://t.me/jin10light/228031",
-          "title": "Meme项目「牛来」早间市值冲高近4300万美元后回落，近6小时涨近30%",
-          "body": "#BNB #牛来",
-          "tags": [
-            "#BNB",
-            "#牛来"
-          ],
-          "ts": 1787027054000,
-          "time": "12:24:14",
           "receivedAt": 1787028501088,
           "receivedTime": true
         }
