@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T15:49:31.746Z",
+  "updatedAt": "2026-08-23T16:01:59.723Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1269,13 +1269,41 @@
       "channel": "jin10light",
       "items": [
         {
+          "id": "229258",
+          "url": "https://t.me/jin10light/229258",
+          "title": "今日重点关注的财经数据与事件：2026年8月24日 周一",
+          "body": "① 待定 美国介绍加大对伊制裁具体行动 ② 19:30 拼多多财报电话会 #美国 #伊朗 #拼多多",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#拼多多"
+          ],
+          "ts": 1787500878000,
+          "time": "00:01:18",
+          "receivedAt": 1787500896358,
+          "receivedTime": true
+        },
+        {
+          "id": "229257",
+          "url": "https://t.me/jin10light/229257",
+          "title": "ARK Invest周度报告：AI代理将继续推动Anthropic和OpenAI发展，Grok 4.6或使前沿AI成本曲线下降",
+          "body": "#Cathie Wood #ARK Invest #Anthropic",
+          "tags": [
+            "#Cathie",
+            "#ARK",
+            "#Anthropic"
+          ],
+          "ts": 1787500877000,
+          "time": "00:01:17",
+          "receivedAt": 1787500896358,
+          "receivedTime": true
+        },
+        {
           "id": "229256",
           "url": "https://t.me/jin10light/229256",
-          "title": "以太坊突破2500后3000还会远吗？链上巨鲸如何看后市走向",
-          "body": "#ETH",
-          "tags": [
-            "#ETH"
-          ],
+          "title": "以太坊突破2500美元后3000还会远吗？链上巨鲸如何看后市走向",
+          "body": "",
+          "tags": [],
           "ts": 1787499856000,
           "time": "23:44:16",
           "receivedAt": 1787500149182,
@@ -18439,35 +18467,6 @@
           "ts": 1787034078000,
           "time": "14:21:18",
           "receivedAt": 1787036784538,
-          "receivedTime": true
-        },
-        {
-          "id": "228058",
-          "url": "https://t.me/jin10light/228058",
-          "title": "NAVI Protocol推出Sui首个策展人借贷金库NAVI Prime，历史TVL峰值突破10亿美元",
-          "body": "#Sui #NAVI Protocol #DeFi",
-          "tags": [
-            "#Sui",
-            "#NAVI",
-            "#DeFi"
-          ],
-          "ts": 1787033834000,
-          "time": "14:17:14",
-          "receivedAt": 1787036784538,
-          "receivedTime": true
-        },
-        {
-          "id": "228057",
-          "url": "https://t.me/jin10light/228057",
-          "title": "周生生( 00116.HK )日内涨超20%，公司料中期应占溢利21亿港元至22亿港元。",
-          "body": "#周生生 #港股",
-          "tags": [
-            "#周生生",
-            "#港股"
-          ],
-          "ts": 1787033654000,
-          "time": "14:14:14",
-          "receivedAt": 1787033756002,
           "receivedTime": true
         }
       ],
