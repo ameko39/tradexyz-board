@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T01:21:28.931Z",
+  "updatedAt": "2026-08-23T02:39:05.220Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1263,11 +1263,141 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229201",
+          "url": "https://t.me/jin10light/229201",
+          "title": "中国AI算力挤爆大草原：乌兰察布规划12.5GW，超过OpenAI星际之门",
+          "body": "#中国 #内蒙古 #乌兰察布",
+          "tags": [
+            "#中国",
+            "#内蒙古",
+            "#乌兰察布"
+          ],
+          "ts": 1787451854000,
+          "time": "10:24:14",
+          "receivedAt": 1787452705034,
+          "receivedTime": true
+        },
+        {
+          "id": "229200",
+          "url": "https://t.me/jin10light/229200",
+          "title": "F2Pool联创王纯或减持12,765枚ETH以降低杠杆",
+          "body": "#ETH #Binance #USDC",
+          "tags": [
+            "#ETH",
+            "#Binance",
+            "#USDC"
+          ],
+          "ts": 1787451314000,
+          "time": "10:15:14",
+          "receivedAt": 1787452705034,
+          "receivedTime": true
+        },
+        {
+          "id": "229199",
+          "url": "https://t.me/jin10light/229199",
+          "title": "摩根士丹利调查：华尔街实习生热衷预测市场与AI，超四分之一使用过预测市场应用",
+          "body": "",
+          "tags": [],
+          "ts": 1787450353000,
+          "time": "09:59:13",
+          "receivedAt": 1787452705034,
+          "receivedTime": true
+        },
+        {
+          "id": "229198",
+          "url": "https://t.me/jin10light/229198",
+          "title": "摩根士丹利调查：华尔街实习生热衷预测市场与AI，68%每日使用AI工具",
+          "body": "#美国 #Kalshi #Polymarket",
+          "tags": [
+            "#美国",
+            "#Kalshi",
+            "#Polymarket"
+          ],
+          "ts": 1787450296000,
+          "time": "09:58:16",
+          "receivedAt": 1787452705034,
+          "receivedTime": true
+        },
+        {
+          "id": "229197",
+          "url": "https://t.me/jin10light/229197",
+          "title": "Muse Spark 1.2白菜价版铺开：OpenCode直接限时免费",
+          "body": "#Meta #Muse Spark 1.2 #OpenRouter",
+          "tags": [
+            "#Meta",
+            "#Muse",
+            "#OpenRouter"
+          ],
+          "ts": 1787449454000,
+          "time": "09:44:14",
+          "receivedAt": 1787452705034,
+          "receivedTime": true
+        },
+        {
+          "id": "229196",
+          "url": "https://t.me/jin10light/229196",
+          "title": "某巨鲸于13小时前向Binance转入2555枚BTC，约合1.97亿美元",
+          "body": "#BTC #Binance",
+          "tags": [
+            "#BTC",
+            "#Binance"
+          ],
+          "ts": 1787448673000,
+          "time": "09:31:13",
+          "receivedAt": 1787452705034,
+          "receivedTime": true
+        },
+        {
+          "id": "229195",
+          "url": "https://t.me/jin10light/229195",
+          "title": "美国比特币和以太坊现货ETF本周合计净流入26亿美元，创2025年10月以来新高",
+          "body": "#美国 #BTC #ETH",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1787448554000,
+          "time": "09:29:14",
+          "receivedAt": 1787452705034,
+          "receivedTime": true
+        },
+        {
+          "id": "229194",
+          "url": "https://t.me/jin10light/229194",
+          "title": "受上线Upbit影响，FOLD短时涨超67%",
+          "body": "#FOLD #Upbit #韩国",
+          "tags": [
+            "#FOLD",
+            "#Upbit",
+            "#韩国"
+          ],
+          "ts": 1787448313000,
+          "time": "09:25:13",
+          "receivedAt": 1787452705034,
+          "receivedTime": true
+        },
+        {
+          "id": "229193",
+          "url": "https://t.me/jin10light/229193",
+          "title": "渣打银行：比特币年底10万美元目标或过低，10月6日后复苏或加速",
+          "body": "#BTC #ETH #渣打银行",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#渣打银行"
+          ],
+          "ts": 1787448073000,
+          "time": "09:21:13",
+          "receivedAt": 1787452705034,
+          "receivedTime": true
+        },
         {
           "id": "229192",
           "url": "https://t.me/jin10light/229192",
@@ -18324,138 +18454,6 @@
           "ts": 1787019852000,
           "time": "10:24:12",
           "receivedAt": 1787021247214,
-          "receivedTime": true
-        },
-        {
-          "id": "228001",
-          "url": "https://t.me/jin10light/228001",
-          "title": "创业板指跌超1%，深证成指跌0.76%，沪指跌0.15%，AI语料、云办公、算力租赁板块跌幅居前。",
-          "body": "#创业板指 #深证成指 #沪指",
-          "tags": [
-            "#创业板指",
-            "#深证成指",
-            "#沪指"
-          ],
-          "ts": 1787019794000,
-          "time": "10:23:14",
-          "receivedAt": 1787021247214,
-          "receivedTime": true
-        },
-        {
-          "id": "228000",
-          "url": "https://t.me/jin10light/228000",
-          "title": "GoPlus DeepScan全面升级：推出AI智能合约安全全生命周期防护体系",
-          "body": "#GoPlus #DeepScan #AI",
-          "tags": [
-            "#GoPlus",
-            "#DeepScan",
-            "#AI"
-          ],
-          "ts": 1787019196000,
-          "time": "10:13:16",
-          "receivedAt": 1787021247214,
-          "receivedTime": true
-        },
-        {
-          "id": "227999",
-          "url": "https://t.me/jin10light/227999",
-          "title": "摩根士丹利将泡泡玛特目标价下调13%，称公司面临高基数等压力",
-          "body": "#泡泡玛特 #港元 #中国",
-          "tags": [
-            "#泡泡玛特",
-            "#港元",
-            "#中国"
-          ],
-          "ts": 1787019196000,
-          "time": "10:13:16",
-          "receivedAt": 1787021247214,
-          "receivedTime": true
-        },
-        {
-          "id": "227998",
-          "url": "https://t.me/jin10light/227998",
-          "title": "Groq估值腰斩至35亿美元，英伟达反手参投",
-          "body": "#Groq #英伟达 #Jonathan Ross",
-          "tags": [
-            "#Groq",
-            "#英伟达",
-            "#Jonathan"
-          ],
-          "ts": 1787018414000,
-          "time": "10:00:14",
-          "receivedAt": 1787021247214,
-          "receivedTime": true
-        },
-        {
-          "id": "227997",
-          "url": "https://t.me/jin10light/227997",
-          "title": "「坚定看空」巨鲸主动减仓后仍遭清算，亏损超156.7万美元",
-          "body": "#BTC #Ai 姨",
-          "tags": [
-            "#BTC",
-            "#Ai"
-          ],
-          "ts": 1787018173000,
-          "time": "09:56:13",
-          "receivedAt": 1787021247214,
-          "receivedTime": true
-        },
-        {
-          "id": "227996",
-          "url": "https://t.me/jin10light/227996",
-          "title": "爱丽家居复牌涨停，走出13天12板，公司此前两度停牌核查。",
-          "body": "#爱丽家居 #A股",
-          "tags": [
-            "#爱丽家居",
-            "#A股"
-          ],
-          "ts": 1787017512000,
-          "time": "09:45:12",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227995",
-          "url": "https://t.me/jin10light/227995",
-          "title": "HIP-3去中心化交易平台Paragon拍下ANSEM ticker",
-          "body": "#Paragon #ANSEM #HYPE",
-          "tags": [
-            "#Paragon",
-            "#ANSEM",
-            "#HYPE"
-          ],
-          "ts": 1787017455000,
-          "time": "09:44:15",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227994",
-          "url": "https://t.me/jin10light/227994",
-          "title": "CASHCAT突破0.105美元，24小时涨近10%",
-          "body": "#CASHCAT #Robinhood Chain",
-          "tags": [
-            "#CASHCAT",
-            "#Robinhood"
-          ],
-          "ts": 1787017034000,
-          "time": "09:37:14",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227993",
-          "url": "https://t.me/jin10light/227993",
-          "title": "A股粮食概念板块短线冲高，金健米业涨停，农发种业、神农种业、万向德农、登海种业、深粮控股跟涨。",
-          "body": "#A股 #金健米业 #农发种业",
-          "tags": [
-            "#A股",
-            "#金健米业",
-            "#农发种业"
-          ],
-          "ts": 1787016913000,
-          "time": "09:35:13",
-          "receivedAt": 1787018072706,
           "receivedTime": true
         }
       ],
