@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T11:19:40.441Z",
+  "updatedAt": "2026-08-23T11:40:23.574Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1268,6 +1268,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229241",
+          "url": "https://t.me/jin10light/229241",
+          "title": "比特币突破77,000美元，24小时涨幅0.46%",
+          "body": "#BTC #HTX",
+          "tags": [
+            "#BTC",
+            "#HTX"
+          ],
+          "ts": 1787484194000,
+          "time": "19:23:14",
+          "receivedAt": 1787485199821,
+          "receivedTime": true
+        },
         {
           "id": "229240",
           "url": "https://t.me/jin10light/229240",
@@ -18446,20 +18460,6 @@
           ],
           "ts": 1787031632000,
           "time": "13:40:32",
-          "receivedAt": 1787031988307,
-          "receivedTime": true
-        },
-        {
-          "id": "228041",
-          "url": "https://t.me/jin10light/228041",
-          "title": "模型利好是否「不值钱」了？智谱、MiniMax在跌什么",
-          "body": "#ZHIPU #美元",
-          "tags": [
-            "#ZHIPU",
-            "#美元"
-          ],
-          "ts": 1787030893000,
-          "time": "13:28:13",
           "receivedAt": 1787031988307,
           "receivedTime": true
         }
