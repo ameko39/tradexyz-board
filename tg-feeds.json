@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T08:35:59.645Z",
+  "updatedAt": "2026-08-23T09:00:48.004Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1268,6 +1268,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229227",
+          "url": "https://t.me/jin10light/229227",
+          "title": "某巨鲸止盈价值724万美元ETH，预计获利191万美元",
+          "body": "#ETH #BTC #Binance",
+          "tags": [
+            "#ETH",
+            "#BTC",
+            "#Binance"
+          ],
+          "ts": 1787475495000,
+          "time": "16:58:15",
+          "receivedAt": 1787475624209,
+          "receivedTime": true
+        },
+        {
+          "id": "229226",
+          "url": "https://t.me/jin10light/229226",
+          "title": "人工智能正推动美国经济增长势头加速，标普全美综合PMI连续第三个月出现增长",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1787474954000,
+          "time": "16:49:14",
+          "receivedAt": 1787475624209,
+          "receivedTime": true
+        },
         {
           "id": "229225",
           "url": "https://t.me/jin10light/229225",
@@ -18425,35 +18454,6 @@
           ],
           "ts": 1787025794000,
           "time": "12:03:14",
-          "receivedAt": 1787026131345,
-          "receivedTime": true
-        },
-        {
-          "id": "228027",
-          "url": "https://t.me/jin10light/228027",
-          "title": "Kimi Work被曝泄漏隐私：提个Bug，最近5个Agent会话也被打包上传",
-          "body": "#Kimi #RuntimeWire",
-          "tags": [
-            "#Kimi",
-            "#RuntimeWire"
-          ],
-          "ts": 1787025194000,
-          "time": "11:53:14",
-          "receivedAt": 1787026131345,
-          "receivedTime": true
-        },
-        {
-          "id": "228026",
-          "url": "https://t.me/jin10light/228026",
-          "title": "美对冲基金二季度13F持仓整理：机构看好SpaceX与Alphabet，减持英伟达并转向AI基础设施",
-          "body": "#美国 #SpaceX #Alphabet",
-          "tags": [
-            "#美国",
-            "#SpaceX",
-            "#Alphabet"
-          ],
-          "ts": 1787024715000,
-          "time": "11:45:15",
           "receivedAt": 1787026131345,
           "receivedTime": true
         }
