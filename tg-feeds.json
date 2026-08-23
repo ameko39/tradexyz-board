@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T04:54:31.359Z",
+  "updatedAt": "2026-08-23T05:19:15.895Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1268,6 +1268,34 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229215",
+          "url": "https://t.me/jin10light/229215",
+          "title": "「麻吉」减仓BTC多单，目前浮亏100万美元",
+          "body": "#BTC #麻吉",
+          "tags": [
+            "#BTC",
+            "#麻吉"
+          ],
+          "ts": 1787461994000,
+          "time": "13:13:14",
+          "receivedAt": 1787462337105,
+          "receivedTime": true
+        },
+        {
+          "id": "229214",
+          "url": "https://t.me/jin10light/229214",
+          "title": "若比特币跌破7.5万美元，主流CEX累计多单清算强度将达10.85亿",
+          "body": "#BTC #CEX",
+          "tags": [
+            "#BTC",
+            "#CEX"
+          ],
+          "ts": 1787460914000,
+          "time": "12:55:14",
+          "receivedAt": 1787462337105,
+          "receivedTime": true
+        },
         {
           "id": "229213",
           "url": "https://t.me/jin10light/229213",
@@ -18427,35 +18455,6 @@
           ],
           "ts": 1787022494000,
           "time": "11:08:14",
-          "receivedAt": 1787023800394,
-          "receivedTime": true
-        },
-        {
-          "id": "228015",
-          "url": "https://t.me/jin10light/228015",
-          "title": "BIS警告AI泡沫风险：核心公司估值处高位，风险溢价明显压缩，循环融资暗藏隐患",
-          "body": "#国际清算银行 #AI #美股",
-          "tags": [
-            "#国际清算银行",
-            "#AI",
-            "#美股"
-          ],
-          "ts": 1787022313000,
-          "time": "11:05:13",
-          "receivedAt": 1787023800394,
-          "receivedTime": true
-        },
-        {
-          "id": "228014",
-          "url": "https://t.me/jin10light/228014",
-          "title": "Binance将支持Conflux（CFX）网络升级及硬分叉，期间暂停充提服务",
-          "body": "#Binance #CFX",
-          "tags": [
-            "#Binance",
-            "#CFX"
-          ],
-          "ts": 1787022193000,
-          "time": "11:03:13",
           "receivedAt": 1787023800394,
           "receivedTime": true
         }
