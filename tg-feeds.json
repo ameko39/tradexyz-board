@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T05:19:15.895Z",
+  "updatedAt": "2026-08-23T05:49:26.421Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1268,6 +1268,35 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229217",
+          "url": "https://t.me/jin10light/229217",
+          "title": "「麻吉」BTC多单已全部平仓，近1日亏损246万美元",
+          "body": "#BTC #ETH #HYPE",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#HYPE"
+          ],
+          "ts": 1787464038000,
+          "time": "13:47:18",
+          "receivedAt": 1787464150687,
+          "receivedTime": true
+        },
+        {
+          "id": "229216",
+          "url": "https://t.me/jin10light/229216",
+          "title": "巨鲸「先定10个大目标」空单或已重回盈利，浮盈约77万美元",
+          "body": "#BTC #ETH",
+          "tags": [
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1787462713000,
+          "time": "13:25:13",
+          "receivedAt": 1787464150687,
+          "receivedTime": true
+        },
         {
           "id": "229215",
           "url": "https://t.me/jin10light/229215",
@@ -18427,34 +18456,6 @@
           ],
           "ts": 1787022673000,
           "time": "11:11:13",
-          "receivedAt": 1787023800394,
-          "receivedTime": true
-        },
-        {
-          "id": "228017",
-          "url": "https://t.me/jin10light/228017",
-          "title": "以太坊EIP-12188提议减少共识层区块保留窗口，获开发者支持",
-          "body": "#ETH #EIP -12188",
-          "tags": [
-            "#ETH",
-            "#EIP"
-          ],
-          "ts": 1787022613000,
-          "time": "11:10:13",
-          "receivedAt": 1787023800394,
-          "receivedTime": true
-        },
-        {
-          "id": "228016",
-          "url": "https://t.me/jin10light/228016",
-          "title": "智谱( 02513.HK )跌近17%，股价最低触及1000港元关口，成交额超66亿港元。",
-          "body": "#智谱 #港股",
-          "tags": [
-            "#智谱",
-            "#港股"
-          ],
-          "ts": 1787022494000,
-          "time": "11:08:14",
           "receivedAt": 1787023800394,
           "receivedTime": true
         }
