@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T22:46:32.085Z",
+  "updatedAt": "2026-08-23T23:01:14.336Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1268,6 +1268,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229273",
+          "url": "https://t.me/jin10light/229273",
+          "title": "今日重点关注的财经数据与事件：2026年8月24日 周一",
+          "body": "① 待定 美国介绍加大对伊制裁具体行动 ② 19:30 拼多多财报电话会 #美国 #伊朗 #拼多多",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#拼多多"
+          ],
+          "ts": 1787525474000,
+          "time": "06:51:14",
+          "receivedAt": 1787526041769,
+          "receivedTime": true
+        },
         {
           "id": "229272",
           "url": "https://t.me/jin10light/229272",
@@ -18449,20 +18464,6 @@
           ],
           "ts": 1787038754000,
           "time": "15:39:14",
-          "receivedAt": 1787039338995,
-          "receivedTime": true
-        },
-        {
-          "id": "228073",
-          "url": "https://t.me/jin10light/228073",
-          "title": "韩国监管机构对Polymarket实施接入屏蔽，认定其提供非法竞猜",
-          "body": "#韩国 #Polymarket",
-          "tags": [
-            "#韩国",
-            "#Polymarket"
-          ],
-          "ts": 1787038336000,
-          "time": "15:32:16",
           "receivedAt": 1787039338995,
           "receivedTime": true
         }
