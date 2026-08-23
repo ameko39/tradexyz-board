@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T06:16:30.062Z",
+  "updatedAt": "2026-08-23T07:04:01.172Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1268,6 +1268,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229219",
+          "url": "https://t.me/jin10light/229219",
+          "title": "Hyperliquid本周收入已超1600万美元，较上周增长近196%",
+          "body": "#Hyperliquid #HYPE #加密货币",
+          "tags": [
+            "#Hyperliquid",
+            "#HYPE",
+            "#加密货币"
+          ],
+          "ts": 1787467814000,
+          "time": "14:50:14",
+          "receivedAt": 1787468614370,
+          "receivedTime": true
+        },
+        {
+          "id": "229218",
+          "url": "https://t.me/jin10light/229218",
+          "title": "Bitfinex：比特币本轮上涨主要由现货需求和空头回补推动，获利回吐或成最大风险",
+          "body": "#BTC #美国 #Bitfinex",
+          "tags": [
+            "#BTC",
+            "#美国",
+            "#Bitfinex"
+          ],
+          "ts": 1787466138000,
+          "time": "14:22:18",
+          "receivedAt": 1787468614370,
+          "receivedTime": true
+        },
         {
           "id": "229217",
           "url": "https://t.me/jin10light/229217",
@@ -18426,36 +18456,6 @@
           ],
           "ts": 1787023097000,
           "time": "11:18:17",
-          "receivedAt": 1787023800394,
-          "receivedTime": true
-        },
-        {
-          "id": "228019",
-          "url": "https://t.me/jin10light/228019",
-          "title": "美、布两油短线小幅走高，消息面上，一艘船舶在驶出霍尔木兹海峡途中遭不明射弹击中，造成机舱损坏，并导致船员伤亡。",
-          "body": "#霍尔木兹海峡 #美国 #布伦特原油",
-          "tags": [
-            "#霍尔木兹海峡",
-            "#美国",
-            "#布伦特原油"
-          ],
-          "ts": 1787022915000,
-          "time": "11:15:15",
-          "receivedAt": 1787023800394,
-          "receivedTime": true
-        },
-        {
-          "id": "228018",
-          "url": "https://t.me/jin10light/228018",
-          "title": "创业板指跌超2%，深证成指跌1.62%，沪指跌0.64%，算力、IPv6、游戏、CRO等板块跌幅居前，全市场超4000只个股下跌。",
-          "body": "#创业板指 #深证成指 #沪指",
-          "tags": [
-            "#创业板指",
-            "#深证成指",
-            "#沪指"
-          ],
-          "ts": 1787022673000,
-          "time": "11:11:13",
           "receivedAt": 1787023800394,
           "receivedTime": true
         }
