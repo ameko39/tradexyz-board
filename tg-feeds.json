@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T23:58:53.826Z",
+  "updatedAt": "2026-08-23T01:21:28.931Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1261,67 +1261,162 @@
           "time": "09:21:39",
           "receivedAt": 1786240882973,
           "receivedTime": true
-        },
-        {
-          "id": "6863",
-          "url": "https://t.me/BWEtradfi/6863",
-          "title": "*伯里批评特朗普时代股市，称集会投机者为“白痴” - X POST",
-          "body": "*BURRY CALLS RALLY SPECULATORS 'IDIOTS' IN CRITIQUE OF TRUMP-ERA MARKET - X POST *BURRY SAYS 'COMPLETE IDIOTS' MAKING FORTUNES AS VALUATIONS ARE IGNORED *伯里称，在估值被忽视的情况下，一群“十足的白痴”正在大赚一笔。",
-          "tags": [],
-          "ts": 1786151030000,
-          "time": "09:03:50",
-          "receivedAt": 1786156171975,
-          "receivedTime": true
-        },
-        {
-          "id": "6862",
-          "url": "https://t.me/BWEtradfi/6862",
-          "title": "*《华尔街日报》报道：特朗普总统对第二任国土安全部长马克韦恩·穆林因发表与官方立场不符的言论而日益不满",
-          "body": "*PRESIDENT TRUMP FACES GROWING FRUSTRATION WITH HIS SECOND HOMELAND SECURITY SECRETARY MARKWAYNE MULLIN OVER OFF-MESSAGE REMARKS: WSJ *TRUMP CURRENTLY HAS NO PLANS TO FIRE MULLIN DESPITE MOUNTING TENSION AND PUSHBACK FROM ALLIES *尽管盟友反对声浪不断高涨，特朗普目前仍无解雇穆林的计划。",
-          "tags": [],
-          "ts": 1786150875000,
-          "time": "09:01:15",
-          "receivedAt": 1786156171975,
-          "receivedTime": true
-        },
-        {
-          "id": "6861",
-          "url": "https://t.me/BWEtradfi/6861",
-          "title": "*美国计划宣布10亿美元一揽子计划以支持哥伦比亚总统",
-          "body": "*US PLANS TO ANNOUNCE $1B PACKAGE TO SUPPORT COLOMBIA PRESIDENT",
-          "tags": [],
-          "ts": 1786149509000,
-          "time": "08:38:29",
-          "receivedAt": 1786156171975,
-          "receivedTime": true
-        },
-        {
-          "id": "6860",
-          "url": "https://t.me/BWEtradfi/6860",
-          "title": "*美国称乌克兰应避免袭击油轮和黑海油田",
-          "body": "*US SAYS UKRAINE TO AVOID TARGETING TANKERS, BLACK SEA OIL SITE *ATTACKS ON SHIPS DISRUPTED ACTIVITY AT MAJOR RUSSIAN TERMINAL *TERMINAL IS CRUCIAL FOR EXPORT OF CRUDE OIL FROM KAZAKHSTAN *袭击船只导致俄罗斯主要码头作业中断 *该码头对哈萨克斯坦原油出口至关重要",
-          "tags": [],
-          "ts": 1786148733000,
-          "time": "08:25:33",
-          "receivedAt": 1786149116215,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
         {
+          "id": "229192",
+          "url": "https://t.me/jin10light/229192",
+          "title": "Upbit将上线FOLD韩元、BTC、USDT交易对",
+          "body": "#Upbit #FOLD #BTC",
+          "tags": [
+            "#Upbit",
+            "#FOLD",
+            "#BTC"
+          ],
+          "ts": 1787447713000,
+          "time": "09:15:13",
+          "receivedAt": 1787448069993,
+          "receivedTime": true
+        },
+        {
+          "id": "229191",
+          "url": "https://t.me/jin10light/229191",
+          "title": "Wintermute在Hyperliquid持有1.46亿美元空头仓位，目前合计浮亏366万美元",
+          "body": "#Wintermute #Hyperliquid #加密货币",
+          "tags": [
+            "#Wintermute",
+            "#Hyperliquid",
+            "#加密货币"
+          ],
+          "ts": 1787447534000,
+          "time": "09:12:14",
+          "receivedAt": 1787448069993,
+          "receivedTime": true
+        },
+        {
+          "id": "229190",
+          "url": "https://t.me/jin10light/229190",
+          "title": "Solana链上Meme币CATE市值突破8000万美元，24小时涨超48%",
+          "body": "#SOL #CATE",
+          "tags": [
+            "#SOL",
+            "#CATE"
+          ],
+          "ts": 1787447052000,
+          "time": "09:04:12",
+          "receivedAt": 1787448069993,
+          "receivedTime": true
+        },
+        {
+          "id": "229189",
+          "url": "https://t.me/jin10light/229189",
+          "title": "加密恐慌指数降至66，市场仍处于「贪婪」状态",
+          "body": "#BTC #加密货币",
+          "tags": [
+            "#BTC",
+            "#加密货币"
+          ],
+          "ts": 1787446994000,
+          "time": "09:03:14",
+          "receivedAt": 1787448069993,
+          "receivedTime": true
+        },
+        {
+          "id": "229188",
+          "url": "https://t.me/jin10light/229188",
+          "title": "过去24小时全网爆仓近10亿美元，超21万人被爆仓",
+          "body": "#加密货币 #BTC #ETH",
+          "tags": [
+            "#加密货币",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1787446514000,
+          "time": "08:55:14",
+          "receivedAt": 1787448069993,
+          "receivedTime": true
+        },
+        {
+          "id": "229187",
+          "url": "https://t.me/jin10light/229187",
+          "title": "TRUMP团队将价值933万美元代币存入OKX",
+          "body": "#TRUMP #OKX #BitGo",
+          "tags": [
+            "#TRUMP",
+            "#OKX",
+            "#BitGo"
+          ],
+          "ts": 1787445913000,
+          "time": "08:45:13",
+          "receivedAt": 1787448069993,
+          "receivedTime": true
+        },
+        {
+          "id": "229186",
+          "url": "https://t.me/jin10light/229186",
+          "title": "Eric Trump否认特朗普将推出新代币，称相关消息不实且具有欺诈性",
+          "body": "#特朗普 #Eric Trump",
+          "tags": [
+            "#特朗普",
+            "#Eric"
+          ],
+          "ts": 1787445673000,
+          "time": "08:41:13",
+          "receivedAt": 1787448069993,
+          "receivedTime": true
+        },
+        {
+          "id": "229185",
+          "url": "https://t.me/jin10light/229185",
+          "title": "特朗普持仓披露显示6月交易超1000笔，涉及伯克希尔、Coinbase等",
+          "body": "",
+          "tags": [],
+          "ts": 1787445313000,
+          "time": "08:35:13",
+          "receivedAt": 1787448069993,
+          "receivedTime": true
+        },
+        {
+          "id": "229184",
+          "url": "https://t.me/jin10light/229184",
+          "title": "国内新闻ï",
+          "body": "1.国内多家品牌金饰价格大涨。 2. 2026年8月全国总票房已破45亿。 3. 2026绿色算力大会签约13个项目，总投资1361亿元。 4. 水利部对广东、广西、海南启动洪水防御Ⅳ级应急响应。 5. 多家银行发布公告，单人在同家银行贴息上限提升到5000元。 国际新闻ï 1.融资或超千亿美元，Anthropic估值瞄准2万亿美元。 2. 欧洲多条河流水位下降，法国航运企业宣布征收“内陆紧急运输费”。 3. 加拿大拒绝与美国敲定贸易协议，并将对美国对等加征50%关税。 4. 特朗普：解决40万亿美债问题要靠增长，没有指示贝森特干预债市。 5. 特朗普...",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1787443875000,
+          "time": "08:11:15",
+          "receivedAt": 1787448069993,
+          "receivedTime": true
+        },
+        {
+          "id": "229183",
+          "url": "https://t.me/jin10light/229183",
+          "title": "整理：中东局势跟踪（8月23日）",
+          "body": "冲突情å 1.据沙特媒体哈达斯：以色列在黎巴嫩南部的萨尔宾和拉沙夫镇之间进行空袭。 2. 以色列国防军：不久前，以色列国防军在南叙利亚向一名正在准备恐怖袭击的恐怖分子开火。 3. 据沙特媒体哈达斯：军事消息人士表示，（也门）国家抵抗力量海军在曼德海峡摧毁胡塞武装一艘装满炸药的快艇。 霍尔木兹海å 1.一艘土耳其商船在黑海遇袭，致1死8伤。 2. 伊媒：伊朗决定允许伊拉克部分油轮通过霍尔木兹海峡。 3. 美国能源部长：由于美国海军的保护，石油通过霍尔木兹海峡顺畅流动。 4. Axios援引美国官员消息称，周五晚上约有1600万桶石油通过霍尔木兹海峡南部航...",
+          "tags": [
+            "#以色列",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787443274000,
+          "time": "08:01:14",
+          "receivedAt": 1787448069993,
+          "receivedTime": true
+        },
+        {
           "id": "229182",
           "url": "https://t.me/jin10light/229182",
-          "title": "据悉英伟达已通知客户 AI相关产品涨价超15%",
-          "body": "8月23日讯，据知情人士透露，英伟达部分大客户收到通知，搭载其人工智能芯片的服务器价格在多数情况下涨幅将超过15%。 知情人士称，此次涨价将于明年初开始生效，受影响的系统包括搭载Vera Rubin和Grace Blackwell旗舰芯片的机型，具体涨幅将取决于芯片代次与内存配置。 相关沟通尚未对外公开。 知情人士表示，为微软、谷歌、甲骨文等大型数据中心运营商代工服务器的企业，近期已向客户通报涨价事宜。 #英伟达 #微软 #谷歌",
-          "tags": [
-            "#英伟达",
-            "#微软",
-            "#谷歌"
-          ],
+          "title": "英伟达已通知客户，AI相关产品涨价超15%",
+          "body": "",
+          "tags": [],
           "ts": 1787425094000,
           "time": "02:58:14",
           "receivedAt": 1787426034593,
@@ -18360,147 +18455,6 @@
           ],
           "ts": 1787016913000,
           "time": "09:35:13",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227992",
-          "url": "https://t.me/jin10light/227992",
-          "title": "「牛来」发行地址再次发行新代币「牛来了」、「Moo」",
-          "body": "#牛来 #牛来了 #Moo",
-          "tags": [
-            "#牛来",
-            "#牛来了",
-            "#Moo"
-          ],
-          "ts": 1787016614000,
-          "time": "09:30:14",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227991",
-          "url": "https://t.me/jin10light/227991",
-          "title": "A股开盘，沪指开跌0.08%，深证成指开跌0.08%，创业板指开跌0.25%。",
-          "body": "A股年内最贵新股N频准上市首日开涨488.61%，股价突破1000元。 #A股 #N频准",
-          "tags": [
-            "#A股",
-            "#N频准"
-          ],
-          "ts": 1787016373000,
-          "time": "09:26:13",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227990",
-          "url": "https://t.me/jin10light/227990",
-          "title": "Meme币资讯速递：《牛来》今日实时票房暂时超越《蜘蛛侠》",
-          "body": "#中国 #BNB #牛来",
-          "tags": [
-            "#中国",
-            "#BNB",
-            "#牛来"
-          ],
-          "ts": 1787016191000,
-          "time": "09:23:11",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227989",
-          "url": "https://t.me/jin10light/227989",
-          "title": "2026年8月18日银行间外汇市场人民币汇率中间价",
-          "body": "美元/人民币报6.7905，上调（人民币贬值）32点； 欧元/人民币报7.8378，上调90点；港元/人民币报0.86559，上调6.3点； 英镑/人民币报9.1685，上调81点；澳元/人民币报4.8091，上调162点； 加元/人民币报4.8766，上调37点；100日元/人民币报4.2482，下调5点； 人民币/俄罗斯卢布报12.5717，上调1057点；新西兰元/人民币报3.9942，上调77点； 人民币/林吉特报0.59899，下调41.2点；瑞士法郎/人民币报8.3502，上调252点； 新加坡元/人民币报5.2982，上调83点。 #人民...",
-          "tags": [
-            "#人民币",
-            "#美元",
-            "#欧元"
-          ],
-          "ts": 1787015774000,
-          "time": "09:16:14",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227988",
-          "url": "https://t.me/jin10light/227988",
-          "title": "Cursor开始抢GitHub饭碗：Origin正式开放Beta",
-          "body": "#Cursor #GitHub #Origin",
-          "tags": [
-            "#Cursor",
-            "#GitHub",
-            "#Origin"
-          ],
-          "ts": 1787015175000,
-          "time": "09:06:15",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227987",
-          "url": "https://t.me/jin10light/227987",
-          "title": "美国农场期货杂志旗下ProFarmer公司作物巡查：预计2026年俄亥俄州玉米单产为180.18蒲式耳/英亩，2025年作物巡查为185.69蒲式耳/英亩。",
-          "body": "",
-          "tags": [],
-          "ts": 1787015054000,
-          "time": "09:04:14",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227986",
-          "url": "https://t.me/jin10light/227986",
-          "title": "1. 李强主持召开国务院第十二次全体会议强调 努力完成全年经济社会发展目标任务。",
-          "body": "2. 《石油天然气发展“十五五”规划》：研究完善成品油消费税制度，完善成品油定价机制。 3. 特朗普：美国不寻求延长与伊朗的谅解备忘录。 4. 全球芯片LOF溢价超23%触发停牌，基金公司紧急提示风险。 5. 纳指100ETF博时溢价过高，基金公司提示投资风险。 6. 纳指ETF华泰柏瑞持续溢价，基金公司提示交易风险。 7. 中韩半导体ETF持续高溢价，基金将于8月18日开市起停牌至10:30。 8. 美国50ETF易方达溢价超6%，基金提示高溢价交易风险。 9. 纳斯达克ETF华夏持续溢价，基金提示追高投资风险。 10. 标普500ETF华夏溢价近8...",
-          "tags": [],
-          "ts": 1787014994000,
-          "time": "09:03:14",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227985",
-          "url": "https://t.me/jin10light/227985",
-          "title": "早盘开盘，国内期货主力合约涨多跌少，SC原油涨近5%，燃料油、乙二醇（EG）涨近4%，集运欧线涨超3%，合成橡胶、液化石油气（LPG）涨近3%，沥青、低硫燃料油（LU）涨超2%。",
-          "body": "跌幅方面，沪锡、淀粉跌超1%，国际铜、鸡蛋、沪铜跌近1%。 #SC原油 #燃料油 #乙二醇",
-          "tags": [
-            "#SC原油",
-            "#燃料油",
-            "#乙二醇"
-          ],
-          "ts": 1787014874000,
-          "time": "09:01:14",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227984",
-          "url": "https://t.me/jin10light/227984",
-          "title": "Michael Saylor：Strategy股价跌至足够「便宜」时可能开启股票回购",
-          "body": "#Michael Saylor #MSTR #BTC",
-          "tags": [
-            "#Michael",
-            "#MSTR",
-            "#BTC"
-          ],
-          "ts": 1787014816000,
-          "time": "09:00:16",
-          "receivedAt": 1787018072706,
-          "receivedTime": true
-        },
-        {
-          "id": "227983",
-          "url": "https://t.me/jin10light/227983",
-          "title": "视频｜fomo创始人：交易正在向移动端迁移，交易员需要与人交流",
-          "body": "#Seyong #Robinhood #Meme 币",
-          "tags": [
-            "#Seyong",
-            "#Robinhood",
-            "#Meme"
-          ],
-          "ts": 1787014815000,
-          "time": "09:00:15",
           "receivedAt": 1787018072706,
           "receivedTime": true
         }
