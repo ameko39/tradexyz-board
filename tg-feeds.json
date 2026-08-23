@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T04:17:56.933Z",
+  "updatedAt": "2026-08-23T04:54:31.359Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1268,6 +1268,50 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229213",
+          "url": "https://t.me/jin10light/229213",
+          "title": "以太坊跌破2400美元",
+          "body": "#ETH #HTX",
+          "tags": [
+            "#ETH",
+            "#HTX"
+          ],
+          "ts": 1787460375000,
+          "time": "12:46:15",
+          "receivedAt": 1787460853424,
+          "receivedTime": true
+        },
+        {
+          "id": "229212",
+          "url": "https://t.me/jin10light/229212",
+          "title": "韩国股市经历「从狂热到绝望」，散户杠杆投资者损失数百亿美元",
+          "body": "#韩国 #KOSPI #三星电子",
+          "tags": [
+            "#韩国",
+            "#KOSPI",
+            "#三星电子"
+          ],
+          "ts": 1787459897000,
+          "time": "12:38:17",
+          "receivedAt": 1787460853424,
+          "receivedTime": true
+        },
+        {
+          "id": "229211",
+          "url": "https://t.me/jin10light/229211",
+          "title": "反对CLARITY法案的美议员Tlaib被曝持有BTC、ETH相关ETF",
+          "body": "#美国 #ETH #BTC",
+          "tags": [
+            "#美国",
+            "#ETH",
+            "#BTC"
+          ],
+          "ts": 1787459298000,
+          "time": "12:28:18",
+          "receivedAt": 1787460853424,
+          "receivedTime": true
+        },
         {
           "id": "229210",
           "url": "https://t.me/jin10light/229210",
@@ -18412,50 +18456,6 @@
           ],
           "ts": 1787022193000,
           "time": "11:03:13",
-          "receivedAt": 1787023800394,
-          "receivedTime": true
-        },
-        {
-          "id": "228013",
-          "url": "https://t.me/jin10light/228013",
-          "title": "1. 韩国否认有关将芯片作为首笔美国投资的报道。",
-          "body": "2. 消息称联想划定Copilot+PC门槛：16GB内存起，8GB机型被归为Non-Copilot。 3. 闪迪推出新款128GB SANDISK Extreme PRO TF存储卡。 4. 存储与逻辑芯片迭代升级，CMP市场迎来新风口。 5. 三星显示重启OLED产线投资，拟押注折叠屏需求增长。 6. 韩国散户扎堆个股杠杆ETF，券商与交易所两月大赚超千亿韩元手续费。 7. 国创中心成功完成全新端侧AI推理芯片的深度性能测试。 8. 翰博高新：子公司拟出资1000万元参与投资产业基金，投资于新型存储产业链。 9. 盈新发展：拟定增募资不超17.79...",
-          "tags": [
-            "#韩国",
-            "#联想",
-            "#闪迪"
-          ],
-          "ts": 1787022013000,
-          "time": "11:00:13",
-          "receivedAt": 1787023800394,
-          "receivedTime": true
-        },
-        {
-          "id": "228012",
-          "url": "https://t.me/jin10light/228012",
-          "title": "富时中国A50指数期货跌1%。",
-          "body": "#A股 #中国",
-          "tags": [
-            "#A股",
-            "#中国"
-          ],
-          "ts": 1787021957000,
-          "time": "10:59:17",
-          "receivedAt": 1787023800394,
-          "receivedTime": true
-        },
-        {
-          "id": "228011",
-          "url": "https://t.me/jin10light/228011",
-          "title": "Hermes Bot Mode转正：现在可以拉一群AI自己分活了",
-          "body": "#Nous Research #Hermes Desktop #Qwen",
-          "tags": [
-            "#Nous",
-            "#Hermes",
-            "#Qwen"
-          ],
-          "ts": 1787021956000,
-          "time": "10:59:16",
           "receivedAt": 1787023800394,
           "receivedTime": true
         }
