@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T16:01:59.723Z",
+  "updatedAt": "2026-08-23T16:35:12.316Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1269,6 +1269,36 @@
       "channel": "jin10light",
       "items": [
         {
+          "id": "229260",
+          "url": "https://t.me/jin10light/229260",
+          "title": "美联储卡什卡利淡化美债收益率上升担忧，称国债市场仍在正常运作",
+          "body": "#美联储 #美国 #美国国债",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#美国国债"
+          ],
+          "ts": 1787502499000,
+          "time": "00:28:19",
+          "receivedAt": 1787502888331,
+          "receivedTime": true
+        },
+        {
+          "id": "229259",
+          "url": "https://t.me/jin10light/229259",
+          "title": "5月19日以来首次重现正值信号！Coinbase比特币溢价指数终结低迷，机构端卖压有所缓解",
+          "body": "#BTC #Coinbase #Binance",
+          "tags": [
+            "#BTC",
+            "#Coinbase",
+            "#Binance"
+          ],
+          "ts": 1787501899000,
+          "time": "00:18:19",
+          "receivedAt": 1787502888331,
+          "receivedTime": true
+        },
+        {
           "id": "229258",
           "url": "https://t.me/jin10light/229258",
           "title": "今日重点关注的财经数据与事件：2026年8月24日 周一",
@@ -1286,13 +1316,9 @@
         {
           "id": "229257",
           "url": "https://t.me/jin10light/229257",
-          "title": "ARK Invest周度报告：AI代理将继续推动Anthropic和OpenAI发展，Grok 4.6或使前沿AI成本曲线下降",
-          "body": "#Cathie Wood #ARK Invest #Anthropic",
-          "tags": [
-            "#Cathie",
-            "#ARK",
-            "#Anthropic"
-          ],
+          "title": "ARK周度报告：AI代理将继续推动Anthropic和OpenAI发展，Grok 4.6或使前沿AI成本曲线下降",
+          "body": "",
+          "tags": [],
           "ts": 1787500877000,
           "time": "00:01:17",
           "receivedAt": 1787500896358,
@@ -18436,36 +18462,6 @@
           ],
           "ts": 1787034316000,
           "time": "14:25:16",
-          "receivedAt": 1787036784538,
-          "receivedTime": true
-        },
-        {
-          "id": "228060",
-          "url": "https://t.me/jin10light/228060",
-          "title": "豆包开始自己点鼠标了：Windows版能直接操作软件",
-          "body": "#豆包 #Windows #虚拟桌面",
-          "tags": [
-            "#豆包",
-            "#Windows",
-            "#虚拟桌面"
-          ],
-          "ts": 1787034134000,
-          "time": "14:22:14",
-          "receivedAt": 1787036784538,
-          "receivedTime": true
-        },
-        {
-          "id": "228059",
-          "url": "https://t.me/jin10light/228059",
-          "title": "台湾地区功率半导体厂商酝酿第三波涨价",
-          "body": "8月18日讯，据台湾经济日报报道，台湾地区功率半导体厂商正酝酿第三波价格调整，最快10月起针对非合约产品，涨价10%至15%。 业界看好台半、强茂、德微等厂商下半年营运量价齐升。 #台湾 #功率半导体 #台半",
-          "tags": [
-            "#台湾",
-            "#功率半导体",
-            "#台半"
-          ],
-          "ts": 1787034078000,
-          "time": "14:21:18",
           "receivedAt": 1787036784538,
           "receivedTime": true
         }
