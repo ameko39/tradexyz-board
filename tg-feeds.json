@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T14:26:54.400Z",
+  "updatedAt": "2026-08-23T14:48:32.629Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1268,6 +1268,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229253",
+          "url": "https://t.me/jin10light/229253",
+          "title": "美股韩股周一价格预告：三星预计开盘跌幅约3%，美股盘前将接近平开",
+          "body": "#Trade .xyz #美股 #韩股",
+          "tags": [
+            "#Trade",
+            "#美股",
+            "#韩股"
+          ],
+          "ts": 1787496435000,
+          "time": "22:47:15",
+          "receivedAt": 1787496485449,
+          "receivedTime": true
+        },
+        {
+          "id": "229252",
+          "url": "https://t.me/jin10light/229252",
+          "title": "TRUMP 24小时涨超22.4%，MELANIA 24小时涨超10.53%",
+          "body": "#TRUMP #MELANIA #美国",
+          "tags": [
+            "#TRUMP",
+            "#MELANIA",
+            "#美国"
+          ],
+          "ts": 1787496015000,
+          "time": "22:40:15",
+          "receivedAt": 1787496485449,
+          "receivedTime": true
+        },
         {
           "id": "229251",
           "url": "https://t.me/jin10light/229251",
@@ -18437,33 +18467,6 @@
           ],
           "ts": 1787033355000,
           "time": "14:09:15",
-          "receivedAt": 1787033756002,
-          "receivedTime": true
-        },
-        {
-          "id": "228053",
-          "url": "https://t.me/jin10light/228053",
-          "title": "德国10年期国债收益率升至3.2231%，为2011年5月以来最高水平。",
-          "body": "#德国 #国债收益率",
-          "tags": [
-            "#德国",
-            "#国债收益率"
-          ],
-          "ts": 1787033293000,
-          "time": "14:08:13",
-          "receivedAt": 1787033756002,
-          "receivedTime": true
-        },
-        {
-          "id": "228052",
-          "url": "https://t.me/jin10light/228052",
-          "title": "英国7月失业率 4.33%，前值4.40%。",
-          "body": "#英国",
-          "tags": [
-            "#英国"
-          ],
-          "ts": 1787032873000,
-          "time": "14:01:13",
           "receivedAt": 1787033756002,
           "receivedTime": true
         }
