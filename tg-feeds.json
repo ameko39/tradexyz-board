@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T20:29:53.348Z",
+  "updatedAt": "2026-08-24T21:00:03.695Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1301,6 +1301,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229535",
+          "url": "https://t.me/jin10light/229535",
+          "title": "据美联社：美国正准备撤销多达20万个商务和旅游签证。",
+          "body": "#美国 #签证",
+          "tags": [
+            "#美国",
+            "#签证"
+          ],
+          "ts": 1787604075000,
+          "time": "04:41:15",
+          "receivedAt": 1787605187510,
+          "receivedTime": true
+        },
         {
           "id": "229534",
           "url": "https://t.me/jin10light/229534",
@@ -18517,20 +18531,6 @@
           ],
           "ts": 1787122395000,
           "time": "14:53:15",
-          "receivedAt": 1787123263762,
-          "receivedTime": true
-        },
-        {
-          "id": "228335",
-          "url": "https://t.me/jin10light/228335",
-          "title": "SK海力士：将回购40万亿韩元库存股",
-          "body": "#SK海力士 #韩国",
-          "tags": [
-            "#SK海力士",
-            "#韩国"
-          ],
-          "ts": 1787121973000,
-          "time": "14:46:13",
           "receivedAt": 1787123263762,
           "receivedTime": true
         }
