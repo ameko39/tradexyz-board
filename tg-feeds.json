@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-24T15:19:49.113Z",
+  "updatedAt": "2026-08-24T15:59:20.289Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6978",
+          "url": "https://t.me/BWEtradfi/6978",
+          "title": "美国政府表示，非经由白宫发布的关税公告纯属猜测",
+          "body": "*US SAYS TARIFF ANNOUNCEMENT NOT VIA WHITE HOUSE IS SPECULATION",
+          "tags": [],
+          "ts": 1787585423000,
+          "time": "23:30:23",
+          "receivedAt": 1787587139024,
+          "receivedTime": true
+        },
         {
           "id": "6977",
           "url": "https://t.me/BWEtradfi/6977",
@@ -1257,6 +1268,150 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229510",
+          "url": "https://t.me/jin10light/229510",
+          "title": "Coinbase将上线BASECAT和DRB现货交易",
+          "body": "#Coinbase #BASECAT #DRB",
+          "tags": [
+            "#Coinbase",
+            "#BASECAT",
+            "#DRB"
+          ],
+          "ts": 1787587096000,
+          "time": "23:58:16",
+          "receivedAt": 1787587140828,
+          "receivedTime": true
+        },
+        {
+          "id": "229509",
+          "url": "https://t.me/jin10light/229509",
+          "title": "美豆油日内大跌4.00%，现报66.71美分/磅。",
+          "body": "#美国 #美豆油",
+          "tags": [
+            "#美国",
+            "#美豆油"
+          ],
+          "ts": 1787586793000,
+          "time": "23:53:13",
+          "receivedAt": 1787587140828,
+          "receivedTime": true
+        },
+        {
+          "id": "229508",
+          "url": "https://t.me/jin10light/229508",
+          "title": "「麻吉」开启BTC滚仓再加1200万美元多单，仓位升至约8744万美元",
+          "body": "#BTC #ETH #黄立成",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#黄立成"
+          ],
+          "ts": 1787586736000,
+          "time": "23:52:16",
+          "receivedAt": 1787587140828,
+          "receivedTime": true
+        },
+        {
+          "id": "229507",
+          "url": "https://t.me/jin10light/229507",
+          "title": "近4小时全网爆仓1.85亿美元，近24小时全网约8.5万人爆仓",
+          "body": "#ETH #Binance",
+          "tags": [
+            "#ETH",
+            "#Binance"
+          ],
+          "ts": 1787586139000,
+          "time": "23:42:19",
+          "receivedAt": 1787587140828,
+          "receivedTime": true
+        },
+        {
+          "id": "229506",
+          "url": "https://t.me/jin10light/229506",
+          "title": "Robinhood生态代币PONS市值短时突破8300万美元，创历史新高",
+          "body": "#PONS #Robinhood Chain",
+          "tags": [
+            "#PONS",
+            "#Robinhood"
+          ],
+          "ts": 1787585832000,
+          "time": "23:37:12",
+          "receivedAt": 1787587140828,
+          "receivedTime": true
+        },
+        {
+          "id": "229505",
+          "url": "https://t.me/jin10light/229505",
+          "title": "比特币时隔101天再次触及8万美元",
+          "body": "#BTC #HTX",
+          "tags": [
+            "#BTC",
+            "#HTX"
+          ],
+          "ts": 1787585716000,
+          "time": "23:35:16",
+          "receivedAt": 1787587140828,
+          "receivedTime": true
+        },
+        {
+          "id": "229504",
+          "url": "https://t.me/jin10light/229504",
+          "title": "Metaplanet子公司Super League通过美国市场募资230万美元",
+          "body": "#日本 #BTC #美国",
+          "tags": [
+            "#日本",
+            "#BTC",
+            "#美国"
+          ],
+          "ts": 1787585540000,
+          "time": "23:32:20",
+          "receivedAt": 1787587140828,
+          "receivedTime": true
+        },
+        {
+          "id": "229503",
+          "url": "https://t.me/jin10light/229503",
+          "title": "市场消息：美国方面表示，未通过白宫发布的关税公告属于猜测。",
+          "body": "#美国 #白宫",
+          "tags": [
+            "#美国",
+            "#白宫"
+          ],
+          "ts": 1787585539000,
+          "time": "23:32:19",
+          "receivedAt": 1787587140828,
+          "receivedTime": true
+        },
+        {
+          "id": "229502",
+          "url": "https://t.me/jin10light/229502",
+          "title": "WTI原油跌破84美元/桶，日内跌2.71%。",
+          "body": "#WTI原油 #美元",
+          "tags": [
+            "#WTI原油",
+            "#美元"
+          ],
+          "ts": 1787585472000,
+          "time": "23:31:12",
+          "receivedAt": 1787587140828,
+          "receivedTime": true
+        },
+        {
+          "id": "229501",
+          "url": "https://t.me/jin10light/229501",
+          "title": "「麻吉」比特币40倍多单增至7579万美元，开仓价79,390.5美元",
+          "body": "#黄立成 #BTC #ETH",
+          "tags": [
+            "#黄立成",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1787585414000,
+          "time": "23:30:14",
+          "receivedAt": 1787587140828,
+          "receivedTime": true
+        },
         {
           "id": "229500",
           "url": "https://t.me/jin10light/229500",
@@ -18323,151 +18478,6 @@
           "ts": 1787114652000,
           "time": "12:44:12",
           "receivedAt": 1787114901387,
-          "receivedTime": true
-        },
-        {
-          "id": "228310",
-          "url": "https://t.me/jin10light/228310",
-          "title": "Avalanche走马换将，Ava Labs迎来新总裁",
-          "body": "#Ava Labs #AVAX #John Wu",
-          "tags": [
-            "#Ava",
-            "#AVAX",
-            "#John"
-          ],
-          "ts": 1787114594000,
-          "time": "12:43:14",
-          "receivedAt": 1787114901387,
-          "receivedTime": true
-        },
-        {
-          "id": "228309",
-          "url": "https://t.me/jin10light/228309",
-          "title": "OpenAI、Anthropic收入不及市场预期，多头拥挤结合空头加码放大波动",
-          "body": "#美股 #AI #OpenAI",
-          "tags": [
-            "#美股",
-            "#AI",
-            "#OpenAI"
-          ],
-          "ts": 1787113274000,
-          "time": "12:21:14",
-          "receivedAt": 1787114901387,
-          "receivedTime": true
-        },
-        {
-          "id": "228308",
-          "url": "https://t.me/jin10light/228308",
-          "title": "1. OpenAI：暂时放缓规模扩张步伐，包括暂停对最新部署模型进行强化学习训练，为期两周。",
-          "body": "2. 据悉OpenAI营收环比增长18%，但亏损扩大。 3. 英伟达到处给人“兜底融资”？“新债王”冈拉克：预示市场或见顶。 4. 中国信通院人工智能所联合发布《具身智能训练场研究报告（2026年）》。 5. Anthropic获银行追捧，上市前信贷额度或突破100亿美元。 6. 上海张江高新技术产业开发区发展“十五五”规划：推动智能机器人规模化落地应用。 7. 成都人形机器人创新中心发布了全球首个复杂语言指令集全自主（无遥控）超长视野机器人任务执行系统。 8. 法国官员：政府将引入人工智能工具测试系统网络安全漏洞。 9. 字节跳动与美国电影协会签署A...",
-          "tags": [
-            "#OpenAI",
-            "#英伟达",
-            "#Anthropic"
-          ],
-          "ts": 1787112258000,
-          "time": "12:04:18",
-          "receivedAt": 1787112503137,
-          "receivedTime": true
-        },
-        {
-          "id": "228307",
-          "url": "https://t.me/jin10light/228307",
-          "title": "港股午评：恒指半日涨0.24% 百度绩后跌近12%",
-          "body": "8月19日讯，港股早盘低开后震荡走高，恒指收涨0.24%，报25533.38点；科指收跌0.82%，报4700.55点。 盘面上，半导体概念领跌，电子设备和元件、通信设备板块走低；高股息板块逆势走高，油气股活跃，内房股走高，个股方面，巨星传奇( 06683.HK )跌13.3%，华虹宏力( 01347.HK )、剑桥科技( 06166.HK )跌超12%，百度( 09888.HK )绩后跌近12%，优必选( 09880.HK )跌超10%，中际旭创( 03308.HK )、长飞光纤光缆( 06869.HK )跌超9%，中国联通( 00762.HK )绩...",
-          "tags": [
-            "#港股",
-            "#百度",
-            "#小米集团"
-          ],
-          "ts": 1787112257000,
-          "time": "12:04:17",
-          "receivedAt": 1787112503137,
-          "receivedTime": true
-        },
-        {
-          "id": "228306",
-          "url": "https://t.me/jin10light/228306",
-          "title": "具身智能公司「眸深智能」完成近5亿元Pre-A+轮融资",
-          "body": "#眸深智能 #陕西省 #东方证券",
-          "tags": [
-            "#眸深智能",
-            "#陕西省",
-            "#东方证券"
-          ],
-          "ts": 1787111832000,
-          "time": "11:57:12",
-          "receivedAt": 1787112503137,
-          "receivedTime": true
-        },
-        {
-          "id": "228305",
-          "url": "https://t.me/jin10light/228305",
-          "title": "《全民医疗保障“十五五”规划》发布",
-          "body": "8月19日讯，国家医保局今天（19日）发布《全面医疗保障“十五五”规划》。 “十五五”期间基本医疗保险参保率每年保持在95%左右；长期护理保险制度覆盖所有统筹地区；基本医疗保险目录内住院费用基金支付比例职工基本医疗保险稳定在80%左右，城乡居民基本医疗保险稳定在70%左右；即时结算基本医疗保险基金支出覆盖率从2025年的70%左右提高到80%以上；所有统筹地区将实现生育津贴直接发放到个人。 #中国 #国家医保局",
-          "tags": [
-            "#中国",
-            "#国家医保局"
-          ],
-          "ts": 1787111714000,
-          "time": "11:55:14",
-          "receivedAt": 1787112503137,
-          "receivedTime": true
-        },
-        {
-          "id": "228304",
-          "url": "https://t.me/jin10light/228304",
-          "title": "昨日比特币ETF净流入1.893亿美元，以太坊ETF净流入7140万美元",
-          "body": "#美国 #BTC #ETH",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1787111297000,
-          "time": "11:48:17",
-          "receivedAt": 1787112503137,
-          "receivedTime": true
-        },
-        {
-          "id": "228303",
-          "url": "https://t.me/jin10light/228303",
-          "title": "中国放松英伟达H200限制：字节腾讯各拿约1万颗",
-          "body": "",
-          "tags": [],
-          "ts": 1787111296000,
-          "time": "11:48:16",
-          "receivedAt": 1787112503137,
-          "receivedTime": true
-        },
-        {
-          "id": "228302",
-          "url": "https://t.me/jin10light/228302",
-          "title": "宇树上市半日涨486%，A股创业板指跌近5%，科创50跌超6%",
-          "body": "#宇树科技 #A股 #人形机器人",
-          "tags": [
-            "#宇树科技",
-            "#A股",
-            "#人形机器人"
-          ],
-          "ts": 1787110754000,
-          "time": "11:39:14",
-          "receivedAt": 1787112503137,
-          "receivedTime": true
-        },
-        {
-          "id": "228301",
-          "url": "https://t.me/jin10light/228301",
-          "title": "A股午评：创业板指半日跌近5% 全市场超4900只个股下跌",
-          "body": "8月19日讯，A股三大股指早盘低开低走，截至中午收盘，沪指跌1.96%，深证成指跌3.97%，创业板指跌4.98%；科创50指数跌6.07%；沪深两市半日成交额1.62万亿，较上个交易日缩量182亿。 全市场超4900只个股下跌。 宇树科技上市首日，半日涨486.12%，成交额超177亿元。 盘面上，人形机器人概念下挫，上纬新材跌18.75%，江苏北人、凤凰精密、绿的谐波、长盛轴承等逾20股跌超10%。 MLCC概念、CPO概念、存储芯片板块跌幅居前，盛科通信、芯原股份、神工股份、西测测试、盛美上海、华虹宏力等多股跌超10%。 煤炭概念走高，宝泰隆、陕...",
-          "tags": [
-            "#A股",
-            "#创业板指",
-            "#宇树科技"
-          ],
-          "ts": 1787110574000,
-          "time": "11:36:14",
-          "receivedAt": 1787112503137,
           "receivedTime": true
         }
       ],
