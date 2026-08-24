@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-24T19:58:31.711Z",
+  "updatedAt": "2026-08-24T20:29:53.348Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6981",
+          "url": "https://t.me/BWEtradfi/6981",
+          "title": "据《纽约时报》报道：美国证监会（SEC）就态势感知问题向银行发出传票",
+          "body": "*SEC SUBPOENAS BANKS ABOUT SITUATIONAL AWARENESS: NYT",
+          "tags": [],
+          "ts": 1787602292000,
+          "time": "04:11:32",
+          "receivedAt": 1787603370398,
+          "receivedTime": true
+        },
+        {
+          "id": "6980",
+          "url": "https://t.me/BWEtradfi/6980",
+          "title": "DB: 标普500指数收盘下跌0.3%，纳斯达克指数下跌0.7%",
+          "body": "DB: *S&P 500 CLOSES 0.3% LOWER, NASDAQ DECLINES 0.7%",
+          "tags": [],
+          "ts": 1787601735000,
+          "time": "04:02:15",
+          "receivedAt": 1787603370398,
+          "receivedTime": true
+        },
         {
           "id": "6979",
           "url": "https://t.me/BWEtradfi/6979",
@@ -1279,6 +1301,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229534",
+          "url": "https://t.me/jin10light/229534",
+          "title": "美股收盘：三大股指涨跌不一 存储概念走弱",
+          "body": "8月25日讯，美股周一收盘，道指初步收涨0.26%，标普500指数跌0.28%，纳指跌0.76%。 SK海力士(SKHY.O)跌4.9%，美光科技(MU.O)跌5.8%，闪迪(SNDK.O)跌6.4%，英伟达(NVDA.O)和英特尔(INTC.O)跌于3%一线。 纳斯达克中国金龙指数收跌1.67%，网易(NTES.O)跌4%，阿里巴巴(BABA.N)跌0.7%。 #美股 #SK海力士 #美光科技",
+          "tags": [
+            "#美股",
+            "#SK海力士",
+            "#美光科技"
+          ],
+          "ts": 1787601795000,
+          "time": "04:03:15",
+          "receivedAt": 1787603372164,
+          "receivedTime": true
+        },
         {
           "id": "229533",
           "url": "https://t.me/jin10light/229533",
@@ -18494,20 +18531,6 @@
           ],
           "ts": 1787121973000,
           "time": "14:46:13",
-          "receivedAt": 1787123263762,
-          "receivedTime": true
-        },
-        {
-          "id": "228334",
-          "url": "https://t.me/jin10light/228334",
-          "title": "SK海力士：将买进40万亿韩元的库藏股，回购旨在注销股份并提升股东回报。",
-          "body": "#SK海力士 #韩国",
-          "tags": [
-            "#SK海力士",
-            "#韩国"
-          ],
-          "ts": 1787121912000,
-          "time": "14:45:12",
           "receivedAt": 1787123263762,
           "receivedTime": true
         }
