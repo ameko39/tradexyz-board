@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T23:36:32.862Z",
+  "updatedAt": "2026-08-25T23:55:11.435Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1400,6 +1400,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229819",
+          "url": "https://t.me/jin10light/229819",
+          "title": "美国考虑加码对加拿大贸易制裁",
+          "body": "#加拿大 #美国 #特朗普",
+          "tags": [
+            "#加拿大",
+            "#美国",
+            "#特朗普"
+          ],
+          "ts": 1787701513000,
+          "time": "07:45:13",
+          "receivedAt": 1787702097934,
+          "receivedTime": true
+        },
+        {
+          "id": "229818",
+          "url": "https://t.me/jin10light/229818",
+          "title": "OpenAI称首款自研推理芯片Jalapeño超越英伟达GB300：每瓦AI产出领先1.5至1.9倍，延迟最多降3.6倍",
+          "body": "#OpenAI #Jalapeño #英伟达",
+          "tags": [
+            "#OpenAI",
+            "#Jalapeño",
+            "#英伟达"
+          ],
+          "ts": 1787701394000,
+          "time": "07:43:14",
+          "receivedAt": 1787702097934,
+          "receivedTime": true
+        },
         {
           "id": "229817",
           "url": "https://t.me/jin10light/229817",
@@ -18648,35 +18678,6 @@
           "ts": 1787203576000,
           "time": "13:26:16",
           "receivedAt": 1787204901393,
-          "receivedTime": true
-        },
-        {
-          "id": "228619",
-          "url": "https://t.me/jin10light/228619",
-          "title": "Meta推出Mac版AI聊天应用，能直接看屏幕给建议",
-          "body": "#Meta #Mac",
-          "tags": [
-            "#Meta",
-            "#Mac"
-          ],
-          "ts": 1787202854000,
-          "time": "13:14:14",
-          "receivedAt": 1787203005970,
-          "receivedTime": true
-        },
-        {
-          "id": "228618",
-          "url": "https://t.me/jin10light/228618",
-          "title": "段永平投资建议：茅台、泡泡玛特各一半仓位",
-          "body": "#段永平 #茅台 #泡泡玛特",
-          "tags": [
-            "#段永平",
-            "#茅台",
-            "#泡泡玛特"
-          ],
-          "ts": 1787202375000,
-          "time": "13:06:15",
-          "receivedAt": 1787203005970,
           "receivedTime": true
         }
       ],
