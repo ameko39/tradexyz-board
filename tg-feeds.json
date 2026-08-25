@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-25T13:37:12.672Z",
+  "updatedAt": "2026-08-25T14:24:54.006Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6985",
+          "url": "https://t.me/BWEtradfi/6985",
+          "title": "DB: *美国7月新屋销售量为60.7万套；预期为62万套",
+          "body": "DB: *US JULY NEW HOME SALES AT 0.607M; EST. 0.620M *US JULY NEW HOME SALES FALL 10.5% M/M; PREV. 1.6% *美国7月新屋销售量环比下降10.5%；前值1.6%",
+          "tags": [],
+          "ts": 1787666414000,
+          "time": "22:00:14",
+          "receivedAt": 1787667876021,
+          "receivedTime": true
+        },
         {
           "id": "6984",
           "url": "https://t.me/BWEtradfi/6984",
@@ -1318,11 +1329,259 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229756",
+          "url": "https://t.me/jin10light/229756",
+          "title": "白宫：美伊暂无谈判安排，霍尔木兹海峡保持开放",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787667321000,
+          "time": "22:15:21",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229755",
+          "url": "https://t.me/jin10light/229755",
+          "title": "GTA 6黑客发行Meme币CYBERLEEK过去4小时涨超40%，市值升至1450万美元",
+          "body": "#Solana #CYBERLEEK #GTA 6",
+          "tags": [
+            "#Solana",
+            "#CYBERLEEK",
+            "#GTA"
+          ],
+          "ts": 1787667320000,
+          "time": "22:15:20",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229754",
+          "url": "https://t.me/jin10light/229754",
+          "title": "美联储柯林斯：在没有持续的通胀回落证据的情况下，适合“尽快”提高利率。",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1787667260000,
+          "time": "22:14:20",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229753",
+          "url": "https://t.me/jin10light/229753",
+          "title": "美联储柯林斯：考虑到有限的额外关税和霍尔木兹海峡重开的进展，通胀回落是最可能的结果。",
+          "body": "#美联储 #霍尔木兹海峡 #美国",
+          "tags": [
+            "#美联储",
+            "#霍尔木兹海峡",
+            "#美国"
+          ],
+          "ts": 1787666897000,
+          "time": "22:08:17",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229752",
+          "url": "https://t.me/jin10light/229752",
+          "title": "华尔街重启「美元贬值交易」：黄金走强，新兴市场货币受益，但仍需美联储配合",
+          "body": "#美国 #美元 #黄金",
+          "tags": [
+            "#美国",
+            "#美元",
+            "#黄金"
+          ],
+          "ts": 1787666836000,
+          "time": "22:07:16",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229751",
+          "url": "https://t.me/jin10light/229751",
+          "title": "美联储柯林斯：通胀仍然过高，担忧美联储维持物价稳定的职责。",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1787666660000,
+          "time": "22:04:20",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229750",
+          "url": "https://t.me/jin10light/229750",
+          "title": "灰度Zcash现货ETF ZCSH美股开盘涨1.83%，现报65.85美元",
+          "body": "#ZEC #灰度",
+          "tags": [
+            "#ZEC",
+            "#灰度"
+          ],
+          "ts": 1787666659000,
+          "time": "22:04:19",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229749",
+          "url": "https://t.me/jin10light/229749",
+          "title": "市场消息：OpenAI称其JALAPENO芯片在速度和功耗方面都超越了英伟达的GB300。",
+          "body": "#OpenAI #JALAPENO #英伟达",
+          "tags": [
+            "#OpenAI",
+            "#JALAPENO",
+            "#英伟达"
+          ],
+          "ts": 1787666593000,
+          "time": "22:03:13",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229748",
+          "url": "https://t.me/jin10light/229748",
+          "title": "美国8月里奇蒙德联储制造业指数 4，前值5。",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1787666475000,
+          "time": "22:01:15",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229747",
+          "url": "https://t.me/jin10light/229747",
+          "title": "美国8月谘商会消费者信心指数 89.4，预期90.2，前值由90.8修正为90.2。",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1787666424000,
+          "time": "22:00:24",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229746",
+          "url": "https://t.me/jin10light/229746",
+          "title": "美国7月新屋销售总数年化 60.7万户，预期62万户，前值62.8万户。",
+          "body": "#美国 #新屋销售",
+          "tags": [
+            "#美国",
+            "#新屋销售"
+          ],
+          "ts": 1787666423000,
+          "time": "22:00:23",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229745",
+          "url": "https://t.me/jin10light/229745",
+          "title": "视频｜播客节选：本轮比特币上涨行情十分健康，上涨势头大概率会延续",
+          "body": "#BTC #Lighter #Hyperliquid",
+          "tags": [
+            "#BTC",
+            "#Lighter",
+            "#Hyperliquid"
+          ],
+          "ts": 1787666422000,
+          "time": "22:00:22",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229744",
+          "url": "https://t.me/jin10light/229744",
+          "title": "美股光通信板块普涨，迈威尔科技涨超6%",
+          "body": "#美股 #AAOI #LITE",
+          "tags": [
+            "#美股",
+            "#AAOI",
+            "#LITE"
+          ],
+          "ts": 1787665585000,
+          "time": "21:46:25",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229743",
+          "url": "https://t.me/jin10light/229743",
+          "title": "VOO单周获43亿美元资金流入，英伟达财报与苹果换帅成两大关键催化剂",
+          "body": "#VOO #英伟达 #苹果",
+          "tags": [
+            "#VOO",
+            "#英伟达",
+            "#苹果"
+          ],
+          "ts": 1787665280000,
+          "time": "21:41:20",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229742",
+          "url": "https://t.me/jin10light/229742",
+          "title": "富达：AI智能体或将成为金融市场新型参与者，交易、借贷和资产管理率先受冲击",
+          "body": "#AI 智能体 #金融市场",
+          "tags": [
+            "#AI",
+            "#金融市场"
+          ],
+          "ts": 1787665279000,
+          "time": "21:41:19",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229741",
+          "url": "https://t.me/jin10light/229741",
+          "title": "加拿大将公布对特朗普最新关税的反制措施，美加贸易战进一步升级",
+          "body": "#加拿大 #美国 #特朗普",
+          "tags": [
+            "#加拿大",
+            "#美国",
+            "#特朗普"
+          ],
+          "ts": 1787665159000,
+          "time": "21:39:19",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
+        {
+          "id": "229740",
+          "url": "https://t.me/jin10light/229740",
+          "title": "苹果发布新款Mac Mini和Mac Studio，加码AI计算能力",
+          "body": "#苹果 #AAPL .O #Mac Mini",
+          "tags": [
+            "#苹果",
+            "#AAPL",
+            "#Mac"
+          ],
+          "ts": 1787665096000,
+          "time": "21:38:16",
+          "receivedAt": 1787667877309,
+          "receivedTime": true
+        },
         {
           "id": "229739",
           "url": "https://t.me/jin10light/229739",
@@ -18338,253 +18597,6 @@
           "ts": 1787187734000,
           "time": "09:02:14",
           "receivedAt": 1787189737373,
-          "receivedTime": true
-        },
-        {
-          "id": "228556",
-          "url": "https://t.me/jin10light/228556",
-          "title": "中国7月Swift人民币在全球支付中占比 3.1%，前值3.10%。",
-          "body": "#中国 #人民币",
-          "tags": [
-            "#中国",
-            "#人民币"
-          ],
-          "ts": 1787187733000,
-          "time": "09:02:13",
-          "receivedAt": 1787189737373,
-          "receivedTime": true
-        },
-        {
-          "id": "228555",
-          "url": "https://t.me/jin10light/228555",
-          "title": "中国至8月20日一年期贷款市场报价利率 3%，预期3.00%，前值3.00%。",
-          "body": "#中国 #LPR",
-          "tags": [
-            "#中国",
-            "#LPR"
-          ],
-          "ts": 1787187682000,
-          "time": "09:01:22",
-          "receivedAt": 1787189737373,
-          "receivedTime": true
-        },
-        {
-          "id": "228554",
-          "url": "https://t.me/jin10light/228554",
-          "title": "一年期、五年期LPR均维持不变",
-          "body": "8月20日讯，中国央行将一年期和五年期贷款市场报价利率（LPR）分别维持在3%和3.5%不变。 #中国 #LPR",
-          "tags": [
-            "#中国",
-            "#LPR"
-          ],
-          "ts": 1787187681000,
-          "time": "09:01:21",
-          "receivedAt": 1787189737373,
-          "receivedTime": true
-        },
-        {
-          "id": "228553",
-          "url": "https://t.me/jin10light/228553",
-          "title": "视频｜「女版巴菲特」Cathie Wood：本轮存储芯片价格飙升更像是周期性的，而不是长期趋势",
-          "body": "#ARK Invest #Cathie Wood #Cerebras",
-          "tags": [
-            "#ARK",
-            "#Cathie",
-            "#Cerebras"
-          ],
-          "ts": 1787187680000,
-          "time": "09:01:20",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228552",
-          "url": "https://t.me/jin10light/228552",
-          "title": "「美联储传声筒」：美参议员要求沃什公开与特朗普通话记录，质疑美联储透明度",
-          "body": "#美联储 #特朗普 #美国",
-          "tags": [
-            "#美联储",
-            "#特朗普",
-            "#美国"
-          ],
-          "ts": 1787187435000,
-          "time": "08:57:15",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228551",
-          "url": "https://t.me/jin10light/228551",
-          "title": "特朗普称AI规模或超越互联网，呼吁避免监管阻碍行业发展",
-          "body": "#特朗普 #美国 #AI",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#AI"
-          ],
-          "ts": 1787187256000,
-          "time": "08:54:16",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228550",
-          "url": "https://t.me/jin10light/228550",
-          "title": "中国7月Swift人民币在全球支付中占比、至8月20日一年期贷款市场报价利率将于十分钟后公布。",
-          "body": "#中国 #人民币",
-          "tags": [
-            "#中国",
-            "#人民币"
-          ],
-          "ts": 1787187072000,
-          "time": "08:51:12",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228549",
-          "url": "https://t.me/jin10light/228549",
-          "title": "两市融资余额减少296.69亿元",
-          "body": "截至8月19日，上交所融资余额报13536.56亿元，较前一交易日减少136.11亿元；深交所融资余额报12791.91亿元，较前一交易日减少160.58亿元；两市合计26328.47亿元，较前一交易日减少296.69亿元。 #A股 #融资余额",
-          "tags": [
-            "#A股",
-            "#融资余额"
-          ],
-          "ts": 1787186895000,
-          "time": "08:48:15",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228548",
-          "url": "https://t.me/jin10light/228548",
-          "title": "SpaceX刚600亿美元买下Cursor，又被曝出价收购Cognition",
-          "body": "#SpaceX #Cognition #Scott Wu",
-          "tags": [
-            "#SpaceX",
-            "#Cognition",
-            "#Scott"
-          ],
-          "ts": 1787186895000,
-          "time": "08:48:15",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228547",
-          "url": "https://t.me/jin10light/228547",
-          "title": "Nebius拟发行45亿美元可转债，用于扩建数据中心和采购GPU",
-          "body": "#Nebius Group #AI云计算 #数据中心",
-          "tags": [
-            "#Nebius",
-            "#AI云计算",
-            "#数据中心"
-          ],
-          "ts": 1787186473000,
-          "time": "08:41:13",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228546",
-          "url": "https://t.me/jin10light/228546",
-          "title": "高盛筹备11.5亿美元垃圾债，为CoreWeave关联AI数据中心融资",
-          "body": "#高盛 #CoreWeave",
-          "tags": [
-            "#高盛",
-            "#CoreWeave"
-          ],
-          "ts": 1787186295000,
-          "time": "08:38:15",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228545",
-          "url": "https://t.me/jin10light/228545",
-          "title": "Marvell与谷歌达成定制AI芯片合作，向谷歌发行122亿美元认股权证",
-          "body": "#Marvell Technology #谷歌 #美国",
-          "tags": [
-            "#Marvell",
-            "#谷歌",
-            "#美国"
-          ],
-          "ts": 1787185932000,
-          "time": "08:32:12",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228544",
-          "url": "https://t.me/jin10light/228544",
-          "title": "「麻吉」ETH多单浮盈超330万美元，近一年累计亏损仍达 3150 万美元",
-          "body": "#ETH #麻吉大哥",
-          "tags": [
-            "#ETH",
-            "#麻吉大哥"
-          ],
-          "ts": 1787185874000,
-          "time": "08:31:14",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228543",
-          "url": "https://t.me/jin10light/228543",
-          "title": "Hyperliquid过去24小时收入440万美元，销毁424万美元HYPE",
-          "body": "#Hyperliquid #HYPE",
-          "tags": [
-            "#Hyperliquid",
-            "#HYPE"
-          ],
-          "ts": 1787185512000,
-          "time": "08:25:12",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228542",
-          "url": "https://t.me/jin10light/228542",
-          "title": "长江和记实业：就巴拿马港口事项启动国际仲裁",
-          "body": "8月20日讯，长江和记实业有限公司公告称，因多番尝试寻求解决方案未果，公司于2026年8月20日就巴拿马违反投资保护条约启动国际仲裁程序，相关违约源自巴拿马2025年及2026年采取的一系列措施，最终导致巴拿马破坏巴尔博亚港及克里斯托瓦尔港的特许经营合约并强行接管港口码头。 公司就其在巴拿马的投资遭受破坏，索偿超过15亿美元。 公司附属公司巴拿马港口公司将继续根据特许经营合约及国际商会仲裁规则，在其分别展开的仲裁下维护自身不同权利。 #长江和记实业 #巴拿马 #巴尔博亚港",
-          "tags": [
-            "#长江和记实业",
-            "#巴拿马",
-            "#巴尔博亚港"
-          ],
-          "ts": 1787184914000,
-          "time": "08:15:14",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228541",
-          "url": "https://t.me/jin10light/228541",
-          "title": "日韩股指高开，韩国KOSPI指数高开3.2%",
-          "body": "#日经225 #韩国 #KOSPI",
-          "tags": [
-            "#日经225",
-            "#韩国",
-            "#KOSPI"
-          ],
-          "ts": 1787184493000,
-          "time": "08:08:13",
-          "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228540",
-          "url": "https://t.me/jin10light/228540",
-          "title": "日韩股指高开",
-          "body": "8月20日讯，日经225指数8月20日（周四）开盘上涨461.11点，涨幅0.71%，报65787.53点。 韩国KOSPI指数高开3.2%。 #日本 #韩国 #KOSPI",
-          "tags": [
-            "#日本",
-            "#韩国",
-            "#KOSPI"
-          ],
-          "ts": 1787184197000,
-          "time": "08:03:17",
-          "receivedAt": 1787189737597,
           "receivedTime": true
         }
       ],
