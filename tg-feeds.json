@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T21:03:57.602Z",
+  "updatedAt": "2026-08-25T21:37:12.090Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1400,6 +1400,36 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229813",
+          "url": "https://t.me/jin10light/229813",
+          "title": "据Axios：美国国务卿鲁比奥近日已告知多名外国对口官员，目前而言，美国预计不会对伊朗发起新的军事打击。",
+          "body": "#美国 #伊朗 #鲁比奥",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#鲁比奥"
+          ],
+          "ts": 1787693594000,
+          "time": "05:33:14",
+          "receivedAt": 1787693815297,
+          "receivedTime": true
+        },
+        {
+          "id": "229812",
+          "url": "https://t.me/jin10light/229812",
+          "title": "整理：中东局势跟踪（8月26日）",
+          "body": "冲突情å 1.“叙利亚民主力量”宣布解散。 2. 俄媒援引消息人士：美伊已就停火协议条款达成共识，其内容包括霍尔木兹海峡的自由航行。 3. 伊朗外交部副部长加里巴巴迪：我们有自己的方式应对任何美国方案，包括对抗、升级和制裁。 霍尔木兹海å 1.霍尔木兹海峡周一仅一艘大宗商品船舶通行，创5月7日以来最低。 2. 特朗普向伊朗放狠话：布雷船将被摧毁，太空军紧盯海峡与核设施。 3. 白宫官员：美伊暂无谈判安排，霍尔木兹海峡保持开放。 4. 伊朗外交部副部长加里巴巴迪：任何军舰都不得通过霍尔木兹海峡。 5. 美国总统特朗普：已获美国海军通知，霍尔木兹海峡国际水...",
+          "tags": [
+            "#霍尔木兹海峡",
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1787692996000,
+          "time": "05:23:16",
+          "receivedAt": 1787693815297,
+          "receivedTime": true
+        },
         {
           "id": "229811",
           "url": "https://t.me/jin10light/229811",
@@ -18648,36 +18678,6 @@
           "ts": 1787201354000,
           "time": "12:49:14",
           "receivedAt": 1787203005970,
-          "receivedTime": true
-        },
-        {
-          "id": "228613",
-          "url": "https://t.me/jin10light/228613",
-          "title": "美国民主党参议员警告：仓促推动CLARITY法案表决或使立法进程倒退",
-          "body": "#美国 #CLARITY Act #Ruben Gallego",
-          "tags": [
-            "#美国",
-            "#CLARITY",
-            "#Ruben"
-          ],
-          "ts": 1787201298000,
-          "time": "12:48:18",
-          "receivedAt": 1787201327257,
-          "receivedTime": true
-        },
-        {
-          "id": "228612",
-          "url": "https://t.me/jin10light/228612",
-          "title": "Anthropic给出2.5亿美元采购协议，Fractile估值3个月涨6倍",
-          "body": "#英国 #Fractile #Anthropic",
-          "tags": [
-            "#英国",
-            "#Fractile",
-            "#Anthropic"
-          ],
-          "ts": 1787201114000,
-          "time": "12:45:14",
-          "receivedAt": 1787201327257,
           "receivedTime": true
         }
       ],
