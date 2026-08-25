@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T23:11:57.688Z",
+  "updatedAt": "2026-08-25T23:36:32.862Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1400,6 +1400,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229817",
+          "url": "https://t.me/jin10light/229817",
+          "title": "一位白宫官员透露，在加拿大采取报复性措施之后，特朗普政府正在讨论对加拿大实施额外的贸易制裁。",
+          "body": "#美国 #加拿大 #特朗普",
+          "tags": [
+            "#美国",
+            "#加拿大",
+            "#特朗普"
+          ],
+          "ts": 1787700734000,
+          "time": "07:32:14",
+          "receivedAt": 1787700972559,
+          "receivedTime": true
+        },
         {
           "id": "229816",
           "url": "https://t.me/jin10light/229816",
@@ -18661,21 +18676,6 @@
           ],
           "ts": 1787202375000,
           "time": "13:06:15",
-          "receivedAt": 1787203005970,
-          "receivedTime": true
-        },
-        {
-          "id": "228617",
-          "url": "https://t.me/jin10light/228617",
-          "title": "加密逼空夜，BitMine看涨期权出现异常交易，机构投资者已提前布局加仓",
-          "body": "#ETH #BitMine #Morgan Stanley",
-          "tags": [
-            "#ETH",
-            "#BitMine",
-            "#Morgan"
-          ],
-          "ts": 1787201712000,
-          "time": "12:55:12",
           "receivedAt": 1787203005970,
           "receivedTime": true
         }
