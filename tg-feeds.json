@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T17:08:41.194Z",
+  "updatedAt": "2026-08-25T17:42:30.918Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1367,6 +1367,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229799",
+          "url": "https://t.me/jin10light/229799",
+          "title": "Hyperliquid AQAv2首笔资金或可回购约2000万美元HYPE",
+          "body": "#Hyperliquid #HYPE #USDC",
+          "tags": [
+            "#Hyperliquid",
+            "#HYPE",
+            "#USDC"
+          ],
+          "ts": 1787677814000,
+          "time": "01:10:14",
+          "receivedAt": 1787679730713,
+          "receivedTime": true
+        },
         {
           "id": "229798",
           "url": "https://t.me/jin10light/229798",
@@ -18629,21 +18644,6 @@
           ],
           "ts": 1787198113000,
           "time": "11:55:13",
-          "receivedAt": 1787198851489,
-          "receivedTime": true
-        },
-        {
-          "id": "228599",
-          "url": "https://t.me/jin10light/228599",
-          "title": "CZ评特朗普加密新政：政策利好不会只针对Hyperliquid，对整个行业都是积极信号",
-          "body": "#CZ #Hyperliquid #美国",
-          "tags": [
-            "#CZ",
-            "#Hyperliquid",
-            "#美国"
-          ],
-          "ts": 1787197876000,
-          "time": "11:51:16",
           "receivedAt": 1787198851489,
           "receivedTime": true
         }
