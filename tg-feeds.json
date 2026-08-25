@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-08-25T20:43:53.978Z",
+  "updatedAt": "2026-08-25T21:03:57.602Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6994",
+          "url": "https://t.me/BWEtradfi/6994",
+          "title": "*D-WAVE QUANTUM：首席财务官辞职",
+          "body": "*D-WAVE QUANTUM: RESIGNATION OF CFO $QBTS $QBTS",
+          "tags": [],
+          "ts": 1787691610000,
+          "time": "05:00:10",
+          "receivedAt": 1787691810660,
+          "receivedTime": true
+        },
+        {
+          "id": "6993",
+          "url": "https://t.me/BWEtradfi/6993",
+          "title": "*美联储主席巴金：美国债务终将面临清算",
+          "body": "*FED'S BARKIN: THERE WILL EVENTUALLY BE A RECKONGING ON US DEBT *BARKIN: IF DEBT RISES, AT SOME POINT INVESTORS WILL STOP BUYING *巴金：如果债务上升，投资者终将停止购买",
+          "tags": [],
+          "ts": 1787691599000,
+          "time": "04:59:59",
+          "receivedAt": 1787691810660,
+          "receivedTime": true
+        },
         {
           "id": "6992",
           "url": "https://t.me/BWEtradfi/6992",
@@ -1378,6 +1400,34 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229811",
+          "url": "https://t.me/jin10light/229811",
+          "title": "美联储巴尔金：如果债务继续增加，投资者迟早会在某个时点停止购买（美债）。",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1787691736000,
+          "time": "05:02:16",
+          "receivedAt": 1787691813693,
+          "receivedTime": true
+        },
+        {
+          "id": "229810",
+          "url": "https://t.me/jin10light/229810",
+          "title": "美国至8月21日当周API原油库存 420万桶，预期186万桶，前值-32.8万桶。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1787691374000,
+          "time": "04:56:14",
+          "receivedAt": 1787691813693,
+          "receivedTime": true
+        },
         {
           "id": "229809",
           "url": "https://t.me/jin10light/229809",
@@ -18627,32 +18677,6 @@
           ],
           "ts": 1787201114000,
           "time": "12:45:14",
-          "receivedAt": 1787201327257,
-          "receivedTime": true
-        },
-        {
-          "id": "228611",
-          "url": "https://t.me/jin10light/228611",
-          "title": "财通福鑫定开混合：将于2026年8月20日下午开盘起至当日收盘停牌。",
-          "body": "",
-          "tags": [],
-          "ts": 1787200153000,
-          "time": "12:29:13",
-          "receivedAt": 1787201327257,
-          "receivedTime": true
-        },
-        {
-          "id": "228610",
-          "url": "https://t.me/jin10light/228610",
-          "title": "本轮上涨最大利好？「Regulation Crypto Assets」草案行业领军人物观点一览",
-          "body": "#BTC #ETH #美国",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#美国"
-          ],
-          "ts": 1787200038000,
-          "time": "12:27:18",
           "receivedAt": 1787201327257,
           "receivedTime": true
         }
