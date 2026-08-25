@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-25T20:10:50.162Z",
+  "updatedAt": "2026-08-25T20:43:53.978Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6992",
+          "url": "https://t.me/BWEtradfi/6992",
+          "title": "伊朗声称独家掌握霍尔木兹海峡剩余水雷信息：法尔斯通讯社",
+          "body": "*IRAN CLAIMS EXCLUSIVE KNOWLEDGE OF REMAINING HORMUZ STRAIT MINES: FARS",
+          "tags": [],
+          "ts": 1787688943000,
+          "time": "04:15:43",
+          "receivedAt": 1787690616817,
+          "receivedTime": true
+        },
         {
           "id": "6991",
           "url": "https://t.me/BWEtradfi/6991",
@@ -1362,11 +1373,54 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229809",
+          "url": "https://t.me/jin10light/229809",
+          "title": "WTI原油跌破80美元关口 消息称美伊就停火条款达共识",
+          "body": "8月26日讯，WTI原油跌破80美元关口，日内跌幅扩大至5.4%，布伦特原油向下逼近85美元关口，跌近6%。 俄媒消息称，美伊已就停火协议条款达成共识。 #WTI原油 #美国 #伊朗",
+          "tags": [
+            "#WTI原油",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1787689393000,
+          "time": "04:23:13",
+          "receivedAt": 1787690618253,
+          "receivedTime": true
+        },
+        {
+          "id": "229808",
+          "url": "https://t.me/jin10light/229808",
+          "title": "美国至8月21日当周API原油库存将于十分钟后公布。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1787689273000,
+          "time": "04:21:13",
+          "receivedAt": 1787690618253,
+          "receivedTime": true
+        },
+        {
+          "id": "229807",
+          "url": "https://t.me/jin10light/229807",
+          "title": "WTI原油日内大跌5.00%，现报80.33美元/桶，布伦特原油跌5.3%，报85.47美元/桶。",
+          "body": "#WTI原油 #布伦特原油",
+          "tags": [
+            "#WTI原油",
+            "#布伦特原油"
+          ],
+          "ts": 1787688734000,
+          "time": "04:12:14",
+          "receivedAt": 1787690618253,
+          "receivedTime": true
+        },
         {
           "id": "229806",
           "url": "https://t.me/jin10light/229806",
@@ -18599,51 +18653,6 @@
           ],
           "ts": 1787200038000,
           "time": "12:27:18",
-          "receivedAt": 1787201327257,
-          "receivedTime": true
-        },
-        {
-          "id": "228609",
-          "url": "https://t.me/jin10light/228609",
-          "title": "OpenAI推「零数据留存」，矛头直指Anthropic的30天政策",
-          "body": "#OpenAI #Anthropic #微软",
-          "tags": [
-            "#OpenAI",
-            "#Anthropic",
-            "#微软"
-          ],
-          "ts": 1787199555000,
-          "time": "12:19:15",
-          "receivedAt": 1787201327257,
-          "receivedTime": true
-        },
-        {
-          "id": "228608",
-          "url": "https://t.me/jin10light/228608",
-          "title": "CZ：比特币仍遵循四年周期，加密迎来政策环境最友好的时期",
-          "body": "#CZ #BTC #美国",
-          "tags": [
-            "#CZ",
-            "#BTC",
-            "#美国"
-          ],
-          "ts": 1787199495000,
-          "time": "12:18:15",
-          "receivedAt": 1787201327257,
-          "receivedTime": true
-        },
-        {
-          "id": "228607",
-          "url": "https://t.me/jin10light/228607",
-          "title": "一夜牛回，加密恐慌指数升至62，创近10.11以来新高",
-          "body": "#加密货币 #BTC #贪婪",
-          "tags": [
-            "#加密货币",
-            "#BTC",
-            "#贪婪"
-          ],
-          "ts": 1787199254000,
-          "time": "12:14:14",
           "receivedAt": 1787201327257,
           "receivedTime": true
         }
