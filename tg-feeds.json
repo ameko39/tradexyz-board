@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T19:19:43.492Z",
+  "updatedAt": "2026-08-25T19:49:03.214Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1360,20 +1360,9 @@
           "time": "04:00:13",
           "receivedAt": 1786392025662,
           "receivedTime": true
-        },
-        {
-          "id": "6867",
-          "url": "https://t.me/BWEtradfi/6867",
-          "title": "*特朗普谈伊朗：我们仍有能力升级冲突",
-          "body": "*TRUMP ON IRAN: WE STILL HAVE ABILITY TO ESCALATE *TRUMP ON POTENTIAL ESCALATION WITH IRAN: CERTAINLY POSSIBLE *特朗普谈与伊朗的潜在冲突升级：当然有可能",
-          "tags": [],
-          "ts": 1786389855000,
-          "time": "03:24:15",
-          "receivedAt": 1786392025662,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
