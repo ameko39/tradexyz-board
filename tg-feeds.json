@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-25T12:49:32.536Z",
+  "updatedAt": "2026-08-25T13:37:12.672Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6984",
+          "url": "https://t.me/BWEtradfi/6984",
+          "title": "DB: 标普500指数高开0.4%，纳斯达克指数上涨0.7%",
+          "body": "DB: *S&P 500 OPENS 0.4% HIGHER, NASDAQ UP 0.7%",
+          "tags": [],
+          "ts": 1787664643000,
+          "time": "21:30:43",
+          "receivedAt": 1787665013197,
+          "receivedTime": true
+        },
         {
           "id": "6983",
           "url": "https://t.me/BWEtradfi/6983",
@@ -1305,24 +1316,289 @@
           "time": "03:24:15",
           "receivedAt": 1786392025662,
           "receivedTime": true
-        },
-        {
-          "id": "6866",
-          "url": "https://t.me/BWEtradfi/6866",
-          "title": "DB: *标普500指数开盘基本持平，纳斯达克指数下跌0.1%",
-          "body": "DB: *S&P 500 OPENS LITTLE CHANGED, NASDAQ DOWN 0.1%",
-          "tags": [],
-          "ts": 1786368643000,
-          "time": "21:30:43",
-          "receivedAt": 1786372319393,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229739",
+          "url": "https://t.me/jin10light/229739",
+          "title": "LME基金持仓周报",
+          "body": "8月25日讯，据伦敦金属交易所（LME）持仓报告，截至2026年8月21日当周，投资基金所持LME铜净多头为4.87万手，较前一周减少3625手；LME铝净多头为14.24万手，较前一周增加306手；LME锌净多头为5.5万手，较前一周减少448手；LME镍净多头为1.44万手，较前一周增加1581手；LME铅净空头为2.37万手，较前一周增加3299手；LME锡净多头为2660手，较前一周减少39手。 #LME #铜 #铝",
+          "tags": [
+            "#LME",
+            "#铜",
+            "#铝"
+          ],
+          "ts": 1787664796000,
+          "time": "21:33:16",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229738",
+          "url": "https://t.me/jin10light/229738",
+          "title": "伊朗国家媒体疑似威胁特朗普之子，美国特勤局已介入调查",
+          "body": "#美国 #伊朗 #特朗普",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#特朗普"
+          ],
+          "ts": 1787664554000,
+          "time": "21:29:14",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229737",
+          "url": "https://t.me/jin10light/229737",
+          "title": "特朗普被曝SpaceX上市后买入1.5万至5万美元股票，目前浮亏约13%",
+          "body": "#特朗普 #SpaceX #美国",
+          "tags": [
+            "#特朗普",
+            "#SpaceX",
+            "#美国"
+          ],
+          "ts": 1787664435000,
+          "time": "21:27:15",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229736",
+          "url": "https://t.me/jin10light/229736",
+          "title": "Qwen4还没发，架构先来了：Qwen3.8-Flash-Next明晚发布",
+          "body": "#阿里 #Qwen4 #ModelScope",
+          "tags": [
+            "#阿里",
+            "#Qwen4",
+            "#ModelScope"
+          ],
+          "ts": 1787664257000,
+          "time": "21:24:17",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229735",
+          "url": "https://t.me/jin10light/229735",
+          "title": "据伊朗塔斯尼姆通讯社：接近谈判者的人士称， 伊朗方面提出的条件包括恢复关于霍尔木兹的谅解备忘录。",
+          "body": "#伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787663894000,
+          "time": "21:18:14",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229734",
+          "url": "https://t.me/jin10light/229734",
+          "title": "ZRO短时涨超11%，市值升至7.46亿美元",
+          "body": "#ZRO #LayerZero #ATLAS",
+          "tags": [
+            "#ZRO",
+            "#LayerZero",
+            "#ATLAS"
+          ],
+          "ts": 1787663774000,
+          "time": "21:16:14",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229733",
+          "url": "https://t.me/jin10light/229733",
+          "title": "重要新é",
+          "body": "1.美国至8月8日当周ADP就业人数周度变动 1.175万人，前值0.95万人。 个股新é 1.据消息人士，马云出手增持，已连日买入阿里港股超6亿港元。 2. 思科(CSCO.O)：将在10月与英伟达合作提供超微计算解决方案。 3. Meta Platforms(META.O)计划在未来几周推出“HATCH”AI代理平台。 4. 亚马逊(AMZN.O)在美大幅上调多款硬件设备售价，部分产品涨幅达60%。 5. 据特斯拉(TSLA.O)美国官网显示，公司周二上调了美国市场部分Cybertruck皮卡车型的售价。 6. 唯品会(VIPS.N)2026年第二...",
+          "tags": [
+            "#美国",
+            "#阿里港股",
+            "#马云"
+          ],
+          "ts": 1787663653000,
+          "time": "21:14:13",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229732",
+          "url": "https://t.me/jin10light/229732",
+          "title": "原油系期货主力合约跌幅扩大，SC原油跌幅扩大至4.04%，现报567.9元/桶。",
+          "body": "低硫燃料油（LU）跌幅扩大至6.00%，现报4793元/吨。 燃油跌幅扩大至6.02%，现报3698元/吨。 沥青下跌1.93%，现报4519元/吨。 #原油 #低硫燃料油 #燃油",
+          "tags": [
+            "#原油",
+            "#低硫燃料油",
+            "#燃油"
+          ],
+          "ts": 1787663599000,
+          "time": "21:13:19",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229731",
+          "url": "https://t.me/jin10light/229731",
+          "title": "LayerZero将推出机构级链上交易平台ATLAS",
+          "body": "#LayerZero #ATLAS #Zero",
+          "tags": [
+            "#LayerZero",
+            "#ATLAS",
+            "#Zero"
+          ],
+          "ts": 1787663353000,
+          "time": "21:09:13",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229730",
+          "url": "https://t.me/jin10light/229730",
+          "title": "焦炭主力合约日内跌超2.00%，现报2124.50元/吨。",
+          "body": "#焦炭 #主力合约",
+          "tags": [
+            "#焦炭",
+            "#主力合约"
+          ],
+          "ts": 1787663233000,
+          "time": "21:07:13",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229729",
+          "url": "https://t.me/jin10light/229729",
+          "title": "低硫燃料油（LU）主力合约日内大跌6.00%，现报4793.00元/吨。",
+          "body": "#低硫燃料油 #LU",
+          "tags": [
+            "#低硫燃料油",
+            "#LU"
+          ],
+          "ts": 1787663115000,
+          "time": "21:05:15",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229728",
+          "url": "https://t.me/jin10light/229728",
+          "title": "24款项目各获50万美元，YZi Labs公布EASY Residency第四季名单",
+          "body": "#YZi Labs #稳定币 #不丹",
+          "tags": [
+            "#YZi",
+            "#稳定币",
+            "#不丹"
+          ],
+          "ts": 1787663056000,
+          "time": "21:04:16",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229727",
+          "url": "https://t.me/jin10light/229727",
+          "title": "苹果(AAPL.O)：M5 Max和M5 Ultra是“苹果迄今最强大的芯片”。",
+          "body": "#苹果 #AAPL .O",
+          "tags": [
+            "#苹果",
+            "#AAPL"
+          ],
+          "ts": 1787663055000,
+          "time": "21:04:15",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229726",
+          "url": "https://t.me/jin10light/229726",
+          "title": "沃什或在杰克逊霍尔释放鸽派信号，美债政策协调成市场焦点",
+          "body": "#美联储 #美国 #杰克逊霍尔",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#杰克逊霍尔"
+          ],
+          "ts": 1787662877000,
+          "time": "21:01:17",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229725",
+          "url": "https://t.me/jin10light/229725",
+          "title": "美国6月FHFA房价指数月率 0%，前值0.30%。",
+          "body": "#美国 #FHFA房价指数",
+          "tags": [
+            "#美国",
+            "#FHFA房价指数"
+          ],
+          "ts": 1787662819000,
+          "time": "21:00:19",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229724",
+          "url": "https://t.me/jin10light/229724",
+          "title": "美国6月S&P/CS20座大城市未季调房价指数年率 2.1%，预期1.7%，前值1.63%。",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1787662818000,
+          "time": "21:00:18",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229723",
+          "url": "https://t.me/jin10light/229723",
+          "title": "美国6月FHFA房价指数月率、S&P/CS20座大城市未季调房价指数年率将于十分钟后公布。",
+          "body": "#美国 #FHFA房价指数",
+          "tags": [
+            "#美国",
+            "#FHFA房价指数"
+          ],
+          "ts": 1787662278000,
+          "time": "20:51:18",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229722",
+          "url": "https://t.me/jin10light/229722",
+          "title": "美伊局势缓和预期推动全球风险资产反弹：布油跌破90美元，美股期货走高",
+          "body": "#美国 #伊朗 #美股",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#美股"
+          ],
+          "ts": 1787662277000,
+          "time": "20:51:17",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
+        {
+          "id": "229721",
+          "url": "https://t.me/jin10light/229721",
+          "title": "观点：BTC涨至8万美元主要由空头回补驱动，期货未平仓量降至5个月低点",
+          "body": "#BTC #Glassnode",
+          "tags": [
+            "#BTC",
+            "#Glassnode"
+          ],
+          "ts": 1787662213000,
+          "time": "20:50:13",
+          "receivedAt": 1787665014197,
+          "receivedTime": true
+        },
         {
           "id": "229720",
           "url": "https://t.me/jin10light/229720",
@@ -18309,284 +18585,6 @@
           "ts": 1787184197000,
           "time": "08:03:17",
           "receivedAt": 1787189737597,
-          "receivedTime": true
-        },
-        {
-          "id": "228539",
-          "url": "https://t.me/jin10light/228539",
-          "title": "美CFTC就AI算力期货征求公众意见",
-          "body": "#美国 #CFTC #芝商所",
-          "tags": [
-            "#美国",
-            "#CFTC",
-            "#芝商所"
-          ],
-          "ts": 1787183896000,
-          "time": "07:58:16",
-          "receivedAt": 1787184010593,
-          "receivedTime": true
-        },
-        {
-          "id": "228538",
-          "url": "https://t.me/jin10light/228538",
-          "title": "美股今晨三大股指收涨，Moderna大涨177%，加密概念股暴涨",
-          "body": "#美股 #Moderna #默沙东",
-          "tags": [
-            "#美股",
-            "#Moderna",
-            "#默沙东"
-          ],
-          "ts": 1787183594000,
-          "time": "07:53:14",
-          "receivedAt": 1787184010593,
-          "receivedTime": true
-        },
-        {
-          "id": "228537",
-          "url": "https://t.me/jin10light/228537",
-          "title": "特朗普加密利好发言一览：透露美政府已讨论积累「可观数量」的比特币；彻底结束对加密战争；敦促尽快通过《Clarity Act》",
-          "body": "",
-          "tags": [],
-          "ts": 1787183236000,
-          "time": "07:47:16",
-          "receivedAt": 1787184010593,
-          "receivedTime": true
-        },
-        {
-          "id": "228536",
-          "url": "https://t.me/jin10light/228536",
-          "title": "美财长出手，扩大国债回购，押注主动干预压低长债收益率",
-          "body": "#美国 #美股 #美联储",
-          "tags": [
-            "#美国",
-            "#美股",
-            "#美联储"
-          ],
-          "ts": 1787182756000,
-          "time": "07:39:16",
-          "receivedAt": 1787183117760,
-          "receivedTime": true
-        },
-        {
-          "id": "228535",
-          "url": "https://t.me/jin10light/228535",
-          "title": "特朗普宣布对伊朗采取史上最严厉的经济制裁措施",
-          "body": "8月20日讯，美国总统特朗普表示，我给伊朗达成协议的机会比任何人都多。 遗憾的是，他们错过了这个机会。 因此，今天，我宣布对伊朗采取史上最严厉的经济制裁措施，这将是前所未有的经济战争和孤立。 伊朗的海军已经消失，空军已被摧毁，军事工厂如今已沦为废墟，本国货币已经一文不值，而整个国家正处于岌岌可危的境地。 任何允许其金融机构、企业、机场或政府实体以任何形式向伊朗提供救助的国家，都将面临巨大的经济后果。 石油走私、互换额度、现金转账、货币兑换机构、船舶注册、空壳公司——所有这些都必须立即停止。 这将是经济层面的“诺曼底登陆日”（Economic D-Day...",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1787180894000,
-          "time": "07:08:14",
-          "receivedAt": 1787181987828,
-          "receivedTime": true
-        },
-        {
-          "id": "228534",
-          "url": "https://t.me/jin10light/228534",
-          "title": "整理：每日科技要闻速递（8月20日）",
-          "body": "人工智能ï 1.据悉OpenAI营收环比增长18%，但亏损扩大。 2. OpenAI CFO：公司将在2027年或更早上市。 3. 特朗普：下周将与人工智能领域的人士举行会议。 4. 据悉微软人工智能首席营销官安德里亚·马拉德将离职。 5. AI芯片初创公司Fractile获Anthropic订单后寻求65亿美元估值。 6. Cognition CEO：有关SpaceX试图收购Cognition的报道不属实。 7. OpenAI：计划于9月开始逐步推出私人安全处理，并发布技术白皮书。 8. 英伟达拟投资AI数据标注公司Mercor，融资估值或达200亿...",
-          "tags": [
-            "#OpenAI",
-            "#特朗普",
-            "#英伟达"
-          ],
-          "ts": 1787180414000,
-          "time": "07:00:14",
-          "receivedAt": 1787181987828,
-          "receivedTime": true
-        },
-        {
-          "id": "228533",
-          "url": "https://t.me/jin10light/228533",
-          "title": "今日重点关注的财经数据与事件：2026年8月20日 周四",
-          "body": "① 待定 阿里巴巴公布财报 ② 09:00 中国7月Swift人民币在全球支付中占比 ③ 09:00 中国至8月20日一年期贷款市场报价利率 ④ 09:30 澳大利亚7月季调后失业率 ⑤ 14:00 德国7月PPI月率 ⑥ 14:00 瑞士7月贸易帐 ⑦ 15:00 商务部召开例行新闻发布会 ⑧ 18:00 英国8月CBI工业订单差值 ⑨ 20:30 美国至8月15日当周初请失业金人数 ⑩ 20:30 美国8月费城联储制造业指数 ⑪ 22:00 美国7月谘商会领先指标月率 ⑫ 22:30 美国至8月14日当周EIA天然气库存 ⑬ 23:10 美联储穆萨...",
-          "tags": [
-            "#阿里巴巴",
-            "#中国",
-            "#美国"
-          ],
-          "ts": 1787179876000,
-          "time": "06:51:16",
-          "receivedAt": 1787180384413,
-          "receivedTime": true
-        },
-        {
-          "id": "228532",
-          "url": "https://t.me/jin10light/228532",
-          "title": "国内新闻ï",
-          "body": "1.《全民医疗保障“十五五”规划》发布。 2. 宇树科技上市首日收涨460.34%，市值约3418亿元。 3. 嫦娥七号器箭组合体完成垂直转运，将择机发射。 4. 欧盟对京东跨境调查，司法部回应：构成不当域外管辖。 5. 国家发展改革委召开“六张网”重大项目协调调度机制会，完善“六网协同”工作推进机制。 6. 中国黄金协会发布严正声明称，我国黄金产业链完整，具备抵御外部风险的充足韧性。 国际新闻ï 1.美国联邦政府债务突破40万亿美元。 2. 据悉三星芯片代工价格最高上涨15%。 3. 特朗普称预计今年晚些时候会见金正恩。 4. OpenAI CFO：...",
-          "tags": [
-            "#中国",
-            "#美国",
-            "#特朗普"
-          ],
-          "ts": 1787178917000,
-          "time": "06:35:17",
-          "receivedAt": 1787179312588,
-          "receivedTime": true
-        },
-        {
-          "id": "228531",
-          "url": "https://t.me/jin10light/228531",
-          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加9.414吨，当前持仓量为1034.654吨。",
-          "body": "#黄金 #SPDR Gold Trust",
-          "tags": [
-            "#黄金",
-            "#SPDR"
-          ],
-          "ts": 1787178494000,
-          "time": "06:28:14",
-          "receivedAt": 1787179312588,
-          "receivedTime": true
-        },
-        {
-          "id": "228530",
-          "url": "https://t.me/jin10light/228530",
-          "title": "美国扩大国债回购规模前一天，投资者创纪录押注长期美债ETF",
-          "body": "8月20日讯，就在美国财政部意外宣布扩大长期国债回购规模、推动债市上涨的前一天，一名或多名投资者周二大举买入一只对美国长期国债收益率波动高度敏感的ETF。 当天，规模达15亿美元的PIMCO 25年以上期零息美国国债指数ETF吸引了创纪录的1.23亿美元资金流入，成交量则跃升至520万股，接近2024年创下的此前峰值的两倍。 该ETF投资于所谓的“剥离式国债”（STRIPS），即将债券本金和利息支付分离后形成的零息证券，因此能够放大对美国长期利率走势的押注。 该ETF周三上涨3.2%，为自2024年11月以来的最大涨幅。 然而，由于通胀和财政赤字引发的...",
-          "tags": [
-            "#美国",
-            "#美国国债",
-            "#PIMCO"
-          ],
-          "ts": 1787177476000,
-          "time": "06:11:16",
-          "receivedAt": 1787177634017,
-          "receivedTime": true
-        },
-        {
-          "id": "228529",
-          "url": "https://t.me/jin10light/228529",
-          "title": "彭博社：比特币逼近7万美元引发史诗级空头挤压，加密市场迎3月以来最大反弹",
-          "body": "#BTC #ETH #美国",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#美国"
-          ],
-          "ts": 1787177295000,
-          "time": "06:08:15",
-          "receivedAt": 1787177634017,
-          "receivedTime": true
-        },
-        {
-          "id": "228528",
-          "url": "https://t.me/jin10light/228528",
-          "title": "美股加密货币概念股集体暴涨，Strategy涨近12%，Coinbase上涨9%",
-          "body": "#BTC #ETH #美国",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#美国"
-          ],
-          "ts": 1787177115000,
-          "time": "06:05:15",
-          "receivedAt": 1787177634017,
-          "receivedTime": true
-        },
-        {
-          "id": "228527",
-          "url": "https://t.me/jin10light/228527",
-          "title": "特朗普再批美联储高利率政策，称美国应承担更低融资成本",
-          "body": "#美国 #特朗普 #美联储",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#美联储"
-          ],
-          "ts": 1787176935000,
-          "time": "06:02:15",
-          "receivedAt": 1787177634017,
-          "receivedTime": true
-        },
-        {
-          "id": "228526",
-          "url": "https://t.me/jin10light/228526",
-          "title": "特朗普加密财富暴增引争议，白宫会见行业巨头推动监管改革",
-          "body": "#特朗普 #BTC #美国",
-          "tags": [
-            "#特朗普",
-            "#BTC",
-            "#美国"
-          ],
-          "ts": 1787176697000,
-          "time": "05:58:17",
-          "receivedAt": 1787177634017,
-          "receivedTime": true
-        },
-        {
-          "id": "228525",
-          "url": "https://t.me/jin10light/228525",
-          "title": "「pension-usdt.eth」ETH空单遭清算，损失约2666万美元",
-          "body": "#ETH #Hyperliquid",
-          "tags": [
-            "#ETH",
-            "#Hyperliquid"
-          ],
-          "ts": 1787176392000,
-          "time": "05:53:12",
-          "receivedAt": 1787176493826,
-          "receivedTime": true
-        },
-        {
-          "id": "228524",
-          "url": "https://t.me/jin10light/228524",
-          "title": "Multicoin Capital再次向Coinbase Prime转入6.27万枚HYPE，价值约437万美元",
-          "body": "#Multicoin Capital #Coinbase Prime #HYPE",
-          "tags": [
-            "#Multicoin",
-            "#Coinbase",
-            "#HYPE"
-          ],
-          "ts": 1787176332000,
-          "time": "05:52:12",
-          "receivedAt": 1787176493826,
-          "receivedTime": true
-        },
-        {
-          "id": "228523",
-          "url": "https://t.me/jin10light/228523",
-          "title": "比特币短时拉升触及7万美元",
-          "body": "#BTC #HTX",
-          "tags": [
-            "#BTC",
-            "#HTX"
-          ],
-          "ts": 1787176274000,
-          "time": "05:51:14",
-          "receivedAt": 1787176493826,
-          "receivedTime": true
-        },
-        {
-          "id": "228522",
-          "url": "https://t.me/jin10light/228522",
-          "title": "特朗普：已彻底结束针对加密货币的「战争」，美国正在引领行业发展",
-          "body": "#美国 #BTC #特朗普",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#特朗普"
-          ],
-          "ts": 1787176035000,
-          "time": "05:47:15",
-          "receivedAt": 1787176493826,
-          "receivedTime": true
-        },
-        {
-          "id": "228521",
-          "url": "https://t.me/jin10light/228521",
-          "title": "英伟达拟投资AI数据标注公司Mercor，融资估值或达200亿美元",
-          "body": "#英伟达 #Mercor #Nemotron",
-          "tags": [
-            "#英伟达",
-            "#Mercor",
-            "#Nemotron"
-          ],
-          "ts": 1787175794000,
-          "time": "05:43:14",
-          "receivedAt": 1787176493826,
           "receivedTime": true
         }
       ],
