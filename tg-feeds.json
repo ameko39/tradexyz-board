@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-08-26T12:05:34.642Z",
+  "updatedAt": "2026-08-26T13:10:58.093Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6999",
+          "url": "https://t.me/BWEtradfi/6999",
+          "title": "DB: *美国7月个人消费支出价格指数环比上涨0.2%；预期上涨0.1%",
+          "body": "DB: *US JULY PCE PRICE INDEX RISES 0.2% M/M; EST. +0.1% *US JULY PCE PRICE INDEX RISES 3.7% Y/Y; EST. +3.6% *US JULY CORE PCE PRICE INDEX RISES 0.2% M/M; EST. +0.2% *US JULY CORE PCE PRICE INDEX RISES 3.3% Y/Y; EST. +3.3% *美国7月个人消费支出价格指数同比上涨3.7%；预期上涨3.6% *美国7月核心个人消费支出价格指数环比上涨0.2%；预期上涨0.2% *美国7月核心个人...",
+          "tags": [],
+          "ts": 1787747423000,
+          "time": "20:30:23",
+          "receivedAt": 1787749841016,
+          "receivedTime": true
+        },
+        {
+          "id": "6998",
+          "url": "https://t.me/BWEtradfi/6998",
+          "title": "DB: *美国7月个人收入环比增长0.4%；预期增长0.2%",
+          "body": "DB: *US JULY PERSONAL INCOME RISES 0.4% M/M; EST. +0.2% *US JULY PERSONAL SPENDING RISES 0.2% M/M; EST. +0.1% *US JULY REAL PERSONAL SPENDING UNCHANGED M/M; PREV. 0.4% *美国7月个人支出环比增长0.2%；预期增长0.1% *美国7月实际个人支出环比持平；前值0.4%",
+          "tags": [],
+          "ts": 1787747421000,
+          "time": "20:30:21",
+          "receivedAt": 1787749841016,
+          "receivedTime": true
+        },
+        {
+          "id": "6997",
+          "url": "https://t.me/BWEtradfi/6997",
+          "title": "DB: 美国二季度实际GDP年化季率增长1.5%，预期增长1.5%",
+          "body": "DB: *US 2Q GDP RISES ANNUALIZED 1.5% Q/Q; EST. +1.5%",
+          "tags": [],
+          "ts": 1787747420000,
+          "time": "20:30:20",
+          "receivedAt": 1787749841016,
+          "receivedTime": true
+        },
+        {
+          "id": "6996",
+          "url": "https://t.me/BWEtradfi/6996",
+          "title": "DB: *美国7月耐用品订单初值环比增长1.1%；预期增长0.5%",
+          "body": "DB: *US PRELIM JULY DURABLE GOODS ORDERS RISE 1.1% M/M; EST. +0.5% *US PRELIM JULY DURABLE GOODS EX-TRANS RISE 0.4% M/M; EST. +0.6% *美国7月耐用品订单（不含贸易）初值环比增长0.4%；预期增长0.6%",
+          "tags": [],
+          "ts": 1787747418000,
+          "time": "20:30:18",
+          "receivedAt": 1787749841016,
+          "receivedTime": true
+        },
         {
           "id": "6995",
           "url": "https://t.me/BWEtradfi/6995",
@@ -1367,6 +1411,312 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "230012",
+          "url": "https://t.me/jin10light/230012",
+          "title": "Meta美股盘前涨超4% 消息称公司同意就相关指控达成和解",
+          "body": "8月26日讯，Meta Platforms(META.O)美股盘前涨超4%。 法庭文件显示，Meta Platforms同意就该平台对儿童造成危害的指控达成和解，作为协议的一部分，Meta同意向各州支付最高166.8亿美元。",
+          "tags": [],
+          "ts": 1787749458000,
+          "time": "21:04:18",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230011",
+          "url": "https://t.me/jin10light/230011",
+          "title": "夜盘开盘，国内期货主力合约跌多涨少，乙二醇（EG）跌近4%，甲醇、丙烯跌超2%，纯苯跌近2%，低硫燃料油（LU）、短纤、瓶片、对二甲苯跌超1%。",
+          "body": "涨幅方面，菜粕涨近2%，豆二涨超1%，豆粕、沪锌涨近1%。 #乙二醇 #甲醇 #丙烯",
+          "tags": [
+            "#乙二醇",
+            "#甲醇",
+            "#丙烯"
+          ],
+          "ts": 1787749280000,
+          "time": "21:01:20",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230010",
+          "url": "https://t.me/jin10light/230010",
+          "title": "现货黄金回落至4610美元/盎司下方，日内跌1.04%。",
+          "body": "#黄金 #美元",
+          "tags": [
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1787749279000,
+          "time": "21:01:19",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230009",
+          "url": "https://t.me/jin10light/230009",
+          "title": "法庭文件：作为协议的一部分，MetaPlatforms(META.O)同意向各州支付最高166.8亿美元。",
+          "body": "#Meta Platforms #META",
+          "tags": [
+            "#Meta",
+            "#META"
+          ],
+          "ts": 1787749279000,
+          "time": "21:01:19",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230008",
+          "url": "https://t.me/jin10light/230008",
+          "title": "美股盘前要闻一览：英伟达财报来袭，美国7月PCE年率3.7%超预期，9月加息概率升至42%",
+          "body": "#英伟达 #美国 #BTC",
+          "tags": [
+            "#英伟达",
+            "#美国",
+            "#BTC"
+          ],
+          "ts": 1787749219000,
+          "time": "21:00:19",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230007",
+          "url": "https://t.me/jin10light/230007",
+          "title": "美、布两油短线一度走高约0.5美元，现部分回落，分别报80.2美元/桶和85.5美元/桶。",
+          "body": "#美国 #布伦特原油 #WTI原油",
+          "tags": [
+            "#美国",
+            "#布伦特原油",
+            "#WTI原油"
+          ],
+          "ts": 1787749099000,
+          "time": "20:58:19",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230006",
+          "url": "https://t.me/jin10light/230006",
+          "title": "据路透：伊朗高级消息人士表示，伊朗和阿曼仍在就霍尔木兹海峡协议的细节进行磋商。",
+          "body": "",
+          "tags": [],
+          "ts": 1787748978000,
+          "time": "20:56:18",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230005",
+          "url": "https://t.me/jin10light/230005",
+          "title": "美联储最青睐通胀指标出炉，PCE与上月持平",
+          "body": "8月26日讯，美国PCE物价指数已经公布，这是美联储最青睐的通胀指标。 PCE通胀年率为3.7%，与6月份持平。 剔除波动较大的食品和能源类别后，核心PCE通胀年率为3.3%，同样与6月份持平。 由于该报告采用了此前已经公布的其他通胀数据，因此PCE数据通常会与投资者的预期非常接近。 但在美联储面临通胀问题之际，这份报告进一步明确了通胀形势，而美联储主席沃什将在周五发表一场重要讲话。 美国CPI数据在7月带来了好消息：核心CPI降至相对温和的2.5%。 但PCE通胀率对不同支出类别的权重有所不同，因此其表现一直明显更为强劲。 目前，对于沃什究竟如何看待...",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#沃什"
+          ],
+          "ts": 1787748858000,
+          "time": "20:54:18",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230004",
+          "url": "https://t.me/jin10light/230004",
+          "title": "美联储下个月加息的预期略有升温",
+          "body": "#美联储 #美国 #BTC",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#BTC"
+          ],
+          "ts": 1787748261000,
+          "time": "20:44:21",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230003",
+          "url": "https://t.me/jin10light/230003",
+          "title": "Qwen3.8-Flash开源：6B激活，多项Agent评测超Opus4.6",
+          "body": "",
+          "tags": [],
+          "ts": 1787748076000,
+          "time": "20:41:16",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230002",
+          "url": "https://t.me/jin10light/230002",
+          "title": "阿里巴巴发布更小、更具成本效益的Qwen AI模型。",
+          "body": "#阿里巴巴 #Qwen",
+          "tags": [
+            "#阿里巴巴",
+            "#Qwen"
+          ],
+          "ts": 1787747773000,
+          "time": "20:36:13",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230001",
+          "url": "https://t.me/jin10light/230001",
+          "title": "大普微：签订约34.91亿元企业级PCIe SSD销售订单",
+          "body": "8月26日讯，大普微公告，公司与客户A签订企业级PCIeSSD销售订单，含税总金额51,457.40万美元(折合人民币约34.91亿元)，占公司2025年经审计主营业务收入的152.70%。 订单交付期限为生效后18周内，若顺利履行，预计将对履约年度经营成果产生积极影响。 #大普微 #PCIe SSD",
+          "tags": [
+            "#大普微",
+            "#PCIe"
+          ],
+          "ts": 1787747712000,
+          "time": "20:35:12",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "230000",
+          "url": "https://t.me/jin10light/230000",
+          "title": "美元指数DXY短线上扬近10点，报99.03。",
+          "body": "#美元 #DXY",
+          "tags": [
+            "#美元",
+            "#DXY"
+          ],
+          "ts": 1787747593000,
+          "time": "20:33:13",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "229999",
+          "url": "https://t.me/jin10light/229999",
+          "title": "现货黄金短线下挫11美元，现报4619美元/盎司。",
+          "body": "#黄金",
+          "tags": [
+            "#黄金"
+          ],
+          "ts": 1787747550000,
+          "time": "20:32:30",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "229998",
+          "url": "https://t.me/jin10light/229998",
+          "title": "美国第二季度实际GDP年化季率修正值 1.5%，预期1.50%，前值1.50%。",
+          "body": "#美国 #GDP",
+          "tags": [
+            "#美国",
+            "#GDP"
+          ],
+          "ts": 1787747479000,
+          "time": "20:31:19",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "229997",
+          "url": "https://t.me/jin10light/229997",
+          "title": "美国整体PCE持平上月，高于预期",
+          "body": "",
+          "tags": [],
+          "ts": 1787747478000,
+          "time": "20:31:18",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "229996",
+          "url": "https://t.me/jin10light/229996",
+          "title": "美国Q2实际GDP与初值一致，符合预期",
+          "body": "",
+          "tags": [],
+          "ts": 1787747477000,
+          "time": "20:31:17",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "229995",
+          "url": "https://t.me/jin10light/229995",
+          "title": "美国7月个人支出月率 0.2%，预期0.1%，前值0.30%。",
+          "body": "",
+          "tags": [],
+          "ts": 1787747415000,
+          "time": "20:30:15",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "229994",
+          "url": "https://t.me/jin10light/229994",
+          "title": "知名交易员：比特币若突破8.3万美元，或触发空头挤压涨至9.5万美元",
+          "body": "#BTC #比特币回升",
+          "tags": [
+            "#BTC",
+            "#比特币回升"
+          ],
+          "ts": 1787746935000,
+          "time": "20:22:15",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "229993",
+          "url": "https://t.me/jin10light/229993",
+          "title": "视频｜矿圈大佬神鱼回应名言「钱不知道怎么花」： 现在知道怎么花了",
+          "body": "#神鱼 #《黄金时代》 #AI",
+          "tags": [
+            "#神鱼",
+            "#AI"
+          ],
+          "ts": 1787746934000,
+          "time": "20:22:14",
+          "receivedAt": 1787749842703,
+          "receivedTime": true
+        },
+        {
+          "id": "229992",
+          "url": "https://t.me/jin10light/229992",
+          "title": "美国第二季度实际GDP年化季率修正值、7月耐用品订单月率、个人支出月率、核心PCE物价指数月率及年率将于十分钟后公布。",
+          "body": "#美国 #美联储",
+          "tags": [
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1787746874000,
+          "time": "20:21:14",
+          "receivedAt": 1787749842892,
+          "receivedTime": true
+        },
+        {
+          "id": "229991",
+          "url": "https://t.me/jin10light/229991",
+          "title": "分析：比特币下一步走势或取决于PCE、英伟达财报及沃什讲话",
+          "body": "#BTC #美国 #美联储",
+          "tags": [
+            "#BTC",
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1787746339000,
+          "time": "20:12:19",
+          "receivedAt": 1787749842892,
+          "receivedTime": true
+        },
+        {
+          "id": "229990",
+          "url": "https://t.me/jin10light/229990",
+          "title": "波罗的海干散货运价指数涨4.44%，至3056点。",
+          "body": "",
+          "tags": [],
+          "ts": 1787745975000,
+          "time": "20:06:15",
+          "receivedAt": 1787749842892,
+          "receivedTime": true
+        },
         {
           "id": "229989",
           "url": "https://t.me/jin10light/229989",
@@ -18342,330 +18692,6 @@
           "time": "23:21:13",
           "receivedAt": 1787241165636,
           "receivedTime": true
-        },
-        {
-          "id": "228812",
-          "url": "https://t.me/jin10light/228812",
-          "title": "美财长贝森特：债券回购上限或超40亿美元",
-          "body": "8月20日讯，美国财政部长贝森特就债券回购问题表示，单次回购规模（上限）可能超过40亿美元，部分意义在于传递信号。 我们想表明，收益率并不能反映基本面。 同时可能会宣布加大财政整顿力度，我们很有可能已经看到了赤字峰值。 就债务数字而言，40万亿美元债务数字并无特别意义。 市场有点操之过急。 如果资产负债表有任何变化，财政部和美联储将协同合作。 需要明确的是，利率与回购决定无关。 就通胀前景而言，贝森特表示，市场指标显示未来将走低。 关于伊朗经济制裁方面，贝森特称，将于下周一举行新闻发布会，讨论相关行动。 #美国 #贝森特 #伊朗",
-          "tags": [
-            "#美国",
-            "#贝森特",
-            "#伊朗"
-          ],
-          "ts": 1787239095000,
-          "time": "23:18:15",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228811",
-          "url": "https://t.me/jin10light/228811",
-          "title": "美国财长贝森特讲话期间，现货黄金、现货白银短线上涨，现货黄金日内转涨0.2%，报4532.28美元/盎司，现货白银上涨2.8%，报68.85美元/盎司。",
-          "body": "#美国 #黄金 #白银",
-          "tags": [
-            "#美国",
-            "#黄金",
-            "#白银"
-          ],
-          "ts": 1787239039000,
-          "time": "23:17:19",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228810",
-          "url": "https://t.me/jin10light/228810",
-          "title": "美国财长贝森特：在加强移民管控后，不需要那么多就业岗位。",
-          "body": "#美国 #贝森特",
-          "tags": [
-            "#美国",
-            "#贝森特"
-          ],
-          "ts": 1787238916000,
-          "time": "23:15:16",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228809",
-          "url": "https://t.me/jin10light/228809",
-          "title": "沪银2610盘中明显走强，涨幅扩大至4.03%，价格上探16762元/千克，成交额已超760亿元；日内增仓1.99万手，持仓变化明显。",
-          "body": "#沪银2610 #白银",
-          "tags": [
-            "#沪银2610",
-            "#白银"
-          ],
-          "ts": 1787238915000,
-          "time": "23:15:15",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228808",
-          "url": "https://t.me/jin10light/228808",
-          "title": "美国财长：将于下周一举行经济制裁伊朗新闻发布会，讨论相关行动",
-          "body": "#美国 #伊朗 #贝森特",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#贝森特"
-          ],
-          "ts": 1787238792000,
-          "time": "23:13:12",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228807",
-          "url": "https://t.me/jin10light/228807",
-          "title": "美国财长贝森特：（关于伊朗）最大经济压力意味着可能不会重新启动军事行动。",
-          "body": "石油市场误解了经济压力的含义。 #美国 #伊朗 #贝森特",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#贝森特"
-          ],
-          "ts": 1787238733000,
-          "time": "23:12:13",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228806",
-          "url": "https://t.me/jin10light/228806",
-          "title": "美国财长贝森特：（关于伊朗经济制裁）将于下周一举行新闻发布会，讨论相关行动。",
-          "body": "#美国 #伊朗 #贝森特",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#贝森特"
-          ],
-          "ts": 1787238674000,
-          "time": "23:11:14",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228805",
-          "url": "https://t.me/jin10light/228805",
-          "title": "美国财长贝森特：利率与回购决策无关。",
-          "body": "#美国 #贝森特",
-          "tags": [
-            "#美国",
-            "#贝森特"
-          ],
-          "ts": 1787238552000,
-          "time": "23:09:12",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228804",
-          "url": "https://t.me/jin10light/228804",
-          "title": "美国财长：财政公告可能将在本周末或下周初发布",
-          "body": "",
-          "tags": [],
-          "ts": 1787238439000,
-          "time": "23:07:19",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228803",
-          "url": "https://t.me/jin10light/228803",
-          "title": "美国财长贝森特：我们“很有可能”已经看到财政赤字达到峰值。",
-          "body": "#美国 #贝森特",
-          "tags": [
-            "#美国",
-            "#贝森特"
-          ],
-          "ts": 1787238439000,
-          "time": "23:07:19",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228802",
-          "url": "https://t.me/jin10light/228802",
-          "title": "美国财长：美债回购规模可能超过宣布的40亿美元",
-          "body": "",
-          "tags": [],
-          "ts": 1787238265000,
-          "time": "23:04:25",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228801",
-          "url": "https://t.me/jin10light/228801",
-          "title": "美国财长贝森特：（关于回购）这是市场中交易清淡的领域。",
-          "body": "回购规模可能超过我们宣布的40亿美元。 #美国 #贝森特",
-          "tags": [
-            "#美国",
-            "#贝森特"
-          ],
-          "ts": 1787238265000,
-          "time": "23:04:25",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228800",
-          "url": "https://t.me/jin10light/228800",
-          "title": "美国财长贝森特：美债收益率未能反映基本面。",
-          "body": "#美国 #贝森特 #美债",
-          "tags": [
-            "#美国",
-            "#贝森特",
-            "#美债"
-          ],
-          "ts": 1787238264000,
-          "time": "23:04:24",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228799",
-          "url": "https://t.me/jin10light/228799",
-          "title": "截至23:00收盘，国内期货主力合约涨跌不一，液化石油气（LPG）涨近2%，沥青、燃料油、纸浆、20号胶涨超1%，甲醇、纯苯涨近1%。",
-          "body": "跌幅方面，焦煤、菜粕、玻璃、聚氯乙烯（PVC）跌超1%，菜油跌近1%。 #LPG #沥青 #燃料油",
-          "tags": [
-            "#LPG",
-            "#沥青",
-            "#燃料油"
-          ],
-          "ts": 1787238135000,
-          "time": "23:02:15",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228798",
-          "url": "https://t.me/jin10light/228798",
-          "title": "2028年FOMC票委、圣路易联储主席穆萨莱姆将于十分钟后接受CNBC的采访。",
-          "body": "#美国 #美联储 #CNBC",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#CNBC"
-          ],
-          "ts": 1787238015000,
-          "time": "23:00:15",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228797",
-          "url": "https://t.me/jin10light/228797",
-          "title": "BTC、ETH大涨后加密OI占比升至 67%，但近九成增幅来自价格重估",
-          "body": "#BTC #ETH #HYPE",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#HYPE"
-          ],
-          "ts": 1787237958000,
-          "time": "22:59:18",
-          "receivedAt": 1787239270255,
-          "receivedTime": true
-        },
-        {
-          "id": "228796",
-          "url": "https://t.me/jin10light/228796",
-          "title": "现货白银日内涨幅达2%，现报68.34美元/盎司",
-          "body": "",
-          "tags": [],
-          "ts": 1787236514000,
-          "time": "22:35:14",
-          "receivedAt": 1787237589012,
-          "receivedTime": true
-        },
-        {
-          "id": "228795",
-          "url": "https://t.me/jin10light/228795",
-          "title": "Coinbase CEO：目前很可能正处于下轮牛市前夜",
-          "body": "#Coinbase #Brian Armstrong #BTC",
-          "tags": [
-            "#Coinbase",
-            "#Brian",
-            "#BTC"
-          ],
-          "ts": 1787236337000,
-          "time": "22:32:17",
-          "receivedAt": 1787237589012,
-          "receivedTime": true
-        },
-        {
-          "id": "228794",
-          "url": "https://t.me/jin10light/228794",
-          "title": "美国至8月14日当周EIA天然气库存 160亿立方英尺，预期190亿立方英尺，前值360亿立方英尺。",
-          "body": "#美国 #天然气",
-          "tags": [
-            "#美国",
-            "#天然气"
-          ],
-          "ts": 1787236275000,
-          "time": "22:31:15",
-          "receivedAt": 1787237589012,
-          "receivedTime": true
-        },
-        {
-          "id": "228793",
-          "url": "https://t.me/jin10light/228793",
-          "title": "EIA天然气报告：截至8月14日当周，美国天然气库存总量为31690亿立方英尺，较此前一周增加160亿立方英尺，较去年同期减少280亿立方英尺，同比降幅0.9%，同时较5年均值高1850亿立方英尺，增幅6.2%。",
-          "body": "#美国 #天然气",
-          "tags": [
-            "#美国",
-            "#天然气"
-          ],
-          "ts": 1787236274000,
-          "time": "22:31:14",
-          "receivedAt": 1787237589012,
-          "receivedTime": true
-        },
-        {
-          "id": "228792",
-          "url": "https://t.me/jin10light/228792",
-          "title": "沉寂11年比特币钱包集体「苏醒」，24小时内转移1214枚BTC",
-          "body": "#BTC #比特币上涨",
-          "tags": [
-            "#BTC",
-            "#比特币上涨"
-          ],
-          "ts": 1787236036000,
-          "time": "22:27:16",
-          "receivedAt": 1787237589012,
-          "receivedTime": true
-        },
-        {
-          "id": "228791",
-          "url": "https://t.me/jin10light/228791",
-          "title": "某巨鲸「逆势做空」2万枚ETH及500枚BTC",
-          "body": "#BTC #ETH",
-          "tags": [
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1787235734000,
-          "time": "22:22:14",
-          "receivedAt": 1787237589012,
-          "receivedTime": true
-        },
-        {
-          "id": "228790",
-          "url": "https://t.me/jin10light/228790",
-          "title": "美国至8月14日当周EIA天然气库存将于十分钟后公布。",
-          "body": "#美国 #EIA #天然气",
-          "tags": [
-            "#美国",
-            "#EIA",
-            "#天然气"
-          ],
-          "ts": 1787235676000,
-          "time": "22:21:16",
-          "receivedAt": 1787237589012,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -18673,6 +18699,17 @@
     "poly": {
       "channel": "PolyBeats_Bot",
       "items": [
+        {
+          "id": "1818",
+          "url": "https://t.me/PolyBeats_Bot/1818",
+          "title": "R 星官宣 GTA VI 新预告片于明日上线，但 Polymarket 上新预告片本月发布概率仅 43%",
+          "body": "8 月 6 日，R 星官方确认，《GTA VI：扩展预览》将于 8 月 27 日 15:00 ET 首先在 Netflix 播出。然而截至本文发出时，「 新 GTA VI 预告片在月内发布 」概率为 44.5%。 0xecaa8806a9a05049d7 投入 $1.8k，与本市场最佳相关板块为 文化 ，板块净盈利 $11.8k。其在该板块共 16 笔已结算交易的胜率为 6/16（38%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 3 笔。 该市场分歧主要来自于结算规则对于「预告」的定义：市场规则要求视频被 Rockstar 明确标注并营销为官方「预告」；单纯的实机片段、预览或其他宣传素材并不自动计入。Rockstar 对活动的正式称呼是「An Extended Look（扩展预览）」，但其资讯页标题同时出现了「Extended Trailer（扩展预告）」字样。 8 月 18 日起流出的疑似《GTA VI》实机片段一度扰乱社区预期，Rockstar 与 Take‑Two 随后持续发起版权下架；不过，相关报道指出，泄露并未改变既定的 Netflix 发布安排。 The Verge 25 日报道，自称 C...",
+          "tags": [],
+          "ts": 1787746258000,
+          "time": "20:10:58",
+          "receivedAt": 1787749856474,
+          "receivedTime": true
+        },
         {
           "id": "1817",
           "url": "https://t.me/PolyBeats_Bot/1817",
