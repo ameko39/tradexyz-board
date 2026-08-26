@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-25T23:55:11.435Z",
+  "updatedAt": "2026-08-26T00:45:14.942Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "6995",
+          "url": "https://t.me/BWEtradfi/6995",
+          "title": "OpenAI 销售高管 Peter Doolan 将重返 Salesforce：The Information",
+          "body": "*OPENAI SALES EXEC PETER DOOLAN TO RETURN TO SALESFORCE: THE INFORMATION",
+          "tags": [],
+          "ts": 1787703765000,
+          "time": "08:22:45",
+          "receivedAt": 1787705097725,
+          "receivedTime": true
+        },
         {
           "id": "6994",
           "url": "https://t.me/BWEtradfi/6994",
@@ -1382,24 +1393,84 @@
           "time": "09:00:10",
           "receivedAt": 1786417440520,
           "receivedTime": true
-        },
-        {
-          "id": "6870",
-          "url": "https://t.me/BWEtradfi/6870",
-          "title": "*Anthropico与Riot Platforms达成价值90亿美元的计算服务协议",
-          "body": "*ANTHROPIC STRIKES $9 BILLION COMPUTING DEAL WITH RIOT PLATFORMS $RIOT $RIOT",
-          "tags": [],
-          "ts": 1786406377000,
-          "time": "07:59:37",
-          "receivedAt": 1786409898833,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229824",
+          "url": "https://t.me/jin10light/229824",
+          "title": "韩国KOSPI指数开盘涨幅0.53%，三星电子涨1.36%，SK海力士涨1.32%",
+          "body": "#韩国 #KOSPI #三星电子",
+          "tags": [
+            "#韩国",
+            "#KOSPI",
+            "#三星电子"
+          ],
+          "ts": 1787703373000,
+          "time": "08:16:13",
+          "receivedAt": 1787705098703,
+          "receivedTime": true
+        },
+        {
+          "id": "229823",
+          "url": "https://t.me/jin10light/229823",
+          "title": "中东局势追踪：美伊停火协议传出重大进展，霍尔木兹海峡临时航线谅解达成，WTI原油跌破80美元",
+          "body": "",
+          "tags": [],
+          "ts": 1787703137000,
+          "time": "08:12:17",
+          "receivedAt": 1787705098703,
+          "receivedTime": true
+        },
+        {
+          "id": "229822",
+          "url": "https://t.me/jin10light/229822",
+          "title": "日本拟建区块链即时结算系统，覆盖股票与国债交易",
+          "body": "#日本 #区块链 #股票",
+          "tags": [
+            "#日本",
+            "#区块链",
+            "#股票"
+          ],
+          "ts": 1787702716000,
+          "time": "08:05:16",
+          "receivedAt": 1787705098703,
+          "receivedTime": true
+        },
+        {
+          "id": "229821",
+          "url": "https://t.me/jin10light/229821",
+          "title": "消息人士：美伊已就停火协议条款达成共识，预计将在未来几天内公布",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787702532000,
+          "time": "08:02:12",
+          "receivedAt": 1787705098703,
+          "receivedTime": true
+        },
+        {
+          "id": "229820",
+          "url": "https://t.me/jin10light/229820",
+          "title": "美股收涨，英伟达终结七连跌涨超2%，存储、光通信、加密概念股纷纷走强",
+          "body": "#美股 #BTC #英伟达",
+          "tags": [
+            "#美股",
+            "#BTC",
+            "#英伟达"
+          ],
+          "ts": 1787702355000,
+          "time": "07:59:15",
+          "receivedAt": 1787705098703,
+          "receivedTime": true
+        },
         {
           "id": "229819",
           "url": "https://t.me/jin10light/229819",
@@ -18605,79 +18676,6 @@
           "ts": 1787205614000,
           "time": "14:00:14",
           "receivedAt": 1787206671452,
-          "receivedTime": true
-        },
-        {
-          "id": "228624",
-          "url": "https://t.me/jin10light/228624",
-          "title": "德国7月PPI月率、瑞士7月贸易帐将于十分钟后公布。",
-          "body": "#德国 #瑞士",
-          "tags": [
-            "#德国",
-            "#瑞士"
-          ],
-          "ts": 1787205075000,
-          "time": "13:51:15",
-          "receivedAt": 1787206671452,
-          "receivedTime": true
-        },
-        {
-          "id": "228623",
-          "url": "https://t.me/jin10light/228623",
-          "title": "A股宇树盘中跌超17%，trade.xyz上单日成交额破亿",
-          "body": "#宇树科技 #A股",
-          "tags": [
-            "#宇树科技",
-            "#A股"
-          ],
-          "ts": 1787204715000,
-          "time": "13:45:15",
-          "receivedAt": 1787204901393,
-          "receivedTime": true
-        },
-        {
-          "id": "228622",
-          "url": "https://t.me/jin10light/228622",
-          "title": "A股三大股指午后回落，沪指翻绿，深证成指现涨0.2%，创业板指涨0.11%，全市场超3700只个股上涨。",
-          "body": "#A股 #沪指 #深证成指",
-          "tags": [
-            "#A股",
-            "#沪指",
-            "#深证成指"
-          ],
-          "ts": 1787204419000,
-          "time": "13:40:19",
-          "receivedAt": 1787204901393,
-          "receivedTime": true
-        },
-        {
-          "id": "228621",
-          "url": "https://t.me/jin10light/228621",
-          "title": "今日重点关注的财经数据与事件：2026年8月20日 周四",
-          "body": "① 待定 阿里巴巴公布财报 ② 14:00 德国7月PPI月率 ③ 14:00 瑞士7月贸易帐 ④ 15:00 商务部召开例行新闻发布会 ⑤ 18:00 英国8月CBI工业订单差值 ⑥ 20:30 美国至8月15日当周初请失业金人数 ⑦ 20:30 美国8月费城联储制造业指数 ⑧ 22:00 美国7月谘商会领先指标月率 ⑨ 22:30 美国至8月14日当周EIA天然气库存 ⑩ 23:10 美联储穆萨莱姆接受采访 ⑪ 次日02:30 美油移仓换月 #阿里巴巴 #德国 #瑞士",
-          "tags": [
-            "#阿里巴巴",
-            "#德国",
-            "#瑞士"
-          ],
-          "ts": 1787204418000,
-          "time": "13:40:18",
-          "receivedAt": 1787204901393,
-          "receivedTime": true
-        },
-        {
-          "id": "228620",
-          "url": "https://t.me/jin10light/228620",
-          "title": "Multicoin Capital今日已向Coinbase Prime存入136,174枚HYPE",
-          "body": "#Multicoin Capital #Coinbase Prime #HYPE",
-          "tags": [
-            "#Multicoin",
-            "#Coinbase",
-            "#HYPE"
-          ],
-          "ts": 1787203576000,
-          "time": "13:26:16",
-          "receivedAt": 1787204901393,
           "receivedTime": true
         }
       ],
