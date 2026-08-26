@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T04:06:45.833Z",
+  "updatedAt": "2026-08-26T04:51:29.029Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1360,24 +1360,114 @@
           "time": "21:30:42",
           "receivedAt": 1786458817229,
           "receivedTime": true
-        },
-        {
-          "id": "6873",
-          "url": "https://t.me/BWEtradfi/6873",
-          "title": "DB: 澳洲联储维持现金利率目标于4.35%不变；预期为4.35%",
-          "body": "DB: *RBA LEAVES CASH RATE TARGET AT 4.35%; EST. 4.35%",
-          "tags": [],
-          "ts": 1786422616000,
-          "time": "12:30:16",
-          "receivedAt": 1786422911449,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "229900",
+          "url": "https://t.me/jin10light/229900",
+          "title": "PONS市值升至1.2亿美元上方，24小时涨幅超36%",
+          "body": "#PONS #Robinhood Chain",
+          "tags": [
+            "#PONS",
+            "#Robinhood"
+          ],
+          "ts": 1787719094000,
+          "time": "12:38:14",
+          "receivedAt": 1787719878801,
+          "receivedTime": true
+        },
+        {
+          "id": "229899",
+          "url": "https://t.me/jin10light/229899",
+          "title": "某巨鲸从OKX提取223万美元HYPE，累计持有量达533万美元",
+          "body": "#HYPE #OKX",
+          "tags": [
+            "#HYPE",
+            "#OKX"
+          ],
+          "ts": 1787718852000,
+          "time": "12:34:12",
+          "receivedAt": 1787719878801,
+          "receivedTime": true
+        },
+        {
+          "id": "229898",
+          "url": "https://t.me/jin10light/229898",
+          "title": "瑞穗：本轮加密反弹质量优于以往，资金结构或由现货和ETF驱动",
+          "body": "#BTC #Mizuho #Robinhood",
+          "tags": [
+            "#BTC",
+            "#Mizuho",
+            "#Robinhood"
+          ],
+          "ts": 1787718556000,
+          "time": "12:29:16",
+          "receivedAt": 1787719878801,
+          "receivedTime": true
+        },
+        {
+          "id": "229897",
+          "url": "https://t.me/jin10light/229897",
+          "title": "「BTC OG内幕巨鲸」做空ZEC浮亏1110万美元",
+          "body": "#ZEC #BTC",
+          "tags": [
+            "#ZEC",
+            "#BTC"
+          ],
+          "ts": 1787717954000,
+          "time": "12:19:14",
+          "receivedAt": 1787719878801,
+          "receivedTime": true
+        },
+        {
+          "id": "229896",
+          "url": "https://t.me/jin10light/229896",
+          "title": "摩根士丹利：英伟达AI融资扩张带来新的信用风险",
+          "body": "#摩根士丹利 #英伟达 #AI",
+          "tags": [
+            "#摩根士丹利",
+            "#英伟达",
+            "#AI"
+          ],
+          "ts": 1787717653000,
+          "time": "12:14:13",
+          "receivedAt": 1787719878801,
+          "receivedTime": true
+        },
+        {
+          "id": "229895",
+          "url": "https://t.me/jin10light/229895",
+          "title": "Binance将于8月27日对以太坊网络钱包进行维护，预计持续一小时",
+          "body": "#Binance #ETH",
+          "tags": [
+            "#Binance",
+            "#ETH"
+          ],
+          "ts": 1787717474000,
+          "time": "12:11:14",
+          "receivedAt": 1787719878801,
+          "receivedTime": true
+        },
+        {
+          "id": "229894",
+          "url": "https://t.me/jin10light/229894",
+          "title": "港股「AI双雄」遭创纪录做空：MiniMax空仓比例冲到20%",
+          "body": "#MiniMax #智谱 AI #港股",
+          "tags": [
+            "#MiniMax",
+            "#智谱",
+            "#港股"
+          ],
+          "ts": 1787717354000,
+          "time": "12:09:14",
+          "receivedAt": 1787719878801,
+          "receivedTime": true
+        },
         {
           "id": "229893",
           "url": "https://t.me/jin10light/229893",
@@ -18553,108 +18643,6 @@
           "time": "17:25:17",
           "receivedAt": 1787219055807,
           "receivedTime": true
-        },
-        {
-          "id": "228700",
-          "url": "https://t.me/jin10light/228700",
-          "title": "韩媒：三星电子拟推出150万亿韩元股东回报计划，规模或创韩国上市公司纪录",
-          "body": "#三星电子 #韩国 #股东回报",
-          "tags": [
-            "#三星电子",
-            "#韩国",
-            "#股东回报"
-          ],
-          "ts": 1787217617000,
-          "time": "17:20:17",
-          "receivedAt": 1787219055807,
-          "receivedTime": true
-        },
-        {
-          "id": "228699",
-          "url": "https://t.me/jin10light/228699",
-          "title": "上期能源进一步扩大合格境外投资者可交易品种范围，新增开放低硫燃料油期权",
-          "body": "8月20日讯，上期能源公告，经中国证监会同意，自2026年9月10日（即当日9:00开盘）起，上海国际能源交易中心将进一步扩大合格境外机构投资者和人民币合格境外机构投资者（统称合格境外投资者）可交易品种范围，新增开放以下商品期权：低硫燃料油期权。 #上期能源 #中国",
-          "tags": [
-            "#上期能源",
-            "#中国"
-          ],
-          "ts": 1787217496000,
-          "time": "17:18:16",
-          "receivedAt": 1787219055807,
-          "receivedTime": true
-        },
-        {
-          "id": "228698",
-          "url": "https://t.me/jin10light/228698",
-          "title": "OpenAI CFO内部放出三组增长数据：整体涨35%，企业涨50%，周活2000万",
-          "body": "#OpenAI #Sarah Friar #Anthropic",
-          "tags": [
-            "#OpenAI",
-            "#Sarah",
-            "#Anthropic"
-          ],
-          "ts": 1787217253000,
-          "time": "17:14:13",
-          "receivedAt": 1787219055807,
-          "receivedTime": true
-        },
-        {
-          "id": "228697",
-          "url": "https://t.me/jin10light/228697",
-          "title": "欧元兑美元EUR/USD突破1.17，为5月14日以来首次，日内涨0.21%。",
-          "body": "#欧元 #美元 #EUR /USD",
-          "tags": [
-            "#欧元",
-            "#美元",
-            "#EUR"
-          ],
-          "ts": 1787217134000,
-          "time": "17:12:14",
-          "receivedAt": 1787219055807,
-          "receivedTime": true
-        },
-        {
-          "id": "228696",
-          "url": "https://t.me/jin10light/228696",
-          "title": "美媒：美方认为伊阿会谈几周前便已破裂",
-          "body": "#美国 #伊朗 #特朗普",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#特朗普"
-          ],
-          "ts": 1787217075000,
-          "time": "17:11:15",
-          "receivedAt": 1787219055807,
-          "receivedTime": true
-        },
-        {
-          "id": "228695",
-          "url": "https://t.me/jin10light/228695",
-          "title": "巨鲸「先定10个大目标」再次止损大幅减仓BTC和ETH空单，剩余仓位仍浮亏超200万美元",
-          "body": "#BTC #ETH",
-          "tags": [
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1787216774000,
-          "time": "17:06:14",
-          "receivedAt": 1787219055807,
-          "receivedTime": true
-        },
-        {
-          "id": "228694",
-          "url": "https://t.me/jin10light/228694",
-          "title": "网易(NTES.O)美股盘前一度下跌6%。",
-          "body": "#网易 #美股",
-          "tags": [
-            "#网易",
-            "#美股"
-          ],
-          "ts": 1787216533000,
-          "time": "17:02:13",
-          "receivedAt": 1787216606797,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -18662,6 +18650,17 @@
     "poly": {
       "channel": "PolyBeats_Bot",
       "items": [
+        {
+          "id": "1811",
+          "url": "https://t.me/PolyBeats_Bot/1811",
+          "title": "中东使馆开始恢复人员，地缘政治聪明钱预测美对伊停火持续到 10 月",
+          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 美国对伊朗的停火将持续到 10 月？ 」投入 $4.8k「是」，平均买入概率为 73.0%，目前「是」概率为 81.5%。 Trading4Fridge 投入 $4.8k，与本市场最佳相关板块为 地缘政治 ，板块净盈利 $38.4k。其在该板块共 1012 笔已结算交易的胜率为 590/1012（58%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 345 笔。相近成本价区间（$0.651-$0.8）内，其历史投入金额中位数为 $1.1k。 路透社 25 日报道，美国和伊朗已经连续数周没有对彼此的军事目标实施空袭。霍尔木兹海峡附近仍有海上冲突，美国对伊朗本土的新一轮直接空袭尚未出现。海峡石油运输量已经恢复至每日约 500 万桶。 25 日，美国开始安排外交人员返回黎巴嫩、以色列、沙特阿拉伯和伊拉克等地的使领馆。部分人员最早于本周返岗，部分使馆初期恢复至核定编制的 75%–85%。这项安排反映出美国对近期地区安全风险的最新评估。 24 日，美国财政部对约 60 个与伊朗有关的个人、实体和船只实施制裁，并暂缓立即启动更广泛的二级制裁。路透社与益普索同日公...",
+          "tags": [],
+          "ts": 1787717458000,
+          "time": "12:10:58",
+          "receivedAt": 1787719888648,
+          "receivedTime": true
+        },
         {
           "id": "1810",
           "url": "https://t.me/PolyBeats_Bot/1810",
@@ -19806,17 +19805,6 @@
           "ts": 1786426861000,
           "time": "13:41:01",
           "receivedAt": 1786429928071,
-          "receivedTime": true
-        },
-        {
-          "id": "1706",
-          "url": "https://t.me/PolyBeats_Bot/1706",
-          "title": "以太坊是否回暖？猜涨跌 93% 胜率的账户 all in 预测以太坊是否跌穿 $1,500",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 以太坊会在今年内跌至 $1,500 吗？ 」投入超 40 万美元，目前「是」概率为 43.5%。 账户1 与本市场最佳相关板块为 加密货币价格 ，板块净盈利 $74.8k。其在该板块共 74 笔已结算交易的胜率为 69/74（93%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 2 笔。本笔投入为其相近成本价区间内历史投入金额中位数的 67.3 倍。",
-          "tags": [],
-          "ts": 1786423381000,
-          "time": "12:43:01",
-          "receivedAt": 1786426743687,
           "receivedTime": true
         }
       ],
