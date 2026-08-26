@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-08-26T13:10:58.093Z",
+  "updatedAt": "2026-08-26T14:02:41.726Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7000",
+          "url": "https://t.me/BWEtradfi/7000",
+          "title": "DB: 标普500指数开盘下跌0.1%，纳斯达克指数下跌0.2%",
+          "body": "DB: *S&P 500 OPENS DOWN 0.1%, NASDAQ DECLINES 0.2%",
+          "tags": [],
+          "ts": 1787751042000,
+          "time": "21:30:42",
+          "receivedAt": 1787752947299,
+          "receivedTime": true
+        },
         {
           "id": "6999",
           "url": "https://t.me/BWEtradfi/6999",
@@ -1382,35 +1393,268 @@
           "time": "03:39:44",
           "receivedAt": 1786478771968,
           "receivedTime": true
-        },
-        {
-          "id": "6875",
-          "url": "https://t.me/BWEtradfi/6875",
-          "title": "DB: *美国7月成屋销售量为406万套；预期为405万套",
-          "body": "DB: *US JULY EXISTING HOME SALES AT 4.06M; EST. 4.05M *US JULY EXISTING HOME SALES FALL 1.7% M/M; EST. -1.0% *美国7月成屋销售量环比下降1.7%；预期为下降1.0%",
-          "tags": [],
-          "ts": 1786456813000,
-          "time": "22:00:13",
-          "receivedAt": 1786458817229,
-          "receivedTime": true
-        },
-        {
-          "id": "6874",
-          "url": "https://t.me/BWEtradfi/6874",
-          "title": "DB: 标普500指数开盘上涨0.1%，纳斯达克指数上涨0.2%",
-          "body": "DB: *S&P 500 OPENS 0.1% HIGHER, NASDAQ UP 0.2%",
-          "tags": [],
-          "ts": 1786455042000,
-          "time": "21:30:42",
-          "receivedAt": 1786458817229,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "230030",
+          "url": "https://t.me/jin10light/230030",
+          "title": "选GPT-5.6却给你5.5-mini，OpenAI承认是Bug",
+          "body": "#GPT -5.6 #GPT -5.5-mini #OpenAI",
+          "tags": [
+            "#GPT",
+            "#OpenAI"
+          ],
+          "ts": 1787752816000,
+          "time": "22:00:16",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230029",
+          "url": "https://t.me/jin10light/230029",
+          "title": "观点：美SEC推出的「加密资产监管」提案或将不会引发新一轮ICO热潮",
+          "body": "#美国 #SEC #加密货币",
+          "tags": [
+            "#美国",
+            "#SEC",
+            "#加密货币"
+          ],
+          "ts": 1787752280000,
+          "time": "21:51:20",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230028",
+          "url": "https://t.me/jin10light/230028",
+          "title": "META转跌，此前一度涨超3%",
+          "body": "",
+          "tags": [],
+          "ts": 1787751678000,
+          "time": "21:41:18",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230027",
+          "url": "https://t.me/jin10light/230027",
+          "title": "美股开盘存储股走强、Neocloud股普跌，WDC涨超3%、GLXY跌近4%",
+          "body": "#美股 #西部数据 #希捷科技",
+          "tags": [
+            "#美股",
+            "#西部数据",
+            "#希捷科技"
+          ],
+          "ts": 1787751677000,
+          "time": "21:41:17",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230026",
+          "url": "https://t.me/jin10light/230026",
+          "title": "布伦特原油抹去日内跌幅，突破86美元/桶，日内涨0.17%。",
+          "body": "WTI原油现涨0.08%，报80.78美元/桶。 #布伦特原油 #WTI原油",
+          "tags": [
+            "#布伦特原油",
+            "#WTI原油"
+          ],
+          "ts": 1787751612000,
+          "time": "21:40:12",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230025",
+          "url": "https://t.me/jin10light/230025",
+          "title": "以太坊研究人员提出抗量子质押方案，拟重构验证者存款合约",
+          "body": "#ETH #以太坊基金会 #Google Quantum AI",
+          "tags": [
+            "#ETH",
+            "#以太坊基金会",
+            "#Google"
+          ],
+          "ts": 1787751557000,
+          "time": "21:39:17",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230024",
+          "url": "https://t.me/jin10light/230024",
+          "title": "美股开盘加密概念股全线下跌，GEMI、ABTC均跌超4%",
+          "body": "#美股 #加密概念股 #BTC",
+          "tags": [
+            "#美股",
+            "#加密概念股",
+            "#BTC"
+          ],
+          "ts": 1787751317000,
+          "time": "21:35:17",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230023",
+          "url": "https://t.me/jin10light/230023",
+          "title": "美股开盘，纳指跌0.22%，META涨约3%",
+          "body": "#美股 #Meta Platforms #道指",
+          "tags": [
+            "#美股",
+            "#Meta",
+            "#道指"
+          ],
+          "ts": 1787751133000,
+          "time": "21:32:13",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230022",
+          "url": "https://t.me/jin10light/230022",
+          "title": "美股开盘，道指跌0.19%，标普500指数跌0.02%，纳指跌0.22%。",
+          "body": "Meta Platforms(META.O)涨约3%，该公司同意就平台对儿童造成危害的指控达成和解。 #美股 #Meta Platforms",
+          "tags": [
+            "#美股",
+            "#Meta"
+          ],
+          "ts": 1787751076000,
+          "time": "21:31:16",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230021",
+          "url": "https://t.me/jin10light/230021",
+          "title": "MiniMax：推进M3和H3的国产芯片适配 大规模国产算力集群将上线",
+          "body": "8月26日讯，从MiniMax的2026年中期业绩电话会上了解到，公司正在推进M3和H3的国产芯片适配，大规模国产算力集群将很快上线，并逐步承担真实生产流量。 #MiniMax #M3 #H3",
+          "tags": [
+            "#MiniMax",
+            "#M3",
+            "#H3"
+          ],
+          "ts": 1787750897000,
+          "time": "21:28:17",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230020",
+          "url": "https://t.me/jin10light/230020",
+          "title": "美SEC将加密资产托管规则提案送交白宫审查",
+          "body": "#美国 #SEC #加密货币",
+          "tags": [
+            "#美国",
+            "#SEC",
+            "#加密货币"
+          ],
+          "ts": 1787750840000,
+          "time": "21:27:20",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230019",
+          "url": "https://t.me/jin10light/230019",
+          "title": "美国总统特朗普：价格正在下降。",
+          "body": "#特朗普 #美国",
+          "tags": [
+            "#特朗普",
+            "#美国"
+          ],
+          "ts": 1787750534000,
+          "time": "21:22:14",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230018",
+          "url": "https://t.me/jin10light/230018",
+          "title": "特朗普：霍尔木兹海峡正常运作，大量石油正在流出",
+          "body": "#特朗普 #霍尔木兹海峡",
+          "tags": [
+            "#特朗普",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787750476000,
+          "time": "21:21:16",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230017",
+          "url": "https://t.me/jin10light/230017",
+          "title": "美国总统特朗普：昨晚有22艘船只通过霍尔木兹海峡。",
+          "body": "#特朗普 #霍尔木兹海峡",
+          "tags": [
+            "#特朗普",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787750296000,
+          "time": "21:18:16",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230016",
+          "url": "https://t.me/jin10light/230016",
+          "title": "现货黄金向下触及4600美元/盎司关口",
+          "body": "",
+          "tags": [],
+          "ts": 1787750233000,
+          "time": "21:17:13",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230015",
+          "url": "https://t.me/jin10light/230015",
+          "title": "特朗普：我认为伊朗最高领袖没有死，可能遭受重伤",
+          "body": "#特朗普 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787750175000,
+          "time": "21:16:15",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230014",
+          "url": "https://t.me/jin10light/230014",
+          "title": "重要新é",
+          "body": "1.伊朗称已就海峡收入分配与阿曼达成一致，美方介入令进程延误。 2. 美国7月核心PCE物价指数年率为3.3%，较上月持平，符合市场预期。 个股新é 1.OpenAI高层持续变动，数据中心负责人离开公司。 2. 阿里巴巴(BABA.N)千问发布Qwen3.8-Flash模型。 3. 美光科技(MU.O)宣布新的领导层任命，以加速创新与增长。 4. 上海数据中心“人去楼空”？特斯拉(TSLA.O)中国回应：不实消息。 5. 三星电子、SK海力士计划下半年增加对英伟达(NVDA.O)8层HBM4内存供应量。 6. 理想汽车(LI.O)2026年Q2营收25...",
+          "tags": [
+            "#伊朗",
+            "#阿曼",
+            "#美国"
+          ],
+          "ts": 1787750058000,
+          "time": "21:14:18",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
+        {
+          "id": "230013",
+          "url": "https://t.me/jin10light/230013",
+          "title": "Coinbase首席政策官反驳美国银行家协会：没有证据表明稳定币奖励会导致银行存款外流",
+          "body": "#Coinbase #USDC",
+          "tags": [
+            "#Coinbase",
+            "#USDC"
+          ],
+          "ts": 1787749938000,
+          "time": "21:12:18",
+          "receivedAt": 1787752948085,
+          "receivedTime": true
+        },
         {
           "id": "230012",
           "url": "https://t.me/jin10light/230012",
@@ -18435,262 +18679,6 @@
           "ts": 1787245276000,
           "time": "01:01:16",
           "receivedAt": 1787246298722,
-          "receivedTime": true
-        },
-        {
-          "id": "228830",
-          "url": "https://t.me/jin10light/228830",
-          "title": "花旗：下调美元短期预期",
-          "body": "#美元 #美联储 #花旗集团",
-          "tags": [
-            "#美元",
-            "#美联储",
-            "#花旗集团"
-          ],
-          "ts": 1787244915000,
-          "time": "00:55:15",
-          "receivedAt": 1787246298722,
-          "receivedTime": true
-        },
-        {
-          "id": "228829",
-          "url": "https://t.me/jin10light/228829",
-          "title": "「麻吉」持续加仓做多ETH，总浮盈430万美元",
-          "body": "#黄立成 #ETH #BTC",
-          "tags": [
-            "#黄立成",
-            "#ETH",
-            "#BTC"
-          ],
-          "ts": 1787244734000,
-          "time": "00:52:14",
-          "receivedAt": 1787244838093,
-          "receivedTime": true
-        },
-        {
-          "id": "228828",
-          "url": "https://t.me/jin10light/228828",
-          "title": "Peter Schiff：比特币上涨只是「假突破」，建议卖出BTC买入黄金",
-          "body": "#BTC #美国 #Peter Schiff",
-          "tags": [
-            "#BTC",
-            "#美国",
-            "#Peter"
-          ],
-          "ts": 1787244197000,
-          "time": "00:43:17",
-          "receivedAt": 1787244838093,
-          "receivedTime": true
-        },
-        {
-          "id": "228827",
-          "url": "https://t.me/jin10light/228827",
-          "title": "富兰克林邓普顿计划将代币化资产引入传统基金",
-          "body": "#美国 #SEC",
-          "tags": [
-            "#美国",
-            "#SEC"
-          ],
-          "ts": 1787243778000,
-          "time": "00:36:18",
-          "receivedAt": 1787244838093,
-          "receivedTime": true
-        },
-        {
-          "id": "228826",
-          "url": "https://t.me/jin10light/228826",
-          "title": "Coinbase公开喊话X：呼吁恢复比特币Emoji表情",
-          "body": "#BTC #Coinbase #X",
-          "tags": [
-            "#BTC",
-            "#Coinbase",
-            "#X"
-          ],
-          "ts": 1787242875000,
-          "time": "00:21:15",
-          "receivedAt": 1787244838093,
-          "receivedTime": true
-        },
-        {
-          "id": "228825",
-          "url": "https://t.me/jin10light/228825",
-          "title": "美CFTC将召开首次创新咨询委员会会议，讨论加密货币等议题",
-          "body": "#美国 #CFTC #加密货币",
-          "tags": [
-            "#美国",
-            "#CFTC",
-            "#加密货币"
-          ],
-          "ts": 1787242454000,
-          "time": "00:14:14",
-          "receivedAt": 1787242660223,
-          "receivedTime": true
-        },
-        {
-          "id": "228824",
-          "url": "https://t.me/jin10light/228824",
-          "title": "隐私项目Beldex完成800万美元融资，Sigma Capital领投",
-          "body": "#Beldex #Sigma Capital #Web3",
-          "tags": [
-            "#Beldex",
-            "#Sigma",
-            "#Web3"
-          ],
-          "ts": 1787242275000,
-          "time": "00:11:15",
-          "receivedAt": 1787242660223,
-          "receivedTime": true
-        },
-        {
-          "id": "228823",
-          "url": "https://t.me/jin10light/228823",
-          "title": "过去24小时全网爆仓17.72亿美元，全球超14万人被爆仓",
-          "body": "#加密货币 #BTC #ETH",
-          "tags": [
-            "#加密货币",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1787241975000,
-          "time": "00:06:15",
-          "receivedAt": 1787242660223,
-          "receivedTime": true
-        },
-        {
-          "id": "228822",
-          "url": "https://t.me/jin10light/228822",
-          "title": "今日重点关注的财经数据与事件：2026年8月21日 周五",
-          "body": "① 待定 恒生指数公司宣布二季度指数检讨结果 ② 02:30 美油移仓换月 ③ 07:01 英国8月Gfk消费者信心指数 ④ 07:30 日本7月核心CPI年率 ⑤ 14:00 英国7月公共部门净借款 ⑥ 14:00 英国7月季调后零售销售月率 ⑦ 15:15 法国8月制造业PMI初值 ⑧ 15:30 德国8月制造业PMI初值 ⑨ 16:00 欧元区8月制造业PMI初值 ⑩ 16:30 英国8月制造业PMI初值 ⑪ 16:30 英国8月服务业PMI初值 ⑫ 20:30 加拿大6月零售销售月率 ⑬ 21:45 美国8月标普全球制造业PMI初值 ⑭ 21:...",
-          "tags": [
-            "#恒生指数",
-            "#美国",
-            "#英国"
-          ],
-          "ts": 1787241676000,
-          "time": "00:01:16",
-          "receivedAt": 1787242660223,
-          "receivedTime": true
-        },
-        {
-          "id": "228821",
-          "url": "https://t.me/jin10light/228821",
-          "title": "Coinbase CEO：比特币未来几年可能将涨至30万至40万美元",
-          "body": "#BTC #Coinbase #Brian Armstrong",
-          "tags": [
-            "#BTC",
-            "#Coinbase",
-            "#Brian"
-          ],
-          "ts": 1787241494000,
-          "time": "23:58:14",
-          "receivedAt": 1787242660223,
-          "receivedTime": true
-        },
-        {
-          "id": "228820",
-          "url": "https://t.me/jin10light/228820",
-          "title": "Ethos将于9月1日开启WHUF代币拍卖，起始FDV 100万美元",
-          "body": "#Ethos Network #WHUF",
-          "tags": [
-            "#Ethos",
-            "#WHUF"
-          ],
-          "ts": 1787241205000,
-          "time": "23:53:25",
-          "receivedAt": 1787242660223,
-          "receivedTime": true
-        },
-        {
-          "id": "228819",
-          "url": "https://t.me/jin10light/228819",
-          "title": "传OpenAI几周内发布Astra：员工已在Codex里试用新版本",
-          "body": "#OpenAI #Astra",
-          "tags": [
-            "#OpenAI",
-            "#Astra"
-          ],
-          "ts": 1787240954000,
-          "time": "23:49:14",
-          "receivedAt": 1787241165636,
-          "receivedTime": true
-        },
-        {
-          "id": "228818",
-          "url": "https://t.me/jin10light/228818",
-          "title": "纳指跌幅达1%，道指下跌0.8%，标普500指数下跌0.4%。",
-          "body": "#美股 #纳指 #道指",
-          "tags": [
-            "#美股",
-            "#纳指",
-            "#道指"
-          ],
-          "ts": 1787240595000,
-          "time": "23:43:15",
-          "receivedAt": 1787241165636,
-          "receivedTime": true
-        },
-        {
-          "id": "228817",
-          "url": "https://t.me/jin10light/228817",
-          "title": "美联储穆萨莱姆：现在加息可能有助于避免未来采取更激进的行动。",
-          "body": "",
-          "tags": [],
-          "ts": 1787240002000,
-          "time": "23:33:22",
-          "receivedAt": 1787241165636,
-          "receivedTime": true
-        },
-        {
-          "id": "228816",
-          "url": "https://t.me/jin10light/228816",
-          "title": "比特币逼近形成「黄金交叉」，长期看涨信号再现",
-          "body": "#BTC #比特币回升",
-          "tags": [
-            "#BTC",
-            "#比特币回升"
-          ],
-          "ts": 1787240001000,
-          "time": "23:33:21",
-          "receivedAt": 1787241165636,
-          "receivedTime": true
-        },
-        {
-          "id": "228815",
-          "url": "https://t.me/jin10light/228815",
-          "title": "Coldcard发布新固件强化安全，受影响用户需重新生成助记词并迁移资产",
-          "body": "#Coldcard #BTC",
-          "tags": [
-            "#Coldcard",
-            "#BTC"
-          ],
-          "ts": 1787239695000,
-          "time": "23:28:15",
-          "receivedAt": 1787241165636,
-          "receivedTime": true
-        },
-        {
-          "id": "228814",
-          "url": "https://t.me/jin10light/228814",
-          "title": "美国财长贝森特：（关于债券动态）任何24小时内的变动都是噪音。",
-          "body": "#美国 #贝森特",
-          "tags": [
-            "#美国",
-            "#贝森特"
-          ],
-          "ts": 1787239458000,
-          "time": "23:24:18",
-          "receivedAt": 1787241165636,
-          "receivedTime": true
-        },
-        {
-          "id": "228813",
-          "url": "https://t.me/jin10light/228813",
-          "title": "美国财长：将观察美债情况以及是否需要更多行动",
-          "body": "",
-          "tags": [],
-          "ts": 1787239273000,
-          "time": "23:21:13",
-          "receivedAt": 1787241165636,
           "receivedTime": true
         }
       ],
