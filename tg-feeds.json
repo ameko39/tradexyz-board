@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-08-26T21:18:15.947Z",
+  "updatedAt": "2026-08-27T00:51:36.443Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7019",
+          "url": "https://t.me/BWEtradfi/7019",
+          "title": "*据内部人士透露，英伟达正洽谈以超过130亿美元收购Hugging Face",
+          "body": "*NVIDIA IN TALKS TO BUY HUGGING FACE FOR OVER $13B: INSIDER $NVDA $NVDA",
+          "tags": [],
+          "ts": 1787790974000,
+          "time": "08:36:14",
+          "receivedAt": 1787791879938,
+          "receivedTime": true
+        },
+        {
+          "id": "7018",
+          "url": "https://t.me/BWEtradfi/7018",
+          "title": "*英伟达首席财务官：预计供应瓶颈至少会持续到2028财年末",
+          "body": "*NVIDIA CFO: EXPECT SUPPLY TO REMAIN A BOTTLENECK AT LEAST THROUGH THE END OF FISCAL YEAR 28 *NVIDIA CFO: EXPECT MARGINS TO BOTTOM IN Q4 IN 71-72% RANGE *NVIDIA SAYS MARGINS UNDER PRESS FROM EXTREME MEMORY PRICE $NVDA *英伟达首席财务官：预计第四季度利润率将触底，维持在71%-72%的区间 *英伟达表示，Extreme内存价格上涨令利润率承压 $NVDA",
+          "tags": [],
+          "ts": 1787779572000,
+          "time": "05:26:12",
+          "receivedAt": 1787791879938,
+          "receivedTime": true
+        },
+        {
+          "id": "7017",
+          "url": "https://t.me/BWEtradfi/7017",
+          "title": "*NVIDIA首席财务官：我们知道有些人会称之为循环融资。我们有不同的看法。",
+          "body": "*NVIDIA CFO: WE KNOW SOME WILL CALL THIS CIRCULAR FINANCING. WE SEE IT DIFFERENTLY *NVIDIA CFO: WE ARE GOING THROUGH...THE CREATION OF ONE OF THE MOST IMPORTANT TECHNOLOGIES IN HUMAN HISTORY *NVIDIA CFO: THESE ARE ONCE IN A GENERATION COMPANIES, THE TECHNOLOGY LEADERSHIP IS… *NVIDIA首席财务官：我们正在经历……人类...",
+          "tags": [],
+          "ts": 1787779426000,
+          "time": "05:23:46",
+          "receivedAt": 1787791879938,
+          "receivedTime": true
+        },
         {
           "id": "7016",
           "url": "https://t.me/BWEtradfi/7016",
@@ -1530,11 +1563,258 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "230105",
+          "url": "https://t.me/jin10light/230105",
+          "title": "韩国央行宣布加息25BP",
+          "body": "8月27日讯，韩国央行宣布加息25个基点，将基准利率从2.75%上调至3.0%，为连续第二次会议加息，符合市场预期。 #韩国 #韩国央行",
+          "tags": [
+            "#韩国",
+            "#韩国央行"
+          ],
+          "ts": 1787791876000,
+          "time": "08:51:16",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230104",
+          "url": "https://t.me/jin10light/230104",
+          "title": "英伟达正洽谈以超130亿美元收购Hugging Face",
+          "body": "#英伟达 #Hugging Face #NVDA",
+          "tags": [
+            "#英伟达",
+            "#Hugging",
+            "#NVDA"
+          ],
+          "ts": 1787791574000,
+          "time": "08:46:14",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230103",
+          "url": "https://t.me/jin10light/230103",
+          "title": "据Business Insider：英伟达(NVDA.O)正在洽谈以超过130亿美元收购Hugging Face。",
+          "body": "#英伟达 #Hugging Face",
+          "tags": [
+            "#英伟达",
+            "#Hugging"
+          ],
+          "ts": 1787791213000,
+          "time": "08:40:13",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230102",
+          "url": "https://t.me/jin10light/230102",
+          "title": "英伟达70%增长指引或推动其营收超越苹果和Alphabet，跃居美国科技公司第二",
+          "body": "#英伟达 #黄仁勋 #美国",
+          "tags": [
+            "#英伟达",
+            "#黄仁勋",
+            "#美国"
+          ],
+          "ts": 1787791154000,
+          "time": "08:39:14",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230101",
+          "url": "https://t.me/jin10light/230101",
+          "title": "农产品市场分析：普京重磅表态加码冲突！黑海70艘运粮船被困，12月软冬小麦封涨停，基金买盘与空头回补的强烈共振，小麦、玉米与大豆期货创下合约新高，地缘情绪主导的“暴涨盛宴”能否持续？",
+          "body": "#普京 #黑海 #小麦",
+          "tags": [
+            "#普京",
+            "#黑海",
+            "#小麦"
+          ],
+          "ts": 1787790192000,
+          "time": "08:23:12",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230100",
+          "url": "https://t.me/jin10light/230100",
+          "title": "谷歌重组DeepMind，将90人AI责任团队移出",
+          "body": "#谷歌 #DeepMind #Demis Hassabis",
+          "tags": [
+            "#谷歌",
+            "#DeepMind",
+            "#Demis"
+          ],
+          "ts": 1787789896000,
+          "time": "08:18:16",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230099",
+          "url": "https://t.me/jin10light/230099",
+          "title": "CASHCAT市值短时突破2.5亿美元创历史新高，日内涨超31%",
+          "body": "#CASHCAT #Meme 币",
+          "tags": [
+            "#CASHCAT",
+            "#Meme"
+          ],
+          "ts": 1787789596000,
+          "time": "08:13:16",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230098",
+          "url": "https://t.me/jin10light/230098",
+          "title": "韩国KOSPI指数盘初涨2.5%，SK海力士涨5%",
+          "body": "",
+          "tags": [],
+          "ts": 1787788993000,
+          "time": "08:03:13",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230097",
+          "url": "https://t.me/jin10light/230097",
+          "title": "英伟达罕见提前给出下财年业绩指引：预计营收增长约70%，远超市场预期",
+          "body": "#英伟达 #NVDA #美股",
+          "tags": [
+            "#英伟达",
+            "#NVDA",
+            "#美股"
+          ],
+          "ts": 1787788874000,
+          "time": "08:01:14",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230096",
+          "url": "https://t.me/jin10light/230096",
+          "title": "英伟达超预期财报带动AI概念股盘后集体走高，NBIS涨超6%、NVDA涨超4%",
+          "body": "#英伟达 #NVDA #美股",
+          "tags": [
+            "#英伟达",
+            "#NVDA",
+            "#美股"
+          ],
+          "ts": 1787788213000,
+          "time": "07:50:13",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230095",
+          "url": "https://t.me/jin10light/230095",
+          "title": "美股收盘光通信、存储及半导体股走强，Neocloud股普跌，LITE涨超6%、IREN跌超6%",
+          "body": "#美股 #Lumentum #Ciena",
+          "tags": [
+            "#美股",
+            "#Lumentum",
+            "#Ciena"
+          ],
+          "ts": 1787787614000,
+          "time": "07:40:14",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230094",
+          "url": "https://t.me/jin10light/230094",
+          "title": "英伟达Q2营收962.2亿美元超预期，Q3指引达1080亿美元",
+          "body": "#英伟达 #美国 #亚马逊云服务",
+          "tags": [
+            "#英伟达",
+            "#美国",
+            "#亚马逊云服务"
+          ],
+          "ts": 1787787314000,
+          "time": "07:35:14",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230093",
+          "url": "https://t.me/jin10light/230093",
+          "title": "今日重点关注的财经数据与事件：2026年8月27日 周四",
+          "body": "① 待定 杰克逊霍尔全球央行年会举行 ② 14:00 德国9月Gfk消费者信心指数 ③ 15:00 商务部召开例行新闻发布会 ④ 19:30 欧洲央行公布货币政策会议纪要 ⑤ 20:30 加拿大第二季度经常帐 ⑥ 20:30 美国至8月22日当周初请失业金人数 ⑦ 22:30 美国至8月21日当周EIA天然气库存 #德国 #欧洲央行 #加拿大",
+          "tags": [
+            "#德国",
+            "#欧洲央行",
+            "#加拿大"
+          ],
+          "ts": 1787784675000,
+          "time": "06:51:15",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230092",
+          "url": "https://t.me/jin10light/230092",
+          "title": "国内新闻ï",
+          "body": "1.习近平将出席2026年上海合作组织峰会并对吉尔吉斯斯坦、埃及进行国事访问。 2. 智谱认领“牛来”，并宣布上线、开源GLM-5.3-Flash。 3. 俄工厂火灾事故致多名中国公民伤亡。 4. 西藏吉隆遭受泥石流灾害，已造成3人遇难265人失联。 5. 上海印发《上海市战略性新兴产业发展“十五五”规划》。 国际新闻ï 1.黑海出口受阻，CBOT小麦期货创近3年以来新高。 2. 尼泊尔北部山洪暴发已致97人死亡，403人失踪。 3. Meta愿支付最高170亿美元和解社交媒体成瘾诉讼。 4. EIA报告：8月21日当周美国战略石油储备（SPR）库存减...",
+          "tags": [
+            "#习近平",
+            "#上海合作组织",
+            "#吉尔吉斯斯坦"
+          ],
+          "ts": 1787783477000,
+          "time": "06:31:17",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230091",
+          "url": "https://t.me/jin10light/230091",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少2.853吨，当前持仓量为1045.495吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1787783054000,
+          "time": "06:24:14",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230090",
+          "url": "https://t.me/jin10light/230090",
+          "title": "整理：中东局势跟踪（8月27日）",
+          "body": "冲突情å 1.伊朗副外长称对美先发制人也是选项。 2. 以色列国防军：已打击加沙一处被哈马斯用作伏击位置的建筑。 3. 美国总统特朗普声称伊朗最高领袖受伤，但没有死亡。 4. 伊朗称实施多次“先发制人行动”，军力已获补充。 5. 据沙特阿拉伯阿拉比亚电视台：也门摩卡港传出两声爆炸声，胡塞武装再次向摩卡发射导弹。 6. 据塔斯尼姆通讯社：叙利亚当地消息人士称，以色列军队炮兵袭击了大马士革附近叙方高地。 7. 据Axios：美国国务卿鲁比奥近日已告知多名外国对口官员，目前而言，美国预计不会对伊朗发起新的军事打击。 霍尔木兹海å 1.霍尔木兹海峡周二船只通航...",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1787782096000,
+          "time": "06:08:16",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
+        {
+          "id": "230089",
+          "url": "https://t.me/jin10light/230089",
+          "title": "大超预期 英伟达罕见提前给出财年业绩指引",
+          "body": "8月27日讯，英伟达(NVDA.O)在美股周三盘后公布了超预期的2027财年第二季度业绩报告，但仍未能打动部分高预期投资者，股价盘后一度跌3%。 公司首席财务官Colette Kress随后在与分析师的电话会议上加码了利好，其预计，公司2028财年营收将增长约70%，而此前分析师的预期为44%。 Kress称：“令人难以置信的是，即便以我们目前的规模，需求仍在加速增长。 客户预测显示，明年的增长将翻一番。 不过，正如我之前提到的，由于供应受限，我们预计增长幅度约为70%。 ”英伟达CEO黄仁勋则表示，公司从未提前一年给出业绩指引，实际上需求增长已超过7...",
+          "tags": [
+            "#英伟达",
+            "#美股",
+            "#黄仁勋"
+          ],
+          "ts": 1787780954000,
+          "time": "05:49:14",
+          "receivedAt": 1787791881748,
+          "receivedTime": true
+        },
         {
           "id": "230088",
           "url": "https://t.me/jin10light/230088",
@@ -18569,255 +18849,6 @@
           "ts": 1787282714000,
           "time": "11:25:14",
           "receivedAt": 1787284907781,
-          "receivedTime": true
-        },
-        {
-          "id": "228905",
-          "url": "https://t.me/jin10light/228905",
-          "title": "MANTRA Chain因安全事件暂停运行，存取款功能暂时受影响",
-          "body": "#MANTRA Chain #加密货币",
-          "tags": [
-            "#MANTRA",
-            "#加密货币"
-          ],
-          "ts": 1787282473000,
-          "time": "11:21:13",
-          "receivedAt": 1787284907781,
-          "receivedTime": true
-        },
-        {
-          "id": "228904",
-          "url": "https://t.me/jin10light/228904",
-          "title": "分析师：比特币本轮上涨由空头挤压推动，后续行情仍需真实需求支撑",
-          "body": "#BTC #美国 #特朗普",
-          "tags": [
-            "#BTC",
-            "#美国",
-            "#特朗普"
-          ],
-          "ts": 1787282355000,
-          "time": "11:19:15",
-          "receivedAt": 1787284907781,
-          "receivedTime": true
-        },
-        {
-          "id": "228903",
-          "url": "https://t.me/jin10light/228903",
-          "title": "OKX升级RLUSD奖励：VIP 10% APR额度增至10,000 RLUSD，标准年化升至4.2% APR",
-          "body": "#OKX #RLUSD #XRP",
-          "tags": [
-            "#OKX",
-            "#RLUSD",
-            "#XRP"
-          ],
-          "ts": 1787282235000,
-          "time": "11:17:15",
-          "receivedAt": 1787284907781,
-          "receivedTime": true
-        },
-        {
-          "id": "228902",
-          "url": "https://t.me/jin10light/228902",
-          "title": "20倍杠杆果断追高，Hyperliquid上ETH第四大多头浮盈扩大至730万美元",
-          "body": "#ETH #Hyperliquid #Matrixport",
-          "tags": [
-            "#ETH",
-            "#Hyperliquid",
-            "#Matrixport"
-          ],
-          "ts": 1787282054000,
-          "time": "11:14:14",
-          "receivedAt": 1787284907781,
-          "receivedTime": true
-        },
-        {
-          "id": "228901",
-          "url": "https://t.me/jin10light/228901",
-          "title": "财政部：今年以来消费品以旧换新政策惠及1.78亿人次",
-          "body": "8月21日讯，财政部副部长廖岷8月21日在国新办举行的“开局起步‘十五五’”系列主题新闻发布会上介绍，今年以来，财政部多措并举继续支持鼓励消费。 下达消费品以旧换新资金1875亿元，带动相关商品销售额约1.32万亿元，惠及1.78亿人次。 创新推出财政金融协同促内需一揽子政策，定向支持居民消费和消费行业经营主体，从供需两端同时发力，此项政策已惠及居民1.13亿人次。 在50个试点城市开展有奖发票活动，带动相关领域销售额超3700亿元。 #中国 #财政部 #廖岷",
-          "tags": [
-            "#中国",
-            "#财政部",
-            "#廖岷"
-          ],
-          "ts": 1787281875000,
-          "time": "11:11:15",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228900",
-          "url": "https://t.me/jin10light/228900",
-          "title": "「牛来」模型 ？OpenRouter又放匿名模型，Ox Alpha疑似小米MiMo新模型",
-          "body": "#小米 #MiMo #OpenRouter",
-          "tags": [
-            "#小米",
-            "#MiMo",
-            "#OpenRouter"
-          ],
-          "ts": 1787281812000,
-          "time": "11:10:12",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228899",
-          "url": "https://t.me/jin10light/228899",
-          "title": "Bitget Launchpool项目ALIGN现已开放投入，锁仓BGB和ALIGN解锁966万枚ALIGN",
-          "body": "#Bitget #Aligned #ALIGN",
-          "tags": [
-            "#Bitget",
-            "#Aligned",
-            "#ALIGN"
-          ],
-          "ts": 1787281753000,
-          "time": "11:09:13",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228898",
-          "url": "https://t.me/jin10light/228898",
-          "title": "1. 海力士发布下一代CPO路线图：CPO将延伸至内存接口。",
-          "body": "2. 报道：SK海力士将在日本宫城县建设存储芯片工厂。 3. 三星拟宣布股东回报计划，规模或高达790亿美元。 4. 三星晶圆代工技术蓝图调整，1.4纳米延后至2029年量产。 5. 三星电子加快建设其在美国的第二座泰勒工厂。 6. 消息称三星拟将平泽工厂扩建为三层厂房。 7. 美光推出美光研究实验室，未来十年计划投资100亿美元。 8. 美光科技CEO：数据中心客户需求约为公司实际可承诺供应量约150%。 9. 台积电A16工艺完成开发验证，目标Q4量产。 10. Anthropic拟改变数据留存政策，允许企业自行存储。 11. 新一轮芯片涨价潮来袭...",
-          "tags": [
-            "#SK海力士",
-            "#日本",
-            "#三星"
-          ],
-          "ts": 1787281576000,
-          "time": "11:06:16",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228897",
-          "url": "https://t.me/jin10light/228897",
-          "title": "财政部印发关于进一步做好财政金融协同促内需政策有关工作的通知。",
-          "body": "#财政部 #中国",
-          "tags": [
-            "#财政部",
-            "#中国"
-          ],
-          "ts": 1787281521000,
-          "time": "11:05:21",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228896",
-          "url": "https://t.me/jin10light/228896",
-          "title": "财政部：将新发生信用卡各类分期业务纳入个人消费贷款财政贴息政策支持范围，贴息比例为年化1%",
-          "body": "8月21日讯，财政部印发关于进一步做好财政金融协同促内需政策有关工作的通知。 通知提出，将符合条件的中小微民营企业的新发放流动资金贷款纳入中小微企业贷款贴息政策支持范围，中央财政按照流动资金贷款本金给予年化1个百分点、期限不超过2年的贴息支持。 将信用卡专项分期、消费分期、预借现金分期等新发生信用卡各类分期业务纳入个人消费贷款财政贴息政策支持范围，贴息比例为年化1个百分点。 #财政部 #个人消费贷款 #中小微企业",
-          "tags": [
-            "#财政部",
-            "#个人消费贷款",
-            "#中小微企业"
-          ],
-          "ts": 1787281521000,
-          "time": "11:05:21",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228895",
-          "url": "https://t.me/jin10light/228895",
-          "title": "知名交易员：比特币底部已形成，后续或进入区间积累阶段",
-          "body": "#BTC #Killa",
-          "tags": [
-            "#BTC",
-            "#Killa"
-          ],
-          "ts": 1787281520000,
-          "time": "11:05:20",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228894",
-          "url": "https://t.me/jin10light/228894",
-          "title": "高盛：美财政部能压低长债20至40bp，但很难改变最终方向",
-          "body": "#美国 #美联储 #美元",
-          "tags": [
-            "#美国",
-            "#美联储",
-            "#美元"
-          ],
-          "ts": 1787281156000,
-          "time": "10:59:16",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228893",
-          "url": "https://t.me/jin10light/228893",
-          "title": "铂主力合约日内涨超4.00%，现报460.65元/克。",
-          "body": "#铂 #黄金",
-          "tags": [
-            "#铂",
-            "#黄金"
-          ],
-          "ts": 1787280855000,
-          "time": "10:54:15",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228892",
-          "url": "https://t.me/jin10light/228892",
-          "title": "AllScale上线CLI工具，AI Agent可一键完成稳定币收付款",
-          "body": "#AllScale #USDT #USDC",
-          "tags": [
-            "#AllScale",
-            "#USDT",
-            "#USDC"
-          ],
-          "ts": 1787280855000,
-          "time": "10:54:15",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228891",
-          "url": "https://t.me/jin10light/228891",
-          "title": "巨鲸「先定10个大目标」再次开启BTC空单，目前做空83.866枚BTC",
-          "body": "#BTC #巨鲸",
-          "tags": [
-            "#BTC",
-            "#巨鲸"
-          ],
-          "ts": 1787280734000,
-          "time": "10:52:14",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228890",
-          "url": "https://t.me/jin10light/228890",
-          "title": "Coinbase CEO：美国加密监管明确性或于9月中旬迎来关键进展",
-          "body": "#Coinbase #Brian Armstrong #美国",
-          "tags": [
-            "#Coinbase",
-            "#Brian",
-            "#美国"
-          ],
-          "ts": 1787280198000,
-          "time": "10:43:18",
-          "receivedAt": 1787282039417,
-          "receivedTime": true
-        },
-        {
-          "id": "228889",
-          "url": "https://t.me/jin10light/228889",
-          "title": "过去4小时全网爆仓4.46亿美元，空单爆仓4.25亿美元",
-          "body": "#BTC #Hyperliquid",
-          "tags": [
-            "#BTC",
-            "#Hyperliquid"
-          ],
-          "ts": 1787279477000,
-          "time": "10:31:17",
-          "receivedAt": 1787282039417,
           "receivedTime": true
         }
       ],
