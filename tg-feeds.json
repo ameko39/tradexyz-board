@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:43:33.695Z",
+  "updatedAt": "2026-08-29T21:57:36.009Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1504,20 +1504,9 @@
           "time": "15:00:14",
           "receivedAt": 1786952162704,
           "receivedTime": true
-        },
-        {
-          "id": "6919",
-          "url": "https://t.me/BWEtradfi/6919",
-          "title": "DB: 标普500指数收盘下跌0.2%，纳斯达克指数下跌0.3%",
-          "body": "DB: *S&P 500 CLOSES 0.2% LOWER, NASDAQ DECLINES 0.3%",
-          "tags": [],
-          "ts": 1786737613000,
-          "time": "04:00:13",
-          "receivedAt": 1786737793554,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
