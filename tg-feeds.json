@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T17:26:24.965Z",
+  "updatedAt": "2026-08-30T19:56:04.627Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1511,6 +1511,49 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "230807",
+          "url": "https://t.me/jin10light/230807",
+          "title": "伊朗南部拉腊克岛传出爆炸声",
+          "body": "8月31日讯，当地时间8月30日晚获悉，当地居民报告称，在伊朗南部拉腊克岛附近听到爆炸声。 爆炸的确切地点和原因尚不清楚。 据伊朗方面消息，根据初步情报，一小时前，敌方无人机袭击了伊朗南部拉腊克岛。 一些初步的非官方报告显示，此次袭击造成2人死亡、2人受伤。 目前尚未发布官方正式报告。 #伊朗 #拉腊克岛",
+          "tags": [
+            "#伊朗",
+            "#拉腊克岛"
+          ],
+          "ts": 1788119662000,
+          "time": "03:54:22",
+          "receivedAt": 1788119748992,
+          "receivedTime": true
+        },
+        {
+          "id": "230806",
+          "url": "https://t.me/jin10light/230806",
+          "title": "伊朗媒体Fars News：伊朗拉腊克岛附近发生爆炸，原因不明。",
+          "body": "#伊朗 #拉腊克岛",
+          "tags": [
+            "#伊朗",
+            "#拉腊克岛"
+          ],
+          "ts": 1788118642000,
+          "time": "03:37:22",
+          "receivedAt": 1788119748992,
+          "receivedTime": true
+        },
+        {
+          "id": "230805",
+          "url": "https://t.me/jin10light/230805",
+          "title": "据Axios报道，美国官员透露，周日早些时候，美国军队对拉腊克岛的两个伊朗导弹发射器进行了打击。",
+          "body": "#美国 #伊朗 #拉腊克岛",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#拉腊克岛"
+          ],
+          "ts": 1788117982000,
+          "time": "03:26:22",
+          "receivedAt": 1788119748992,
+          "receivedTime": true
+        },
         {
           "id": "230804",
           "url": "https://t.me/jin10light/230804",
@@ -18706,51 +18749,6 @@
           ],
           "ts": 1787628674000,
           "time": "11:31:14",
-          "receivedAt": 1787628777962,
-          "receivedTime": true
-        },
-        {
-          "id": "229606",
-          "url": "https://t.me/jin10light/229606",
-          "title": "Arthur Hayes：Maelstrom已满仓风险资产，比特币、以太坊等为核心押注标的",
-          "body": "#Arthur Hayes #BTC #ETH",
-          "tags": [
-            "#Arthur",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1787628496000,
-          "time": "11:28:16",
-          "receivedAt": 1787628777962,
-          "receivedTime": true
-        },
-        {
-          "id": "229605",
-          "url": "https://t.me/jin10light/229605",
-          "title": "Longling Capital将6500万枚WLFI转入Binance，价值约379万美元",
-          "body": "#Longling Capital #WLFI #Binance",
-          "tags": [
-            "#Longling",
-            "#WLFI",
-            "#Binance"
-          ],
-          "ts": 1787627955000,
-          "time": "11:19:15",
-          "receivedAt": 1787628777962,
-          "receivedTime": true
-        },
-        {
-          "id": "229604",
-          "url": "https://t.me/jin10light/229604",
-          "title": "比特币矿企Metaplanet于1小时前向Coinbase Prime存入1000枚比特币",
-          "body": "#BTC #Metaplanet #Coinbase Prime",
-          "tags": [
-            "#BTC",
-            "#Metaplanet",
-            "#Coinbase"
-          ],
-          "ts": 1787627712000,
-          "time": "11:15:12",
           "receivedAt": 1787628777962,
           "receivedTime": true
         }
