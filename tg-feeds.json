@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-08-30T22:17:47.594Z",
+  "updatedAt": "2026-08-31T00:39:12.636Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7058",
+          "url": "https://t.me/BWEtradfi/7058",
+          "title": "贝森特预计美国将每周实施新的次级制裁，旨在加大对伊朗的施压",
+          "body": "*BESSENT EXPECTS NEW US SECONDARY SANCTIONS WEEKLY, AIMING TO INCREASE PRESSURE ON IRAN",
+          "tags": [],
+          "ts": 1788133664000,
+          "time": "07:47:44",
+          "receivedAt": 1788136735529,
+          "receivedTime": true
+        },
+        {
+          "id": "7057",
+          "url": "https://t.me/BWEtradfi/7057",
+          "title": "*贝森特：将在二十国集团财长会议上鼓励各国重新审视与中国的贸易条款，以减少全球贸易失衡",
+          "body": "*BESSENT: WILL ENCOURAGE G20 COUNTRIES AT FINANCE MEETING TO RE-EXAMINE TERMS OF TRADE WITH CHINA TO REDUCE GLOBAL IMBALANCES *U.S. TREASURY'S BESSENT SAYS WORLD CANNOT ACCEPT A CHINA WITH A SUSTAINED $1.2 TRILLION GLOBAL TRADE SURPLUS - REUTERS INTERVIEW *BESSENT: WILL HAVE… *美国财政部长贝森特表示，世界不能接受中国持...",
+          "tags": [],
+          "ts": 1788131138000,
+          "time": "07:05:38",
+          "receivedAt": 1788136735529,
+          "receivedTime": true
+        },
+        {
+          "id": "7056",
+          "url": "https://t.me/BWEtradfi/7056",
+          "title": "*贝森特：美国对华直接贸易地位正在改善，将继续推进双方各300亿美元非战略商品的关税削减",
+          "body": "*BESSENT: U.S. DIRECT TRADE POSITION WITH CHINA IMPROVING, WILL CONTINUE TO ADVANCE TARIFF REDUCTIONS ON $30 BILLION IN NON-STRATEGIC GOODS ON EACH SIDE",
+          "tags": [],
+          "ts": 1788131120000,
+          "time": "07:05:20",
+          "receivedAt": 1788136735529,
+          "receivedTime": true
+        },
         {
           "id": "7055",
           "url": "https://t.me/BWEtradfi/7055",
@@ -1511,6 +1544,208 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "230828",
+          "url": "https://t.me/jin10light/230828",
+          "title": "OpenAI购入数万台Mac用于强化学习，英伟达视苹果为本地AI主要对手",
+          "body": "#OpenAI #Anthropic #苹果",
+          "tags": [
+            "#OpenAI",
+            "#Anthropic",
+            "#苹果"
+          ],
+          "ts": 1788136641000,
+          "time": "08:37:21",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230827",
+          "url": "https://t.me/jin10light/230827",
+          "title": "黄仁勋：AI正将制造业带回美国，并帮助美国引领下一次工业革命",
+          "body": "#黄仁勋 #美国 #AI",
+          "tags": [
+            "#黄仁勋",
+            "#美国",
+            "#AI"
+          ],
+          "ts": 1788136343000,
+          "time": "08:32:23",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230826",
+          "url": "https://t.me/jin10light/230826",
+          "title": "某以太坊多单鲸鱼凌晨再度加仓1.3万枚，持仓均价升至2486美元，现已浮亏335万美元",
+          "body": "#ETH #鲸鱼 0x0392a",
+          "tags": [
+            "#ETH",
+            "#鲸鱼"
+          ],
+          "ts": 1788135682000,
+          "time": "08:21:22",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230825",
+          "url": "https://t.me/jin10light/230825",
+          "title": "派盾：Tectonic.cro协议被盗，总损失约7400万美元，Cronos为此暂停整个网络",
+          "body": "#Cronos Network #ETH",
+          "tags": [
+            "#Cronos",
+            "#ETH"
+          ],
+          "ts": 1788135561000,
+          "time": "08:19:21",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230824",
+          "url": "https://t.me/jin10light/230824",
+          "title": "近期热点币种快速回落，「牛来」跌破1亿美元，Robinhood链仅PONS相对强势",
+          "body": "#BSC #Robinhood #meme 币",
+          "tags": [
+            "#BSC",
+            "#Robinhood",
+            "#meme"
+          ],
+          "ts": 1788135382000,
+          "time": "08:16:22",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230823",
+          "url": "https://t.me/jin10light/230823",
+          "title": "日经225指数失守65000点，日内跌幅2.37%。",
+          "body": "#日经225 #日本",
+          "tags": [
+            "#日经225",
+            "#日本"
+          ],
+          "ts": 1788134902000,
+          "time": "08:08:22",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230822",
+          "url": "https://t.me/jin10light/230822",
+          "title": "韩日股指大幅低开，SK海力士跌超4%",
+          "body": "#韩国 #日本 #SK海力士",
+          "tags": [
+            "#韩国",
+            "#日本",
+            "#SK海力士"
+          ],
+          "ts": 1788134600000,
+          "time": "08:03:20",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230821",
+          "url": "https://t.me/jin10light/230821",
+          "title": "美军空袭，加密跳水，全网近1小时爆仓1.8亿美元",
+          "body": "#霍尔木兹海峡 #加密货币",
+          "tags": [
+            "#霍尔木兹海峡",
+            "#加密货币"
+          ],
+          "ts": 1788134121000,
+          "time": "07:55:21",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230820",
+          "url": "https://t.me/jin10light/230820",
+          "title": "美国财长贝森特：财政部计划每周对伊朗实施更多二级制裁，先从银行开始。",
+          "body": "#美国 #伊朗 #贝森特",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#贝森特"
+          ],
+          "ts": 1788133884000,
+          "time": "07:51:24",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230819",
+          "url": "https://t.me/jin10light/230819",
+          "title": "贝森特：美国每周都将出台针对伊朗的二级制裁措施",
+          "body": "#美国 #伊朗 #贝森特",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#贝森特"
+          ],
+          "ts": 1788133761000,
+          "time": "07:49:21",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230818",
+          "url": "https://t.me/jin10light/230818",
+          "title": "美军夜袭霍尔木兹，加密市场全线下跌，原油跳涨",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1788133522000,
+          "time": "07:45:22",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230817",
+          "url": "https://t.me/jin10light/230817",
+          "title": "今日重点关注的财经数据与事件：2026年8月31日 周一",
+          "body": "① 待定 G20财长与央行行长会议召开 ② 09:30 中国8月官方制造业PMI ③ 20:00 德国8月CPI月率初值 ④ 22:30 美国8月达拉斯联储商业活动指数 #G20 #中国 #德国",
+          "tags": [
+            "#G20",
+            "#中国",
+            "#德国"
+          ],
+          "ts": 1788130283000,
+          "time": "06:51:23",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230816",
+          "url": "https://t.me/jin10light/230816",
+          "title": "国内新闻ï",
+          "body": "1.习近平抵达比什凯克出席2026年上海合作组织峰会并对吉尔吉斯斯坦进行国事访问。 2. 沪市公司半年报交卷：扣非后净利润增速创2022年以来新高。 3. 国家数据局：要围绕国民经济重大场景，研究探索词元增值订阅、按效付费等商业模式。 国际新闻ï 1.冰岛公投反对重启加入欧盟谈判。 2. 贝森特：日元波动“处于可控范围”。 3. 特朗普称将用委内瑞拉石油填满美国战略储备。 4. 特朗普呼吁与美国有业务往来的加拿大公司迁往美国。 5. 韩国总统府公布新任内阁人选，多名部长级官员将更换。 6. 贝森特和沃什同乘飞机抵达北卡罗来纳州阿什维尔，参加G20财长峰...",
+          "tags": [
+            "#习近平",
+            "#上海合作组织",
+            "#吉尔吉斯斯坦"
+          ],
+          "ts": 1788129263000,
+          "time": "06:34:23",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
+        {
+          "id": "230815",
+          "url": "https://t.me/jin10light/230815",
+          "title": "美媒：伊朗袭击约旦美军，导弹几乎都被拦截",
+          "body": "",
+          "tags": [],
+          "ts": 1788128782000,
+          "time": "06:26:22",
+          "receivedAt": 1788136737201,
+          "receivedTime": true
+        },
         {
           "id": "230814",
           "url": "https://t.me/jin10light/230814",
@@ -18547,205 +18782,6 @@
           "ts": 1787637252000,
           "time": "13:54:12",
           "receivedAt": 1787637508019,
-          "receivedTime": true
-        },
-        {
-          "id": "229627",
-          "url": "https://t.me/jin10light/229627",
-          "title": "PONS市值触及1亿美元，24小时涨超47%",
-          "body": "#PONS #Robinhood Chain #Meme 币",
-          "tags": [
-            "#PONS",
-            "#Robinhood",
-            "#Meme"
-          ],
-          "ts": 1787636954000,
-          "time": "13:49:14",
-          "receivedAt": 1787637508019,
-          "receivedTime": true
-        },
-        {
-          "id": "229626",
-          "url": "https://t.me/jin10light/229626",
-          "title": "今日重点关注的财经数据与事件：2026年8月25日 周二",
-          "body": "① 14:00 德国第二季度未季调GDP年率终值 ② 16:00 德国8月IFO商业景气指数 ③ 20:00 美联储巴尔金发表讲话 ④ 20:15 美国至8月8日当周ADP就业人数周度变动 ⑤ 21:00 美国6月FHFA房价指数月率 ⑥ 21:00 美国6月S&P/CS20座大城市房价指数年率 ⑦ 22:00 美国7月新屋销售总数年化 ⑧ 22:00 美国8月谘商会消费者信心指数 ⑨ 22:00 美国8月里奇蒙德联储制造业指数 ⑩ 次日04:30 美国至8月21日当周API原油库存 #德国 #美国 #美联储",
-          "tags": [
-            "#德国",
-            "#美国",
-            "#美联储"
-          ],
-          "ts": 1787636477000,
-          "time": "13:41:17",
-          "receivedAt": 1787637508019,
-          "receivedTime": true
-        },
-        {
-          "id": "229625",
-          "url": "https://t.me/jin10light/229625",
-          "title": "Circle过去一天在Solana链上增发约10亿枚USDC",
-          "body": "#USDC #Solana #Circle",
-          "tags": [
-            "#USDC",
-            "#Solana",
-            "#Circle"
-          ],
-          "ts": 1787635933000,
-          "time": "13:32:13",
-          "receivedAt": 1787637508019,
-          "receivedTime": true
-        },
-        {
-          "id": "229624",
-          "url": "https://t.me/jin10light/229624",
-          "title": "某巨鲸持仓近2个月后平仓BTC多单，获利1160万美元",
-          "body": "#BTC #巨鲸",
-          "tags": [
-            "#BTC",
-            "#巨鲸"
-          ],
-          "ts": 1787635694000,
-          "time": "13:28:14",
-          "receivedAt": 1787635726264,
-          "receivedTime": true
-        },
-        {
-          "id": "229623",
-          "url": "https://t.me/jin10light/229623",
-          "title": "韩国KOSPI指数翻红，此前一度跌逾4%。",
-          "body": "#韩国 #KOSPI",
-          "tags": [
-            "#韩国",
-            "#KOSPI"
-          ],
-          "ts": 1787635334000,
-          "time": "13:22:14",
-          "receivedAt": 1787635726264,
-          "receivedTime": true
-        },
-        {
-          "id": "229622",
-          "url": "https://t.me/jin10light/229622",
-          "title": "A股三大股指午后全线转涨",
-          "body": "",
-          "tags": [],
-          "ts": 1787634973000,
-          "time": "13:16:13",
-          "receivedAt": 1787635726264,
-          "receivedTime": true
-        },
-        {
-          "id": "229621",
-          "url": "https://t.me/jin10light/229621",
-          "title": "OpenCode的5美元羊毛被薅没了：首月半价因滥用下架",
-          "body": "#OpenCode #Dax Raad",
-          "tags": [
-            "#OpenCode",
-            "#Dax"
-          ],
-          "ts": 1787634914000,
-          "time": "13:15:14",
-          "receivedAt": 1787635726264,
-          "receivedTime": true
-        },
-        {
-          "id": "229620",
-          "url": "https://t.me/jin10light/229620",
-          "title": "A股三大股指午后拉升，深证成指翻红，上证综指涨0.13%，创业板指跌幅缩债至0.37%。",
-          "body": "#A股 #上证综指 #创业板指",
-          "tags": [
-            "#A股",
-            "#上证综指",
-            "#创业板指"
-          ],
-          "ts": 1787634554000,
-          "time": "13:09:14",
-          "receivedAt": 1787635726264,
-          "receivedTime": true
-        },
-        {
-          "id": "229619",
-          "url": "https://t.me/jin10light/229619",
-          "title": "MiniMax前技术合伙人融资600万美元做语音Agent",
-          "body": "#MiniMax #杨斌 #BreezeBlue",
-          "tags": [
-            "#MiniMax",
-            "#杨斌",
-            "#BreezeBlue"
-          ],
-          "ts": 1787634076000,
-          "time": "13:01:16",
-          "receivedAt": 1787635726264,
-          "receivedTime": true
-        },
-        {
-          "id": "229618",
-          "url": "https://t.me/jin10light/229618",
-          "title": "马斯克首次给Cursor训话：Grok落后了，我不习惯输",
-          "body": "#SpaceX #Cursor #马斯克",
-          "tags": [
-            "#SpaceX",
-            "#Cursor",
-            "#马斯克"
-          ],
-          "ts": 1787633775000,
-          "time": "12:56:15",
-          "receivedAt": 1787633833110,
-          "receivedTime": true
-        },
-        {
-          "id": "229617",
-          "url": "https://t.me/jin10light/229617",
-          "title": "索罗斯门徒、HYPE大户怒喷贝森特：美债收益率正在发出财政警报，财政部不应压低信号",
-          "body": "",
-          "tags": [],
-          "ts": 1787632938000,
-          "time": "12:42:18",
-          "receivedAt": 1787633833110,
-          "receivedTime": true
-        },
-        {
-          "id": "229616",
-          "url": "https://t.me/jin10light/229616",
-          "title": "Binance将上线5个U本位TradFi永续合约，最高支持20倍杠杆",
-          "body": "#Binance #DJT #MRNA",
-          "tags": [
-            "#Binance",
-            "#DJT",
-            "#MRNA"
-          ],
-          "ts": 1787632813000,
-          "time": "12:40:13",
-          "receivedAt": 1787633833110,
-          "receivedTime": true
-        },
-        {
-          "id": "229615",
-          "url": "https://t.me/jin10light/229615",
-          "title": "Strategy一周内从亏损超95亿美元转为盈利超47亿美元",
-          "body": "#Michael Saylor #Strategy #BTC",
-          "tags": [
-            "#Michael",
-            "#Strategy",
-            "#BTC"
-          ],
-          "ts": 1787632753000,
-          "time": "12:39:13",
-          "receivedAt": 1787633833110,
-          "receivedTime": true
-        },
-        {
-          "id": "229614",
-          "url": "https://t.me/jin10light/229614",
-          "title": "马斯克连CPU也押英伟达：SpaceXAI部署Vera跑Agent",
-          "body": "#SpaceXAI #英伟达 #Vera CPU",
-          "tags": [
-            "#SpaceXAI",
-            "#英伟达",
-            "#Vera"
-          ],
-          "ts": 1787632634000,
-          "time": "12:37:14",
-          "receivedAt": 1787633833110,
           "receivedTime": true
         }
       ],
