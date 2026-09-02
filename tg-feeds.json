@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-09-02T18:36:16.507Z",
+  "updatedAt": "2026-09-02T21:14:31.077Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7112",
+          "url": "https://t.me/BWEtradfi/7112",
+          "title": "*博通第三季度调整后每股收益 3.32 美元，预期 3.23 美元",
+          "body": "*BROADCOM 3Q ADJ EPS $3.32, EST. $3.23 *BROADCOM 3Q ADJ. NET REV. $29.59B, EST. $29.45B $AVGO *博通第三季度调整后净收入 295.9 亿美元，预期 294.5 亿美元 $AVGO",
+          "tags": [],
+          "ts": 1788380120000,
+          "time": "04:15:20",
+          "receivedAt": 1788383656996,
+          "receivedTime": true
+        },
+        {
+          "id": "7111",
+          "url": "https://t.me/BWEtradfi/7111",
+          "title": "*雪花科技第三季度调整后营业利润率达15.​​5%",
+          "body": "*SNOWFLAKE SEES 3Q ADJ. OPER MARGIN 15.5% *SNOWFLAKE 2Q REV. $1.55B, EST. $1.49B *SNOWFLAKE 2Q ADJ. DILUTED EPS 62C, EST. 45C *SNOWFLAKE 2Q PRODUCT REV. $1.49B, EST. $1.42B $SNOW *雪花科技第二季度营收达15.5亿美元，高于预期14.9亿美元 *雪花科技第二季度调整后摊薄后每股收益为0.62美元，高于预期0.45美元 *雪花科技第二季度产品营收达14.9亿美元，高于预期14.2亿美元 $SNOW",
+          "tags": [],
+          "ts": 1788379513000,
+          "time": "04:05:13",
+          "receivedAt": 1788383656996,
+          "receivedTime": true
+        },
+        {
+          "id": "7110",
+          "url": "https://t.me/BWEtradfi/7110",
+          "title": "DB: 标普500指数收盘上涨0.5%，纳斯达克指数上涨0.4%",
+          "body": "DB: *S&P 500 RISES 0.5% AT THE CLOSE, NASDAQ GAINS 0.4%",
+          "tags": [],
+          "ts": 1788379213000,
+          "time": "04:00:13",
+          "receivedAt": 1788383656996,
+          "receivedTime": true
+        },
         {
           "id": "7109",
           "url": "https://t.me/BWEtradfi/7109",
@@ -1994,46 +2027,85 @@
           "time": "09:15:19",
           "receivedAt": 1787103674366,
           "receivedTime": true
-        },
-        {
-          "id": "6929",
-          "url": "https://t.me/BWEtradfi/6929",
-          "title": "*Anthropico 准备在首次公开募股 (IPO) 前授予首席执行官达里奥·阿莫迪 (Dario Amodei) 和创始人超级投票权股份：相关信息",
-          "body": "*ANTHROPIC IS PREPARING TO GIVE CEO DARIO AMODEI AND FOUNDERS SUPERVOTING SHARES AHEAD OF ITS IPO: THE INFORMATION *ANTHROPIC AIMS TO PROTECT ITS LEADERSHIP FROM OUTSIDE SHAREHOLDER PRESSURE BEFORE A POTENTIAL SEPTEMBER IPO *Anthropico 旨在 9 月份潜在的 IPO 前，保护其领导层免受外部股东的压力。",
-          "tags": [],
-          "ts": 1787085022000,
-          "time": "04:30:22",
-          "receivedAt": 1787085445303,
-          "receivedTime": true
-        },
-        {
-          "id": "6928",
-          "url": "https://t.me/BWEtradfi/6928",
-          "title": "DB: *标普500指数收跌0.7%，纳斯达克指数下跌1.4%",
-          "body": "DB: *S&P 500 CLOSES 0.7% LOWER, NASDAQ DECLINES 1.4%",
-          "tags": [],
-          "ts": 1787083214000,
-          "time": "04:00:14",
-          "receivedAt": 1787084052913,
-          "receivedTime": true
-        },
-        {
-          "id": "6927",
-          "url": "https://t.me/BWEtradfi/6927",
-          "title": "*美国证券交易委员会（SEC）发布加密资产监管提案",
-          "body": "*SEC ISSUES CRYPTO-ASSET REGULATORY PROPOSAL *SEC PROPOSES LETTING CRYPTO PROJECTS SELL TOKENS TO RETAIL INVESTORS *SEC PLAN COULD REVIVE ICO-STYLE FUNDRAISING IN U.S. *CRYPTO STARTUPS COULD RAISE UP TO $5M WITHOUT FULL SEC REGISTRATION OR INVESTOR CAPS *SEC PLAN WOULD ALLOW… *SEC提议允许加密项目向散户投资者出售代币...",
-          "tags": [],
-          "ts": 1787078569000,
-          "time": "02:42:49",
-          "receivedAt": 1787080135995,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "231649",
+          "url": "https://t.me/jin10light/231649",
+          "title": "美商务部长：Anthropic已与特朗普政府「修复关系」",
+          "body": "#美国 #Anthropic #特朗普",
+          "tags": [
+            "#美国",
+            "#Anthropic",
+            "#特朗普"
+          ],
+          "ts": 1788382162000,
+          "time": "04:49:22",
+          "receivedAt": 1788383657670,
+          "receivedTime": true
+        },
+        {
+          "id": "231648",
+          "url": "https://t.me/jin10light/231648",
+          "title": "美国政府支持OpenAI版权诉讼立场，称AI训练受「合理使用」保护",
+          "body": "#美国 #OpenAI #《纽约时报》",
+          "tags": [
+            "#美国",
+            "#OpenAI"
+          ],
+          "ts": 1788380420000,
+          "time": "04:20:20",
+          "receivedAt": 1788383657670,
+          "receivedTime": true
+        },
+        {
+          "id": "231647",
+          "url": "https://t.me/jin10light/231647",
+          "title": "美股三大股指收涨，戴尔大涨15%，加密概念股普跌",
+          "body": "#美股 #BTC #COIN",
+          "tags": [
+            "#美股",
+            "#BTC",
+            "#COIN"
+          ],
+          "ts": 1788380182000,
+          "time": "04:16:22",
+          "receivedAt": 1788383657670,
+          "receivedTime": true
+        },
+        {
+          "id": "231646",
+          "url": "https://t.me/jin10light/231646",
+          "title": "Snowflake(SNOW.N)美股盘后大涨17%。",
+          "body": "#Snowflake #美股",
+          "tags": [
+            "#Snowflake",
+            "#美股"
+          ],
+          "ts": 1788379822000,
+          "time": "04:10:22",
+          "receivedAt": 1788383657670,
+          "receivedTime": true
+        },
+        {
+          "id": "231645",
+          "url": "https://t.me/jin10light/231645",
+          "title": "美国总统特朗普：股市没有受到影响，甚至本来可能比现在更高，信不信由你，股市将会上涨。",
+          "body": "#特朗普 #美股",
+          "tags": [
+            "#特朗普",
+            "#美股"
+          ],
+          "ts": 1788374423000,
+          "time": "02:40:23",
+          "receivedAt": 1788383657670,
+          "receivedTime": true
+        },
         {
           "id": "231644",
           "url": "https://t.me/jin10light/231644",
@@ -19105,79 +19177,6 @@
           "ts": 1787892912000,
           "time": "12:55:12",
           "receivedAt": 1787935941150,
-          "receivedTime": true
-        },
-        {
-          "id": "230448",
-          "url": "https://t.me/jin10light/230448",
-          "title": "英伟达财报后，花旗、摩根大通等机构集体上调目标价",
-          "body": "#英伟达 #美股 #纳指",
-          "tags": [
-            "#英伟达",
-            "#美股",
-            "#纳指"
-          ],
-          "ts": 1787892617000,
-          "time": "12:50:17",
-          "receivedAt": 1787935941150,
-          "receivedTime": true
-        },
-        {
-          "id": "230447",
-          "url": "https://t.me/jin10light/230447",
-          "title": "OKX Director Lennix：金融市场正加速迈向代币化与全天候交易",
-          "body": "#OKX #Bitcoin Asia 2026 #洲际交易所",
-          "tags": [
-            "#OKX",
-            "#Bitcoin",
-            "#洲际交易所"
-          ],
-          "ts": 1787892313000,
-          "time": "12:45:13",
-          "receivedAt": 1787935941150,
-          "receivedTime": true
-        },
-        {
-          "id": "230446",
-          "url": "https://t.me/jin10light/230446",
-          "title": "「BTC OG内幕巨鲸」代理人：计划在ETH即将到来的盘整阶段重新囤积并质押",
-          "body": "#ETH #Garrett Jin",
-          "tags": [
-            "#ETH",
-            "#Garrett"
-          ],
-          "ts": 1787892255000,
-          "time": "12:44:15",
-          "receivedAt": 1787935941150,
-          "receivedTime": true
-        },
-        {
-          "id": "230445",
-          "url": "https://t.me/jin10light/230445",
-          "title": "灰度：比特币与黄金相关性突破50%，货币贬值交易或正在回归",
-          "body": "#BTC #美国 #黄金",
-          "tags": [
-            "#BTC",
-            "#美国",
-            "#黄金"
-          ],
-          "ts": 1787891836000,
-          "time": "12:37:16",
-          "receivedAt": 1787935941150,
-          "receivedTime": true
-        },
-        {
-          "id": "230444",
-          "url": "https://t.me/jin10light/230444",
-          "title": "2个可疑新地址同步建仓ETH，16秒开出4000万美元头寸",
-          "body": "#Hyperliquid #USDC",
-          "tags": [
-            "#Hyperliquid",
-            "#USDC"
-          ],
-          "ts": 1787891475000,
-          "time": "12:31:15",
-          "receivedAt": 1787891481481,
           "receivedTime": true
         }
       ],
