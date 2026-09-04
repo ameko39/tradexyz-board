@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-04T19:16:39.295Z",
+  "updatedAt": "2026-09-04T21:31:59.028Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7143",
+          "url": "https://t.me/BWEtradfi/7143",
+          "title": "DB: *标普500指数收盘下跌0.4%，纳斯达克指数下跌0.3%",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.4%, NASDAQ FALLS 0.3%",
+          "tags": [],
+          "ts": 1788552012000,
+          "time": "04:00:12",
+          "receivedAt": 1788557506598,
+          "receivedTime": true
+        },
         {
           "id": "7142",
           "url": "https://t.me/BWEtradfi/7142",
@@ -1975,50 +1986,6 @@
           "time": "07:30:19",
           "receivedAt": 1787268843983,
           "receivedTime": true
-        },
-        {
-          "id": "6964",
-          "url": "https://t.me/BWEtradfi/6964",
-          "title": "[SEC-144] CEREBRAS SYSTEMS INC () | 高管 SEAN LIE | 申报抛售 1.5319 亿美元 $CBRS",
-          "body": "[SEC-144] *CEREBRAS SYSTEMS INC () | OFFICER SEAN LIE | FILES TO SELL $153.19M $CBRS",
-          "tags": [],
-          "ts": 1787259751000,
-          "time": "05:02:31",
-          "receivedAt": 1787261082817,
-          "receivedTime": true
-        },
-        {
-          "id": "6963",
-          "url": "https://t.me/BWEtradfi/6963",
-          "title": "美联储表示主席沃什将于8月28日上午10点（美国东部时间）在杰克逊霍尔发表讲话",
-          "body": "*FED SAYS CHAIRMAN WARSH TO SPEAK 10AM ET AUG 28 IN JACKSON HOLE",
-          "tags": [],
-          "ts": 1787258194000,
-          "time": "04:36:34",
-          "receivedAt": 1787259435984,
-          "receivedTime": true
-        },
-        {
-          "id": "6962",
-          "url": "https://t.me/BWEtradfi/6962",
-          "title": "*博通公司正在商讨担保部分优先担保债券",
-          "body": "*BROADCOM DISCUSSES GUARANTEEING PART OF SENIOR-SECURED TRANCHE *BROADCOM’S FINANCING PLAN MAY INCLUDE $30B JUNIOR DEBT TRANCHE *BROADCOM SEEKING MORE THAN $60 BILLION IN LATEST AI DEBT DEAL $AVGO *博通公司的融资计划可能包括300亿美元的次级债务 *博通公司寻求在最新的人工智能债务交易中筹集超过600亿美元 $AVGO",
-          "tags": [],
-          "ts": 1787256531000,
-          "time": "04:08:51",
-          "receivedAt": 1787257808786,
-          "receivedTime": true
-        },
-        {
-          "id": "6961",
-          "url": "https://t.me/BWEtradfi/6961",
-          "title": "DB: *标普500指数收跌0.8%，纳斯达克指数下跌1%",
-          "body": "DB: *S&P 500 CLOSES DOWN 0.8%, NASDAQ FALLS 1%",
-          "tags": [],
-          "ts": 1787256013000,
-          "time": "04:00:13",
-          "receivedAt": 1787257808786,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -2026,6 +1993,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "232190",
+          "url": "https://t.me/jin10light/232190",
+          "title": "美股收盘：三大股指收跌 特斯拉跌近6%",
+          "body": "9月5日讯，美股周五收盘，道指初步收跌0.51%，标普500指数跌0.38%，纳指跌0.29%。 特斯拉(TSLA.O)跌5.92%，苹果(AAPL.O)跌2.51%，微软(MSFT.O)跌2.04%；AI芯片产业链板块走强，闪迪(SNDK.O)涨11.9%，SK海力士(SKHY.O)涨8.14%，美光科技(MU.O)涨6.1%，英特尔(INTC.O)涨4.51%。 纳斯达克中国金龙指数涨0.89%，小鹏汽车(XPEV.N)跌1.75%，百度(BIDU.O)涨4.07%，阿里巴巴(BABA.N)涨1.26%。 #美股 #特斯拉",
+          "tags": [
+            "#美股",
+            "#特斯拉"
+          ],
+          "ts": 1788552262000,
+          "time": "04:04:22",
+          "receivedAt": 1788557506975,
+          "receivedTime": true
+        },
         {
           "id": "232189",
           "url": "https://t.me/jin10light/232189",
@@ -19169,21 +19150,6 @@
           ],
           "ts": 1788176061000,
           "time": "19:34:21",
-          "receivedAt": 1788183398114,
-          "receivedTime": true
-        },
-        {
-          "id": "230990",
-          "url": "https://t.me/jin10light/230990",
-          "title": "爱尔兰税收优惠储蓄账户将加密货币排除在外",
-          "body": "#爱尔兰 #加密货币 #Simon Harris",
-          "tags": [
-            "#爱尔兰",
-            "#加密货币",
-            "#Simon"
-          ],
-          "ts": 1788175825000,
-          "time": "19:30:25",
           "receivedAt": 1788183398114,
           "receivedTime": true
         }
