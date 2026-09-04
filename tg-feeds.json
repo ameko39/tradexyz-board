@@ -1,11 +1,66 @@
 {
-  "updatedAt": "2026-09-04T13:28:06.165Z",
+  "updatedAt": "2026-09-04T16:57:05.367Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7135",
+          "url": "https://t.me/BWEtradfi/7135",
+          "title": "美国财政部部长贝森特：就业数据显示经济不只是由人工智能建设热潮驱动",
+          "body": "*U.S. TREASURY'S BESSENT: JOBS DATA SHOW THAT ECONOMY NOT JUST BEING DRIVEN BY AI BUILDING BOOM",
+          "tags": [],
+          "ts": 1788530973000,
+          "time": "22:09:33",
+          "receivedAt": 1788541008447,
+          "receivedTime": true
+        },
+        {
+          "id": "7134",
+          "url": "https://t.me/BWEtradfi/7134",
+          "title": "*哈塞特：通胀已得到控制",
+          "body": "*HASSETT: INFLATION IS UNDER CONTROL *HASSETT: WE RESPECT INDEPENDECE OF THE FED *HASSETT: DOING EVERYTHING WE CAN TO GET PRICES DOWN *哈塞特：我们尊重美联储的独立性 *哈塞特：我们正在尽一切努力降低物价",
+          "tags": [],
+          "ts": 1788530396000,
+          "time": "21:59:56",
+          "receivedAt": 1788541008447,
+          "receivedTime": true
+        },
+        {
+          "id": "7133",
+          "url": "https://t.me/BWEtradfi/7133",
+          "title": "哈塞特：加息是人们认为正在考虑的选项",
+          "body": "*HASSETT: TO RAISE INTEREST RATES IS WHAT PEOPLE THINK IS ON TABLE",
+          "tags": [],
+          "ts": 1788530385000,
+          "time": "21:59:45",
+          "receivedAt": 1788541008447,
+          "receivedTime": true
+        },
+        {
+          "id": "7132",
+          "url": "https://t.me/BWEtradfi/7132",
+          "title": "*特朗普称高利率使我们处于“不公平的劣势”，他不会允许这种情况发生",
+          "body": "*TRUMP SAYS HIGH RATES PUT US AT 'UNFAIR DISADVANTAGE' AND I WON'T ALLOW THAT TO HAPPEN *TRUMP: LOWER RATE OR I'LL STOP TRADING WITH COUNTRIES WITH WHICH WE HAVE A DEFICIT *特朗普：要么降低利率，要么停止与存在贸易逆差的国家进行贸易",
+          "tags": [],
+          "ts": 1788529408000,
+          "time": "21:43:28",
+          "receivedAt": 1788541008447,
+          "receivedTime": true
+        },
+        {
+          "id": "7131",
+          "url": "https://t.me/BWEtradfi/7131",
+          "title": "DB: *标普500指数开盘下跌0.2%，纳斯达克指数变化不大",
+          "body": "DB: *S&P 500 OPENS 0.2% LOWER, NASDAQ LITTLE CHANGED",
+          "tags": [],
+          "ts": 1788528645000,
+          "time": "21:30:45",
+          "receivedAt": 1788541008447,
+          "receivedTime": true
+        },
         {
           "id": "7130",
           "url": "https://t.me/BWEtradfi/7130",
@@ -1931,61 +1986,6 @@
           "time": "01:20:02",
           "receivedAt": 1787248154332,
           "receivedTime": true
-        },
-        {
-          "id": "6956",
-          "url": "https://t.me/BWEtradfi/6956",
-          "title": "美国财政部长贝森特：利率与回购决定无关",
-          "body": "*U.S. TREASURY SECRETARY BESSENT: RATES HAVE NOTHING TO DO WITH BUYBACK DECISION",
-          "tags": [],
-          "ts": 1787238472000,
-          "time": "23:07:52",
-          "receivedAt": 1787239267615,
-          "receivedTime": true
-        },
-        {
-          "id": "6955",
-          "url": "https://t.me/BWEtradfi/6955",
-          "title": "*贝森特：本届政府期间我们很有可能已经看到了赤字峰值",
-          "body": "*BESSENT: GOOD CHANCE WE HAVE SEEN PEAK DEFICIT DURING THIS ADMINISTRATION",
-          "tags": [],
-          "ts": 1787238358000,
-          "time": "23:05:58",
-          "receivedAt": 1787239267615,
-          "receivedTime": true
-        },
-        {
-          "id": "6954",
-          "url": "https://t.me/BWEtradfi/6954",
-          "title": "*现状：美国国债收益率未能反映其基本面",
-          "body": "*BESSENT: US YIELDS DON'T REFLECT UNDERLYING FUNDAMENTALS *BESSENT: LIQUIDITY ON 30YR IS PARTICULARLY POOR *现状：30年期国债流动性尤其差",
-          "tags": [],
-          "ts": 1787238205000,
-          "time": "23:03:25",
-          "receivedAt": 1787239267615,
-          "receivedTime": true
-        },
-        {
-          "id": "6953",
-          "url": "https://t.me/BWEtradfi/6953",
-          "title": "*BESSENT：我们将定期进行股票回购，并逐步扩大回购规模。",
-          "body": "*BESSENT: WE WILL ROUTINELY DO BUYBACKS AND INCREASE SIZE OF BUYBACK *BESSENT: WILL BE MORE THAN 4 BILLION *BESSENT：规模将超过40亿。",
-          "tags": [],
-          "ts": 1787238152000,
-          "time": "23:02:32",
-          "receivedAt": 1787239267615,
-          "receivedTime": true
-        },
-        {
-          "id": "6952",
-          "url": "https://t.me/BWEtradfi/6952",
-          "title": "DB: 标普500指数低开0.3%，纳斯达克指数下跌0.5%",
-          "body": "DB: *S&P 500 OPENS 0.3% LOWER, NASDAQ DOWN 0.5%",
-          "tags": [],
-          "ts": 1787232642000,
-          "time": "21:30:42",
-          "receivedAt": 1787232770883,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1993,6 +1993,485 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "232178",
+          "url": "https://t.me/jin10light/232178",
+          "title": "美国至9月4日当周石油钻井总数将于十分钟后公布。",
+          "body": "#美国 #石油",
+          "tags": [
+            "#美国",
+            "#石油"
+          ],
+          "ts": 1788540682000,
+          "time": "00:51:22",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232177",
+          "url": "https://t.me/jin10light/232177",
+          "title": "伊朗媒体：约旦北部的美国目标遭到导弹袭击",
+          "body": "#约旦 #美国",
+          "tags": [
+            "#约旦",
+            "#美国"
+          ],
+          "ts": 1788540682000,
+          "time": "00:51:22",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232176",
+          "url": "https://t.me/jin10light/232176",
+          "title": "中文meme币「龙虾」短时市值突破1亿美元，创历史新高",
+          "body": "#龙虾 #meme币",
+          "tags": [
+            "#龙虾",
+            "#meme币"
+          ],
+          "ts": 1788540623000,
+          "time": "00:50:23",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232175",
+          "url": "https://t.me/jin10light/232175",
+          "title": "AMC CEO再向Robinhood发难，MEME加速回落跌破4000万美元",
+          "body": "#AMC #Robinhood #MEME",
+          "tags": [
+            "#AMC",
+            "#Robinhood",
+            "#MEME"
+          ],
+          "ts": 1788540263000,
+          "time": "00:44:23",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232174",
+          "url": "https://t.me/jin10light/232174",
+          "title": "美国总统特朗普：最新公布的就业数据表现良好，市场本应上涨，但由于长期存在的“担忧通胀”理念，股市反而下跌。",
+          "body": "#特朗普 #美国 #美股",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#美股"
+          ],
+          "ts": 1788539782000,
+          "time": "00:36:22",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232173",
+          "url": "https://t.me/jin10light/232173",
+          "title": "BSC链新币股meme币Stonks迭创新高，榜一地址3小时浮盈21万美元",
+          "body": "#Stonks #BSC #BNB",
+          "tags": [
+            "#Stonks",
+            "#BSC",
+            "#BNB"
+          ],
+          "ts": 1788539243000,
+          "time": "00:27:23",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232172",
+          "url": "https://t.me/jin10light/232172",
+          "title": "BSC链新币股meme币Stonks上线3小时市值最高触及800万美元",
+          "body": "#BSC #Stonks #QQQ",
+          "tags": [
+            "#BSC",
+            "#Stonks",
+            "#QQQ"
+          ],
+          "ts": 1788537083000,
+          "time": "23:51:23",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232171",
+          "url": "https://t.me/jin10light/232171",
+          "title": "美股维持低波动性已持续25天，创1992年5月以来最长纪录",
+          "body": "#美股 #标普500 #VIX",
+          "tags": [
+            "#美股",
+            "#标普500",
+            "#VIX"
+          ],
+          "ts": 1788536422000,
+          "time": "23:40:22",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232170",
+          "url": "https://t.me/jin10light/232170",
+          "title": "截至23:00收盘，国内期货主力合约涨多跌少。",
+          "body": "合成橡胶涨近超5%，烧碱涨超3%，20号胶涨近3%，纯碱、橡胶涨超2%。 跌幅方面，燃料油跌超2%。 #合成橡胶 #烧碱 #20号胶",
+          "tags": [
+            "#合成橡胶",
+            "#烧碱",
+            "#20号胶"
+          ],
+          "ts": 1788534144000,
+          "time": "23:02:24",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232169",
+          "url": "https://t.me/jin10light/232169",
+          "title": "MEME叙事暂告段落？Robinhood联创表态后币价冲高回落，fomo社区成员大单砸盘",
+          "body": "#MEME #Robinhood #KOL",
+          "tags": [
+            "#MEME",
+            "#Robinhood",
+            "#KOL"
+          ],
+          "ts": 1788533243000,
+          "time": "22:47:23",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232168",
+          "url": "https://t.me/jin10light/232168",
+          "title": "花旗将美联储预期降息周期调整至明年年中开始",
+          "body": "",
+          "tags": [],
+          "ts": 1788531803000,
+          "time": "22:23:23",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232167",
+          "url": "https://t.me/jin10light/232167",
+          "title": "花旗：预计美联储将在2027年6月、9月和12月各降息25个基点（此前预测为在2026年10月、2026年12月和2027年1月降息）。",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1788531749000,
+          "time": "22:22:29",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232166",
+          "url": "https://t.me/jin10light/232166",
+          "title": "无需许可链上收益协议Polaris完成100万美元天使轮融资",
+          "body": "#Polaris #ETH #Anthony Sassano",
+          "tags": [
+            "#Polaris",
+            "#ETH",
+            "#Anthony"
+          ],
+          "ts": 1788531748000,
+          "time": "22:22:28",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232165",
+          "url": "https://t.me/jin10light/232165",
+          "title": "Robinhood联创表态支持股票代币，MEME短时反弹超30%",
+          "body": "",
+          "tags": [],
+          "ts": 1788531621000,
+          "time": "22:20:21",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232164",
+          "url": "https://t.me/jin10light/232164",
+          "title": "预告：美股下周一休市，金银油交易提前结束",
+          "body": "#美国 #加拿大 #芝商所",
+          "tags": [
+            "#美国",
+            "#加拿大",
+            "#芝商所"
+          ],
+          "ts": 1788531444000,
+          "time": "22:17:24",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232163",
+          "url": "https://t.me/jin10light/232163",
+          "title": "美国财长贝森特：就业数据表明，（美国）经济不仅仅是由人工智能建设热潮推动的。",
+          "body": "加拿大失去了超过4万个工作岗位，而我们的就业数据大幅增长。 #美国 #加拿大 #贝森特",
+          "tags": [
+            "#美国",
+            "#加拿大",
+            "#贝森特"
+          ],
+          "ts": 1788531084000,
+          "time": "22:11:24",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232162",
+          "url": "https://t.me/jin10light/232162",
+          "title": "哈塞特：通胀已得到控制，尊重美联储的独立性",
+          "body": "#美国 #美联储 #白宫",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#白宫"
+          ],
+          "ts": 1788530484000,
+          "time": "22:01:24",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232161",
+          "url": "https://t.me/jin10light/232161",
+          "title": "美国白宫国家经济委员会主任哈塞特：加息是人们认为的摆在桌面上的选项。",
+          "body": "#美国 #白宫 #哈塞特",
+          "tags": [
+            "#美国",
+            "#白宫",
+            "#哈塞特"
+          ],
+          "ts": 1788530364000,
+          "time": "21:59:24",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232160",
+          "url": "https://t.me/jin10light/232160",
+          "title": "美国白宫国家经济委员会主任哈塞特：通胀已得到控制。",
+          "body": "#美国 #白宫 #哈塞特",
+          "tags": [
+            "#美国",
+            "#白宫",
+            "#哈塞特"
+          ],
+          "ts": 1788530307000,
+          "time": "21:58:27",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232159",
+          "url": "https://t.me/jin10light/232159",
+          "title": "机构观点：下周CPI将决定美联储是否行动，沃什需维护信誉",
+          "body": "#美联储 #美国 #Ryan Weldon",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#Ryan"
+          ],
+          "ts": 1788530307000,
+          "time": "21:58:27",
+          "receivedAt": 1788541008961,
+          "receivedTime": true
+        },
+        {
+          "id": "232158",
+          "url": "https://t.me/jin10light/232158",
+          "title": "美股AI板块涨幅扩大，CPO概念股领涨",
+          "body": "#美股 #COHR #MRVL",
+          "tags": [
+            "#美股",
+            "#COHR",
+            "#MRVL"
+          ],
+          "ts": 1788530244000,
+          "time": "21:57:24",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232157",
+          "url": "https://t.me/jin10light/232157",
+          "title": "美国8月全球供应链压力指数将于十分钟后公布。",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1788529885000,
+          "time": "21:51:25",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232156",
+          "url": "https://t.me/jin10light/232156",
+          "title": "美国总统特朗普：降低利率，否则我将停止与我们有贸易逆差的国家进行交易。",
+          "body": "#特朗普 #美国",
+          "tags": [
+            "#特朗普",
+            "#美国"
+          ],
+          "ts": 1788529582000,
+          "time": "21:46:22",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232155",
+          "url": "https://t.me/jin10light/232155",
+          "title": "美国总统特朗普重申降息呼吁，称高利率使我们处于不公平的劣势。",
+          "body": "#特朗普 #美国",
+          "tags": [
+            "#特朗普",
+            "#美国"
+          ],
+          "ts": 1788529529000,
+          "time": "21:45:29",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232154",
+          "url": "https://t.me/jin10light/232154",
+          "title": "美国总统特朗普：（谈及非农就业数据）强大的国家意味着更低的利率。",
+          "body": "#特朗普 #美国",
+          "tags": [
+            "#特朗普",
+            "#美国"
+          ],
+          "ts": 1788529528000,
+          "time": "21:45:28",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232153",
+          "url": "https://t.me/jin10light/232153",
+          "title": "美国总统特朗普：我们应该拥有最低利率。",
+          "body": "#特朗普 #美国",
+          "tags": [
+            "#特朗普",
+            "#美国"
+          ],
+          "ts": 1788529528000,
+          "time": "21:45:28",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232152",
+          "url": "https://t.me/jin10light/232152",
+          "title": "美国总统特朗普：刚刚公布的就业数据太棒了，打破了所有预期（除了我的！）",
+          "body": "#特朗普 #美国",
+          "tags": [
+            "#特朗普",
+            "#美国"
+          ],
+          "ts": 1788529466000,
+          "time": "21:44:26",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232151",
+          "url": "https://t.me/jin10light/232151",
+          "title": "特朗普：就业数据打破了所有人的预期，我除外",
+          "body": "",
+          "tags": [],
+          "ts": 1788529465000,
+          "time": "21:44:25",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232150",
+          "url": "https://t.me/jin10light/232150",
+          "title": "美股开盘后MEME加速下跌，市值跌破7000万美元",
+          "body": "",
+          "tags": [],
+          "ts": 1788529101000,
+          "time": "21:38:21",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232149",
+          "url": "https://t.me/jin10light/232149",
+          "title": "燃油主力合约日内跌4.00%，现报3716.00元/吨。",
+          "body": "#燃油",
+          "tags": [
+            "#燃油"
+          ],
+          "ts": 1788529043000,
+          "time": "21:37:23",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232148",
+          "url": "https://t.me/jin10light/232148",
+          "title": "WTI原油日内跌幅扩大至2%，现报87.84美元/桶。",
+          "body": "布伦特原油跌1.84%，现报92.89美元/桶。 #WTI原油 #布伦特原油",
+          "tags": [
+            "#WTI原油",
+            "#布伦特原油"
+          ],
+          "ts": 1788528984000,
+          "time": "21:36:24",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232147",
+          "url": "https://t.me/jin10light/232147",
+          "title": "WTI原油日内跌幅扩大至2%",
+          "body": "#WTI原油 #布伦特原油",
+          "tags": [
+            "#WTI原油",
+            "#布伦特原油"
+          ],
+          "ts": 1788528983000,
+          "time": "21:36:23",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232146",
+          "url": "https://t.me/jin10light/232146",
+          "title": "美股开盘加密概念股普跌，HOOD跌超1%，AMC涨幅大幅缩窄",
+          "body": "#美国 #美股 #BTC",
+          "tags": [
+            "#美国",
+            "#美股",
+            "#BTC"
+          ],
+          "ts": 1788528923000,
+          "time": "21:35:23",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
+        {
+          "id": "232145",
+          "url": "https://t.me/jin10light/232145",
+          "title": "美股三大股指涨跌不一",
+          "body": "9月4日讯，美国8月非农大超预期，美股开盘涨跌不一，道指跌0.38%，标普500指数跌0.13%，纳指涨0.02%。 明星科技股走势分化，特斯拉(TSLA.O)跌3.5%；甲骨文(ORCL.N)涨3.7%，阿斯麦(ASML.O)涨近2%，英伟达(NVDA.O)、AMD(AMD.O)涨超1%。 #美股 #美国 #特斯拉",
+          "tags": [
+            "#美股",
+            "#美国",
+            "#特斯拉"
+          ],
+          "ts": 1788528685000,
+          "time": "21:31:25",
+          "receivedAt": 1788541009191,
+          "receivedTime": true
+        },
         {
           "id": "232144",
           "url": "https://t.me/jin10light/232144",
@@ -18670,496 +19149,6 @@
           "time": "18:59:22",
           "receivedAt": 1788183398354,
           "receivedTime": true
-        },
-        {
-          "id": "230978",
-          "url": "https://t.me/jin10light/230978",
-          "title": "国家新闻出版署公布2026年8月份国产网络游戏审批信息，共209款游戏获批。",
-          "body": "#中国 #国产网络游戏",
-          "tags": [
-            "#中国",
-            "#国产网络游戏"
-          ],
-          "ts": 1788173542000,
-          "time": "18:52:22",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230977",
-          "url": "https://t.me/jin10light/230977",
-          "title": "Robinhood Chain过去24小时DEX交易额达13.3亿美元，超越以太坊、BSC和Base网络",
-          "body": "#Robinhood Chain #ETH #SOL",
-          "tags": [
-            "#Robinhood",
-            "#ETH",
-            "#SOL"
-          ],
-          "ts": 1788173362000,
-          "time": "18:49:22",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230976",
-          "url": "https://t.me/jin10light/230976",
-          "title": "Serenity：若Celestial独立上市，凭借CPO业务潜力估值或达60亿至100亿美元",
-          "body": "#Celestial #Marvell #美国",
-          "tags": [
-            "#Celestial",
-            "#Marvell",
-            "#美国"
-          ],
-          "ts": 1788171860000,
-          "time": "18:24:20",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230975",
-          "url": "https://t.me/jin10light/230975",
-          "title": "市场消息：据悉沙特寻求约80亿美元贷款，以应对战争对财政的压力。",
-          "body": "#沙特 #贷款",
-          "tags": [
-            "#沙特",
-            "#贷款"
-          ],
-          "ts": 1788171802000,
-          "time": "18:23:22",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230974",
-          "url": "https://t.me/jin10light/230974",
-          "title": "SB Energy拟向OpenAI授予55亿美元认股权证，最快本周提交IPO申请",
-          "body": "#软银 #OpenAI #英伟达",
-          "tags": [
-            "#软银",
-            "#OpenAI",
-            "#英伟达"
-          ],
-          "ts": 1788171083000,
-          "time": "18:11:23",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230973",
-          "url": "https://t.me/jin10light/230973",
-          "title": "存储巨鲸「明牌」写下今夜开盘预案，最近一道关键价位仅2.1%",
-          "body": "#Hyperliquid #SKHX",
-          "tags": [
-            "#Hyperliquid",
-            "#SKHX"
-          ],
-          "ts": 1788171021000,
-          "time": "18:10:21",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230972",
-          "url": "https://t.me/jin10light/230972",
-          "title": "上期所发布关于热轧卷板期权、不锈钢期权上市交易有关事项的通知",
-          "body": "上期所公告，热轧卷板期权、不锈钢期权自2026年9月10日9:00起上市交易，当日8:55-9:00集合竞价，9:00开盘。 限价指令最大下单量100手，市价指令最大下单量30手。 #上期所 #热轧卷板期权 #不锈钢期权",
-          "tags": [
-            "#上期所",
-            "#热轧卷板期权",
-            "#不锈钢期权"
-          ],
-          "ts": 1788170723000,
-          "time": "18:05:23",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230971",
-          "url": "https://t.me/jin10light/230971",
-          "title": "特朗普政府频繁干预金融市场，欧洲央行担心「魔爪」将伸向美联储",
-          "body": "#欧洲央行 #美国 #美联储",
-          "tags": [
-            "#欧洲央行",
-            "#美国",
-            "#美联储"
-          ],
-          "ts": 1788170425000,
-          "time": "18:00:25",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230970",
-          "url": "https://t.me/jin10light/230970",
-          "title": "1. 宣称将用委内瑞拉石油填满美国战略储备——美国总统特朗普：我要用委内瑞拉石油填满（美国）国家战略储备。",
-          "body": "补充至满储水平的过程很快就会启动，这是委内瑞拉送给美国人民的一份礼物。 2. 扩大“第三国”驱逐行动——据美媒：美国政府内部文件显示，特朗普政府在10天内将来自阿富汗、古巴、尼加拉瓜等国的100多名被驱逐人员遣送至非洲8个国家，进一步扩大其“第三国”驱逐行动。 3. 线上参加NASA新闻发布会——美国航空航天局（NASA）局长贾里德·艾萨克曼：在具有历史意义的“罗曼”望远镜发射后，美国总统特朗普通过电话连线参加了NASA的新闻发布会。 4. 发布AI视频挑衅加拿大——据美媒报道，美国总统特朗普布了一段颇具挑衅性的“唐老鸭军团”人工智能视频，进一步加剧了...",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#加拿大"
-          ],
-          "ts": 1788170306000,
-          "time": "17:58:26",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230969",
-          "url": "https://t.me/jin10light/230969",
-          "title": "意大利30年期国债收益率升至2023年11月以来的最高水平4.9191%，日内涨3个基点。",
-          "body": "",
-          "tags": [],
-          "ts": 1788169640000,
-          "time": "17:47:20",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230968",
-          "url": "https://t.me/jin10light/230968",
-          "title": "近8000万美元BTC买单被提前埋伏，新地址计划7.5万美元附近做多",
-          "body": "#BTC #TradingBeats #Hyperliquid",
-          "tags": [
-            "#BTC",
-            "#TradingBeats",
-            "#Hyperliquid"
-          ],
-          "ts": 1788169582000,
-          "time": "17:46:22",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230967",
-          "url": "https://t.me/jin10light/230967",
-          "title": "Bitunix Trustpilot评分跃居同类加密货币交易平台第一",
-          "body": "#Bitunix #Trustpilot #加密货币",
-          "tags": [
-            "#Bitunix",
-            "#Trustpilot",
-            "#加密货币"
-          ],
-          "ts": 1788168924000,
-          "time": "17:35:24",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230966",
-          "url": "https://t.me/jin10light/230966",
-          "title": "美政府出售SBF两名核心盟友所持Anthropic股份，潜在价值或达数十亿美元",
-          "body": "#美国 #Anthropic #Sam Bankman-Fried",
-          "tags": [
-            "#美国",
-            "#Anthropic",
-            "#Sam"
-          ],
-          "ts": 1788168261000,
-          "time": "17:24:21",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230965",
-          "url": "https://t.me/jin10light/230965",
-          "title": "Arthur Hayes：市场或正在重新关注被「遗忘」的以太坊",
-          "body": "#ETH #BTC #Arthur Hayes",
-          "tags": [
-            "#ETH",
-            "#BTC",
-            "#Arthur"
-          ],
-          "ts": 1788168202000,
-          "time": "17:23:22",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230964",
-          "url": "https://t.me/jin10light/230964",
-          "title": "华为投资控股有限公司上半年营收4678亿元，净利润234.27亿元。",
-          "body": "",
-          "tags": [],
-          "ts": 1788168021000,
-          "time": "17:20:21",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230963",
-          "url": "https://t.me/jin10light/230963",
-          "title": "Polymarket宕机，交易功能临时暂停",
-          "body": "#Polymarket #预测市场",
-          "tags": [
-            "#Polymarket",
-            "#预测市场"
-          ],
-          "ts": 1788167961000,
-          "time": "17:19:21",
-          "receivedAt": 1788183398354,
-          "receivedTime": true
-        },
-        {
-          "id": "230962",
-          "url": "https://t.me/jin10light/230962",
-          "title": "8月31日讯，船运调查机构ITS数据显示，马来西亚8月1-31日棕榈油出口量为1364494吨，较上月同期出口的1602475吨减少了14.9%。",
-          "body": "#马来西亚 #棕榈油",
-          "tags": [
-            "#马来西亚",
-            "#棕榈油"
-          ],
-          "ts": 1788167842000,
-          "time": "17:17:22",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230961",
-          "url": "https://t.me/jin10light/230961",
-          "title": "某交易员靠AMD、英伟达赚超170万美元后押注SpaceX，一周亏损超35万加元",
-          "body": "#加拿大 #AMD #英伟达",
-          "tags": [
-            "#加拿大",
-            "#AMD",
-            "#英伟达"
-          ],
-          "ts": 1788167481000,
-          "time": "17:11:21",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230960",
-          "url": "https://t.me/jin10light/230960",
-          "title": "AI长剧第一次上卫视黄金档：30集《后西游记》今晚开播",
-          "body": "#芒果TV #湖南卫视 #Seedance",
-          "tags": [
-            "#芒果TV",
-            "#湖南卫视",
-            "#Seedance"
-          ],
-          "ts": 1788167303000,
-          "time": "17:08:23",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230959",
-          "url": "https://t.me/jin10light/230959",
-          "title": "商务部：加快人工智能手机和电脑、智能穿戴设备、智能机器人、智能家居等产品推广应用",
-          "body": "8月31日讯，商务部等7部门发布关于推动商品消费扩容升级的实施意见，意见指出，建设消费领域国家人工智能应用中试基地，完善人工智能产品研发机制，推出一批国际领先、消费潜力大的智能消费品。 加快人工智能手机和电脑、智能穿戴设备、智能机器人、智能家居等产品推广应用。 建设“人工智能+消费”集聚区和集合店、人工智能应用体验中心等消费基础设施。 #人工智能 #智能消费品 #商务部",
-          "tags": [
-            "#人工智能",
-            "#智能消费品",
-            "#商务部"
-          ],
-          "ts": 1788166762000,
-          "time": "16:59:22",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230958",
-          "url": "https://t.me/jin10light/230958",
-          "title": "商务部：用好个人消费贷款贴息、服务业经营主体贷款贴息、消费新业态新模式新场景试点等政策",
-          "body": "8月31日讯，商务部等7部门发布关于推动商品消费扩容升级的实施意见。 其中提到，用好个人消费贷款贴息、服务业经营主体贷款贴息、消费新业态新模式新场景试点等政策，充分发挥财政资金撬动作用。 鼓励金融机构在依法合规、风险可控前提下加大对汽车、家电及数码产品、智能家居等消费的金融支持，开发多样化金融产品。 支持金融机构与商家、平台深化合作，共同开发适应消费行业特点的金融产品和服务。 完善内贸险政策，扩大承保规模和覆盖面。 鼓励基层工会按照工会经费使用规定，购买生活日用品、粮油食品等用于各类慰问活动。 #中国 #商务部 #消费贷款",
-          "tags": [
-            "#中国",
-            "#商务部",
-            "#消费贷款"
-          ],
-          "ts": 1788166644000,
-          "time": "16:57:24",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230957",
-          "url": "https://t.me/jin10light/230957",
-          "title": "电影《牛来》宣布延长上映至10月4日",
-          "body": "#牛来 #BTC",
-          "tags": [
-            "#牛来",
-            "#BTC"
-          ],
-          "ts": 1788166643000,
-          "time": "16:57:23",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230956",
-          "url": "https://t.me/jin10light/230956",
-          "title": "商务部：扩大脑机融合、人工智能等技术在适老化产品、康复辅助器具产品等领域应用",
-          "body": "8月31日讯，商务部等7部门发布关于推动商品消费扩容升级的实施意见，意见指出，加强关键技术和核心部件研发，扩大脑机融合、人工智能等技术在适老化产品、康复辅助器具产品等领域应用。 加大对《老年用品产品推广目录》优质产品推广，推动外骨骼机器人、电动轮椅、智能床垫等产品及健康监测、两便护理、移位、助浴等设备进入老年人家庭。 探索建立银发产品认证制度。 鼓励商贸流通企业设立适老化产品销售专区，推动适老化产品进商超、进酒店、进社区、进医院、进药店、进养老机构。 #脑机融合 #人工智能 #银发经济",
-          "tags": [
-            "#脑机融合",
-            "#人工智能",
-            "#银发经济"
-          ],
-          "ts": 1788166595000,
-          "time": "16:56:35",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230955",
-          "url": "https://t.me/jin10light/230955",
-          "title": "本周加密市场前瞻：美国8月非农将成焦点，俄罗斯启动数字卢布大规模推广",
-          "body": "#美国 #BTC #Kraken",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#Kraken"
-          ],
-          "ts": 1788166594000,
-          "time": "16:56:34",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230954",
-          "url": "https://t.me/jin10light/230954",
-          "title": "商务部：到2030年，社会消费品零售总额达60万亿元左右",
-          "body": "8月31日讯，商务部等7部门发布关于推动商品消费扩容升级的实施意见，意见指出“十五五”时期，商品消费规模稳步扩大，结构优化升级，超大规模市场优势持续显现。 到2030年，社会消费品零售总额达60万亿元左右，培育形成绿色消费、智能消费、健康消费等十万亿级市场，推动持续发展壮大；汽车、家电、通讯器材、纺织服装等万亿级品类零售额持续增长，市场规模保持全球领先地位。 #中国 #商务部",
-          "tags": [
-            "#中国",
-            "#商务部"
-          ],
-          "ts": 1788166467000,
-          "time": "16:54:27",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230953",
-          "url": "https://t.me/jin10light/230953",
-          "title": "商务部：深入推进汽车流通消费改革试点 加快破除汽车流通消费领域不合理限制性措施",
-          "body": "8月31日讯，商务部等7部门发布关于推动商品消费扩容升级的实施意见，意见指出，深入推进汽车流通消费改革试点，加快破除汽车流通消费领域不合理限制性措施，创新汽车使用管理模式，全链条扩大汽车消费。 推动相关地区优化汽车限购措施，更好满足居民购车需求。 培育壮大汽车后市场，支持发展汽车改装、维修保养、赛事运动、房车露营，建立传统经典车认定和管理制度。 健全部门间信息共享机制，建立覆盖汽车销售、登记、维修、保险、报废等汽车全生命周期信息交互系统。 完善二手车流通管理制度，推进二手车销售统一发票互认，对二手车经营主体实施分级分类管理。 #汽车 #商务部 #二手车",
-          "tags": [
-            "#汽车",
-            "#商务部",
-            "#二手车"
-          ],
-          "ts": 1788166467000,
-          "time": "16:54:27",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230952",
-          "url": "https://t.me/jin10light/230952",
-          "title": "美股能源股盘前普涨，哈利伯顿上涨2.27%",
-          "body": "#美国 #美股 #哈利伯顿",
-          "tags": [
-            "#美国",
-            "#美股",
-            "#哈利伯顿"
-          ],
-          "ts": 1788166466000,
-          "time": "16:54:26",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230951",
-          "url": "https://t.me/jin10light/230951",
-          "title": "商务部等7部门发布关于推动商品消费扩容升级的实施意见。",
-          "body": "#商务部 #中国",
-          "tags": [
-            "#商务部",
-            "#中国"
-          ],
-          "ts": 1788166401000,
-          "time": "16:53:21",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230950",
-          "url": "https://t.me/jin10light/230950",
-          "title": "H3 Max刷屏、巨鲸暴赚500%，MINIMAX大涨利好是否燃尽？",
-          "body": "#Trade .xyz #MINIMAX",
-          "tags": [
-            "#Trade",
-            "#MINIMAX"
-          ],
-          "ts": 1788166223000,
-          "time": "16:50:23",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230949",
-          "url": "https://t.me/jin10light/230949",
-          "title": "Hyperliquid上SHEIN合约短时暴跌近15%，跌破招股价区间",
-          "body": "#SHEIN #港股",
-          "tags": [
-            "#SHEIN",
-            "#港股"
-          ],
-          "ts": 1788165741000,
-          "time": "16:42:21",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230948",
-          "url": "https://t.me/jin10light/230948",
-          "title": "财政部：2026年1-7月，全国国有及国有控股企业营业总收入同比下降2.4%，利润总额同比增长0.6%。",
-          "body": "#中国 #国有企业",
-          "tags": [
-            "#中国",
-            "#国有企业"
-          ],
-          "ts": 1788165565000,
-          "time": "16:39:25",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230947",
-          "url": "https://t.me/jin10light/230947",
-          "title": "比特币守住7.8万美元，日元跌破160关口，美元走强持续压制加密市场",
-          "body": "#BTC #ETH #SOL",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#SOL"
-          ],
-          "ts": 1788165206000,
-          "time": "16:33:26",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230946",
-          "url": "https://t.me/jin10light/230946",
-          "title": "1. 沃什释放鹰派信号，认为当前金融状况并不具有限制性。",
-          "body": "2. 美联储前副主席：沃什讲话扭转美联储此前逻辑，现在默认选择是加息。 3. “新美联储通讯社”：沃什目前已经陷入两难的局面，是否加息几乎完全押注在通胀数据上。 4. 沃什“鹰声”点燃加息押注，债券投资者却并不买账。 5. 贝森特反驳对美债市场压力的担忧：“不确定所谓的动荡究竟在哪里”。 6. 国家发改委：加快地方政府专项债券发行使用，抓紧投放新型政策性金融工具资金。 7. 公募基金年内分红达1033.08亿元，债券型基金占比超50%。 8. 美银：全球债券连续70周吸金，极端看多指标升至9.7。 9. 墨西哥两年来首次发行武士债券。 10. 中基协：...",
-          "tags": [
-            "#沃什",
-            "#美联储",
-            "#债券"
-          ],
-          "ts": 1788164664000,
-          "time": "16:24:24",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
-        },
-        {
-          "id": "230945",
-          "url": "https://t.me/jin10light/230945",
-          "title": "希音-W( 00625.HK )港股暗盘跌超16%。",
-          "body": "#希音 -W #港股",
-          "tags": [
-            "#希音",
-            "#港股"
-          ],
-          "ts": 1788164542000,
-          "time": "16:22:22",
-          "receivedAt": 1788183398601,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20279,7 +20268,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
