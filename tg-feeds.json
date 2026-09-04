@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-03T22:44:08.439Z",
+  "updatedAt": "2026-09-04T00:26:07.449Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7126",
+          "url": "https://t.me/BWEtradfi/7126",
+          "title": "*迈克尔·伯里表示，Lululemon是他最大的持仓，并承诺在股价低于100美元时积极买入",
+          "body": "*MICHAEL BURRY SAYS LULULEMON IS HIS LARGEST POSITION, PLEDGES AGGRESSIVE BUYING UNDER $100 *BURRY SUGGESTS PRIVATE EQUITY TAKEOVER AS POTENTIAL LONG-TERM OUTCOME FOR LULULEMON $LULU *伯里认为，私募股权收购可能是Lululemon的长期潜在发展方向 $LULU",
+          "tags": [],
+          "ts": 1788478544000,
+          "time": "07:35:44",
+          "receivedAt": 1788481553357,
+          "receivedTime": true
+        },
         {
           "id": "7125",
           "url": "https://t.me/BWEtradfi/7125",
@@ -1997,24 +2008,161 @@
           "time": "09:00:29",
           "receivedAt": 1787189736615,
           "receivedTime": true
-        },
-        {
-          "id": "6945",
-          "url": "https://t.me/BWEtradfi/6945",
-          "title": "*特朗普：宣布对伊朗实施史上最严厉的经济打击",
-          "body": "*TRUMP: ANNOUNCING THE MOST CRUSHING ECONOMIC OPERATION ON IRAN *TRUMP: IRAN FAILED TO TAKE DEAL *TRUMP: ECONOMIC WARFARE AND ISOLATION ON AN UNPRECEDENTED SCALE *特朗普：伊朗未能达成协议 *特朗普：前所未有的经济战和孤立",
-          "tags": [],
-          "ts": 1787180379000,
-          "time": "06:59:39",
-          "receivedAt": 1787180383973,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "231946",
+          "url": "https://t.me/jin10light/231946",
+          "title": "日韩股市开盘上涨，软银涨5.8%，SK海力士、三星电子均涨超2%",
+          "body": "#日本 #韩国 #日经225",
+          "tags": [
+            "#日本",
+            "#韩国",
+            "#日经225"
+          ],
+          "ts": 1788481523000,
+          "time": "08:25:23",
+          "receivedAt": 1788481554039,
+          "receivedTime": true
+        },
+        {
+          "id": "231945",
+          "url": "https://t.me/jin10light/231945",
+          "title": "万斯：不将美伊冲突定义为「战争」，再次敦促美联储降息",
+          "body": "#美国 #伊朗 #美联储",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#美联储"
+          ],
+          "ts": 1788479484000,
+          "time": "07:51:24",
+          "receivedAt": 1788481554039,
+          "receivedTime": true
+        },
+        {
+          "id": "231944",
+          "url": "https://t.me/jin10light/231944",
+          "title": "美股今晨收盘加密概念股大幅上涨，MSTR涨超17%，CRCL涨16.44%",
+          "body": "#美股 #特斯拉 #英伟达",
+          "tags": [
+            "#美股",
+            "#特斯拉",
+            "#英伟达"
+          ],
+          "ts": 1788479242000,
+          "time": "07:47:22",
+          "receivedAt": 1788481554039,
+          "receivedTime": true
+        },
+        {
+          "id": "231943",
+          "url": "https://t.me/jin10light/231943",
+          "title": "万斯：伊朗停止攻击商船前，不会与其对话",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1788478940000,
+          "time": "07:42:20",
+          "receivedAt": 1788481554039,
+          "receivedTime": true
+        },
+        {
+          "id": "231942",
+          "url": "https://t.me/jin10light/231942",
+          "title": "美国防部称Anthropic禁令仍有效，此前卢特尼克称其与政府和解",
+          "body": "#美国 #Anthropic #特朗普",
+          "tags": [
+            "#美国",
+            "#Anthropic",
+            "#特朗普"
+          ],
+          "ts": 1788478883000,
+          "time": "07:41:23",
+          "receivedAt": 1788481554039,
+          "receivedTime": true
+        },
+        {
+          "id": "231941",
+          "url": "https://t.me/jin10light/231941",
+          "title": "美联储9月加息概率回落至50%",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1788478643000,
+          "time": "07:37:23",
+          "receivedAt": 1788481554039,
+          "receivedTime": true
+        },
+        {
+          "id": "231940",
+          "url": "https://t.me/jin10light/231940",
+          "title": "比特币今晨一度拉升突破8.2万美元，现报8.11万美元",
+          "body": "#BTC #HTX",
+          "tags": [
+            "#BTC",
+            "#HTX"
+          ],
+          "ts": 1788478522000,
+          "time": "07:35:22",
+          "receivedAt": 1788481554039,
+          "receivedTime": true
+        },
+        {
+          "id": "231939",
+          "url": "https://t.me/jin10light/231939",
+          "title": "整理：每日科技要闻速递（9月4日）",
+          "body": "人工智能ï 1.Meta调整AI绩效考核标准 取消Token使用量指标。 2. OpenAI发布GPT-6 Astra模型 称其或接近实现AGI。 3. 英伟达同意以129.303亿美元收购Hugging Face。 4. OpenAI将召集安全领域负责人，拟发布网络安全相关公告。 5. OpenAI、Claude、Grok等多个AI平台一度出现服务异常。 集成电路（芯片）ï 1.德州仪器今年第三轮涨价。 2. 三星将在越南芯片工厂新增1612台设备。 3. 机构：今年第二季度三星HBM市场份额大涨，与SK海力士差距缩小。 4. 韩国电力拟向三星、SK...",
+          "tags": [
+            "#Meta",
+            "#OpenAI",
+            "#英伟达"
+          ],
+          "ts": 1788478223000,
+          "time": "07:30:23",
+          "receivedAt": 1788481554039,
+          "receivedTime": true
+        },
+        {
+          "id": "231938",
+          "url": "https://t.me/jin10light/231938",
+          "title": "GPT-6 Astra发布：OpenAI称世界最聪明，AGI时代或从这里开始",
+          "body": "#OpenAI #GPT -6 Astra #Greg Brockman",
+          "tags": [
+            "#OpenAI",
+            "#GPT",
+            "#Greg"
+          ],
+          "ts": 1788478042000,
+          "time": "07:27:22",
+          "receivedAt": 1788481554039,
+          "receivedTime": true
+        },
+        {
+          "id": "231937",
+          "url": "https://t.me/jin10light/231937",
+          "title": "今日重点关注的财经数据与事件：2026年9月4日 周五",
+          "body": "① 16:50 英国央行行长贝利发表讲话 ② 17:00 欧元区7月零售销售月率 ③ 20:30 加拿大8月就业人数 ④ 20:30 美国8月失业率 ⑤ 20:30 美国8月季调后非农就业人口 ⑥ 20:30 美国8月平均每小时工资年率 ⑦ 20:30 美国8月平均每小时工资月率 ⑧ 22:00 美国8月全球供应链压力指数 ⑨ 次日01:00 美国至9月4日当周石油钻井总数 #美国 #英国 #欧元区",
+          "tags": [
+            "#美国",
+            "#英国",
+            "#欧元区"
+          ],
+          "ts": 1788475884000,
+          "time": "06:51:24",
+          "receivedAt": 1788481554039,
+          "receivedTime": true
+        },
         {
           "id": "231936",
           "url": "https://t.me/jin10light/231936",
@@ -19045,154 +19193,6 @@
           "ts": 1788056002000,
           "time": "10:13:22",
           "receivedAt": 1788074962623,
-          "receivedTime": true
-        },
-        {
-          "id": "230746",
-          "url": "https://t.me/jin10light/230746",
-          "title": "分析师：比特币短期持有者未实现利润接近15%，8万美元附近面临获利了结压力",
-          "body": "#BTC #Darkfost #CryptoQuant",
-          "tags": [
-            "#BTC",
-            "#Darkfost",
-            "#CryptoQuant"
-          ],
-          "ts": 1788055222000,
-          "time": "10:00:22",
-          "receivedAt": 1788074962623,
-          "receivedTime": true
-        },
-        {
-          "id": "230745",
-          "url": "https://t.me/jin10light/230745",
-          "title": "某地址做多4324万美元BTC和ETH，目前浮亏约36.2万美元",
-          "body": "#BTC #ETH #Hyperliquid",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#Hyperliquid"
-          ],
-          "ts": 1788054561000,
-          "time": "09:49:21",
-          "receivedAt": 1788074962623,
-          "receivedTime": true
-        },
-        {
-          "id": "230744",
-          "url": "https://t.me/jin10light/230744",
-          "title": "韩国芯片杠杆ETF成交额降至峰值4%，强制模拟交易令散户退出",
-          "body": "#韩国 #三星电子 #SK海力士",
-          "tags": [
-            "#韩国",
-            "#三星电子",
-            "#SK海力士"
-          ],
-          "ts": 1788054324000,
-          "time": "09:45:24",
-          "receivedAt": 1788054422170,
-          "receivedTime": true
-        },
-        {
-          "id": "230743",
-          "url": "https://t.me/jin10light/230743",
-          "title": "某神秘巨鲸过去10小时再次买入243,713枚HYPE，约合2024万美元",
-          "body": "#HYPE #巨鲸地址",
-          "tags": [
-            "#HYPE",
-            "#巨鲸地址"
-          ],
-          "ts": 1788053362000,
-          "time": "09:29:22",
-          "receivedAt": 1788054422170,
-          "receivedTime": true
-        },
-        {
-          "id": "230742",
-          "url": "https://t.me/jin10light/230742",
-          "title": "「麻吉」高杠杆滚仓遇震荡行情，账户资金缩水235万美元，仍持1.14亿美元多单",
-          "body": "#黄立成 #BTC #ETH",
-          "tags": [
-            "#黄立成",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1788053181000,
-          "time": "09:26:21",
-          "receivedAt": 1788054422170,
-          "receivedTime": true
-        },
-        {
-          "id": "230741",
-          "url": "https://t.me/jin10light/230741",
-          "title": "某鲸鱼沉寂8个月后买入76,856枚SOL，约合800万美元",
-          "body": "#SOL #Hyperliquid",
-          "tags": [
-            "#SOL",
-            "#Hyperliquid"
-          ],
-          "ts": 1788052942000,
-          "time": "09:22:22",
-          "receivedAt": 1788054422170,
-          "receivedTime": true
-        },
-        {
-          "id": "230740",
-          "url": "https://t.me/jin10light/230740",
-          "title": "realtrumpcoins：未推出或授权任何数字代币，正配合执法机构调查相关事件",
-          "body": "#特朗普 #GOLD #SOL",
-          "tags": [
-            "#特朗普",
-            "#GOLD",
-            "#SOL"
-          ],
-          "ts": 1788050723000,
-          "time": "08:45:23",
-          "receivedAt": 1788054422170,
-          "receivedTime": true
-        },
-        {
-          "id": "230739",
-          "url": "https://t.me/jin10light/230739",
-          "title": "索尼、华纳起诉Anthropic，指控其涉嫌「公然窃取」知识产权",
-          "body": "#索尼音乐 #华纳音乐 #Anthropic",
-          "tags": [
-            "#索尼音乐",
-            "#华纳音乐",
-            "#Anthropic"
-          ],
-          "ts": 1788050122000,
-          "time": "08:35:22",
-          "receivedAt": 1788054422170,
-          "receivedTime": true
-        },
-        {
-          "id": "230738",
-          "url": "https://t.me/jin10light/230738",
-          "title": "国内新闻ï",
-          "body": "1.王毅同尼泊尔外长希西尔通电话。 2. 我国首次实现地月双向高速激光通信。 3. 国家数据局：词元市场需求呈现爆发式增长。 4. 截至7月底我国智算总规模达到245万PFLOPS。 5. 上半年全国新设外商投资企业3.5万户，同比增长7.0%。 6. 南京住房公积金管理中心：进一步扩大住房公积金异地贷款范围。 7. 长鑫存储回应起诉美国国防部：仅研发和生产用于商业及民用领域的DRAM产品，未用于军事用途。 国际新闻ï 1.乌方称俄或筹划向基辅发动新地面攻势。 2. 英国考虑对银行和石油公司征收暴利税。 3. 俄政府已将柴油生产商的出口禁令延长至9月底...",
-          "tags": [
-            "#中国",
-            "#尼泊尔",
-            "#伊朗"
-          ],
-          "ts": 1788049705000,
-          "time": "08:28:25",
-          "receivedAt": 1788054422170,
-          "receivedTime": true
-        },
-        {
-          "id": "230737",
-          "url": "https://t.me/jin10light/230737",
-          "title": "COPPERINU主要推动人him：将效仿ANSEM代币模式，对社区进行手动空投",
-          "body": "#COPPERINU #SOL #him",
-          "tags": [
-            "#COPPERINU",
-            "#SOL",
-            "#him"
-          ],
-          "ts": 1788016936000,
-          "time": "23:22:16",
-          "receivedAt": 1788023419271,
           "receivedTime": true
         }
       ],
