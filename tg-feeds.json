@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-04T21:31:59.028Z",
+  "updatedAt": "2026-09-04T23:13:32.792Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7144",
+          "url": "https://t.me/BWEtradfi/7144",
+          "title": "*Anthropic预计将于9月下旬公开其IPO招股说明书。",
+          "body": "*ANTHROPIC IS EXPECTED TO MAKE ITS IPO PROSPECTUS PUBLIC IN LATE SEPTEMBER *ANTHROPIC IS EXPECTED TO BEGIN MARKETING ITS IPO IN MID-OCTOBER AT THE EARLIEST *Anthropic预计最早将于10月中旬开始IPO营销活动。",
+          "tags": [],
+          "ts": 1788561558000,
+          "time": "06:39:18",
+          "receivedAt": 1788563592886,
+          "receivedTime": true
+        },
         {
           "id": "7143",
           "url": "https://t.me/BWEtradfi/7143",
@@ -1988,7 +1999,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
