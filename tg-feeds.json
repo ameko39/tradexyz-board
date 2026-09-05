@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T05:14:54.813Z",
+  "updatedAt": "2026-09-05T09:06:55.021Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1931,78 +1931,174 @@
           "time": "20:30:14",
           "receivedAt": 1787316935614,
           "receivedTime": true
-        },
-        {
-          "id": "6970",
-          "url": "https://t.me/BWEtradfi/6970",
-          "title": "DB: *英国8月制造业采购经理人指数（PMI）为51.5，预期为51.5",
-          "body": "DB: *UK AUG. MANUFACTURING PMI AT 51.5; EST. 51.5 *UK AUG. SERVICES PMI AT 52.8; EST. 51.8 *UK AUG. COMPOSITE PMI AT 52.5; EST. 51.6 *英国8月服务业PMI为52.8，预期为51.8 *英国8月综合PMI为52.5，预期为51.6",
-          "tags": [],
-          "ts": 1787301013000,
-          "time": "16:30:13",
-          "receivedAt": 1787301104655,
-          "receivedTime": true
-        },
-        {
-          "id": "6969",
-          "url": "https://t.me/BWEtradfi/6969",
-          "title": "DB: *欧元区8月制造业采购经理人指数（PMI）为52.8，预期为51.8",
-          "body": "DB: *EURO-AREA AUG. MANUFACTURING PMI AT 52.8; EST. 51.8 *EURO-AREA AUG. SERVICES PMI AT 51.7; EST. 51.5 *EURO-AREA AUG. COMPOSITE PMI AT 52.1; EST. 51.7 *欧元区8月服务业PMI为51.7，预期为51.5 *欧元区8月综合PMI为52.1，预期为51.7",
-          "tags": [],
-          "ts": 1787299213000,
-          "time": "16:00:13",
-          "receivedAt": 1787301104655,
-          "receivedTime": true
-        },
-        {
-          "id": "6968",
-          "url": "https://t.me/BWEtradfi/6968",
-          "title": "DB: *德国8月制造业采购经理人指数（PMI）为54.1，预期为52.0",
-          "body": "DB: *GERMANY AUG. MANUFACTURING PMI AT 54.1; EST. 52.0 *GERMANY AUG. SERVICES PMI AT 48.5; EST. 50.1 *GERMANY AUG. COMPOSITE PMI AT 51; EST. 51.3 *德国8月服务业PMI为48.5，预期为50.1 *德国8月综合PMI为51，预期为51.3",
-          "tags": [],
-          "ts": 1787297413000,
-          "time": "15:30:13",
-          "receivedAt": 1787298942699,
-          "receivedTime": true
-        },
-        {
-          "id": "6967",
-          "url": "https://t.me/BWEtradfi/6967",
-          "title": "DB: *法国8月制造业采购经理人指数（PMI）为51.5，预期为50.0",
-          "body": "DB: *FRANCE AUG. MANUFACTURING PMI AT 51.5; EST. 50.0 *FRANCE AUG. COMPOSITE PMI AT 48.8; EST. 49.5 *法国8月综合采购经理人指数（PMI）为48.8，预期为49.5",
-          "tags": [],
-          "ts": 1787296519000,
-          "time": "15:15:19",
-          "receivedAt": 1787298942699,
-          "receivedTime": true
-        },
-        {
-          "id": "6966",
-          "url": "https://t.me/BWEtradfi/6966",
-          "title": "DB: *英国7月零售销售额环比下降0.5%；预期下降0.4%",
-          "body": "DB: *UK JULY RETAIL SALES FALL 0.5% M/M; EST. -0.4% *UK JULY RETAIL SALES RISE 1.6% Y/Y; EST. +2.2% *UK JULY CORE RETAIL SALES FALL 0.9% M/M; EST. -0.5% *UK JULY CORE RETAIL SALES RISE 2.3% Y/Y; EST. +3.3% *英国7月零售销售额同比增长1.6%；预期增长2.2% *英国7月核心零售销售额环比下降0.9%；预期下降0.5% *英国7月核心零售销售额同比增长2.3%；预期增长3.3%",
-          "tags": [],
-          "ts": 1787292016000,
-          "time": "14:00:16",
-          "receivedAt": 1787293188647,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
         {
+          "id": "232231",
+          "url": "https://t.me/jin10light/232231",
+          "title": "分析：8月非农表面强劲但内生增速仅约6万，美联储年内加息概率上升",
+          "body": "#美国 #美联储 #美股",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#美股"
+          ],
+          "ts": 1788596846000,
+          "time": "16:27:26",
+          "receivedAt": 1788599204380,
+          "receivedTime": true
+        },
+        {
+          "id": "232230",
+          "url": "https://t.me/jin10light/232230",
+          "title": "BNB短时突破740美元",
+          "body": "#BNB #HTX",
+          "tags": [
+            "#BNB",
+            "#HTX"
+          ],
+          "ts": 1788595583000,
+          "time": "16:06:23",
+          "receivedAt": 1788599204380,
+          "receivedTime": true
+        },
+        {
+          "id": "232229",
+          "url": "https://t.me/jin10light/232229",
+          "title": "沉睡3个月地址提币110万美元「币安人生」，疑似押注BSC Meme后续行情",
+          "body": "#Binance #BSC Meme",
+          "tags": [
+            "#Binance",
+            "#BSC"
+          ],
+          "ts": 1788593964000,
+          "time": "15:39:24",
+          "receivedAt": 1788599204380,
+          "receivedTime": true
+        },
+        {
+          "id": "232228",
+          "url": "https://t.me/jin10light/232228",
+          "title": "国际原子能机构：停火已生效，以便进行电力线路修复，恢复扎波罗热核电站的外部电源。",
+          "body": "",
+          "tags": [],
+          "ts": 1788593005000,
+          "time": "15:23:25",
+          "receivedAt": 1788599204380,
+          "receivedTime": true
+        },
+        {
+          "id": "232227",
+          "url": "https://t.me/jin10light/232227",
+          "title": "Robinhood Chain单日费用收入创600万美元新高，7日年化收入升至11亿美元",
+          "body": "#Robinhood Chain #GMGN #Pons",
+          "tags": [
+            "#Robinhood",
+            "#GMGN",
+            "#Pons"
+          ],
+          "ts": 1788592162000,
+          "time": "15:09:22",
+          "receivedAt": 1788599204380,
+          "receivedTime": true
+        },
+        {
+          "id": "232226",
+          "url": "https://t.me/jin10light/232226",
+          "title": "伊媒：一艘位于哈尔克岛附近的伊朗油轮遭到导弹袭击",
+          "body": "9月5日讯，据伊朗SNN通讯社报道，一艘位于哈尔克岛附近的伊朗油轮遭到导弹袭击，目前尚未有人员伤亡的报告。 此前，另一家伊朗媒体Fars News报道称，在哈尔克岛附近传出爆炸声，但海湾内未见烟雾或火光，爆炸声具体原因不明确。 哈尔克岛对伊朗石油工业至关重要，该岛占伊朗原油出口量的90%，特朗普此前曾威胁要夺取该领土。 #伊朗 #哈尔克岛 #特朗普",
+          "tags": [
+            "#伊朗",
+            "#哈尔克岛",
+            "#特朗普"
+          ],
+          "ts": 1788591448000,
+          "time": "14:57:28",
+          "receivedAt": 1788599204380,
+          "receivedTime": true
+        },
+        {
+          "id": "232225",
+          "url": "https://t.me/jin10light/232225",
+          "title": "据伊朗SNN通讯社：一艘位于哈尔克岛附近的伊朗油轮遭到导弹袭击，目前尚未有人员伤亡的报告。",
+          "body": "#伊朗 #哈尔克岛",
+          "tags": [
+            "#伊朗",
+            "#哈尔克岛"
+          ],
+          "ts": 1788591264000,
+          "time": "14:54:24",
+          "receivedAt": 1788599204380,
+          "receivedTime": true
+        },
+        {
+          "id": "232224",
+          "url": "https://t.me/jin10light/232224",
+          "title": "「牛来」 市值重返1亿美元关口，24小时涨超16%",
+          "body": "#牛来",
+          "tags": [
+            "#牛来"
+          ],
+          "ts": 1788591263000,
+          "time": "14:54:23",
+          "receivedAt": 1788599204380,
+          "receivedTime": true
+        },
+        {
+          "id": "232223",
+          "url": "https://t.me/jin10light/232223",
+          "title": "昨日Uniswap协议销毁17.8万枚UNI，仅Robinhood Chain单链贡献销毁量高达14.4万枚",
+          "body": "#UNI #Robinhood Chain #Uniswap",
+          "tags": [
+            "#UNI",
+            "#Robinhood",
+            "#Uniswap"
+          ],
+          "ts": 1788591021000,
+          "time": "14:50:21",
+          "receivedAt": 1788599204380,
+          "receivedTime": true
+        },
+        {
+          "id": "232222",
+          "url": "https://t.me/jin10light/232222",
+          "title": "伊朗媒体称哈尔克岛附近传出爆炸声",
+          "body": "9月5日讯，据伊朗法尔斯通讯社5日报道，伊朗哈尔克岛附近传出爆炸声，具体原因尚不明确。 #伊朗 #哈尔克岛",
+          "tags": [
+            "#伊朗",
+            "#哈尔克岛"
+          ],
+          "ts": 1788590965000,
+          "time": "14:49:25",
+          "receivedAt": 1788599204380,
+          "receivedTime": true
+        },
+        {
+          "id": "232221",
+          "url": "https://t.me/jin10light/232221",
+          "title": "观点：Robinhood链大部分交易来自GMGN、OKX等Degen流量，而非Robinhood新增加密用户",
+          "body": "#Robinhood Chain #ARK Invest #Lorenzo Valente",
+          "tags": [
+            "#Robinhood",
+            "#ARK",
+            "#Lorenzo"
+          ],
+          "ts": 1788589405000,
+          "time": "14:23:25",
+          "receivedAt": 1788599204380,
+          "receivedTime": true
+        },
+        {
           "id": "232220",
           "url": "https://t.me/jin10light/232220",
-          "title": "Meme币SHROOM市值短时突破3500万美元，24小时涨超340%",
-          "body": "#SHROOM #Robinhood #Meme 币",
-          "tags": [
-            "#SHROOM",
-            "#Robinhood",
-            "#Meme"
-          ],
+          "title": "Meme币SHROOM市值突破4500万美元，24小时涨幅扩大至500%",
+          "body": "",
+          "tags": [],
           "ts": 1788583823000,
           "time": "12:50:23",
           "receivedAt": 1788585283943,
@@ -19011,155 +19107,6 @@
           "time": "22:14:23",
           "receivedAt": 1788205023557,
           "receivedTime": true
-        },
-        {
-          "id": "231031",
-          "url": "https://t.me/jin10light/231031",
-          "title": "Fomo收购链上数据基础设施公司Mobula专有软件和知识产权",
-          "body": "#Fomo #Mobula",
-          "tags": [
-            "#Fomo",
-            "#Mobula"
-          ],
-          "ts": 1788185366000,
-          "time": "22:09:26",
-          "receivedAt": 1788205023557,
-          "receivedTime": true
-        },
-        {
-          "id": "231030",
-          "url": "https://t.me/jin10light/231030",
-          "title": "特朗普力推建设数据中心：别杀死这只「下金蛋的鹅」",
-          "body": "#特朗普 #美国 #数据中心",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#数据中心"
-          ],
-          "ts": 1788185121000,
-          "time": "22:05:21",
-          "receivedAt": 1788205023557,
-          "receivedTime": true
-        },
-        {
-          "id": "231029",
-          "url": "https://t.me/jin10light/231029",
-          "title": "比尔·盖茨：不会投资加密货币，对「狂热驱动型资产」持怀疑态度",
-          "body": "#比尔·盖茨 #加密货币 #美元",
-          "tags": [
-            "#比尔",
-            "#加密货币",
-            "#美元"
-          ],
-          "ts": 1788184943000,
-          "time": "22:02:23",
-          "receivedAt": 1788205023557,
-          "receivedTime": true
-        },
-        {
-          "id": "231028",
-          "url": "https://t.me/jin10light/231028",
-          "title": "希音-W：每股最终发售价为48.56港元",
-          "body": "",
-          "tags": [],
-          "ts": 1788184462000,
-          "time": "21:54:22",
-          "receivedAt": 1788205023557,
-          "receivedTime": true
-        },
-        {
-          "id": "231027",
-          "url": "https://t.me/jin10light/231027",
-          "title": "沪金主力合约日内跌幅达2.00%，现报958.62元/克。",
-          "body": "#黄金 #A股",
-          "tags": [
-            "#黄金",
-            "#A股"
-          ],
-          "ts": 1788184341000,
-          "time": "21:52:21",
-          "receivedAt": 1788205023557,
-          "receivedTime": true
-        },
-        {
-          "id": "231026",
-          "url": "https://t.me/jin10light/231026",
-          "title": "微策略时隔10周再买BTC：MSTR为何越涨越能买？",
-          "body": "#BTC #Strategy #MSTR",
-          "tags": [
-            "#BTC",
-            "#Strategy",
-            "#MSTR"
-          ],
-          "ts": 1788184283000,
-          "time": "21:51:23",
-          "receivedAt": 1788205023557,
-          "receivedTime": true
-        },
-        {
-          "id": "231025",
-          "url": "https://t.me/jin10light/231025",
-          "title": "Cronos链重新恢复出块，链状态回滚至Tectonic漏洞利用前",
-          "body": "#Cronos Network #Tectonic",
-          "tags": [
-            "#Cronos",
-            "#Tectonic"
-          ],
-          "ts": 1788183981000,
-          "time": "21:46:21",
-          "receivedAt": 1788205023557,
-          "receivedTime": true
-        },
-        {
-          "id": "231024",
-          "url": "https://t.me/jin10light/231024",
-          "title": "快手：北京可灵与国家人工智能基金、正大机器人订立加入协议",
-          "body": "8月31日讯，快手( 01024.HK )公告，于2026年8月31日，北京可灵分别与国家人工智能基金、正大机器人订立加入协议，据此，国家人工智能基金及正大机器人各自同意作为额外投资者成为增资协议的订约方，并分别向北京可灵注入现金资本人民币14亿元及约1929万美元（相当于约人民币13145万元）。 #快手 #北京可灵 #正大机器人",
-          "tags": [
-            "#快手",
-            "#北京可灵",
-            "#正大机器人"
-          ],
-          "ts": 1788183682000,
-          "time": "21:41:22",
-          "receivedAt": 1788205023557,
-          "receivedTime": true
-        },
-        {
-          "id": "231023",
-          "url": "https://t.me/jin10light/231023",
-          "title": "某持币逾10万枚ETH巨鲸向CEX转入2858枚ETH",
-          "body": "#ETH #巨鲸",
-          "tags": [
-            "#ETH",
-            "#巨鲸"
-          ],
-          "ts": 1788183443000,
-          "time": "21:37:23",
-          "receivedAt": 1788205023557,
-          "receivedTime": true
-        },
-        {
-          "id": "231022",
-          "url": "https://t.me/jin10light/231022",
-          "title": "Tom Lee：Bitmine距买入「5%ETH供应」仅差最后10万枚",
-          "body": "",
-          "tags": [],
-          "ts": 1788183142000,
-          "time": "21:32:22",
-          "receivedAt": 1788183397878,
-          "receivedTime": true
-        },
-        {
-          "id": "231021",
-          "url": "https://t.me/jin10light/231021",
-          "title": "伊朗高级消息人士：每当美国对伊朗发动攻击，德黑兰将作出「数十倍于攻击的回应」",
-          "body": "",
-          "tags": [],
-          "ts": 1788182962000,
-          "time": "21:29:22",
-          "receivedAt": 1788183397878,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20210,39 +20157,6 @@
           "ts": 1787304032000,
           "time": "17:20:32",
           "receivedAt": 1787305825409,
-          "receivedTime": true
-        },
-        {
-          "id": "1786",
-          "url": "https://t.me/PolyBeats_Bot/1786",
-          "title": "Mythos 2 已训练但暂不发布？2 名 Anthropic 高胜率账户预测下一个 Mythos 模型发布时间",
-          "body": "在预测市场 Polymarket 上，2 名聪明钱买入「 下一款 Mythos 级别模型会在 ___ 前发布吗？ 」。 账户1 与本市场最佳相关板块为 Claude ，板块净盈利 $8.8k。其在该板块共 44 笔已结算交易的胜率为 36/44（82%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 8 笔。 账户2 与本市场最佳相关板块为 Anthropic ，板块净盈利 $16.9k。其在该板块共 27 笔已结算交易的胜率为 20/27（74%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 16 笔。",
-          "tags": [],
-          "ts": 1787300221000,
-          "time": "16:17:01",
-          "receivedAt": 1787301118107,
-          "receivedTime": true
-        },
-        {
-          "id": "1785",
-          "url": "https://t.me/PolyBeats_Bot/1785",
-          "title": "如果在两天前买入「8 月是今年 BTC 涨幅最高的月份」，目前能赚 47 倍",
-          "body": "截至 8 月 21 日，Polymarket「 8 月是今年 BTC 表现最佳月份 」概率在本轮 BTC 上涨前一度低至约 1.1%，随后快速上升至当前 47%。 美联储 7 月会议纪要显示，部分官员认为如果通胀继续偏高，未来几个月仍可能需要加息；市场目前则更倾向于 9 月暂不调整利率。美联储官方日程显示，下一次关键会议将在 9 月 15 日至 16 日举行，并同步公布经济预测和点阵图。 如果就业或通胀数据推动美联储转向更鸽派立场，9 月至 10 月可能出现第二轮上涨；如果收益率重新走高、ETF 流入中断，本轮上涨也可能停留在空头回补，而不是趋势反转。美联储会议纪要的报道也提示，当前政策路径仍存在重新转鹰的风险。",
-          "tags": [],
-          "ts": 1787295841000,
-          "time": "15:04:01",
-          "receivedAt": 1787296331043,
-          "receivedTime": true
-        },
-        {
-          "id": "1784",
-          "url": "https://t.me/PolyBeats_Bot/1784",
-          "title": "WTI 五日累涨超 8%，聪明钱预测月内涨到 $90",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 WTI 原油会在月内涨至 $90 吗？ 」投入 $9.9k「是」，平均买入概率为 41.7%，目前「是」概率为 56.5%。 de5nuts 投入 $9.9k，与本市场最佳相关板块为 石油 ，板块净盈利 $64.8k。其在该板块共 45 笔已结算交易的胜率为 22/45（49%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 7 笔。相近成本价区间（$0.451-$0.5）内，其历史投入金额中位数为 $1.6k。 今日 WTI 原油期货报 $86.78，前一交易日上涨 2.3%。WTI 此前连续 5 个交易日上涨，累计涨幅超过 8%，价格升至 7 月 24 日以来高位。当前价格距离 $90 还差 $3.22，对应约 3.7% 涨幅。 美国与伊朗此前达成的临时和平安排已经到期，双方近期没有重启谈判。特朗普警告向伊朗提供经济支持的国家可能面临制裁，阿联酋已经暂停与伊朗之间的金融和经济交易。美国财政部长斯科特·贝森特于 20 日表示，新一轮伊朗制裁方案将在下周公布。 路透社今日报道，美元指数本周整体下跌。美国财政部已经扩大长期国债回购规模，未来一个季度的单次...",
-          "tags": [],
-          "ts": 1787292542000,
-          "time": "14:09:02",
-          "receivedAt": 1787293204937,
           "receivedTime": true
         }
       ],
