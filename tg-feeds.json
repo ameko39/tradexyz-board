@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T15:30:42.299Z",
+  "updatedAt": "2026-09-05T17:30:50.189Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1900,11 +1900,99 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "232265",
+          "url": "https://t.me/jin10light/232265",
+          "title": "克里姆林宫：俄罗斯总统普京开始与美国总统特使威特科夫、特朗普女婿库什纳会晤。",
+          "body": "#俄罗斯 #美国 #普京",
+          "tags": [
+            "#俄罗斯",
+            "#美国",
+            "#普京"
+          ],
+          "ts": 1788627625000,
+          "time": "01:00:25",
+          "receivedAt": 1788629439304,
+          "receivedTime": true
+        },
+        {
+          "id": "232264",
+          "url": "https://t.me/jin10light/232264",
+          "title": "美联储9月加息25个基点概率暂报59.4%",
+          "body": "#美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1788624745000,
+          "time": "00:12:25",
+          "receivedAt": 1788629439304,
+          "receivedTime": true
+        },
+        {
+          "id": "232263",
+          "url": "https://t.me/jin10light/232263",
+          "title": "本周美国比特币现货ETF累计净流入9.867亿美元",
+          "body": "#美国 #BTC #ETH",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1788623962000,
+          "time": "23:59:22",
+          "receivedAt": 1788629439304,
+          "receivedTime": true
+        },
+        {
+          "id": "232262",
+          "url": "https://t.me/jin10light/232262",
+          "title": "CZ：吉尔吉斯斯坦已建立加密监管框架，稳定币KGST开始流通",
+          "body": "#Binance #CZ #吉尔吉斯斯坦",
+          "tags": [
+            "#Binance",
+            "#CZ",
+            "#吉尔吉斯斯坦"
+          ],
+          "ts": 1788623544000,
+          "time": "23:52:24",
+          "receivedAt": 1788629439304,
+          "receivedTime": true
+        },
+        {
+          "id": "232261",
+          "url": "https://t.me/jin10light/232261",
+          "title": "Muse Spark 1.3 Max正式开放：最强推理档终于能用了",
+          "body": "#Meta #Muse Spark 1.3 Max #Alexandr Wang",
+          "tags": [
+            "#Meta",
+            "#Muse",
+            "#Alexandr"
+          ],
+          "ts": 1788623302000,
+          "time": "23:48:22",
+          "receivedAt": 1788629439304,
+          "receivedTime": true
+        },
+        {
+          "id": "232260",
+          "url": "https://t.me/jin10light/232260",
+          "title": "XDOF亮相三个月即冲刺B轮融资，估值达12亿美元",
+          "body": "#XDOF #8VC",
+          "tags": [
+            "#XDOF",
+            "#8VC"
+          ],
+          "ts": 1788622827000,
+          "time": "23:40:27",
+          "receivedAt": 1788629439304,
+          "receivedTime": true
+        },
         {
           "id": "232259",
           "url": "https://t.me/jin10light/232259",
@@ -19008,89 +19096,6 @@
           "ts": 1788214526000,
           "time": "06:15:26",
           "receivedAt": 1788218423469,
-          "receivedTime": true
-        },
-        {
-          "id": "231065",
-          "url": "https://t.me/jin10light/231065",
-          "title": "美股收盘：三大股指收跌 特斯拉涨超5%",
-          "body": "9月1日讯，美股周一收盘，道指初步收跌0.7%，标普500指数跌0.33%，纳指跌0.12%。 特斯拉(TSLA.O)涨5.5%，英伟达(NVDA.O)涨超1%，SK海力士(SKHY.O)涨2%，闪迪(SNDK.O)涨5.5%。 纳斯达克中国金龙指数收跌2.18%，阿里巴巴(BABA.N)跌4%， #美股 #特斯拉 #英伟达",
-          "tags": [
-            "#美股",
-            "#特斯拉",
-            "#英伟达"
-          ],
-          "ts": 1788206541000,
-          "time": "04:02:21",
-          "receivedAt": 1788218423469,
-          "receivedTime": true
-        },
-        {
-          "id": "231064",
-          "url": "https://t.me/jin10light/231064",
-          "title": "特朗普称可能会打击伊朗，重申美国利率过高",
-          "body": "",
-          "tags": [],
-          "ts": 1788206304000,
-          "time": "03:58:24",
-          "receivedAt": 1788218423469,
-          "receivedTime": true
-        },
-        {
-          "id": "231063",
-          "url": "https://t.me/jin10light/231063",
-          "title": "美国总统特朗普：对伊朗的打击将会是有限的。",
-          "body": "霍尔木兹海峡目前处于“非常良好”的状态。 #特朗普 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#特朗普",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1788205642000,
-          "time": "03:47:22",
-          "receivedAt": 1788218423469,
-          "receivedTime": true
-        },
-        {
-          "id": "231062",
-          "url": "https://t.me/jin10light/231062",
-          "title": "据伊朗PressTV：伊朗革命卫队官员称，伊朗的首要重点是威慑，战争或谈判是其次。",
-          "body": "#伊朗 #伊朗革命卫队",
-          "tags": [
-            "#伊朗",
-            "#伊朗革命卫队"
-          ],
-          "ts": 1788202582000,
-          "time": "02:56:22",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231061",
-          "url": "https://t.me/jin10light/231061",
-          "title": "亚马逊(AMZN.O)短线下挫，跌超3%，创盘中低位。",
-          "body": "消息面上，美国联邦贸易委员会计划于周一对亚马逊提起诉讼。 #亚马逊 #美国",
-          "tags": [
-            "#亚马逊",
-            "#美国"
-          ],
-          "ts": 1788199462000,
-          "time": "02:04:22",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231060",
-          "url": "https://t.me/jin10light/231060",
-          "title": "美联储9月加息25个基点概率暂报67.9%",
-          "body": "#美联储 #美国",
-          "tags": [
-            "#美联储",
-            "#美国"
-          ],
-          "ts": 1788195743000,
-          "time": "01:02:23",
-          "receivedAt": 1788205023392,
           "receivedTime": true
         }
       ],
