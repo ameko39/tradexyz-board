@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T23:13:32.792Z",
+  "updatedAt": "2026-09-05T00:57:31.742Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1986,24 +1986,57 @@
           "time": "14:00:16",
           "receivedAt": 1787293188647,
           "receivedTime": true
-        },
-        {
-          "id": "6965",
-          "url": "https://t.me/BWEtradfi/6965",
-          "title": "DB: *日本7月整体消费者价格指数同比上涨2%；预期上涨1.9%",
-          "body": "DB: *JAPAN JULY OVERALL CONSUMER PRICES RISE 2% Y/Y; EST. +1.9% *JAPAN JULY CORE CONSUMER PRICES RISE 1.8% Y/Y; EST. +1.8% *日本7月核心消费者价格指数同比上涨1.8%；预期上涨1.8%",
-          "tags": [],
-          "ts": 1787268619000,
-          "time": "07:30:19",
-          "receivedAt": 1787268843983,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "232193",
+          "url": "https://t.me/jin10light/232193",
+          "title": "美股今晨三大股指收跌，闪迪涨超11%，特斯拉跌近6%",
+          "body": "#美股 #TSLA #AAPL",
+          "tags": [
+            "#美股",
+            "#TSLA",
+            "#AAPL"
+          ],
+          "ts": 1788569602000,
+          "time": "08:53:22",
+          "receivedAt": 1788569835705,
+          "receivedTime": true
+        },
+        {
+          "id": "232192",
+          "url": "https://t.me/jin10light/232192",
+          "title": "Anthropic筹备上市，摩根士丹利、高盛或获关键承销角色",
+          "body": "#Anthropic #摩根士丹利 #高盛",
+          "tags": [
+            "#Anthropic",
+            "#摩根士丹利",
+            "#高盛"
+          ],
+          "ts": 1788568762000,
+          "time": "08:39:22",
+          "receivedAt": 1788569835705,
+          "receivedTime": true
+        },
+        {
+          "id": "232191",
+          "url": "https://t.me/jin10light/232191",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少1.426吨，当前持仓量为1052.056吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1788568222000,
+          "time": "08:30:22",
+          "receivedAt": 1788569835705,
+          "receivedTime": true
+        },
         {
           "id": "232190",
           "url": "https://t.me/jin10light/232190",
@@ -2035,13 +2068,9 @@
         {
           "id": "232188",
           "url": "https://t.me/jin10light/232188",
-          "title": "特朗普：美国基本上已经接管了伊朗 可能会很快袭击镐山",
-          "body": "9月5日讯，美国总统特朗普当地时间周五在白宫表示：“我们昨晚通过霍尔木兹海峡击沉了很多船只，我们正在运出大量石油，并控制霍尔木兹海峡。 我们可能很快会袭击镐山，我们就要到动手的时候了。 如果伊朗局势有任何恶化，我们将对其予以重击。 说实话，我们基本上已经接管了伊朗，对我来说，伊朗问题只是一场军事冲突，不算战争，因为对我们来说这只是一件微不足道的小事，没什么大不了的。 ” #特朗普 #美国 #伊朗",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#伊朗"
-          ],
+          "title": "特朗普：美国基本上已经接管了伊朗，可能会很快袭击镐山",
+          "body": "",
+          "tags": [],
           "ts": 1788547762000,
           "time": "02:49:22",
           "receivedAt": 1788549386560,
@@ -19121,46 +19150,6 @@
           ],
           "ts": 1788176663000,
           "time": "19:44:23",
-          "receivedAt": 1788183398114,
-          "receivedTime": true
-        },
-        {
-          "id": "230993",
-          "url": "https://t.me/jin10light/230993",
-          "title": "据路透社：美国军方官员表示，美军在昨夜的空袭中并未以哈尔克岛为目标。",
-          "body": "",
-          "tags": [],
-          "ts": 1788176483000,
-          "time": "19:41:23",
-          "receivedAt": 1788183398114,
-          "receivedTime": true
-        },
-        {
-          "id": "230992",
-          "url": "https://t.me/jin10light/230992",
-          "title": "智谱：8月年度经常性收入达到16亿美元",
-          "body": "#智谱 #美元",
-          "tags": [
-            "#智谱",
-            "#美元"
-          ],
-          "ts": 1788176184000,
-          "time": "19:36:24",
-          "receivedAt": 1788183398114,
-          "receivedTime": true
-        },
-        {
-          "id": "230991",
-          "url": "https://t.me/jin10light/230991",
-          "title": "智谱Token推理成本较年初降80%：10万张国产芯片跑大模型",
-          "body": "#智谱 #GLM -5.3-Flash #国产芯片",
-          "tags": [
-            "#智谱",
-            "#GLM",
-            "#国产芯片"
-          ],
-          "ts": 1788176061000,
-          "time": "19:34:21",
           "receivedAt": 1788183398114,
           "receivedTime": true
         }
