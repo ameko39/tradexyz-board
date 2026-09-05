@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T21:21:40.271Z",
+  "updatedAt": "2026-09-05T23:00:20.219Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1889,11 +1889,54 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "232272",
+          "url": "https://t.me/jin10light/232272",
+          "title": "俄罗斯总统助理乌沙科夫：普京已准备同美方开展合作，寻求外交途径解决俄乌问题。",
+          "body": "#俄罗斯 #普京 #美国",
+          "tags": [
+            "#俄罗斯",
+            "#普京",
+            "#美国"
+          ],
+          "ts": 1788646042000,
+          "time": "06:07:22",
+          "receivedAt": 1788649208719,
+          "receivedTime": true
+        },
+        {
+          "id": "232271",
+          "url": "https://t.me/jin10light/232271",
+          "title": "俄罗斯总统助理乌沙科夫：已就和平解决制定了一系列方案。",
+          "body": "#俄罗斯 #乌沙科夫",
+          "tags": [
+            "#俄罗斯",
+            "#乌沙科夫"
+          ],
+          "ts": 1788643820000,
+          "time": "05:30:20",
+          "receivedAt": 1788649208719,
+          "receivedTime": true
+        },
+        {
+          "id": "232270",
+          "url": "https://t.me/jin10light/232270",
+          "title": "俄罗斯总统助理乌沙科夫：会谈富有成效。",
+          "body": "#俄罗斯 #乌沙科夫",
+          "tags": [
+            "#俄罗斯",
+            "#乌沙科夫"
+          ],
+          "ts": 1788643702000,
+          "time": "05:28:22",
+          "receivedAt": 1788649208719,
+          "receivedTime": true
+        },
         {
           "id": "232269",
           "url": "https://t.me/jin10light/232269",
@@ -19039,51 +19082,6 @@
           ],
           "ts": 1788220043000,
           "time": "07:47:23",
-          "receivedAt": 1788227522514,
-          "receivedTime": true
-        },
-        {
-          "id": "231072",
-          "url": "https://t.me/jin10light/231072",
-          "title": "美股收盘加密概念股普涨，Circle涨近10%",
-          "body": "#美股 #加密货币 #BTC",
-          "tags": [
-            "#美股",
-            "#加密货币",
-            "#BTC"
-          ],
-          "ts": 1788219922000,
-          "time": "07:45:22",
-          "receivedAt": 1788227522514,
-          "receivedTime": true
-        },
-        {
-          "id": "231071",
-          "url": "https://t.me/jin10light/231071",
-          "title": "Anthropic签署350亿美元云计算协议，英伟达提供支持",
-          "body": "#Anthropic #Lambda #Hut 8",
-          "tags": [
-            "#Anthropic",
-            "#Lambda",
-            "#Hut"
-          ],
-          "ts": 1788219683000,
-          "time": "07:41:23",
-          "receivedAt": 1788227522514,
-          "receivedTime": true
-        },
-        {
-          "id": "231070",
-          "url": "https://t.me/jin10light/231070",
-          "title": "美股收盘存储及Neocloud板块表现居前，GLXY涨近6%、闪迪涨5.5%",
-          "body": "#美股 #美国 #Galaxy Digital",
-          "tags": [
-            "#美股",
-            "#美国",
-            "#Galaxy"
-          ],
-          "ts": 1788219322000,
-          "time": "07:35:22",
           "receivedAt": 1788227522514,
           "receivedTime": true
         }
