@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T12:38:02.044Z",
+  "updatedAt": "2026-09-05T15:30:42.299Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1898,28 +1898,6 @@
           "time": "04:00:13",
           "receivedAt": 1787342989036,
           "receivedTime": true
-        },
-        {
-          "id": "6973",
-          "url": "https://t.me/BWEtradfi/6973",
-          "title": "DB: *美国标普8月制造业采购经理人指数（PMI）为53.2，预期为53.9",
-          "body": "DB: *US S&P AUG. MANUFACTURING PMI AT 53.2; EST. 53.9 *US S&P AUG. SERVICES PMI AT 56.8; EST. 54.0 *US S&P AUG. COMPOSITE PMI AT 56; EST. 53.9 *美国标普8月服务业PMI为56.8，预期为54.0 *美国标普8月综合PMI为56，预期为53.9",
-          "tags": [],
-          "ts": 1787319913000,
-          "time": "21:45:13",
-          "receivedAt": 1787321842386,
-          "receivedTime": true
-        },
-        {
-          "id": "6972",
-          "url": "https://t.me/BWEtradfi/6972",
-          "title": "DB: 标普500指数、纳斯达克指数开盘上涨0.5%",
-          "body": "DB: *S&P 500, NASDAQ OPEN UP 0.5%",
-          "tags": [],
-          "ts": 1787319042000,
-          "time": "21:30:42",
-          "receivedAt": 1787319549220,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1927,6 +1905,192 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "232259",
+          "url": "https://t.me/jin10light/232259",
+          "title": "国内新闻ï",
+          "body": "1.尼泊尔泥石流灾害中1名受困中国公民获救。 2. 小米发布结构化数据大模型Xiaomi-TabLDM。 3. 8月中国物流需求保持扩张，景气水平进一步提升。 4. 两部门针对福建提升国家自然灾害救助应急响应级别至三级。 5. 国家发展改革委紧急安排2000万元支持江西暴雨洪涝灾害灾后应急恢复。 国际新闻ï 1.法国国家黄金储备全部归集至本土。 2. 美媒：美国共和党人对经济信心骤降。 3. 韩国2026年迄今出口额达7094亿美元，创下历史纪录。 4. 扎波罗热核电站周边实施临时停火，以抢修外部供电线路。 5. 消息人士：美国白宫已对接替美国国防部副...",
+          "tags": [
+            "#中国",
+            "#尼泊尔",
+            "#小米"
+          ],
+          "ts": 1788620904000,
+          "time": "23:08:24",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232258",
+          "url": "https://t.me/jin10light/232258",
+          "title": "BNB大涨带动生态Meme币普涨，币安人生24小时涨超17%",
+          "body": "#BNB #MARSCOIN #1000CAT",
+          "tags": [
+            "#BNB",
+            "#MARSCOIN",
+            "#1000CAT"
+          ],
+          "ts": 1788620727000,
+          "time": "23:05:27",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232257",
+          "url": "https://t.me/jin10light/232257",
+          "title": "BNB上涨触及770美元，24小时涨超8%",
+          "body": "#BNB #HTX",
+          "tags": [
+            "#BNB",
+            "#HTX"
+          ],
+          "ts": 1788620304000,
+          "time": "22:58:24",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232256",
+          "url": "https://t.me/jin10light/232256",
+          "title": "分析：比特币OG持币者加速转移筹码，链上活动显著增多",
+          "body": "#BTC #CryptoQuant",
+          "tags": [
+            "#BTC",
+            "#CryptoQuant"
+          ],
+          "ts": 1788619523000,
+          "time": "22:45:23",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232255",
+          "url": "https://t.me/jin10light/232255",
+          "title": "Robinhood Chain过去24小时DEX交易额登顶榜首",
+          "body": "#Robinhood Chain #Solana #BNB Chain",
+          "tags": [
+            "#Robinhood",
+            "#Solana",
+            "#BNB"
+          ],
+          "ts": 1788618390000,
+          "time": "22:26:30",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232254",
+          "url": "https://t.me/jin10light/232254",
+          "title": "Meme币Basecat市值触及7000万美元，创历史新高",
+          "body": "#Basecat #Base #Coinbase",
+          "tags": [
+            "#Basecat",
+            "#Base",
+            "#Coinbase"
+          ],
+          "ts": 1788616643000,
+          "time": "21:57:23",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232253",
+          "url": "https://t.me/jin10light/232253",
+          "title": "美国中央司令部：美军击沉三艘伊朗革命卫队油轮",
+          "body": "",
+          "tags": [],
+          "ts": 1788615984000,
+          "time": "21:46:24",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232252",
+          "url": "https://t.me/jin10light/232252",
+          "title": "Trade.XYZ于Hyperliquid上部署其HIP-4 DEX",
+          "body": "#Trade .XYZ #Hyperliquid #DEX",
+          "tags": [
+            "#Trade",
+            "#Hyperliquid",
+            "#DEX"
+          ],
+          "ts": 1788614964000,
+          "time": "21:29:24",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232251",
+          "url": "https://t.me/jin10light/232251",
+          "title": "交易员Loracle持续加仓PONS空单，单币浮亏580万美元",
+          "body": "#PONS #Hyperliquid",
+          "tags": [
+            "#PONS",
+            "#Hyperliquid"
+          ],
+          "ts": 1788614365000,
+          "time": "21:19:25",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232250",
+          "url": "https://t.me/jin10light/232250",
+          "title": "Bonk Guy再次喊单USELESS：可能是本周期的DOGE/PEPE级机会",
+          "body": "#Bonk Guy #USELESS #DOGE",
+          "tags": [
+            "#Bonk",
+            "#USELESS",
+            "#DOGE"
+          ],
+          "ts": 1788613584000,
+          "time": "21:06:24",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232249",
+          "url": "https://t.me/jin10light/232249",
+          "title": "GPT-6 Astra支持无损换挡：长对话切思考强度不再打掉缓存",
+          "body": "#OpenAI #GPT -6 Astra",
+          "tags": [
+            "#OpenAI",
+            "#GPT"
+          ],
+          "ts": 1788613164000,
+          "time": "20:59:24",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232248",
+          "url": "https://t.me/jin10light/232248",
+          "title": "下周宏观展望：美联储进入静默期，8月CPI领衔登场，甲骨文周四盘后发布财报",
+          "body": "#美联储 #欧洲央行 #苹果公司",
+          "tags": [
+            "#美联储",
+            "#欧洲央行",
+            "#苹果公司"
+          ],
+          "ts": 1788612684000,
+          "time": "20:51:24",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
+        {
+          "id": "232247",
+          "url": "https://t.me/jin10light/232247",
+          "title": "Bitget已上线U本位DGAI永续合约",
+          "body": "#Bitget #DGAI",
+          "tags": [
+            "#Bitget",
+            "#DGAI"
+          ],
+          "ts": 1788612143000,
+          "time": "20:42:23",
+          "receivedAt": 1788622231332,
+          "receivedTime": true
+        },
         {
           "id": "232246",
           "url": "https://t.me/jin10light/232246",
@@ -18928,185 +19092,6 @@
           "time": "01:02:23",
           "receivedAt": 1788205023392,
           "receivedTime": true
-        },
-        {
-          "id": "231059",
-          "url": "https://t.me/jin10light/231059",
-          "title": "美股Circle（CRCL）盘中涨超6%",
-          "body": "#Circle #Kraken #美国",
-          "tags": [
-            "#Circle",
-            "#Kraken",
-            "#美国"
-          ],
-          "ts": 1788195621000,
-          "time": "01:00:21",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231058",
-          "url": "https://t.me/jin10light/231058",
-          "title": "Circle涨超6%",
-          "body": "#Circle #Kraken #美国",
-          "tags": [
-            "#Circle",
-            "#Kraken",
-            "#美国"
-          ],
-          "ts": 1788195321000,
-          "time": "00:55:21",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231057",
-          "url": "https://t.me/jin10light/231057",
-          "title": "Hyperliquid正与Kraken母公司洽谈进入美国市场",
-          "body": "#Hyperliquid #Kraken #美国",
-          "tags": [
-            "#Hyperliquid",
-            "#Kraken",
-            "#美国"
-          ],
-          "ts": 1788194781000,
-          "time": "00:46:21",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231056",
-          "url": "https://t.me/jin10light/231056",
-          "title": "「字节新股神」接棒：美股资产7年翻23倍，核心策略「早期买入并坚定持有」",
-          "body": "#字节跳动 #美股 #Dexter Yang",
-          "tags": [
-            "#字节跳动",
-            "#美股",
-            "#Dexter"
-          ],
-          "ts": 1788194543000,
-          "time": "00:42:23",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231055",
-          "url": "https://t.me/jin10light/231055",
-          "title": "Telegram创始人：Gram钱包准备就绪，已面向部分用户开放使用",
-          "body": "",
-          "tags": [],
-          "ts": 1788193940000,
-          "time": "00:32:20",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231054",
-          "url": "https://t.me/jin10light/231054",
-          "title": "伊朗革命卫队：一架MQ-9无人机在霍尔木兹海峡以东被击落。",
-          "body": "",
-          "tags": [],
-          "ts": 1788193821000,
-          "time": "00:30:21",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231053",
-          "url": "https://t.me/jin10light/231053",
-          "title": "观点：比特币反弹动能仍强劲，机构配置与投机杠杆同步上升",
-          "body": "#BTC #美国",
-          "tags": [
-            "#BTC",
-            "#美国"
-          ],
-          "ts": 1788193764000,
-          "time": "00:29:24",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231052",
-          "url": "https://t.me/jin10light/231052",
-          "title": "比特币9月历史回报率：2013年起8次收跌5次收涨，回报中位数-3.12%",
-          "body": "#BTC #比特币回升",
-          "tags": [
-            "#BTC",
-            "#比特币回升"
-          ],
-          "ts": 1788193102000,
-          "time": "00:18:22",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231051",
-          "url": "https://t.me/jin10light/231051",
-          "title": "美国10年期国债收益率突破4.75%，为2025年1月以来首次。",
-          "body": "",
-          "tags": [],
-          "ts": 1788192563000,
-          "time": "00:09:23",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231050",
-          "url": "https://t.me/jin10light/231050",
-          "title": "过去24小时全网爆仓4.37亿美元，主爆多单",
-          "body": "#加密货币 #BTC",
-          "tags": [
-            "#加密货币",
-            "#BTC"
-          ],
-          "ts": 1788192201000,
-          "time": "00:03:21",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231049",
-          "url": "https://t.me/jin10light/231049",
-          "title": "美SEC酝酿取消股东代理提案规则",
-          "body": "#美国 #SEC",
-          "tags": [
-            "#美国",
-            "#SEC"
-          ],
-          "ts": 1788191185000,
-          "time": "23:46:25",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231048",
-          "url": "https://t.me/jin10light/231048",
-          "title": "Pump.fun将13.29万枚SOL转入Kraken，约1374万美元",
-          "body": "#SOL #Pump .fun #Kraken",
-          "tags": [
-            "#SOL",
-            "#Pump",
-            "#Kraken"
-          ],
-          "ts": 1788190702000,
-          "time": "23:38:22",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
-        },
-        {
-          "id": "231047",
-          "url": "https://t.me/jin10light/231047",
-          "title": "丢失12年BTC「失而复得」，某英国男子寻回倒闭交易平台中330万英镑比特币",
-          "body": "#英国 #BTC #Intersango",
-          "tags": [
-            "#英国",
-            "#BTC",
-            "#Intersango"
-          ],
-          "ts": 1788190465000,
-          "time": "23:34:25",
-          "receivedAt": 1788205023392,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20127,7 +20112,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
