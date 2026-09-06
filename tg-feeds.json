@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-06T17:59:25.826Z",
+  "updatedAt": "2026-09-06T20:09:29.271Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7145",
+          "url": "https://t.me/BWEtradfi/7145",
+          "title": "*TRUMP：我为美国在股票上赚了数千亿美元",
+          "body": "*TRUMP: I'VE MADE HUNDREDS OF BILLIONS OF DOLLARS ON STOCKS FOR THE USA",
+          "tags": [],
+          "ts": 1788722292000,
+          "time": "03:18:12",
+          "receivedAt": 1788725356802,
+          "receivedTime": true
+        },
         {
           "id": "7144",
           "url": "https://t.me/BWEtradfi/7144",
@@ -1865,24 +1876,57 @@
           "time": "21:30:44",
           "receivedAt": 1787579806597,
           "receivedTime": true
-        },
-        {
-          "id": "6976",
-          "url": "https://t.me/BWEtradfi/6976",
-          "title": "*NVIDIA客户已收到通知，与AI相关的价格将上涨超过15%",
-          "body": "*NVIDIA CUSTOMERS NOTIFIED ABOUT AI-RELATED PRICE HIKES ABOVE 15% $NVDA $NVDA",
-          "tags": [],
-          "ts": 1787425001000,
-          "time": "02:56:41",
-          "receivedAt": 1787426033976,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "232377",
+          "url": "https://t.me/jin10light/232377",
+          "title": "美国联邦航空管理局：一架货运飞机在迈阿密机场降落之后滑出跑道。",
+          "body": "#美国 #迈阿密",
+          "tags": [
+            "#美国",
+            "#迈阿密"
+          ],
+          "ts": 1788723399000,
+          "time": "03:36:39",
+          "receivedAt": 1788725357187,
+          "receivedTime": true
+        },
+        {
+          "id": "232376",
+          "url": "https://t.me/jin10light/232376",
+          "title": "伊朗最高国家安全委员会秘书：与阿曼商定的霍尔木兹海峡船只航行通道图将于未来几日签署。",
+          "body": "#伊朗 #阿曼 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#阿曼",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1788721179000,
+          "time": "02:59:39",
+          "receivedAt": 1788725357187,
+          "receivedTime": true
+        },
+        {
+          "id": "232375",
+          "url": "https://t.me/jin10light/232375",
+          "title": "据伊朗国家媒体：伊朗最高安全官员表示，未来几天将宣布霍尔木兹海峡外的禁区。",
+          "body": "该区域将从美国海军封锁线开始，延伸至海湾地区。 任何进入这一新区域的船只将被列入制裁名单。 #伊朗 #霍尔木兹海峡 #美国",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡",
+            "#美国"
+          ],
+          "ts": 1788720398000,
+          "time": "02:46:38",
+          "receivedAt": 1788725357187,
+          "receivedTime": true
+        },
         {
           "id": "232374",
           "url": "https://t.me/jin10light/232374",
@@ -19059,47 +19103,6 @@
           ],
           "ts": 1788243685000,
           "time": "14:21:25",
-          "receivedAt": 1788245372507,
-          "receivedTime": true
-        },
-        {
-          "id": "231177",
-          "url": "https://t.me/jin10light/231177",
-          "title": "VAST又融30亿：半年从A轮一路冲到B+",
-          "body": "#VAST #Meshy #AI 3D",
-          "tags": [
-            "#VAST",
-            "#Meshy",
-            "#AI"
-          ],
-          "ts": 1788243502000,
-          "time": "14:18:22",
-          "receivedAt": 1788245372507,
-          "receivedTime": true
-        },
-        {
-          "id": "231176",
-          "url": "https://t.me/jin10light/231176",
-          "title": "美元ï",
-          "body": "1.特朗普：利率过高。 尊重沃什，他会做他必须做的事。 2. 巴克莱：美国与委内瑞拉的石油交易可能会影响债券复苏前景。 3. 美国10年期国债收益率突破4.75%，创2025年1月以来新高。 4. 美联储主席沃什：我与美国财长贝森特先前的关系已被证明是富有成效的。 长期停滞似乎是对过去的描述。 当前时期是全球投资激增的阶段。 全球储蓄过剩似乎是很久以前的事了。 5. 美国财长贝森特：无法改变债券均衡价格，将与沃特推进财政整合。 6. 美国财长贝森特：传统上，在遭遇供应冲击时不会加息。 7. 今年迄今30年期美债收益率收于5%以上的天数创2006年以来之...",
-          "tags": [],
-          "ts": 1788243146000,
-          "time": "14:12:26",
-          "receivedAt": 1788245372507,
-          "receivedTime": true
-        },
-        {
-          "id": "231175",
-          "url": "https://t.me/jin10light/231175",
-          "title": "Solana AMM Aquifer遭攻击，损失约250万美元",
-          "body": "#SOL #ETH #Aquifer",
-          "tags": [
-            "#SOL",
-            "#ETH",
-            "#Aquifer"
-          ],
-          "ts": 1788242482000,
-          "time": "14:01:22",
           "receivedAt": 1788245372507,
           "receivedTime": true
         }
