@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-09-08T18:02:56.014Z",
+  "updatedAt": "2026-09-08T21:03:18.267Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7154",
+          "url": "https://t.me/BWEtradfi/7154",
+          "title": "DB: 标普500指数收盘下跌0.6%，纳斯达克指数下跌0.4%",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.6%, NASDAQ DOWN 0.4%",
+          "tags": [],
+          "ts": 1788897613000,
+          "time": "04:00:13",
+          "receivedAt": 1788901384884,
+          "receivedTime": true
+        },
+        {
+          "id": "7153",
+          "url": "https://t.me/BWEtradfi/7153",
+          "title": "*《华尔街日报》报道：伊朗周一未公开承认对美国海军舰艇发动袭击",
+          "body": "*IRAN LAUNCHED AN UNACKNOWLEDGED ATTACK AGAINST U.S. NAVY SHIPS ON MONDAY: WSJ *IRAN TARGETED AN AIRCRAFT CARRIER AND A DESTROYER WITH WEEKEND MISSILE STRIKES *U.S. OFFICIALS WORRY IRAN IS USING ADVANCED WEAPONS AND RECEIVING TRACKING HELP *伊朗周末使用导弹袭击了一艘航空母舰和一艘驱逐舰 *美国官员担忧伊朗正在使用先进武器并获得追踪协助",
+          "tags": [],
+          "ts": 1788897045000,
+          "time": "03:50:45",
+          "receivedAt": 1788901384884,
+          "receivedTime": true
+        },
+        {
+          "id": "7152",
+          "url": "https://t.me/BWEtradfi/7152",
+          "title": "DB: 美国7月消费者信贷环比增加180.6亿美元；预期增加116.5亿美元",
+          "body": "DB: *US JULY CONSUMER CREDIT RISES $18.06B M/M; EST. +11.65B",
+          "tags": [],
+          "ts": 1788894015000,
+          "time": "03:00:15",
+          "receivedAt": 1788901384884,
+          "receivedTime": true
+        },
+        {
+          "id": "7151",
+          "url": "https://t.me/BWEtradfi/7151",
+          "title": "伊朗哈克岛传出爆炸声：迈赫尔通讯社",
+          "body": "*EXPLOSIONS HEARD ON IRAN'S KHARG ISLAND: MEHR",
+          "tags": [],
+          "ts": 1788893277000,
+          "time": "02:47:57",
+          "receivedAt": 1788901384884,
+          "receivedTime": true
+        },
         {
           "id": "7150",
           "url": "https://t.me/BWEtradfi/7150",
@@ -1876,39 +1920,6 @@
           "time": "08:14:39",
           "receivedAt": 1787622295316,
           "receivedTime": true
-        },
-        {
-          "id": "6981",
-          "url": "https://t.me/BWEtradfi/6981",
-          "title": "据《纽约时报》报道：美国证监会（SEC）就态势感知问题向银行发出传票",
-          "body": "*SEC SUBPOENAS BANKS ABOUT SITUATIONAL AWARENESS: NYT",
-          "tags": [],
-          "ts": 1787602292000,
-          "time": "04:11:32",
-          "receivedAt": 1787603370398,
-          "receivedTime": true
-        },
-        {
-          "id": "6980",
-          "url": "https://t.me/BWEtradfi/6980",
-          "title": "DB: 标普500指数收盘下跌0.3%，纳斯达克指数下跌0.7%",
-          "body": "DB: *S&P 500 CLOSES 0.3% LOWER, NASDAQ DECLINES 0.7%",
-          "tags": [],
-          "ts": 1787601735000,
-          "time": "04:02:15",
-          "receivedAt": 1787603370398,
-          "receivedTime": true
-        },
-        {
-          "id": "6979",
-          "url": "https://t.me/BWEtradfi/6979",
-          "title": "*伊朗称已“充分准备”应对美国新一轮经济攻势",
-          "body": "*IRAN SAYS 'FULLY PREPARED' FOR NEW US ECONOMIC CAMPAIGN *IRAN: NOT EASY TO CUT OFF FINANCIAL, COMMERCIAL LIFELINES *伊朗：切断金融和商业命脉并非易事",
-          "tags": [],
-          "ts": 1787597293000,
-          "time": "02:48:13",
-          "receivedAt": 1787598053696,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1916,6 +1927,169 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "232882",
+          "url": "https://t.me/jin10light/232882",
+          "title": "现货黄金向下触及4350美元/盎司，日内跌1.37%。",
+          "body": "#黄金 #美元",
+          "tags": [
+            "#黄金",
+            "#美元"
+          ],
+          "ts": 1788900759000,
+          "time": "04:52:39",
+          "receivedAt": 1788901385431,
+          "receivedTime": true
+        },
+        {
+          "id": "232881",
+          "url": "https://t.me/jin10light/232881",
+          "title": "布伦特原油日内涨幅扩大至2.00%，现报97.69美元/桶。",
+          "body": "#布伦特原油 #美元",
+          "tags": [
+            "#布伦特原油",
+            "#美元"
+          ],
+          "ts": 1788899379000,
+          "time": "04:29:39",
+          "receivedAt": 1788901385431,
+          "receivedTime": true
+        },
+        {
+          "id": "232880",
+          "url": "https://t.me/jin10light/232880",
+          "title": "伊朗据称连续发动对美袭击 美方警惕其导弹升级",
+          "body": "9月9日讯，据华尔街日报援引美国官员称，伊朗周一再次向美国海军舰艇发动袭击，这是三天内第二次针对美军海上资产的行动，但美国军方尚未承认此次袭击。 美国官员表示，伊朗近期针对美军舰艇的行动显示其可能使用更先进的导弹。 此前伊朗方面称，其使用具备先进制导能力的新型导弹打击美舰，分析人士认为部分伊朗导弹配备光电导引头，可根据图像识别和追踪移动目标。 美国此前因伊朗袭击美军舰艇而打击3艘伊朗油轮。 美方希望通过封锁和制裁迫使伊朗让步，但美国官员称伊朗目前仍在加强对美军舰艇的威胁。 #伊朗 #美国 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1788898959000,
+          "time": "04:22:39",
+          "receivedAt": 1788901385431,
+          "receivedTime": true
+        },
+        {
+          "id": "232879",
+          "url": "https://t.me/jin10light/232879",
+          "title": "美股收盘：三大股指收跌 英特尔涨9%",
+          "body": "9月9日讯，美股周二收盘，道指初步收跌1.1%，标普500指数跌0.58%，纳指跌0.32%。 英伟达(NVDA.O)跌2%，高通(QCOM.O)涨3%，英特尔(INTC.O)涨9%，SK海力士(SKHY.O)涨4.8%。 纳斯达克中国金龙指数收跌1.7%，爱奇艺(IQ.O)大涨近12%，百度(BIDU.O)跌7%。 #美股 #英特尔 #英伟达",
+          "tags": [
+            "#美股",
+            "#英特尔",
+            "#英伟达"
+          ],
+          "ts": 1788897878000,
+          "time": "04:04:38",
+          "receivedAt": 1788901385431,
+          "receivedTime": true
+        },
+        {
+          "id": "232878",
+          "url": "https://t.me/jin10light/232878",
+          "title": "伊朗方面威胁打击海湾地区港口船只",
+          "body": "9月9日讯，据伊朗革命卫队旗下媒体Sepahnews：伊朗伊斯兰革命卫队海军表示，针对美军袭击伊朗多艘油轮的行为，将向停靠在科威特、巴林港口及锚地的所有油轮发出警告，要求相关船员立即撤离船只，并称这些船舶将成为打击目标。 伊方指责科威特和巴林为美方行动提供支持，并称其为相关行为的“共犯”。 #伊朗 #科威特 #巴林",
+          "tags": [
+            "#伊朗",
+            "#科威特",
+            "#巴林"
+          ],
+          "ts": 1788897759000,
+          "time": "04:02:39",
+          "receivedAt": 1788901385431,
+          "receivedTime": true
+        },
+        {
+          "id": "232877",
+          "url": "https://t.me/jin10light/232877",
+          "title": "据福克斯新闻：美国高级官员表示，美国军方已对霍尔木兹岛和贾斯克附近的目标进行了打击。",
+          "body": "目标包括伊朗油轮。 这是从经济上挤压伊朗的更大行动的一部分。 该战略包括击沉和瘫痪伊朗原油油轮。 #美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1788896378000,
+          "time": "03:39:38",
+          "receivedAt": 1788901385431,
+          "receivedTime": true
+        },
+        {
+          "id": "232876",
+          "url": "https://t.me/jin10light/232876",
+          "title": "伊媒称美国导弹袭击霍尔木兹附近伊朗油轮",
+          "body": "9月9日讯，据塔斯尼姆通讯社报道，一艘伊朗小型油轮在距离哈尔克岛（Kharg Island）约4海里处遭美国军队导弹袭击。 当地消息称，该油轮在哈尔克岛锚地范围内遭到美方发射物击中。 报道称，此次事件未造成人员伤亡，油轮工作人员正在撤离。 目前，相关部门正在调查油轮受损程度及事件具体情况，后续信息将进一步公布。 #美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1788895959000,
+          "time": "03:32:39",
+          "receivedAt": 1788901385431,
+          "receivedTime": true
+        },
+        {
+          "id": "232875",
+          "url": "https://t.me/jin10light/232875",
+          "title": "据以色列i24记者称，耶路撒冷邮报获悉美国目前正在攻击伊朗油轮。",
+          "body": "#美国 #伊朗 #耶路撒冷",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#耶路撒冷"
+          ],
+          "ts": 1788895239000,
+          "time": "03:20:39",
+          "receivedAt": 1788901385431,
+          "receivedTime": true
+        },
+        {
+          "id": "232874",
+          "url": "https://t.me/jin10light/232874",
+          "title": "美、布两油短线上涨约1美元，现分别报91.3美元/桶及96.65美元/桶。",
+          "body": "#美国 #布伦特原油 #WTI原油",
+          "tags": [
+            "#美国",
+            "#布伦特原油",
+            "#WTI原油"
+          ],
+          "ts": 1788893558000,
+          "time": "02:52:38",
+          "receivedAt": 1788901385431,
+          "receivedTime": true
+        },
+        {
+          "id": "232873",
+          "url": "https://t.me/jin10light/232873",
+          "title": "据伊朗媒体Fars News：哈尔克岛附近传出爆炸声。",
+          "body": "爆炸声来自波斯湾方向，但波斯湾上未观察到烟雾或火光。 目前尚无官方通报。 #伊朗 #哈尔克岛 #波斯湾",
+          "tags": [
+            "#伊朗",
+            "#哈尔克岛",
+            "#波斯湾"
+          ],
+          "ts": 1788893498000,
+          "time": "02:51:38",
+          "receivedAt": 1788901385431,
+          "receivedTime": true
+        },
+        {
+          "id": "232872",
+          "url": "https://t.me/jin10light/232872",
+          "title": "据伊朗国家媒体：伊朗联合军事指挥部表示，如果伊朗船只遭到攻击，将“重创”美国在中东的利益。",
+          "body": "#伊朗 #美国 #中东",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#中东"
+          ],
+          "ts": 1788893259000,
+          "time": "02:47:39",
+          "receivedAt": 1788901385431,
+          "receivedTime": true
+        },
         {
           "id": "232871",
           "url": "https://t.me/jin10light/232871",
@@ -19037,169 +19211,6 @@
           ],
           "ts": 1788401181000,
           "time": "10:06:21",
-          "receivedAt": 1788414370271,
-          "receivedTime": true
-        },
-        {
-          "id": "231682",
-          "url": "https://t.me/jin10light/231682",
-          "title": "Jupiter上线Universal Deposit：支持多链资产一键跨链兑换为Solana上USDC",
-          "body": "#SOL #Ethereum #USDC",
-          "tags": [
-            "#SOL",
-            "#Ethereum",
-            "#USDC"
-          ],
-          "ts": 1788400885000,
-          "time": "10:01:25",
-          "receivedAt": 1788414370271,
-          "receivedTime": true
-        },
-        {
-          "id": "231681",
-          "url": "https://t.me/jin10light/231681",
-          "title": "A股券商股短线拉升，国盛证券直线涨停，长江证券涨超6%，首创证券、广发证券、华安证券等个股跟涨。",
-          "body": "据上交所数据，2026年8月A股新开户239.73万户，同比去年8月265.03万户下降10.0%；2026年前8个月已累计新开2521.4万户，同比增长46%。 #A股 #国盛证券 #长江证券",
-          "tags": [
-            "#A股",
-            "#国盛证券",
-            "#长江证券"
-          ],
-          "ts": 1788400640000,
-          "time": "09:57:20",
-          "receivedAt": 1788414370271,
-          "receivedTime": true
-        },
-        {
-          "id": "231680",
-          "url": "https://t.me/jin10light/231680",
-          "title": "Agent失控后被美国国会追问，OpenAI开始开发「自动关机」",
-          "body": "#OpenAI #美国 #Hugging Face",
-          "tags": [
-            "#OpenAI",
-            "#美国",
-            "#Hugging"
-          ],
-          "ts": 1788400255000,
-          "time": "09:50:55",
-          "receivedAt": 1788414370271,
-          "receivedTime": true
-        },
-        {
-          "id": "231679",
-          "url": "https://t.me/jin10light/231679",
-          "title": "科威特军方表示，科威特防空系统正在应对来自伊朗的导弹和无人机袭击。",
-          "body": "若听到爆炸声，那是防空系统拦截敌方袭击所致。 #科威特 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#科威特",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1788399746000,
-          "time": "09:42:26",
-          "receivedAt": 1788414370271,
-          "receivedTime": true
-        },
-        {
-          "id": "231678",
-          "url": "https://t.me/jin10light/231678",
-          "title": "A股影视概念盘初走强，欢瑞世纪涨停，博纳影业涨超6%，芒果超媒、天府文旅、德力股份、幸福蓝海等个股跟涨。",
-          "body": "中信证券研报称，视频模型竞争转向生产可用与商业兑现，AI剧成为率先形成规模消耗的应用场景。 #A股 #欢瑞世纪 #博纳影业",
-          "tags": [
-            "#A股",
-            "#欢瑞世纪",
-            "#博纳影业"
-          ],
-          "ts": 1788399205000,
-          "time": "09:33:25",
-          "receivedAt": 1788414370271,
-          "receivedTime": true
-        },
-        {
-          "id": "231677",
-          "url": "https://t.me/jin10light/231677",
-          "title": "创业板指涨超1%；半导体、元件、MLCC等板块涨幅居前。",
-          "body": "#创业板指 #半导体 #MLCC",
-          "tags": [
-            "#创业板指",
-            "#半导体",
-            "#MLCC"
-          ],
-          "ts": 1788399204000,
-          "time": "09:33:24",
-          "receivedAt": 1788414370271,
-          "receivedTime": true
-        },
-        {
-          "id": "231676",
-          "url": "https://t.me/jin10light/231676",
-          "title": "新股N金钛涨超208%",
-          "body": "9月3日讯，新股N金钛涨超208%；公开资料显示，公司是一家专注于海绵钛系列产品研发、生产和销售的高新技术企业；公司产品主要应用于航空航天、国防军工等高端领域，包括长征系列火箭、新型战机、舰船、国产大飞机、航空发动机等。 #N金钛 #海绵钛 #航空航天",
-          "tags": [
-            "#N金钛",
-            "#海绵钛",
-            "#航空航天"
-          ],
-          "ts": 1788398900000,
-          "time": "09:28:20",
-          "receivedAt": 1788414370271,
-          "receivedTime": true
-        },
-        {
-          "id": "231675",
-          "url": "https://t.me/jin10light/231675",
-          "title": "A股开盘，沪指开涨0.29%，深证成指开涨0.73%，创业板指开涨0.90%；Kimi、CPO、半导体、光纤、元件等板块涨幅居前。",
-          "body": "#A股 #半导体",
-          "tags": [
-            "#A股",
-            "#半导体"
-          ],
-          "ts": 1788398843000,
-          "time": "09:27:23",
-          "receivedAt": 1788414370271,
-          "receivedTime": true
-        },
-        {
-          "id": "231674",
-          "url": "https://t.me/jin10light/231674",
-          "title": "中国央行：根据公开市场业务一级交易商的需求，2026年9月3日7天期逆回购操作量为零。",
-          "body": "#中国 #央行",
-          "tags": [
-            "#中国",
-            "#央行"
-          ],
-          "ts": 1788398486000,
-          "time": "09:21:26",
-          "receivedAt": 1788414370271,
-          "receivedTime": true
-        },
-        {
-          "id": "231673",
-          "url": "https://t.me/jin10light/231673",
-          "title": "港股开盘，恒生指数开涨0.68%，恒生科技指数开涨0.71%；贵金属、生物医药、明星科网等概念涨幅居前；壁仞科技( 06082.HK )涨超3%。",
-          "body": "#港股 #恒生指数 #壁仞科技",
-          "tags": [
-            "#港股",
-            "#恒生指数",
-            "#壁仞科技"
-          ],
-          "ts": 1788398485000,
-          "time": "09:21:25",
-          "receivedAt": 1788414370271,
-          "receivedTime": true
-        },
-        {
-          "id": "231672",
-          "url": "https://t.me/jin10light/231672",
-          "title": "2026年9月3日银行间外汇市场人民币汇率中间价",
-          "body": "9月3日讯，美元/人民币报6.7807，下调（人民币升值）22点； 欧元/人民币报7.8208，下调59点；港元/人民币报0.86476，下调2.1点； 英镑/人民币报9.1004，下调274点；澳元/人民币报4.8344，上调98点； 加元/人民币报4.8716，上调144点；100日元/人民币报4.2495，上调277点； 人民币/俄罗斯卢布报13.0294，上调1186点；新西兰元/人民币报3.9483，下调306点； 人民币/林吉特报0.59756，上调4.2点；瑞士法郎/人民币报8.3077，下调179点； 新加坡元/人民币报5.3119，上...",
-          "tags": [
-            "#美元",
-            "#人民币",
-            "#中国"
-          ],
-          "ts": 1788398184000,
-          "time": "09:16:24",
           "receivedAt": 1788414370271,
           "receivedTime": true
         }
