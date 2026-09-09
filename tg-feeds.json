@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-09T21:06:20.402Z",
+  "updatedAt": "2026-09-09T23:10:12.542Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7165",
+          "url": "https://t.me/BWEtradfi/7165",
+          "title": "*据美国官员透露，白宫高级顾问向特朗普提出，伊朗战争可能会持续到他任期结束：《华尔街日报》",
+          "body": "*TOP WHITE HOUSE ADVISERS RAISE PROSPECT WITH TRUMP THAT IRAN WAR COULD DRAG THROUGH REMAINDER OF TERM, U.S. OFFICIALS SAY: WS *VANCE, RUBIO, OTHERS DISCUSS WITH TRUMP THAT TEHRAN COULD CONTINUE TO RESIST U.S. PRESSURE, OFFICIALS SAY: WSJ *据官员透露，万斯、卢比奥等人与特朗普讨论了德黑兰可能继续抵抗美国压力的问题：《华尔街日报》",
+          "tags": [],
+          "ts": 1788994818000,
+          "time": "07:00:18",
+          "receivedAt": 1788995397045,
+          "receivedTime": true
+        },
         {
           "id": "7164",
           "url": "https://t.me/BWEtradfi/7164",
@@ -1889,11 +1900,83 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "233170",
+          "url": "https://t.me/jin10light/233170",
+          "title": "今日重点关注的财经数据与事件：2026年9月10日 周四",
+          "body": "① 待定 欧佩克公布原油月报 ② 13:30 台积电公布8月份营业额报告 ③ 14:00 德国8月CPI月率终值 ④ 20:15 欧洲央行公布利率决议 ⑤ 20:30 美国至9月5日当周初请失业金人数 ⑥ 20:30 美国8月PPI年率 ⑦ 20:30 美国8月PPI月率 ⑧ 20:45 欧洲央行行长拉加德召开新闻发布会 ⑨ 22:00 美国8月成屋销售总数年化 ⑩ 22:00 美国7月批发销售月率 ⑪ 22:30 美国至9月4日当周EIA天然气库存 ⑫ 次日00:00 美国至9月4日当周EIA原油库存 ⑬ 次日00:00 美国至9月4日当周EIA库欣...",
+          "tags": [
+            "#台积电",
+            "#德国",
+            "#美国"
+          ],
+          "ts": 1788994303000,
+          "time": "06:51:43",
+          "receivedAt": 1788995398899,
+          "receivedTime": true
+        },
+        {
+          "id": "233169",
+          "url": "https://t.me/jin10light/233169",
+          "title": "国内新闻ï",
+          "body": "1.国家统计局：8月份居民消费价格同比上涨0.8%。 2. 燧原科技：股票将于2026年9月11日科创板上市。 3. 2026年国家基本医保药品目录谈判竞价协商收官。 4. 美国安机构指责中国企业蒸馏美国模型，外交部：不要进行不实的指责和抹黑。 5. 传DeepSeek已聘请中信证券筹备IPO事宜：目标是在今年递交申请、明年正式挂牌上市。 6. 国新办将于9月10日就金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况举行新闻发布会。 国际新闻ï 1.世界铂金投资协会：预计铂金市场今年将转为供应过剩。 2. 美国国会预算办公室：预计美国8月份预算赤...",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1788993582000,
+          "time": "06:39:42",
+          "receivedAt": 1788995398899,
+          "receivedTime": true
+        },
+        {
+          "id": "233168",
+          "url": "https://t.me/jin10light/233168",
+          "title": "WTI原油周四高开0.5%，现报94.85美元/桶。",
+          "body": "#WTI原油 #美元",
+          "tags": [
+            "#WTI原油",
+            "#美元"
+          ],
+          "ts": 1788991359000,
+          "time": "06:02:39",
+          "receivedAt": 1788995398899,
+          "receivedTime": true
+        },
+        {
+          "id": "233167",
+          "url": "https://t.me/jin10light/233167",
+          "title": "整理：中东局势跟踪（9月10日）",
+          "body": "冲突情å 1.伊朗外交部：将对任何美国军方的攻击作出果断回应。 2. 美国中央司令部：没有任何美国海军军舰遭袭，摧毁10艘伊朗油轮。 3. 伊朗革命卫队：对2艘美国军舰和8艘油轮实施打击，还打击了10艘违规船只。 4. 也门胡塞武装：在过去的12小时内，沙特战机对阿尔乔夫、马里布、塔伊兹、霍代达、萨达和阿尔拜达等省份进行了48次空袭。 实施这些空袭必将受到惩罚。 5. 伊朗官员表示，如有必要，德黑兰已做好准备与美国进行更激烈的战争。 这名官员表示，伊朗将对美国的攻击采取升级打击作为回应。 6. 沙特领导的也门联军：胡塞武装周三使用弹道导弹和无人机袭击了...",
+          "tags": [
+            "#伊朗",
+            "#美国",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1788990759000,
+          "time": "05:52:39",
+          "receivedAt": 1788995398899,
+          "receivedTime": true
+        },
+        {
+          "id": "233166",
+          "url": "https://t.me/jin10light/233166",
+          "title": "以色列军方：以色列北部多个地区响起“敌方航空器入侵”警报。",
+          "body": "具体情况正在审查中。 #以色列",
+          "tags": [
+            "#以色列"
+          ],
+          "ts": 1788989498000,
+          "time": "05:31:38",
+          "receivedAt": 1788995398899,
+          "receivedTime": true
+        },
         {
           "id": "233165",
           "url": "https://t.me/jin10light/233165",
@@ -19109,81 +19192,6 @@
           "ts": 1788487461000,
           "time": "10:04:21",
           "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231970",
-          "url": "https://t.me/jin10light/231970",
-          "title": "「大空头」Michael Burry：Lululemon成最大持仓，股价跌破100美元将积极加仓",
-          "body": "#Michael Burry #Lululemon Athletica #LULU",
-          "tags": [
-            "#Michael",
-            "#Lululemon",
-            "#LULU"
-          ],
-          "ts": 1788487284000,
-          "time": "10:01:24",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231969",
-          "url": "https://t.me/jin10light/231969",
-          "title": "USELESS 24小时再涨67%，市值升至2.13亿美元",
-          "body": "#SOL #USELESS #Bonk Guy",
-          "tags": [
-            "#SOL",
-            "#USELESS",
-            "#Bonk"
-          ],
-          "ts": 1788486921000,
-          "time": "09:55:21",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231968",
-          "url": "https://t.me/jin10light/231968",
-          "title": "恒生科技指数涨超3%，内房股、AI应用、明星科网、新能源车企等板块涨幅居前。",
-          "body": "#恒生科技指数 #内房股 #AI应用",
-          "tags": [
-            "#恒生科技指数",
-            "#内房股",
-            "#AI应用"
-          ],
-          "ts": 1788486802000,
-          "time": "09:53:22",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231967",
-          "url": "https://t.me/jin10light/231967",
-          "title": "Unipcs一天赚600万美元？PONS投资回报率超110倍",
-          "body": "#PONS #Unipcs #Lookonchain",
-          "tags": [
-            "#PONS",
-            "#Unipcs",
-            "#Lookonchain"
-          ],
-          "ts": 1788486622000,
-          "time": "09:50:22",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231966",
-          "url": "https://t.me/jin10light/231966",
-          "title": "A股数字货币板块震荡走高，四方精创触达20cm涨停，海联金汇、恒宝股份、翠微股份等多股涨停，拉卡拉涨超9%，雄帝科技、科蓝软件、华峰超纤等个股跟涨。",
-          "body": "#A股 #数字货币 #BTC",
-          "tags": [
-            "#A股",
-            "#数字货币",
-            "#BTC"
-          ],
-          "ts": 1788486265000,
-          "time": "09:44:25",
-          "receivedAt": 1788497515263,
           "receivedTime": true
         }
       ],
