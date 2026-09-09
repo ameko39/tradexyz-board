@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-09-09T18:31:04.439Z",
+  "updatedAt": "2026-09-09T21:06:20.402Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7164",
+          "url": "https://t.me/BWEtradfi/7164",
+          "title": "DB: 标普500指数收盘下跌0.5%，纳斯达克指数下跌0.7%",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.5%, NASDAQ DECLINES 0.7%",
+          "tags": [],
+          "ts": 1788984013000,
+          "time": "04:00:13",
+          "receivedAt": 1788987967116,
+          "receivedTime": true
+        },
+        {
+          "id": "7163",
+          "url": "https://t.me/BWEtradfi/7163",
+          "title": "*特朗普谈伊朗：我们不寻求达成协议",
+          "body": "*TRUMP ON IRAN: WE'RE NOT LOOKING FOR A DEAL *TRUMP ON IRAN: NEGOTIATION COULD HAPPEN *特朗普谈伊朗：谈判仍有可能",
+          "tags": [],
+          "ts": 1788978823000,
+          "time": "02:33:43",
+          "receivedAt": 1788987967116,
+          "receivedTime": true
+        },
+        {
+          "id": "7162",
+          "url": "https://t.me/BWEtradfi/7162",
+          "title": "特朗普谈伊朗：伊朗战争将在大选后立即结束",
+          "body": "*TRUMP ON IRAN: WAR IN IRAN WILL END IMMEDIATELY AFTER ELECTION",
+          "tags": [],
+          "ts": 1788978766000,
+          "time": "02:32:46",
+          "receivedAt": 1788987967116,
+          "receivedTime": true
+        },
+        {
+          "id": "7161",
+          "url": "https://t.me/BWEtradfi/7161",
+          "title": "特朗普：普京想达成协议",
+          "body": "*TRUMP: PUTIN WANTS TO MAKE A DEAL *TRUMP: IF ZELENSKYY WANTS TO MAKE A DEAL, IT WOULD BE NICE 特朗普：如果泽连斯基想达成协议，那当然很好。",
+          "tags": [],
+          "ts": 1788978706000,
+          "time": "02:31:46",
+          "receivedAt": 1788987967116,
+          "receivedTime": true
+        },
         {
           "id": "7160",
           "url": "https://t.me/BWEtradfi/7160",
@@ -1843,72 +1887,6 @@
           "time": "08:22:45",
           "receivedAt": 1787705097725,
           "receivedTime": true
-        },
-        {
-          "id": "6994",
-          "url": "https://t.me/BWEtradfi/6994",
-          "title": "*D-WAVE QUANTUM：首席财务官辞职",
-          "body": "*D-WAVE QUANTUM: RESIGNATION OF CFO $QBTS $QBTS",
-          "tags": [],
-          "ts": 1787691610000,
-          "time": "05:00:10",
-          "receivedAt": 1787691810660,
-          "receivedTime": true
-        },
-        {
-          "id": "6993",
-          "url": "https://t.me/BWEtradfi/6993",
-          "title": "*美联储主席巴金：美国债务终将面临清算",
-          "body": "*FED'S BARKIN: THERE WILL EVENTUALLY BE A RECKONGING ON US DEBT *BARKIN: IF DEBT RISES, AT SOME POINT INVESTORS WILL STOP BUYING *巴金：如果债务上升，投资者终将停止购买",
-          "tags": [],
-          "ts": 1787691599000,
-          "time": "04:59:59",
-          "receivedAt": 1787691810660,
-          "receivedTime": true
-        },
-        {
-          "id": "6992",
-          "url": "https://t.me/BWEtradfi/6992",
-          "title": "伊朗声称独家掌握霍尔木兹海峡剩余水雷信息：法尔斯通讯社",
-          "body": "*IRAN CLAIMS EXCLUSIVE KNOWLEDGE OF REMAINING HORMUZ STRAIT MINES: FARS",
-          "tags": [],
-          "ts": 1787688943000,
-          "time": "04:15:43",
-          "receivedAt": 1787690616817,
-          "receivedTime": true
-        },
-        {
-          "id": "6991",
-          "url": "https://t.me/BWEtradfi/6991",
-          "title": "*INTUIT 第四季度净营收 43.5 亿美元，高于预期的 42.7 亿美元",
-          "body": "*INTUIT 4Q NET REV. $4.35B, EST. $4.27B *INTUIT Q4 ADJUSTED EPS USD 1.34 VS. IBES ESTIMATE USD 3.58 $INTU *INTUIT 第四季度调整后每股收益 1.34 美元，高于 IBES 预期的 3.58 美元 $INTU",
-          "tags": [],
-          "ts": 1787688033000,
-          "time": "04:00:33",
-          "receivedAt": 1787688631228,
-          "receivedTime": true
-        },
-        {
-          "id": "6990",
-          "url": "https://t.me/BWEtradfi/6990",
-          "title": "DB: 标普500指数收盘上涨0.3%，纳斯达克指数上涨0.7%",
-          "body": "DB: *S&P 500 CLOSES 0.3% HIGHER, NASDAQ UP 0.7%",
-          "tags": [],
-          "ts": 1787688013000,
-          "time": "04:00:13",
-          "receivedAt": 1787688631228,
-          "receivedTime": true
-        },
-        {
-          "id": "6989",
-          "url": "https://t.me/BWEtradfi/6989",
-          "title": "*OpenAI数据中心负责人克里斯·马龙已离职：华尔街日报",
-          "body": "*OPENAI HEAD OF DATA CENTERS CHRIS MALONE HAS LEFT COMPANY: WSJ *MALONE WAS INVOLVED IN OPENAI'S SHIFT TOWARD BUILDING ITS OWN DATA CENTERS: WSJ *马龙曾参与OpenAI自建数据中心的战略转型：华尔街日报",
-          "tags": [],
-          "ts": 1787685370000,
-          "time": "03:16:10",
-          "receivedAt": 1787685564613,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1916,6 +1894,195 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "233165",
+          "url": "https://t.me/jin10light/233165",
+          "title": "美国至9月4日当周API原油库存 -32.7万桶，预期-133.6万桶，前值-259.3万桶。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1788986739000,
+          "time": "04:45:39",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233164",
+          "url": "https://t.me/jin10light/233164",
+          "title": "美国至9月4日当周API原油库存将于十分钟后公布。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1788985239000,
+          "time": "04:20:39",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233163",
+          "url": "https://t.me/jin10light/233163",
+          "title": "美股收盘：三大股指收跌 海力士涨7%",
+          "body": "9月10日讯，美股周三收盘，道指初步收跌0.77%，标普500指数跌0.48%、纳指跌0.64%。 苹果(AAPL.O)跌0.2%，SK海力士(SKHY.O)涨7%，AMD(AMD.O)涨3%，Meta Platforms(META.O)涨6.5%。 纳斯达克中国金龙指数收跌2.08%，阿里巴巴(BABA.N)跌2.8%，爱奇艺(IQ.O)跌5%。 #美股 #SK海力士 #阿里巴巴",
+          "tags": [
+            "#美股",
+            "#SK海力士",
+            "#阿里巴巴"
+          ],
+          "ts": 1788984219000,
+          "time": "04:03:39",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233162",
+          "url": "https://t.me/jin10light/233162",
+          "title": "消息人士：巴基斯坦要求伊朗约束胡塞武装",
+          "body": "9月10日讯，据路透社报道，沙特、巴基斯坦和伊朗消息人士称，在也门胡塞武装加大对沙特的袭击后，巴基斯坦已代表沙特向伊朗发出警告，要求其约束其也门胡塞武装。 由于巴基斯坦与沙特和土耳其之间存在防务协议，巴基斯坦对伊朗发出的警告具有重要分量。 地区高级外交官表示，过去24小时内，巴基斯坦已向伊朗传达这一信息，敦促德黑兰利用自身影响力阻止胡塞武装袭击沙特。 一名伊朗高级官员证实，巴基斯坦周二向德黑兰传达了这一信息，而德黑兰的回应是：“伊朗并不控制胡塞武装。 ”不过两名伊朗消息人士表示，德黑兰上周曾要求胡塞武装对沙特发动袭击。 德黑兰承诺提供额外资金和武器，同...",
+          "tags": [
+            "#巴基斯坦",
+            "#伊朗",
+            "#胡塞武装"
+          ],
+          "ts": 1788983799000,
+          "time": "03:56:39",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233161",
+          "url": "https://t.me/jin10light/233161",
+          "title": "1. iPhone 18 Pro / Pro Max",
+          "body": "①芯片：搭载A20 Pro芯片，采用2纳米制程；采用新一代C2调制解调器； ②相机：主摄首次支持可变光圈，同时升级视频能力； ③电池：iPhone 18 Pro约15分钟即可充至最多50%电量；Pro Max视频播放最长可达43小时。 ④其他：灵动岛缩小，支持同时显示三个实时活动；新增冰川蓝、勃艮第酒红两种颜色； ⑤售价：iPhone 18 Pro起售价9999元人民币；iPhone 18 Pro Max起售价10999元；9月12日接受预定，9月18日发售。 2. 折叠屏iPhone Duo ①芯片：搭载A20 Pro芯片； ②屏幕：配备7.6英寸纳...",
+          "tags": [
+            "#iPhone",
+            "#Apple"
+          ],
+          "ts": 1788982779000,
+          "time": "03:39:39",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233160",
+          "url": "https://t.me/jin10light/233160",
+          "title": "iPhone 17、Air涨价800元",
+          "body": "9月10日讯，苹果官网显示，iPhone 17价格调整至6799元起，iPhone 17e调整至5299元起，iPhone Air调整至8799元起，均较发售价涨价800元。 #苹果 #iPhone 17 #iPhone Air",
+          "tags": [
+            "#苹果",
+            "#iPhone"
+          ],
+          "ts": 1788980859000,
+          "time": "03:07:39",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233159",
+          "url": "https://t.me/jin10light/233159",
+          "title": "布伦特原油期货和美国原油期货收于5月22日以来的最高水平。",
+          "body": "#布伦特原油 #美国原油",
+          "tags": [
+            "#布伦特原油",
+            "#美国原油"
+          ],
+          "ts": 1788980259000,
+          "time": "02:57:39",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233158",
+          "url": "https://t.me/jin10light/233158",
+          "title": "矿企集体掉队：比特币本轮涨22%，而10家矿股中位数仅涨1.8%",
+          "body": "#BTC #嘉楠科技 #Core Scientific",
+          "tags": [
+            "#BTC",
+            "#嘉楠科技",
+            "#Core"
+          ],
+          "ts": 1788979118000,
+          "time": "02:38:38",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233157",
+          "url": "https://t.me/jin10light/233157",
+          "title": "特朗普：伊朗战争将在中期选举后立即结束，谈判仍有可能",
+          "body": "#美国 #伊朗 #特朗普",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#特朗普"
+          ],
+          "ts": 1788978997000,
+          "time": "02:36:37",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233156",
+          "url": "https://t.me/jin10light/233156",
+          "title": "美国总统特朗普：可能和伊朗进行谈判。",
+          "body": "#特朗普 #美国 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1788978937000,
+          "time": "02:35:37",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233155",
+          "url": "https://t.me/jin10light/233155",
+          "title": "美国总统特朗普：中期选举一结束，伊朗战事将立即终结。",
+          "body": "#特朗普 #伊朗 #美国",
+          "tags": [
+            "#特朗普",
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1788978882000,
+          "time": "02:34:42",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233154",
+          "url": "https://t.me/jin10light/233154",
+          "title": "美国总统特朗普：我们不寻求达成协议。",
+          "body": "#特朗普 #美国",
+          "tags": [
+            "#特朗普",
+            "#美国"
+          ],
+          "ts": 1788978881000,
+          "time": "02:34:41",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
+        {
+          "id": "233153",
+          "url": "https://t.me/jin10light/233153",
+          "title": "特朗普：普京希望达成协议，泽连斯基若愿意谈也很好",
+          "body": "#特朗普 #普京 #俄乌冲突",
+          "tags": [
+            "#特朗普",
+            "#普京",
+            "#俄乌冲突"
+          ],
+          "ts": 1788978818000,
+          "time": "02:33:38",
+          "receivedAt": 1788987968542,
+          "receivedTime": true
+        },
         {
           "id": "233152",
           "url": "https://t.me/jin10light/233152",
@@ -19016,194 +19183,6 @@
           ],
           "ts": 1788486265000,
           "time": "09:44:25",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231965",
-          "url": "https://t.me/jin10light/231965",
-          "title": "Crusoe获Jane Street约130亿美元AI云订单，五年期协议推动估值升至300亿美元",
-          "body": "#Crusoe #Jane Street Group #AI",
-          "tags": [
-            "#Crusoe",
-            "#Jane",
-            "#AI"
-          ],
-          "ts": 1788486021000,
-          "time": "09:40:21",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231964",
-          "url": "https://t.me/jin10light/231964",
-          "title": "恒生指数涨超2%，恒生科技指数涨2.78%；光通信、PCB、新消费、明星科网等板块涨幅居前。",
-          "body": "#恒生指数 #恒生科技指数",
-          "tags": [
-            "#恒生指数",
-            "#恒生科技指数"
-          ],
-          "ts": 1788485962000,
-          "time": "09:39:22",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231963",
-          "url": "https://t.me/jin10light/231963",
-          "title": "Anthropic即将敲定150亿美元上市前循环信贷，为IPO铺路",
-          "body": "#Anthropic #美国 #IPO",
-          "tags": [
-            "#Anthropic",
-            "#美国",
-            "#IPO"
-          ],
-          "ts": 1788485489000,
-          "time": "09:31:29",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231962",
-          "url": "https://t.me/jin10light/231962",
-          "title": "新股N华汇涨超97%",
-          "body": "9月4日讯，新股N华汇涨超97%；公开资料显示，公司纳米砂磨机产品已取得欧洲CE认证；公司与湖南裕能、万润新能、贝特瑞、比亚迪、中海油等知名锂电池材料企业和国内大型央企建立良好的合作关系。 #N华汇 #湖南裕能 #万润新能",
-          "tags": [
-            "#N华汇",
-            "#湖南裕能",
-            "#万润新能"
-          ],
-          "ts": 1788485301000,
-          "time": "09:28:21",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231961",
-          "url": "https://t.me/jin10light/231961",
-          "title": "A股开盘，沪指开涨0.34%，深证成指开涨0.74%，创业板指开涨0.97%；旅游酒店、零售、贵金属等板块涨幅居前。",
-          "body": "#A股 #沪指 #创业板指",
-          "tags": [
-            "#A股",
-            "#沪指",
-            "#创业板指"
-          ],
-          "ts": 1788485243000,
-          "time": "09:27:23",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231960",
-          "url": "https://t.me/jin10light/231960",
-          "title": "港股开盘，恒生指数开涨1.20%，恒生科技指数开涨1.46%；芯片、有色金属、明星科网等板块涨幅居前；紫金黄金国际( 02259.HK )涨超4%。",
-          "body": "#港股 #恒生指数 #紫金黄金国际",
-          "tags": [
-            "#港股",
-            "#恒生指数",
-            "#紫金黄金国际"
-          ],
-          "ts": 1788484946000,
-          "time": "09:22:26",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231959",
-          "url": "https://t.me/jin10light/231959",
-          "title": "中国央行：根据公开市场业务一级交易商的需求，2026年9月4日7天期逆回购操作量为零。",
-          "body": "#中国 #央行",
-          "tags": [
-            "#中国",
-            "#央行"
-          ],
-          "ts": 1788484883000,
-          "time": "09:21:23",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231958",
-          "url": "https://t.me/jin10light/231958",
-          "title": "Robinhood周四收涨16.57%，获多家投行上调评级",
-          "body": "#Robinhood #美国",
-          "tags": [
-            "#Robinhood",
-            "#美国"
-          ],
-          "ts": 1788484825000,
-          "time": "09:20:25",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231957",
-          "url": "https://t.me/jin10light/231957",
-          "title": "2026年9月4日银行间外汇市场人民币汇率中间价",
-          "body": "美元/人民币报6.7787，下调（人民币升值）20点； 欧元/人民币报7.8397，上调189点；港元/人民币报0.86458，下调1.8点； 英镑/人民币报9.1195，上调191点；澳元/人民币报4.8487，上调143点； 加元/人民币报4.8849，上调133点；100日元/人民币报4.3135，上调640点； 人民币/俄罗斯卢布报12.9025，下调1269点；新西兰元/人民币报3.9627，上调144点； 人民币/林吉特报0.59784，上调2.8点；瑞士法郎/人民币报8.3501，上调424点； 新加坡元/人民币报5.3227，上调108...",
-          "tags": [
-            "#美元",
-            "#人民币",
-            "#中国"
-          ],
-          "ts": 1788484642000,
-          "time": "09:17:22",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231956",
-          "url": "https://t.me/jin10light/231956",
-          "title": "ROBINCAT市值短时突破2700万美元，创历史新高",
-          "body": "#ROBINCAT #Robinhood #USDG",
-          "tags": [
-            "#ROBINCAT",
-            "#Robinhood",
-            "#USDG"
-          ],
-          "ts": 1788484354000,
-          "time": "09:12:34",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231955",
-          "url": "https://t.me/jin10light/231955",
-          "title": "1. 十部门：设立国家中小企业发展基金二期，带动社会资本投早、投小、投长期、投硬科技。",
-          "body": "2. 美联储沃勒：9月是否加息将高度取决于8月CPI。 3. 世界气象组织警告：厄尔尼诺将发展为超强级别。 4. 上交所张斌：将进一步丰富跨境ETF产品体系，持续完善双向互联互通机制。 5. 全球芯片LOF溢价近15%，景顺长城提示风险。 6. 中韩半导体ETF溢价明显，华泰柏瑞提示投资风险。 7. 纳指科技ETF景顺溢价近24%，基金将于9月4日开市起停牌至10:30。 8. 国投白银LOF溢价超11.5%，基金提示交易风险。 9. 豆粕ETF华夏溢价超7%，基金提示交易风险。 10. 纳指ETF广发溢价超10%，基金将于9月4日开市起停牌至10:3...",
-          "tags": [],
-          "ts": 1788483805000,
-          "time": "09:03:25",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231954",
-          "url": "https://t.me/jin10light/231954",
-          "title": "Notional Finance疑遭攻击，约170万美元DAI和USDC被盗",
-          "body": "#Notional Finance #DAI #USDC",
-          "tags": [
-            "#Notional",
-            "#DAI",
-            "#USDC"
-          ],
-          "ts": 1788483804000,
-          "time": "09:03:24",
-          "receivedAt": 1788497515263,
-          "receivedTime": true
-        },
-        {
-          "id": "231953",
-          "url": "https://t.me/jin10light/231953",
-          "title": "特斯拉低调推出Cybercab，德州仅注册45辆，规模远落后Waymo",
-          "body": "#特斯拉 #Cybercab #得州",
-          "tags": [
-            "#特斯拉",
-            "#Cybercab",
-            "#得州"
-          ],
-          "ts": 1788483743000,
-          "time": "09:02:23",
           "receivedAt": 1788497515263,
           "receivedTime": true
         }
