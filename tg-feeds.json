@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-09-09T11:11:45.512Z",
+  "updatedAt": "2026-09-09T15:06:29.075Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7159",
+          "url": "https://t.me/BWEtradfi/7159",
+          "title": "*美国财政部将于周四回购至多60亿美元的长期债券",
+          "body": "*US TREASURY TO BUY BACK UP TO $6B IN LONGER-DATED DEBT THU *US PREVIOUSLY SAID BUYBACK TO BE AT LEAST $4B PER OPERATION $IBIT *美国此前曾表示，每次回购规模至少为40亿美元 $IBIT",
+          "tags": [],
+          "ts": 1788966097000,
+          "time": "23:01:37",
+          "receivedAt": 1788966369279,
+          "receivedTime": true
+        },
+        {
+          "id": "7158",
+          "url": "https://t.me/BWEtradfi/7158",
+          "title": "DB: 标普500指数低开0.3%，纳斯达克指数下跌0.5%",
+          "body": "DB: *S&P 500 OPENS DOWN 0.3%, NASDAQ DECLINES 0.5%",
+          "tags": [],
+          "ts": 1788960643000,
+          "time": "21:30:43",
+          "receivedAt": 1788966369279,
+          "receivedTime": true
+        },
         {
           "id": "7157",
           "url": "https://t.me/BWEtradfi/7157",
@@ -1898,46 +1920,784 @@
           "time": "23:36:43",
           "receivedAt": 1787673498328,
           "receivedTime": true
-        },
-        {
-          "id": "6986",
-          "url": "https://t.me/BWEtradfi/6986",
-          "title": "*特朗普：海军已清除并引爆霍尔木兹海峡国际水域的所有水雷",
-          "body": "*TRUMP: NAVY REMOVED AND DETONATED ALL MINES IN INTERNATIONAL WATERS OF STRAIT OF HORMUZ *TRUMP: IRAN NOTIFIED ANY SHIP PLACING NEW MINES WILL BE IMMEDIATELY AND SYSTEMATICALLY DESTROYED *TRUMP: SPACE FORCE WATCHING EVERY SQUARE INCH OF STRAIT OF HORMUZ, PICKAXE MOUNTAIN, AND… *特朗普：已通知伊朗，任何布设新水雷的船只...",
-          "tags": [],
-          "ts": 1787668250000,
-          "time": "22:30:50",
-          "receivedAt": 1787670686388,
-          "receivedTime": true
-        },
-        {
-          "id": "6985",
-          "url": "https://t.me/BWEtradfi/6985",
-          "title": "DB: *美国7月新屋销售量为60.7万套；预期为62万套",
-          "body": "DB: *US JULY NEW HOME SALES AT 0.607M; EST. 0.620M *US JULY NEW HOME SALES FALL 10.5% M/M; PREV. 1.6% *美国7月新屋销售量环比下降10.5%；前值1.6%",
-          "tags": [],
-          "ts": 1787666414000,
-          "time": "22:00:14",
-          "receivedAt": 1787667876021,
-          "receivedTime": true
-        },
-        {
-          "id": "6984",
-          "url": "https://t.me/BWEtradfi/6984",
-          "title": "DB: 标普500指数高开0.4%，纳斯达克指数上涨0.7%",
-          "body": "DB: *S&P 500 OPENS 0.4% HIGHER, NASDAQ UP 0.7%",
-          "tags": [],
-          "ts": 1787664643000,
-          "time": "21:30:43",
-          "receivedAt": 1787665013197,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "233123",
+          "url": "https://t.me/jin10light/233123",
+          "title": "国内新é",
+          "body": "1.商务部新闻发言人就美发布中国人工智能企业对美蒸馏活动相关网络安全公告答记者问。 2. 预告：9月10日15:00国新办就金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况举行新闻发布会。 国际新é 1.伊朗外交部：将对任何美国军方的攻击作出果断回应。 2. 欧洲天然气价格自2023年以来首次突破每兆瓦时80欧元。 3. 美国中央司令部：没有任何美国海军军舰遭袭，摧毁10艘伊朗油轮。 4. 美国至8月22日当周ADP就业人数周度变动1.2万人，前值1.175万人。 5. 世界黄金协会：8月全球黄金ETF吸金180亿美元，创历史第二大单月流入。...",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1788966343000,
+          "time": "23:05:43",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233122",
+          "url": "https://t.me/jin10light/233122",
+          "title": "现货黄金短线下挫36美元，现报4397.64美元/盎司。",
+          "body": "#黄金",
+          "tags": [
+            "#黄金"
+          ],
+          "ts": 1788966343000,
+          "time": "23:05:43",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233121",
+          "url": "https://t.me/jin10light/233121",
+          "title": "美国财政部公布美债回购规模：至多60亿美元",
+          "body": "9月9日讯，美国财政部将在周四回购最多60亿美元长债。 此前美国财政部表示，在11月4日之前，单次长债回购规模将至少翻倍至40亿美元。 #美国 #美债",
+          "tags": [
+            "#美国",
+            "#美债"
+          ],
+          "ts": 1788966220000,
+          "time": "23:03:40",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233120",
+          "url": "https://t.me/jin10light/233120",
+          "title": "美国财政部将在周四回购最多60亿美元长债",
+          "body": "#美国 #美元",
+          "tags": [
+            "#美国",
+            "#美元"
+          ],
+          "ts": 1788966161000,
+          "time": "23:02:41",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233119",
+          "url": "https://t.me/jin10light/233119",
+          "title": "截至23:00收盘，国内期货主力合约涨跌不一，苯乙烯（EB）、纯苯涨超5%，燃料油、丙烯涨超4%，乙二醇（EG）涨超3%，聚丙烯月均、沥青涨近3%。",
+          "body": "跌幅方面，焦炭跌超2%，焦煤跌近2%，玻璃、菜油、棕榈油跌超1%。 #苯乙烯 #纯苯 #燃料油",
+          "tags": [
+            "#苯乙烯",
+            "#纯苯",
+            "#燃料油"
+          ],
+          "ts": 1788966103000,
+          "time": "23:01:43",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233118",
+          "url": "https://t.me/jin10light/233118",
+          "title": "Robinhood CEO回应AMC炮轰：上市公司无法控制围绕其股票创建的金融产品",
+          "body": "#Robinhood #Vlad Tenev #Adam Aron",
+          "tags": [
+            "#Robinhood",
+            "#Vlad",
+            "#Adam"
+          ],
+          "ts": 1788965979000,
+          "time": "22:59:39",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233117",
+          "url": "https://t.me/jin10light/233117",
+          "title": "美国财政部将于十分钟后公布计划回购的10年至20年期美国国债的最高金额。",
+          "body": "#美国 #美国财政部 #美国国债",
+          "tags": [
+            "#美国",
+            "#美国财政部",
+            "#美国国债"
+          ],
+          "ts": 1788965503000,
+          "time": "22:51:43",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233116",
+          "url": "https://t.me/jin10light/233116",
+          "title": "重仓STONK吃满涨幅，point farm capital再次夺得FOMO日榜第一",
+          "body": "#STONK #point farm capital",
+          "tags": [
+            "#STONK",
+            "#point"
+          ],
+          "ts": 1788965502000,
+          "time": "22:51:42",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233115",
+          "url": "https://t.me/jin10light/233115",
+          "title": "STONK市值短时突破2.1亿美元再创新高，24小时涨超60%",
+          "body": "#SOL #STONK",
+          "tags": [
+            "#SOL",
+            "#STONK"
+          ],
+          "ts": 1788964838000,
+          "time": "22:40:38",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233114",
+          "url": "https://t.me/jin10light/233114",
+          "title": "美司法部打击Xinbi诈骗服务市场，查封5200万美元加密资产",
+          "body": "#美国 #Xinbi Guarantee #Tether",
+          "tags": [
+            "#美国",
+            "#Xinbi",
+            "#Tether"
+          ],
+          "ts": 1788964546000,
+          "time": "22:35:46",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233113",
+          "url": "https://t.me/jin10light/233113",
+          "title": "交易员Based16z减持20万美元VVV多单，仍持有价值220万美元多单",
+          "body": "#VVV",
+          "tags": [
+            "#VVV"
+          ],
+          "ts": 1788963819000,
+          "time": "22:23:39",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233112",
+          "url": "https://t.me/jin10light/233112",
+          "title": "WTI原油期货日内涨幅达2.00%，现报96.14美元/桶。",
+          "body": "#WTI原油 #美元",
+          "tags": [
+            "#WTI原油",
+            "#美元"
+          ],
+          "ts": 1788963762000,
+          "time": "22:22:42",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233111",
+          "url": "https://t.me/jin10light/233111",
+          "title": "MetaMask：独立运营后用户资产、私钥等不受影响",
+          "body": "#MetaMask #Consensys #ETH",
+          "tags": [
+            "#MetaMask",
+            "#Consensys",
+            "#ETH"
+          ],
+          "ts": 1788963761000,
+          "time": "22:22:41",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233110",
+          "url": "https://t.me/jin10light/233110",
+          "title": "欧洲天然气价格自2023年以来首次突破每兆瓦时80欧元。",
+          "body": "#欧洲 #天然气",
+          "tags": [
+            "#欧洲",
+            "#天然气"
+          ],
+          "ts": 1788963641000,
+          "time": "22:20:41",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233109",
+          "url": "https://t.me/jin10light/233109",
+          "title": "某交易员「狙击」LAPTOP，花费900美元买入后获利超25万美元",
+          "body": "#LAPTOP #USDC",
+          "tags": [
+            "#LAPTOP",
+            "#USDC"
+          ],
+          "ts": 1788963641000,
+          "time": "22:20:41",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233108",
+          "url": "https://t.me/jin10light/233108",
+          "title": "现货白银站上68美元/盎司，日内涨3.43%。",
+          "body": "#白银 #美元",
+          "tags": [
+            "#白银",
+            "#美元"
+          ],
+          "ts": 1788963341000,
+          "time": "22:15:41",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233107",
+          "url": "https://t.me/jin10light/233107",
+          "title": "Consensys拆分MetaMask为独立公司，暂未披露IPO及发币计划",
+          "body": "#ETH #Consensys #MetaMask",
+          "tags": [
+            "#ETH",
+            "#Consensys",
+            "#MetaMask"
+          ],
+          "ts": 1788962977000,
+          "time": "22:09:37",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233106",
+          "url": "https://t.me/jin10light/233106",
+          "title": "PayPal推出PYUSDx平台，支持企业发行PYUSD支持的定制稳定币",
+          "body": "#PayPal #PYUSD #稳定币",
+          "tags": [
+            "#PayPal",
+            "#PYUSD",
+            "#稳定币"
+          ],
+          "ts": 1788962922000,
+          "time": "22:08:42",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233105",
+          "url": "https://t.me/jin10light/233105",
+          "title": "SK海力士美股再创新高，日内涨幅约5%",
+          "body": "#SK 海力士 #美国",
+          "tags": [
+            "#SK",
+            "#美国"
+          ],
+          "ts": 1788962803000,
+          "time": "22:06:43",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233104",
+          "url": "https://t.me/jin10light/233104",
+          "title": "5分钟再跌超20%，LAPTOP FDV跌破12亿美元",
+          "body": "#LAPTOP #FDV",
+          "tags": [
+            "#LAPTOP",
+            "#FDV"
+          ],
+          "ts": 1788962560000,
+          "time": "22:02:40",
+          "receivedAt": 1788966371131,
+          "receivedTime": true
+        },
+        {
+          "id": "233103",
+          "url": "https://t.me/jin10light/233103",
+          "title": "两地址领取LAPTOP空投获利超64.7万美元，或归属于Safe架构师Florent",
+          "body": "#LAPTOP #ETH #USDC",
+          "tags": [
+            "#LAPTOP",
+            "#ETH",
+            "#USDC"
+          ],
+          "ts": 1788962317000,
+          "time": "21:58:37",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233102",
+          "url": "https://t.me/jin10light/233102",
+          "title": "BNC美股开盘后跌超8%，链上币股BNC4较正股溢价约9%",
+          "body": "#BNC #BSC #美股",
+          "tags": [
+            "#BNC",
+            "#BSC",
+            "#美股"
+          ],
+          "ts": 1788962261000,
+          "time": "21:57:41",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233101",
+          "url": "https://t.me/jin10light/233101",
+          "title": "某交易员减持20万美元VVV多单，仍持有价值220万美元多单",
+          "body": "#VVV",
+          "tags": [
+            "#VVV"
+          ],
+          "ts": 1788961839000,
+          "time": "21:50:39",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233100",
+          "url": "https://t.me/jin10light/233100",
+          "title": "Bitget已上线FCX、BHP等4只股票永续合约",
+          "body": "#Bitget #FCX #BHP",
+          "tags": [
+            "#Bitget",
+            "#FCX",
+            "#BHP"
+          ],
+          "ts": 1788961839000,
+          "time": "21:50:39",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233099",
+          "url": "https://t.me/jin10light/233099",
+          "title": "HPC提交意见书支持驳回CME诉CFTC案，称该诉讼或阻碍美国永续期货创新",
+          "body": "#美国 #BTC #CME",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#CME"
+          ],
+          "ts": 1788961721000,
+          "time": "21:48:41",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233098",
+          "url": "https://t.me/jin10light/233098",
+          "title": "美股开盘光通信、存储、半导体股走强，Arm、诺基亚涨超4%",
+          "body": "#美股 #诺基亚 #迈威尔科技",
+          "tags": [
+            "#美股",
+            "#诺基亚",
+            "#迈威尔科技"
+          ],
+          "ts": 1788961359000,
+          "time": "21:42:39",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233097",
+          "url": "https://t.me/jin10light/233097",
+          "title": "商务部新闻发言人就美发布中国人工智能企业对美蒸馏活动相关网络安全公告答记者问",
+          "body": "9月9日讯，美东时间9月8日，美国家安全局、网络安全与基础设施安全局、联邦调查局联合发布公告，指责中国人工智能企业对美开展“工业规模”蒸馏，获取美前沿模型能力，并向美企提出相关防御措施建议。 请问中方对此有何评论？商务部新闻发言人表示，中方愿意以平等互利、合作共赢原则，通过对话与美方开展建设性和专业的讨论。 但如果美方以打击蒸馏为名，实施遏压中国人工智能企业的行动，中方必将坚决采取措施予以反制。 希望美方与中方相向而行，通过对话和沟通管控风险，推动人工智能产业惠及全球。 #美国 #中国 #人工智能",
+          "tags": [
+            "#美国",
+            "#中国",
+            "#人工智能"
+          ],
+          "ts": 1788961180000,
+          "time": "21:39:40",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233096",
+          "url": "https://t.me/jin10light/233096",
+          "title": "稳定币支付公司Latitude完成3500万美元A轮融资，Oak HC/FT领投",
+          "body": "",
+          "tags": [],
+          "ts": 1788961000000,
+          "time": "21:36:40",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233095",
+          "url": "https://t.me/jin10light/233095",
+          "title": "Wintermute正抛售LAPTOP，已卖出价值208万美元代币",
+          "body": "#Wintermute #LAPTOP",
+          "tags": [
+            "#Wintermute",
+            "#LAPTOP"
+          ],
+          "ts": 1788960938000,
+          "time": "21:35:38",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233094",
+          "url": "https://t.me/jin10light/233094",
+          "title": "现货白银短线拉升1美元，日内涨幅达3.00%，现报67.72美元/盎司。",
+          "body": "#白银 #美元",
+          "tags": [
+            "#白银",
+            "#美元"
+          ],
+          "ts": 1788960641000,
+          "time": "21:30:41",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233093",
+          "url": "https://t.me/jin10light/233093",
+          "title": "美股开盘，道指跌0.15%，标普500指数跌0.25%，纳指跌0.36%。",
+          "body": "Meta Platforms(META.O)涨超5%，公司推出个人AI智能体Muse。 亚马逊(AMZN.O)跌1.2%，其首次发行四部分英镑债。 苹果(AAPL.O)在重磅发布会前微跌0.2%。 #美股 #Meta Platforms #亚马逊",
+          "tags": [
+            "#美股",
+            "#Meta",
+            "#亚马逊"
+          ],
+          "ts": 1788960641000,
+          "time": "21:30:41",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233092",
+          "url": "https://t.me/jin10light/233092",
+          "title": "LAPTOP FDV跌破20亿美元，较高点跌超99%",
+          "body": "#LAPTOP #拜登",
+          "tags": [
+            "#LAPTOP",
+            "#拜登"
+          ],
+          "ts": 1788960460000,
+          "time": "21:27:40",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233091",
+          "url": "https://t.me/jin10light/233091",
+          "title": "两地址领取LAPTOP空投获利超64.7万美元，或归属于Safe架构师FloB",
+          "body": "#LAPTOP #ETH #USDC",
+          "tags": [
+            "#LAPTOP",
+            "#ETH",
+            "#USDC"
+          ],
+          "ts": 1788959858000,
+          "time": "21:17:38",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233090",
+          "url": "https://t.me/jin10light/233090",
+          "title": "原油系期货主力合约集体走强，SC原油涨幅扩大至5.18%，现报759.9元/桶。",
+          "body": "低硫燃料油（LU）上涨1.72%，现报5256元/吨。 燃油上涨4.73%，现报4120元/吨。 沥青上涨2.49%，现报5270元/吨。 #原油 #低硫燃料油 #燃油",
+          "tags": [
+            "#原油",
+            "#低硫燃料油",
+            "#燃油"
+          ],
+          "ts": 1788959561000,
+          "time": "21:12:41",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233089",
+          "url": "https://t.me/jin10light/233089",
+          "title": "某鲸鱼在LAPTOP开盘初期投入近20万美元，现已浮亏近98%",
+          "body": "#LAPTOP #鲸鱼",
+          "tags": [
+            "#LAPTOP",
+            "#鲸鱼"
+          ],
+          "ts": 1788959141000,
+          "time": "21:05:41",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233088",
+          "url": "https://t.me/jin10light/233088",
+          "title": "Aerodrome上线LAPTOP-USDC交易池，400万枚LAPTOP用于激励",
+          "body": "#LAPTOP #Aerodrome #亨特·拜登",
+          "tags": [
+            "#LAPTOP",
+            "#Aerodrome",
+            "#亨特"
+          ],
+          "ts": 1788958659000,
+          "time": "20:57:39",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233087",
+          "url": "https://t.me/jin10light/233087",
+          "title": "某交易员因追高LAPTOP亏损超19万美元",
+          "body": "#LAPTOP #Binance #亨特·拜登",
+          "tags": [
+            "#LAPTOP",
+            "#Binance",
+            "#亨特"
+          ],
+          "ts": 1788958182000,
+          "time": "20:49:42",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233086",
+          "url": "https://t.me/jin10light/233086",
+          "title": "LAPTOP波动加剧，5分钟回升200%，随后1分钟再跌40%",
+          "body": "#LAPTOP #Meme 币",
+          "tags": [
+            "#LAPTOP",
+            "#Meme"
+          ],
+          "ts": 1788958181000,
+          "time": "20:49:41",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233085",
+          "url": "https://t.me/jin10light/233085",
+          "title": "两新建钱包领取LAPTOP空投后合计套现60万美元",
+          "body": "#LAPTOP #ETH",
+          "tags": [
+            "#LAPTOP",
+            "#ETH"
+          ],
+          "ts": 1788958119000,
+          "time": "20:48:39",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233084",
+          "url": "https://t.me/jin10light/233084",
+          "title": "加密KOL Rune质疑LAPTOP公平发行：订阅者空投集中抛售，币价15分钟下跌95%",
+          "body": "#LAPTOP #亨特·拜登 #Rune",
+          "tags": [
+            "#LAPTOP",
+            "#亨特",
+            "#Rune"
+          ],
+          "ts": 1788958000000,
+          "time": "20:46:40",
+          "receivedAt": 1788966371326,
+          "receivedTime": true
+        },
+        {
+          "id": "233083",
+          "url": "https://t.me/jin10light/233083",
+          "title": "LAPTOP Uniswap社区池交易税高达5%，官方池在Aerodrome无人问津",
+          "body": "#LAPTOP #拜登 #Aerodrome",
+          "tags": [
+            "#LAPTOP",
+            "#拜登",
+            "#Aerodrome"
+          ],
+          "ts": 1788957999000,
+          "time": "20:46:39",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233082",
+          "url": "https://t.me/jin10light/233082",
+          "title": "上线40分钟，LAPTOP FDV从3000亿美元跌至43亿",
+          "body": "#LAPTOP #拜登",
+          "tags": [
+            "#LAPTOP",
+            "#拜登"
+          ],
+          "ts": 1788957759000,
+          "time": "20:42:39",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233081",
+          "url": "https://t.me/jin10light/233081",
+          "title": "Bonk Guy再次抨击LAPTOP：或成加密史上最快名人币「拉高出货」案例",
+          "body": "#LAPTOP #Bonk Guy #亨特·拜登",
+          "tags": [
+            "#LAPTOP",
+            "#Bonk",
+            "#亨特"
+          ],
+          "ts": 1788957519000,
+          "time": "20:38:39",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233080",
+          "url": "https://t.me/jin10light/233080",
+          "title": "Bonk Guy抨击LAPTOP：系「拉高出货」骗局，注定拉升后回落至「归零」",
+          "body": "",
+          "tags": [],
+          "ts": 1788957097000,
+          "time": "20:31:37",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233079",
+          "url": "https://t.me/jin10light/233079",
+          "title": "3分钟再跌58%，LAPTOP FDV跌破150亿美元",
+          "body": "",
+          "tags": [],
+          "ts": 1788956977000,
+          "time": "20:29:37",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233078",
+          "url": "https://t.me/jin10light/233078",
+          "title": "某交易员交易PONS，9天获利约23.48万美元",
+          "body": "#ETH #PONS",
+          "tags": [
+            "#ETH",
+            "#PONS"
+          ],
+          "ts": 1788956799000,
+          "time": "20:26:39",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233077",
+          "url": "https://t.me/jin10light/233077",
+          "title": "某鲸鱼开盘狙击买入LAPTOP，随后抛售，现已获利约100万美元",
+          "body": "",
+          "tags": [],
+          "ts": 1788956738000,
+          "time": "20:25:38",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233076",
+          "url": "https://t.me/jin10light/233076",
+          "title": "LAPTOP FDV短时跌破800亿美元，20分钟交易额仅420万美元",
+          "body": "#LAPTOP #FDV",
+          "tags": [
+            "#LAPTOP",
+            "#FDV"
+          ],
+          "ts": 1788956681000,
+          "time": "20:24:41",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233075",
+          "url": "https://t.me/jin10light/233075",
+          "title": "Wintermute或为LAPTOP第三家做市商，已收到250万枚代币",
+          "body": "",
+          "tags": [],
+          "ts": 1788955961000,
+          "time": "20:12:41",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233074",
+          "url": "https://t.me/jin10light/233074",
+          "title": "亚洲动力煤市场在“供应恐慌”与“高价犹豫”中陷入胶着，新加坡贸易商更预警表需恐高于实需，方向选择何时明朗？",
+          "body": "#亚洲 #动力煤 #新加坡",
+          "tags": [
+            "#亚洲",
+            "#动力煤",
+            "#新加坡"
+          ],
+          "ts": 1788955600000,
+          "time": "20:06:40",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233073",
+          "url": "https://t.me/jin10light/233073",
+          "title": "美国至8月22日当周ADP就业人数周度变动 1.2万人，前值1.175万人。",
+          "body": "",
+          "tags": [],
+          "ts": 1788955541000,
+          "time": "20:05:41",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233072",
+          "url": "https://t.me/jin10light/233072",
+          "title": "拜登之子Meme币LAPTOP链上持有者已超9300人",
+          "body": "",
+          "tags": [],
+          "ts": 1788955360000,
+          "time": "20:02:40",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233071",
+          "url": "https://t.me/jin10light/233071",
+          "title": "Bonk Guy：正转向看涨Solana，因其开始主动支持链上社区",
+          "body": "#SOL #Bonk Guy #Solana",
+          "tags": [
+            "#SOL",
+            "#Bonk",
+            "#Solana"
+          ],
+          "ts": 1788955060000,
+          "time": "19:57:40",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233070",
+          "url": "https://t.me/jin10light/233070",
+          "title": "受上线Binance消息影响，「牛来」短时拉涨40%",
+          "body": "#Binance #牛来",
+          "tags": [
+            "#Binance",
+            "#牛来"
+          ],
+          "ts": 1788953620000,
+          "time": "19:33:40",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
+        {
+          "id": "233069",
+          "url": "https://t.me/jin10light/233069",
+          "title": "江卓尔：BTC或先涨至84,000美元，再回调至72,000美元",
+          "body": "#BTC #江卓尔 #莱比特矿池",
+          "tags": [
+            "#BTC",
+            "#江卓尔",
+            "#莱比特矿池"
+          ],
+          "ts": 1788952360000,
+          "time": "19:12:40",
+          "receivedAt": 1788966371551,
+          "receivedTime": true
+        },
         {
           "id": "233068",
           "url": "https://t.me/jin10light/233068",
@@ -18466,798 +19226,6 @@
           "time": "01:19:23",
           "receivedAt": 1788458226188,
           "receivedTime": true
-        },
-        {
-          "id": "231923",
-          "url": "https://t.me/jin10light/231923",
-          "title": "Robinhood币股Meme NUDES市值突破2300万美元创新高",
-          "body": "#NUDES #SNAP #Robinhood Chain",
-          "tags": [
-            "#NUDES",
-            "#SNAP",
-            "#Robinhood"
-          ],
-          "ts": 1788455544000,
-          "time": "01:12:24",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231922",
-          "url": "https://t.me/jin10light/231922",
-          "title": "单日28倍！苹果配对币股Meme ICOIN市值突破550万美元",
-          "body": "#ICOIN #AAPL #Robinhood Chain",
-          "tags": [
-            "#ICOIN",
-            "#AAPL",
-            "#Robinhood"
-          ],
-          "ts": 1788455246000,
-          "time": "01:07:26",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231921",
-          "url": "https://t.me/jin10light/231921",
-          "title": "阿曼拒绝伊朗霍尔木兹海峡收费提议",
-          "body": "#阿曼 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#阿曼",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1788454282000,
-          "time": "00:51:22",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231920",
-          "url": "https://t.me/jin10light/231920",
-          "title": "江卓尔复盘操作：2380美元抄底4000枚ETH，过早平仓错失利润",
-          "body": "#ETH #BTC #江卓尔",
-          "tags": [
-            "#ETH",
-            "#BTC",
-            "#江卓尔"
-          ],
-          "ts": 1788454104000,
-          "time": "00:48:24",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231919",
-          "url": "https://t.me/jin10light/231919",
-          "title": "据纽约邮报：一位地区高级官员表示，阿曼已经悄然拒绝伊朗提出的霍尔木兹海峡收费方案。",
-          "body": "#阿曼 #伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#阿曼",
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1788453803000,
-          "time": "00:43:23",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231918",
-          "url": "https://t.me/jin10light/231918",
-          "title": "CASHCAT市值突破3亿美元再创新高，24小时涨超10.2%",
-          "body": "#CASHCAT #Meme 币",
-          "tags": [
-            "#CASHCAT",
-            "#Meme"
-          ],
-          "ts": 1788453741000,
-          "time": "00:42:21",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231917",
-          "url": "https://t.me/jin10light/231917",
-          "title": "全球AI故障追踪：Claude服务恢复正常，ChatGPT和Codex错误率偏高，Grok维持宕机",
-          "body": "#OpenAI #Claude #Grok",
-          "tags": [
-            "#OpenAI",
-            "#Claude",
-            "#Grok"
-          ],
-          "ts": 1788453442000,
-          "time": "00:37:22",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231916",
-          "url": "https://t.me/jin10light/231916",
-          "title": "Ansem：仍未转向看涨的顶级交易员将在第四季度激进追涨",
-          "body": "#Ansem #美联储 #加密货币",
-          "tags": [
-            "#Ansem",
-            "#美联储",
-            "#加密货币"
-          ],
-          "ts": 1788452785000,
-          "time": "00:26:25",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231915",
-          "url": "https://t.me/jin10light/231915",
-          "title": "易理华：比特币上看压力位8.6万美元，牛市趋势已经开启",
-          "body": "#BTC #易理华 #Liquid Capital",
-          "tags": [
-            "#BTC",
-            "#易理华",
-            "#Liquid"
-          ],
-          "ts": 1788452125000,
-          "time": "00:15:25",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231914",
-          "url": "https://t.me/jin10light/231914",
-          "title": "沙特阿拉伯将10月销往美国的阿拉伯轻质原油官方售价定为较ASCI基准溢价4.60美元/桶。",
-          "body": "",
-          "tags": [],
-          "ts": 1788451822000,
-          "time": "00:10:22",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231913",
-          "url": "https://t.me/jin10light/231913",
-          "title": "特斯拉盘中涨超7%，Cybercab发布活动即将举行",
-          "body": "#特斯拉 #TSLA #德克萨斯州",
-          "tags": [
-            "#特斯拉",
-            "#TSLA",
-            "#德克萨斯州"
-          ],
-          "ts": 1788451762000,
-          "time": "00:09:22",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231912",
-          "url": "https://t.me/jin10light/231912",
-          "title": "新兴银行OpenReserve获美国国家银行牌照初步批准",
-          "body": "#OpenReserve #美国 #Coinbase Ventures",
-          "tags": [
-            "#OpenReserve",
-            "#美国",
-            "#Coinbase"
-          ],
-          "ts": 1788451342000,
-          "time": "00:02:22",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231911",
-          "url": "https://t.me/jin10light/231911",
-          "title": "今日重点关注的财经数据与事件：2026年9月4日 周五",
-          "body": "① 03:00 美联储哈马克发表讲话 ② 03:55 美联储古尔斯比发表讲话 ③ 16:50 英国央行行长贝利发表讲话 ④ 17:00 欧元区7月零售销售月率 ⑤ 20:30 加拿大8月就业人数 ⑥ 20:30 美国8月失业率 ⑦ 20:30 美国8月季调后非农就业人口 ⑧ 20:30 美国8月平均每小时工资年率 ⑨ 20:30 美国8月平均每小时工资月率 ⑩ 22:00 美国8月全球供应链压力指数 ⑪ 次日01:00 美国至9月4日当周石油钻井总数 #美联储 #美国 #英国央行",
-          "tags": [
-            "#美联储",
-            "#美国",
-            "#英国央行"
-          ],
-          "ts": 1788451285000,
-          "time": "00:01:25",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231910",
-          "url": "https://t.me/jin10light/231910",
-          "title": "Ethena费用转换投票通过，程序化ENA回购将开始",
-          "body": "#ENA #Ethena 基金会 #HTX",
-          "tags": [
-            "#ENA",
-            "#Ethena",
-            "#HTX"
-          ],
-          "ts": 1788451045000,
-          "time": "23:57:25",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231909",
-          "url": "https://t.me/jin10light/231909",
-          "title": "SC原油主力合约日内跌超2.00%，现报677.00元/桶。",
-          "body": "#SC原油 #中国",
-          "tags": [
-            "#SC原油",
-            "#中国"
-          ],
-          "ts": 1788450921000,
-          "time": "23:55:21",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231908",
-          "url": "https://t.me/jin10light/231908",
-          "title": "比特币连续拉升3000美元，强势突破81,000美元",
-          "body": "#BTC #HTX",
-          "tags": [
-            "#BTC",
-            "#HTX"
-          ],
-          "ts": 1788450865000,
-          "time": "23:54:25",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231907",
-          "url": "https://t.me/jin10light/231907",
-          "title": "SpaceX(SPCX.O)盘中涨幅扩大至逾6%。",
-          "body": "#SpaceX #美国",
-          "tags": [
-            "#SpaceX",
-            "#美国"
-          ],
-          "ts": 1788450741000,
-          "time": "23:52:21",
-          "receivedAt": 1788458226188,
-          "receivedTime": true
-        },
-        {
-          "id": "231906",
-          "url": "https://t.me/jin10light/231906",
-          "title": "特斯拉(TSLA.O)涨超7%，为6月以来最大盘中涨幅。",
-          "body": "#特斯拉 #美股",
-          "tags": [
-            "#特斯拉",
-            "#美股"
-          ],
-          "ts": 1788450683000,
-          "time": "23:51:23",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231905",
-          "url": "https://t.me/jin10light/231905",
-          "title": "Polymarket正式全面推出永续合约功能，支持加密货币、股票、大宗商品等",
-          "body": "#Polymarket #BTC #ETH",
-          "tags": [
-            "#Polymarket",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1788450625000,
-          "time": "23:50:25",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231904",
-          "url": "https://t.me/jin10light/231904",
-          "title": "Bonk Guy晒盈利：过去24小时浮盈增加500万美元，投资组合创1500万美元新高",
-          "body": "#Bonk Guy #PONS #USELESS",
-          "tags": [
-            "#Bonk",
-            "#PONS",
-            "#USELESS"
-          ],
-          "ts": 1788450327000,
-          "time": "23:45:27",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231903",
-          "url": "https://t.me/jin10light/231903",
-          "title": "币股Meme FATCOIN市值突破750万美元创新高，24小时涨超4.5倍",
-          "body": "#FATCOIN #LLY #Robinhood Chain",
-          "tags": [
-            "#FATCOIN",
-            "#LLY",
-            "#Robinhood"
-          ],
-          "ts": 1788449125000,
-          "time": "23:25:25",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231902",
-          "url": "https://t.me/jin10light/231902",
-          "title": "OpenAI预告即将发布Astra模型，名称可能为GPT-6-Astra",
-          "body": "#OpenAI #Astra #GPT -6",
-          "tags": [
-            "#OpenAI",
-            "#Astra",
-            "#GPT"
-          ],
-          "ts": 1788449062000,
-          "time": "23:24:22",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231901",
-          "url": "https://t.me/jin10light/231901",
-          "title": "网络状况监测网站DownDetector：用户报告显示美国地区亚马逊云服务(AWS)可能出现问题 。",
-          "body": "#美国 #AWS",
-          "tags": [
-            "#美国",
-            "#AWS"
-          ],
-          "ts": 1788448941000,
-          "time": "23:22:21",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231900",
-          "url": "https://t.me/jin10light/231900",
-          "title": "Pons成为协议费用最高代币发行平台，24小时达609万美元",
-          "body": "#Robinhood #Pons #Pump .fun",
-          "tags": [
-            "#Robinhood",
-            "#Pons",
-            "#Pump"
-          ],
-          "ts": 1788448886000,
-          "time": "23:21:26",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231899",
-          "url": "https://t.me/jin10light/231899",
-          "title": "国内新é",
-          "body": "1.习近平结束出席2026年上海合作组织峰会和对吉尔吉斯斯坦、埃及的国事访问回到北京。 2. 商务部：敦促法方立即停止反超快时尚法实施。 3. 2026医保国谈将于9月5日举行。 4. 商务部回应美利用G20炒作所谓“经济失衡”论调：中方对此坚决反对。 5. 广东：有序推进政府收储改造，鼓励国有企业盘活利用存量土地。 6. 前7个月我国服务进出口总额同比增长8.3%。 7. 促进中小企业发展“十五五”规划发布：到2030年，我国规模以上中小企业人均营业收入累计增长15%左右。 8. 2026年国家基本医保药品目录谈判竞价及商保创新药目录价格协商工作，将...",
-          "tags": [
-            "#中国",
-            "#吉尔吉斯斯坦",
-            "#埃及"
-          ],
-          "ts": 1788448885000,
-          "time": "23:21:25",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231898",
-          "url": "https://t.me/jin10light/231898",
-          "title": "定价文件显示，沙特阿拉伯将10月份阿拉伯轻质原油对亚洲的官方售价设定为比阿曼/迪拜平均价格贴水2美元/桶。",
-          "body": "#沙特阿拉伯 #亚洲",
-          "tags": [
-            "#沙特阿拉伯",
-            "#亚洲"
-          ],
-          "ts": 1788448823000,
-          "time": "23:20:23",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231897",
-          "url": "https://t.me/jin10light/231897",
-          "title": "网络状况监测网站DownDetector报告称，当地时间周四上午，多个主要AI平台出现故障，OpenAI、Claude、Grok和Cursor均受到影响。",
-          "body": "#OpenAI #Claude #Grok",
-          "tags": [
-            "#OpenAI",
-            "#Claude",
-            "#Grok"
-          ],
-          "ts": 1788448584000,
-          "time": "23:16:24",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231896",
-          "url": "https://t.me/jin10light/231896",
-          "title": "OpenAI在X上发布视频，预告即将发布Astra模型（视频内容是ASTRA和A6TRA切换），模型名称可能为GPT-6-Astra。",
-          "body": "#OpenAI #GPT -6-Astra #Astra",
-          "tags": [
-            "#OpenAI",
-            "#GPT",
-            "#Astra"
-          ],
-          "ts": 1788448403000,
-          "time": "23:13:23",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231895",
-          "url": "https://t.me/jin10light/231895",
-          "title": "美股三大股指高开高走，纳指涨幅扩大至1%，道指涨近1%，标普500指数涨0.73%。",
-          "body": "#美股 #纳指 #道指",
-          "tags": [
-            "#美股",
-            "#纳指",
-            "#道指"
-          ],
-          "ts": 1788448041000,
-          "time": "23:07:21",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231894",
-          "url": "https://t.me/jin10light/231894",
-          "title": "Claude、Grok接连出故障，ChatGPT现在也开始大面积报错",
-          "body": "#Claude #Grok #OpenAI",
-          "tags": [
-            "#Claude",
-            "#Grok",
-            "#OpenAI"
-          ],
-          "ts": 1788447984000,
-          "time": "23:06:24",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231893",
-          "url": "https://t.me/jin10light/231893",
-          "title": "特朗普：美国弹药库存几乎无限，产能空前",
-          "body": "",
-          "tags": [],
-          "ts": 1788447687000,
-          "time": "23:01:27",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231892",
-          "url": "https://t.me/jin10light/231892",
-          "title": "Claude、Grok、ChatGPT出现宕机或访问异常",
-          "body": "#Claude #Grok #ChatGPT",
-          "tags": [
-            "#Claude",
-            "#Grok",
-            "#ChatGPT"
-          ],
-          "ts": 1788447625000,
-          "time": "23:00:25",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231891",
-          "url": "https://t.me/jin10light/231891",
-          "title": "长江存储科创板IPO审核状态变更为「已问询」",
-          "body": "#长江存储 #中国 #A股",
-          "tags": [
-            "#长江存储",
-            "#中国",
-            "#A股"
-          ],
-          "ts": 1788447503000,
-          "time": "22:58:23",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231890",
-          "url": "https://t.me/jin10light/231890",
-          "title": "现货白银日内涨幅达3%，现报67.28美元/盎司。",
-          "body": "",
-          "tags": [],
-          "ts": 1788447381000,
-          "time": "22:56:21",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231889",
-          "url": "https://t.me/jin10light/231889",
-          "title": "据上交所官网，长江存储控股股份有限公司科创板IPO审核状态变更为“已问询”。",
-          "body": "#长江存储 #科创板 #IPO",
-          "tags": [
-            "#长江存储",
-            "#科创板",
-            "#IPO"
-          ],
-          "ts": 1788447323000,
-          "time": "22:55:23",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231888",
-          "url": "https://t.me/jin10light/231888",
-          "title": "USELESS短线拉升突破1.9亿美元市值，24小时涨超58%",
-          "body": "#SOL #USELESS #Bonk Guy",
-          "tags": [
-            "#SOL",
-            "#USELESS",
-            "#Bonk"
-          ],
-          "ts": 1788446601000,
-          "time": "22:43:21",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231887",
-          "url": "https://t.me/jin10light/231887",
-          "title": "加密概念股涨势进一步扩大，Strategy、BitMine、Circle、Robinhood全线涨超10%",
-          "body": "#美股 #MSTR #COIN",
-          "tags": [
-            "#美股",
-            "#MSTR",
-            "#COIN"
-          ],
-          "ts": 1788446364000,
-          "time": "22:39:24",
-          "receivedAt": 1788458226404,
-          "receivedTime": true
-        },
-        {
-          "id": "231886",
-          "url": "https://t.me/jin10light/231886",
-          "title": "EIA天然气报告：截至8月28日当周，美国天然气库存总量为32140亿立方英尺，较此前一周增加300亿立方英尺，较去年同期减少500亿立方英尺，同比降幅1.5%，同时较5年均值高1600亿立方英尺，增幅5.2%。",
-          "body": "#美国 #天然气",
-          "tags": [
-            "#美国",
-            "#天然气"
-          ],
-          "ts": 1788445882000,
-          "time": "22:31:22",
-          "receivedAt": 1788458226613,
-          "receivedTime": true
-        },
-        {
-          "id": "231885",
-          "url": "https://t.me/jin10light/231885",
-          "title": "美国至8月28日当周EIA天然气库存 300亿立方英尺，预期310亿立方英尺，前值150亿立方英尺。",
-          "body": "#美国 #天然气",
-          "tags": [
-            "#美国",
-            "#天然气"
-          ],
-          "ts": 1788445822000,
-          "time": "22:30:22",
-          "receivedAt": 1788458226613,
-          "receivedTime": true
-        },
-        {
-          "id": "231884",
-          "url": "https://t.me/jin10light/231884",
-          "title": "Meme币MarsCoin市值突破1.2亿美元再创新高，24小时涨幅89%",
-          "body": "#MarsCoin #BNB Chain #BonkGuy",
-          "tags": [
-            "#MarsCoin",
-            "#BNB",
-            "#BonkGuy"
-          ],
-          "ts": 1788445584000,
-          "time": "22:26:24",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231883",
-          "url": "https://t.me/jin10light/231883",
-          "title": "美国至8月28日当周EIA天然气库存将于十分钟后公布。",
-          "body": "#美国 #EIA天然气库存",
-          "tags": [
-            "#美国",
-            "#EIA天然气库存"
-          ],
-          "ts": 1788445283000,
-          "time": "22:21:23",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231882",
-          "url": "https://t.me/jin10light/231882",
-          "title": "以太坊突破2500美元，24小时涨幅4.1%",
-          "body": "",
-          "tags": [],
-          "ts": 1788444867000,
-          "time": "22:14:27",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231881",
-          "url": "https://t.me/jin10light/231881",
-          "title": "「麻吉」再次开多HYPE，9900万美元ETH多单扭亏为盈",
-          "body": "#黄立成 #HYPE #ETH",
-          "tags": [
-            "#黄立成",
-            "#HYPE",
-            "#ETH"
-          ],
-          "ts": 1788444682000,
-          "time": "22:11:22",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231880",
-          "url": "https://t.me/jin10light/231880",
-          "title": "Abraxas Capital增持16,554枚ETH现货，价值约3,980万美元",
-          "body": "#ETH #Abraxas Capital #Hyperliquid",
-          "tags": [
-            "#ETH",
-            "#Abraxas",
-            "#Hyperliquid"
-          ],
-          "ts": 1788444444000,
-          "time": "22:07:24",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231879",
-          "url": "https://t.me/jin10light/231879",
-          "title": "市场消息：芯片制造商江波龙据悉在香港上市的定价为每股236港元。",
-          "body": "#江波龙 #港股",
-          "tags": [
-            "#江波龙",
-            "#港股"
-          ],
-          "ts": 1788444029000,
-          "time": "22:00:29",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231878",
-          "url": "https://t.me/jin10light/231878",
-          "title": "美国8月ISM非制造业PMI 55.4，预期54.2，前值54.1。",
-          "body": "#美国 #美联储",
-          "tags": [
-            "#美国",
-            "#美联储"
-          ],
-          "ts": 1788444029000,
-          "time": "22:00:29",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231877",
-          "url": "https://t.me/jin10light/231877",
-          "title": "特斯拉盘初涨超5%，Cybercab今晚正式发布，检验自动驾驶商业化进程",
-          "body": "#特斯拉 #TSLA #德克萨斯州",
-          "tags": [
-            "#特斯拉",
-            "#TSLA",
-            "#德克萨斯州"
-          ],
-          "ts": 1788444028000,
-          "time": "22:00:28",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231876",
-          "url": "https://t.me/jin10light/231876",
-          "title": "视频｜《富爸爸穷爸爸》作者：负债12亿美元，反而让我兴奋",
-          "body": "#Robert Kiyosaki #The Iced Coffee Hour",
-          "tags": [
-            "#Robert",
-            "#The"
-          ],
-          "ts": 1788444027000,
-          "time": "22:00:27",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231875",
-          "url": "https://t.me/jin10light/231875",
-          "title": "美股Robinhood盘初涨幅扩大至12.3%，股价创今年一月以来新高",
-          "body": "#Robinhood #美股 #美国",
-          "tags": [
-            "#Robinhood",
-            "#美股",
-            "#美国"
-          ],
-          "ts": 1788443722000,
-          "time": "21:55:22",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231874",
-          "url": "https://t.me/jin10light/231874",
-          "title": "美股开盘加密概念股大涨，Strategy、Coinbase、Circle全线涨超6%",
-          "body": "#美股 #MSTR #COIN",
-          "tags": [
-            "#美股",
-            "#MSTR",
-            "#COIN"
-          ],
-          "ts": 1788442703000,
-          "time": "21:38:23",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231873",
-          "url": "https://t.me/jin10light/231873",
-          "title": "美国8月标普全球服务业PMI终值 56.5，前值56.8。",
-          "body": "",
-          "tags": [],
-          "ts": 1788442585000,
-          "time": "21:36:25",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231872",
-          "url": "https://t.me/jin10light/231872",
-          "title": "美股三大股指高开，存储板块逆势普跌，西数跌5.1%",
-          "body": "#美股 #道指 #标普 500",
-          "tags": [
-            "#美股",
-            "#道指",
-            "#标普"
-          ],
-          "ts": 1788442464000,
-          "time": "21:34:24",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231871",
-          "url": "https://t.me/jin10light/231871",
-          "title": "美股开盘，道指涨0.59%，标普500指数涨0.4%，纳指涨0.45%。",
-          "body": "Snowflake(SNOW.N)开涨24%，Q2业绩超预期并上调全年指引。 博通(AVGO.O)跌超4%，公司Q4指引低于预期。 #美股 #Snowflake #博通",
-          "tags": [
-            "#美股",
-            "#Snowflake",
-            "#博通"
-          ],
-          "ts": 1788442282000,
-          "time": "21:31:22",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231870",
-          "url": "https://t.me/jin10light/231870",
-          "title": "Meme币microduck冲高回落跌破4000万美元市值",
-          "body": "#microduck #Hugging Face #NVIDIA",
-          "tags": [
-            "#microduck",
-            "#Hugging",
-            "#NVIDIA"
-          ],
-          "ts": 1788442161000,
-          "time": "21:29:21",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
-        },
-        {
-          "id": "231869",
-          "url": "https://t.me/jin10light/231869",
-          "title": "Eightco Holdings披露约3.8亿美元持仓，涵盖OpenAI股权、ETH以及WLD",
-          "body": "#Eightco Holdings #ETH #WLD",
-          "tags": [
-            "#Eightco",
-            "#ETH",
-            "#WLD"
-          ],
-          "ts": 1788442048000,
-          "time": "21:27:28",
-          "receivedAt": 1788445661417,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19265,6 +19233,17 @@
     "poly": {
       "channel": "PolyBeats_Bot",
       "items": [
+        {
+          "id": "1905",
+          "url": "https://t.me/PolyBeats_Bot/1905",
+          "title": "LAPTOP明天跌破$10m？！预测市场聪明钱极度看空LAPTOP",
+          "body": "15 分钟前， flawfence 在「 LAPTOP上线一天后 FDV 是否超过 1000 万美元 ？」投入 $1.2k「否」，导致「否」概率从 1.8% 涨至 51.0%。该账户总盈利 $505k，累计交易量 $23m，参与过 594 个市场。 LAPTOP 上线后价格快速回落，FDV 从最高 $300b 跌至目前约 $2b，跌幅 99.3%。",
+          "tags": [],
+          "ts": 1788964674000,
+          "time": "22:37:54",
+          "receivedAt": 1788966387668,
+          "receivedTime": true
+        },
         {
           "id": "1904",
           "url": "https://t.me/PolyBeats_Bot/1904",
@@ -20300,7 +20279,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
