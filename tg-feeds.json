@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-10T17:44:18.095Z",
+  "updatedAt": "2026-09-10T20:02:44.139Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7180",
+          "url": "https://t.me/BWEtradfi/7180",
+          "title": "DB: 标普500指数收盘下跌0.6%，纳斯达克指数下跌0.7%",
+          "body": "DB: *S&P 500 CLOSES DOWN 0.6%, NASDAQ DOWN 0.7%",
+          "tags": [],
+          "ts": 1789070412000,
+          "time": "04:00:12",
+          "receivedAt": 1789070551900,
+          "receivedTime": true
+        },
         {
           "id": "7179",
           "url": "https://t.me/BWEtradfi/7179",
@@ -1923,39 +1934,6 @@
           "time": "04:05:23",
           "receivedAt": 1787779079842,
           "receivedTime": true
-        },
-        {
-          "id": "7006",
-          "url": "https://t.me/BWEtradfi/7006",
-          "title": "*OKTA 第二季度调整后每股收益 1.05 美元，预期为 97 美分",
-          "body": "*OKTA 2Q ADJ EPS $1.05, EST. 97C *OKTA 2Q REV. $805M, EST. $792.8M *OKTA SEES 3Q ADJ EPS 92C TO 94C, EST. 94C $OKTA *OKTA 第二季度营收 8.05 亿美元，预期为 7.928 亿美元 *OKTA 预计第三季度调整后每股收益为 92 至 94 美分，预期为 94 美分 $OKTA",
-          "tags": [],
-          "ts": 1787774506000,
-          "time": "04:01:46",
-          "receivedAt": 1787779079842,
-          "receivedTime": true
-        },
-        {
-          "id": "7005",
-          "url": "https://t.me/BWEtradfi/7005",
-          "title": "*Salesforce预计第三季度调整后每股收益为3.42美元至3.44美元，此前预期为3.39美元",
-          "body": "*SALESFORCE SEES 3Q ADJ EPS $3.42 TO $3.44, EST. $3.39 *SALESFORCE 2Q ADJ. OPER INCOME $3.87B, EST. $3.81B *SALESFORCE 2Q ADJ EPS $5.90 VS. $2.91 Y/Y $CRM *Salesforce预计第二季度调整后营业收入为38.7亿美元，此前预期为38.1亿美元 *Salesforce预计第二季度调整后每股收益为5.90美元，去年同期为2.91美元 $CRM",
-          "tags": [],
-          "ts": 1787774473000,
-          "time": "04:01:13",
-          "receivedAt": 1787779079842,
-          "receivedTime": true
-        },
-        {
-          "id": "7004",
-          "url": "https://t.me/BWEtradfi/7004",
-          "title": "DB: 标普500指数收盘变动不大，纳斯达克指数下跌0.1%",
-          "body": "DB: *S&P 500 CLOSES LITTLE CHANGED, NASDAQ FALLS 0.1%",
-          "tags": [],
-          "ts": 1787774413000,
-          "time": "04:00:13",
-          "receivedAt": 1787779079842,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1963,6 +1941,158 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "233484",
+          "url": "https://t.me/jin10light/233484",
+          "title": "美财政部对美债回购“挑三拣四”，罕见未买满上限",
+          "body": "9月11日讯，在美国财长贝森特首次扩大规模的国债回购操作中，购入的长期限国债规模低于投资者预期，加剧了抛售潮，导致美长债收益率升至数年来的高位。 美国财政部周四回购了51.87亿美元10年至20年期国债，低于此前公布的60亿美元最高回购规模。 10年期美债收益率在此次操作后升至2023年以来最高水平。 投资者在此次操作中向财政部提交了总额105亿美元的债券出售报价。 尽管财政部并没有义务买入最高额度，但在2024年该计划重新推出以来的53次长债回购操作中，这已是第三次选择不买满最高额度。 道明证券策略师Molly Brooks表示，“这表明财政部的选择...",
+          "tags": [
+            "#美国",
+            "#美债",
+            "#财政部"
+          ],
+          "ts": 1789070141000,
+          "time": "03:55:41",
+          "receivedAt": 1789070552378,
+          "receivedTime": true
+        },
+        {
+          "id": "233483",
+          "url": "https://t.me/jin10light/233483",
+          "title": "美官员称伊朗石油装载量大幅下降",
+          "body": "9月11日讯，美国官员称，过去一周，海上运输的伊朗石油或疑似伊朗石油平均约为1.1亿桶，低于战前的1.8亿桶。 伊朗石油卸载量已从战前的140万桶/日降至90万桶/日。 过去30天，伊朗石油装载量约为20万桶/日，低于1月和2月的180万桶/日。 #美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1789065397000,
+          "time": "02:36:37",
+          "receivedAt": 1789070552378,
+          "receivedTime": true
+        },
+        {
+          "id": "233482",
+          "url": "https://t.me/jin10light/233482",
+          "title": "美国财政部网站发布新一轮伊朗相关制裁。",
+          "body": "#美国 #伊朗 #财政部",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#财政部"
+          ],
+          "ts": 1789065283000,
+          "time": "02:34:43",
+          "receivedAt": 1789070552378,
+          "receivedTime": true
+        },
+        {
+          "id": "233481",
+          "url": "https://t.me/jin10light/233481",
+          "title": "美国官员：过去一周，水上运输中的伊朗或疑似伊朗原油平均为1.1亿桶，而战争前为1.8亿桶。",
+          "body": "#美国 #伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1789065283000,
+          "time": "02:34:43",
+          "receivedAt": 1789070552378,
+          "receivedTime": true
+        },
+        {
+          "id": "233480",
+          "url": "https://t.me/jin10light/233480",
+          "title": "美国官员：伊朗石油卸货量降至每日90万桶，低于战争前的每日140万桶。",
+          "body": "",
+          "tags": [],
+          "ts": 1789065282000,
+          "time": "02:34:42",
+          "receivedAt": 1789070552378,
+          "receivedTime": true
+        },
+        {
+          "id": "233479",
+          "url": "https://t.me/jin10light/233479",
+          "title": "布伦特原油期货结算价为每桶107.63美元，上涨6.42美元，涨幅6.34%。",
+          "body": "",
+          "tags": [],
+          "ts": 1789065158000,
+          "time": "02:32:38",
+          "receivedAt": 1789070552378,
+          "receivedTime": true
+        },
+        {
+          "id": "233478",
+          "url": "https://t.me/jin10light/233478",
+          "title": "WTI原油期货突破103美元/桶，日内涨6.55%。",
+          "body": "布伦特原油日内暴涨6.00%，现报105.55美元/桶。 #WTI原油 #布伦特原油",
+          "tags": [
+            "#WTI原油",
+            "#布伦特原油"
+          ],
+          "ts": 1789064258000,
+          "time": "02:17:38",
+          "receivedAt": 1789070552378,
+          "receivedTime": true
+        },
+        {
+          "id": "233477",
+          "url": "https://t.me/jin10light/233477",
+          "title": "WTI原油期货日内暴涨6.00美元，现报102.67美元/桶，涨幅6.21%。",
+          "body": "#WTI原油 #美元",
+          "tags": [
+            "#WTI原油",
+            "#美元"
+          ],
+          "ts": 1789063959000,
+          "time": "02:12:39",
+          "receivedAt": 1789070552378,
+          "receivedTime": true
+        },
+        {
+          "id": "233476",
+          "url": "https://t.me/jin10light/233476",
+          "title": "现货白银日内大跌5.00%，现报63.88美元/盎司。",
+          "body": "#白银 #美元",
+          "tags": [
+            "#白银",
+            "#美元"
+          ],
+          "ts": 1789063837000,
+          "time": "02:10:37",
+          "receivedAt": 1789070552378,
+          "receivedTime": true
+        },
+        {
+          "id": "233475",
+          "url": "https://t.me/jin10light/233475",
+          "title": "美国国债收益率在国债回购后继续上涨；10年期国债收益率最新上升10.52个基点，报4.942%。",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1789063657000,
+          "time": "02:07:37",
+          "receivedAt": 1789070552378,
+          "receivedTime": true
+        },
+        {
+          "id": "233474",
+          "url": "https://t.me/jin10light/233474",
+          "title": "美国财政部：在9月10日进行了价值51.87亿美元的10至20年期美国国债流动性回购操作。",
+          "body": "#美国 #美国财政部 #美元",
+          "tags": [
+            "#美国",
+            "#美国财政部",
+            "#美元"
+          ],
+          "ts": 1789063601000,
+          "time": "02:06:41",
+          "receivedAt": 1789070552378,
+          "receivedTime": true
+        },
         {
           "id": "233473",
           "url": "https://t.me/jin10light/233473",
@@ -1996,12 +2126,9 @@
         {
           "id": "233471",
           "url": "https://t.me/jin10light/233471",
-          "title": "美国30年期国债拍卖收益率达到自2001年8月以来的最高水平。",
-          "body": "#美国 #美元",
-          "tags": [
-            "#美国",
-            "#美元"
-          ],
+          "title": "美国10年期国债收益率达到2023年10月以来的最高水平。",
+          "body": "",
+          "tags": [],
           "ts": 1789060788000,
           "time": "01:19:48",
           "receivedAt": 1789062242569,
@@ -19084,169 +19211,6 @@
           "ts": 1788659902000,
           "time": "09:58:22",
           "receivedAt": 1788671225184,
-          "receivedTime": true
-        },
-        {
-          "id": "232284",
-          "url": "https://t.me/jin10light/232284",
-          "title": "交易员Loracle加仓做空PONS浮亏约694万美元，主要空单合计亏损约2870万美元",
-          "body": "#PONS #HYPE #SNDK",
-          "tags": [
-            "#PONS",
-            "#HYPE",
-            "#SNDK"
-          ],
-          "ts": 1788658941000,
-          "time": "09:42:21",
-          "receivedAt": 1788671225390,
-          "receivedTime": true
-        },
-        {
-          "id": "232283",
-          "url": "https://t.me/jin10light/232283",
-          "title": "以太坊突破2500美元，24小时涨幅1.83%",
-          "body": "#ETH #HTX",
-          "tags": [
-            "#ETH",
-            "#HTX"
-          ],
-          "ts": 1788658642000,
-          "time": "09:37:22",
-          "receivedAt": 1788671225390,
-          "receivedTime": true
-        },
-        {
-          "id": "232282",
-          "url": "https://t.me/jin10light/232282",
-          "title": "中东局势追踪：美伊互袭对方油轮，霍尔木兹航运再遭冲击，美方研判战事或拖至11月中期选举",
-          "body": "#霍尔木兹海峡 #伊朗 #美国",
-          "tags": [
-            "#霍尔木兹海峡",
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1788658282000,
-          "time": "09:31:22",
-          "receivedAt": 1788671225390,
-          "receivedTime": true
-        },
-        {
-          "id": "232281",
-          "url": "https://t.me/jin10light/232281",
-          "title": "MARSCOIN市值突破2.65亿美元再创历史新高，24小时涨幅38.2%",
-          "body": "#MARSCOIN #BNB Chain #Binance",
-          "tags": [
-            "#MARSCOIN",
-            "#BNB",
-            "#Binance"
-          ],
-          "ts": 1788657801000,
-          "time": "09:23:21",
-          "receivedAt": 1788671225390,
-          "receivedTime": true
-        },
-        {
-          "id": "232280",
-          "url": "https://t.me/jin10light/232280",
-          "title": "Polymarket拟与NBA球星詹姆斯合作开展营销",
-          "body": "#Polymarket #勒布朗·詹姆斯 #NBA",
-          "tags": [
-            "#Polymarket",
-            "#勒布朗",
-            "#NBA"
-          ],
-          "ts": 1788657261000,
-          "time": "09:14:21",
-          "receivedAt": 1788671225390,
-          "receivedTime": true
-        },
-        {
-          "id": "232279",
-          "url": "https://t.me/jin10light/232279",
-          "title": "Bonk Guy：现在是BNB Chain的黄金季节，这一轮属于Robinhood与BNB Chain",
-          "body": "#BNB Chain #Binance #MARSCOIN",
-          "tags": [
-            "#BNB",
-            "#Binance",
-            "#MARSCOIN"
-          ],
-          "ts": 1788657142000,
-          "time": "09:12:22",
-          "receivedAt": 1788671225390,
-          "receivedTime": true
-        },
-        {
-          "id": "232278",
-          "url": "https://t.me/jin10light/232278",
-          "title": "Ansem喊单ZEC分红Meme代币ZCAT，其市值突破6900万美元续创新高",
-          "body": "#SOL #ZCAT #ZEC",
-          "tags": [
-            "#SOL",
-            "#ZCAT",
-            "#ZEC"
-          ],
-          "ts": 1788655822000,
-          "time": "08:50:22",
-          "receivedAt": 1788671225390,
-          "receivedTime": true
-        },
-        {
-          "id": "232277",
-          "url": "https://t.me/jin10light/232277",
-          "title": "据美国方面消息称，“凯洛”号油轮今日在阿曼湾沉没。",
-          "body": "#美国 #阿曼湾 #凯洛号",
-          "tags": [
-            "#美国",
-            "#阿曼湾",
-            "#凯洛号"
-          ],
-          "ts": 1788655401000,
-          "time": "08:43:21",
-          "receivedAt": 1788655504052,
-          "receivedTime": true
-        },
-        {
-          "id": "232276",
-          "url": "https://t.me/jin10light/232276",
-          "title": "Base联创：X账户被攻击并发布欺诈代币，提醒用户注意安全",
-          "body": "#Base #Jesse Pollak #BASEMEME",
-          "tags": [
-            "#Base",
-            "#Jesse",
-            "#BASEMEME"
-          ],
-          "ts": 1788655222000,
-          "time": "08:40:22",
-          "receivedAt": 1788655504052,
-          "receivedTime": true
-        },
-        {
-          "id": "232275",
-          "url": "https://t.me/jin10light/232275",
-          "title": "PONS今晨市值短时突破9.9亿美元，续创历史新高",
-          "body": "#PONS #Robinhood",
-          "tags": [
-            "#PONS",
-            "#Robinhood"
-          ],
-          "ts": 1788654862000,
-          "time": "08:34:22",
-          "receivedAt": 1788655504052,
-          "receivedTime": true
-        },
-        {
-          "id": "232274",
-          "url": "https://t.me/jin10light/232274",
-          "title": "Arthur Hayes买入24.4万枚UNI，价值约173万美元",
-          "body": "#Arthur Hayes #UNI #BitMEX",
-          "tags": [
-            "#Arthur",
-            "#UNI",
-            "#BitMEX"
-          ],
-          "ts": 1788654561000,
-          "time": "08:29:21",
-          "receivedAt": 1788655504052,
           "receivedTime": true
         }
       ],
