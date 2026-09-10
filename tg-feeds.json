@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-10T14:18:42.708Z",
+  "updatedAt": "2026-09-10T17:44:18.095Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7179",
+          "url": "https://t.me/BWEtradfi/7179",
+          "title": "DB: 美国原油库存减少39.1万桶；预期减少133.6万桶",
+          "body": "DB: *US CRUDE OIL INVENTORIES FELL 0.391M BARRELS; EST. -1.336M",
+          "tags": [],
+          "ts": 1789056016000,
+          "time": "00:00:16",
+          "receivedAt": 1789062242058,
+          "receivedTime": true
+        },
         {
           "id": "7178",
           "url": "https://t.me/BWEtradfi/7178",
@@ -1945,39 +1956,6 @@
           "time": "04:00:13",
           "receivedAt": 1787779079842,
           "receivedTime": true
-        },
-        {
-          "id": "7003",
-          "url": "https://t.me/BWEtradfi/7003",
-          "title": "据称普京计划升级乌克兰局势，认为会谈无果",
-          "body": "*PUTIN SAID TO PLAN UKRAINE ESCALATION, SEEING TALKS FRUITLESS",
-          "tags": [],
-          "ts": 1787759600000,
-          "time": "23:53:20",
-          "receivedAt": 1787760395660,
-          "receivedTime": true
-        },
-        {
-          "id": "7002",
-          "url": "https://t.me/BWEtradfi/7002",
-          "title": "*摩根大通近期评估了发行自有稳定币的可能性：华尔街日报",
-          "body": "*JPMORGAN CHASE RECENTLY EVALUATED PURSUING ITS OWN STABLECOIN: WSJ *BANKS MOVING FORWARD WITH GLOBAL STABLECOIN CONSORTIUM: WSJ *STABLECOIN CONSORTIUM INCLUDES BANK OF AMERICA, WELLS FARGO, SANTANDER: WSJ $CRCL *多家银行正积极推进全球稳定币联盟：华尔街日报 *稳定币联盟成员包括美国银行、富国银行和桑坦德银行：华尔街日报 $CRCL",
-          "tags": [],
-          "ts": 1787756384000,
-          "time": "22:59:44",
-          "receivedAt": 1787760395660,
-          "receivedTime": true
-        },
-        {
-          "id": "7001",
-          "url": "https://t.me/BWEtradfi/7001",
-          "title": "DB: 美国原油库存增加9.5万桶；预期增加59.7万桶",
-          "body": "DB: *US CRUDE OIL INVENTORIES ROSE 0.095M BARRELS; EST. +0.597M",
-          "tags": [],
-          "ts": 1787754613000,
-          "time": "22:30:13",
-          "receivedAt": 1787755990192,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1985,6 +1963,419 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "233473",
+          "url": "https://t.me/jin10light/233473",
+          "title": "Hyperliquid上线2倍做多闪迪ETF SNXX合约",
+          "body": "#Hyperliquid #SNXX #SNDK",
+          "tags": [
+            "#Hyperliquid",
+            "#SNXX",
+            "#SNDK"
+          ],
+          "ts": 1789061319000,
+          "time": "01:28:39",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233472",
+          "url": "https://t.me/jin10light/233472",
+          "title": "trade.xyz推出事件合约正式进军预测市场领域",
+          "body": "#trade .xyz #BTC #USDC",
+          "tags": [
+            "#trade",
+            "#BTC",
+            "#USDC"
+          ],
+          "ts": 1789060838000,
+          "time": "01:20:38",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233471",
+          "url": "https://t.me/jin10light/233471",
+          "title": "美国30年期国债拍卖收益率达到自2001年8月以来的最高水平。",
+          "body": "#美国 #美元",
+          "tags": [
+            "#美国",
+            "#美元"
+          ],
+          "ts": 1789060788000,
+          "time": "01:19:48",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233470",
+          "url": "https://t.me/jin10light/233470",
+          "title": "黄仁勋：网络安全是AI的下一个重要应用场景",
+          "body": "#英伟达 #黄仁勋 #Anthropic",
+          "tags": [
+            "#英伟达",
+            "#黄仁勋",
+            "#Anthropic"
+          ],
+          "ts": 1789058679000,
+          "time": "00:44:39",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233469",
+          "url": "https://t.me/jin10light/233469",
+          "title": "据华尔街日报：美国和中东地区知情官员称，伊朗已利用库存零部件并在地下设施中恢复弹道导弹生产，削弱了美国和以色列此前宣称的战争主要成果。",
+          "body": "#美国 #伊朗 #以色列",
+          "tags": [
+            "#美国",
+            "#伊朗",
+            "#以色列"
+          ],
+          "ts": 1789058319000,
+          "time": "00:38:39",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233468",
+          "url": "https://t.me/jin10light/233468",
+          "title": "美国能源信息署（EIA）：美国最新一周原油国内生产创下历史新高。",
+          "body": "#美国 #原油",
+          "tags": [
+            "#美国",
+            "#原油"
+          ],
+          "ts": 1789057059000,
+          "time": "00:17:39",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233467",
+          "url": "https://t.me/jin10light/233467",
+          "title": "1. 美国至9月4日当周国内原油产量增幅录得2026年6月5日当周以来最大，为连续第6周录得增加。",
+          "body": "2. 美国至9月4日当周EIA精炼油库存增幅录得2026年7月10日当周以来最大。 3. 美国至9月4日当周EIA战略石油储备库存为1982年11月5日当周以来最低。 4. 美国至9月4日当周EIA汽油库存增幅录得2026年6月19日当周以来最大。",
+          "tags": [],
+          "ts": 1789056219000,
+          "time": "00:03:39",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233466",
+          "url": "https://t.me/jin10light/233466",
+          "title": "某巨鲸重仓做多美油、布油浮盈329万美元，均为Hyperliquid上单标的第一大多头",
+          "body": "#WTI原油 #布伦特原油 #BTC",
+          "tags": [
+            "#WTI原油",
+            "#布伦特原油",
+            "#BTC"
+          ],
+          "ts": 1789056158000,
+          "time": "00:02:38",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233465",
+          "url": "https://t.me/jin10light/233465",
+          "title": "美国至9月4日当周EIA原油库存 -39.1万桶，预期-155.4万桶，前值-445万桶。",
+          "body": "#美国 #EIA原油库存",
+          "tags": [
+            "#美国",
+            "#EIA原油库存"
+          ],
+          "ts": 1789056040000,
+          "time": "00:00:40",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233464",
+          "url": "https://t.me/jin10light/233464",
+          "title": "美国至9月4日当周EIA战略石油储备库存 -124.4万桶，前值-312.2万桶。",
+          "body": "",
+          "tags": [],
+          "ts": 1789056039000,
+          "time": "00:00:39",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233463",
+          "url": "https://t.me/jin10light/233463",
+          "title": "美国今年通过AI安全法案的概率翻倍至30%",
+          "body": "#美国",
+          "tags": [
+            "#美国"
+          ],
+          "ts": 1789055799000,
+          "time": "23:56:39",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233462",
+          "url": "https://t.me/jin10light/233462",
+          "title": "美国至9月4日当周EIA原油库存、库欣原油库存、战略石油储备库存将于十分钟后公布。",
+          "body": "#美国 #EIA #原油库存",
+          "tags": [
+            "#美国",
+            "#EIA",
+            "#原油库存"
+          ],
+          "ts": 1789055499000,
+          "time": "23:51:39",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233461",
+          "url": "https://t.me/jin10light/233461",
+          "title": "破产加密ATM运营商Bitcoin Depot约四分之一设备被低价收购",
+          "body": "#Bitcoin Depot #BTC #Bitcoin Bancorp",
+          "tags": [
+            "#Bitcoin",
+            "#BTC"
+          ],
+          "ts": 1789054960000,
+          "time": "23:42:40",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233460",
+          "url": "https://t.me/jin10light/233460",
+          "title": "欧洲央行官员预计在10月将进一步收紧政策。",
+          "body": "#欧洲央行 #欧洲",
+          "tags": [
+            "#欧洲央行",
+            "#欧洲"
+          ],
+          "ts": 1789053342000,
+          "time": "23:15:42",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233459",
+          "url": "https://t.me/jin10light/233459",
+          "title": "Uniswap Labs推出专为稳定币交易对设计的「StablePair Hook」",
+          "body": "#Uniswap Labs #USDC #USDT",
+          "tags": [
+            "#Uniswap",
+            "#USDC",
+            "#USDT"
+          ],
+          "ts": 1789053164000,
+          "time": "23:12:44",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233458",
+          "url": "https://t.me/jin10light/233458",
+          "title": "美国财政部确认今日长债回购金额最高为60亿美元。",
+          "body": "#美国 #美元",
+          "tags": [
+            "#美国",
+            "#美元"
+          ],
+          "ts": 1789052621000,
+          "time": "23:03:41",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233457",
+          "url": "https://t.me/jin10light/233457",
+          "title": "截至23:00收盘，国内期货主力合约涨多跌少，燃料油、低硫燃料油（LU）涨超3%，玻璃涨超2%，沥青、纯苯、豆粕、豆二、塑料月均涨超1%。",
+          "body": "跌幅方面，铁矿石、20号胶跌超1%，橡胶跌近1%。 #燃料油 #低硫燃料油 #玻璃",
+          "tags": [
+            "#燃料油",
+            "#低硫燃料油",
+            "#玻璃"
+          ],
+          "ts": 1789052501000,
+          "time": "23:01:41",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233456",
+          "url": "https://t.me/jin10light/233456",
+          "title": "Hyperliquid最大多头2.33亿美元多单由盈转亏，当前浮亏339万美元",
+          "body": "#Hyperliquid #BTC #ETH",
+          "tags": [
+            "#Hyperliquid",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1789052383000,
+          "time": "22:59:43",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233455",
+          "url": "https://t.me/jin10light/233455",
+          "title": "数据：加密市场头部资产集中度回升至2021年水平，比特币占比达66.6%",
+          "body": "#BTC #加密货币",
+          "tags": [
+            "#BTC",
+            "#加密货币"
+          ],
+          "ts": 1789052020000,
+          "time": "22:53:40",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233454",
+          "url": "https://t.me/jin10light/233454",
+          "title": "柴油期货价格自2022年以来首次突破每加仑5美元。",
+          "body": "#柴油期货 #美国",
+          "tags": [
+            "#柴油期货",
+            "#美国"
+          ],
+          "ts": 1789051420000,
+          "time": "22:43:40",
+          "receivedAt": 1789062242569,
+          "receivedTime": true
+        },
+        {
+          "id": "233453",
+          "url": "https://t.me/jin10light/233453",
+          "title": "也门胡塞武装控制的人道主义行动协调中心表示，红海航行对所有航运公司来说都是安全的，但沙特船只除外。",
+          "body": "#也门 #胡塞武装 #红海",
+          "tags": [
+            "#也门",
+            "#胡塞武装",
+            "#红海"
+          ],
+          "ts": 1789051357000,
+          "time": "22:42:37",
+          "receivedAt": 1789062242792,
+          "receivedTime": true
+        },
+        {
+          "id": "233452",
+          "url": "https://t.me/jin10light/233452",
+          "title": "OpenCover将扩展至Solana，首批覆盖Kamino、Raydium等四大协议",
+          "body": "#SOL #OpenCover #Nexus Mutual",
+          "tags": [
+            "#SOL",
+            "#OpenCover",
+            "#Nexus"
+          ],
+          "ts": 1789051308000,
+          "time": "22:41:48",
+          "receivedAt": 1789062242792,
+          "receivedTime": true
+        },
+        {
+          "id": "233451",
+          "url": "https://t.me/jin10light/233451",
+          "title": "美国银行在Stellar发行自有稳定币USBDC，并完成跨境支付测试",
+          "body": "#美国银行 #USBDC #Stellar",
+          "tags": [
+            "#美国银行",
+            "#USBDC",
+            "#Stellar"
+          ],
+          "ts": 1789051063000,
+          "time": "22:37:43",
+          "receivedAt": 1789062242792,
+          "receivedTime": true
+        },
+        {
+          "id": "233450",
+          "url": "https://t.me/jin10light/233450",
+          "title": "美国至9月4日当周EIA天然气库存 400亿立方英尺，预期310亿立方英尺，前值300亿立方英尺。",
+          "body": "#美国 #天然气",
+          "tags": [
+            "#美国",
+            "#天然气"
+          ],
+          "ts": 1789050643000,
+          "time": "22:30:43",
+          "receivedAt": 1789062242792,
+          "receivedTime": true
+        },
+        {
+          "id": "233449",
+          "url": "https://t.me/jin10light/233449",
+          "title": "EIA天然气报告：截至9月4日当周，美国天然气库存总量为32540亿立方英尺，较此前一周增加400亿立方英尺，较去年同期减少790亿立方英尺，同比降幅2.4%，同时较5年均值高1480亿立方英尺，增幅4.8%。",
+          "body": "#美国 #天然气",
+          "tags": [
+            "#美国",
+            "#天然气"
+          ],
+          "ts": 1789050643000,
+          "time": "22:30:43",
+          "receivedAt": 1789062242792,
+          "receivedTime": true
+        },
+        {
+          "id": "233448",
+          "url": "https://t.me/jin10light/233448",
+          "title": "也门胡塞武装发言人：红海和曼德海峡的航行自由及国际贸易仍然安全畅通、不受阻碍。",
+          "body": "#也门 #胡塞武装 #红海",
+          "tags": [
+            "#也门",
+            "#胡塞武装",
+            "#红海"
+          ],
+          "ts": 1789050399000,
+          "time": "22:26:39",
+          "receivedAt": 1789062242792,
+          "receivedTime": true
+        },
+        {
+          "id": "233447",
+          "url": "https://t.me/jin10light/233447",
+          "title": "也门胡塞武装发言人：当前行动仅限于特定目标，且为防御性。",
+          "body": "#也门 #胡塞武装",
+          "tags": [
+            "#也门",
+            "#胡塞武装"
+          ],
+          "ts": 1789050399000,
+          "time": "22:26:39",
+          "receivedAt": 1789062242792,
+          "receivedTime": true
+        },
+        {
+          "id": "233446",
+          "url": "https://t.me/jin10light/233446",
+          "title": "美国至9月4日当周EIA天然气库存将于十分钟后公布。",
+          "body": "#美国 #EIA #天然气",
+          "tags": [
+            "#美国",
+            "#EIA",
+            "#天然气"
+          ],
+          "ts": 1789050101000,
+          "time": "22:21:41",
+          "receivedAt": 1789062242792,
+          "receivedTime": true
+        },
+        {
+          "id": "233445",
+          "url": "https://t.me/jin10light/233445",
+          "title": "美国两年期国债收益率日内上升10个基点，达到4.53%。",
+          "body": "#美国 #美元",
+          "tags": [
+            "#美国",
+            "#美元"
+          ],
+          "ts": 1789050100000,
+          "time": "22:21:40",
+          "receivedAt": 1789062242792,
+          "receivedTime": true
+        },
         {
           "id": "233444",
           "url": "https://t.me/jin10light/233444",
@@ -18857,427 +19248,6 @@
           "time": "08:29:21",
           "receivedAt": 1788655504052,
           "receivedTime": true
-        },
-        {
-          "id": "232273",
-          "url": "https://t.me/jin10light/232273",
-          "title": "国内新闻ï",
-          "body": "1.尼泊尔泥石流灾害中1名受困中国公民获救。 2. 8月中国物流需求保持扩张，景气水平进一步提升。 3. 小米发布结构化数据大模型Xiaomi-TabLDM。 4. 第32次APEC中小企业部长会议发布广州倡议。 5. 两部门针对福建提升国家自然灾害救助应急响应级别至三级。 6. 国家发展改革委紧急安排2000万元支持江西暴雨洪涝灾害灾后应急恢复。 国际新闻ï 1.法国国家黄金储备全部归集至本土。 2. 美媒：美国共和党人对经济信心骤降。 3. 菲律宾副总统莎拉缴纳保释金，法院解除逮捕令。 4. 韩国2026年迄今出口额达7094亿美元，创下历史纪录。...",
-          "tags": [
-            "#中国",
-            "#尼泊尔",
-            "#福建"
-          ],
-          "ts": 1788654264000,
-          "time": "08:24:24",
-          "receivedAt": 1788655504052,
-          "receivedTime": true
-        },
-        {
-          "id": "232272",
-          "url": "https://t.me/jin10light/232272",
-          "title": "俄罗斯总统助理乌沙科夫：普京已准备同美方开展合作，寻求外交途径解决俄乌问题。",
-          "body": "#俄罗斯 #普京 #美国",
-          "tags": [
-            "#俄罗斯",
-            "#普京",
-            "#美国"
-          ],
-          "ts": 1788646042000,
-          "time": "06:07:22",
-          "receivedAt": 1788649208719,
-          "receivedTime": true
-        },
-        {
-          "id": "232271",
-          "url": "https://t.me/jin10light/232271",
-          "title": "俄罗斯总统助理乌沙科夫：已就和平解决制定了一系列方案。",
-          "body": "#俄罗斯 #乌沙科夫",
-          "tags": [
-            "#俄罗斯",
-            "#乌沙科夫"
-          ],
-          "ts": 1788643820000,
-          "time": "05:30:20",
-          "receivedAt": 1788649208719,
-          "receivedTime": true
-        },
-        {
-          "id": "232270",
-          "url": "https://t.me/jin10light/232270",
-          "title": "俄罗斯总统助理乌沙科夫：会谈富有成效。",
-          "body": "#俄罗斯 #乌沙科夫",
-          "tags": [
-            "#俄罗斯",
-            "#乌沙科夫"
-          ],
-          "ts": 1788643702000,
-          "time": "05:28:22",
-          "receivedAt": 1788649208719,
-          "receivedTime": true
-        },
-        {
-          "id": "232269",
-          "url": "https://t.me/jin10light/232269",
-          "title": "观点：比特币年度涨幅往往集中在少数交易日，长期持有或优于择时交易",
-          "body": "#BTC #Bitwise #Tesseract Group",
-          "tags": [
-            "#BTC",
-            "#Bitwise",
-            "#Tesseract"
-          ],
-          "ts": 1788638480000,
-          "time": "04:01:20",
-          "receivedAt": 1788643289143,
-          "receivedTime": true
-        },
-        {
-          "id": "232268",
-          "url": "https://t.me/jin10light/232268",
-          "title": "特朗普政府全面施压沃什，美联储9月加息前独立性再受考验",
-          "body": "#美国 #特朗普 #美联储",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#美联储"
-          ],
-          "ts": 1788638424000,
-          "time": "04:00:24",
-          "receivedAt": 1788643289143,
-          "receivedTime": true
-        },
-        {
-          "id": "232267",
-          "url": "https://t.me/jin10light/232267",
-          "title": "伊朗革命卫队海军：已对三艘沿未经授权航线通过霍尔木兹海峡的船只进行了打击。",
-          "body": "#伊朗 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1788637342000,
-          "time": "03:42:22",
-          "receivedAt": 1788643289143,
-          "receivedTime": true
-        },
-        {
-          "id": "232266",
-          "url": "https://t.me/jin10light/232266",
-          "title": "据伊朗国家媒体：伊朗军方指挥官警告称，如果华盛顿继续实施海上封锁，伊朗将加大对该地区美国军舰的打击力度。",
-          "body": "#伊朗 #美国 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#美国",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1788629663000,
-          "time": "01:34:23",
-          "receivedAt": 1788636036013,
-          "receivedTime": true
-        },
-        {
-          "id": "232265",
-          "url": "https://t.me/jin10light/232265",
-          "title": "克里姆林宫：俄罗斯总统普京开始与美国总统特使威特科夫、特朗普女婿库什纳会晤。",
-          "body": "#俄罗斯 #美国 #普京",
-          "tags": [
-            "#俄罗斯",
-            "#美国",
-            "#普京"
-          ],
-          "ts": 1788627625000,
-          "time": "01:00:25",
-          "receivedAt": 1788629439304,
-          "receivedTime": true
-        },
-        {
-          "id": "232264",
-          "url": "https://t.me/jin10light/232264",
-          "title": "美联储9月加息25个基点概率暂报59.4%",
-          "body": "#美联储 #美国",
-          "tags": [
-            "#美联储",
-            "#美国"
-          ],
-          "ts": 1788624745000,
-          "time": "00:12:25",
-          "receivedAt": 1788629439304,
-          "receivedTime": true
-        },
-        {
-          "id": "232263",
-          "url": "https://t.me/jin10light/232263",
-          "title": "本周美国比特币现货ETF累计净流入9.867亿美元",
-          "body": "#美国 #BTC #ETH",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1788623962000,
-          "time": "23:59:22",
-          "receivedAt": 1788629439304,
-          "receivedTime": true
-        },
-        {
-          "id": "232262",
-          "url": "https://t.me/jin10light/232262",
-          "title": "CZ：吉尔吉斯斯坦已建立加密监管框架，稳定币KGST开始流通",
-          "body": "#Binance #CZ #吉尔吉斯斯坦",
-          "tags": [
-            "#Binance",
-            "#CZ",
-            "#吉尔吉斯斯坦"
-          ],
-          "ts": 1788623544000,
-          "time": "23:52:24",
-          "receivedAt": 1788629439304,
-          "receivedTime": true
-        },
-        {
-          "id": "232261",
-          "url": "https://t.me/jin10light/232261",
-          "title": "Muse Spark 1.3 Max正式开放：最强推理档终于能用了",
-          "body": "#Meta #Muse Spark 1.3 Max #Alexandr Wang",
-          "tags": [
-            "#Meta",
-            "#Muse",
-            "#Alexandr"
-          ],
-          "ts": 1788623302000,
-          "time": "23:48:22",
-          "receivedAt": 1788629439304,
-          "receivedTime": true
-        },
-        {
-          "id": "232260",
-          "url": "https://t.me/jin10light/232260",
-          "title": "XDOF亮相三个月即冲刺B轮融资，估值达12亿美元",
-          "body": "#XDOF #8VC",
-          "tags": [
-            "#XDOF",
-            "#8VC"
-          ],
-          "ts": 1788622827000,
-          "time": "23:40:27",
-          "receivedAt": 1788629439304,
-          "receivedTime": true
-        },
-        {
-          "id": "232259",
-          "url": "https://t.me/jin10light/232259",
-          "title": "国内新闻ï",
-          "body": "1.尼泊尔泥石流灾害中1名受困中国公民获救。 2. 小米发布结构化数据大模型Xiaomi-TabLDM。 3. 8月中国物流需求保持扩张，景气水平进一步提升。 4. 两部门针对福建提升国家自然灾害救助应急响应级别至三级。 5. 国家发展改革委紧急安排2000万元支持江西暴雨洪涝灾害灾后应急恢复。 国际新闻ï 1.法国国家黄金储备全部归集至本土。 2. 美媒：美国共和党人对经济信心骤降。 3. 韩国2026年迄今出口额达7094亿美元，创下历史纪录。 4. 扎波罗热核电站周边实施临时停火，以抢修外部供电线路。 5. 消息人士：美国白宫已对接替美国国防部副...",
-          "tags": [
-            "#中国",
-            "#尼泊尔",
-            "#小米"
-          ],
-          "ts": 1788620904000,
-          "time": "23:08:24",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232258",
-          "url": "https://t.me/jin10light/232258",
-          "title": "BNB大涨带动生态Meme币普涨，币安人生24小时涨超17%",
-          "body": "#BNB #MARSCOIN #1000CAT",
-          "tags": [
-            "#BNB",
-            "#MARSCOIN",
-            "#1000CAT"
-          ],
-          "ts": 1788620727000,
-          "time": "23:05:27",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232257",
-          "url": "https://t.me/jin10light/232257",
-          "title": "BNB上涨触及770美元，24小时涨超8%",
-          "body": "#BNB #HTX",
-          "tags": [
-            "#BNB",
-            "#HTX"
-          ],
-          "ts": 1788620304000,
-          "time": "22:58:24",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232256",
-          "url": "https://t.me/jin10light/232256",
-          "title": "分析：比特币OG持币者加速转移筹码，链上活动显著增多",
-          "body": "#BTC #CryptoQuant",
-          "tags": [
-            "#BTC",
-            "#CryptoQuant"
-          ],
-          "ts": 1788619523000,
-          "time": "22:45:23",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232255",
-          "url": "https://t.me/jin10light/232255",
-          "title": "Robinhood Chain过去24小时DEX交易额登顶榜首",
-          "body": "#Robinhood Chain #Solana #BNB Chain",
-          "tags": [
-            "#Robinhood",
-            "#Solana",
-            "#BNB"
-          ],
-          "ts": 1788618390000,
-          "time": "22:26:30",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232254",
-          "url": "https://t.me/jin10light/232254",
-          "title": "Meme币Basecat市值触及7000万美元，创历史新高",
-          "body": "#Basecat #Base #Coinbase",
-          "tags": [
-            "#Basecat",
-            "#Base",
-            "#Coinbase"
-          ],
-          "ts": 1788616643000,
-          "time": "21:57:23",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232253",
-          "url": "https://t.me/jin10light/232253",
-          "title": "美国中央司令部：美军击沉三艘伊朗革命卫队油轮",
-          "body": "",
-          "tags": [],
-          "ts": 1788615984000,
-          "time": "21:46:24",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232252",
-          "url": "https://t.me/jin10light/232252",
-          "title": "Trade.XYZ于Hyperliquid上部署其HIP-4 DEX",
-          "body": "#Trade .XYZ #Hyperliquid #DEX",
-          "tags": [
-            "#Trade",
-            "#Hyperliquid",
-            "#DEX"
-          ],
-          "ts": 1788614964000,
-          "time": "21:29:24",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232251",
-          "url": "https://t.me/jin10light/232251",
-          "title": "交易员Loracle持续加仓PONS空单，单币浮亏580万美元",
-          "body": "#PONS #Hyperliquid",
-          "tags": [
-            "#PONS",
-            "#Hyperliquid"
-          ],
-          "ts": 1788614365000,
-          "time": "21:19:25",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232250",
-          "url": "https://t.me/jin10light/232250",
-          "title": "Bonk Guy再次喊单USELESS：可能是本周期的DOGE/PEPE级机会",
-          "body": "#Bonk Guy #USELESS #DOGE",
-          "tags": [
-            "#Bonk",
-            "#USELESS",
-            "#DOGE"
-          ],
-          "ts": 1788613584000,
-          "time": "21:06:24",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232249",
-          "url": "https://t.me/jin10light/232249",
-          "title": "GPT-6 Astra支持无损换挡：长对话切思考强度不再打掉缓存",
-          "body": "#OpenAI #GPT -6 Astra",
-          "tags": [
-            "#OpenAI",
-            "#GPT"
-          ],
-          "ts": 1788613164000,
-          "time": "20:59:24",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232248",
-          "url": "https://t.me/jin10light/232248",
-          "title": "下周宏观展望：美联储进入静默期，8月CPI领衔登场，甲骨文周四盘后发布财报",
-          "body": "#美联储 #欧洲央行 #苹果公司",
-          "tags": [
-            "#美联储",
-            "#欧洲央行",
-            "#苹果公司"
-          ],
-          "ts": 1788612684000,
-          "time": "20:51:24",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232247",
-          "url": "https://t.me/jin10light/232247",
-          "title": "Bitget已上线U本位DGAI永续合约",
-          "body": "#Bitget #DGAI",
-          "tags": [
-            "#Bitget",
-            "#DGAI"
-          ],
-          "ts": 1788612143000,
-          "time": "20:42:23",
-          "receivedAt": 1788622231332,
-          "receivedTime": true
-        },
-        {
-          "id": "232246",
-          "url": "https://t.me/jin10light/232246",
-          "title": "HyperCore主网上线手动借贷功能",
-          "body": "#Hyperliquid #Jeff Yan #HyperCore",
-          "tags": [
-            "#Hyperliquid",
-            "#Jeff",
-            "#HyperCore"
-          ],
-          "ts": 1788610701000,
-          "time": "20:18:21",
-          "receivedAt": 1788611871287,
-          "receivedTime": true
-        },
-        {
-          "id": "232245",
-          "url": "https://t.me/jin10light/232245",
-          "title": "「麻吉」：支持Friend.tech在Robinhood链上重启，收购提议或被Paradigm阻止",
-          "body": "#黄立成 #Friend .tech #Paradigm",
-          "tags": [
-            "#黄立成",
-            "#Friend",
-            "#Paradigm"
-          ],
-          "ts": 1788610405000,
-          "time": "20:13:25",
-          "receivedAt": 1788611871287,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20309,7 +20279,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
