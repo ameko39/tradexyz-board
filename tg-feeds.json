@@ -1,11 +1,69 @@
 {
-  "updatedAt": "2026-09-09T23:10:12.542Z",
+  "updatedAt": "2026-09-10T01:02:21.884Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7170",
+          "url": "https://t.me/BWEtradfi/7170",
+          "title": "*《纽约时报》报道：英伟达因涉嫌规避反垄断审查，面临美国司法部对其收购GROQ交易的调查",
+          "body": "*NVIDIA FACES A DOJ INVESTIGATION OVER WHETHER IT SKIRTED ANTITRUST SCRUTINY ON ITS GROQ DEAL: NYT *DOJ MAY FINE NVIDIA IF IT FINDS FAULT WITH THE DEAL'S STRUCTURE, BUT WON'T UNWIND IT $NVDA *如果司法部发现该交易结构存在问题，可能会对英伟达处以罚款，但不会撤销该交易 $NVDA",
+          "tags": [],
+          "ts": 1788999849000,
+          "time": "08:24:09",
+          "receivedAt": 1789002126635,
+          "receivedTime": true
+        },
+        {
+          "id": "7169",
+          "url": "https://t.me/BWEtradfi/7169",
+          "title": "*NVIDIA 与澳大利亚运营商合作，计划在 2027 年前建成高达 2GW 的 AI 数据中心",
+          "body": "*NVIDIA PARTNERS WITH AUSTRALIAN OPERATORS FOR UP TO 2-GW AI BUILDOUT BY 2027 *NVIDIA PARTNERS INCLUDE IREN, NEXTDC, MEGAPORT, AIRTRUNK ON DSX AI FACTORIES #NVDA • #IREN *NVIDIA 合作伙伴包括 IREN、NEXTDC、MEGAPORT 和 AIRTUNK，共同打造 DSX AI 工厂 #NVDA • #IREN",
+          "tags": [
+            "#NVDA",
+            "#IREN"
+          ],
+          "ts": 1788998460000,
+          "time": "08:01:00",
+          "receivedAt": 1789002126635,
+          "receivedTime": true
+        },
+        {
+          "id": "7168",
+          "url": "https://t.me/BWEtradfi/7168",
+          "title": "*特朗普政府计划向100万奥巴马医改参保者发放500美元的退款支票",
+          "body": "*TRUMP ADMINISTRATION PLANS TO SEND $500 REBATE CHECKS TO 1 MILLION OBAMACARE ENROLLEES *PAYMENTS TOTALING $500 MILLION WILL BE DISTRIBUTED ACROSS 30 STATES BEFORE THE NOVEMBER 3 MIDTERM ELECTION *总额达5亿美元的款项将在11月3日中期选举前发放至30个州。",
+          "tags": [],
+          "ts": 1788996679000,
+          "time": "07:31:19",
+          "receivedAt": 1789002126635,
+          "receivedTime": true
+        },
+        {
+          "id": "7167",
+          "url": "https://t.me/BWEtradfi/7167",
+          "title": "*OPENAI正式支持四项即将提交加州州长纽森审议的加州人工智能法案，其中包括SB 813法案",
+          "body": "*OPENAI FORMALLY ENDORSED FOUR NEW CALIFORNIA AI BILLS HEADED TO GOVERNOR NEWSOM, INCLUDING SB 813 *OPENAI CALLS ON CONGRESS TO ENACT MANDATORY NATIONAL AI SAFETY RULES *OPENAI SAYS PREPARED TO SLOW OR HALT MODEL DEVELOPMENT OVER UNACCEPTABLE RISKS *OPENAI PUSHES FOR GLOBAL… *OPENAI呼吁国会制定强制性国家人工智能安...",
+          "tags": [],
+          "ts": 1788996633000,
+          "time": "07:30:33",
+          "receivedAt": 1789002126635,
+          "receivedTime": true
+        },
+        {
+          "id": "7166",
+          "url": "https://t.me/BWEtradfi/7166",
+          "title": "*人类学研究员雅各布·考克森因人工智能安全问题在股权归属前辞职",
+          "body": "*ANTHROPIC RESEARCHER JACOB COXON RESIGNED OVER AI SAFETY CONCERNS BEFORE HIS EQUITY VESTED *COXON FORFEITED HIS ANTHROPIC EQUITY BY LEAVING JUST TWO MONTHS BEFORE THE SIX-MONTH VESTING PERIOD *考克森在六个月股权归属期开始前仅两个月离职，因此丧失了其在人类学领域的股权。",
+          "tags": [],
+          "ts": 1788995688000,
+          "time": "07:14:48",
+          "receivedAt": 1789002126635,
+          "receivedTime": true
+        },
         {
           "id": "7165",
           "url": "https://t.me/BWEtradfi/7165",
@@ -1887,24 +1945,251 @@
           "time": "20:30:18",
           "receivedAt": 1787749841016,
           "receivedTime": true
-        },
-        {
-          "id": "6995",
-          "url": "https://t.me/BWEtradfi/6995",
-          "title": "OpenAI 销售高管 Peter Doolan 将重返 Salesforce：The Information",
-          "body": "*OPENAI SALES EXEC PETER DOOLAN TO RETURN TO SALESFORCE: THE INFORMATION",
-          "tags": [],
-          "ts": 1787703765000,
-          "time": "08:22:45",
-          "receivedAt": 1787705097725,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "233186",
+          "url": "https://t.me/jin10light/233186",
+          "title": "Bonk Guy投资组合24小时回撤347万美元，维持重仓PONS、USELESS与MarsCoin",
+          "body": "#Bonk Guy #PONS #USELESS",
+          "tags": [
+            "#Bonk",
+            "#PONS",
+            "#USELESS"
+          ],
+          "ts": 1789002102000,
+          "time": "09:01:42",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233185",
+          "url": "https://t.me/jin10light/233185",
+          "title": "视频｜Arthur Hayes：本轮比特币不会一路暴涨，而是横盘震荡、再靠政策消息急涨",
+          "body": "#Arthur Hayes #BTC #美国",
+          "tags": [
+            "#Arthur",
+            "#BTC",
+            "#美国"
+          ],
+          "ts": 1789002101000,
+          "time": "09:01:41",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233184",
+          "url": "https://t.me/jin10light/233184",
+          "title": "链上龙头Meme代币普遍回调，MEME、CASHCAT、4Stock、USELESS全线下跌",
+          "body": "#MEME #CASHCAT #AI",
+          "tags": [
+            "#MEME",
+            "#CASHCAT",
+            "#AI"
+          ],
+          "ts": 1789001740000,
+          "time": "08:55:40",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233183",
+          "url": "https://t.me/jin10light/233183",
+          "title": "美国司法部调查英伟达与Groq交易，涉试图规避反垄断",
+          "body": "#美国 #英伟达 #Groq",
+          "tags": [
+            "#美国",
+            "#英伟达",
+            "#Groq"
+          ],
+          "ts": 1789000958000,
+          "time": "08:42:38",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233182",
+          "url": "https://t.me/jin10light/233182",
+          "title": "硬件钱包制造商Ledger SAS聘请Oded Blatman出任首席安全官",
+          "body": "#Ledger SAS #Oded Blatman #Fireblocks",
+          "tags": [
+            "#Ledger",
+            "#Oded",
+            "#Fireblocks"
+          ],
+          "ts": 1789000721000,
+          "time": "08:38:41",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233181",
+          "url": "https://t.me/jin10light/233181",
+          "title": "Trezor：第三方电子邮件服务商遭到黑客入侵",
+          "body": "#Trezor #ShipMonk",
+          "tags": [
+            "#Trezor",
+            "#ShipMonk"
+          ],
+          "ts": 1789000721000,
+          "time": "08:38:41",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233180",
+          "url": "https://t.me/jin10light/233180",
+          "title": "Block加入美国联邦银行牌照申请潮，拟设立比特币与稳定币托管信托银行",
+          "body": "#Block #Jack Dorsey #BTC",
+          "tags": [
+            "#Block",
+            "#Jack",
+            "#BTC"
+          ],
+          "ts": 1789000541000,
+          "time": "08:35:41",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233179",
+          "url": "https://t.me/jin10light/233179",
+          "title": "江卓尔：动用5%仓位买入美股BNC，等于打五折买入BNB",
+          "body": "#BNC #BNB #美股",
+          "tags": [
+            "#BNC",
+            "#BNB",
+            "#美股"
+          ],
+          "ts": 1789000419000,
+          "time": "08:33:39",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233178",
+          "url": "https://t.me/jin10light/233178",
+          "title": "Zora新任CEO：将重点推进ZORA代币回购与持币者奖励机制，重启社区激励分发",
+          "body": "#Zora #Solana #BNB Chain",
+          "tags": [
+            "#Zora",
+            "#Solana",
+            "#BNB"
+          ],
+          "ts": 1789000063000,
+          "time": "08:27:43",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233177",
+          "url": "https://t.me/jin10light/233177",
+          "title": "韩股开盘微涨，SK海力士涨1%，三星电子微跌",
+          "body": "#韩国 #KOSPI #日经225",
+          "tags": [
+            "#韩国",
+            "#KOSPI",
+            "#日经225"
+          ],
+          "ts": 1789000062000,
+          "time": "08:27:42",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233176",
+          "url": "https://t.me/jin10light/233176",
+          "title": "贝森特再次发文呼吁通过《加密货币市场结构法案》",
+          "body": "#美国 #BTC #CLARITY法案",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#CLARITY法案"
+          ],
+          "ts": 1789000061000,
+          "time": "08:27:41",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233175",
+          "url": "https://t.me/jin10light/233175",
+          "title": "加密市场迎来小幅回调，比特币今晨跌破7.8万美元，ZEC逆势逼近1300美元新高",
+          "body": "#BTC #ETH #BNB",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#BNB"
+          ],
+          "ts": 1788999818000,
+          "time": "08:23:38",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233174",
+          "url": "https://t.me/jin10light/233174",
+          "title": "BNC美股收跌15.62%，链上币股BNC4较正股溢价约23%",
+          "body": "#BNC #BNC4 #BSC",
+          "tags": [
+            "#BNC",
+            "#BNC4",
+            "#BSC"
+          ],
+          "ts": 1788998198000,
+          "time": "07:56:38",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233173",
+          "url": "https://t.me/jin10light/233173",
+          "title": "美股收盘三大股指连跌3日，存储与光通信板块逆势上涨，苹果折叠屏手机iPhone Duo发布",
+          "body": "#美股 #苹果 #BTC",
+          "tags": [
+            "#美股",
+            "#苹果",
+            "#BTC"
+          ],
+          "ts": 1788997899000,
+          "time": "07:51:39",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233172",
+          "url": "https://t.me/jin10light/233172",
+          "title": "Pump.fun推出自定义交易对，代币发行可与代币化美股、主流加密资产、金属配对",
+          "body": "#Pump .fun #BTC #ETH",
+          "tags": [
+            "#Pump",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1788997480000,
+          "time": "07:44:40",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
+        {
+          "id": "233171",
+          "url": "https://t.me/jin10light/233171",
+          "title": "拜登之子Meme币LAPTOP上线近12小时，FDV现报18亿美元",
+          "body": "#LAPTOP #拜登",
+          "tags": [
+            "#LAPTOP",
+            "#拜登"
+          ],
+          "ts": 1788996699000,
+          "time": "07:31:39",
+          "receivedAt": 1789002127112,
+          "receivedTime": true
+        },
         {
           "id": "233170",
           "url": "https://t.me/jin10light/233170",
@@ -1923,13 +2208,9 @@
         {
           "id": "233169",
           "url": "https://t.me/jin10light/233169",
-          "title": "国内新闻ï",
-          "body": "1.国家统计局：8月份居民消费价格同比上涨0.8%。 2. 燧原科技：股票将于2026年9月11日科创板上市。 3. 2026年国家基本医保药品目录谈判竞价协商收官。 4. 美国安机构指责中国企业蒸馏美国模型，外交部：不要进行不实的指责和抹黑。 5. 传DeepSeek已聘请中信证券筹备IPO事宜：目标是在今年递交申请、明年正式挂牌上市。 6. 国新办将于9月10日就金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况举行新闻发布会。 国际新闻ï 1.世界铂金投资协会：预计铂金市场今年将转为供应过剩。 2. 美国国会预算办公室：预计美国8月份预算赤...",
-          "tags": [
-            "#中国",
-            "#美国",
-            "#伊朗"
-          ],
+          "title": "1. 据外媒报道，印尼新的矿产与战略商品交易所（BMKS）计划于2027年1月1日启动，这是总统普拉博沃·苏比安托（Prabowo Subianto）扩大国家对丰富自然资源控制权雄心的一部分。",
+          "body": "2. 河钢集团26年9月硅锰首轮询盘6000元/吨，8月定价5880元/吨，2025年9月定价6000元/吨。 硅锰采量14800吨（不含中厚板6000吨），8月采量16600吨，2025年9月采量17000吨。 3. 上海期货交易所和伦敦金属交易所（LME）联合宣布，LME上海热轧卷板合约将于2026年10月27日开始在伦敦金属交易所挂牌交易。 4. 路透调查公布对USDA 9月供需报告中美国大豆产量的数据预测，分析师平均预计：美国2026/27年度大豆产量预计为45.01亿蒲式耳，预估区间介于43.93-45.72亿蒲式耳，USDA在8月报告中预估...",
+          "tags": [],
           "ts": 1788993582000,
           "time": "06:39:42",
           "receivedAt": 1788995398899,
@@ -18958,239 +19239,6 @@
           ],
           "ts": 1788490941000,
           "time": "11:02:21",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231986",
-          "url": "https://t.me/jin10light/231986",
-          "title": "Ansem盛赞Bonk Guy为顶级交易员：不知道还有谁比他更强，多次公开成功抓住Meme币大行情",
-          "body": "#BONK #WIF #Fartcoin",
-          "tags": [
-            "#BONK",
-            "#WIF",
-            "#Fartcoin"
-          ],
-          "ts": 1788490883000,
-          "time": "11:01:23",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231985",
-          "url": "https://t.me/jin10light/231985",
-          "title": "焦煤主力合约日内涨幅达2.00%，现报1688.50元/吨。",
-          "body": "#焦煤 #中国",
-          "tags": [
-            "#焦煤",
-            "#中国"
-          ],
-          "ts": 1788490043000,
-          "time": "10:47:23",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231984",
-          "url": "https://t.me/jin10light/231984",
-          "title": "Predict.fun上线SHEIN（希音）日内股价涨跌预测市场",
-          "body": "#SHEIN #Predict .fun",
-          "tags": [
-            "#SHEIN",
-            "#Predict"
-          ],
-          "ts": 1788489802000,
-          "time": "10:43:22",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231983",
-          "url": "https://t.me/jin10light/231983",
-          "title": "Bitget股票合约已上线GoPro",
-          "body": "#Bitget #GPRO #USDT",
-          "tags": [
-            "#Bitget",
-            "#GPRO",
-            "#USDT"
-          ],
-          "ts": 1788489681000,
-          "time": "10:41:21",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231982",
-          "url": "https://t.me/jin10light/231982",
-          "title": "萨尔瓦多拟不再以公共资金增持比特币，Chivo电子钱包基本退出公众参与",
-          "body": "#IMF #萨尔瓦多 #BTC",
-          "tags": [
-            "#IMF",
-            "#萨尔瓦多",
-            "#BTC"
-          ],
-          "ts": 1788489632000,
-          "time": "10:40:32",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231981",
-          "url": "https://t.me/jin10light/231981",
-          "title": "AI让「做产品」不再稀缺，X-Agent：OPC的下一步是让Agent主动调用你的能力",
-          "body": "#X -Agent #MCP #Agent",
-          "tags": [
-            "#X",
-            "#MCP",
-            "#Agent"
-          ],
-          "ts": 1788489631000,
-          "time": "10:40:31",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231980",
-          "url": "https://t.me/jin10light/231980",
-          "title": "9月4日讯，据Mysteel数据显示，今日MMLC电池级碳酸锂（早盘）价格较昨日下跌1900元/吨，中间价报152200元/吨。",
-          "body": "#碳酸锂 #MMLC",
-          "tags": [
-            "#碳酸锂",
-            "#MMLC"
-          ],
-          "ts": 1788489323000,
-          "time": "10:35:23",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231979",
-          "url": "https://t.me/jin10light/231979",
-          "title": "「Pro信号兑现」巨鲸点位验证BTC上涨判断，亮眼地址一夜盈达160万美元",
-          "body": "#BTC #美元",
-          "tags": [
-            "#BTC",
-            "#美元"
-          ],
-          "ts": 1788489322000,
-          "time": "10:35:22",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231978",
-          "url": "https://t.me/jin10light/231978",
-          "title": "摩根大通警告：155恐成日元空头平仓触发点，美元兑日元或跌至142-146",
-          "body": "#日元 #美元 #日本央行",
-          "tags": [
-            "#日元",
-            "#美元",
-            "#日本央行"
-          ],
-          "ts": 1788489085000,
-          "time": "10:31:25",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231977",
-          "url": "https://t.me/jin10light/231977",
-          "title": "PONS两大巨鲸持仓浮盈均超百倍，投资回报率最高达1500倍",
-          "body": "#PONS #USDC",
-          "tags": [
-            "#PONS",
-            "#USDC"
-          ],
-          "ts": 1788488781000,
-          "time": "10:26:21",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231976",
-          "url": "https://t.me/jin10light/231976",
-          "title": "港股智能驾驶概念走强，佑驾创新涨超10%",
-          "body": "#港股 #特斯拉 #美国",
-          "tags": [
-            "#港股",
-            "#特斯拉",
-            "#美国"
-          ],
-          "ts": 1788488601000,
-          "time": "10:23:21",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231975",
-          "url": "https://t.me/jin10light/231975",
-          "title": "更多创新药有望纳入医保报销",
-          "body": "9月4日讯，国家医保局副局长李滔4日在国新办举行的“开局起步‘十五五’”系列主题新闻发布会上说，继续每年调整基本医保药品目录，将更多符合条件的肿瘤、慢性病、罕见病、儿童疾病等重大疾病、重点领域的创新药纳入医保报销，并着力推动医疗服务项目和医用耗材报销目录全国统一，进一步缩小地区之间政策差异。 #中国 #国家医保局 #李滔",
-          "tags": [
-            "#中国",
-            "#国家医保局",
-            "#李滔"
-          ],
-          "ts": 1788488484000,
-          "time": "10:21:24",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231974",
-          "url": "https://t.me/jin10light/231974",
-          "title": "ZEC今晨上涨逼近980美元，24小时涨超15%",
-          "body": "#ZEC #HTX",
-          "tags": [
-            "#ZEC",
-            "#HTX"
-          ],
-          "ts": 1788487820000,
-          "time": "10:10:20",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231973",
-          "url": "https://t.me/jin10light/231973",
-          "title": "港股智能驾驶概念走强 特斯拉Cybercab正式发布",
-          "body": "9月4日讯，港股智能驾驶概念走强，佑驾创新( 02431.HK )涨超10%，禾赛-W( 02525.HK )涨超8%，小马智行-W( 02026.HK )涨超7%，百度( 09888.HK )涨超5%，速腾聚创( 02498.HK )涨超4%。 消息面上，特斯拉当地时间9月3日宣布，赛博无人驾驶电动车Cybercab正式在美国奥斯汀投入运营。 特斯拉表示，该车型无需方向盘、踏板和后视镜，将以更高使用效率，承担更多出行需求。 #港股 #特斯拉 #美国",
-          "tags": [
-            "#港股",
-            "#特斯拉",
-            "#美国"
-          ],
-          "ts": 1788487765000,
-          "time": "10:09:25",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231972",
-          "url": "https://t.me/jin10light/231972",
-          "title": "硅铁期货主力合约触及涨停，涨幅6%，报6624元/吨，创2024年10月以来新高。",
-          "body": "#硅铁 #期货",
-          "tags": [
-            "#硅铁",
-            "#期货"
-          ],
-          "ts": 1788487764000,
-          "time": "10:09:24",
-          "receivedAt": 1788497515041,
-          "receivedTime": true
-        },
-        {
-          "id": "231971",
-          "url": "https://t.me/jin10light/231971",
-          "title": "A股券商股盘中拉升，湘财股份直线涨停，指南针涨超4%，金证股份、华安证券、同花顺、中银证券等个股跟涨。",
-          "body": "#A股 #湘财股份 #指南针",
-          "tags": [
-            "#A股",
-            "#湘财股份",
-            "#指南针"
-          ],
-          "ts": 1788487461000,
-          "time": "10:04:21",
           "receivedAt": 1788497515041,
           "receivedTime": true
         }
