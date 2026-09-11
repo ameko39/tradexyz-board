@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-09-11T00:20:01.683Z",
+  "updatedAt": "2026-09-11T04:50:38.891Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7190",
+          "url": "https://t.me/BWEtradfi/7190",
+          "title": "*TRUMP：让我们将 5000 美元的派发称为“TRUMP 红利”",
+          "body": "*TRUMP: LET'S CALL THE $5000 PAYOUTS THE TRUMP DIVIDEND",
+          "tags": [],
+          "ts": 1789093164000,
+          "time": "10:19:24",
+          "receivedAt": 1789102224835,
+          "receivedTime": true
+        },
+        {
+          "id": "7189",
+          "url": "https://t.me/BWEtradfi/7189",
+          "title": "*卡尔希计划推出约60种与ETF和个股挂钩的永续合约：华尔街日报",
+          "body": "*KALSHI PLANS TO LAUNCH AROUND 60 PERPS TIED TO ETFS AND SINGLE STOCKS: WSJ",
+          "tags": [],
+          "ts": 1789087417000,
+          "time": "08:43:37",
+          "receivedAt": 1789102224835,
+          "receivedTime": true
+        },
         {
           "id": "7188",
           "url": "https://t.me/BWEtradfi/7188",
@@ -1865,35 +1887,1135 @@
           "time": "20:30:15",
           "receivedAt": 1787863508910,
           "receivedTime": true
-        },
-        {
-          "id": "7020",
-          "url": "https://t.me/BWEtradfi/7020",
-          "title": "*软银正洽谈以60亿美元收购人形机器人制造商1X的多数股权：详情",
-          "body": "*SOFTBANK IN TALKS TO ACQUIRE MAJORITY STAKE IN HUMANOID ROBOT MAKER 1X AT $6B: THE INFORMATION *OPENAI SCRAPPED PREVIOUS PLANS TO ACQUIRE HUMANOID ROBOT STARTUP 1X *1X ROBOTICS FACES DOWN-VALUATION TO $6B AFTER UNSUCCESSFUL $10B FUNDRAISE *NO NEO ROBOTS YET DELIVERED TO… *OpenAI放弃了此前收购人形机器人初创公司1X的...",
-          "tags": [],
-          "ts": 1787795102000,
-          "time": "09:45:02",
-          "receivedAt": 1787827175501,
-          "receivedTime": true
-        },
-        {
-          "id": "7019",
-          "url": "https://t.me/BWEtradfi/7019",
-          "title": "*据内部人士透露，英伟达正洽谈以超过130亿美元收购Hugging Face",
-          "body": "*NVIDIA IN TALKS TO BUY HUGGING FACE FOR OVER $13B: INSIDER $NVDA $NVDA",
-          "tags": [],
-          "ts": 1787790974000,
-          "time": "08:36:14",
-          "receivedAt": 1787791879938,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "233594",
+          "url": "https://t.me/jin10light/233594",
+          "title": "昨日比特币ETF净流出2.827亿美元，以太坊ETF净流出2990万美元",
+          "body": "#BTC #ETH #ARKB",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#ARKB"
+          ],
+          "ts": 1789102059000,
+          "time": "12:47:39",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233593",
+          "url": "https://t.me/jin10light/233593",
+          "title": "「麻吉」多单总仓位已增至1.07亿美元，近一周亏损560万美元",
+          "body": "#ETH #BTC #HYPE",
+          "tags": [
+            "#ETH",
+            "#BTC",
+            "#HYPE"
+          ],
+          "ts": 1789101698000,
+          "time": "12:41:38",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233592",
+          "url": "https://t.me/jin10light/233592",
+          "title": "Brevo漏洞波及138个客户账户，34.7万名Trezor用户收到钓鱼邮件",
+          "body": "#Brevo #Trezor #BitBox",
+          "tags": [
+            "#Brevo",
+            "#Trezor",
+            "#BitBox"
+          ],
+          "ts": 1789101399000,
+          "time": "12:36:39",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233591",
+          "url": "https://t.me/jin10light/233591",
+          "title": "Binance美股交易将于9月12日18:50起暂停，预计持续约2小时40分钟",
+          "body": "#Binance #美股",
+          "tags": [
+            "#Binance",
+            "#美股"
+          ],
+          "ts": 1789100318000,
+          "time": "12:18:38",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233590",
+          "url": "https://t.me/jin10light/233590",
+          "title": "Coinbase比特币溢价指数连续5日录得负值，美国市场购买力再次陷入低迷",
+          "body": "#BTC #Coinbase #美国",
+          "tags": [
+            "#BTC",
+            "#Coinbase",
+            "#美国"
+          ],
+          "ts": 1789100080000,
+          "time": "12:14:40",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233589",
+          "url": "https://t.me/jin10light/233589",
+          "title": "「CPI前瞻」5名巨鲸横跨Polymarket与合约交易，2500万美元仓位如何站队？",
+          "body": "#美国 #Polymarket #Hyperliquid",
+          "tags": [
+            "#美国",
+            "#Polymarket",
+            "#Hyperliquid"
+          ],
+          "ts": 1789099721000,
+          "time": "12:08:41",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233588",
+          "url": "https://t.me/jin10light/233588",
+          "title": "红海威胁加剧 沙特王储敦促特朗普打击胡塞武装",
+          "body": "9月11日讯，两位美国官员表示，沙特王储本·萨勒曼周四两次致电特朗普，敦促其对胡塞武装发动打击，因该组织周四夺取也门一座战略沿海城市，使其更接近曼德海峡。 特朗普拒绝了这一请求，美国官员强调，政府目前没有直接干预打击胡塞武装的计划。 在伊朗已扰乱霍尔木兹海峡通行的情况下，胡塞武装控制曼德海峡可能赋予德黑兰对美国及其海湾盟友施压的有力新筹码。 美国方面对也门局势迅速升级感到担忧，正加强对沙特的支持，但同时试图避免直接军事介入。 沙特请求美国直接介入，标志着与7月的态度急剧逆转，当时利雅得对华盛顿方面表示，可以自行应对胡塞武装。 然而随着战斗加剧，沙特开始...",
+          "tags": [
+            "#沙特",
+            "#特朗普",
+            "#胡塞武装"
+          ],
+          "ts": 1789099539000,
+          "time": "12:05:39",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233587",
+          "url": "https://t.me/jin10light/233587",
+          "title": "伊朗与海湾国家将举行会议，推动霍尔木兹海峡协议",
+          "body": "",
+          "tags": [],
+          "ts": 1789099478000,
+          "time": "12:04:38",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233586",
+          "url": "https://t.me/jin10light/233586",
+          "title": "1. 工信部印发《“人工智能+软件”专项行动实施方案》。",
+          "body": "2. 工信部等九部门：加快汽车人工智能应用中试基地建设。 3. Codex产品负责人：暂停200美元Pro计划新订阅。 4. 英伟达CEO黄仁勋否认AI基础设施投资构成循环融资。 5. 据称微软因算力短缺流失业务，未来将数据中心规模扩大三倍以上。 6. Anthropic披露Claude危险使用案例，声称有伊朗账户用于威胁美军目标。 7. OpenAI首席执行官对放缓前沿AI开发持开放态度。 8. OpenAI加码企业市场，推出面向金融机构的AI助手。 9. 传月之暗面拟赴香港、上海双重上市，知情人士：消息不实。 10. 重庆：拟打造词元交易服务平台，...",
+          "tags": [
+            "#人工智能",
+            "#工信部",
+            "#英伟达"
+          ],
+          "ts": 1789099359000,
+          "time": "12:02:39",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233585",
+          "url": "https://t.me/jin10light/233585",
+          "title": "买6TB模型中转站数据就能拿到密钥？研究员称可攻入华为、小米等19家企业",
+          "body": "#中国 #华为 #小米",
+          "tags": [
+            "#中国",
+            "#华为",
+            "#小米"
+          ],
+          "ts": 1789099238000,
+          "time": "12:00:38",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233584",
+          "url": "https://t.me/jin10light/233584",
+          "title": "据Axios：沙特王储敦促美国总统特朗普对胡塞武装采取行动，以应对红海威胁。",
+          "body": "据悉特朗普拒绝了这一请求，美国官员强调，政府目前没有直接干预打击胡塞武装的计划。 #沙特 #美国 #胡塞武装",
+          "tags": [
+            "#沙特",
+            "#美国",
+            "#胡塞武装"
+          ],
+          "ts": 1789099118000,
+          "time": "11:58:38",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233583",
+          "url": "https://t.me/jin10light/233583",
+          "title": "某巨鲸做多价值434万美元原油，目前浮盈约42.1万美元",
+          "body": "#CLUSD1 #巨鲸",
+          "tags": [
+            "#CLUSD1",
+            "#巨鲸"
+          ],
+          "ts": 1789098942000,
+          "time": "11:55:42",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233582",
+          "url": "https://t.me/jin10light/233582",
+          "title": "消息称高通与三星电子的晶圆代工谈判因价格分歧陷入僵局",
+          "body": "#高通 #三星电子 #QCOM",
+          "tags": [
+            "#高通",
+            "#三星电子",
+            "#QCOM"
+          ],
+          "ts": 1789098941000,
+          "time": "11:55:41",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233581",
+          "url": "https://t.me/jin10light/233581",
+          "title": "Bitget API现已全面支持CFD交易，覆盖黄金、外汇及股指等全球资产",
+          "body": "#Bitget #CFD #美联储",
+          "tags": [
+            "#Bitget",
+            "#CFD",
+            "#美联储"
+          ],
+          "ts": 1789098582000,
+          "time": "11:49:42",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233580",
+          "url": "https://t.me/jin10light/233580",
+          "title": "币股Meme跨链扩散，Solana正成为一片待开发「红海」",
+          "body": "#SOL #BSC #Robinhood Chain",
+          "tags": [
+            "#SOL",
+            "#BSC",
+            "#Robinhood"
+          ],
+          "ts": 1789098338000,
+          "time": "11:45:38",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233579",
+          "url": "https://t.me/jin10light/233579",
+          "title": "首批ZEC追涨巨鲸遭清算，TOP 1地址多单爆仓325万美元",
+          "body": "#ZEC #BTC",
+          "tags": [
+            "#ZEC",
+            "#BTC"
+          ],
+          "ts": 1789098039000,
+          "time": "11:40:39",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233578",
+          "url": "https://t.me/jin10light/233578",
+          "title": "某地址以均价0.1155美元买入953万枚「牛来」",
+          "body": "#Binance #USDT #牛来",
+          "tags": [
+            "#Binance",
+            "#USDT",
+            "#牛来"
+          ],
+          "ts": 1789097681000,
+          "time": "11:34:41",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233577",
+          "url": "https://t.me/jin10light/233577",
+          "title": "早盘收盘，国内期货主力合约跌多涨少，碳酸锂跌超7%，铂跌超5%，钯跌超4%，沪银跌超6%，沪锌、沪锡、国际铜、焦煤跌超3%，沪铜、焦炭跌近3%，红枣跌超2%。",
+          "body": "涨幅方面，SC原油涨近9%，低硫燃料油（LU）、燃料油涨超7%，集运欧线涨超6%，沥青涨超4%，对二甲苯、纯苯、PTA涨超2%。 #碳酸锂 #原油 #沪银",
+          "tags": [
+            "#碳酸锂",
+            "#原油",
+            "#沪银"
+          ],
+          "ts": 1789097680000,
+          "time": "11:34:40",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233576",
+          "url": "https://t.me/jin10light/233576",
+          "title": "ETF两市成交额报2890.86亿元，较昨日此时放量328.01亿元，分类型来看，股票型ETF成交额980.11亿元，债券型ETF成交额1404.52亿元，货币型ETF成交额146.07亿元，商品型ETF成交额82.5...",
+          "body": "#ETF #股票型ETF #债券型ETF",
+          "tags": [
+            "#ETF",
+            "#股票型ETF",
+            "#债券型ETF"
+          ],
+          "ts": 1789097560000,
+          "time": "11:32:40",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233575",
+          "url": "https://t.me/jin10light/233575",
+          "title": "STONK市值突破2.5亿美元再创新高，24小时涨超35%",
+          "body": "#SOL #STONK #StonkFun",
+          "tags": [
+            "#SOL",
+            "#STONK",
+            "#StonkFun"
+          ],
+          "ts": 1789097439000,
+          "time": "11:30:39",
+          "receivedAt": 1789102225326,
+          "receivedTime": true
+        },
+        {
+          "id": "233574",
+          "url": "https://t.me/jin10light/233574",
+          "title": "奥特曼内部表态：OpenAI考虑联合同行放慢AI开发",
+          "body": "#OpenAI #Sam Altman #Jakub Pachocki",
+          "tags": [
+            "#OpenAI",
+            "#Sam",
+            "#Jakub"
+          ],
+          "ts": 1789097201000,
+          "time": "11:26:41",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233573",
+          "url": "https://t.me/jin10light/233573",
+          "title": "FLYBRAIN盈利榜一地址总利润达45.8万美元，回报率超6100%",
+          "body": "#FLYBRAIN #Robinhood",
+          "tags": [
+            "#FLYBRAIN",
+            "#Robinhood"
+          ],
+          "ts": 1789096838000,
+          "time": "11:20:38",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233572",
+          "url": "https://t.me/jin10light/233572",
+          "title": "上午多支宽基ETF成交额显著放量",
+          "body": "9月11日讯，科创50ETF华夏成交额突破50亿元、创业板ETF易方达成交额36.93亿元、中证500ETF南方成交额31.13亿元、沪深300ETF华泰柏瑞成交额28.29亿元，A500ETF南方成交额28.15亿元，均较昨日显著放量成交。 #A股 #ETF",
+          "tags": [
+            "#A股",
+            "#ETF"
+          ],
+          "ts": 1789096417000,
+          "time": "11:13:37",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233571",
+          "url": "https://t.me/jin10light/233571",
+          "title": "1. 长鑫存储利润率反超三星SK海力士。",
+          "body": "2. MLCC龙头村田停产部分消费级常规、车用系列产品。 3. 台积电1.4纳米建厂加速，明年下半年有望量产。 4. 台积电2026年8月营收5148.06亿新台币，同比增长53.3%。 5. 消息称高通与三星电子的晶圆代工谈判因价格分歧陷入僵局。 6. SK海力士目标2028年将High NA EUV技术用于DRAM内存量产。 7. 龙芯中科：预计明年上半年可以向存储厂商供货逻辑硅片，用于HBM内存生产。 8. 铠侠CEO喊话“内存价格涨够了”，率先为NAND涨势踩煞车震撼市场。 9. 韩国央行对与韩国芯片制造商挂钩的衍生品发出警告。 10. 湖北：...",
+          "tags": [
+            "#台积电",
+            "#SK海力士",
+            "#韩国"
+          ],
+          "ts": 1789096363000,
+          "time": "11:12:43",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233570",
+          "url": "https://t.me/jin10light/233570",
+          "title": "贝森特导师、沃什密友发声：美债收益率「甚至有点低」，降息已没必要",
+          "body": "#美国 #美联储 #AI",
+          "tags": [
+            "#美国",
+            "#美联储",
+            "#AI"
+          ],
+          "ts": 1789096061000,
+          "time": "11:07:41",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233569",
+          "url": "https://t.me/jin10light/233569",
+          "title": "消息人士：日本央行下周料加息25BP 对终端利率无预设看法",
+          "body": "9月11日讯，据消息人士透露，日本央行将于下周加息，最可能加息25个基点，并可能暗示若物价压力加大通胀超调风险，未来将加快收紧步伐。 加息至1.25%将使日本央行政策利率创31年来新高。 距6月上次加息仅三个月便再次行动，也表明收紧步伐加快。 央行内部许多人认为，随着经济步入温和复苏、物价压力积聚，再次加息的条件正在具备。 央行还预计，即使利率升至1.25%，金融条件仍将保持宽松。 市场正关注行长植田和男在会后就未来加息步伐以及本轮紧缩周期利率可能升至何种水平给出的任何线索。 消息人士称，日本央行可能对终端利率没有预设看法，这取决于过往加息如何影响经济...",
+          "tags": [],
+          "ts": 1789095763000,
+          "time": "11:02:43",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233568",
+          "url": "https://t.me/jin10light/233568",
+          "title": "日本央行消息人士：预计将在下周的政策会议上加息，最有可能加25个基点。",
+          "body": "日本央行可能会暗示加快加息的准备，但对终端利率、进一步加息的时机并没有预设观点。 #日本 #日本央行",
+          "tags": [
+            "#日本",
+            "#日本央行"
+          ],
+          "ts": 1789095407000,
+          "time": "10:56:47",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233567",
+          "url": "https://t.me/jin10light/233567",
+          "title": "日本央行消息人士：预计下周加息25个基点",
+          "body": "#日本央行 #日本",
+          "tags": [
+            "#日本央行",
+            "#日本"
+          ],
+          "ts": 1789095406000,
+          "time": "10:56:46",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233566",
+          "url": "https://t.me/jin10light/233566",
+          "title": "重仓STONK盈利近900万美元，point farm capital再度登顶FOMO日榜",
+          "body": "#STONK #ZCAT #PURR",
+          "tags": [
+            "#STONK",
+            "#ZCAT",
+            "#PURR"
+          ],
+          "ts": 1789095278000,
+          "time": "10:54:38",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233565",
+          "url": "https://t.me/jin10light/233565",
+          "title": "StonkFun：已累计向生态系统持有者分发超3000万美元奖励",
+          "body": "#SOL #StonkFun",
+          "tags": [
+            "#SOL",
+            "#StonkFun"
+          ],
+          "ts": 1789095038000,
+          "time": "10:50:38",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233564",
+          "url": "https://t.me/jin10light/233564",
+          "title": "「Pro信号兑现」BTC回调验证首轮承接，巨鲸1.4亿美元后手尚待启动",
+          "body": "#BTC #0xb1ec",
+          "tags": [
+            "#BTC",
+            "#0xb1ec"
+          ],
+          "ts": 1789094797000,
+          "time": "10:46:37",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233563",
+          "url": "https://t.me/jin10light/233563",
+          "title": "A股三大股指均跌超2%，科创50、北证50指数均跌超3%，有色金属、半导体芯片、房地产、农业等方向跌幅居前。",
+          "body": "#A股 #科创50 #北证50",
+          "tags": [
+            "#A股",
+            "#科创50",
+            "#北证50"
+          ],
+          "ts": 1789094619000,
+          "time": "10:43:39",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233562",
+          "url": "https://t.me/jin10light/233562",
+          "title": "Bitget集成自动化交易平台TV-Hub",
+          "body": "#Bitget #TV -Hub #TradingView",
+          "tags": [
+            "#Bitget",
+            "#TV",
+            "#TradingView"
+          ],
+          "ts": 1789094559000,
+          "time": "10:42:39",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233561",
+          "url": "https://t.me/jin10light/233561",
+          "title": "Cumberland再次增持155万美元PONS，目前共持有676万美元PONS",
+          "body": "#Cumberland #PONS",
+          "tags": [
+            "#Cumberland",
+            "#PONS"
+          ],
+          "ts": 1789094437000,
+          "time": "10:40:37",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233560",
+          "url": "https://t.me/jin10light/233560",
+          "title": "碳酸锂主力合约短线反弹，跌幅收窄至7.91%，报130680元/吨，此前一度跌近10%。",
+          "body": "#碳酸锂 #反弹",
+          "tags": [
+            "#碳酸锂",
+            "#反弹"
+          ],
+          "ts": 1789094377000,
+          "time": "10:39:37",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233559",
+          "url": "https://t.me/jin10light/233559",
+          "title": "沪深两市成交额连续第318个交易日突破1万亿元。",
+          "body": "#A股",
+          "tags": [
+            "#A股"
+          ],
+          "ts": 1789094317000,
+          "time": "10:38:37",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233558",
+          "url": "https://t.me/jin10light/233558",
+          "title": "9月11日讯，据Mysteel数据显示，今日MMLC电池级碳酸锂（早盘）价格较昨日下跌3500元/吨，中间价报139350元/吨。",
+          "body": "#碳酸锂 #中国",
+          "tags": [
+            "#碳酸锂",
+            "#中国"
+          ],
+          "ts": 1789094259000,
+          "time": "10:37:39",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233557",
+          "url": "https://t.me/jin10light/233557",
+          "title": "Meme币flybrain持续拉升市值突破4500万美元，此前a16z联创关注该项目官推",
+          "body": "#Robinhood #flybrain #Marc Andreessen",
+          "tags": [
+            "#Robinhood",
+            "#flybrain",
+            "#Marc"
+          ],
+          "ts": 1789094199000,
+          "time": "10:36:39",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233556",
+          "url": "https://t.me/jin10light/233556",
+          "title": "A股证券板块盘中震荡走弱，锦龙股份逼近跌停，哈投股份、湘财股份、华鑫股份、太平洋、广发证券均跌超5%。",
+          "body": "#A股 #锦龙股份 #哈投股份",
+          "tags": [
+            "#A股",
+            "#锦龙股份",
+            "#哈投股份"
+          ],
+          "ts": 1789093721000,
+          "time": "10:28:41",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233555",
+          "url": "https://t.me/jin10light/233555",
+          "title": "加密恐慌指数降至56，市场「贪婪」情绪降温",
+          "body": "#加密货币 #BTC",
+          "tags": [
+            "#加密货币",
+            "#BTC"
+          ],
+          "ts": 1789093720000,
+          "time": "10:28:40",
+          "receivedAt": 1789102225533,
+          "receivedTime": true
+        },
+        {
+          "id": "233554",
+          "url": "https://t.me/jin10light/233554",
+          "title": "Coinbase联创Fred Ehrsam为追逐石油移居委内瑞拉",
+          "body": "#Fred Ehrsam #Coinbase #委内瑞拉",
+          "tags": [
+            "#Fred",
+            "#Coinbase",
+            "#委内瑞拉"
+          ],
+          "ts": 1789093358000,
+          "time": "10:22:38",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233553",
+          "url": "https://t.me/jin10light/233553",
+          "title": "Meme币RAYCAT市值突破1100万美元，创历史新高",
+          "body": "#SOL #RAYCAT",
+          "tags": [
+            "#SOL",
+            "#RAYCAT"
+          ],
+          "ts": 1789093061000,
+          "time": "10:17:41",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233552",
+          "url": "https://t.me/jin10light/233552",
+          "title": "A股电力板块局部回暖，闽东电力三连板，杭州热电、江苏新能封板涨停，湖南发展、浙江新能、华银电力等跟涨。",
+          "body": "#A股 #闽东电力 #杭州热电",
+          "tags": [
+            "#A股",
+            "#闽东电力",
+            "#杭州热电"
+          ],
+          "ts": 1789092641000,
+          "time": "10:10:41",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233551",
+          "url": "https://t.me/jin10light/233551",
+          "title": "Meme币flybrain市值突破2500万美元，a16z联创关注该项目官推",
+          "body": "#Robinhood #flybrain #Marc Andreessen",
+          "tags": [
+            "#Robinhood",
+            "#flybrain",
+            "#Marc"
+          ],
+          "ts": 1789092279000,
+          "time": "10:04:39",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233550",
+          "url": "https://t.me/jin10light/233550",
+          "title": "腾讯旗下拳头游戏近期与Kalshi和Polymarket讨论电竞赞助合作事宜",
+          "body": "#Riot Games #Kalshi #Polymarket",
+          "tags": [
+            "#Riot",
+            "#Kalshi",
+            "#Polymarket"
+          ],
+          "ts": 1789091978000,
+          "time": "09:59:38",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233549",
+          "url": "https://t.me/jin10light/233549",
+          "title": "A股铜缆高速连接板块异动拉升，兆龙互连涨超14%，铭普光磁直线拉升封板，金信诺、创益通、神宇股份、鑫科材料跟涨。",
+          "body": "#A股 #铜缆高速连接 #兆龙互连",
+          "tags": [
+            "#A股",
+            "#铜缆高速连接",
+            "#兆龙互连"
+          ],
+          "ts": 1789091738000,
+          "time": "09:55:38",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233548",
+          "url": "https://t.me/jin10light/233548",
+          "title": "A股文化传媒板块再度大幅下跌，中国出版一字跌停，出版传媒、中信出版、读者传媒、三人行、大晟文化跌超6%。",
+          "body": "#A股 #中国出版 #出版传媒",
+          "tags": [
+            "#A股",
+            "#中国出版",
+            "#出版传媒"
+          ],
+          "ts": 1789091679000,
+          "time": "09:54:39",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233547",
+          "url": "https://t.me/jin10light/233547",
+          "title": "A股房地产板块盘初再度大幅下跌，悦心健康跌超8%，我爱我家跌超6.5%，世联行、华发股份、合肥城建、滨江集团、新黄浦等跟跌。",
+          "body": "#A股 #房地产 #悦心健康",
+          "tags": [
+            "#A股",
+            "#房地产",
+            "#悦心健康"
+          ],
+          "ts": 1789091379000,
+          "time": "09:49:39",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233546",
+          "url": "https://t.me/jin10light/233546",
+          "title": "疑似PURR地址增持并质押36.5万枚HYPE，约2965万美元",
+          "body": "#HYPE #PURR",
+          "tags": [
+            "#HYPE",
+            "#PURR"
+          ],
+          "ts": 1789091077000,
+          "time": "09:44:37",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233545",
+          "url": "https://t.me/jin10light/233545",
+          "title": "A股CPO概念板块盘初震荡上涨，武汉凡谷、光电股份、华胜天成均封板涨停，兆龙互联、迅捷兴、风华高科等跟涨。",
+          "body": "#A股 #CPO概念 #武汉凡谷",
+          "tags": [
+            "#A股",
+            "#CPO概念",
+            "#武汉凡谷"
+          ],
+          "ts": 1789091020000,
+          "time": "09:43:40",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233544",
+          "url": "https://t.me/jin10light/233544",
+          "title": "A股有色金属板块大幅下挫 多只有色ETF跌超4%",
+          "body": "9月11日讯，A股有色金属板块大幅下挫，有色ETF易方达(560470)、有色ETF广发(159029)等多只有色ETF，工业有色ETF万家(560860)、工业有色ETF华夏(515040)等多只工业有色ETF跌超4%。 #A股 #有色金属 #ETF",
+          "tags": [
+            "#A股",
+            "#有色金属",
+            "#ETF"
+          ],
+          "ts": 1789090959000,
+          "time": "09:42:39",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233543",
+          "url": "https://t.me/jin10light/233543",
+          "title": "沪银主力合约日内跌6.00%，现报15435.00元/千克。",
+          "body": "#沪银 #A股",
+          "tags": [
+            "#沪银",
+            "#A股"
+          ],
+          "ts": 1789090959000,
+          "time": "09:42:39",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233542",
+          "url": "https://t.me/jin10light/233542",
+          "title": "富时中国A50指数期货盘中快速跳水，现跌近1.5%。",
+          "body": "#富时中国A50 #A股",
+          "tags": [
+            "#富时中国A50",
+            "#A股"
+          ],
+          "ts": 1789090777000,
+          "time": "09:39:37",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233541",
+          "url": "https://t.me/jin10light/233541",
+          "title": "A股猪肉板块盘初走弱，克明食品封板跌停，京基智农、播恩集团、天域生物、神农集团、海大集团、邦基科技等跟跌。",
+          "body": "#A股 #克明食品 #京基智农",
+          "tags": [
+            "#A股",
+            "#克明食品",
+            "#京基智农"
+          ],
+          "ts": 1789090721000,
+          "time": "09:38:41",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233540",
+          "url": "https://t.me/jin10light/233540",
+          "title": "A股上证指数开盘快速下探跌超1%，深证成指跌0.9%，创业板指跌0.5%，科创50、北证50指数双双跌超1%，两市超4900家个股下跌。",
+          "body": "#A股 #上证指数 #深证成指",
+          "tags": [
+            "#A股",
+            "#上证指数",
+            "#深证成指"
+          ],
+          "ts": 1789090597000,
+          "time": "09:36:37",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233539",
+          "url": "https://t.me/jin10light/233539",
+          "title": "工信部等九部门：统筹锂、钴、镍等关键矿产资源开采与循环利用",
+          "body": "9月11日讯，工信部等九部门关于印发《智能网联新能源汽车产业发展“十五五”规划》。 规划提出，提高产业链韧性和安全水平。 滚动实施产业链高质量发展行动，攻克关键基础材料、操作系统、工业软件、汽车芯片和元器件等短板技术，用好首批次材料、首版次软件等政策，持续扩大应用规模。 统筹锂、钴、镍等关键矿产资源开采与循环利用。 #中国 #锂 #钴",
+          "tags": [
+            "#中国",
+            "#锂",
+            "#钴"
+          ],
+          "ts": 1789090540000,
+          "time": "09:35:40",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233538",
+          "url": "https://t.me/jin10light/233538",
+          "title": "工信部等九部门关于印发《智能网联新能源汽车产业发展“十五五”规划》。",
+          "body": "#中国 #新能源汽车 #智能网联",
+          "tags": [
+            "#中国",
+            "#新能源汽车",
+            "#智能网联"
+          ],
+          "ts": 1789090180000,
+          "time": "09:29:40",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233537",
+          "url": "https://t.me/jin10light/233537",
+          "title": "工信部等九部门：到2030年具备自动驾驶功能的汽车实现规模应用",
+          "body": "9月11日讯，工信部等九部门关于印发《智能网联新能源汽车产业发展“十五五”规划》。 规划提出，到2030年，我国智能网联新能源汽车全产业链优势进一步巩固，进入世界汽车强国行列，国内市场新能源乘用车、商用车在各自领域新车总销量的占比分别达到70%、40%，具备自动驾驶功能的汽车实现规模应用。 #中国 #自动驾驶 #新能源汽车",
+          "tags": [
+            "#中国",
+            "#自动驾驶",
+            "#新能源汽车"
+          ],
+          "ts": 1789090179000,
+          "time": "09:29:39",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233536",
+          "url": "https://t.me/jin10light/233536",
+          "title": "A股开盘，上证指数跌0.6%，深证成指跌0.98%，创业板指跌0.85%；N燧原首日上市高开188.37%，现报410元，该股发行价为142.18元。",
+          "body": "按开盘价计算，投资者中一签(500股)浮盈约13.39万元。 #A股 #上证指数 #燧原",
+          "tags": [
+            "#A股",
+            "#上证指数",
+            "#燧原"
+          ],
+          "ts": 1789089998000,
+          "time": "09:26:38",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233535",
+          "url": "https://t.me/jin10light/233535",
+          "title": "港股开盘，恒指开跌0.95%，科指开跌1.36%；洛阳钼业( 03993.HK )跌超4%，紫金矿业( 02899.HK )跌3.8%，极兔速递( 01519.HK )跌超3.5%。",
+          "body": "#港股 #洛阳钼业 #紫金矿业",
+          "tags": [
+            "#港股",
+            "#洛阳钼业",
+            "#紫金矿业"
+          ],
+          "ts": 1789089757000,
+          "time": "09:22:37",
+          "receivedAt": 1789102225746,
+          "receivedTime": true
+        },
+        {
+          "id": "233534",
+          "url": "https://t.me/jin10light/233534",
+          "title": "中国央行：今日开展40亿元7天逆回购操作，投标量40亿元，中标量40亿元，操作利率为1.40%，与此前持平。",
+          "body": "#中国 #央行",
+          "tags": [
+            "#中国",
+            "#央行"
+          ],
+          "ts": 1789089699000,
+          "time": "09:21:39",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233533",
+          "url": "https://t.me/jin10light/233533",
+          "title": "某追涨VVV聪明钱疑似止盈，预计获利58.8万美元",
+          "body": "#VVV #Coinbase",
+          "tags": [
+            "#VVV",
+            "#Coinbase"
+          ],
+          "ts": 1789089639000,
+          "time": "09:20:39",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233532",
+          "url": "https://t.me/jin10light/233532",
+          "title": "人民币兑美元中间价较上日调升23点至6.7743，中间价升值至2023年2月6日以来最高。",
+          "body": "#人民币 #美元 #中国",
+          "tags": [
+            "#人民币",
+            "#美元",
+            "#中国"
+          ],
+          "ts": 1789089397000,
+          "time": "09:16:37",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233531",
+          "url": "https://t.me/jin10light/233531",
+          "title": "恒指期货日盘开盘跌0.77%，报24709点，低水232点。",
+          "body": "#恒指 #港股",
+          "tags": [
+            "#恒指",
+            "#港股"
+          ],
+          "ts": 1789089343000,
+          "time": "09:15:43",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233530",
+          "url": "https://t.me/jin10light/233530",
+          "title": "2026年9月11日银行间外汇市场人民币汇率中间价",
+          "body": "美元/人民币报6.7743，下调（人民币升值）23点； 欧元/人民币报7.8367，下调79点；港元/人民币报0.86384，下调2.9点； 英镑/人民币报9.1210，下调152点；澳元/人民币报4.8330，下调283点； 加元/人民币报4.8751，下调65点；100日元/人民币报4.3614，下调195点； 人民币/俄罗斯卢布报12.5034，下调1830点；新西兰元/人民币报3.9192，下调200点； 人民币/林吉特报0.6022，下调5.9点；瑞士法郎/人民币报8.3072，下调262点； 新加坡元/人民币报5.3220，下调91点。 #...",
+          "tags": [
+            "#美元",
+            "#人民币",
+            "#中国"
+          ],
+          "ts": 1789089343000,
+          "time": "09:15:43",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233529",
+          "url": "https://t.me/jin10light/233529",
+          "title": "特朗普称不后悔对伊朗开战",
+          "body": "#特朗普 #美国 #伊朗",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#伊朗"
+          ],
+          "ts": 1789089342000,
+          "time": "09:15:42",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233528",
+          "url": "https://t.me/jin10light/233528",
+          "title": "Arthur Hayes加仓39,800枚UNI，单币浮亏28.6万美元",
+          "body": "#UNI #Arthur Hayes #USDC",
+          "tags": [
+            "#UNI",
+            "#Arthur",
+            "#USDC"
+          ],
+          "ts": 1789089280000,
+          "time": "09:14:40",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233527",
+          "url": "https://t.me/jin10light/233527",
+          "title": "交易员Loracle做空PONS、CASHCAT浮盈扩大至逾420万美元",
+          "body": "#CASHCAT #PONS",
+          "tags": [
+            "#CASHCAT",
+            "#PONS"
+          ],
+          "ts": 1789088857000,
+          "time": "09:07:37",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233526",
+          "url": "https://t.me/jin10light/233526",
+          "title": "布伦特原油日内跌超1.00%，现报105.11美元/桶。",
+          "body": "WTI原油回落至99美元/桶下方，日内跌1.53%。 #布伦特原油 #WTI原油",
+          "tags": [
+            "#布伦特原油",
+            "#WTI原油"
+          ],
+          "ts": 1789088679000,
+          "time": "09:04:39",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233525",
+          "url": "https://t.me/jin10light/233525",
+          "title": "早盘开盘，国内期货主力合约涨跌不一，SC原油涨超6%，燃料油、低硫燃料油（LU）涨超5%，纯苯、沥青涨超3%，集运欧线、液化石油气（LPG）、苯乙烯（EB）涨超2%。",
+          "body": "跌幅方面，沪银跌超5%，国际铜、沪锌跌超3%，沪铜跌近3%，沪锡跌超2%，铸造铝跌近2%，沪铝、沪金跌超1%。 #SC原油 #燃料油 #低硫燃料油",
+          "tags": [
+            "#SC原油",
+            "#燃料油",
+            "#低硫燃料油"
+          ],
+          "ts": 1789088438000,
+          "time": "09:00:38",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233524",
+          "url": "https://t.me/jin10light/233524",
+          "title": "预告：美国8月CPI数据将于今日20:30公布",
+          "body": "#美国 #CPI #美联储",
+          "tags": [
+            "#美国",
+            "#CPI",
+            "#美联储"
+          ],
+          "ts": 1789088379000,
+          "time": "08:59:39",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233523",
+          "url": "https://t.me/jin10light/233523",
+          "title": "某鲸鱼7000万美元BTC多单距清算价仅400美元",
+          "body": "#BTC #鲸鱼",
+          "tags": [
+            "#BTC",
+            "#鲸鱼"
+          ],
+          "ts": 1789088019000,
+          "time": "08:53:39",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233522",
+          "url": "https://t.me/jin10light/233522",
+          "title": "Kalshi计划推出约60种与ETF及个股挂钩永续合约",
+          "body": "#Kalshi #ETF #美股",
+          "tags": [
+            "#Kalshi",
+            "#ETF",
+            "#美股"
+          ],
+          "ts": 1789087779000,
+          "time": "08:49:39",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233521",
+          "url": "https://t.me/jin10light/233521",
+          "title": "Anthropic再次针对中国大模型，曝光7家公司蒸馏手法",
+          "body": "#Anthropic #中国 #阿里",
+          "tags": [
+            "#Anthropic",
+            "#中国",
+            "#阿里"
+          ],
+          "ts": 1789087659000,
+          "time": "08:47:39",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233520",
+          "url": "https://t.me/jin10light/233520",
+          "title": "工信部印发《“人工智能+软件”专项行动实施方案》",
+          "body": "9月11日讯，工业和信息化部近日印发《“人工智能+软件”专项行动实施方案》。 《方案》提出，到2028年，软件和信息技术服务业智能化水平显著提升，培育一批高水平智能编程工具和智能开发平台，推广应用覆盖2万家规模以上软件企业，关键软件智能化升级取得显著成效，累计组织实施100项软件企业智能化技改项目，以智能体软件为代表的软件新形态加速涌现，在重点行业打造100个智能体软件标杆应用，信息技术服务向智能化、价值化跃升，形成一批行业深度应用解决方案和典型场景，开放协同的开源社区建设取得积极进展，孵化5个以上优质开源项目。 到2030年，人工智能与软件和信息技术...",
+          "tags": [
+            "#中国",
+            "#人工智能",
+            "#软件"
+          ],
+          "ts": 1789087300000,
+          "time": "08:41:40",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233519",
+          "url": "https://t.me/jin10light/233519",
+          "title": "Arthur Hayes再提「放水」信号，阈值改为MOVE指数突破130",
+          "body": "#Arthur Hayes #美国 #美债",
+          "tags": [
+            "#Arthur",
+            "#美国",
+            "#美债"
+          ],
+          "ts": 1789087300000,
+          "time": "08:41:40",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
+        {
+          "id": "233518",
+          "url": "https://t.me/jin10light/233518",
+          "title": "Bitwise宣布清算Bitwise Dogecoin ETF BWOW",
+          "body": "#Bitwise #Dogecoin #NYSE Arca",
+          "tags": [
+            "#Bitwise",
+            "#Dogecoin",
+            "#NYSE"
+          ],
+          "ts": 1789086879000,
+          "time": "08:34:39",
+          "receivedAt": 1789102225959,
+          "receivedTime": true
+        },
         {
           "id": "233517",
           "url": "https://t.me/jin10light/233517",
@@ -18049,1119 +19171,6 @@
           "time": "08:45:41",
           "receivedAt": 1788743975727,
           "receivedTime": true
-        },
-        {
-          "id": "232394",
-          "url": "https://t.me/jin10light/232394",
-          "title": "Hyperliquid开发团队转移价值3814万美元HYPE",
-          "body": "#Hyperliquid #HYPE",
-          "tags": [
-            "#Hyperliquid",
-            "#HYPE"
-          ],
-          "ts": 1788741940000,
-          "time": "08:45:40",
-          "receivedAt": 1788743975727,
-          "receivedTime": true
-        },
-        {
-          "id": "232393",
-          "url": "https://t.me/jin10light/232393",
-          "title": "Meritz Securities：Astra表现惊艳，或为内存股反弹重要催化剂",
-          "body": "#韩国 #OpenAI #GPT -6 Astra",
-          "tags": [
-            "#韩国",
-            "#OpenAI",
-            "#GPT"
-          ],
-          "ts": 1788741398000,
-          "time": "08:36:38",
-          "receivedAt": 1788743975727,
-          "receivedTime": true
-        },
-        {
-          "id": "232392",
-          "url": "https://t.me/jin10light/232392",
-          "title": "ZEC强势，最大链上空单持有者Garrett Jin已浮亏2570万美元",
-          "body": "#ZEC #BTC #Garrett Jin",
-          "tags": [
-            "#ZEC",
-            "#BTC",
-            "#Garrett"
-          ],
-          "ts": 1788741280000,
-          "time": "08:34:40",
-          "receivedAt": 1788743975727,
-          "receivedTime": true
-        },
-        {
-          "id": "232391",
-          "url": "https://t.me/jin10light/232391",
-          "title": "全网山寨币合约持仓量超过比特币，为2024年12月以来首次",
-          "body": "#山寨币 #BTC",
-          "tags": [
-            "#山寨币",
-            "#BTC"
-          ],
-          "ts": 1788741037000,
-          "time": "08:30:37",
-          "receivedAt": 1788743975727,
-          "receivedTime": true
-        },
-        {
-          "id": "232390",
-          "url": "https://t.me/jin10light/232390",
-          "title": "日经225指数日内涨幅达2.00%。",
-          "body": "#日经225 #日本",
-          "tags": [
-            "#日经225",
-            "#日本"
-          ],
-          "ts": 1788740859000,
-          "time": "08:27:39",
-          "receivedAt": 1788743975727,
-          "receivedTime": true
-        },
-        {
-          "id": "232389",
-          "url": "https://t.me/jin10light/232389",
-          "title": "Solana链上ZEC底池meme币ZCAT连创新高，平台币STONK冲高回落",
-          "body": "#SOL #ZEC #Stonk",
-          "tags": [
-            "#SOL",
-            "#ZEC",
-            "#Stonk"
-          ],
-          "ts": 1788740499000,
-          "time": "08:21:39",
-          "receivedAt": 1788743975727,
-          "receivedTime": true
-        },
-        {
-          "id": "232388",
-          "url": "https://t.me/jin10light/232388",
-          "title": "韩元兑美元汇率创下自2024年10月7日以来的最高水平，现报1344.22。",
-          "body": "#韩元 #美元 #韩国",
-          "tags": [
-            "#韩元",
-            "#美元",
-            "#韩国"
-          ],
-          "ts": 1788740138000,
-          "time": "08:15:38",
-          "receivedAt": 1788743975727,
-          "receivedTime": true
-        },
-        {
-          "id": "232387",
-          "url": "https://t.me/jin10light/232387",
-          "title": "加密市场继续高歌猛进，ZEC突破1200美元，比特币反弹至8万美元上方",
-          "body": "#BTC #ETH #ZEC",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#ZEC"
-          ],
-          "ts": 1788740020000,
-          "time": "08:13:40",
-          "receivedAt": 1788743975727,
-          "receivedTime": true
-        },
-        {
-          "id": "232386",
-          "url": "https://t.me/jin10light/232386",
-          "title": "韩国KOSPI指数突破6900点，盘初涨3.34%。",
-          "body": "三星电子涨4.5%、SK海力士涨5.4%。 #韩国 #KOSPI #三星电子",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#三星电子"
-          ],
-          "ts": 1788739360000,
-          "time": "08:02:40",
-          "receivedAt": 1788743975727,
-          "receivedTime": true
-        },
-        {
-          "id": "232385",
-          "url": "https://t.me/jin10light/232385",
-          "title": "Robinhood链币股Meme币BONER短时突破8000万美元，其账号获HIMS联创关注",
-          "body": "#BONER #Robinhood #HIMS",
-          "tags": [
-            "#BONER",
-            "#Robinhood",
-            "#HIMS"
-          ],
-          "ts": 1788738459000,
-          "time": "07:47:39",
-          "receivedAt": 1788738511354,
-          "receivedTime": true
-        },
-        {
-          "id": "232384",
-          "url": "https://t.me/jin10light/232384",
-          "title": "1. 周一：",
-          "body": "①数据：德国7月季调后工业产出月率；英国8月Halifax季调后房价指数月率；瑞士8月季调后失业率；欧元区9月Sentix投资者信心指数、欧元区第二季度GDP年率终值、欧元区第二季度季调后就业人数季率终值；中国8月外汇储备。 ②假期：美股与加拿大股市周一因劳动节假期休市一日，金银油交易提前结束。 2. 周二： ①数据：日本7月贸易帐；德国7月季调后贸易帐；法国7月贸易帐；美国8月NFIB小型企业信心指数、美国8月纽约联储1年通胀预期；中国8月以美元计算贸易帐、中国8月贸易帐。 3. 周三： ①数据：中国8月CPI年率；法国7月工业产出月率；美国至8月2...",
-          "tags": [
-            "#美国",
-            "#欧洲央行",
-            "#苹果公司"
-          ],
-          "ts": 1788738219000,
-          "time": "07:43:39",
-          "receivedAt": 1788738511354,
-          "receivedTime": true
-        },
-        {
-          "id": "232383",
-          "url": "https://t.me/jin10light/232383",
-          "title": "Robinhood联创关注MEME账号，后者短时拉升近2倍，此前一日fomo多位车头密集加仓",
-          "body": "#Robinhood #Vlad Tenev #MEME",
-          "tags": [
-            "#Robinhood",
-            "#Vlad",
-            "#MEME"
-          ],
-          "ts": 1788737979000,
-          "time": "07:39:39",
-          "receivedAt": 1788738511354,
-          "receivedTime": true
-        },
-        {
-          "id": "232382",
-          "url": "https://t.me/jin10light/232382",
-          "title": "今日重点关注的财经数据与事件：2026年9月7日 周一",
-          "body": "① 待定 中国8月外汇储备 ② 14:00 德国7月季调后工业产出月率 ③ 14:00 英国8月Halifax季调后房价指数月率 ④ 15:00 瑞士8月季调后失业率 ⑤ 16:30 欧元区9月Sentix投资者信心指数 ⑥ 17:00 欧元区第二季度GDP年率终值 ⑦ 17:00 欧元区第二季度季调后就业人数季率终值 #中国 #德国 #英国",
-          "tags": [
-            "#中国",
-            "#德国",
-            "#英国"
-          ],
-          "ts": 1788735099000,
-          "time": "06:51:39",
-          "receivedAt": 1788738511354,
-          "receivedTime": true
-        },
-        {
-          "id": "232381",
-          "url": "https://t.me/jin10light/232381",
-          "title": "国内新闻ï",
-          "body": "1.8家中央金融企业将增资3600亿元用于补充资本。 2. 财政部将发行特别国债支持8家中央金融企业补充资本。 3. 卡塔尔首相兼外交大臣穆罕默德将访华。 国际新闻ï 1.欧佩克+维持10月石油产量不变。 2. 美股周一休市一日，金银油交易提前结束。 3. 出口民调：极右翼德国选择党赢得东部萨安州选举。 4. 与OpenAI相关的AI在今年5至6月“劫持”一个德国网站，智能体们在网站互传任务答案。 5. 白宫：美俄官员就俄乌冲突谈判的下一步实质性计划进行了讨论，相关计划将于未来几周内公布。 6. 泽连斯基称与美特使等人的会晤“非常具有实质性”，对于俄乌...",
-          "tags": [
-            "#中国",
-            "#卡塔尔",
-            "#德国"
-          ],
-          "ts": 1788733782000,
-          "time": "06:29:42",
-          "receivedAt": 1788738511354,
-          "receivedTime": true
-        },
-        {
-          "id": "232380",
-          "url": "https://t.me/jin10light/232380",
-          "title": "WTI原油高开0.9%，现报90.2美元/桶，布伦特原油涨0.7%，报95美元/桶。",
-          "body": "#WTI原油 #布伦特原油",
-          "tags": [
-            "#WTI原油",
-            "#布伦特原油"
-          ],
-          "ts": 1788732158000,
-          "time": "06:02:38",
-          "receivedAt": 1788732384747,
-          "receivedTime": true
-        },
-        {
-          "id": "232379",
-          "url": "https://t.me/jin10light/232379",
-          "title": "整理：中东局势跟踪（9月7日）",
-          "body": "冲突情å 1.伊朗革命卫队称打击了美航母和驱逐舰。 2. 以军袭击黎巴嫩南部，已致多人伤亡。 3. 也门政府军与胡塞武装交火，造成至少117人死亡。 霍尔木兹海å 1.伊朗革命卫队公开针对违规船只行动的视频，称美国护航纯属谎言。 2. 伊朗称未来几天将宣布霍尔木兹海峡“禁区”。 3. 伊朗最高国家安全委员会秘书：与阿曼商定的霍尔木兹海峡船只航行通道图将于未来几日签署。 4. 伊朗最高国家安全委员会秘书：只有在美国不再威胁或发动攻击的情况下，伊朗才会承诺保持霍尔木兹海峡开放。 5. 英国海上贸易行动办公室：过去48小时内，共有59艘船只通过了霍尔木兹海峡...",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡",
-            "#以色列"
-          ],
-          "ts": 1788730779000,
-          "time": "05:39:39",
-          "receivedAt": 1788732384747,
-          "receivedTime": true
-        },
-        {
-          "id": "232378",
-          "url": "https://t.me/jin10light/232378",
-          "title": "伊朗将上调高用量用户汽油价格",
-          "body": "9月7日讯，伊朗政府发言人莫哈杰拉尼周日表示，从周二开始，伊朗将提高每月汽油用量超过110升的用户的汽油价格。 此举旨在加大力度应对战争及美国严厉经济制裁所带来的问题。 莫哈杰拉尼表示，包括110升在内的第一档和第二档配额价格将保持不变，但第三档配额的价格将提高至每升10万伊朗里亚尔，按照自由市场汇率计算约合4美分。 伊朗汽油价格目前是全球最低水平之一。 此前，政府曾讨论提高汽油价格，但因担心此举可能引发新一轮抗议而推迟。 2019年，伊朗就同一问题爆发了大规模抗议活动。 莫哈杰拉尼表示，此次提高后的燃油价格只会影响每月需要使用超过110升汽油的消费者...",
-          "tags": [
-            "#伊朗",
-            "#美国"
-          ],
-          "ts": 1788726879000,
-          "time": "04:34:39",
-          "receivedAt": 1788732384747,
-          "receivedTime": true
-        },
-        {
-          "id": "232377",
-          "url": "https://t.me/jin10light/232377",
-          "title": "美国联邦航空管理局：一架货运飞机在迈阿密机场降落之后滑出跑道。",
-          "body": "#美国 #迈阿密",
-          "tags": [
-            "#美国",
-            "#迈阿密"
-          ],
-          "ts": 1788723399000,
-          "time": "03:36:39",
-          "receivedAt": 1788725357187,
-          "receivedTime": true
-        },
-        {
-          "id": "232376",
-          "url": "https://t.me/jin10light/232376",
-          "title": "伊朗最高国家安全委员会秘书：与阿曼商定的霍尔木兹海峡船只航行通道图将于未来几日签署。",
-          "body": "#伊朗 #阿曼 #霍尔木兹海峡",
-          "tags": [
-            "#伊朗",
-            "#阿曼",
-            "#霍尔木兹海峡"
-          ],
-          "ts": 1788721179000,
-          "time": "02:59:39",
-          "receivedAt": 1788725357187,
-          "receivedTime": true
-        },
-        {
-          "id": "232375",
-          "url": "https://t.me/jin10light/232375",
-          "title": "据伊朗国家媒体：伊朗最高安全官员表示，未来几天将宣布霍尔木兹海峡外的禁区。",
-          "body": "该区域将从美国海军封锁线开始，延伸至海湾地区。 任何进入这一新区域的船只将被列入制裁名单。 #伊朗 #霍尔木兹海峡 #美国",
-          "tags": [
-            "#伊朗",
-            "#霍尔木兹海峡",
-            "#美国"
-          ],
-          "ts": 1788720398000,
-          "time": "02:46:38",
-          "receivedAt": 1788725357187,
-          "receivedTime": true
-        },
-        {
-          "id": "232374",
-          "url": "https://t.me/jin10light/232374",
-          "title": "乌克兰总统泽连斯基：与俄罗斯的冲突可能将在冬季继续。",
-          "body": "#乌克兰 #泽连斯基 #俄罗斯",
-          "tags": [
-            "#乌克兰",
-            "#泽连斯基",
-            "#俄罗斯"
-          ],
-          "ts": 1788711278000,
-          "time": "00:14:38",
-          "receivedAt": 1788717552295,
-          "receivedTime": true
-        },
-        {
-          "id": "232373",
-          "url": "https://t.me/jin10light/232373",
-          "title": "乌克兰总统泽连斯基：我们需要尽一切努力促成与俄罗斯的三边会谈，需要关注俄罗斯的表态。",
-          "body": "#乌克兰 #泽连斯基 #俄罗斯",
-          "tags": [
-            "#乌克兰",
-            "#泽连斯基",
-            "#俄罗斯"
-          ],
-          "ts": 1788710917000,
-          "time": "00:08:37",
-          "receivedAt": 1788717552295,
-          "receivedTime": true
-        },
-        {
-          "id": "232372",
-          "url": "https://t.me/jin10light/232372",
-          "title": "特朗普女婿库什纳：美国正在构建“和平方案”。",
-          "body": "#特朗普 #库什纳 #美国",
-          "tags": [
-            "#特朗普",
-            "#库什纳",
-            "#美国"
-          ],
-          "ts": 1788710857000,
-          "time": "00:07:37",
-          "receivedAt": 1788717552295,
-          "receivedTime": true
-        },
-        {
-          "id": "232371",
-          "url": "https://t.me/jin10light/232371",
-          "title": "美国总统特使威特科夫：对莫斯科和基辅的和平谈判感到乐观。",
-          "body": "#美国 #特使威特科夫 #莫斯科",
-          "tags": [
-            "#美国",
-            "#特使威特科夫",
-            "#莫斯科"
-          ],
-          "ts": 1788710798000,
-          "time": "00:06:38",
-          "receivedAt": 1788717552295,
-          "receivedTime": true
-        },
-        {
-          "id": "232370",
-          "url": "https://t.me/jin10light/232370",
-          "title": "美联储9月加息25个基点概率暂报58.6%",
-          "body": "#美联储 #美国",
-          "tags": [
-            "#美联储",
-            "#美国"
-          ],
-          "ts": 1788710680000,
-          "time": "00:04:40",
-          "receivedAt": 1788717552295,
-          "receivedTime": true
-        },
-        {
-          "id": "232369",
-          "url": "https://t.me/jin10light/232369",
-          "title": "今日重点关注的财经数据与事件：2026年9月7日 周一",
-          "body": "① 待定 中国8月外汇储备 ② 14:00 德国7月季调后工业产出月率 ③ 14:00 英国8月Halifax季调后房价指数月率 ④ 15:00 瑞士8月季调后失业率 ⑤ 16:30 欧元区9月Sentix投资者信心指数 ⑥ 17:00 欧元区第二季度GDP年率终值 ⑦ 17:00 欧元区第二季度季调后就业人数季率终值 #中国 #德国 #英国",
-          "tags": [
-            "#中国",
-            "#德国",
-            "#英国"
-          ],
-          "ts": 1788710500000,
-          "time": "00:01:40",
-          "receivedAt": 1788717552295,
-          "receivedTime": true
-        },
-        {
-          "id": "232368",
-          "url": "https://t.me/jin10light/232368",
-          "title": "江卓尔解释清仓BTC原因：或将出现回调，向下触及76,000美元集中清算区",
-          "body": "#BTC #江卓尔 #莱比特矿池",
-          "tags": [
-            "#BTC",
-            "#江卓尔",
-            "#莱比特矿池"
-          ],
-          "ts": 1788709725000,
-          "time": "23:48:45",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232367",
-          "url": "https://t.me/jin10light/232367",
-          "title": "某巨鲸做空ZEC和HYPE，浮亏近2000万美元",
-          "body": "#Hyperliquid #USDC #ZEC",
-          "tags": [
-            "#Hyperliquid",
-            "#USDC",
-            "#ZEC"
-          ],
-          "ts": 1788708582000,
-          "time": "23:29:42",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232366",
-          "url": "https://t.me/jin10light/232366",
-          "title": "Solana生态代币STONK市值短时突破1.8亿美元创新高，24小时涨幅434%",
-          "body": "#SOL #STONK",
-          "tags": [
-            "#SOL",
-            "#STONK"
-          ],
-          "ts": 1788707921000,
-          "time": "23:18:41",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232365",
-          "url": "https://t.me/jin10light/232365",
-          "title": "WOO X回应用户提现异常：团队正努力尽快解决相关问题",
-          "body": "#WOO X #ZachXBT",
-          "tags": [
-            "#WOO",
-            "#ZachXBT"
-          ],
-          "ts": 1788706943000,
-          "time": "23:02:23",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232364",
-          "url": "https://t.me/jin10light/232364",
-          "title": "整理：周日重要消息汇总",
-          "body": "国内新闻ï 1.8家中央金融企业将增资3600亿元用于补充资本。 2. 印尼火山持续喷发，中国驻印尼使馆发布安全提醒。 3. 财政部将发行特别国债支持8家中央金融企业补充资本。 4. 紫金矿业回应财报文字错误：致以诚挚歉意，错误不涉及定期报告中的财务数据。 国际新闻ï 1.欧佩克+维持10月产量不变。 2. 美股周一休市一日，金银油交易提前结束。 3. 韩国主要银行的企业美元存款本月创历史新高。 4. OpenAI再爆安全事故，旗下人工智能体“劫持”一德国网站。 5. 白宫官员：美俄官员就俄乌冲突谈判的下一步实质性计划进行了讨论，相关计划将于未来几周内...",
-          "tags": [
-            "#中国",
-            "#印尼",
-            "#美国"
-          ],
-          "ts": 1788706585000,
-          "time": "22:56:25",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232363",
-          "url": "https://t.me/jin10light/232363",
-          "title": "Harmony拟关闭主网并将ONE迁移至以太坊，转向AI视频二创经济",
-          "body": "",
-          "tags": [],
-          "ts": 1788706227000,
-          "time": "22:50:27",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232362",
-          "url": "https://t.me/jin10light/232362",
-          "title": "Vitalik：SNARK有望在本十年结束前实现个位数倍计算开销",
-          "body": "#ETH #Vitalik Buterin",
-          "tags": [
-            "#ETH",
-            "#Vitalik"
-          ],
-          "ts": 1788706227000,
-          "time": "22:50:27",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232361",
-          "url": "https://t.me/jin10light/232361",
-          "title": "Arbitrum与Solana联创再次争论交易成本：Steven强调MEV防护，Toly质疑手续费与价差",
-          "body": "#Arbitrum #Solana #Steven Goldfeder",
-          "tags": [
-            "#Arbitrum",
-            "#Solana",
-            "#Steven"
-          ],
-          "ts": 1788704903000,
-          "time": "22:28:23",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232360",
-          "url": "https://t.me/jin10light/232360",
-          "title": "WOO X被曝提现异常，多名用户反映提现停留在「待处理」或「处理中」状态",
-          "body": "#WOO X #Kronos Research #FusionX Digital",
-          "tags": [
-            "#WOO",
-            "#Kronos",
-            "#FusionX"
-          ],
-          "ts": 1788703760000,
-          "time": "22:09:20",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232359",
-          "url": "https://t.me/jin10light/232359",
-          "title": "匿名鲸鱼高频交易一周胜率达97.83%，历史交易21笔CRCL维持100%胜率",
-          "body": "#BTC #ETH #鲸鱼地址",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#鲸鱼地址"
-          ],
-          "ts": 1788703703000,
-          "time": "22:08:23",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232358",
-          "url": "https://t.me/jin10light/232358",
-          "title": "Solana生态代币STONK市值短时突破1.5亿美元，24小时涨幅449%",
-          "body": "#SOL #STONK",
-          "tags": [
-            "#SOL",
-            "#STONK"
-          ],
-          "ts": 1788701662000,
-          "time": "21:34:22",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232357",
-          "url": "https://t.me/jin10light/232357",
-          "title": "分析师：比特币近期买盘达到上轮熊市以来最强水平，需求正明显改善",
-          "body": "#BTC #CryptoQuant #Darkfost",
-          "tags": [
-            "#BTC",
-            "#CryptoQuant",
-            "#Darkfost"
-          ],
-          "ts": 1788701243000,
-          "time": "21:27:23",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232356",
-          "url": "https://t.me/jin10light/232356",
-          "title": "1. 周一：",
-          "body": "①数据：德国7月季调后工业产出月率；英国8月Halifax季调后房价指数月率；瑞士8月季调后失业率；欧元区9月Sentix投资者信心指数、欧元区第二季度GDP年率终值、欧元区第二季度季调后就业人数季率终值；中国8月外汇储备。 ②假期：美股与加拿大股市周一因劳动节假期休市一日，金银油交易提前结束。 2. 周二： ①数据：日本7月贸易帐；德国7月季调后贸易帐；法国7月贸易帐；美国8月NFIB小型企业信心指数、美国8月纽约联储1年通胀预期；中国8月以美元计算贸易帐、中国8月贸易帐。 3. 周三： ①数据：中国8月CPI年率；法国7月工业产出月率；美国至8月2...",
-          "tags": [
-            "#美国",
-            "#欧元区",
-            "#中国"
-          ],
-          "ts": 1788700884000,
-          "time": "21:21:24",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232355",
-          "url": "https://t.me/jin10light/232355",
-          "title": "Bitget已上线U本位「哈基米」永续合约",
-          "body": "#Bitget #哈基米",
-          "tags": [
-            "#Bitget",
-            "#哈基米"
-          ],
-          "ts": 1788700762000,
-          "time": "21:19:22",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232354",
-          "url": "https://t.me/jin10light/232354",
-          "title": "Willy Woo：比特币与美股正显著脱钩，类似2017年比特币牛市前奏",
-          "body": "#BTC #Willy Woo #美股",
-          "tags": [
-            "#BTC",
-            "#Willy",
-            "#美股"
-          ],
-          "ts": 1788699863000,
-          "time": "21:04:23",
-          "receivedAt": 1788710220519,
-          "receivedTime": true
-        },
-        {
-          "id": "232353",
-          "url": "https://t.me/jin10light/232353",
-          "title": "BSC链新币股meme币BEN发行2小时市值速通900万美元",
-          "body": "#BEN #BSC #QQQ",
-          "tags": [
-            "#BEN",
-            "#BSC",
-            "#QQQ"
-          ],
-          "ts": 1788698724000,
-          "time": "20:45:24",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232352",
-          "url": "https://t.me/jin10light/232352",
-          "title": "若比特币突破8.1万美元，主流CEX累计空单清算强度将达4.7亿",
-          "body": "#BTC #CEX",
-          "tags": [
-            "#BTC",
-            "#CEX"
-          ],
-          "ts": 1788697343000,
-          "time": "20:22:23",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232351",
-          "url": "https://t.me/jin10light/232351",
-          "title": "欧佩克+维持10月产量不变",
-          "body": "9月6日讯，欧佩克+于2026年9月6日举行线上会议，审议全球市场形势及前景。 七个成员国决定，维持10月石油产量维持不变。 七国重申了其集体承诺，将全面遵守《合作宣言》。 下次会议将于2026年10月4日举行。 #欧佩克 + #石油",
-          "tags": [
-            "#欧佩克",
-            "#石油"
-          ],
-          "ts": 1788696382000,
-          "time": "20:06:22",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232350",
-          "url": "https://t.me/jin10light/232350",
-          "title": "Pons与Fomo过去24小时收入均超Hyperliquid",
-          "body": "#Pons #Fomo #Hyperliquid",
-          "tags": [
-            "#Pons",
-            "#Fomo",
-            "#Hyperliquid"
-          ],
-          "ts": 1788695544000,
-          "time": "19:52:24",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232349",
-          "url": "https://t.me/jin10light/232349",
-          "title": "波兰武装部队作战指挥部：正在核实一不明物体从白俄罗斯接近波兰空域的涉嫌违规行为。",
-          "body": "#波兰 #白俄罗斯",
-          "tags": [
-            "#波兰",
-            "#白俄罗斯"
-          ],
-          "ts": 1788695543000,
-          "time": "19:52:23",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232348",
-          "url": "https://t.me/jin10light/232348",
-          "title": "「HYPE上币内幕巨鲸」多单浮盈超6800万美元，资金费已缴纳542万美元",
-          "body": "#HYPE #Hyperliquid #Robinhood",
-          "tags": [
-            "#HYPE",
-            "#Hyperliquid",
-            "#Robinhood"
-          ],
-          "ts": 1788694582000,
-          "time": "19:36:22",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232347",
-          "url": "https://t.me/jin10light/232347",
-          "title": "欧佩克+声明称，在周日会议上未对石油产量配额做出任何调整。",
-          "body": "#欧佩克 + #石油",
-          "tags": [
-            "#欧佩克",
-            "#石油"
-          ],
-          "ts": 1788694226000,
-          "time": "19:30:26",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232346",
-          "url": "https://t.me/jin10light/232346",
-          "title": "财政部将发行特别国债支持8家中央金融企业补充资本",
-          "body": "9月6日讯，财政部将于近期发行3000亿元特别国债，支持8家中央金融企业补充核心一级资本。 当日，工商银行、农业银行、进出口银行、中国信保、中国人保、中国人寿集团、中国太平、中国再保等8家中央金融企业分别发布了增资计划。 业内人士表示，此次财政部对8家中央金融企业增资，属于“未雨绸缪”的前瞻性安排，是支持中央金融企业高质量发展、助力宏观经济行稳致远的主动作为。 #财政部 #工商银行 #农业银行",
-          "tags": [
-            "#财政部",
-            "#工商银行",
-            "#农业银行"
-          ],
-          "ts": 1788694103000,
-          "time": "19:28:23",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232345",
-          "url": "https://t.me/jin10light/232345",
-          "title": "HYPE拉升突破88美元，续刷历史新高",
-          "body": "#HYPE #HTX",
-          "tags": [
-            "#HYPE",
-            "#HTX"
-          ],
-          "ts": 1788694041000,
-          "time": "19:27:21",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232344",
-          "url": "https://t.me/jin10light/232344",
-          "title": "「麻吉」多单总仓位达1.46亿美元，目前浮盈256万美元",
-          "body": "#BTC #ETH #麻吉大哥",
-          "tags": [
-            "#BTC",
-            "#ETH",
-            "#麻吉大哥"
-          ],
-          "ts": 1788693922000,
-          "time": "19:25:22",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232343",
-          "url": "https://t.me/jin10light/232343",
-          "title": "分析师：以太坊盘整结构偏多，若有效突破2530美元或涨至2700美元",
-          "body": "#ETH #Ali Charts",
-          "tags": [
-            "#ETH",
-            "#Ali"
-          ],
-          "ts": 1788692603000,
-          "time": "19:03:23",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232342",
-          "url": "https://t.me/jin10light/232342",
-          "title": "1. MAGA超级政治行动委员会为大选投入1000万美元——据Politico报道，周六公布的一份文件显示，美国总统特朗普的“让美国再次伟大”超级政治行动委员会将向肯·帕克斯顿的参议院竞选捐赠1000万美元，这是该委员...",
-          "body": "2. 共和党人对经济信心骤降——据Axios，过去六个月，共和党人对经济的信心以疫情以来从未有过的速度大幅下滑，下滑幅度堪比近二十年前全球金融危机期间的水平。 在距离大选日只剩两个月的节点，这对特朗普而言，又添了一个“不祥之兆”。 3. 总统特使与普京会谈——俄罗斯总统普京5日在克里姆林宫会见到访的美国总统特使威特科夫与特朗普女婿库什纳，就乌克兰局势等议题举行会谈。 且威特科夫特朗普女婿库什纳已于当地时间6日抵达乌克兰首都基辅。 4. 称西班牙边境问题令人痛心——美国总统特朗普：西班牙正在发生的事情真令人痛心，这个国家对边境的控制完全失控了。 5. 支...",
-          "tags": [
-            "#特朗普",
-            "#美国",
-            "#俄罗斯"
-          ],
-          "ts": 1788692301000,
-          "time": "18:58:21",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232341",
-          "url": "https://t.me/jin10light/232341",
-          "title": "Solana生态代币STONK市值短时突破1.38亿美元，24小时涨幅311%",
-          "body": "#SOL #STONK",
-          "tags": [
-            "#SOL",
-            "#STONK"
-          ],
-          "ts": 1788690323000,
-          "time": "18:25:23",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232340",
-          "url": "https://t.me/jin10light/232340",
-          "title": "据路透社：美国总统特使威特科夫和特朗普女婿库什纳抵达基辅进行和平谈判。",
-          "body": "#美国 #特朗普 #基辅",
-          "tags": [
-            "#美国",
-            "#特朗普",
-            "#基辅"
-          ],
-          "ts": 1788690080000,
-          "time": "18:21:20",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232339",
-          "url": "https://t.me/jin10light/232339",
-          "title": "交易员point farm capital近24小时盈利超500万美元，位居Fomo平台榜首",
-          "body": "#STONK #ZCAT #CTO",
-          "tags": [
-            "#STONK",
-            "#ZCAT",
-            "#CTO"
-          ],
-          "ts": 1788690021000,
-          "time": "18:20:21",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232338",
-          "url": "https://t.me/jin10light/232338",
-          "title": "共增资3600亿元 8家中央金融企业将补充资本",
-          "body": "9月6日讯，9月6日，中国工商银行等8家中央金融企业分别发布增资计划，将补充核心一级资本。 据统计，8家中央金融企业计划共增资3600亿元，有助于进一步增强稳健经营能力、抵御风险能力和服务实体经济能力。 根据公告消息，中国工商银行、中国农业银行两家大型国有商业银行拟向特定对象财政部、中国烟草总公司及相关子公司发行A股股票，计划募集资金分别不超过1000亿元、1600亿元。 另外，财政部将向中国进出口银行、中国出口信用保险公司两家政策性金融机构分别注资300亿元、100亿元。 当日，还有四家国有商业保险公司宣布增资计划。 中国人保拟向特定对象财政部发行A...",
-          "tags": [
-            "#中国",
-            "#中国工商银行",
-            "#中国农业银行"
-          ],
-          "ts": 1788689964000,
-          "time": "18:19:24",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232337",
-          "url": "https://t.me/jin10light/232337",
-          "title": "中国再保计划募资30亿元用于增加核心一级资本",
-          "body": "9月6日讯，9月6日，中国再保董事会审议通过并披露向特定对象发行内资股方案。 本次发行拟由财政部以现金方式认购，计划募集资金总额30亿元人民币，在扣除相关发行费用后将全部用于增加中国再保核心一级资本，募集资金规模与最终发行方案以相关监管部门最终批复为准。 发行价格为1.33元/股，较中国再保近期H股二级市场价格实现溢价发行，拟发行股份约22.56亿股，发行对象承诺长期持有本次认购股份。 #中国再保 #财政部 #中国",
-          "tags": [
-            "#中国再保",
-            "#财政部",
-            "#中国"
-          ],
-          "ts": 1788689844000,
-          "time": "18:17:24",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232336",
-          "url": "https://t.me/jin10light/232336",
-          "title": "Pair.fund：已销毁超500万美元PAIR代币",
-          "body": "#Robinhood #PAIR",
-          "tags": [
-            "#Robinhood",
-            "#PAIR"
-          ],
-          "ts": 1788689302000,
-          "time": "18:08:22",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232335",
-          "url": "https://t.me/jin10light/232335",
-          "title": "Pair.fund：已销毁超300万美元PAIR代币，计划未来24小时发布重大更新",
-          "body": "#Robinhood #pair .fund #PAIR",
-          "tags": [
-            "#Robinhood",
-            "#pair",
-            "#PAIR"
-          ],
-          "ts": 1788688701000,
-          "time": "17:58:21",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232334",
-          "url": "https://t.me/jin10light/232334",
-          "title": "Pair.fund：已销毁超300万美元PAIR代币，累计交易量近1亿美元",
-          "body": "#Robinhood #pair .fund #PAIR",
-          "tags": [
-            "#Robinhood",
-            "#pair",
-            "#PAIR"
-          ],
-          "ts": 1788687982000,
-          "time": "17:46:22",
-          "receivedAt": 1788699386068,
-          "receivedTime": true
-        },
-        {
-          "id": "232333",
-          "url": "https://t.me/jin10light/232333",
-          "title": "「BTC OG内幕巨鲸」做空ZEC浮亏超2500万美元",
-          "body": "#ZEC #Garrett Jin",
-          "tags": [
-            "#ZEC",
-            "#Garrett"
-          ],
-          "ts": 1788686784000,
-          "time": "17:26:24",
-          "receivedAt": 1788699386252,
-          "receivedTime": true
-        },
-        {
-          "id": "232332",
-          "url": "https://t.me/jin10light/232332",
-          "title": "伊朗议会议长卡利巴夫：在为时已晚之前，美国需要明白游戏规则已经改变。",
-          "body": "未来对伊朗安全或利益的攻击将导致更快、更重、更痛苦的反应。 #伊朗 #美国 #卡利巴夫",
-          "tags": [
-            "#伊朗",
-            "#美国",
-            "#卡利巴夫"
-          ],
-          "ts": 1788686362000,
-          "time": "17:19:22",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232331",
-          "url": "https://t.me/jin10light/232331",
-          "title": "ZEC近24小时爆仓超4400万美元，位居全网第一",
-          "body": "#ZEC #加密货币",
-          "tags": [
-            "#ZEC",
-            "#加密货币"
-          ],
-          "ts": 1788686121000,
-          "time": "17:15:21",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232330",
-          "url": "https://t.me/jin10light/232330",
-          "title": "ZEC上涨突破1200美元，创历史新高",
-          "body": "#ZEC #隐私代币",
-          "tags": [
-            "#ZEC",
-            "#隐私代币"
-          ],
-          "ts": 1788686003000,
-          "time": "17:13:23",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232329",
-          "url": "https://t.me/jin10light/232329",
-          "title": "Bitwise：比特币与黄金相关性升至2020年以来最高，与美股相关性降至一年低点",
-          "body": "#BTC #黄金 #美国",
-          "tags": [
-            "#BTC",
-            "#黄金",
-            "#美国"
-          ],
-          "ts": 1788685765000,
-          "time": "17:09:25",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232328",
-          "url": "https://t.me/jin10light/232328",
-          "title": "Robinhood生态代币PAIR市值突破5000万美元，续创历史新高",
-          "body": "",
-          "tags": [],
-          "ts": 1788685344000,
-          "time": "17:02:24",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232327",
-          "url": "https://t.me/jin10light/232327",
-          "title": "Robinhood Chain本周收入已超2000万美元，累计收入超2800万美元",
-          "body": "#Robinhood Chain #DefiLlama",
-          "tags": [
-            "#Robinhood",
-            "#DefiLlama"
-          ],
-          "ts": 1788685162000,
-          "time": "16:59:22",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232326",
-          "url": "https://t.me/jin10light/232326",
-          "title": "某新闻交易员支付40.8枚BNB作为节点贿赂费及Gas费抢先买入「哈基米」，获利37.8万美元",
-          "body": "#Binance #BNB #哈基米",
-          "tags": [
-            "#Binance",
-            "#BNB",
-            "#哈基米"
-          ],
-          "ts": 1788684322000,
-          "time": "16:45:22",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232325",
-          "url": "https://t.me/jin10light/232325",
-          "title": "ZEC分红Meme代币ZCAT市值突破1.05亿美元续创新高，24小时涨超404%",
-          "body": "#SOL #ZEC #ZCAT",
-          "tags": [
-            "#SOL",
-            "#ZEC",
-            "#ZCAT"
-          ],
-          "ts": 1788682585000,
-          "time": "16:16:25",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232324",
-          "url": "https://t.me/jin10light/232324",
-          "title": "财政部将向中国太平注资70亿元",
-          "body": "9月6日讯，9月6日，中国太平宣布，财政部将向中国太平保险集团有限责任公司注资70亿元。 此次注资将进一步增强中国太平抵御风险能力，推动偿付能力等关键指标均衡稳健，夯实长期可持续发展根基，提升服务国家战略和实体经济高质量发展能力。",
-          "tags": [],
-          "ts": 1788682103000,
-          "time": "16:08:23",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232323",
-          "url": "https://t.me/jin10light/232323",
-          "title": "卡塔尔首相兼外交大臣穆罕默德将访华",
-          "body": "9月6日讯，外交部发言人宣布：卡塔尔首相兼外交大臣穆罕默德将于9月7日至8日应邀访问中国。 #卡塔尔 #中国 #穆罕默德",
-          "tags": [
-            "#卡塔尔",
-            "#中国",
-            "#穆罕默德"
-          ],
-          "ts": 1788681982000,
-          "time": "16:06:22",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232322",
-          "url": "https://t.me/jin10light/232322",
-          "title": "消息人士：欧佩克+将维持石油产量政策不变",
-          "body": "9月6日讯，据路透社报道，两位熟悉讨论情况的消息人士透露，欧佩克+将在周日的会议上维持10月石油产量政策不变，因为该产油国组织在决定下一步产量行动前，需要先就新的配额达成一致。 欧佩克+目前仍有一层减产措施在实施，覆盖该21个成员国集团中的大多数，直至2026年底。 在决定如何逐步退出减产并将产量回归市场之前，该组织需要审查成员国的石油产能，以设定2027年的产量基线——这将作为配额的基础。 消息人士此前表示，这一讨论可能会在2026年晚些时候进行，因此欧佩克+可能会在第四季度暂停增产。 #欧佩克 + #石油",
-          "tags": [
-            "#欧佩克",
-            "#石油"
-          ],
-          "ts": 1788680783000,
-          "time": "15:46:23",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232321",
-          "url": "https://t.me/jin10light/232321",
-          "title": "提前四天埋伏ZCAT凭借3900美元获利70万，聪明钱今日再布局低市值Meme代币",
-          "body": "#ZCAT #Meme 代币",
-          "tags": [
-            "#ZCAT",
-            "#Meme"
-          ],
-          "ts": 1788680664000,
-          "time": "15:44:24",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232320",
-          "url": "https://t.me/jin10light/232320",
-          "title": "中国人保拟募资不超过150亿元用于补充资本金",
-          "body": "9月6日讯，9月6日，中国人保公告称，为进一步提升公司资本实力，优化资本结构，夯实风险防控基础，增强服务实体经济能力，推动公司高质量发展，公司拟向特定对象发行A股股票，发行对象为中华人民共和国财政部。 本次发行募集资金总额不超过人民币150亿元（含本数）。 本次发行募集资金在扣除相关发行费用后，将全部用于充实公司的资本金。",
-          "tags": [],
-          "ts": 1788680302000,
-          "time": "15:38:22",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232319",
-          "url": "https://t.me/jin10light/232319",
-          "title": "农业银行：拟引入中国烟草及其子公司作为战略投资者",
-          "body": "9月6日讯，农业银行公告称，公司董事会审议通过议案，拟通过向特定对象发行A股股票方式引入中国烟草总公司及其有关子公司作为战略投资者，并签署附条件生效的战略合作协议和签署附条件生效的股份认购协议。 财政部拟认购金额1300亿元，中国烟草拟认购100亿元，江苏烟草、浙江烟草、湖北烟草各拟认购50亿元，北京烟草拟认购30亿元，双维投资拟认购20亿元。 本次发行募集资金扣除相关发行费用后将全部用于补充核心一级资本。 #农业银行 #中国烟草 #财政部",
-          "tags": [
-            "#农业银行",
-            "#中国烟草",
-            "#财政部"
-          ],
-          "ts": 1788680243000,
-          "time": "15:37:23",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
-        },
-        {
-          "id": "232318",
-          "url": "https://t.me/jin10light/232318",
-          "title": "中国工商银行拟募资不超过1000亿元用于补充资本；中国农业银行拟募资不超过1600亿元用于补充资本。",
-          "body": "#中国工商银行 #中国农业银行 #中国",
-          "tags": [
-            "#中国工商银行",
-            "#中国农业银行",
-            "#中国"
-          ],
-          "ts": 1788680124000,
-          "time": "15:35:24",
-          "receivedAt": 1788686509174,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19169,6 +19178,28 @@
     "poly": {
       "channel": "PolyBeats_Bot",
       "items": [
+        {
+          "id": "1914",
+          "url": "https://t.me/PolyBeats_Bot/1914",
+          "title": "OpenAI 宣布 88 小时攻克难题，聪明钱预测 AI 年内再下一城",
+          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 是否有AI在今年内宣布解决另一个千禧年大奖难题？ 」投入 $2.0k「是」，平均买入概率为 51.2%，目前「是」概率为 64.5%。 Rumpelstiltskin 投入 $2.0k，与本市场最佳相关板块为 人工智能 ，板块净盈利 $23.7k。其在该板块共 182 笔已结算交易的胜率为 107/182（59%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 30 笔。相近成本价区间（$0.451-$0.6）内，其历史投入金额中位数为 $240。 千禧年大奖难题由克雷数学研究所于 2000 年设立，每道题奖金为 $1m。该市场要求符合资格的 AI 实验室在年内宣布解决黎曼猜想、P 与 NP、杨-米尔斯存在性与质量间隙、霍奇猜想或伯奇和斯温纳顿-戴尔猜想。局部成果和研究进展不计入，纳维-斯托克斯方程也被规则明确排除。实验室作出解决声明即可。 该账户主要利润来自 Claude 5 发布时间约 $6.9k、Grok 5 发布时间约 $3.9k、Astra 具体发布日期约 $3.6k，以及模型排行榜市场约 $3.6k；最大亏损来自 2 月最佳 AI 模型约...",
+          "tags": [],
+          "ts": 1789099384000,
+          "time": "12:03:04",
+          "receivedAt": 1789102238604,
+          "receivedTime": true
+        },
+        {
+          "id": "1913",
+          "url": "https://t.me/PolyBeats_Bot/1913",
+          "title": "押 Gemini 3 发布时间获利账户时隔一年回归，预测 Gemini 4 发布时间",
+          "body": "该账户曾在 2025 年底通过预测 Gemini 3 发布时间获利 $20k，且在盈利后提现 97% 资金，过去一年间仅以小仓位参与数十个市场交易。目前「 Gemini 4.0 于 11 月前发布 」的概率为 67.5%。 账户1 与本市场最佳相关板块为 Gemini ，板块净盈利 $20.0k。其在该板块共 8 笔已结算交易的胜率为 6/8（75%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 2 笔。",
+          "tags": [],
+          "ts": 1789094164000,
+          "time": "10:36:04",
+          "receivedAt": 1789102238604,
+          "receivedTime": true
+        },
         {
           "id": "1912",
           "url": "https://t.me/PolyBeats_Bot/1912",
@@ -20147,53 +20178,9 @@
           "time": "13:52:01",
           "receivedAt": 1787827193032,
           "receivedTime": true
-        },
-        {
-          "id": "1822",
-          "url": "https://t.me/PolyBeats_Bot/1822",
-          "title": "英伟达营收增长翻倍 vs 苹果发布折叠手机：聪明钱预测苹果市值反超英伟达，潜在利润超 10 倍",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 苹果会在 9 月 30 日收盘时成为全球市值最大的公司吗？ 」投入 $1.9k「是」，平均买入概率为 9.3%，目前「是」概率为 8.0%。 Hauchn 投入 $1.9k，与本市场最佳相关板块为 金融 ，板块净盈利 $305k。其在该板块共 166 笔已结算交易的胜率为 60/166（36%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 30 笔。相近成本价区间（$0.001-$0.15）内，其历史投入金额中位数为 $138，本笔投入为该中位数的 13.6 倍。 8 月 26 日，苹果股价上涨约 1.15%。直接催化是苹果确认将于 9 月 9 日举行特别活动；公司尚未公布产品清单，但市场普遍预期将发布新一代 iPhone，并可能推出首款折叠屏 iPhone。 英伟达当日常规交易时段下跌约 1.6%，更像财报前的高预期降仓，而非公司基本面突然恶化。市场担心 AI 数据中心数千亿美元资本开支能否持续产生回报，也关注英伟达通过投资、融资协助和担保支持 AI 客户扩张，是否会形成「循环融资」式需求；同时，高于预期的通胀数据也提高了年内加息预期，对高估值成长...",
-          "tags": [],
-          "ts": 1787805921000,
-          "time": "12:45:21",
-          "receivedAt": 1787827193032,
-          "receivedTime": true
-        },
-        {
-          "id": "1821",
-          "url": "https://t.me/PolyBeats_Bot/1821",
-          "title": "Gemini 4 新痕迹骤增至 120+ 个，科技聪明钱预测发布时间",
-          "body": "在预测市场 Polymarket 上，3 名聪明钱买入「 Gemini 4.0 是否会在 10 月前发布？ 」，目前「是」概率为 34.5%。 账户1 与本市场最佳相关板块为 科技 ，板块净盈利 $79.1k。其在该板块共 28 笔已结算交易的胜率为 22/28（79%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 17 笔。 账户2 与本市场最佳相关板块为 科技 ，板块净盈利 $74.5k。其在该板块共 84 笔已结算交易的胜率为 53/84（63%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 12 笔。 账户3 与本市场最佳相关板块为 科技 ，板块净盈利 $3.8k。其在该板块共 346 笔已结算交易的胜率为 218/346（63%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 41 笔。",
-          "tags": [],
-          "ts": 1787801941000,
-          "time": "11:39:01",
-          "receivedAt": 1787827193032,
-          "receivedTime": true
-        },
-        {
-          "id": "1820",
-          "url": "https://t.me/PolyBeats_Bot/1820",
-          "title": "PolyBeats pinned a photo",
-          "body": "",
-          "tags": [],
-          "ts": 1787796979000,
-          "time": "10:16:19",
-          "receivedAt": 1787827193032,
-          "receivedTime": true
-        },
-        {
-          "id": "1819",
-          "url": "https://t.me/PolyBeats_Bot/1819",
-          "title": "市场「《清晰法案》是否通过」的 5 名可疑新账户或为同一主体",
-          "body": "近期币圈行情回暖，政策面对于《清晰法案》的通过呼声越来越高。然而过去一个月以来，「 《清晰法案》在今年内签署成法 」的概率已从 38% 降至 14%。 通过分析，我们发现这轮概率下跌是因为 5 名完全没有任何其他交易的新账户在该市场不计成本地押注「否」。这 5 名账户目前包揽「否」持有者排行榜前六名中的 5 个名额，总持有份额占该市场总量的 68%。 该 5 名新账户的资金走向和交易画像非常相似： 1️⃣ 资金走向：中心化交易所 ➡️ 新链上钱包 (0.01 ETH Gas + 大额整数 USDC) ➡️ 通过 Relay 充值入金至 Polymarket 2️⃣ 交易画像：仅在此市场交易，且每个账户的买入模式都是 1 - 3 笔市价买单 该 5 名账户目前在此市场合计投入 $2.46M。若最终预测成功，合计利润 $609.3k。而这 5 名账户另一边的对手盘则聚集着几名 Polymarket 明星交易员，比如 ImJustKen 总盈利 $3.3M， AllByMyseIf 总盈利 $526k， GollumGekko 总盈利 $268k。 5 名新账户分别为： VelvetNova27 ， KatsuManager87...",
-          "tags": [],
-          "ts": 1787795998000,
-          "time": "09:59:58",
-          "receivedAt": 1787827193032,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
