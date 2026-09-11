@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T17:08:21.790Z",
+  "updatedAt": "2026-09-11T19:39:09.232Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1843,39 +1843,6 @@
           "time": "03:51:33",
           "receivedAt": 1787863508910,
           "receivedTime": true
-        },
-        {
-          "id": "7028",
-          "url": "https://t.me/BWEtradfi/7028",
-          "title": "消息称安特洛普公司（Anthropic）IPO可能会在9月下旬或10月上旬举行：The Information",
-          "body": "*ANTHROPIC IPO WOULD LIKELY BE HELD IN LATE SEPTEMBER OR EARLY OCTOBER: INFORMATION",
-          "tags": [],
-          "ts": 1787854412000,
-          "time": "02:13:32",
-          "receivedAt": 1787863508910,
-          "receivedTime": true
-        },
-        {
-          "id": "7027",
-          "url": "https://t.me/BWEtradfi/7027",
-          "title": "*Anthropico计划允许现有股东在即将进行的IPO中出售股票",
-          "body": "*ANTHROPIC PLANS TO LET EXISTING SHAREHOLDERS SELL STOCK IN ITS UPCOMING IPO *ANTHROPIC PLANS TO PUBLICLY UNVEIL ITS IPO PROSPECTUS AFTER LABOR DAY *Anthropico计划在劳动节后公开其IPO招股说明书",
-          "tags": [],
-          "ts": 1787854343000,
-          "time": "02:12:23",
-          "receivedAt": 1787863508910,
-          "receivedTime": true
-        },
-        {
-          "id": "7026",
-          "url": "https://t.me/BWEtradfi/7026",
-          "title": "特朗普表示将安大略湖更名为美国湖",
-          "body": "*TRUMP SAYS TO RENAME LAKE ONTARIO TO LAKE AMERICA",
-          "tags": [],
-          "ts": 1787851411000,
-          "time": "01:23:31",
-          "receivedAt": 1787863508910,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1883,6 +1850,50 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "233790",
+          "url": "https://t.me/jin10light/233790",
+          "title": "据伊朗媒体Fars News：伊朗外交部发言人表示，沙特、日本和约旦因支持针对伊朗的国际原子能机构决议，将面临后果。",
+          "body": "#伊朗 #沙特 #日本",
+          "tags": [
+            "#伊朗",
+            "#沙特",
+            "#日本"
+          ],
+          "ts": 1789155159000,
+          "time": "03:32:39",
+          "receivedAt": 1789155530408,
+          "receivedTime": true
+        },
+        {
+          "id": "233789",
+          "url": "https://t.me/jin10light/233789",
+          "title": "土耳其外交消息人士表示，土耳其外交部长在与沙特阿拉伯对口官员的通话中讨论了地区局势及对沙特的攻击。",
+          "body": "#土耳其 #沙特阿拉伯",
+          "tags": [
+            "#土耳其",
+            "#沙特阿拉伯"
+          ],
+          "ts": 1789152878000,
+          "time": "02:54:38",
+          "receivedAt": 1789155530408,
+          "receivedTime": true
+        },
+        {
+          "id": "233788",
+          "url": "https://t.me/jin10light/233788",
+          "title": "沙特能源部：利雅得和麦地那地区的“东西向输油管道”遭数次袭击后被暂时关闭。",
+          "body": "#沙特 #利雅得 #麦地那",
+          "tags": [
+            "#沙特",
+            "#利雅得",
+            "#麦地那"
+          ],
+          "ts": 1789151379000,
+          "time": "02:29:39",
+          "receivedAt": 1789155530408,
+          "receivedTime": true
+        },
         {
           "id": "233787",
           "url": "https://t.me/jin10light/233787",
@@ -19084,49 +19095,6 @@
           "ts": 1788792942000,
           "time": "22:55:42",
           "receivedAt": 1788803465847,
-          "receivedTime": true
-        },
-        {
-          "id": "232590",
-          "url": "https://t.me/jin10light/232590",
-          "title": "「BTC OG内幕巨鲸」以均价86.3美元抛售11.4万枚HYPE，获利157万美元",
-          "body": "#BTC #HYPE",
-          "tags": [
-            "#BTC",
-            "#HYPE"
-          ],
-          "ts": 1788792639000,
-          "time": "22:50:39",
-          "receivedAt": 1788803465847,
-          "receivedTime": true
-        },
-        {
-          "id": "232589",
-          "url": "https://t.me/jin10light/232589",
-          "title": "比特币短时跌破7.9万美元",
-          "body": "#BTC #HTX",
-          "tags": [
-            "#BTC",
-            "#HTX"
-          ],
-          "ts": 1788792222000,
-          "time": "22:43:42",
-          "receivedAt": 1788803466040,
-          "receivedTime": true
-        },
-        {
-          "id": "232588",
-          "url": "https://t.me/jin10light/232588",
-          "title": "「BTC OG 内幕巨鲸」平仓1.07亿美元BTC多单，获利102万美元，ZEC空单浮亏2400万美元",
-          "body": "#BTC #ZEC #Garrett Jin",
-          "tags": [
-            "#BTC",
-            "#ZEC",
-            "#Garrett"
-          ],
-          "ts": 1788791859000,
-          "time": "22:37:39",
-          "receivedAt": 1788803466040,
           "receivedTime": true
         }
       ],
