@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-09-12T18:44:58.089Z",
+  "updatedAt": "2026-09-12T20:58:50.489Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7204",
+          "url": "https://t.me/BWEtradfi/7204",
+          "title": "https://t.co/nfdGNtmJD3 https://t.co/7RXEQvlj2Z",
+          "body": "",
+          "tags": [],
+          "ts": 1789239444000,
+          "time": "02:57:24",
+          "receivedAt": 1789246717019,
+          "receivedTime": true
+        },
+        {
+          "id": "7203",
+          "url": "https://t.me/BWEtradfi/7203",
+          "title": "特斯拉暗示将于10月1日发布新品，未透露具体名称 $TSLA",
+          "body": "*TESLA TEASES LAUNCH ON OCT. 1 WITHOUT NAMING PRODUCT $TSLA",
+          "tags": [],
+          "ts": 1789238922000,
+          "time": "02:48:42",
+          "receivedAt": 1789246717019,
+          "receivedTime": true
+        },
         {
           "id": "7202",
           "url": "https://t.me/BWEtradfi/7202",
@@ -1667,24 +1689,57 @@
           "time": "05:45:42",
           "receivedAt": 1787964324077,
           "receivedTime": true
-        },
-        {
-          "id": "7052",
-          "url": "https://t.me/BWEtradfi/7052",
-          "title": "DB: 标普500指数收盘下跌0.2%，纳斯达克指数下跌0.5%",
-          "body": "DB: *S&P 500 CLOSES DOWN 0.2%, NASDAQ DECLINES 0.5%",
-          "tags": [],
-          "ts": 1787947213000,
-          "time": "04:00:13",
-          "receivedAt": 1787964324077,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "233872",
+          "url": "https://t.me/jin10light/233872",
+          "title": "奥尔特曼：OpenAI今年不会上市 仍有大量安全工作需要完成",
+          "body": "9月13日讯，OpenAI创始人奥尔特曼称，OpenAI今年不会上市，公司目前仍有大量安全工作需要完成。 自Anthropic一名员工辞职并就人工智能能力发出严厉警告以来，外界对人工智能可能引发“末日式情景”的担忧不断升温。 奥尔特曼此番表态正是在这一背景下作出。 奥尔特曼表示：“现在不是上市的合适时机。 我觉得，不会是2026年。 我们还有很多事情要做。 ”市场原本预计，OpenAI和Anthropic都可能在今年进行规模空前的IPO。 奥尔特曼的这一表态将是否上市的压力更多留给了Anthropic CEO达里奥·阿莫代伊，尤其是在阿莫代伊周六警告称...",
+          "tags": [
+            "#OpenAI",
+            "#奥尔特曼",
+            "#Anthropic"
+          ],
+          "ts": 1789241738000,
+          "time": "03:35:38",
+          "receivedAt": 1789246717444,
+          "receivedTime": true
+        },
+        {
+          "id": "233871",
+          "url": "https://t.me/jin10light/233871",
+          "title": "OpenAI创始人奥尔特曼：鉴于OpenAI还有很多安全方面的工作要做，公司今年不会上市。",
+          "body": "#OpenAI #奥尔特曼",
+          "tags": [
+            "#OpenAI",
+            "#奥尔特曼"
+          ],
+          "ts": 1789241439000,
+          "time": "03:30:39",
+          "receivedAt": 1789246717444,
+          "receivedTime": true
+        },
+        {
+          "id": "233870",
+          "url": "https://t.me/jin10light/233870",
+          "title": "Strategy发布《比特币投资者指南》：比特币正成为数字资本市场基石",
+          "body": "#BTC #Strategy #美国",
+          "tags": [
+            "#BTC",
+            "#Strategy",
+            "#美国"
+          ],
+          "ts": 1789239157000,
+          "time": "02:52:37",
+          "receivedAt": 1789246717444,
+          "receivedTime": true
+        },
         {
           "id": "233869",
           "url": "https://t.me/jin10light/233869",
@@ -18901,48 +18956,6 @@
           "ts": 1788836319000,
           "time": "10:58:39",
           "receivedAt": 1788846842114,
-          "receivedTime": true
-        },
-        {
-          "id": "232672",
-          "url": "https://t.me/jin10light/232672",
-          "title": "GPT-6 Astra自己打通《传送门》，折算成本571美元",
-          "body": "#GPT -6 Astra #Valve #《传送门》",
-          "tags": [
-            "#GPT",
-            "#Valve"
-          ],
-          "ts": 1788836197000,
-          "time": "10:56:37",
-          "receivedAt": 1788846842114,
-          "receivedTime": true
-        },
-        {
-          "id": "232671",
-          "url": "https://t.me/jin10light/232671",
-          "title": "港股应用软件股盘中大幅下挫，涂鸦智能( 02391.HK )跌超9.5%，MiniMax( 00100.HK )、微盟集团( 02013.HK )均跌进7%，智谱( 02513.HK )跌近6.5%，群核科技( 000...",
-          "body": "#港股 #应用软件股",
-          "tags": [
-            "#港股",
-            "#应用软件股"
-          ],
-          "ts": 1788836139000,
-          "time": "10:55:39",
-          "receivedAt": 1788846842348,
-          "receivedTime": true
-        },
-        {
-          "id": "232670",
-          "url": "https://t.me/jin10light/232670",
-          "title": "Hyperliquid过去24小时回购销毁15350枚HYPE，价值约132万美元",
-          "body": "#Hyperliquid #HYPE",
-          "tags": [
-            "#Hyperliquid",
-            "#HYPE"
-          ],
-          "ts": 1788835958000,
-          "time": "10:52:38",
-          "receivedAt": 1788846842348,
           "receivedTime": true
         }
       ],
