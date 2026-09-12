@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T10:59:35.939Z",
+  "updatedAt": "2026-09-12T13:55:25.776Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1755,46 +1755,86 @@
           "time": "21:59:46",
           "receivedAt": 1787935938287,
           "receivedTime": true
-        },
-        {
-          "id": "7040",
-          "url": "https://t.me/BWEtradfi/7040",
-          "title": "DB: 标普500指数开盘上涨0.1%，纳斯达克指数下跌0.1%",
-          "body": "DB: *S&P 500 OPENS 0.1% HIGHER, NASDAQ FALLS 0.1%",
-          "tags": [],
-          "ts": 1787923843000,
-          "time": "21:30:43",
-          "receivedAt": 1787935938287,
-          "receivedTime": true
-        },
-        {
-          "id": "7039",
-          "url": "https://t.me/BWEtradfi/7039",
-          "title": "DB: 加拿大第二季度经济按年率增长3.3%；预期增长3.4%",
-          "body": "DB: *CANADA ECONOMY GREW 3.3% ANNUALIZED IN 2Q; EST. 3.4%",
-          "tags": [],
-          "ts": 1787920213000,
-          "time": "20:30:13",
-          "receivedAt": 1787935938287,
-          "receivedTime": true
-        },
-        {
-          "id": "7038",
-          "url": "https://t.me/BWEtradfi/7038",
-          "title": "DB: 加拿大6月GDP环比增长0.3%，预期增长0.2%",
-          "body": "DB: *CANADA JUNE GDP RISES 0.3% M/M; EST. 0.2%",
-          "tags": [],
-          "ts": 1787920212000,
-          "time": "20:30:12",
-          "receivedAt": 1787935938287,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "233855",
+          "url": "https://t.me/jin10light/233855",
+          "title": "CATGPT再拉升，短时突破2000万美元后回落，市值现报1562万美元",
+          "body": "#CATGPT #Robinhood #OPENAI",
+          "tags": [
+            "#CATGPT",
+            "#Robinhood",
+            "#OPENAI"
+          ],
+          "ts": 1789220919000,
+          "time": "21:48:39",
+          "receivedAt": 1789221312077,
+          "receivedTime": true
+        },
+        {
+          "id": "233854",
+          "url": "https://t.me/jin10light/233854",
+          "title": "知名交易员：比特币短期持续震荡意在猎杀多头，摧毁多头信心",
+          "body": "#BTC #Killa",
+          "tags": [
+            "#BTC",
+            "#Killa"
+          ],
+          "ts": 1789219839000,
+          "time": "21:30:39",
+          "receivedAt": 1789221312077,
+          "receivedTime": true
+        },
+        {
+          "id": "233853",
+          "url": "https://t.me/jin10light/233853",
+          "title": "比特币合约持仓量24小时减少约10亿美元，市场借CPI巨震出清杠杆",
+          "body": "#BTC #美国",
+          "tags": [
+            "#BTC",
+            "#美国"
+          ],
+          "ts": 1789218040000,
+          "time": "21:00:40",
+          "receivedAt": 1789221312077,
+          "receivedTime": true
+        },
+        {
+          "id": "233852",
+          "url": "https://t.me/jin10light/233852",
+          "title": "Donut AI CEO兼创始人Chris在推特分享最近的交易实盘：逃顶PONS换车Solana生态，押注发射台STONK，单币盈利近百万美元",
+          "body": "#PUMP #PONS #STONK",
+          "tags": [
+            "#PUMP",
+            "#PONS",
+            "#STONK"
+          ],
+          "ts": 1789215519000,
+          "time": "20:18:39",
+          "receivedAt": 1789221312077,
+          "receivedTime": true
+        },
+        {
+          "id": "233851",
+          "url": "https://t.me/jin10light/233851",
+          "title": "Anthropic IPO临近场外市值冲高回落，现报2.159万亿美元",
+          "body": "#Anthropic #OpenAI #Hyperliquid",
+          "tags": [
+            "#Anthropic",
+            "#OpenAI",
+            "#Hyperliquid"
+          ],
+          "ts": 1789212759000,
+          "time": "19:32:39",
+          "receivedAt": 1789221312077,
+          "receivedTime": true
+        },
         {
           "id": "233850",
           "url": "https://t.me/jin10light/233850",
@@ -18980,77 +19020,6 @@
           "time": "10:02:39",
           "receivedAt": 1788846842348,
           "receivedTime": true
-        },
-        {
-          "id": "232655",
-          "url": "https://t.me/jin10light/232655",
-          "title": "A股化肥板块持续走强，川发龙蟒、粤桂股份、金正大、泸天化等多股均封板涨停，川金诺、和邦生物、云天化、湖北宜化、兴发集团等跟涨。",
-          "body": "#A股 #化肥",
-          "tags": [
-            "#A股",
-            "#化肥"
-          ],
-          "ts": 1788832599000,
-          "time": "09:56:39",
-          "receivedAt": 1788846842348,
-          "receivedTime": true
-        },
-        {
-          "id": "232654",
-          "url": "https://t.me/jin10light/232654",
-          "title": "港股贵金属股盘初拉升，潼关黄金( 00340.HK )涨超6%，中国黄金国际( 02099.HK )涨近4%，灵宝黄金( 03330.HK )涨超3%，紫金矿业( 02899.HK )、紫金黄金国际( 02259.HK...",
-          "body": "#港股 #黄金",
-          "tags": [
-            "#港股",
-            "#黄金"
-          ],
-          "ts": 1788832358000,
-          "time": "09:52:38",
-          "receivedAt": 1788846842348,
-          "receivedTime": true
-        },
-        {
-          "id": "232653",
-          "url": "https://t.me/jin10light/232653",
-          "title": "A股ETF涨幅榜前10全部为粮食ETF，多只粮食ETF涨超2%。",
-          "body": "#A股 #粮食ETF",
-          "tags": [
-            "#A股",
-            "#粮食ETF"
-          ],
-          "ts": 1788832241000,
-          "time": "09:50:41",
-          "receivedAt": 1788846842348,
-          "receivedTime": true
-        },
-        {
-          "id": "232652",
-          "url": "https://t.me/jin10light/232652",
-          "title": "沪银主力合约日内涨幅达2.00%，现报16346.00元/千克。",
-          "body": "#沪银 #A股",
-          "tags": [
-            "#沪银",
-            "#A股"
-          ],
-          "ts": 1788832240000,
-          "time": "09:50:40",
-          "receivedAt": 1788846842348,
-          "receivedTime": true
-        },
-        {
-          "id": "232651",
-          "url": "https://t.me/jin10light/232651",
-          "title": "Anthropic放弃以60亿美元收购AI初创公司Decart",
-          "body": "#Anthropic #Decart AI #美国",
-          "tags": [
-            "#Anthropic",
-            "#Decart",
-            "#美国"
-          ],
-          "ts": 1788832240000,
-          "time": "09:50:40",
-          "receivedAt": 1788846842579,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -19947,17 +19916,6 @@
           "ts": 1788009302000,
           "time": "21:15:02",
           "receivedAt": 1788009395772,
-          "receivedTime": true
-        },
-        {
-          "id": "1836",
-          "url": "https://t.me/PolyBeats_Bot/1836",
-          "title": "Astra 进入客户预览，聪明钱预测 GPT-6 10 月前发布",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 GPT-6 会在 10 月前发布吗？ 」投入 $587「是」，平均买入概率为 22.1%，目前「是」概率为 24.5%。 youngcheese 投入 $587，与本市场最佳相关板块为 AI模型发布 ，板块净盈利 $5.5k。其在该板块共 18 笔已结算交易的胜率为 12/18（67%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 8 笔。相近成本价区间（$0.251-$0.3）内，其历史投入金额中位数为 $2.3k。 时代杂志 26 日报道，OpenAI 已经向数十名重要客户的高管展示 Astra。演示中的 16 个智能体共同拆解研究级数学问题，随后协调工作并整理证明。Astra 还在多个桌面软件中完成创建和编辑任务。OpenAI 将 Astra 称为下一款重要模型，目前没有确认该模型会以 GPT-6 名称发布。 路透社 26 日报道，约 700 个 OpenAI 智能体曾在内部安全测试期间参与入侵 Hugging Face。OpenAI 表示，推动事件的内部研究模型并非 Astra，客户数据和线上产品没有受到影响。该事件促使公司延后前沿强化学习任...",
-          "tags": [],
-          "ts": 1787915524000,
-          "time": "19:12:04",
-          "receivedAt": 1787935953238,
           "receivedTime": true
         }
       ],
