@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T17:29:13.304Z",
+  "updatedAt": "2026-09-13T19:39:56.583Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1674,6 +1674,21 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "233951",
+          "url": "https://t.me/jin10light/233951",
+          "title": "特朗普称将取消对爱尔兰威士忌的关税。",
+          "body": "#特朗普 #爱尔兰 #威士忌",
+          "tags": [
+            "#特朗普",
+            "#爱尔兰",
+            "#威士忌"
+          ],
+          "ts": 1789321599000,
+          "time": "01:46:39",
+          "receivedAt": 1789328383675,
+          "receivedTime": true
+        },
         {
           "id": "233950",
           "url": "https://t.me/jin10light/233950",
@@ -18922,21 +18937,6 @@
           ],
           "ts": 1788853359000,
           "time": "15:42:39",
-          "receivedAt": 1788862402413,
-          "receivedTime": true
-        },
-        {
-          "id": "232751",
-          "url": "https://t.me/jin10light/232751",
-          "title": "津巴布韦已立即禁止锑和钨出口，此举是该国政府推动矿业公司在国内进一步加工更多矿产资源的一项措施。",
-          "body": "#津巴布韦 #锑 #钨",
-          "tags": [
-            "#津巴布韦",
-            "#锑",
-            "#钨"
-          ],
-          "ts": 1788853301000,
-          "time": "15:41:41",
           "receivedAt": 1788862402413,
           "receivedTime": true
         }
