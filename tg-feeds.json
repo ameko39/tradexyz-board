@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-09-15T18:33:56.697Z",
+  "updatedAt": "2026-09-15T21:42:25.197Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7232",
+          "url": "https://t.me/BWEtradfi/7232",
+          "title": "摩根大通的 PETNO：我们未看到大量来自机构对稳定币的需求",
+          "body": "*JPMORGAN'S PETNO: WE DONT SEE A LOT OF INSTITUTIONAL DEMAND FOR STABLECOINS",
+          "tags": [],
+          "ts": 1789499741000,
+          "time": "03:15:41",
+          "receivedAt": 1789508531593,
+          "receivedTime": true
+        },
+        {
+          "id": "7231",
+          "url": "https://t.me/BWEtradfi/7231",
+          "title": "*《澄清法案》在参议院获得41张反对票后受阻，投票仍在进行中",
+          "body": "*CLARITY ACT BLOCKED IN SENATE AFTER REACHING 41 'NO' VOTES, VOTING ONGOING $CRCL $CRCL",
+          "tags": [],
+          "ts": 1789497740000,
+          "time": "02:42:20",
+          "receivedAt": 1789508531593,
+          "receivedTime": true
+        },
+        {
+          "id": "7230",
+          "url": "https://t.me/BWEtradfi/7230",
+          "title": "Infinityhedge: PolyMarket上加密货币“清晰度法案”通过概率首次跌破10%：INFINITYHEDGE",
+          "body": "Infinityhedge: CRYPTO 'CLARITY ACT' ODDS DROPS BELOW 10% ON POLYMARKET FOR THE FIRST TIME: INFINITYHEDGE",
+          "tags": [],
+          "ts": 1789497382000,
+          "time": "02:36:22",
+          "receivedAt": 1789508531593,
+          "receivedTime": true
+        },
         {
           "id": "7229",
           "url": "https://t.me/BWEtradfi/7229",
@@ -1692,94 +1725,6 @@
           "time": "07:26:04",
           "receivedAt": 1788227519544,
           "receivedTime": true
-        },
-        {
-          "id": "7077",
-          "url": "https://t.me/BWEtradfi/7077",
-          "title": "DB: 标普500指数收盘下跌0.2%，纳斯达克指数下跌0.1%",
-          "body": "DB: *S&P 500 CLOSES 0.2% LOWER, NASDAQ DOWN 0.1%",
-          "tags": [],
-          "ts": 1788206413000,
-          "time": "04:00:13",
-          "receivedAt": 1788218421512,
-          "receivedTime": true
-        },
-        {
-          "id": "7076",
-          "url": "https://t.me/BWEtradfi/7076",
-          "title": "*TRUMP：利率过高",
-          "body": "*TRUMP: INTEREST RATES ARE TOO HIGH",
-          "tags": [],
-          "ts": 1788205727000,
-          "time": "03:48:47",
-          "receivedAt": 1788218421512,
-          "receivedTime": true
-        },
-        {
-          "id": "7075",
-          "url": "https://t.me/BWEtradfi/7075",
-          "title": "特朗普谈Wormhole：他将采取必要行动",
-          "body": "*TRUMP ON WARSH: HE'LL DO WHAT HE HAS TO DO",
-          "tags": [],
-          "ts": 1788205725000,
-          "time": "03:48:45",
-          "receivedAt": 1788218421512,
-          "receivedTime": true
-        },
-        {
-          "id": "7074",
-          "url": "https://t.me/BWEtradfi/7074",
-          "title": "特朗普谈伊朗：我们将拭目以待",
-          "body": "*TRUMP ON IRAN: WE'LL SEE WHAT HAPPENS",
-          "tags": [],
-          "ts": 1788205617000,
-          "time": "03:46:57",
-          "receivedAt": 1788218421512,
-          "receivedTime": true
-        },
-        {
-          "id": "7073",
-          "url": "https://t.me/BWEtradfi/7073",
-          "title": "*特朗普：大量石油正从霍尔木兹海峡运出",
-          "body": "*TRUMP: A LOT OF OIL COMING OUT OF HORMUZ *TRUMP: SHIPS CAME THROUGH HORMUZ LAST NIGHT WITH NAVY ASSIST *TRUMP: AVERAGING 30 SHIPS A NIGHT OUT OF HORMUZ *特朗普：昨晚在海军的协助下，多艘船只通过霍尔木兹海峡 *特朗普：平均每晚有30艘船只从霍尔木兹海峡驶出",
-          "tags": [],
-          "ts": 1788205610000,
-          "time": "03:46:50",
-          "receivedAt": 1788218421512,
-          "receivedTime": true
-        },
-        {
-          "id": "7072",
-          "url": "https://t.me/BWEtradfi/7072",
-          "title": "*特朗普：对伊朗的打击将受到限制",
-          "body": "*TRUMP: IRAN STRIKES WILL BE LIMITED *TRUMP: STRAIT OF HORMUZ IN EXTREMELY GOOD SHAPE *特朗普：霍尔木兹海峡状况极佳",
-          "tags": [],
-          "ts": 1788205564000,
-          "time": "03:46:04",
-          "receivedAt": 1788218421512,
-          "receivedTime": true
-        },
-        {
-          "id": "7071",
-          "url": "https://t.me/BWEtradfi/7071",
-          "title": "Infinityhedge: 朝鲜黑客正通过HYPERLIQUID转移资金，过去三周在该衍生品交易平台抛售了价值超3000万美元的比特币：COINDESK",
-          "body": "Infinityhedge: NORTH KOREAN HACKERS ARE MOVING MONEY THROUGH HYPERLIQUID, SELLING MORE THAN $30 MILLION IN BITCOIN ON THE DERIVATIVES TRADING PLATFORM IN THE PAST THREE WEEKS: COINDESK",
-          "tags": [],
-          "ts": 1788202926000,
-          "time": "03:02:06",
-          "receivedAt": 1788205022008,
-          "receivedTime": true
-        },
-        {
-          "id": "7070",
-          "url": "https://t.me/BWEtradfi/7070",
-          "title": "*META 正式发布人工智能编程工具“Muse Code”：扎克伯格",
-          "body": "*META LAUNCHES AI CODING TOOL 'MUSE CODE' OUT OF BETA: ZUCKERBERG *META ROLLS OUT MONTHLY PAID SUBSCRIPTION PLANS FOR MUSE CODE: ZUCKERBERG $META *META 推出 Muse Code 月度付费订阅计划：扎克伯格 $META",
-          "tags": [],
-          "ts": 1788202863000,
-          "time": "03:01:03",
-          "receivedAt": 1788205022008,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1787,6 +1732,221 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "234484",
+          "url": "https://t.me/jin10light/234484",
+          "title": "整理：中东局势跟踪（9月16日）",
+          "body": "冲突情况ï 1.沙特此前在塔伊夫、麦加和吉达地区启动早期预警系统，目前危险已经解除。 2. 据以色列i24News记者报道，沙特首次向圣城麦加发布早期预警警报。 3. 美官员称美军周一摧毁了两艘伊朗小型船只。 此前，伊朗革命卫队试图夺取一架正在海峡巡逻的美军无人机。 4. 伊媒：伊朗革命卫队空军在霍尔木兹海峡上空击落第三架美国无人机。 5. 胡塞武装称也门24小时内遭沙特52次空袭。 6. 伊拉克消息人士称，伊拉克埃尔比勒发生爆炸事件。 霍尔木兹海峡ï 1.英国海事贸易行动办公室：已收到一份关于霍尔木兹海峡内发生一起事件的延迟报告。 有可靠消息来源报告...",
+          "tags": [
+            "#霍尔木兹海峡",
+            "#伊朗",
+            "#美国"
+          ],
+          "ts": 1789508020000,
+          "time": "05:33:40",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234483",
+          "url": "https://t.me/jin10light/234483",
+          "title": "美国至9月11日当周API原油库存 714.4万桶，预期-175万桶，前值-32.7万桶。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1789505559000,
+          "time": "04:52:39",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234482",
+          "url": "https://t.me/jin10light/234482",
+          "title": "《CLARITY法案》法案并未「死去」，参议员John Kennedy称或推迟至跛脚鸭会议再推进",
+          "body": "#美国 #CLARITY法案 #John Kennedy",
+          "tags": [
+            "#美国",
+            "#CLARITY法案",
+            "#John"
+          ],
+          "ts": 1789504600000,
+          "time": "04:36:40",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234481",
+          "url": "https://t.me/jin10light/234481",
+          "title": "Lummis：民主党「选择政治而非美国人民」，将美国加密领导地位拱手让给海外竞争者",
+          "body": "#美国 #Cynthia Lummis #加密货币",
+          "tags": [
+            "#美国",
+            "#Cynthia",
+            "#加密货币"
+          ],
+          "ts": 1789504177000,
+          "time": "04:29:37",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234480",
+          "url": "https://t.me/jin10light/234480",
+          "title": "美众议院议长：AI领域的大人物们将赴白宫参加重要会议",
+          "body": "9月16日讯，美国众议院议长约翰逊表示，他在当地时间周一晚上与特朗普进行了通话，他们正召集人工智能供应商的高管（“所有你知道的大人物”）在未来一周内前往白宫参加一场重要会议。 约翰逊表示，为AI设置护栏的方式必须平衡且深思熟虑。 “我认为需要独立审计机构，开发这项技术的人需要保持透明。 有一些非常重要的构想可以作为护栏，”他说。 #美国 #特朗普 #AI",
+          "tags": [
+            "#美国",
+            "#特朗普",
+            "#AI"
+          ],
+          "ts": 1789504058000,
+          "time": "04:27:38",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234479",
+          "url": "https://t.me/jin10light/234479",
+          "title": "美国至9月11日当周API原油库存将于十分钟后公布。",
+          "body": "#美国 #原油库存",
+          "tags": [
+            "#美国",
+            "#原油库存"
+          ],
+          "ts": 1789503697000,
+          "time": "04:21:37",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234478",
+          "url": "https://t.me/jin10light/234478",
+          "title": "江卓尔：已在76,012美元全部买回此前抛售的比特币仓位",
+          "body": "#BTC #江卓尔 #莱比特矿池",
+          "tags": [
+            "#BTC",
+            "#江卓尔",
+            "#莱比特矿池"
+          ],
+          "ts": 1789503639000,
+          "time": "04:20:39",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234477",
+          "url": "https://t.me/jin10light/234477",
+          "title": "美股收盘：三大股指收跌 金龙指数跌超1%",
+          "body": "9月16日讯，美股周二收盘，道指初步收跌0.6%，标普500指数跌0.45%，纳指跌0.78%。 高通(QCOM.O)涨4%，甲骨文(ORCL.N)跌3%，SK海力士(SKHY.O)跌0.4%。 纳斯达克中国金龙指数收跌1.1%，小鹏汽车(XPEV.N)跌4.5%。 #美股 #小鹏汽车",
+          "tags": [
+            "#美股",
+            "#小鹏汽车"
+          ],
+          "ts": 1789502559000,
+          "time": "04:02:39",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234476",
+          "url": "https://t.me/jin10light/234476",
+          "title": "《CLARITY法案》未获通过，短期内推进仍有较大阻力",
+          "body": "#美国 #CLARITY法案 #Cynthia Lummis",
+          "tags": [
+            "#美国",
+            "#CLARITY法案",
+            "#Cynthia"
+          ],
+          "ts": 1789499801000,
+          "time": "03:16:41",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234475",
+          "url": "https://t.me/jin10light/234475",
+          "title": "50:50落幕丨《CLARITY法案》推进受阻未获通过",
+          "body": "#CLARITY 法案 #美国 #参议院",
+          "tags": [
+            "#CLARITY",
+            "#美国",
+            "#参议院"
+          ],
+          "ts": 1789499079000,
+          "time": "03:04:39",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234474",
+          "url": "https://t.me/jin10light/234474",
+          "title": "比特币回升突破7.6万美元",
+          "body": "",
+          "tags": [],
+          "ts": 1789498418000,
+          "time": "02:53:38",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234473",
+          "url": "https://t.me/jin10light/234473",
+          "title": "美国柴油期货收盘创下历史新高。",
+          "body": "#美国 #柴油期货",
+          "tags": [
+            "#美国",
+            "#柴油期货"
+          ],
+          "ts": 1789498238000,
+          "time": "02:50:38",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234472",
+          "url": "https://t.me/jin10light/234472",
+          "title": "反对票达43张，《CLARITY法案》基本确认无法通过本次投票",
+          "body": "#CLARITY 法案 #美国",
+          "tags": [
+            "#CLARITY",
+            "#美国"
+          ],
+          "ts": 1789498118000,
+          "time": "02:48:38",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234471",
+          "url": "https://t.me/jin10light/234471",
+          "title": "41:40丨《CLARITY法案》投票进入最后阶段",
+          "body": "#CLARITY 法案 #美国",
+          "tags": [
+            "#CLARITY",
+            "#美国"
+          ],
+          "ts": 1789497817000,
+          "time": "02:43:37",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
+        {
+          "id": "234470",
+          "url": "https://t.me/jin10light/234470",
+          "title": "《CLARITY法案》投票焦灼，比特币短时再度跌破7.6万美元",
+          "body": "#BTC #CLARITY法案 #美国",
+          "tags": [
+            "#BTC",
+            "#CLARITY法案",
+            "#美国"
+          ],
+          "ts": 1789497698000,
+          "time": "02:41:38",
+          "receivedAt": 1789508532082,
+          "receivedTime": true
+        },
         {
           "id": "234469",
           "url": "https://t.me/jin10light/234469",
@@ -18844,222 +19004,6 @@
           "ts": 1789021903000,
           "time": "14:31:43",
           "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233284",
-          "url": "https://t.me/jin10light/233284",
-          "title": "国模王座又换人？DeepSeek 一个 Flash 打回巅峰",
-          "body": "#Kimi #智谱 #DeepSeek",
-          "tags": [
-            "#Kimi",
-            "#智谱",
-            "#DeepSeek"
-          ],
-          "ts": 1789021902000,
-          "time": "14:31:42",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233283",
-          "url": "https://t.me/jin10light/233283",
-          "title": "MINIMAX近7日蒸发四分之一，这轮下跌是否已触及早期多头判断底线？",
-          "body": "#MINIMAX #Hyperliquid",
-          "tags": [
-            "#MINIMAX",
-            "#Hyperliquid"
-          ],
-          "ts": 1789021902000,
-          "time": "14:31:42",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233282",
-          "url": "https://t.me/jin10light/233282",
-          "title": "LAPTOP多签地址于代币上线前分发4250万枚代币，部分已抛售获利",
-          "body": "#LAPTOP #GSR #Hunter Biden",
-          "tags": [
-            "#LAPTOP",
-            "#GSR",
-            "#Hunter"
-          ],
-          "ts": 1789021780000,
-          "time": "14:29:40",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233281",
-          "url": "https://t.me/jin10light/233281",
-          "title": "港股应用软件、AI模型股持续大幅下挫，MiniMax跌超9%",
-          "body": "#港股 #群核科技 #智谱",
-          "tags": [
-            "#港股",
-            "#群核科技",
-            "#智谱"
-          ],
-          "ts": 1789021478000,
-          "time": "14:24:38",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233280",
-          "url": "https://t.me/jin10light/233280",
-          "title": "DeepSeek模型大一统：聊天和API暂时全归V4.1 Flash",
-          "body": "#DeepSeek #V4 .1 Flash #V4 Pro",
-          "tags": [
-            "#DeepSeek",
-            "#V4"
-          ],
-          "ts": 1789021423000,
-          "time": "14:23:43",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233279",
-          "url": "https://t.me/jin10light/233279",
-          "title": "VVV异军突起，盈利榜前十最新操作曝光",
-          "body": "#VVV #隐私赛道",
-          "tags": [
-            "#VVV",
-            "#隐私赛道"
-          ],
-          "ts": 1789021422000,
-          "time": "14:23:42",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233278",
-          "url": "https://t.me/jin10light/233278",
-          "title": "港股应用软件股持续大幅下挫，群核科技( 00068.HK )、智谱( 02513.HK )、云知声( 09678.HK )均跌超10%，MiniMax( 00100.HK )跌超9%，迈富时( 02556.HK )、金...",
-          "body": "#港股 #应用软件股",
-          "tags": [
-            "#港股",
-            "#应用软件股"
-          ],
-          "ts": 1789021061000,
-          "time": "14:17:41",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233277",
-          "url": "https://t.me/jin10light/233277",
-          "title": "DeepSeek V4.1 Flash正式发布：552B新架构，输入只激活8B",
-          "body": "#DeepSeek #V4 .1 Flash",
-          "tags": [
-            "#DeepSeek",
-            "#V4"
-          ],
-          "ts": 1789020639000,
-          "time": "14:10:39",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233276",
-          "url": "https://t.me/jin10light/233276",
-          "title": "美前总统拜登之子Hunter Biden发币后寻求与Base主要成员公开互动，遭遇「冷暴力」",
-          "body": "#Hunter Biden #LAPTOP #Base",
-          "tags": [
-            "#Hunter",
-            "#LAPTOP",
-            "#Base"
-          ],
-          "ts": 1789020457000,
-          "time": "14:07:37",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233275",
-          "url": "https://t.me/jin10light/233275",
-          "title": "DeepSeek V4.1 Flash模型正式发布",
-          "body": "9月10日讯，9月10日，DeepSeek正式发布DeepSeek V4.1 Flash模型。 这是公司全新模型结构系列中的最小尺寸的模型，具备原生多模态视觉理解能力。 据介绍，新一代模型大幅减少了KV Cache缓存的大小，与上一代模型相比，对HBM的需求减少到1/4，对SSD的需求减少到1/8。 在Agent使用场景中，缓存命中的费用往往占比较高，对KV Cache的压缩大幅降低了Agent类任务的使用成本。 #DeepSeek #DeepSeek V4.1 Flash",
-          "tags": [
-            "#DeepSeek"
-          ],
-          "ts": 1789020398000,
-          "time": "14:06:38",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233274",
-          "url": "https://t.me/jin10light/233274",
-          "title": "金十整理：欧洲央行决议前瞻——加息几无悬念，后续路径才是更大看点",
-          "body": "1.高盛集团：欧洲央行预计将加息25个基点，基准预测仍是在9月加息后结束本轮紧缩周期。 但若能源价格持续高企、通胀明显走强，且美联储在未来数月加息，则12月继续加息的风险将持续上升。 2. 荷兰国际：欧洲央行预计将加息25个基点，但会是一次偏鸽派的加息，或者至少在加息后释放的信号不足以支持市场目前计入的进一步收紧预期。 3. 丰业银行：欧洲央行预计将加息25个基点，同时维持相对鹰派的政策基调，以遏制能源驱动的通胀风险并缓解价格压力。 4. 路透调查：欧洲央行预计将加息25个基点，之后将停止加息，到2026年底，存款利率将维持在2.50%。 5. 丹斯克...",
-          "tags": [
-            "#欧洲央行",
-            "#拉加德",
-            "#美联储"
-          ],
-          "ts": 1789020279000,
-          "time": "14:04:39",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233273",
-          "url": "https://t.me/jin10light/233273",
-          "title": "Binance将于9月24日下架USDP",
-          "body": "#Binance #USDP #稳定币",
-          "tags": [
-            "#Binance",
-            "#USDP",
-            "#稳定币"
-          ],
-          "ts": 1789020097000,
-          "time": "14:01:37",
-          "receivedAt": 1789034652364,
-          "receivedTime": true
-        },
-        {
-          "id": "233272",
-          "url": "https://t.me/jin10light/233272",
-          "title": "A股白酒板块走势疲软，古井贡酒、金种子酒、迎驾贡酒、舍得酒业等多股跌超3%，酒鬼酒、老白干等跟跌。",
-          "body": "#A股 #白酒",
-          "tags": [
-            "#A股",
-            "#白酒"
-          ],
-          "ts": 1789020040000,
-          "time": "14:00:40",
-          "receivedAt": 1789034652364,
-          "receivedTime": true
-        },
-        {
-          "id": "233271",
-          "url": "https://t.me/jin10light/233271",
-          "title": "德国8月CPI月率终值 0.2%，预期0.2%，前值0.20%。",
-          "body": "#德国 #CPI",
-          "tags": [
-            "#德国",
-            "#CPI"
-          ],
-          "ts": 1789020040000,
-          "time": "14:00:40",
-          "receivedAt": 1789034652364,
-          "receivedTime": true
-        },
-        {
-          "id": "233270",
-          "url": "https://t.me/jin10light/233270",
-          "title": "国际能源署（IEA）：由于中东冲突，预计2026年全球煤炭需求将增长1.2%，达到创纪录的89.4亿吨。",
-          "body": "#国际能源署 #中东 #煤炭",
-          "tags": [
-            "#国际能源署",
-            "#中东",
-            "#煤炭"
-          ],
-          "ts": 1789019799000,
-          "time": "13:56:39",
-          "receivedAt": 1789034652364,
           "receivedTime": true
         }
       ],
