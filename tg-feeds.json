@@ -1,11 +1,25 @@
 {
-  "updatedAt": "2026-09-15T14:54:04.486Z",
+  "updatedAt": "2026-09-15T18:33:56.697Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7229",
+          "url": "https://t.me/BWEtradfi/7229",
+          "title": "*两名 Robinhood 员工因涉嫌加密货币内幕交易被起诉：美国纽约南区联邦检察官办公室",
+          "body": "*TWO ROBINHOOD EMPLOYEES CHARGED IN CRYPTO INSIDER TRADING SCHEME: US SDNY *ROBINHOOD ENGINEERS TRADED HYPERLIQUID PERPETUALS AHEAD OF TOKEN LISTINGS: DOJ #HOOD • #HYPD *Robinhood 工程师在代币上市前交易了超流动性永续合约：美国司法部 #HOOD • #HYPD",
+          "tags": [
+            "#HOOD",
+            "#HYPD"
+          ],
+          "ts": 1789491247000,
+          "time": "00:54:07",
+          "receivedAt": 1789497222523,
+          "receivedTime": true
+        },
         {
           "id": "7228",
           "url": "https://t.me/BWEtradfi/7228",
@@ -1766,39 +1780,6 @@
           "time": "03:01:03",
           "receivedAt": 1788205022008,
           "receivedTime": true
-        },
-        {
-          "id": "7069",
-          "url": "https://t.me/BWEtradfi/7069",
-          "title": "*据AXIOS报道，特朗普正在权衡对伊朗进行有限打击以遏制霍尔木兹海峡袭击",
-          "body": "*TRUMP WEIGHING LIMITED STRIKES AGAINST IRAN TO CURB HORMUZ ATTACKS: AXIOS *CENTCOM DEVELOPED THE STRIKE PLAN TO PREVENT IRAN FROM REBUILDING RADAR AND MISSILE CAPABILITIES *DEFENSE SECRETARY PETE HEGSETH SUPPORTS THE PLAN FOLLOWING RECENT IRANIAN MISSILE ATTACKS ON U.S. BASES *中央司令部制定打击计划，旨在阻止伊朗重建...",
-          "tags": [],
-          "ts": 1788199381000,
-          "time": "02:03:01",
-          "receivedAt": 1788205022008,
-          "receivedTime": true
-        },
-        {
-          "id": "7068",
-          "url": "https://t.me/BWEtradfi/7068",
-          "title": "*据《华尔街日报》报道，联邦贸易委员会（FTC）将指控亚马逊操纵商家在其零售平台上投放广告的价格。",
-          "body": "*FTC WILL ALLEGE AMAZON MANIPULATED PRICES BUSINESSES PAID TO ADVERTISE ON ITS RETAIL PLATFORM, OFFICIALS SAY: WSJ *AMAZON'S ACTIONS EARNED COMPANY TENS OF BILLIONS OF DOLLARS OVER SEVEN YEARS, OFFICIALS SAY: WSJ $AMZN *据《华尔街日报》报道，亚马逊的这些行为在七年内为其带来了数百亿美元的收入。 $AMZN",
-          "tags": [],
-          "ts": 1788199242000,
-          "time": "02:00:42",
-          "receivedAt": 1788205022008,
-          "receivedTime": true
-        },
-        {
-          "id": "7067",
-          "url": "https://t.me/BWEtradfi/7067",
-          "title": "据《华尔街日报》报道，联邦贸易委员会官员称，计划于周一提起针对亚马逊的诉讼。",
-          "body": "*FEDERAL TRADE COMMISSION PLANS TO FILE LAWSUIT AGAINST AMAZON ON MONDAY, OFFICIALS SAY: WSJ $AMZN $AMZN",
-          "tags": [],
-          "ts": 1788199208000,
-          "time": "02:00:08",
-          "receivedAt": 1788205022008,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1806,6 +1787,406 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "234469",
+          "url": "https://t.me/jin10light/234469",
+          "title": "美国原油期货结算价为每桶105.83美元，上涨4.44美元，涨幅4.38%。",
+          "body": "#美国 #美元",
+          "tags": [
+            "#美国",
+            "#美元"
+          ],
+          "ts": 1789497102000,
+          "time": "02:31:42",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234468",
+          "url": "https://t.me/jin10light/234468",
+          "title": "参议院投票前夕，沃伦警告现版本《CLARITY法案》未能约束政治人物的特殊获利渠道",
+          "body": "#美国 #伊丽莎白·沃伦 #特朗普",
+          "tags": [
+            "#美国",
+            "#伊丽莎白",
+            "#特朗普"
+          ],
+          "ts": 1789497101000,
+          "time": "02:31:41",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234467",
+          "url": "https://t.me/jin10light/234467",
+          "title": "两名Robinhood员工因涉嫌内幕交易被起诉，涉案人员在上币前通过Hyperliquid布局",
+          "body": "#美国 #Robinhood #Hyperliquid",
+          "tags": [
+            "#美国",
+            "#Robinhood",
+            "#Hyperliquid"
+          ],
+          "ts": 1789491399000,
+          "time": "00:56:39",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234466",
+          "url": "https://t.me/jin10light/234466",
+          "title": "《CLARITY法案》前瞻：参议院程序性表决在即，共和党让步后，加密立法能否跨过60票进入正轨？",
+          "body": "#美国 #BTC #稳定币",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#稳定币"
+          ],
+          "ts": 1789489782000,
+          "time": "00:29:42",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234465",
+          "url": "https://t.me/jin10light/234465",
+          "title": "WTI原油日内大涨4.00%，现报101.92美元/桶。",
+          "body": "",
+          "tags": [],
+          "ts": 1789488998000,
+          "time": "00:16:38",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234464",
+          "url": "https://t.me/jin10light/234464",
+          "title": "贝森特国会证词：力挺债市与经济前景，5000美元支付构想再添财政变量",
+          "body": "#美国 #美元 #特朗普",
+          "tags": [
+            "#美国",
+            "#美元",
+            "#特朗普"
+          ],
+          "ts": 1789488881000,
+          "time": "00:14:41",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234463",
+          "url": "https://t.me/jin10light/234463",
+          "title": "今日重点关注的财经数据与事件：2026年9月16日 周三",
+          "body": "① 04:30 美国至9月11日当周API原油库存 ② 14:00 英国8月CPI月率 ③ 14:00 英国8月零售物价指数月率 ④ 15:00 欧盟委员会主席冯德莱恩发表盟情咨文 ⑤ 15:00 加拿大总理卡尼出席冯德莱恩的演讲 ⑥ 17:00 欧元区7月工业产出月率 ⑦ 20:30 美国8月零售销售月率 ⑧ 20:30 美国8月进口物价指数月率 ⑨ 22:00 美国9月NAHB房产市场指数 ⑩ 22:00 美国7月商业库存月率 ⑪ 22:30 美国至9月11日当周EIA原油库存 ⑫ 22:30 美国至9月11日当周EIA库欣原油库存 ⑬ 22:30...",
+          "tags": [
+            "#美国",
+            "#英国",
+            "#欧元区"
+          ],
+          "ts": 1789488107000,
+          "time": "00:01:47",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234462",
+          "url": "https://t.me/jin10light/234462",
+          "title": "WTI原油期货向上触及105美元/桶，创下5月以来新高，日内涨3.05%。",
+          "body": "#WTI原油 #美元",
+          "tags": [
+            "#WTI原油",
+            "#美元"
+          ],
+          "ts": 1789488037000,
+          "time": "00:00:37",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234461",
+          "url": "https://t.me/jin10light/234461",
+          "title": "美国财长贝森特：我们不为收益率水平设定均衡价格。",
+          "body": "#美国 #贝森特",
+          "tags": [
+            "#美国",
+            "#贝森特"
+          ],
+          "ts": 1789487979000,
+          "time": "23:59:39",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234460",
+          "url": "https://t.me/jin10light/234460",
+          "title": "美财长贝森特：美元的坚挺是基于信誉和政策确定性",
+          "body": "#美国 #美元 #贝森特",
+          "tags": [
+            "#美国",
+            "#美元",
+            "#贝森特"
+          ],
+          "ts": 1789487858000,
+          "time": "23:57:38",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234459",
+          "url": "https://t.me/jin10light/234459",
+          "title": "贝森特：财政部的美债回购行动取得成功",
+          "body": "9月15日讯，美国财长贝森特周二表示，财政部近期对长期美国国债的回购行动取得了成功，并指出在干预后的两次拍卖中，美国国债的需求旺盛。 尽管贝森特曾将回购描述为一种注入流动性、遏制债券收益率上升的手段——因为债券收益率上升正推高政府的债务偿还成本——但在财政部上周进行了一次最大规模的回购后，美国国债收益率仍出现上涨。 “我们可以设想一下如果当初没有采取这些措施会怎样，而我们随后却迎来了20年来最成功的两次国债拍卖，”贝森特在国会听证会上表示。 “自总统特朗普上任以来，（美国债券市场）一直是发达国家中表现最佳的债券市场。 ” #美国 #美国财政部 #特朗普",
+          "tags": [
+            "#美国",
+            "#美国财政部",
+            "#特朗普"
+          ],
+          "ts": 1789487741000,
+          "time": "23:55:41",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234458",
+          "url": "https://t.me/jin10light/234458",
+          "title": "美国能源部长赖特：我认为（沙特）东西管道将很快恢复运行。",
+          "body": "#美国 #沙特 #赖特",
+          "tags": [
+            "#美国",
+            "#沙特",
+            "#赖特"
+          ],
+          "ts": 1789487497000,
+          "time": "23:51:37",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234457",
+          "url": "https://t.me/jin10light/234457",
+          "title": "美国财长贝森特：我们一直就日本干预问题保持持续对话。",
+          "body": "#美国 #日本 #贝森特",
+          "tags": [
+            "#美国",
+            "#日本",
+            "#贝森特"
+          ],
+          "ts": 1789487451000,
+          "time": "23:50:51",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234456",
+          "url": "https://t.me/jin10light/234456",
+          "title": "美财长贝森特：美国在日元干预中赚取了数千万美元",
+          "body": "",
+          "tags": [],
+          "ts": 1789487451000,
+          "time": "23:50:51",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234455",
+          "url": "https://t.me/jin10light/234455",
+          "title": "伊朗革命卫队郑重声明：霍尔木兹海峡已被封锁",
+          "body": "",
+          "tags": [],
+          "ts": 1789486719000,
+          "time": "23:38:39",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234454",
+          "url": "https://t.me/jin10light/234454",
+          "title": "据国际文传电讯社：俄罗斯国防部称，俄罗斯军队袭击了乌克兰伊兹梅尔港的一艘油轮。",
+          "body": "#俄罗斯 #乌克兰 #伊兹梅尔港",
+          "tags": [
+            "#俄罗斯",
+            "#乌克兰",
+            "#伊兹梅尔港"
+          ],
+          "ts": 1789486598000,
+          "time": "23:36:38",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234453",
+          "url": "https://t.me/jin10light/234453",
+          "title": "美国财长贝森特：财政部的债券回购干预取得了成功。",
+          "body": "#美国 #贝森特 #财政部",
+          "tags": [
+            "#美国",
+            "#贝森特",
+            "#财政部"
+          ],
+          "ts": 1789486541000,
+          "time": "23:35:41",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234452",
+          "url": "https://t.me/jin10light/234452",
+          "title": "伊朗革命卫队：革命卫队海军郑重声明，霍尔木兹海峡已被封锁，并处于我们的控制之下，任何进入不安全航线的船只都将会发生事故。",
+          "body": "#伊朗 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1789486478000,
+          "time": "23:34:38",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234451",
+          "url": "https://t.me/jin10light/234451",
+          "title": "欧莱雅在周二收盘时市值超过LVMH，成为法国市值最高的上市公司。",
+          "body": "#欧莱雅 #LVMH #法国",
+          "tags": [
+            "#欧莱雅",
+            "#LVMH",
+            "#法国"
+          ],
+          "ts": 1789486358000,
+          "time": "23:32:38",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234450",
+          "url": "https://t.me/jin10light/234450",
+          "title": "trade.xyz上线2倍做多闪迪ETF (SNXX)",
+          "body": "#trade .xyz #SNXX",
+          "tags": [
+            "#trade",
+            "#SNXX"
+          ],
+          "ts": 1789485582000,
+          "time": "23:19:42",
+          "receivedAt": 1789497223528,
+          "receivedTime": true
+        },
+        {
+          "id": "234449",
+          "url": "https://t.me/jin10light/234449",
+          "title": "WTI原油期货日内大涨3.00%，现报104.95美元/桶。",
+          "body": "#WTI原油 #美元",
+          "tags": [
+            "#WTI原油",
+            "#美元"
+          ],
+          "ts": 1789485338000,
+          "time": "23:15:38",
+          "receivedAt": 1789497223707,
+          "receivedTime": true
+        },
+        {
+          "id": "234448",
+          "url": "https://t.me/jin10light/234448",
+          "title": "贝森特：美元的坚挺是基于信誉和政策确定性",
+          "body": "#美国 #美元 #贝森特",
+          "tags": [
+            "#美国",
+            "#美元",
+            "#贝森特"
+          ],
+          "ts": 1789485279000,
+          "time": "23:14:39",
+          "receivedAt": 1789497223707,
+          "receivedTime": true
+        },
+        {
+          "id": "234447",
+          "url": "https://t.me/jin10light/234447",
+          "title": "「麻吉」今日累计减仓约1.25亿美元，已清仓BTC与HYPE多单",
+          "body": "#BTC #ETH #HYPE",
+          "tags": [
+            "#BTC",
+            "#ETH",
+            "#HYPE"
+          ],
+          "ts": 1789485224000,
+          "time": "23:13:44",
+          "receivedAt": 1789497223707,
+          "receivedTime": true
+        },
+        {
+          "id": "234446",
+          "url": "https://t.me/jin10light/234446",
+          "title": "Bitwise CIO：美国正为短期政治得分牺牲加密市场安全与投资机会",
+          "body": "#美国 #BTC #Matt Hougan",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#Matt"
+          ],
+          "ts": 1789485224000,
+          "time": "23:13:44",
+          "receivedAt": 1789497223707,
+          "receivedTime": true
+        },
+        {
+          "id": "234445",
+          "url": "https://t.me/jin10light/234445",
+          "title": "美国财长贝森特：致力于保持国债市场的稳健与深度。",
+          "body": "#美国 #贝森特",
+          "tags": [
+            "#美国",
+            "#贝森特"
+          ],
+          "ts": 1789484320000,
+          "time": "22:58:40",
+          "receivedAt": 1789497223707,
+          "receivedTime": true
+        },
+        {
+          "id": "234444",
+          "url": "https://t.me/jin10light/234444",
+          "title": "据福克斯新闻：美国众议院议长约翰逊称，人工智能公司高管预计将在未来一周内前往白宫。",
+          "body": "#美国 #约翰逊 #白宫",
+          "tags": [
+            "#美国",
+            "#约翰逊",
+            "#白宫"
+          ],
+          "ts": 1789484263000,
+          "time": "22:57:43",
+          "receivedAt": 1789497223707,
+          "receivedTime": true
+        },
+        {
+          "id": "234443",
+          "url": "https://t.me/jin10light/234443",
+          "title": "美国众议院议长约翰逊：我们不能暂停人工智能的发展。",
+          "body": "#美国 #约翰逊 #人工智能",
+          "tags": [
+            "#美国",
+            "#约翰逊",
+            "#人工智能"
+          ],
+          "ts": 1789484138000,
+          "time": "22:55:38",
+          "receivedAt": 1789497223707,
+          "receivedTime": true
+        },
+        {
+          "id": "234442",
+          "url": "https://t.me/jin10light/234442",
+          "title": "过去1小时全网爆仓1.01亿美元，主爆多单",
+          "body": "#加密货币 #BTC",
+          "tags": [
+            "#加密货币",
+            "#BTC"
+          ],
+          "ts": 1789484078000,
+          "time": "22:54:38",
+          "receivedAt": 1789497223707,
+          "receivedTime": true
+        },
         {
           "id": "234441",
           "url": "https://t.me/jin10light/234441",
@@ -18680,403 +19061,6 @@
           "time": "13:56:39",
           "receivedAt": 1789034652364,
           "receivedTime": true
-        },
-        {
-          "id": "233269",
-          "url": "https://t.me/jin10light/233269",
-          "title": "德国8月CPI月率终值将于十分钟后公布。",
-          "body": "#德国 #CPI",
-          "tags": [
-            "#德国",
-            "#CPI"
-          ],
-          "ts": 1789019437000,
-          "time": "13:50:37",
-          "receivedAt": 1789034652364,
-          "receivedTime": true
-        },
-        {
-          "id": "233268",
-          "url": "https://t.me/jin10light/233268",
-          "title": "寒武纪将上调人工智能处理器价格？公司回应：无类似公告发布，不要信市场消息",
-          "body": "9月10日讯，今日有消息称寒武纪等在内的国产芯片制造商将上调人工智能处理器价格，寒武纪证券部相关人士回应称：“公司没有发布过类似涨价公告，（投资者）不要信市场消息。 ” #寒武纪",
-          "tags": [
-            "#寒武纪"
-          ],
-          "ts": 1789019259000,
-          "time": "13:47:39",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233267",
-          "url": "https://t.me/jin10light/233267",
-          "title": "马斯克旗下隧道挖掘初创公司完成30亿美元D轮融资",
-          "body": "#马斯克 #The Boring Company",
-          "tags": [
-            "#马斯克",
-            "#The"
-          ],
-          "ts": 1789019259000,
-          "time": "13:47:39",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233266",
-          "url": "https://t.me/jin10light/233266",
-          "title": "今日重点关注的财经数据与事件：2026年9月10日 周四",
-          "body": "① 待定 欧佩克公布原油月报 ② 14:00 德国8月CPI月率终值 ③ 20:15 欧洲央行公布利率决议 ④ 20:30 美国至9月5日当周初请失业金人数 ⑤ 20:30 美国8月PPI年率 ⑥ 20:30 美国8月PPI月率 ⑦ 20:45 欧洲央行行长拉加德召开新闻发布会 ⑧ 22:00 美国8月成屋销售总数年化 ⑨ 22:00 美国7月批发销售月率 ⑩ 22:30 美国至9月4日当周EIA天然气库存 ⑪ 次日00:00 美国至9月4日当周EIA原油库存 ⑫ 次日00:00 美国至9月4日当周EIA库欣原油库存 ⑬ 次日00:00 美国至9月4日...",
-          "tags": [
-            "#美国",
-            "#欧洲央行",
-            "#德国"
-          ],
-          "ts": 1789018839000,
-          "time": "13:40:39",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233265",
-          "url": "https://t.me/jin10light/233265",
-          "title": "ZCAT反弹突破1亿美元大关，近4小时涨超40%",
-          "body": "#SOL #ZEC #Anonymous Cat",
-          "tags": [
-            "#SOL",
-            "#ZEC",
-            "#Anonymous"
-          ],
-          "ts": 1789018719000,
-          "time": "13:38:39",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233264",
-          "url": "https://t.me/jin10light/233264",
-          "title": "A股粮食板块震荡回调，中粮糖业触及跌停，亚盛集团、新赛股份逼近跌停，农发种业、万向德农、海南橡胶、神农种业、登海种业等跟跌。",
-          "body": "#A股 #中粮糖业 #亚盛集团",
-          "tags": [
-            "#A股",
-            "#中粮糖业",
-            "#亚盛集团"
-          ],
-          "ts": 1789018357000,
-          "time": "13:32:37",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233263",
-          "url": "https://t.me/jin10light/233263",
-          "title": "棕榈油主力合约午盘低开，日内跌幅扩大至2.22%，现报10077元/吨。",
-          "body": "#棕榈油",
-          "tags": [
-            "#棕榈油"
-          ],
-          "ts": 1789018305000,
-          "time": "13:31:45",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233262",
-          "url": "https://t.me/jin10light/233262",
-          "title": "台积电(TSM.N)：8月营收5148亿新台币（上月为4675.8亿新台币）。",
-          "body": "#台积电 #TSM .N",
-          "tags": [
-            "#台积电",
-            "#TSM"
-          ],
-          "ts": 1789018305000,
-          "time": "13:31:45",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233261",
-          "url": "https://t.me/jin10light/233261",
-          "title": "比特币高位横盘，巨鲸群体持有量微降，市场静待CPI数据",
-          "body": "#BTC #美国",
-          "tags": [
-            "#BTC",
-            "#美国"
-          ],
-          "ts": 1789018304000,
-          "time": "13:31:44",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233260",
-          "url": "https://t.me/jin10light/233260",
-          "title": "布伦特原油日内跌幅达1.00%，现报98.57美元/桶。",
-          "body": "",
-          "tags": [],
-          "ts": 1789018239000,
-          "time": "13:30:39",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233259",
-          "url": "https://t.me/jin10light/233259",
-          "title": "A股电力板块午后再度拉升，乐山电力涨停，此前闽东电力、华银电力、芯能科技、湖南发展等多股涨停，九洲集团、豫能控股、华电辽能、明星电力等跟涨。",
-          "body": "#A股 #电力板块",
-          "tags": [
-            "#A股",
-            "#电力板块"
-          ],
-          "ts": 1789017819000,
-          "time": "13:23:39",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233258",
-          "url": "https://t.me/jin10light/233258",
-          "title": "台积电将于十分钟后公布2026年8月份营业额报告。",
-          "body": "#台积电",
-          "tags": [
-            "#台积电"
-          ],
-          "ts": 1789017700000,
-          "time": "13:21:40",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233257",
-          "url": "https://t.me/jin10light/233257",
-          "title": "桂林旅游四连板 公司回应：双节催化，未投入“低空经济”相关项目",
-          "body": "9月10日讯，今日桂林旅游盘中涨停，此前三个交易日，桂林旅游已连封涨停，若按桂林旅游9月4日的开盘价6.44元/股计算，股价已上涨50%。 对于股票多日异动，当日，桂林旅游方面相关人士回复称是“双节催化”。 而在其他方面，桂林旅游提到，关于“低空经济”。 经自查，截至目前，公司没有投入“低空经济”相关项目。 #桂林旅游 #低空经济",
-          "tags": [
-            "#桂林旅游",
-            "#低空经济"
-          ],
-          "ts": 1789017461000,
-          "time": "13:17:41",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233256",
-          "url": "https://t.me/jin10light/233256",
-          "title": "A股零售板块午后异动，南宁百货直线涨停，中百集团回封涨停，走出4连板，百大集团、徐家汇、豫园股份跟涨，杭州解百、大连友谊等跌幅快速收窄。",
-          "body": "#A股 #南宁百货 #中百集团",
-          "tags": [
-            "#A股",
-            "#南宁百货",
-            "#中百集团"
-          ],
-          "ts": 1789017278000,
-          "time": "13:14:38",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233255",
-          "url": "https://t.me/jin10light/233255",
-          "title": "「上线即巅峰」剧本重演，「牛来」榜二鲸鱼呼吁Binance管理团队减缓上币速度",
-          "body": "#Binance #MarsCoin #牛来",
-          "tags": [
-            "#Binance",
-            "#MarsCoin",
-            "#牛来"
-          ],
-          "ts": 1789016498000,
-          "time": "13:01:38",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233254",
-          "url": "https://t.me/jin10light/233254",
-          "title": "「巨鲸追踪」存储聪明钱新计划1050美元起退出美光多仓",
-          "body": "#SK海力士 #美光 #MU",
-          "tags": [
-            "#SK海力士",
-            "#美光",
-            "#MU"
-          ],
-          "ts": 1789016380000,
-          "time": "12:59:40",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233253",
-          "url": "https://t.me/jin10light/233253",
-          "title": "CoinMarketCap：bStocks贡献代币化股票市场88%交易量",
-          "body": "#代币化股票 #bStocks #Ondo",
-          "tags": [
-            "#代币化股票",
-            "#bStocks",
-            "#Ondo"
-          ],
-          "ts": 1789015838000,
-          "time": "12:50:38",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233252",
-          "url": "https://t.me/jin10light/233252",
-          "title": "BTC埋伏巨鲸下调接货价，3000万美元买单计划再待2.5%回调",
-          "body": "#BTC #Hyperliquid #TradingBeats",
-          "tags": [
-            "#BTC",
-            "#Hyperliquid",
-            "#TradingBeats"
-          ],
-          "ts": 1789015721000,
-          "time": "12:48:41",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233251",
-          "url": "https://t.me/jin10light/233251",
-          "title": "Upbit将上线Bifrost (BFC)韩元和USDT交易对",
-          "body": "#Upbit #BFC #韩国",
-          "tags": [
-            "#Upbit",
-            "#BFC",
-            "#韩国"
-          ],
-          "ts": 1789015299000,
-          "time": "12:41:39",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233250",
-          "url": "https://t.me/jin10light/233250",
-          "title": "Upbit将上线REZ USDT交易对",
-          "body": "#Upbit #REZ #USDT",
-          "tags": [
-            "#Upbit",
-            "#REZ",
-            "#USDT"
-          ],
-          "ts": 1789014759000,
-          "time": "12:32:39",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233249",
-          "url": "https://t.me/jin10light/233249",
-          "title": "Four.Meme：BNC4完成首次每日回购，约35.6万美元4Stock被回购并销毁",
-          "body": "#BNC4 #USDT #Four .Meme",
-          "tags": [
-            "#BNC4",
-            "#USDT",
-            "#Four"
-          ],
-          "ts": 1789014519000,
-          "time": "12:28:39",
-          "receivedAt": 1789019345294,
-          "receivedTime": true
-        },
-        {
-          "id": "233248",
-          "url": "https://t.me/jin10light/233248",
-          "title": "Solana生态成链上仅存热点，banton速通千万美元后回落",
-          "body": "#SOL #PUMP #meme币",
-          "tags": [
-            "#SOL",
-            "#PUMP",
-            "#meme币"
-          ],
-          "ts": 1789014277000,
-          "time": "12:24:37",
-          "receivedAt": 1789019345510,
-          "receivedTime": true
-        },
-        {
-          "id": "233247",
-          "url": "https://t.me/jin10light/233247",
-          "title": "DeepSeek给V4 Pro多留4天：自动切Flash计划加了缓冲期",
-          "body": "#DeepSeek #V4 Pro #V4 .1 Flash",
-          "tags": [
-            "#DeepSeek",
-            "#V4"
-          ],
-          "ts": 1789014161000,
-          "time": "12:22:41",
-          "receivedAt": 1789019345510,
-          "receivedTime": true
-        },
-        {
-          "id": "233246",
-          "url": "https://t.me/jin10light/233246",
-          "title": "高盛：日本政府养老基金若增配日债，日元结构性升值或将冲击亚洲汇市",
-          "body": "#日元 #GPIF #韩元",
-          "tags": [
-            "#日元",
-            "#GPIF",
-            "#韩元"
-          ],
-          "ts": 1789013860000,
-          "time": "12:17:40",
-          "receivedAt": 1789019345510,
-          "receivedTime": true
-        },
-        {
-          "id": "233245",
-          "url": "https://t.me/jin10light/233245",
-          "title": "港股午评：恒指收跌1.29% 应用软件股等昨日强势板块回调",
-          "body": "9月10日讯，隔夜美股三大股指震荡小幅收跌，中国金龙指数大幅下挫。 港股连跌数日之后今早再度大幅低开，恒指低开289点报24985点，开市即失守两万五关口及100日线，随后跌幅快速扩大至最多385点低见24889点。 截至午盘收盘，恒指早盘收跌1.29%，科指早盘收跌2.07%，恒指大市成交额1058.6亿港元。 盘面上，应用软件、电力设备、重型机械、半导体设备股震荡回调，药品、猪肉走势疲软，汽车、茶饮、线上零售连跌数日；印刷包装、存储概念领涨大市，港口航运、内银、中资券商股震荡上扬。 个股方面，智谱( 02513.HK )跌近8%，MiniMax(...",
-          "tags": [
-            "#港股",
-            "#恒指",
-            "#阿里巴巴"
-          ],
-          "ts": 1789013679000,
-          "time": "12:14:39",
-          "receivedAt": 1789019345510,
-          "receivedTime": true
-        },
-        {
-          "id": "233244",
-          "url": "https://t.me/jin10light/233244",
-          "title": "某聪明钱25倍杠杆开仓价值210万美元HYPE多单",
-          "body": "#HYPE",
-          "tags": [
-            "#HYPE"
-          ],
-          "ts": 1789013138000,
-          "time": "12:05:38",
-          "receivedAt": 1789019345510,
-          "receivedTime": true
-        },
-        {
-          "id": "233243",
-          "url": "https://t.me/jin10light/233243",
-          "title": "都铎·琼斯：AI恐将成为第三个超级大国，呼吁世界加强监管合作",
-          "body": "",
-          "tags": [],
-          "ts": 1789012844000,
-          "time": "12:00:44",
-          "receivedAt": 1789019345510,
-          "receivedTime": true
-        },
-        {
-          "id": "233242",
-          "url": "https://t.me/jin10light/233242",
-          "title": "昨日比特币ETF净流出1.2亿美元，以太坊ETF净流入3470万美元",
-          "body": "#美国 #BTC #ETH",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1789012238000,
-          "time": "11:50:38",
-          "receivedAt": 1789019345510,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -20042,7 +20026,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
