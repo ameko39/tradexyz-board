@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-09-15T21:42:25.197Z",
+  "updatedAt": "2026-09-15T23:42:59.291Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7234",
+          "url": "https://t.me/BWEtradfi/7234",
+          "title": "*Meta 将大部分计算资源用于满足用户需求，而非人工智能“自我提升”竞赛：扎克伯格",
+          "body": "*META COMMITS BULK OF COMPUTE TO USER NEEDS OVER AI 'SELF-IMPROVEMENT' RACE: ZUCKERBERG *ZUCKERBERG REJECTS CALLS FOR INDUSTRYWIDE AI PAUSE, SAYS LABS CAN ACT ALONE *META DELAYED SHIPPING 'MUSE' FOR MONTHS TO ADDRESS SAFETY AND SECURITY $META *扎克伯格拒绝全行业暂停人工智能开发的呼吁，称各实验室可以独立行动 *Meta 为解决安全问题，将“Muse”的...",
+          "tags": [],
+          "ts": 1789513337000,
+          "time": "07:02:17",
+          "receivedAt": 1789515765453,
+          "receivedTime": true
+        },
+        {
+          "id": "7233",
+          "url": "https://t.me/BWEtradfi/7233",
+          "title": "据伊朗伊斯兰共和国通讯社援引当地消息来源报道，伊朗格什姆岛传出多起爆炸声",
+          "body": "*SEVERAL EXPLOSIONS HEARD ON IRAN'S QESHM ISLAND -IRNA CITING LOCAL SOURCES AS SAYING",
+          "tags": [],
+          "ts": 1789509961000,
+          "time": "06:06:01",
+          "receivedAt": 1789515765453,
+          "receivedTime": true
+        },
         {
           "id": "7232",
           "url": "https://t.me/BWEtradfi/7232",
@@ -1711,20 +1733,6 @@
           "time": "09:45:12",
           "receivedAt": 1788227519544,
           "receivedTime": true
-        },
-        {
-          "id": "7078",
-          "url": "https://t.me/BWEtradfi/7078",
-          "title": "*《华尔街日报》报道：NVIDIA 将为 Anthropico 与 Lambda 的合作项目提供芯片",
-          "body": "*NVIDIA TO SUPPLY CHIPS FOR ANTHROPIC-LAMBDA COMPUTING DEAL: WSJ *NVIDIA TO LEASE FACILITY FOR ANTHROPIC DEAL FROM DEVELOPER HUT 8 IN TEXAS: WSJ #NVDA • #HUT *《华尔街日报》报道：NVIDIA 将从德克萨斯州开发商 HUT 8 租赁场地，用于 Anthropico 的合作项目 #NVDA • #HUT",
-          "tags": [
-            "#NVDA",
-            "#HUT"
-          ],
-          "ts": 1788218764000,
-          "time": "07:26:04",
-          "receivedAt": 1788227519544,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1733,15 +1741,100 @@
       "channel": "jin10light",
       "items": [
         {
+          "id": "234490",
+          "url": "https://t.me/jin10light/234490",
+          "title": "《CLARITY法案》关键程序性表决未获通过，比特币一度跌破7.5万美元，加密概念股全线重挫",
+          "body": "#美国 #BTC #ETH",
+          "tags": [
+            "#美国",
+            "#BTC",
+            "#ETH"
+          ],
+          "ts": 1789515759000,
+          "time": "07:42:39",
+          "receivedAt": 1789515766112,
+          "receivedTime": true
+        },
+        {
+          "id": "234489",
+          "url": "https://t.me/jin10light/234489",
+          "title": "美联储利率决议前夜美股市场平淡，存储与光通信板块涨跌不一，标普500创8月以来收盘新低",
+          "body": "#美股 #美联储 #AMD",
+          "tags": [
+            "#美股",
+            "#美联储",
+            "#AMD"
+          ],
+          "ts": 1789515100000,
+          "time": "07:31:40",
+          "receivedAt": 1789515766112,
+          "receivedTime": true
+        },
+        {
+          "id": "234488",
+          "url": "https://t.me/jin10light/234488",
+          "title": "国内新闻ï",
+          "body": "1.伊朗外长阿拉格齐将于9月16日访华。 2. 电子信息制造业发展“十五五”规划发布。 3. 中钢协：严格落实产量调控，坚持自律控产降库存。 4. 针对“全网最低价”等问题，两部门召开在线酒店预订平台服务行业行政指导会。 5. 发改委主任郑栅洁主持召开民营企业座谈会，围绕优化发展环境、拓展投资空间听取意见建议。 6. 8月份，规模以上工业增加值增长5.2%；社会消费品零售总额39824亿元，同比增长0.4%。 1—8月份，全国固定资产投资293092亿元，同比下降7.2%；全国房地产开发投资47979亿元，同比下降19.9%。 国际新闻ï 1.英媒：英...",
+          "tags": [
+            "#伊朗",
+            "#中国",
+            "#沙特"
+          ],
+          "ts": 1789511801000,
+          "time": "06:36:41",
+          "receivedAt": 1789515766112,
+          "receivedTime": true
+        },
+        {
+          "id": "234487",
+          "url": "https://t.me/jin10light/234487",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.852吨，当前持仓量为1050.277吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1789510898000,
+          "time": "06:21:38",
+          "receivedAt": 1789515766112,
+          "receivedTime": true
+        },
+        {
+          "id": "234486",
+          "url": "https://t.me/jin10light/234486",
+          "title": "据伊通社（IRNA）：伊朗格什姆岛传出数声爆炸声，爆炸声来自海上，官方暂未对此作出回应。",
+          "body": "#伊朗 #格什姆岛 #霍尔木兹海峡",
+          "tags": [
+            "#伊朗",
+            "#格什姆岛",
+            "#霍尔木兹海峡"
+          ],
+          "ts": 1789510119000,
+          "time": "06:08:39",
+          "receivedAt": 1789515766112,
+          "receivedTime": true
+        },
+        {
+          "id": "234485",
+          "url": "https://t.me/jin10light/234485",
+          "title": "OpenAI拟IPO前融资，估值目标达1.2万亿美元",
+          "body": "9月16日讯，据英国金融时报报道，OpenAI正在与投资者初步讨论新一轮私人融资，目标估值约1.2万亿美元，为未来IPO做准备。 据知情人士透露，OpenAI今年3月完成一轮融资后估值达到8520亿美元，近期因最新AI模型带动市场需求回升，公司与大型投资者讨论进一步融资计划。 相关谈判仍处早期阶段，最终估值和融资规模可能发生变化。 OpenAI首席执行官萨姆·奥尔特曼此前表示，公司上市时间可能不会早于2027年，并认为当前AI安全风险讨论升温的环境下上市并非最佳时机。 报道称，GPT-5.6和Astra等新模型发布后，OpenAI收入增长加快，年化收入...",
+          "tags": [
+            "#OpenAI",
+            "#萨姆",
+            "#英国"
+          ],
+          "ts": 1789509699000,
+          "time": "06:01:39",
+          "receivedAt": 1789515766112,
+          "receivedTime": true
+        },
+        {
           "id": "234484",
           "url": "https://t.me/jin10light/234484",
-          "title": "整理：中东局势跟踪（9月16日）",
-          "body": "冲突情况ï 1.沙特此前在塔伊夫、麦加和吉达地区启动早期预警系统，目前危险已经解除。 2. 据以色列i24News记者报道，沙特首次向圣城麦加发布早期预警警报。 3. 美官员称美军周一摧毁了两艘伊朗小型船只。 此前，伊朗革命卫队试图夺取一架正在海峡巡逻的美军无人机。 4. 伊媒：伊朗革命卫队空军在霍尔木兹海峡上空击落第三架美国无人机。 5. 胡塞武装称也门24小时内遭沙特52次空袭。 6. 伊拉克消息人士称，伊拉克埃尔比勒发生爆炸事件。 霍尔木兹海峡ï 1.英国海事贸易行动办公室：已收到一份关于霍尔木兹海峡内发生一起事件的延迟报告。 有可靠消息来源报告...",
-          "tags": [
-            "#霍尔木兹海峡",
-            "#伊朗",
-            "#美国"
-          ],
+          "title": "整理：俄乌冲突最新24小时局势跟踪（9月16日）",
+          "body": "冲突情况ï 1.立陶宛领空遭无人机入侵，北约战机紧急拦截。 2. 基辅加油站遭无人机袭击，俄近期已打击约300处加油站。 3. 俄护卫舰险些击中丹麦直升机，丹麦国防大臣称将召见俄大使。 4. 俄罗斯国防部表示，俄军在黑海击中两艘船只。 5. 俄罗斯军队袭击了乌克兰沃伦州的亚霍丁边境口岸。 6. 俄罗斯国防部：俄军击中乌克兰乔尔诺莫尔斯克港的一艘货船和一艘载有军用物资的渡轮。 7. 俄罗斯图-95MS战略轰炸机飞越巴伦支海和挪威海的中立水域。 8. 泽连斯基：俄罗斯继续袭击乌能源部门、常规物流体系以及关键基础设施。 对俄方的回应是切实有效的。 乌军在锡兹...",
+          "tags": [],
           "ts": 1789508020000,
           "time": "05:33:40",
           "receivedAt": 1789508532082,
@@ -18917,92 +19010,6 @@
           ],
           "ts": 1789023700000,
           "time": "15:01:40",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233290",
-          "url": "https://t.me/jin10light/233290",
-          "title": "Arthur Hayes官宣：Flop Labs黄皮书正式开放技术审查",
-          "body": "#FLOP #BitMEX #Arthur Hayes",
-          "tags": [
-            "#FLOP",
-            "#BitMEX",
-            "#Arthur"
-          ],
-          "ts": 1789023520000,
-          "time": "14:58:40",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233289",
-          "url": "https://t.me/jin10light/233289",
-          "title": "ZEC巨鲸高位换手，早期多头落袋伴随1700万美元新买家入场",
-          "body": "#ZEC #TradingBeats #Hyperliquid",
-          "tags": [
-            "#ZEC",
-            "#TradingBeats",
-            "#Hyperliquid"
-          ],
-          "ts": 1789023099000,
-          "time": "14:51:39",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233288",
-          "url": "https://t.me/jin10light/233288",
-          "title": "韩国将宣布逾1000亿美元对美能源投资，支持美国AI建设",
-          "body": "",
-          "tags": [],
-          "ts": 1789022918000,
-          "time": "14:48:38",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233287",
-          "url": "https://t.me/jin10light/233287",
-          "title": "据华尔街日报：消息人士称，韩国政府考虑与特朗普贸易协议相关的AI投资。",
-          "body": "#韩国 #特朗普 #AI",
-          "tags": [
-            "#韩国",
-            "#特朗普",
-            "#AI"
-          ],
-          "ts": 1789022741000,
-          "time": "14:45:41",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233286",
-          "url": "https://t.me/jin10light/233286",
-          "title": "火币HTX已上线USDJPY、FCX、XLK、GE永续合约",
-          "body": "#火币 HTX #HTX #USDT",
-          "tags": [
-            "#火币",
-            "#HTX",
-            "#USDT"
-          ],
-          "ts": 1789022380000,
-          "time": "14:39:40",
-          "receivedAt": 1789034652125,
-          "receivedTime": true
-        },
-        {
-          "id": "233285",
-          "url": "https://t.me/jin10light/233285",
-          "title": "台积电：8月营收5148.0亿元台币，同比增长53.3%",
-          "body": "#台积电 #AI 芯片 #台湾",
-          "tags": [
-            "#台积电",
-            "#AI",
-            "#台湾"
-          ],
-          "ts": 1789021903000,
-          "time": "14:31:43",
           "receivedAt": 1789034652125,
           "receivedTime": true
         }
