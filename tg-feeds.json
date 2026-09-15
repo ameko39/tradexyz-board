@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-14T22:05:57.265Z",
+  "updatedAt": "2026-09-15T00:31:39.801Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7225",
+          "url": "https://t.me/BWEtradfi/7225",
+          "title": "最高法院驳回特朗普关于中期选举邮寄选票限制的请求",
+          "body": "*SUPREME COURT REJECTS TRUMP'S MAIL BALLOT CURBS FOR MIDTERMS",
+          "tags": [],
+          "ts": 1789428740000,
+          "time": "07:32:20",
+          "receivedAt": 1789432288499,
+          "receivedTime": true
+        },
         {
           "id": "7224",
           "url": "https://t.me/BWEtradfi/7224",
@@ -1843,46 +1854,159 @@
           "time": "09:30:28",
           "receivedAt": 1788156426761,
           "receivedTime": true
-        },
-        {
-          "id": "7058",
-          "url": "https://t.me/BWEtradfi/7058",
-          "title": "贝森特预计美国将每周实施新的次级制裁，旨在加大对伊朗的施压",
-          "body": "*BESSENT EXPECTS NEW US SECONDARY SANCTIONS WEEKLY, AIMING TO INCREASE PRESSURE ON IRAN",
-          "tags": [],
-          "ts": 1788133664000,
-          "time": "07:47:44",
-          "receivedAt": 1788136735529,
-          "receivedTime": true
-        },
-        {
-          "id": "7057",
-          "url": "https://t.me/BWEtradfi/7057",
-          "title": "*贝森特：将在二十国集团财长会议上鼓励各国重新审视与中国的贸易条款，以减少全球贸易失衡",
-          "body": "*BESSENT: WILL ENCOURAGE G20 COUNTRIES AT FINANCE MEETING TO RE-EXAMINE TERMS OF TRADE WITH CHINA TO REDUCE GLOBAL IMBALANCES *U.S. TREASURY'S BESSENT SAYS WORLD CANNOT ACCEPT A CHINA WITH A SUSTAINED $1.2 TRILLION GLOBAL TRADE SURPLUS - REUTERS INTERVIEW *BESSENT: WILL HAVE… *美国财政部长贝森特表示，世界不能接受中国持...",
-          "tags": [],
-          "ts": 1788131138000,
-          "time": "07:05:38",
-          "receivedAt": 1788136735529,
-          "receivedTime": true
-        },
-        {
-          "id": "7056",
-          "url": "https://t.me/BWEtradfi/7056",
-          "title": "*贝森特：美国对华直接贸易地位正在改善，将继续推进双方各300亿美元非战略商品的关税削减",
-          "body": "*BESSENT: U.S. DIRECT TRADE POSITION WITH CHINA IMPROVING, WILL CONTINUE TO ADVANCE TARIFF REDUCTIONS ON $30 BILLION IN NON-STRATEGIC GOODS ON EACH SIDE",
-          "tags": [],
-          "ts": 1788131120000,
-          "time": "07:05:20",
-          "receivedAt": 1788136735529,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "234223",
+          "url": "https://t.me/jin10light/234223",
+          "title": "美参议员Lummis：当前《CLARITY法案》已是最佳妥协版本，但民主党仍要求进一步修改",
+          "body": "#美国 #Cynthia Lummis #特朗普",
+          "tags": [
+            "#美国",
+            "#Cynthia",
+            "#特朗普"
+          ],
+          "ts": 1789431940000,
+          "time": "08:25:40",
+          "receivedAt": 1789432288878,
+          "receivedTime": true
+        },
+        {
+          "id": "234222",
+          "url": "https://t.me/jin10light/234222",
+          "title": "Robinhood回应股票代币权益质疑：计划上线赎回与投票功能",
+          "body": "#Robinhood #AMC #泽西岛",
+          "tags": [
+            "#Robinhood",
+            "#AMC",
+            "#泽西岛"
+          ],
+          "ts": 1789431579000,
+          "time": "08:19:39",
+          "receivedAt": 1789432288878,
+          "receivedTime": true
+        },
+        {
+          "id": "234221",
+          "url": "https://t.me/jin10light/234221",
+          "title": "美SEC主席支持《CLARITY法案》，并称无论能否通过该法案都将继续推进加密监管",
+          "body": "#美国 #SEC #CLARITY法案",
+          "tags": [
+            "#美国",
+            "#SEC",
+            "#CLARITY法案"
+          ],
+          "ts": 1789431041000,
+          "time": "08:10:41",
+          "receivedAt": 1789432288878,
+          "receivedTime": true
+        },
+        {
+          "id": "234220",
+          "url": "https://t.me/jin10light/234220",
+          "title": "美股收盘加密概念股逆市走强，Coinbase涨超9%",
+          "body": "#美股 #Coinbase #BTC",
+          "tags": [
+            "#美股",
+            "#Coinbase",
+            "#BTC"
+          ],
+          "ts": 1789430439000,
+          "time": "08:00:39",
+          "receivedAt": 1789432288878,
+          "receivedTime": true
+        },
+        {
+          "id": "234219",
+          "url": "https://t.me/jin10light/234219",
+          "title": "AI开发放缓担忧叠加油价上涨，美股全线收跌，半导体指数跌近6%",
+          "body": "#美股 #BTC #沙特阿拉伯",
+          "tags": [
+            "#美股",
+            "#BTC",
+            "#沙特阿拉伯"
+          ],
+          "ts": 1789430080000,
+          "time": "07:54:40",
+          "receivedAt": 1789432288878,
+          "receivedTime": true
+        },
+        {
+          "id": "234218",
+          "url": "https://t.me/jin10light/234218",
+          "title": "美股收盘光通信、半导体、存储及Neocloud股全线下跌，康宁、诺基亚均跌超13%",
+          "body": "#美股 #道指 #标普500",
+          "tags": [
+            "#美股",
+            "#道指",
+            "#标普500"
+          ],
+          "ts": 1789429479000,
+          "time": "07:44:39",
+          "receivedAt": 1789432288878,
+          "receivedTime": true
+        },
+        {
+          "id": "234217",
+          "url": "https://t.me/jin10light/234217",
+          "title": "特朗普在黄仁勋参加论坛时来电，现场外放称AI担忧是骗局",
+          "body": "#黄仁勋 #特朗普 #美国",
+          "tags": [
+            "#黄仁勋",
+            "#特朗普",
+            "#美国"
+          ],
+          "ts": 1789428817000,
+          "time": "07:33:37",
+          "receivedAt": 1789432288878,
+          "receivedTime": true
+        },
+        {
+          "id": "234216",
+          "url": "https://t.me/jin10light/234216",
+          "title": "美联储连续第二个月暂停为储备管理购买美债",
+          "body": "#美联储 #美国 #美国国债券",
+          "tags": [
+            "#美联储",
+            "#美国",
+            "#美国国债券"
+          ],
+          "ts": 1789428700000,
+          "time": "07:31:40",
+          "receivedAt": 1789432288878,
+          "receivedTime": true
+        },
+        {
+          "id": "234215",
+          "url": "https://t.me/jin10light/234215",
+          "title": "今日重点关注的财经数据与事件：2026年9月15日 周二",
+          "body": "① 09:30 中国70个大中城市住宅售价月报 ② 10:00 中国8月社会消费品零售总额同比 ③ 10:00 中国8月规模以上工业增加值同比 ④ 10:00 国新办举行新闻发布会 ⑤ 14:00 英国7月三个月ILO失业率 ⑥ 14:00 英国8月失业率 ⑦ 14:00 英国8月失业金申请人数 ⑧ 14:45 法国8月CPI月率终值 ⑨ 17:00 德国9月ZEW经济景气指数 ⑩ 17:00 欧元区9月ZEW经济景气指数 ⑪ 17:00 欧元区7月季调后贸易帐 ⑫ 20:15 美国至8月29日当周ADP就业人数周度变动 ⑬ 20:30 加拿大7月批发...",
+          "tags": [
+            "#中国",
+            "#美国",
+            "#欧元区"
+          ],
+          "ts": 1789426300000,
+          "time": "06:51:40",
+          "receivedAt": 1789432288878,
+          "receivedTime": true
+        },
+        {
+          "id": "234214",
+          "url": "https://t.me/jin10light/234214",
+          "title": "1. 据Mysteel消息，吕梁离石地区一座煤矿因全年生产任务已完成，已于9月12日起停产。",
+          "body": "2. SMM消息，河南亚新钢铁，自9月10日停产检修2座630m³的高炉，日均影响铁水产量0.4万吨，暂定检修2个月，具体复产时间看市场情况。 3. 据SMM消息，9月或出现多个多晶硅基地复产，产量将继续增加。 10月受会议以及枯水期来临影响，多晶硅产量或将减少。 4. 印尼能源与矿产资源部（ESDM）表示，存在未结清应收款或尚未完成复垦义务的矿业企业，将无法继续推进RKAB申请流程。 5. 加拿大E3 Lithium公司与电池材料制造商Epsilon CAM签署非约束性谅解备忘录，拟长期供应电池级碳酸锂。 框架目标为自2026年9月1日起，在五年内从...",
+          "tags": [],
+          "ts": 1789425280000,
+          "time": "06:34:40",
+          "receivedAt": 1789432288878,
+          "receivedTime": true
+        },
         {
           "id": "234213",
           "url": "https://t.me/jin10light/234213",
@@ -18992,146 +19116,6 @@
           ],
           "ts": 1788941621000,
           "time": "16:13:41",
-          "receivedAt": 1788952291276,
-          "receivedTime": true
-        },
-        {
-          "id": "233023",
-          "url": "https://t.me/jin10light/233023",
-          "title": "港股收盘，恒指收跌0.17%，科指收跌0.76%；优地机器人( 03231.HK )首日上市收涨153%，联想集团( 00992.HK )、潍柴动力( 02338.HK )涨超6%；海底捞( 06862.HK )跌超9...",
-          "body": "#港股 #优地机器人 #联想集团",
-          "tags": [
-            "#港股",
-            "#优地机器人",
-            "#联想集团"
-          ],
-          "ts": 1788941382000,
-          "time": "16:09:42",
-          "receivedAt": 1788952291276,
-          "receivedTime": true
-        },
-        {
-          "id": "233022",
-          "url": "https://t.me/jin10light/233022",
-          "title": "Bitunix分析师：能源、财政与全球资金交织，美联储政策空间面临多重约束",
-          "body": "#中东 #美国 #美债",
-          "tags": [
-            "#中东",
-            "#美国",
-            "#美债"
-          ],
-          "ts": 1788941381000,
-          "time": "16:09:41",
-          "receivedAt": 1788952291276,
-          "receivedTime": true
-        },
-        {
-          "id": "233021",
-          "url": "https://t.me/jin10light/233021",
-          "title": "VVV上涨触及29.75美元创历史新高，24小时涨超60%",
-          "body": "#Venice #VVV",
-          "tags": [
-            "#Venice",
-            "#VVV"
-          ],
-          "ts": 1788940959000,
-          "time": "16:02:39",
-          "receivedAt": 1788952291276,
-          "receivedTime": true
-        },
-        {
-          "id": "233020",
-          "url": "https://t.me/jin10light/233020",
-          "title": "CleanSpark减持228枚比特币，总持仓降至13,703枚",
-          "body": "#CleanSpark #BTC",
-          "tags": [
-            "#CleanSpark",
-            "#BTC"
-          ],
-          "ts": 1788940239000,
-          "time": "15:50:39",
-          "receivedAt": 1788952291276,
-          "receivedTime": true
-        },
-        {
-          "id": "233019",
-          "url": "https://t.me/jin10light/233019",
-          "title": "Herdr融资600万美元：4个月，一个人做出3.6万Star",
-          "body": "#Herdr #Y Combinator",
-          "tags": [
-            "#Herdr",
-            "#Y"
-          ],
-          "ts": 1788939522000,
-          "time": "15:38:42",
-          "receivedAt": 1788952291276,
-          "receivedTime": true
-        },
-        {
-          "id": "233018",
-          "url": "https://t.me/jin10light/233018",
-          "title": "能源ï",
-          "body": "1.俄罗斯副总理诺瓦克提议提前设定俄罗斯的燃料进口量。 2. 克里姆林宫：印度与俄罗斯正在讨论在稀土勘探方面的合作。 3. 高盛：经霍尔木兹海峡的成品油流量为战前水平的35%，原油为70%。 4. 美银：如果中东冲突持续到年底，布伦特原油可能在95-120美元/桶的区间内交易。 5. 汇丰：将2027年布油价格预测从65美元上调至85美元，将2028年及以后长期价格预期上调至75美元。 6. 日本商船三井高管：尽管当前货运费率强劲，但没有扩展油轮舰队的计划。 7. 墨西哥政府计划大幅削减对国有石油公司Pemex的债务支持。 8. 泰国：屋顶太阳能支持计...",
-          "tags": [],
-          "ts": 1788938983000,
-          "time": "15:29:43",
-          "receivedAt": 1788952291276,
-          "receivedTime": true
-        },
-        {
-          "id": "233017",
-          "url": "https://t.me/jin10light/233017",
-          "title": "BTC被挂出2亿美元订单，期权与预测市场如何定价下一轮回调？",
-          "body": "#BTC",
-          "tags": [
-            "#BTC"
-          ],
-          "ts": 1788938982000,
-          "time": "15:29:42",
-          "receivedAt": 1788952291276,
-          "receivedTime": true
-        },
-        {
-          "id": "233016",
-          "url": "https://t.me/jin10light/233016",
-          "title": "DeepSeek V4.1 Flash即将上线，官方称全面超过V4 Pro",
-          "body": "#DeepSeek #V4 .1 Flash #V4 Pro",
-          "tags": [
-            "#DeepSeek",
-            "#V4"
-          ],
-          "ts": 1788938739000,
-          "time": "15:25:39",
-          "receivedAt": 1788952291276,
-          "receivedTime": true
-        },
-        {
-          "id": "233015",
-          "url": "https://t.me/jin10light/233015",
-          "title": "昨日美国比特币现货ETF净流出4660万美元",
-          "body": "#美国 #BTC #ETH",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1788938620000,
-          "time": "15:23:40",
-          "receivedAt": 1788952291276,
-          "receivedTime": true
-        },
-        {
-          "id": "233014",
-          "url": "https://t.me/jin10light/233014",
-          "title": "美国安机构指责中国企业蒸馏美国模型 外交部：不要进行不实的指责和抹黑",
-          "body": "9月9日讯，9月9日，外交部发言人毛宁主持例行记者会。 法新社记者提问，昨天，美国国安局等三机构发布联合声明，指控六家中国人工智能（AI）企业未经授权蒸馏美国模型提取专有知识，他们称此举会窃取美国的人工智能战略。 请问中方对此有何评论？毛宁表示，具体的报告我没有看，但是我可以告诉你的是，中国人工智能的发展是高水平科技自立自强的成果，也得益于我们始终秉持共商、共建、共享和开放合作的理念。 我们始终认为，各方应当加强合作，推动人工智能开放包容、普惠、向善发展，服务全人类的福祉。 “我们希望美方能够认真地落实两国元首达成的重要共识，不要对中国进行不实的指责和...",
-          "tags": [
-            "#美国",
-            "#中国",
-            "#AI"
-          ],
-          "ts": 1788938438000,
-          "time": "15:20:38",
           "receivedAt": 1788952291276,
           "receivedTime": true
         }
