@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-09-16T19:45:36.009Z",
+  "updatedAt": "2026-09-16T22:22:00.722Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7258",
+          "url": "https://t.me/BWEtradfi/7258",
+          "title": "*特朗普在关于利率的最新 Truth 帖子中避免对凯文·沃什进行人身攻击",
+          "body": "*TRUMP REFRAINS FROM PERSONAL ATTACK ON KEVIN WARSH IN LATEST TRUTH POST ON INTEREST RATES",
+          "tags": [],
+          "ts": 1789591146000,
+          "time": "04:39:06",
+          "receivedAt": 1789597308800,
+          "receivedTime": true
+        },
+        {
+          "id": "7257",
+          "url": "https://t.me/BWEtradfi/7257",
+          "title": "*特朗普：美国的利率应该在1%或以下，因为我们是世界上信用最好的国家。",
+          "body": "*TRUMP: INTEREST RATES IN UNITED STATES SHOULD BE 1 PERCENT OR LESS BECAUSE WE ARE BEST CREDIT IN WORLD *TRUMP: IF WE STOPPED TRADING WITH EVERY COUNTRY WITH DEFICIT WE WOULD MAKE AT LEAST 1 POINT 5 TRILLION DOLLARS A YEAR *TRUMP: LOWER INTEREST RATES FOR UNITED STATES OF… *特朗普：如果我们停止与所有存在贸易逆差的国家进行...",
+          "tags": [],
+          "ts": 1789591127000,
+          "time": "04:38:47",
+          "receivedAt": 1789597308800,
+          "receivedTime": true
+        },
+        {
+          "id": "7256",
+          "url": "https://t.me/BWEtradfi/7256",
+          "title": "中国7月美债持仓降至6180亿美元，6月为6330亿美元",
+          "body": "*CHINA'S U.S. TREASURY SECURITIES HOLDINGS 618 BLN DLRS IN JULY VS 633 BLN IN JUNE",
+          "tags": [],
+          "ts": 1789588912000,
+          "time": "04:01:52",
+          "receivedAt": 1789597308800,
+          "receivedTime": true
+        },
         {
           "id": "7255",
           "url": "https://t.me/BWEtradfi/7255",
@@ -1818,82 +1851,82 @@
           "time": "08:00:28",
           "receivedAt": 1788312327823,
           "receivedTime": true
-        },
-        {
-          "id": "7091",
-          "url": "https://t.me/BWEtradfi/7091",
-          "title": "*谷歌将于本周发布 Gemini 3.8 Flash AI 模型：华尔街日报",
-          "body": "*GOOGLE SET TO RELEASE GEMINI 3.8 FLASH AI MODEL THIS WEEK: WSJ *GOOGLE EMPLOYEES PREFERRED GEMINI 3.8 FLASH OVER CLAUDE OPUS IN TESTS WITHIN GOOGLE'S INTERNAL CODING TOOL: WSJ $GOOGL *谷歌员工在谷歌内部编码工具的测试中更倾向于 Gemini 3.8 Flash 而非 Claude Opus：华尔街日报 $GOOGL",
-          "tags": [],
-          "ts": 1788296775000,
-          "time": "05:06:15",
-          "receivedAt": 1788299755007,
-          "receivedTime": true
-        },
-        {
-          "id": "7090",
-          "url": "https://t.me/BWEtradfi/7090",
-          "title": "声明：伊朗伊斯兰革命卫队称在袭击中“消灭了大量美军”",
-          "body": "*IRGC SAYS IT 'KILLED A LARGE NUMBER OF U.S. FORCES' IN ATTACK- STATEMENT",
-          "tags": [],
-          "ts": 1788295679000,
-          "time": "04:47:59",
-          "receivedAt": 1788299755007,
-          "receivedTime": true
-        },
-        {
-          "id": "7089",
-          "url": "https://t.me/BWEtradfi/7089",
-          "title": "*苹果公司与谷歌地图联手，将安大略湖更名为“美国湖”",
-          "body": "*APPLE JOINS GOOGLE MAPS IN CHANGING LAKE ONTARIO TO 'LAKE AMERICA' #AAPL • #GOOGL #AAPL • #GOOGL",
-          "tags": [
-            "#AAPL",
-            "#GOOGL"
-          ],
-          "ts": 1788293481000,
-          "time": "04:11:21",
-          "receivedAt": 1788299755007,
-          "receivedTime": true
-        },
-        {
-          "id": "7088",
-          "url": "https://t.me/BWEtradfi/7088",
-          "title": "*戴尔科技第二季度调整后每股收益 7.04 美元，预期 4.90 美元",
-          "body": "*DELL TECHNOLOGIES 2Q ADJ EPS $7.04, EST. $4.90 *DELL 2Q AI-OPTIMIZED SERVERS REV. $16.40B, EST. $16.03B *DELL TECHNOLOGIES 2Q TOTAL NET REV. $46.97B, EST. $44.78B *DELL TECHNOLOGIES 2Q ADJ. OPER INCOME $5.93B, EST. $4.18B $DELL *戴尔第二季度 AI 优化服务器营收 164 亿美元，预期 160.3 亿美元 *戴尔科技第二季度总净营收 469.7 亿美元，预期 447...",
-          "tags": [],
-          "ts": 1788293121000,
-          "time": "04:05:21",
-          "receivedAt": 1788299755007,
-          "receivedTime": true
-        },
-        {
-          "id": "7087",
-          "url": "https://t.me/BWEtradfi/7087",
-          "title": "OpenAI 表示其 Astra 模型即将推出，但网络功能有所限制",
-          "body": "*OPENAI SAYS ITS ASTRA MODEL IS COMING “SOON,” WITH CYBER LIMITS *OPENAI TO LIMIT ASTRA’S FULL CYBER ABILITIES TO TEST GROUP *ASTRA MODEL CAN FIND ZERO-DAY EXPLOITS ON ITS OWN, OPENAI SAYS OpenAI 将限制 Astra 的全部网络功能，仅供测试组使用 OpenAI 称 Astra 模型能够自主发现零日漏洞",
-          "tags": [],
-          "ts": 1788292831000,
-          "time": "04:00:31",
-          "receivedAt": 1788299755007,
-          "receivedTime": true
-        },
-        {
-          "id": "7086",
-          "url": "https://t.me/BWEtradfi/7086",
-          "title": "DB: 标普500指数收盘下跌0.7%，纳斯达克指数下跌1.1%",
-          "body": "DB: *S&P 500 CLOSES DOWN 0.7%, NASDAQ DOWN 1.1%",
-          "tags": [],
-          "ts": 1788292813000,
-          "time": "04:00:13",
-          "receivedAt": 1788299755007,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "234782",
+          "url": "https://t.me/jin10light/234782",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加1.711吨，当前持仓量为1051.988吨。",
+          "body": "#黄金 #SPDR Gold Trust",
+          "tags": [
+            "#黄金",
+            "#SPDR"
+          ],
+          "ts": 1789597298000,
+          "time": "06:21:38",
+          "receivedAt": 1789597309183,
+          "receivedTime": true
+        },
+        {
+          "id": "234781",
+          "url": "https://t.me/jin10light/234781",
+          "title": "美联储10月加息的概率接近五成",
+          "body": "9月17日讯，据CME“美联储观察”：美联储9月如期加息后，美联储10月会议维持利率在3.75%-4.00%不变的概率为50.2%，加息25个基点的概率为49.8%。 美联储到12月维持利率在3.75%-4.00%不变的概率为11.3%，累计加息25个基点的概率为50.1%，累计加息50个基点的概率为38.6%。 #美联储 #美国",
+          "tags": [
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1789596520000,
+          "time": "06:08:40",
+          "receivedAt": 1789597309183,
+          "receivedTime": true
+        },
+        {
+          "id": "234780",
+          "url": "https://t.me/jin10light/234780",
+          "title": "整理：俄乌冲突最新24小时局势跟踪（9月17日）",
+          "body": "冲突情况ï 1.乌军方称在顿涅茨克地区打死俄军一名少将。 2. 乌克兰无人机袭击俄罗斯布良斯克地区，造成一名女性遇难。 3. 俄罗斯国防部：过去24小时内，俄军打击了乌克兰能源和交通基础设施，这些设施被用于支援乌克兰武装部队。 4. 泽连斯基：我的信息是，如果俄罗斯准备进行能源停火，那就意味着不得以任何形式、使用任何类型武器攻击能源设施。 5. 俄罗斯国防部消息，一艘俄罗斯军舰向一架丹麦直升机方向发射了两枚红色信号弹，以防止“挑衅”行为。 6. 俄罗斯锡兹兰和萨拉托夫炼油厂在遭到乌克兰无人机袭击后已停止运营。 7. 俄罗斯的袭击造成敖德萨地区3个车库和...",
+          "tags": [],
+          "ts": 1789594299000,
+          "time": "05:31:39",
+          "receivedAt": 1789597309183,
+          "receivedTime": true
+        },
+        {
+          "id": "234779",
+          "url": "https://t.me/jin10light/234779",
+          "title": "特朗普称美国利率应降至1%以下 敦促美联储快速降息",
+          "body": "9月17日讯，美国总统特朗普在社媒上表示，美国利率应该降至1%或更低，理由是美国拥有全球最强信用，且当前经济正在吸引大量新投资。 特朗普称，如果美国停止与存在贸易逆差的国家进行贸易，美国每年可获得至少1.5万亿美元收益。 他表示，“逆差”本质上意味着“损失”，并称美国长期承担全球贸易成本的情况无法继续。 特朗普再次敦促美联储快速降低利率，称降低借贷成本有助于美国经济发展。 #特朗普 #美国 #美联储",
+          "tags": [
+            "#特朗普",
+            "#美国",
+            "#美联储"
+          ],
+          "ts": 1789591301000,
+          "time": "04:41:41",
+          "receivedAt": 1789597309183,
+          "receivedTime": true
+        },
+        {
+          "id": "234778",
+          "url": "https://t.me/jin10light/234778",
+          "title": "美股收盘：美联储加息落地 三大股指收跌",
+          "body": "9月17日讯，美联储25个基点的加息落地，美股三大股指周三收跌，道指初步收跌1.2%，标普500指数跌0.44%、纳指跌0.01%。 英特尔(INTC.O)涨4%，SpaceX(SPCX.O)涨5%，高盛(GS.N)和波音(BA.N)跌近4%。 纳斯达克中国金龙指数收跌0.55%，爱奇艺(IQ.O)涨8%，阿里巴巴(BABA.N)跌2%。 #美股 #美联储 #美国",
+          "tags": [
+            "#美股",
+            "#美联储",
+            "#美国"
+          ],
+          "ts": 1789588960000,
+          "time": "04:02:40",
+          "receivedAt": 1789597309183,
+          "receivedTime": true
+        },
         {
           "id": "234777",
           "url": "https://t.me/jin10light/234777",
@@ -19092,80 +19125,6 @@
           ],
           "ts": 1789098942000,
           "time": "11:55:42",
-          "receivedAt": 1789102225326,
-          "receivedTime": true
-        },
-        {
-          "id": "233582",
-          "url": "https://t.me/jin10light/233582",
-          "title": "消息称高通与三星电子的晶圆代工谈判因价格分歧陷入僵局",
-          "body": "#高通 #三星电子 #QCOM",
-          "tags": [
-            "#高通",
-            "#三星电子",
-            "#QCOM"
-          ],
-          "ts": 1789098941000,
-          "time": "11:55:41",
-          "receivedAt": 1789102225326,
-          "receivedTime": true
-        },
-        {
-          "id": "233581",
-          "url": "https://t.me/jin10light/233581",
-          "title": "Bitget API现已全面支持CFD交易，覆盖黄金、外汇及股指等全球资产",
-          "body": "#Bitget #CFD #美联储",
-          "tags": [
-            "#Bitget",
-            "#CFD",
-            "#美联储"
-          ],
-          "ts": 1789098582000,
-          "time": "11:49:42",
-          "receivedAt": 1789102225326,
-          "receivedTime": true
-        },
-        {
-          "id": "233580",
-          "url": "https://t.me/jin10light/233580",
-          "title": "币股Meme跨链扩散，Solana正成为一片待开发「红海」",
-          "body": "#SOL #BSC #Robinhood Chain",
-          "tags": [
-            "#SOL",
-            "#BSC",
-            "#Robinhood"
-          ],
-          "ts": 1789098338000,
-          "time": "11:45:38",
-          "receivedAt": 1789102225326,
-          "receivedTime": true
-        },
-        {
-          "id": "233579",
-          "url": "https://t.me/jin10light/233579",
-          "title": "首批ZEC追涨巨鲸遭清算，TOP 1地址多单爆仓325万美元",
-          "body": "#ZEC #BTC",
-          "tags": [
-            "#ZEC",
-            "#BTC"
-          ],
-          "ts": 1789098039000,
-          "time": "11:40:39",
-          "receivedAt": 1789102225326,
-          "receivedTime": true
-        },
-        {
-          "id": "233578",
-          "url": "https://t.me/jin10light/233578",
-          "title": "某地址以均价0.1155美元买入953万枚「牛来」",
-          "body": "#Binance #USDT #牛来",
-          "tags": [
-            "#Binance",
-            "#USDT",
-            "#牛来"
-          ],
-          "ts": 1789097681000,
-          "time": "11:34:41",
           "receivedAt": 1789102225326,
           "receivedTime": true
         }
