@@ -1,11 +1,77 @@
 {
-  "updatedAt": "2026-09-18T21:02:53.361Z",
+  "updatedAt": "2026-09-18T23:12:05.912Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7271",
+          "url": "https://t.me/BWEtradfi/7271",
+          "title": "*据《金融时报》报道，OpenAI预计2026年至2030年间自由现金流为负2780亿美元",
+          "body": "*OPENAI PROJECTS NEGATIVE FREE CASH FLOW OF $278B FROM 2026 THROUGH 2030: FT *OPENAI FORECASTS SPENDING $856B ON COMPUTE, INFRASTRUCTURE THROUGH 2030 *OPENAI EXPECTS MARCH $122B CASH CUSHION TO RUN OUT IN 2028 *OPENAI SEES REVENUE GROWING TO $350B IN 2030 FROM $36B THIS YEAR *OpenAI预测，到2030年，其在计算和基...",
+          "tags": [],
+          "ts": 1789770909000,
+          "time": "06:35:09",
+          "receivedAt": 1789773111289,
+          "receivedTime": true
+        },
+        {
+          "id": "7270",
+          "url": "https://t.me/BWEtradfi/7270",
+          "title": "*谷歌称，其人工智能“双子座”（Gemini）首次入侵三家公司系统：华尔街日报",
+          "body": "*GOOGLE'S GEMINI HACKED THREE COMPANIES IN FIRST KNOWN BREAKOUT BY ITS AI, COMPANY SAYS: WSJ $GOOGL $GOOGL",
+          "tags": [],
+          "ts": 1789769455000,
+          "time": "06:10:55",
+          "receivedAt": 1789773111289,
+          "receivedTime": true
+        },
+        {
+          "id": "7269",
+          "url": "https://t.me/BWEtradfi/7269",
+          "title": "Anthropic的IPO时间仍可能发生变化：华尔街日报",
+          "body": "*ANTHROPIC IPO TIMING COULD STILL CHANGE: WSJ",
+          "tags": [],
+          "ts": 1789766834000,
+          "time": "05:27:14",
+          "receivedAt": 1789773111289,
+          "receivedTime": true
+        },
+        {
+          "id": "7268",
+          "url": "https://t.me/BWEtradfi/7268",
+          "title": "消息称安特洛普（Anthropic）将计划中的IPO推迟至11月：华尔街日报",
+          "body": "*ANTHROPIC SHIFTS PLANNED IPO TO NOVEMBER: WSJ",
+          "tags": [],
+          "ts": 1789766711000,
+          "time": "05:25:11",
+          "receivedAt": 1789773111289,
+          "receivedTime": true
+        },
+        {
+          "id": "7267",
+          "url": "https://t.me/BWEtradfi/7267",
+          "title": "*特朗普：美国与丹麦和格陵兰达成协议，赋予我们永久控制当地安全的权利，且无需承担任何费用。",
+          "body": "*TRUMP: US ENTERED AGREEMENT WITH DENMARK AND GREENLAND GIVING US PERMANENT CONTROL OVER SECURITY AT NO COST *TRUMP: NO US ADVERSARY CAN EVER HAVE BASE MILITARY PRESENCE OR SENSITIVE INVESTMENTS IN GREENLAND WITHOUT EXPRESS WRITTEN APPROVAL *TRUMP: IMMEDIATELY BEGIN PROCESS OF DEVELOPING LARGE MILI...",
+          "tags": [],
+          "ts": 1789766356000,
+          "time": "05:19:16",
+          "receivedAt": 1789773111289,
+          "receivedTime": true
+        },
+        {
+          "id": "7266",
+          "url": "https://t.me/BWEtradfi/7266",
+          "title": "*美国与丹麦即将就格陵兰岛问题达成协议",
+          "body": "*US, DENMARK CLOSING IN ON DEAL REGARDING GREENLAND *DEAL WILL GIVE US MILITARY GREATER PRESENCE IN GREENLAND WITHOUT AFFECTING SOVEREIGNTY *该协议将赋予美国军队在格陵兰岛更大的存在，但不会损害其主权。",
+          "tags": [],
+          "ts": 1789765858000,
+          "time": "05:10:58",
+          "receivedAt": 1789773111289,
+          "receivedTime": true
+        },
         {
           "id": "7265",
           "url": "https://t.me/BWEtradfi/7265",
@@ -1553,11 +1619,66 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "235310",
+          "url": "https://t.me/jin10light/235310",
+          "title": "Gemini首次出现自主访问外部系统事件 谷歌称未造成实际损害",
+          "body": "9月19日讯，谷歌表示，Gemini人工智能模型在一次网络安全能力测试中意外访问互联网，并进入3家公司系统，这是目前已知谷歌AI系统首次自主完成此类操作的案例。 此次事件发生于5月，由安全公司Irregular开展测试。 测试过程中，Gemini模型在一个“夺旗”网络安全演练中执行任务，但由于测试环境中的虚拟公司名称与真实公司相同，加上模型意外获得互联网访问权限，导致其进入真实企业系统。 谷歌称，其中一次事件中，模型通过尝试密码进入受保护系统；另外两次则是在公开网络仓库中发现凭证并尝试访问相关系统。 模型确认访问到真实公司系统后，均停止了后续操作。 谷...",
+          "tags": [],
+          "ts": 1789770098000,
+          "time": "06:21:38",
+          "receivedAt": 1789773113051,
+          "receivedTime": true
+        },
+        {
+          "id": "235309",
+          "url": "https://t.me/jin10light/235309",
+          "title": "据华尔街日报：谷歌Gemini模型在网络安全测试中自主攻击3家公司系统，系谷歌AI首次已知自主执行此类行为。",
+          "body": "",
+          "tags": [],
+          "ts": 1789769858000,
+          "time": "06:17:38",
+          "receivedAt": 1789773113051,
+          "receivedTime": true
+        },
+        {
+          "id": "235308",
+          "url": "https://t.me/jin10light/235308",
+          "title": "美总统特朗普签署针对俄罗斯和伊朗的制裁法案",
+          "body": "9月19日讯，当地时间9月18日，美国白宫发布声明表示，美国总统特朗普当日签署了《2026年林赛·格雷厄姆制裁俄罗斯和伊朗法案》。 该法案授权并扩大了针对俄罗斯的法定制裁、关税及禁令，并延长了现行针对伊朗的制裁措施。",
+          "tags": [],
+          "ts": 1789769556000,
+          "time": "06:12:36",
+          "receivedAt": 1789773113051,
+          "receivedTime": true
+        },
+        {
+          "id": "235307",
+          "url": "https://t.me/jin10light/235307",
+          "title": "白宫：特朗普签署俄罗斯制裁法案，使其正式成为法律。",
+          "body": "",
+          "tags": [],
+          "ts": 1789769258000,
+          "time": "06:07:38",
+          "receivedAt": 1789773113051,
+          "receivedTime": true
+        },
+        {
+          "id": "235306",
+          "url": "https://t.me/jin10light/235306",
+          "title": "消息人士：美国与丹麦即将就格陵兰岛达成协议。",
+          "body": "有关协议将在不影响主权的情况下加强美国在格陵兰的军事存在。",
+          "tags": [],
+          "ts": 1789766078000,
+          "time": "05:14:38",
+          "receivedAt": 1789773113051,
+          "receivedTime": true
+        },
         {
           "id": "235305",
           "url": "https://t.me/jin10light/235305",
@@ -17027,79 +17148,6 @@
           ],
           "ts": 1789388322000,
           "time": "20:18:42",
-          "receivedAt": 1789392260753,
-          "receivedTime": true
-        },
-        {
-          "id": "234110",
-          "url": "https://t.me/jin10light/234110",
-          "title": "美光科技(MU.O)盘前跌幅扩大至6%，SK海力士(SKHY.O)跌7.5%。",
-          "body": "#美光科技 #SK海力士",
-          "tags": [
-            "#美光科技",
-            "#SK海力士"
-          ],
-          "ts": 1789388077000,
-          "time": "20:14:37",
-          "receivedAt": 1789392260753,
-          "receivedTime": true
-        },
-        {
-          "id": "234109",
-          "url": "https://t.me/jin10light/234109",
-          "title": "Strategy回购1.39亿美元STRC，持有84.5万枚BTC及64亿美元储备资产",
-          "body": "#Michael Saylor #Strategy #BTC",
-          "tags": [
-            "#Michael",
-            "#Strategy",
-            "#BTC"
-          ],
-          "ts": 1789387599000,
-          "time": "20:06:39",
-          "receivedAt": 1789392260753,
-          "receivedTime": true
-        },
-        {
-          "id": "234108",
-          "url": "https://t.me/jin10light/234108",
-          "title": "Strategy上周未买入比特币，美元储备降至64亿美元",
-          "body": "#BTC #Strategy",
-          "tags": [
-            "#BTC",
-            "#Strategy"
-          ],
-          "ts": 1789387178000,
-          "time": "19:59:38",
-          "receivedAt": 1789392260753,
-          "receivedTime": true
-        },
-        {
-          "id": "234107",
-          "url": "https://t.me/jin10light/234107",
-          "title": "沙特能源设施遭袭，伊朗战争外溢加剧，特朗普面临能源与中期选举双重压力",
-          "body": "#美国 #伊朗 #沙特",
-          "tags": [
-            "#美国",
-            "#伊朗",
-            "#沙特"
-          ],
-          "ts": 1789386998000,
-          "time": "19:56:38",
-          "receivedAt": 1789392260753,
-          "receivedTime": true
-        },
-        {
-          "id": "234106",
-          "url": "https://t.me/jin10light/234106",
-          "title": "华尔街认为「单次加息」难终结美股牛市，真正威胁在持续紧缩与衰退",
-          "body": "#美联储 #美股 #高盛",
-          "tags": [
-            "#美联储",
-            "#美股",
-            "#高盛"
-          ],
-          "ts": 1789386882000,
-          "time": "19:54:42",
           "receivedAt": 1789392260753,
           "receivedTime": true
         }
