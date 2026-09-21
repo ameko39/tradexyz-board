@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-21T18:54:51.941Z",
+  "updatedAt": "2026-09-21T22:22:19.953Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7276",
+          "url": "https://t.me/BWEtradfi/7276",
+          "title": "Infinityhedge: 根据上周在一项稳定币法案上悄悄提交的修正案，七名共和党人共同发起了一项修正案，使银行在稳定币收益方面获得重大胜利，从而使《清晰法案》获得60票的难度增加：Punchbowl",
+          "body": "Infinityhedge: SEVEN REPUBLICANS COSPONSORED AMENDMENT GIVING BANKS MAJOR WIN ON STABLECOIN YIELD, COMPLICATING CLARITY ACT 60 VOTE MATH, ACCORDING TO AN AMENDMENT QUIETLY FILED ON THE CLARITY ACT LAST WEEK: PUNCHBOWL",
+          "tags": [],
+          "ts": 1790028445000,
+          "time": "06:07:25",
+          "receivedAt": 1790029328002,
+          "receivedTime": true
+        },
         {
           "id": "7275",
           "url": "https://t.me/BWEtradfi/7275",
@@ -1441,24 +1452,112 @@
           "time": "17:00:14",
           "receivedAt": 1788784124450,
           "receivedTime": true
-        },
-        {
-          "id": "7145",
-          "url": "https://t.me/BWEtradfi/7145",
-          "title": "*TRUMP：我为美国在股票上赚了数千亿美元",
-          "body": "*TRUMP: I'VE MADE HUNDREDS OF BILLIONS OF DOLLARS ON STOCKS FOR THE USA",
-          "tags": [],
-          "ts": 1788722292000,
-          "time": "03:18:12",
-          "receivedAt": 1788725356802,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "235695",
+          "url": "https://t.me/jin10light/235695",
+          "title": "美加州一女子因隐瞒260万美元加密犯罪所得，被判18个月监禁",
+          "body": "",
+          "tags": [],
+          "ts": 1790027798000,
+          "time": "05:56:38",
+          "receivedAt": 1790029328378,
+          "receivedTime": true
+        },
+        {
+          "id": "235694",
+          "url": "https://t.me/jin10light/235694",
+          "title": "分析：比特币空头挤压后或测试9万美元，但杠杆风险升温",
+          "body": "",
+          "tags": [],
+          "ts": 1790027437000,
+          "time": "05:50:37",
+          "receivedAt": 1790029328378,
+          "receivedTime": true
+        },
+        {
+          "id": "235693",
+          "url": "https://t.me/jin10light/235693",
+          "title": "整理：中东局势跟踪（9月22日）",
+          "body": "冲突情况ï 1.据伊通社（IRNA）：也门胡塞武装向塔伊兹推进，据报道已包围该地区。 2. 据黎巴嫩广场电视台：沙特边防部队在与伊拉克的边境部署了特殊的侦察气球。 3. 据半岛电视台：也门政府军称，其在塔伊兹省西部贾巴勒哈布希县阿什鲁赫战线的贝尼贝卡里地区击退了胡塞武装的袭击。 4. 胡塞武装：沙特从海米斯穆谢特和塔伊夫空军基地出动F-15和“台风”战机，对也门贾夫、塔伊兹、萨达和马里卜四省发动了157次空袭和导弹袭击，并从纳季兰和吉赞发射了导弹。 和平谈判ï 1.巴基斯坦与伊朗两国内政部长就双边关系和地区局势交换意见。 2. 美国驻联合国大使沃尔茨：...",
+          "tags": [],
+          "ts": 1790027200000,
+          "time": "05:46:40",
+          "receivedAt": 1790029328378,
+          "receivedTime": true
+        },
+        {
+          "id": "235692",
+          "url": "https://t.me/jin10light/235692",
+          "title": "xAI发布Grok 4.7：参数规模增至2.1万亿，基准测试仍落后Claude",
+          "body": "",
+          "tags": [],
+          "ts": 1790026415000,
+          "time": "05:33:35",
+          "receivedAt": 1790029328378,
+          "receivedTime": true
+        },
+        {
+          "id": "235691",
+          "url": "https://t.me/jin10light/235691",
+          "title": "英伟达承诺通过私募方式认购15亿美元SB ENERGY N类普通股",
+          "body": "",
+          "tags": [],
+          "ts": 1790026298000,
+          "time": "05:31:38",
+          "receivedAt": 1790029328378,
+          "receivedTime": true
+        },
+        {
+          "id": "235690",
+          "url": "https://t.me/jin10light/235690",
+          "title": "英国首相伯纳姆：已同意沙特方面的请求，进行有限时间的防御性空中加油，以帮助稳定该地区局势。",
+          "body": "",
+          "tags": [],
+          "ts": 1790024618000,
+          "time": "05:03:38",
+          "receivedAt": 1790029328378,
+          "receivedTime": true
+        },
+        {
+          "id": "235689",
+          "url": "https://t.me/jin10light/235689",
+          "title": "美股收盘：纳指涨超2%，Meta大涨11%",
+          "body": "9月22日讯，美股周一收盘，道指初步收涨0.7%，标普500指数涨1.49%，纳指涨2.26%。 英特尔(INTC.O)涨12%，Meta Platforms(META.O)涨11%，高通(QCOM.O)涨9%，特斯拉(TSLA.O)涨3%，AMD(AMD.O)涨近10%。 纳斯达克中国金龙指数收涨0.7%，阿里巴巴(BABA.N)涨超2%。",
+          "tags": [],
+          "ts": 1790021078000,
+          "time": "04:04:38",
+          "receivedAt": 1790029328378,
+          "receivedTime": true
+        },
+        {
+          "id": "235688",
+          "url": "https://t.me/jin10light/235688",
+          "title": "俄罗斯政府决定免除谷物出口关税至年底",
+          "body": "9月22日讯，俄罗斯农业部周一宣布，将谷物出口关税降至零，该政策将持续至2026年底。 根据一项新法令，俄罗斯小麦、大麦和玉米的“浮动”出口关税已取消，该政策将持续至今年12月31日。 与此同时，俄罗斯还将把葵花籽油的出口关税上限设定为每吨7748卢布，葵花籽粕的出口关税上限设定为每吨312卢布。 农业部在一份声明中表示，该决定旨在在出口物流持续重组的背景下，支持国内谷物和油料作物的生产商及出口商。 农业部表示：“这些措施将降低市场参与者的成本，使销售条件更具可预测性，并支持该行业的出口潜力。 ”",
+          "tags": [],
+          "ts": 1790020360000,
+          "time": "03:52:40",
+          "receivedAt": 1790029328378,
+          "receivedTime": true
+        },
+        {
+          "id": "235687",
+          "url": "https://t.me/jin10light/235687",
+          "title": "利比亚国家石油公司（NOC）发表声明称，周一，一伙武装分子关闭了通往扎维耶港的沙拉拉原油管道上的7号阀门，导致沙拉拉油田产量急剧下降。",
+          "body": "",
+          "tags": [],
+          "ts": 1790019218000,
+          "time": "03:33:38",
+          "receivedAt": 1790029328378,
+          "receivedTime": true
+        },
         {
           "id": "235686",
           "url": "https://t.me/jin10light/235686",
@@ -15575,139 +15674,6 @@
           "ts": 1789517684000,
           "time": "08:14:44",
           "receivedAt": 1789522849529,
-          "receivedTime": true
-        },
-        {
-          "id": "234495",
-          "url": "https://t.me/jin10light/234495",
-          "title": "韩国KOSPI指数开盘下跌0.17%，三星电子平开，SK海力士涨0.77%",
-          "body": "#韩国 #KOSPI #日经225",
-          "tags": [
-            "#韩国",
-            "#KOSPI",
-            "#日经225"
-          ],
-          "ts": 1789517683000,
-          "time": "08:14:43",
-          "receivedAt": 1789522849529,
-          "receivedTime": true
-        },
-        {
-          "id": "234494",
-          "url": "https://t.me/jin10light/234494",
-          "title": "观点：《CLARITY法案》不会「胎死腹中」，美国有责任监管加密行业",
-          "body": "#美国 #Angela Alsobrooks #加密货币",
-          "tags": [
-            "#美国",
-            "#Angela",
-            "#加密货币"
-          ],
-          "ts": 1789517683000,
-          "time": "08:14:43",
-          "receivedAt": 1789522849529,
-          "receivedTime": true
-        },
-        {
-          "id": "234493",
-          "url": "https://t.me/jin10light/234493",
-          "title": "日债收益率全线走高",
-          "body": "9月16日讯，日本10年期国债收益率上升至3.035%；20年期国债收益率上升4.0个基点，至3.925%；30年期国债收益率上升4.0个基点，至4.190%。 #日本 #日债收益率",
-          "tags": [
-            "#日本",
-            "#日债收益率"
-          ],
-          "ts": 1789517557000,
-          "time": "08:12:37",
-          "receivedAt": 1789522849729,
-          "receivedTime": true
-        },
-        {
-          "id": "234492",
-          "url": "https://t.me/jin10light/234492",
-          "title": "澳大利亚矿业与能源工会：因嘉能可未能提供良好的本地就业岗位和公平的工资，乌兰地下矿工将于周四、周五在马奇举行集会。",
-          "body": "#澳大利亚 #嘉能可 #乌兰地下矿",
-          "tags": [
-            "#澳大利亚",
-            "#嘉能可",
-            "#乌兰地下矿"
-          ],
-          "ts": 1789517320000,
-          "time": "08:08:40",
-          "receivedAt": 1789522849729,
-          "receivedTime": true
-        },
-        {
-          "id": "234491",
-          "url": "https://t.me/jin10light/234491",
-          "title": "预告：美联储今夜迎来利率决议，加息再次成为市场基准预期，经济政策逻辑是否变化成为焦点",
-          "body": "#美联储 #美国 #美元",
-          "tags": [
-            "#美联储",
-            "#美国",
-            "#美元"
-          ],
-          "ts": 1789516780000,
-          "time": "07:59:40",
-          "receivedAt": 1789522849729,
-          "receivedTime": true
-        },
-        {
-          "id": "234490",
-          "url": "https://t.me/jin10light/234490",
-          "title": "《CLARITY法案》关键程序性表决未获通过，比特币一度跌破7.5万美元，加密概念股全线重挫",
-          "body": "#美国 #BTC #ETH",
-          "tags": [
-            "#美国",
-            "#BTC",
-            "#ETH"
-          ],
-          "ts": 1789515759000,
-          "time": "07:42:39",
-          "receivedAt": 1789515766112,
-          "receivedTime": true
-        },
-        {
-          "id": "234489",
-          "url": "https://t.me/jin10light/234489",
-          "title": "美联储利率决议前夜美股市场平淡，存储与光通信板块涨跌不一，标普500创8月以来收盘新低",
-          "body": "#美股 #美联储 #AMD",
-          "tags": [
-            "#美股",
-            "#美联储",
-            "#AMD"
-          ],
-          "ts": 1789515100000,
-          "time": "07:31:40",
-          "receivedAt": 1789515766112,
-          "receivedTime": true
-        },
-        {
-          "id": "234488",
-          "url": "https://t.me/jin10light/234488",
-          "title": "国内新闻ï",
-          "body": "1.伊朗外长阿拉格齐将于9月16日访华。 2. 电子信息制造业发展“十五五”规划发布。 3. 中钢协：严格落实产量调控，坚持自律控产降库存。 4. 针对“全网最低价”等问题，两部门召开在线酒店预订平台服务行业行政指导会。 5. 发改委主任郑栅洁主持召开民营企业座谈会，围绕优化发展环境、拓展投资空间听取意见建议。 6. 8月份，规模以上工业增加值增长5.2%；社会消费品零售总额39824亿元，同比增长0.4%。 1—8月份，全国固定资产投资293092亿元，同比下降7.2%；全国房地产开发投资47979亿元，同比下降19.9%。 国际新闻ï 1.英媒：英...",
-          "tags": [
-            "#伊朗",
-            "#中国",
-            "#沙特"
-          ],
-          "ts": 1789511801000,
-          "time": "06:36:41",
-          "receivedAt": 1789515766112,
-          "receivedTime": true
-        },
-        {
-          "id": "234487",
-          "url": "https://t.me/jin10light/234487",
-          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.852吨，当前持仓量为1050.277吨。",
-          "body": "#黄金 #SPDR Gold Trust",
-          "tags": [
-            "#黄金",
-            "#SPDR"
-          ],
-          "ts": 1789510898000,
-          "time": "06:21:38",
-          "receivedAt": 1789515766112,
           "receivedTime": true
         }
       ],
