@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-23T17:09:07.071Z",
+  "updatedAt": "2026-09-23T20:17:59.600Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7294",
+          "url": "https://t.me/BWEtradfi/7294",
+          "title": "美国监管机构计划加快新型电子烟和烟草袋的审批：华尔街日报",
+          "body": "*U.S. REGULATORS PLAN TO SPEED AUTHORIZATIONS OF NEW VAPES, TOBACCO POUCHES: WSJ $PM",
+          "tags": [],
+          "ts": 1790192969000,
+          "time": "03:49:29",
+          "receivedAt": 1790194660371,
+          "receivedTime": true
+        },
         {
           "id": "7293",
           "url": "https://t.me/BWEtradfi/7293",
@@ -1543,61 +1554,6 @@
           "time": "09:16:32",
           "receivedAt": 1788916623428,
           "receivedTime": true
-        },
-        {
-          "id": "7154",
-          "url": "https://t.me/BWEtradfi/7154",
-          "title": "DB: 标普500指数收盘下跌0.6%，纳斯达克指数下跌0.4%",
-          "body": "DB: *S&P 500 CLOSES DOWN 0.6%, NASDAQ DOWN 0.4%",
-          "tags": [],
-          "ts": 1788897613000,
-          "time": "04:00:13",
-          "receivedAt": 1788901384884,
-          "receivedTime": true
-        },
-        {
-          "id": "7153",
-          "url": "https://t.me/BWEtradfi/7153",
-          "title": "*《华尔街日报》报道：伊朗周一未公开承认对美国海军舰艇发动袭击",
-          "body": "*IRAN LAUNCHED AN UNACKNOWLEDGED ATTACK AGAINST U.S. NAVY SHIPS ON MONDAY: WSJ *IRAN TARGETED AN AIRCRAFT CARRIER AND A DESTROYER WITH WEEKEND MISSILE STRIKES *U.S. OFFICIALS WORRY IRAN IS USING ADVANCED WEAPONS AND RECEIVING TRACKING HELP *伊朗周末使用导弹袭击了一艘航空母舰和一艘驱逐舰 *美国官员担忧伊朗正在使用先进武器并获得追踪协助",
-          "tags": [],
-          "ts": 1788897045000,
-          "time": "03:50:45",
-          "receivedAt": 1788901384884,
-          "receivedTime": true
-        },
-        {
-          "id": "7152",
-          "url": "https://t.me/BWEtradfi/7152",
-          "title": "DB: 美国7月消费者信贷环比增加180.6亿美元；预期增加116.5亿美元",
-          "body": "DB: *US JULY CONSUMER CREDIT RISES $18.06B M/M; EST. +11.65B",
-          "tags": [],
-          "ts": 1788894015000,
-          "time": "03:00:15",
-          "receivedAt": 1788901384884,
-          "receivedTime": true
-        },
-        {
-          "id": "7151",
-          "url": "https://t.me/BWEtradfi/7151",
-          "title": "伊朗哈克岛传出爆炸声：迈赫尔通讯社",
-          "body": "*EXPLOSIONS HEARD ON IRAN'S KHARG ISLAND: MEHR",
-          "tags": [],
-          "ts": 1788893277000,
-          "time": "02:47:57",
-          "receivedAt": 1788901384884,
-          "receivedTime": true
-        },
-        {
-          "id": "7150",
-          "url": "https://t.me/BWEtradfi/7150",
-          "title": "*OpenAI否认在数学证明争议中获取用户数据或未发表的研究成果：X Post",
-          "body": "*OPENAI DENIES ACCESSING USER DATA OR UNPUBLISHED RESEARCH IN MATH PROOFS DISPUTE: X POST *OPENAI SAYS ITS MATHEMATICAL PROOFS DIFFER SIGNIFICANTLY FROM ALPÖGE-BUCKMASTER RESULTS *OPENAI CONCEDES UNLIKELY BUT CANNOT RULE OUT DE-IDENTIFIED USER DATA IMPROVED MODELS *OpenAI称其数学证明与Alpöge-Buckmaster的结果...",
-          "tags": [],
-          "ts": 1788888254000,
-          "time": "01:24:14",
-          "receivedAt": 1788890560874,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1605,6 +1561,61 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "236152",
+          "url": "https://t.me/jin10light/236152",
+          "title": "美股收盘：三大股指收跌 阿里巴巴跌超4%",
+          "body": "9月24日讯，美股周三收盘，道指初步收跌0.68%，标普500指数跌0.75%，纳指跌1.1%。 SK海力士(SKHY.O)跌3%，Meta(META.O)涨1%，亚马逊(AMZN.O)跌2%。 纳斯达克中国金龙指数收跌1.44%，阿里巴巴(BABA.N)跌4.7%，百度(BIDU.O)跌近3%。",
+          "tags": [],
+          "ts": 1790193758000,
+          "time": "04:02:38",
+          "receivedAt": 1790194660905,
+          "receivedTime": true
+        },
+        {
+          "id": "236151",
+          "url": "https://t.me/jin10light/236151",
+          "title": "报道：台积电晶圆代工价格确定再涨 涨幅约3%至6%",
+          "body": "9月24日讯，据DIGITIMES报道，台积电晶圆代工价格确定再涨。 供应链人士透露，8寸厂产能利用率超过100%、45纳米以下制程满载的台积电，订单能见度已至2030年，已确定自2027年1月起，按照不同制程调整Wafer Out价格，涨幅约3~6%。 据悉，其中先进制程涨价幅度较高，成熟及特殊制程则依产品、稼动率及客户状况个别议价，美国亚利桑那州厂则反映高昂制造成本，代工报价维持高档。 台积电则不回应市场传闻。",
+          "tags": [],
+          "ts": 1790191118000,
+          "time": "03:18:38",
+          "receivedAt": 1790194660905,
+          "receivedTime": true
+        },
+        {
+          "id": "236150",
+          "url": "https://t.me/jin10light/236150",
+          "title": "布伦特原油向上触及99美元/桶，日内大涨4%。",
+          "body": "",
+          "tags": [],
+          "ts": 1790188658000,
+          "time": "02:37:38",
+          "receivedAt": 1790194660905,
+          "receivedTime": true
+        },
+        {
+          "id": "236149",
+          "url": "https://t.me/jin10light/236149",
+          "title": "白宫官员：美国考虑柴油出口禁令的报道是“假新闻”。",
+          "body": "",
+          "tags": [],
+          "ts": 1790185358000,
+          "time": "01:42:38",
+          "receivedAt": 1790194660905,
+          "receivedTime": true
+        },
+        {
+          "id": "236148",
+          "url": "https://t.me/jin10light/236148",
+          "title": "美国5年期国债收益率升破5% 为2007年以来首次",
+          "body": "美国5年期国债收益率在拍卖后进一步上升，最新上涨19.04个基点，报5.032%，为2007年以来首次突破5%关口。",
+          "tags": [],
+          "ts": 1790183379000,
+          "time": "01:09:39",
+          "receivedAt": 1790194660905,
+          "receivedTime": true
+        },
         {
           "id": "236147",
           "url": "https://t.me/jin10light/236147",
@@ -14750,61 +14761,6 @@
           "tags": [],
           "ts": 1789647519000,
           "time": "20:18:39",
-          "receivedAt": 1789656934127,
-          "receivedTime": true
-        },
-        {
-          "id": "234952",
-          "url": "https://t.me/jin10light/234952",
-          "title": "布伦特原油日内大跌3%，现报99.03美元/桶。",
-          "body": "",
-          "tags": [],
-          "ts": 1789647219000,
-          "time": "20:13:39",
-          "receivedAt": 1789656934127,
-          "receivedTime": true
-        },
-        {
-          "id": "234951",
-          "url": "https://t.me/jin10light/234951",
-          "title": "美、布两油短线走低0.7美元，美股三大股指期货短线拉升，标普500指数期货涨幅扩大至1%，纳指期货上涨1.3%。",
-          "body": "有报道称沙特请求阿曼出面斡旋与胡塞武装达成两周停火。",
-          "tags": [],
-          "ts": 1789647156000,
-          "time": "20:12:36",
-          "receivedAt": 1789656934127,
-          "receivedTime": true
-        },
-        {
-          "id": "234950",
-          "url": "https://t.me/jin10light/234950",
-          "title": "据黎巴嫩《消息报》（Al-Akhbar）：沙特请求阿曼出面斡旋，与胡塞武装达成为期两周的停火；在此期间，各项人道主义诉求将得到讨论，并于本周末前宣布达成协议。",
-          "body": "",
-          "tags": [],
-          "ts": 1789647099000,
-          "time": "20:11:39",
-          "receivedAt": 1789656934127,
-          "receivedTime": true
-        },
-        {
-          "id": "234949",
-          "url": "https://t.me/jin10light/234949",
-          "title": "Tom Lee：大多数投资者假设未来机会仅限于当前市场，低估项目增长潜力",
-          "body": "",
-          "tags": [],
-          "ts": 1789647035000,
-          "time": "20:10:35",
-          "receivedAt": 1789656934127,
-          "receivedTime": true
-        },
-        {
-          "id": "234948",
-          "url": "https://t.me/jin10light/234948",
-          "title": "金十整理：英国央行决议重点一览——第六次按兵不动 宣布放弃长期国债出售计划",
-          "body": "1.利率水平：连续第六次会议将政策利率维持在3.75%不变，符合市场预期。 2. 投票比例：以6-3的投票结果通过此次利率决议（与7月会议投票比例相同）；货币政策委员格林、曼恩、首席经济学家皮尔支持加息。 3. 前瞻指引：维持利率指引，称如有必要将采取行动。 行长贝利称，如果中东冲突持续较长时间，且第二轮影响风险增加，政策可能需要收紧。 4. 经济评估：通胀风险相较于七月的中央预测偏向上行；迄今为止“几乎没有证据”表明存在实质性的二次通胀效应。 未来几个季度通胀可能上升；经济活动略强于预期。 预计到2026年底通胀率将达到3.75%；消费者价格通胀率将...",
-          "tags": [],
-          "ts": 1789646977000,
-          "time": "20:09:37",
           "receivedAt": 1789656934127,
           "receivedTime": true
         }
