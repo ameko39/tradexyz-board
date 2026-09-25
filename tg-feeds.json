@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-09-24T22:43:19.471Z",
+  "updatedAt": "2026-09-25T00:52:04.180Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7315",
+          "url": "https://t.me/BWEtradfi/7315",
+          "title": "*白宫国宴：特朗普的席位安排了习近平、马斯克、黄仁勋、苏姿丰、蒂姆·库克",
+          "body": "*WH STATE DINNER: TRUMP'S TABLE SEATS XI, ELON MUSK, JENSEN HUANG, LISA SU, TIM COOK",
+          "tags": [],
+          "ts": 1790294660000,
+          "time": "08:04:20",
+          "receivedAt": 1790297510015,
+          "receivedTime": true
+        },
+        {
+          "id": "7314",
+          "url": "https://t.me/BWEtradfi/7314",
+          "title": "*习近平：同特朗普进行了坦诚对话，达成多项共识",
+          "body": "*XI: HAD CANDID TALKS, REACHED MANY CONSENSUS WITH TRUMP",
+          "tags": [],
+          "ts": 1790294607000,
+          "time": "08:03:27",
+          "receivedAt": 1790297510015,
+          "receivedTime": true
+        },
+        {
+          "id": "7313",
+          "url": "https://t.me/BWEtradfi/7313",
+          "title": "*特朗普、众议院议长迈克·约翰逊和科技公司首席执行官将于9月29日举行人工智能会议",
+          "body": "*TRUMP, HOUSE SPEAKER MIKE JOHNSON, AND TECH CEOS WILL HOLD AN AI MEETING ON SEPT. 29 *THE MEETING ADDRESSES MOUNTING PRESSURE ON WASHINGTON TO REGULATE FRONTIER AI COMPANIES *此次会议旨在应对华盛顿方面日益增长的监管前沿人工智能公司的压力。",
+          "tags": [],
+          "ts": 1790289882000,
+          "time": "06:44:42",
+          "receivedAt": 1790297510015,
+          "receivedTime": true
+        },
         {
           "id": "7312",
           "url": "https://t.me/BWEtradfi/7312",
@@ -1576,75 +1609,6 @@
           "time": "09:46:54",
           "receivedAt": 1789019343036,
           "receivedTime": true
-        },
-        {
-          "id": "7170",
-          "url": "https://t.me/BWEtradfi/7170",
-          "title": "*《纽约时报》报道：英伟达因涉嫌规避反垄断审查，面临美国司法部对其收购GROQ交易的调查",
-          "body": "*NVIDIA FACES A DOJ INVESTIGATION OVER WHETHER IT SKIRTED ANTITRUST SCRUTINY ON ITS GROQ DEAL: NYT *DOJ MAY FINE NVIDIA IF IT FINDS FAULT WITH THE DEAL'S STRUCTURE, BUT WON'T UNWIND IT $NVDA *如果司法部发现该交易结构存在问题，可能会对英伟达处以罚款，但不会撤销该交易 $NVDA",
-          "tags": [],
-          "ts": 1788999849000,
-          "time": "08:24:09",
-          "receivedAt": 1789002126635,
-          "receivedTime": true
-        },
-        {
-          "id": "7169",
-          "url": "https://t.me/BWEtradfi/7169",
-          "title": "*NVIDIA 与澳大利亚运营商合作，计划在 2027 年前建成高达 2GW 的 AI 数据中心",
-          "body": "*NVIDIA PARTNERS WITH AUSTRALIAN OPERATORS FOR UP TO 2-GW AI BUILDOUT BY 2027 *NVIDIA PARTNERS INCLUDE IREN, NEXTDC, MEGAPORT, AIRTRUNK ON DSX AI FACTORIES #NVDA • #IREN *NVIDIA 合作伙伴包括 IREN、NEXTDC、MEGAPORT 和 AIRTUNK，共同打造 DSX AI 工厂 #NVDA • #IREN",
-          "tags": [
-            "#NVDA",
-            "#IREN"
-          ],
-          "ts": 1788998460000,
-          "time": "08:01:00",
-          "receivedAt": 1789002126635,
-          "receivedTime": true
-        },
-        {
-          "id": "7168",
-          "url": "https://t.me/BWEtradfi/7168",
-          "title": "*特朗普政府计划向100万奥巴马医改参保者发放500美元的退款支票",
-          "body": "*TRUMP ADMINISTRATION PLANS TO SEND $500 REBATE CHECKS TO 1 MILLION OBAMACARE ENROLLEES *PAYMENTS TOTALING $500 MILLION WILL BE DISTRIBUTED ACROSS 30 STATES BEFORE THE NOVEMBER 3 MIDTERM ELECTION *总额达5亿美元的款项将在11月3日中期选举前发放至30个州。",
-          "tags": [],
-          "ts": 1788996679000,
-          "time": "07:31:19",
-          "receivedAt": 1789002126635,
-          "receivedTime": true
-        },
-        {
-          "id": "7167",
-          "url": "https://t.me/BWEtradfi/7167",
-          "title": "*OPENAI正式支持四项即将提交加州州长纽森审议的加州人工智能法案，其中包括SB 813法案",
-          "body": "*OPENAI FORMALLY ENDORSED FOUR NEW CALIFORNIA AI BILLS HEADED TO GOVERNOR NEWSOM, INCLUDING SB 813 *OPENAI CALLS ON CONGRESS TO ENACT MANDATORY NATIONAL AI SAFETY RULES *OPENAI SAYS PREPARED TO SLOW OR HALT MODEL DEVELOPMENT OVER UNACCEPTABLE RISKS *OPENAI PUSHES FOR GLOBAL… *OPENAI呼吁国会制定强制性国家人工智能安...",
-          "tags": [],
-          "ts": 1788996633000,
-          "time": "07:30:33",
-          "receivedAt": 1789002126635,
-          "receivedTime": true
-        },
-        {
-          "id": "7166",
-          "url": "https://t.me/BWEtradfi/7166",
-          "title": "*人类学研究员雅各布·考克森因人工智能安全问题在股权归属前辞职",
-          "body": "*ANTHROPIC RESEARCHER JACOB COXON RESIGNED OVER AI SAFETY CONCERNS BEFORE HIS EQUITY VESTED *COXON FORFEITED HIS ANTHROPIC EQUITY BY LEAVING JUST TWO MONTHS BEFORE THE SIX-MONTH VESTING PERIOD *考克森在六个月股权归属期开始前仅两个月离职，因此丧失了其在人类学领域的股权。",
-          "tags": [],
-          "ts": 1788995688000,
-          "time": "07:14:48",
-          "receivedAt": 1789002126635,
-          "receivedTime": true
-        },
-        {
-          "id": "7165",
-          "url": "https://t.me/BWEtradfi/7165",
-          "title": "*据美国官员透露，白宫高级顾问向特朗普提出，伊朗战争可能会持续到他任期结束：《华尔街日报》",
-          "body": "*TOP WHITE HOUSE ADVISERS RAISE PROSPECT WITH TRUMP THAT IRAN WAR COULD DRAG THROUGH REMAINDER OF TERM, U.S. OFFICIALS SAY: WS *VANCE, RUBIO, OTHERS DISCUSS WITH TRUMP THAT TEHRAN COULD CONTINUE TO RESIST U.S. PRESSURE, OFFICIALS SAY: WSJ *据官员透露，万斯、卢比奥等人与特朗普讨论了德黑兰可能继续抵抗美国压力的问题：《华尔街日报》",
-          "tags": [],
-          "ts": 1788994818000,
-          "time": "07:00:18",
-          "receivedAt": 1788995397045,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1652,6 +1616,138 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "236410",
+          "url": "https://t.me/jin10light/236410",
+          "title": "Bitget CEO：部分被盗资金或可追回，只有确认系统安全后才会恢复提币",
+          "body": "",
+          "tags": [],
+          "ts": 1790297258000,
+          "time": "08:47:38",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
+        {
+          "id": "236409",
+          "url": "https://t.me/jin10light/236409",
+          "title": "Bitget CEO披露攻击初步路径：或涉及第三方软件供应链攻击",
+          "body": "",
+          "tags": [],
+          "ts": 1790296838000,
+          "time": "08:40:38",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
+        {
+          "id": "236408",
+          "url": "https://t.me/jin10light/236408",
+          "title": "Bitget CEO：此次平台遭攻击并非因密钥泄露，提币恢复暂无准确时间",
+          "body": "",
+          "tags": [],
+          "ts": 1790296358000,
+          "time": "08:32:38",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
+        {
+          "id": "236407",
+          "url": "https://t.me/jin10light/236407",
+          "title": "Bitget攻击者已将EVM链上大部分被盗资金兑换成67,982枚ETH，约合1.83亿美元",
+          "body": "",
+          "tags": [],
+          "ts": 1790295582000,
+          "time": "08:19:42",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
+        {
+          "id": "236406",
+          "url": "https://t.me/jin10light/236406",
+          "title": "巨鲸「先定10个大目标」：BTC若跌破79,000美元将逐步平多，快速冲高至10万美元附近拟做空对冲",
+          "body": "",
+          "tags": [],
+          "ts": 1790294738000,
+          "time": "08:05:38",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
+        {
+          "id": "236405",
+          "url": "https://t.me/jin10light/236405",
+          "title": "今日韩股、A股、台股及国内期货市场休市一日，港股正常开市，但关闭南、北向交易。",
+          "body": "",
+          "tags": [],
+          "ts": 1790294256000,
+          "time": "07:57:36",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
+        {
+          "id": "236404",
+          "url": "https://t.me/jin10light/236404",
+          "title": "Bitget部分热钱包出现异常转账涉及约3.516亿美元，冷钱包及平台绝大部分资产未受影响",
+          "body": "",
+          "tags": [],
+          "ts": 1790294198000,
+          "time": "07:56:38",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
+        {
+          "id": "236403",
+          "url": "https://t.me/jin10light/236403",
+          "title": "美国财政部20至30年期美债回购未达60亿美元上限",
+          "body": "",
+          "tags": [],
+          "ts": 1790292340000,
+          "time": "07:25:40",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
+        {
+          "id": "236402",
+          "url": "https://t.me/jin10light/236402",
+          "title": "整理：每日科技要闻速递（9月25日）",
+          "body": "人工智能ï 1.甲骨文就新墨西哥数据中心发出不可抗力通知。 2. 谷歌、OpenAI和Anthropic的人工智能安全组织正在成形。 3. Anthropic：与Akamai达成120亿美元人工智能算力合作协议。 4. 美媒：白宫要求AI新模型先过美国审查，再提供英国测试。 5. 马斯克称SpaceX AI项目加速发展，预计半年内达到领先位置。 6. 据The Information：DeepSeek完成75亿美元融资，估值达到750亿美元。 7. 据《财富》杂志：OpenAI正准备在未来几天预览其最新网络安全专用模型GPT-6 Cyber。 8. 据...",
+          "tags": [],
+          "ts": 1790291678000,
+          "time": "07:14:38",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
+        {
+          "id": "236401",
+          "url": "https://t.me/jin10light/236401",
+          "title": "全球最大的黄金ETF SPDR Gold Trust持仓量为1056.836吨，较前一个交易日维持不变。",
+          "body": "",
+          "tags": [],
+          "ts": 1790290536000,
+          "time": "06:55:36",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
+        {
+          "id": "236400",
+          "url": "https://t.me/jin10light/236400",
+          "title": "英国9月Gfk消费者信心指数 -13，预期-16，前值-14。",
+          "body": "",
+          "tags": [],
+          "ts": 1790290358000,
+          "time": "06:52:38",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
+        {
+          "id": "236399",
+          "url": "https://t.me/jin10light/236399",
+          "title": "今日重点关注的财经数据与事件：2026年9月25日 周五",
+          "body": "① 待定 英国央行行长贝利发表讲话 ② 07:01 英国9月Gfk消费者信心指数 ③ 14:00 德国10月Gfk消费者信心指数 ④ 17:15 美联储威廉姆斯发表讲话 ⑤ 20:30 美国8月耐用品订单月率 ⑥ 21:20 美联储施密德发表讲话 ⑦ 22:00 美国9月密歇根大学消费者信心指数终值 ⑧ 22:00 美国9月一年期通胀率预期终值 ⑨ 次日01:00 美国至9月25日当周石油钻井总数 ⑩ 次日02:00 美联储哈马克发表讲话",
+          "tags": [],
+          "ts": 1790289940000,
+          "time": "06:45:40",
+          "receivedAt": 1790297510491,
+          "receivedTime": true
+        },
         {
           "id": "236398",
           "url": "https://t.me/jin10light/236398",
@@ -14720,138 +14816,6 @@
           "tags": [],
           "ts": 1789727198000,
           "time": "18:26:38",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235210",
-          "url": "https://t.me/jin10light/235210",
-          "title": "Anthropic已建立生物学实验室，希望让Claude人工智能系统控制实体机器人",
-          "body": "",
-          "tags": [],
-          "ts": 1789726297000,
-          "time": "18:11:37",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235209",
-          "url": "https://t.me/jin10light/235209",
-          "title": "巴菲特卸任伯克希尔董事长，其子当选新董事长",
-          "body": "",
-          "tags": [],
-          "ts": 1789726237000,
-          "time": "18:10:37",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235208",
-          "url": "https://t.me/jin10light/235208",
-          "title": "Anthropic推出研究预览版框架，供AI智能体在科研和先进制造中操控实体设备",
-          "body": "",
-          "tags": [],
-          "ts": 1789726176000,
-          "time": "18:09:36",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235207",
-          "url": "https://t.me/jin10light/235207",
-          "title": "人民币涨破6.7关口，业内预计汇率年内或呈「先升后稳」",
-          "body": "",
-          "tags": [],
-          "ts": 1789726120000,
-          "time": "18:08:40",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235206",
-          "url": "https://t.me/jin10light/235206",
-          "title": "智谱ZCode回应整库上传：Repo Wiki默认开启惹祸，承诺开源客户端",
-          "body": "",
-          "tags": [],
-          "ts": 1789725937000,
-          "time": "18:05:37",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235205",
-          "url": "https://t.me/jin10light/235205",
-          "title": "伯克希尔哈撒韦(BRK.A.N、BRK.B.N)：沃伦·巴菲特出任名誉董事长，同时继续担任董事；霍华德·G·巴菲特（沃伦·巴菲特之子）当选董事长。",
-          "body": "",
-          "tags": [],
-          "ts": 1789725817000,
-          "time": "18:03:37",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235204",
-          "url": "https://t.me/jin10light/235204",
-          "title": "据路透社：消息人士称，Anthropic已建立生物学实验室，用于开展实体实验，以推进其药物研发目标。",
-          "body": "Anthropic希望让Claude人工智能系统控制实体机器人，并在仅需有限人工参与的情况下运行实验室测试。",
-          "tags": [],
-          "ts": 1789725758000,
-          "time": "18:02:38",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235203",
-          "url": "https://t.me/jin10light/235203",
-          "title": "广汽集团：正在筹划购买一汽股份某整车合资公司的部分股权 A股股票将继续停牌",
-          "body": "9月18日讯，广州汽车集团股份有限公司正在筹划以发行股份的方式购买中国第一汽车股份有限公司持有的某整车合资公司的部分股权，并募集配套资金。 经初步测算，本次交易完成后，一汽股份将成为本公司第二大和具有战略影响力的股东；本次交易预计构成重大资产重组及关联交易，不构成本公司实际控制人变更，不构成重组上市。 截至本公告披露之日，本公司及有关各方正在积极推进本次交易相关工作。 鉴于本次交易尚处于筹划阶段，存在不确定性，为保证公平信息披露，维护投资者利益，避免造成本公司股价异常波动，根据上海证券交易所相关规定，本公司A股股票将继续停牌。",
-          "tags": [],
-          "ts": 1789725576000,
-          "time": "17:59:36",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235202",
-          "url": "https://t.me/jin10light/235202",
-          "title": "摩根大通预计欧洲央行将于2027年3月再加息25个基点",
-          "body": "",
-          "tags": [],
-          "ts": 1789725340000,
-          "time": "17:55:40",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235201",
-          "url": "https://t.me/jin10light/235201",
-          "title": "Garrett Jin卖出3.5万枚ETH补充ZEC空单保证金，清算价升至4738美元",
-          "body": "",
-          "tags": [],
-          "ts": 1789724798000,
-          "time": "17:46:38",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235200",
-          "url": "https://t.me/jin10light/235200",
-          "title": "point farm capital守擂FOMO日榜第一，STONK仓位超千万美元",
-          "body": "",
-          "tags": [],
-          "ts": 1789724438000,
-          "time": "17:40:38",
-          "receivedAt": 1789731694479,
-          "receivedTime": true
-        },
-        {
-          "id": "235199",
-          "url": "https://t.me/jin10light/235199",
-          "title": "ZachXBT质疑Raidparty约7000万美元骗局相关资金异常流动",
-          "body": "",
-          "tags": [],
-          "ts": 1789723598000,
-          "time": "17:26:38",
           "receivedAt": 1789731694479,
           "receivedTime": true
         }
