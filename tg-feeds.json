@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T00:52:04.180Z",
+  "updatedAt": "2026-09-25T05:31:26.560Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1586,28 +1586,6 @@
           "ts": 1789042516000,
           "time": "20:15:16",
           "receivedAt": 1789049911593,
-          "receivedTime": true
-        },
-        {
-          "id": "7172",
-          "url": "https://t.me/BWEtradfi/7172",
-          "title": "*特朗普承诺，若共和党赢得中期选举，将向美国成年人发放红利",
-          "body": "*TRUMP PROMISES DIVIDEND TO AMERICAN ADULTS IF GOP WINS MIDTERMS *TRUMP: WILL ISSUE DIV TO CITIZENS IF GOP WINS SENATE, HOUSE *TRUMP: DIVIDEND MUST BE SPENT IN THE US *特朗普：若共和党赢得参众两院，将向公民发放红利 *特朗普：红利必须在美国境内使用",
-          "tags": [],
-          "ts": 1789006488000,
-          "time": "10:14:48",
-          "receivedAt": 1789019343036,
-          "receivedTime": true
-        },
-        {
-          "id": "7171",
-          "url": "https://t.me/BWEtradfi/7171",
-          "title": "消息称 SK海力士韩国工会将于9月15日至16日就初步薪资协议进行投票：消息人士",
-          "body": "*SK HYNIX'S SOUTH KOREAN UNION TO VOTE ON TENTATIVE WAGE DEAL ON SEPT. 15 AND 16: SOURCE $SKHY",
-          "tags": [],
-          "ts": 1789004814000,
-          "time": "09:46:54",
-          "receivedAt": 1789019343036,
           "receivedTime": true
         }
       ],
@@ -14820,7 +14798,8 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": false,
+      "error": "This operation was aborted"
     },
     "poly": {
       "channel": "PolyBeats_Bot",
@@ -15770,31 +15749,9 @@
           "time": "14:08:01",
           "receivedAt": 1789034665761,
           "receivedTime": true
-        },
-        {
-          "id": "1907",
-          "url": "https://t.me/PolyBeats_Bot/1907",
-          "title": "油价逼近 $100，石油板块专业交易员如何判断后市？",
-          "body": "过去 2 周，WTI 油价上涨超过 13%。石油板块 77% 胜率账户买入 9 月期的 多个原油价格区间组合 ，投入金额为其常规投入规模的 9.34 倍。 账户2 与本市场最佳相关板块为 石油 ，板块净盈利 $156k。其在该板块共 533 笔已结算交易的胜率为 412/533（77%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 88 笔。",
-          "tags": [],
-          "ts": 1789016041000,
-          "time": "12:54:01",
-          "receivedAt": 1789019358764,
-          "receivedTime": true
-        },
-        {
-          "id": "1906",
-          "url": "https://t.me/PolyBeats_Bot/1906",
-          "title": "加密行业与银行业共同争夺关键参议员，聪明钱预测《Clarity 法案》年内成法",
-          "body": "meagainsttheworld 在「 《Clarity 法案》是否会在 2026 年签署成为法律 」投入 $800「是」，平均买入概率为 16.0%，目前「是」概率为 16.5%。 meagainsttheworld 投入 $800，与本市场最佳相关板块为 政治 ，板块净盈利 $84.8k。其在该板块共 601 笔已结算交易的胜率为 434/601（72%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 70 笔。相近成本价区间（$0.101-$0.25）内，其历史投入金额中位数为 $89。 加密行业与银行业正围绕关键参议员展开游说，争取影响 9 月 15 日的程序性投票。加密行业已为 2026 年政治活动和选举投入逾 $1.9 亿，Stand With Crypto 支持者仅 8 月就联系国会议员办公室近 5 万次。 银行业要求修改稳定币奖励条款，担心加密平台将收益包装成交易或支付奖励，吸引资金离开银行存款。共和党参议员 James Lankford 和 Mike Rounds 也警告，这可能导致存款流失并削弱信贷供应。 法案仍未解决政府官员及其家族参与加密业务的利益冲突，多名共和党参议员认为现有文本...",
-          "tags": [],
-          "ts": 1789010941000,
-          "time": "11:29:01",
-          "receivedAt": 1789019358764,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
