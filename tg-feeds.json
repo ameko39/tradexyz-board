@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-09-26T00:49:01.102Z",
+  "updatedAt": "2026-09-26T05:35:39.576Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7327",
+          "url": "https://t.me/BWEtradfi/7327",
+          "title": "*《纽约时报》报道：白宫单方面取消已批准的8.1亿美元医疗和教育拨款",
+          "body": "*WHITE HOUSE MOVES TO UNILATERALLY CANCEL $810 MILLION IN APPROVED HEALTH, EDUCATION FUNDS: NYT *MOVE MARKS LATEST USE OF UNTESTED RESCISSION POWER DAYS AHEAD OF SEPT. 30 FISCAL YEAR-END *TIMING PREVENTS CONGRESSIONAL VOTE WITHIN STATUTORY 45-DAY WINDOW BEFORE FUNDS EXPIRE *此举标志着在9月30日财政年度结束前几天，白宫再...",
+          "tags": [],
+          "ts": 1790384861000,
+          "time": "09:07:41",
+          "receivedAt": 1790400923261,
+          "receivedTime": true
+        },
+        {
+          "id": "7326",
+          "url": "https://t.me/BWEtradfi/7326",
+          "title": "*特朗普支持率跌至37%，创《华尔街日报》自1990年以来中期选举最低支持率",
+          "body": "*TRUMP APPROVAL FALLS TO 37%, LOWEST MIDTERM RATING IN WSJ POLLS SINCE 1990 *11% OF 2024 TRUMP VOTERS REGRET VOTE, 11% OF NON-MAGA GOP TO BACK DEMS: POLL *REPUBLICANS PANIC AHEAD OF MIDTERMS AS CANDIDATES BREAK WITH TRUMP OVER IRAN, INFLATION *DEMOCRAT LEADS TEXAS SENATE RACE AS PRO-GOP PAC SLATES...",
+          "tags": [],
+          "ts": 1790384458000,
+          "time": "09:00:58",
+          "receivedAt": 1790400923261,
+          "receivedTime": true
+        },
         {
           "id": "7325",
           "url": "https://t.me/BWEtradfi/7325",
@@ -1499,17 +1521,6 @@
           "time": "20:30:13",
           "receivedAt": 1789133568762,
           "receivedTime": true
-        },
-        {
-          "id": "7190",
-          "url": "https://t.me/BWEtradfi/7190",
-          "title": "*TRUMP：让我们将 5000 美元的派发称为“TRUMP 红利”",
-          "body": "*TRUMP: LET'S CALL THE $5000 PAYOUTS THE TRUMP DIVIDEND",
-          "tags": [],
-          "ts": 1789093164000,
-          "time": "10:19:24",
-          "receivedAt": 1789102224835,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1517,6 +1528,380 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "236600",
+          "url": "https://t.me/jin10light/236600",
+          "title": "Bitdeer本周挖矿产出288.1枚BTC，全部卖出",
+          "body": "",
+          "tags": [],
+          "ts": 1790399920000,
+          "time": "13:18:40",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236599",
+          "url": "https://t.me/jin10light/236599",
+          "title": "疑似Bitget黑客所属地址11小时前从Binance提取123万美元代币",
+          "body": "",
+          "tags": [],
+          "ts": 1790397282000,
+          "time": "12:34:42",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236598",
+          "url": "https://t.me/jin10light/236598",
+          "title": "前X产品负责人：Paid给名人X Money分成极具创意，但应允许选择退出",
+          "body": "",
+          "tags": [],
+          "ts": 1790397281000,
+          "time": "12:34:41",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236597",
+          "url": "https://t.me/jin10light/236597",
+          "title": "韩国央行行长申铉松遭冒名开设投资诈骗账号，非法荐股群仍在运营",
+          "body": "",
+          "tags": [],
+          "ts": 1790397281000,
+          "time": "12:34:41",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236596",
+          "url": "https://t.me/jin10light/236596",
+          "title": "Yuga Labs：ERC 721C或1155C标准NFT或暂时无法通过NFT申领网站领取",
+          "body": "",
+          "tags": [],
+          "ts": 1790396078000,
+          "time": "12:14:38",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236595",
+          "url": "https://t.me/jin10light/236595",
+          "title": "谢家印：周一将与Gracy Chen进行社区直播，讨论安全事件并解答社群疑问",
+          "body": "",
+          "tags": [],
+          "ts": 1790396016000,
+          "time": "12:13:36",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236594",
+          "url": "https://t.me/jin10light/236594",
+          "title": "Yuga Labs：被盗NFT申领网站已正式上线",
+          "body": "",
+          "tags": [],
+          "ts": 1790395719000,
+          "time": "12:08:39",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236593",
+          "url": "https://t.me/jin10light/236593",
+          "title": "某地址交易Meme币e/acc，5小时盈利超31.2万美元",
+          "body": "",
+          "tags": [],
+          "ts": 1790395719000,
+          "time": "12:08:39",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236592",
+          "url": "https://t.me/jin10light/236592",
+          "title": "高盛：AI资本开支未到拐点，市场将更严审变现效率",
+          "body": "",
+          "tags": [],
+          "ts": 1790395718000,
+          "time": "12:08:38",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236591",
+          "url": "https://t.me/jin10light/236591",
+          "title": "Bitget将自9月28日起分阶段有序恢复提现",
+          "body": "",
+          "tags": [],
+          "ts": 1790395356000,
+          "time": "12:02:36",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236590",
+          "url": "https://t.me/jin10light/236590",
+          "title": "Genius基金会拟各使用约6.25万美元买入GSTOCK与GENIUS",
+          "body": "",
+          "tags": [],
+          "ts": 1790395238000,
+          "time": "12:00:38",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236589",
+          "url": "https://t.me/jin10light/236589",
+          "title": "摩根士丹利：转向看多美元，高收益率将继续挤压全球风险偏好",
+          "body": "",
+          "tags": [],
+          "ts": 1790393500000,
+          "time": "11:31:40",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236588",
+          "url": "https://t.me/jin10light/236588",
+          "title": "PAID手续费自动分账推动代币市值突破4000万美元，24小时涨幅超360%",
+          "body": "",
+          "tags": [],
+          "ts": 1790392958000,
+          "time": "11:22:38",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236587",
+          "url": "https://t.me/jin10light/236587",
+          "title": "安全提醒：若用户曾在Magic Eden以太坊市场交易NFT，建议撤销Limit Break相关合约授权",
+          "body": "",
+          "tags": [],
+          "ts": 1790392601000,
+          "time": "11:16:41",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236586",
+          "url": "https://t.me/jin10light/236586",
+          "title": "以太坊主网AI概念币IMD市值突破3900万美元创历史新高",
+          "body": "",
+          "tags": [],
+          "ts": 1790391580000,
+          "time": "10:59:40",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236585",
+          "url": "https://t.me/jin10light/236585",
+          "title": "Backpack生态核心NFT Mad Lads地板价升至13.57枚SOL，24小时涨幅85.23%",
+          "body": "",
+          "tags": [],
+          "ts": 1790390925000,
+          "time": "10:48:45",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236584",
+          "url": "https://t.me/jin10light/236584",
+          "title": "Solana生态代币PAID市值突破3000万美元，24小时涨超220%",
+          "body": "",
+          "tags": [],
+          "ts": 1790389539000,
+          "time": "10:25:39",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236583",
+          "url": "https://t.me/jin10light/236583",
+          "title": "火车票预约购票试点服务可预约日期范围有调整",
+          "body": "9月26日讯，9月26日起，铁路部门对京沪高铁、京沪铁路试点的火车票预约购票服务的可预约日期范围从开车前第60天至第17天，逐步调整为开车前第30天至第17天。 旅客通过铁路12306手机客户端“预约购票”专区填报预约需求，9月26日当天可预约11月24日前车票；9月27日至10月26日为调整过渡期，最远可预约11月24日的车票；10月27日起，可常态化预约开车前第30天至17天的火车票。",
+          "tags": [],
+          "ts": 1790389402000,
+          "time": "10:23:22",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236582",
+          "url": "https://t.me/jin10light/236582",
+          "title": "特朗普AI重命名概念meme币Super Inu市值短时突破1400万美元，24小时涨幅达43%",
+          "body": "",
+          "tags": [],
+          "ts": 1790387316000,
+          "time": "09:48:36",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236581",
+          "url": "https://t.me/jin10light/236581",
+          "title": "BP拉升突破1.42美元续创历史新高，链上代币化股票利好持续发酵",
+          "body": "",
+          "tags": [],
+          "ts": 1790387018000,
+          "time": "09:43:38",
+          "receivedAt": 1790400924073,
+          "receivedTime": true
+        },
+        {
+          "id": "236580",
+          "url": "https://t.me/jin10light/236580",
+          "title": "美第六巡回法院裁定Kalshi体育合约不属于掉期，应受州法规管辖",
+          "body": "",
+          "tags": [],
+          "ts": 1790386659000,
+          "time": "09:37:39",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236579",
+          "url": "https://t.me/jin10light/236579",
+          "title": "某新建钱包从多家交易平台提取42.864万枚HYPE，价值约3923万美元",
+          "body": "",
+          "tags": [],
+          "ts": 1790386659000,
+          "time": "09:37:39",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236578",
+          "url": "https://t.me/jin10light/236578",
+          "title": "Claude跑通9圈前沿物理计算，专家原以为直接算太难",
+          "body": "",
+          "tags": [],
+          "ts": 1790386658000,
+          "time": "09:37:38",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236577",
+          "url": "https://t.me/jin10light/236577",
+          "title": "Robinhood链Meme币BUN市值突破8000万美元创历史新高",
+          "body": "",
+          "tags": [],
+          "ts": 1790386598000,
+          "time": "09:36:38",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236576",
+          "url": "https://t.me/jin10light/236576",
+          "title": "美国总统特朗普在社交媒体平台上发布图片，再次将霍尔木兹海峡称为“特朗普海峡”。",
+          "body": "",
+          "tags": [],
+          "ts": 1790385817000,
+          "time": "09:23:37",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236575",
+          "url": "https://t.me/jin10light/236575",
+          "title": "加密市场小幅震荡山寨币开启轮动，DeFi代币普涨，QI、QUICK、ENA、JTO等涨幅居前",
+          "body": "",
+          "tags": [],
+          "ts": 1790385816000,
+          "time": "09:23:36",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236574",
+          "url": "https://t.me/jin10light/236574",
+          "title": "市场消息：沙特方面表示已拦截两架胡塞武装发射的无人机，其目标为利雅得。",
+          "body": "",
+          "tags": [],
+          "ts": 1790385699000,
+          "time": "09:21:39",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236573",
+          "url": "https://t.me/jin10light/236573",
+          "title": "国内新闻ï",
+          "body": "1.习近平圆满结束对美国的国事访问。 2. 商务部：今年前8个月，我国服务外包稳步发展。 3. 港交所今日上市南方先锋科技ETF和惠理光通讯主动型ETF。 4. 香港交易所旗下衍生产品结算所将于11月起接纳中国国债、政策性金融债及财政部债券作为非现金抵押品。 国际新闻ï 1.日本财务大臣片山皋月：过度的日元抛售可能会得到修正。 2. OpenAI确认其模型访问了美国三个政府网站的公开信息。 3. 克里姆林宫：美国、俄罗斯和乌克兰之间的三方会议可能在不久的将来举行，但目前尚无具体细节。 4. 据Axios：美国总统特朗普、众议院议长约翰逊及科技公司首席执...",
+          "tags": [],
+          "ts": 1790385217000,
+          "time": "09:13:37",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236572",
+          "url": "https://t.me/jin10light/236572",
+          "title": "SEC与CFTC发布加密常见问题更新：代币回购和网络升级不必然构成证券，CFTC允许链上记录保存",
+          "body": "",
+          "tags": [],
+          "ts": 1790384920000,
+          "time": "09:08:40",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236571",
+          "url": "https://t.me/jin10light/236571",
+          "title": "美股Circle收跌4.3%，盘后一度再跌超3%",
+          "body": "",
+          "tags": [],
+          "ts": 1790384561000,
+          "time": "09:02:41",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236570",
+          "url": "https://t.me/jin10light/236570",
+          "title": "Meta新墨西哥州隐私案败诉，或面临最高2190亿美元罚款",
+          "body": "",
+          "tags": [],
+          "ts": 1790384561000,
+          "time": "09:02:41",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236569",
+          "url": "https://t.me/jin10light/236569",
+          "title": "Anthropic洽谈规模达1吉瓦数据中心容量交易，预计投资规模至少为400亿美元",
+          "body": "",
+          "tags": [],
+          "ts": 1790384560000,
+          "time": "09:02:40",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236568",
+          "url": "https://t.me/jin10light/236568",
+          "title": "中东局势追踪：特朗普拒绝七天停火提议拟重启轰炸，伊朗总统温和表态愿推动谈判",
+          "body": "",
+          "tags": [],
+          "ts": 1790384438000,
+          "time": "09:00:38",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
+        {
+          "id": "236567",
+          "url": "https://t.me/jin10light/236567",
+          "title": "整理：中东局势跟踪（9月26日）",
+          "body": "冲突情况ï 1.沙特民防部门对吉赞地区发出警报，随后解除。 2. 胡塞武装致信欧盟：不会袭击欧洲红海船只。 和平谈判ï 1.伊朗外长：愿在七天内重开霍尔木兹海峡，但提出需满足相关条件；美方接受七天计划后，霍尔木兹海峡将开放。 2. 美国官员：（关于7天计划）美国正通过中间人与伊朗进行积极、建设性的讨论，双方继续就核问题展开沟通。 3. 半岛电视台称美伊谈判已进入技术磋商阶段，但伊朗媒体Fars News援引伊朗消息人士称有关报道“不属实”。 4. 伊朗总统：支持恢复谅解备忘录，将为实质性谈判创造条件。 5. 伊朗高级官员：即使美国接受伊朗提出的重开霍尔...",
+          "tags": [],
+          "ts": 1790384136000,
+          "time": "08:55:36",
+          "receivedAt": 1790400924319,
+          "receivedTime": true
+        },
         {
           "id": "236566",
           "url": "https://t.me/jin10light/236566",
@@ -14345,380 +14730,6 @@
           "time": "00:14:41",
           "receivedAt": 1789836018078,
           "receivedTime": true
-        },
-        {
-          "id": "235400",
-          "url": "https://t.me/jin10light/235400",
-          "title": "特朗普发起「人工智能」更名投票，建议更名为优越智能、极端智能或至高智能",
-          "body": "",
-          "tags": [],
-          "ts": 1789832978000,
-          "time": "23:49:38",
-          "receivedAt": 1789836018078,
-          "receivedTime": true
-        },
-        {
-          "id": "235399",
-          "url": "https://t.me/jin10light/235399",
-          "title": "分析：BTC下降楔形压缩等待变盘，山寨币总市值扩张尚未开始",
-          "body": "",
-          "tags": [],
-          "ts": 1789832625000,
-          "time": "23:43:45",
-          "receivedAt": 1789836018078,
-          "receivedTime": true
-        },
-        {
-          "id": "235398",
-          "url": "https://t.me/jin10light/235398",
-          "title": "Paid：已在Pons上线代币发行功能，支持创作者手续费自动分账",
-          "body": "",
-          "tags": [],
-          "ts": 1789832084000,
-          "time": "23:34:44",
-          "receivedAt": 1789836018078,
-          "receivedTime": true
-        },
-        {
-          "id": "235397",
-          "url": "https://t.me/jin10light/235397",
-          "title": "Circle旗下公链Arc已上线代理支付，为x402提供托管式接入路径",
-          "body": "",
-          "tags": [],
-          "ts": 1789832084000,
-          "time": "23:34:44",
-          "receivedAt": 1789836018078,
-          "receivedTime": true
-        },
-        {
-          "id": "235396",
-          "url": "https://t.me/jin10light/235396",
-          "title": "国内新闻ï",
-          "body": "1.美对进口俄石油天然气第三国加征关税 商务部回应。 2. 商务部：国务院副总理何立峰将于9月19日—23日率团赴美国与美方举行经贸磋商。 3. 北京市市场监管局：依法对四家在线酒店旅游预订平台企业立案调查。 4. 中国驻沙特大使馆提醒在沙中资机构和中国公民进一步加强安全防范。 5. 我国成功发射株洲太空星际PIESAT-2 13~16星。 国际新闻ï 1.玻利维亚取消柴油补贴以应对燃料短缺。 2. SpaceX在纳斯达克100指数中的权重将升至2.82%。 3. 特朗普禁止五家媒体禁入白宫，CNN、MS NOW、Politico证实被拒。 4. 英媒...",
-          "tags": [],
-          "ts": 1789830102000,
-          "time": "23:01:42",
-          "receivedAt": 1789836018078,
-          "receivedTime": true
-        },
-        {
-          "id": "235395",
-          "url": "https://t.me/jin10light/235395",
-          "title": "伊朗消息人士：美方称已准备好与伊朗进行谈判",
-          "body": "9月19日讯，当地时间19日，伊朗高级别消息人士表示，卡塔尔和巴基斯坦作为调解方已告知伊朗，美国已准备好进行谈判并达成协议，且在推进这一进程方面态度认真。 消息人士指出，就伊朗而言，只要美国重返伊斯兰堡谅解备忘录并履行其中条款，伊朗也准备在数日内恢复执行该备忘录。 不过，伊朗要求获得切实且可信的保证，确保其不会再次遭受攻击。 该消息人士表示，一旦美国落实该备忘录的实质内容，包括停止敌对行动、解除封锁以及允许伊朗出口石油，则伊朗将立即启动关于核问题和解除制裁问题的谈判。 伊朗就霍尔木兹海峡问题与阿曼达成了共识，然而，只要封锁仍在持续且尚未与美国达成协议，...",
-          "tags": [],
-          "ts": 1789828838000,
-          "time": "22:40:38",
-          "receivedAt": 1789836018078,
-          "receivedTime": true
-        },
-        {
-          "id": "235394",
-          "url": "https://t.me/jin10light/235394",
-          "title": "Genius. fun上线24小时已创建代币13,001种，向创作者支付手续费分成共计52.94万美元",
-          "body": "",
-          "tags": [],
-          "ts": 1789828418000,
-          "time": "22:33:38",
-          "receivedAt": 1789836018078,
-          "receivedTime": true
-        },
-        {
-          "id": "235393",
-          "url": "https://t.me/jin10light/235393",
-          "title": "Meme币WALLET市值突破2800万美元，24小时涨幅51.2%",
-          "body": "",
-          "tags": [],
-          "ts": 1789827036000,
-          "time": "22:10:36",
-          "receivedAt": 1789836018078,
-          "receivedTime": true
-        },
-        {
-          "id": "235392",
-          "url": "https://t.me/jin10light/235392",
-          "title": "某ZEC巨鲸一个月内做多获利近1000万美元，开仓价517.68美元",
-          "body": "",
-          "tags": [],
-          "ts": 1789826919000,
-          "time": "22:08:39",
-          "receivedAt": 1789836018078,
-          "receivedTime": true
-        },
-        {
-          "id": "235391",
-          "url": "https://t.me/jin10light/235391",
-          "title": "下周宏观展望：特朗普中东「大决定」将至，日元干预窗口临近，市场消化美联储加息余波",
-          "body": "",
-          "tags": [],
-          "ts": 1789825720000,
-          "time": "21:48:40",
-          "receivedAt": 1789836018078,
-          "receivedTime": true
-        },
-        {
-          "id": "235390",
-          "url": "https://t.me/jin10light/235390",
-          "title": "Hyperliquid在24小时内销毁242万美元HYPE，总销毁量升至最大供应量的4.88%",
-          "body": "",
-          "tags": [],
-          "ts": 1789825058000,
-          "time": "21:37:38",
-          "receivedAt": 1789836018078,
-          "receivedTime": true
-        },
-        {
-          "id": "235389",
-          "url": "https://t.me/jin10light/235389",
-          "title": "分析：B2爆拉后做市商向Binance Alpha转移1044万美元代币，与操盘SIREN地址关联",
-          "body": "",
-          "tags": [],
-          "ts": 1789824044000,
-          "time": "21:20:44",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235388",
-          "url": "https://t.me/jin10light/235388",
-          "title": "美国中央司令部：美方过去两月协助逾10亿桶原油通过霍尔木兹海峡",
-          "body": "",
-          "tags": [],
-          "ts": 1789823317000,
-          "time": "21:08:37",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235387",
-          "url": "https://t.me/jin10light/235387",
-          "title": "ENA上涨突破0.2美元，24小时涨幅20.6%",
-          "body": "",
-          "tags": [],
-          "ts": 1789823200000,
-          "time": "21:06:40",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235386",
-          "url": "https://t.me/jin10light/235386",
-          "title": "美国中央司令部司令：过去两周石油和货物运输量创过去6个月以来最高水平。",
-          "body": "",
-          "tags": [],
-          "ts": 1789822956000,
-          "time": "21:02:36",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235385",
-          "url": "https://t.me/jin10light/235385",
-          "title": "美国中央司令部司令：美方过去两个月协助超过10亿桶原油通过霍尔木兹海峡，帮助超过2000艘商船通过霍尔木兹海峡。",
-          "body": "由于美方实施严格封锁，伊朗没有出口任何一桶石油。",
-          "tags": [],
-          "ts": 1789822840000,
-          "time": "21:00:40",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235384",
-          "url": "https://t.me/jin10light/235384",
-          "title": "分析：比特币市场行为发生实质性转变，从恐慌抛售切换至逢低买入",
-          "body": "",
-          "tags": [],
-          "ts": 1789822419000,
-          "time": "20:53:39",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235383",
-          "url": "https://t.me/jin10light/235383",
-          "title": "ZachXBT质疑zkSNARKs项目：筹集超1700万美元，团队资金分配及版税机制存疑",
-          "body": "",
-          "tags": [],
-          "ts": 1789822238000,
-          "time": "20:50:38",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235382",
-          "url": "https://t.me/jin10light/235382",
-          "title": "Robinhood Chain单日费用收入下降97%，同期交易笔数下降32%",
-          "body": "",
-          "tags": [],
-          "ts": 1789819780000,
-          "time": "20:09:40",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235381",
-          "url": "https://t.me/jin10light/235381",
-          "title": "中国上海具身触觉公司千觉机器人宣布连续完成两轮数亿元战略融资",
-          "body": "",
-          "tags": [],
-          "ts": 1789819780000,
-          "time": "20:09:40",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235380",
-          "url": "https://t.me/jin10light/235380",
-          "title": "MultiversX主网检测到潜在问题，官方正在调查",
-          "body": "",
-          "tags": [],
-          "ts": 1789819779000,
-          "time": "20:09:39",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235379",
-          "url": "https://t.me/jin10light/235379",
-          "title": "韩国警方通过链上记录追踪Polymarket用户，以涉赌嫌疑立案26人",
-          "body": "",
-          "tags": [],
-          "ts": 1789819778000,
-          "time": "20:09:38",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235378",
-          "url": "https://t.me/jin10light/235378",
-          "title": "PlanB：比特币站上50周均线上看8.9万美元，已确认熊市结束",
-          "body": "",
-          "tags": [],
-          "ts": 1789819297000,
-          "time": "20:01:37",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235377",
-          "url": "https://t.me/jin10light/235377",
-          "title": "瑞银上调AI资本支出预测：2026年逼近万亿美元，九成增量来自内存涨价",
-          "body": "",
-          "tags": [],
-          "ts": 1789817919000,
-          "time": "19:38:39",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235376",
-          "url": "https://t.me/jin10light/235376",
-          "title": "分析：BTC黄金价格比突破50周均线，一枚比特币约等于18.55盎司黄金",
-          "body": "",
-          "tags": [],
-          "ts": 1789816898000,
-          "time": "19:21:38",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235375",
-          "url": "https://t.me/jin10light/235375",
-          "title": "安全预警：DarkSword iOS攻击程序现已被实际利用，建议用户升级最新系统",
-          "body": "",
-          "tags": [],
-          "ts": 1789816059000,
-          "time": "19:07:39",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235374",
-          "url": "https://t.me/jin10light/235374",
-          "title": "新加坡支付平台Dtcpay完成A轮融资，总融资额扩大至2500万美元",
-          "body": "",
-          "tags": [],
-          "ts": 1789812938000,
-          "time": "18:15:38",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235373",
-          "url": "https://t.me/jin10light/235373",
-          "title": "1. 再称对伊朗战争将很快结束、正与胡塞武装接触——当地时间9月18日，特朗普谈及伊朗时，称“战争很快就会结束”。",
-          "body": "同时，特朗普表示，美国正在与也门胡塞武装接触。 2. 正权衡是否对伊朗采取进一步军事行动——据NewsNation报道，特朗普表示，当下他正在权衡是否对德黑兰采取进一步军事行动。 被问及此前有关他正在考虑是否要“摧毁”伊朗的言论，特朗普表示，“我们拭目以待。 ”3. 签署针对俄罗斯和伊朗的制裁法案——当地时间9月18日，美国白宫发布声明表示，特朗普当日签署了《2026年林赛·格雷厄姆制裁俄罗斯和伊朗法案》。 该法案授权并扩大了针对俄罗斯的法定制裁、关税及禁令，并延长了现行针对伊朗的制裁措施。 4. 宣布与丹麦就格陵兰安全协议达成一致——特朗普表示，美国...",
-          "tags": [],
-          "ts": 1789812880000,
-          "time": "18:14:40",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235372",
-          "url": "https://t.me/jin10light/235372",
-          "title": "分析：当前链上卖出BTC多数处于盈利状态，买盘强劲为牛市典型特征",
-          "body": "",
-          "tags": [],
-          "ts": 1789812879000,
-          "time": "18:14:39",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235371",
-          "url": "https://t.me/jin10light/235371",
-          "title": "「麻吉」追多ETH与HYPE，总仓位升至1.3亿美元",
-          "body": "",
-          "tags": [],
-          "ts": 1789811440000,
-          "time": "17:50:40",
-          "receivedAt": 1789824510705,
-          "receivedTime": true
-        },
-        {
-          "id": "235370",
-          "url": "https://t.me/jin10light/235370",
-          "title": "Meme币ROBIN 24小时上涨47%，市值突破650万美元",
-          "body": "",
-          "tags": [],
-          "ts": 1789811138000,
-          "time": "17:45:38",
-          "receivedAt": 1789811171389,
-          "receivedTime": true
-        },
-        {
-          "id": "235369",
-          "url": "https://t.me/jin10light/235369",
-          "title": "HYPE延续涨势触及94.49美元新高",
-          "body": "",
-          "tags": [],
-          "ts": 1789810299000,
-          "time": "17:31:39",
-          "receivedAt": 1789811171389,
-          "receivedTime": true
-        },
-        {
-          "id": "235368",
-          "url": "https://t.me/jin10light/235368",
-          "title": "江卓尔：做空用于保护现货上涨后减少下跌回撤，交易数月后币本位盈利达到34%",
-          "body": "",
-          "tags": [],
-          "ts": 1789809399000,
-          "time": "17:16:39",
-          "receivedAt": 1789811171389,
-          "receivedTime": true
-        },
-        {
-          "id": "235367",
-          "url": "https://t.me/jin10light/235367",
-          "title": "Hyperliquid未平仓合约量时隔一年再创新高，达163.6亿美元",
-          "body": "",
-          "tags": [],
-          "ts": 1789808556000,
-          "time": "17:02:36",
-          "receivedAt": 1789811171389,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -15594,31 +15605,9 @@
           "time": "13:41:04",
           "receivedAt": 1789117881529,
           "receivedTime": true
-        },
-        {
-          "id": "1914",
-          "url": "https://t.me/PolyBeats_Bot/1914",
-          "title": "OpenAI 宣布 88 小时攻克难题，聪明钱预测 AI 年内再下一城",
-          "body": "在预测市场 Polymarket 上，1 名聪明钱在「 是否有AI在今年内宣布解决另一个千禧年大奖难题？ 」投入 $2.0k「是」，平均买入概率为 51.2%，目前「是」概率为 64.5%。 Rumpelstiltskin 投入 $2.0k，与本市场最佳相关板块为 人工智能 ，板块净盈利 $23.7k。其在该板块共 182 笔已结算交易的胜率为 107/182（59%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 30 笔。相近成本价区间（$0.451-$0.6）内，其历史投入金额中位数为 $240。 千禧年大奖难题由克雷数学研究所于 2000 年设立，每道题奖金为 $1m。该市场要求符合资格的 AI 实验室在年内宣布解决黎曼猜想、P 与 NP、杨-米尔斯存在性与质量间隙、霍奇猜想或伯奇和斯温纳顿-戴尔猜想。局部成果和研究进展不计入，纳维-斯托克斯方程也被规则明确排除。实验室作出解决声明即可。 该账户主要利润来自 Claude 5 发布时间约 $6.9k、Grok 5 发布时间约 $3.9k、Astra 具体发布日期约 $3.6k，以及模型排行榜市场约 $3.6k；最大亏损来自 2 月最佳 AI 模型约...",
-          "tags": [],
-          "ts": 1789099384000,
-          "time": "12:03:04",
-          "receivedAt": 1789102238604,
-          "receivedTime": true
-        },
-        {
-          "id": "1913",
-          "url": "https://t.me/PolyBeats_Bot/1913",
-          "title": "押 Gemini 3 发布时间获利账户时隔一年回归，预测 Gemini 4 发布时间",
-          "body": "该账户曾在 2025 年底通过预测 Gemini 3 发布时间获利 $20k，且在盈利后提现 97% 资金，过去一年间仅以小仓位参与数十个市场交易。目前「 Gemini 4.0 于 11 月前发布 」的概率为 67.5%。 账户1 与本市场最佳相关板块为 Gemini ，板块净盈利 $20.0k。其在该板块共 8 笔已结算交易的胜率为 6/8（75%），其中买入价小于 $0.8 且卖出价大于 $0.95 的交易共 2 笔。",
-          "tags": [],
-          "ts": 1789094164000,
-          "time": "10:36:04",
-          "receivedAt": 1789102238604,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
