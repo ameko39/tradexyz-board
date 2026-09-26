@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T20:19:15.013Z",
+  "updatedAt": "2026-09-26T22:57:41.694Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1444,46 +1444,35 @@
           "time": "07:12:34",
           "receivedAt": 1789169968308,
           "receivedTime": true
-        },
-        {
-          "id": "7197",
-          "url": "https://t.me/BWEtradfi/7197",
-          "title": "OpenAI 测试的 AI 代理在黑客攻击 Hugging Face 的两个月前对软件服务 RubyGems 发起了网络攻击：华尔街日报",
-          "body": "*AI AGENTS BEING TESTED BY OPENAI LAUNCHED CYBERATTACK AGAINST SOFTWARE SERVICE RUBYGEMS 2 MONTHS BEFORE THEY HACKED HUGGING FACE: WSJ",
-          "tags": [],
-          "ts": 1789165660000,
-          "time": "06:27:40",
-          "receivedAt": 1789169968308,
-          "receivedTime": true
-        },
-        {
-          "id": "7196",
-          "url": "https://t.me/BWEtradfi/7196",
-          "title": "*Citrini 出售条款未公开；Van Geelen 暂将继续担任 CEO",
-          "body": "*CITRINI SALE TERMS UNDISCLOSED; VAN GEELEN TO REMAIN CEO FOR NOW *CITRINI FOUNDER JAMES VAN GEELEN PLANS TO LAUNCH NEW FUND - SOURCES *据消息人士透露，Citrini 创始人 James Van Geelen 计划推出新基金",
-          "tags": [],
-          "ts": 1789162264000,
-          "time": "05:31:04",
-          "receivedAt": 1789163642325,
-          "receivedTime": true
-        },
-        {
-          "id": "7195",
-          "url": "https://t.me/BWEtradfi/7195",
-          "title": "*CITRINI RESEARCH创始人VAN GEELEN将公司出售给SEMIANALYSIS",
-          "body": "*CITRINI RESEARCH FOUNDER VAN GEELEN SELLS FIRM TO SEMIANALYSIS",
-          "tags": [],
-          "ts": 1789160569000,
-          "time": "05:02:49",
-          "receivedAt": 1789163642325,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "236640",
+          "url": "https://t.me/jin10light/236640",
+          "title": "伊朗外长： 霍尔木兹海峡开放取决于伊方条件是否满足",
+          "body": "9月27日讯，当地时间27日，伊朗外长阿拉格齐表示，伊朗不会在既定条件上向美国让步，霍尔木兹海峡的开放取决于伊朗提出的条件是否得到满足，任何关于开放霍尔木兹海峡的进展都取决于这些条件能否落实，伊朗绝不会在这些问题上妥协。 阿拉格齐表示，伊方已获悉美方对于重开霍尔木兹海峡提议的初步反应，但尚未收到调解方传达的任何具体信息。 伊朗正等待调解方转达最终立场，并将据此做出决定。 美国总统特朗普当地时间26日称，他拒绝了伊朗提出的重开霍尔木兹海峡的提议。",
+          "tags": [],
+          "ts": 1790459619000,
+          "time": "05:53:39",
+          "receivedAt": 1790463449155,
+          "receivedTime": true
+        },
+        {
+          "id": "236639",
+          "url": "https://t.me/jin10light/236639",
+          "title": "伊朗外长阿拉格齐：我们看到了美国总统针对伊朗提议的初步反应，但调解方尚未向我们传达任何信息。",
+          "body": "我们正等待调解方传达确切意见，并将据此做出决定。",
+          "tags": [],
+          "ts": 1790457278000,
+          "time": "05:14:38",
+          "receivedAt": 1790463449155,
+          "receivedTime": true
+        },
         {
           "id": "236638",
           "url": "https://t.me/jin10light/236638",
@@ -14660,28 +14649,6 @@
           "ts": 1789883076000,
           "time": "13:44:36",
           "receivedAt": 1789898211989,
-          "receivedTime": true
-        },
-        {
-          "id": "235440",
-          "url": "https://t.me/jin10light/235440",
-          "title": "Peter Schiff：SEC代币化股票创新豁免利空比特币",
-          "body": "",
-          "tags": [],
-          "ts": 1789883019000,
-          "time": "13:43:39",
-          "receivedAt": 1789898211989,
-          "receivedTime": true
-        },
-        {
-          "id": "235439",
-          "url": "https://t.me/jin10light/235439",
-          "title": "ZEC生态NFT项目zkSNARKs破发，地板价现报0.976 ZEC",
-          "body": "",
-          "tags": [],
-          "ts": 1789881458000,
-          "time": "13:17:38",
-          "receivedAt": 1789882028273,
           "receivedTime": true
         }
       ],
