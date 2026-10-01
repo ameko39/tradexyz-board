@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-09-30T22:34:00.550Z",
+  "updatedAt": "2026-10-01T01:29:16.333Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7389",
+          "url": "https://t.me/BWEtradfi/7389",
+          "title": "*周一，在谈判陷入僵局后，卢比奥下令伊朗代表团离开纽约。",
+          "body": "*RUBIO ORDERED IRANIAN DELEGATION TO LEAVE NEW YORK ON MONDAY AFTER TALKS STALLED *IRANIAN DIPLOMATS DEPARTED NEW YORK FOR DOHA EARLY TUESDAY FOLLOWING RUBIO ORDER *RUBIO MOVE FOLLOWED BREAKDOWN OF QATARI-MEDIATED DIPLOMATIC EFFORTS *TRUMP ON IRAN ON WEDNESDAY: 'WE WILL BLOW 'EM UP OR MAKE A DEAL'...",
+          "tags": [],
+          "ts": 1790813446000,
+          "time": "08:10:46",
+          "receivedAt": 1790818143479,
+          "receivedTime": true
+        },
         {
           "id": "7388",
           "url": "https://t.me/BWEtradfi/7388",
@@ -1686,39 +1697,6 @@
           "time": "02:00:12",
           "receivedAt": 1789587916484,
           "receivedTime": true
-        },
-        {
-          "id": "7236",
-          "url": "https://t.me/BWEtradfi/7236",
-          "title": "*如果 OpenAI 进行新一轮融资，可能会推迟其 IPO",
-          "body": "*OPENAI COULD DELAY IPO IF IT TAKES FRESH FUNDING ROUND *NEW OPENAI INVESTMENT COULD FUND MERGERS AND ACQUISITIONS *新的 OpenAI 投资可能用于并购",
-          "tags": [],
-          "ts": 1789520895000,
-          "time": "09:08:15",
-          "receivedAt": 1789522847823,
-          "receivedTime": true
-        },
-        {
-          "id": "7235",
-          "url": "https://t.me/BWEtradfi/7235",
-          "title": "*SK海力士工会批准与资方达成的初步工资协议：媒体报道",
-          "body": "*SK HYNIX UNION APPROVES TENTATIVE WAGE DEAL WITH MANAGEMENT: MEDIA $SKHY $SKHY",
-          "tags": [],
-          "ts": 1789518244000,
-          "time": "08:24:04",
-          "receivedAt": 1789522847823,
-          "receivedTime": true
-        },
-        {
-          "id": "7234",
-          "url": "https://t.me/BWEtradfi/7234",
-          "title": "*Meta 将大部分计算资源用于满足用户需求，而非人工智能“自我提升”竞赛：扎克伯格",
-          "body": "*META COMMITS BULK OF COMPUTE TO USER NEEDS OVER AI 'SELF-IMPROVEMENT' RACE: ZUCKERBERG *ZUCKERBERG REJECTS CALLS FOR INDUSTRYWIDE AI PAUSE, SAYS LABS CAN ACT ALONE *META DELAYED SHIPPING 'MUSE' FOR MONTHS TO ADDRESS SAFETY AND SECURITY $META *扎克伯格拒绝全行业暂停人工智能开发的呼吁，称各实验室可以独立行动 *Meta 为解决安全问题，将“Muse”的...",
-          "tags": [],
-          "ts": 1789513337000,
-          "time": "07:02:17",
-          "receivedAt": 1789515765453,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1726,6 +1704,237 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "237496",
+          "url": "https://t.me/jin10light/237496",
+          "title": "某巨鲸买入3.9万枚AAVE，价值约620万美元",
+          "body": "",
+          "tags": [],
+          "ts": 1790817938000,
+          "time": "09:25:38",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237495",
+          "url": "https://t.me/jin10light/237495",
+          "title": "日经225指数日内上涨2%。",
+          "body": "",
+          "tags": [],
+          "ts": 1790817338000,
+          "time": "09:15:38",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237494",
+          "url": "https://t.me/jin10light/237494",
+          "title": "小米汽车：2026年9月，小米汽车交付量超过40000台。",
+          "body": "",
+          "tags": [],
+          "ts": 1790816739000,
+          "time": "09:05:39",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237493",
+          "url": "https://t.me/jin10light/237493",
+          "title": "Robinhood CEO谈Lighter：提供哪种产品取决于监管，即支持链上也支持链下",
+          "body": "",
+          "tags": [],
+          "ts": 1790816019000,
+          "time": "08:53:39",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237492",
+          "url": "https://t.me/jin10light/237492",
+          "title": "韩国KOSPI指数跌幅扩大至1%，三星电子、SK海力士均跌超1%",
+          "body": "",
+          "tags": [],
+          "ts": 1790815538000,
+          "time": "08:45:38",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237491",
+          "url": "https://t.me/jin10light/237491",
+          "title": "Solana财库公司HSDT完成1500万美元股票发行，计划增持SOL",
+          "body": "",
+          "tags": [],
+          "ts": 1790815296000,
+          "time": "08:41:36",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237490",
+          "url": "https://t.me/jin10light/237490",
+          "title": "Hyperliquid开发团队HyperLabs地址申请赎回375万枚HYPE",
+          "body": "",
+          "tags": [],
+          "ts": 1790814876000,
+          "time": "08:34:36",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237489",
+          "url": "https://t.me/jin10light/237489",
+          "title": "Circle在Solana链过去24小时累计增发7.5亿枚USDC",
+          "body": "",
+          "tags": [],
+          "ts": 1790814758000,
+          "time": "08:32:38",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237488",
+          "url": "https://t.me/jin10light/237488",
+          "title": "现货白银回落至60美元下方，为8月5日来首次",
+          "body": "",
+          "tags": [],
+          "ts": 1790814038000,
+          "time": "08:20:38",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237487",
+          "url": "https://t.me/jin10light/237487",
+          "title": "美联储卡什卡利：预计年内再加息一次，明年还有一次加息",
+          "body": "",
+          "tags": [],
+          "ts": 1790813738000,
+          "time": "08:15:38",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237486",
+          "url": "https://t.me/jin10light/237486",
+          "title": "某巨鲸增持价值6600万美元ZEC，主钱包持仓达6619万美元",
+          "body": "",
+          "tags": [],
+          "ts": 1790813738000,
+          "time": "08:15:38",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237485",
+          "url": "https://t.me/jin10light/237485",
+          "title": "Multicoin Capital再次向Coinbase Prime转入834万美元HYPE，疑似准备出售",
+          "body": "",
+          "tags": [],
+          "ts": 1790813676000,
+          "time": "08:14:36",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237484",
+          "url": "https://t.me/jin10light/237484",
+          "title": "据AXIOS：一名美国官员及另一名知情人士透露，在美伊谈判受阻后，鲁比奥在周一要求伊朗驻联合国代表团立即离开美国。",
+          "body": "此举属于罕见的外交斥责。",
+          "tags": [],
+          "ts": 1790813559000,
+          "time": "08:12:39",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237483",
+          "url": "https://t.me/jin10light/237483",
+          "title": "Ripple解锁10亿枚XRP，价值约14.9亿美元",
+          "body": "",
+          "tags": [],
+          "ts": 1790813558000,
+          "time": "08:12:38",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237482",
+          "url": "https://t.me/jin10light/237482",
+          "title": "美光一财季营收指引超预期，AI需求持续强劲",
+          "body": "",
+          "tags": [],
+          "ts": 1790813196000,
+          "time": "08:06:36",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237481",
+          "url": "https://t.me/jin10light/237481",
+          "title": "韩国海关：韩国九月半导体出口创历史新高。",
+          "body": "",
+          "tags": [],
+          "ts": 1790812898000,
+          "time": "08:01:38",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237480",
+          "url": "https://t.me/jin10light/237480",
+          "title": "Aave创始人：密切关注MetaMask质押事件，Aave市场未受影响",
+          "body": "",
+          "tags": [],
+          "ts": 1790812596000,
+          "time": "07:56:36",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237479",
+          "url": "https://t.me/jin10light/237479",
+          "title": "MetaMask回应安全事件：目前尚未发现对钱包构成直接威胁的迹象",
+          "body": "",
+          "tags": [],
+          "ts": 1790812538000,
+          "time": "07:55:38",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237478",
+          "url": "https://t.me/jin10light/237478",
+          "title": "日本央行将于十分钟后公布9月货币政策会议审议委员意见摘要。",
+          "body": "",
+          "tags": [],
+          "ts": 1790811700000,
+          "time": "07:41:40",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237477",
+          "url": "https://t.me/jin10light/237477",
+          "title": "今日重点关注的财经数据与事件：2026月10月1日 周四",
+          "body": "① 07:50 日本央行政策会议纪要 ② 14:00 英国9月Nationwide房价指数月率 ③ 14:30 瑞士9月CPI月率 ④ 14:30 瑞士8月实际零售销售年率 ⑤ 15:50 法国9月制造业PMI终值 ⑥ 15:55 德国9月制造业PMI终值 ⑦ 16:00 欧元区9月制造业PMI终值 ⑧ 16:00 英国央行行长贝利发表讲话 ⑨ 16:30 英国9月制造业PMI终值 ⑩ 17:00 欧元区8月失业率 ⑪ 17:30 美国9月挑战者企业裁员人数 ⑫ 20:30 美国至9月26日当周初请失业金人数 ⑬ 21:05 美联储巴尔金、柯林斯、施密...",
+          "tags": [],
+          "ts": 1790808699000,
+          "time": "06:51:39",
+          "receivedAt": 1790818143906,
+          "receivedTime": true
+        },
+        {
+          "id": "237476",
+          "url": "https://t.me/jin10light/237476",
+          "title": "国内新闻ï",
+          "body": "1.广州：2026年8月28日后，实行预售的单体建筑应完成主体结构封顶。 2. 国家发改委：2026年2500亿元超长期特别国债支持消费品以旧换新资金已全部下达。 3. 商务部：延长对美国阻碍绿色产品贸易与破坏全球产供链相关做法和措施贸易壁垒调查期限。 4. 国家统计局：9月份，制造业采购经理指数（PMI）为50.1%，比上月上升0.3个百分点，升至扩张区间。 5. 中国人民银行：2026年10月8日，中国人民银行将以固定数量、利率招标、多重价位中标方式开展12000亿元买断式逆回购操作，期限为3个月（89天）。 国际新闻ï 1.智利铜产量降至15年多...",
+          "tags": [],
+          "ts": 1790807858000,
+          "time": "06:37:38",
+          "receivedAt": 1790818144094,
+          "receivedTime": true
+        },
         {
           "id": "237475",
           "url": "https://t.me/jin10light/237475",
@@ -14698,237 +14907,6 @@
           "ts": 1790242598000,
           "time": "17:36:38",
           "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236296",
-          "url": "https://t.me/jin10light/236296",
-          "title": "某巨鲸近24小时循环做多1874万美元ETH，均价约2677.59美元",
-          "body": "",
-          "tags": [],
-          "ts": 1790242240000,
-          "time": "17:30:40",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236295",
-          "url": "https://t.me/jin10light/236295",
-          "title": "Garrett Jin相关地址将Hyperliquid内1.47亿美元USDC转入Binance",
-          "body": "",
-          "tags": [],
-          "ts": 1790241936000,
-          "time": "17:25:36",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236294",
-          "url": "https://t.me/jin10light/236294",
-          "title": "央行：建议发挥增量政策和存量政策集成效应，增强政策前瞻性灵活性针对性",
-          "body": "9月24日讯，中国人民银行货币政策委员会2026年第三季度（总第114次）例会于9月19日召开。 会议研究了下阶段货币政策主要思路，建议发挥增量政策和存量政策集成效应，增强政策前瞻性灵活性针对性，根据国内外经济金融形势和金融市场运行情况，把握好政策实施的力度、节奏和时机。 综合运用并适时调整货币政策工具，保持流动性充裕，使社会融资规模、货币供应量增长同经济增长、价格总水平预期目标相匹配。 推动货币政策操作框架改革完善。",
-          "tags": [],
-          "ts": 1790241701000,
-          "time": "17:21:41",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236293",
-          "url": "https://t.me/jin10light/236293",
-          "title": "上期所发布关于进一步扩大合格境外投资者参与商品期货、期权交易范围的公告",
-          "body": "9月24日讯，据上期所公告，自2026年9月28日交易（即当日9：00开盘）起，上海期货交易所将进一步扩大合格境外机构投资者和人民币合格境外机构投资者（统称合格境外投资者）可交易品种范围，新增开放以下商品期货和期权：氧化铝、铸造铝合金、丁二烯橡胶、胶版印刷纸期货；氧化铝、铸造铝合金、丁二烯橡胶、胶版印刷纸期权。",
-          "tags": [],
-          "ts": 1790240676000,
-          "time": "17:04:36",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236292",
-          "url": "https://t.me/jin10light/236292",
-          "title": "HYPE冲高回落较高点跌3.4%，较Binance上币消息公布前跌1.5%",
-          "body": "",
-          "tags": [],
-          "ts": 1790240619000,
-          "time": "17:03:39",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236291",
-          "url": "https://t.me/jin10light/236291",
-          "title": "两新钱包从Binance提取950枚BTC，价值约7260万美元",
-          "body": "",
-          "tags": [],
-          "ts": 1790240618000,
-          "time": "17:03:38",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236290",
-          "url": "https://t.me/jin10light/236290",
-          "title": "北京：房地产开发企业可在取得建筑工程施工许可证后，与购房人签订购房定金合同，一般收取不超过总房价款1%的定金",
-          "body": "9月24日讯，北京多部门联合印发了《本市贯彻落实〈关于完善商品住房销售制度的通知〉的实施意见》。 《实施意见》规定，2026年8月28日起，新项目优先选择现房销售。 房地产开发企业在房屋首次登记后，编制现房销售方案，向房屋所在区住房城乡建设（房管）部门申请现房销售备案。 同时《实施意见》明确，所销售房屋及建设用地使用权应无抵押、查封等情形。 在现房销售过程中，《实施意见》规定，房地产开发企业可在取得建筑工程施工许可证后，与购房人签订购房定金合同，一般收取不超过总房价款1%的定金。 房地产开发企业违约不能按期交房的，购房人有权按照合同约定提出解除定金合同。",
-          "tags": [],
-          "ts": 1790239958000,
-          "time": "16:52:38",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236289",
-          "url": "https://t.me/jin10light/236289",
-          "title": "前达拉斯联储主席：市场对美联储加息预期过于激进",
-          "body": "",
-          "tags": [],
-          "ts": 1790239958000,
-          "time": "16:52:38",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236288",
-          "url": "https://t.me/jin10light/236288",
-          "title": "北京市住建委等部门：全面加强预售管理 有序推进现房销售",
-          "body": "9月24日讯，结合北京市实际，市住房城乡建设委、市规划自然资源委、国家金融监督管理总局北京监管局、市住房资金管理中心联合印发了《本市贯彻落实〈关于完善商品住房销售制度的通知〉的实施意见》，自2026年9月24日起施行。 《实施意见》明确，2026年8月28日后，北京市新发布国有建设用地使用权出让公告的商品住房项目，申请预售的，单体建筑应完成主体结构封顶，还需出具项目建设单位、勘察、设计、施工、监理等单位签字盖章的《主体结构分部工程验收记录》。 同时，《实施意见》明确，新项目申请预售的，其预售资金将全额、全过程监管，且在项目联合验收后，方可解除资金监管。",
-          "tags": [],
-          "ts": 1790239779000,
-          "time": "16:49:39",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236287",
-          "url": "https://t.me/jin10light/236287",
-          "title": "伊朗警告战争可能扩大至印度洋",
-          "body": "9月24日讯，据伊朗半官方通讯社法尔斯通讯社报道，伊朗最高领袖军事顾问萨法维警告称，如果美国或以色列再次袭击伊朗的国家中心或利益目标，冲突可能进一步扩大。 冲突可能蔓延至波斯湾和霍尔木兹海峡以外，进一步扩展至红海、曼德海峡，并最终波及印度洋。 萨法维还警告称，如果美国再次发动战争，红海和曼德海峡附近可能出现新的战事。 他的上述言论表明，德黑兰方面警告称，未来任何冲突的地理范围都可能大幅扩大，并可能对地区安全以及全球主要航运通道产生影响。",
-          "tags": [],
-          "ts": 1790239539000,
-          "time": "16:45:39",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236286",
-          "url": "https://t.me/jin10light/236286",
-          "title": "伊朗：与美国的冲突可能进一步升级",
-          "body": "",
-          "tags": [],
-          "ts": 1790239238000,
-          "time": "16:40:38",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236285",
-          "url": "https://t.me/jin10light/236285",
-          "title": "HTX DeepThink：机会或向有盈利与资金支撑的资产集中，BTC整理后仍有修复空间",
-          "body": "",
-          "tags": [],
-          "ts": 1790239062000,
-          "time": "16:37:42",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236284",
-          "url": "https://t.me/jin10light/236284",
-          "title": "伊朗官员：与美国的冲突可能进一步升级，（战争）下一阶段可能包括印度洋。",
-          "body": "",
-          "tags": [],
-          "ts": 1790239061000,
-          "time": "16:37:41",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236283",
-          "url": "https://t.me/jin10light/236283",
-          "title": "美股纳斯达克100指数期货跌超1%",
-          "body": "",
-          "tags": [],
-          "ts": 1790238760000,
-          "time": "16:32:40",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236282",
-          "url": "https://t.me/jin10light/236282",
-          "title": "1. 央行：9月24日开展8000亿元MLF操作。",
-          "body": "2. 央行将在9月28日至10月8日开展隔夜逆回购操作。 3. 美国财政部：将于周四回购至多60亿美元长期国债。 4. 美联储巴尔：可能需要进一步加息以推动通胀及时回归目标。 5. 机构：全球主权债券平均收益率接近4%，加息预期升温。 6. 英伟达成美国信用违约互换最活跃标的之一，对冲需求飙升。 7. 2026年上半年全球债务达到创纪录的365万亿美元。 8. 美国扩大国债回购计划，市场质疑难解财政压力。 9. 穆迪：五家美国科技巨头AI相关表外负债达2.8万亿美元。 10. 国开新型政策性金融工具9月以来已投放超600亿元。 11. 新化股份：拟发行...",
-          "tags": [],
-          "ts": 1790238518000,
-          "time": "16:28:38",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236281",
-          "url": "https://t.me/jin10light/236281",
-          "title": "美股盘前加密股、AI概念股板块普遍小幅下跌，闪迪跌2.31%",
-          "body": "",
-          "tags": [],
-          "ts": 1790238398000,
-          "time": "16:26:38",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236280",
-          "url": "https://t.me/jin10light/236280",
-          "title": "德国10年期国债收益率上行2个基点至3.57%，创2009年以来新高。",
-          "body": "",
-          "tags": [],
-          "ts": 1790238339000,
-          "time": "16:25:39",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236279",
-          "url": "https://t.me/jin10light/236279",
-          "title": "行情已重演山寨季第三阶段？市场如何以近1亿美元配置下轮剧本",
-          "body": "",
-          "tags": [],
-          "ts": 1790238338000,
-          "time": "16:25:38",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236278",
-          "url": "https://t.me/jin10light/236278",
-          "title": "美国10年、30年期国债收益率均创2007年以来最高",
-          "body": "9月24日讯，10年期美国国债收益率上行2个基点至5.14%，为2007年以来最高水平。 美国30年期国债收益率日内上涨3个基点，至5.435%，创2007年以来新高。",
-          "tags": [],
-          "ts": 1790238099000,
-          "time": "16:21:39",
-          "receivedAt": 1790249993140,
-          "receivedTime": true
-        },
-        {
-          "id": "236277",
-          "url": "https://t.me/jin10light/236277",
-          "title": "美联储威廉姆斯：年底前再次加息是合理的",
-          "body": "",
-          "tags": [],
-          "ts": 1790238038000,
-          "time": "16:20:38",
-          "receivedAt": 1790249993346,
-          "receivedTime": true
-        },
-        {
-          "id": "236276",
-          "url": "https://t.me/jin10light/236276",
-          "title": "现货黄金短线下跌10余美元，现报4270美元/盎司。",
-          "body": "",
-          "tags": [],
-          "ts": 1790238037000,
-          "time": "16:20:37",
-          "receivedAt": 1790249993346,
           "receivedTime": true
         }
       ],
