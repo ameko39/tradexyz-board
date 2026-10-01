@@ -1,11 +1,55 @@
 {
-  "updatedAt": "2026-10-01T14:44:28.169Z",
+  "updatedAt": "2026-10-01T19:51:04.338Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7394",
+          "url": "https://t.me/BWEtradfi/7394",
+          "title": "伊朗官方通讯社援引知情人士消息：在与斡旋方的近期会晤中，未讨论伊朗核计划相关议题",
+          "body": "*IRAN'S OFFICIAL NEWS AGENCY CITING SOURCE WITH KNOWLEDGE: NO TALKS ABOUT IRAN'S NUCLEAR PROGRAMME TOOK PLACE DURING RECENT MEETINGS WITH MEDIATORS",
+          "tags": [],
+          "ts": 1790882805000,
+          "time": "03:26:45",
+          "receivedAt": 1790884253094,
+          "receivedTime": true
+        },
+        {
+          "id": "7393",
+          "url": "https://t.me/BWEtradfi/7393",
+          "title": "美联储卡什卡利：对10月份加息“没有强烈的看法”",
+          "body": "*FED'S KASHKARI: 'I DON'T HAVE A STRONG VIEW' ABOUT OCTOBER RATE HIKE",
+          "tags": [],
+          "ts": 1790876640000,
+          "time": "01:44:00",
+          "receivedAt": 1790884253094,
+          "receivedTime": true
+        },
+        {
+          "id": "7392",
+          "url": "https://t.me/BWEtradfi/7392",
+          "title": "美联储副主席杰斐逊表示，美国央行“可能需要更多时间”来决定下一步利率行动",
+          "body": "*FED'S JEFFERSON SAYS US CENTRAL BANK 'MAY TAKE MORE TIME' TO DECIDE NEXT RATE MOVE",
+          "tags": [],
+          "ts": 1790875808000,
+          "time": "01:30:08",
+          "receivedAt": 1790884253094,
+          "receivedTime": true
+        },
+        {
+          "id": "7391",
+          "url": "https://t.me/BWEtradfi/7391",
+          "title": "*据称Anthropico计划在感恩节假期前进行大规模IPO",
+          "body": "*ANTHROPIC SAID TO TARGET MEGA-IPO BEFORE THANKSGIVING HOLIDAY *ANTHROPIC SAID TO WEIGH IPO MARKETING AS SOON AS WEEK OF NOV. 9 *据称Anthropico最早将于11月9日当周开始评估IPO营销方案",
+          "tags": [],
+          "ts": 1790875633000,
+          "time": "01:27:13",
+          "receivedAt": 1790884253094,
+          "receivedTime": true
+        },
         {
           "id": "7390",
           "url": "https://t.me/BWEtradfi/7390",
@@ -1499,222 +1543,332 @@
           "time": "04:01:52",
           "receivedAt": 1789597308800,
           "receivedTime": true
-        },
-        {
-          "id": "7255",
-          "url": "https://t.me/BWEtradfi/7255",
-          "title": "Infinityhedge: 是时候了吗？",
-          "body": "Infinityhedge: It's time? (Trump: \"Fed making a mistake because I have a gut, and my gut tells me more sometimes than anybody else’s brain can ever tell me.........So far, I’m not even a little bit happy with my selection of (warsh). Not even a little bit. And I’m not blaming anybody, but I’m just....",
-          "tags": [],
-          "ts": 1789587070000,
-          "time": "03:31:10",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7254",
-          "url": "https://t.me/BWEtradfi/7254",
-          "title": "白宫德赛：美联储加息“相当不幸”",
-          "body": "*WHITE HOUSE'S DESAI: FED RATE HIKE IS 'RATHER UNFORTUNATE'",
-          "tags": [],
-          "ts": 1789585692000,
-          "time": "03:08:12",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7253",
-          "url": "https://t.me/BWEtradfi/7253",
-          "title": "交易员定价美联储10月加息概率约为50%",
-          "body": "*TRADERS PRICE IN ABOUT 50% CHANCE OF FED RATE HIKE IN OCTOBER",
-          "tags": [],
-          "ts": 1789585306000,
-          "time": "03:01:46",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7252",
-          "url": "https://t.me/BWEtradfi/7252",
-          "title": "沃什结束新闻发布会",
-          "body": "*WARSH ENDS PRESS CONFERENCE",
-          "tags": [],
-          "ts": 1789585167000,
-          "time": "02:59:27",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7251",
-          "url": "https://t.me/BWEtradfi/7251",
-          "title": "美联储官员沃什：今天的行动开始表明我们对此是认真的",
-          "body": "*FED'S WARSH: TODAY'S ACTION STARTS TO SHOW WE ARE SERIOUS ABOUT THIS",
-          "tags": [],
-          "ts": 1789584982000,
-          "time": "02:56:22",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7250",
-          "url": "https://t.me/BWEtradfi/7250",
-          "title": "*美联储的沃什：债券收益率上升的三大原因",
-          "body": "*FED'S WARSH: SEE 3 REASONS BOND YIELDS HAVE RISEN *FED'S WARSH: FIRST IS ECONOMIC STRENGTH *FED'S WARSH: SECOND IS COMPETITION FOR CAPITAL; SURGE IN CAPEX IS REAL *FED'S WARSH: THIRD IS GEOPOLITICS *美联储的沃什：第一是经济强劲 *美联储的沃什：第二是资本竞争；资本支出激增是真实存在的 *美联储的沃什：第三是地缘政治",
-          "tags": [],
-          "ts": 1789584870000,
-          "time": "02:54:30",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7249",
-          "url": "https://t.me/BWEtradfi/7249",
-          "title": "美联储沃什：经济确实已走强；通胀才是问题所在",
-          "body": "*FED'S WARSH: ECONOMY HAS INDEED STRENGHTENED; INFLATION IS THE PROBLEM",
-          "tags": [],
-          "ts": 1789584759000,
-          "time": "02:52:39",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7248",
-          "url": "https://t.me/BWEtradfi/7248",
-          "title": "*美联储主席沃什：我并没有对任何一个数据点翘首以盼",
-          "body": "*FED'S WARSH: I WAS NOT WAITING BREATHLESSLY ON ANY ONE DATA POINT *FED'S WARSH: TRENDS MATTER, DATA POINTS ARE NOISY *美联储主席沃什：趋势重要，数据点只是噪音",
-          "tags": [],
-          "ts": 1789584431000,
-          "time": "02:47:11",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7247",
-          "url": "https://t.me/BWEtradfi/7247",
-          "title": "瓦什拒绝就其给特朗普总统的信息发表评论",
-          "body": "*WARSH DECLINES QUESTION ABOUT HIS MESSAGE TO PRESIDENT TRUMP",
-          "tags": [],
-          "ts": 1789584109000,
-          "time": "02:41:49",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7246",
-          "url": "https://t.me/BWEtradfi/7246",
-          "title": "沃什被问及后续加息：不属于前瞻性指引业务",
-          "body": "*WARSH ASKED ABOUT SUBSEQUENT HIKES: NOT IN THE FORWARD GUIDANCE BUSINESS",
-          "tags": [],
-          "ts": 1789583968000,
-          "time": "02:39:28",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7245",
-          "url": "https://t.me/BWEtradfi/7245",
-          "title": "交易员加大对年底前美联储再加息两次的押注",
-          "body": "*TRADERS ADD TO BETS ON TWO MORE FED RATE HIKES BY YEAR-END",
-          "tags": [],
-          "ts": 1789583913000,
-          "time": "02:38:33",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7244",
-          "url": "https://t.me/BWEtradfi/7244",
-          "title": "*沃什：美联储在劳工方面的工作进展顺利，但过去五年通胀率一直高于目标水平。",
-          "body": "*WARSH: LABOR SIDE OF FED'S REMIT IN GOOD SHAPE, YET FOR 5 YEARS INFLATION HAS BEEN RUNNING ABOVE TARGET *WARSH: PREDOMINANT FOCUS OF FED IS ON PRICE STABILITY *WARSH: PLAIN FACT IS INFLATION IS TOO HIGH AND HAS BEEN FOR TOO LONG *沃什：美联储的主要关注点是价格稳定。 *沃什：事实是通胀过高，而且持续时间过长。",
-          "tags": [],
-          "ts": 1789583623000,
-          "time": "02:33:43",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7243",
-          "url": "https://t.me/BWEtradfi/7243",
-          "title": "*美联储官员沃什：FOMC广泛认同当前货币政策条件并不具有限制性的观点",
-          "body": "*FED'S WARSH: VIEW THAT CONDITIONS ARE NOT RESTRICTIVE WAS WIDELY SHARED BY FOMC",
-          "tags": [],
-          "ts": 1789583566000,
-          "time": "02:32:46",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7242",
-          "url": "https://t.me/BWEtradfi/7242",
-          "title": "交易员维持美联储今年再次加息的押注",
-          "body": "*TRADERS MAINTAIN BETS ON ANOTHER FED RATE HIKE THIS YEAR",
-          "tags": [],
-          "ts": 1789581977000,
-          "time": "02:06:17",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7241",
-          "url": "https://t.me/BWEtradfi/7241",
-          "title": "Infinityhedge: 美联储利率点阵图",
-          "body": "Infinityhedge: FED DOT PLOT",
-          "tags": [],
-          "ts": 1789581810000,
-          "time": "02:03:30",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7240",
-          "url": "https://t.me/BWEtradfi/7240",
-          "title": "*美联储：加息将支持通胀“更及时”地回到2%",
-          "body": "*FED: RATE HIKE WILL SUPPORT 'TIMELIER' RETURN TO 2% INFLATION",
-          "tags": [],
-          "ts": 1789581670000,
-          "time": "02:01:10",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7239",
-          "url": "https://t.me/BWEtradfi/7239",
-          "title": "Infinityhedge: 美联储：一致以12比0投票通过政策行动",
-          "body": "Infinityhedge: FED: UNANIMOUS 12-0 VOTE ON POLICY ACTION FED: DROPS REFERENCE TO SUPPLY SHOCKS DRIVING INFLATION FED: NOW SAYS POLICY ACTION WILL SUPPORT TIMELIER RETURN TO 2 PERCENT GOAL FED: REPLACES MIDDLE EAST CONFLICT WITH GEOPOLITICAL DEVELOPMENTS 美联储：不再提及供应链冲击推高通胀 美联储：现称政策行动将支持更及时地回到2%的目标 美联...",
-          "tags": [],
-          "ts": 1789581653000,
-          "time": "02:00:53",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7238",
-          "url": "https://t.me/BWEtradfi/7238",
-          "title": "*美联储：政策投票全票通过",
-          "body": "*FED: VOTE IN FAVOR OF POLICY WAS UNANIMOUS *FED: COMMITTEE WILL DELIVER PRICE STABILITY *美联储：委员会将致力于稳定物价",
-          "tags": [],
-          "ts": 1789581629000,
-          "time": "02:00:29",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
-        },
-        {
-          "id": "7237",
-          "url": "https://t.me/BWEtradfi/7237",
-          "title": "美联储加息25个基点",
-          "body": "*FED HIKES INTEREST RATE 25BPS",
-          "tags": [],
-          "ts": 1789581612000,
-          "time": "02:00:12",
-          "receivedAt": 1789587916484,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "237634",
+          "url": "https://t.me/jin10light/237634",
+          "title": "据伊朗官方通讯社：知情人士称近期与调解方的会晤中未就伊朗核计划进行任何谈判。",
+          "body": "",
+          "tags": [],
+          "ts": 1790882978000,
+          "time": "03:29:38",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237633",
+          "url": "https://t.me/jin10light/237633",
+          "title": "美联储理事鲍曼将于十分钟后发表讲话。",
+          "body": "",
+          "tags": [],
+          "ts": 1790880700000,
+          "time": "02:51:40",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237632",
+          "url": "https://t.me/jin10light/237632",
+          "title": "据The Information：英伟达(NVDA.O)与软银已分别就其对OpenAI上一轮融资各300亿美元的承诺，完成各自最后一笔100亿美元投资。",
+          "body": "",
+          "tags": [],
+          "ts": 1790878839000,
+          "time": "02:20:39",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237631",
+          "url": "https://t.me/jin10light/237631",
+          "title": "美国财政部10至20年期美债回购达60亿美元上限",
+          "body": "10月2日讯，美国财政部：在10月1日进行了价值60亿美元的10至20年期美国国债流动性回购操作。 10至20年期买回操作共收到463.9亿美元投标。",
+          "tags": [],
+          "ts": 1790877820000,
+          "time": "02:03:40",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237630",
+          "url": "https://t.me/jin10light/237630",
+          "title": "布伦特原油日内涨超4%，现报101.53美元/桶；WTI原油站上92美元/桶，日内涨2.87%。",
+          "body": "",
+          "tags": [],
+          "ts": 1790877458000,
+          "time": "01:57:38",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237629",
+          "url": "https://t.me/jin10light/237629",
+          "title": "美军向中东增派第三艘航母及最多1万名士兵",
+          "body": "10月2日讯，据华尔街日报援引美国官员报道，五角大楼正向中东派遣第三个航母战斗群及更多海军陆战队两栖舰艇，预计新增约9000至1万名美军，相关舰艇、战机和人员将在11月底前抵达。 目前“乔治·H·W·布什”号和“乔治·华盛顿”号航母已部署中东，“西奥多·罗斯福”号航母日前从圣迭戈启程，“马金岛”号两栖戒备群也已出发；若“乔治·华盛顿”号届时仍留在当地，美军将在中东同时部署三个航母战斗群，为4月以来首次。 此外，美军近期还延长了防空部队及陆军第82空降师等部队的部署。 目前中东已有超过5万名美军和约20艘美国海军舰艇。 报道称，此次增兵之际，美国总统特朗...",
+          "tags": [],
+          "ts": 1790877396000,
+          "time": "01:56:36",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237628",
+          "url": "https://t.me/jin10light/237628",
+          "title": "美联储副主席杰斐逊：判断是否进一步加息可能需要更多时间",
+          "body": "10月2日讯，美联储副主席菲利普·杰斐逊表示，通胀已经过高太久，且仍存在持续高企的风险，但决策者可能需要更多时间判断是否有必要进一步加息。 未来任何政策调整都应仔细评估数据趋势、经济前景变化和风险平衡。 杰斐逊指出，美国经济活动和劳动力市场仍然稳健，但能源价格上涨、AI投资热潮和关税等多重冲击正在影响经济，制定政策时不能孤立看待这些因素。 他还表示，自9月会议以来，各期限美债收益率进一步上升，显示投资者正在重新评估宏观经济形势；随着更多数据出炉，美联储将继续判断通胀能否以足够快的速度回到目标水平，以及什么样的货币政策立场最为合适。",
+          "tags": [],
+          "ts": 1790877101000,
+          "time": "01:51:41",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237627",
+          "url": "https://t.me/jin10light/237627",
+          "title": "美联储卡什卡利：取决于经济表现，美联储可能需要比预期加息更多。",
+          "body": "",
+          "tags": [],
+          "ts": 1790876797000,
+          "time": "01:46:37",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237626",
+          "url": "https://t.me/jin10light/237626",
+          "title": "美联储卡什卡利：对于10月是否加息，我没有强烈看法；对于美联储应该以多快的速度加息，持开放态度。",
+          "body": "我9月的利率预测是今年再加息一次，2027年再加息一次。",
+          "tags": [],
+          "ts": 1790876738000,
+          "time": "01:45:38",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237625",
+          "url": "https://t.me/jin10light/237625",
+          "title": "Anthropic据悉最快11月中旬启动IPO",
+          "body": "10月2日讯，据知情人士透露，Anthropic正寻求最快于11月中旬上市，此前公司曾推迟IPO计划。 Anthropic最早可能在11月9日当周正式启动IPO推介，从而有望在11月26日感恩节前开始交易，目前仍预计最迟于今年年底完成上市，但具体时间仍可能调整。 尽管近期AI安全事件及市场对AI模型风险的关注升温，潜在投资者的兴趣似乎并未明显减弱，部分人士认为Anthropic合理估值约为1.8万亿至2万亿美元，公司预计IPO规模可能追平甚至超过SpaceX此前创下的纪录。 财务方面，Anthropic2025年营收约46亿美元，高于2024年的3.8...",
+          "tags": [],
+          "ts": 1790876618000,
+          "time": "01:43:38",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237624",
+          "url": "https://t.me/jin10light/237624",
+          "title": "消息人士：Anthropic计划在感恩节假期前进行IPO",
+          "body": "",
+          "tags": [],
+          "ts": 1790875956000,
+          "time": "01:32:36",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237623",
+          "url": "https://t.me/jin10light/237623",
+          "title": "美联储副主席：或需要更多时间来决定下次加息举措",
+          "body": "",
+          "tags": [],
+          "ts": 1790875897000,
+          "time": "01:31:37",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237622",
+          "url": "https://t.me/jin10light/237622",
+          "title": "消息人士：Anthropic计划在感恩节假期前进行超大规模IPO，而且最早可能在11月9日当周启动IPO营销。",
+          "body": "",
+          "tags": [],
+          "ts": 1790875838000,
+          "time": "01:30:38",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237621",
+          "url": "https://t.me/jin10light/237621",
+          "title": "美联储副主席杰斐逊将于十分钟后发表讲话。",
+          "body": "",
+          "tags": [],
+          "ts": 1790875309000,
+          "time": "01:21:49",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237620",
+          "url": "https://t.me/jin10light/237620",
+          "title": "美国总统特朗普：（关于伊朗）现在我必须做出决定。",
+          "body": "要么伊朗签署协议，要么它将不复存在。",
+          "tags": [],
+          "ts": 1790873619000,
+          "time": "00:53:39",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237619",
+          "url": "https://t.me/jin10light/237619",
+          "title": "特朗普：要么伊朗签署协议，要么她将不复存在",
+          "body": "",
+          "tags": [],
+          "ts": 1790873619000,
+          "time": "00:53:39",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237618",
+          "url": "https://t.me/jin10light/237618",
+          "title": "美国发布新的伊朗相关制裁",
+          "body": "",
+          "tags": [],
+          "ts": 1790872657000,
+          "time": "00:37:37",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237617",
+          "url": "https://t.me/jin10light/237617",
+          "title": "美国财政部网站：美国发布新的伊朗相关制裁。",
+          "body": "",
+          "tags": [],
+          "ts": 1790872602000,
+          "time": "00:36:42",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237616",
+          "url": "https://t.me/jin10light/237616",
+          "title": "意大利与德国2年期国债收益率利差创2020年以来最大扩幅。",
+          "body": "",
+          "tags": [],
+          "ts": 1790870923000,
+          "time": "00:08:43",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237615",
+          "url": "https://t.me/jin10light/237615",
+          "title": "Arbitrum：9月收入超500万美元，创历史纪录",
+          "body": "",
+          "tags": [],
+          "ts": 1790870797000,
+          "time": "00:06:37",
+          "receivedAt": 1790884253709,
+          "receivedTime": true
+        },
+        {
+          "id": "237614",
+          "url": "https://t.me/jin10light/237614",
+          "title": "房利美：美国30年期固定利率抵押贷款在10月第一周的平均利率为7.28%，为2023年11月22日以来的最高水平，较前一周的7.03%上升。",
+          "body": "",
+          "tags": [],
+          "ts": 1790870501000,
+          "time": "00:01:41",
+          "receivedAt": 1790884253858,
+          "receivedTime": true
+        },
+        {
+          "id": "237613",
+          "url": "https://t.me/jin10light/237613",
+          "title": "市场不再完全预期到2027年底前英国央行将加息4次。",
+          "body": "",
+          "tags": [],
+          "ts": 1790869601000,
+          "time": "23:46:41",
+          "receivedAt": 1790884253858,
+          "receivedTime": true
+        },
+        {
+          "id": "237612",
+          "url": "https://t.me/jin10light/237612",
+          "title": "市场减少对欧洲央行加息的押注，不再完全定价三次加息的情景。",
+          "body": "",
+          "tags": [],
+          "ts": 1790869243000,
+          "time": "23:40:43",
+          "receivedAt": 1790884253858,
+          "receivedTime": true
+        },
+        {
+          "id": "237611",
+          "url": "https://t.me/jin10light/237611",
+          "title": "美元指数DXY站上102关口，创去年4月以来新高。",
+          "body": "",
+          "tags": [],
+          "ts": 1790868758000,
+          "time": "23:32:38",
+          "receivedAt": 1790884253858,
+          "receivedTime": true
+        },
+        {
+          "id": "237610",
+          "url": "https://t.me/jin10light/237610",
+          "title": "美国国债收益率下行",
+          "body": "10月1日讯，美国2年期国债收益率日内下跌7.28个基点，报4.814%。 10年期收益率下跌2.07个基点，报5.272%。 20年期收益率跌1.19个基点，报5.674%。 30年期国债收益率下跌0.58个基点，报5.633%。",
+          "tags": [],
+          "ts": 1790868459000,
+          "time": "23:27:39",
+          "receivedAt": 1790884253858,
+          "receivedTime": true
+        },
+        {
+          "id": "237609",
+          "url": "https://t.me/jin10light/237609",
+          "title": "美国两年期国债收益率短暂触及一周以来最低水平，最后下跌6.03个基点，报4.827%。",
+          "body": "",
+          "tags": [],
+          "ts": 1790867797000,
+          "time": "23:16:37",
+          "receivedAt": 1790884253858,
+          "receivedTime": true
+        },
+        {
+          "id": "237608",
+          "url": "https://t.me/jin10light/237608",
+          "title": "布伦特原油继续走高，站上101美元/桶，日内涨3.60%。",
+          "body": "",
+          "tags": [],
+          "ts": 1790867560000,
+          "time": "23:12:40",
+          "receivedAt": 1790884253858,
+          "receivedTime": true
+        },
+        {
+          "id": "237607",
+          "url": "https://t.me/jin10light/237607",
+          "title": "NEAR Intents攻击者或为Lazarus Group",
+          "body": "",
+          "tags": [],
+          "ts": 1790867560000,
+          "time": "23:12:40",
+          "receivedAt": 1790884253858,
+          "receivedTime": true
+        },
+        {
+          "id": "237606",
+          "url": "https://t.me/jin10light/237606",
+          "title": "NEAR财库公司SVRN盘中跌超20%，LITE、COHR领涨光通信概念股",
+          "body": "",
+          "tags": [],
+          "ts": 1790866843000,
+          "time": "23:00:43",
+          "receivedAt": 1790884253858,
+          "receivedTime": true
+        },
         {
           "id": "237605",
           "url": "https://t.me/jin10light/237605",
@@ -14600,325 +14754,6 @@
           "time": "12:14:38",
           "receivedAt": 1790332090177,
           "receivedTime": true
-        },
-        {
-          "id": "236434",
-          "url": "https://t.me/jin10light/236434",
-          "title": "美国国防部长2025年财产披露内列出比特币，估值约1.6万至6.5万美元",
-          "body": "",
-          "tags": [],
-          "ts": 1790308356000,
-          "time": "11:52:36",
-          "receivedAt": 1790332090177,
-          "receivedTime": true
-        },
-        {
-          "id": "236433",
-          "url": "https://t.me/jin10light/236433",
-          "title": "昨日美国比特币现货ETF净流入1.907亿美元，以太坊现货ETF净流入6610万美元",
-          "body": "",
-          "tags": [],
-          "ts": 1790308239000,
-          "time": "11:50:39",
-          "receivedAt": 1790332090177,
-          "receivedTime": true
-        },
-        {
-          "id": "236432",
-          "url": "https://t.me/jin10light/236432",
-          "title": "市场消息：初步数据显示，霍尔木兹海峡商品船只通行量降至个位数。",
-          "body": "",
-          "tags": [],
-          "ts": 1790308056000,
-          "time": "11:47:36",
-          "receivedAt": 1790332090177,
-          "receivedTime": true
-        },
-        {
-          "id": "236431",
-          "url": "https://t.me/jin10light/236431",
-          "title": "Bybit CEO：随时准备以各种方式为Bitget提供帮助",
-          "body": "",
-          "tags": [],
-          "ts": 1790307822000,
-          "time": "11:43:42",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236430",
-          "url": "https://t.me/jin10light/236430",
-          "title": "Bitget：本次事件损失将由Bitget保护基金全额承担",
-          "body": "",
-          "tags": [],
-          "ts": 1790306196000,
-          "time": "11:16:36",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236429",
-          "url": "https://t.me/jin10light/236429",
-          "title": "Binance钱包推出免存生息功能，持有U、USDe和USDS最高可获4.75%年化奖励",
-          "body": "",
-          "tags": [],
-          "ts": 1790305898000,
-          "time": "11:11:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236428",
-          "url": "https://t.me/jin10light/236428",
-          "title": "布伦特原油日内跌幅扩大至2.00%，现报98.69美元/桶。",
-          "body": "",
-          "tags": [],
-          "ts": 1790305358000,
-          "time": "11:02:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236427",
-          "url": "https://t.me/jin10light/236427",
-          "title": "摩根大通：若比特币站稳8.5万美元将有效缓解矿工抛压，本轮上涨由空头回补推动",
-          "body": "",
-          "tags": [],
-          "ts": 1790304458000,
-          "time": "10:47:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236426",
-          "url": "https://t.me/jin10light/236426",
-          "title": "某巨鲸地址沉寂4年后苏醒，转出4500枚BTC",
-          "body": "",
-          "tags": [],
-          "ts": 1790304098000,
-          "time": "10:41:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236425",
-          "url": "https://t.me/jin10light/236425",
-          "title": "Specter：Bitget攻击者或为朝鲜黑客组织Lazarus Group，被盗资金路径与后者存在关联",
-          "body": "",
-          "tags": [],
-          "ts": 1790303558000,
-          "time": "10:32:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236424",
-          "url": "https://t.me/jin10light/236424",
-          "title": "2026年加密被盗事件盘点：涉及金额超23亿美元，Bitget损失3.516亿美元暂居首",
-          "body": "",
-          "tags": [],
-          "ts": 1790303198000,
-          "time": "10:26:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236423",
-          "url": "https://t.me/jin10light/236423",
-          "title": "日本财务大臣片山皋月：收益率受到多种因素的影响，正在尽力采取措施应对收益率上升。",
-          "body": "",
-          "tags": [],
-          "ts": 1790302476000,
-          "time": "10:14:36",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236422",
-          "url": "https://t.me/jin10light/236422",
-          "title": "Bonk Guy回应「不卖出」质疑：长期持有高确信度标的是其交易策略",
-          "body": "",
-          "tags": [],
-          "ts": 1790302356000,
-          "time": "10:12:36",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236421",
-          "url": "https://t.me/jin10light/236421",
-          "title": "美元兑日元USD/JPY短线走低20余点，现报158.35。",
-          "body": "",
-          "tags": [],
-          "ts": 1790302236000,
-          "time": "10:10:36",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236420",
-          "url": "https://t.me/jin10light/236420",
-          "title": "日本财务大臣片山皋月：特朗普对日元疲软表示了担忧；将与美国在外汇方面密切协调。",
-          "body": "",
-          "tags": [],
-          "ts": 1790302178000,
-          "time": "10:09:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236419",
-          "url": "https://t.me/jin10light/236419",
-          "title": "BP拉升突破1.27美元续创历史新高，24小时涨幅达48%",
-          "body": "",
-          "tags": [],
-          "ts": 1790301398000,
-          "time": "09:56:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236418",
-          "url": "https://t.me/jin10light/236418",
-          "title": "9月25日讯，上海航运交易所数据显示，截至9月24日，上海出口集装箱运价指数（综合指数）SCFI报3686.62点，与上期相比下跌1.21点。",
-          "body": "中国出口集装箱运价综合指数CCFI报1917.68点，与上期相比涨1.1%。",
-          "tags": [],
-          "ts": 1790300918000,
-          "time": "09:48:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236417",
-          "url": "https://t.me/jin10light/236417",
-          "title": "国际油价跌幅扩大至2%",
-          "body": "9月25日讯，WTI原油日内下跌2.00%，现报91.94美元/桶。 布伦特原油现跌约1.8%，报98.9美元/桶。",
-          "tags": [],
-          "ts": 1790300616000,
-          "time": "09:43:36",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236416",
-          "url": "https://t.me/jin10light/236416",
-          "title": "Specter：Bitget攻击者或为朝鲜黑客组织Lazarus Group，被盗资金路径与此前AFX黑客资金存在关联",
-          "body": "",
-          "tags": [],
-          "ts": 1790300256000,
-          "time": "09:37:36",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236415",
-          "url": "https://t.me/jin10light/236415",
-          "title": "日本30年期国债收益率上升5个基点，至4.210%。",
-          "body": "",
-          "tags": [],
-          "ts": 1790299958000,
-          "time": "09:32:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236414",
-          "url": "https://t.me/jin10light/236414",
-          "title": "港股开盘，恒生指数开跌0.96%，恒生科技指数开跌0.99%。",
-          "body": "阿里巴巴( 09988.HK )、网易-S( 09999.HK )跌超2%。",
-          "tags": [],
-          "ts": 1790299538000,
-          "time": "09:25:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236413",
-          "url": "https://t.me/jin10light/236413",
-          "title": "现货金银短线走高",
-          "body": "9月25日讯，现货金银短线持续走高，黄金向上触及4290美元/盎司，日内涨0.36%。 白银站上64美元/盎司，日内涨0.24%。",
-          "tags": [],
-          "ts": 1790298996000,
-          "time": "09:16:36",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236412",
-          "url": "https://t.me/jin10light/236412",
-          "title": "Bitget被盗资产价值合计约3.57亿美元，包括约1.03亿枚XRP及31,890枚ETH",
-          "body": "",
-          "tags": [],
-          "ts": 1790298938000,
-          "time": "09:15:38",
-          "receivedAt": 1790332090343,
-          "receivedTime": true
-        },
-        {
-          "id": "236411",
-          "url": "https://t.me/jin10light/236411",
-          "title": "慢雾：Bitget黑客地址共计持有价值约1.57亿美元XRP",
-          "body": "",
-          "tags": [],
-          "ts": 1790297858000,
-          "time": "08:57:38",
-          "receivedAt": 1790332090517,
-          "receivedTime": true
-        },
-        {
-          "id": "236410",
-          "url": "https://t.me/jin10light/236410",
-          "title": "Bitget CEO：部分被盗资金或可追回，只有确认系统安全后才会恢复提币",
-          "body": "",
-          "tags": [],
-          "ts": 1790297258000,
-          "time": "08:47:38",
-          "receivedAt": 1790297510491,
-          "receivedTime": true
-        },
-        {
-          "id": "236409",
-          "url": "https://t.me/jin10light/236409",
-          "title": "Bitget CEO披露攻击初步路径：或涉及第三方软件供应链攻击",
-          "body": "",
-          "tags": [],
-          "ts": 1790296838000,
-          "time": "08:40:38",
-          "receivedAt": 1790297510491,
-          "receivedTime": true
-        },
-        {
-          "id": "236408",
-          "url": "https://t.me/jin10light/236408",
-          "title": "Bitget CEO：此次平台遭攻击并非因密钥泄露，提币恢复暂无准确时间",
-          "body": "",
-          "tags": [],
-          "ts": 1790296358000,
-          "time": "08:32:38",
-          "receivedAt": 1790297510491,
-          "receivedTime": true
-        },
-        {
-          "id": "236407",
-          "url": "https://t.me/jin10light/236407",
-          "title": "Bitget攻击者已将EVM链上大部分被盗资金兑换成67,982枚ETH，约合1.83亿美元",
-          "body": "",
-          "tags": [],
-          "ts": 1790295582000,
-          "time": "08:19:42",
-          "receivedAt": 1790297510491,
-          "receivedTime": true
-        },
-        {
-          "id": "236406",
-          "url": "https://t.me/jin10light/236406",
-          "title": "巨鲸「先定10个大目标」：BTC若跌破79,000美元将逐步平多，快速冲高至10万美元附近拟做空对冲",
-          "body": "",
-          "tags": [],
-          "ts": 1790294738000,
-          "time": "08:05:38",
-          "receivedAt": 1790297510491,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -15719,7 +15554,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
