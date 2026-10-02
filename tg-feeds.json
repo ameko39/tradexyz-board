@@ -1,11 +1,66 @@
 {
-  "updatedAt": "2026-10-02T19:53:15.752Z",
+  "updatedAt": "2026-10-02T23:19:13.695Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7408",
+          "url": "https://t.me/BWEtradfi/7408",
+          "title": "ALTMAN 澄清与 CEREBRAS 的关系，称该公司为“紧密合作伙伴” $CBRS",
+          "body": "*ALTMAN CLARIFIES CEREBRAS RELATIONSHIP, CALLS FIRM A 'CLOSE PARTNER' $CBRS",
+          "tags": [],
+          "ts": 1790979701000,
+          "time": "06:21:41",
+          "receivedAt": 1790983139492,
+          "receivedTime": true
+        },
+        {
+          "id": "7407",
+          "url": "https://t.me/BWEtradfi/7407",
+          "title": "*苹果发布 iOS 更新，修复运营商设置问题以解决故障",
+          "body": "*APPLE ISSUES IOS UPDATE, CARRIER SETTINGS FIX TO PREVENT ISSUE *IPHONE 18 PRO MAX GLITCH ON AT&T REQUIRES DEVICE REPLACEMENT $AAPL *AT&T 版 iPhone 18 Pro Max 故障需更换设备 $AAPL",
+          "tags": [],
+          "ts": 1790977798000,
+          "time": "05:49:58",
+          "receivedAt": 1790983139492,
+          "receivedTime": true
+        },
+        {
+          "id": "7406",
+          "url": "https://t.me/BWEtradfi/7406",
+          "title": "芝商所暂停推出24/7 10桶原油期货合约的计划：PRN",
+          "body": "*CME GROUP SUSPENDS PLANS TO LAUNCH 24/7 10-BARREL CRUDE OIL CONTRACT: PRN",
+          "tags": [],
+          "ts": 1790971213000,
+          "time": "04:00:13",
+          "receivedAt": 1790983139492,
+          "receivedTime": true
+        },
+        {
+          "id": "7405",
+          "url": "https://t.me/BWEtradfi/7405",
+          "title": "*TRUMP：不会实施柴油出口禁令",
+          "body": "*TRUMP: WON'T DO DIESEL EXPORT BAN",
+          "tags": [],
+          "ts": 1790971176000,
+          "time": "03:59:36",
+          "receivedAt": 1790983139492,
+          "receivedTime": true
+        },
+        {
+          "id": "7404",
+          "url": "https://t.me/BWEtradfi/7404",
+          "title": "*特朗普谈韩国对美投资：我没有仓促决定阿拉斯加输油管道项目",
+          "body": "*TRUMP ON SOUTH KOREA INVESTMENT IN US: I DIDN'T JUMP THE GUN ON ALASKA PIPELINE *TRUMP: IF S. KOREA DOESN'T DO PIPELINE, WILL CHARGE THEM MORE *特朗普：如果韩国不建输油管道，我会向他们收取更高的费用",
+          "tags": [],
+          "ts": 1790971157000,
+          "time": "03:59:17",
+          "receivedAt": 1790983139492,
+          "receivedTime": true
+        },
         {
           "id": "7403",
           "url": "https://t.me/BWEtradfi/7403",
@@ -1545,11 +1600,22 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "237805",
+          "url": "https://t.me/jin10light/237805",
+          "title": "美国总统特朗普：（关于柴油）我们不会实施出口禁令。",
+          "body": "",
+          "tags": [],
+          "ts": 1790971238000,
+          "time": "04:00:38",
+          "receivedAt": 1790983141151,
+          "receivedTime": true
+        },
         {
           "id": "237804",
           "url": "https://t.me/jin10light/237804",
@@ -14741,17 +14807,6 @@
           "tags": [],
           "ts": 1790409577000,
           "time": "15:59:37",
-          "receivedAt": 1790417509357,
-          "receivedTime": true
-        },
-        {
-          "id": "236605",
-          "url": "https://t.me/jin10light/236605",
-          "title": "Paid手续费自动分账叙事持续发酵，PAID市值突破5000万美元，24小时涨幅超410%",
-          "body": "",
-          "tags": [],
-          "ts": 1790406158000,
-          "time": "15:02:38",
           "receivedAt": 1790417509357,
           "receivedTime": true
         }
