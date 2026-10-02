@@ -1,11 +1,88 @@
 {
-  "updatedAt": "2026-10-02T15:04:44.820Z",
+  "updatedAt": "2026-10-02T19:53:15.752Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7403",
+          "url": "https://t.me/BWEtradfi/7403",
+          "title": "美国将向 VISTRA 提供 40 亿美元贷款以提高核能产量 $VST",
+          "body": "*US TO OFFER $4 BILLION LOAN FOR VISTRA TO BOOST NUCLEAR OUTPUT $VST",
+          "tags": [],
+          "ts": 1790968419000,
+          "time": "03:13:39",
+          "receivedAt": 1790970781386,
+          "receivedTime": true
+        },
+        {
+          "id": "7402",
+          "url": "https://t.me/BWEtradfi/7402",
+          "title": "更多针对加密货币的监管提案即将来袭：SEC委员阿特金斯",
+          "body": "*MORE REGULATORY PROPOSALS FOR CRYPTO ON THE HORIZON: SEC ATKINS",
+          "tags": [],
+          "ts": 1790967914000,
+          "time": "03:05:14",
+          "receivedAt": 1790970781386,
+          "receivedTime": true
+        },
+        {
+          "id": "7401",
+          "url": "https://t.me/BWEtradfi/7401",
+          "title": "布兰奇表示，司法部不会重新对鲍威尔展开刑事调查",
+          "body": "*DOJ NOT REOPENING CRIMINAL PROBE INTO POWELL, BLANCHE SAYS",
+          "tags": [],
+          "ts": 1790967378000,
+          "time": "02:56:18",
+          "receivedAt": 1790970781386,
+          "receivedTime": true
+        },
+        {
+          "id": "7400",
+          "url": "https://t.me/BWEtradfi/7400",
+          "title": "美联储古尔斯比称不会对单月数据做出过度反应",
+          "body": "*FED'S GOOLSBEE SAYS WON'T REACT STRONGLY TO ONE MONTH OF DATA",
+          "tags": [],
+          "ts": 1790960683000,
+          "time": "01:04:43",
+          "receivedAt": 1790970781386,
+          "receivedTime": true
+        },
+        {
+          "id": "7399",
+          "url": "https://t.me/BWEtradfi/7399",
+          "title": "美联储古尔斯比：关于加息或暂停加息，所有选项都完全可以讨论",
+          "body": "*FED'S GOOLSBEE: PLENTY OF ROOM FOR ANYTHING ON THE TABLE AS FAR AS RATE HIKE OR PAUSE",
+          "tags": [],
+          "ts": 1790960623000,
+          "time": "01:03:43",
+          "receivedAt": 1790970781386,
+          "receivedTime": true
+        },
+        {
+          "id": "7398",
+          "url": "https://t.me/BWEtradfi/7398",
+          "title": "*美联储古尔斯比：劳动力市场保持稳定，美联储工作重点中通胀方面更为重要",
+          "body": "*FED'S GOOLSBEE: LABOR MARKET IS STEADY, THE INFLATION SIDE OF THE FED'S JOB IS MORE IMPORTANT",
+          "tags": [],
+          "ts": 1790960593000,
+          "time": "01:03:13",
+          "receivedAt": 1790970781386,
+          "receivedTime": true
+        },
+        {
+          "id": "7397",
+          "url": "https://t.me/BWEtradfi/7397",
+          "title": "*英国海上贸易办公室：霍尔木兹海峡一艘油轮被炮弹击中",
+          "body": "*UK MARITIME AGENCY: OIL TANKER HIT BY PROJECTILE IN STRAIT OF HORMUZ",
+          "tags": [],
+          "ts": 1790956161000,
+          "time": "23:49:21",
+          "receivedAt": 1790970781386,
+          "receivedTime": true
+        },
         {
           "id": "7396",
           "url": "https://t.me/BWEtradfi/7396",
@@ -1466,24 +1543,123 @@
           "time": "09:00:33",
           "receivedAt": 1789695100272,
           "receivedTime": true
-        },
-        {
-          "id": "7264",
-          "url": "https://t.me/BWEtradfi/7264",
-          "title": "*《华尔街日报》报道：联邦航空官员将于周一推出人工智能空中交通管制工具",
-          "body": "*FEDERAL AVIATION OFFICIALS TO LAUNCH AI-POWERED AIR-TRAFFIC TOOL AS SOON AS MONDAY: WSJ *SOFTWARE EXPECTED TO HELP FIND FLIGHT ROUTES WHEN AIR TRAFFIC DISRUPTED: WSJ *《华尔街日报》报道：该软件有望在空中交通中断时帮助寻找飞行路线",
-          "tags": [],
-          "ts": 1789665000000,
-          "time": "01:10:00",
-          "receivedAt": 1789670601974,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "237804",
+          "url": "https://t.me/jin10light/237804",
+          "title": "美联储古尔斯比：就加息或按兵不动而言，任何选项均有充分空间。",
+          "body": "",
+          "tags": [],
+          "ts": 1790960678000,
+          "time": "01:04:38",
+          "receivedAt": 1790970781837,
+          "receivedTime": true
+        },
+        {
+          "id": "237803",
+          "url": "https://t.me/jin10light/237803",
+          "title": "美国至10月2日当周石油钻井总数将于十分钟后公布。",
+          "body": "",
+          "tags": [],
+          "ts": 1790959896000,
+          "time": "00:51:36",
+          "receivedAt": 1790970781837,
+          "receivedTime": true
+        },
+        {
+          "id": "237802",
+          "url": "https://t.me/jin10light/237802",
+          "title": "Blast官宣停运、Upbit列入注意名单，BLAST跌超25%",
+          "body": "",
+          "tags": [],
+          "ts": 1790959660000,
+          "time": "00:47:40",
+          "receivedAt": 1790970781837,
+          "receivedTime": true
+        },
+        {
+          "id": "237801",
+          "url": "https://t.me/jin10light/237801",
+          "title": "Bithumb将BLAST列入交易注意名单，因Blast宣布主网运营结束计划",
+          "body": "",
+          "tags": [],
+          "ts": 1790959060000,
+          "time": "00:37:40",
+          "receivedAt": 1790970781837,
+          "receivedTime": true
+        },
+        {
+          "id": "237800",
+          "url": "https://t.me/jin10light/237800",
+          "title": "据西方和地区官员透露，沙特计划对胡塞武装发动进攻，以打破其对红海航道的封锁。",
+          "body": "",
+          "tags": [],
+          "ts": 1790957376000,
+          "time": "00:09:36",
+          "receivedAt": 1790970781837,
+          "receivedTime": true
+        },
+        {
+          "id": "237799",
+          "url": "https://t.me/jin10light/237799",
+          "title": "Bitwise NEAR ETF累计净流入超5000万美元",
+          "body": "",
+          "tags": [],
+          "ts": 1790957083000,
+          "time": "00:04:43",
+          "receivedAt": 1790970781837,
+          "receivedTime": true
+        },
+        {
+          "id": "237798",
+          "url": "https://t.me/jin10light/237798",
+          "title": "现货白银跌破60美元关口，现报59.916美元",
+          "body": "",
+          "tags": [],
+          "ts": 1790955759000,
+          "time": "23:42:39",
+          "receivedAt": 1790970781837,
+          "receivedTime": true
+        },
+        {
+          "id": "237797",
+          "url": "https://t.me/jin10light/237797",
+          "title": "现货白银跌破60美元/盎司，日内跌1.62%。",
+          "body": "现货黄金现跌0.94%。",
+          "tags": [],
+          "ts": 1790954860000,
+          "time": "23:27:40",
+          "receivedAt": 1790970781837,
+          "receivedTime": true
+        },
+        {
+          "id": "237796",
+          "url": "https://t.me/jin10light/237796",
+          "title": "某巨鲸解除95.66万枚SOL质押，价值约1.16亿美元",
+          "body": "",
+          "tags": [],
+          "ts": 1790954261000,
+          "time": "23:17:41",
+          "receivedAt": 1790970781837,
+          "receivedTime": true
+        },
+        {
+          "id": "237795",
+          "url": "https://t.me/jin10light/237795",
+          "title": "Layer2网络Blast宣布停止运营，用户需在10月26日前将资产撤回以太坊主网",
+          "body": "",
+          "tags": [],
+          "ts": 1790953659000,
+          "time": "23:07:39",
+          "receivedAt": 1790970781837,
+          "receivedTime": true
+        },
         {
           "id": "237794",
           "url": "https://t.me/jin10light/237794",
@@ -14578,116 +14754,6 @@
           "time": "15:02:38",
           "receivedAt": 1790417509357,
           "receivedTime": true
-        },
-        {
-          "id": "236604",
-          "url": "https://t.me/jin10light/236604",
-          "title": "神秘免费模型Pixel Canary上线：Next.js评测追平GPT-6 Astra",
-          "body": "",
-          "tags": [],
-          "ts": 1790405796000,
-          "time": "14:56:36",
-          "receivedAt": 1790417509357,
-          "receivedTime": true
-        },
-        {
-          "id": "236603",
-          "url": "https://t.me/jin10light/236603",
-          "title": "据半岛电视台：伊拉克政府声明称，正与华盛顿进行磋商，以使（部分）伊拉克机场免受美国财政部针对伊朗航班措施的影响。",
-          "body": "",
-          "tags": [],
-          "ts": 1790403041000,
-          "time": "14:10:41",
-          "receivedAt": 1790417509357,
-          "receivedTime": true
-        },
-        {
-          "id": "236602",
-          "url": "https://t.me/jin10light/236602",
-          "title": "昨日美国比特币现货ETF净流入1.345亿美元，近七日总计净流入29.783亿美元",
-          "body": "",
-          "tags": [],
-          "ts": 1790401659000,
-          "time": "13:47:39",
-          "receivedAt": 1790417509357,
-          "receivedTime": true
-        },
-        {
-          "id": "236601",
-          "url": "https://t.me/jin10light/236601",
-          "title": "AERO与VELODROME合并在即，双双涨超20%",
-          "body": "",
-          "tags": [],
-          "ts": 1790400940000,
-          "time": "13:35:40",
-          "receivedAt": 1790417509357,
-          "receivedTime": true
-        },
-        {
-          "id": "236600",
-          "url": "https://t.me/jin10light/236600",
-          "title": "Bitdeer本周挖矿产出288.1枚BTC，全部卖出",
-          "body": "",
-          "tags": [],
-          "ts": 1790399920000,
-          "time": "13:18:40",
-          "receivedAt": 1790400924073,
-          "receivedTime": true
-        },
-        {
-          "id": "236599",
-          "url": "https://t.me/jin10light/236599",
-          "title": "疑似Bitget黑客所属地址11小时前从Binance提取123万美元代币",
-          "body": "",
-          "tags": [],
-          "ts": 1790397282000,
-          "time": "12:34:42",
-          "receivedAt": 1790400924073,
-          "receivedTime": true
-        },
-        {
-          "id": "236598",
-          "url": "https://t.me/jin10light/236598",
-          "title": "前X产品负责人：Paid给名人X Money分成极具创意，但应允许选择退出",
-          "body": "",
-          "tags": [],
-          "ts": 1790397281000,
-          "time": "12:34:41",
-          "receivedAt": 1790400924073,
-          "receivedTime": true
-        },
-        {
-          "id": "236597",
-          "url": "https://t.me/jin10light/236597",
-          "title": "韩国央行行长申铉松遭冒名开设投资诈骗账号，非法荐股群仍在运营",
-          "body": "",
-          "tags": [],
-          "ts": 1790397281000,
-          "time": "12:34:41",
-          "receivedAt": 1790400924073,
-          "receivedTime": true
-        },
-        {
-          "id": "236596",
-          "url": "https://t.me/jin10light/236596",
-          "title": "Yuga Labs：ERC 721C或1155C标准NFT或暂时无法通过NFT申领网站领取",
-          "body": "",
-          "tags": [],
-          "ts": 1790396078000,
-          "time": "12:14:38",
-          "receivedAt": 1790400924073,
-          "receivedTime": true
-        },
-        {
-          "id": "236595",
-          "url": "https://t.me/jin10light/236595",
-          "title": "谢家印：周一将与Gracy Chen进行社区直播，讨论安全事件并解答社群疑问",
-          "body": "",
-          "tags": [],
-          "ts": 1790396016000,
-          "time": "12:13:36",
-          "receivedAt": 1790400924073,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -15389,7 +15455,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
