@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T19:51:33.968Z",
+  "updatedAt": "2026-10-03T22:29:00.131Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1554,64 +1554,9 @@
           "time": "06:35:09",
           "receivedAt": 1789773111289,
           "receivedTime": true
-        },
-        {
-          "id": "7270",
-          "url": "https://t.me/BWEtradfi/7270",
-          "title": "*谷歌称，其人工智能“双子座”（Gemini）首次入侵三家公司系统：华尔街日报",
-          "body": "*GOOGLE'S GEMINI HACKED THREE COMPANIES IN FIRST KNOWN BREAKOUT BY ITS AI, COMPANY SAYS: WSJ $GOOGL $GOOGL",
-          "tags": [],
-          "ts": 1789769455000,
-          "time": "06:10:55",
-          "receivedAt": 1789773111289,
-          "receivedTime": true
-        },
-        {
-          "id": "7269",
-          "url": "https://t.me/BWEtradfi/7269",
-          "title": "Anthropic的IPO时间仍可能发生变化：华尔街日报",
-          "body": "*ANTHROPIC IPO TIMING COULD STILL CHANGE: WSJ",
-          "tags": [],
-          "ts": 1789766834000,
-          "time": "05:27:14",
-          "receivedAt": 1789773111289,
-          "receivedTime": true
-        },
-        {
-          "id": "7268",
-          "url": "https://t.me/BWEtradfi/7268",
-          "title": "消息称安特洛普（Anthropic）将计划中的IPO推迟至11月：华尔街日报",
-          "body": "*ANTHROPIC SHIFTS PLANNED IPO TO NOVEMBER: WSJ",
-          "tags": [],
-          "ts": 1789766711000,
-          "time": "05:25:11",
-          "receivedAt": 1789773111289,
-          "receivedTime": true
-        },
-        {
-          "id": "7267",
-          "url": "https://t.me/BWEtradfi/7267",
-          "title": "*特朗普：美国与丹麦和格陵兰达成协议，赋予我们永久控制当地安全的权利，且无需承担任何费用。",
-          "body": "*TRUMP: US ENTERED AGREEMENT WITH DENMARK AND GREENLAND GIVING US PERMANENT CONTROL OVER SECURITY AT NO COST *TRUMP: NO US ADVERSARY CAN EVER HAVE BASE MILITARY PRESENCE OR SENSITIVE INVESTMENTS IN GREENLAND WITHOUT EXPRESS WRITTEN APPROVAL *TRUMP: IMMEDIATELY BEGIN PROCESS OF DEVELOPING LARGE MILI...",
-          "tags": [],
-          "ts": 1789766356000,
-          "time": "05:19:16",
-          "receivedAt": 1789773111289,
-          "receivedTime": true
-        },
-        {
-          "id": "7266",
-          "url": "https://t.me/BWEtradfi/7266",
-          "title": "*美国与丹麦即将就格陵兰岛问题达成协议",
-          "body": "*US, DENMARK CLOSING IN ON DEAL REGARDING GREENLAND *DEAL WILL GIVE US MILITARY GREATER PRESENCE IN GREENLAND WITHOUT AFFECTING SOVEREIGNTY *该协议将赋予美国军队在格陵兰岛更大的存在，但不会损害其主权。",
-          "tags": [],
-          "ts": 1789765858000,
-          "time": "05:10:58",
-          "receivedAt": 1789773111289,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
