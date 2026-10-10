@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-10-09T21:37:30.392Z",
+  "updatedAt": "2026-10-10T01:13:07.602Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7456",
+          "url": "https://t.me/BWEtradfi/7456",
+          "title": "*报告称，若协议违约，币安可能面临重新指控和罚款",
+          "body": "*BINANCE COULD FACE REVIVED CHARGES, FINES IF DEAL BREACHED: REPORT *BINANCE: FULLY COMMITTED TO COOPERATING WITH LAW ENFORCEMENT *币安：全力配合执法部门调查",
+          "tags": [],
+          "ts": 1791584983000,
+          "time": "06:29:43",
+          "receivedAt": 1791594773927,
+          "receivedTime": true
+        },
+        {
+          "id": "7455",
+          "url": "https://t.me/BWEtradfi/7455",
+          "title": "美国司法部正审查Binance对2023年和解协议合规情况",
+          "body": "*DOJ SCRUTINIZING BINANCE COMPLIANCE WITH 2023 SETTLEMENT ACCORD",
+          "tags": [],
+          "ts": 1791584900000,
+          "time": "06:28:20",
+          "receivedAt": 1791594773927,
+          "receivedTime": true
+        },
+        {
+          "id": "7454",
+          "url": "https://t.me/BWEtradfi/7454",
+          "title": "*卡尔希（KALSHI）就有关新任白宫新闻秘书人选的可疑交易展开调查：华尔街日报",
+          "body": "*KALSHI LAUNCHES INVESTIGATION INTO SUSPICIOUS TRADES ABOUT NEW WHITE HOUSE PRESS SECRETARY PICK: WSJ",
+          "tags": [],
+          "ts": 1791582468000,
+          "time": "05:47:48",
+          "receivedAt": 1791594773927,
+          "receivedTime": true
+        },
         {
           "id": "7453",
           "url": "https://t.me/BWEtradfi/7453",
@@ -1529,61 +1562,6 @@
           "time": "22:07:37",
           "receivedAt": 1790349956596,
           "receivedTime": true
-        },
-        {
-          "id": "7315",
-          "url": "https://t.me/BWEtradfi/7315",
-          "title": "*白宫国宴：特朗普的席位安排了习近平、马斯克、黄仁勋、苏姿丰、蒂姆·库克",
-          "body": "*WH STATE DINNER: TRUMP'S TABLE SEATS XI, ELON MUSK, JENSEN HUANG, LISA SU, TIM COOK",
-          "tags": [],
-          "ts": 1790294660000,
-          "time": "08:04:20",
-          "receivedAt": 1790297510015,
-          "receivedTime": true
-        },
-        {
-          "id": "7314",
-          "url": "https://t.me/BWEtradfi/7314",
-          "title": "*习近平：同特朗普进行了坦诚对话，达成多项共识",
-          "body": "*XI: HAD CANDID TALKS, REACHED MANY CONSENSUS WITH TRUMP",
-          "tags": [],
-          "ts": 1790294607000,
-          "time": "08:03:27",
-          "receivedAt": 1790297510015,
-          "receivedTime": true
-        },
-        {
-          "id": "7313",
-          "url": "https://t.me/BWEtradfi/7313",
-          "title": "*特朗普、众议院议长迈克·约翰逊和科技公司首席执行官将于9月29日举行人工智能会议",
-          "body": "*TRUMP, HOUSE SPEAKER MIKE JOHNSON, AND TECH CEOS WILL HOLD AN AI MEETING ON SEPT. 29 *THE MEETING ADDRESSES MOUNTING PRESSURE ON WASHINGTON TO REGULATE FRONTIER AI COMPANIES *此次会议旨在应对华盛顿方面日益增长的监管前沿人工智能公司的压力。",
-          "tags": [],
-          "ts": 1790289882000,
-          "time": "06:44:42",
-          "receivedAt": 1790297510015,
-          "receivedTime": true
-        },
-        {
-          "id": "7312",
-          "url": "https://t.me/BWEtradfi/7312",
-          "title": "*OpenAI 准备在开发者日 (DevDay) 上预览基于 GPT-6 的网络安全和自动化部署产品",
-          "body": "*OPENAI PREPARING TO PREVIEW GPT-6 CYBER AND AUTOMATED DEPLOYMENT PRODUCT AT DEVDAY *OPENAI PLANS TO SHIP A DOZEN OR MORE PRODUCTS AT ITS ANNUAL DEVDAY EVENT *OpenAI 计划在其年度开发者日 (DevDay) 活动上发布十余款产品。",
-          "tags": [],
-          "ts": 1790289006000,
-          "time": "06:30:06",
-          "receivedAt": 1790289782513,
-          "receivedTime": true
-        },
-        {
-          "id": "7311",
-          "url": "https://t.me/BWEtradfi/7311",
-          "title": "据The Information报道：Anthropic正寻求股东批准，在IPO前向其七位联合创始人授予50.1%的投票控制权",
-          "body": "*ANTHROPIC IS SEEKING SHAREHOLDER APPROVAL TO GRANT ITS SEVEN CO-FOUNDERS 50.1% VOTING CONTROL AHEAD OF IPO: THE INFORMATION",
-          "tags": [],
-          "ts": 1790286856000,
-          "time": "05:54:16",
-          "receivedAt": 1790289782513,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1591,6 +1569,72 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "238823",
+          "url": "https://t.me/jin10light/238823",
+          "title": "慢雾解析Ledger疑似硬件植入攻击：恶意模块或通过屏幕数据线窃取助记词",
+          "body": "",
+          "tags": [],
+          "ts": 1791594681000,
+          "time": "09:11:21",
+          "receivedAt": 1791594774372,
+          "receivedTime": true
+        },
+        {
+          "id": "238822",
+          "url": "https://t.me/jin10light/238822",
+          "title": "Ledger经销商CryptoBilis暂停马来西亚、菲律宾和印尼全渠道硬件钱包销售",
+          "body": "",
+          "tags": [],
+          "ts": 1791594501000,
+          "time": "09:08:21",
+          "receivedAt": 1791594774372,
+          "receivedTime": true
+        },
+        {
+          "id": "238821",
+          "url": "https://t.me/jin10light/238821",
+          "title": "美国总统特朗普：如今通过霍尔木兹海峡输送的石油量，比（伊朗）战争爆发前还要多。",
+          "body": "你敢相信吗？",
+          "tags": [],
+          "ts": 1791593479000,
+          "time": "08:51:19",
+          "receivedAt": 1791594774372,
+          "receivedTime": true
+        },
+        {
+          "id": "238820",
+          "url": "https://t.me/jin10light/238820",
+          "title": "前FTX COO痛批Netflix新剧《利他主义者》预告片：看得我生理性呕吐",
+          "body": "",
+          "tags": [],
+          "ts": 1791593421000,
+          "time": "08:50:21",
+          "receivedAt": 1791594774372,
+          "receivedTime": true
+        },
+        {
+          "id": "238819",
+          "url": "https://t.me/jin10light/238819",
+          "title": "美股今晨三大股指收涨，甲骨文涨4.69%，CRCL涨4.54%",
+          "body": "",
+          "tags": [],
+          "ts": 1791592701000,
+          "time": "08:38:21",
+          "receivedAt": 1791594774372,
+          "receivedTime": true
+        },
+        {
+          "id": "238818",
+          "url": "https://t.me/jin10light/238818",
+          "title": "俄美元首通话 普京称俄目前不可能恢复与乌谈判",
+          "body": "10月10日讯，俄罗斯总统助理乌沙科夫当地时间10日凌晨介绍了俄美两国领导人通话的有关情况。 乌沙科夫表示，普京在通话中详细介绍了俄罗斯为回应乌克兰武装部队实施的恐怖袭击而采取的措施。 普京表示，乌克兰方面试图破坏俄罗斯国家杜马选举并对民众实施袭击，导致立即恢复谈判的可能性遭到破坏。 普京还指出，乌克兰方面试图阻止俄罗斯军队推进的企图没有任何成功的前景，俄军目前完全掌握战场主动权，并正在持续向前推进。 普京强调，由于乌克兰方面的立场，特别是其试图破坏俄杜马选举的行为，目前不可能恢复与乌克兰的谈判。 特朗普已指示将普京在通话中传递的信息转达给乌克兰代表团...",
+          "tags": [],
+          "ts": 1791592282000,
+          "time": "08:31:22",
+          "receivedAt": 1791594774372,
+          "receivedTime": true
+        },
         {
           "id": "238817",
           "url": "https://t.me/jin10light/238817",
@@ -14725,72 +14769,6 @@
           "tags": [],
           "ts": 1790875956000,
           "time": "01:32:36",
-          "receivedAt": 1790884253709,
-          "receivedTime": true
-        },
-        {
-          "id": "237623",
-          "url": "https://t.me/jin10light/237623",
-          "title": "美联储副主席：或需要更多时间来决定下次加息举措",
-          "body": "",
-          "tags": [],
-          "ts": 1790875897000,
-          "time": "01:31:37",
-          "receivedAt": 1790884253709,
-          "receivedTime": true
-        },
-        {
-          "id": "237622",
-          "url": "https://t.me/jin10light/237622",
-          "title": "消息人士：Anthropic计划在感恩节假期前进行超大规模IPO，而且最早可能在11月9日当周启动IPO营销。",
-          "body": "",
-          "tags": [],
-          "ts": 1790875838000,
-          "time": "01:30:38",
-          "receivedAt": 1790884253709,
-          "receivedTime": true
-        },
-        {
-          "id": "237621",
-          "url": "https://t.me/jin10light/237621",
-          "title": "美联储副主席杰斐逊将于十分钟后发表讲话。",
-          "body": "",
-          "tags": [],
-          "ts": 1790875309000,
-          "time": "01:21:49",
-          "receivedAt": 1790884253709,
-          "receivedTime": true
-        },
-        {
-          "id": "237620",
-          "url": "https://t.me/jin10light/237620",
-          "title": "美国总统特朗普：（关于伊朗）现在我必须做出决定。",
-          "body": "要么伊朗签署协议，要么它将不复存在。",
-          "tags": [],
-          "ts": 1790873619000,
-          "time": "00:53:39",
-          "receivedAt": 1790884253709,
-          "receivedTime": true
-        },
-        {
-          "id": "237619",
-          "url": "https://t.me/jin10light/237619",
-          "title": "特朗普：要么伊朗签署协议，要么她将不复存在",
-          "body": "",
-          "tags": [],
-          "ts": 1790873619000,
-          "time": "00:53:39",
-          "receivedAt": 1790884253709,
-          "receivedTime": true
-        },
-        {
-          "id": "237618",
-          "url": "https://t.me/jin10light/237618",
-          "title": "美国发布新的伊朗相关制裁",
-          "body": "",
-          "tags": [],
-          "ts": 1790872657000,
-          "time": "00:37:37",
           "receivedAt": 1790884253709,
           "receivedTime": true
         }
