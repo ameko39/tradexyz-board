@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-10-10T21:15:05.908Z",
+  "updatedAt": "2026-10-11T00:15:03.950Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7458",
+          "url": "https://t.me/BWEtradfi/7458",
+          "title": "*特朗普：认为沙特袭击“是一件可怕的事情”",
+          "body": "*TRUMP:THINK SAUDI ATTACK 'A TERRIBLE THING' *TRUMP: HAVE COMMUNICATION WITH HOUTHIS, WILL SEE WHAT HAPPENS *特朗普：与胡塞武装保持沟通，看看事态如何发展",
+          "tags": [],
+          "ts": 1791677587000,
+          "time": "08:13:07",
+          "receivedAt": 1791677689014,
+          "receivedTime": true
+        },
+        {
+          "id": "7457",
+          "url": "https://t.me/BWEtradfi/7457",
+          "title": "*特朗普：认为泽连斯基应该举行选举",
+          "body": "*TRUMP: THINKS ZELENSKYY SHOULD HAVE AN ELECTION *TRUMP: ZELENSKYY DOESN'T WANT TO MAKE DEAL *TRUMP SAYS PUTIN TOLD HIM HE WOULD LIKE TO SEE A SETTLEMENT *特朗普：泽连斯基不想达成协议 *特朗普称普京告诉他，普京希望看到达成和解",
+          "tags": [],
+          "ts": 1791677536000,
+          "time": "08:12:16",
+          "receivedAt": 1791677689014,
+          "receivedTime": true
+        },
         {
           "id": "7456",
           "url": "https://t.me/BWEtradfi/7456",
@@ -1487,11 +1509,44 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "238882",
+          "url": "https://t.me/jin10light/238882",
+          "title": "沙特利雅得机场遭袭造成12人死亡309人受伤",
+          "body": "",
+          "tags": [],
+          "ts": 1791677327000,
+          "time": "08:08:47",
+          "receivedAt": 1791677690593,
+          "receivedTime": true
+        },
+        {
+          "id": "238881",
+          "url": "https://t.me/jin10light/238881",
+          "title": "历史今日：距「1011」近200亿美元史诗级清算已1周年",
+          "body": "",
+          "tags": [],
+          "ts": 1791676701000,
+          "time": "07:58:21",
+          "receivedAt": 1791677690593,
+          "receivedTime": true
+        },
+        {
+          "id": "238880",
+          "url": "https://t.me/jin10light/238880",
+          "title": "沙特民航局：利雅得哈立德国王国际机场周六遭到袭击，12人死亡，309人受伤。",
+          "body": "",
+          "tags": [],
+          "ts": 1791669141000,
+          "time": "05:52:21",
+          "receivedAt": 1791677690593,
+          "receivedTime": true
+        },
         {
           "id": "238879",
           "url": "https://t.me/jin10light/238879",
@@ -1517,8 +1572,8 @@
         {
           "id": "238877",
           "url": "https://t.me/jin10light/238877",
-          "title": "以媒称美以领导人就再袭伊朗沟通 内塔尼亚胡无意在月底议会选举前行动",
-          "body": "10月11日讯，当地时间10月10日，据以色列第13频道电视台报道，美国总统特朗普与以色列总理内塔尼亚胡近期“就美以可能再对伊朗发动军事打击一事进行了频繁、紧急沟通”。 报道援引多名以色列安全机构高级官员消息称，“美以尚未就此作出最终决定，内塔尼亚胡无意在以色列本月底举行议会选举前采取军事行动。 ”报道还称，以军内部认为，美方未来倾向于重启对伊朗军事行动。 目前，以军正据此为应对一切可能情况作准备。",
+          "title": "以媒称美以领导人就再袭伊朗沟通，内塔尼亚胡无意在月底议会选举前行动",
+          "body": "",
           "tags": [],
           "ts": 1791656901000,
           "time": "02:28:21",
@@ -14659,39 +14714,6 @@
           "tags": [],
           "ts": 1790914778000,
           "time": "12:19:38",
-          "receivedAt": 1790930941527,
-          "receivedTime": true
-        },
-        {
-          "id": "237682",
-          "url": "https://t.me/jin10light/237682",
-          "title": "昨日美国比特币现货ETF净流入1.027亿美元，以太坊现货ETF净流出5540万美元",
-          "body": "",
-          "tags": [],
-          "ts": 1790913338000,
-          "time": "11:55:38",
-          "receivedAt": 1790930941527,
-          "receivedTime": true
-        },
-        {
-          "id": "237681",
-          "url": "https://t.me/jin10light/237681",
-          "title": "Talus（US）自日内低点累计涨超60%",
-          "body": "",
-          "tags": [],
-          "ts": 1790911478000,
-          "time": "11:24:38",
-          "receivedAt": 1790930941527,
-          "receivedTime": true
-        },
-        {
-          "id": "237680",
-          "url": "https://t.me/jin10light/237680",
-          "title": "Bithumb将上线Talus（US）韩元交易对，支持Sui网络",
-          "body": "",
-          "tags": [],
-          "ts": 1790911057000,
-          "time": "11:17:37",
           "receivedAt": 1790930941527,
           "receivedTime": true
         }
