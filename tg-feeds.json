@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-10-11T16:45:39.421Z",
+  "updatedAt": "2026-10-11T20:36:35.049Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7460",
+          "url": "https://t.me/BWEtradfi/7460",
+          "title": "俄罗斯未接受任何形式的停火：Axios",
+          "body": "*RUSSIA HASN'T ACCEPTED ANY KIND OF CEASEFIRE: AXIOS",
+          "tags": [],
+          "ts": 1791747647000,
+          "time": "03:40:47",
+          "receivedAt": 1791750978747,
+          "receivedTime": true
+        },
+        {
+          "id": "7459",
+          "url": "https://t.me/BWEtradfi/7459",
+          "title": "*美国威胁就炼油厂袭击事件停止对乌克兰武器供应：金融时报",
+          "body": "*US THREATENS TO BLOCK ARMS FOR UKRAINE OVER REFINERY ATTACK: FT",
+          "tags": [],
+          "ts": 1791739437000,
+          "time": "01:23:57",
+          "receivedAt": 1791750978747,
+          "receivedTime": true
+        },
         {
           "id": "7458",
           "url": "https://t.me/BWEtradfi/7458",
@@ -1459,6 +1481,61 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "238944",
+          "url": "https://t.me/jin10light/238944",
+          "title": "伊朗外长告知沙特外交大臣，德黑兰准备提供协助，以促进沙特与也门方面之间的对话。",
+          "body": "",
+          "tags": [],
+          "ts": 1791750801000,
+          "time": "04:33:21",
+          "receivedAt": 1791750980507,
+          "receivedTime": true
+        },
+        {
+          "id": "238943",
+          "url": "https://t.me/jin10light/238943",
+          "title": "据沙特国家通讯社：沙特与伊朗两国外长讨论该地区局势的最新升级。",
+          "body": "",
+          "tags": [],
+          "ts": 1791749841000,
+          "time": "04:17:21",
+          "receivedAt": 1791750980507,
+          "receivedTime": true
+        },
+        {
+          "id": "238942",
+          "url": "https://t.me/jin10light/238942",
+          "title": "据Axios：白宫官员表示，特朗普周日宣布的俄罗斯与乌克兰之间“能源停火”指的是一项潜在协议。",
+          "body": "特朗普预计泽连斯基将遵守这一协议。 白宫官员警告称，乌克兰对俄罗斯炼油厂发动的袭击对泽连斯基与特朗普关系造成的损害超过了其对俄罗斯造成的损害。",
+          "tags": [],
+          "ts": 1791748342000,
+          "time": "03:52:22",
+          "receivedAt": 1791750980507,
+          "receivedTime": true
+        },
+        {
+          "id": "238941",
+          "url": "https://t.me/jin10light/238941",
+          "title": "伊朗军方：在霍尔木兹海峡关闭导航识别系统船只将被视为敌对目标",
+          "body": "10月12日讯，当地时间11日，伊朗伊斯兰革命卫队海军宣布，所有在霍尔木兹海峡关闭导航和识别系统的船只将被视为“敌对目标”，并将受到严厉而果断的处置。",
+          "tags": [],
+          "ts": 1791742041000,
+          "time": "02:07:21",
+          "receivedAt": 1791750980507,
+          "receivedTime": true
+        },
+        {
+          "id": "238940",
+          "url": "https://t.me/jin10light/238940",
+          "title": "据英国金融时报：据欧洲官员透露，特朗普政府正威胁叫停向乌克兰提供武器的采购机制，以此向基辅施压，要求其停止对俄罗斯能源基础设施实施纵深打击。",
+          "body": "美国正游说欧洲各国政府及基辅，试图阻止乌克兰袭击俄罗斯炼油厂。 这些官员在周六和周日接到了美国官员的电话，或听取了有关通话的情况通报。",
+          "tags": [],
+          "ts": 1791739522000,
+          "time": "01:25:22",
+          "receivedAt": 1791750980507,
+          "receivedTime": true
+        },
         {
           "id": "238939",
           "url": "https://t.me/jin10light/238939",
@@ -14607,61 +14684,6 @@
           "tags": [],
           "ts": 1790943696000,
           "time": "20:21:36",
-          "receivedAt": 1790953473536,
-          "receivedTime": true
-        },
-        {
-          "id": "237744",
-          "url": "https://t.me/jin10light/237744",
-          "title": "巴基斯坦外交部长：将在下周的会议上讨论与胡塞武装的政治接触，而非军事行动。",
-          "body": "",
-          "tags": [],
-          "ts": 1790943576000,
-          "time": "20:19:36",
-          "receivedAt": 1790953473536,
-          "receivedTime": true
-        },
-        {
-          "id": "237743",
-          "url": "https://t.me/jin10light/237743",
-          "title": "某HYPE巨鲸疑似止盈，71000枚HYPE已充值至交易平台",
-          "body": "",
-          "tags": [],
-          "ts": 1790943399000,
-          "time": "20:16:39",
-          "receivedAt": 1790953473536,
-          "receivedTime": true
-        },
-        {
-          "id": "237742",
-          "url": "https://t.me/jin10light/237742",
-          "title": "Ronin Waypoint将于10月16日关闭钱包，用户需在期限前迁移资产",
-          "body": "",
-          "tags": [],
-          "ts": 1790943275000,
-          "time": "20:14:35",
-          "receivedAt": 1790953473536,
-          "receivedTime": true
-        },
-        {
-          "id": "237741",
-          "url": "https://t.me/jin10light/237741",
-          "title": "Meme币「龙虾」昨日上涨250%后，今日暴跌75%回归原价",
-          "body": "",
-          "tags": [],
-          "ts": 1790943038000,
-          "time": "20:10:38",
-          "receivedAt": 1790953473536,
-          "receivedTime": true
-        },
-        {
-          "id": "237740",
-          "url": "https://t.me/jin10light/237740",
-          "title": "LSEG数据显示，法国10年期国债收益率达到4.989%，为2002年以来最高水平。",
-          "body": "",
-          "tags": [],
-          "ts": 1790942496000,
-          "time": "20:01:36",
           "receivedAt": 1790953473536,
           "receivedTime": true
         }
