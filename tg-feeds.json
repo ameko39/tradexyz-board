@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T05:21:04.566Z",
+  "updatedAt": "2026-10-14T10:20:00.284Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1344,7 +1344,8 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": false,
+      "error": "fetch failed"
     },
     "jin10": {
       "channel": "jin10light",
@@ -14553,7 +14554,8 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": false,
+      "error": "fetch failed"
     },
     "poly": {
       "channel": "PolyBeats_Bot",
@@ -15109,7 +15111,8 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true,
+      "error": "fetch failed"
     }
   }
 }
