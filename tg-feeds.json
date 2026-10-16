@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-10-16T18:57:56.769Z",
+  "updatedAt": "2026-10-16T21:55:08.459Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7525",
+          "url": "https://t.me/BWEtradfi/7525",
+          "title": "*英伟达CEO谈AI市场动荡：“这一切都会过去”",
+          "body": "*NVIDIA CEO ON AI MARKET TURMOIL: ‘ALL OF THIS IS GOING TO PASS’ $NVDA $NVDA",
+          "tags": [],
+          "ts": 1792182759000,
+          "time": "04:32:39",
+          "receivedAt": 1792187695053,
+          "receivedTime": true
+        },
         {
           "id": "7524",
           "url": "https://t.me/BWEtradfi/7524",
@@ -1419,28 +1430,6 @@
           "time": "21:58:50",
           "receivedAt": 1790953471749,
           "receivedTime": true
-        },
-        {
-          "id": "7395",
-          "url": "https://t.me/BWEtradfi/7395",
-          "title": "*马斯克称特斯拉将AI5的内存容量削减至72GB，AI6的内存容量削减至144GB，以实现Optimus芯片的容量最大化",
-          "body": "*MUSK SAYS TESLA CUT RAM FOR AI5 TO 72GB, AI6 TO 144GB TO ENABLE OPTIMUS VOLUME *TESLA REDUCES CHIP MEMORY TO SECURE SUFFICIENT SUPPLY AND LOWER COSTS $TSLA *特斯拉减少芯片内存容量，以确保充足的供应并降低成本 $TSLA",
-          "tags": [],
-          "ts": 1790884384000,
-          "time": "03:53:04",
-          "receivedAt": 1790897303318,
-          "receivedTime": true
-        },
-        {
-          "id": "7394",
-          "url": "https://t.me/BWEtradfi/7394",
-          "title": "伊朗官方通讯社援引知情人士消息：在与斡旋方的近期会晤中，未讨论伊朗核计划相关议题",
-          "body": "*IRAN'S OFFICIAL NEWS AGENCY CITING SOURCE WITH KNOWLEDGE: NO TALKS ABOUT IRAN'S NUCLEAR PROGRAMME TOOK PLACE DURING RECENT MEETINGS WITH MEDIATORS",
-          "tags": [],
-          "ts": 1790882805000,
-          "time": "03:26:45",
-          "receivedAt": 1790884253094,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1448,6 +1437,17 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "240096",
+          "url": "https://t.me/jin10light/240096",
+          "title": "美股收盘：三大股指收跌 Coreweave跌近12%",
+          "body": "10月17日讯，美股周五收盘，纳指跌2.14%，标普500指数跌1.09%，道指初步收跌0.34%。 Coreweave(CRWV.O)跌11.91%，SK海力士(SKHY.O)跌6.58%，Arm(ARM.O)跌6.94%，闪迪(SNDK.O)跌6.85%，甲骨文(ORCL.N)跌4.64%，特斯拉(TSLA.O)跌2.13%。 纳斯达克中国金龙指数跌1.3%，百度(BIDU.O)跌2.93%，阿里巴巴(BABA.N)跌1.83%。",
+          "tags": [],
+          "ts": 1792181001000,
+          "time": "04:03:21",
+          "receivedAt": 1792187695493,
+          "receivedTime": true
+        },
         {
           "id": "240095",
           "url": "https://t.me/jin10light/240095",
@@ -14637,17 +14637,6 @@
           "tags": [],
           "ts": 1791691102000,
           "time": "11:58:22",
-          "receivedAt": 1791697819089,
-          "receivedTime": true
-        },
-        {
-          "id": "238896",
-          "url": "https://t.me/jin10light/238896",
-          "title": "加密恐慌与贪婪指数降至61，市场「贪婪」情绪持续降温",
-          "body": "",
-          "tags": [],
-          "ts": 1791689181000,
-          "time": "11:26:21",
           "receivedAt": 1791697819089,
           "receivedTime": true
         }
