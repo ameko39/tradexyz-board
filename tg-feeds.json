@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T12:49:09.047Z",
+  "updatedAt": "2026-10-18T16:09:31.141Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1287,24 +1287,112 @@
           "time": "09:00:35",
           "receivedAt": 1791267214732,
           "receivedTime": true
-        },
-        {
-          "id": "7410",
-          "url": "https://t.me/BWEtradfi/7410",
-          "title": "*泽连斯基：乌克兰将加倍打击俄罗斯炼油厂",
-          "body": "*UKRAINE TO DOUBLE DOWN ON STRIKES AGAINST RUSSIAN OIL REFINERIES: ZELENSKIY *ZELENSKIY: REFINERY ATTACKS RETALIATE AGAINST PUTIN'S 'NEW DOCTRINE' TARGETING INFRASTRUCTURE *ZELENSKIY SEES NO INDICATION RUSSIA WANTS PEACE TALKS DESPITE TRUMP EFFORTS *泽连斯基：袭击炼油厂是对普京“新战略”的报复，该战略旨在打击基础设施 *泽连斯基认为，尽管特朗普努...",
-          "tags": [],
-          "ts": 1791043413000,
-          "time": "00:03:33",
-          "receivedAt": 1791047629767,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "240211",
+          "url": "https://t.me/jin10light/240211",
+          "title": "今日重点关注的财经数据与事件：2026年10月19日 周一",
+          "body": "① 待定 2026金融街论坛年会在京开幕 ② 09:30 中国70城住宅售价月报 ③ 10:00 中国第三季度GDP年率 ④ 10:00 中国9月社会消费品零售总额同比 ⑤ 10:00 中国9月规模以上工业增加值同比 ⑥ 20:30 加拿大9月CPI月率 ⑦ 22:00 美国10月NAHB房产市场指数",
+          "tags": [],
+          "ts": 1792339282000,
+          "time": "00:01:22",
+          "receivedAt": 1792339759293,
+          "receivedTime": true
+        },
+        {
+          "id": "240210",
+          "url": "https://t.me/jin10light/240210",
+          "title": "Qubic披露安全事件：约130万美元QU被盗，涉及1404个Qubic钱包",
+          "body": "",
+          "tags": [],
+          "ts": 1792337672000,
+          "time": "23:34:32",
+          "receivedAt": 1792339759293,
+          "receivedTime": true
+        },
+        {
+          "id": "240209",
+          "url": "https://t.me/jin10light/240209",
+          "title": "整理：周日重要消息汇总",
+          "body": "国内新闻ï 1.包括澜起科技在内的多家A股龙头公司集体出手回购。 2. 多个纳指ETF以及全球芯片LOF发布停牌公告。 3. Deepseek公布API网页搜索与抓取费用：每1000次成功请求5元。 国际新闻ï 1.法国多地发生大规模抗议。 2. 高市内阁支持率首次跌破50%。 3. 韩媒：三星将采用台积电技术为英伟达生产下一代内存芯片。 4. 中东局势— ①伊朗议会批准阿赫拉基为新任防长。 ②伊朗新防长回应特朗普“炸弹之母”威胁：看看会有多少美军士兵被横着抬出地区。 ③伊朗外长：“7天内重新开放霍尔木兹海峡”方案仍然有效。 ④伊朗：已针对可能的新“冒...",
+          "tags": [],
+          "ts": 1792335382000,
+          "time": "22:56:22",
+          "receivedAt": 1792339759293,
+          "receivedTime": true
+        },
+        {
+          "id": "240208",
+          "url": "https://t.me/jin10light/240208",
+          "title": "「比特币耶稣」为避税放弃美国国籍，十年后被追缴近5000万美元弃籍税",
+          "body": "",
+          "tags": [],
+          "ts": 1792333282000,
+          "time": "22:21:22",
+          "receivedAt": 1792339759293,
+          "receivedTime": true
+        },
+        {
+          "id": "240207",
+          "url": "https://t.me/jin10light/240207",
+          "title": "CZ回应推出BNB手机提议：拿着加密货币手机到处走不确定是不是好主意",
+          "body": "",
+          "tags": [],
+          "ts": 1792332559000,
+          "time": "22:09:19",
+          "receivedAt": 1792339759293,
+          "receivedTime": true
+        },
+        {
+          "id": "240206",
+          "url": "https://t.me/jin10light/240206",
+          "title": "Justin Sun时隔两年再次交易PEPE，自Poloniex多签地址收到2844万美元代币",
+          "body": "",
+          "tags": [],
+          "ts": 1792332324000,
+          "time": "22:05:24",
+          "receivedAt": 1792339759293,
+          "receivedTime": true
+        },
+        {
+          "id": "240205",
+          "url": "https://t.me/jin10light/240205",
+          "title": "「麻吉」补充保证金再度开多以太坊，持仓价值430万美元",
+          "body": "",
+          "tags": [],
+          "ts": 1792331541000,
+          "time": "21:52:21",
+          "receivedAt": 1792339759293,
+          "receivedTime": true
+        },
+        {
+          "id": "240204",
+          "url": "https://t.me/jin10light/240204",
+          "title": "比特币年底能否冲击10万美元？市场观点现分歧，机构看涨与宏观阻力交锋",
+          "body": "",
+          "tags": [],
+          "ts": 1792328968000,
+          "time": "21:09:28",
+          "receivedAt": 1792339759293,
+          "receivedTime": true
+        },
+        {
+          "id": "240203",
+          "url": "https://t.me/jin10light/240203",
+          "title": "Citrini观点：长江存储或提前至今年12月上市，与长鑫形成流动性争夺",
+          "body": "",
+          "tags": [],
+          "ts": 1792328124000,
+          "time": "20:55:24",
+          "receivedAt": 1792339759293,
+          "receivedTime": true
+        },
         {
           "id": "240202",
           "url": "https://t.me/jin10light/240202",
@@ -14406,105 +14494,6 @@
           "tags": [],
           "ts": 1791785960000,
           "time": "14:19:20",
-          "receivedAt": 1791806000543,
-          "receivedTime": true
-        },
-        {
-          "id": "239011",
-          "url": "https://t.me/jin10light/239011",
-          "title": "A股三大指数午后持续走低，深成指跌超2%，创业板指跌2.5%，沪指跌0.57%。",
-          "body": "",
-          "tags": [],
-          "ts": 1791785901000,
-          "time": "14:18:21",
-          "receivedAt": 1791806000543,
-          "receivedTime": true
-        },
-        {
-          "id": "239010",
-          "url": "https://t.me/jin10light/239010",
-          "title": "前三季度新能源汽车产销量实现两位数增长 海外市场表现亮眼",
-          "body": "10月12日讯，中国汽车工业协会12日发布的最新数据显示，今年1至9月份，我国新能源汽车市场产销量实现两位数增长，其中海外市场表现亮眼。 最新数据显示，今年1至9月份，我国新能源汽车市场产销量分别完成1248.3万辆和1247.2万辆，同比分别增长11%和11.1%，新能源汽车新车销量达到汽车新车总销量的53.6%。",
-          "tags": [],
-          "ts": 1791784882000,
-          "time": "14:01:22",
-          "receivedAt": 1791806000543,
-          "receivedTime": true
-        },
-        {
-          "id": "239009",
-          "url": "https://t.me/jin10light/239009",
-          "title": "棕榈油期货午盘跳空低开",
-          "body": "棕榈油主力合约午盘跳空低开，日内转跌，现报9611元/吨，此前一度涨超1%。 MPOB月报显示，马来西亚9月棕榈油库存为351万吨，高于市场预期的337—345万吨，并创下历史新高。",
-          "tags": [],
-          "ts": 1791783079000,
-          "time": "13:31:19",
-          "receivedAt": 1791806000543,
-          "receivedTime": true
-        },
-        {
-          "id": "239008",
-          "url": "https://t.me/jin10light/239008",
-          "title": "太子集团财务主管李添在伦敦的1.7亿元豪宅及名表被英国冻结",
-          "body": "",
-          "tags": [],
-          "ts": 1791782963000,
-          "time": "13:29:23",
-          "receivedAt": 1791806000543,
-          "receivedTime": true
-        },
-        {
-          "id": "239007",
-          "url": "https://t.me/jin10light/239007",
-          "title": "商务部新闻发言人就中欧混动汽车、电动汽车磋商共识答记者问",
-          "body": "10月12日讯，问：近日，中欧双方在贸易投资磋商机制下就混动汽车、电动汽车贸易进行了深入讨论，避免了局面升级，一些外媒对混动汽车贸易安排的数量等相关细节进行猜测，请问中方有何评论？答：关于混动汽车，双方强调并确认了三项基本原则。 一是尊重事实。 根据欧盟统计局数据，2024年欧盟自中国进口混动汽车10.7万辆，2025年为30.2万辆。 双方在2025年基础上达成向上安排，确保中国企业的出口空间和稳定增长，照顾了双方产业基于现实的合理关切。 二是非歧视。 任何措施都不会专门针对中国产品，更不能歧视性对待中国企业。 中方获得配额将不会低于欧方的其他任何进...",
-          "tags": [],
-          "ts": 1791782063000,
-          "time": "13:14:23",
-          "receivedAt": 1791806000543,
-          "receivedTime": true
-        },
-        {
-          "id": "239006",
-          "url": "https://t.me/jin10light/239006",
-          "title": "中国警方对宜信相关公司立案侦查，其旗下基金曾参与Circle、Figure等加密项目融资",
-          "body": "",
-          "tags": [],
-          "ts": 1791782062000,
-          "time": "13:14:22",
-          "receivedAt": 1791806000543,
-          "receivedTime": true
-        },
-        {
-          "id": "239005",
-          "url": "https://t.me/jin10light/239005",
-          "title": "乘联分会：9月新能源车市场零售108.4万辆，同比降16.7%。",
-          "body": "",
-          "tags": [],
-          "ts": 1791781461000,
-          "time": "13:04:21",
-          "receivedAt": 1791806000543,
-          "receivedTime": true
-        },
-        {
-          "id": "239004",
-          "url": "https://t.me/jin10light/239004",
-          "title": "RSR短时涨至0.0026美元，15分钟内涨幅54.86%",
-          "body": "",
-          "tags": [],
-          "ts": 1791781161000,
-          "time": "12:59:21",
-          "receivedAt": 1791806000543,
-          "receivedTime": true
-        },
-        {
-          "id": "239003",
-          "url": "https://t.me/jin10light/239003",
-          "title": "Upbit将上线RSR韩元和USDT交易对",
-          "body": "",
-          "tags": [],
-          "ts": 1791780982000,
-          "time": "12:56:22",
           "receivedAt": 1791806000543,
           "receivedTime": true
         }
