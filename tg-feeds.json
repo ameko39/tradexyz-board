@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T16:09:31.141Z",
+  "updatedAt": "2026-10-18T18:36:45.939Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1289,11 +1289,22 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "240212",
+          "url": "https://t.me/jin10light/240212",
+          "title": "Galaxy Research分析比特币10月为何走弱：企业财库买盘疲弱叠加ETF流出为主因",
+          "body": "",
+          "tags": [],
+          "ts": 1792339881000,
+          "time": "00:11:21",
+          "receivedAt": 1792348590893,
+          "receivedTime": true
+        },
         {
           "id": "240211",
           "url": "https://t.me/jin10light/240211",
@@ -14484,17 +14495,6 @@
           "ts": 1791786266000,
           "time": "14:24:26",
           "receivedAt": 1791806000365,
-          "receivedTime": true
-        },
-        {
-          "id": "239012",
-          "url": "https://t.me/jin10light/239012",
-          "title": "Binance将上线ZCSH、MSTU、SNPS、RDW四种TradFi U本位永续合约",
-          "body": "",
-          "tags": [],
-          "ts": 1791785960000,
-          "time": "14:19:20",
-          "receivedAt": 1791806000543,
           "receivedTime": true
         }
       ],
