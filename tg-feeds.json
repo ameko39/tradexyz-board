@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-10-19T17:13:14.594Z",
+  "updatedAt": "2026-10-19T21:31:41.201Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7530",
+          "url": "https://t.me/BWEtradfi/7530",
+          "title": "*特朗普特使库什纳和维特科夫将前往挪威参加乌克兰和平谈判",
+          "body": "*TRUMP ENVOYS KUSHNER AND WITKOFF TRAVELING TO NORWAY FOR UKRAINE PEACE NEGOTIATIONS *UKRAINIAN PRESIDENT ZELENSKIY IS EXPECTED TO ATTEND THE TENTATIVE NEGOTIATIONS *乌克兰总统泽连斯基预计将出席此次初步谈判。",
+          "tags": [],
+          "ts": 1792440886000,
+          "time": "04:14:46",
+          "receivedAt": 1792445488010,
+          "receivedTime": true
+        },
+        {
+          "id": "7529",
+          "url": "https://t.me/BWEtradfi/7529",
+          "title": "NSCALE 与 ANTHROPIC 正就 450 亿美元云计算交易进行洽谈",
+          "body": "*NSCALE, ANTHROPIC IN TALKS FOR $45 BILLION CLOUD COMPUTING DEAL",
+          "tags": [],
+          "ts": 1792437809000,
+          "time": "03:23:29",
+          "receivedAt": 1792445488010,
+          "receivedTime": true
+        },
+        {
+          "id": "7528",
+          "url": "https://t.me/BWEtradfi/7528",
+          "title": "*马斯克赠送的SpaceX股份将通过特朗普账户发放",
+          "body": "*MUSK'S SPACEX SHARES GIFT TO BE DISTRIBUTED VIA TRUMP ACCOUNTS $SPCX $SPCX",
+          "tags": [],
+          "ts": 1792430192000,
+          "time": "01:16:32",
+          "receivedAt": 1792445488010,
+          "receivedTime": true
+        },
         {
           "id": "7527",
           "url": "https://t.me/BWEtradfi/7527",
@@ -1294,6 +1327,28 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "240431",
+          "url": "https://t.me/jin10light/240431",
+          "title": "美能源部：拟将受制裁油轮转为合规船舶 用于运输未受制裁原油",
+          "body": "10月20日讯， 美国能源部长赖特表示，特朗普政府正推动部分受制裁油轮通过审批程序转为合规船舶，投资者拟收购闲置油轮并翻新，用于运输非受制裁原油。 赖特强调，此举并非解除对运输俄罗斯、伊朗等国原油的油轮制裁，而是将相关船舶转为合法运营船舶，并确保其不再运输受制裁原油。 他估计，全球受制裁的“影子船队”约有1600艘船舶，相关计划最终可能为合法船队增加数十艘甚至数百艘油轮。",
+          "tags": [],
+          "ts": 1792441401000,
+          "time": "04:23:21",
+          "receivedAt": 1792445489171,
+          "receivedTime": true
+        },
+        {
+          "id": "240430",
+          "url": "https://t.me/jin10light/240430",
+          "title": "美股收盘：三大股指涨跌不一 海力士涨超4%",
+          "body": "10月20日讯，美股周一收盘，道指初步收跌0.07%，标普500指数涨0.4%，纳指涨1.1%。 SK海力士(SKHY.O)涨4.6%，美光科技(MU.O)涨近3%，特斯拉(TSLA.O)涨3.7%，亚马逊(AMZN.O)涨近5%。 纳斯达克中国金龙指数收跌0.26%，爱奇艺(IQ.O)跌超2%。",
+          "tags": [],
+          "ts": 1792440141000,
+          "time": "04:02:21",
+          "receivedAt": 1792445489171,
+          "receivedTime": true
+        },
         {
           "id": "240429",
           "url": "https://t.me/jin10light/240429",
@@ -14472,28 +14527,6 @@
           "tags": [],
           "ts": 1791873744000,
           "time": "14:42:24",
-          "receivedAt": 1791883351960,
-          "receivedTime": true
-        },
-        {
-          "id": "239231",
-          "url": "https://t.me/jin10light/239231",
-          "title": "AI 编程新榜单考验代码能否合并，Opus 5.5 仍有四成尝试不过关",
-          "body": "",
-          "tags": [],
-          "ts": 1791873203000,
-          "time": "14:33:23",
-          "receivedAt": 1791883351960,
-          "receivedTime": true
-        },
-        {
-          "id": "239230",
-          "url": "https://t.me/jin10light/239230",
-          "title": "火币HTX已上线SNPS及ZCSH永续合约",
-          "body": "",
-          "tags": [],
-          "ts": 1791873203000,
-          "time": "14:33:23",
           "receivedAt": 1791883351960,
           "receivedTime": true
         }
