@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-10-22T15:21:15.601Z",
+  "updatedAt": "2026-10-22T19:17:03.196Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7564",
+          "url": "https://t.me/BWEtradfi/7564",
+          "title": "《华尔街日报》证实 Moderna 癌症疫苗数据提前泄露",
+          "body": "*WSJ CONFIRMS MODERNA CANCER VACCINE DATA LEAKED EARLY *CANCER SITE ONCOLOGYCENTRAL APPEARS TO PUBLISH MODERNA STUDY AHEAD OF SATURDAY ESMO RELEASE: WSJ $MRNA 《华尔街日报》报道，癌症网站 OncologyCentral 似乎在周六 ESMO 会议发布前就已发布了 Moderna 的研究报告 $MRNA",
+          "tags": [],
+          "ts": 1792692649000,
+          "time": "02:10:49",
+          "receivedAt": 1792696611067,
+          "receivedTime": true
+        },
         {
           "id": "7563",
           "url": "https://t.me/BWEtradfi/7563",
@@ -1419,112 +1430,123 @@
           "time": "04:00:48",
           "receivedAt": 1791403904559,
           "receivedTime": true
-        },
-        {
-          "id": "7434",
-          "url": "https://t.me/BWEtradfi/7434",
-          "title": "*尚未就可能对伊朗发动的打击规模或目标做出最终决定",
-          "body": "*NO FINAL DECISION MADE ON SCALE OR TARGETS OF POTENTIAL IRAN STRIKE *CENTCOM DEVELOPING OPERATIONAL PLANS AHEAD OF NOV. 3 ELECTION *TRUMP EYES MILITARY ACTION TO PROJECT RESOLVE, CURB GAS PRICES PRE-VOTE *LARGER MILITARY CAMPAIGN AGAINST IRAN WEIGHED POST-MIDTERMS: OFFICIALS *中央司令部正在为11月3日的大选制定作战计...",
-          "tags": [],
-          "ts": 1791400080000,
-          "time": "03:08:00",
-          "receivedAt": 1791403904559,
-          "receivedTime": true
-        },
-        {
-          "id": "7433",
-          "url": "https://t.me/BWEtradfi/7433",
-          "title": "白宫寻求在中期选举前对伊朗实施打击的选项：大西洋月刊",
-          "body": "*WHITE HOUSE SEEKS IRAN STRIKE OPTIONS BEFORE MIDTERMS: ATLANTIC",
-          "tags": [],
-          "ts": 1791400005000,
-          "time": "03:06:45",
-          "receivedAt": 1791403904559,
-          "receivedTime": true
-        },
-        {
-          "id": "7432",
-          "url": "https://t.me/BWEtradfi/7432",
-          "title": "*美联储：多位官员称人工智能建设规模持续超预期",
-          "body": "*FED: SEVERAL SAID SCALE OF AI BUILDOUT CONTINUED TO SURPRISE",
-          "tags": [],
-          "ts": 1791396024000,
-          "time": "02:00:24",
-          "receivedAt": 1791403904559,
-          "receivedTime": true
-        },
-        {
-          "id": "7431",
-          "url": "https://t.me/BWEtradfi/7431",
-          "title": "*美联储：多位官员认为当前利率未具限制性或仅具温和限制性",
-          "body": "*FED: SEVERAL SAW CURRENT RATE AS NOT OR ONLY MILDLY RESTRICTIVE",
-          "tags": [],
-          "ts": 1791396020000,
-          "time": "02:00:20",
-          "receivedAt": 1791403904559,
-          "receivedTime": true
-        },
-        {
-          "id": "7430",
-          "url": "https://t.me/BWEtradfi/7430",
-          "title": "*美联储：部分官员称通胀上行风险已变得更为显著",
-          "body": "*FED: SOME SAID INFLATION RISKS HAD BECOME MORE SKEWED TO UPSIDE",
-          "tags": [],
-          "ts": 1791396012000,
-          "time": "02:00:12",
-          "receivedAt": 1791403904559,
-          "receivedTime": true
-        },
-        {
-          "id": "7429",
-          "url": "https://t.me/BWEtradfi/7429",
-          "title": "*美联储：多数与会者认为2026年再次加息可能合适",
-          "body": "*FED: MOST PARTICIPANTS SAW ANOTHER 2026 HIKE LIKELY APPROPRIATE",
-          "tags": [],
-          "ts": 1791396010000,
-          "time": "02:00:10",
-          "receivedAt": 1791403904559,
-          "receivedTime": true
-        },
-        {
-          "id": "7428",
-          "url": "https://t.me/BWEtradfi/7428",
-          "title": "特朗普谈美联储：依我看，你们有一个希望国家表现糟糕的董事会",
-          "body": "*TRUMP ON FED: YOU HAVE A BOARD THAT WOULD LIKE TO SEE THE COUNTRY DO BADLY, IN MY OPINION",
-          "tags": [],
-          "ts": 1791395284000,
-          "time": "01:48:04",
-          "receivedAt": 1791403904559,
-          "receivedTime": true
-        },
-        {
-          "id": "7427",
-          "url": "https://t.me/BWEtradfi/7427",
-          "title": "*TRUMP: 战后抵押贷款利率将会下降",
-          "body": "*TRUMP: MORTGAGE RATES WILL COME DOWN AFTER WAR",
-          "tags": [],
-          "ts": 1791395275000,
-          "time": "01:47:55",
-          "receivedAt": 1791403904559,
-          "receivedTime": true
-        },
-        {
-          "id": "7426",
-          "url": "https://t.me/BWEtradfi/7426",
-          "title": "*高债券收益率：全球现象",
-          "body": "*BESSENT ON HIGH BOND YIELDS: GLOBAL PHENOMENON *BESSENT: CORE INFLATION APPROACHING FED TARGET *核心通胀率接近美联储目标：BESSENT 报告指出，BESSENT 报告称核心通胀率正逼近美联储目标。",
-          "tags": [],
-          "ts": 1791395271000,
-          "time": "01:47:51",
-          "receivedAt": 1791403904559,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "240891",
+          "url": "https://t.me/jin10light/240891",
+          "title": "布伦特原油期货突破113美元/桶，日内涨超4%。",
+          "body": "",
+          "tags": [],
+          "ts": 1792691667000,
+          "time": "01:54:27",
+          "receivedAt": 1792696611689,
+          "receivedTime": true
+        },
+        {
+          "id": "240890",
+          "url": "https://t.me/jin10light/240890",
+          "title": "交易员不再完全押注美联储将在年底前加息。",
+          "body": "",
+          "tags": [],
+          "ts": 1792688730000,
+          "time": "01:05:30",
+          "receivedAt": 1792696611689,
+          "receivedTime": true
+        },
+        {
+          "id": "240889",
+          "url": "https://t.me/jin10light/240889",
+          "title": "现货白银跌破55美元关口",
+          "body": "现货白银跌势不止，失守55美元/盎司关口，为7月17日来首次，日内跌超5%。",
+          "tags": [],
+          "ts": 1792688308000,
+          "time": "00:58:28",
+          "receivedAt": 1792696611689,
+          "receivedTime": true
+        },
+        {
+          "id": "240888",
+          "url": "https://t.me/jin10light/240888",
+          "title": "美国30年期国债收益率跌10个基点，报5.3%。",
+          "body": "",
+          "tags": [],
+          "ts": 1792687529000,
+          "time": "00:45:29",
+          "receivedAt": 1792696611689,
+          "receivedTime": true
+        },
+        {
+          "id": "240887",
+          "url": "https://t.me/jin10light/240887",
+          "title": "今日重点关注的财经数据与事件：2026年10月23日 周五",
+          "body": "① 待定 澳洲联储主席布洛克发表讲话 ② 07:01 英国10月Gfk消费者信心指数 ③ 07:30 日本9月核心CPI年率 ④ 14:00 英国9月季调后零售销售月率 ⑤ 15:15 法国10月制造业PMI初值 ⑥ 15:30 德国10月制造业PMI初值 ⑦ 16:00 欧元区10月制造业PMI初值 ⑧ 16:30 英国10月制造业PMI初值 ⑨ 16:30 英国10月服务业PMI初值 ⑩ 20:30 加拿大8月零售销售月率 ⑪ 21:45 美国10月标普全球制造业PMI初值 ⑫ 21:45 美国10月标普全球服务业PMI初值 ⑬ 22:00 美国1...",
+          "tags": [],
+          "ts": 1792684891000,
+          "time": "00:01:31",
+          "receivedAt": 1792696611689,
+          "receivedTime": true
+        },
+        {
+          "id": "240886",
+          "url": "https://t.me/jin10light/240886",
+          "title": "两部门启动国家地震灾害四级应急响应",
+          "body": "10月22日讯，中国地震台网测定：10月22日22时33分在西藏那曲市巴青县（北纬32.40度，东经93.79度）发生7.0级地震，震源深度10千米。 据了解，震中附近平均海拔约4800米，周边人口稀少。 地震发生后，国务院抗震救灾指挥部副总指挥、应急管理部部长张成中立即视频调度当地情况，要求尽快核实灾情，全力做好抢险救援、群众转移安置和震情监测等工作。 部领导宋元明、陈敏、周天、王昆持续调度指导应急处置工作。 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应，派出工作组赶赴当地指导处置。",
+          "tags": [],
+          "ts": 1792684589000,
+          "time": "23:56:29",
+          "receivedAt": 1792696611689,
+          "receivedTime": true
+        },
+        {
+          "id": "240885",
+          "url": "https://t.me/jin10light/240885",
+          "title": "玉渊谭天：DeepSeek、MiniMax两家头部企业已顺利履行登记手续，并完成开源和海外授权使用",
+          "body": "10月22日讯，玉渊谭天发文称，10月16日，商务部、科技部就修订《中国禁止出口限制出口技术目录》（以下简称《目录》）公开征求意见。 其中，有23项人工智能领域技术，包括大模型、智能体、算力集群、信息处理等。 《目录》出来后，一些人提出了疑问：中国强调技术开放，怎么突然要给AI加上“出口限制”了？这次是不是政策转向的信号？据悉，政策公布以来，DeepSeek、MiniMax两家头部企业已顺利履行登记手续，并完成开源和海外授权使用。 商务部在相关答问中，对“什么不管”的解释，明显比对“什么要管”的解释更多、更具体。 从这也能看出，《目录》的核心是划定边界...",
+          "tags": [],
+          "ts": 1792684291000,
+          "time": "23:51:31",
+          "receivedAt": 1792696611689,
+          "receivedTime": true
+        },
+        {
+          "id": "240884",
+          "url": "https://t.me/jin10light/240884",
+          "title": "特朗普：邪恶的伊朗编造谎言以推动油价上涨",
+          "body": "10月22日讯，美国总统特朗普最新发文：“伊朗正竭尽所能在美国中期选举前推高油价。 他们甚至编造虚假的袭击、布雷及其他各种事件，因为目前通过霍尔木兹海峡运输的石油比冲突爆发前还要多。 这确实是一个邪恶的政权，我只希望美国民众和全世界都能认识到他们有多么邪恶！令人震惊的是，全世界和‘愚蠢的民主党’似乎对此漠不关心。 伊朗绝不能拥有核武器，他们也永远不会拥有核武器！。 ”",
+          "tags": [],
+          "ts": 1792683927000,
+          "time": "23:45:27",
+          "receivedAt": 1792696611689,
+          "receivedTime": true
+        },
+        {
+          "id": "240883",
+          "url": "https://t.me/jin10light/240883",
+          "title": "美国总统特朗普：伊朗编造虚假的袭击、布雷及其他各种事件，以推高油价。",
+          "body": "",
+          "tags": [],
+          "ts": 1792683748000,
+          "time": "23:42:28",
+          "receivedAt": 1792696611689,
+          "receivedTime": true
+        },
+        {
+          "id": "240882",
+          "url": "https://t.me/jin10light/240882",
+          "title": "国内新é",
+          "body": "1.《对外投资管理办法》发布，自12月1日起施行。 2. 中国地震台网正式测定：西藏那曲市巴青县发生7.0级地震，震源深度10千米。 国际新é 1.美国初请失业金人数降至19.4万人，为三个月来新低并逼近约57年低点。 2. Meta未来支出承诺总额飙升至8250亿美元，其信用风险指标因人工智能支出计划创下新高。 3. 美国拟拨款3.89亿美元支持聚变能源和功率半导体研发。 4. 现货黄金盘中失守4050美元关口，为8月4日来首次。 5. 法国5年期CDS利差突破100基点，为2012年10月以来首次。",
+          "tags": [],
+          "ts": 1792682846000,
+          "time": "23:27:26",
+          "receivedAt": 1792696611689,
+          "receivedTime": true
+        },
         {
           "id": "240881",
           "url": "https://t.me/jin10light/240881",
@@ -1561,7 +1583,7 @@
         {
           "id": "240878",
           "url": "https://t.me/jin10light/240878",
-          "title": "美国5年期国债收益率跌至4.825%，创9月23日以来最低水平，日内下跌14.33个基点。",
+          "title": "美国10年期国债收益率跌破5%，为9月23日以来首次，日内下跌14.97个基点。",
           "body": "",
           "tags": [],
           "ts": 1792680146000,
@@ -14615,116 +14637,6 @@
           "tags": [],
           "ts": 1792043479000,
           "time": "13:51:19",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239691",
-          "url": "https://t.me/jin10light/239691",
-          "title": "Abraxas两个对冲账户盈利超3.31亿美元，持有14.5亿美元空头头寸",
-          "body": "",
-          "tags": [],
-          "ts": 1792043361000,
-          "time": "13:49:21",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239690",
-          "url": "https://t.me/jin10light/239690",
-          "title": "日本央行审议委员小枝淳子：没有具体的加息步伐。",
-          "body": "",
-          "tags": [],
-          "ts": 1792043183000,
-          "time": "13:46:23",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239689",
-          "url": "https://t.me/jin10light/239689",
-          "title": "A股券商板块午后拉升，华林证券再度涨停，锦龙股份涨超9%，首创证券、华鑫股份、东方财富、中金公司、湘财股份等个股跟涨。",
-          "body": "",
-          "tags": [],
-          "ts": 1792042999000,
-          "time": "13:43:19",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239688",
-          "url": "https://t.me/jin10light/239688",
-          "title": "今日重点关注的财经数据与事件：2026年10月15日 周四",
-          "body": "① 待定 国内成品油开启新一轮调价窗口 ② 14:00 英国8月三个月GDP月率 ③ 14:00 英国8月制造业产出月率 ④ 14:00 英国8月季调后商品贸易帐 ⑤ 14:00 英国8月工业产出月率 ⑥ 14:00 台积电公布第三季财报后举行法说会 ⑦ 14:45 法国9月CPI月率终值 ⑧ 15:00 商务部召开例行新闻发布会 ⑨ 17:00 欧元区8月工业产出月率 ⑩ 18:00 英国央行行长贝利发表讲话 ⑪ 20:30 加拿大8月批发销售月率 ⑫ 20:30 美国至10月10日当周初请失业金人数 ⑬ 20:30 美国9月零售销售月率 ⑭ 20:...",
-          "tags": [],
-          "ts": 1792042884000,
-          "time": "13:41:24",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239687",
-          "url": "https://t.me/jin10light/239687",
-          "title": "韩国KOSPI指数失守5500点，日内跌幅8.47%。",
-          "body": "",
-          "tags": [],
-          "ts": 1792042460000,
-          "time": "13:34:20",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239686",
-          "url": "https://t.me/jin10light/239686",
-          "title": "台积电(TSM.N)2026年Q3营收1.494万亿新台币，上年同期9899.2亿新台币。",
-          "body": "",
-          "tags": [],
-          "ts": 1792042399000,
-          "time": "13:33:19",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239685",
-          "url": "https://t.me/jin10light/239685",
-          "title": "台积电(TSM.N)2026年Q3净利润7631亿新台币，上年同期4523亿新台币，市场预期7463亿新台币。",
-          "body": "",
-          "tags": [],
-          "ts": 1792042346000,
-          "time": "13:32:26",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239684",
-          "url": "https://t.me/jin10light/239684",
-          "title": "沪镍主力合约日内跌超2.00%，现报116070.00元/吨。",
-          "body": "",
-          "tags": [],
-          "ts": 1792042345000,
-          "time": "13:32:25",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239683",
-          "url": "https://t.me/jin10light/239683",
-          "title": "上期所：伦敦金属交易所将于本月上市热卷期货相关合约产品",
-          "body": "10月15日讯，在中国金融期货交易所、上海期货交易所合作举办的2026上海衍生品市场论坛上，上海期货交易所党委书记、理事长田向阳在致辞中表示，“上海价格”的境外应用进一步拓展。 田向阳表示，上期所已将热轧卷板期货价格授权至伦敦金属交易所，这是上期所对外输出的第三个“上海价格”，伦敦金属交易所将于本月上市相关合约产品。",
-          "tags": [],
-          "ts": 1792042344000,
-          "time": "13:32:24",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239682",
-          "url": "https://t.me/jin10light/239682",
-          "title": "创业板指午后跌超4%，深成指跌3.2%，沪指跌2.4%。",
-          "body": "科创50指数跌3.7%。",
-          "tags": [],
-          "ts": 1792042221000,
-          "time": "13:30:21",
           "receivedAt": 1792057889191,
           "receivedTime": true
         }
