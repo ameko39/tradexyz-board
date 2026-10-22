@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-10-22T19:17:03.196Z",
+  "updatedAt": "2026-10-22T22:24:13.492Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7566",
+          "url": "https://t.me/BWEtradfi/7566",
+          "title": "*特朗普谈乌克兰星链项目准入：情况很有意思，不评论我是否和马斯克谈过",
+          "body": "*TRUMP ON UKRAINE'S STARLINK ACCESS: VERY INTERESTING SITUATION, WON'T COMMENT ON WHETHER I SPOKE TO ELON *TRUMP ON UKRAINE'S STARLINK ACCESS: BOTTOMLINE IS MUSK PUT IT BACK $SPCX *特朗普谈乌克兰星链项目准入：底线是马斯克把它还回去 $SPCX",
+          "tags": [],
+          "ts": 1792700354000,
+          "time": "04:19:14",
+          "receivedAt": 1792707840256,
+          "receivedTime": true
+        },
+        {
+          "id": "7565",
+          "url": "https://t.me/BWEtradfi/7565",
+          "title": "*布鲁姆能源第三季度营收：12.4亿美元，预期10.8亿美元",
+          "body": "*BLOOM ENERGY 3Q REV. $1.24B, EST. $1.08B $BE $BE",
+          "tags": [],
+          "ts": 1792699512000,
+          "time": "04:05:12",
+          "receivedAt": 1792707840256,
+          "receivedTime": true
+        },
         {
           "id": "7564",
           "url": "https://t.me/BWEtradfi/7564",
@@ -1419,17 +1441,6 @@
           "time": "00:15:15",
           "receivedAt": 1791486995221,
           "receivedTime": true
-        },
-        {
-          "id": "7435",
-          "url": "https://t.me/BWEtradfi/7435",
-          "title": "*美国战争部战略资本办公室宣布向Wolfspeed公司提供15亿美元有条件贷款承诺：USGOV",
-          "body": "*DEPARTMENT OF WAR'S OFFICE OF STRATEGIC CAPITAL ANNOUNCES $1.5 BILLION CONDITIONAL LOAN COMMITMENT TO WOLFSPEED, INC.: USGOV $WOLF $WOLF",
-          "tags": [],
-          "ts": 1791403248000,
-          "time": "04:00:48",
-          "receivedAt": 1791403904559,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1437,6 +1448,61 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "240896",
+          "url": "https://t.me/jin10light/240896",
+          "title": "西部数据(WDC.O)盘后跌7%，希捷科技(STX.O)跌4.5%。",
+          "body": "",
+          "tags": [],
+          "ts": 1792702947000,
+          "time": "05:02:27",
+          "receivedAt": 1792707840678,
+          "receivedTime": true
+        },
+        {
+          "id": "240895",
+          "url": "https://t.me/jin10light/240895",
+          "title": "美国联邦通信委员会（FCC）批准英特尔(INTC.O)获得豁免，使其可不受针对部分外国制造的先进机器人的禁令限制，继续使用对其在美国的半导体制造业务至关重要的相关设备。",
+          "body": "",
+          "tags": [],
+          "ts": 1792702227000,
+          "time": "04:50:27",
+          "receivedAt": 1792707840678,
+          "receivedTime": true
+        },
+        {
+          "id": "240894",
+          "url": "https://t.me/jin10light/240894",
+          "title": "美股市场重新评估AI热潮的可持续性，纳指创6月以来最大跌幅",
+          "body": "10月23日讯，随着投资者愈发担忧人工智能领域不断飙升的支出难以持续，美国科技股大幅下挫。 纳指周四下跌2.6%，创下6月以来最大单日跌幅。 与此同时，蓝筹股相对集中的道指涨0.02%。 由于市场担忧科技企业在AI领域的巨额投入，多只主要AI概念股走低。 Meta(META.O)跌7%，此前该公司披露，未来还将承担大笔额外支出承诺。 尽管Meta营收大幅增长，但利润仍未达到华尔街预期。 投资者兼分析师纳维利尔表示：“这一切都要追溯到Meta。 现在的问题是，市场正在不分青红皂白地抛售，把好东西也一并抛弃了。 ”进一步加剧市场对AI支出担忧的是，英伟达C...",
+          "tags": [],
+          "ts": 1792701866000,
+          "time": "04:44:26",
+          "receivedAt": 1792707840678,
+          "receivedTime": true
+        },
+        {
+          "id": "240893",
+          "url": "https://t.me/jin10light/240893",
+          "title": "现货白银日内重挫6.00%，现报54.49美元/盎司。",
+          "body": "",
+          "tags": [],
+          "ts": 1792700247000,
+          "time": "04:17:27",
+          "receivedAt": 1792707840678,
+          "receivedTime": true
+        },
+        {
+          "id": "240892",
+          "url": "https://t.me/jin10light/240892",
+          "title": "美股收盘：科技股重挫 纳指跌2.6%",
+          "body": "10月23日讯，美股周四收盘，纳指初步收跌2.6%，标普500指数跌1.2%，道指微涨。 科技股重挫，SpaceX(SPCX.O)跌9%，Meta Platforms(META.O)跌近7%，英伟达(NVDA.O)跌4.4%，SK海力士(SKHY.O)跌8%。 Moderna(MRNA.O)跌17%。 纳斯达克中国金龙指数跌1.19%，阿里巴巴(BABA.N)跌超2%，网易(NTES.O)跌超3%。",
+          "tags": [],
+          "ts": 1792699407000,
+          "time": "04:03:27",
+          "receivedAt": 1792707840678,
+          "receivedTime": true
+        },
         {
           "id": "240891",
           "url": "https://t.me/jin10light/240891",
@@ -14583,61 +14649,6 @@
           "ts": 1792044504000,
           "time": "14:08:24",
           "receivedAt": 1792057889006,
-          "receivedTime": true
-        },
-        {
-          "id": "239696",
-          "url": "https://t.me/jin10light/239696",
-          "title": "NBA官方Instagram账号今晨遭黑客入侵，攻击者发布可疑代币信息",
-          "body": "",
-          "tags": [],
-          "ts": 1792044199000,
-          "time": "14:03:19",
-          "receivedAt": 1792057889006,
-          "receivedTime": true
-        },
-        {
-          "id": "239695",
-          "url": "https://t.me/jin10light/239695",
-          "title": "英国8月制造业产出月率 1.2%，预期-0.1%，前值由0.90%修正为1%。",
-          "body": "",
-          "tags": [],
-          "ts": 1792044020000,
-          "time": "14:00:20",
-          "receivedAt": 1792057889006,
-          "receivedTime": true
-        },
-        {
-          "id": "239694",
-          "url": "https://t.me/jin10light/239694",
-          "title": "英国8月季调后商品贸易帐 -180.07亿英镑，预期-218亿英镑，前值由-209.65亿英镑修正为-193.03亿英镑。",
-          "body": "",
-          "tags": [],
-          "ts": 1792044019000,
-          "time": "14:00:19",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239693",
-          "url": "https://t.me/jin10light/239693",
-          "title": "SK海力士跌幅扩大至超12%，股价创4月27日以来新低。",
-          "body": "",
-          "tags": [],
-          "ts": 1792043963000,
-          "time": "13:59:23",
-          "receivedAt": 1792057889191,
-          "receivedTime": true
-        },
-        {
-          "id": "239692",
-          "url": "https://t.me/jin10light/239692",
-          "title": "英国8月三个月GDP月率、8月季调后商品贸易帐、工业及制造业产出月率将于十分钟后公布；台积电将在公布第三季财报后举行法说会。",
-          "body": "",
-          "tags": [],
-          "ts": 1792043479000,
-          "time": "13:51:19",
-          "receivedAt": 1792057889191,
           "receivedTime": true
         }
       ],
