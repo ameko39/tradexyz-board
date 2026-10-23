@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-10-23T19:10:40.790Z",
+  "updatedAt": "2026-10-23T22:06:33.167Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7570",
+          "url": "https://t.me/BWEtradfi/7570",
+          "title": "*HYPERLIQUID STRATEGIES INCREASED ITS STOCK REPURCHASE PROGRAM FROM $30 MILLION TO $100 MILLION",
+          "body": "$PURR https://eqn.news/6814",
+          "tags": [],
+          "ts": 1792786518000,
+          "time": "04:15:18",
+          "receivedAt": 1792793181769,
+          "receivedTime": true
+        },
+        {
+          "id": "7569",
+          "url": "https://t.me/BWEtradfi/7569",
+          "title": "*TRUMP ON IRAN: WE MAY DO ANOTHER OPERATION AGAINST IRAN",
+          "body": "*TRUMP: I DOUBT IRAN WILL SAY 'LET'S GET DOWN TO BUSINESS' https://eqn.news/6784",
+          "tags": [],
+          "ts": 1792784236000,
+          "time": "03:37:16",
+          "receivedAt": 1792793181769,
+          "receivedTime": true
+        },
+        {
+          "id": "7568",
+          "url": "https://t.me/BWEtradfi/7568",
+          "title": "*TRUMP: WE'LL TAKE CARE OF CUBA ON OUR WAY BACK FROM IRAN",
+          "body": "https://eqn.news/6782",
+          "tags": [],
+          "ts": 1792784167000,
+          "time": "03:36:07",
+          "receivedAt": 1792793181769,
+          "receivedTime": true
+        },
         {
           "id": "7567",
           "url": "https://t.me/BWEtradfi/7567",
@@ -1342,39 +1375,6 @@
           "time": "09:43:34",
           "receivedAt": 1791515165204,
           "receivedTime": true
-        },
-        {
-          "id": "7445",
-          "url": "https://t.me/BWEtradfi/7445",
-          "title": "*五角大楼拟定针对伊朗进行三天打击的新计划：纽约时报",
-          "body": "*PENTAGON DRAWS UP NEW PLAN FOR THREE DAYS OF IRAN STRIKES: NYT",
-          "tags": [],
-          "ts": 1791492164000,
-          "time": "04:42:44",
-          "receivedAt": 1791503136238,
-          "receivedTime": true
-        },
-        {
-          "id": "7444",
-          "url": "https://t.me/BWEtradfi/7444",
-          "title": "霍尔木兹海峡油轮触雷引发爆炸：FARS",
-          "body": "*BLASTS CAUSED BY TANKERS HITTING MINES IN STRAIT OF HORMUZ:FARS",
-          "tags": [],
-          "ts": 1791491294000,
-          "time": "04:28:14",
-          "receivedAt": 1791503136238,
-          "receivedTime": true
-        },
-        {
-          "id": "7443",
-          "url": "https://t.me/BWEtradfi/7443",
-          "title": "据Fars报道：霍尔木兹海峡南部航线发生剧烈爆炸",
-          "body": "*HEAVY BLASTS REPORTED IN SOUTHERN STRAIT OF HORMUZ ROUTE: FARS",
-          "tags": [],
-          "ts": 1791491151000,
-          "time": "04:25:51",
-          "receivedAt": 1791503136238,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1382,6 +1382,50 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "241054",
+          "url": "https://t.me/jin10light/241054",
+          "title": "美股收盘：三大股指低收",
+          "body": "10月24日讯，美股周五收盘，道指初步收跌1.24%，标普500指数跌0.52%，纳指跌0.21%。 西部数据(WDC.O)跌2.97%，谷歌(GOOG.O)跌1.24%，闪迪(SNDK.O)跌1.82%，Meta Platforms(META.O)跌0.96%，苹果(AAPL.O)跌0.14%；SK海力士(SKHY.O)涨4.05%，美光科技(MU.O)涨2.46%。 纳斯达克中国金龙指数跌0.84%，百度(BIDU.O)跌1%。",
+          "tags": [],
+          "ts": 1792785867000,
+          "time": "04:04:27",
+          "receivedAt": 1792793182132,
+          "receivedTime": true
+        },
+        {
+          "id": "241053",
+          "url": "https://t.me/jin10light/241053",
+          "title": "特朗普：可能再来一次小规模的“史诗狂怒行动”",
+          "body": "10月24日讯，美国总统特朗普：我们可能会再来一次小规模的“史诗狂怒行动”，也可能伊朗会同意（达成协议）。 如果他们够聪明，就会直接说：‘让我们开始谈正事吧。 ’但我怀疑他们会这么做，因为他们或许没那么聪明。 ”",
+          "tags": [],
+          "ts": 1792785207000,
+          "time": "03:53:27",
+          "receivedAt": 1792793182132,
+          "receivedTime": true
+        },
+        {
+          "id": "241052",
+          "url": "https://t.me/jin10light/241052",
+          "title": "美国总统特朗普：我们可能对伊朗采取另一次行动。",
+          "body": "",
+          "tags": [],
+          "ts": 1792784307000,
+          "time": "03:38:27",
+          "receivedAt": 1792793182132,
+          "receivedTime": true
+        },
+        {
+          "id": "241051",
+          "url": "https://t.me/jin10light/241051",
+          "title": "OpenAI宣布最先进AI模型训练期间禁止直接访问互联网",
+          "body": "10月24日讯， OpenAI 10月23日表示，为防止AI模型突破安全限制，已要求最先进模型在无法直接访问实时互联网的环境中训练，直至安全防护措施取得足够进展。 OpenAI披露，9月20日，一款内部研究模型曾利用网络配置漏洞，在训练过程中获得有限的互联网访问权限，促使公司暂停最先进模型的训练和评估。 经过11天的安全整改，OpenAI于10月1日恢复了这些模型的强化学习训练及内部推理运行，但仍维持训练期间的互联网访问限制。 此外，OpenAI利用即将推出的GPT-6 Astra Cyber等模型开展安全测试，发现并修复了多项隔离环境漏洞。",
+          "tags": [],
+          "ts": 1792783827000,
+          "time": "03:30:27",
+          "receivedAt": 1792793182132,
+          "receivedTime": true
+        },
         {
           "id": "241050",
           "url": "https://t.me/jin10light/241050",
@@ -14538,50 +14582,6 @@
           "tags": [],
           "ts": 1792080079000,
           "time": "00:01:19",
-          "receivedAt": 1792089001654,
-          "receivedTime": true
-        },
-        {
-          "id": "239854",
-          "url": "https://t.me/jin10light/239854",
-          "title": "美国至10月9日当周EIA战略石油储备库存 0万桶，前值-78.4万桶。",
-          "body": "",
-          "tags": [],
-          "ts": 1792080020000,
-          "time": "00:00:20",
-          "receivedAt": 1792089001654,
-          "receivedTime": true
-        },
-        {
-          "id": "239853",
-          "url": "https://t.me/jin10light/239853",
-          "title": "美国至10月9日当周EIA原油库存 -855.7万桶，预期-28.8万桶，前值-318.6万桶。",
-          "body": "",
-          "tags": [],
-          "ts": 1792080019000,
-          "time": "00:00:19",
-          "receivedAt": 1792089001654,
-          "receivedTime": true
-        },
-        {
-          "id": "239852",
-          "url": "https://t.me/jin10light/239852",
-          "title": "Stripe联创：收购Privy后其收入增至此前约9倍，钱包资产规模增至约25倍",
-          "body": "",
-          "tags": [],
-          "ts": 1792079963000,
-          "time": "23:59:23",
-          "receivedAt": 1792089001654,
-          "receivedTime": true
-        },
-        {
-          "id": "239851",
-          "url": "https://t.me/jin10light/239851",
-          "title": "美股盘中加密概念股多数转涨，Circle涨超7%",
-          "body": "",
-          "tags": [],
-          "ts": 1792078885000,
-          "time": "23:41:25",
           "receivedAt": 1792089001654,
           "receivedTime": true
         }
