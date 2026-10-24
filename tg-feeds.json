@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-10-23T22:06:33.167Z",
+  "updatedAt": "2026-10-24T00:34:45.010Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7571",
+          "url": "https://t.me/BWEtradfi/7571",
+          "title": "*US INTELLIGENCE MEMO WARNS OF ADVANCED IRANIAN PLOTS TARGETING DIPLOMATS ABROAD: AXIOS",
+          "body": "*STATE DEPARTMENT ORDERED PERSONNEL DRAWDOWNS AT EMBASSIES ACROSS THE MIDDLE EAST https://eqn.news/tradfi/6872",
+          "tags": [],
+          "ts": 1792801115000,
+          "time": "08:18:35",
+          "receivedAt": 1792802069392,
+          "receivedTime": true
+        },
         {
           "id": "7570",
           "url": "https://t.me/BWEtradfi/7570",
@@ -1377,11 +1388,33 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "241056",
+          "url": "https://t.me/jin10light/241056",
+          "title": "据Axios：美国情报备忘录警告称，伊朗暗杀美国海外官员的阴谋已进入“高级阶段”。",
+          "body": "",
+          "tags": [],
+          "ts": 1792801467000,
+          "time": "08:24:27",
+          "receivedAt": 1792802070899,
+          "receivedTime": true
+        },
+        {
+          "id": "241055",
+          "url": "https://t.me/jin10light/241055",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少3.991吨，当前持仓量为1041.653吨。",
+          "body": "",
+          "tags": [],
+          "ts": 1792800567000,
+          "time": "08:09:27",
+          "receivedAt": 1792802070899,
+          "receivedTime": true
+        },
         {
           "id": "241054",
           "url": "https://t.me/jin10light/241054",
@@ -14560,28 +14593,6 @@
           "tags": [],
           "ts": 1792080686000,
           "time": "00:11:26",
-          "receivedAt": 1792089001654,
-          "receivedTime": true
-        },
-        {
-          "id": "239856",
-          "url": "https://t.me/jin10light/239856",
-          "title": "整理：美国当周EIA库存数据最值一览",
-          "body": "1.美国至10月9日当周国内原油产量为2026年5月1日当周以来最低。 2. 美国至10月9日当周EIA汽油库存增幅录得2026年1月16日当周以来最大。 3. 美国至10月9日当周EIA原油库存降幅录得2026年2月13日当周以来最大。 4. 美国至10月9日当周国内原油产量降幅录得2026年1月30日当周以来最大。 5. 美国至10月9日当周EIA精炼油库存降幅录得2026年7月31日当周以来最大。 6. 美国至10月9日当周除却战略储备的商业原油库存为2026年7月31日当周以来最低。",
-          "tags": [],
-          "ts": 1792080079000,
-          "time": "00:01:19",
-          "receivedAt": 1792089001654,
-          "receivedTime": true
-        },
-        {
-          "id": "239855",
-          "url": "https://t.me/jin10light/239855",
-          "title": "美国至10月9日当周EIA原油库存降幅录得2026年2月13日当周以来最大。",
-          "body": "",
-          "tags": [],
-          "ts": 1792080079000,
-          "time": "00:01:19",
           "receivedAt": 1792089001654,
           "receivedTime": true
         }
