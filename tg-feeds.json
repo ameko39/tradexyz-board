@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-10-24T00:34:45.010Z",
+  "updatedAt": "2026-10-24T04:58:00.532Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7573",
+          "url": "https://t.me/BWEtradfi/7573",
+          "title": "*US CUTS STAFF AT 4 MIDEAST EMBASSIES ON HEIGHTENED IRAN THREAT: AP",
+          "body": "*US EMBASSIES IN JORDAN, LEBANON, QATAR, UAE PLACED ON RESTRICTED STATUS *MIDEAST EMBASSIES TO REMAIN OPEN; DEPARTURES ARE NOT MANDATORY *US OFFICIALS DENY EMBASSY DRAWDOWN TIED TO PLANNED STRIKES ON IRAN https://eqn.news/tradfi/6921",
+          "tags": [],
+          "ts": 1792806413000,
+          "time": "09:46:53",
+          "receivedAt": 1792817868700,
+          "receivedTime": true
+        },
+        {
+          "id": "7572",
+          "url": "https://t.me/BWEtradfi/7572",
+          "title": "*US ASKED SPACEX TO ALTER STARLINK SERVICE ACROSS CONFLICT ZONES FOR YEARS",
+          "body": "*WHITE HOUSE ORDERED RECENT THROTTLING OF UKRAINE STARSHIELD SERVICE *BIDEN ADMIN ASKED SPACEX TO CUT STARLINK USED BY HOUTHIS, HEZBOLLAH *TRUMP OFFICIALS SOUGHT STARLINK ACTIVATION IN IRAN FOLLOWING STRIKES $SPCX https://eqn.news/tradfi/6891",
+          "tags": [],
+          "ts": 1792802484000,
+          "time": "08:41:24",
+          "receivedAt": 1792817868700,
+          "receivedTime": true
+        },
         {
           "id": "7571",
           "url": "https://t.me/BWEtradfi/7571",
@@ -1364,35 +1386,57 @@
           "time": "01:16:47",
           "receivedAt": 1791581836232,
           "receivedTime": true
-        },
-        {
-          "id": "7447",
-          "url": "https://t.me/BWEtradfi/7447",
-          "title": "*彭博社消息人士称，OpenAI预计2026年营收将达到或超过700亿美元",
-          "body": "*OPENAI SEES 2026 RUN-RATE REVENUE REACHING OR TOPPING $70B: BLOOMBERG SOURCES *OPENAI ANNUALIZED REVENUE WAS ~$50B AT END-SEPTEMBER *OPENAI REVENUE FIGURES SHARED WITH INVESTORS IN $30B+ FUNDING TALKS *OPENAI DISCUSSING $1.4T PRE-MONEY VALUATION IN NEW FINANCING ROUND *OPENAI IN TALKS WITH UAE FUN...",
-          "tags": [],
-          "ts": 1791510387000,
-          "time": "09:46:27",
-          "receivedAt": 1791515165204,
-          "receivedTime": true
-        },
-        {
-          "id": "7446",
-          "url": "https://t.me/BWEtradfi/7446",
-          "title": "OPENAI预计2026年底年化收入将达到700亿美元",
-          "body": "*OPENAI EXPECTS $70B IN ANNUALIZED REVENUE BY END OF 2026",
-          "tags": [],
-          "ts": 1791510214000,
-          "time": "09:43:34",
-          "receivedAt": 1791515165204,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "241060",
+          "url": "https://t.me/jin10light/241060",
+          "title": "国内金饰价格延续跌势，周六福足金跌破1200元",
+          "body": "10月24日讯，今日国内黄金饰品价格对比显示，多家品牌足金饰品克价较昨日下跌约6元/克，多数报价在1202元/克附近，其中周六福足金999价格跌破1200元/克，报1197元/克。",
+          "tags": [],
+          "ts": 1792813950000,
+          "time": "11:52:30",
+          "receivedAt": 1792817869119,
+          "receivedTime": true
+        },
+        {
+          "id": "241059",
+          "url": "https://t.me/jin10light/241059",
+          "title": "瓦努阿图附近海域发生7.2级地震",
+          "body": "10月24日讯，南太平洋岛国瓦努阿图附近海域24日发生7.2级地震。 太平洋海啸预警中心已针对这次地震发布海啸预警。 目前暂无人员伤亡或财产损失报告。",
+          "tags": [],
+          "ts": 1792810349000,
+          "time": "10:52:29",
+          "receivedAt": 1792817869119,
+          "receivedTime": true
+        },
+        {
+          "id": "241058",
+          "url": "https://t.me/jin10light/241058",
+          "title": "整理：每日科技要闻速递（10月24日）",
+          "body": "人工智能ï 1.亚马逊CEO：公司云服务容量已售罄至2027年。 2. 英国将斥资6亿英镑布局AI安全，防范新兴生物威胁。 3. 月之暗面发布Kimi K3.1 Pro及K3.1 Pro Highspeed。 4. OpenAI宣布最先进AI模型训练期间禁止直接访问互联网。 5. 字节火山引擎发布Seedance 2.5 4K模型，面向影视级画面生成。 6. OpenAI联合研究机构部署数千个AI智能体：32分钟分析数百万个小鼠脑细胞，相当于人类数月时间。 集成电路（芯片）ï 1.长鑫科技：对全球和中国DRAM产业中长期前景保持坚定信心。 2. 消息称...",
+          "tags": [],
+          "ts": 1792805670000,
+          "time": "09:34:30",
+          "receivedAt": 1792817869119,
+          "receivedTime": true
+        },
+        {
+          "id": "241057",
+          "url": "https://t.me/jin10light/241057",
+          "title": "国内新闻ï",
+          "body": "1.《关于加强外空治理的中国立场》发布。 2. 证监会：核准设立花旗证券（中国）有限公司。 3. 国家能源局召开中长期油气增储上产工作推进会。 4. 中央网络安全和信息化委员会印发《国家信息化“十五五”规划》。 5. 中国人民银行：10月26日开展7000亿元MLF操作，期限为1年期。 6. 财政部：将抓紧做好提前下达2027年部分新增地方政府债务有关工作。 7. 外交部：美方应当遵守市场经济原则，停止干扰企业之间的正常经贸合作。 8. 中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见。 9. 国常会：优化面向家庭的财税、社保、住房等支...",
+          "tags": [],
+          "ts": 1792802669000,
+          "time": "08:44:29",
+          "receivedAt": 1792817869119,
+          "receivedTime": true
+        },
         {
           "id": "241056",
           "url": "https://t.me/jin10light/241056",
@@ -14551,50 +14595,6 @@
           "time": "04:04:21",
           "receivedAt": 1792100355011,
           "receivedTime": true
-        },
-        {
-          "id": "239860",
-          "url": "https://t.me/jin10light/239860",
-          "title": "现货白银日内涨幅达3.00%，现报57.30美元/盎司。",
-          "body": "",
-          "tags": [],
-          "ts": 1792093401000,
-          "time": "03:43:21",
-          "receivedAt": 1792100355011,
-          "receivedTime": true
-        },
-        {
-          "id": "239859",
-          "url": "https://t.me/jin10light/239859",
-          "title": "Ansem：坚定看好BTC强劲上涨，加密原生群体信心处于近十年最低水平",
-          "body": "",
-          "tags": [],
-          "ts": 1792082241000,
-          "time": "00:37:21",
-          "receivedAt": 1792089001654,
-          "receivedTime": true
-        },
-        {
-          "id": "239858",
-          "url": "https://t.me/jin10light/239858",
-          "title": "Binance.US寻求融资1亿美元，拟扩大加密业务",
-          "body": "",
-          "tags": [],
-          "ts": 1792080979000,
-          "time": "00:16:19",
-          "receivedAt": 1792089001654,
-          "receivedTime": true
-        },
-        {
-          "id": "239857",
-          "url": "https://t.me/jin10light/239857",
-          "title": "今日重点关注的财经数据与事件：2026年10月16日 周五",
-          "body": "① 04:30 美联储哈马克发表讲话 ② 10:00 英国央行行长贝利参加谈话 ③ 11:30 美联储主席沃什出席IMF年会 ④ 12:15 加拿大央行行长麦克勒姆出席IMF年会 ⑤ 17:00 欧元区9月CPI年率终值 ⑥ 17:00 欧元区9月CPI月率终值 ⑦ 17:00 欧元区8月季调后贸易帐 ⑧ 20:30 美国9月进口物价指数月率 ⑨ 21:15 美国9月工业产出月率 ⑩ 次日01:00 美国至10月16日当周石油钻井总数",
-          "tags": [],
-          "ts": 1792080686000,
-          "time": "00:11:26",
-          "receivedAt": 1792089001654,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -15503,31 +15503,9 @@
           "time": "14:05:38",
           "receivedAt": 1791541508756,
           "receivedTime": true
-        },
-        {
-          "id": "2026",
-          "url": "https://t.me/PolyBeats_Bot/2026",
-          "title": "Hyperliquid 于年内再次空投概率仍有 10%，多名聪明钱买入「否」",
-          "body": "在预测市场 Polymarket 上，3 名在空投板块高胜率的账户合计投入 $22.68k，买入「 Hyperliquid 不会在 2026 年内进行第二次空投 」。 manekineko 买入 $10.26k「否」，买入概率 78.89%。其在 空投 板块交易共 38 笔，胜率 71%，PnL +$7.1k，本笔投入为其中位数投入的 11.59 倍。 qmarktea2 买入 $10.35k「否」，买入概率 85.57%。其在 空投 板块交易共 47 笔，胜率 91%，PnL +$31.1k，本笔投入为其中位数投入的 0.76 倍。 phdcapital 买入 $2.07k「否」，买入概率 80.44%。其在 空投 板块交易共 15 笔，胜率 93%，PnL +$2.0k，本笔投入为其中位数投入的 0.54 倍。 首次空投中，Hyper Foundation 将 HYPE 总供应量 1b 枚中的 31% 按照此前积分发放给约 94019 个地址。Hyperliquid 目前仍有 38.888% 的总供应量被规划为未来排放和社区奖励。 理论上，基金会或验证者可以从中划出一部分，按照新的地址快照进行可转让分配；但官方至今没有...",
-          "tags": [],
-          "ts": 1791520141000,
-          "time": "12:29:01",
-          "receivedAt": 1791541508756,
-          "receivedTime": true
-        },
-        {
-          "id": "2025",
-          "url": "https://t.me/PolyBeats_Bot/2025",
-          "title": "Predict. fun 发币倒计时？FDV 板块高胜率账户重仓看多开盘币价",
-          "body": "10 月 6 日，运行于 BNB 链的预测市场 Predict. fun 官方发布了一张带有 P 字样的代币图片；创始人 dingaling 随后进一步表示「Weeks, not months」，意味着相关时间窗口是数周，而非数月。 在预测市场 Polymarket 上，FDV 板块历史胜率 91% 的账户 alphaalii 同时持有八档 不同梯度 FDV 的「是」，形成一组覆盖不同估值区间的阶梯仓位。八笔仓位合计成本约 $84.06k，当前市值约 $97.51k，浮盈约 $13.45k，ROI 约 16%。 alphaalii 在「 Predict. fun 开盘首日 FDV 超过 $800m? 」买入 $15.06k「是」，买入概率 39.34%。以 90%+ 为尾盘交易，其在 FDV 板块的未止损/止盈交易共 7 笔，胜率 100%，PnL +$11.8k，本笔投入为其中位数投入的 2.46 倍。 如果 Predict. fun 在截止日前没有发行可公开交易的代币，或者上线次日 FDV 不高于 $300m，八档仓位将全部结算「否」；如果届时 FDV 大于 $2B，盈利约 $106.11k，ROI 约 126.2%。...",
-          "tags": [],
-          "ts": 1791517261000,
-          "time": "11:41:01",
-          "receivedAt": 1791541508756,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
