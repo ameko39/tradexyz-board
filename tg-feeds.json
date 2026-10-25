@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T01:31:29.549Z",
+  "updatedAt": "2026-10-25T06:41:08.229Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -1294,6 +1294,20 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "241073",
+          "url": "https://t.me/jin10light/241073",
+          "title": "#频道互推 #群组推荐",
+          "body": "【离港一二线机场收录&测评】 TG宝藏频道-发现更多新频道 轻小说图书馆 ROOT玩机资源库 优质-破解软件-分享基地 小新の资源库|实用软件工具 知识分享官 国风汉服 | Hanfu 公益资源外挂分享 电报频道索引 互推： @miaomiao333bot",
+          "tags": [
+            "#频道互推",
+            "#群组推荐"
+          ],
+          "ts": 1792900962000,
+          "time": "12:02:42",
+          "receivedAt": 1792910455504,
+          "receivedTime": true
+        },
         {
           "id": "241072",
           "url": "https://t.me/jin10light/241072",
@@ -14485,17 +14499,6 @@
           "time": "08:19:21",
           "receivedAt": 1792115019974,
           "receivedTime": true
-        },
-        {
-          "id": "239873",
-          "url": "https://t.me/jin10light/239873",
-          "title": "特朗普：不会使用核弹打击伊朗",
-          "body": "",
-          "tags": [],
-          "ts": 1792109660000,
-          "time": "08:14:20",
-          "receivedAt": 1792115019974,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -15316,42 +15319,9 @@
           "time": "15:32:01",
           "receivedAt": 1791639304429,
           "receivedTime": true
-        },
-        {
-          "id": "2034",
-          "url": "https://t.me/PolyBeats_Bot/2034",
-          "title": "硬件钱包疑被植入篡改模块，Ledger一周内宣布赔偿损失的概率仅17%",
-          "body": "10 月 9 日，Ledger 表示正在调查用户资产被盗事件。BlockBeats 援引链上调查员 Specter 称，比特币、以太坊和波场网络上的疑似损失已超过 $86m；另一名安全研究员 tanuki42 此前估计损失超过 $72m。 预测市场 Polymarket 于今日上线新市场「 Ledger 是否在 10 月 16 日结束前宣布赔偿用户损失？ 」，目前「是」概率 17%；「10 月内宣布」的概率为 28%。 Ledger 已要求经销商之一CryptoBilis暂停销售和发货，并提醒过去 90 天内购买相关设备的用户暂勿初始化；已经设置设备的用户，则应使用全新助记词创建新的签名设备并转移资产。 10 月 10 日，Mt.Gox 前 CEO Mark Karpelès 披露了一台来自马来西亚、疑似遭到物理篡改的 Ledger 设备。其称，设备内被植入带有 LTE 通信、eSIM 和微控制器的隐藏模块，可以读取屏幕显示内容，并可能在用户设置完成后发送助记词信息。",
-          "tags": [],
-          "ts": 1791611161000,
-          "time": "13:46:01",
-          "receivedAt": 1791616019361,
-          "receivedTime": true
-        },
-        {
-          "id": "2033",
-          "url": "https://t.me/PolyBeats_Bot/2033",
-          "title": "HYPE 空投$15m不卖的大户看好Variational，预测市场上聪明钱看多VAR开盘表现",
-          "body": "据 X 博主 muar 称，此前获得 $15m Hyperliquid 空投的 an0n2498.hl 于 Variational 完成接近 $3b 成交量，位列平台历史成交榜第二。an0n2498.hl 随后表示，VAR 上线后计划一枚不卖，同时大量买入现货并合约开多。 在预测市场 Polymarket 上， imjustalarp 预测 VAR 开盘首日 FDV 大于 $500m/$800m/$1b，总计投入$22.3k。若 FDV 最终超过$1b，该三笔仓位可盈利$13.2k。 imjustalarp 在「 Variational 开盘首日 FDV 能否大于 $1b？ 」买入 $7.24k「是」，买入概率 51.42%。以 90%+ 为尾盘交易，其在 FDV 板块的未止损/止盈交易共 77 笔，胜率 73%，PnL +$52.9k，本笔投入为其中位数投入的 5.27 倍。 Variational 是一个链上衍生品协议，今年 5 月完成约 $50m Series A，由 Dragonfly 领投，Bain Capital Crypto 和 Coinbase Ventures 等参投，没有披露项目股权估值。 官方目前将...",
-          "tags": [],
-          "ts": 1791607441000,
-          "time": "12:44:01",
-          "receivedAt": 1791616019361,
-          "receivedTime": true
-        },
-        {
-          "id": "2032",
-          "url": "https://t.me/PolyBeats_Bot/2032",
-          "title": "SPY 成交量创近 6 年新低，新账户认为 BTC 将出现极端走势",
-          "body": "在预测市场 Polymarket 上，新账户 Cyclewin 于 10 月 8 日创建后，买入 9 笔 BTC 和 ETH 年内深跌市场 ，投入 $23.25k。其 BTC 仓位覆盖 $60k-$35k 六档，ETH 仓位覆盖 $1.5k-$800 三档。若两个最深门槛全部触发（即 BTC 跌至 $35k、ETH 跌至 $800），9 笔仓位合计结算 $304.18k，对应 ROI 约 1,208.2%。 市场普遍分析认为，平静期内，加密市场可以围绕 ETF 资金流、监管和链上杠杆独立运行；出现利率上升、美元走强或风险资产集中抛售时，加密市场与传统金融市场的相关性通常会迅速增强。CME Group 也指出，BTC 与纳指的相关性往往会在市场承压时收紧。 这也是 SPY 成交量值得关注的原因。10 月 9 日，SPY 上涨约 0.6%、收于 $778.57，仍接近历史高位，但全天只成交约 22.6m 股，是 2019 年平安夜以来最低水平。",
-          "tags": [],
-          "ts": 1791603721000,
-          "time": "11:42:01",
-          "receivedAt": 1791616019361,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     }
   }
 }
