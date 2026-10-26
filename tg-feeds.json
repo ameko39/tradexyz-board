@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-10-25T23:13:33.727Z",
+  "updatedAt": "2026-10-26T01:10:41.231Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7574",
+          "url": "https://t.me/BWEtradfi/7574",
+          "title": "Trying something new, let me know if you enjoy these.",
+          "body": "Week ahead, Sun, Oct 25 https://t.co/boZbLILrdj https://eqn.news/tradfi/7498",
+          "tags": [],
+          "ts": 1792972171000,
+          "time": "07:49:31",
+          "receivedAt": 1792977026809,
+          "receivedTime": true
+        },
         {
           "id": "7573",
           "url": "https://t.me/BWEtradfi/7573",
@@ -1265,35 +1276,68 @@
           "time": "01:23:57",
           "receivedAt": 1791750978747,
           "receivedTime": true
-        },
-        {
-          "id": "7458",
-          "url": "https://t.me/BWEtradfi/7458",
-          "title": "*特朗普：认为沙特袭击“是一件可怕的事情”",
-          "body": "*TRUMP:THINK SAUDI ATTACK 'A TERRIBLE THING' *TRUMP: HAVE COMMUNICATION WITH HOUTHIS, WILL SEE WHAT HAPPENS *特朗普：与胡塞武装保持沟通，看看事态如何发展",
-          "tags": [],
-          "ts": 1791677587000,
-          "time": "08:13:07",
-          "receivedAt": 1791677689014,
-          "receivedTime": true
-        },
-        {
-          "id": "7457",
-          "url": "https://t.me/BWEtradfi/7457",
-          "title": "*特朗普：认为泽连斯基应该举行选举",
-          "body": "*TRUMP: THINKS ZELENSKYY SHOULD HAVE AN ELECTION *TRUMP: ZELENSKYY DOESN'T WANT TO MAKE DEAL *TRUMP SAYS PUTIN TOLD HIM HE WOULD LIKE TO SEE A SETTLEMENT *特朗普：泽连斯基不想达成协议 *特朗普称普京告诉他，普京希望看到达成和解",
-          "tags": [],
-          "ts": 1791677536000,
-          "time": "08:12:16",
-          "receivedAt": 1791677689014,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "241094",
+          "url": "https://t.me/jin10light/241094",
+          "title": "早盘开盘，国内期货主力合约涨多跌少，甲醇触及涨停，对二甲苯、聚丙烯月均、苯乙烯（EB）、聚丙烯涨超5%，燃料油、塑料月均、纯苯涨超4%。",
+          "body": "跌幅方面，沪银、沪金跌超1%，烧碱、铂跌近1%。",
+          "tags": [],
+          "ts": 1792976487000,
+          "time": "09:01:27",
+          "receivedAt": 1792977027359,
+          "receivedTime": true
+        },
+        {
+          "id": "241093",
+          "url": "https://t.me/jin10light/241093",
+          "title": "日本市场上的巴西ETF重挫11%，此前巴西总统卢拉赢得连任。",
+          "body": "",
+          "tags": [],
+          "ts": 1792973967000,
+          "time": "08:19:27",
+          "receivedAt": 1792977027359,
+          "receivedTime": true
+        },
+        {
+          "id": "241092",
+          "url": "https://t.me/jin10light/241092",
+          "title": "巴西总统卢拉赢得连任。",
+          "body": "",
+          "tags": [],
+          "ts": 1792973547000,
+          "time": "08:12:27",
+          "receivedAt": 1792977027359,
+          "receivedTime": true
+        },
+        {
+          "id": "241091",
+          "url": "https://t.me/jin10light/241091",
+          "title": "巴西选情：计票完成90% 卢拉领先",
+          "body": "10月26日讯，巴西官方选举网站TSE数据显示，已统计的90.35%选票中，巴西现任总统卢拉在总统决选中获得51.58%的选票，前总统之子弗拉维奥获得48.42%。",
+          "tags": [],
+          "ts": 1792973127000,
+          "time": "08:05:27",
+          "receivedAt": 1792977027359,
+          "receivedTime": true
+        },
+        {
+          "id": "241090",
+          "url": "https://t.me/jin10light/241090",
+          "title": "巴西选情：计票过半 卢拉50.14%、弗拉维奥49.86%",
+          "body": "10月26日讯，已统计的50.12%选票中，巴西现任总统卢拉在总统决选中获得50.14%的选票，前总统之子弗拉维奥获得49.86%。",
+          "tags": [],
+          "ts": 1792971027000,
+          "time": "07:30:27",
+          "receivedAt": 1792977027359,
+          "receivedTime": true
+        },
         {
           "id": "241089",
           "url": "https://t.me/jin10light/241089",
@@ -1308,8 +1352,8 @@
         {
           "id": "241088",
           "url": "https://t.me/jin10light/241088",
-          "title": "国内新闻ï",
-          "body": "1.上证指数、科创综指等拟修订，今起实施。 2. 部分QDII专户产品陆续清盘？业内人士：与QDII专户额度比例调整有关。 国际新闻ï 1.武契奇承认前进党在塞议会选举中败选。 2. 高盛将韩国KOSPI指数12个月目标位下调25%。 3. 泽连斯基：乌美俄拟于11月举行技术层级工作会谈。 4. 新西兰2026年大选提前投票启动，提前投票将持续至11月7日。 5. 法国债市动荡加剧，欧洲央行行长继任之争聚焦危机应对能力。 6. 巴西迎总统大选决胜轮，预计选举结果将在北京时间26日上午出炉。 7. 中东局势— ①特朗普称可能再次打击伊朗，也可能达成协议，...",
+          "title": "个股新é",
+          "body": "1.中国神华( 01088.HK )前三季度归母净利润473.17亿元，同比增长2.1%。 2. 丽珠医药( 01513.HK )前三季度归母净利润12.88亿元，同比下降26.57%。 3. 金风科技( 02208.HK )前三季度归母净利润约28.75亿元，同比增长11.25%。 4. 紫金矿业( 02899.HK )前三季度归母净利润约575.26亿元，同比增长51.93%。 5. 飞速创新( 03355.HK )前三季度经调整后净利润达7.78亿元，同比增长68.9%。 6. 赤峰黄金( 06693.HK )：2026年第三季度净利润5.53亿...",
           "tags": [],
           "ts": 1792967489000,
           "time": "06:31:29",
@@ -14442,61 +14486,6 @@
           "tags": [],
           "ts": 1792114161000,
           "time": "09:29:21",
-          "receivedAt": 1792115019818,
-          "receivedTime": true
-        },
-        {
-          "id": "239894",
-          "url": "https://t.me/jin10light/239894",
-          "title": "新华传媒复牌涨停，走出11连板。",
-          "body": "",
-          "tags": [],
-          "ts": 1792114039000,
-          "time": "09:27:19",
-          "receivedAt": 1792115019818,
-          "receivedTime": true
-        },
-        {
-          "id": "239893",
-          "url": "https://t.me/jin10light/239893",
-          "title": "A股开盘，沪指开涨0.44%，深证成指开涨1.26%，创业板指开涨1.75%；CPO、半导体、先进封装、PCB等板块涨幅居前。",
-          "body": "",
-          "tags": [],
-          "ts": 1792113980000,
-          "time": "09:26:20",
-          "receivedAt": 1792115019818,
-          "receivedTime": true
-        },
-        {
-          "id": "239892",
-          "url": "https://t.me/jin10light/239892",
-          "title": "新股N南乳开涨104.08%，公开资料显示，公司是贵州乳业龙头企业，从事乳制品研发、生产和销售，形成供产销一体化经营模式，覆盖从上游牧场经营至乳制品终端销售全产业链。",
-          "body": "",
-          "tags": [],
-          "ts": 1792113980000,
-          "time": "09:26:20",
-          "receivedAt": 1792115019818,
-          "receivedTime": true
-        },
-        {
-          "id": "239891",
-          "url": "https://t.me/jin10light/239891",
-          "title": "Ramp完成18.5亿美元融资，估值600亿美元：曾一周烧掉150万美元Token，如今要管企业AI账单",
-          "body": "",
-          "tags": [],
-          "ts": 1792113979000,
-          "time": "09:26:19",
-          "receivedAt": 1792115019818,
-          "receivedTime": true
-        },
-        {
-          "id": "239890",
-          "url": "https://t.me/jin10light/239890",
-          "title": "马斯克：Roadster跑车将于2028年投产",
-          "body": "",
-          "tags": [],
-          "ts": 1792113919000,
-          "time": "09:25:19",
           "receivedAt": 1792115019818,
           "receivedTime": true
         }
