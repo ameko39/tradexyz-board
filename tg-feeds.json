@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-10-29T20:33:28.795Z",
+  "updatedAt": "2026-10-30T00:14:04.654Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7633",
+          "url": "https://t.me/BWEtradfi/7633",
+          "title": "*UKRAINE PAUSES STRIKES ON RUSSIAN REFINERS AFTER PRESSURE FROM U.S.: WSJ",
+          "body": "*PAUSE IN UKRAINE STRIKES CAME WITHOUT PUBLIC ANNOUNCEMENT: WSJ https://eqn.news/tradfi/9258",
+          "tags": [],
+          "ts": 1793317233000,
+          "time": "07:40:33",
+          "receivedAt": 1793319231557,
+          "receivedTime": true
+        },
+        {
+          "id": "7632",
+          "url": "https://t.me/BWEtradfi/7632",
+          "title": "*BINANCE'S CZ: USER FUNDS ARE SAFE",
+          "body": "https://eqn.news/tradfi/9170",
+          "tags": [],
+          "ts": 1793308546000,
+          "time": "05:15:46",
+          "receivedAt": 1793319231557,
+          "receivedTime": true
+        },
         {
           "id": "7631",
           "url": "https://t.me/BWEtradfi/7631",
@@ -1557,61 +1579,6 @@
           "time": "10:00:15",
           "receivedAt": 1792041021950,
           "receivedTime": true
-        },
-        {
-          "id": "7491",
-          "url": "https://t.me/BWEtradfi/7491",
-          "title": "首届白宫人工智能工作组会议将于明天举行：SEMAFOR",
-          "body": "*FIRST WHITE HOUSE AI TASK FORCE MEETING IS TOMORROW: SEMAFOR",
-          "tags": [],
-          "ts": 1792019756000,
-          "time": "07:15:56",
-          "receivedAt": 1792024783835,
-          "receivedTime": true
-        },
-        {
-          "id": "7489",
-          "url": "https://t.me/BWEtradfi/7489",
-          "title": "*Anthropic 第三季度营收飙升至 168 亿美元，较第二季度增长近 50%",
-          "body": "*ANTHROPIC Q3 REVENUE JUMPS TO $16.8B, UP NEARLY 50% FROM Q2 *ANTHROPIC REPORTS ADJUSTED PROFITABILITY, POSITIVE CASH FLOW IN Q3 *ANTHROPIC DRAFT S-1 WARNS AI COULD POSE 'EXISTENTIAL RISKS TO HUMANITY' *Anthropic 第三季度经调整后实现盈利，并录得正现金流 *Anthropic 提交的 S-1 草案警告称，人工智能可能对人类构成“生存威胁”",
-          "tags": [],
-          "ts": 1792015910000,
-          "time": "06:11:50",
-          "receivedAt": 1792016711916,
-          "receivedTime": true
-        },
-        {
-          "id": "7488",
-          "url": "https://t.me/BWEtradfi/7488",
-          "title": "*截至9月份，特朗普媒体旗下Truth Social的流量同比下降超过30%",
-          "body": "*TRUMP MEDIA'S TRUTH SOCIAL TRAFFIC FELL OVER 30% ANNUALLY THROUGH SEPTEMBER *TRUTH SOCIAL AVERAGED ABOUT 260,000 DAILY USERS LAST MONTH, DOWN FROM 420,000 PEAK $DJT *Truth Social上个月的日均用户量约为26万，低于峰值的42万 $DJT",
-          "tags": [],
-          "ts": 1792012248000,
-          "time": "05:10:48",
-          "receivedAt": 1792016711916,
-          "receivedTime": true
-        },
-        {
-          "id": "7487",
-          "url": "https://t.me/BWEtradfi/7487",
-          "title": "VanEck Lido Staked Ethereum ETF 申请撤回注册声明",
-          "body": "*VANECK LIDO STAKED ETHEREUM ETF FILES TO WITHDRAW REGISTRATION STATEMENT",
-          "tags": [],
-          "ts": 1792012104000,
-          "time": "05:08:24",
-          "receivedAt": 1792016711916,
-          "receivedTime": true
-        },
-        {
-          "id": "7486",
-          "url": "https://t.me/BWEtradfi/7486",
-          "title": "*火箭实验室将中子号运载火箭的首次发射推迟至2027年",
-          "body": "*ROCKET LAB DELAYED THE INAUGURAL LAUNCH OF ITS NEUTRON VEHICLE TO 2027 $RKLB $RKLB",
-          "tags": [],
-          "ts": 1792010414000,
-          "time": "04:40:14",
-          "receivedAt": 1792016711916,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1619,6 +1586,72 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "241608",
+          "url": "https://t.me/jin10light/241608",
+          "title": "韩国KOSPI指数向下触及5700点，日内跌4.09%。",
+          "body": "",
+          "tags": [],
+          "ts": 1793319098000,
+          "time": "08:11:38",
+          "receivedAt": 1793319232351,
+          "receivedTime": true
+        },
+        {
+          "id": "241607",
+          "url": "https://t.me/jin10light/241607",
+          "title": "韩国KOSPI指数开盘下跌近3%，三星电子下跌2%，SK海力士下跌5.8%。",
+          "body": "",
+          "tags": [],
+          "ts": 1793318558000,
+          "time": "08:02:38",
+          "receivedAt": 1793319232351,
+          "receivedTime": true
+        },
+        {
+          "id": "241606",
+          "url": "https://t.me/jin10light/241606",
+          "title": "日本9月失业率 2.4%，预期2.50%，前值2.50%。",
+          "body": "",
+          "tags": [],
+          "ts": 1793316639000,
+          "time": "07:30:39",
+          "receivedAt": 1793319232351,
+          "receivedTime": true
+        },
+        {
+          "id": "241605",
+          "url": "https://t.me/jin10light/241605",
+          "title": "日本9月失业率将于十分钟后公布。",
+          "body": "",
+          "tags": [],
+          "ts": 1793316098000,
+          "time": "07:21:38",
+          "receivedAt": 1793319232351,
+          "receivedTime": true
+        },
+        {
+          "id": "241604",
+          "url": "https://t.me/jin10light/241604",
+          "title": "今日重点关注的财经数据与事件：2026年10月30日 周五",
+          "body": "① 待定 美国国务卿鲁比奥主持召开G20外长会议 ② 待定 日本央行公布利率决议和经济前景展望报告 ③ 07:30 日本9月失业率 ④ 14:30 日本央行行长植田和男召开新闻发布会 ⑤ 14:30 法国第三季度GDP年率初值 ⑥ 15:00 英国10月Nationwide房价指数月率 ⑦ 15:45 法国10月CPI月率初值 ⑧ 16:00 瑞士10月KOF经济领先指标 ⑨ 16:55 德国10月季调后失业人数 ⑩ 16:55 德国10月季调后失业率 ⑪ 17:00 德国第三季度未季调GDP年率初值 ⑫ 17:45 铠侠2026财年第二季度财报电话会...",
+          "tags": [],
+          "ts": 1793314241000,
+          "time": "06:50:41",
+          "receivedAt": 1793319232351,
+          "receivedTime": true
+        },
+        {
+          "id": "241603",
+          "url": "https://t.me/jin10light/241603",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少2.28吨，当前持仓量为1041.083吨。",
+          "body": "",
+          "tags": [],
+          "ts": 1793312678000,
+          "time": "06:24:38",
+          "receivedAt": 1793319232351,
+          "receivedTime": true
+        },
         {
           "id": "241602",
           "url": "https://t.me/jin10light/241602",
@@ -14753,72 +14786,6 @@
           "tags": [],
           "ts": 1792415842000,
           "time": "21:17:22",
-          "receivedAt": 1792429978958,
-          "receivedTime": true
-        },
-        {
-          "id": "240408",
-          "url": "https://t.me/jin10light/240408",
-          "title": "某鲸鱼地址大举做多BTC和ETH，仓位规模达1.4亿美元",
-          "body": "",
-          "tags": [],
-          "ts": 1792415420000,
-          "time": "21:10:20",
-          "receivedAt": 1792429978958,
-          "receivedTime": true
-        },
-        {
-          "id": "240407",
-          "url": "https://t.me/jin10light/240407",
-          "title": "美国防部：若AI实验室不与政府合作，将实施出口管制",
-          "body": "",
-          "tags": [],
-          "ts": 1792415181000,
-          "time": "21:06:21",
-          "receivedAt": 1792429978958,
-          "receivedTime": true
-        },
-        {
-          "id": "240406",
-          "url": "https://t.me/jin10light/240406",
-          "title": "Bitmine总质押ETH达506.7万枚，预计年化收入达3.09亿美元",
-          "body": "",
-          "tags": [],
-          "ts": 1792413680000,
-          "time": "20:41:20",
-          "receivedAt": 1792429978958,
-          "receivedTime": true
-        },
-        {
-          "id": "240405",
-          "url": "https://t.me/jin10light/240405",
-          "title": "Tom Lee：AI股票抛售带崩加密资产，相信本次下跌是「具有吸引力的投资机会」",
-          "body": "",
-          "tags": [],
-          "ts": 1792413442000,
-          "time": "20:37:22",
-          "receivedAt": 1792429978958,
-          "receivedTime": true
-        },
-        {
-          "id": "240404",
-          "url": "https://t.me/jin10light/240404",
-          "title": "彭博社专访Multicoin：不跟风投资纯AI，相信自己在加密领域的优势",
-          "body": "",
-          "tags": [],
-          "ts": 1792413080000,
-          "time": "20:31:20",
-          "receivedAt": 1792429978958,
-          "receivedTime": true
-        },
-        {
-          "id": "240403",
-          "url": "https://t.me/jin10light/240403",
-          "title": "加拿大9月CPI月率 0.1%，预期0.20%，前值-0.10%。",
-          "body": "",
-          "tags": [],
-          "ts": 1792413024000,
-          "time": "20:30:24",
           "receivedAt": 1792429978958,
           "receivedTime": true
         }
