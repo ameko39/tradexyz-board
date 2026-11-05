@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-11-05T17:47:54.391Z",
+  "updatedAt": "2026-11-05T22:55:17.532Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7725",
+          "url": "https://t.me/BWEtradfi/7725",
+          "title": "*鲁比奥对纽约时报表示，他计划留在政府任职直到最后",
+          "body": "*RUBIO TELLS NYT HE PLANS TO STAY WITH ADMIN UNTIL THE END 🕒 06:29:41 · 🌐 eqn.news/tradfi/11840",
+          "tags": [],
+          "ts": 1793917783000,
+          "time": "06:29:43",
+          "receivedAt": 1793919303960,
+          "receivedTime": true
+        },
+        {
+          "id": "7724",
+          "url": "https://t.me/BWEtradfi/7724",
+          "title": "*标普500指数跌幅扩大至4%，纳斯达克100指数重挫6%",
+          "body": "*S&P 500 EXTENDS DECLINE TO 4%, NASDAQ 100 SINKS 6% 🕒 02:01:09 · 🌐 eqn.news/tradfi/11732",
+          "tags": [],
+          "ts": 1793901671000,
+          "time": "02:01:11",
+          "receivedAt": 1793919303960,
+          "receivedTime": true
+        },
+        {
+          "id": "7723",
+          "url": "https://t.me/BWEtradfi/7723",
+          "title": "*赫格塞思最早可能于下周面临弹劾投票：Fox",
+          "body": "*HEGSETH COULD FACE IMPEACHMENT VOTE AS SOON AS NEXT WEEK: FOX 🕒 01:47:33 · 🌐 eqn.news/tradfi/11722",
+          "tags": [],
+          "ts": 1793900857000,
+          "time": "01:47:37",
+          "receivedAt": 1793919303960,
+          "receivedTime": true
+        },
         {
           "id": "7722",
           "url": "https://t.me/BWEtradfi/7722",
@@ -1791,138 +1824,6 @@
           "time": "08:10:30",
           "receivedAt": 1792629413725,
           "receivedTime": true
-        },
-        {
-          "id": "7561",
-          "url": "https://t.me/BWEtradfi/7561",
-          "title": "内塔尼亚胡力推美国在大选前轰炸伊朗：SEMAFOR",
-          "body": "*NETANYAHU PUSHING THE US TO BOMB IRAN BEFORE ELECTIONS: SEMAFOR",
-          "tags": [],
-          "ts": 1792622819000,
-          "time": "06:46:59",
-          "receivedAt": 1792629413725,
-          "receivedTime": true
-        },
-        {
-          "id": "7560",
-          "url": "https://t.me/BWEtradfi/7560",
-          "title": "*美国与以色列在大选后制定针对伊朗打击计划：纽约时报",
-          "body": "*HEGSETH MET NETANYAHU THIS WEEK TO DISCUSS NEW IRAN STRIKES:NYT *US, ISRAEL CRAFT PLAN FOR IRAN STRIKES AFTER ELECTION: NYT",
-          "tags": [],
-          "ts": 1792622807000,
-          "time": "06:46:47",
-          "receivedAt": 1792629413725,
-          "receivedTime": true
-        },
-        {
-          "id": "7559",
-          "url": "https://t.me/BWEtradfi/7559",
-          "title": "AWS：PHP2SHELL 正遭到广泛的野外利用",
-          "body": "*AWS: PHP2SHELL IS NOW BEING BROADLY EXPLOITED IN THE WILD",
-          "tags": [],
-          "ts": 1792622603000,
-          "time": "06:43:23",
-          "receivedAt": 1792629413725,
-          "receivedTime": true
-        },
-        {
-          "id": "7558",
-          "url": "https://t.me/BWEtradfi/7558",
-          "title": "*META: 扎克伯格权衡若加州第40号提案生效则将总部迁出加州",
-          "body": "*META: ZUCKERBERG WEIGHS RELOCATING FROM CA IF PROP 40 ENACTED $META",
-          "tags": [],
-          "ts": 1792613861000,
-          "time": "04:17:41",
-          "receivedAt": 1792620273529,
-          "receivedTime": true
-        },
-        {
-          "id": "7557",
-          "url": "https://t.me/BWEtradfi/7557",
-          "title": "*TRUMP：不清楚中东使馆人员调动情况",
-          "body": "*TRUMP: DON'T KNOW ABOUT EMBASSY PERSONNEL MOVE IN MIDEAST",
-          "tags": [],
-          "ts": 1792613514000,
-          "time": "04:11:54",
-          "receivedAt": 1792620273529,
-          "receivedTime": true
-        },
-        {
-          "id": "7556",
-          "url": "https://t.me/BWEtradfi/7556",
-          "title": "*IBM 第三季度运营每股收益 2.95 美元，预期为 2.86 美元",
-          "body": "*IBM 3Q OPER EPS $2.95, EST. $2.86 *IBM 3Q SOFTWARE REV. $7.80B, EST. $7.64B $IBM *IBM 第三季度软件收入 78 亿美元，预期为 76.4 亿美元 $IBM",
-          "tags": [],
-          "ts": 1792613335000,
-          "time": "04:08:55",
-          "receivedAt": 1792620273529,
-          "receivedTime": true
-        },
-        {
-          "id": "7555",
-          "url": "https://t.me/BWEtradfi/7555",
-          "title": "*LAM RESEARCH 第一季度营收：82.2亿美元，预期为81.3亿美元",
-          "body": "*LAM RESEARCH 1Q REV. $8.22B, EST. $8.13B *LAM RESEARCH 1Q ADJ EPS $2.20, EST. $2.19 $LRCX *LAM RESEARCH 第一季度调整后每股收益：2.20美元，预期为2.19美元 $LRCX",
-          "tags": [],
-          "ts": 1792613111000,
-          "time": "04:05:11",
-          "receivedAt": 1792620273529,
-          "receivedTime": true
-        },
-        {
-          "id": "7554",
-          "url": "https://t.me/BWEtradfi/7554",
-          "title": "*特斯拉第三季度汽车业务营收：205.6亿美元，预期198.3亿美元",
-          "body": "*TESLA 3Q AUTOMOTIVE REV. $20.56B, EST. $19.83B *TESLA 3Q ADJ EPS 48C, EST. 44C *TESLA 3Q REV. $28.05B, EST. $28.13B *TESLA 3Q GROSS MARGIN 19.6%, EST. 17.8% *TESLA 3Q EPS 22C VS. 39C Y/Y $TSLA *特斯拉第三季度调整后每股收益：48美分，预期44美分 *特斯拉第三季度营收：280.5亿美元，预期281.3亿美元 *特斯拉第三季度毛利率：19.6%，预期17.8% *特斯拉第三季度每股收益：22美分，去年...",
-          "tags": [],
-          "ts": 1792612966000,
-          "time": "04:02:46",
-          "receivedAt": 1792620273529,
-          "receivedTime": true
-        },
-        {
-          "id": "7553",
-          "url": "https://t.me/BWEtradfi/7553",
-          "title": "*META 第三季度 Reality Labs 营收 4.43 亿美元，预期 5.177 亿美元",
-          "body": "*META 3Q REALITY LABS REV. $443M, EST. $517.7M *META 3Q REALITY LABS OPER LOSS $4.13B, EST. LOSS $5.13B *META 3Q AD REV. $63.06B, EST. $61.85B *META 3Q REV. $64.60B, EST. $63.33B $META *META 第三季度 Reality Labs 运营亏损 41.3 亿美元，预期亏损 51.3 亿美元 *META 第三季度 广告营收 630.6 亿美元，预期 618.5 亿美元 *META 第三季度营收 646 亿美元，预期...",
-          "tags": [],
-          "ts": 1792612906000,
-          "time": "04:01:46",
-          "receivedAt": 1792620273529,
-          "receivedTime": true
-        },
-        {
-          "id": "7552",
-          "url": "https://t.me/BWEtradfi/7552",
-          "title": "*META 第三季度营业收入 129.9 亿美元，预计 208.5 亿美元",
-          "body": "*META 3Q OPER INCOME $12.99B, EST. $20.85B $META $META",
-          "tags": [],
-          "ts": 1792612894000,
-          "time": "04:01:34",
-          "receivedAt": 1792620273529,
-          "receivedTime": true
-        },
-        {
-          "id": "7551",
-          "url": "https://t.me/BWEtradfi/7551",
-          "title": "*美国国务院：美国国务院对沙特阿拉伯境内的非紧急美国政府雇员及其家属发布了强制撤离令",
-          "body": "*STATE DEPARTMENT: THE U.S. DEPARTMENT OF STATE ISSUED AN ORDERED DEPARTURE FOR NON-EMERGENCY U.S. GOVERNMENT EMPLOYEES AND THEIR FAMILY MEMBERS IN SAUDI ARABIA ONLY",
-          "tags": [],
-          "ts": 1792610808000,
-          "time": "03:26:48",
-          "receivedAt": 1792620273529,
-          "receivedTime": true
-        },
-        {
-          "id": "7550",
-          "url": "https://t.me/BWEtradfi/7550",
-          "title": "*据SEMAFOR报道，META计划发行新的无投票权股票，用于人工智能投资，且不会稀释扎克伯格的控制权。",
-          "body": "*META PLANS TO ISSUE NEW NONVOTING SHARES TO FUND AI INVESTMENTS WITHOUT DILUTING ZUCKERBERG'S CONTROL: SEMAFOR *META COULD OFFICIALLY ANNOUNCE THE NONVOTING STOCK PLAN AS SOON AS WEDNESDAY ALONGSIDE QUARTERLY EARNINGS $META *META最早可能于周三与季度财报一同正式宣布这项无投票权股票发行计划。 $META",
-          "tags": [],
-          "ts": 1792610294000,
-          "time": "03:18:14",
-          "receivedAt": 1792620273529,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1930,6 +1831,171 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "242573",
+          "url": "https://t.me/jin10light/242573",
+          "title": "今日重点关注的财经数据与事件：2026年11月6日 周五",
+          "body": "① 08:00 美联储洛根发表讲话 ② 15:00 德国9月季调后工业产出月率 ③ 15:00 英国10月Halifax季调后房价指数月率 ④ 15:45 法国9月贸易帐 ⑤ 16:00 瑞士10月消费者信心指数 ⑥ 17:30 美联储威廉姆斯参与讨论 ⑦ 18:00 欧元区9月零售销售月率 ⑧ 21:30 加拿大10月就业人数 ⑨ 21:30 美国10月失业率 ⑩ 21:30 美国10月季调后非农就业人口 ⑪ 21:30 美国10月平均每小时工资年率 ⑫ 21:30 美国10月平均每小时工资月率 ⑬ 22:10 美联储穆萨莱姆发表讲话 ⑭ 23:00...",
+          "tags": [],
+          "ts": 1793919101000,
+          "time": "06:51:41",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242572",
+          "url": "https://t.me/jin10light/242572",
+          "title": "国内新闻ï",
+          "body": "1.国务院报告：支持中央汇金公司发挥类平准基金作用，巩固完善资本市场稳市机制。 2. 商务部回应欧盟对低价值进口商品叠加征收有关税费。 3. 2027年放假安排出炉：春节连休9天，调休减少。 4. 商务部回应扩大自美采购农产品：持开放态度，对等降税落地是前提。 5. 上交所召开并购重组专题座谈会，汇聚市场合力助推上市公司提质增效。 6. 何立峰在北京调研时指出，强化科技创新与产业创新深度融合，推动经济持续向新向优向好发展国际新闻ï 1.美股AI产业链暴跌，纳指重挫5.5%，标普500指数市值蒸发3万亿美元。 2. 波兰央行：10月增持28吨黄金储备。...",
+          "tags": [],
+          "ts": 1793918200000,
+          "time": "06:36:40",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242571",
+          "url": "https://t.me/jin10light/242571",
+          "title": "据纽约时报：美国国务卿鲁比奥否认有关他将辞去职务，转去竞选总统的报道。",
+          "body": "",
+          "tags": [],
+          "ts": 1793917838000,
+          "time": "06:30:38",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242570",
+          "url": "https://t.me/jin10light/242570",
+          "title": "美联储12月加息的概率降至68.7%",
+          "body": "11月6日讯，据CME“美联储观察”：美联储12月维持利率不变的概率为31.3%，加息25个基点的概率为68.7%。 美联储到明年1月维持利率不变的概率27.0%，累计加息25个基点的概率63.6%，累计加息50个基点的概率为9.5%。",
+          "tags": [],
+          "ts": 1793916340000,
+          "time": "06:05:40",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242569",
+          "url": "https://t.me/jin10light/242569",
+          "title": "整理：中东局势跟踪（11月6日）",
+          "body": "中东冲突ï 1.胡塞武装称过去24小时沙特联军空袭也门61次。 2. 沙特领导的联盟称在东部地区拦截了一架无人机。 3. 伊朗革命卫队：霍尔木兹海峡两油轮触雷起火，两架美军无人机遭缴获。 4. 纽约时报：美军数千名空军和海军人员待命 对伊朗军事行动计划已就绪。 5. 伊朗革命卫队：在格什姆岛上空缴获第五架美军MQM-170无人机。 6. 特朗普：如果我们必须把剩下的伊朗问题解决掉，我们已经准备就绪。 认为目前进展非常顺利。 和平谈判ï 1.土耳其外长与伊朗外长通话，讨论美伊谈判及地区局势。 2. 周四解封的法庭文件显示，美伊两国在战时仍然保持沟通，商讨...",
+          "tags": [],
+          "ts": 1793915738000,
+          "time": "05:55:38",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242568",
+          "url": "https://t.me/jin10light/242568",
+          "title": "高盛：将2026年底黄金价格预测下调至每盎司4150美元，将2027年底预测下调至每盎司4800美元。",
+          "body": "",
+          "tags": [],
+          "ts": 1793914898000,
+          "time": "05:41:38",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242567",
+          "url": "https://t.me/jin10light/242567",
+          "title": "美国总统特朗普：（关于伊朗）我认为目前进展非常顺利。",
+          "body": "",
+          "tags": [],
+          "ts": 1793914238000,
+          "time": "05:30:38",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242566",
+          "url": "https://t.me/jin10light/242566",
+          "title": "标普500指数市值蒸发约3万亿美元",
+          "body": "11月6日讯，美国股市遭遇大幅抛售，标普500指数、纳指和道指均创2025年4月3日以来最大单日跌幅。 纳指收盘较10月6日创下的历史最高收盘点位下跌11.9%，正式确认进入技术性调整区间。 费城半导体指数下跌12.5%，创下2020年3月以来最大单日跌幅。 标普500成分股合计市值单日蒸发约3万亿美元。",
+          "tags": [],
+          "ts": 1793912796000,
+          "time": "05:06:36",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242565",
+          "url": "https://t.me/jin10light/242565",
+          "title": "美股收盘：三大股指暴跌 英伟达跌超9%",
+          "body": "11月6日讯，美股周四收盘，道指初步收跌3.4%，标普500指数跌4.3%，纳指跌5.5%。 美光科技(MU.O)跌17%，闪迪(SNDK.O)跌22%，SK海力士(SKHY.O)跌13%，英伟达(NVDA.O)跌超9%，AMD(AMD.O)跌17%，特斯拉(TSLA.O)跌10%。 纳斯达克中国金龙指数收涨0.42%。",
+          "tags": [],
+          "ts": 1793912618000,
+          "time": "05:03:38",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242564",
+          "url": "https://t.me/jin10light/242564",
+          "title": "伊朗高级官员：美国正在审议伊朗的核提案。",
+          "body": "",
+          "tags": [],
+          "ts": 1793907816000,
+          "time": "03:43:36",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242563",
+          "url": "https://t.me/jin10light/242563",
+          "title": "伊朗高级官员：伊朗已通过卡塔尔向美国发送一份核问题提案，只有在华盛顿满足其七项要求后才会讨论该提案。",
+          "body": "",
+          "tags": [],
+          "ts": 1793907756000,
+          "time": "03:42:36",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242562",
+          "url": "https://t.me/jin10light/242562",
+          "title": "美媒：鲁比奥考虑离开特朗普政府",
+          "body": "11月6日讯，据彭博援引知情人士报道，美国国务卿兼国家安全顾问鲁比奥正在与顾问讨论未来去向，并已与白宫官员谈及辞职事宜，部分知情人士称白宫曾要求其留任。 目前鲁比奥尚未决定是否辞去国务卿及国家安全顾问职务，也没有确定离职时间。 美国国务院否认鲁比奥考虑辞职，称相关报道是基于匿名消息源的虚假新闻，并表示鲁比奥将继续在特朗普政府任职。 报道指出，共和党在中期选举中失利后，特朗普政府可能面临人员调整；如果鲁比奥在明年1月民主党控制参议院前离职，特朗普将有机会提前提名继任者。 另据其他媒体早前报道，美国驻印度大使或接替鲁比奥出任国务卿，但遭到前者否认。",
+          "tags": [],
+          "ts": 1793907700000,
+          "time": "03:41:40",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242561",
+          "url": "https://t.me/jin10light/242561",
+          "title": "布伦特原油向上触及97美元/桶，日内涨3.30%。",
+          "body": "",
+          "tags": [],
+          "ts": 1793903738000,
+          "time": "02:35:38",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242560",
+          "url": "https://t.me/jin10light/242560",
+          "title": "据福克斯新闻：美国国防部长赫格塞思最早可能下周面临弹劾投票。",
+          "body": "",
+          "tags": [],
+          "ts": 1793901156000,
+          "time": "01:52:36",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
+        {
+          "id": "242559",
+          "url": "https://t.me/jin10light/242559",
+          "title": "欧洲央行行长拉加德、管委多伦茨将于十分钟后发表讲话。",
+          "body": "",
+          "tags": [],
+          "ts": 1793901100000,
+          "time": "01:51:40",
+          "receivedAt": 1793919304485,
+          "receivedTime": true
+        },
         {
           "id": "242558",
           "url": "https://t.me/jin10light/242558",
@@ -14967,171 +15033,6 @@
           "time": "18:08:41",
           "receivedAt": 1793196072782,
           "receivedTime": true
-        },
-        {
-          "id": "241373",
-          "url": "https://t.me/jin10light/241373",
-          "title": "摩尔线程：前三季营收32.89亿元 同比增319.15%",
-          "body": "10月28日讯，摩尔线程公告称，2026年第三季度实现营业收入15.52亿元，同比增长1773.92%；归母净利润4926.04万元，扣非归母净利润2007.24万元，均实现扭亏为盈。 2026年前三季度实现营业收入32.89亿元，同比增长319.15%；归母净利润3769.73万元，扣非归母净亏损1.31亿元，亏损大幅收窄。 前三季度研发投入13.40亿元，同比增长55.72%，营收增长主要系智算产品在AI算力基础设施行业加速落地。",
-          "tags": [],
-          "ts": 1793181220000,
-          "time": "17:53:40",
-          "receivedAt": 1793196072782,
-          "receivedTime": true
-        },
-        {
-          "id": "241372",
-          "url": "https://t.me/jin10light/241372",
-          "title": "王文涛部长会见欧洲议会国际贸易委员会主席朗格",
-          "body": "10月28日讯，10月27日，王文涛部长会见欧洲议会国际贸易委员会主席朗格，就中欧经贸关系交换意见。 王文涛强调，中国不是欧盟问题的根源，而是解决问题的伙伴。 希望欧方与中方相向而行，在符合世贸组织规则和对等互利的前提下，通过扩大双向投资、增加自欧进口、拓展新兴领域合作，实现中欧贸易向上平衡、向前发展。 中国商务部愿与欧洲议会国际贸易委员会加强沟通，共同推动中欧经贸关系稳定健康发展。",
-          "tags": [],
-          "ts": 1793180199000,
-          "time": "17:36:39",
-          "receivedAt": 1793196072782,
-          "receivedTime": true
-        },
-        {
-          "id": "241371",
-          "url": "https://t.me/jin10light/241371",
-          "title": "新东方( 09901.HK )：2027财年普通现金股息为每普通股0.2美元，并计划在未来12个月内回购不超过2亿美元的美国存托股或普通股。",
-          "body": "",
-          "tags": [],
-          "ts": 1793179898000,
-          "time": "17:31:38",
-          "receivedAt": 1793196072782,
-          "receivedTime": true
-        },
-        {
-          "id": "241370",
-          "url": "https://t.me/jin10light/241370",
-          "title": "新东方( 09901.HK )：2027财年第一季度净营收18.74亿美元，同比增长23.1%；净利润2.73亿美元，同比增长13.5%。",
-          "body": "",
-          "tags": [],
-          "ts": 1793179839000,
-          "time": "17:30:39",
-          "receivedAt": 1793196072782,
-          "receivedTime": true
-        },
-        {
-          "id": "241369",
-          "url": "https://t.me/jin10light/241369",
-          "title": "新东方( 09901.HK )：预计2027财年净营收为64.54亿至66.80亿美元，同比增长14%至18%。",
-          "body": "",
-          "tags": [],
-          "ts": 1793179839000,
-          "time": "17:30:39",
-          "receivedAt": 1793196072782,
-          "receivedTime": true
-        },
-        {
-          "id": "241368",
-          "url": "https://t.me/jin10light/241368",
-          "title": "恒生指数公司表示将Anthropic纳入恒生港美科技指数",
-          "body": "10月28日讯，恒生指数公司公告，恒生港美科技指数的编算方法调整，将于截至2026年9月30日之指数检讨中采用，相关的成份股变动将于2026年12月14日（星期一）生效。 指数名称及指数代码将维持不变。 此外，Anthropic(ANT.O)将加入指定美国上市成份股名单。 此变更将以Anthropic确认上市作实。 9只美国上市成份股的比重将于Anthropic的第7个交易日收市后重新计算至等权重，新增成份股和更新后的成份股比重将于Anthropic的第11个交易日生效。",
-          "tags": [],
-          "ts": 1793179361000,
-          "time": "17:22:41",
-          "receivedAt": 1793196072986,
-          "receivedTime": true
-        },
-        {
-          "id": "241367",
-          "url": "https://t.me/jin10light/241367",
-          "title": "高盛：DRAM价格或持续上涨至2028年上半年 明年HBM市场收入料增超230%",
-          "body": "10月28日讯，高盛最新研报指出，2027年DRAM与高带宽存储(HBM)市场前景依然强劲。 TrendForce预计，服务器需求增长及供应扩张有限将推动DRAM价格持续上涨至2028年上半年，即使消费电子需求疲弱，市场仍将保持供需紧张，长期供货协议(LTA)覆盖率可能达60%至70%。 预计2027年HBM综合平均售价同比上涨122%至每Gb3.7美元，推动全球HBM市场收入同比增长超230%，突破2000亿美元。 高盛重申三星电子和SK海力士“买入”评级，12个月目标价分别为50万和350万韩元，维持三星电子优先股38万韩元目标价。",
-          "tags": [],
-          "ts": 1793178878000,
-          "time": "17:14:38",
-          "receivedAt": 1793196072986,
-          "receivedTime": true
-        },
-        {
-          "id": "241366",
-          "url": "https://t.me/jin10light/241366",
-          "title": "央行：2026年三季度末，金融机构人民币各项贷款余额283.44万亿元，同比增长4.8%，前三季度人民币贷款增加11.52万亿元。",
-          "body": "",
-          "tags": [],
-          "ts": 1793178160000,
-          "time": "17:02:40",
-          "receivedAt": 1793196072986,
-          "receivedTime": true
-        },
-        {
-          "id": "241365",
-          "url": "https://t.me/jin10light/241365",
-          "title": "中国平安( 02318.HK )：2026年前三季度，集团实现归属于母公司股东的营运利润1259.05亿元，同比增长8.3%。",
-          "body": "",
-          "tags": [],
-          "ts": 1793178037000,
-          "time": "17:00:37",
-          "receivedAt": 1793196072986,
-          "receivedTime": true
-        },
-        {
-          "id": "241364",
-          "url": "https://t.me/jin10light/241364",
-          "title": "乘联分会：预计2027年国内零售增长区间在0%-5%，均值在2%，车市分化仍将加剧",
-          "body": "10月28日讯，据乘联厂商预测团队相关展望认为，2027年随着短期冲击因素反向修复、成本压力缓解、供给端产品力提升，如果政策与环境不发生超预期变化，国内车市有望探底回暖，预计国内零售增长区间在0%-5%，均值在2%，车市分化仍将加剧。 综合来看，2026年车市深跌是政策透支、油价冲击、AI成本外溢、消费意愿偏低等可逆性短期因素叠加的结果，长期箱体震荡并逐步向上突破格局并未改变，2026年1850万辆的预计国内零售位置已属\"不正常\"的低位。 2027年，车购税翘尾效应、春节大年、油价回调、碳酸锂回落构成需求端与成本端的双重修复，去库存力度减弱与新车供给周...",
-          "tags": [],
-          "ts": 1793177921000,
-          "time": "16:58:41",
-          "receivedAt": 1793196072986,
-          "receivedTime": true
-        },
-        {
-          "id": "241363",
-          "url": "https://t.me/jin10light/241363",
-          "title": "昭衍新药：2026年前三季度营收11.88亿元 净利同比增1051.94%",
-          "body": "10月28日讯，昭衍新药公告称，2026年第三季度实现营业收入4.84亿元，同比增长53.01%；归母净利润1.82亿元，同比增长821.27%；扣非归母净利润1.82亿元，同比增长2938.46%。 2026年前三季度实现营业收入11.88亿元，同比增长20.60%；归母净利润9.30亿元，同比增长1051.94%；扣非归母净利润8.81亿元，同比增长2933.08%。",
-          "tags": [],
-          "ts": 1793177558000,
-          "time": "16:52:38",
-          "receivedAt": 1793196072986,
-          "receivedTime": true
-        },
-        {
-          "id": "241362",
-          "url": "https://t.me/jin10light/241362",
-          "title": "瑞士10月ZEW投资者信心指数、英国至10月28日LME铜、铝、镍库存变化值将于十分钟后公布。",
-          "body": "",
-          "tags": [],
-          "ts": 1793177497000,
-          "time": "16:51:37",
-          "receivedAt": 1793196072986,
-          "receivedTime": true
-        },
-        {
-          "id": "241361",
-          "url": "https://t.me/jin10light/241361",
-          "title": "招商轮船：前三季度净利润119.83亿元，同比增长263.15%",
-          "body": "10月28日讯，招商轮船2026年三季报显示，公司第三季度营业收入127.71亿元，同比增长89.89%；归属于上市公司股东的净利润50.24亿元，同比增长327.45%。 前三季度营业收入324.22亿元，同比增长67.90%；归属于上市公司股东的净利润119.83亿元，同比增长263.15%。 前三季度油轮运输市场受地缘及供需结构变化等多重影响，运价同比大幅上涨；同时滚装、干散、集装箱等其他板块走势向好，公司营业收入均有较好增幅。",
-          "tags": [],
-          "ts": 1793177079000,
-          "time": "16:44:39",
-          "receivedAt": 1793196072986,
-          "receivedTime": true
-        },
-        {
-          "id": "241360",
-          "url": "https://t.me/jin10light/241360",
-          "title": "亨通光电：2026年第三季度净利润30.44亿元 同比增长299.10%",
-          "body": "10月28日讯，亨通光电公告，2026年第三季度营业收入223.41亿元，同比增长27.14%；归母净利润30.44亿元，同比增长299.10%；扣非净利润29.97亿元，同比增长289.87%。 2026年前三季度营业收入643.67亿元，同比增长29.72%；归母净利润61.63亿元，同比增长159.42%；扣非净利润61.48亿元，同比增长162.80%。",
-          "tags": [],
-          "ts": 1793176598000,
-          "time": "16:36:38",
-          "receivedAt": 1793196072986,
-          "receivedTime": true
-        },
-        {
-          "id": "241359",
-          "url": "https://t.me/jin10light/241359",
-          "title": "奥士康：拟投资60亿元建设PCB基地",
-          "body": "10月28日讯，奥士康公告，公司与海门经济技术开发区管理委员会签署《产业项目发展协议》，拟在江苏省南通市建设奥士康南通智算与高速互联PCB产业基地项目，规划总投资预计60亿元，分三期投入，其中一期投资约25亿元。 本事项已获董事会审议通过，尚需提交股东会审议；项目用地拟通过招拍挂等公开出让方式取得。",
-          "tags": [],
-          "ts": 1793175999000,
-          "time": "16:26:39",
-          "receivedAt": 1793196072986,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -15921,7 +15822,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
