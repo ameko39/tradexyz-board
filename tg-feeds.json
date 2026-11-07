@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-11-07T15:07:00.142Z",
+  "updatedAt": "2026-11-07T19:22:39.005Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7732",
+          "url": "https://t.me/BWEtradfi/7732",
+          "title": "*特朗普：已向UFC的Dana White提供新闻秘书一职",
+          "body": "*TRUMP: OFFERED DANA WHITE OF UFC THE ROLE OF PRESS SECRETARY 🕒 02:40:48 · 🌐 eqn.news/tradfi/12553",
+          "tags": [],
+          "ts": 1794076850000,
+          "time": "02:40:50",
+          "receivedAt": 1794079345666,
+          "receivedTime": true
+        },
         {
           "id": "7731",
           "url": "https://t.me/BWEtradfi/7731",
@@ -1821,24 +1832,35 @@
           "time": "03:36:07",
           "receivedAt": 1792793181769,
           "receivedTime": true
-        },
-        {
-          "id": "7567",
-          "url": "https://t.me/BWEtradfi/7567",
-          "title": "https://eqn.news/6683",
-          "body": "",
-          "tags": [],
-          "ts": 1792775841000,
-          "time": "01:17:21",
-          "receivedAt": 1792782619008,
-          "receivedTime": true
         }
       ],
-      "archiveComplete": true
+      "archiveComplete": false
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "242768",
+          "url": "https://t.me/jin10light/242768",
+          "title": "特朗普下令司法部彻查民主党“敲诈勒索”，指控其滥用弹劾与监禁威胁",
+          "body": "11月8日讯，美国总统特朗普在社交平台发文，指责民主党人威胁弹劾美国司法部长等官员，并扬言对他们采取其他惩罚措施。 特朗普称，民主党人自己也承认缺乏相关理由，而遭到威胁的人并未实施、甚至没有考虑过任何可能构成弹劾理由的行为。 他将此称为“最高级别的敲诈勒索”，并要求追究相关人员的责任。 特朗普还指责民主党人威胁共和党捐助者，扬言仅因他们是共和党人或共和党支持者，就对其施以监禁等惩罚。 他称，这进一步体现了政治工具化和法律战，并指密歇根州参议员埃莉萨·斯洛特金扬言要追究认同共和党价值观的年轻人，以及任何表现出哪怕一丝倾向支持共和党的人。 特朗普表示，真正...",
+          "tags": [],
+          "ts": 1794074200000,
+          "time": "01:56:40",
+          "receivedAt": 1794079346164,
+          "receivedTime": true
+        },
+        {
+          "id": "242767",
+          "url": "https://t.me/jin10light/242767",
+          "title": "整理：周六重要消息汇总",
+          "body": "国内新闻ï 1.中国央行连续第24个月增持黄金，10月末黄金储备环比增加83万盎司（约25.82吨）。 2. 国家外汇管理局：截至2026年10月末，我国外汇储备规模为34052亿美元。 3. “天宫”将迎首位外籍航天员，巴基斯坦载荷专家参加神舟二十四号任务。 4. 商务部新闻发言人就美制裁中国企业答记者问：敦促美方尽快纠正错误做法。 5. DeepSeek网页及API 7日（周六）下午出现部分中断，目前已实施修复。 6. 中国国新控股发布关于相关主体冒用本公司所属企业名义进行市场主体登记的严正声明。 国际新闻ï 1.欧洲多国媒体收到炸弹威胁。 2....",
+          "tags": [],
+          "ts": 1794064842000,
+          "time": "23:20:42",
+          "receivedAt": 1794079346164,
+          "receivedTime": true
+        },
         {
           "id": "242766",
           "url": "https://t.me/jin10light/242766",
@@ -15019,28 +15041,6 @@
           "time": "21:16:42",
           "receivedAt": 1793288284059,
           "receivedTime": true
-        },
-        {
-          "id": "241568",
-          "url": "https://t.me/jin10light/241568",
-          "title": "欧元区至10月29日欧洲央行存款机制利率 2.5%，预期2.50%，前值2.50%。",
-          "body": "",
-          "tags": [],
-          "ts": 1793279745000,
-          "time": "21:15:45",
-          "receivedAt": 1793288284059,
-          "receivedTime": true
-        },
-        {
-          "id": "241567",
-          "url": "https://t.me/jin10light/241567",
-          "title": "欧洲央行维持利率不变",
-          "body": "10月29日讯，欧洲央行将存款机制利率、主要再融资利率、边际贷款利率分别维持在2.50%、2.65%和2.90%不变，符合市场预期。",
-          "tags": [],
-          "ts": 1793279744000,
-          "time": "21:15:44",
-          "receivedAt": 1793288284059,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -15742,7 +15742,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
