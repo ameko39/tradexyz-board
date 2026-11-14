@@ -1,11 +1,99 @@
 {
-  "updatedAt": "2026-11-13T22:00:11.941Z",
+  "updatedAt": "2026-11-14T02:05:58.368Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7795",
+          "url": "https://t.me/BWEtradfi/7795",
+          "title": "*白宫下令将扣押的非法中国电子烟放行进入美国市场：华尔街日报",
+          "body": "*WHITE HOUSE ORDERED RELEASE OF DETAINED ILLEGAL CHINESE VAPES INTO U.S. MARKET: WSJ 🕒 10:00:15 · 🌐 eqn.news/tradfi/14670",
+          "tags": [],
+          "ts": 1794621617000,
+          "time": "10:00:17",
+          "receivedAt": 1794621947499,
+          "receivedTime": true
+        },
+        {
+          "id": "7794",
+          "url": "https://t.me/BWEtradfi/7794",
+          "title": "*美国国土安全部长Mullin：仍在研究网络攻击的可能性，不排除这一可能",
+          "body": "*US DHS SECRETARY MULLIN: STILL LOOKING AT POSSIBILITY OF CYBERATTACK, NOT RULING IT OUT 🕒 09:43:07 · 🌐 eqn.news/tradfi/14663",
+          "tags": [],
+          "ts": 1794620589000,
+          "time": "09:43:09",
+          "receivedAt": 1794621947499,
+          "receivedTime": true
+        },
+        {
+          "id": "7793",
+          "url": "https://t.me/BWEtradfi/7793",
+          "title": "*美国国土安全部称联邦航空管理局故障并非网络攻击，审查仍在进行中",
+          "body": "*国土安全部部长称联邦航空管理局故障与微软无关 *Mullin称联邦航空管理局故障期间公众从未处于危险之中 *国土安全部称联邦航空管理局故障的解决“正朝着正确方向推进” *DHS SAYS FAA OUTAGE NOT A CYBERATTACK, REVIEW ONGOING *NO CONNECTION BETWEEN FAA OUTAGE AND MICROSOFT, DHS CHIEF SAYS *PUBLIC WAS NEVER IN DANGER DURING FAA OUTAGE, MULLIN SAYS *FAA OUTAGE RESOLUTION 'WORKING IN R...",
+          "tags": [],
+          "ts": 1794620041000,
+          "time": "09:34:01",
+          "receivedAt": 1794621947499,
+          "receivedTime": true
+        },
+        {
+          "id": "7792",
+          "url": "https://t.me/BWEtradfi/7792",
+          "title": "*美国联邦航空管理局：地面停飞令已取消",
+          "body": "*FAA: GROUND STOP CANCELLED 🕒 09:21:53 · 🌐 eqn.news/tradfi/14658",
+          "tags": [],
+          "ts": 1794619315000,
+          "time": "09:21:55",
+          "receivedAt": 1794621947499,
+          "receivedTime": true
+        },
+        {
+          "id": "7791",
+          "url": "https://t.me/BWEtradfi/7791",
+          "title": "*美国全国范围的停飞令即将解除——Air Current",
+          "body": "*U.S. NATIONWIDE GROUND STOP IS SET TO BE IMMINENTLY LIFTED - AIR CURRENT 🕒 09:14:57 · 🌐 eqn.news/tradfi/14656",
+          "tags": [],
+          "ts": 1794618900000,
+          "time": "09:15:00",
+          "receivedAt": 1794621947499,
+          "receivedTime": true
+        },
+        {
+          "id": "7790",
+          "url": "https://t.me/BWEtradfi/7790",
+          "title": "*前英伟达CEO黄仁勋在婚外情问题上误导了总法律顾问",
+          "body": "*黄仁勋向英伟达高层将他与Alice Huang的关系描述为常规商业往来 *黄仁勋施压英伟达法务团队考虑就相关报道起诉纽约时报 *EX-NVIDIA CEO HUANG MISLED GENERAL COUNSEL ON AFFAIR *HUANG CHARACTERIZED TIES TO ALICE HUANG AS ROUTINE BUSINESS DEALS TO NVDA LEADERS *HUANG PRESSED NVDA LEGAL TEAM TO WEIGH NYT LAWSUIT OVER COVERAGE $NVDA 🕒 08:22:46 · 🌐 eqn.news/...",
+          "tags": [],
+          "ts": 1794615768000,
+          "time": "08:22:48",
+          "receivedAt": 1794621947499,
+          "receivedTime": true
+        },
+        {
+          "id": "7789",
+          "url": "https://t.me/BWEtradfi/7789",
+          "title": "*特朗普将于周四与普京、习近平举行三方会晤",
+          "body": "*美国官员：马斯克将随特朗普访华 *TRUMP TO HAVE TRILATERAL MEETING WITH PUTIN, XI ON THURSDAY *MUSK TO ACCOMPANY TRUMP IN CHINA: US OFFICIAL 🕒 07:43:30 · 🌐 eqn.news/tradfi/14638",
+          "tags": [],
+          "ts": 1794613413000,
+          "time": "07:43:33",
+          "receivedAt": 1794621947499,
+          "receivedTime": true
+        },
+        {
+          "id": "7788",
+          "url": "https://t.me/BWEtradfi/7788",
+          "title": "*美国联邦航空管理局（FAA）空中交通通信中断，系系统更新后网络崩溃所致：CBS",
+          "body": "*此次中断涉及的FAA电信网络由L3Harris公司运营：CBS *私人空中交通管制网络更新导致重启失败，引发中断：CBS *FAA AIR TRAFFIC COMMUNICATIONS OUTAGE CAUSED BY NETWORK CRASH AFTER SYSTEM UPDATE: CBS *FAA TELECOMMUNICATIONS NETWORK INVOLVED IN OUTAGE IS OPERATED BY L3HARRIS: CBS *UPDATE TO PRIVATE AIR TRAFFIC CONTROL NETWORK CAUSED REBOOT FAILURE,...",
+          "tags": [],
+          "ts": 1794613062000,
+          "time": "07:37:42",
+          "receivedAt": 1794621947499,
+          "receivedTime": true
+        },
         {
           "id": "7787",
           "url": "https://t.me/BWEtradfi/7787",
@@ -1711,17 +1799,6 @@
           "time": "10:24:17",
           "receivedAt": 1793339426697,
           "receivedTime": true
-        },
-        {
-          "id": "7633",
-          "url": "https://t.me/BWEtradfi/7633",
-          "title": "*UKRAINE PAUSES STRIKES ON RUSSIAN REFINERS AFTER PRESSURE FROM U.S.: WSJ",
-          "body": "*PAUSE IN UKRAINE STRIKES CAME WITHOUT PUBLIC ANNOUNCEMENT: WSJ https://eqn.news/tradfi/9258",
-          "tags": [],
-          "ts": 1793317233000,
-          "time": "07:40:33",
-          "receivedAt": 1793319231557,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1729,6 +1806,50 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "243427",
+          "url": "https://t.me/jin10light/243427",
+          "title": "美国联邦航空管理局：地面停飞令已解除。",
+          "body": "",
+          "tags": [],
+          "ts": 1794619665000,
+          "time": "09:27:45",
+          "receivedAt": 1794621947886,
+          "receivedTime": true
+        },
+        {
+          "id": "243426",
+          "url": "https://t.me/jin10light/243426",
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加3.705吨，当前持仓量为1044.408吨。",
+          "body": "",
+          "tags": [],
+          "ts": 1794619487000,
+          "time": "09:24:47",
+          "receivedAt": 1794621947886,
+          "receivedTime": true
+        },
+        {
+          "id": "243425",
+          "url": "https://t.me/jin10light/243425",
+          "title": "整理：中东局势跟踪（11月14日）",
+          "body": "美伊冲突ï 1.伊朗革命卫队称打击并摧毁了美军在巴林的预警雷达。 2. 伊朗称在锡里克地区摧毁一架美军MQ-1无人机。 3. 伊朗革命卫队副司令：对任何侵略行为的回应将不受地域限制。 4. 伊朗外长阿拉格齐：面对武装攻击，伊朗享有自卫权。 5. 伊媒：当地消息人士称，伊朗贾斯克附近传出爆炸声。 6. 美国中央司令部：革命卫队向巴林发射了两架单程攻击无人机，均被美军击落。 事件未造成人员受伤或财产损失。 也门冲突ï 1.胡塞武装称袭击政府军军火库和集结点。 2. 胡塞武装：沙特主导的联军对也门发动85次袭击。 3. 胡塞武装：使用无人机袭击沙特利雅得哈立...",
+          "tags": [],
+          "ts": 1794618887000,
+          "time": "09:14:47",
+          "receivedAt": 1794621947886,
+          "receivedTime": true
+        },
+        {
+          "id": "243424",
+          "url": "https://t.me/jin10light/243424",
+          "title": "整理：昨日今晨重要新闻汇总（11月14日）",
+          "body": "国内新é 1.11月16日央行将开展2000亿元买断式逆回购操作。 2. 国防部：中美两国防务部门就各层级交流对话保持沟通协调。 3. 国家发改委、国家能源局印发《“十五五”新型储能实施方案》。 4. 习近平将出席亚太经合组织第三十三次领导人非正式会议及相关活动。 5. 中国人民银行：初步统计，2026年前十个月社会融资规模增量累计为28.61万亿元，同比少2.29万亿元。 6. 中国人民银行：10月末，M2余额359.06万亿元，同比增长7.1%。 国际新é 1.克里姆林宫发言人佩斯科夫：下一轮三方谈判将很快举行。 2. 美媒：美副总统万斯正认真考虑...",
+          "tags": [],
+          "ts": 1794617929000,
+          "time": "08:58:49",
+          "receivedAt": 1794621947886,
+          "receivedTime": true
+        },
         {
           "id": "243423",
           "url": "https://t.me/jin10light/243423",
@@ -14889,50 +15010,6 @@
           "tags": [],
           "ts": 1793770898000,
           "time": "13:41:38",
-          "receivedAt": 1793785218531,
-          "receivedTime": true
-        },
-        {
-          "id": "242227",
-          "url": "https://t.me/jin10light/242227",
-          "title": "创业板指持续拉升涨超3%，沪指涨超1%。",
-          "body": "贵金属、新能源板块领涨大盘。",
-          "tags": [],
-          "ts": 1793770838000,
-          "time": "13:40:38",
-          "receivedAt": 1793785218531,
-          "receivedTime": true
-        },
-        {
-          "id": "242226",
-          "url": "https://t.me/jin10light/242226",
-          "title": "恒指持续走强涨超1%，药明康德( 02359.HK )、药明生物( 02269.HK )涨超9%领涨成分股。",
-          "body": "",
-          "tags": [],
-          "ts": 1793770779000,
-          "time": "13:39:39",
-          "receivedAt": 1793785218531,
-          "receivedTime": true
-        },
-        {
-          "id": "242225",
-          "url": "https://t.me/jin10light/242225",
-          "title": "科创50指数涨超4%。",
-          "body": "",
-          "tags": [],
-          "ts": 1793770596000,
-          "time": "13:36:36",
-          "receivedAt": 1793785218531,
-          "receivedTime": true
-        },
-        {
-          "id": "242224",
-          "url": "https://t.me/jin10light/242224",
-          "title": "港股创新药概念午后强势拉升，药明生物( 02269.HK )、药明康德( 02359.HK )涨超9%，百济神州( 06160.HK )涨超7%，石药集团( 01093.HK )、康方生物( 09926.HK )等跟涨。",
-          "body": "",
-          "tags": [],
-          "ts": 1793770537000,
-          "time": "13:35:37",
           "receivedAt": 1793785218531,
           "receivedTime": true
         }
