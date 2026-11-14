@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-11-14T15:24:24.227Z",
+  "updatedAt": "2026-11-14T19:59:05.264Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7797",
+          "url": "https://t.me/BWEtradfi/7797",
+          "title": "*Duffy：在转向更新的承包商之前，我们只能“继续依赖L3Harris”",
+          "body": "*DUFFY: UNTIL WE MOVE TO NEWER CONTRACTORS, WE ARE 'STUCK WITH L3HARRIS' $LHX 🕒 00:19:54 · 🌐 eqn.news/tradfi/14878",
+          "tags": [],
+          "ts": 1794673199000,
+          "time": "00:19:59",
+          "receivedAt": 1794686332950,
+          "receivedTime": true
+        },
         {
           "id": "7796",
           "url": "https://t.me/BWEtradfi/7796",
@@ -1766,17 +1777,6 @@
           "time": "04:01:03",
           "receivedAt": 1793395735809,
           "receivedTime": true
-        },
-        {
-          "id": "7637",
-          "url": "https://t.me/BWEtradfi/7637",
-          "title": "*FED'S LOGAN: 'UNACCEPTABLE' THAT INFLATION IS NOT HEADED BACK TO FED'S 2% TARGET",
-          "body": "*LOGAN: HIGHER MARKET RATES ARE MESSAGE FED HAS MORE WORK TO DO *LOGAN: FED SHOULD HIKE AT LEAST TWO MORE TIMES, PAUSE TO ASSESS https://eqn.news/tradfi/9760",
-          "tags": [],
-          "ts": 1793381444000,
-          "time": "01:30:44",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1784,6 +1784,17 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "243439",
+          "url": "https://t.me/jin10light/243439",
+          "title": "11月15日讯，截至发稿，要求英伟达董事会在独立调查期间恢复黄仁勋职务的“Stand with Jensen”请愿活动已获超10万人签名，特斯拉CEO马斯克等行业人士参与。",
+          "body": "",
+          "tags": [],
+          "ts": 1794675647000,
+          "time": "01:00:47",
+          "receivedAt": 1794686333383,
+          "receivedTime": true
+        },
         {
           "id": "243438",
           "url": "https://t.me/jin10light/243438",
@@ -14979,17 +14990,6 @@
           "time": "13:58:37",
           "receivedAt": 1793785218298,
           "receivedTime": true
-        },
-        {
-          "id": "242239",
-          "url": "https://t.me/jin10light/242239",
-          "title": "沪金主力合约日内涨超2.00%，现报863.34元/克。",
-          "body": "",
-          "tags": [],
-          "ts": 1793771800000,
-          "time": "13:56:40",
-          "receivedAt": 1793785218298,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -15647,7 +15647,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
