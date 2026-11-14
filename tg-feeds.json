@@ -1,11 +1,22 @@
 {
-  "updatedAt": "2026-11-14T19:59:05.264Z",
+  "updatedAt": "2026-11-14T23:43:23.264Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7798",
+          "url": "https://t.me/BWEtradfi/7798",
+          "title": "*白宫法律顾问不愿承诺遵守传票：“视情况而定”",
+          "body": "*WHITE HOUSE COUNSEL WON'T COMMIT TO COMPLYING WITH SUBPOENAS: 'IT DEPENDS' 🕒 07:04:59 · 🌐 eqn.news/tradfi/14938",
+          "tags": [],
+          "ts": 1794697502000,
+          "time": "07:05:02",
+          "receivedAt": 1794699789787,
+          "receivedTime": true
+        },
         {
           "id": "7797",
           "url": "https://t.me/BWEtradfi/7797",
@@ -1656,127 +1667,6 @@
           "time": "10:01:01",
           "receivedAt": 1793587725956,
           "receivedTime": true
-        },
-        {
-          "id": "7648",
-          "url": "https://t.me/BWEtradfi/7648",
-          "title": "*TRUMP PLANS TO RESUME STRIKES ON IRAN DAY AFTER MIDTERM: MS NOW",
-          "body": "https://eqn.news/tradfi/9826",
-          "tags": [],
-          "ts": 1793395537000,
-          "time": "05:25:37",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
-        },
-        {
-          "id": "7647",
-          "url": "https://t.me/BWEtradfi/7647",
-          "title": "*ALPHABET'S GOOGLE IN TALKS WITH DOD FOR WORK ON GOLDEN DOME",
-          "body": "$GOOGL https://eqn.news/tradfi/9825",
-          "tags": [],
-          "ts": 1793394956000,
-          "time": "05:15:56",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
-        },
-        {
-          "id": "7646",
-          "url": "https://t.me/BWEtradfi/7646",
-          "title": "*KENVUE KVUE TO BE REMOVED FROM S&P 500",
-          "body": "$KVUE https://eqn.news/tradfi/9824",
-          "tags": [],
-          "ts": 1793394943000,
-          "time": "05:15:43",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
-        },
-        {
-          "id": "7645",
-          "url": "https://t.me/BWEtradfi/7645",
-          "title": "*OKTA OKTA TO BE ADDED TO S&P 500",
-          "body": "$OKTA https://eqn.news/tradfi/9823",
-          "tags": [],
-          "ts": 1793394937000,
-          "time": "05:15:37",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
-        },
-        {
-          "id": "7644",
-          "url": "https://t.me/BWEtradfi/7644",
-          "title": "*NORTH KOREA SAYS INTERNATIONAL SANCTIONS DO NOT WORK AGAINST IT: KCNA",
-          "body": "https://eqn.news/tradfi/9822",
-          "tags": [],
-          "ts": 1793394858000,
-          "time": "05:14:18",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
-        },
-        {
-          "id": "7643",
-          "url": "https://t.me/BWEtradfi/7643",
-          "title": "*META OUTLOOK TO NEGATIVE BY S&P",
-          "body": "*META'S OUTLOOK REFLECTS UNCERTAINTY AROUND ELEVATED CAPEX: S&P *S&P ON META: WE EXPECT META WILL SOLELY USE DEBT TO COVER ITS EXPECTED FOCF DEFICIT IN 2028 $META https://eqn.news/tradfi/9821",
-          "tags": [],
-          "ts": 1793394417000,
-          "time": "05:06:57",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
-        },
-        {
-          "id": "7642",
-          "url": "https://t.me/BWEtradfi/7642",
-          "title": "*INTEL SHARES PLUNGE 29% FOR WORST DAY IN AT LEAST FOUR DECADES",
-          "body": "$INTC https://eqn.news/tradfi/9815",
-          "tags": [],
-          "ts": 1793390819000,
-          "time": "04:06:59",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
-        },
-        {
-          "id": "7641",
-          "url": "https://t.me/BWEtradfi/7641",
-          "title": "*TRUMP ON IRAN: THERE ARE TALKS",
-          "body": "https://eqn.news/tradfi/9813",
-          "tags": [],
-          "ts": 1793390503000,
-          "time": "04:01:43",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
-        },
-        {
-          "id": "7640",
-          "url": "https://t.me/BWEtradfi/7640",
-          "title": "*TRUMP: BINANCE SAYS THEY HAVE IT UNDER CONTROL",
-          "body": "*TRUMP: ALWAYS FELT IT WAS A LITTLE BIT DANGEROUS https://eqn.news/tradfi/9811",
-          "tags": [],
-          "ts": 1793390500000,
-          "time": "04:01:40",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
-        },
-        {
-          "id": "7639",
-          "url": "https://t.me/BWEtradfi/7639",
-          "title": "*TRUMP: LOOKING AT BINANCE HACK",
-          "body": "https://eqn.news/tradfi/9808",
-          "tags": [],
-          "ts": 1793390466000,
-          "time": "04:01:06",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
-        },
-        {
-          "id": "7638",
-          "url": "https://t.me/BWEtradfi/7638",
-          "title": "*TRUMP: 'I THINK WE HAVE A SHOT' AT GOP DOING WELL IN MIDTERMS",
-          "body": "https://eqn.news/tradfi/9807",
-          "tags": [],
-          "ts": 1793390463000,
-          "time": "04:01:03",
-          "receivedAt": 1793395735809,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1784,6 +1674,28 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "243441",
+          "url": "https://t.me/jin10light/243441",
+          "title": "美“星舰”飞船首次被发射塔机械臂“捕获”回收",
+          "body": "11月15日讯，美国太空探索技术公司重型运载火箭“星舰”的第二级飞船14日返回地球，并由发射塔机械臂“捕获”回收，完成第15次试飞。 这是“星舰”飞船首次由发射塔机械臂实施“捕获”回收。 “星舰”于美国中部时间13日下午从得克萨斯州发射升空，实施此次试飞。 此次试飞原计划尝试助推器和飞船均返回发射场回收。 但火箭一二级分离后，“超级重型”助推器未能按原计划返回发射场，而是在墨西哥湾海域受控溅落。 整个试飞任务持续约22.5小时。",
+          "tags": [],
+          "ts": 1794691967000,
+          "time": "05:32:47",
+          "receivedAt": 1794699790265,
+          "receivedTime": true
+        },
+        {
+          "id": "243440",
+          "url": "https://t.me/jin10light/243440",
+          "title": "SpaceX(SPCX.O)星舰在完成22小时轨道飞行后，首次返回美国得克萨斯州的发射塔。",
+          "body": "这是火箭可重复使用技术取得的一项重要里程碑。",
+          "tags": [],
+          "ts": 1794691367000,
+          "time": "05:22:47",
+          "receivedAt": 1794699790265,
+          "receivedTime": true
+        },
         {
           "id": "243439",
           "url": "https://t.me/jin10light/243439",
@@ -14966,28 +14878,6 @@
           "tags": [],
           "ts": 1793772098000,
           "time": "14:01:38",
-          "receivedAt": 1793785218298,
-          "receivedTime": true
-        },
-        {
-          "id": "242241",
-          "url": "https://t.me/jin10light/242241",
-          "title": "深证成指午后涨超3%，创业板指涨超4.5%重回2500点，科创50指数现涨超7%。",
-          "body": "",
-          "tags": [],
-          "ts": 1793771976000,
-          "time": "13:59:36",
-          "receivedAt": 1793785218298,
-          "receivedTime": true
-        },
-        {
-          "id": "242240",
-          "url": "https://t.me/jin10light/242240",
-          "title": "恒生科技指数午后涨幅扩大至1%。",
-          "body": "",
-          "tags": [],
-          "ts": 1793771917000,
-          "time": "13:58:37",
           "receivedAt": 1793785218298,
           "receivedTime": true
         }
