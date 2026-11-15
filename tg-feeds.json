@@ -1,11 +1,33 @@
 {
-  "updatedAt": "2026-11-14T23:43:23.264Z",
+  "updatedAt": "2026-11-15T03:05:58.398Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
     "bwe": {
       "channel": "BWEtradfi",
       "items": [
+        {
+          "id": "7800",
+          "url": "https://t.me/BWEtradfi/7800",
+          "title": "*敦促英伟达董事会恢复黄仁勋职务的请愿书周六签名人数突破10万",
+          "body": "*签名者包括马斯克、Epic Games首席执行官Tim Sweeney以及现任员工 *英伟达董事会仍在挑选猎头公司以接替黄仁勋 *NVIDIA PETITION URGING BOARD TO REINSTATE JENSEN HUANG PASSED 100,000 SIGNATURES SATURDAY *SIGNERS INCLUDE ELON MUSK, EPIC GAMES CEO TIM SWEENEY, AND CURRENT EMPLOYEES *NVIDIA BOARD IS STILL CHOOSING A SEARCH FIRM TO REPLACE HUANG $N...",
+          "tags": [],
+          "ts": 1794706004000,
+          "time": "09:26:44",
+          "receivedAt": 1794711944307,
+          "receivedTime": true
+        },
+        {
+          "id": "7799",
+          "url": "https://t.me/BWEtradfi/7799",
+          "title": "*特朗普：股市在选举后立即损失了3万亿美元市值",
+          "body": "*特朗普：全世界的投资者都不愿看到选举日发生的一切 *TRUMP: STOCK MARKET LOST $3T IN VALUE IMMEDIATELY AFTER ELECTION *TRUMP: INVESTORS THROUGHOUT THE WORLD HATED SEEING WHAT TOOK PLACE ON ELECTION DAY 🕒 08:50:42 · 🌐 eqn.news/tradfi/14971",
+          "tags": [],
+          "ts": 1794703845000,
+          "time": "08:50:45",
+          "receivedAt": 1794711944307,
+          "receivedTime": true
+        },
         {
           "id": "7798",
           "url": "https://t.me/BWEtradfi/7798",
@@ -1669,11 +1691,33 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     },
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "243443",
+          "url": "https://t.me/jin10light/243443",
+          "title": "整理：昨日今晨重要新闻汇总（11月15日）",
+          "body": "国内新é 1.高盛：将中国H股评级上调至“超配”。 2. 51个一类新药进入新版国家医保药品目录。 3. 中美举行中美经贸磋商机制项下贸易理事会首次会议。 4. 吴清：进一步深化市场稳定长效机制研究；研究评估量化、减持等制度的优化和公平合理的监管安排。 国际新é 1.微软称消费产品服务已完全恢复。 2. 泽连斯基：美国建议乌克兰割让领土以换取加入北约。 3. 美交通部长：L3Harris技术公司或为美国航管系统停摆负责。 4. 英国央行首席经济学家：除12月加息以外，预计2027年还需进一步加息。 5. 印尼总统下令提高国家在矿业收益中的分成比例：至少...",
+          "tags": [],
+          "ts": 1794703309000,
+          "time": "08:41:49",
+          "receivedAt": 1794711946206,
+          "receivedTime": true
+        },
+        {
+          "id": "243442",
+          "url": "https://t.me/jin10light/243442",
+          "title": "整理：中东局势跟踪（11月15日）",
+          "body": "美伊冲突ï 1.伊朗外交部发言人：美国编造说辞试图逃避对伊发动战争的责任。 2. 伊朗外交部发言人指责美国公然以封锁手段实施饥饿威胁政策。 3. 伊朗国家电视台发布视频，警告该国“霍拉姆沙赫尔”弹道导弹的改进型号可覆盖欧洲军事基地，视频中明确将英国费尔福德皇家空军基地列为潜在打击目标。 也门冲突ï 1.沙特领导的联军：拦截并摧毁也门胡塞武装向利雅得和南部地区发射的两架无人机。 2. 胡塞武装发言人：成功打击了位于拉赫杰省赫尔兹地区的沙特军官巴德尔·哈比的敌军集结地。 此次打击精准命中目标，造成数十人伤亡，并摧毁了大量车辆。 海峡情况ï 1.伊朗称周六两...",
+          "tags": [],
+          "ts": 1794702349000,
+          "time": "08:25:49",
+          "receivedAt": 1794711946206,
+          "receivedTime": true
+        },
         {
           "id": "243441",
           "url": "https://t.me/jin10light/243441",
@@ -14856,28 +14900,6 @@
           "tags": [],
           "ts": 1793772168000,
           "time": "14:02:48",
-          "receivedAt": 1793785218298,
-          "receivedTime": true
-        },
-        {
-          "id": "242243",
-          "url": "https://t.me/jin10light/242243",
-          "title": "现货白银日内涨超3.00%，现报51.30美元/盎司。",
-          "body": "",
-          "tags": [],
-          "ts": 1793772168000,
-          "time": "14:02:48",
-          "receivedAt": 1793785218298,
-          "receivedTime": true
-        },
-        {
-          "id": "242242",
-          "url": "https://t.me/jin10light/242242",
-          "title": "创业板指涨超5%，科创50指数涨超8%。",
-          "body": "",
-          "tags": [],
-          "ts": 1793772098000,
-          "time": "14:01:38",
           "receivedAt": 1793785218298,
           "receivedTime": true
         }
