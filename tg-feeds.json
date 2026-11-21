@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T16:17:13.198Z",
+  "updatedAt": "2026-11-21T21:41:18.861Z",
   "source": "telegram-public-html",
   "retentionDays": 15,
   "channels": {
@@ -997,61 +997,6 @@
           "time": "02:40:50",
           "receivedAt": 1794079345666,
           "receivedTime": true
-        },
-        {
-          "id": "7731",
-          "url": "https://t.me/BWEtradfi/7731",
-          "title": "*Anthropic计划在感恩节前上市：金融时报",
-          "body": "*ANTHROPIC PLANS TO LIST BEFORE THANKSGIVING: FT 🕒 05:02:11 · 🌐 eqn.news/tradfi/12336",
-          "tags": [],
-          "ts": 1793998933000,
-          "time": "05:02:13",
-          "receivedAt": 1794003710213,
-          "receivedTime": true
-        },
-        {
-          "id": "7730",
-          "url": "https://t.me/BWEtradfi/7730",
-          "title": "*Anthropic计划于11月进行首次公开募股，募资800亿至1000亿美元，估值1.25万亿至1.75万亿美元：金融时报",
-          "body": "*ANTHROPIC PLANS NOVEMBER IPO RAISING $80B-$100B AT $1.25T-$1.75T VALUATION: FT 🕒 05:01:21 · 🌐 eqn.news/tradfi/12334",
-          "tags": [],
-          "ts": 1793998884000,
-          "time": "05:01:24",
-          "receivedAt": 1794003710213,
-          "receivedTime": true
-        },
-        {
-          "id": "7729",
-          "url": "https://t.me/BWEtradfi/7729",
-          "title": "*OpenAI完成110亿美元新一轮融资，估值达1.25万亿美元",
-          "body": "*OPENAI CLOSES $11 BILLION OF NEW ROUND AT $1.25 TRILLION VALUE 🕒 04:58:09 · 🌐 eqn.news/tradfi/12329",
-          "tags": [],
-          "ts": 1793998691000,
-          "time": "04:58:11",
-          "receivedAt": 1794003710213,
-          "receivedTime": true
-        },
-        {
-          "id": "7728",
-          "url": "https://t.me/BWEtradfi/7728",
-          "title": "*马斯克预计SpaceX第四季度营收较第三季度增长“大约”70%，比华尔街预期高出20亿美元",
-          "body": "*MUSK SEES SPACEX 4Q REVENUE UP 'SOMETHING LIKE' 70% FROM 3Q, $2B OVER WALL ST ESTIMATES $SPCX 🕒 02:34:09 · 🌐 eqn.news/tradfi/12305",
-          "tags": [],
-          "ts": 1793990052000,
-          "time": "02:34:12",
-          "receivedAt": 1794003710213,
-          "receivedTime": true
-        },
-        {
-          "id": "7727",
-          "url": "https://t.me/BWEtradfi/7727",
-          "title": "*白宫考虑颁布行政令，将部分非营利组织列为恐怖组织：华尔街日报",
-          "body": "*WHITE HOUSE WEIGHS EXECUTIVE ORDER ATTACHING TERRORIST LABEL TO SOME NONPROFITS: WSJ 🕒 02:17:55 · 🌐 eqn.news/tradfi/12299",
-          "tags": [],
-          "ts": 1793989080000,
-          "time": "02:18:00",
-          "receivedAt": 1794003710213,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -1059,6 +1004,83 @@
     "jin10": {
       "channel": "jin10light",
       "items": [
+        {
+          "id": "244359",
+          "url": "https://t.me/jin10light/244359",
+          "title": "据CBS：美国官员称，伊朗发动新一轮袭击，但美方在该地区的部队和军事资产未遭人员伤亡或损失。",
+          "body": "",
+          "tags": [],
+          "ts": 1795294054000,
+          "time": "04:47:34",
+          "receivedAt": 1795297267438,
+          "receivedTime": true
+        },
+        {
+          "id": "244358",
+          "url": "https://t.me/jin10light/244358",
+          "title": "伊朗伊斯兰革命卫队对巴林美军基地进行打击",
+          "body": "11月22日讯，伊朗方面当地时间21日晚消息称，伊朗伊斯兰革命卫队对位于巴林的两处美军军事基地发动打击。 此外，巴林内政部当天也发布消息称，巴林境内一处民用设施遭遇伊朗袭击。 袭击导致该处设施起火，目前民防部门正在组织救火行动。",
+          "tags": [],
+          "ts": 1795290274000,
+          "time": "03:44:34",
+          "receivedAt": 1795297267438,
+          "receivedTime": true
+        },
+        {
+          "id": "244357",
+          "url": "https://t.me/jin10light/244357",
+          "title": "据伊朗法尔斯通讯社：伊朗革命卫队称袭击了美国在巴林的两个基地。",
+          "body": "",
+          "tags": [],
+          "ts": 1795289795000,
+          "time": "03:36:35",
+          "receivedAt": 1795297267438,
+          "receivedTime": true
+        },
+        {
+          "id": "244356",
+          "url": "https://t.me/jin10light/244356",
+          "title": "据日经新闻：日本考虑缩减导弹和军舰采购。",
+          "body": "",
+          "tags": [],
+          "ts": 1795286794000,
+          "time": "02:46:34",
+          "receivedAt": 1795297267438,
+          "receivedTime": true
+        },
+        {
+          "id": "244355",
+          "url": "https://t.me/jin10light/244355",
+          "title": "丹麦首相弗雷泽里克森：我认为我们应该关闭边境。",
+          "body": "我相信欧洲应该自己决定谁能来到这里。 到2050年非洲人口几乎将翻倍，欧洲面临的压力将持续居高不下。 ⚡️ 免费助力 ⚡️ | 注册币安 | USDT消费(支付宝/微信) | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [],
+          "ts": 1795284935000,
+          "time": "02:15:35",
+          "receivedAt": 1795297267438,
+          "receivedTime": true
+        },
+        {
+          "id": "244354",
+          "url": "https://t.me/jin10light/244354",
+          "title": "据英国金融时报：亚马逊即将以75亿美元收购AI初创公司Decart，交易最早可能于下周初达成。",
+          "body": "⚡️ 免费助力 ⚡️ | 注册币安 | USDT消费(支付宝/微信) | Claude/GPT/Grok/GLM 全球顶级AI中转站",
+          "tags": [],
+          "ts": 1795281994000,
+          "time": "01:26:34",
+          "receivedAt": 1795297267438,
+          "receivedTime": true
+        },
+        {
+          "id": "244353",
+          "url": "https://t.me/jin10light/244353",
+          "title": "加州总检察长：对英伟达的调查涵盖潜在刑法问题。",
+          "body": "",
+          "tags": [],
+          "ts": 1795281277000,
+          "time": "01:14:37",
+          "receivedAt": 1795297267438,
+          "receivedTime": true
+        },
         {
           "id": "244352",
           "url": "https://t.me/jin10light/244352",
@@ -14202,83 +14224,6 @@
           "time": "04:41:38",
           "receivedAt": 1794440607531,
           "receivedTime": true
-        },
-        {
-          "id": "243157",
-          "url": "https://t.me/jin10light/243157",
-          "title": "美媒：万斯寻求与雷扎伊面对面会谈 已获特朗普相关授权",
-          "body": "11月12日讯，据华尔街日报援引美国及中东官员报道，特朗普对副总统万斯重启对伊谈判持开放态度，并授权其负责磋商。 万斯正考虑与伊朗最高国家安全委员会秘书雷扎伊、前革命卫队司令雷扎伊直接会谈，尚未确定日期，多哈被视为潜在会谈地点。 美国官员强调，关于派遣万斯与伊朗官员直接会面的讨论仍处于初步阶段。 万斯近期在对伊外交中发挥的作用已超过特使威特科夫和库什纳。 报道指出，主导谈判对万斯而言具有政治风险：若谈判失败，他可能成为外交挫折的代表；若成功结束战争，则可能获得政治资本。 特朗普此前曾私下质疑万斯参与达成的6月谅解备忘录，认为该协议给了伊朗重整力量的时间...",
-          "tags": [],
-          "ts": 1794426098000,
-          "time": "03:41:38",
-          "receivedAt": 1794440607531,
-          "receivedTime": true
-        },
-        {
-          "id": "243156",
-          "url": "https://t.me/jin10light/243156",
-          "title": "据华尔街日报：美国和中东官员表示，近几天，特朗普已告知高级顾问及有关方面，他对万斯重启与伊朗的谈判持开放态度，并已授权万斯负责谈判。",
-          "body": "美国官员强调，关于派遣万斯与伊朗官员直接会面的讨论仍处于初步阶段。",
-          "tags": [],
-          "ts": 1794425563000,
-          "time": "03:32:43",
-          "receivedAt": 1794440607531,
-          "receivedTime": true
-        },
-        {
-          "id": "243155",
-          "url": "https://t.me/jin10light/243155",
-          "title": "据华尔街日报：美国副总统万斯考虑与伊朗强硬派直接会谈以推动结束战争。",
-          "body": "",
-          "tags": [],
-          "ts": 1794425438000,
-          "time": "03:30:38",
-          "receivedAt": 1794440607531,
-          "receivedTime": true
-        },
-        {
-          "id": "243154",
-          "url": "https://t.me/jin10light/243154",
-          "title": "Coreweave(CRWV.O)股价涨超25%，创2025年6月以来最大单日涨幅。",
-          "body": "",
-          "tags": [],
-          "ts": 1794415898000,
-          "time": "00:51:38",
-          "receivedAt": 1794419452181,
-          "receivedTime": true
-        },
-        {
-          "id": "243153",
-          "url": "https://t.me/jin10light/243153",
-          "title": "费城半导体指数日内涨7%",
-          "body": "11月12日讯，费城半导体指数日内涨幅扩大至7%。 美光(MU.O)涨超13%，英特尔(INTC.O)涨超9%，AMD(AMD.O)涨超7%，博通(AVGO.O)涨超6%，英伟达(NVDA.O)涨超4%，阿斯麦(ASML.O)涨超3%，高通(QCOM.O)涨超2%。",
-          "tags": [],
-          "ts": 1794415719000,
-          "time": "00:48:39",
-          "receivedAt": 1794419452181,
-          "receivedTime": true
-        },
-        {
-          "id": "243152",
-          "url": "https://t.me/jin10light/243152",
-          "title": "今日重点关注的财经数据与事件：2026年11月12日 周四",
-          "body": "① 待定 国内成品油开启新一轮调价窗口 ② 15:00 英国第三季度GDP年率初值 ③ 15:00 英国9月三个月GDP月率 ④ 15:00 英国9月制造业产出月率 ⑤ 15:00 英国9月季调后商品贸易帐 ⑥ 15:00 英国9月工业产出月率 ⑦ 21:30 美国至11月7日当周初请失业金人数 ⑧ 21:30 美联储哈马克发表讲话 ⑨ 23:00 美国10月成屋销售总数年化 ⑩ 23:00 美联储理事巴尔发表讲话 ⑪ 次日00:15 美联储古尔斯比发表讲话 ⑫ 次日01:00 美国至11月6日当周EIA原油库存 ⑬ 次日01:00 美国至11月6日当...",
-          "tags": [],
-          "ts": 1794412901000,
-          "time": "00:01:41",
-          "receivedAt": 1794419452181,
-          "receivedTime": true
-        },
-        {
-          "id": "243151",
-          "url": "https://t.me/jin10light/243151",
-          "title": "威廉姆斯去留牵动美联储人事安排 沃什或获提前任命继任者机会",
-          "body": "11月11日讯，美联储任职时间最长的官员即将退休，引发美联储内部对地区联储主席任期限制规则的讨论。 据知情人士透露，美联储官员正在研究，纽约联储主席威廉姆斯究竟可以任职至2028年6月，还是必须根据内部规定于2027年6月、年满65岁时离任。 美联储观察人士以及威廉姆斯本人此前均认为，相关规则允许他继续任职约一年半。 如果威廉姆斯明年离任，美联储主席沃什将有机会提前一年影响这一重要地区联储负责人的任命。 威廉姆斯上月曾表示，预计自己将任职至2028年6月。 美联储华盛顿总部理事会发言人拒绝评论美联储领导层认为威廉姆斯应何时离任。 负责任命纽约联储主席的...",
-          "tags": [],
-          "ts": 1794412602000,
-          "time": "23:56:42",
-          "receivedAt": 1794419452181,
-          "receivedTime": true
         }
       ],
       "archiveComplete": false
@@ -14958,7 +14903,7 @@
           "receivedTime": true
         }
       ],
-      "archiveComplete": false
+      "archiveComplete": true
     }
   }
 }
